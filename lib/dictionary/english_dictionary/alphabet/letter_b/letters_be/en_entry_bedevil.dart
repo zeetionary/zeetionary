@@ -168,12 +168,18 @@ class EnglishEntrybedevil extends StatelessWidget {
 ١. (کردار) درووستکردنی کێشەیەکی زۆر بۆ کەسێک بەدرێژایی ماوەیەکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This injury bedevilled him throughout his career."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم برینە بۆ تەواوی ژیانی گیرۆدەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This injury bedevilled him throughout his career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم برینە بۆ تەواوی ژیانی گیرۆدەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

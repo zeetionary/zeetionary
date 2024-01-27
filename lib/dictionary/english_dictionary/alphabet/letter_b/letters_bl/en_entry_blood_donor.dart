@@ -168,12 +168,18 @@ class EnglishEntryblooddonor extends StatelessWidget {
 ١. (ناو) کەسێک کە خوێن دەبەخشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She became a regular blood donor after her brother's surgery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای نەشتەرگەری براکەی بوو بە خوێن‌بەخشێکی بەردەوام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She became a regular blood donor after her brother's surgery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای نەشتەرگەری براکەی بوو بە خوێن‌بەخشێکی بەردەوام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

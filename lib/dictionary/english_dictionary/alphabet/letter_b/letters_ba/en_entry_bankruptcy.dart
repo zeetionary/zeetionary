@@ -172,12 +172,18 @@ class EnglishEntrybankruptcy extends StatelessWidget {
 ١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There could be further bankruptcies among small farmers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There could be further bankruptcies among small farmers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

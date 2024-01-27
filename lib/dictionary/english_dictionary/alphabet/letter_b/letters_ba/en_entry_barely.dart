@@ -168,12 +168,18 @@ class EnglishEntrybarely extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە بە ئاستێکی کەم ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He could barely read and write."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەزەحمەت دەیتوانی نخوێنێتەوە و بنووسێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He could barely read and write."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزەحمەت دەیتوانی نخوێنێتەوە و بنووسێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +199,18 @@ class EnglishEntrybarely extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەکی زۆر کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She barely acknowledged his presence."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "بەئاستەنگ گرنگی بە ئامادەیی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She barely acknowledged his presence."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەئاستەنگ گرنگی بە ئامادەیی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,11 +230,17 @@ class EnglishEntrybarely extends StatelessWidget {
 ٣. (ھاوەڵکار) زیاتر نا لە ڕێژەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Barely 50% of the population voted."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "تەنھا ٥٠٪ی دانیشتووان دەنگیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Barely 50% of the population voted."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text: "تەنھا ٥٠٪ی دانیشتووان دەنگیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +260,18 @@ class EnglishEntrybarely extends StatelessWidget {
 ٤. (ھاوەڵکار) تەنھا پێش ماوەیەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had barely started speaking when he interrupted me."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا کەمێک بوو قسەم کردبوو کە پێی بڕیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had barely started speaking when he interrupted me."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا کەمێک بوو قسەم کردبوو کە پێی بڕیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

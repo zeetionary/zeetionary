@@ -168,12 +168,18 @@ class EnglishEntrybash extends StatelessWidget {
 ١. (کردار) لێدانێکی سەخت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stood up, bashing his head on the ceiling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستایە سەرپێ و سەری کێشای بە سەقفەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stood up, bashing his head on the ceiling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستایە سەرپێ و سەری کێشای بە سەقفەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybash extends StatelessWidget {
 ٢. (کردار) ڕەخنەگرتنی توند"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bashing politicians is normal practice in the press."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەخنەی توند لە سیاسییەکان شتێکی ڕۆژانەیە لە میدیادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bashing politicians is normal practice in the press."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەخنەی توند لە سیاسییەکان شتێکی ڕۆژانەیە لە میدیادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,10 +230,17 @@ class EnglishEntrybash extends StatelessWidget {
 ٣. (ناو) لێدانێکی توند"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He gave Mike a bash on the nose."),
-                              const ExampleSentenceKurdish(
-                                  text: "مشتێکی کێشا بە لووتی مایکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gave Mike a bash on the nose."),
+                                    ExampleSentenceKurdish(
+                                        text: "مشتێکی کێشا بە لووتی مایکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +260,18 @@ class EnglishEntrybash extends StatelessWidget {
 ٤. (ناو) ئاھەنگێکی گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She gave a big 40th birthday bash for her husband."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاھەنگێکی گەورەی گێڕا بۆ ٤٠ھەمین ساڵیادی لەدایکبوونی ھاوژینەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She gave a big 40th birthday bash for her husband."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاھەنگێکی گەورەی گێڕا بۆ ٤٠ھەمین ساڵیادی لەدایکبوونی ھاوژینەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

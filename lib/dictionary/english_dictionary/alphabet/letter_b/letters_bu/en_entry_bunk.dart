@@ -213,12 +213,18 @@ class EnglishEntrybunk extends StatelessWidget {
 ١. (ناو) جێگەی نووستن کە بە دیوارێکەوە لکاوە، بۆ نموونە لەسەر شەمەندەفەر، یان دوو نهۆمی بۆ منداڵان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I slept in the bottom bunk of a set of bunk beds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونهۆمییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I slept in the bottom bunk of a set of bunk beds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونهۆمییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunk", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrybunk extends StatelessWidget {
                               text: "٢. (ناو) بیرۆکە و قسەی پڕووپووچ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most economists think his theories are sheer bunk."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر ئابووریناس وابیردەکەنەوە قسەکانی هەڵیت‌وپەڵیت بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most economists think his theories are sheer bunk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ئابووریناس وابیردەکەنەوە قسەکانی هەڵیت‌وپەڵیت بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -218,12 +218,18 @@ class EnglishEntryburden extends StatelessWidget {
 ١. (ناو) ئەرک و بەرپرسیاریەتی کە دەبێتەهۆی نیگەرانی، گرفت، و کاری قورس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The main burden of caring for old people falls on the state."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The main burden of caring for old people falls on the state."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بارگرانیی سەرەکیی چاودێری کەسانی بەتەمەن دەکەوێتە سەر حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burden", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntryburden extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't want to become a burden to my children when I'm old."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێت ببم بە بارگرانی بۆ منداڵەکانم کە پیر دەبم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't want to become a burden to my children when I'm old."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەوێت ببم بە بارگرانی بۆ منداڵەکانم کە پیر دەبم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -268,7 +280,7 @@ class EnglishEntryburden extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We need to avoid putting a burden on taxpayers with this project."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە."),
                                       const CustomSizedBoxForTTS(),
@@ -292,7 +304,7 @@ class EnglishEntryburden extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Buying a house often places a large financial burden on young couples."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان."),
                                       const CustomSizedBoxForTTS(),
@@ -319,12 +331,18 @@ class EnglishEntryburden extends StatelessWidget {
                               text: "٢. (ناو) بارێکی قورس کە هەڵیدەگریت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The little donkey struggled under its heavy burden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێدرێژە بچووکەکە دەیناڵاند لەژێر بارە قورسەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The little donkey struggled under its heavy burden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێدرێژە بچووکەکە دەیناڵاند لەژێر بارە قورسەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -343,12 +361,18 @@ class EnglishEntryburden extends StatelessWidget {
                               text: "٣. (کردار) پێدانی بارگرانییەک بە کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't want to burden you with my worries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێت بە نیگەرانییەکانم بارگرانیت بۆ درووست بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't want to burden you with my worries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەوێت بە نیگەرانییەکانم بارگرانیت بۆ درووست بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,12 +391,18 @@ class EnglishEntryburden extends StatelessWidget {
                               text: "٤. (کردار) هەڵگرتنی شتێکی قورس"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She got off the bus, burdened with two heavy suitcases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاسەکە دابەزی و دوو جانتای قورسی بەدەستەوەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She got off the bus, burdened with two heavy suitcases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پاسەکە دابەزی و دوو جانتای قورسی بەدەستەوەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

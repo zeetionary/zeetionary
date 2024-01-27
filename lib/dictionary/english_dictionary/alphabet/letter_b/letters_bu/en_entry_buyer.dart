@@ -213,11 +213,18 @@ class EnglishEntrybuyer extends StatelessWidget {
 ١. (ناو) کڕیار؛ کەسێک کە شتێک دەکڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Have you found a buyer for your house?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کڕیارێکت بۆ خانووەکەت دۆزیوەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Have you found a buyer for your house?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڕیارێکت بۆ خانووەکەت دۆزیوەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buyer", follow LX strictly
                               Column(
                                 children: [
@@ -237,10 +244,17 @@ class EnglishEntrybuyer extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە ئەو کاڵایانە هەڵدەبژێرێت کە لە فرۆشگایەکی گەورەدا دەفرۆشرێن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was a fashion buyer for a store."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرپرسی کڕین بوو بۆ کۆگایەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was a fashion buyer for a store."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەرپرسی کڕین بوو بۆ کۆگایەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

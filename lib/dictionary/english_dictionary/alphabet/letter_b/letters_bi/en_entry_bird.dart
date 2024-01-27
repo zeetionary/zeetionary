@@ -171,10 +171,18 @@ class EnglishEntrybird extends StatelessWidget {
 ١. (ناو) گیانلەبەرێک کە بە پەڕ داپۆشراوە و دوو باڵ و قاچی ھەیە. زۆرینەی باڵندەکان دەتوانن بفڕن."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The birds migrate in September."),
-                              const ExampleSentenceKurdish(
-                                  text: "باڵندەکان لە ئەیلوولدا کۆچ دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The birds migrate in September."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵندەکان لە ئەیلوولدا کۆچ دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +202,16 @@ class EnglishEntrybird extends StatelessWidget {
 ٢. (ناو) کەسێک کە خاسیەتێکی دیاریکراوی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's a tough old bird."),
-                              const ExampleSentenceKurdish(
-                                  text: "بوونەوەرێکی پیری سەرسەختە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's a tough old bird."),
+                                    ExampleSentenceKurdish(
+                                        text: "بوونەوەرێکی پیری سەرسەختە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,10 +231,16 @@ class EnglishEntrybird extends StatelessWidget {
 ٣. (ناو) ژنێکی گەنج"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Is that John's new bird?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە یارە تازەکەی جۆنە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Is that John's new bird?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوە یارە تازەکەی جۆنە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +260,18 @@ class EnglishEntrybird extends StatelessWidget {
 ٤. (کردار) ڕۆشتن بۆ سەیری باڵندە لە ژینگەی سرووشتی خۆیاندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has birded the whole of North America."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەواوی ئەمریکای باکووردا چووە بۆ سەیری چۆلەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has birded the whole of North America."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەواوی ئەمریکای باکووردا چووە بۆ سەیری چۆلەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -176,11 +176,17 @@ class EnglishEntrybedroom extends StatelessWidget {
 ١. (ناو) ژووری خەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is the master bedroom (= the main bedroom of the house)."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمە ژووری سەرەکی خەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is the master bedroom (= the main bedroom of the house)."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەمە ژووری سەرەکی خەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,10 +204,17 @@ class EnglishEntrybedroom extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I went into the bedroom and cried."),
-                              const ExampleSentenceKurdish(
-                                  text: "چوومە ژووری خەو و گریام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I went into the bedroom and cried."),
+                                    ExampleSentenceKurdish(
+                                        text: "چوومە ژووری خەو و گریام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +232,18 @@ class EnglishEntrybedroom extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the children had separate bedrooms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو منداڵەکان ژووری خەوی خۆیان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the children had separate bedrooms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو منداڵەکان ژووری خەوی خۆیان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +263,18 @@ class EnglishEntrybedroom extends StatelessWidget {
 ٢. (ناو) ھەبوونی ژمارەیەکی باسکراو لە ژووری خەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The larger houses are four-bedroom houses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانووە گەورەکان خانووی چوار ژووری خەون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The larger houses are four-bedroom houses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووە گەورەکان خانووی چوار ژووری خەون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +294,18 @@ class EnglishEntrybedroom extends StatelessWidget {
 ٣. (ھاوەڵناو) پەیوەندیدار بە سێکس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has bedroom eyes (= looks as if he is interested in sex)."),
-                              const ExampleSentenceKurdish(
-                                  text: "وادەردەکەوێت مەیلی سێکسی ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has bedroom eyes (= looks as if he is interested in sex)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادەردەکەوێت مەیلی سێکسی ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +323,18 @@ class EnglishEntrybedroom extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My dad was embarrassed by the bedroom scenes in the movie."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکم شەرمەزار بوو بە دیمەنە ورووژێنەرەکانی فیلمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My dad was embarrassed by the bedroom scenes in the movie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکم شەرمەزار بوو بە دیمەنە ورووژێنەرەکانی فیلمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

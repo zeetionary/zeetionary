@@ -169,10 +169,18 @@ class EnglishEntryboldly extends StatelessWidget {
 ١. (ھاوەڵکار) کردن یان وتنی شتێک بەبێ ترس و بە ئازایی و متمانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He stepped boldly forward to speak."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە بوێرییەوە چووە پێشەوە بۆ قسەکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stepped boldly forward to speak."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە بوێرییەوە چووە پێشەوە بۆ قسەکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +200,18 @@ class EnglishEntryboldly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بە خاسیەت یان ڕواڵەتێکەوە کە بە ئاسانی دەبینرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The advertisement boldly displayed the product's unique features."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرھەمەکەی دەخستەڕوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The advertisement boldly displayed the product's unique features."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕیکلامەکە بە ڕوونی تایبەتمەندییە ناوازەکانی بەرھەمەکەی دەخستەڕوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

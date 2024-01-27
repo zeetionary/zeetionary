@@ -172,12 +172,18 @@ class EnglishEntrybeacon extends StatelessWidget {
 ١. (ناو) لایتێک کە لە شوێنێک دادەنرێت بۆ ڕێنوێنیکردنی کەشتی، شەمەندەفەر، ھتد و ئاگادارکردنیان لە مەترسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The beacon flashed a warning signal, alerting the sailors to the approaching storm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چرای ڕێنوێنییەکە ئاماژەیەکی ئاگادارکەرەوەی نارد بۆ ئاگادارکردنەی مەلەکەرەکان لە زریانە نزیکەوەبووەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The beacon flashed a warning signal, alerting the sailors to the approaching storm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چرای ڕێنوێنییەکە ئاماژەیەکی ئاگادارکەرەوەی نارد بۆ ئاگادارکردنەی مەلەکەرەکان لە زریانە نزیکەوەبووەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybeacon extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a beacon of hope for the younger generation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراو) ئەو ھێمای ھیوا بوو بۆ نەوەی نوێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a beacon of hope for the younger generation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراو) ئەو ھێمای ھیوا بوو بۆ نەوەی نوێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybeacon extends StatelessWidget {
 ٢. (ناو) وێستگەیەکی ڕادیۆیی کە یارمەتی کەشتی و فڕۆکە دەدات شوێنیان بدۆزنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plane was guided in by radio beacon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەکە ڕێنوێنی کرایە فڕۆکەخانەکە لەلایەن وێستگەی ڕادیۆییەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plane was guided in by radio beacon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە ڕێنوێنی کرایە فڕۆکەخانەکە لەلایەن وێستگەی ڕادیۆییەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

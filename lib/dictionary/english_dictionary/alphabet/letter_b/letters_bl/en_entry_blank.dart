@@ -273,12 +273,18 @@ class EnglishEntryblank extends StatelessWidget {
 ١. (ھاوەڵناو) بەتاڵ، بە بێ ئەوەی ھیچی لەسەر نووسرابیت یان چاپکرابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sign your name in the blank space below."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوت واژۆ بکە لە بۆشاییە بەتاڵەکەی خوارەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sign your name in the blank space below."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوت واژۆ بکە لە بۆشاییە بەتاڵەکەی خوارەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -297,12 +303,18 @@ class EnglishEntryblank extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Write on one side of the paper and leave the other side blank."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر لایەکی پەڕەکە بنووسە و لایەکەی دیکەی بە بەتاڵی جێبھێڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Write on one side of the paper and leave the other side blank."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر لایەکی پەڕەکە بنووسە و لایەکەی دیکەی بە بەتاڵی جێبھێڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -323,10 +335,17 @@ class EnglishEntryblank extends StatelessWidget {
                                   "٢. (ھاوەڵناو) دیوارێک یان شاشەیەک کە ھیچی لەسەر نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Suddenly the screen went blank."),
-                              const ExampleSentenceKurdish(
-                                  text: "شاشەکە لەناکاو ڕەش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Suddenly the screen went blank."),
+                                    ExampleSentenceKurdish(
+                                        text: "شاشەکە لەناکاو ڕەش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -347,12 +366,18 @@ class EnglishEntryblank extends StatelessWidget {
                                   "٣. (ھاوەڵناو) بە بێ پیشاندانی ھەست، تێگەشتن، یان پەرۆشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She stared at me with a blank expression on her face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێی دەڕوانیم بە دەربڕینێکی وشکەوە لەسەر ڕووخساری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She stared at me with a blank expression on her face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێی دەڕوانیم بە دەربڕینێکی وشکەوە لەسەر ڕووخساری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -372,12 +397,18 @@ class EnglishEntryblank extends StatelessWidget {
                               text: "٤. (ھاوەڵناو) بەتەواوی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He maintained a blank denial of any involvement in the crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوور بوو لەسەر ئەوەی کە ھیچ بەژداری نەبووە لە تاوانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He maintained a blank denial of any involvement in the crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوور بوو لەسەر ئەوەی کە ھیچ بەژداری نەبووە لە تاوانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,12 +429,18 @@ class EnglishEntryblank extends StatelessWidget {
                                   "٥. (ناو) ناوچەیەکی بەتاڵ لەسەر پەڕەیەک کە زانیاری یان وەڵامی تێدا دەنووسی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you can't answer the question, leave a blank."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر ناتوانی وەڵامی پرسیارەکە بدەیتەوە، بە بەتاڵی جێیبھێڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you can't answer the question, leave a blank."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر ناتوانی وەڵامی پرسیارەکە بدەیتەوە، بە بەتاڵی جێیبھێڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -424,12 +461,18 @@ class EnglishEntryblank extends StatelessWidget {
                                   "٦. (ناو) دۆخی بێ تانایی لە بیرکەوتنەوەی ھیچ شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My mind was a blank and I couldn't remember her name."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێشکم سفر بوو و دەمدەتوانی ناویم بیربکەوێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My mind was a blank and I couldn't remember her name."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێشکم سفر بوو و دەمدەتوانی ناویم بیربکەوێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -450,11 +493,18 @@ class EnglishEntryblank extends StatelessWidget {
                                   "٧. (ناو) قەباغێک لە چەکێکدا کە کە تەقەمەنی تێدایە بەڵام فیشەکی تێدا نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The troops fired blanks in the air."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان فیشەکەدرۆزنەیان تەقاندە ئاسمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops fired blanks in the air."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان فیشەکەدرۆزنەیان تەقاندە ئاسمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -474,12 +524,18 @@ class EnglishEntryblank extends StatelessWidget {
                               text: "٨. (کردار) فەرامۆشکردنی کەسێک بە تەواوی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw her on the bus this morning, but she totally blanked me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم بەیانییە لە پاسەکەدا بینیم، بەڵام تەواو پشتگوێی خستم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I saw her on the bus this morning, but she totally blanked me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم بەیانییە لە پاسەکەدا بینیم، بەڵام تەواو پشتگوێی خستم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -500,12 +556,18 @@ class EnglishEntryblank extends StatelessWidget {
                                   "٩. (کردار) لەناکاو بێ توانا بیت شتێکت بیربکەوێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I knew the answer, but I totally blanked during the test."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەڵامەکەم دەزانی، بەڵام بە تەواوی بیرمچوو لەکاتی تاقیکردنەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I knew the answer, but I totally blanked during the test."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەڵامەکەم دەزانی، بەڵام بە تەواوی بیرمچوو لەکاتی تاقیکردنەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

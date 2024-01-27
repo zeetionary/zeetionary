@@ -167,12 +167,18 @@ class EnglishEntrybrash extends StatelessWidget {
 ١. (ھاوەڵناو) نەترس و متمانەبەخۆبوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beneath his brash exterior, he's still a little boy inside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ژێر ڕووکەشە نەترسەکەیەوە، لەناخەوە ھێشتا منداڵێکی بچووکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beneath his brash exterior, he's still a little boy inside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژێر ڕووکەشە نەترسەکەیەوە، لەناخەوە ھێشتا منداڵێکی بچووکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybrash extends StatelessWidget {
                                   "٢. (ھاوەڵناو) شتێک کە زۆر درەوشایەوە کە وادەکات جوان نەبێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't you think that suit's a bit brash for a funeral?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەست ناکەیت ئەو جلە زۆر درەوشایەوە بۆ مەراسیمی ناشتن؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't you think that suit's a bit brash for a funeral?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەست ناکەیت ئەو جلە زۆر درەوشایەوە بۆ مەراسیمی ناشتن؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

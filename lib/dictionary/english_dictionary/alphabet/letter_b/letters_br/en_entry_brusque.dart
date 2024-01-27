@@ -166,11 +166,18 @@ class EnglishEntrybrusque extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی وشەی کەم و بەشێوەیەک دەرکەوتن کە بێ‌شەرم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The doctor spoke in a brusque tone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor spoke in a brusque tone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە بە تۆنێکی بێ‌ماریفەتانە قسەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brusque" as
                               Column(
                                 children: [
@@ -187,12 +194,18 @@ class EnglishEntrybrusque extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His secretary was a little brusque with me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکرتێرەکەی کەمێک بێ‌ڕەوشت بوو لەگەڵم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His secretary was a little brusque with me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکرتێرەکەی کەمێک بێ‌ڕەوشت بوو لەگەڵم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

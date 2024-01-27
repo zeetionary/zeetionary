@@ -164,12 +164,18 @@ class EnglishEntrybrochure extends StatelessWidget {
 ١. (ناو) گۆڤارێک یان کتێبێک کە وێنە و زانیاری تێدایە سەبارەت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She picked up a travel brochure to plan her vacation to exotic destinations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامیلکەیەکی گەشتیاری کڕی بۆ پلاندانانی گەشتەکەی بۆ شوێنە سەرنجڕاکێشەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She picked up a travel brochure to plan her vacation to exotic destinations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامیلکەیەکی گەشتیاری کڕی بۆ پلاندانانی گەشتەکەی بۆ شوێنە سەرنجڕاکێشەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brochure" as
                               Column(
                                 children: [

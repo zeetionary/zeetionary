@@ -213,11 +213,18 @@ class EnglishEntrybygone extends StatelessWidget {
 ١. (ناو) شتێک کە ماوەیەکی زۆر پێش ئێستا بوونی هەبووبێت یان ڕوویدا بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The horse and cart belongs to a bygone era."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەسپ و عارەبانە سەر بە سەردەمی کۆنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The horse and cart belongs to a bygone era."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەسپ و عارەبانە سەر بە سەردەمی کۆنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bygone", follow LX strictly
                               Column(
                                 children: [
@@ -234,11 +241,18 @@ class EnglishEntrybygone extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The story is set in a bygone India."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چیرۆکەکە لە هنسدستانی کۆندا ڕوودەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The story is set in a bygone India."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چیرۆکەکە لە هنسدستانی کۆندا ڕوودەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

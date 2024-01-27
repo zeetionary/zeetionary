@@ -173,11 +173,18 @@ class EnglishEntrybinder extends StatelessWidget {
 ١. (ناو) بەرگێکی بەھێز بۆ گرتنی پەڕە یان گۆڤار پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's filled five binders with notes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's filled five binders with notes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێنج بەرگ (مەحفەزە؟)ی پڕکرد لە تێبینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +204,18 @@ class EnglishEntrybinder extends StatelessWidget {
 ٢. (ناو) کەسێک کە بەرگ دەگرێت لە کتێب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A binder skillfully repaired the antique leather cover."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A binder skillfully repaired the antique leather cover."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرگتێگرێک بە شارەزاییەوە بەرگی چەرمە کۆنەکەی چاککردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,11 +235,17 @@ class EnglishEntrybinder extends StatelessWidget {
 ٣. (ناو) مادەیەک کە وەک نووسێنەر بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You can use egg as a binder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانیت ھێلکە وەک نووسێنەر بەکاربێنیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You can use egg as a binder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت ھێلکە وەک نووسێنەر بەکاربێنیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,12 +265,18 @@ class EnglishEntrybinder extends StatelessWidget {
 ٤. (ناو) ئامێرێک کە دانەوێڵە خڕدەکاتەوە لە دوای دوورینەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The way to harvest cereals 50 years ago was to use a binder, that cut the crop and tied it up in sheaves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێوازی دروێنەی خەلە ٥٠ ساڵ پێش ئێستا ئەوە بوو چەقچەقە بەکاربێت کە بەروبووەکەی دەبڕی و کۆیدەکردەوە لە چەپکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

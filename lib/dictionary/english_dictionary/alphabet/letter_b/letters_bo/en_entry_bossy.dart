@@ -169,12 +169,18 @@ class EnglishEntrybossy extends StatelessWidget {
 ١. (ھاوەڵناو) ھەمیشە بە خەڵکی بڵێن چی بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you treat all your guests in this bossy manner?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەم ھەڵسوکەوتە کەڵەگاییانە مامەڵە لەگەڵ ھەموو میوانەکانەکانت دەکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you treat all your guests in this bossy manner?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەم ھەڵسوکەوتە کەڵەگاییانە مامەڵە لەگەڵ ھەموو میوانەکانەکانت دەکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybossy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's strong without being bossy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی بەھێزە بەبێ ئەوەی زۆردار دەربکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's strong without being bossy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی بەھێزە بەبێ ئەوەی زۆردار دەربکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

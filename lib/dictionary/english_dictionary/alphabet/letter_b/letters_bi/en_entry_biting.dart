@@ -169,10 +169,17 @@ class EnglishEntrybiting extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر سارد و ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He shivered in the biting cold."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەلەرزی لە سەرما تەزێنەرەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He shivered in the biting cold."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەلەرزی لە سەرما تەزێنەرەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntrybiting extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) لێدوانێک کە توندە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made some biting remarks about the whole occasion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک لێدوانی ڕەقی دا سەبارەت بە تەواوی بۆنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made some biting remarks about the whole occasion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک لێدوانی ڕەقی دا سەبارەت بە تەواوی بۆنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

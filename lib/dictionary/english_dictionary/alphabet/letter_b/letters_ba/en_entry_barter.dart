@@ -166,12 +166,18 @@ class EnglishEntrybarter extends StatelessWidget {
 ١. (ناو) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The islanders use a system of barter instead of money."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوورگەنشینەکان سیستەمی ئاڵ‌وگۆڕ بەکاردێنن لەجیاتی پارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The islanders use a system of barter instead of money."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوورگەنشینەکان سیستەمی ئاڵ‌وگۆڕ بەکاردێنن لەجیاتی پارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybarter extends StatelessWidget {
 ٢. (کردار) سیستەمی ئاڵوگۆڕی سەربەسەری شتومەک بەبێ بەکارھێنانی پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The local people bartered wheat for tools."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The local people bartered wheat for tools."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوڵاتییە خۆجێییەکان گەنمیان بە ئامێر دەگۆڕییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

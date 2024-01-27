@@ -170,11 +170,17 @@ class EnglishEntrybelievable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە جێگەی باوەڕە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her explanation certainly sounded believable."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕوونکردنەوەکەی جێی‌باوەڕە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her explanation certainly sounded believable."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕوونکردنەوەکەی جێی‌باوەڕە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

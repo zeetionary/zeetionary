@@ -175,10 +175,17 @@ class EnglishEntrybeauty extends StatelessWidget {
 ١. (ناو) جوانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His voice is a thing of beauty."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەنگی نموونەی جوانییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His voice is a thing of beauty."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەنگی نموونەی جوانییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +203,18 @@ class EnglishEntrybeauty extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sheer beauty of the scenery took my breath away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوانی لەڕادەبەدەری دیمەنەکە سەرمی‌سوڕماند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sheer beauty of the scenery took my breath away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوانی لەڕادەبەدەری دیمەنەکە سەرمی‌سوڕماند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +232,18 @@ class EnglishEntrybeauty extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her beauty faded as she got older."),
-                              const ExampleSentenceKurdish(
-                                  text: "جوانییەکەی نەما کە چوو بە تەمەندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her beauty faded as she got older."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوانییەکەی نەما کە چوو بە تەمەندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,10 +263,18 @@ class EnglishEntrybeauty extends StatelessWidget {
 ٢. (ناو) کەسێک/شتێکی جوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had been a beauty in her day."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە کاتی خۆیدا نموونەیەکی جوانی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had been a beauty in her day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی خۆیدا نموونەیەکی جوانی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,10 +294,16 @@ class EnglishEntrybeauty extends StatelessWidget {
 ٣. (ناو) نموونەیەکی جوان بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That last goal was a beauty!"),
-                              const ExampleSentenceKurdish(
-                                  text: "گۆڵی کۆتایی نموونەیی بوو!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "That last goal was a beauty!"),
+                                    ExampleSentenceKurdish(
+                                        text: "گۆڵی کۆتایی نموونەیی بوو!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +323,18 @@ class EnglishEntrybeauty extends StatelessWidget {
 ٤. (ناو) خاسیەتێکی سەرنجڕاکێش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of the beauties of living here is that it's so peaceful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە تایبەتمەندییە جوانەکانی ژیان لێرە ئەوەیە کە زۆر ئارامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the beauties of living here is that it's so peaceful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە تایبەتمەندییە جوانەکانی ژیان لێرە ئەوەیە کە زۆر ئارامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

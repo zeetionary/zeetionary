@@ -165,12 +165,18 @@ class EnglishEntrybrooch extends StatelessWidget {
 ١. (ناو) پارچە خشڵێک کە لە پشتەوە دەرزییەکی پێوەیە و دەبەسترێت بە جلوبەرگەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She pinned a large amethyst brooch to her lapel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرسنگەیەکی گەورەی ئەمیتیستی بەست بە ملیوانی چاکەتەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She pinned a large amethyst brooch to her lapel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسنگەیەکی گەورەی ئەمیتیستی بەست بە ملیوانی چاکەتەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brooch" as
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntryblackout extends StatelessWidget {
 ١. (ناو) ماوەی تاریکی بەھۆی بێ کارەبایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The storm caused blackouts in many areas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زریانەکە بوو بەھۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The storm caused blackouts in many areas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زریانەکە بوو بەھۆی بێ کارەبایی لە ژمارەیەکی زۆر ناوچە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryblackout extends StatelessWidget {
                                   "٢. (ناو) دۆخێک کە تێیدا حکومەت یاب پۆلیس ڕێگا نادەن ھیچ زانیارییەک بدرێت بە ڕای گشتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government imposed a news blackout during the crisis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت سانسۆری لەسەر ھەواڵ دانا لە کاتی قەیرانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government imposed a news blackout during the crisis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت سانسۆری لەسەر ھەواڵ دانا لە کاتی قەیرانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,12 +235,18 @@ class EnglishEntryblackout extends StatelessWidget {
                                   "٣. (ناو) ماوەیەک لە کاتی جەنگدا کە ھەموو ڕۆشناییەک دەبێت بکوژێنرێتەوە لە شەودا بۆ ئەوەی دووژمن لە ئاسمانەوە سوودی لێ نەبینێت بۆ ھێرش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It used to take hours to travel home in the blackout."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران چەندین کاتژمێری پێ دەچوو بۆ ئەوەی بگەڕێیتەوە ماڵەوە لە بێ کارەباییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It used to take hours to travel home in the blackout."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران چەندین کاتژمێری پێ دەچوو بۆ ئەوەی بگەڕێیتەوە ماڵەوە لە بێ کارەباییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,12 +267,18 @@ class EnglishEntryblackout extends StatelessWidget {
                                   "٤. (ناو) لەبیرچوونەوە، لەدەستدانی بینایی، یان ھزر بۆ ماوەیەکی کاتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a blackout and couldn't remember anything about the accident."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەھۆشچوونی بەسەر ھات و نەیدەتوانی ھیچی لەسەر ڕووداوەکە بیربێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a blackout and couldn't remember anything about the accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەھۆشچوونی بەسەر ھات و نەیدەتوانی ھیچی لەسەر ڕووداوەکە بیربێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

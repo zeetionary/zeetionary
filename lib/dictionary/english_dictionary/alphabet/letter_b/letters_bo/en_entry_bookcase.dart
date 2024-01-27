@@ -169,10 +169,17 @@ class EnglishEntrybookcase extends StatelessWidget {
 ١. (ناو) پارچە کەلوپەلێکی ناوماڵ کە جێگەی کتێبی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I chose a book from the bookcase."),
-                              const ExampleSentenceKurdish(
-                                  text: "کتێبێکم لە جێ‌کتێبەکە ھەڵگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I chose a book from the bookcase."),
+                                    ExampleSentenceKurdish(
+                                        text: "کتێبێکم لە جێ‌کتێبەکە ھەڵگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,10 +196,18 @@ class EnglishEntrybookcase extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I found this book in your bookcase."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم کتێبەم لە جێ‌کتێبەکەت دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I found this book in your bookcase."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کتێبەم لە جێ‌کتێبەکەت دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

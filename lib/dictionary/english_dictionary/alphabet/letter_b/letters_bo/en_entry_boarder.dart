@@ -167,12 +167,18 @@ class EnglishEntryboarder extends StatelessWidget {
 ١. (ناو) منداڵێک کە لە قوتابخانە دەژی و لە کاتی پشووەکاندا دەگەڕێتەوە ماڵەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The young boarder looked forward to visiting family during school breaks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکارە گەنجەکە تامەزرۆ بوو سەردانی خێزانەکەی بکات لە ماوەی پشووی قوتابخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The young boarder looked forward to visiting family during school breaks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکارە گەنجەکە تامەزرۆ بوو سەردانی خێزانەکەی بکات لە ماوەی پشووی قوتابخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntryboarder extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە پارە دەدات بۆ ژیانکردن لە ژوورێکی ماڵی کەسێکی تر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After her father’s death, her mother took in boarders to bring in extra money."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای مردنی باوکی، دایکی کرێچی ھێنایە ژوورەکان بۆ زیادکردنی داھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After her father’s death, her mother took in boarders to bring in extra money."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای مردنی باوکی، دایکی کرێچی ھێنایە ژوورەکان بۆ زیادکردنی داھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

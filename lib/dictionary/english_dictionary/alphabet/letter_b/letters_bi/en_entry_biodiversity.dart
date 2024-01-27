@@ -172,12 +172,18 @@ class EnglishEntrybiodiversity extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی ژمارەیەکی زۆر لە گیانلەبەر و ڕووەک کە ھاوسەنگی ژینگە ڕادەگرن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The mining project threatens one of the world’s richest areas of biodiversity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆژەی کانەکە ھەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The mining project threatens one of the world’s richest areas of biodiversity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆژەی کانەکە ھەڕەشە لە یەکێک لە گەورەترین ناوچەکانی زیندەفرەجۆری دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

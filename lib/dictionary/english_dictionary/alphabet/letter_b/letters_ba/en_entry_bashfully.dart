@@ -164,10 +164,16 @@ class EnglishEntrybashfully extends StatelessWidget {
 ١. (ھاوەڵکار) بە شەرمەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She smiled bashfully."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە شەرمەوە پێکەنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She smiled bashfully."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە شەرمەوە پێکەنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

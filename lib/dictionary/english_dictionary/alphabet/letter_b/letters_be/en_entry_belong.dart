@@ -171,11 +171,17 @@ class EnglishEntrybelong extends StatelessWidget {
 ١. (کردار) بوون لە شوێنی درووست یان گونجاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Where do these plates belong (= where are they kept)?"),
-                              const ExampleSentenceKurdish(
-                                  text: "شوێنی ئەم دەورییانە کوێیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Where do these plates belong (= where are they kept)?"),
+                                    ExampleSentenceKurdish(
+                                        text: "شوێنی ئەم دەورییانە کوێیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybelong extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Are you sure these documents belong together?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیای لەوەی ئەم دۆکیومێنتانە پێکەوەن؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are you sure these documents belong together?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیای لەوەی ئەم دۆکیومێنتانە پێکەوەن؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybelong extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several of the points you raise do not belong in this discussion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک لەو خاڵانەی باستکردن پەیوەندییان بەم گفتوگۆوە نییە"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several of the points you raise do not belong in this discussion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک لەو خاڵانەی باستکردن پەیوەندییان بەم گفتوگۆوە نییە"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybelong extends StatelessWidget {
 ٢. (کردار) ئاسوودە و دڵخۆش بە بوون لە دۆخێکدا یان بوون لەگەڵ گرووپێکی دیاریکراو لە خەڵکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After three years in Cambridge, I finally feel as if I belong here."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After three years in Cambridge, I finally feel as if I belong here."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای سێ ساڵ لە کامبریج، لەکۆتاییدا ھەست دەکەم ئێرە شوێنی گونجاوە بۆم"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

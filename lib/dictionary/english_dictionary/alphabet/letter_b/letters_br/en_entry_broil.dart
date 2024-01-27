@@ -163,12 +163,18 @@ class EnglishEntrybroil extends StatelessWidget {
 ١. (کردار) برژاندنی گۆشت و ماسی لەسەر ئاگر یان بە شیش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll broil the chicken rather than fry it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆشتەکە دەبرژێنم لەجیاتی ئەوەی سووری بکەمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll broil the chicken rather than fry it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆشتەکە دەبرژێنم لەجیاتی ئەوەی سووری بکەمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broil" as
                               Column(
                                 children: [
@@ -187,11 +193,17 @@ class EnglishEntrybroil extends StatelessWidget {
                               text: "٢. (کردار) وا لە کەسێک بکەیت گەرمای ببێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They lay broiling in the sun."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بەر خۆرەکە ڕاکشابوون و گەرمایان دەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They lay broiling in the sun."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بەر خۆرەکە ڕاکشابوون و گەرمایان دەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

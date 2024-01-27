@@ -276,12 +276,18 @@ class EnglishEntrybreathe extends StatelessWidget {
 ١. (کردار) ھەڵکێشانی ھەوا بۆ ناو سینەت و دانەوەی لە ڕێگەی دەم یان لووتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He breathed deeply before speaking again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە قووڵی ھەناسەی دا پێش ئەوەی دووبارە قسەبکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He breathed deeply before speaking again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە قووڵی ھەناسەی دا پێش ئەوەی دووبارە قسەبکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breathe" as
                               Column(
                                 children: [
@@ -298,12 +304,18 @@ class EnglishEntrybreathe extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The air was so cold we could hardly breathe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشەکە ھێندە سارد بوو بە ئەستەم ھەناسەمان دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The air was so cold we could hardly breathe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشەکە ھێندە سارد بوو بە ئەستەم ھەناسەمان دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -326,7 +338,7 @@ class EnglishEntrybreathe extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She was beginning to breathe more easily."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "دەستیدەکرد بە ھەناسەدانی ئاسانتر."),
                                       const CustomSizedBoxForTTS(),
@@ -354,12 +366,18 @@ class EnglishEntrybreathe extends StatelessWidget {
                                   "٢. (کردار) ھەبوونی ھەناسەیەکی دیاریکراو لە دەمدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm sorry if I'm breathing (= blowing out air containing) garlic fumes all over you!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای لێبووردن دەکەم ئەگەر بۆنی سیر بەسەرتدا دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm sorry if I'm breathing (= blowing out air containing) garlic fumes all over you!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای لێبووردن دەکەم ئەگەر بۆنی سیر بەسەرتدا دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -376,12 +394,18 @@ class EnglishEntrybreathe extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She rushed into my office breathing fire and threatening me with a lawyer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراوی) ھاتە ئۆفیسەکەم، ئاگری لێ دەباری و ھەڕەشەی گرتنی پارێزەری دژم دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She rushed into my office breathing fire and threatening me with a lawyer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراوی) ھاتە ئۆفیسەکەم، ئاگری لێ دەباری و ھەڕەشەی گرتنی پارێزەری دژم دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -400,11 +424,17 @@ class EnglishEntrybreathe extends StatelessWidget {
                               text: "٣. (کردار) وتنی شتێک بە ھێمنی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He breathed the words against her ear."),
-                              const ExampleSentenceKurdish(
-                                  text: "وشەکانی چرپاند بە گوێیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He breathed the words against her ear."),
+                                    ExampleSentenceKurdish(
+                                        text: "وشەکانی چرپاند بە گوێیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -424,12 +454,18 @@ class EnglishEntrybreathe extends StatelessWidget {
                                   "٤. (کردار) کردنەوەی بوتڵی بیرە بۆ ئەوەی ھەوا ھەڵبژمێت پێش خواردنەوەی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Letting a wine breathe allows oxygen to enter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانانی بیرە لە ھەوادا ڕێگە دەدات ئۆکسجین ھەڵبکێشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Letting a wine breathe allows oxygen to enter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانانی بیرە لە ھەوادا ڕێگە دەدات ئۆکسجین ھەڵبکێشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -449,12 +485,18 @@ class EnglishEntrybreathe extends StatelessWidget {
                                   "٥. (کردار) جلێک کە ڕێگە بە ھەواگۆڕکێ دەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cotton clothing allows your skin to breathe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلی لۆکە ڕێگە بە جەستە دەدات ھەناسە بکێشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cotton clothing allows your skin to breathe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلی لۆکە ڕێگە بە جەستە دەدات ھەناسە بکێشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -473,11 +515,18 @@ class EnglishEntrybreathe extends StatelessWidget {
                               text: "٦. (کردار) پڕ لە خاسیەتێک یان ھەستێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her performance breathed wit and charm."),
-                              const ExampleSentenceKurdish(
-                                  text: "نمایشەکەی پڕ لە دانایی و جوانی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her performance breathed wit and charm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نمایشەکەی پڕ لە دانایی و جوانی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

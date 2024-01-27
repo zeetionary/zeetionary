@@ -215,12 +215,18 @@ class EnglishEntrybunker extends StatelessWidget {
 ١. (ناو) پەناگەیەکی بەهێزی سەربازی بۆ سەرباز یان تەقەمەنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The military strategically positioned bunkers along the border for defensive purposes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپا بەشێوەیەکی ستراتیژی پەناگەی دانا بەدرێژایی سنوورەکە بۆ مەبەستی بەرگری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The military strategically positioned bunkers along the border for defensive purposes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوپا بەشێوەیەکی ستراتیژی پەناگەی دانا بەدرێژایی سنوورەکە بۆ مەبەستی بەرگری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunker", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrybunker extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "During the war, families sought refuge in the bunker when air raid sirens sounded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی جەنگەکە خێزانەکان خۆیان داڵدە دا لە پەناگەکە کە دەنگی ئاگادارکەرەوەی هێرشی ئاسمانی دەهات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "During the war, families sought refuge in the bunker when air raid sirens sounded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی جەنگەکە خێزانەکان خۆیان داڵدە دا لە پەناگەکە کە دەنگی ئاگادارکەرەوەی هێرشی ئاسمانی دەهات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +273,18 @@ class EnglishEntrybunker extends StatelessWidget {
                               text: "٢. (ناو) شوێنی کۆگاکردنی خەڵووز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A coal bunker on the steam train ensured a steady supply for the journey."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵووزدانێک لە شەمەندەفەرە هەڵمییەکەدا دڵنیایی دا لە هەبوونی سەرچاوەیەکی (وزەی) بەردەوام بۆ گەشتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A coal bunker on the steam train ensured a steady supply for the journey."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵووزدانێک لە شەمەندەفەرە هەڵمییەکەدا دڵنیایی دا لە هەبوونی سەرچاوەیەکی (وزەی) بەردەوام بۆ گەشتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,11 +304,18 @@ class EnglishEntrybunker extends StatelessWidget {
                                   "٣. (ناو) لە یاری گۆڵفدا بەشێکە لە گۆڕەپانەکە کە پڕکراوە لە خۆڵ و ئاسان نییە تۆپەکەی لێ دەربکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He hit his second shot into a bunker."),
-                              const ExampleSentenceKurdish(
-                                  text: "دووەم لێدانی خستە چاڵە خۆڵەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He hit his second shot into a bunker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووەم لێدانی خستە چاڵە خۆڵەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

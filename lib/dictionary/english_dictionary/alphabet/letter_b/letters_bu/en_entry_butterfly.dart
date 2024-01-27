@@ -213,12 +213,18 @@ class EnglishEntrybutterfly extends StatelessWidget {
 ١. (ناو) پەپوولە؛ مێروویەکی فڕیو کە جەستەیەکی باریکی هەیە لەگەڵ چوار باڵ کە زۆرجار ڕەنگاوڕەنگن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's like a butterfly. She flits in and out of people's lives."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's like a butterfly. She flits in and out of people's lives."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک پەپوولە وایە. دێتە ژیانی خوڵک و دەچێتە دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butterfly", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrybutterfly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A butterfly alighted gently on the flower."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەپوولەیەک بە نەرمی لەسەر گوڵەکە نیشتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A butterfly alighted gently on the flower."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەپوولەیەک بە نەرمی لەسەر گوڵەکە نیشتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

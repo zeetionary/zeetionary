@@ -165,12 +165,18 @@ class EnglishEntrybudding extends StatelessWidget {
 ١. (ھاوەڵناو) لە سەرەتای تەمەن یان سەرکەوتندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The budding young star is now hot property in Hollywood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The budding young star is now hot property in Hollywood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستێرە گەنجە تازەپشکووەکە ناوێکی گەرمە لە ھۆڵیھوددا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "budding" as
                               Column(
                                 children: [
@@ -187,12 +193,18 @@ class EnglishEntrybudding extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "While still at school she was clearly a budding genius."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە ھێشتا لە قوتابخانە بوو ئاشکرابوو کە بلیمەتێکی ھەڵکوتوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "While still at school she was clearly a budding genius."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ھێشتا لە قوتابخانە بوو ئاشکرابوو کە بلیمەتێکی ھەڵکوتوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

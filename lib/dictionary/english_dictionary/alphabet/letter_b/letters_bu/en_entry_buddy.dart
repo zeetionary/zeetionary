@@ -166,10 +166,16 @@ class EnglishEntrybuddy extends StatelessWidget {
 ١. (ناو) هاوڕێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We were good buddies."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆستی نزیکی یەکدی بووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We were good buddies."),
+                                    ExampleSentenceKurdish(
+                                        text: "دۆستی نزیکی یەکدی بووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "buddy", follow LX strictly.
                               Column(
                                 children: [
@@ -186,12 +192,18 @@ class EnglishEntrybuddy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’d like you to meet an old college buddy of mine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزەکەم بتناسێنم بە هاوڕێیەکی کۆنی کۆلێژم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’d like you to meet an old college buddy of mine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزەکەم بتناسێنم بە هاوڕێیەکی کۆنی کۆلێژم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,10 +222,18 @@ class EnglishEntrybuddy extends StatelessWidget {
                               text: "٢. (ناو) بۆ بانگکردنی پیاوێک کە نایناسیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "‘Where to, buddy?’ the driver asked."),
-                              const ExampleSentenceKurdish(
-                                  text: "شۆفێرەکە پرسی 'بۆ کوێ دەچیت کاکە؟'"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Where to, buddy?’ the driver asked."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێرەکە پرسی 'بۆ کوێ دەچیت کاکە؟'"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +253,18 @@ class EnglishEntrybuddy extends StatelessWidget {
                                   "٣. (ناو) هاوکارێک کە کارێکت لەگەڵ دەکات بۆ ئەوەی یارمەتی یەکدی بدەن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The school uses a buddy system to pair newcomers with older students."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوتابخانەکە سیستەمی هاوڕێیەتی بەکاردێنێت بۆ ئەوەی تازەهاتووان لەگەڵ خوێندکارە کۆنەکان لەگەڵ یەکدی بخات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The school uses a buddy system to pair newcomers with older students."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتابخانەکە سیستەمی هاوڕێیەتی بەکاردێنێت بۆ ئەوەی تازەهاتووان لەگەڵ خوێندکارە کۆنەکان لەگەڵ یەکدی بخات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,10 +281,16 @@ class EnglishEntrybuddy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We became workout buddies."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆستی سەر کار بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We became workout buddies."),
+                                    ExampleSentenceKurdish(
+                                        text: "دۆستی سەر کار بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

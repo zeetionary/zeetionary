@@ -171,11 +171,18 @@ class EnglishEntrybecoming extends StatelessWidget {
 ١. (ھاوەڵناو) جلێک کە لە کەسێک جوانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That's a very becoming dress, my dear."),
-                              const ExampleSentenceKurdish(
-                                  text: "جلەکەت زۆر جوان لێ دێت، ئازیزم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That's a very becoming dress, my dear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکەت زۆر جوان لێ دێت، ئازیزم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +202,18 @@ class EnglishEntrybecoming extends StatelessWidget {
 ٢. (ھاوەڵناو) گونجاو یان شیاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was not very becoming behaviour for a teacher."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەفتارێکی شیاو نەبوو بۆ مامۆستایەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was not very becoming behaviour for a teacher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەفتارێکی شیاو نەبوو بۆ مامۆستایەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

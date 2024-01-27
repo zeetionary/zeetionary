@@ -175,12 +175,18 @@ class EnglishEntrybadge extends StatelessWidget {
 ١. (ناو) پارچەیەکی بچووک ئاسن یان پلاستیک کە دیزاین یان وشەی لەسەرە و کەسێک دەیپۆشێت یان ھەڵیدەگرێت بۆ پیشاندانی ئەندامێتی لە دامەزراوەیەک، براوەی شتێک، یان بۆ پیشاندانی پلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wore a badge saying ‘Vote for Obama’."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wore a badge saying ‘Vote for Obama’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +206,18 @@ class EnglishEntrybadge extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He pulled out a badge and said he was a cop."),
-                              const ExampleSentenceKurdish(
-                                  text: "باجێکی دەرھێنا و وتی کەوا پۆلیسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He pulled out a badge and said he was a cop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باجێکی دەرھێنا و وتی کەوا پۆلیسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +239,18 @@ class EnglishEntrybadge extends StatelessWidget {
 ٢. (ناو) پارچەیەک کە دەیدووریت بە جلی یەکپۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He sewed the school badge neatly onto his uniform."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He sewed the school badge neatly onto his uniform."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,11 +272,17 @@ class EnglishEntrybadge extends StatelessWidget {
 ٣. (ناو) سمبولی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His gun was a badge of power for him."),
-                              const ExampleSentenceKurdish(
-                                  text: "چەکەکەی ھێمای دەسەڵاتی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His gun was a badge of power for him."),
+                                    ExampleSentenceKurdish(
+                                        text: "چەکەکەی ھێمای دەسەڵاتی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -277,11 +302,18 @@ class EnglishEntrybadge extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He saw his injuries as a badge of honour."),
-                              const ExampleSentenceKurdish(
-                                  text: "برینەکانی وەک سمبولی شکۆداری دەبینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He saw his injuries as a badge of honour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برینەکانی وەک سمبولی شکۆداری دەبینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -218,10 +218,17 @@ class EnglishEntrybunch extends StatelessWidget {
 ١. (ناو) ژمارەیەک شتی هەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She bought me a bunch of flowers."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستە گوڵێکی بۆ کڕیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bought me a bunch of flowers."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستە گوڵێکی بۆ کڕیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunch", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +245,18 @@ class EnglishEntrybunch extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She put all the flowers together in one big bunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She put all the flowers together in one big bunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +275,18 @@ class EnglishEntrybunch extends StatelessWidget {
                               text: "٢. (ناو) ڕێژەیەکی زۆر لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have a whole bunch of stuff to do this morning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەیەکی زۆر کارم هەیە ئەم بەیانییە بیکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have a whole bunch of stuff to do this morning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەیەکی زۆر کارم هەیە ئەم بەیانییە بیکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +305,18 @@ class EnglishEntrybunch extends StatelessWidget {
                               text: "٣. (ناو) گرووپێک لە خەڵک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The people that I work with are a great bunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کەسانەی کارم لەگەڵ کردن گرووپێکی ناوازەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The people that I work with are a great bunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کەسانەی کارم لەگەڵ کردن گرووپێکی ناوازەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -308,12 +333,18 @@ class EnglishEntrybunch extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The members were a genuinely friendly and open bunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندامەکان کەسانێکی تەواو دۆستانە و کراوە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The members were a genuinely friendly and open bunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامەکان کەسانێکی تەواو دۆستانە و کراوە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -333,10 +364,16 @@ class EnglishEntrybunch extends StatelessWidget {
                                   "٤. (ناو) قژی درێژ کە کراوە بە دوو بەشەوە و لە هەردوو لای سەرەوە بەستراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wore her hair in bunches."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژی کردبوو بە کەروێشکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She wore her hair in bunches."),
+                                    ExampleSentenceKurdish(
+                                        text: "قژی کردبوو بە کەروێشکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -354,11 +391,18 @@ class EnglishEntrybunch extends StatelessWidget {
                           const DefinitionKurdish(text: "٥. (کردار) توندبوون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His muscles bunched under his shirt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماسولکەکانی توندبوو بوون لەژێر جلەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His muscles bunched under his shirt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسولکەکانی توندبوو بوون لەژێر جلەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

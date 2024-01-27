@@ -172,12 +172,18 @@ class EnglishEntryblockcapitals extends StatelessWidget {
 ١. (ناو) شێوازێکی نووسین کە تێیدا ھەر پیتێک بە پیتی گەورە و بە ڕوونی و جیایی دەنووسرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please print your name and address in block capitals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە ناو و ناونیشانت بە پیتی گەورە بنووسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please print your name and address in block capitals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە ناو و ناونیشانت بە پیتی گەورە بنووسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

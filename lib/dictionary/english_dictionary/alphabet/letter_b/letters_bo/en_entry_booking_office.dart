@@ -168,12 +168,18 @@ class EnglishEntrybookingoffice extends StatelessWidget {
 ١. (ناو) شوێنێک کە دەتوانی بلیت بکڕیت لە وێستگەیەکی پاس یان شەمەندەفەر، یان لە سینەمایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Visit the booking office to secure your seat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەردانی بلیت‌فرۆشییەکە بکە بۆ گرتنی جێگایەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Visit the booking office to secure your seat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەردانی بلیت‌فرۆشییەکە بکە بۆ گرتنی جێگایەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

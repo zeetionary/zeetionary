@@ -222,12 +222,18 @@ class EnglishEntrybuzz extends StatelessWidget {
 ١. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bees buzzed lazily among the flowers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەنگ بە هێواشی گیزەیان دەهات لەناو گوڵەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bees buzzed lazily among the flowers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەنگ بە هێواشی گیزەیان دەهات لەناو گوڵەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buzz", follow LX strictly
                               Column(
                                 children: [
@@ -247,10 +253,17 @@ class EnglishEntrybuzz extends StatelessWidget {
                                   "٢. (کردار) دەرکردنی دەنگێک کە وەک دەنگی هەنگ وای"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The doorbell buzzed loudly."),
-                              const ExampleSentenceKurdish(
-                                  text: "زەنگی دەرگاکە بە بەرزی دەنگی دەهات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The doorbell buzzed loudly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگی دەرگاکە بە بەرزی دەنگی دەهات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +282,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                               text: "٣. (کردار) پڕ لە خرۆشاوی و چالاکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "New York buzzes from dawn to dusk."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیویۆرک لە بەرەبەیانەوە تا مەغریب هاژەی دێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "New York buzzes from dawn to dusk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیویۆرک لە بەرەبەیانەوە تا مەغریب هاژەی دێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,11 +310,17 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The place was buzzing with journalists."),
-                              const ExampleSentenceKurdish(
-                                  text: "شوێنەکە پڕبوو لە ڕۆژنامەنووس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The place was buzzing with journalists."),
+                                    ExampleSentenceKurdish(
+                                        text: "شوێنەکە پڕبوو لە ڕۆژنامەنووس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -314,12 +340,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                                   "٤. (کردار) بانگکردنی کەسێک بە دەستنان بە زەنگێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor buzzed for the next patient to come in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکەکە زەنگی بۆ نەخۆشی دواتر لێدا بچێتە ژوورەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor buzzed for the next patient to come in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکەکە زەنگی بۆ نەخۆشی دواتر لێدا بچێتە ژوورەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -338,12 +370,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                               text: "٥. (ناو) دەنگێکی بەردەوامی نزم"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I heard a buzz and then saw the plane in the distance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێم لە هاژەکە بوو و دواتر فڕۆکەکەم لە دوورەوە دیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I heard a buzz and then saw the plane in the distance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێم لە هاژەکە بوو و دواتر فڕۆکەکەم لە دوورەوە دیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -360,12 +398,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was woken by the buzz of a mosquito in his ear."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە خەو هەستا بە دەنگی مێشوولەیەک لە گوێیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was woken by the buzz of a mosquito in his ear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە خەو هەستا بە دەنگی مێشوولەیەک لە گوێیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -385,12 +429,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                                   "٦. (ناو) دەنگی قسەی خەڵکی، بە تایبەتی کە خرۆشاون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The buzz of conversation suddenly stopped when she came into the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگی گفتوگۆ لەناکاو وەستا کە ئەو هاتە ژوورەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The buzz of conversation suddenly stopped when she came into the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی گفتوگۆ لەناکاو وەستا کە ئەو هاتە ژوورەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -410,11 +460,17 @@ class EnglishEntrybuzz extends StatelessWidget {
                                   "٧. (ناو) هەستێکی بەهێزی خۆشحاڵی، جۆشهوخرۆشی، هتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Flying gives me a real buzz."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕین هەستێکی تەواو ڕاستەقینەم پێ دەبەخشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Flying gives me a real buzz."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕین هەستێکی تەواو ڕاستەقینەم پێ دەبەخشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -431,12 +487,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a buzz of excitement all around the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەستێکی خۆشی لە تەواوی ژوورەکەدا هەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a buzz of excitement all around the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەستێکی خۆشی لە تەواوی ژوورەکەدا هەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -456,12 +518,18 @@ class EnglishEntrybuzz extends StatelessWidget {
                                   "٨. (ناو) هەواڵێک کە خەڵکی بە یەکدی دەڵێن و لەوانەیە ڕاست بێت و لەوانەیە ڕاست نەبێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The buzz is that Matt is in Scotland. Have you heard anything?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قسەڵۆکەکە ئەوەیە مات لە سکۆتلەندایە. هیچت بیستووە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The buzz is that Matt is in Scotland. Have you heard anything?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قسەڵۆکەکە ئەوەیە مات لە سکۆتلەندایە. هیچت بیستووە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

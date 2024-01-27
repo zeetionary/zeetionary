@@ -167,12 +167,18 @@ class EnglishEntryboon extends StatelessWidget {
 ١. (ناو) شتێک کە زۆر سوودبەخشە و ژیانت بۆ ئاسان دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The device will prove a boon to home cooks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The device will prove a boon to home cooks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامێرەکە نیعمەتێک ئەبێت بۆ درووستکردنی خواردن لە ماڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntryboon extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Online classes proved a boon to students during this period."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Online classes proved a boon to students during this period."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وانەی ئۆنلاین زۆر بەسوود بوون بۆ خوێندکاران لەم ماوەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

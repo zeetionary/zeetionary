@@ -212,12 +212,18 @@ class EnglishEntrybursar extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری دارایی زانکۆ یان قوتابخانە بەڕێوەدەبات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university's bursar manages student financial accounts and tuition payments."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەنجینەوانی زانکۆکە هەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university's bursar manages student financial accounts and tuition payments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەنجینەوانی زانکۆکە هەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bursar", follow LX strictly
                               Column(
                                 children: [

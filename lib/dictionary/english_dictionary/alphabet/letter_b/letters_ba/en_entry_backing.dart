@@ -173,12 +173,18 @@ class EnglishEntrybacking extends StatelessWidget {
 ١. (ناو) یارمەتی و پشتیوانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police gave the proposals their full backing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس پشتگیری تەواوی دا بە پێشنیارەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police gave the proposals their full backing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس پشتگیری تەواوی دا بە پێشنیارەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybacking extends StatelessWidget {
 ٢. (ناو) مادەی پارێزەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's strong cloth - it might be useful as (a) backing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچەیەکی بەھێزە، لەوانەیە بەسوود بێت وەک پارێزەرێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's strong cloth - it might be useful as (a) backing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچەیەکی بەھێزە، لەوانەیە بەسوود بێت وەک پارێزەرێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntrybacking extends StatelessWidget {
 ٣. (ناو) میوزیک یان سەما کە دەکرێت بۆ بەشی سەرەکی گۆرانییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She sang as part of an backing group."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک بەشێک لە گرووپی یاریدەدەر گۆرانی گوتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She sang as part of an backing group."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک بەشێک لە گرووپی یاریدەدەر گۆرانی گوتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

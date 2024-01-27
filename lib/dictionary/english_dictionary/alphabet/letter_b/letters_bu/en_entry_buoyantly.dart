@@ -215,12 +215,18 @@ class EnglishEntrybuoyantly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندی بە سەرئاوکەوتووی هەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were sailing swiftly and buoyantly on long waves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were sailing swiftly and buoyantly on long waves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە چووستی و سەراوکەوتانە مەلەیان دەکرد لەسەر شەپۆلە بەرزەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoyantly", follow LX strictly
                               Column(
                                 children: [
@@ -239,11 +245,18 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) بەشێوەیەکی گەشبینانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She raced buoyantly through the house."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەشبینانە بە ماڵەکەدا ڕاکردنی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She raced buoyantly through the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشبینانە بە ماڵەکەدا ڕاکردنی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +276,18 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                                   "٣. (ھاوەڵناو) بەشێوەیەک کە سەرکەوتووانە و قازانجدارە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Equity markets continue to rise buoyantly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازاڕی پشکەکان بەردەوامن لە بەرزبوونەوە بە سەرکەوتووانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Equity markets continue to rise buoyantly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازاڕی پشکەکان بەردەوامن لە بەرزبوونەوە بە سەرکەوتووانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

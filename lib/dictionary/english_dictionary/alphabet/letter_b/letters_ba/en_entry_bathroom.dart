@@ -169,11 +169,18 @@ class EnglishEntrybathroom extends StatelessWidget {
 ١. (ناو) ژوورێک کە حەوزێکی خۆشتن و دەستشۆرێک و زۆرجار تەوالێتێکیشی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Go and wash your hands in the bathroom."),
-                              const ExampleSentenceKurdish(
-                                  text: "بچۆ و دەستەکانت لە حەمامەکە بشۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Go and wash your hands in the bathroom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بچۆ و دەستەکانت لە حەمامەکە بشۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +198,18 @@ class EnglishEntrybathroom extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She stared at herself in the bathroom mirror."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە خۆی دەڕوانی لە ئاوێنەی حەمامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She stared at herself in the bathroom mirror."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە خۆی دەڕوانی لە ئاوێنەی حەمامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +229,18 @@ class EnglishEntrybathroom extends StatelessWidget {
 ٢. (ناو) (ئینگلیزی ئەمریکی) ژوورێک کە تەوالێتێک و دەستشۆرێک و ھەندێکجار حەوزێکی خۆشتنی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were allowed to stop occasionally for bathroom breaks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگەمان پێدەدرا ماوەماوە بچینە حەمامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were allowed to stop occasionally for bathroom breaks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگەمان پێدەدرا ماوەماوە بچینە حەمامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

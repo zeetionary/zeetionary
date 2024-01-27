@@ -162,12 +162,18 @@ class EnglishEntrybruschetta extends StatelessWidget {
 ١. (ناو) خواردنێکی ئیتالییە کە لە نانێکی گەرم پێکھاتووە کە ڕۆنی زەیتوون و پارچەی بچووکی تەماتەی پێوەیە لەگەڵ کەرە، سەوزە، گۆشت، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At the party, everyone loved the bruschetta appetizers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئاھەنگەکە ھەمووان حەزیان بە بروسشێتا بەرخۆراکەکە ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At the party, everyone loved the bruschetta appetizers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئاھەنگەکە ھەمووان حەزیان بە بروسشێتا بەرخۆراکەکە ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bruschetta" as
                               Column(
                                 children: [

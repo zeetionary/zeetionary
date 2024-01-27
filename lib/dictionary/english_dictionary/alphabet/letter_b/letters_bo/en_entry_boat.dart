@@ -171,12 +171,18 @@ class EnglishEntryboat extends StatelessWidget {
 ١. (ناو) ئامرازێکی گواستنەوە کە گەشت دەکات لەسەر ئاو و دەجوڵێندرێت بە سەوڵ، چارۆکە، یان بزوێنەرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can take a boat trip along the coast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانی گەشتێک بە بەلەم بکەیت بەدرێژایی کەنارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can take a boat trip along the coast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانی گەشتێک بە بەلەم بکەیت بەدرێژایی کەنارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntryboat extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A boat carrying more than 60 people capsized and sank."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمێک کە زیاتر لە ٦٠ کەسی لەسەربوو وەرگەڕا و نغرۆبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A boat carrying more than 60 people capsized and sank."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمێک کە زیاتر لە ٦٠ کەسی لەسەربوو وەرگەڕا و نغرۆبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +229,18 @@ class EnglishEntryboat extends StatelessWidget {
                               text: "٢. (ناو) ھە جۆرێکی کەشتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beth had gone down to Bombay to meet the boat on which her sister was arriving."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێس چووبوو بۆ مۆمبای بۆ ئەوەی ئەو کەشتییە ببینێت کە خوشکەکەی پێی دەگەیشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beth had gone down to Bombay to meet the boat on which her sister was arriving."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێس چووبوو بۆ مۆمبای بۆ ئەوەی ئەو کەشتییە ببینێت کە خوشکەکەی پێی دەگەیشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,11 +257,18 @@ class EnglishEntryboat extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Are you travelling by boat or by air?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کەشتی یان فڕۆکە گەشت دەکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are you travelling by boat or by air?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەشتی یان فڕۆکە گەشت دەکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

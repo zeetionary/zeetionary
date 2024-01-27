@@ -166,12 +166,18 @@ class EnglishEntryblowbyblow extends StatelessWidget {
 ١. (ھاوەڵناو) پێدانی وردەکاری تەواوی ئەوەی چی ڕوویداوە بە ڕیزبەندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He insisted on giving us a blow-by-blow account of what had happened."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێداگری کرد لەوەی سات بە ساتی بەسەرھاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He insisted on giving us a blow-by-blow account of what had happened."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێداگری کرد لەوەی سات بە ساتی بەسەرھاتەکەمان بۆ بگێڕێتەوە کە چی ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -165,11 +165,18 @@ class EnglishEntrybrusqueness extends StatelessWidget {
 ١. (ناو) ھەڵسوکەوتێک یان قسەکردنێک کە خێرا و بێ‌ڕێزانەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "New Yorkers have a reputation for brusqueness."),
-                              const ExampleSentenceKurdish(
-                                  text: "نیویۆرکییەکان ناسراون بۆ پەلەکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "New Yorkers have a reputation for brusqueness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیویۆرکییەکان ناسراون بۆ پەلەکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brusqueness" as
                               Column(
                                 children: [

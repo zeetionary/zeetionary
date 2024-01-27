@@ -172,12 +172,18 @@ class EnglishEntrybackwater extends StatelessWidget {
 ١. (ناو) بەشێکی دابڕاوی ڕووبارێک کە ئاو تێیدا ناجوڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We tied the boat up in a quiet backwater overnight."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەو بەلەمەکەمان لە گۆلاوێکی ھێمندا بەستەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We tied the boat up in a quiet backwater overnight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەو بەلەمەکەمان لە گۆلاوێکی ھێمندا بەستەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,18 @@ class EnglishEntrybackwater extends StatelessWidget {
 ٢. (ناو) شوێنێکی دابڕاو لە ئەو شوێنەی ڕووداوی گرنگ تێیدا ڕوودەدات و بەم ھۆیەش درەنگ داھێنان و گۆڕانکاری پێدەگات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He grew up in a rural backwater."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە لاپەڕێکی لادێنشیندا گەورە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He grew up in a rural backwater."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە لاپەڕێکی لادێنشیندا گەورە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

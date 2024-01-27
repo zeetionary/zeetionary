@@ -300,10 +300,16 @@ class EnglishEntrybite extends StatelessWidget {
 ١. (کردار) قەپگرتن، گازگرتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Does your dog bite?"),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگەکەت گاز دەگرێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Does your dog bite?"),
+                                    ExampleSentenceKurdish(
+                                        text: "سەگەکەت گاز دەگرێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -322,10 +328,18 @@ class EnglishEntrybite extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She bit into a ripe juicy pear."),
-                              const ExampleSentenceKurdish(
-                                  text: "گازی لە ھەرمێیەکی ئاوداری گەییو گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bit into a ripe juicy pear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گازی لە ھەرمێیەکی ئاوداری گەییو گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -345,10 +359,18 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "٢. (کردار) گازگرتنی مێروو، مار، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Most European spiders don't bite."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرینەی جاڵجاڵۆکەی ئەورووپی ناگەزن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most European spiders don't bite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی جاڵجاڵۆکەی ئەورووپی ناگەزن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -369,10 +391,17 @@ class EnglishEntrybite extends StatelessWidget {
                                   "٣. (کردار) کە ماسییەک دەبێت بە قولابێکەوە بە قەپگرتن لە سەرەکەی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The fish aren't biting today."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماسییەکان ئەمڕۆ نابنە قولابەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The fish aren't biting today."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسییەکان ئەمڕۆ نابنە قولابەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -392,10 +421,18 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "٤. (کردار) ھەبوونی کاریگەرییەکی ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The recession is beginning to bite."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەیرانەکە دەست بە خەستبوونەوە دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The recession is beginning to bite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەیرانەکە دەست بە خەستبوونەوە دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -415,11 +452,17 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "٥. (ناو) قەپگرتن، گازگرتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He took a bite (= bit a piece) out of the apple."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەپێکی لە سێوەکە گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He took a bite (= bit a piece) out of the apple."),
+                                    ExampleSentenceKurdish(
+                                        text: "قەپێکی لە سێوەکە گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -440,12 +483,18 @@ class EnglishEntrybite extends StatelessWidget {
                                   "٦. (ناو) شێوازی پێکەوەلکانی بەشی سەرەوە و خوارەوەی ددان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has to wear a brace to correct his bite."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبوو تێلێک ببەستێ بۆ ڕێککردنەوەی ددانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has to wear a brace to correct his bite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبوو تێلێک ببەستێ بۆ ڕێککردنەوەی ددانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -465,11 +514,18 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "٧. (ناو) پاروویەک لە خواردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He didn't eat a bite of his dinner (= he ate nothing)."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاروویەک لە نانی ئێوارەی نەخوارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He didn't eat a bite of his dinner (= he ate nothing)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاروویەک لە نانی ئێوارەی نەخوارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -489,12 +545,18 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "٨. (ناو) خواردنێکی کەم"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We just have time for a bite to eat before the movie."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتمان ھەیە تەنھا بۆ کەمێک خواردن ھەیە پێش فیلمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We just have time for a bite to eat before the movie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتمان ھەیە تەنھا بۆ کەمێک خواردن ھەیە پێش فیلمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -514,10 +576,17 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "٩. (ناو) برین بە گازی ئاژەڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There was a bite mark on his arm."),
-                              const ExampleSentenceKurdish(
-                                  text: "برینی گازێک لەسەر باڵی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a bite mark on his arm."),
+                                    ExampleSentenceKurdish(
+                                        text: "برینی گازێک لەسەر باڵی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -537,12 +606,18 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "١٠. (ناو) تامێکی بەھێزی خۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cheese will add extra bite to any pasta dish."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنیر تامێکی بەلەزەت بۆ پاستا زیاد دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cheese will add extra bite to any pasta dish."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنیر تامێکی بەلەزەت بۆ پاستا زیاد دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -562,10 +637,17 @@ class EnglishEntrybite extends StatelessWidget {
                               text: "١١. (ناو) سەرمایەک لە ھەوادا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There's a bite in the air tonight."),
-                              const ExampleSentenceKurdish(
-                                  text: "کزەیەک ھەیە لە ھەوادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a bite in the air tonight."),
+                                    ExampleSentenceKurdish(
+                                        text: "کزەیەک ھەیە لە ھەوادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -586,10 +668,18 @@ class EnglishEntrybite extends StatelessWidget {
                                   "١٢. (ناو) خاسیەتێک کە وا دەکات شتێک بەھێز یان کاریگەر بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The performance had no bite to it."),
-                              const ExampleSentenceKurdish(
-                                  text: "نمایشەکە ھیچ تایبەتییەکی نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The performance had no bite to it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نمایشەکە ھیچ تایبەتییەکی نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -610,12 +700,18 @@ class EnglishEntrybite extends StatelessWidget {
                                   "١٣. (ناو) ماسییەک قەپ لە قولابێک بگرێت پێوە ببێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fishermen waited all afternoon for a bite."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماسیگرەکە تەواوی نیوەڕۆکە چاوەڕێ بوو ماسییەک پێوە ببێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fishermen waited all afternoon for a bite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسیگرەکە تەواوی نیوەڕۆکە چاوەڕێ بوو ماسییەک پێوە ببێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

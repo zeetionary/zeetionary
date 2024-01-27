@@ -304,10 +304,17 @@ class EnglishEntrybreach extends StatelessWidget {
 ١. (ناو) نەکردنی شتێک کە بەپێی یاسا دەبێت بکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They are in breach of Article 119."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێشێلی مادەی ١١٩ یان کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are in breach of Article 119."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێشێلی مادەی ١١٩ یان کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -324,11 +331,18 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was sued for breach of contract."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکاڵای لەسەر تۆمارکرا بۆ پێشێلی ڕێککەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was sued for breach of contract."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکاڵای لەسەر تۆمارکرا بۆ پێشێلی ڕێککەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -348,12 +362,18 @@ class EnglishEntrybreach extends StatelessWidget {
                                   "٢. (ناو) ڕەفتارێک کە پێچەوانەی ڕێککەوتن و نەریتە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He refused to shake hands, in deliberate breach of etiquette."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەتیکردەوە تەوقە بکات بەپێچەوانەی ئەوەی ئەتەکیەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He refused to shake hands, in deliberate breach of etiquette."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەتیکردەوە تەوقە بکات بەپێچەوانەی ئەوەی ئەتەکیەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -370,12 +390,18 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Such actions constitute a breach of confidentiality."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەفتاری وەھا یەکسانە بە لادان لە متمانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Such actions constitute a breach of confidentiality."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەفتاری وەھا یەکسانە بە لادان لە متمانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -395,12 +421,18 @@ class EnglishEntrybreach extends StatelessWidget {
                                   "٣. (ناو) نەمانی پەیوەندی نێوان دوو کەس یان وڵات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The disagreement caused a serious breach in Franco-German relations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناکۆکییەکە بەوو بەھۆی پچڕانێکی توندی پەیوەندییەکانی نێوان فەرەنسا و ئەڵمانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The disagreement caused a serious breach in Franco-German relations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناکۆکییەکە بەوو بەھۆی پچڕانێکی توندی پەیوەندییەکانی نێوان فەرەنسا و ئەڵمانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -420,12 +452,18 @@ class EnglishEntrybreach extends StatelessWidget {
                                   "٤. (ناو) شوێنێکی کراوە، بۆ نموونە شوێنێک کە لێیەوە ھێرش دەکرێت یان با و شەپۆل دێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They escaped through a breach in the wire fence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵھاتن بە کەلێنێک لە پەرژینە وایەرییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They escaped through a breach in the wire fence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵھاتن بە کەلێنێک لە پەرژینە وایەرییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -442,12 +480,18 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The mortars blew a large breach in the castle walls."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوەنەکان کەلێنێکی گەورەیان کردە دیوارەکانی قەڵاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The mortars blew a large breach in the castle walls."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوەنەکان کەلێنێکی گەورەیان کردە دیوارەکانی قەڵاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -464,12 +508,18 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A breach in the mountain wall permits warm sea air to penetrate inland."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەلێنێک لە بەرزایی شاخەکەدا ڕێگە بە ھەوای گەرمی دەریاکە دەدات بۆ ناو ناوچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A breach in the mountain wall permits warm sea air to penetrate inland."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەلێنێک لە بەرزایی شاخەکەدا ڕێگە بە ھەوای گەرمی دەریاکە دەدات بۆ ناو ناوچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -488,12 +538,18 @@ class EnglishEntrybreach extends StatelessWidget {
                               text: "٥. (کردار) شکاندنی بەڵێن یان ڕێککەوتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government is accused of breaching the terms of the treaty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت تۆمەتبارکراوە بە شکاندنی مەرجەکانی ڕێککەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government is accused of breaching the terms of the treaty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت تۆمەتبارکراوە بە شکاندنی مەرجەکانی ڕێککەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -510,12 +566,18 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They breached the agreement they had made with their employer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بەڵێنەیان شکاند کە دایان بوو بە خاوەنکارەکەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They breached the agreement they had made with their employer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بەڵێنەیان شکاند کە دایان بوو بە خاوەنکارەکەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -535,10 +597,16 @@ class EnglishEntrybreach extends StatelessWidget {
                                   "٦. (کردار) درووستکردنی کەلێنێک لە شوێنێکدا بۆ تێپەڕین بە ناویدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dam had been breached."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەنداوەکە شەقبووبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The dam had been breached."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەنداوەکە شەقبووبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -555,12 +623,18 @@ class EnglishEntrybreach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Demonstrators breached police lines around the embassy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆپیشاندەران ڕیزەکانی پۆلیسیان تێپەڕاند بە دەوری باڵیۆزخانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Demonstrators breached police lines around the embassy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆپیشاندەران ڕیزەکانی پۆلیسیان تێپەڕاند بە دەوری باڵیۆزخانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

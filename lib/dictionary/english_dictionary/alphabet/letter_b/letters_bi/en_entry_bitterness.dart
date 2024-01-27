@@ -170,12 +170,18 @@ class EnglishEntrybitterness extends StatelessWidget {
 ١. (ناو) ھەستی تووڕەیی و دڵتەنگی بەھۆی ئەوەی پێت وایە خراپ مامەڵەت لەگەڵ کراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was full of bitterness after he lost his job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕ لە تووڕەیی بوو کە کارەکەی لەدەستدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was full of bitterness after he lost his job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕ لە تووڕەیی بوو کە کارەکەی لەدەستدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybitterness extends StatelessWidget {
                                   "٢. (ناو) گفتوگۆیەک یان مشتومڕێکی توند بەھۆی ئەوەی ڕق و تووڕەیی زۆرەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bitterness of the argument left a lasting impact on their relationship."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێھێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bitterness of the argument left a lasting impact on their relationship."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاڵی مشتومڕەکە کاریگەرییەکی بەردەوامی لەسەر پەیوەندییان جێھێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntrybitterness extends StatelessWidget {
                               text: "٣. (ناو) شتێک، بۆ نموونە خواردن، کە تاڵە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The medicine had a strong bitterness that lingered on the tongue."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرمانەکە تاڵییەکی توندی ھەبوو کە لەسەر زمان مایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The medicine had a strong bitterness that lingered on the tongue."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرمانەکە تاڵییەکی توندی ھەبوو کە لەسەر زمان مایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

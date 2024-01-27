@@ -169,11 +169,17 @@ class EnglishEntrybishopric extends StatelessWidget {
 ١. (ناو) ھەبوونی پلەی قەشەی باڵا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "speakBishoprics111111111111111111111111111111111"),
-                              const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "speakBishoprics111111111111111111111111111111111"),
+                                    ExampleSentenceKurdish(
+                                        text: "رستە_رستە_رستە_رستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybishopric extends StatelessWidget {
 ٢. (ناو) ئەو ناوچەیەی کە سەرقەشەیەک سەرپەرشتی دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bishopric of Canterbury encompassed numerous villages and towns in medieval England."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bishopric of Canterbury encompassed numerous villages and towns in medieval England."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەڵبەندی سەرقەشەی کانتبری ژمارەیەک لە گوند و شارۆچکەی لەخۆدەگرت لە سەدەکانی ناوەڕاستی ئینگلتەرە (ساڵانی ١٠٠٠ بۆ ١٤٥٠ی زاینی)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

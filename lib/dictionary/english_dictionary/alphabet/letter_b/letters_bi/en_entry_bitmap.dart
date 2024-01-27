@@ -167,12 +167,18 @@ class EnglishEntrybitmap extends StatelessWidget {
 ١. (کردار) بیتمەپ؛ کۆگاکردنی وێنەیەک بە ژمارەیەکی دیاریکراوەوە لە بیت (یەکەی زانیاری) بۆ ھەر یەکەیەکی وێنەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The artist decided to bitmap the image to achieve a more detailed visual effect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھونەرمەندەکە بڕیاری دا وێنەکە بە بیتماپ کۆگا بکات بۆ بەدەستھێنانی وێنایەکی دیداری وردتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The artist decided to bitmap the image to achieve a more detailed visual effect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھونەرمەندەکە بڕیاری دا وێنەکە بە بیتماپ کۆگا بکات بۆ بەدەستھێنانی وێنایەکی دیداری وردتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybitmap extends StatelessWidget {
                                   "٢. (ناو) ڕێگای کۆگاکردنی وێنەیەک بە ژمارەیەکی دیاریکراوەوە لە بیت (یەکەی زانیاری) بۆ ھەر یەکەیەکی وێنەکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The digital photograph was stored as a bitmap, allowing precise control over individual pixels."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێنە دیجیتاڵییەکە بە بیتماپ کۆگاکرا کە ڕێگا بە کۆنترۆڵی ورد دەدات بەسەر دانە بە دانەی پیکسڵەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The digital photograph was stored as a bitmap, allowing precise control over individual pixels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێنە دیجیتاڵییەکە بە بیتماپ کۆگاکرا کە ڕێگا بە کۆنترۆڵی ورد دەدات بەسەر دانە بە دانەی پیکسڵەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

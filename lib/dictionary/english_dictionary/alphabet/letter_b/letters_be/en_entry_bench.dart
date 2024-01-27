@@ -174,12 +174,18 @@ class EnglishEntrybench extends StatelessWidget {
 ١. (ناو) کوورسیەکی درێژ کە بۆ دوو کەس یان زیاترە و زۆرجار لە تەختەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The park was filled with families sitting on benches and enjoying the sunshine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The park was filled with families sitting on benches and enjoying the sunshine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارکەکە پڕبوو لە کورسی کە خێزان لەسەری دانیشتبوون و چێژیان لە خۆرەتاوەکە دەبینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,11 +205,17 @@ class EnglishEntrybench extends StatelessWidget {
 ٢. (ناو) دادوەرێک لە دادگادا، یان جێگەی دانیشتنەکەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has recently been appointed to the bench."),
-                              const ExampleSentenceKurdish(
-                                  text: "تازەگی وەک دادوەر دیاریکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has recently been appointed to the bench."),
+                                    ExampleSentenceKurdish(
+                                        text: "تازەگی وەک دادوەر دیاریکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,12 +235,18 @@ class EnglishEntrybench extends StatelessWidget {
 ٣. (ناو) (لە پەرلەمانی بەریتانیا) کورسی ئەندام پەرلەمانەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was lots of jeering from the Labour benches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was lots of jeering from the Labour benches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرا و ھاوارێکی زۆر لە کورسی پارتی کرێکارانەوە دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -248,12 +266,18 @@ class EnglishEntrybench extends StatelessWidget {
 ٤. (ناو) ئەو کورسیانەی یاریزانانی یەدەگ لەسەری دادەنیشن لە یارییەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's sick of spending every game on the bench."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's sick of spending every game on the bench."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێزار بووە لەوەی ھەموو یارییەک لەسەر کورسی یەدەگ دابنیشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -273,12 +297,18 @@ class EnglishEntrybench extends StatelessWidget {
 ٥. (ناو) مێزێکی گەورە بۆ کارکردن لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most of the work constructing these objects is done at a bench."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most of the work constructing these objects is done at a bench."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی کارەکانی درووستکردنی ئەم شتانە لەسەر مێزێک دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

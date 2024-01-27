@@ -171,9 +171,15 @@ class EnglishEntrybeer extends StatelessWidget {
 ١. (ناو) مادەیەکی کحولییە کە لە چەقەرەی وشکەوەبووی جۆ درووست دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Are you a beer drinker?"),
-                              const ExampleSentenceKurdish(text: "بیرەخۆریت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Are you a beer drinker?"),
+                                    ExampleSentenceKurdish(text: "بیرەخۆریت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybeer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Put the beer in the fridge to chill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیرەکە بخە ساردکەرەوەکەوە بۆ ئەوەی سارد ببێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put the beer in the fridge to chill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرەکە بخە ساردکەرەوەکەوە بۆ ئەوەی سارد ببێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,10 +228,18 @@ class EnglishEntrybeer extends StatelessWidget {
 ٢. (ناو) گڵاسێک یان قوتوویەک بیرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "David bought us a couple of beers."),
-                              const ExampleSentenceKurdish(
-                                  text: "دایڤد ژمارەیەک قوتووە بیرەی بۆ کڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "David bought us a couple of beers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایڤد ژمارەیەک قوتووە بیرەی بۆ کڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

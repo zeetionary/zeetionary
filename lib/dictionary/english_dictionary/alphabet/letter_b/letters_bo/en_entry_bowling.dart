@@ -165,10 +165,17 @@ class EnglishEntrybowling extends StatelessWidget {
 ١. (ناو) بۆوڵینگ؛ یارییەکە کە یاریزانان تۆپ خلۆردەکەنەوە بەرەو کۆمەڵە شتێکی وەستاو کە شێوەیان وەک بوتڵ وان و ھەوڵ دەدات ھەتا بکرێت زیاتریان لێ بکەوێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's go bowling on Saturday."),
-                              const ExampleSentenceKurdish(
-                                  text: "با ڕۆژی شەممە بچین بۆ یاری بۆوڵینگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's go bowling on Saturday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با ڕۆژی شەممە بچین بۆ یاری بۆوڵینگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +195,18 @@ class EnglishEntrybowling extends StatelessWidget {
                                   "٢. (ناو) لە یاری کرکیتدا ھەڵدانی تۆپەکە بۆ ئەو کەسەی لە تۆپەکە دەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "England were no match for the Indian bowling attack."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئینگلیزەکان بەرگەی ھێرشی ھاویشتنی ھندییەکانیان نەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "England were no match for the Indian bowling attack."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئینگلیزەکان بەرگەی ھێرشی ھاویشتنی ھندییەکانیان نەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

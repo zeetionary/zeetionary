@@ -173,12 +173,18 @@ class EnglishEntrybeast extends StatelessWidget {
 ١. (ناو) ئاژەڵێکی ترسناک و گەورە، زیاتر یەکێک کە دەگمەنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was ripped apart by wild beasts in the forest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچەپارچە کرا لەلایەن دڕندەی کێوییەوە لە دارستانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was ripped apart by wild beasts in the forest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچەپارچە کرا لەلایەن دڕندەی کێوییەوە لە دارستانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybeast extends StatelessWidget {
 ٢. (ناو) کەسێک کە زۆردارە و ڕەفتاری کۆنترۆڵ نەکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The beast in her wanted to destroy his house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڕندەکەی ناخی دەیویست ماڵەکەی وێران بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The beast in her wanted to destroy his house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڕندەکەی ناخی دەیویست ماڵەکەی وێران بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,11 +235,18 @@ class EnglishEntrybeast extends StatelessWidget {
 ٣. (ناو) شتێک یان کەسێکی ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The maths exam was a real beast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاقیکردنەوەی بیرکاری سەرێشەیەکی تەواو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The maths exam was a real beast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقیکردنەوەی بیرکاری سەرێشەیەکی تەواو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,11 +266,18 @@ class EnglishEntrybeast extends StatelessWidget {
 ٤. (ناو) شتێک کە خاسیەتی تایبەتی خۆی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His new guitar is a very expensive beast."),
-                              const ExampleSentenceKurdish(
-                                  text: "گیتارە تازەکەی دانەیەکی زۆر گرانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His new guitar is a very expensive beast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیتارە تازەکەی دانەیەکی زۆر گرانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntryboredom extends StatelessWidget {
 ١. (ناو) ھەستی بێزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Television helps to relieve the boredom of the long winter evenings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەلەفیزیۆن دەکرێت یارمەتیدەر بێت لە سووککردنی بێزاربوون لە شەوانی درێژی زستان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Television helps to relieve the boredom of the long winter evenings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەلەفیزیۆن دەکرێت یارمەتیدەر بێت لە سووککردنی بێزاربوون لە شەوانی درێژی زستان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntryboredom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They started quarrelling out of sheer boredom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستیان بە مشتومڕ کرد تەنھا لە بێزاریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They started quarrelling out of sheer boredom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستیان بە مشتومڕ کرد تەنھا لە بێزاریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

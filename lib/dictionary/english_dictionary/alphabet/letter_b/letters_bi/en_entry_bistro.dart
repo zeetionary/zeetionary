@@ -170,12 +170,18 @@ class EnglishEntrybistro extends StatelessWidget {
 ١. (ناو) چێشتخانەیەکی بچووک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The neighborhood bistro offered classic French dishes with a modern twist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردنگەی گەڕەکەکە خواردنی ڕەسەنی فەرەنسی پێشکەش دەکرد بە گۆڕانکاریی سەردەمیانەوە.."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The neighborhood bistro offered classic French dishes with a modern twist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنگەی گەڕەکەکە خواردنی ڕەسەنی فەرەنسی پێشکەش دەکرد بە گۆڕانکاریی سەردەمیانەوە.."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

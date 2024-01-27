@@ -170,12 +170,18 @@ class EnglishEntrybounty extends StatelessWidget {
 ١. (ھاوەڵناو) بەخشندەیی و دەستکراوەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The charity is totally dependent on the Church's bounty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخراوە خێرخوازییەکە بە تەواوی پشت دەبەستێت بە بەخشندەیی کڵێساکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The charity is totally dependent on the Church's bounty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخراوە خێرخوازییەکە بە تەواوی پشت دەبەستێت بە بەخشندەیی کڵێساکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybounty extends StatelessWidget {
                               text: "٢. (ناو) پارەیەک کە وەک پاداشت دەدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bounty of £10,000 has been offered for the capture of his murderer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاداشتی ١٠,٠٠٠ پاوەند دانراوە بۆ دەستگیرکردنی بکووژەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bounty of £10,000 has been offered for the capture of his murderer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاداشتی ١٠,٠٠٠ پاوەند دانراوە بۆ دەستگیرکردنی بکووژەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

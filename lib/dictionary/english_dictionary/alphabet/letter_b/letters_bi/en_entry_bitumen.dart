@@ -168,12 +168,18 @@ class EnglishEntrybitumen extends StatelessWidget {
 ١. (ناو) مادەیەکی پێوەنووسەرە کە بەکاردێت بۆ داپۆشینی ڕێگا و سەربان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bitumen's adhesive properties make it an ideal material for waterproofing roofs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاسیەتی پێوەنووسان لە ئیزووگامدا وا دەکات ببێت بە مادەیەکی باش دژ بە ئاو بۆ سەربان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bitumen's adhesive properties make it an ideal material for waterproofing roofs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاسیەتی پێوەنووسان لە ئیزووگامدا وا دەکات ببێت بە مادەیەکی باش دژ بە ئاو بۆ سەربان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

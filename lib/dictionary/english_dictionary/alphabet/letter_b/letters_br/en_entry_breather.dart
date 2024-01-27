@@ -165,10 +165,18 @@ class EnglishEntrybreather extends StatelessWidget {
 ١. (ھاوەڵناو) پشوویەکی کورت بۆ حاسەناوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tell me when you need a breather."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێم بڵێ کە پێویستت بە حەسانەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tell me when you need a breather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم بڵێ کە پێویستت بە حەسانەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breather" as
                               Column(
                                 children: [
@@ -185,12 +193,18 @@ class EnglishEntrybreather extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He'd been working hard and felt he needed (to take) a breather."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سەختی کاری کردبوو و ھەستی کرد کە پێویستی بە پشوویەک ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He'd been working hard and felt he needed (to take) a breather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سەختی کاری کردبوو و ھەستی کرد کە پێویستی بە پشوویەک ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

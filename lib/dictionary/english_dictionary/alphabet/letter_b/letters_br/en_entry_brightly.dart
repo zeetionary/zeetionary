@@ -164,10 +164,17 @@ class EnglishEntrybrightly extends StatelessWidget {
 ١. (ھاوەڵکار) بەدرەوشاوەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The sun was shining brightly."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆر بە پڕتیشکانەوە دەدرەوشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The sun was shining brightly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆر بە پڕتیشکانەوە دەدرەوشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brightly" as
                               Column(
                                 children: [

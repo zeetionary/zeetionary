@@ -172,12 +172,18 @@ class EnglishEntryblade extends StatelessWidget {
 ١. (ناو) دەمی چەقۆیەک یان ئامێرێک کە بەکاردێت بۆ بڕین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Knife blades are generally made of stainless steel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمی چەقۆ بەشێوەیەکی گشتی لە پۆڵای ژەنگنەھێن درووست دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Knife blades are generally made of stainless steel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمی چەقۆ بەشێوەیەکی گشتی لە پۆڵای ژەنگنەھێن درووست دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryblade extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prisoner used a hacksaw blade to cut through the bars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیندانییەکە دەمی ھەڕەیەکی بەکارھێنا بۆ دەربازبوون بە بەربەستەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prisoner used a hacksaw blade to cut through the bars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیندانییەکە دەمی ھەڕەیەکی بەکارھێنا بۆ دەربازبوون بە بەربەستەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntryblade extends StatelessWidget {
                               text: "٢. (ناو) باڵی پانکەیەک یان بزوێنەرێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The helicopter's blades whirred as it lifted off the ground."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵەکانی ھەلیکۆپتەرەکە ھاژەی دەھات کە بەرزدەبوویەوە لە زەوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The helicopter's blades whirred as it lifted off the ground."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵەکانی ھەلیکۆپتەرەکە ھاژەی دەھات کە بەرزدەبوویەوە لە زەوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +265,18 @@ class EnglishEntryblade extends StatelessWidget {
                                   "٣. (ناو) ئەو بەشەی سەوڵ کە دەخرێتە ئاوەوە بۆ جوڵان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rower dipped the blade of the oar into the water, propelling the boat forward."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەوڵلێدەرەکە دەمی سەوڵەکەی خستە ناو ئاوەکە و بەلەمەکە بۆ پێشەوە جوڵا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rower dipped the blade of the oar into the water, propelling the boat forward."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەوڵلێدەرەکە دەمی سەوڵەکەی خستە ناو ئاوەکە و بەلەمەکە بۆ پێشەوە جوڵا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -272,10 +296,16 @@ class EnglishEntryblade extends StatelessWidget {
                               text: "٤. (ناو) یەک دەنکە گەڵای گیایەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Not a blade of grass stirred."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەک دەنکە گەڵاش نەجوڵا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Not a blade of grass stirred."),
+                                    ExampleSentenceKurdish(
+                                        text: "یەک دەنکە گەڵاش نەجوڵا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,12 +166,18 @@ class EnglishEntrybraise extends StatelessWidget {
 ١. (کردار) لێنانی گۆشت و سەوزە زۆر بەھێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The liver is then braised in olive oil."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جگەرەکە دواتر دەکوڵێندرێت بە ھێواشی لە زەیتی زەیتووندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The liver is then braised in olive oil."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جگەرەکە دواتر دەکوڵێندرێت بە ھێواشی لە زەیتی زەیتووندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

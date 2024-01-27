@@ -172,12 +172,18 @@ class EnglishEntrybetray extends StatelessWidget {
 ١. (کردار) پێدانی زانیاری بە دووژمن یان ڕکابەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was offered money to betray his colleagues."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەی پێدرا تا ناپاکی لە ھاوڕێکانی بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was offered money to betray his colleagues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەی پێدرا تا ناپاکی لە ھاوڕێکانی بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybetray extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For years they had been betraying state secrets to Russia."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ چەندین ساڵ نھێنی وڵاتیان بە ڕووسیا دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For years they had been betraying state secrets to Russia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ چەندین ساڵ نھێنی وڵاتیان بە ڕووسیا دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybetray extends StatelessWidget {
 ٢. (کردار) ئازاردانی کەسێک کە متمانەی پێتە، بە تایبەتی بە درۆکردن لەگەڵیان یان درۆکردن لەسەریان، یان درکاندنی نھێنیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt betrayed when she found out the truth about him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt betrayed when she found out the truth about him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی بە دڵشکاوی کرد کە ڕاستییەکەی لەسەری زانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +261,18 @@ class EnglishEntrybetray extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She betrayed his trust over and over again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دووبارە و دووبارە خیانەتی لە متمانەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She betrayed his trust over and over again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووبارە و دووبارە خیانەتی لە متمانەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -268,12 +292,18 @@ class EnglishEntrybetray extends StatelessWidget {
 ٣. (کردار) خیانەتکردن لە بەھا و متمانەی خۆت لە پێناو بەدەستھێنانی شتێک یان سوودمەند بوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Critics claim he has betrayed the communist movement for his own gain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم ھێناوە بۆ بەرژەوەندی خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Critics claim he has betrayed the communist movement for his own gain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەخنەگران بانگەشەی ئەوە دەکەن کە وازی لە جوڵانەوەی کۆمیونیزم ھێناوە بۆ بەرژەوەندی خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -293,12 +323,18 @@ class EnglishEntrybetray extends StatelessWidget {
 ٤. (کردار) وتن یان ئاگادارکردنەوەی کەسێک لە زانیارییەک، ھەستێک، ھتد، زۆرجار بەبێ مەبەست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His voice betrayed the worry he was trying to hide."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگی ئەو دڵەخورپەی ئاشکرا کرد کە دەیویست بیشارێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His voice betrayed the worry he was trying to hide."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی ئەو دڵەخورپەی ئاشکرا کرد کە دەیویست بیشارێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

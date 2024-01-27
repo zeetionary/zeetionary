@@ -164,12 +164,18 @@ class EnglishEntrybreakin extends StatelessWidget {
 ١. (ناو) چوونە ناو بینایەک بەزۆر بۆ دزی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police were called to three break-ins in the same area last night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس بانگکران بۆ سێ ڕووداوی دزەکردن لە ھەمان ناوچە شەوی ڕابردوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police were called to three break-ins in the same area last night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس بانگکران بۆ سێ ڕووداوی دزەکردن لە ھەمان ناوچە شەوی ڕابردوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

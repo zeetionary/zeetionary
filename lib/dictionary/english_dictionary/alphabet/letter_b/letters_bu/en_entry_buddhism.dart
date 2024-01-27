@@ -166,10 +166,17 @@ class EnglishEntrybuddhism extends StatelessWidget {
 ١. (ناو) بودیزم؛ ئاینێکی ھندی کە زۆرێک لە خەڵکی ئاسیا شوێنی دەکەون و پشتی بە وانەکانی سیدارتا گاوتاما بەستووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She became interested in Buddhism."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزی چوو بۆ بودیزم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She became interested in Buddhism."),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزی چوو بۆ بودیزم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "Buddhism" as
                               Column(
                                 children: [
@@ -186,12 +193,18 @@ class EnglishEntrybuddhism extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The practice of meditation is a very important part of Buddhism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاھێنانی قووڵ‌بوونەوە بەشێکی سەرەکی بودیزمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The practice of meditation is a very important part of Buddhism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاھێنانی قووڵ‌بوونەوە بەشێکی سەرەکی بودیزمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +221,18 @@ class EnglishEntrybuddhism extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This book gives basic history and information about Buddhism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کتێبە مێژوو و زانیاری سەرەتایی لەسەر بودیزم دەخاتەڕوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This book gives basic history and information about Buddhism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کتێبە مێژوو و زانیاری سەرەتایی لەسەر بودیزم دەخاتەڕوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

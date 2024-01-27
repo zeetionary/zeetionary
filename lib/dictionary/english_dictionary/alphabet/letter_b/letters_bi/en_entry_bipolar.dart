@@ -174,12 +174,18 @@ class EnglishEntrybipolar extends StatelessWidget {
 ١. (ناو) کەسێک کە تووشبووی دووجەمسەرییە (نەخۆشییەکی دەروونی کە تێیدا کەسێک ماوەیەک ھەست بە بێزاری زۆر دەکات و ماوەیەک ھەست بە چالاکی و جۆش و خرۆشی زۆردەکات بە وزەیەکی زۆرەوە)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many bipolars find effective treatments through therapy and medication."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک لە تووشبووانی دووجەمسەری چارەسەری کاریگەر دەدۆزنەوە لە ڕێگەی چارەسەر و دەوا و دەرمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many bipolars find effective treatments through therapy and medication."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک لە تووشبووانی دووجەمسەری چارەسەری کاریگەر دەدۆزنەوە لە ڕێگەی چارەسەر و دەوا و دەرمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybipolar extends StatelessWidget {
 ٢. (ھاوەڵناو) تووشبووی دووجەمسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has three children, including a bipolar daughter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has three children, including a bipolar daughter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ منداڵی ھەیە، لە نێوانیاندا کچێک کە دووجەمسەری ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

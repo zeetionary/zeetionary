@@ -171,10 +171,16 @@ class EnglishEntrybeautifully extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی جوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She sings beautifully."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەجوانی گۆرانی دەڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She sings beautifully."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەجوانی گۆرانی دەڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +200,16 @@ class EnglishEntrybeautifully extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She dresses beautifully."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەجوانی خۆی دەپۆشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She dresses beautifully."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەجوانی خۆی دەپۆشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +231,17 @@ class EnglishEntrybeautifully extends StatelessWidget {
 ٢. (ھاوەڵکار) زۆر باش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's all working out beautifully."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمووی بە باشی دەچێت بەڕێوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's all working out beautifully."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەمووی بە باشی دەچێت بەڕێوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,10 +261,16 @@ class EnglishEntrybeautifully extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My leg has healed beautifully."),
-                              const ExampleSentenceKurdish(
-                                  text: "لاقم بە باشی خۆشبووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My leg has healed beautifully."),
+                                    ExampleSentenceKurdish(
+                                        text: "لاقم بە باشی خۆشبووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

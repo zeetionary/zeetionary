@@ -170,12 +170,18 @@ class EnglishEntrybeery extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی بۆنی بیرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She leaned away from his beery breath."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی دوورخست لە ھەناسەکەی کە بۆنی بیرەی لێ دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She leaned away from his beery breath."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی دوورخست لە ھەناسەکەی کە بۆنی بیرەی لێ دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,10 +169,16 @@ class EnglishEntrybugger extends StatelessWidget {
 ١. (ناو) وشەیەک بۆ پیشاندانی تووڕەیی و بێزاری لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Come here, you little bugger!"),
-                              const ExampleSentenceKurdish(
-                                  text: "وەرە ئێرە قێزەونی بچووک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Come here, you little bugger!"),
+                                    ExampleSentenceKurdish(
+                                        text: "وەرە ئێرە قێزەونی بچووک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bugger" as
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybugger extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The stupid bugger's given me the wrong number!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو هیچی گەمژە ژمارەیەکی هەڵەی پێداوم!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The stupid bugger's given me the wrong number!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو هیچی گەمژە ژمارەیەکی هەڵەی پێداوم!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +226,18 @@ class EnglishEntrybugger extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە خۆشەویستی یان بەزەییت بۆی هەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Poor bugger! His wife left him last week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داماوی هەژارە! ژنەکەی هەفتەی پێشوو جێیهێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Poor bugger! His wife left him last week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داماوی هەژارە! ژنەکەی هەفتەی پێشوو جێیهێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,10 +257,17 @@ class EnglishEntrybugger extends StatelessWidget {
                                   "٣. (ناو) شتێک کە گرانە یان کێشە درووست دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Question 6 is a real bugger."),
-                              const ExampleSentenceKurdish(
-                                  text: "پرسیاری شەشەم سەرێشەیەکی تەواوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Question 6 is a real bugger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پرسیاری شەشەم سەرێشەیەکی تەواوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +286,18 @@ class EnglishEntrybugger extends StatelessWidget {
                               text: "٤. (کردار) بۆ بێزاری دەربڕین لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Oh, bugger the cost! Let's get it anyway."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخەکەی بە نەفرەت بکە! با بیبەین هەرچۆنێک بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Oh, bugger the cost! Let's get it anyway."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخەکەی بە نەفرەت بکە! با بیبەین هەرچۆنێک بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,10 +317,18 @@ class EnglishEntrybugger extends StatelessWidget {
                                   "٥. (کردار) شکاندن یان گەیاندنێکی زۆر بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I think I've buggered the computer."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێم‌وایە کۆمپیوتەرەکەم داڕزاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think I've buggered the computer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌وایە کۆمپیوتەرەکەم داڕزاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -311,7 +350,7 @@ class EnglishEntrybugger extends StatelessWidget {
                           // const ExampleSentenceEnglish(
                           // text:
                           // "speak3s111111111111111111111111111111111"),
-                          // const ExampleSentenceKurdish(
+                          // ExampleSentenceKurdish(
                           // text: "رستە_رستە_رستە_رستە."),
                           // const CustomSizedBoxForTTS(),
                           // Column(

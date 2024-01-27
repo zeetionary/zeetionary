@@ -170,12 +170,18 @@ class EnglishEntrybounds extends StatelessWidget {
 ١. (ناو) سنووری یاسایی یان کۆمەڵایەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I am afraid your behaviour was beyond the bounds of decency."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەداخەوەم کە ھەڵسوکەوتت لە دەرەوەی سنوورەکانی داب و دەستوور بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I am afraid your behaviour was beyond the bounds of decency."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەداخەوەم کە ھەڵسوکەوتت لە دەرەوەی سنوورەکانی داب و دەستوور بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +198,17 @@ class EnglishEntrybounds extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His enthusiasm knew no bounds (= was very great)."),
-                              const ExampleSentenceKurdish(
-                                  text: "جۆش‌وخرۆشییەکەی سنووری نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His enthusiasm knew no bounds (= was very great)."),
+                                    ExampleSentenceKurdish(
+                                        text: "جۆش‌وخرۆشییەکەی سنووری نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,12 +166,18 @@ class EnglishEntryboobyprize extends StatelessWidget {
 ١. (ناو) خەڵاتێک کە وەک گاڵتە دەدرێت بە کەسێک کە پلەی کۆتایی دەبێت لە پێشبڕکێیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The booby prize was awarded to the worst singer in the competition."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵاتی گاڵتەیی درا بە خراپترین گۆرانیبێژ لە پێشبڕکێیەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The booby prize was awarded to the worst singer in the competition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵاتی گاڵتەیی درا بە خراپترین گۆرانیبێژ لە پێشبڕکێیەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

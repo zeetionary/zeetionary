@@ -171,12 +171,18 @@ class EnglishEntrybeware extends StatelessWidget {
 ١. (کردار) ئاگادارکردنەوە لە مەترسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Motorists have been warned to beware of icy roads."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێران ھۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەھۆڵین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Motorists have been warned to beware of icy roads."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێران ھۆشیارکراونەتەوە ئاگاداربن بۆ ڕێگای سەھۆڵین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybeware extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beware of saying anything that might reveal where you live."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگاداربە لە وتنی ھەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beware of saying anything that might reveal where you live."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگاداربە لە وتنی ھەرشتێک کە ئاشکرای بکات لە کوێ دەژیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

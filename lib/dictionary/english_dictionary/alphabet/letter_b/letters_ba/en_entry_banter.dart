@@ -172,11 +172,18 @@ class EnglishEntrybanter extends StatelessWidget {
 ١. (ناو) نوکتە و گاڵتەوگەپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He enjoyed exchanging banter with the customers."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He enjoyed exchanging banter with the customers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +207,18 @@ class EnglishEntrybanter extends StatelessWidget {
 ٢. (کردار) شۆخیکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bantered with reporters and posed for photographers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bantered with reporters and posed for photographers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

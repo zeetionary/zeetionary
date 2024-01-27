@@ -174,12 +174,18 @@ class EnglishEntryblankcheque extends StatelessWidget {
 ١. (ناو) چەکێک کە بڕی پارەکەی تێدا نەنووسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The generous donor gave the charity a blank cheque to use as needed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەخشەرە دڵفراوانەکە چەکێکی سپی دا بە ڕێکخراوەکە بۆ ئەوەی کە پێویستی کرد بەکاری بێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The generous donor gave the charity a blank cheque to use as needed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخشەرە دڵفراوانەکە چەکێکی سپی دا بە ڕێکخراوەکە بۆ ئەوەی کە پێویستی کرد بەکاری بێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryblankcheque extends StatelessWidget {
                                   "٢. (ناو) دەسەڵات یان مۆڵەت بۆ کردنی ھەر شتێک کە پێویستە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The President was given a blank check by Congress to continue the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک دەسەڵاتی ڕەھای پێدرا لەلایەن کۆنگرێسەوە بۆ بەردەوامی دان بە جەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The President was given a blank check by Congress to continue the war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک دەسەڵاتی ڕەھای پێدرا لەلایەن کۆنگرێسەوە بۆ بەردەوامی دان بە جەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

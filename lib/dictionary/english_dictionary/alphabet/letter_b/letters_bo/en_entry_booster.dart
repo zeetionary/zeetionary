@@ -171,12 +171,18 @@ class EnglishEntrybooster extends StatelessWidget {
 ١. (ناو) مووشەکێک کە ھێزی زیاتر دەدات بە کەشتییەکی ئاسمانی لە کاتی جێھێشتنی زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The booster separated after propelling the spacecraft into space."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووشەکەکە جیابووەوە لەدوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The booster separated after propelling the spacecraft into space."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووشەکەکە جیابووەوە لەدوای ئەوەی کەشتییە ئاسمانییەکەی ناردە بۆشایی ئاسمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybooster extends StatelessWidget {
                                   "٢. (ناو) ئامێرێک کە توانای زیاتر دەدات بە ئامێرێکی کارەبایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A Wi-Fi booster extends the range of internet connectivity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھێزکەری وایفایەکە مەودای پەیوەستبوون بە ئینتەرنێتەوە زیاد دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A Wi-Fi booster extends the range of internet connectivity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھێزکەری وایفایەکە مەودای پەیوەستبوون بە ئینتەرنێتەوە زیاد دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntrybooster extends StatelessWidget {
                                   "٣. (ناو) ڕێژەیەکی کەم لە ڤاکسینی زیادە کە بۆ زیادکردنی توانای یەکێکی تر کە پێشووتر دراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you plan on travelling to North Africa, typhoid and polio boosters are advised."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر پلانت ھەیە گەشت بۆ باکووری ئەفریقا بکەیت، وا باشە کوتانی دژ بە گرانەتا و ئیفلیجی منداڵان وەربگریت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you plan on travelling to North Africa, typhoid and polio boosters are advised."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر پلانت ھەیە گەشت بۆ باکووری ئەفریقا بکەیت، وا باشە کوتانی دژ بە گرانەتا و ئیفلیجی منداڵان وەربگریت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,12 +264,18 @@ class EnglishEntrybooster extends StatelessWidget {
                                   "٤. (ناو) شتێک کە یارمەتیدەر، ھاندەر، یان بەھێزکەر دەبێت بۆ شتێک یان کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Winning this game was a great morale booster for the team."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بردنەوەی ئەم یارییە ورەبەخشەرێکی بەھێز بوو بۆ تیمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Winning this game was a great morale booster for the team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بردنەوەی ئەم یارییە ورەبەخشەرێکی بەھێز بوو بۆ تیمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

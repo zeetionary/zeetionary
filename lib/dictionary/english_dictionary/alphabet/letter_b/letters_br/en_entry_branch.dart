@@ -303,12 +303,18 @@ class EnglishEntrybranch extends StatelessWidget {
 ١. (ناو) لقی دار؛ ئەو بەشەی کە لە قەدەکەوە دەردەچێت و گەڵا و میوە و گوڵ لەسەری گەشە دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She climbed the tree and hid in the branches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەسەر دارەکەدا سەرکەوت و لە لقەکاندا زۆی شاردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She climbed the tree and hid in the branches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەسەر دارەکەدا سەرکەوت و لە لقەکاندا زۆی شاردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -325,12 +331,18 @@ class EnglishEntrybranch extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fruit on the lower branches was protected from the sun."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوەی لقەکانی خوارەوە لە خۆر پارێزراو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fruit on the lower branches was protected from the sun."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوەی لقەکانی خوارەوە لە خۆر پارێزراو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -350,12 +362,18 @@ class EnglishEntrybranch extends StatelessWidget {
                                   "٢. (ناو) ئۆفیسێک یان فرۆشگایەک کە بەشێکە لە کۆمپانیایەکی گەورە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our New York branch is dealing with the matter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لقی نیویۆرکمان مامەڵە لەگەڵ کێشەکە دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our New York branch is dealing with the matter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لقی نیویۆرکمان مامەڵە لەگەڵ کێشەکە دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -372,12 +390,18 @@ class EnglishEntrybranch extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company is opening more local branches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە لقی خۆجێیی زیاتر دەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company is opening more local branches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە لقی خۆجێیی زیاتر دەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -397,12 +421,18 @@ class EnglishEntrybranch extends StatelessWidget {
                                   "٣. (ناو) بەشێک لە حکومەتێک یان دامەزراوەیەک کە مەمەڵە لەگەڵ یەک بەشی کارەکەیدا دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The idea was so popular, other branches of government copied it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیرۆکەکە ھێندە پەسەندکراو بوو بەشەکانی دیکەی حکومەت کۆپییان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The idea was so popular, other branches of government copied it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرۆکەکە ھێندە پەسەندکراو بوو بەشەکانی دیکەی حکومەت کۆپییان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -421,12 +451,18 @@ class EnglishEntrybranch extends StatelessWidget {
                               text: "٤. (ناو) یەکێک لە لقەکانی زانستێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aim is to bring together researchers from different branches of geography."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجەکە ئەوەیە توێژەران لە لقە جیاوازەکانی جوگرافیاوە کۆببنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aim is to bring together researchers from different branches of geography."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجەکە ئەوەیە توێژەران لە لقە جیاوازەکانی جوگرافیاوە کۆببنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -446,12 +482,18 @@ class EnglishEntrybranch extends StatelessWidget {
                                   "٥. (ناو) لقێکی ڕووبارێک، شەقامێک، سکەی شەمەندەفەرێک، ھتد کە لە بەشی سەرەکی جیادەبێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This branch of the river eventually empties into the Atlantic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم لقەی ڕووبارەکە لەکۆتاییدا دەڕژێتە زەریای ئەتڵەسییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This branch of the river eventually empties into the Atlantic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم لقەی ڕووبارەکە لەکۆتاییدا دەڕژێتە زەریای ئەتڵەسییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -471,12 +513,18 @@ class EnglishEntrybranch extends StatelessWidget {
                                   "٦. (ناو) گرووپێک لە خێزانێک کە ھەموویان ھەمان باوانیان ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My uncle's branch of the family emigrated to Canada."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بنەماڵەی خاڵم لە خێزانەکە کۆچیان کرد بۆ کەنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My uncle's branch of the family emigrated to Canada."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بنەماڵەی خاڵم لە خێزانەکە کۆچیان کرد بۆ کەنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -496,12 +544,18 @@ class EnglishEntrybranch extends StatelessWidget {
                                   "٧. (کردار) دابەشبوون بۆ دوو بەش یان زیاتر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The accident happened where the road branches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوەکە ڕوویدا لەو شوێنەی ڕێگاکە دابەش دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The accident happened where the road branches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکە ڕوویدا لەو شوێنەی ڕێگاکە دابەش دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -518,12 +572,18 @@ class EnglishEntrybranch extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The top of the tree had been cut off to encourage it to branch out lower down."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەوەی دارەکە بڕاوەتەوە بۆ ئەوەی لق لە خوارەوە درووست بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The top of the tree had been cut off to encourage it to branch out lower down."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەوەی دارەکە بڕاوەتەوە بۆ ئەوەی لق لە خوارەوە درووست بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

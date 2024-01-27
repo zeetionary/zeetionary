@@ -220,12 +220,18 @@ class EnglishEntrybundle extends StatelessWidget {
 ١. (ناو) ژمارەیەک شت کە پێکەوە گرێدراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She held her little bundle (= her baby) tightly in her arms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵە بچووکەکەی بە توندی لە باوەش کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She held her little bundle (= her baby) tightly in her arms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵە بچووکەکەی بە توندی لە باوەش کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bundle", follow LX strictly
                               Column(
                                 children: [
@@ -242,11 +248,17 @@ class EnglishEntrybundle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was carrying a large bundle of clothes."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستەیەکی گەورە جلی هەڵگرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was carrying a large bundle of clothes."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستەیەکی گەورە جلی هەڵگرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +278,18 @@ class EnglishEntrybundle extends StatelessWidget {
                                   "٢. (ناو) ژمارەیەک شت کە پێکەوەن، یان پێکەوە دەفرۆشرێن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the meeting, they shared a bundle of ideas for the upcoming project."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆبوونەوەکە، ژمارەیەک بیرۆکەیان پێشنیازکرد بۆ پڕۆژەی دادێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the meeting, they shared a bundle of ideas for the upcoming project."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆبوونەوەکە، ژمارەیەک بیرۆکەیان پێشنیازکرد بۆ پڕۆژەی دادێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,12 +308,18 @@ class EnglishEntrybundle extends StatelessWidget {
                               text: "٣. (ناو) کەسێک/شتێک کە دەتخاتە پێکەنین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wasn't exactly a bundle of laughs (= a happy person to be with) last night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی هێندە بەزمەسات نەبوو دوێنێ شەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wasn't exactly a bundle of laughs (= a happy person to be with) last night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی هێندە بەزمەسات نەبوو دوێنێ شەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -314,11 +338,18 @@ class EnglishEntrybundle extends StatelessWidget {
                               text: "٤. (ناو) ڕێژەیەکی زۆر پارە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That car must have cost a bundle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە دەبێت دەریایەک لە پارەی تێچووبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That car must have cost a bundle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە دەبێت دەریایەک لە پارەی تێچووبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -338,11 +369,18 @@ class EnglishEntrybundle extends StatelessWidget {
                                   "٥. (کردار) ناردنی کەسێک بۆ شوێنێک بە خێرایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They bundled her into the back of a car."),
-                              const ExampleSentenceKurdish(
-                                  text: "فڕێیان دایە پشتەوەی ئۆتۆمبێلێکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They bundled her into the back of a car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕێیان دایە پشتەوەی ئۆتۆمبێلێکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -359,12 +397,18 @@ class EnglishEntrybundle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bodyguards quickly bundled the President into the car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاسەوانەکان بەخێرایی سەرۆکیان خستە ئۆتۆمبێلەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bodyguards quickly bundled the President into the car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاسەوانەکان بەخێرایی سەرۆکیان خستە ئۆتۆمبێلەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -383,10 +427,17 @@ class EnglishEntrybundle extends StatelessWidget {
                               text: "٦. (کردار) چوون بۆ شوێنێک بەخێرایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We bundled out onto the street."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەخێرایی چووینە سەر شەقامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We bundled out onto the street."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەخێرایی چووینە سەر شەقامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -406,12 +457,18 @@ class EnglishEntrybundle extends StatelessWidget {
                                   "٧. (کردار) پێدانی خزمەتگوزاری زیادە بەبێ نرخی زیاتر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A further nine applications are bundled with the system."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نۆ ئەپڵیکەیشنی دیکە لەگەڵ سیستەمەکە دەخرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A further nine applications are bundled with the system."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نۆ ئەپڵیکەیشنی دیکە لەگەڵ سیستەمەکە دەخرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybeater extends StatelessWidget {
 ١. (ناو) ئامرازێک کە بۆ کوتانی شت بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A carpet beater is a long, wooden tool used to clean carpets."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕایەخ لێدەر ئامرازێکی درێژی دارینە بەکاردێت بۆ پاککردنەوەی ڕایەخ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A carpet beater is a long, wooden tool used to clean carpets."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕایەخ لێدەر ئامرازێکی درێژی دارینە بەکاردێت بۆ پاککردنەوەی ڕایەخ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +203,18 @@ class EnglishEntrybeater extends StatelessWidget {
 ٢. (ناو) کەسێک کە لە کەسێک دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was arrested for being a wife-beater."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستگیرکرا بەھۆی لێدان لە ژنەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was arrested for being a wife-beater."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکرا بەھۆی لێدان لە ژنەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +234,18 @@ class EnglishEntrybeater extends StatelessWidget {
 ٣. (ناو) ئۆتۆمبێلێکی کۆن کە لە دۆخێکی خراپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bought a cheap beater to get around until he could afford a new car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bought a cheap beater to get around until he could afford a new car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلە شڕەیەکی ھەرزانی کڕی بۆ بەکارھێنان تاوەکو ئەوکاتەی دەتوانێت دانەیەکی تازە بکڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -165,12 +165,18 @@ class EnglishEntrybuilder extends StatelessWidget {
 ١. (ناو) کەسێک یان کۆمپانیایەک کە کاری درووستنکردن یان چاککردنەوەی خانوو و بینا دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We got a local builder to do the work for us."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We got a local builder to do the work for us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیناچییەکی ناوخۆییمان دەستکەوتووە تا کارەکەمان بۆ بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "builder", follow LX strictly
                               Column(
                                 children: [
@@ -190,12 +196,18 @@ class EnglishEntrybuilder extends StatelessWidget {
                                   "٢. (ناو) کەسێک/شتێک کە شتێک درووست دەکات یان پەرەی پێدەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Going on the course was a real confidence builder for me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەژداری لە کۆرسەکە متمانە درووستکەرێکی تەواو بۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Going on the course was a real confidence builder for me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەژداری لە کۆرسەکە متمانە درووستکەرێکی تەواو بۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

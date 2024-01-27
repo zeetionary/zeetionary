@@ -170,12 +170,18 @@ class EnglishEntrybluster extends StatelessWidget {
 ١. (کردار) قسەکردن بە توندی و ھەڕەشەوە بەڵام بەبێ لێکەوتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'You had no right to do it, no right at all,' he blustered."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی ھەڵکێشا بە وتنی 'ھیچ مافت نەبوو بیکەیت، ھیچ مافێک بە تەواوی'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'You had no right to do it, no right at all,' he blustered."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی ھەڵکێشا بە وتنی 'ھیچ مافت نەبوو بیکەیت، ھیچ مافێک بە تەواوی'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +200,17 @@ class EnglishEntrybluster extends StatelessWidget {
                               text: "٢. (کردار) بایەک کە بەخێرایی دەجوڵێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Outside the wind was blustering."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە دەرەوە باکە گڤەی دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Outside the wind was blustering."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە دەرەوە باکە گڤەی دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +230,18 @@ class EnglishEntrybluster extends StatelessWidget {
                                   "٣. (ناو) قسە کە توند و پڕھەڕەشەیە بەڵام لێکەوتەی نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wasn't frightened by what he said—it was all bluster."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەترسام بەوەی گوتی، ھەمووی خۆفشکردنەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wasn't frightened by what he said—it was all bluster."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەترسام بەوەی گوتی، ھەمووی خۆفشکردنەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

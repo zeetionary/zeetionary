@@ -168,12 +168,18 @@ class EnglishEntrybloodshot extends StatelessWidget {
 ١. (ھاوەڵناو) چاوێک کە ئەو بەشەی زۆر جار سپییە پڕ بێت لە ھێڵی سوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the long flight, her eyes were visibly bloodshot."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دواوی فڕینە ماوە درێژەکە، چاوەکانی دەبینران کە سووربوو بوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the long flight, her eyes were visibly bloodshot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دواوی فڕینە ماوە درێژەکە، چاوەکانی دەبینران کە سووربوو بوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

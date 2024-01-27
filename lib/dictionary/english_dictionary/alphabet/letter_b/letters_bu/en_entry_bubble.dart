@@ -301,11 +301,18 @@ class EnglishEntrybubble extends StatelessWidget {
 ١. (ناو) بڵق؛ تۆپەڵەیەک لە ھەوا یان گاز لە ناو شلەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He blew bubbles into the water through a straw."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە قەسەبێک بڵقی دەکرد بە ئاوەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He blew bubbles into the water through a straw."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە قەسەبێک بڵقی دەکرد بە ئاوەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bubble" as
                               Column(
                                 children: [
@@ -322,12 +329,18 @@ class EnglishEntrybubble extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are air bubbles trapped inside the ice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڵقە ھەوا لە ناو سەھۆڵەکەدا گیریان خواردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are air bubbles trapped inside the ice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڵقە ھەوا لە ناو سەھۆڵەکەدا گیریان خواردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -346,12 +359,18 @@ class EnglishEntrybubble extends StatelessWidget {
                               text: "٢. (ناو) کەفی سابوون، تایت، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children like to have bubbles in their bath."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان حەزدەکەن کەف لە حەوزەکەیاندا بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children like to have bubbles in their bath."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان حەزدەکەن کەف لە حەوزەکەیاندا بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -371,12 +390,18 @@ class EnglishEntrybubble extends StatelessWidget {
                                   "٣. (ناو) کەمێک لە ھەست کە کەسێک دەیەوێت دەری ببڕێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A simple act of kindness can create a powerful bubble of hope."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵوێستێکی سادەی بەخشندەیی دەکرێت قەترەیەکی بەھێز لە ھیوا درووست بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A simple act of kindness can create a powerful bubble of hope."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵوێستێکی سادەی بەخشندەیی دەکرێت قەترەیەکی بەھێز لە ھیوا درووست بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -396,12 +421,18 @@ class EnglishEntrybubble extends StatelessWidget {
                                   "٤. (ناو) دۆخێکی باش کە زۆر بەردەوام نابێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made millions before the dotcom bubble burst."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ملیۆنان دەلاری پەیداکرد پێش سەردەمی خۆشگوزەرانی دۆتکۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made millions before the dotcom bubble burst."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ملیۆنان دەلاری پەیداکرد پێش سەردەمی خۆشگوزەرانی دۆتکۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -421,12 +452,18 @@ class EnglishEntrybubble extends StatelessWidget {
                                   "٦. (ناو) کۆمەڵە کەسێک کە لەگەڵیاندا لە پەیوەندیدایت لە کاتی نەخۆشیدا کە دەبێت خۆت لە خەك=ڵکی دووربخەیتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's been staying with his sister and her husband at weekends since he chose to form a bubble with them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتایی ھەفتە لەگەڵ خوشکەکەی و ھاوسەرەکەی ماوەتەوە بەھۆی ئەوەی بڕیاریدا لەگەڵ ئەوان بمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's been staying with his sister and her husband at weekends since he chose to form a bubble with them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتایی ھەفتە لەگەڵ خوشکەکەی و ھاوسەرەکەی ماوەتەوە بەھۆی ئەوەی بڕیاریدا لەگەڵ ئەوان بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -445,12 +482,18 @@ class EnglishEntrybubble extends StatelessWidget {
                               text: "٦. (کردار) درووستکردنی بڵق و کەف"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The water in the pan was beginning to bubble."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوی مەنجەڵەکە دەستی بە بڵقە‌بڵق دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The water in the pan was beginning to bubble."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوی مەنجەڵەکە دەستی بە بڵقە‌بڵق دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -469,12 +512,18 @@ class EnglishEntrybubble extends StatelessWidget {
                               text: "٧. (کردار) درووستکردنی دەنگی بڵقە‌بڵق"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The water in the saucepan was bubbling furiously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوی مەنجەڵەکە بە توندی بڵقە‌بڵقی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The water in the saucepan was bubbling furiously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوی مەنجەڵەکە بە توندی بڵقە‌بڵقی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -493,11 +542,17 @@ class EnglishEntrybubble extends StatelessWidget {
                               text: "٨. (کردار) پڕ لە ھەستێکی دیاریکراو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was bubbling over with excitement."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە خۆشیدا جێی بە خۆی نەدەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was bubbling over with excitement."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە خۆشیدا جێی بە خۆی نەدەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -517,10 +572,18 @@ class EnglishEntrybubble extends StatelessWidget {
                                   "٩. (کردار) ھەستێک کە بە بەھێزی بوونی ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The little girl bubbled with health."),
-                              const ExampleSentenceKurdish(
-                                  text: "کچە بچووکەکە تەواو تەندرووست بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The little girl bubbled with health."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچە بچووکەکە تەواو تەندرووست بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

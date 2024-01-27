@@ -170,11 +170,18 @@ class EnglishEntrybigot extends StatelessWidget {
 ١. (ناو) کەسێک کە باوەڕی توند و نابەجێی ھەیە لەسەر ڕەگەز و ئایین و سیاسەت، و بۆچوونی کەسانی دیکە قبووڵ ناکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was known to be a loud-mouthed bigot."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک کەسێکی دەمارگرژی دەمشڕ ناسرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was known to be a loud-mouthed bigot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک کەسێکی دەمارگرژی دەمشڕ ناسرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntrybotany extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوەی زانستی لە ڕووەک و پێکھاتەیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She pursued a degree in botany for her love of flora."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەھۆی حەزی بۆ ڕووەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She pursued a degree in botany for her love of flora."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندی بۆ بڕوانامەیەک لە ڕووەکناسی بەھۆی حەزی بۆ ڕووەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

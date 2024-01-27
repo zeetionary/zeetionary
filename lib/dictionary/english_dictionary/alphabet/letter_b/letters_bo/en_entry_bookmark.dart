@@ -170,12 +170,18 @@ class EnglishEntrybookmark extends StatelessWidget {
 ١. (ناو) پارچە پاڕەیەکی درێژ و باریک کە دەیخەیتە نێوان پەڕەکانی کتێبێک کە دەوەستیت لە خوێندن بۆ ئەوەی دواتر بە ئاسانی شوێنەکە بدۆزیتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bookstore gave away free bookmarks with each purchase."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ ھەر کڕینێکدا دەبەخشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bookstore gave away free bookmarks with each purchase."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێب‌فرۆشەکە جێدۆزی بێبەرامبەری لەگەڵ ھەر کڕینێکدا دەبەخشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybookmark extends StatelessWidget {
                                   "٢. (ناو) تۆماری فایل و پەڕەی سەر ئینتەرنێت کە ڕێگەت پێدەدات دواتر بە ئاسانی بیاندۆزیتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bookmark icon in the browser simplifies navigation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە ھاتووچۆ ئاسان دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bookmark icon in the browser simplifies navigation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئایکۆنی بوکمارکەکە لەسەر وێبگەڕەکە ھاتووچۆ ئاسان دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,10 +232,18 @@ class EnglishEntrybookmark extends StatelessWidget {
                                   "٣. (کردار) تۆمارکردنی ناونیشانی فایلێک یان پەڕەیەک لەسەر ئینتەرنێت بۆ ئەوەی دواتر بە ئاسانی بیدۆزیتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you want to bookmark this site?"),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتەوێت ئەم سایتە بوکمارک بکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you want to bookmark this site?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتەوێت ئەم سایتە بوکمارک بکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

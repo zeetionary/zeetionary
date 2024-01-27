@@ -174,12 +174,18 @@ class EnglishEntrybourgeois extends StatelessWidget {
 ١. (ناو) کەسێک کە لە چینی ناوەڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hat identified him as a bourgeois."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵاوەکەی پیشانی دا کە سەر بە بورژوایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hat identified him as a bourgeois."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵاوەکەی پیشانی دا کە سەر بە بورژوایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,11 +205,18 @@ class EnglishEntrybourgeois extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە گرنگی بە سەروەت و سامان و پێگەی کۆمەڵایەتی دەدات لەگەڵ پشتگیری بەھا کۆنەکان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'd forgotten what a bourgeois you are."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەبیرم چووبوو کە چەندە بورژوایت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'd forgotten what a bourgeois you are."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەبیرم چووبوو کە چەندە بورژوایت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +235,18 @@ class EnglishEntrybourgeois extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) سەر بە چینی ناوەڕاست"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's a bit bourgeois, isn't it, joining a golf club?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندیکردن بە یانەیەکی گۆڵفەوە کەمێک بورژوایانەیە، وانییە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's a bit bourgeois, isn't it, joining a golf club?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندیکردن بە یانەیەکی گۆڵفەوە کەمێک بورژوایانەیە، وانییە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +266,18 @@ class EnglishEntrybourgeois extends StatelessWidget {
                                   "٤. (ھاوەڵناو) حەز بۆ سەروەت و سامان و پێگەی کۆمەڵایەتی و پشتگیری بەھا کۆنەکان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They've become very bourgeois since they got married."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەوەتەی ھاوسەرگیریان کردووە زۆر بورژوا بوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They've become very bourgeois since they got married."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەوەتەی ھاوسەرگیریان کردووە زۆر بورژوا بوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

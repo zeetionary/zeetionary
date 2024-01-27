@@ -171,12 +171,18 @@ class EnglishEntrybeefy extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی گەورە، قەڵەو، و بەھێز """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The player had a beefy physique from years of training."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاریزانەکە ھەیکەلێکی بەھێزی ھەبوو بەھۆی چەندین ساڵ لە ڕاھێنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The player had a beefy physique from years of training."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاریزانەکە ھەیکەلێکی بەھێزی ھەبوو بەھۆی چەندین ساڵ لە ڕاھێنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,18 @@ class EnglishEntrybeefy extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێکی بەھێز """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I want to buy myself a beefier computer."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەمەوێت کۆمپیوتەرێکی بەھێزتر بکڕم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I want to buy myself a beefier computer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمەوێت کۆمپیوتەرێکی بەھێزتر بکڕم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

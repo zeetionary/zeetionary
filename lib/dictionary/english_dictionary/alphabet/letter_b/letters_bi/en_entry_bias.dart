@@ -176,12 +176,18 @@ class EnglishEntrybias extends StatelessWidget {
 ١. (ناو) لایەنگیری یان دژایەتی گرووپێک زۆرجار بەبێ ئەوەی پشتی بە ھیچ بیرکردنەوەی داپەروەرانە بەستبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Employers must consider all candidates without bias."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاوەنکاران دەبێت ھەموو بەربژێران بەبێ لایەنگیری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Employers must consider all candidates without bias."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاوەنکاران دەبێت ھەموو بەربژێران بەبێ لایەنگیری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybias extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some institutions still have a strong bias against women."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک دامەزراوە ھێشتا لایەنگیریان دژ بە ژنان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some institutions still have a strong bias against women."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک دامەزراوە ھێشتا لایەنگیریان دژ بە ژنان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -224,12 +236,18 @@ class EnglishEntrybias extends StatelessWidget {
 ٢. (ناو) بوونی حەز و مەیل بۆ شتێک زیاتر لە شتی زیاتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In British universities there was a bias towards pure science."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە زانکۆکانی بەریتانیادا مەیلێک ھەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In British universities there was a bias towards pure science."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زانکۆکانی بەریتانیادا مەیلێک ھەیە بۆ زانستی بێگەرد (سیاسەت و شتی تری تێکەڵ نەبێ)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +265,18 @@ class EnglishEntrybias extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She showed a scientific bias at an early age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزی بۆ زانست ھەبوو لە تەمەنی سەرەتاییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She showed a scientific bias at an early age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی بۆ زانست ھەبوو لە تەمەنی سەرەتاییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -272,12 +296,18 @@ class EnglishEntrybias extends StatelessWidget {
 ٣. (ناو) نادرووستی لە ئەنجامی تاقیکردنەوەیەک یان توێژینەوەیەکدا بەھۆی ئەوەی لایەنێکی دیاریکراو لەبەرچاو نەگیراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If a response rate is low, the risk of bias in the findings will be greater."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر ڕێژەی وەڵامدانەوە کەم بێت، ئەگەری نادرووستی زیاتر دەبێت لە دۆزینەوەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If a response rate is low, the risk of bias in the findings will be greater."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر ڕێژەی وەڵامدانەوە کەم بێت، ئەگەری نادرووستی زیاتر دەبێت لە دۆزینەوەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -297,11 +327,18 @@ class EnglishEntrybias extends StatelessWidget {
 ٤. (کردار) کاریگەری دانان لەسەر بۆچوونی کەسێک بە نادادپەروەرانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The newspapers have biased people against her."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆژنامەکان خەڵکیان دژی ھانداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The newspapers have biased people against her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەکان خەڵکیان دژی ھانداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -321,12 +358,18 @@ class EnglishEntrybias extends StatelessWidget {
 ٥. (کردار) ھەبوونی کاریگەرییەک لەسەر ئەنجامی تاقیکردنەوە یان توێژینەوەیەک بەشێوەیەک کە ئەنجامی درووستی نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The experiment contained an error which could bias the results."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاقیکردنەوەکە ھەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The experiment contained an error which could bias the results."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقیکردنەوەکە ھەڵەیەکی تێدابوو کە دەکرا نادرووستی درووست بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

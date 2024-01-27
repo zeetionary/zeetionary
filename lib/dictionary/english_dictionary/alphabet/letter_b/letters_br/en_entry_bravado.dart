@@ -166,12 +166,18 @@ class EnglishEntrybravado extends StatelessWidget {
 ١. (ناو) ھەڵسوکەوت کردن بە متمانەوە بۆ ئەوەی سەرنجی خەڵکی ڕابکێشی، زۆرجار بە کردنی شتێک کە پێویست ناکات بیکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was an act of bravado to tell his boss to resign."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەنگاوێکی بوێرانە بوو کە بە بەڕێوبەری گوت دەست‌لەکاربکێشێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was an act of bravado to tell his boss to resign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەنگاوێکی بوێرانە بوو کە بە بەڕێوبەری گوت دەست‌لەکاربکێشێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,12 +166,18 @@ class EnglishEntrybluetooth extends StatelessWidget {
 ١. (ناو) تەکنەلۆژیایەکی ڕادیۆیی کە ڕێگە دەدات موبایل و کۆمپیوتەر و ئامێری ئەلیکترۆنی دیکە لە مەودایەکی نزیک لە یەکدی پێکەوە لە پەیوەندیدا بن بەبێ بەکارھێنانی وایەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Pair your phone with Bluetooth speakers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "موبایلەکەت ببەستەوە بە بڵندگۆی بلوتوزەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pair your phone with Bluetooth speakers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "موبایلەکەت ببەستەوە بە بڵندگۆی بلوتوزەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

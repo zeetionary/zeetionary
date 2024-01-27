@@ -164,12 +164,18 @@ class EnglishEntrybubblegum extends StatelessWidget {
 ١. (ناو) جۆرە بنێشتێک کە گڵۆپی پێ دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children enjoyed the sweet bubblegum."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children enjoyed the sweet bubblegum."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان حەزیان بە بنێشتە شیرینەکە ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bubblegum" as
                               Column(
                                 children: [

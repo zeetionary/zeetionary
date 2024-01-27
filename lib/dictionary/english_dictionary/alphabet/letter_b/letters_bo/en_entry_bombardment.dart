@@ -169,11 +169,18 @@ class EnglishEntrybombardment extends StatelessWidget {
 ١. (ناو) ھێرشێک کە تێیدا چەکی قورس ئاراستەی شوێنێک دەکرێت یان بۆمب بەسەریدا بەردەدرێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The city came under heavy bombardment."),
-                              const ExampleSentenceKurdish(
-                                  text: "شارەکە کەوتە ژێر بۆمبارانی توند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city came under heavy bombardment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە کەوتە ژێر بۆمبارانی توند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +202,18 @@ class EnglishEntrybombardment extends StatelessWidget {
                                   "٢. (ناو) دۆخێک کە تێیدا کەسێک ڕووبەڕووی ڕەخنە و پرسیاری زۆر دەبێتەوە یان زانیارییەکی زۆری پێدەدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A president is under constant bombardment from every direction."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆکەکان ھەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ ھەر ھەنگاوێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A president is under constant bombardment from every direction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆکەکان ھەمیشە لەژێر ڕەخنە و پرسیاری بەردەوامن بۆ ھەر ھەنگاوێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

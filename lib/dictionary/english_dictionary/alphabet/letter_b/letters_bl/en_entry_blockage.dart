@@ -169,12 +169,18 @@ class EnglishEntryblockage extends StatelessWidget {
 ١. (ناو) شتێک کە جوڵە دەوەستێنێت، بۆ نموونە جوڵەی شلە لە شوێنێکی تەسکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His death was caused by a blockage in one of his arteries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مردنەکەی ڕوویدا بەھۆی گیرانێک لە یەکێک لە خوێنبەرەکانی دڵیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His death was caused by a blockage in one of his arteries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مردنەکەی ڕوویدا بەھۆی گیرانێک لە یەکێک لە خوێنبەرەکانی دڵیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntryblockage extends StatelessWidget {
                               text: "٢. (ناو) دۆخی گیرانی جوڵە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor recommended surgery to clear the blockage in the airway."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکە پێشنیاری نەشتەرگەری کرد بۆ بەردانی گیرانەکە لە ھەواڕێی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor recommended surgery to clear the blockage in the airway."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە پێشنیاری نەشتەرگەری کرد بۆ بەردانی گیرانەکە لە ھەواڕێی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

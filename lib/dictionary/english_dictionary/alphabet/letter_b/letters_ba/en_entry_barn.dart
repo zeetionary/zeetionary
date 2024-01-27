@@ -166,12 +166,18 @@ class EnglishEntrybarn extends StatelessWidget {
 ١. (ھاوەڵناو) گەوڕێکی گەورە بۆ ھەڵگرتنی گەنم، یان بەخێوکردنی ئاژەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sheep were penned in behind the barn."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەڕەکان لە پشتەوەی گەوڕەکە خڕکرانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sheep were penned in behind the barn."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەڕەکان لە پشتەوەی گەوڕەکە خڕکرانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,17 @@ class EnglishEntrybarn extends StatelessWidget {
 ٢. (ھاوەڵناو) بینایەکی گەورە و ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They live in a great barn of a house."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە خانوویەکی قەبەدا دەژیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They live in a great barn of a house."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە خانوویەکی قەبەدا دەژیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

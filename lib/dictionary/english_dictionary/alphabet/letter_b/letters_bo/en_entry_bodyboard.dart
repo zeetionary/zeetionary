@@ -166,12 +166,18 @@ class EnglishEntrybodyboard extends StatelessWidget {
 ١. (ناو) جۆرێکی کورت و سووکی تەختەی شەپۆل‌سواری کە بەکاریدێنی بە پاڵکەوتن لەسەر دەم لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was paddling on a bodyboard 200 yards from shore."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەلەی دەکرد لەسەر تەختەی شەپۆل‌سواری لە دووری ٢٠٠ یاردەوە لە کەنارەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was paddling on a bodyboard 200 yards from shore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەلەی دەکرد لەسەر تەختەی شەپۆل‌سواری لە دووری ٢٠٠ یاردەوە لە کەنارەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

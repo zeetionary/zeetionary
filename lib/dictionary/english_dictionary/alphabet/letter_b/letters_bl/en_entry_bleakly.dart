@@ -169,12 +169,18 @@ class EnglishEntrybleakly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ھیچ ھۆکارێک نادات بۆ ئەوەی ئومێدت ھەبێت یان پێشبینی شتی باش بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She thought of herself, bleakly, as having no chance of success."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیری لە خۆی دەکردەوە بە بێ ھیوایەوە کە ھیچ ھیوای سەرکەوتنی نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She thought of herself, bleakly, as having no chance of success."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیری لە خۆی دەکردەوە بە بێ ھیوایەوە کە ھیچ ھیوای سەرکەوتنی نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybleakly extends StatelessWidget {
                               text: "٢. (ھاوەڵکار) بەشێوەیەک کە بەتاڵ و ساردە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The wintry vistas are bleakly beautiful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەشتە زستانەییەکان جوانن بە بەتاڵی و ساردییانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The wintry vistas are bleakly beautiful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەشتە زستانەییەکان جوانن بە بەتاڵی و ساردییانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

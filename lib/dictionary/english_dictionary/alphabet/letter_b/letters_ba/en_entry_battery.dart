@@ -175,11 +175,17 @@ class EnglishEntrybattery extends StatelessWidget {
 ١. (ناو) ئامێرێک کە لەناو ئۆتۆمبێلێک، کاتژمێرێک، ڕادیۆیەک، ھتد دادەنرێت کە یارمەتی دەدات کاربکات بە پێدانی وزە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The battery is flat (= it is no longer producing electricity)."),
-                              const ExampleSentenceKurdish(
-                                  text: "باترییەکە مردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The battery is flat (= it is no longer producing electricity)."),
+                                    ExampleSentenceKurdish(
+                                        text: "باترییەکە مردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybattery extends StatelessWidget {
 ٢. (ناو) ھێزی کارەبایی باترییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My phone ran out of battery, so I plugged it in to charge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "موبایلەکەم شەحنی نەما، بۆیە کردم بە شەحنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My phone ran out of battery, so I plugged it in to charge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "موبایلەکەم شەحنی نەما، بۆیە کردم بە شەحنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -224,10 +236,18 @@ class EnglishEntrybattery extends StatelessWidget {
 ٣. (ناو) ڕێژەیەکی زۆر لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He faced a battery of questions."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووبەڕووی زنجیرەیەک پرسیار بوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He faced a battery of questions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبەڕووی زنجیرەیەک پرسیار بوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,11 +267,17 @@ class EnglishEntrybattery extends StatelessWidget {
 ٤. (ناو) تۆپخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The shore battery opened fire."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆپخانەی کەناراواکە دەستی بە تۆپباران کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The shore battery opened fire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپخانەی کەناراواکە دەستی بە تۆپباران کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -271,12 +297,18 @@ class EnglishEntrybattery extends StatelessWidget {
 ٥. (ناو) ڕێژەیەکی زۆر لە قەفەزی بچووک کە بەکاردێت بۆ ڕاگرتنی مریشک لە دەواجین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The supermarket has pledged to stop selling eggs from battery hens by 2025."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی ھێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The supermarket has pledged to stop selling eggs from battery hens by 2025."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەپەرمارکێتەکە بەڵێنی داوە کە بوەستێت لە فرۆشتنی ھێلکەی مریشکی مەسلاحە پێش ساڵی ٢٠٢٥."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +326,18 @@ class EnglishEntrybattery extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Battery eggs are the cheapest type of eggs, but they are also the most cruel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێلکەی مەسلاحە ھەرزانترین جۆری ھێلکەن، بەڵام بە دڕندەترین شێوە بەرھەم دەھێنرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Battery eggs are the cheapest type of eggs, but they are also the most cruel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێلکەی مەسلاحە ھەرزانترین جۆری ھێلکەن، بەڵام بە دڕندەترین شێوە بەرھەم دەھێنرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -319,12 +357,18 @@ class EnglishEntrybattery extends StatelessWidget {
 ٦. (ناو) تاوانی ھێرشی جەستەیی بۆسەر کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was charged with battery after a fight at a night club."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاوانبارکرا بە کوتەک‌کاری دوابەداوی شەڕێک لە یانەیەکی شەوانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was charged with battery after a fight at a night club."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاوانبارکرا بە کوتەک‌کاری دوابەداوی شەڕێک لە یانەیەکی شەوانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

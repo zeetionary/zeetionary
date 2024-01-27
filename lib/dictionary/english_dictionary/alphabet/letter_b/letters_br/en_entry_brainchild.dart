@@ -166,12 +166,18 @@ class EnglishEntrybrainchild extends StatelessWidget {
 ١. (ھاوەڵناو) بیرۆکە یان داھێنانی کەسێک یان گرووپێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The TV programme was the brainchild of the producer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرھەمھێنەرەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The TV programme was the brainchild of the producer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆگرامە تەلەفیزیۆنییەکە بیرۆکەی بەرھەمھێنەرەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

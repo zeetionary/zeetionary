@@ -164,12 +164,18 @@ class EnglishEntrybrewery extends StatelessWidget {
 ١. (ناو) کۆمپانیایەک یان کارگەیەک کە بیرە درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Visitors enjoyed a brewery tour to learn about the beer-making process."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەردانکەران گەشتێکیان بۆ ناو کارگەی بیرەکە ئەنجامدا بۆ زانین لەسەر پڕۆسەی درووستکردنی بیرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Visitors enjoyed a brewery tour to learn about the beer-making process."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەردانکەران گەشتێکیان بۆ ناو کارگەی بیرەکە ئەنجامدا بۆ زانین لەسەر پڕۆسەی درووستکردنی بیرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brewery" as
                               Column(
                                 children: [

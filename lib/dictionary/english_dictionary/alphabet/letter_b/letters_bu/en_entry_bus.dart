@@ -214,10 +214,16 @@ class EnglishEntrybus extends StatelessWidget {
 ١. (ناو) پاس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Shall we walk or go by bus?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بە پێ بچین یان بە پاس؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Shall we walk or go by bus?"),
+                                    ExampleSentenceKurdish(
+                                        text: "بە پێ بچین یان بە پاس؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bus", follow LX strictly
                               Column(
                                 children: [
@@ -234,11 +240,18 @@ class EnglishEntrybus extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I didn't want to get on the wrong bus."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەمدەویست بچمە ناو پاسێکی هەڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I didn't want to get on the wrong bus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمدەویست بچمە ناو پاسێکی هەڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,7 +274,7 @@ class EnglishEntrybus extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Many students board the school bus before 7 a.m."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "زۆر خوێندکار دەچنە ناو پاسی قوتابخانە پێش ٧ی بەیانی."),
                                       const CustomSizedBoxForTTS(),
@@ -288,12 +301,18 @@ class EnglishEntrybus extends StatelessWidget {
                               text: "٢. (کردار) گواستنەوە بە پاس"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were bussed from the airport to our hotel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە فڕۆکەخانەکەوە گواستراینەوە بۆ هوتێلەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were bussed from the airport to our hotel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە فڕۆکەخانەکەوە گواستراینەوە بۆ هوتێلەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,12 +332,18 @@ class EnglishEntrybus extends StatelessWidget {
                                   "٣. (کردار) لابردنی دەوری پیس لەسەر مێز لە چێشتخانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He buses tables to help finance his tuition."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێز پاکدەکاتەوە بۆ یارمەتیدانی لە خەرجی خوێندنەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He buses tables to help finance his tuition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێز پاکدەکاتەوە بۆ یارمەتیدانی لە خەرجی خوێندنەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

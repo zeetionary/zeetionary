@@ -210,12 +210,18 @@ class EnglishEntrybursary extends StatelessWidget {
 ١. (ناو) بڕە پارەیەک کە دەدرێت بە کەسێک بۆ ئەوەی پێی بخوێنن لە زانکۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The student received a bursary to help cover the costs of tuition and books."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکارەکە بڕە پارەیەکی وەرگرت بۆ یارمەتیدانی لە دابینکردنی خەرجی تێچوو و کتێبەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The student received a bursary to help cover the costs of tuition and books."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکارەکە بڕە پارەیەکی وەرگرت بۆ یارمەتیدانی لە دابینکردنی خەرجی تێچوو و کتێبەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bursary", follow LX strictly
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntryblob extends StatelessWidget {
 ١. (ناو) ڕێژەیەکی کەم لە شتێک، بەتایبەتی شلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The street lights in the distance were blobs of orange light."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لایتی شەقامەکان لە دوورەوە تنۆکەی ڕۆشنایی پرتەقاڵی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The street lights in the distance were blobs of orange light."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لایتی شەقامەکان لە دوورەوە تنۆکەی ڕۆشنایی پرتەقاڵی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntryblob extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She gave me a big blob of cream on my raspberries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆپەڵێکی گەورە کرێمی کرد بەسەر تووتڕکە سوورەکەمدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She gave me a big blob of cream on my raspberries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپەڵێکی گەورە کرێمی کرد بەسەر تووتڕکە سوورەکەمدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

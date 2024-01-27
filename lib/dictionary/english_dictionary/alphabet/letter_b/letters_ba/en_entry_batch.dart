@@ -167,12 +167,18 @@ class EnglishEntrybatch extends StatelessWidget {
 ١. (ناو) کۆمەڵە کەسێک/شتێک کە وەک گرووپێک سەیردەکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Each summer a new batch of students tries to find work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ھاوینێک دەستەیەکی تازە لە خوێندکاران ھەوڵ دەدەن کار بدۆزنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Each summer a new batch of students tries to find work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ھاوینێک دەستەیەکی تازە لە خوێندکاران ھەوڵ دەدەن کار بدۆزنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +198,18 @@ class EnglishEntrybatch extends StatelessWidget {
 ٢. (ناو) بڕێک لە خواردن یان دەرمان کە پێکەوە درووست دەکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Shall I make another batch of cookies?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ژمارەیەکی تر بسکیت درووست بکەم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shall I make another batch of cookies?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی تر بسکیت درووست بکەم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +229,18 @@ class EnglishEntrybatch extends StatelessWidget {
 ٣. (کردار) کردن بە گرووپەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The teacher batched the students into groups of four for the activity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکە خوێندکارەکانی کرد بە دەستەی چوارییەوە بۆ چالاکییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The teacher batched the students into groups of four for the activity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکە خوێندکارەکانی کرد بە دەستەی چوارییەوە بۆ چالاکییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

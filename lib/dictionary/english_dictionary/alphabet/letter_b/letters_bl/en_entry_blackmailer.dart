@@ -168,12 +168,18 @@ class EnglishEntryblackmailer extends StatelessWidget {
 ١. (ناو) کەسێک کە ھەوڵی وەرگرتنی پارە دەدات لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Blackmailers threatened Helen with the video they secretly made."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەیگێڕەکان ھەڕەشەیان لە ھێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Blackmailers threatened Helen with the video they secretly made."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەیگێڕەکان ھەڕەشەیان لە ھێلین کرد بەو ڤیدیۆیەی بە دزییەوە گرتیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

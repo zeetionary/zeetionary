@@ -168,10 +168,17 @@ class EnglishEntrybarrel extends StatelessWidget {
 ١. (ناو) ھەڵگرێکی گەورەی خڕ کە سەرەکانی فلاتە و لایەکانی چەماوەیە، و لە دار یان ئاسن درووستکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They filled the barrels with cider."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرمیلەکانیان پڕکرد لە سێواو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They filled the barrels with cider."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەرمیلەکانیان پڕکرد لە سێواو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +198,18 @@ class EnglishEntrybarrel extends StatelessWidget {
 ٢. (ناو) ئەو بڕەی کە لە بەرمیلێکدا جێی دەبێتەوە، لە پیشەسازی نەوتدا بریتییە لە ١٢٠ بۆ ١٥٩ لیتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Crude oil prices hit record highs of more than £70 a barrel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخی نەوتی خاو گەشتووە بە بەرزترین ڕیکۆردی ٧٠ پاوەند بۆ ھەر بەرمیلێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Crude oil prices hit record highs of more than £70 a barrel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی نەوتی خاو گەشتووە بە بەرزترین ڕیکۆردی ٧٠ پاوەند بۆ ھەر بەرمیلێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +229,18 @@ class EnglishEntrybarrel extends StatelessWidget {
 ٣. (ناو) بەشی پێشەوەی چەکێک کە فیشەکی پێدا تێپەڕ دەبێت لە دوای تەقاندنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The barrel was aimed directly at me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لوولەی چەکەکە ڕاستەوخۆ ڕووی لە من بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barrel was aimed directly at me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لوولەی چەکەکە ڕاستەوخۆ ڕووی لە من بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +260,18 @@ class EnglishEntrybarrel extends StatelessWidget {
 ٤. (کردار) جوڵان بەخێرایی بە ئاراستەیەکدا، بەتایبەتی کە ناتوانی خۆت کۆنترۆڵ بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He came barreling down the hill and smashed into a parked car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە گردەکەدا غلبووەوە و خۆی کێشا بە ئۆتۆمبێلێکی وەستاودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He came barreling down the hill and smashed into a parked car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە گردەکەدا غلبووەوە و خۆی کێشا بە ئۆتۆمبێلێکی وەستاودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

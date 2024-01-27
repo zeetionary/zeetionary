@@ -170,12 +170,18 @@ class EnglishEntrybeetroot extends StatelessWidget {
 ١. (ناو) ڕووەکێکە کە ڕەگێکی سووری تۆخی ھەیە کە دەکوڵێنرێت و وەک سەوزە دەخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She grated the beetroot into the salad for color and crunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەوەندەرەکەی ڕەندکردە ناو زەڵاتەکە بۆ پێدانی ڕەنگ و خرمەخرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She grated the beetroot into the salad for color and crunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەوەندەرەکەی ڕەندکردە ناو زەڵاتەکە بۆ پێدانی ڕەنگ و خرمەخرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

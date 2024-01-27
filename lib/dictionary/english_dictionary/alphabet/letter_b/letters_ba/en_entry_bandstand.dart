@@ -171,12 +171,18 @@ class EnglishEntrybandstand extends StatelessWidget {
 ١. (ناو) ستەیجێک کە باندی میوزیکی لەسەری دەوەستن و گۆرانی دەڵێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The event will include a band performing on the restored bandstand."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The event will include a band performing on the restored bandstand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

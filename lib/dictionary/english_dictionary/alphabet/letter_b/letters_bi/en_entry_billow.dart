@@ -172,10 +172,18 @@ class EnglishEntrybillow extends StatelessWidget {
 ١. (کردار) پڕبوون لە ھەوا و درووستکرنی تۆپەڵێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The curtains billowed in the breeze."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەردەکان تۆپەڵە بوون لە شنە باکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The curtains billowed in the breeze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەردەکان تۆپەڵە بوون لە شنە باکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +203,18 @@ class EnglishEntrybillow extends StatelessWidget {
 ٢. (کردار) بەرزبوونەوەی دووکەڵ و ھەور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A great cloud of smoke billowed out of the chimney."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆپەڵێژی گەورە لە دووکەڵ لە دووکەڵ‌کێشەکەوە بەرزبوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A great cloud of smoke billowed out of the chimney."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپەڵێژی گەورە لە دووکەڵ لە دووکەڵ‌کێشەکەوە بەرزبوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +234,18 @@ class EnglishEntrybillow extends StatelessWidget {
 ٣. (ناو) تۆپەڵێکی گەورە لە دووکەڵ یان ھەڵم لە شێوەی شەپۆلدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A farmer was burning straw, the billows of smoke spiralling upward."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیارێک پەڵاشی دەسووتاند، تۆپەڵە دووکەڵ بەرەو سەرەوە بەرزدەبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A farmer was burning straw, the billows of smoke spiralling upward."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیارێک پەڵاشی دەسووتاند، تۆپەڵە دووکەڵ بەرەو سەرەوە بەرزدەبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

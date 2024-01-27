@@ -170,10 +170,17 @@ class EnglishEntrybacon extends StatelessWidget {
 ١. (ناو) گۆشتی پشت یان تەنیشتەکانی بەراز بەشێوەی قاژ قاژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This bacon is too salty for me."),
-                              const ExampleSentenceKurdish(
-                                  text: "گۆشتە بەرازەکە زۆر شۆرە بۆ من."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This bacon is too salty for me."),
+                                    ExampleSentenceKurdish(
+                                        text: "گۆشتە بەرازەکە زۆر شۆرە بۆ من."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybacon extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The meat produced from a pig is called pork, bacon or ham."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The meat produced from a pig is called pork, bacon or ham."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybra extends StatelessWidget {
 ١. (ناو) پارچە جلێکی ژێرەوە ژنان کە لەبەر دەکرێت بۆ داپۆشین و بەرزکردنەوەی مەمک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your shirt's so thin that it shows your bra."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلەکەت ھێندە تەنکە مەمک‌بەندەکەت دیارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your shirt's so thin that it shows your bra."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکەت ھێندە تەنکە مەمک‌بەندەکەت دیارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybra extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You'll need a strapless bra to wear with this dress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستت بە سووخمەیەکی بێ‌بەستە بۆ پۆشین لەگەڵ ئەم جلە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You'll need a strapless bra to wear with this dress."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستت بە سووخمەیەکی بێ‌بەستە بۆ پۆشین لەگەڵ ئەم جلە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

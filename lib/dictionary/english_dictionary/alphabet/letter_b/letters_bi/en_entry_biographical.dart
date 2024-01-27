@@ -169,12 +169,18 @@ class EnglishEntrybiographical extends StatelessWidget {
 ١. (ھاوەڵناو) فیلمێک یان ڕۆمانیك کە ژیانی کەسێک دەگێڕێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژنامەکە ڕێزلێنانێکی بۆ پڕۆفیسۆرە کۆچکردووەکە بڵاوکردەوە بە تیشکخستنە سەر بەدەستھێنانەکانی ژیانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The newspaper published a tribute to the deceased professor, highlighting his biographical achievements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەکە ڕێزلێنانێکی بۆ پڕۆفیسۆرە کۆچکردووەکە بڵاوکردەوە بە تیشکخستنە سەر بەدەستھێنانەکانی ژیانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybiographical extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ژیانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a biographical note about the author on the back of the book."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێبینییەک سەبارەت بە ژیانی نووسەرەکە لە کۆتایی کتێبەکە نووسرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a biographical note about the author on the back of the book."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێبینییەک سەبارەت بە ژیانی نووسەرەکە لە کۆتایی کتێبەکە نووسرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

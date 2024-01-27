@@ -166,12 +166,18 @@ class EnglishEntryboilersuit extends StatelessWidget {
 ١. (ناو) جلێک کە یەک پارچەیە و بەکاردێت بۆ کارکردنی پیس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Factory workers were issued blue boiler suits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێکارانی کارگەکە جلی کاری شینیان پێدرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Factory workers were issued blue boiler suits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێکارانی کارگەکە جلی کاری شینیان پێدرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

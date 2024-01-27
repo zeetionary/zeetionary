@@ -173,11 +173,17 @@ class EnglishEntrybloom extends StatelessWidget {
 ١. (ناو) گوڵ، بەتایبەتی گوڵێک کە لەسەر ڕووەکێکە کە خەڵکی زیاتر بەھۆی گوڵەکەی حەزیان پێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plant produced a single white bloom."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووەکەکە تاکە گوڵێکی لێ ڕووا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plant produced a single white bloom."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕووەکەکە تاکە گوڵێکی لێ ڕووا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +200,18 @@ class EnglishEntrybloom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The small pink blooms appear in May."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خونچە پەمەییە بچووکەکان لە مایسدا دەپشکوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The small pink blooms appear in May."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خونچە پەمەییە بچووکەکان لە مایسدا دەپشکوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +230,18 @@ class EnglishEntrybloom extends StatelessWidget {
                               text: "٢. (ناو) ڕواڵەتێکی تەندرووست و وزەدار"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was 19, in the full bloom of youth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەمەنی ١٩ ساڵان بوو لە ھەڕەتی تەواوی لاوییدا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was 19, in the full bloom of youth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەمەنی ١٩ ساڵان بوو لە ھەڕەتی تەواوی لاوییدا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybloom extends StatelessWidget {
                           const DefinitionKurdish(text: "٣. (کردار) گوڵگرتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most roses will begin to bloom from late May."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی گوڵەکان دەست بە گوڵگرتن دەکەن لە مایسدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most roses will begin to bloom from late May."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی گوڵەکان دەست بە گوڵگرتن دەکەن لە مایسدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +287,18 @@ class EnglishEntrybloom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Tulips were blooming as far as the eye could see."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵباخ گاڵی دەگرت ھەڕچەندە چاو بڕی بکردایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tulips were blooming as far as the eye could see."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵباخ گاڵی دەگرت ھەڕچەندە چاو بڕی بکردایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +317,18 @@ class EnglishEntrybloom extends StatelessWidget {
                               text: "٤. (کردار) تەندرووست یان دڵخۆش بوون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children had bloomed during their stay on the farm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان ھۆشیان کردبووەوە لەکاتی مانەوەیان لە کێڵگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children had bloomed during their stay on the farm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان ھۆشیان کردبووەوە لەکاتی مانەوەیان لە کێڵگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

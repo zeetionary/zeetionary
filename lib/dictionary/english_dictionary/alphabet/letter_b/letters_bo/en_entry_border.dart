@@ -363,12 +363,18 @@ class EnglishEntryborder extends StatelessWidget {
 ١. (ناو) سنوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He lives in a small town in the US, near the Canadian border."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە شارۆچکەیەکی بچووک دەژی لە ئەمریکا، لەسەر سنووری کەنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lives in a small town in the US, near the Canadian border."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە شارۆچکەیەکی بچووک دەژی لە ئەمریکا، لەسەر سنووری کەنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -385,12 +391,18 @@ class EnglishEntryborder extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thousands of people cross the border every day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەزاران کەس ھەموو ڕۆژێک سنوورەکە دەبڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thousands of people cross the border every day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەزاران کەس ھەموو ڕۆژێک سنوورەکە دەبڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -413,7 +425,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They took steps to secure the border."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -437,7 +449,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They spent a week in a national park on the border between Kenya and Tanzania."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا."),
                                       const CustomSizedBoxForTTS(),
@@ -461,7 +473,7 @@ class EnglishEntryborder extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "It is difficult to define the border between love and friendship."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "(بەکارھێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت."),
                                       const CustomSizedBoxForTTS(),
@@ -484,7 +496,7 @@ class EnglishEntryborder extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "They fled across the border."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "بە سنوورەکەدا ھەڵھاتن."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -511,12 +523,18 @@ class EnglishEntryborder extends StatelessWidget {
                                   "٢. (ناو) پارچەیەکی درێژی باریک بە دەوری قەراغەکانی شتێکدا، بۆ نموونە وێنەیەک یان قووماشێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She drew a decorative border around the picture."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەنارەیەکی جوانی بە دەوری وێنەکەدا کێشا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She drew a decorative border around the picture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەنارەیەکی جوانی بە دەوری وێنەکەدا کێشا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -536,12 +554,18 @@ class EnglishEntryborder extends StatelessWidget {
                                   "٣. (ناو) لە باخچەیەکدا بەو ناوچە دەوترێت کە بە گوڵ چێندراوە بە دەوری قەراغی گیاکەدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The back garden is mostly lawn with tulip borders."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باخچەکەی پشتەوە بە زۆری چیمەنە لەگەڵ گوڵباخ بە دەوریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The back garden is mostly lawn with tulip borders."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باخچەکەی پشتەوە بە زۆری چیمەنە لەگەڵ گوڵباخ بە دەوریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -561,12 +585,18 @@ class EnglishEntryborder extends StatelessWidget {
                                   "٤. (کردار) ھەبوونی سنوور لەگەڵ شوێنێک یان وڵاتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Albania is bordered to the north by Serbia and Montenegro."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەلبانیا لە باکوورەوە ھاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Albania is bordered to the north by Serbia and Montenegro."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەلبانیا لە باکوورەوە ھاوسنوورە لەگەڵ سڕبیا و مۆنتەنەگرۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -583,12 +613,18 @@ class EnglishEntryborder extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Eswatini borders South Africa and Mozambique."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Eswatini borders South Africa and Mozambique."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئیسواتینی سنووری لەگەڵ ئەفریقای باشوور و مۆزەمبیقدا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -608,11 +644,18 @@ class EnglishEntryborder extends StatelessWidget {
                                   "٥. (کردار) درووستکردنی ھێڵێک بەدرێژایی یان بە دەوری شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The large garden is bordered by a stream."),
-                              const ExampleSentenceKurdish(
-                                  text: "باخچە گەورەکە جۆگەیەک لە کەناریەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The large garden is bordered by a stream."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باخچە گەورەکە جۆگەیەک لە کەناریەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -629,11 +672,18 @@ class EnglishEntryborder extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fields are bordered by tall trees."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێڵگەکان بە درەختی بەرز دەوردراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fields are bordered by tall trees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێڵگەکان بە درەختی بەرز دەوردراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

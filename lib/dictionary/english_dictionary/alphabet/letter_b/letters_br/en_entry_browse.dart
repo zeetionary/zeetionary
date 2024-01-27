@@ -169,12 +169,18 @@ class EnglishEntrybrowse extends StatelessWidget {
 ١. (ناو) کرداری سەیرکردنی ژمارەیەکی زۆر شت لە فرۆشگایەکدا وەک لە یەک شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We went for a browse around an antique shop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چووین بۆ گەڕانێک لە فرۆشگای ئەنتیکەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We went for a browse around an antique shop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چووین بۆ گەڕانێک لە فرۆشگای ئەنتیکەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "browse" as
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybrowse extends StatelessWidget {
                                   "٢. (ناو) کرداری سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، ھتد بەبێ خوێندنەوەی ھەموو شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had a browse through the books on his desk."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوێکم خشاند بە کتێبەکانی سەر مێزەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had a browse through the books on his desk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوێکم خشاند بە کتێبەکانی سەر مێزەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybrowse extends StatelessWidget {
                                   "٣. (کردار) سەیرکردنی ژمارەیەک شت لە فرۆشگایەکدا لە جیاتی یەک شت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She browsed the shelves for something interesting to read."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووانی لە ڕەفەکان بۆ شتێکی سەرنجڕاکێش کە بیخوێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She browsed the shelves for something interesting to read."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووانی لە ڕەفەکان بۆ شتێکی سەرنجڕاکێش کە بیخوێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +262,18 @@ class EnglishEntrybrowse extends StatelessWidget {
                                   "٤. (کردار) سەیرکردنی کتێب، ڕۆژنامە، وێبسایت، ھتد بەبێ خوێندنەوەی ھەموو شتێک "),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I spent the whole evening just browsing on the internet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئێوارەکەم بەسەربرد بە گەڕان بە ئینتەرنێتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I spent the whole evening just browsing on the internet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئێوارەکەم بەسەربرد بە گەڕان بە ئینتەرنێتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +290,18 @@ class EnglishEntrybrowse extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I found the article while I was browsing through some old magazines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەم دۆزییەوە کە بە ژمارەیەک گۆڤاری کۆندا دەگەڕام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I found the article while I was browsing through some old magazines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەم دۆزییەوە کە بە ژمارەیەک گۆڤاری کۆندا دەگەڕام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,11 +321,18 @@ class EnglishEntrybrowse extends StatelessWidget {
                                   "٥. (کردار) لەوەڕانی ئاژەڵ؛ خواردنی گیا و گەڵا بە ئاسوودەیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Deer were browsing (on grass) under the trees."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاسک گیایان دەخوارد لەژێر دارەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Deer were browsing (on grass) under the trees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسک گیایان دەخوارد لەژێر دارەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

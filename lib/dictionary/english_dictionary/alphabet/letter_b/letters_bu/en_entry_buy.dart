@@ -220,10 +220,16 @@ class EnglishEntrybuy extends StatelessWidget {
 ١. (کردار) کڕین، سەندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Where did you buy that dress?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەو جلەت لە کوێ کڕی؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Where did you buy that dress?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەو جلەت لە کوێ کڕی؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buy", follow LX strictly
                               Column(
                                 children: [
@@ -240,10 +246,17 @@ class EnglishEntrybuy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had no money to buy a ticket."),
-                              const ExampleSentenceKurdish(
-                                  text: "هیچ پارەی نەبوو بلیتێک بکڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had no money to buy a ticket."),
+                                    ExampleSentenceKurdish(
+                                        text: "هیچ پارەی نەبوو بلیتێک بکڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,7 +279,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They can't afford to buy school books."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پارەیان نییە کتێبی قوتابخانە بکڕن."),
                                       const CustomSizedBoxForTTS(),
@@ -290,7 +303,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "If you're thinking of getting a new car, now is a good time to buy."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەگەر بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەیتەوە، ئێستا کاتێکی باشە بکڕیت."),
                                       const CustomSizedBoxForTTS(),
@@ -313,7 +326,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "I bought my car second-hand."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "ئۆتۆمبێلێکی دەستی دووم کڕی."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -340,12 +353,18 @@ class EnglishEntrybuy extends StatelessWidget {
                                   "٢. (کردار) بڕە پارەیەک کە بەسە بۆ کڕینی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He gave his children the best education that money can buy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترین خوێندنی دا بە منداڵەکانی کە پارە دابینی بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gave his children the best education that money can buy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین خوێندنی دا بە منداڵەکانی کە پارە دابینی بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -362,11 +381,18 @@ class EnglishEntrybuy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Five pounds doesn't buy much nowadays."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێنج پاوەند زۆر شت ناکات لە ئێستادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Five pounds doesn't buy much nowadays."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێنج پاوەند زۆر شت ناکات لە ئێستادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -386,11 +412,17 @@ class EnglishEntrybuy extends StatelessWidget {
                                   "٣. (کردار) ڕازیکردنی کەسێک بۆ کردنی کارێکی خراپ لە بەرامبەر پارەدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He can't be bought (= he's too honest to accept money in this way)."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناتوانرێت بکڕدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He can't be bought (= he's too honest to accept money in this way)."),
+                                    ExampleSentenceKurdish(
+                                        text: "ناتوانرێت بکڕدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -410,12 +442,18 @@ class EnglishEntrybuy extends StatelessWidget {
                                   "٤. (کردار) بەدەستهێنانی شتێک بە لەدەستدانی شتێکی دیکەی بەنرختر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her fame was bought at the expense of her marriage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوبانگەکەی بەدەستهێندرا بە لەدەستدانی هاوسەرگیرییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her fame was bought at the expense of her marriage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوبانگەکەی بەدەستهێندرا بە لەدەستدانی هاوسەرگیرییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -435,12 +473,18 @@ class EnglishEntrybuy extends StatelessWidget {
                                   "٥. (کردار) باوەڕکردن بەوەی شتێک ڕاستە، بەتایبەتی لەکاتێکدا ئەگەری کەمە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You could say you were ill but I don't think they'd buy it (= accept the explanation)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانیت بڵێیت نەخۆش بووم، بەڵام باوەڕ ناکەم باوەڕ بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You could say you were ill but I don't think they'd buy it (= accept the explanation)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت بڵێیت نەخۆش بووم، بەڵام باوەڕ ناکەم باوەڕ بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -460,10 +504,17 @@ class EnglishEntrybuy extends StatelessWidget {
                                   "٦. (ناو) شتێک کە شایەنی ئەو پارەیە کە بۆت داوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That jacket was a really good buy."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەو چاکەتە کڕینێکی باش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That jacket was a really good buy."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەو چاکەتە کڕینێکی باش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -482,12 +533,18 @@ class EnglishEntrybuy extends StatelessWidget {
                               text: "٧. (ناو) شتێک کە دەکڕدرێت یان بۆ فرۆشتنە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The club has made some great buys this season (= it has bought good new players)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یانەکە چەند کڕینێکی باشی ئەنجام داوە ئەم وەرزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The club has made some great buys this season (= it has bought good new players)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یانەکە چەند کڕینێکی باشی ئەنجام داوە ئەم وەرزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

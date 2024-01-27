@@ -169,12 +169,18 @@ class EnglishEntrybollard extends StatelessWidget {
 ١. (ناو) بەربەستێکی ئەستوور و کورت کە دادەنرێت بۆ ئەوەی ئۆتۆمبێل نەچێتە سەر ڕێگایەک یان ناو ناوچەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bollards line the pedestrian area, protecting it from vehicle intrusion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bollards line the pedestrian area, protecting it from vehicle intrusion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆڵەکەمەترسی ڕیزکرابوو لە ناوچەی پیادەڕەوان بۆ ئەوەی لە چوونە ناوەوەی ئۆتۆمبێل بیان پارێزێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybollard extends StatelessWidget {
                                   "٢. (ناو) ئەستووندەگێکی ئەستوور و کورت بۆ ئەوەی بەلەمێک یان کەشتییەکی پێوە ببەسترێت بۆ ئەوەی نەجوڵێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boat was secured to the bollard with a thick rope."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمەکە بەسترا بە ڕاگرێکەوە بە حەبلێکی ئەستوور."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boat was secured to the bollard with a thick rope."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکە بەسترا بە ڕاگرێکەوە بە حەبلێکی ئەستوور."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

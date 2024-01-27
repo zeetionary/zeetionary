@@ -172,12 +172,18 @@ class EnglishEntrybalancesheet extends StatelessWidget {
 ١. (ناو) نامەیەک کە سەروەت و سامانی کۆمپانیایەکی تێدایە لەگەڵ لیستی خەرجی و پارەدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He points out that the company has the strongest balance sheet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He points out that the company has the strongest balance sheet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خستییەبەرچاو کە کۆمپانیاکە بەھێزترین تەرازنامەی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

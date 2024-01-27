@@ -170,10 +170,16 @@ class EnglishEntrybland extends StatelessWidget {
 ١. (ھاوەڵناو) نەبوونی تام یان کەسایەتیی بەھێز، یان بەتاڵ لە مەیل و وزە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I find chicken a little bland."),
-                              const ExampleSentenceKurdish(
-                                  text: "مریشکم کەمێک لا بێ‌تامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I find chicken a little bland."),
+                                    ExampleSentenceKurdish(
+                                        text: "مریشکم کەمێک لا بێ‌تامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,10 +198,18 @@ class EnglishEntrybland extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Pop music these days is so bland."),
-                              const ExampleSentenceKurdish(
-                                  text: "میوزیکی پۆپ ئەم ڕۆژانە زۆر بێ چێژە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pop music these days is so bland."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیکی پۆپ ئەم ڕۆژانە زۆر بێ چێژە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +230,18 @@ class EnglishEntrybland extends StatelessWidget {
                                   "٢. (ھاوەڵناو) شتێک کە ھەست و جۆشوخرۆشی تێدا نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stared back at her with a bland expression."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێی ڕووانییەوە بە دەربڕینێکی وشکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stared back at her with a bland expression."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێی ڕووانییەوە بە دەربڕینێکی وشکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

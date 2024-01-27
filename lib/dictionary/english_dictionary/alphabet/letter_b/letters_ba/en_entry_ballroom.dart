@@ -171,12 +171,18 @@ class EnglishEntryballroom extends StatelessWidget {
 ١. (ناو) ژوورێکی گەورە کە بۆ سەماکردن بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He entered the palatial ballroom and later danced with a beautiful girl."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He entered the palatial ballroom and later danced with a beautiful girl."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چووە سەماخانە کۆشک‌ئاساکە و دواتر سەمای لەگەڵ کچێکی جوان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

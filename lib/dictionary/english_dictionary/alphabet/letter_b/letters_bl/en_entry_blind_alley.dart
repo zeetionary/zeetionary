@@ -168,12 +168,18 @@ class EnglishEntryblindalley extends StatelessWidget {
 ١. (ناو) شێوازی کردنی شتێک کە لە سەرەتادا بەسوود دیارە بەڵام دواتر بێ ئەنجام دەبێت، بۆ نموونە گرتنەبەری ڕێگایەکی بێ کۆتایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Progress in science cannot be made without exploring blind alleys."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشکەوتن لە زانستدا ڕوونادات بەبێ گرتنەبەری ڕێگا بێ‌سەرەدەرەکان (دەبێت ڕێگا ھەڵەکان تاقیبکرێنەوە بۆ سەرکەوتنی ڕێگا ڕاستەکان)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Progress in science cannot be made without exploring blind alleys."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشکەوتن لە زانستدا ڕوونادات بەبێ گرتنەبەری ڕێگا بێ‌سەرەدەرەکان (دەبێت ڕێگا ھەڵەکان تاقیبکرێنەوە بۆ سەرکەوتنی ڕێگا ڕاستەکان)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntrybackdate extends StatelessWidget {
 ١. (کردار) نووسینی بەروارێک لەسەر دۆکیومێنتێک کە کۆنترە بەروارە ڕاستییەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The suspect was accused of backdating the receipt to conceal his involvement in the theft."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گومانلێکراوەکە تاوانبارکرا بە گۆڕینی بەرواری پسوڵەکە بۆ شاردنەوەی تێوەگلانی لە دزییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The suspect was accused of backdating the receipt to conceal his involvement in the theft."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گومانلێکراوەکە تاوانبارکرا بە گۆڕینی بەرواری پسوڵەکە بۆ شاردنەوەی تێوەگلانی لە دزییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybackdate extends StatelessWidget {
 ٢. (کردار) وا لە شتێک بکەیت کە لە بەروارێکی کۆنترەوە حساب بێت یان بخرێتە جێبەجێکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company backdated the employee's start date to make them eligible for a bonus."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە بەرواری سەرەتای کاری کارمەندانی بردە پێشەوە بۆ ئەوەی وابکات پاداشت بیانگرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company backdated the employee's start date to make them eligible for a bonus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە بەرواری سەرەتای کاری کارمەندانی بردە پێشەوە بۆ ئەوەی وابکات پاداشت بیانگرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

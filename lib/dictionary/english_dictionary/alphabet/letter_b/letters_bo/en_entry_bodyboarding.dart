@@ -166,12 +166,18 @@ class EnglishEntrybodyboarding extends StatelessWidget {
 ١. (ناو) وەرزش یان چالاکی مەلەکردن لەسەر یەکێک لە جۆرەکانی تەختەی شەپۆل‌سواری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both are good beaches for bodyboarding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردووکیان کانەراوی باشن بۆ شەپۆل‌سواری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both are good beaches for bodyboarding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردووکیان کانەراوی باشن بۆ شەپۆل‌سواری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

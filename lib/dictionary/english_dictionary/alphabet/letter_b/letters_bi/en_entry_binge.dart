@@ -169,11 +169,18 @@ class EnglishEntrybinge extends StatelessWidget {
 ١. (ناو) ماوەیەکی کەم کە تێیدا کەسێک شتێک زۆردەکات، بۆ نموونە خواردن یان خواردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "One of the symptoms is binge eating."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە نیشانەکان زۆرخواردنی کاتییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the symptoms is binge eating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە نیشانەکان زۆرخواردنی کاتییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +200,17 @@ class EnglishEntrybinge extends StatelessWidget {
 ٢. (کردار) خواردن و خواردنەوەی زۆر، بەتایبەتی کە ناتوانیت کۆنترۆڵی خۆت بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When she's depressed she binges on chocolate."),
-                              const ExampleSentenceKurdish(
-                                  text: "کە بێزارە چکلێت ھەڵدەلووشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When she's depressed she binges on chocolate."),
+                                    ExampleSentenceKurdish(
+                                        text: "کە بێزارە چکلێت ھەڵدەلووشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

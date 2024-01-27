@@ -166,12 +166,18 @@ class EnglishEntrybasics extends StatelessWidget {
 ١. (ناو) گرنگترین و پێویسترین زانیاری، شارەزایی، بیرۆکە، ھتد کە شتی تر لێیانەوە پەرەدەسێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This range of books for young children covers basics like the alphabet and numbers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم زنجیرە کتێبە بۆ منداڵان شتە گرنگەکانی وەک ئەلفوبێ و ژمارە باسدەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This range of books for young children covers basics like the alphabet and numbers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم زنجیرە کتێبە بۆ منداڵان شتە گرنگەکانی وەک ئەلفوبێ و ژمارە باسدەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybasics extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I really must learn the basics of first aid."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕاستی دەبێت سەرەتاییترینی فریاگوزاری سەرەتایی فێرببم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I really must learn the basics of first aid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕاستی دەبێت سەرەتاییترینی فریاگوزاری سەرەتایی فێرببم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

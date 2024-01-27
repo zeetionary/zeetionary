@@ -172,10 +172,16 @@ class EnglishEntryblunt extends StatelessWidget {
 ١. (ھاوەڵناو) کول؛ شتێک کە دەمەکەی تیژ نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This pencil's blunt!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم پێنووسە کولە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "This pencil's blunt!"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم پێنووسە کولە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntryblunt extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The knife is blunt and needs sharpening."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەقۆکە کولە و پێویستی بە تیژکردن ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The knife is blunt and needs sharpening."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەقۆکە کولە و پێویستی بە تیژکردن ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,11 +229,18 @@ class EnglishEntryblunt extends StatelessWidget {
                                   "٢. (ھاوەڵناو) کەسێک کە ئەوە دەیڵێت کە لە دڵیەتی بەبێ ئەوەی ھەوڵ بدات بەڕێز بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has a reputation for blunt speaking."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوی دەرکردە بۆ قسەکردنی بێ‌پەردە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has a reputation for blunt speaking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی دەرکردە بۆ قسەکردنی بێ‌پەردە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,10 +257,18 @@ class EnglishEntryblunt extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "To be blunt, your work is appalling."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرڕاست بم لەگەڵت، کارەکەت وێرانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "To be blunt, your work is appalling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرڕاست بم لەگەڵت، کارەکەت وێرانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +288,18 @@ class EnglishEntryblunt extends StatelessWidget {
                                   "٣. (کردار) وا لە شتێک بکەیت لاوازتر بێت یان کاریگەری کەمتر بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Age hadn't blunted his passion for adventure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەمەن حەزی بۆ سەرکێشی لاواز نەکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Age hadn't blunted his passion for adventure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەمەن حەزی بۆ سەرکێشی لاواز نەکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +319,18 @@ class EnglishEntryblunt extends StatelessWidget {
                                   "٤. (کردار) وا لە شتێک بکەیت کەمتر تیژ بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Constant use can blunt the finest blades."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکارھێنانی بەردەوام دەکرێت باشترین دەم کول بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Constant use can blunt the finest blades."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکارھێنانی بەردەوام دەکرێت باشترین دەم کول بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

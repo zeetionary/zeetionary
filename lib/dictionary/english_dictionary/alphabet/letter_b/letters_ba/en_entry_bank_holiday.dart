@@ -170,12 +170,18 @@ class EnglishEntrybankholiday extends StatelessWidget {
 ١. (ناو) پشووی فەرمی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our offices will be closed for the bank holiday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆفیسەکانمان داخراو دەبن لە پشووە فەرمییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our offices will be closed for the bank holiday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆفیسەکانمان داخراو دەبن لە پشووە فەرمییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -173,12 +173,18 @@ class EnglishEntrybesides extends StatelessWidget {
 ١. (ئامراز) سەرەڕای شتێک؛ ھەروەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Besides working as a doctor, he also writes novels in his spare time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای کارکردن وەک دکتۆرێک، لە کاتی بەتاڵیدا ڕۆمان دەنووسێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Besides working as a doctor, he also writes novels in his spare time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای کارکردن وەک دکتۆرێک، لە کاتی بەتاڵیدا ڕۆمان دەنووسێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybesides extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She won't mind if you're late - besides, it's hardly your fault."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشەی نابێت کە درەنگ کەوتوویت، و ھەروەھا، بە ئاستەنگ ھەڵەی تۆ بووە (ھیچت لە دەست نەھاتووە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She won't mind if you're late - besides, it's hardly your fault."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەی نابێت کە درەنگ کەوتوویت، و ھەروەھا، بە ئاستەنگ ھەڵەی تۆ بووە (ھیچت لە دەست نەھاتووە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntrybesides extends StatelessWidget {
 ٢. (ھاوەڵکار) بەکاردێت بۆ زیادکردن لێدوانێکی تر بۆ ئەوەی پێشوەختە وتووتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't really want to go. Besides, it's too late now."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕاستی نامەوێت بچم، و زۆر درەنگیشە ئێستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't really want to go. Besides, it's too late now."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕاستی نامەوێت بچم، و زۆر درەنگیشە ئێستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,12 +264,18 @@ class EnglishEntrybesides extends StatelessWidget {
 ٣. (ئامراز) سەرەڕای شتێک؛ ھەروەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm capable of doing the work, and a lot more besides."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانای کردنی کارەکەم ھەیە، و ھەروەھا زۆری تریش."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm capable of doing the work, and a lot more besides."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانای کردنی کارەکەم ھەیە، و ھەروەھا زۆری تریش."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

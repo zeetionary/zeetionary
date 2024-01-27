@@ -170,12 +170,18 @@ class EnglishEntrybirthmark extends StatelessWidget {
 ١. (ناو) خاڵێکی قاوەیی یان سوور کە لەسەر پێستی کەسێکە لە زگماکییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Baby's birthmark looked like a tiny strawberry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاڵە زگماکییەکەی منداڵەکە لە لە شلیکێکی بچووک دەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Baby's birthmark looked like a tiny strawberry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاڵە زگماکییەکەی منداڵەکە لە لە شلیکێکی بچووک دەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

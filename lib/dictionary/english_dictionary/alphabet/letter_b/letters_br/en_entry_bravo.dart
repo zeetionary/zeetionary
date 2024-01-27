@@ -166,10 +166,18 @@ class EnglishEntrybravo extends StatelessWidget {
 ١. (سەرسوڕمان) بەکاردێت بۆ دەربڕینی دەستخۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Bravo, chef! The meal is exquisite."),
-                              const ExampleSentenceKurdish(
-                                  text: "بژیت، شێف! خواردنەکە بێ‌ھاوتایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bravo, chef! The meal is exquisite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بژیت، شێف! خواردنەکە بێ‌ھاوتایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

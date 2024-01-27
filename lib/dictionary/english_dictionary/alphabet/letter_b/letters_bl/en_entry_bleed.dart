@@ -171,10 +171,16 @@ class EnglishEntrybleed extends StatelessWidget {
 ١. (کردار) خوێن‌لێچوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She slowly bled to death."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەھێواشی خوێنی لێچوو تا مردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She slowly bled to death."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەھێواشی خوێنی لێچوو تا مردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybleed extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was bleeding from a gash on his head."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێنی لێدەچۆڕا لە برینێکی گەورە لە سەریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was bleeding from a gash on his head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێنی لێدەچۆڕا لە برینێکی گەورە لە سەریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,10 +229,18 @@ class EnglishEntrybleed extends StatelessWidget {
                                   "٢. (کردار) دەرکردنی خوێن لە کەسێکدا لە کۆندا وەک چارەسەری نەخۆشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bled his patients with leeches."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کرم خوێنی لە نەخۆشەکانی دەردەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bled his patients with leeches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کرم خوێنی لە نەخۆشەکانی دەردەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +261,18 @@ class EnglishEntrybleed extends StatelessWidget {
                                   "٣. (کردار) زۆر لە کەسێک بکەیت پارەیەکی زۆر بدات لە ماوەیەکی کەمدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company seems intent on bleeding us for every penny we have."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە ئامانجییەتی قڕان بە قڕانمان لێ بسێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company seems intent on bleeding us for every penny we have."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە ئامانجییەتی قڕان بە قڕانمان لێ بسێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +293,18 @@ class EnglishEntrybleed extends StatelessWidget {
                                   "٤. (کردار) بڵاوبوونەوە مەرەکەب یان بۆیە بەدەر لە شوێنی خۆی و بۆ شوێنی ڕەنگێکی تر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Keep the paint fairly dry so that the colours don't bleed into each other."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆیەکە بە وشکی بھێڵەوە بۆ ئەوەی ڕەنگەکان تێکەڵی یەکدی نەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Keep the paint fairly dry so that the colours don't bleed into each other."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆیەکە بە وشکی بھێڵەوە بۆ ئەوەی ڕەنگەکان تێکەڵی یەکدی نەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

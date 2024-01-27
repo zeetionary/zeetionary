@@ -215,12 +215,18 @@ class EnglishEntrybuoy extends StatelessWidget {
 ١. (ناو) پارچە شتێک کە سەرئاو دەکەوێت و وەک ئاماژە بەکاردێت کە کوێی ئاوەکە مەترسیدارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A series of buoys marked the underwater cable route to prevent accidental damage by boats."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشاب دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A series of buoys marked the underwater cable route to prevent accidental damage by boats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشاب دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoy", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntrybuoy extends StatelessWidget {
                                   "٢. (کردار) دڵخۆشکردن یان متمانە بەخشین بە کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Buoyed by their win yesterday the team feel confident of further success."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە هەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Buoyed by their win yesterday the team feel confident of further success."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە هەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +277,18 @@ class EnglishEntrybuoy extends StatelessWidget {
                                   "٣. (کردار) ڕاگرتنی کەسێک/شتێک بە سەرئاوکەوتووی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The very salty water buoyed her (up) as she swam."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوە زۆر سوێرەکە بە سەراوکەوتووی هێشتییەوە کە مەلەوانی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The very salty water buoyed her (up) as she swam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوە زۆر سوێرەکە بە سەراوکەوتووی هێشتییەوە کە مەلەوانی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,12 +308,18 @@ class EnglishEntrybuoy extends StatelessWidget {
                                   "٤. (کردار) هێشتنەوەی نرخ بە بەرزی یان ئاستێک کە پەسەند بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "House prices have been buoyed (up) in the area by the possibility of a new factory opening."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەهۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "House prices have been buoyed (up) in the area by the possibility of a new factory opening."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەهۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

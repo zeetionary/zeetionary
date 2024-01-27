@@ -168,12 +168,18 @@ class EnglishEntrybodywork extends StatelessWidget {
 ١. (ناو) پێکھاتەی سەرەکیی دەرەوەی ئامرازێکی گواستنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The car had damaged bodywork but a very good engine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە لاشەکەی بەرکەوتنی ھەبوو، بەڵام بزوێنەری زۆر باشی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car had damaged bodywork but a very good engine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە لاشەکەی بەرکەوتنی ھەبوو، بەڵام بزوێنەری زۆر باشی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

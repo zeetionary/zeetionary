@@ -167,12 +167,18 @@ class EnglishEntrybloodstained extends StatelessWidget {
 ١. (ھاوەڵناو) داپۆشراو بە قەترە خوێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bloodstained clothing was found near the scene."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلوبەرگی خوێناوی دۆزرایەوە لە شوێنی تاوانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bloodstained clothing was found near the scene."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلوبەرگی خوێناوی دۆزرایەوە لە شوێنی تاوانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybloodstained extends StatelessWidget {
                                   "٢. (ھاوەڵناو) بەرپرس بە مەرگ یان برینی ژمارەیەکی زۆر خەڵک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had been regarded for decades as a bloodstained terrorist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ چەندین دەیەیە وەک تیرۆریستێکی ترسناک دانراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had been regarded for decades as a bloodstained terrorist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ چەندین دەیەیە وەک تیرۆریستێکی ترسناک دانراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

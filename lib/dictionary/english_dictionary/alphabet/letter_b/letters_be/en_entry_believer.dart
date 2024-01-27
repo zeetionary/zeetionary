@@ -171,12 +171,18 @@ class EnglishEntrybeliever extends StatelessWidget {
 ١. (ناو) کەسێک کە باوەڕی بە بوون یان ڕاستییەتی شتێک ھەیە، بەتایبەتی یەکێک کە باوەڕی بە بوونی خودا یان ئایینێک ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's been a believer since she survived a terrible car accident."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بووە بە باوەڕدارێک لەوەتەی لە ڕووداوێکی خراپ ڕزگاری بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been a believer since she survived a terrible car accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بووە بە باوەڕدارێک لەوەتەی لە ڕووداوێکی خراپ ڕزگاری بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybeliever extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm a great believer in allowing people to make their own mistakes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕدارێکی تەواوم بەوەی کە دەبێت ڕێگە بە خەڵکی دبرێت ھەڵەی خۆیان بکەن (تا لێیانەوە فێربن)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm a great believer in allowing people to make their own mistakes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕدارێکی تەواوم بەوەی کە دەبێت ڕێگە بە خەڵکی دبرێت ھەڵەی خۆیان بکەن (تا لێیانەوە فێربن)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

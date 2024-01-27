@@ -168,12 +168,18 @@ class EnglishEntrybiggame extends StatelessWidget {
 ١. (ناو) ئاژەڵی کێوی گەورە کە خەڵکی وەک وەرزش ڕاوی دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hunters tracked the grizzly bear, one of North America's most big game animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاوکەران بەشوێن ورچە قاوەییەکە بوون، کە یەکێکە لە ئاژەڵە گەورەکانی ڕاوکردن لە باکووری ئەمریکادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hunters tracked the grizzly bear, one of North America's most big game animals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاوکەران بەشوێن ورچە قاوەییەکە بوون، کە یەکێکە لە ئاژەڵە گەورەکانی ڕاوکردن لە باکووری ئەمریکادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

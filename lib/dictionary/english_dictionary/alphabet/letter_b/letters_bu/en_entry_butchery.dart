@@ -213,11 +213,18 @@ class EnglishEntrybutchery extends StatelessWidget {
 ١. (ناو) کوشتنی دڕندانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When are they going to put an end to this butchery?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کەی کۆتایی بەم خوێنڕێژییە دێنن؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When are they going to put an end to this butchery?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەی کۆتایی بەم خوێنڕێژییە دێنن؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butchery", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +244,18 @@ class EnglishEntrybutchery extends StatelessWidget {
                                   "٢. (ناو) کاری کوشتنی ئاژەڵ و ئامادەکردنی گۆشتەکەی بۆ فرۆشتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Butchery is a skill that takes time to learn."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەسابی بەهرەیەکە کە کاتی پێویستە بۆ فێربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Butchery is a skill that takes time to learn."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەسابی بەهرەیەکە کە کاتی پێویستە بۆ فێربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

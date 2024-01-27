@@ -168,12 +168,18 @@ class EnglishEntrybefriend extends StatelessWidget {
 ١. (کردار) بوون بە ھاوڕێی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Shortly after my arrival at the school, I was befriended by an older girl."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمێک دوای گەشتنم بە قوتابخانەکە، کچێکی بەتەمەنتر بوو بە ھاوڕێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shortly after my arrival at the school, I was befriended by an older girl."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمێک دوای گەشتنم بە قوتابخانەکە، کچێکی بەتەمەنتر بوو بە ھاوڕێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

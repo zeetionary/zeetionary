@@ -166,11 +166,18 @@ class EnglishEntrybriefly extends StatelessWidget {
 ١. (ھاوەڵکار) بۆ ماوەیەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He had spoken to Emma only briefly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا بۆ ماوەیەکی کەم قسەی لەگەڵ ئێما کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had spoken to Emma only briefly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا بۆ ماوەیەکی کەم قسەی لەگەڵ ئێما کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "briefly" as
                               Column(
                                 children: [
@@ -187,11 +194,18 @@ class EnglishEntrybriefly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She met John briefly on Friday night."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەوی ھەینی بۆ ماوەیەکی کەم جۆنی دیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She met John briefly on Friday night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەوی ھەینی بۆ ماوەیەکی کەم جۆنی دیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +222,18 @@ class EnglishEntrybriefly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We chatted briefly about the weather."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ماوەیەکی کەم گفتوگۆمان لەسەر کەشوھەوا کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We chatted briefly about the weather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەیەکی کەم گفتوگۆمان لەسەر کەشوھەوا کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

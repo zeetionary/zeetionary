@@ -166,10 +166,18 @@ class EnglishEntrybat extends StatelessWidget {
 ١. (ناو) پارچە دارێک کە بەکاردێت بۆ لێدان لە تۆپ لە ھەندێک یاریدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She showed me how to hold the bat."),
-                              const ExampleSentenceKurdish(
-                                  text: "فێری کردم چۆن دارەکە بەکاربێنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She showed me how to hold the bat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فێری کردم چۆن دارەکە بەکاربێنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +197,18 @@ class EnglishEntrybat extends StatelessWidget {
 ٢. (ناو) شەمشەمەکوێرە؛ ئاژەڵێک کە وەک مشکە و دەفڕێت، و لە شەودا دەگەڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some bats live in caves, while others live in trees or in buildings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک شەمشەمەکوێرە لە ئەشکەوتدا دەژین، لەکاتێکدا ھەندێکیان لە دار و دیواردا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some bats live in caves, while others live in trees or in buildings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک شەمشەمەکوێرە لە ئەشکەوتدا دەژین، لەکاتێکدا ھەندێکیان لە دار و دیواردا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,10 +228,16 @@ class EnglishEntrybat extends StatelessWidget {
 ٣. (کردار) لێدان لە تۆپێک بە دارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bats very well."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرباش لە تۆپەکە دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He bats very well."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆرباش لە تۆپەکە دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,11 +257,17 @@ class EnglishEntrybat extends StatelessWidget {
 ٤. (کردار) لێدان لە شتێکی بچووک و ناردنی بە ھەوادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He batted the wasp away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشای بە زەردەواڵەکەدا و دووریخستەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He batted the wasp away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشای بە زەردەواڵەکەدا و دووریخستەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

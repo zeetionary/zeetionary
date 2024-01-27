@@ -172,12 +172,18 @@ class EnglishEntrybackbreaking extends StatelessWidget {
 ١. (ھاوەڵناو) کارێکی زۆر سەخت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She realized with dismay that the task would take weeks of back-breaking work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە دڵساردییەوە زانی کە ئەرکەکە چەندین ھەفتەی کاری کەمەرشکێنی دەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She realized with dismay that the task would take weeks of back-breaking work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دڵساردییەوە زانی کە ئەرکەکە چەندین ھەفتەی کاری کەمەرشکێنی دەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

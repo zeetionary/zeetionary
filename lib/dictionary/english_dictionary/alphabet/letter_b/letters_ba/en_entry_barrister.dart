@@ -165,12 +165,18 @@ class EnglishEntrybarrister extends StatelessWidget {
 ١. (ھاوەڵناو) پارێزەرێک لە بەریتانیا کە مافی ھەیە تانە بدات لە بڕیارێک بدات لە دادگای باڵا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barrister for the defendant picked up on the inconsistency."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارێزەرەکە کاردانەوەی ھەبوو بۆ دژبەیەکییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barrister for the defendant picked up on the inconsistency."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارێزەرەکە کاردانەوەی ھەبوو بۆ دژبەیەکییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

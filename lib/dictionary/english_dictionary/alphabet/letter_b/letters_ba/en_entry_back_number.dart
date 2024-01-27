@@ -170,12 +170,18 @@ class EnglishEntrybacknumber extends StatelessWidget {
 ١. (ناو) کۆپی پێشووتری گۆڤار یان ڕۆژنامە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Readers can easily find back numbers of the magazine they require."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Readers can easily find back numbers of the magazine they require."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێنەران بە ئاسانی دەتوانن کۆپییەکانی پێشووتری گۆڤارەکە بدۆزنەوە کە دەیانەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

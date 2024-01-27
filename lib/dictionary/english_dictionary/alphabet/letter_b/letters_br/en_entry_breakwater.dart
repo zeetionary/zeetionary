@@ -166,12 +166,18 @@ class EnglishEntrybreakwater extends StatelessWidget {
 ١. (ناو) دیوارێک کە بەرەو ناو دەریا درووست دەکرێت بۆ پاراستنی کەنار و بەندەر لە شەپۆل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Engineers constructed a massive breakwater to shield the coastal village."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندازیاران شەپۆل‌ڕەوێنێکی زەبەلاحیان درووستکرد بۆ پاراستنی گوندە کەناراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Engineers constructed a massive breakwater to shield the coastal village."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندازیاران شەپۆل‌ڕەوێنێکی زەبەلاحیان درووستکرد بۆ پاراستنی گوندە کەناراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

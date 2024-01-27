@@ -166,10 +166,18 @@ class EnglishEntrybroadly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی گشتی، بەبێ وردەکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Broadly speaking, I agree with you."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Broadly speaking, I agree with you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی گشتی، لەگەڵت ھاوڕام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broadly" as
                               Column(
                                 children: [
@@ -186,12 +194,18 @@ class EnglishEntrybroadly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many of the findings in this study are broadly similar to those of earlier experts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک لەم دۆزینەوەیانە بەشێوەیەکی گشتی وەک ئەوانەی شارەزایان پێشووترن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many of the findings in this study are broadly similar to those of earlier experts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک لەم دۆزینەوەیانە بەشێوەیەکی گشتی وەک ئەوانەی شارەزایان پێشووترن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,10 +225,18 @@ class EnglishEntrybroadly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بزەیەکی گەورە و بە دەم پانی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He jumped up, grinning broadly."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەستایە سەر پێ و زەردەخەنەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He jumped up, grinning broadly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستایە سەر پێ و زەردەخەنەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

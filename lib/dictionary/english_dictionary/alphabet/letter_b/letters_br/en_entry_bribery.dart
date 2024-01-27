@@ -165,10 +165,18 @@ class EnglishEntrybribery extends StatelessWidget {
 ١. (ناو) پێدان یان وەرگرتنی بەرتیل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was arrested on bribery charges."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستگیرکرا بە تۆمەتی بەرتیل‌خۆری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was arrested on bribery charges."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکرا بە تۆمەتی بەرتیل‌خۆری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bribery" as
                               Column(
                                 children: [
@@ -185,12 +193,18 @@ class EnglishEntrybribery extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The organization was rife with bribery and corruption."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دامەزراوەکە پڕبوو لە بەرتیل‌خۆری و گەندەڵی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The organization was rife with bribery and corruption."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دامەزراوەکە پڕبوو لە بەرتیل‌خۆری و گەندەڵی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

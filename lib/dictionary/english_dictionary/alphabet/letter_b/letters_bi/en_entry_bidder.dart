@@ -171,12 +171,18 @@ class EnglishEntrybidder extends StatelessWidget {
 ١. (ناو) کەسێک یان گرووپێک کە بڕێک پارە پێشنیاز دەکات بۆ کڕینی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The painting went to the highest bidder (= the person who offered the most money)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تابلۆکە درا بەو کەسەی کە زۆرترین بڕی پێشنیاز کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The painting went to the highest bidder (= the person who offered the most money)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکە درا بەو کەسەی کە زۆرترین بڕی پێشنیاز کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybidder extends StatelessWidget {
 ٢. (ناو) کەسێک یان گرووپێک کە کارێک دەکات یان خزمەتگوزارییەک پێشکەش دەکات بە بڕێکی دیاریکراو وەک ڕکابەری لەگەڵ کۆمپانیاکانی تر """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were six bidders for the cleaning contract."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەش پاڵێوراو ھەبوون بۆ گرێبەستی پاککردنەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were six bidders for the cleaning contract."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەش پاڵێوراو ھەبوون بۆ گرێبەستی پاککردنەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

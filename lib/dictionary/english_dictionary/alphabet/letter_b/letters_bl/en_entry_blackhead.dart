@@ -168,12 +168,18 @@ class EnglishEntryblackhead extends StatelessWidget {
 ١. (ناو) خاڵێکی بچووک لەسەر پێست کە سەرەوەی ڕەشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Teenagers often struggle with blackheads during puberty due to increased oil production."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووستبوونی چەوری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Teenagers often struggle with blackheads during puberty due to increased oil production."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرزەکاران زۆرجار کێشەیان ھەیە لەگەڵ سەرڕەشە لەکاتی باڵغ‌بوون بەھۆی زیادبوونی درووستبوونی چەوری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

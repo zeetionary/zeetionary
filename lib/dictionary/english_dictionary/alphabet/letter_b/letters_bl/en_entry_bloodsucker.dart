@@ -167,11 +167,17 @@ class EnglishEntrybloodsucker extends StatelessWidget {
 ١. (ناو) ئاژەڵێک یان مێروویەک کە خوێنی ئاژەڵانی تر دەمژێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Leeches and mosquitoes are bloodsuckers."),
-                              const ExampleSentenceKurdish(
-                                  text: "زاروو و مێشوولە خوێنمژن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Leeches and mosquitoes are bloodsuckers."),
+                                    ExampleSentenceKurdish(
+                                        text: "زاروو و مێشوولە خوێنمژن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybloodsucker extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە کەسانی تر بەکاردێنێت بۆ قازانجی دارایی خۆی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He accused his manager of being a bloodsucker who took all the credit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرەکەی تۆمەتبار کرد بە بوون بە قازانج پەرستێک لە ھەموو دەستخۆشی بۆ خۆی برد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He accused his manager of being a bloodsucker who took all the credit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرەکەی تۆمەتبار کرد بە بوون بە قازانج پەرستێک لە ھەموو دەستخۆشی بۆ خۆی برد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

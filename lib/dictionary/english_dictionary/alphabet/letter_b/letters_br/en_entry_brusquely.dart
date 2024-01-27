@@ -164,11 +164,18 @@ class EnglishEntrybrusquely extends StatelessWidget {
 ١. (ھاوەڵکار) بە بەکارھێنانی وشەی کەم و بێ‌شەرمانە دەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘What's your name?’ he asked brusquely."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە بێ‌ڕێزییەوە وتی 'ناوت چییە؟'"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘What's your name?’ he asked brusquely."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە بێ‌ڕێزییەوە وتی 'ناوت چییە؟'"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brusquely" as
                               Column(
                                 children: [
@@ -185,12 +192,18 @@ class EnglishEntrybrusquely extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Officials had treated him brusquely during the investigation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسان بێ‌ڕێزانە مامەڵەیان لەگەڵ کرد لەکاتی لێکۆڵینەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Officials had treated him brusquely during the investigation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسان بێ‌ڕێزانە مامەڵەیان لەگەڵ کرد لەکاتی لێکۆڵینەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

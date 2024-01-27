@@ -166,12 +166,18 @@ class EnglishEntrybreadwinner extends StatelessWidget {
 ١. (ناو) کەسێک کە خێزانێک بەڕێوە دەبات بەو پارەیەی پەیدای دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When the baby was born, I became the sole breadwinner."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە منداڵەکە ھاتە دوونیاوە، بووم بە تەنھا پەیداکەری بژێوی ماڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When the baby was born, I became the sole breadwinner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە منداڵەکە ھاتە دوونیاوە، بووم بە تەنھا پەیداکەری بژێوی ماڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

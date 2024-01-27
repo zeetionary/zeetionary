@@ -213,12 +213,18 @@ class EnglishEntrybylaw extends StatelessWidget {
 ١. (ناو) یاسایەک کە لە لایەن حکومەتێکی خۆجێییەوە دەردەکرێت و تەنها بەسەر ناوچەیەکدا دەچەسپێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bylaw passed in the region said those caught smoking in public places would be fined."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاسایەک کە لە هەرێمەکە دەرچوو دەڵێت ئەو کەسانەی لە شوێنی گشتی دەگیردرێن لە کاتی جگەرەکێشان بژێرەیان بۆ دەنووسرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bylaw passed in the region said those caught smoking in public places would be fined."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاسایەک کە لە هەرێمەکە دەرچوو دەڵێت ئەو کەسانەی لە شوێنی گشتی دەگیردرێن لە کاتی جگەرەکێشان بژێرەیان بۆ دەنووسرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-law", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrybylaw extends StatelessWidget {
                                   "٢. (ناو) یاسایەک کە دەچەسپێت بەسەر ئەندامانی دامەزراوەیەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She fought to change the organization's by-laws, which allowed only men."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەوڵیدا یاساکانی دامەزراوەکە بگۆڕێت کە تەنها ڕێگەی بە پیاو دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She fought to change the organization's by-laws, which allowed only men."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەوڵیدا یاساکانی دامەزراوەکە بگۆڕێت کە تەنها ڕێگەی بە پیاو دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

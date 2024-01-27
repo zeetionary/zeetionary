@@ -169,11 +169,18 @@ class EnglishEntryballpoint extends StatelessWidget {
 ١. (ناو) پێنووسێک کە تۆپێکی ئاسنینی بچووک بە نوکەکەیەوەیە کە مڕەکەب دەڕێژێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The letter was written in blue ballpoint pen."),
-                              const ExampleSentenceKurdish(
-                                  text: "نامەکە بە جافێکی شین نووسرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The letter was written in blue ballpoint pen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەکە بە جافێکی شین نووسرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

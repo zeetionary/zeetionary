@@ -171,12 +171,18 @@ class EnglishEntrybakery extends StatelessWidget {
 ١. (ناو) نانەواخانە؛ شوێنێک کە نان و کێکی تێدا درووست دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People were stealing bread from those who went to the bakery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی نانیان دەدزی لەو کەسانەی کە دەچوون بۆ نانەواخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People were stealing bread from those who went to the bakery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی نانیان دەدزی لەو کەسانەی کە دەچوون بۆ نانەواخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

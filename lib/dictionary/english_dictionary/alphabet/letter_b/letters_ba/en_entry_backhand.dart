@@ -171,12 +171,18 @@ class EnglishEntrybackhand extends StatelessWidget {
 ١. (ناو) بەشێوەیەک کە پشتەدەست ڕووی لەو ئاراستەیە کە تۆپەکەی بۆ دەھاوێژرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Nadal has one of the finest backhands in tennis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نادال یەکێک لە باشترین تواناکانی لێدانی بە پشتەدەست ھەیە لە تێنسدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nadal has one of the finest backhands in tennis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نادال یەکێک لە باشترین تواناکانی لێدانی بە پشتەدەست ھەیە لە تێنسدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,10 +164,16 @@ class EnglishEntrybulbous extends StatelessWidget {
 ١. (ناو) لە شێوەی سەلکە ڕووەکێکدا؛ خڕ و قەڵەو بەشێوەیەکی ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He had a huge, bulbous nose."),
-                              const ExampleSentenceKurdish(
-                                  text: "لووتێکی گەورەی سەلک‌ئاسا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He had a huge, bulbous nose."),
+                                    ExampleSentenceKurdish(
+                                        text: "لووتێکی گەورەی سەلک‌ئاسا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulbous", follow LX strictly
                               Column(
                                 children: [

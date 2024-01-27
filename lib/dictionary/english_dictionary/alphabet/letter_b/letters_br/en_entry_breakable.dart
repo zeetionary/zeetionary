@@ -166,12 +166,18 @@ class EnglishEntrybreakable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئەگەری شکانی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you have anything breakable in your bag?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ شتێکی شکستەنیت پێیە لە جانتاکەدا؟."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you have anything breakable in your bag?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ شتێکی شکستەنیت پێیە لە جانتاکەدا؟."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

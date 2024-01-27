@@ -171,10 +171,17 @@ class EnglishEntrybooking extends StatelessWidget {
 ١. (ھاوەڵناو) ئامادەکارییەک کە پێشوەختە دەیکەیت بۆ گەشتکردن، چوون بۆ سینەما، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can I make a booking for Friday?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەتوانم بۆ ھەینی جێ‌ڕابگرم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Can I make a booking for Friday?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەتوانم بۆ ھەینی جێ‌ڕابگرم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +198,17 @@ class EnglishEntrybooking extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Early booking is recommended."),
-                              const ExampleSentenceKurdish(
-                                  text: "جێ‌ڕاگرتن بەزوویی پێشنیارکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Early booking is recommended."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێ‌ڕاگرتن بەزوویی پێشنیارکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,11 +228,18 @@ class EnglishEntrybooking extends StatelessWidget {
                                   "٢. (ناو) ئامادەکاری بۆ کەسێک نمایش بکات لە شانۆ، کۆنسێرت، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His bookings rise around Christmas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرتنەکانی بەرزدەبێتەوە لە نزیکی کریسمس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His bookings rise around Christmas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرتنەکانی بەرزدەبێتەوە لە نزیکی کریسمس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +259,18 @@ class EnglishEntrybooking extends StatelessWidget {
                                   "٣. (ناو) ئاگادارکردنەوەیەک کە یاریزانێک وەریدەگرێت (کارتی زەرد) لە کاتی ئەنجامدانی ھەڵەیەک لە یاری تۆپی پێدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When a defender gets a booking, he has to be careful not to get another and be sent off."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک کە بەرگریکارێک کارتێکی زەرد وەردەگرێت، دەبێت ئاگاداربێت یەکێکی دیکە وەرنەگرێت و دەربکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When a defender gets a booking, he has to be careful not to get another and be sent off."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک کە بەرگریکارێک کارتێکی زەرد وەردەگرێت، دەبێت ئاگاداربێت یەکێکی دیکە وەرنەگرێت و دەربکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

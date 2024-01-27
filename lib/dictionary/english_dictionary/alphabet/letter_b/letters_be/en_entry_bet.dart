@@ -176,11 +176,17 @@ class EnglishEntrybet extends StatelessWidget {
 ١. (کردار) گرەوکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You have to be over 16 to bet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You have to be over 16 to bet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت تەمەنت لە ١٦ ساڵ زیاتر بێت بۆ ئەوەی گرەو بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybet extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Not many people are betting against France retaining their title."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Not many people are betting against France retaining their title."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکێکی زۆر دژ بەوە گرەو ناکەن کە فەرەنسا نازناوەکە دەپارێزێت (پێیان وایە فەرەنسا نازناوەکە دەبات)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntrybet extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bet me £20 (that) I wouldn't do it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bet me £20 (that) I wouldn't do it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "٢٠ پاوەندی کردە گرەو لەگەڵم کە ئەوە ناکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,10 +264,17 @@ class EnglishEntrybet extends StatelessWidget {
 ٢. (کردار) بۆ وتنی ئەوەی بەنزیکەیی دڵنیایت لەوەی شتێک ڕاستە یان ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I bet (that) we’re too late."),
-                              const ExampleSentenceKurdish(
-                                  text: "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I bet (that) we’re too late."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیام لەوەی زۆر درەنگ کەوتووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +292,18 @@ class EnglishEntrybet extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm willing to bet (that) the analysts will be wrong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm willing to bet (that) the analysts will be wrong."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتوانم گرەو بکەم کە شیکاران ھەڵە دەردەچن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -292,12 +323,18 @@ class EnglishEntrybet extends StatelessWidget {
 ٣. (ناو) گرەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We've got a bet on who's going to arrive first."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've got a bet on who's going to arrive first."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرەومان کردووە لەسەر ئەوەی کێ زووتر دەگات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -317,11 +354,18 @@ class EnglishEntrybet extends StatelessWidget {
 ٤. (ناو) بۆچوونێک لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My bet is that they've been held up in traffic."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆچوونم وایە لە ترافیک ماونەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My bet is that they've been held up in traffic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچوونم وایە لە ترافیک ماونەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

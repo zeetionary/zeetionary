@@ -210,12 +210,18 @@ class EnglishEntrybureaucrat extends StatelessWidget {
 ١. (ناو) کەسێک کە لە دامەزراوەیەک یان بەشێکی حکومەتێکدا کاردەکات، بەتایبەتی شوێنێک کە گرنگی زۆر بە پابەندبوون بە بڕیارەوە دەدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It turned out she was one of those faceless bureaucrats who control our lives."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرچوو ئەو یەکێکە لەو بیرۆکراتە نەناسراوانە کە ژیانمانی کۆنترۆڵ کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It turned out she was one of those faceless bureaucrats who control our lives."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرچوو ئەو یەکێکە لەو بیرۆکراتە نەناسراوانە کە ژیانمانی کۆنترۆڵ کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureaucrat", follow LX strictly
                               Column(
                                 children: [

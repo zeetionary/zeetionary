@@ -166,12 +166,18 @@ class EnglishEntryblackberryone extends StatelessWidget {
 ١. (ناو) جۆرە موبایلێکی زیرەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Check your emails via your BlackBerry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەیری ئیمەیڵەکانت بکە لە بلاکبێرییەکەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Check your emails via your BlackBerry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیری ئیمەیڵەکانت بکە لە بلاکبێرییەکەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,10 +166,16 @@ class EnglishEntrybrainwave extends StatelessWidget {
 ١. (ناو) بیرۆکەیەکی باشی لەناکاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I've had a brainwave!"),
-                              const ExampleSentenceKurdish(
-                                  text: "بیرۆکەیەکی تازەم ھەیە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I've had a brainwave!"),
+                                    ExampleSentenceKurdish(
+                                        text: "بیرۆکەیەکی تازەم ھەیە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybrainwave extends StatelessWidget {
                               text: "٢. (ناو) شەپۆپۆلێکی کارەبایی مێشک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The scan showed that he exhibited abnormal brainwave patterns."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکانەکە پیشانی دا کە شێوە شەپۆلی مێشکی نائاسایی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The scan showed that he exhibited abnormal brainwave patterns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکانەکە پیشانی دا کە شێوە شەپۆلی مێشکی نائاسایی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

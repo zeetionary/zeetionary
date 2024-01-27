@@ -165,11 +165,18 @@ class EnglishEntrybrigade extends StatelessWidget {
 ١. (ناو) ڕێژەیەکی زۆر سەرباز کە بەشێکی سوپایەک پێکدێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A special army brigade is to be formed."),
-                              const ExampleSentenceKurdish(
-                                  text: "لیوایەکی تایبەتی سوپا درووست دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A special army brigade is to be formed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیوایەکی تایبەتی سوپا درووست دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brigade" as
                               Column(
                                 children: [
@@ -189,12 +196,18 @@ class EnglishEntrybrigade extends StatelessWidget {
                                   "٢. (ناو) کۆمەڵە کەسێک کە خاڵێکی ھاوبەشیان ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Since she gave up smoking she's joined the anti-smoking brigade."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەوەتەی وازی لە جگەرەکێشان ھێناوە پەیوەندی کردووە بە کۆمەڵەی دژبەرانی جگەرەکێشانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Since she gave up smoking she's joined the anti-smoking brigade."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەوەتەی وازی لە جگەرەکێشان ھێناوە پەیوەندی کردووە بە کۆمەڵەی دژبەرانی جگەرەکێشانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

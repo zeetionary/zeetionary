@@ -171,10 +171,16 @@ class EnglishEntrybore extends StatelessWidget {
 ١. (ناو) بێزارکردنی کەسێک، بەتایبەی بە قسەی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm not boring you, am I?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بێزارت ناکەم، وایە؟."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'm not boring you, am I?"),
+                                    ExampleSentenceKurdish(
+                                        text: "بێزارت ناکەم، وایە؟."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,17 @@ class EnglishEntrybore extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I won't bore you with too many details."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرت نایەشێنم بە وردەکاری زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I won't bore you with too many details."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەرت نایەشێنم بە وردەکاری زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybore extends StatelessWidget {
                                   "٢. (کردار) درووستکردنی چاڵێکی قووڵ بە ئامێرێک یان بە ھەڵکەندن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The drill is strong enough to bore through solid rock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "درێلەکە ھندە بەھێزە کە بە بەردی سەختدا بکەنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The drill is strong enough to bore through solid rock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "درێلەکە ھندە بەھێزە کە بە بەردی سەختدا بکەنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +258,18 @@ class EnglishEntrybore extends StatelessWidget {
                                   "٣. (کردار) ڕوانین بەشێوەیەک کە کەسێک ناڕەحەت دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His blue eyes seemed to bore into her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوە شینەکانی وادیار بوون لێی زەقبووبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His blue eyes seemed to bore into her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوە شینەکانی وادیار بوون لێی زەقبووبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -268,12 +292,18 @@ class EnglishEntrybore extends StatelessWidget {
                                   "٥. (ناو) کەسێک کە زۆر بێزارکەرە، زۆرجار بەھۆی ئەوەی قسە زۆر دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had to sit next to Michael at dinner - he's such a bore."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە خواردنی نیوەڕۆ دەبوو لە تەنیشت مایکڵ دابنیشم، زۆر کەسێکی ڕیوڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had to sit next to Michael at dinner - he's such a bore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە خواردنی نیوەڕۆ دەبوو لە تەنیشت مایکڵ دابنیشم، زۆر کەسێکی ڕیوڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

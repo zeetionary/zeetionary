@@ -216,7 +216,7 @@ class EnglishEntrybutterscotch extends StatelessWidget {
 //                               const ExampleSentenceEnglish(
 //                                   text:
 //                                       "speakbutterscotchs111111111111111111111111111111111"),
-//                               const ExampleSentenceKurdish(
+//                               ExampleSentenceKurdish(
 //                                   text: "رستە_رستە_رستە_رستە."),
 //                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butterscotch", follow LX strictly
 //                               Column(

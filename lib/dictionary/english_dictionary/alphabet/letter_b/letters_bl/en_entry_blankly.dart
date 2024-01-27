@@ -166,12 +166,18 @@ class EnglishEntryblankly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ھیچ ھەست و تێگەشتن و ئارەزووی تێدا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She stared blankly into space, not knowing what to say next."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە نائاگاییەوە سەیری دەورووبەری دەکرد، و نەیدەزانی چی بڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She stared blankly into space, not knowing what to say next."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە نائاگاییەوە سەیری دەورووبەری دەکرد، و نەیدەزانی چی بڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

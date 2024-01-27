@@ -166,12 +166,18 @@ class EnglishEntrybobbin extends StatelessWidget {
 ١. (ناو) ئامێرێکە کە دەزووی لێ دەئاڵێندرێت و دەبەسترێت لە مەکینەی دروومان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Wind the thread slowly and evenly onto the bobbin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەزووەکە بە ھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Wind the thread slowly and evenly onto the bobbin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەزووەکە بە ھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

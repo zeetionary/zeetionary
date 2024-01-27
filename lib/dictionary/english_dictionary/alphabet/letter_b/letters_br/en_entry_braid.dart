@@ -167,12 +167,18 @@ class EnglishEntrybraid extends StatelessWidget {
 ١. (ناو) حەبلی ڕەنگاوڕەنگ کە بەکاردێت بۆ نەخشاندنی کەلوپەلی ناوماڵ و جلی سەربازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The captain of the ship wore a cap decorated with gold braid (= twisted gold threads)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاپتنی کاشتییەکە کڵاوێکی لەسەر کردبوو کە بە قەیاتنی ئاڵتوونی نەخشێندرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The captain of the ship wore a cap decorated with gold braid (= twisted gold threads)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاپتنی کاشتییەکە کڵاوێکی لەسەر کردبوو کە بە قەیاتنی ئاڵتوونی نەخشێندرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybraid extends StatelessWidget {
                                   "٢. (ناو) قژ یان شتێک کە دەکرێت بە سێ بەشەوە و لێک دەئاكێندرێن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She usually wears her hair in a braid/in two braids."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرجار قژی دەکات بە پەلکەیەک/دوو پەلکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She usually wears her hair in a braid/in two braids."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار قژی دەکات بە پەلکەیەک/دوو پەلکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,10 +228,16 @@ class EnglishEntrybraid extends StatelessWidget {
                               text: "٣. (کردار) کردن بە پەلکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She'd braided her hair."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژی کردبوو بە پەلکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She'd braided her hair."),
+                                    ExampleSentenceKurdish(
+                                        text: "قژی کردبوو بە پەلکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

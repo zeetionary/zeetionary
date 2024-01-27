@@ -172,12 +172,18 @@ class EnglishEntrybeaver extends StatelessWidget {
 ١. (ناو) ئاژەڵیک کە کلکێکی بڵاو و پانی ھەیە لەگەڵ ددانی بەھێز. ئاژەڵەکە لە ئاو و وشکانی دەژی و دەتوانێت بەربەست لە ئاودا درووست بکات کە لە دار و قوڕ درووست کرابێت. ئاژەڵەکە سمبولی فەرمی کەنەدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beavers are excellent swimmers and use their broad, flat tails to propel themselves through the water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەگاوی مەلەوانی زۆر باشە و کلکە پان و بڵاوەکەیان بەکاردێنن بۆ ئەوەی پاڵی خۆیان بنێن لە ئاودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beavers are excellent swimmers and use their broad, flat tails to propel themselves through the water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگاوی مەلەوانی زۆر باشە و کلکە پان و بڵاوەکەیان بەکاردێنن بۆ ئەوەی پاڵی خۆیان بنێن لە ئاودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybeaver extends StatelessWidget {
 ٢. (ناو) فەرووی سەگاوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the past, beaver fur was used to make hats, coats, and other garments."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران فەرووی سەگاوی بەکاردەھات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the past, beaver fur was used to make hats, coats, and other garments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران فەرووی سەگاوی بەکاردەھات بۆ درووستکردنی کڵاو و پاڵتاو و جلوبەرگی تر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,11 +234,18 @@ class EnglishEntrybeaver extends StatelessWidget {
 ٣. (ناو) ناوچەی دەوری ئەندامی زاوزێی ژنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was staring at her beaver the whole time."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی ماوەکە سەیری عەورەتی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was staring at her beaver the whole time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی ماوەکە سەیری عەورەتی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

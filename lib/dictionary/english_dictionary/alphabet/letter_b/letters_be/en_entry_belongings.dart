@@ -170,12 +170,18 @@ class EnglishEntrybelongings extends StatelessWidget {
 ١. (ناو) ئەو شتانەی کە ھەتن و دەکرێت بگوێزرێنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She packed her few belongings in a bag and left."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەلوپەلە کەمەکانی لە جانتایەکدا کۆکردەوە و ڕۆشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She packed her few belongings in a bag and left."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەلوپەلە کەمەکانی لە جانتایەکدا کۆکردەوە و ڕۆشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

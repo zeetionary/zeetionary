@@ -279,12 +279,18 @@ class EnglishEntrybrand extends StatelessWidget {
 ١. (ناو) خامەتگوزارییەک یان بەرھەمێک کە لەژێر ناوێکی دیاریکراودا لەلایەن کۆمپانیایەکەوە پێشکەش دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You pay less for the supermarket's own brand."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەی کەمتر دەدەیت بۆ بەرھەمەکانی کۆمپانیاکە خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You pay less for the supermarket's own brand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەی کەمتر دەدەیت بۆ بەرھەمەکانی کۆمپانیاکە خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -301,12 +307,18 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Google is one of the world's most prominent brands."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گووگڵ یەکێکە لە بەرھەمە ناودارەکانی جیھان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Google is one of the world's most prominent brands."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گووگڵ یەکێکە لە بەرھەمە ناودارەکانی جیھان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -323,11 +335,17 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "How can we build our brand?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چۆن دەتوانین ناوی بەرھەمەکەمان بناسێنین؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "How can we build our brand?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چۆن دەتوانین ناوی بەرھەمەکەمان بناسێنین؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -346,11 +364,18 @@ class EnglishEntrybrand extends StatelessWidget {
                               text: "٢. (ناو) جۆرێکی دیاریکراو لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They developed their own brand of communism."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆمیونیزمی جۆری خۆیان گەشەپێدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They developed their own brand of communism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمیونیزمی جۆری خۆیان گەشەپێدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,11 +392,17 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has her own unique brand of humour."),
-                              const ExampleSentenceKurdish(
-                                  text: "جۆری خۆی بۆ گاڵتەوگەپ ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has her own unique brand of humour."),
+                                    ExampleSentenceKurdish(
+                                        text: "جۆری خۆی بۆ گاڵتەوگەپ ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -391,12 +422,18 @@ class EnglishEntrybrand extends StatelessWidget {
                                   "٣. (ناو) نیشانەیەک کە داخ دەکرێت لەسەر پێستی ئاژەڵیک بۆ پیشاندانی ئەوەی کێ خاوەنداری دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The brand was still visible on the animal's hide."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیشانەکە ھێشتا دیار بوو لەسەر پێستی ئاژەڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The brand was still visible on the animal's hide."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیشانەکە ھێشتا دیار بوو لەسەر پێستی ئاژەڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -416,12 +453,18 @@ class EnglishEntrybrand extends StatelessWidget {
                                   "٤. (کردار) لکاندنی ناوێک، ناسنامەیەک، یان وێنایەک بە شتێکەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The website was not doing a very good job of branding the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێبسایتەکە سەرکەوتوو نەبوو لە ناساندنی ناوی کۆمپانیاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The website was not doing a very good job of branding the company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێبسایتەکە سەرکەوتوو نەبوو لە ناساندنی ناوی کۆمپانیاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -438,12 +481,18 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their products are branded as organic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرھەمەکانیان وەک ئەندامی ناوزەد دەکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their products are branded as organic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرھەمەکانیان وەک ئەندامی ناوزەد دەکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -462,11 +511,18 @@ class EnglishEntrybrand extends StatelessWidget {
                               text: "٥. (کردار) ناوھێنانی کەسێک/شتێک بە خراپ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were branded as liars and cheats."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک درۆزن و ساختەچی ناوزەدکران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were branded as liars and cheats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک درۆزن و ساختەچی ناوزەدکران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -483,11 +539,18 @@ class EnglishEntrybrand extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The newspapers branded her a hypocrite."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆژنامەکان وەک دووڕوو ناوزەدیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The newspapers branded her a hypocrite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەکان وەک دووڕوو ناوزەدیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

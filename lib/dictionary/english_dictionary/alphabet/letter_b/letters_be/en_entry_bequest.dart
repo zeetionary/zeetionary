@@ -170,12 +170,18 @@ class EnglishEntrybequest extends StatelessWidget {
 ١. (ھاوەڵناو) سەروەت و سامان کە داوا دەکەیت بدرێت کەسێک لە دوای مردنت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He left a bequest to each of his grandchildren."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشە میراتییەکی بۆ ھەریەک لە منداڵەکانی جێھێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He left a bequest to each of his grandchildren."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشە میراتییەکی بۆ ھەریەک لە منداڵەکانی جێھێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

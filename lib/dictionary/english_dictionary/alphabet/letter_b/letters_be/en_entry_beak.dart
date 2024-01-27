@@ -172,11 +172,18 @@ class EnglishEntrybeak extends StatelessWidget {
 ١. (ناو) دەنووکی باڵندە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The gull held the fish in its beak."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەورەسەکە ماسییەکەی لە دەنووکیدا گرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The gull held the fish in its beak."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەورەسەکە ماسییەکەی لە دەنووکیدا گرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +203,18 @@ class EnglishEntrybeak extends StatelessWidget {
 ٢. (ناو) لووتی لزل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He'd be handsome if it wasn't for that huge beak of his."),
-                              const ExampleSentenceKurdish(
-                                  text: "جوان دەبوو ئەگەر ئەو لمۆزەی نەبوایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He'd be handsome if it wasn't for that huge beak of his."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوان دەبوو ئەگەر ئەو لمۆزەی نەبوایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +234,18 @@ class EnglishEntrybeak extends StatelessWidget {
 ٣. (ناو) لەسێکی کە دەسەڵاتی ھەیە، بەتایبەتی دادوەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The defendant appeared before the beak for a bail hearing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گومان‌لێ‌کراو لەپێش دادوەر دەرکەوت بۆ دادگایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The defendant appeared before the beak for a bail hearing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گومان‌لێ‌کراو لەپێش دادوەر دەرکەوت بۆ دادگایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

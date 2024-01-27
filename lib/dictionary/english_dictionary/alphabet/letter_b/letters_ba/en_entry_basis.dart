@@ -170,11 +170,18 @@ class EnglishEntrybasis extends StatelessWidget {
 ١. (ناو) ڕێژەی ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are in contact on a regular basis."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەشێوەیەکی بەردەوام لە پەیوەندیداین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are in contact on a regular basis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی بەردەوام لە پەیوەندیداین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntrybasis extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fatal accidents occur on our roads on a daily basis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوی کوشندە لەسەر شەقام ڕوودەدات بەشێوەیەکی ڕۆژانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fatal accidents occur on our roads on a daily basis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوی کوشندە لەسەر شەقام ڕوودەدات بەشێوەیەکی ڕۆژانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +230,18 @@ class EnglishEntrybasis extends StatelessWidget {
 ٢. (ناو) ھۆکاری ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was chosen for the job on the basis of her qualifications."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ کارەکە دیاریکرا لەسەر بنەمای کارامەییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was chosen for the job on the basis of her qualifications."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ کارەکە دیاریکرا لەسەر بنەمای کارامەییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybasis extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We made our decision on the basis of the information we had."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیارەکەمان دا بە پشتبەستن بەو زانیارییانەی کە ھەمان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We made our decision on the basis of the information we had."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارەکەمان دا بە پشتبەستن بەو زانیارییانەی کە ھەمان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,11 +290,18 @@ class EnglishEntrybasis extends StatelessWidget {
 ٣. (ناو) گرنگترین بیرۆکە، زانیاری، یان ڕووداو کە دەبێت بە بناغە بۆ ڕوودانی شتی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The basis of a good marriage is trust."),
-                              const ExampleSentenceKurdish(
-                                  text: "بناغەی ھاوسەرگیری باش متمانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The basis of a good marriage is trust."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بناغەی ھاوسەرگیری باش متمانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -287,12 +319,18 @@ class EnglishEntrybasis extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The initial talks were intended to provide a basis for negotiations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گفتوگۆکانی سەرەتا مەبەست لێیان درووستکردنی بنەمایەک بوو بۆ گفتوگۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The initial talks were intended to provide a basis for negotiations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گفتوگۆکانی سەرەتا مەبەست لێیان درووستکردنی بنەمایەک بوو بۆ گفتوگۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

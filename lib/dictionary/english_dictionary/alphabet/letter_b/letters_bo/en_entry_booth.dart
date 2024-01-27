@@ -169,12 +169,18 @@ class EnglishEntrybooth extends StatelessWidget {
 ١. (ناو) شوێنێک کە دیوار بە دەوریدایە و دەتوانیت شتێکی تایبەت بکەیت، بۆ نموونە پەیوەندیی تەلەفۆنی یان دەنگدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Phone booths have become rare with the rise of mobile phones."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Phone booths have become rare with the rise of mobile phones."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورۆچکەی پەیوەندیکردن بوونە بە شتێکی دەگمەن لەگەڵ دەرکەوتنی موبایلدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybooth extends StatelessWidget {
                                   "٢. (ناو) شوێنێک یان چادرگەیەکی کاتی لە مارکێتێک یان پێشانگایەک کە تێیدا دەتوانیت شت بکڕیت، سەیری شت بکەیت، یان زانیاری وەربگریت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The information booth provided maps to tourists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The information booth provided maps to tourists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورۆچکەی زانیاری ڕێنمایی دەدا بە گەشتیاران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,12 +166,18 @@ class EnglishEntryboxnumber extends StatelessWidget {
 ١. (ناو) ژمارەیەک کە بەکاریدێنیت بۆ ئەوەی خەڵکی پەیوەندیت پێوە بکات لە جیاتی ئەوەی ناونیشان بدەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He asked for cheques to be sent to a postal box number."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای کرد چەکەکان بنێردرێن بۆ ژمارەی سنووقی پۆستەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He asked for cheques to be sent to a postal box number."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای کرد چەکەکان بنێردرێن بۆ ژمارەی سنووقی پۆستەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

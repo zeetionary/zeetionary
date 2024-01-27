@@ -170,12 +170,18 @@ class EnglishEntrybellows extends StatelessWidget {
 ١. (ناو) ئامێرێک کە بۆ پاڵنانی ھەوا بەکاردێت، بەتایبەتی بۆ خۆشکردنی ئاگر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blacksmith used the bellows to fan the flames of his forge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاسنگەرەکە مووشەدەمەی بەکارھێنا بۆ خۆشکردنی ئاگری کورەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blacksmith used the bellows to fan the flames of his forge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسنگەرەکە مووشەدەمەی بەکارھێنا بۆ خۆشکردنی ئاگری کورەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

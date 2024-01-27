@@ -171,11 +171,18 @@ class EnglishEntrybawl extends StatelessWidget {
 ١. (کردار) ھاوارکردن بە دەنگی بەرز و ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bawled at him in front of everyone."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەپێش ھەمووان ھاواری کرد بەسەریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bawled at him in front of everyone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەپێش ھەمووان ھاواری کرد بەسەریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybawl extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some noisy students were bawling for more food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک خوێندکاری ھاروھاج زاق‌وزیقیان بوو ڤۆ خواردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some noisy students were bawling for more food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک خوێندکاری ھاروھاج زاق‌وزیقیان بوو ڤۆ خواردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,11 +231,18 @@ class EnglishEntrybawl extends StatelessWidget {
 ٢. (کردار) گریان بە دەنگی بەرز و ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A child was bawling in the next room."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵێک لە ژوورەکەی تر بۆڕەبۆڕی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A child was bawling in the next room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵێک لە ژوورەکەی تر بۆڕەبۆڕی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

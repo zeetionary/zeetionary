@@ -172,12 +172,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
 ١. (ناو) وەستانی ئامێرێکی گوازەرەوە یان دەزگایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most breakdown services give priority to women travelling alone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی خزمەتگوزارییەکانی پەککەوتن پێشینەیی دەدەن بەو ژنانەی بە تەنھا گەشت دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most breakdown services give priority to women travelling alone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی خزمەتگوزارییەکانی پەککەوتن پێشینەیی دەدەن بەو ژنانەی بە تەنھا گەشت دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had a breakdown (= my car stopped working) in the middle of the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکەم پەکی کەوت لە ناوەڕاستی ڕێگاکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had a breakdown (= my car stopped working) in the middle of the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکەم پەکی کەوت لە ناوەڕاستی ڕێگاکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                   "٢. (ناو) ھەڵوەشانەوەی پەیوەندی، گفتوگۆ، سیستەمێک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The only ground for divorce is the irretrievable breakdown of the marriage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا ھۆکار بۆ جیابوونەوە شێوانی چاکنەکراوەی ھاوسەرگیرییەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The only ground for divorce is the irretrievable breakdown of the marriage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا ھۆکار بۆ جیابوونەوە شێوانی چاکنەکراوەی ھاوسەرگیرییەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both sides blamed each other for the breakdown of talks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو لا لۆمەی یەکدیان دەکرد بۆ سەرنەکەوتنی گفتوگۆکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both sides blamed each other for the breakdown of talks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو لا لۆمەی یەکدیان دەکرد بۆ سەرنەکەوتنی گفتوگۆکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +289,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
                               text: "٣. (ناو) دابەشکردنی زانیاری بۆ بەش بەش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We need a breakdown of the statistics into age groups."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستیمان بە دابەشکاریی ئامارەکانە بەپێی گرووپی تەمەنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need a breakdown of the statistics into age groups."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستیمان بە دابەشکاریی ئامارەکانە بەپێی گرووپی تەمەنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,12 +320,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                   "٤. (ناو) پڕۆسەی دابەشبوونی مادەیەک بۆ ئەو بەشانەی کە لێی درووست بووە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rate of breakdown of muscle protein was assessed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی شیبوونەوەی پڕۆتینی ماسولکە خەمڵێندرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rate of breakdown of muscle protein was assessed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی شیبوونەوەی پڕۆتینی ماسولکە خەمڵێندرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,12 +351,18 @@ class EnglishEntrybreakdown extends StatelessWidget {
                                   "٥. (ناو) ماوەیەک لە نەخۆشێ دەروونی توند کە کەسێک ناتوانێت بە ئاسایی ژیان بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The pain all became too much and he had some sort of breakdown."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئازارەکە ھەموو زۆر بوو و تووشی شێوەیەک لە داڕووخان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The pain all became too much and he had some sort of breakdown."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئازارەکە ھەموو زۆر بوو و تووشی شێوەیەک لە داڕووخان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

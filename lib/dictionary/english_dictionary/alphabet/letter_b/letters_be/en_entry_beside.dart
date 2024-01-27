@@ -171,10 +171,17 @@ class EnglishEntrybeside extends StatelessWidget {
 ١. (ئامراز) لە نزیک یان لە شانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He sat beside her all night."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی شەوەکە لە تەنیشتی دانیشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He sat beside her all night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی شەوەکە لە تەنیشتی دانیشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +201,18 @@ class EnglishEntrybeside extends StatelessWidget {
 ٢. (ئامراز) بەراورد بە شتێک یان کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My painting looks childish beside yours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My painting looks childish beside yours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +232,18 @@ class EnglishEntrybeside extends StatelessWidget {
 ٣. (ئامراز) بەراورد بە شتێک یان کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My painting looks childish beside yours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My painting looks childish beside yours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکەم منداڵانە دیارە بەراورد بەوەی تۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

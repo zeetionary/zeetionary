@@ -172,10 +172,16 @@ class EnglishEntrybelongto extends StatelessWidget {
 ١. (کاری لێکدراو) خاوەندارێتی کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Who does this watch belong to?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم کاتژمێرە ھی کێیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Who does this watch belong to?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم کاتژمێرە ھی کێیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,10 +199,16 @@ class EnglishEntrybelongto extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The islands belong to Spain."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم دوورگانە سەر بە ئیسپانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The islands belong to Spain."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم دوورگانە سەر بە ئیسپانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybelongto extends StatelessWidget {
 ٢. (کاری لێکدراو) بوون بە سەرکەوتووترین لە شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "British actors did well at the award ceremony, but the evening belonged to the Americans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەکتەرانی بەریتانیا باش بوون لە ئاھەنگی خەڵات بەخشینەکە، بەڵام شەو شەوی ئەمریکییەکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "British actors did well at the award ceremony, but the evening belonged to the Americans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەکتەرانی بەریتانیا باش بوون لە ئاھەنگی خەڵات بەخشینەکە، بەڵام شەو شەوی ئەمریکییەکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybelongto extends StatelessWidget {
 ٣. (کاری لێکدراو) بوون بە ئەندامی دامەزراوەیەک، پارتێکی سیاسی، ھتد."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Have you ever belonged to a political party?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز سەر بە ھیچ پارتێکی سیاسی بوویتە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Have you ever belonged to a political party?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز سەر بە ھیچ پارتێکی سیاسی بوویتە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,11 +290,18 @@ class EnglishEntrybelongto extends StatelessWidget {
 ٤. (کاری لێکدراو) بوون بە بەشێک لە گرووپێک، جۆرێک، یان سیستەمێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Lions and tigers belong to the cat family."),
-                              const ExampleSentenceKurdish(
-                                  text: "شێر و پڵنگ سەر بە خێزانی پشیلەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Lions and tigers belong to the cat family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێر و پڵنگ سەر بە خێزانی پشیلەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

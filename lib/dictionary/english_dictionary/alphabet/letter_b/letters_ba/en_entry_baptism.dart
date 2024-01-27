@@ -169,12 +169,18 @@ class EnglishEntrybaptism extends StatelessWidget {
 ١. (ناو) بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We’re hoping to be able to get to Pasadena for the baptism of our grandson."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھیواین بتوانین بگەینە پاسادینا بۆ مەراسیمی تەوفنی کوڕەزاکەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We’re hoping to be able to get to Pasadena for the baptism of our grandson."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھیواین بتوانین بگەینە پاسادینا بۆ مەراسیمی تەوفنی کوڕەزاکەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

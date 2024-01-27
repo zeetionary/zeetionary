@@ -169,12 +169,18 @@ class EnglishEntrybarcode extends StatelessWidget {
 ١. (ناو) نەخشێکی ھێڵی باریک و ئەستوور کە لەسەر شت دادەنرێت کە دەیکڕیت. نەخشەکە زانیاری لەخۆدەگرێت کە کۆمپیوتەر دەتوانێت بیخوێنێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A handheld scanner is used to read bar codes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A handheld scanner is used to read bar codes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکانەرێکی دەستی بەکاردێت بۆ خوێندنەوەی بارکۆد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

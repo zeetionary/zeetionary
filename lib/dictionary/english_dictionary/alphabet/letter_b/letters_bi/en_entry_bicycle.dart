@@ -172,10 +172,17 @@ class EnglishEntrybicycle extends StatelessWidget {
 ١. (ناو) ئامێرێکی گوێزەرەوە کە کە دوو ویلی ھەیە و لێیدەخوڕی بە پاڵنانی پایدەرەکانی بە پێیەکانت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He got on his bicycle and rode off."),
-                              const ExampleSentenceKurdish(
-                                  text: "سواری پاسکیلەکەی بوو و چوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He got on his bicycle and rode off."),
+                                    ExampleSentenceKurdish(
+                                        text: "سواری پاسکیلەکەی بوو و چوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybicycle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I dismounted and began to push my bicycle up the hill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاسکیلەکەم دابەزیم و بە گردەکەدا پاڵمنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I dismounted and began to push my bicycle up the hill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پاسکیلەکەم دابەزیم و بە گردەکەدا پاڵمنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +231,18 @@ class EnglishEntrybicycle extends StatelessWidget {
 ٢. (کردار) چوونە شوێنێک بە پاسکیل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bicycles to work through the heart of Amsterdam."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ناوجەرگەی ئەمستردامدا بە پاسکیل دەچێتە سەر کار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bicycles to work through the heart of Amsterdam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ناوجەرگەی ئەمستردامدا بە پاسکیل دەچێتە سەر کار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

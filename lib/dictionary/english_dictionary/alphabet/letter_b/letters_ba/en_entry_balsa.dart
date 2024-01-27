@@ -169,12 +169,18 @@ class EnglishEntrybalsa extends StatelessWidget {
 ١. (ناو) تەختەی داتی بالسا کە زۆر نەرمە و بە ئاسانی دەبڕدرێت، ھەندێک جار بۆ درووستکردنی نموونەی کاری ئەندازیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The balsa trees are native to South America and can grow up to 100 feet tall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The balsa trees are native to South America and can grow up to 100 feet tall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داری بالسا بەسرووشتی لە ئەمریکای باشوور ھەن و تاوەکو ١٠٠ پێ گەشەدەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

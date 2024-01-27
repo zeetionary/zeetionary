@@ -170,12 +170,18 @@ class EnglishEntrybenediction extends StatelessWidget {
 ١. (ناو) نزای داواکردن لە خودا بۆ پاراستنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The priest offered a heartfelt benediction for the newlyweds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەشەکە نزای خۆی باراند بەسەر تازە بووک و زاواکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The priest offered a heartfelt benediction for the newlyweds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەشەکە نزای خۆی باراند بەسەر تازە بووک و زاواکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

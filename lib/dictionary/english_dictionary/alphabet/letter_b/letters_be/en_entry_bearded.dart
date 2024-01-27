@@ -170,12 +170,18 @@ class EnglishEntrybearded extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە ڕیشی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A thin, bearded man sat opposite me on the train."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێکی باریکی ڕیشن لە بەرامبەرم دانیشت لە شەمەندەفەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A thin, bearded man sat opposite me on the train."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێکی باریکی ڕیشن لە بەرامبەرم دانیشت لە شەمەندەفەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

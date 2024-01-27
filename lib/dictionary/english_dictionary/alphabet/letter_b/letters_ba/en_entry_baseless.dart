@@ -165,11 +165,17 @@ class EnglishEntrybaseless extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ھیچ بەڵگەیەکی لە پشتەوە نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rumours were completely baseless."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەنگۆکان بێ‌بنەما بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rumours were completely baseless."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەنگۆکان بێ‌بنەما بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

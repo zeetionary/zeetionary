@@ -164,12 +164,18 @@ class EnglishEntrybreastbone extends StatelessWidget {
 ١. (ناو) ئێسکێکی درێژی ستوونییە دەکەوێتە ناوەڕاستی سنگ و ئێسکەکانی پەراسوو لە پێشەوە پێوەی لکاون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The surgeon carefully incised the breastbone during the heart surgery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The surgeon carefully incised the breastbone during the heart surgery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەشتەرگەرەکە بە وریاییەوە چۆڵەمەی کردەوە لەکاتی نەشتەرگەری دڵیدا ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breastbone" as
                               Column(
                                 children: [

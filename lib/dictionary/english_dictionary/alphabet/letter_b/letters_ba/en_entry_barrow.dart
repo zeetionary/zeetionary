@@ -167,12 +167,18 @@ class EnglishEntrybarrow extends StatelessWidget {
 ١. (ناو) عەرەبانەیەک کە لەسەری شت دەفرۆشرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The market vendors pushed their barrows filled with fresh produce."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستگێڕەکانی بازاڕ عەرەبانەکانیان پاڵدەدا کە پڕبوون لە بەرھەمی تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The market vendors pushed their barrows filled with fresh produce."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگێڕەکانی بازاڕ عەرەبانەکانیان پاڵدەدا کە پڕبوون لە بەرھەمی تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybarrow extends StatelessWidget {
 ٢. (ناو) تەپۆلکەیەک کە جاران درووستدەکرا بۆ ناشتنی مردوو تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێنەوارناسان بەوریاییەوە تەپۆلکە دێرینەکەیان ھەڵکۆڵی و ڕێژەیەکی زۆر لە پاشماوەیان تێیدا دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The archaeologists carefully excavated the ancient barrow, discovering a wealth of artifacts within."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێنەوارناسان بەوریاییەوە تەپۆلکە دێرینەکەیان ھەڵکۆڵی و ڕێژەیەکی زۆر لە پاشماوەیان تێیدا دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +229,18 @@ class EnglishEntrybarrow extends StatelessWidget {
 ٣. (ناو) عەرەبانەی دەستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barrow was leaning against the wall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "عەرەبانە دەستییەکە پاڵدرابوو بە دیوارەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barrow was leaning against the wall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "عەرەبانە دەستییەکە پاڵدرابوو بە دیوارەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

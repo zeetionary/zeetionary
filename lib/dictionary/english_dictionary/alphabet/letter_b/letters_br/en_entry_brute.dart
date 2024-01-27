@@ -170,10 +170,17 @@ class EnglishEntrybrute extends StatelessWidget {
 ١. (ناو) کەسێکی دڕندە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His father was a drunken brute."),
-                              const ExampleSentenceKurdish(
-                                  text: "باوکی دڕندەیەکی سەرخۆش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His father was a drunken brute."),
+                                    ExampleSentenceKurdish(
+                                        text: "باوکی دڕندەیەکی سەرخۆش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brute" as
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybrute extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You've forgotten my birthday again, you brute!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، ھەی بێ‌ھەست!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You've forgotten my birthday again, you brute!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووبارە ڕۆژی لەدایکبوونمت بیرچووە، ھەی بێ‌ھەست!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +227,18 @@ class EnglishEntrybrute extends StatelessWidget {
                               text: "٢. (ناو) نامرۆڤ؛ ئاژەڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We, unlike dumb brutes, can reflect on our experiences."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێمە، بەپێچەوانەی حاژەڵە نەزانەکان، دەتوانین لە ئەزموونمان فێربین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We, unlike dumb brutes, can reflect on our experiences."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێمە، بەپێچەوانەی حاژەڵە نەزانەکان، دەتوانین لە ئەزموونمان فێربین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,10 +257,17 @@ class EnglishEntrybrute extends StatelessWidget {
                               text: "٣. (ناو) شتێکی گران و ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That was a brute of an exam paper."),
-                              const ExampleSentenceKurdish(
-                                  text: "تاقیکردنەوەیەکی زۆر گران بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That was a brute of an exam paper."),
+                                    ExampleSentenceKurdish(
+                                        text: "تاقیکردنەوەیەکی زۆر گران بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +287,18 @@ class EnglishEntrybrute extends StatelessWidget {
                                   "٤. (ھاوەڵناو) شتێک کە پێویستی تەنھا بەھێزە نەک بیرکردنەوە و زیرەکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the end she used brute force to push him out."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتاییدا ھێزی جەستەیی بەکارھێنا بۆ ئەوەی بیکاتە دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the end she used brute force to push him out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتاییدا ھێزی جەستەیی بەکارھێنا بۆ ئەوەی بیکاتە دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +317,18 @@ class EnglishEntrybrute extends StatelessWidget {
                               text: "٥. (ھاوەڵناو) سەخت و ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their desire for independence has to do with brute economics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their desire for independence has to do with brute economics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئارەزوویان بۆ سەربەخۆیی پەیوەندی بە ئابووری سەخت ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,12 +348,18 @@ class EnglishEntrybrute extends StatelessWidget {
                                   "٦. (ھاوەڵناو) نەبوونی توانای بیرکردنەوە و ھەستکردن، وەک ئاژەڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What distinguishes humans from the rest of the brute creation?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چی مرۆڤ جیادەکاتەوە لە گیانلەبەرە بێ‌زمانەکانی دیکە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What distinguishes humans from the rest of the brute creation?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چی مرۆڤ جیادەکاتەوە لە گیانلەبەرە بێ‌زمانەکانی دیکە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

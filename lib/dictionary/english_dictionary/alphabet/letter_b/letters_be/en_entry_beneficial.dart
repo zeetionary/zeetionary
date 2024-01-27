@@ -171,11 +171,18 @@ class EnglishEntrybeneficial extends StatelessWidget {
 ١. (ناو) شتێکی بەسوود کە کاریگەری ئەرێنی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A good diet is beneficial to health."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژەمە خواردنی باش بەسوودە بۆ تەندرووستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A good diet is beneficial to health."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژەمە خواردنی باش بەسوودە بۆ تەندرووستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybeneficial extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They finally came to a mutually beneficial agreement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتاییدا گەشتنە ڕێککەوتنێک کە بۆ ھەردوو لا بەسوود بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They finally came to a mutually beneficial agreement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتاییدا گەشتنە ڕێککەوتنێک کە بۆ ھەردوو لا بەسوود بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

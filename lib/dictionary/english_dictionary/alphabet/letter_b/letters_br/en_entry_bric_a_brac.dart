@@ -162,11 +162,18 @@ class EnglishEntrybricabrac extends StatelessWidget {
 ١. (ناو) خشڵ و شتی دیکەی جوانکاری کە نرخیان زۆر نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They sell antiques and bric-a-brac."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شتی ئەنتیکە و خشڵ‌وزەمبەری ھەرزان دەفرۆشن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They sell antiques and bric-a-brac."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شتی ئەنتیکە و خشڵ‌وزەمبەری ھەرزان دەفرۆشن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bric-a-brac" as
                               Column(
                                 children: [

@@ -213,12 +213,18 @@ class EnglishEntrybuzzer extends StatelessWidget {
 ١. (ناو) زەنگێک کە دەنگێکی وەک گیزەگیزی هەنگ دەردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Put your fingers on the buzzer and be ready to answer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستتان بخەنە سەر زەنگەکە و ئامادەی وەڵامدانەوە بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put your fingers on the buzzer and be ready to answer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستتان بخەنە سەر زەنگەکە و ئامادەی وەڵامدانەوە بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buzzer", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrybuzzer extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I pressed the buzzer and after a while someone came to the door."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستم نا بە زەنگەکەدا و لە دوای ماوەیەک کەسێک وەڵامی دایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I pressed the buzzer and after a while someone came to the door."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستم نا بە زەنگەکەدا و لە دوای ماوەیەک کەسێک وەڵامی دایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

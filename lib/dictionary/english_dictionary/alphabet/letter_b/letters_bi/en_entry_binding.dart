@@ -170,11 +170,18 @@ class EnglishEntrybinding extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەبێت پەسەند بکرێت چونکە بەپێی یاسایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The decision is binding on both parties."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیارەکە بەسەر ھەردوولادا دەچەسپێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The decision is binding on both parties."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارەکە بەسەر ھەردوولادا دەچەسپێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +201,18 @@ class EnglishEntrybinding extends StatelessWidget {
 ٢. (ناو) بەرگی کتێب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She took a book from the shelf, admiring the gold edges to the pages and the green leather binding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبێکی لەسەر ڕەفەکە ھەڵگرت بەھۆی دڵچوونی لە قەراغە ئاڵتوونییەکانی پەڕەکانی و بەرگە سەوزە چەرمەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She took a book from the shelf, admiring the gold edges to the pages and the green leather binding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبێکی لەسەر ڕەفەکە ھەڵگرت بەھۆی دڵچوونی لە قەراغە ئاڵتوونییەکانی پەڕەکانی و بەرگە سەوزە چەرمەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +232,18 @@ class EnglishEntrybinding extends StatelessWidget {
 ٣. (ناو) قوماش کە بەستراوە بە قەراغی شتێکەوە بۆ جوانی یان پاراستنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The jacket is beautifully finished, and binding on the seams and pockets adds strength."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاکەتەکە بە جوانی تەواو بووە، لەگەڵ باریکە لەسەر تەقەڵەکانی و گیرفانەکانی کە خۆڕاگری پێدەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The jacket is beautifully finished, and binding on the seams and pockets adds strength."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاکەتەکە بە جوانی تەواو بووە، لەگەڵ باریکە لەسەر تەقەڵەکانی و گیرفانەکانی کە خۆڕاگری پێدەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntryblitz extends StatelessWidget {
 ١. (ناو) ھێرشی لەناکاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Five shops were damaged in a firebomb blitz."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێنج فرۆشگا زیانیان پێگەیشت لە ھێرشێکی لەناکاوی بۆمبی ئاگرین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Five shops were damaged in a firebomb blitz."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێنج فرۆشگا زیانیان پێگەیشت لە ھێرشێکی لەناکاوی بۆمبی ئاگرین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryblitz extends StatelessWidget {
                                   "٢. (ناو) ھێرشی لەناکاوی ئەڵمانیا بۆ سەر بەریتانیا لە ساڵانی ١٩٤٠-١٩٤١"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many people died in the London Blitz."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر کەس ژیانیان لەدەستدا لە ھێرشی لەناکاوی سەر لەندەن (ھێرشی ئەڵمانیا بۆ سەر لەندەن لە ١٩٤٠-١٩٤١)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many people died in the London Blitz."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر کەس ژیانیان لەدەستدا لە ھێرشی لەناکاوی سەر لەندەن (ھێرشی ئەڵمانیا بۆ سەر لەندەن لە ١٩٤٠-١٩٤١)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntryblitz extends StatelessWidget {
                                   "٣. (ناو) ھەوڵێکی لەناکاوی ڕێکخراو بۆ مامەڵەکردن لەگەڵ شتێک یان بەدەستھێنانی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've had a blitz on the house (= cleaned it very thoroughly)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵمەتێکی پاککردنەوەی ماڵەکەم ئەنجام دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've had a blitz on the house (= cleaned it very thoroughly)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵمەتێکی پاککردنەوەی ماڵەکەم ئەنجام دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +265,18 @@ class EnglishEntryblitz extends StatelessWidget {
                                   "٤. (کردار) ھێرشکردنە سەر شارێک بە بەردانەوەی ژمارەیەکی زۆر بۆمب لە ماوەیەکی کەمدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "London was heavily blitzed in the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەندەن بە سەختی لە جەنگەکەدا بە سەختی ھێرشی لەناکاوی کرایە سەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "London was heavily blitzed in the war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەندەن بە سەختی لە جەنگەکەدا بە سەختی ھێرشی لەناکاوی کرایە سەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -272,10 +296,17 @@ class EnglishEntryblitz extends StatelessWidget {
                                   "٥. (کردار) تێکەڵکردن یان وردکردنی خواردن بە ئامێرێکی کارەبایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blitz until smooth and creamy."),
-                              const ExampleSentenceKurdish(
-                                  text: "تێکی بدە تا لووس و کرێمدار دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Blitz until smooth and creamy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێکی بدە تا لووس و کرێمدار دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntrybiometric extends StatelessWidget {
 ١. (ناو) بەکارھێنانی خاسیەتەکانی مرۆڤ، وەک چاو و پەنجە، بۆ ناسینەوەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Biometric devices work by matching an individual’s features to those recorded in the device’s memory."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامێرە بایۆمەترییەکان کاردەکەن بە نەراوردکردنی تایبەیمەندییەکانی مرۆڤێک لەگەڵ ئەوەی لە یادگەی ئامێرەکەدا تۆمارکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Biometric devices work by matching an individual’s features to those recorded in the device’s memory."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامێرە بایۆمەترییەکان کاردەکەن بە نەراوردکردنی تایبەیمەندییەکانی مرۆڤێک لەگەڵ ئەوەی لە یادگەی ئامێرەکەدا تۆمارکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

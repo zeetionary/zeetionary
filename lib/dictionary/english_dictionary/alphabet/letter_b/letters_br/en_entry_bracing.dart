@@ -167,12 +167,18 @@ class EnglishEntrybracing extends StatelessWidget {
 ١. (ھاوەڵناو) کەشێکی سارد و پڕبا کە وزەبەخشە، یان چالاکییەک کە لە کەشێکی وەھادا دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The air on top of the hill was cool and bracing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشەکە لەسەر لوتکەی گردەکە سارد و سازگار بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The air on top of the hill was cool and bracing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشەکە لەسەر لوتکەی گردەکە سارد و سازگار بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybracing extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We enjoyed a bracing walk on the beach."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چێژمان لە پیاسەیەکی وزەبەخش بینی لەسەر کەناراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We enjoyed a bracing walk on the beach."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چێژمان لە پیاسەیەکی وزەبەخش بینی لەسەر کەناراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

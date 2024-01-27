@@ -171,12 +171,18 @@ class EnglishEntrybookshop extends StatelessWidget {
 ١. (ناو) فرۆشگایەک کە کتێب دەفرۆشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I asked the bookshop to order several titles which were not in stock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوام لە کتێب‌فرۆشەکە کرد ژمارەیەک کتێب بێنن کە لە فرۆشگاکە نەبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I asked the bookshop to order several titles which were not in stock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوام لە کتێب‌فرۆشەکە کرد ژمارەیەک کتێب بێنن کە لە فرۆشگاکە نەبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

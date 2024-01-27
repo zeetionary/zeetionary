@@ -170,12 +170,18 @@ class EnglishEntrybatty extends StatelessWidget {
 ١. (ھاوەڵناو) تۆزێک شێتانە، بەشێوەیەک کە زیانی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has some batty ideas, but she's quite sweet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک بیرۆکەی شێتانەی ھەبوو، بەڵام تەواو کەسێکی شیرینە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has some batty ideas, but she's quite sweet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک بیرۆکەی شێتانەی ھەبوو، بەڵام تەواو کەسێکی شیرینە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

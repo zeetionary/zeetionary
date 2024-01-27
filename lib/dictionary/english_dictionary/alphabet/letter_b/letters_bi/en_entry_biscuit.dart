@@ -176,11 +176,17 @@ class EnglishEntrybiscuit extends StatelessWidget {
 ١. (ناو) بسکیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cake has a biscuit base (= one made from crushed biscuits)."),
-                              const ExampleSentenceKurdish(
-                                  text: "بنی کێکەکە بسکیتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cake has a biscuit base (= one made from crushed biscuits)."),
+                                    ExampleSentenceKurdish(
+                                        text: "بنی کێکەکە بسکیتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,11 +204,18 @@ class EnglishEntrybiscuit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were offered a cup of tea and some biscuits."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێڵایەک چا و ھەندێک بسکیتیان پێداین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were offered a cup of tea and some biscuits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێڵایەک چا و ھەندێک بسکیتیان پێداین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

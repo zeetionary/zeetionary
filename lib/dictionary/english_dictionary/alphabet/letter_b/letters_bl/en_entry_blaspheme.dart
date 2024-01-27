@@ -169,12 +169,18 @@ class EnglishEntryblaspheme extends StatelessWidget {
 ١. (کردار) ناوھێنانی خودا یان پیرۆزی دیکەی ئایینی بەشێوەیەک کە لە ڕووی ئایینییەوە پەسەندنەکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How dare you blaspheme in front of your own father?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چۆن بوێری ئەوەی ئەکەیت کفر بکەیت لە پێش باوکی خۆتدا؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How dare you blaspheme in front of your own father?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چۆن بوێری ئەوەی ئەکەیت کفر بکەیت لە پێش باوکی خۆتدا؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntryblaspheme extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was accused of blaspheming the prophet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاوانبارکرا بە سوکایەتی کردن بە پێغەمبەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was accused of blaspheming the prophet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاوانبارکرا بە سوکایەتی کردن بە پێغەمبەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

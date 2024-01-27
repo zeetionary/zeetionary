@@ -162,12 +162,18 @@ class EnglishEntrybronchitis extends StatelessWidget {
 ١. (ناو) نەخۆشی کە تووشی ئەو بۆڕیچکانە دەبن کە لە قوڕگەوە بۆ سنگ دەچن و دەبێتە ھۆی ئاوساوی و کۆکە و ھەناسەتەنگی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was suffering from chronic bronchitis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was suffering from chronic bronchitis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی ھەوکردنی درێژخایەنی لقە بۆرییەکانی ھەوای بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bronchitis" as
                               Column(
                                 children: [

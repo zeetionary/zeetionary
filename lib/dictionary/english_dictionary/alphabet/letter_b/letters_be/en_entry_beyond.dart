@@ -218,12 +218,18 @@ class EnglishEntrybeyond extends StatelessWidget {
 ١. (ئامراز) ئەوسەر یان بەرەو ئەوسەری شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The road continues beyond the village up into the hills."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە بەردەوام دەبێت تا ئەوسەری گوندەکە و بۆ گردەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road continues beyond the village up into the hills."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە بەردەوام دەبێت تا ئەوسەری گوندەکە و بۆ گردەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +247,18 @@ class EnglishEntrybeyond extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the distance, beyond the river, was a small town."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوور، لەوپەڕی ڕووبارەکە، شارۆچکەیەک ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the distance, beyond the river, was a small town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوور، لەوپەڕی ڕووبارەکە، شارۆچکەیەک ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +278,18 @@ class EnglishEntrybeyond extends StatelessWidget {
 ٢. (ئامراز) زیاتر لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our success was far beyond what we thought possible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکەوتنەکەمان زۆر زیاتر بوو لەوەی بیرمان لێدەکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our success was far beyond what we thought possible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکەوتنەکەمان زۆر زیاتر بوو لەوەی بیرمان لێدەکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +309,18 @@ class EnglishEntrybeyond extends StatelessWidget {
 ٣. (ئامراز) دوای کاتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I know what I'll be doing for the next three weeks but I haven't thought beyond that."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەزانم بۆ سێ ھەفتەی داھاتوو چی دەکەم، بەڵام لەوە دواتر بیرم لێ نەکردووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I know what I'll be doing for the next three weeks but I haven't thought beyond that."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەزانم بۆ سێ ھەفتەی داھاتوو چی دەکەم، بەڵام لەوە دواتر بیرم لێ نەکردووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -316,10 +340,18 @@ class EnglishEntrybeyond extends StatelessWidget {
 ٤. (ئامراز) بۆ وتنی ئەوەی شتێک ناکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The situation is beyond our control."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆخەکە لە دەرەوەی کۆنترۆڵمان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The situation is beyond our control."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆخەکە لە دەرەوەی کۆنترۆڵمان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,11 +369,18 @@ class EnglishEntrybeyond extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bicycle was beyond repair (= is too badly damaged to repair)."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاسکیلەکە بە کەڵکی چاککردنەوە نایەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bicycle was beyond repair (= is too badly damaged to repair)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاسکیلەکە بە کەڵکی چاککردنەوە نایەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -361,12 +400,18 @@ class EnglishEntrybeyond extends StatelessWidget {
 ٥. (ئامراز) زۆر دوور بۆ کەسێک، یان لە ئاستێکی زۆر بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The exercise was beyond the abilities of most of the class."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاھێنانەکان لە دەرەوەی توانای زۆرینەی پۆلەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The exercise was beyond the abilities of most of the class."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاھێنانەکان لە دەرەوەی توانای زۆرینەی پۆلەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -386,12 +431,18 @@ class EnglishEntrybeyond extends StatelessWidget {
 ٦. (ھاوەڵکار) لە ئەوسەرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The immediate future is clear, but it's hard to tell what lies beyond."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داھاتووی نزیک ئاشکرایە، بەڵام نازانرێت چی لە ھەگبەدایە دوای ئەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The immediate future is clear, but it's hard to tell what lies beyond."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داھاتووی نزیک ئاشکرایە، بەڵام نازانرێت چی لە ھەگبەدایە دوای ئەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,12 +460,18 @@ class EnglishEntrybeyond extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Everest and the mountains beyond were covered in snow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەڤرست و چیاکانی ئەوسەری بە بەفر داپۆشرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everest and the mountains beyond were covered in snow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەڤرست و چیاکانی ئەوسەری بە بەفر داپۆشرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

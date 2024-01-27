@@ -210,12 +210,18 @@ class EnglishEntrybunion extends StatelessWidget {
 ١. (ناو) ئاوسانێکی بە ئازار لەسەر ]ێ، زۆرجار لە پەنجە گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She experienced difficulty walking due to the pain caused by her bunions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناڕەحەتی هەبوو لە ڕێکردندا بەهۆی ئازاری ئاوسانەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She experienced difficulty walking due to the pain caused by her bunions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناڕەحەتی هەبوو لە ڕێکردندا بەهۆی ئازاری ئاوسانەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunion", follow LX strictly
                               Column(
                                 children: [

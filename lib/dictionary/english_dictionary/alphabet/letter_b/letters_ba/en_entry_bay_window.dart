@@ -168,12 +168,18 @@ class EnglishEntrybaywindow extends StatelessWidget {
 ١. (ناو) ناوچەیەکی چەماوەی ژوورێک یان بینایەک کە پەنجەرەیەکی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bay window provided a beautiful view of the garden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bay window provided a beautiful view of the garden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنجەرە دەرپەڕیوەکە دەیڕوانی بەسەر دیمەنێکی جوانی باخچەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

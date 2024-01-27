@@ -167,10 +167,17 @@ class EnglishEntrybrick extends StatelessWidget {
 ١. (ناو) پارچە قوڕی گەرمکراو کە بەکاردێت بۆ درووستنکردنی دیوار، خانوو، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The school is built of brick."),
-                              const ExampleSentenceKurdish(
-                                  text: "قوتابخانەکە لە خشت درووستکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The school is built of brick."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتابخانەکە لە خشت درووستکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brick" as
                               Column(
                                 children: [
@@ -187,11 +194,18 @@ class EnglishEntrybrick extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We rebuilt the fireplace using bricks."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاگردانەکەمان درووستکردەوە بە خشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We rebuilt the fireplace using bricks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگردانەکەمان درووستکردەوە بە خشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +225,18 @@ class EnglishEntrybrick extends StatelessWidget {
                                   "٢. (ناو) ئامێرێکی کارەبایی کە سووتاوە و بەکارنایەت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Without a fast connection, your tablet turns into a brick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەبی ئینتەرنێتی خێرا، تابلێتەکەت دەبێتە کوتە خشتێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Without a fast connection, your tablet turns into a brick."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەبی ئینتەرنێتی خێرا، تابلێتەکەت دەبێتە کوتە خشتێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +256,18 @@ class EnglishEntrybrick extends StatelessWidget {
                                   "٣. (ناو) ھاوڕێیەک کە دەکرێت پشتی پێ ببەستیت کە پێویستیت بە یارمەتییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thanks for looking after the children today—you're a real brick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپاس بۆ چاودێری منداڵەکان بۆ ئەمڕۆ، ھاوڕێی تەنگانەی ڕاستیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thanks for looking after the children today—you're a real brick."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوپاس بۆ چاودێری منداڵەکان بۆ ئەمڕۆ، ھاوڕێی تەنگانەی ڕاستیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

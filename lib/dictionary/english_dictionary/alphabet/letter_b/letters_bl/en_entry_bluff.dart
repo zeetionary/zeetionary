@@ -171,12 +171,18 @@ class EnglishEntrybluff extends StatelessWidget {
 ١. (کردار) ھەوڵدان بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't think he'll shoot—I think he's just bluffing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم وانییە تەقە بکات، تەنھا لاف لێدەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't think he'll shoot—I think he's just bluffing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم وانییە تەقە بکات، تەنھا لاف لێدەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybluff extends StatelessWidget {
                                   "٢. (ناو) ھەوڵدانێک بۆ بۆ قایلکردنی کەسێک کە شتێک دەکەیت کە لە ڕاستیدا ناتەوێت بیکەیت، یان ئەوەی شتێک دەزانیت کە نایزایت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He said he would resign if he didn't get more money, but it was only a bluff."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنھا لاف‌لێدان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He said he would resign if he didn't get more money, but it was only a bluff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتی دەست لەکاردەکێشێتەوە ئەگەر پارەی زیاتری پێ نەدرێت، بەڵام تەنھا لاف‌لێدان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,10 +232,18 @@ class EnglishEntrybluff extends StatelessWidget {
                               text: "٣. (ناو) قەدپاڵێک کە نزیکی ئاوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The eagles nested on the bluff."),
-                              const ExampleSentenceKurdish(
-                                  text: "داڵەکان لەسەر ھەڵدێرەکە نیشتنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The eagles nested on the bluff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داڵەکان لەسەر ھەڵدێرەکە نیشتنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +263,18 @@ class EnglishEntrybluff extends StatelessWidget {
                                   "٤. (ھاوەڵناو) قسەلەڕوو یان زۆر ڕاستگۆ، بەشێوەیەک کە خەڵکی بە بێ‌ڕێزی دەبینن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite her bluff manner, she's actually a very kind woman."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای ھەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میھرەبان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite her bluff manner, she's actually a very kind woman."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای ھەڵسوکەوتی قسەلەڕوویی، لەڕاستیدا ژنێکی زۆر میھرەبان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

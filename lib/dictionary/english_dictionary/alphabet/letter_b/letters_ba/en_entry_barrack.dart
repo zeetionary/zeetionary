@@ -164,12 +164,18 @@ class EnglishEntrybarrack extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە سەربازگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldiers trudged back to their barrack quarters after a long day of maneuvers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لە دوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldiers trudged back to their barrack quarters after a long day of maneuvers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان بە لاتەلات گەڕانەوە بۆ ژوورەکانی سەربازگەکەیان لە دوای ڕۆژێکی درێژ لە لە مەشق و ڕاھێنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybarrack extends StatelessWidget {
 ٢. (کردار) ھاوارکردن بۆ قسەبڕین بە کەسێک کە لەگەڵی ناڕازیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Every time the minister got up to speak he was barracked mercilessly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Every time the minister got up to speak he was barracked mercilessly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر کە وەزیرەکە دەیویست قسەبکات بێ‌ڕەحمانە وتافی دژ دەوترا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

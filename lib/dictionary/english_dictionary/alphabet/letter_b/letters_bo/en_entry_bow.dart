@@ -333,10 +333,18 @@ class EnglishEntrybow extends StatelessWidget {
 ١. (کردار) چەمانەوە بۆ ڕێزگرتن یان ماڵئاوایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bowed low to the assembled crowd."),
-                              const ExampleSentenceKurdish(
-                                  text: "چەمایەوە بۆ جەماوەرە کۆبووەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bowed low to the assembled crowd."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەمایەوە بۆ جەماوەرە کۆبووەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -353,12 +361,18 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The people all bowed down before the emperor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکەکە ھەموو لە پێش ئیمپراتۆر چەمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The people all bowed down before the emperor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکەکە ھەموو لە پێش ئیمپراتۆر چەمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -375,11 +389,18 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He swept off his hat and bowed deeply to the queen."),
-                              const ExampleSentenceKurdish(
-                                  text: "کڵاوەکەی لابرد و بۆ شاژن چەمایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He swept off his hat and bowed deeply to the queen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵاوەکەی لابرد و بۆ شاژن چەمایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,10 +419,16 @@ class EnglishEntrybow extends StatelessWidget {
                               text: "٢. (کردار) جوڵانی سەرت بەرەو پێش و دواوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She bowed her head in shame."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە شەرمدا سەری دەلەقاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She bowed her head in shame."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە شەرمدا سەری دەلەقاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -420,12 +447,18 @@ class EnglishEntrybow extends StatelessWidget {
                               text: "٣. (کردار) چەمانەوە یان چەماندنەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their backs were bowed under the weight of their packs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشتیان چەمابوویەوە لەژێر کێشی بارەکەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their backs were bowed under the weight of their packs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشتیان چەمابوویەوە لەژێر کێشی بارەکەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -445,12 +478,18 @@ class EnglishEntrybow extends StatelessWidget {
                                   "٤. (کردار) لێدانی میوزیک بە بەکارھێنانی ئاڕشەیەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can achieve a completely different tone by bowing the strings nearer to the bridge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتوانی تۆنێکی تەواو جیاواز دەربکەیت بە دانانی ئاڕشەکە لەسەر تەلەکان نزیک لە پردەڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can achieve a completely different tone by bowing the strings nearer to the bridge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتوانی تۆنێکی تەواو جیاواز دەربکەیت بە دانانی ئاڕشەکە لەسەر تەلەکان نزیک لە پردەڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -470,11 +509,18 @@ class EnglishEntrybow extends StatelessWidget {
                                   "٥. (ناو) چەمانەوە بۆ ڕێزگرتن یان ماڵئاوایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She gave a slight bow of her head in greeting."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەری بە کەمی چەماندەوە بۆ سڵاوکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She gave a slight bow of her head in greeting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەری بە کەمی چەماندەوە بۆ سڵاوکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -491,12 +537,18 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The messenger made a formal bow and left the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیامھێنەرەکە نووشتاوەیەکی فەرمی ئەنجامدا و ژوورەکەی جێھێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The messenger made a formal bow and left the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیامھێنەرەکە نووشتاوەیەکی فەرمی ئەنجامدا و ژوورەکەی جێھێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -516,11 +568,18 @@ class EnglishEntrybow extends StatelessWidget {
                                   "٦. (ناو) بەشی پێشەوەی بەلەمێک یان کەشتییەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ship's name was printed on her bow."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوی کەشتییەکە لە پێشەوەی نووسرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ship's name was printed on her bow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی کەشتییەکە لە پێشەوەی نووسرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -540,10 +599,17 @@ class EnglishEntrybow extends StatelessWidget {
                                   "٧. (ناو) کەوان کە بۆ تیر ھاویشتن بەکاردێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was armed with a bow and arrow."),
-                              const ExampleSentenceKurdish(
-                                  text: "تیر و کەوانێکی پێبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was armed with a bow and arrow."),
+                                    ExampleSentenceKurdish(
+                                        text: "تیر و کەوانێکی پێبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -560,10 +626,17 @@ class EnglishEntrybow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She drew and aimed her bow."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەوانەکەی ڕاکێشا و نیشانەی گرتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She drew and aimed her bow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەوانەکەی ڕاکێشا و نیشانەی گرتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -583,12 +656,18 @@ class EnglishEntrybow extends StatelessWidget {
                                   "٨. (ناو) گرێیەک کە دوو بەشی چەماوە و دوو بەشی شلی تێدایە، بەکاردێت بۆ دیکۆرات یان بەستنی بە پێڵاوەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I tied the ribbon around the present in a pretty bow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شریتەکەم لە دەوری دیارییەکە بەست لە شێوەی گرێیەکی جواندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I tied the ribbon around the present in a pretty bow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شریتەکەم لە دەوری دیارییەکە بەست لە شێوەی گرێیەکی جواندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -608,10 +687,17 @@ class EnglishEntrybow extends StatelessWidget {
                                   "٩. (ناو) ئاڕشە؛ دارێکی درێژ کە تەلی باریک لە تەنیشتییەتی و بەکاردێت، بەکاردێت بۆ ژەنینی ژمارەیەک ئامێری میوزیکی وەک کەمانچە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She drew the bow across the strings."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاڕشەکەی ھێنا بە تەلەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She drew the bow across the strings."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاڕشەکەی ھێنا بە تەلەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

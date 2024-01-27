@@ -162,12 +162,18 @@ class EnglishEntrybulletpoint extends StatelessWidget {
 ١. (ناو) خاڵێکە کە دەکرێت بازنە، سێگۆشە، یان چوارگۆشە بێت لە نووسیندا لە پێش ڕستەیەک دادەنرێت وەک ئاماژە بەوەی کە گرنگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please see the first and second bullet points on the first page."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please see the first and second bullet points on the first page."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە سەیری خاڵەکانی یەکەم و دووەم بکە لە پەڕەی یەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullet point", follow LX strictly
                               Column(
                                 children: [

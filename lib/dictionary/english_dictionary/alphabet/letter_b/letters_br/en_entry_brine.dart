@@ -164,12 +164,18 @@ class EnglishEntrybrine extends StatelessWidget {
 ١. (ناو) ئاوێک کە خوێی زۆری تێدایە، زۆرجار بۆ پاراستنی خواردن لە ناویدا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fishermen use brine to preserve their catch during long sea voyages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماسیگران ئاووخوێ بەکاردێنن بۆ پاراستنی ئەوەی گرتوویانە لە کاتی گەشتی درێژی دەریاییدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fishermen use brine to preserve their catch during long sea voyages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسیگران ئاووخوێ بەکاردێنن بۆ پاراستنی ئەوەی گرتوویانە لە کاتی گەشتی درێژی دەریاییدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brine" as
                               Column(
                                 children: [

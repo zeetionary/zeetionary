@@ -170,12 +170,18 @@ class EnglishEntrybib extends StatelessWidget {
 ١. (ناو) پارچەیەک کە لە ملی منداڵ دەبەسترێت لەکاتی خواردن بۆ ئەوەی جلەکانی پیس نەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bib caught all the spilled milk, saving my shirt from a stain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەروانکەکە ھەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bib caught all the spilled milk, saving my shirt from a stain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەروانکەکە ھەموو شیرە ڕژاوەکەی بەرکەوت و جلەکانمی لە پیسبوون پاراست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

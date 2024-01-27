@@ -169,12 +169,18 @@ class EnglishEntryblanch extends StatelessWidget {
 ١. (کردار) ڕەنگپەڕین بەھۆی ئەوەی شۆک بویتە یان ترساویت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He blanched visibly when he heard the news."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئاشکرایی رەنگی پەڕی کە ھەواڵەکەی بیست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He blanched visibly when he heard the news."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئاشکرایی رەنگی پەڕی کە ھەواڵەکەی بیست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblanch extends StatelessWidget {
                                   "٢. (کردار) ئامادەکردنی خواردن بە خستنە ناو ئاوی کوڵان بۆ ماوەیەکی کەم"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Blanch the peas quickly before you freeze them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەزالیاکان بەخێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Blanch the peas quickly before you freeze them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزالیاکان بەخێرایی ئامادە بکە پێش ئەوەی بیانخەیتە ساردکەرەوەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

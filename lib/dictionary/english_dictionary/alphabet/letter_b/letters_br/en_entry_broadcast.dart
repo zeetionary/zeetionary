@@ -169,12 +169,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
 ١. (کردار) پەخشکردن لە ڕێگەی ڕادیۆ یان تەلەفیزیۆنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most of the programmes are broadcast in English."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most of the programmes are broadcast in English."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی پڕۆگرامەکان بە ئینگلیزی پەخش دەکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broadcast" as
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The BBC began broadcasting in 1922."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بی بی سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The BBC began broadcasting in 1922."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بی بی سی لە ساڵی ١٩٢٢ دەستی بە پەخشکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
                                   "٢. (کردار) وتنی شتێک بە ژمارەیەکی زۆر خەڵک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't like to broadcast the fact that my father owns the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't like to broadcast the fact that my father owns the company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەوێت بانگەواز بۆ ئەو ڕاستییە بکەم کە باوکم خاوەنی کۆمپانیاکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +258,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
                               text: "٣. (ناو) پەخشی تەلەفیزیۆن یان ڕادیۆیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We watched a live broadcast of the speech (= one shown at the same time as the speech was made)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We watched a live broadcast of the speech (= one shown at the same time as the speech was made)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیری پەخشی ڕاستەوخۆی وتارەکەمان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +286,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The evening news broadcasts are very different today than they were 25 years ago."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The evening news broadcasts are very different today than they were 25 years ago."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەخشی ھەواڵی شەوانە ئێستا زۆر جیاوازە وەک لە ٢٥ ساڵ پێش ئێستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +314,18 @@ class EnglishEntrybroadcast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They do not own a major television broadcast network."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They do not own a major television broadcast network."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاوەنداری تۆڕێکی پەخشی تەلەفیزیۆنی گرنگ ناکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

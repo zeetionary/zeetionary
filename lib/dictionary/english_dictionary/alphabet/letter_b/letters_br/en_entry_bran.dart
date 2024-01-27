@@ -166,12 +166,18 @@ class EnglishEntrybran extends StatelessWidget {
 ١. (ناو) توێکڵی گەنم کە لێ‌دەکرێتەوە کاتێک گەنمەکە دەکرێت بە ئارد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both these breakfast cereals have added bran."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم دوو خواردنەی بەیانیان کەپەکیان بۆ زیادکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both these breakfast cereals have added bran."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دوو خواردنەی بەیانیان کەپەکیان بۆ زیادکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,12 +164,18 @@ class EnglishEntrybrandish extends StatelessWidget {
 ١. (ناو) ھەڵگرتن یان ڕاوەشاندنی شتێک، بەتایبەتی چەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She brandished a saucepan at me so I ran out of the kitchen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قابلەمەیەکی لێم ڕادەوەشاند بۆیە لە ژوورەکە ڕامکردە دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She brandished a saucepan at me so I ran out of the kitchen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قابلەمەیەکی لێم ڕادەوەشاند بۆیە لە ژوورەکە ڕامکردە دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

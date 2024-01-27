@@ -172,11 +172,18 @@ class EnglishEntrybackfire extends StatelessWidget {
 ١. (کردار) ھەبوونی ئەنجامێک کە پێچەوانەی ئەوەیە کە چاوەڕواندەکرا."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Unfortunately the plan backfired."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Unfortunately the plan backfired."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +205,18 @@ class EnglishEntrybackfire extends StatelessWidget {
 ٢. (کردار) بزوێنەرێک دەنگێکی بەرز دەربکات بەھۆی ئەوەی زوو سوتەمەنی دەسووتێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was woken by the sound of a truck backfiring."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was woken by the sound of a truck backfiring."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

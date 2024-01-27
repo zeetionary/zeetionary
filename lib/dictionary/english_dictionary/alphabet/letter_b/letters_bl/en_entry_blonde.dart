@@ -169,10 +169,17 @@ class EnglishEntryblonde extends StatelessWidget {
 ١. (ھاوەڵناو) قژی ئاڵتوونی کاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had long blonde hair."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژێکی درێژی ئاڵتوونی کاڵی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She had long blonde hair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قژێکی درێژی ئاڵتوونی کاڵی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +196,18 @@ class EnglishEntryblonde extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The child had short blond curls and large blue eyes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە قژی لوولی ئاڵتوونی کاڵی کورتی ھەبوو و چاوی شینی گەورە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The child had short blond curls and large blue eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە قژی لوولی ئاڵتوونی کاڵی کورتی ھەبوو و چاوی شینی گەورە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,10 +226,18 @@ class EnglishEntryblonde extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) ھەبوونی قژی ئاڵتوونی کاڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A blonde-haired girl walked in."),
-                              const ExampleSentenceKurdish(
-                                  text: "کچێکی قا ئاڵتوونی کاڵ ھاتە ژوورەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A blonde-haired girl walked in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچێکی قا ئاڵتوونی کاڵ ھاتە ژوورەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +257,18 @@ class EnglishEntryblonde extends StatelessWidget {
                                   "٢. (ناو) کەسێک، بەتایبەتی ژنێک، کە قژی ئاڵتوونی کاڵی ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is she a natural blonde (= Is her hair naturally blonde)?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەی سرووشتی قژی ئاڵتوونی کاڵی ھەیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is she a natural blonde (= Is her hair naturally blonde)?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەی سرووشتی قژی ئاڵتوونی کاڵی ھەیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

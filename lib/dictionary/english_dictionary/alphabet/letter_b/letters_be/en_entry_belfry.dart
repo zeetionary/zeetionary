@@ -170,12 +170,18 @@ class EnglishEntrybelfry extends StatelessWidget {
 ١. (ھاوەڵناو) قوللەیەک کە زەنگی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The belfry was struck by lightning during the storm, causing significant damage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوللەکە ھەورەبرووکە لێیدا لە کاتی زریانەکە، زیانی زۆری بەرکەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The belfry was struck by lightning during the storm, causing significant damage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوللەکە ھەورەبرووکە لێیدا لە کاتی زریانەکە، زیانی زۆری بەرکەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

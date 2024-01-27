@@ -169,12 +169,18 @@ class EnglishEntrybathe extends StatelessWidget {
 ١. (کردار) ششتنی شتێک لە ئاودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bathe the wound and apply a clean dressing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برینەکە بشۆ و بە پارچەیەکی پاک دایپۆشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bathe the wound and apply a clean dressing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برینەکە بشۆ و بە پارچەیەکی پاک دایپۆشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +200,16 @@ class EnglishEntrybathe extends StatelessWidget {
 ٢. (کردار) ششتنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Have you bathed the baby yet?"),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکەت شۆردووە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Have you bathed the baby yet?"),
+                                    ExampleSentenceKurdish(
+                                        text: "منداڵەکەت شۆردووە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +229,18 @@ class EnglishEntrybathe extends StatelessWidget {
 ٣. (کردار) چوون بۆ مەلەکردن لە دەریادا بۆ خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We love to go bathe in the ocean whenever we visit the beach."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We love to go bathe in the ocean whenever we visit the beach."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزدەکەین بچین بۆ مەلەوانی لە زەریاکەدا ھەرکاتێک دەچینە کەناراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +260,18 @@ class EnglishEntrybathe extends StatelessWidget {
 ٤. (کردار) ڕووناککردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The moon bathed the countryside in a beautiful light."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مانگ دەشت‌ودەری ڕووناککردەوە بە ڕۆشناییەکی جوان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The moon bathed the countryside in a beautiful light."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مانگ دەشت‌ودەری ڕووناککردەوە بە ڕۆشناییەکی جوان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +291,18 @@ class EnglishEntrybathe extends StatelessWidget {
 ٥. (ناو) مەلەکردن لە دەریادا بۆ خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children took a bathe in the sea every day of their summer vacation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children took a bathe in the sea every day of their summer vacation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان ھەموو ڕۆژێکی پشووی ھاوینەیان مەلەیان دەکرد لە دەریاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

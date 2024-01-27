@@ -170,11 +170,18 @@ class EnglishEntrybinoculars extends StatelessWidget {
 ١. (ناو) دووربین؛ ئامێرێک کە کە وەک دوو تەلیسکۆبی بچووکی بەستراو بە یەک وایە لە ڕێگەیەوە سەیری شتی دوور دەکەیت و نزیکی دەکاتەوە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We looked at the birds through binoculars."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەیری باڵندەکانمان کرد بە دووربین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We looked at the birds through binoculars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیری باڵندەکانمان کرد بە دووربین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

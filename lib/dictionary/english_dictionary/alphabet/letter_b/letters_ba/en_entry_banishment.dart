@@ -173,12 +173,18 @@ class EnglishEntrybanishment extends StatelessWidget {
 ١. (ناو) کرداری دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A period of peace followed the successful banishment of the warlords from the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A period of peace followed the successful banishment of the warlords from the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەردەمێک لە ئارامی درووستبوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybanishment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most area residents are very happy with the banishment of cars from the park."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most area residents are very happy with the banishment of cars from the park."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,11 +166,17 @@ class EnglishEntryblackcurrant extends StatelessWidget {
 ١. (ناو) روویەکی ڕەشی بچووکە کە کە بە گورزە لە باخێکدا گەشە دەکات و دەخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "speakblackcurrants111111111111111111111111111111111"),
-                              const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "speakblackcurrants111111111111111111111111111111111"),
+                                    ExampleSentenceKurdish(
+                                        text: "رستە_رستە_رستە_رستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

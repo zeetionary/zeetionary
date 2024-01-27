@@ -168,10 +168,16 @@ class EnglishEntryblastoff extends StatelessWidget {
 ١. (ناو) ساتەوەختی ھەڵدانی کەشتییەکی ئاسمانی بۆ بۆشایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blast-off is in 30 seconds."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەڵدان لە ٣٠ چرکەدا دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Blast-off is in 30 seconds."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەڵدان لە ٣٠ چرکەدا دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

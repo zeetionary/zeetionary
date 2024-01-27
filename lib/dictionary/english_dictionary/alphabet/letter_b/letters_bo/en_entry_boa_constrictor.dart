@@ -168,12 +168,18 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
 ١. (ناو) مارێکی گەورەی ئەمریکای باشوور کە ئاژەڵ دەکوژێت بۆ خواردن بە سووڕدانی لاشە درێژەکەی بە توندی بە دەوریاندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A boa constrictor's diet mainly consists of small mammals and birds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردنی ماری بووا بەزۆری پێکدێت لە شیردەری بچووک و باڵندە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A boa constrictor's diet mainly consists of small mammals and birds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنی ماری بووا بەزۆری پێکدێت لە شیردەری بچووک و باڵندە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

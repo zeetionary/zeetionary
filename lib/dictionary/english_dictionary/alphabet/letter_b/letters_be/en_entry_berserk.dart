@@ -173,11 +173,18 @@ class EnglishEntryberserk extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر تووڕە، بەشێوەیەکی توندوتیژ و بەبێ جڵەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He went berserk when he found out where I'd been."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر تووڕە بوو کە زانی لە کوێ بوومە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He went berserk when he found out where I'd been."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر تووڕە بوو کە زانی لە کوێ بوومە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +204,17 @@ class EnglishEntryberserk extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر خرۆشاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People were going berserk with happiness."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەڵکی خرۆشاو بوون لە خۆشیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People were going berserk with happiness."),
+                                    ExampleSentenceKurdish(
+                                        text: "خەڵکی خرۆشاو بوون لە خۆشیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybouquet extends StatelessWidget {
 ١. (ناو) ژەمە خواردنێکی گەورە بۆ ژمارەیەکی زۆر خەڵک، بە تایبەتی بۆ بۆنەی تایبەتی کە تێیدا وتار پێشکەش دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A state banquet was held in honour of the visiting president."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوانییەک ڕێکخرا بۆ ڕێزلێنان لە سەرۆکی سەردانکار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A state banquet was held in honour of the visiting president."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوانییەک ڕێکخرا بۆ ڕێزلێنان لە سەرۆکی سەردانکار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

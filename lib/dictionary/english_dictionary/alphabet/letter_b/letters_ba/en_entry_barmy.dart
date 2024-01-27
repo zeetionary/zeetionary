@@ -165,10 +165,16 @@ class EnglishEntrybarmy extends StatelessWidget {
 ١. (ھاوەڵناو) کەمێک بێزار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The music is driving me barmy."),
-                              const ExampleSentenceKurdish(
-                                  text: "میوزیکەکە وەڕەسم دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The music is driving me barmy."),
+                                    ExampleSentenceKurdish(
+                                        text: "میوزیکەکە وەڕەسم دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

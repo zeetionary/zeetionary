@@ -171,11 +171,18 @@ class EnglishEntrybereaved extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کا تازەگی ئەندامێکی خێزانێکی یان کەسێکی نزیکی مردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bereaved parents wept openly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکە جەرگ‌سووتاوەکە بە کراوەیی دەگریان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bereaved parents wept openly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکە جەرگ‌سووتاوەکە بە کراوەیی دەگریان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +202,18 @@ class EnglishEntrybereaved extends StatelessWidget {
 ٢. (ناو) کەسێک کا تازەگی ئەندامێکی خێزانێکی یان کەسێکی نزیکی مردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is generally accepted that the bereaved benefit from counselling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی گشتی پەسەندکراوە کەسانی جەرگ‌سووتاو سوود لە ڕاوێژ ببینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is generally accepted that the bereaved benefit from counselling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی گشتی پەسەندکراوە کەسانی جەرگ‌سووتاو سوود لە ڕاوێژ ببینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

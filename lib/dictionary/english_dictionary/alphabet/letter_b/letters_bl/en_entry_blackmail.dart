@@ -170,12 +170,18 @@ class EnglishEntryblackmail extends StatelessWidget {
 ١. (ناو) تاوانی وەرگرتنی پارە لە کەسێک بە ھەڕەشە لێ کردنی بەوەی نھێنییەک لەسەری بە کەسێکی تر دەڵێیت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you are in a position of authority, any weakness leaves you open to blackmail."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر لە پلەی دەسەڵاتداری بیت، ھەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you are in a position of authority, any weakness leaves you open to blackmail."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر لە پلەی دەسەڵاتداری بیت، ھەر لاوازییەک دەکرێت گەفکردن پێت ئاسان بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryblackmail extends StatelessWidget {
                                   "٢. (ناو) کردەی پەستان خستنەسەر کەسێک یان گرووپێک بۆ کردنی شتێک کە نایانەوێت بیکەن، بۆ نموونە بە ھەڕەشەکردن لێیان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We can’t let them practise this blackmail on us."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نابێت ڕێگەیان پی بدەین بەردەوام بن لەم کەڵەگاییە بەسەرمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We can’t let them practise this blackmail on us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نابێت ڕێگەیان پی بدەین بەردەوام بن لەم کەڵەگاییە بەسەرمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntryblackmail extends StatelessWidget {
                                   "٣. (کردار) زۆرکردن لە کەسێک کە پارەت پێ بدات یان شتێکت بۆ بکات بە ھەڕەشەکردن لێی، بۆ نموونە بەوەی نھێنییەکانی ئەدرکێنی لەلای خەڵکی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She blackmailed him for years by threatening to tell the newspapers about their affair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە ھەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She blackmailed him for years by threatening to tell the newspapers about their affair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ چەندین ساڵ گەفی پێ دەگێڕا بە ھەڕەشەکردنی ئەوەی ڕۆژنامەکان ئاگادار دەکاتەوە لە پەیوەندییەکەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

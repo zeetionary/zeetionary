@@ -169,10 +169,16 @@ class EnglishEntrybalding extends StatelessWidget {
 ١. (ھاوەڵناو) دەستکردن بە کەچەڵبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Jackson was plump and balding."),
-                              const ExampleSentenceKurdish(
-                                  text: "جاکسن خرپەلەیەکی کەچەڵبوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Jackson was plump and balding."),
+                                    ExampleSentenceKurdish(
+                                        text: "جاکسن خرپەلەیەکی کەچەڵبوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

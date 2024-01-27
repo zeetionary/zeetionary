@@ -168,12 +168,18 @@ class EnglishEntrybotanist extends StatelessWidget {
 ١. (ناو) زانایاک کە لێکۆڵینەوە لە ڕووەک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The renowned botanist discovered a new species in the rainforest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووەکناسە ناسراوەکە ڕووکێکی تازەی لە دارستانەکە دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The renowned botanist discovered a new species in the rainforest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووەکناسە ناسراوەکە ڕووکێکی تازەی لە دارستانەکە دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

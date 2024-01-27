@@ -167,12 +167,18 @@ class EnglishEntryboycott extends StatelessWidget {
 ١. (کردار) ڕەتکردنەوەی ئەوەی شتێک بکڕیت، بەکاری بێنیت، یان بەژداری تێدا بکەیت وەک ناڕەزایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are asking people to boycott goods from companies that use child labour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوا لە خەڵکی دەکەین بایکۆتی ئەو کۆمپانیانە بکەن کە ھێزی کاری منداڵان بەکاردێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are asking people to boycott goods from companies that use child labour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوا لە خەڵکی دەکەین بایکۆتی ئەو کۆمپانیانە بکەن کە ھێزی کاری منداڵان بەکاردێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntryboycott extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have urged people to boycott foreign products."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوایان لە خەڵکی کردووە کاڵای بیانی بایکۆت بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have urged people to boycott foreign products."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوایان لە خەڵکی کردووە کاڵای بیانی بایکۆت بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +225,18 @@ class EnglishEntryboycott extends StatelessWidget {
                               text: "٢. (ناو) کردەی بایکۆتی شتێک یان کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Opposition groups declared a boycott of the elections."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپە ئۆپۆزسیۆنەکان بایکۆتی ھەڵبژاردنەکانیان ڕاگەیاندووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Opposition groups declared a boycott of the elections."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپە ئۆپۆزسیۆنەکان بایکۆتی ھەڵبژاردنەکانیان ڕاگەیاندووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +253,18 @@ class EnglishEntryboycott extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The US has imposed a boycott on some European goods."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمریکا بایکۆتی سەپاندووە بەسەر ھەندێک کاڵای ئەورووپیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The US has imposed a boycott on some European goods."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمریکا بایکۆتی سەپاندووە بەسەر ھەندێک کاڵای ئەورووپیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

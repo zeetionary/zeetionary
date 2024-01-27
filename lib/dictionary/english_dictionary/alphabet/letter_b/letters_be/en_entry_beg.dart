@@ -174,11 +174,17 @@ class EnglishEntrybeg extends StatelessWidget {
 ١. (کردار) پاڕانەوە لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Now you have to beg and plead."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێستا دەبێت بپاڕێیتەوە و بکڕوزێیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Now you have to beg and plead."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا دەبێت بپاڕێیتەوە و بکڕوزێیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,18 @@ class EnglishEntrybeg extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He wants to see them beg for mercy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیەوێت بیانبینێت داوای لێبووردن بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wants to see them beg for mercy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیەوێت بیانبینێت داوای لێبووردن بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +233,18 @@ class EnglishEntrybeg extends StatelessWidget {
 ٢. (کردار) سواڵکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A young woman was begging in the street."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنێکی گەنج سواڵی دەکرد لەسەر شەقامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A young woman was begging in the street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنێکی گەنج سواڵی دەکرد لەسەر شەقامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,10 +262,18 @@ class EnglishEntrybeg extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The children were begging for food."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکان سواڵی خواردنیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children were begging for food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان سواڵی خواردنیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +293,18 @@ class EnglishEntrybeg extends StatelessWidget {
 ٣. (کردار) سەگێک کە قاچەکانی دواوەی دەچەمێنێتەوە و لەسەر ئەوانەی پێشەوە دەوەستێت وەک ئەوەی داوای شتێک بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have trained their dog to sit up and beg."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەگەکەیان ڕاھێناوە لەسەر قاچ بوەستێ و داوای شت بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have trained their dog to sit up and beg."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگەکەیان ڕاھێناوە لەسەر قاچ بوەستێ و داوای شت بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

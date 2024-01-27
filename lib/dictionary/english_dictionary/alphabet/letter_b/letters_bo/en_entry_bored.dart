@@ -172,11 +172,18 @@ class EnglishEntrybored extends StatelessWidget {
 ١. (ھاوەڵناو) ھەستکردن بە ماندووی و نەمانی پشوودرێژیبەھۆی ئەوەی حەزت بۆ شتێک یان کەسێک نەماوە یان بەھۆی ئەوەی ھیچ نییە بیکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a bored expression on her face."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەربڕینی بێزاری لەسەر ڕووخساری بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a bored expression on her face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەربڕینی بێزاری لەسەر ڕووخساری بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +200,18 @@ class EnglishEntrybored extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I am beginning to get bored with eating salad."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەریکە بێزار دەبم لە خواردنی زەڵاتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I am beginning to get bored with eating salad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەریکە بێزار دەبم لە خواردنی زەڵاتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +227,18 @@ class EnglishEntrybored extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She plays the role of a bored housewife."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆڵی ژیانی ژیانێکی بێزاری ماڵەوە دەبینێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She plays the role of a bored housewife."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆڵی ژیانی ژیانێکی بێزاری ماڵەوە دەبینێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +255,18 @@ class EnglishEntrybored extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was rather bored with her life in a small town."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێزاربوو لە ژیانکردنی لە شارۆچکەیەکی بچووکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was rather bored with her life in a small town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێزاربوو لە ژیانکردنی لە شارۆچکەیەکی بچووکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,11 +283,17 @@ class EnglishEntrybored extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was bored with their conversation."),
-                              const ExampleSentenceKurdish(
-                                  text: "بێزاربوو لە گفتوگۆکەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was bored with their conversation."),
+                                    ExampleSentenceKurdish(
+                                        text: "بێزاربوو لە گفتوگۆکەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

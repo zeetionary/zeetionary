@@ -173,12 +173,18 @@ class EnglishEntryblend extends StatelessWidget {
 ١. (کردار) تێکەڵکردنی دوو مادە یان زیاتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Blend together the eggs, sugar and flour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێلکەکان و شەکرەکە و ئاردەکە تێکەڵ بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Blend together the eggs, sugar and flour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێلکەکان و شەکرەکە و ئاردەکە تێکەڵ بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblend extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have very little idea of how to blend colours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیاریی زۆر کەمم ھەیە لەسەر تێکەڵکردنی ڕەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have very little idea of how to blend colours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیاریی زۆر کەمم ھەیە لەسەر تێکەڵکردنی ڕەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,10 +233,16 @@ class EnglishEntryblend extends StatelessWidget {
                                   "٢. (کردار) درووستکردنی تێکەڵەیەک لەگەڵ شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Oil does not blend with water."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆن تێکەڵ بە ئاو نابێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Oil does not blend with water."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕۆن تێکەڵ بە ئاو نابێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,12 +263,18 @@ class EnglishEntryblend extends StatelessWidget {
                                   "٣. (کردار) پێکەوەگونجانی دوو شت بەشێوەیەکی جوان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The old and new buildings blend together perfectly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بینا کۆن و تازەکان بێ‌خەوشانە پێکەوە دەگونجێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The old and new buildings blend together perfectly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بینا کۆن و تازەکان بێ‌خەوشانە پێکەوە دەگونجێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -271,12 +295,18 @@ class EnglishEntryblend extends StatelessWidget {
                                   "٤. (ناو) تێکەڵەی ژمارەیەک جۆری جیاوازی ھەمان شت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their music is a blend of jazz and African rhythms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوزیکەکە تێکەڵەیەکی جاز و ڕیتمی ئەفریقییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their music is a blend of jazz and African rhythms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیکەکە تێکەڵەیەکی جاز و ڕیتمی ئەفریقییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -296,12 +326,18 @@ class EnglishEntryblend extends StatelessWidget {
                                   "٥. (ناو) یەکگرتنی جوان و بەسوودی ژمارەیەک شت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This charming hotel is a delightful blend of the old and the new."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ھوتێلە نازدارە تێکەڵەیەکی جوانی کۆنەکە و تازەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This charming hotel is a delightful blend of the old and the new."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ھوتێلە نازدارە تێکەڵەیەکی جوانی کۆنەکە و تازەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

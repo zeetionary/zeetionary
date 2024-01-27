@@ -210,12 +210,18 @@ class EnglishEntrybyte extends StatelessWidget {
 ١. (ناو) بایت؛ یەکەیەکی زانیارییە کە لە کۆمپیوتەرێکدا کۆگاکراو و یەکسانە بە ٨ بیت. مەمۆری کۆمپیوتەر بە بایت دەپێورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One kilobyte equals to 1024 bytes of information."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەک کیلۆبایت یەکسانە بە ١٠٢٤ بایتی زانیاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One kilobyte equals to 1024 bytes of information."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک کیلۆبایت یەکسانە بە ١٠٢٤ بایتی زانیاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "byte", follow LX strictly
                               Column(
                                 children: [

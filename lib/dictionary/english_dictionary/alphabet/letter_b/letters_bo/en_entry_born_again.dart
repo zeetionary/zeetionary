@@ -166,11 +166,18 @@ class EnglishEntrybornagain extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە باوەڕی توندی بە مەسیحییەتی ئینجیلی ھێناوە، بەتایبەتی لە دوای ئەزموونێکی ڕۆحی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Richard is a born-again Christian."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕیچارد مەسیحییەکی ئینجیلییە باوەڕی وایە (ئینجیل دەبێت فێری کەسانی تر بکرێت بۆ ئەوەی باوەڕ بێنن)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Richard is a born-again Christian."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕیچارد مەسیحییەکی ئینجیلییە باوەڕی وایە (ئینجیل دەبێت فێری کەسانی تر بکرێت بۆ ئەوەی باوەڕ بێنن)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

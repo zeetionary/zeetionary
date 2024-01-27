@@ -168,12 +168,18 @@ class EnglishEntryboneidle extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر تەمەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She never lifts a finger to help. She's bone idle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She never lifts a finger to help. She's bone idle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز پەنجەشی بەرزناکاتەوە بۆ یارمەتیدان. زۆر کنگ‌گرانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

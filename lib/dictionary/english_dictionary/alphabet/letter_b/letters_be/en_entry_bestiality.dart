@@ -171,12 +171,18 @@ class EnglishEntrybestiality extends StatelessWidget {
 ١. (ناو) سێکس لە نێوان مرۆڤ و ئاژەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bestiality is illegal and considered a form of animal cruelty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گیانەوەربازی نایاساییە و وەک جۆرێک لە دڕندەیی بەرامبەر ئاژەڵان دادەنرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bestiality is illegal and considered a form of animal cruelty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیانەوەربازی نایاساییە و وەک جۆرێک لە دڕندەیی بەرامبەر ئاژەڵان دادەنرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybestiality extends StatelessWidget {
 ٢. (ناو) ھەڵسوکەوتی دڕندانە و خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dictator's regime was known for its bestiality towards its own people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕژێمە دیکتاتۆرەکە ناسرابوو بە دڕندەیی بەرامبەر خەڵکی خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dictator's regime was known for its bestiality towards its own people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕژێمە دیکتاتۆرەکە ناسرابوو بە دڕندەیی بەرامبەر خەڵکی خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

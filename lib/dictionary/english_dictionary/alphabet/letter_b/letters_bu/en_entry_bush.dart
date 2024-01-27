@@ -215,12 +215,18 @@ class EnglishEntrybush extends StatelessWidget {
 ١. (ناو) ڕووەکێک کە بە ئەستووری گەشە دەکات و چەند قەدێکی سەختی هەیە کە لە ڕەگەکەیەوە دەردەچن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was hiding in the bushes at the side of the lane."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was hiding in the bushes at the side of the lane."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە قەراغ ڕێگاکەدا لەناو دەوەنەکەدا خۆی حەشاردابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bush", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntrybush extends StatelessWidget {
                                   "٢. (ناو) ڕێژەیەکی زۆر لە موو، بەتایبەت مووی بەشی بەرگەدەی ژنان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baby was born with a bush of black hair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە لەدایکبوو بە قژێکی زۆری ڕەشەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baby was born with a bush of black hair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە لەدایکبوو بە قژێکی زۆری ڕەشەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,10 +277,16 @@ class EnglishEntrybush extends StatelessWidget {
                                   "٣. (ناو) ناوچەیەک کە پاکنەکراوەتوە، بۆ نموونە لە دار"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They went out into the bush."),
-                              const ExampleSentenceKurdish(
-                                  text: "چوون بۆ دەشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They went out into the bush."),
+                                    ExampleSentenceKurdish(
+                                        text: "چوون بۆ دەشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +303,18 @@ class EnglishEntrybush extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children are taught from an early age how to survive in the bush."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان لە تەمەنێکی گەنجدا فێردەکرێن چۆن لە دەشتدا دەربازبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children are taught from an early age how to survive in the bush."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان لە تەمەنێکی گەنجدا فێردەکرێن چۆن لە دەشتدا دەربازبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

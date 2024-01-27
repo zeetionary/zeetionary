@@ -167,12 +167,18 @@ class EnglishEntrybrainless extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک گەمژە کە نازانێت ژیرانە بیربکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her husband’s colleagues were brainless bores."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوکارەکانی ھاوسەرەکەی بێزارکەری گەمژە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her husband’s colleagues were brainless bores."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوکارەکانی ھاوسەرەکەی بێزارکەری گەمژە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +195,18 @@ class EnglishEntrybrainless extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What sort of brainless idiot would do that?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چی گەمژەیەکی دەبەنگ ئەوە دەکات؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What sort of brainless idiot would do that?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چی گەمژەیەکی دەبەنگ ئەوە دەکات؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

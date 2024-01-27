@@ -169,12 +169,18 @@ class EnglishEntrybottleneck extends StatelessWidget {
 ١. (ناو) بەشێکی تەسک یان باریکی ڕێگایەک کە ھاتوچۆ تێیدا خاودەبێتەوە و دەوەستێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He drove around the outside of the town to avoid the bottleneck in the centre."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە دەرەوەی شارەکەدا ڕۆشت بۆ ئەوەی لە تەسکەڕێی ناوەندەکە دووربێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He drove around the outside of the town to avoid the bottleneck in the centre."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دەرەوەی شارەکەدا ڕۆشت بۆ ئەوەی لە تەسکەڕێی ناوەندەکە دووربێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybottleneck extends StatelessWidget {
                                   "٢. (ناو) ھەرشتێک کە بەرەوپێشچوون یان گەشەسەندن خاوبکاتەوە، بەتایبەتی لە بازرگانی و پیشەسازیدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is there any way of getting around this bureaucratic bottleneck?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ ڕێگایەک ھەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is there any way of getting around this bureaucratic bottleneck?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ ڕێگایەک ھەیە ئەم بەربەستە کارگێڕییە تێپەڕێنین؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

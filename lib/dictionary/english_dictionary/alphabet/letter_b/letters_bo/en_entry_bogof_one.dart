@@ -166,12 +166,18 @@ class EnglishEntrybogof extends StatelessWidget {
 ١. (کورتکراوە) کورتکراوەیەکە بە واتای یەکێک بکڕە و یەکێک بە دیاری وەربگرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The store is running a BOGOF sale on selected shoes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشگاکە ھەڕاجی یەکێک بکڕە و یەکێک بە دیاری وەربگرەی ڕاگەیاندووە بۆ ژمارەیەک پێڵاوی دیاریکراو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The store is running a BOGOF sale on selected shoes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشگاکە ھەڕاجی یەکێک بکڕە و یەکێک بە دیاری وەربگرەی ڕاگەیاندووە بۆ ژمارەیەک پێڵاوی دیاریکراو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntrybooklet extends StatelessWidget {
 ١. (ناو) کتێبێکی بچووک کە زانیاریی لەسەر بابەتێکی دیاریکراوی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had to refer to the instruction booklet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویست بوو ڕاوێژ بە نامیلکەی ڕێنماییەکە بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had to refer to the instruction booklet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویست بوو ڕاوێژ بە نامیلکەی ڕێنماییەکە بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

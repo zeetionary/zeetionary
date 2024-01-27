@@ -166,11 +166,17 @@ class EnglishEntrybravery extends StatelessWidget {
 ١. (ناو) ئازایەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were awarded medals for their bravery."),
-                              const ExampleSentenceKurdish(
-                                  text: "مەدالیایان بۆ بوێری پێدرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were awarded medals for their bravery."),
+                                    ExampleSentenceKurdish(
+                                        text: "مەدالیایان بۆ بوێری پێدرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

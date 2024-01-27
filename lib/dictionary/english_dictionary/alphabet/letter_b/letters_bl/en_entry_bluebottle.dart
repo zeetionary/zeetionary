@@ -166,12 +166,18 @@ class EnglishEntrybluebottle extends StatelessWidget {
 ١. (ناو) مێشی گۆشت؛ مێشێکی گەورە کە جەستەیەکی شینی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bluebottle buzzed around the garbage bin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێشێکی گۆشت بە دەوری تەنەکەی زباڵەکە گیزەی دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bluebottle buzzed around the garbage bin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێشێکی گۆشت بە دەوری تەنەکەی زباڵەکە گیزەی دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

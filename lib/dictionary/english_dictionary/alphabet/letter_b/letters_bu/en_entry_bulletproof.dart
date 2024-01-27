@@ -162,12 +162,18 @@ class EnglishEntrybulletproof extends StatelessWidget {
 ١. (ھاوەڵناو) گوللەنەبڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bulletproof limousine used by the president was on display in the museum."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەهات لە نمایشدا بوو لە مۆزەخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bulletproof limousine used by the president was on display in the museum."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەهات لە نمایشدا بوو لە مۆزەخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulletproof", follow LX strictly
                               Column(
                                 children: [

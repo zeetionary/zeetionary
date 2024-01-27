@@ -170,10 +170,17 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە حەزی بە کووشتن و توندوتیژییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We are not a bloodthirsty people."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێمە کەسانی خوێن‌خۆر نیین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are not a bloodthirsty people."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئێمە کەسانی خوێن‌خۆر نیین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bloodthirsty dictator was ousted in a coup."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیکتاتۆرە خوێنڕێژەکە لە کودەتایەکدا لادرا لە دەسەڵات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bloodthirsty dictator was ousted in a coup."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیکتاتۆرە خوێنڕێژەکە لە کودەتایەکدا لادرا لە دەسەڵات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +232,18 @@ class EnglishEntrybloodthirsty extends StatelessWidget {
                                   "٢. (ھاوەڵناو) کتێبێک یان فیلمێک کە کووشتن و توندوتیژی پیشان دەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It’s a bloodthirsty tale of murder and revenge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چیرۆکێکی بەخوێن‌تینووە لەسەر کووشتن و تۆڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It’s a bloodthirsty tale of murder and revenge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چیرۆکێکی بەخوێن‌تینووە لەسەر کووشتن و تۆڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -256,10 +256,16 @@ class EnglishEntryborrow extends StatelessWidget {
 ١. (کردار) بردنی شتی کەسێکی تر بۆ بەکارھێنان و ھێنانەوەی لە کاتێکی تردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can I borrow your umbrella?"),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتوانم چەترەکەت بە قەرز ببەم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Can I borrow your umbrella?"),
+                                    ExampleSentenceKurdish(
+                                        text: "دەتوانم چەترەکەت بە قەرز ببەم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,12 +282,18 @@ class EnglishEntryborrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Members can borrow up to ten books from the library at any one time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندامان دەتوانن دە کتێب ببەن لە کتێبخانەکە لە ھەر کاتێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Members can borrow up to ten books from the library at any one time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامان دەتوانن دە کتێب ببەن لە کتێبخانەکە لە ھەر کاتێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -304,7 +316,7 @@ class EnglishEntryborrow extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I borrowed the tools I needed off my brother."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەو ئامرازانەی پێویستم بوون لای براکەم بردمن بە قەرز."),
                                       const CustomSizedBoxForTTS(),
@@ -328,7 +340,7 @@ class EnglishEntryborrow extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I'll borrow some coffee off the neighbours."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەندێک قاوە لە دراوسێیەکان قەرز دەکەم."),
                                       const CustomSizedBoxForTTS(),
@@ -352,7 +364,7 @@ class EnglishEntryborrow extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I'm borrowing the office laptop for the weekend."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "لاپتۆپی ئۆفیسەکە بەکاردێنم بۆ کۆتایی ھەفتە."),
                                       const CustomSizedBoxForTTS(),
@@ -380,12 +392,18 @@ class EnglishEntryborrow extends StatelessWidget {
                                   "٢. (کردار) بردنی پارە لە کەسێک یان بانکێک و ڕازی بوون بەوەی دواتر بیدەیتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How much did you have to borrow to pay for this?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەند دەبێت قەرز بکەیت بۆ ئەوەی پارەی ئەمە بدەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How much did you have to borrow to pay for this?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەند دەبێت قەرز بکەیت بۆ ئەوەی پارەی ئەمە بدەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -402,12 +420,18 @@ class EnglishEntryborrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The goal is to borrow funds at a low interest rate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجەکە ئەوەیە دەسمایە قەرز بکەین بە ڕێژەیەکی کەمی سوو لەسەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The goal is to borrow funds at a low interest rate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجەکە ئەوەیە دەسمایە قەرز بکەین بە ڕێژەیەکی کەمی سوو لەسەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -427,12 +451,18 @@ class EnglishEntryborrow extends StatelessWidget {
                                   "٣. (کردار) بردنی بیرۆکە، وشە، ھتد لە کەسێک یان زامنێکی تر و بەکارھێنانی وەک ھی خۆت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The author borrows heavily from Henry James."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسەرەکە بە ڕێژەیەکی زۆر بیرۆکەی ھێنری جەیمسی بەکارھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The author borrows heavily from Henry James."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسەرەکە بە ڕێژەیەکی زۆر بیرۆکەی ھێنری جەیمسی بەکارھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -449,12 +479,18 @@ class EnglishEntryborrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "English has borrowed lots of words from French."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئینگلیزی ژمارەیەکی زۆر وشەی لە فەرەنسی وەرگرتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "English has borrowed lots of words from French."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئینگلیزی ژمارەیەکی زۆر وشەی لە فەرەنسی وەرگرتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

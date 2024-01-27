@@ -169,12 +169,18 @@ class EnglishEntryblackmarket extends StatelessWidget {
 ١. (ناو) شێوەی نایاسایی بازرگانی کە تێیدا پارەی بیانی یان ئەو کەلوپەلانەی ئاسان دەستناکەون کڕین و فرۆشتنیان پێوە دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can buy anything you needed on the black market."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانی ھەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can buy anything you needed on the black market."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانی ھەر شتێک کە دەتەوێت بیکڕی لە بازاڕی ڕەشدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblackmarket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "During the war, there was a thriving black market in food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو ھەبوو بۆ خۆراک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "During the war, there was a thriving black market in food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی جەنگەکەدا بازاری ڕەشی بەبرەو ھەبوو بۆ خۆراک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

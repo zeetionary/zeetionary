@@ -162,11 +162,18 @@ class EnglishEntrybrotherly extends StatelessWidget {
 ١. (ھاوەڵناو) برایانە، لە سۆنگەی برایەتییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He gave her a brotherly kiss on the cheek."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماچێکی برایانەی سەر گۆنایی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gave her a brotherly kiss on the cheek."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماچێکی برایانەی سەر گۆنایی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brotherly" as
                               Column(
                                 children: [

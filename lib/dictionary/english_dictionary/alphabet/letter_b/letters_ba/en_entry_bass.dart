@@ -167,10 +167,16 @@ class EnglishEntrybass extends StatelessWidget {
 ١. (ناو) نزمترین تۆنی دەنگ یان بەشی میوزیکێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He sings bass."),
-                              const ExampleSentenceKurdish(
-                                  text: "گۆرانی باس دەڵێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He sings bass."),
+                                    ExampleSentenceKurdish(
+                                        text: "گۆرانی باس دەڵێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,10 +196,17 @@ class EnglishEntrybass extends StatelessWidget {
 ٢. (ناو) گیتارێکی ئەلیکترۆنی کە نۆتەی زپر نزم لێدەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He played bass in a band."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەو گیتاری باس لێدەدات لە باندێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He played bass in a band."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو گیتاری باس لێدەدات لە باندێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +226,18 @@ class EnglishEntrybass extends StatelessWidget {
 ٣. (ناو) پیاوێک کە تۆنی دەنگی نزمە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He answered my question in a surprisingly bass."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەڵامی پرسیارەکەمی دایەوە بە دەنگێکی سەیری تۆن نزم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He answered my question in a surprisingly bass."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەڵامی پرسیارەکەمی دایەوە بە دەنگێکی سەیری تۆن نزم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,10 +257,17 @@ class EnglishEntrybass extends StatelessWidget {
 ٤. (ناو) ماسییەک کە بۆ خواردن بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Fresh sea bass is a great delicacy."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماسی تازە لەززەتێکی تایبەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fresh sea bass is a great delicacy."),
+                                    ExampleSentenceKurdish(
+                                        text: "ماسی تازە لەززەتێکی تایبەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +287,18 @@ class EnglishEntrybass extends StatelessWidget {
 ٥. (ھاوەڵناو) تۆن نزم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This bass part contains some relatively complex passages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشە تۆن نزمەکە ھەندێک پارچەی تا ڕادەیەک ئاڵۆزی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This bass part contains some relatively complex passages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشە تۆن نزمەکە ھەندێک پارچەی تا ڕادەیەک ئاڵۆزی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

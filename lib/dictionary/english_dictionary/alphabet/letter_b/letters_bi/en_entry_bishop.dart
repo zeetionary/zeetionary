@@ -171,10 +171,18 @@ class EnglishEntrybishop extends StatelessWidget {
 ١. (ناو) قەشەی باڵا کە سەرپەرشتی کڵێسای ناوچەیەک یان شارێک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was appointed Bishop of Naples."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک قەشەی باڵای ناپۆلی دیاریکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was appointed Bishop of Naples."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک قەشەی باڵای ناپۆلی دیاریکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +202,18 @@ class EnglishEntrybishop extends StatelessWidget {
 ٢. (ناو) پارچەیەک لە یاری شەترەنجدا کە وەک کڵاوی قەشەی باڵا وایە و دەتوانێت لە شێوەی ئێکسدا (X) لەسەر تەختەی شەترەنج بجووڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A well-placed bishop can effectively shield the king from enemy pieces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دووژمن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A well-placed bishop can effectively shield the king from enemy pieces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلێکی باش جێگیرکراو دەتوانێت پاشا بپارێزێت لە پارچەکانی دووژمن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

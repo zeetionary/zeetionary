@@ -170,12 +170,18 @@ class EnglishEntrybeachball extends StatelessWidget {
 ١. (ناو) تۆپێکی گەورەی سووک و ڕەنگین کە بەکاردێت بۆ یاری لە کەناراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children spent hours bouncing the beach ball."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان چەندین کاتژمێریان بەسەر برد بە تەپ‌تەپێن بە تۆپەباکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children spent hours bouncing the beach ball."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان چەندین کاتژمێریان بەسەر برد بە تەپ‌تەپێن بە تۆپەباکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,11 +168,18 @@ class EnglishEntryblotch extends StatelessWidget {
 ١. (ناو) نیشانەیەک کە شێوەی دیاریکراوی نییە لەسەر پێست، ڕووەک، یان مادەی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her face was covered in purple blotches."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری داپۆشرابوو بە لەکەی مۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her face was covered in purple blotches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری داپۆشرابوو بە لەکەی مۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

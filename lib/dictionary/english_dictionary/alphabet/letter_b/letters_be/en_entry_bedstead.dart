@@ -170,11 +170,18 @@ class EnglishEntrybedstead extends StatelessWidget {
 ١. (ناو) چوارچێوەی جێگەی خەوی کۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bedstead is much about my size."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چوارچێوەی جێخەوەکە گونجاوە بۆ ئەندازەی من."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bedstead is much about my size."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوارچێوەی جێخەوەکە گونجاوە بۆ ئەندازەی من."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

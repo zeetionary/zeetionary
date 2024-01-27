@@ -172,12 +172,18 @@ class EnglishEntryberth extends StatelessWidget {
 ١. (ناو) شوێنی خەوتنی سەر کەشتییەک، شەمەندەفەرێک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She booked a berth on the ferry from Palermo to Naples."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جێ‌خەوێکی بەکرێ گرت لەسەر کەشتییەکە کە لە پالێرمۆوە بۆ ناپۆلی دەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She booked a berth on the ferry from Palermo to Naples."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێ‌خەوێکی بەکرێ گرت لەسەر کەشتییەکە کە لە پالێرمۆوە بۆ ناپۆلی دەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryberth extends StatelessWidget {
 ٢. (ناو) شوێنی وەستانی کەشتییەک لە بەندەرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The harbor was filled with ships of all sizes, each secured to its own berth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەندەرەکە پڕبوو لە کەشتی ھەموو قەبارەیەک، کە ھەریەکەیان توند کرابوو لە لەمگەرگای خۆیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The harbor was filled with ships of all sizes, each secured to its own berth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەندەرەکە پڕبوو لە کەشتی ھەموو قەبارەیەک، کە ھەریەکەیان توند کرابوو لە لەمگەرگای خۆیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,10 +234,18 @@ class EnglishEntryberth extends StatelessWidget {
 ٣. (کردار) جێگیرکردنی کەشتییەک لە لەنگەرگایەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The ship is berthed at Southampton."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەشتییەکە لە ساوسامپتن لەنگەرکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ship is berthed at Southampton."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییەکە لە ساوسامپتن لەنگەرکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

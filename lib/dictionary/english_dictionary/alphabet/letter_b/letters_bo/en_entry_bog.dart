@@ -170,11 +170,17 @@ class EnglishEntrybog extends StatelessWidget {
 ١. (ناو) ناوچەیەکی زەوی نەرم کە درووست بووە لە ڕووەکی خراپ بوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I found myself walking through a bog."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەوتمە ناو زەلکاوێکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I found myself walking through a bog."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەوتمە ناو زەلکاوێکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybog extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The more she struggled the deeper she sank into the bog."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرچەندە بەرھەڵستی دەکرد ئەوەندە زیاتر دەکەوتە ناو زەلکاوەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The more she struggled the deeper she sank into the bog."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرچەندە بەرھەڵستی دەکرد ئەوەندە زیاتر دەکەوتە ناو زەلکاوەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,11 +226,17 @@ class EnglishEntrybog extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) تەوالێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Have you got any bog roll (= toilet paper)?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ کاغەزی دەسبەئاوت پێیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Have you got any bog roll (= toilet paper)?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ کاغەزی دەسبەئاوت پێیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,10 +253,17 @@ class EnglishEntrybog extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Sam was on the bog when I arrived."),
-                              const ExampleSentenceKurdish(
-                                  text: "سام لە سەرئاو بوو کە ڕۆشتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sam was on the bog when I arrived."),
+                                    ExampleSentenceKurdish(
+                                        text: "سام لە سەرئاو بوو کە ڕۆشتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

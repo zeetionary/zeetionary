@@ -172,12 +172,18 @@ class EnglishEntryballistics extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is a ballistics expert at the FBI lab in Quantico."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is a ballistics expert at the FBI lab in Quantico."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

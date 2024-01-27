@@ -166,12 +166,18 @@ class EnglishEntrybrat extends StatelessWidget {
 ١. (ناو) کەسێک، بەتایبەتی منداڵ، لە خراپ ڕەفتار دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Why does that irritating little brat ask so many stupid questions?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچی ئەو بەچکە ھەتیوە بێزارکەرە ھێندە پرسیار زۆر دەکات؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Why does that irritating little brat ask so many stupid questions?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچی ئەو بەچکە ھەتیوە بێزارکەرە ھێندە پرسیار زۆر دەکات؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

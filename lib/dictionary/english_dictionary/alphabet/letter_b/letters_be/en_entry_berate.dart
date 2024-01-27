@@ -168,12 +168,18 @@ class EnglishEntryberate extends StatelessWidget {
 ١. (کردار) سەرکۆنەکردنی کەسێک بەھۆی ئەوەی ناڕازیت لە شتێک کە کردوویەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She berated herself for being a bad mother."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She berated herself for being a bad mother."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکۆنەی خۆی کرد بۆ بوون بە دایکێکی خراپ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

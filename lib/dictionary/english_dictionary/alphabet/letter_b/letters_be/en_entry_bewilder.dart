@@ -171,12 +171,18 @@ class EnglishEntrybewilder extends StatelessWidget {
 ١. (کردار) سەرلێشێواندن لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was totally bewildered by his sudden change of mood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە تەواوی سەریلێشێوا بە گۆڕانی لەناکاوی حەوسەلەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was totally bewildered by his sudden change of mood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی سەریلێشێوا بە گۆڕانی لەناکاوی حەوسەلەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybewilder extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His complete lack of interest in money bewilders his family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەبوونی تەواوی حەزی بۆ پارە دایک و باوکی حەپەساندبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His complete lack of interest in money bewilders his family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەبوونی تەواوی حەزی بۆ پارە دایک و باوکی حەپەساندبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

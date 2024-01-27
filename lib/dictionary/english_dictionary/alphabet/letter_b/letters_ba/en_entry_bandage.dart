@@ -172,11 +172,18 @@ class EnglishEntrybandage extends StatelessWidget {
 ١. (ناو) پارچەیەک کە لەسەر برین دەدرێت بۆ پاراستنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had a strip of bandage tied around his head."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارچە پەڕۆیەکی ئاڵاندووە لەسەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had a strip of bandage tied around his head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچە پەڕۆیەکی ئاڵاندووە لەسەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,10 +205,17 @@ class EnglishEntrybandage extends StatelessWidget {
 ٢. (کردار) دانانی پارچەیەک لەسەر برین بۆ پاراستنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't bandage the wound too tightly."),
-                              const ExampleSentenceKurdish(
-                                  text: "برینەکە توند مەبەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't bandage the wound too tightly."),
+                                    ExampleSentenceKurdish(
+                                        text: "برینەکە توند مەبەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntryblockade extends StatelessWidget {
 ١. (ناو) ئابڵووقە؛ کردەی دەوردان یان گرتنی شوێنێک، بەتایبەتی بەندەرێک، بۆ وەستاندنی ھاتووچۆی خەڵکی و کەلوپەل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president imposed a complete blockade on the island's harbours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک ئابڵووقەی تەواوی سەپاند بەسەر بەندەرەکانی دوورگەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president imposed a complete blockade on the island's harbours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک ئابڵووقەی تەواوی سەپاند بەسەر بەندەرەکانی دوورگەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryblockade extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They attempted to break the blockade by using submarines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵیان دا ئابڵووقەکە بشکێنن بە بەکارھێنانی ژێر دەریا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They attempted to break the blockade by using submarines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیان دا ئابڵووقەکە بشکێنن بە بەکارھێنانی ژێر دەریا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntryblockade extends StatelessWidget {
                                   "٢. (ناو) بەربەستێک کە ڕێگری لە خەڵکی و ئۆتۆمبێل دەکات بچنە شوێنێک یان جێی بھێڵن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police set up blockades on highways leading out of the city."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس بەربەستی دانا لەو ڕێگایانەی بۆ دەرەوەی شارەکە دەچوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police set up blockades on highways leading out of the city."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس بەربەستی دانا لەو ڕێگایانەی بۆ دەرەوەی شارەکە دەچوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,10 +261,18 @@ class EnglishEntryblockade extends StatelessWidget {
                               text: "٣. (کردار) ئابڵووقەدانی شوێنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "All the ports had been blockaded."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی بەندەرەکان ئابڵووقە دراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the ports had been blockaded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی بەندەرەکان ئابڵووقە دراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +289,18 @@ class EnglishEntryblockade extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Employees blockaded the entrance to the offices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارمەندان ڕێگای چوونە ناو ئۆفیسەکانیان بەربەست کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Employees blockaded the entrance to the offices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارمەندان ڕێگای چوونە ناو ئۆفیسەکانیان بەربەست کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntryblouse extends StatelessWidget {
 ١. (ناو) جۆرە جلێک کە بۆ ژنانە و وەک قەمیس لەبەر دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bought his wife a new blouse for her birthday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بلووزێکی تازەی بۆ ھاوژینەکەی کڕی بۆ جەژنی لەدایکبوونی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bought his wife a new blouse for her birthday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلووزێکی تازەی بۆ ھاوژینەکەی کڕی بۆ جەژنی لەدایکبوونی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntryblouse extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She tucked the blouse into her high-waisted skirt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بلووزەکەی کرد بە ناو تەنوورە کەمەر بەرزەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She tucked the blouse into her high-waisted skirt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلووزەکەی کرد بە ناو تەنوورە کەمەر بەرزەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

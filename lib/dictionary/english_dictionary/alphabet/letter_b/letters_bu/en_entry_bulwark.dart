@@ -165,12 +165,18 @@ class EnglishEntrybulwark extends StatelessWidget {
 ١. (ناو) کەسێک/شتێک کە پارێزگاری یان بەرگری لە شتێک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At the time fascism had many supporters in the West, who saw it as a bulwark against communism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا هەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At the time fascism had many supporters in the West, who saw it as a bulwark against communism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا هەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulwark", follow LX strictly
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybarman extends StatelessWidget {
 ١. (ناو) پیاوێک کە لە باڕێک کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The restaurant's barman was renowned for his ability to make a perfect martini."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەیگێڕی چێشتخانەکە ناسرابوو بۆ توانای لە درووستکردنی باشترین مارتینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The restaurant's barman was renowned for his ability to make a perfect martini."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەیگێڕی چێشتخانەکە ناسرابوو بۆ توانای لە درووستکردنی باشترین مارتینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

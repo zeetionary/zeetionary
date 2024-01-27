@@ -164,12 +164,18 @@ class EnglishEntrybrassband extends StatelessWidget {
 ١. (ناو) گرووپێک میوزیکژەن کە ئەو ئامێرانە دەژەنن کە لە کانزا درووستکراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The village brass band plays regular concerts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باندی براسی گوندەکە کۆنسێرتی بەردەوام سازدەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The village brass band plays regular concerts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باندی براسی گوندەکە کۆنسێرتی بەردەوام سازدەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

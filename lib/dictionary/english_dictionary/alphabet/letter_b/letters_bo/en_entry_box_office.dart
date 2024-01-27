@@ -167,12 +167,18 @@ class EnglishEntryboxoffice extends StatelessWidget {
 ١. (ناو) شوێنێک لە ھۆڵی شانۆ، سینەما، ھتد کە بلیتی تێدا دەفرۆشرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Box-office receipts have exceeded expectations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قازانج لە ئۆفیسەکانی بلیت فرۆشتن پێشبینییەکانی تێپەڕاندووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Box-office receipts have exceeded expectations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قازانج لە ئۆفیسەکانی بلیت فرۆشتن پێشبینییەکانی تێپەڕاندووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntryboxoffice extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie has been a huge box-office success (= many people have been to see it)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە لە سینەماکاندا سەرکەوتنی بەرچاوی بەخۆوەدیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie has been a huge box-office success (= many people have been to see it)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە لە سینەماکاندا سەرکەوتنی بەرچاوی بەخۆوەدیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

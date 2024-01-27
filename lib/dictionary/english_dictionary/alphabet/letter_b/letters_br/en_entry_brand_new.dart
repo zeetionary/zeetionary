@@ -167,12 +167,18 @@ class EnglishEntrybrandnew extends StatelessWidget {
 ١. (ھاوەڵناو) تەواو تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How can he afford to buy himself a brand new car?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چۆن دەتوانێت ئۆتۆمبێلێکی تەواو تازە بکڕێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How can he afford to buy himself a brand new car?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چۆن دەتوانێت ئۆتۆمبێلێکی تەواو تازە بکڕێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +195,18 @@ class EnglishEntrybrandnew extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her coat looked as if it was brand new."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاڵتاوەکەی وادیاربوو تەواو تازە بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her coat looked as if it was brand new."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاڵتاوەکەی وادیاربوو تەواو تازە بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

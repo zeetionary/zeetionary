@@ -165,12 +165,18 @@ class EnglishEntrybreeder extends StatelessWidget {
 ١. (ناو) کەسێک کە ئاژەڵ بەخێودەکات بۆ وەچە خستنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was one of the country's top sheep breeders."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە گەورەترین بەخێوکارانی مەڕ بوو لە وڵاتەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was one of the country's top sheep breeders."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە گەورەترین بەخێوکارانی مەڕ بوو لە وڵاتەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breeder" as
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybreeder extends StatelessWidget {
                               text: "٢. (ناو) ئاژەڵیک کە وەچە دەخاتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The earliest breeders in the bird colony are likely to suffer more losses due to the cold weather."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ئاژەڵانەی کە زووترین کات وەچە دەخەنوە ئەگەری ھەیە زیاتر لەدەست بدەن بەھۆی کەشی ساردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The earliest breeders in the bird colony are likely to suffer more losses due to the cold weather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ئاژەڵانەی کە زووترین کات وەچە دەخەنوە ئەگەری ھەیە زیاتر لەدەست بدەن بەھۆی کەشی ساردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

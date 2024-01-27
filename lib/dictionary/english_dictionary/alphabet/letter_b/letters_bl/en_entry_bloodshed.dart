@@ -168,12 +168,18 @@ class EnglishEntrybloodshed extends StatelessWidget {
 ١. (ناو) کووشتن یان بریندارکردنی خەڵکی، زۆرجار لە کاتی جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two sides called a truce to avoid further bloodshed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو لایەن داوای ئاگربەستیان کرد بۆ بۆ ڕێگری لە کوشتاری زیاتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two sides called a truce to avoid further bloodshed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو لایەن داوای ئاگربەستیان کرد بۆ بۆ ڕێگری لە کوشتاری زیاتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

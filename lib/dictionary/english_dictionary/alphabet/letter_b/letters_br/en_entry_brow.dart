@@ -168,11 +168,18 @@ class EnglishEntrybrow extends StatelessWidget {
 ١. (ناو) ناوچاوان؛ تەوێڵ؛ ئەو بەشە تەختەی ڕووخسار کە لە نێوان چاوان و قژە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The nurse mopped his fevered brow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The nurse mopped his fevered brow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرستارەکە ناوچاوانە تێ‌گرتووەکەی سڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brow" as
                               Column(
                                 children: [
@@ -189,10 +196,18 @@ class EnglishEntrybrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her brow furrowed in concentration."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوچاوانی گرژبوو لە سەرنجداندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her brow furrowed in concentration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوچاوانی گرژبوو لە سەرنجداندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +226,18 @@ class EnglishEntrybrow extends StatelessWidget {
                               text: "٢. (ناو) برۆ؛ مووی سەر چاوان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His brows drew together in a worried frown when he heard the remark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برۆیەکانی چوون بە یەکدا لە گرژیدا کە قسەکەی بیست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His brows drew together in a worried frown when he heard the remark."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برۆیەکانی چوون بە یەکدا لە گرژیدا کە قسەکەی بیست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +254,18 @@ class EnglishEntrybrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His brows snapped together ferociously when he heard the remark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برۆیەکانی بە توندی چوون بە یەکدا کە قسەکەی بیست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His brows snapped together ferociously when he heard the remark."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برۆیەکانی بە توندی چوون بە یەکدا کە قسەکەی بیست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +284,18 @@ class EnglishEntrybrow extends StatelessWidget {
                               text: "٣. (ناو) بەشی سەرەوەی گردێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The path disappeared over the brow of the hill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە دیار نەما لەسەر نووچکەی گردەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The path disappeared over the brow of the hill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە دیار نەما لەسەر نووچکەی گردەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

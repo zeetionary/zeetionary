@@ -172,12 +172,18 @@ class EnglishEntrybob extends StatelessWidget {
 ١. (کردار) جوڵان یان جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Tiny boats bobbed up and down in the harbour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمە بچووکەکان ھەڵبەز و دابەزیان بوو لە بەندەرەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tiny boats bobbed up and down in the harbour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمە بچووکەکان ھەڵبەز و دابەزیان بوو لە بەندەرەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybob extends StatelessWidget {
                                   "٢. (کردار) بڕینی قژی کەسێک بە شێوەیەک کە لە ھەموو لایەکەوە ھەمان درێژی ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She got her hair bobbed in a new style."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پرچی داھێنا بە ھەمان درێژی بەشێوەیەکی ستایلی تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She got her hair bobbed in a new style."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پرچی داھێنا بە ھەمان درێژی بەشێوەیەکی ستایلی تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntrybob extends StatelessWidget {
                               text: "٣. (ناو) جوڵەی خێرای سەروو و خوار"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She acknowledged me with a quick bob of her head."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاماژەی کرد کە ئاگادارە لێرەم بە لەقاندنێکی خێرای سەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She acknowledged me with a quick bob of her head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاماژەی کرد کە ئاگادارە لێرەم بە لەقاندنێکی خێرای سەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,10 +264,16 @@ class EnglishEntrybob extends StatelessWidget {
                                   "٤. (ناو) جۆرە پرچبڕینێک کە لە ھەموو لایەکەوە بە کورتی یان مام‌ناوەندی دەبڕدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wears her hair in a bob."),
-                              const ExampleSentenceKurdish(
-                                  text: "پرچی بە شێوەی بۆبی دادەھێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She wears her hair in a bob."),
+                                    ExampleSentenceKurdish(
+                                        text: "پرچی بە شێوەی بۆبی دادەھێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +293,18 @@ class EnglishEntrybob extends StatelessWidget {
                                   "٥. (ناو) دراوێکی بەریتانی کە لە ڕابردوودا بەکاردەھات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That coat cost me ten bob in 1956."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاڵتاوەکە ١٠ بۆبی تێچوو لەسەرم لە ١٩٥٦."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That coat cost me ten bob in 1956."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاڵتاوەکە ١٠ بۆبی تێچوو لەسەرم لە ١٩٥٦."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

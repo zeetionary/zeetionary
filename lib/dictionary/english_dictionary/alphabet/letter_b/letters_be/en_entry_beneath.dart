@@ -174,12 +174,18 @@ class EnglishEntrybeneath extends StatelessWidget {
 ١. (ھاوەڵناو) لەژێر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They found the body buried beneath a pile of leaves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاشەکەیان دۆزییەوە کە نێژرابوو لەژێر کەڵەکە گەڵادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They found the body buried beneath a pile of leaves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاشەکەیان دۆزییەوە کە نێژرابوو لەژێر کەڵەکە گەڵادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +203,18 @@ class EnglishEntrybeneath extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The boat sank beneath the waves."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەلەمەکە لەژێر شەپۆلەکاندا نغرۆبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boat sank beneath the waves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکە لەژێر شەپۆلەکاندا نغرۆبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,10 +234,18 @@ class EnglishEntrybeneath extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە بەشی پێویست باش نییە بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He considers such jobs beneath him."),
-                              const ExampleSentenceKurdish(
-                                  text: "کاری وەھا بە ناشایستە بەخۆی دادەنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He considers such jobs beneath him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاری وەھا بە ناشایستە بەخۆی دادەنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +263,18 @@ class EnglishEntrybeneath extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They thought she had married beneath her (= married a man of lower social status)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وایان دەفکری کە ھاوسەرگیری لەگەڵ پیاوێکی نزمتر لە ئاستی خۆی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They thought she had married beneath her (= married a man of lower social status)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وایان دەفکری کە ھاوسەرگیری لەگەڵ پیاوێکی نزمتر لە ئاستی خۆی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +294,18 @@ class EnglishEntrybeneath extends StatelessWidget {
 ٣. (ھاوەڵناو) لەژێر یان بەرەو ژێری شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her careful make-up hid the signs of age beneath."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەیکەپە وردەکەی نیشانەی پیری لەژێرەوە شاردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her careful make-up hid the signs of age beneath."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەیکەپە وردەکەی نیشانەی پیری لەژێرەوە شاردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -173,11 +173,18 @@ class EnglishEntrybale extends StatelessWidget {
 ١. (ناو) ڕێژەیەکی زۆر لە شتێکی سووک کە پێکەوە کەڵەکەکراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The fire destroyed 500 bales of hay."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fire destroyed 500 bales of hay."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +206,18 @@ class EnglishEntrybale extends StatelessWidget {
 ٢. (کردار) کەڵەکەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The waste paper is baled, then sent for recycling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The waste paper is baled, then sent for recycling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +239,18 @@ class EnglishEntrybale extends StatelessWidget {
 ٣. (کردار) ئازادکردنی کەسێک بە کەفالەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was yesterday baled for three weeks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was yesterday baled for three weeks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

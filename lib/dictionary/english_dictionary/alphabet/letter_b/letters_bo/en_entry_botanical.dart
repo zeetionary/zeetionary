@@ -168,12 +168,18 @@ class EnglishEntrybotanical extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ڕووەکناسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several new botanical species have been discovered in the last year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک چەشنی تازەی ڕووەک دۆزراونەتەوە لە ساڵی ڕابردوودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several new botanical species have been discovered in the last year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک چەشنی تازەی ڕووەک دۆزراونەتەوە لە ساڵی ڕابردوودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

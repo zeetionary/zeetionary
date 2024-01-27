@@ -167,12 +167,18 @@ class EnglishEntrybowtie extends StatelessWidget {
 ١. (ناو) بۆینباخێکی پیاوانە کە لە ملدا دەبەسترێت و شۆڕنابێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wore a stylish black bow tie to the gala."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆینباخێکی جوانی ڕەشی بەست بۆ میھرەجانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wore a stylish black bow tie to the gala."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆینباخێکی جوانی ڕەشی بەست بۆ میھرەجانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

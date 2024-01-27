@@ -171,11 +171,18 @@ class EnglishEntrybefitting extends StatelessWidget {
 ١. (ھاوەڵناو) گونجاو بۆ کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were greeted with befitting courtesy."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ماریفەتی گونجاو بەخێرھاتنیان کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were greeted with befitting courtesy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ماریفەتی گونجاو بەخێرھاتنیان کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybefitting extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A land area of more than 140 million people deserves a befitting transport network."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوچەیەکی ١٤٠ ملیۆن کەسی شایەنی ھێڵێکی گواستنەوەی شایستەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A land area of more than 140 million people deserves a befitting transport network."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوچەیەکی ١٤٠ ملیۆن کەسی شایەنی ھێڵێکی گواستنەوەی شایستەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntrybaron extends StatelessWidget {
 ١. (ناو) پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە. لە بەریتانیا پێیان دەوترێت لۆرد، لە وڵاتانی تر پێیان دەوترێت بارۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The young baron pledged his sword to the king and rode off to war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەگزاندە گەنجەکە وەفاداری دا بە پاشا و غاریدا بۆ جەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The young baron pledged his sword to the king and rode off to war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەگزاندە گەنجەکە وەفاداری دا بە پاشا و غاریدا بۆ جەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybaron extends StatelessWidget {
 ٢. (ناو) کەسێک کە بەشێکی زۆری پیشەسازییەکی قۆرخکردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The press baron controlled several newspapers, influencing public opinion through his editorials."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قۆرخکارەکەی میدیا چەندین ڕۆژنامەی کۆنترۆڵکردبوو، و لە ڕێگای بڵاوکردنەوەکانەوە کاریگەری لە ڕای گشتی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The press baron controlled several newspapers, influencing public opinion through his editorials."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قۆرخکارەکەی میدیا چەندین ڕۆژنامەی کۆنترۆڵکردبوو، و لە ڕێگای بڵاوکردنەوەکانەوە کاریگەری لە ڕای گشتی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybaron extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The oil barons struck a deal, dividing up the newly discovered oil fields among themselves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدەسەڵاتەکانی نەوت ڕێککەوتنێکیان کرد و کێڵگە نەوتییە تازەدۆزراوەکانیان لەنێوان خۆیان دابەشکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The oil barons struck a deal, dividing up the newly discovered oil fields among themselves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدەسەڵاتەکانی نەوت ڕێککەوتنێکیان کرد و کێڵگە نەوتییە تازەدۆزراوەکانیان لەنێوان خۆیان دابەشکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

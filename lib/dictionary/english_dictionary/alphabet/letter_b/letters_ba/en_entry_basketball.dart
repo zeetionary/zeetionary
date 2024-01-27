@@ -166,12 +166,18 @@ class EnglishEntrybasketball extends StatelessWidget {
 ١. (ناو) یاری باسکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you play any other sports besides football and basketball?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ یارییەکی دیکە دەکەیت جگە لە باسکە و تۆپێن؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you play any other sports besides football and basketball?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ یارییەکی دیکە دەکەیت جگە لە باسکە و تۆپێن؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybasketball extends StatelessWidget {
 ٢. (ناو) تۆپی یاری باسکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He walked along bouncing a basketball."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ پێشەوە دەچوو بە تەپتەپێنکردن بە تۆپێکی باسکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He walked along bouncing a basketball."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ پێشەوە دەچوو بە تەپتەپێنکردن بە تۆپێکی باسکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

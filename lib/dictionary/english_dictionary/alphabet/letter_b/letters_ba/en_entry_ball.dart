@@ -176,10 +176,17 @@ class EnglishEntryball extends StatelessWidget {
 ١. (ناو) تۆپی یاریکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He kicked the ball into the net."),
-                              const ExampleSentenceKurdish(
-                                  text: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He kicked the ball into the net."),
+                                    ExampleSentenceKurdish(
+                                        text: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +208,18 @@ class EnglishEntryball extends StatelessWidget {
 ٢. (ناو) شتێکی خڕ لە شێوەی تۆپ، یان شتێک کە تۆپەڵە بووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The little girl curled into a ball in her mother's arms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The little girl curled into a ball in her mother's arms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,10 +241,17 @@ class EnglishEntryball extends StatelessWidget {
 ٣. (ناو) لێدان یان فڕێدانی تۆپێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That's a great ball from Kane."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێدانێکی جوان بوو لەلایەن کەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "That's a great ball from Kane."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێدانێکی جوان بوو لەلایەن کەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +276,18 @@ class EnglishEntryball extends StatelessWidget {
 ٥. (ناو) ئەو بەشەی کە پەنجە گەورەکان دەگەن بە دەست یان پێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ball of the hand is the fleshy part at the base of the thumb."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ball of the hand is the fleshy part at the base of the thumb."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,10 +309,18 @@ class EnglishEntryball extends StatelessWidget {
 ٦. (ناو) گون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He noticed a lump in his left ball."),
-                              const ExampleSentenceKurdish(
-                                  text: "تێبینی گرێیەکی کرد لە گونی چەپیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He noticed a lump in his left ball."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێبینی گرێیەکی کرد لە گونی چەپیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -308,10 +342,16 @@ class EnglishEntryball extends StatelessWidget {
 ٧. (ناو) ئاھەنگێکی گەورە کە سەمای تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She met him at the ball."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ئاھەنگەکە بینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She met him at the ball."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ئاھەنگەکە بینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -333,10 +373,16 @@ class EnglishEntryball extends StatelessWidget {
 ٨. (کردار) خڕبوون لە شێوەی تۆپێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her hands balled into fists."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستەکانی خڕبوونە مشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her hands balled into fists."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستەکانی خڕبوونە مشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -162,12 +162,18 @@ class EnglishEntrybroadband extends StatelessWidget {
 ١. (ناو) بەرینباند؛ سیستەمێکی پەیوەست بوون بە ئینتەرنێتەوە کە خێرایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Internet connection via broadband offers many advantages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندی ئینتەرنێت لە ڕێگەی بەرینباندەوە سوودی زۆری ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Internet connection via broadband offers many advantages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندی ئینتەرنێت لە ڕێگەی بەرینباندەوە سوودی زۆری ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broadband" as
                               Column(
                                 children: [

@@ -169,11 +169,18 @@ class EnglishEntryblubber extends StatelessWidget {
 ١. (ناو) چەوری نەھەنگ و گیانلەبەرە دەریاییەکانی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Whale blubber was an important part of their diet."),
-                              const ExampleSentenceKurdish(
-                                  text: "چەوری نەھەنگ بەشێک بوو لە خواردنیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Whale blubber was an important part of their diet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەوری نەھەنگ بەشێک بوو لە خواردنیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntryblubber extends StatelessWidget {
                               text: "٢. (کردار) گریان و درووستکردنی ھەرا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There he sat, blubbering like a baby."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەوێ دانیشت و نسکە نسکی دەھات وەک منداڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There he sat, blubbering like a baby."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەوێ دانیشت و نسکە نسکی دەھات وەک منداڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

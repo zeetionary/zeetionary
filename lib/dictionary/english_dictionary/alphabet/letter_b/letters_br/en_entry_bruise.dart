@@ -169,10 +169,17 @@ class EnglishEntrybruise extends StatelessWidget {
 ١. (ناو) نیشانەیەکی شین، قاوەیی، یان مۆر لەسەر پێست لە دوای کەوتن یان لێدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His legs were covered in bruises."),
-                              const ExampleSentenceKurdish(
-                                  text: "لاقی شینبووبووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His legs were covered in bruises."),
+                                    ExampleSentenceKurdish(
+                                        text: "لاقی شینبووبووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bruise" as
                               Column(
                                 children: [
@@ -189,12 +196,18 @@ class EnglishEntrybruise extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She suffered only minor cuts and bruises."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا تووشی برین و کەوەبوونەوەی بچووک بوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She suffered only minor cuts and bruises."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا تووشی برین و کەوەبوونەوەی بچووک بوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +227,18 @@ class EnglishEntrybruise extends StatelessWidget {
                                   "٢. (ناو) بەشێک لەسەر میوە یان سەوزە کە خراپ بووە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The apple had a small bruise, but it was still perfectly edible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام ھێشتا بە تەواوی خواردەنی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The apple had a small bruise, but it was still perfectly edible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێوەکە لەکەیەکی بچووکی پێوەبوو، بەڵام ھێشتا بە تەواوی خواردەنی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +258,18 @@ class EnglishEntrybruise extends StatelessWidget {
                                   "٣. (کردار) شینبوونەوە یان شینکردنەوەی کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had slipped and badly bruised her face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە خراپی کەوتبوو و ڕووخساری شینبووبوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had slipped and badly bruised her face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە خراپی کەوتبوو و ڕووخساری شینبووبوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,10 +286,17 @@ class EnglishEntrybruise extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Strawberries bruise easily."),
-                              const ExampleSentenceKurdish(
-                                  text: "تووت فەرەنگی زوو ڕەنگی دەگۆڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Strawberries bruise easily."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووت فەرەنگی زوو ڕەنگی دەگۆڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,11 +316,18 @@ class EnglishEntrybruise extends StatelessWidget {
                                   "٤. (کردار) کاریگەری درووستکردن لەسەر کەسێک و وایان لێ بکەیت خەمبار بێ‌ورە بن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had been badly bruised by the defeat."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە خراپی بێ‌ورە بووبوون بە شکستەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had been badly bruised by the defeat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە خراپی بێ‌ورە بووبوون بە شکستەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

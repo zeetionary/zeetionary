@@ -171,12 +171,18 @@ class EnglishEntrybone extends StatelessWidget {
 ١. (ناو) ئێسک، ھەریەک لە بەشە سەختەکانی جەستەی مرۆڤ کە ئێسکەپەیکەری مرۆڤێک یان ئاژەڵێک پێکدێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He survived the accident with no broken bones."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی ھیچ ئێسک شکاوییەکی ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He survived the accident with no broken bones."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕووداوەکە ڕزگاری بوو بەبێ ئەوەی ھیچ ئێسک شکاوییەکی ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,10 +199,17 @@ class EnglishEntrybone extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This fish has a lot of bones in it."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ماسییە زۆر ئێسکی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This fish has a lot of bones in it."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم ماسییە زۆر ئێسکی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +226,18 @@ class EnglishEntrybone extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The child was so thin that you could see her bones."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە بەشێوەیەک زۆر باریک بوو کە دەتتوانی ئێسکەکانی ببینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The child was so thin that you could see her bones."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە بەشێوەیەک زۆر باریک بوو کە دەتتوانی ئێسکەکانی ببینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,10 +257,17 @@ class EnglishEntrybone extends StatelessWidget {
                                   "٢. (کردار) لێکردنەوەی ئێسک لە مریشک و ماسی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can you bone a chicken?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەتوانیت ئێسکی مریشک لێ بکەیتەوە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Can you bone a chicken?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتوانیت ئێسکی مریشک لێ بکەیتەوە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +286,18 @@ class EnglishEntrybone extends StatelessWidget {
                               text: "٣. (کردار) سێکسکردن لەگەڵ کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's been trying to bone her for weeks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's been trying to bone her for weeks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەندین ھەفتەیە ھەوڵ دەدات سێکسی لەگەڵ بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

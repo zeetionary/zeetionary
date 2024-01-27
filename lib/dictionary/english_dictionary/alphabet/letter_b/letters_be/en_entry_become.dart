@@ -174,11 +174,17 @@ class EnglishEntrybecome extends StatelessWidget {
 ١. (کردار) بوون بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It soon became apparent that no one was going to come."),
-                              const ExampleSentenceKurdish(
-                                  text: "زوو ڕوونبوویەوە کە کەس نایەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It soon became apparent that no one was going to come."),
+                                    ExampleSentenceKurdish(
+                                        text: "زوو ڕوونبوویەوە کە کەس نایەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybecome extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When did you first become aware of the problem?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When did you first become aware of the problem?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەی بۆ یەکەمجار ئاگاداری کێشەکە بوویت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +231,16 @@ class EnglishEntrybecome extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She became queen in 1952."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ساڵی ١٩٥٢ بوو بە شاژن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She became queen in 1952."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ساڵی ١٩٥٢ بوو بە شاژن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,10 +258,17 @@ class EnglishEntrybecome extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His job has become his whole life."),
-                              const ExampleSentenceKurdish(
-                                  text: "کارەکەی بوو بە تەواوی ژیانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His job has become his whole life."),
+                                    ExampleSentenceKurdish(
+                                        text: "کارەکەی بوو بە تەواوی ژیانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,10 +288,17 @@ class EnglishEntrybecome extends StatelessWidget {
 ٢. (کردار) گونجاو بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Such behaviour did not become her."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەفتاری وا لەو نەدەوەشاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Such behaviour did not become her."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕەفتاری وا لەو نەدەوەشاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,10 +318,16 @@ class EnglishEntrybecome extends StatelessWidget {
 ٣. (کردار) جوان دەرکەوتن لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Short hair really becomes you."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژی کورتت لێ دێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Short hair really becomes you."),
+                                    ExampleSentenceKurdish(
+                                        text: "قژی کورتت لێ دێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

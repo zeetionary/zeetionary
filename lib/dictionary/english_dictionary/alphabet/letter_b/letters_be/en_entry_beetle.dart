@@ -171,12 +171,18 @@ class EnglishEntrybeetle extends StatelessWidget {
 ١. (ناو) مێروویەکە، کە زۆرجار گەورە و ڕەشە، و پارێزەرێکی ڕەق لەسەر پشتییەتی کە باڵەکانی دادەپۆشێت."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children were fascinated by the variety of beetles they found in the garden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان شاگەشکەبووبوون بە ڕێژەی فراوانی قالۆنچە کە دۆزییانەوە لە باخچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children were fascinated by the variety of beetles they found in the garden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان شاگەشکەبووبوون بە ڕێژەی فراوانی قالۆنچە کە دۆزییانەوە لە باخچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybeetle extends StatelessWidget {
 ٢. (کردار) چوون بۆ شوێنێک بە خێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I last saw him beetling off down the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆتا جار بینیم بە ڕێگاکەدا دەچوو بەخێرایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I last saw him beetling off down the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆتا جار بینیم بە ڕێگاکەدا دەچوو بەخێرایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

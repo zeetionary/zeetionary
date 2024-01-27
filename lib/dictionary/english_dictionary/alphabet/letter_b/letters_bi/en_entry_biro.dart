@@ -168,12 +168,18 @@ class EnglishEntrybiro extends StatelessWidget {
 ١. (ناو) ناوی براندێکە کە پێنووسێکی پلاستیکی درووست دەکات کە تۆپێکی ئاسنینی بچووک بە نوکەکەیەوەیە کە مڕەکەب دەڕێژێت؛ وشەکە بۆ ناوی پێنووسێکی بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I always keep a Biro handy for taking notes during lectures."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە پێنووسێکی بایرۆ لە نزیک خۆم ڕادەگرم بۆ نووسینی تێبینی لە وانەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I always keep a Biro handy for taking notes during lectures."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە پێنووسێکی بایرۆ لە نزیک خۆم ڕادەگرم بۆ نووسینی تێبینی لە وانەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntrybloodpressure extends StatelessWidget {
 ١. (ناو) پەستانی خوێن کە بە جەستەدا دەجوڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The nurse will take your blood pressure in a moment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرستارەکە کەمێکی تر پەستانی خوێنی دەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The nurse will take your blood pressure in a moment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرستارەکە کەمێکی تر پەستانی خوێنی دەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

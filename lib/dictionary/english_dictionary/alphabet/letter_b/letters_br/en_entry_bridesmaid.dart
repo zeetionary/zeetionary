@@ -165,12 +165,18 @@ class EnglishEntrybridesmaid extends StatelessWidget {
 ١. (ھاوەڵناو) کچێک یان ژنێکی گەنج کە لەگەڵ بووکدا دەبێت پێش و لەکاتی ئاھەنگی ھاوسەرگیریدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Tim asked her sister to be (a) bridesmaid."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tim asked her sister to be (a) bridesmaid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیم داوای لە خوشکەکەی ببێت بە ئاوەڵ‌بووک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bridesmaid" as
                               Column(
                                 children: [
@@ -187,12 +193,18 @@ class EnglishEntrybridesmaid extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her sister asked her to be chief bridesmaid."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوشکەکەی داوای لێی‌کرد ببێت بە ئاوەڵ‌بووکی سەرەکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her sister asked her to be chief bridesmaid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوشکەکەی داوای لێی‌کرد ببێت بە ئاوەڵ‌بووکی سەرەکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

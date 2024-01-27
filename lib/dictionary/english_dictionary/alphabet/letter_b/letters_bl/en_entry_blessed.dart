@@ -170,12 +170,18 @@ class EnglishEntryblessed extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بە پیرۆز سەیر دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The old relic was considered blessed by the entire community."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێنەوارە کۆنەکە بە پیرۆز دەبینرا لەلایەن تەواوی دانیشتووانەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The old relic was considered blessed by the entire community."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێنەوارە کۆنەکە بە پیرۆز دەبینرا لەلایەن تەواوی دانیشتووانەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,10 +201,16 @@ class EnglishEntryblessed extends StatelessWidget {
                                   "٢. (ھاوەڵناو) (لە زمانی ئایینیدا) بە بەخت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blessed are the poor."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەبەخت ھەژارانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Blessed are the poor."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەبەخت ھەژارانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +230,18 @@ class EnglishEntryblessed extends StatelessWidget {
                                   "٣. (ھاوەڵناو) شتێک کە ھەستی ئارامی یان بێ لە خەم و ئازارت پێدەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Finding a lost rabbit after days of searching was a truly blessed moment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆزینەوەی کەروێشکە ونبووەکەی لە دوای چەندین ڕۆژ لە گەڕان ساتێکی حەسێنەرەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Finding a lost rabbit after days of searching was a truly blessed moment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆزینەوەی کەروێشکە ونبووەکەی لە دوای چەندین ڕۆژ لە گەڕان ساتێکی حەسێنەرەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +260,18 @@ class EnglishEntryblessed extends StatelessWidget {
                               text: "٤. (ھاوەڵناو) بۆ پیشاندانی کەمێک تووڕەیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can't see a blessed thing without my glasses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانم یەک تۆزیش شت ببینم بەبێ چاولکەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can't see a blessed thing without my glasses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانم یەک تۆزیش شت ببینم بەبێ چاولکەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

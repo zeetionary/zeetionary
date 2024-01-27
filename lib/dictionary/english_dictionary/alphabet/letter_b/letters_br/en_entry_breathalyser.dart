@@ -162,12 +162,18 @@ class EnglishEntrybreathalyser extends StatelessWidget {
 ١. (ناو) ھەناسەپێو، ئەڵکۆڵ‌پێو؛ دەزگایەکی پۆلیس کە ڕێژەی کحول لە ھەناسەی شۆفێرێکدا دەپێوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police officer asked the driver to blow into the breathalyser."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەری پۆلیسەکە داوای لە شۆفێرەکە کرد فوو بکات بە ھەناسەپێوەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police officer asked the driver to blow into the breathalyser."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەفسەری پۆلیسەکە داوای لە شۆفێرەکە کرد فوو بکات بە ھەناسەپێوەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breathalyser" as
                               Column(
                                 children: [

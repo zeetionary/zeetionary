@@ -164,12 +164,18 @@ class EnglishEntrybreakneck extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر خێرا و مەترسیدار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We drove to the hospital at breakneck speed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەخێرایی مەترسیدار چووین بۆ نەخۆشخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We drove to the hospital at breakneck speed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخێرایی مەترسیدار چووین بۆ نەخۆشخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

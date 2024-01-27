@@ -164,11 +164,17 @@ class EnglishEntrybaste extends StatelessWidget {
 ١. (کردار) ڕژاندنی شلە بەسەر گۆشتدا لە کاتی ئامادەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Baste the turkey at regular intervals."),
-                              const ExampleSentenceKurdish(
-                                  text: "جارناجار قەلەکە خۆشبکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Baste the turkey at regular intervals."),
+                                    ExampleSentenceKurdish(
+                                        text: "جارناجار قەلەکە خۆشبکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybaste extends StatelessWidget {
 ٢. (کردار) تەقەڵدانی پارچە بە شل و درێژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The seamstress basted the fabric together before sewing it permanently."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرگدوورەکە پارچەکەی بە شلی دووریەوە پێش ئەوەی بە تەواوی تەقەڵیان بدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The seamstress basted the fabric together before sewing it permanently."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرگدوورەکە پارچەکەی بە شلی دووریەوە پێش ئەوەی بە تەواوی تەقەڵیان بدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

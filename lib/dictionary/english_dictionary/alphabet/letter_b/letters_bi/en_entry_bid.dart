@@ -249,12 +249,18 @@ class EnglishEntrybid extends StatelessWidget {
 ١. (ناو) پێشنیازێک لەلایەن کۆمپانیایەکەوە بۆ پێدانی بڕێکی دیریکراوی پارە بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At the auction (= a public sale where things are sold to the person who offers the most), the highest bid for the picture was £200."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At the auction (= a public sale where things are sold to the person who offers the most), the highest bid for the picture was £200."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زیادکردنی ئاشکرادا زۆرترین بڕی پێشنیازکراو بۆ وێنەکە ٢٠ پاوەند بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -272,10 +278,16 @@ class EnglishEntrybid extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Any more bids?"),
-                              const ExampleSentenceKurdish(
-                                  text: "پێشنیازی زیاتر؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Any more bids?"),
+                                    ExampleSentenceKurdish(
+                                        text: "پێشنیازی زیاتر؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -295,12 +307,18 @@ class EnglishEntrybid extends StatelessWidget {
 ٢. (ناو) ئۆفەری کردنی کارێک یان پێشکەشکردنی خزمەتگوزارییەک بە نرخێکی دیاریکراو وەک ڕکابەری لەگەڵ کۆمپانیاکانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company submitted a bid for the contract to clean the hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company submitted a bid for the contract to clean the hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە پێشنیازێکی پێشکەشکرد بۆ گرێبەستی پاککردنەوەی نەخۆشخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,12 +338,18 @@ class EnglishEntrybid extends StatelessWidget {
 ٣. (ناو) ھەوڵێک بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He attacked his guards in a desperate bid for freedom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیرشی کردە سەر پاسەوانەکانی لە ھەوڵی بێھوودەی بۆ ئازادی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He attacked his guards in a desperate bid for freedom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیرشی کردە سەر پاسەوانەکانی لە ھەوڵی بێھوودەی بۆ ئازادی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -345,11 +369,17 @@ class EnglishEntrybid extends StatelessWidget {
 ٤. (کردار) پێشنیازکردنی بڕێک پارە بۆ شتێک لە زیادکردنی ئاشکرادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I bid £2 000 for the painting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I bid £2 000 for the painting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشنیازی ٢٠٠٠ پاوەندیم بۆ وێنەکە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -369,12 +399,18 @@ class EnglishEntrybid extends StatelessWidget {
 ٥. (کردار) پێشکەشکردنی ئۆفەرێک بۆ کردنی کارێک یان پێشکەشکردنی خزمەتگوزارییەک بە نرخێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Which other cities are bidding to host the 2028 Olympics?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چی شارێکی تر ھەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Which other cities are bidding to host the 2028 Olympics?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چی شارێکی تر ھەوڵ دەدات بۆ میوانداری ئۆڵۆمپیادی ٢٠٢٨؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -394,12 +430,18 @@ class EnglishEntrybid extends StatelessWidget {
 ٦. (کردار) ھەوڵی کردن، وەرگرتن، یان بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team is bidding to retain its place in the league."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە ھەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team is bidding to retain its place in the league."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە ھەوڵ دەدەن شوێنیان لە خولەکەدا بپارێزن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -419,12 +461,18 @@ class EnglishEntrybid extends StatelessWidget {
 ٧. (کردار) وتنی 'بەیانیت باش'، ھتد بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I bade farewell to all the friends I had made in Paris."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماڵئاواییم لە ھەموو ئەو ھاوڕێیانە کرد کە لە پاریس ناسیبوومن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I bade farewell to all the friends I had made in Paris."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماڵئاواییم لە ھەموو ئەو ھاوڕێیانە کرد کە لە پاریس ناسیبوومن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -442,10 +490,16 @@ class EnglishEntrybid extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bade her good day and left."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆژباشی بۆ خواست و ڕۆشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He bade her good day and left."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕۆژباشی بۆ خواست و ڕۆشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -465,10 +519,16 @@ class EnglishEntrybid extends StatelessWidget {
 ٨. (کردار) بە کەسێک وتن کە شتێک بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bade me come closer."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێی وتم نزیک ببمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He bade me come closer."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێی وتم نزیک ببمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

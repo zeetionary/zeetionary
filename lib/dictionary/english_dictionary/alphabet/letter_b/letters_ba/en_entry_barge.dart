@@ -165,12 +165,18 @@ class EnglishEntrybarge extends StatelessWidget {
 ١. (ناو) بەلەمێکی گەورە کە ڕووەکەی فلاتە و بەکاردێت بۆ ھەڵگرتنی کەلوپەل یان گەشتکردن لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fuel was transported by barge."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوتەمەنییەکە بە بەلەمی بارھەڵگر گواسترایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fuel was transported by barge."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوتەمەنییەکە بە بەلەمی بارھەڵگر گواسترایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +196,18 @@ class EnglishEntrybarge extends StatelessWidget {
 ٢. (کردار) چوونە شوێنێک بەتێپەڕبوون بەناو خەڵکی تردا بەزۆر و بەشێوەیەکی ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He barged past me to get to the bar."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He barged past me to get to the bar."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزۆر بەلامدا تێپەڕی بۆ ئەوەی بچێتە مەیخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,11 +225,18 @@ class EnglishEntrybarge extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They barged their way through the crowds."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "بەزۆر بەناو خەڵکەکەدا تێپەڕبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They barged their way through the crowds."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزۆر بەناو خەڵکەکەدا تێپەڕبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

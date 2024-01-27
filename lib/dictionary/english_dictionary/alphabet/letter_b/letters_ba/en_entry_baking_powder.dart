@@ -172,12 +172,18 @@ class EnglishEntrybakingpowder extends StatelessWidget {
 ١. (ناو) تێکەڵەیەکی ژمارەیەک ھاڕاوە کە بەکاردێن بۆ ئەوەی وابکات کێک بەرزببێتەوە و بدرەوشێتەوە لە کاتی برژاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Add one teaspoon of baking powder to the flour and whisk together."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Add one teaspoon of baking powder to the flour and whisk together."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک کەوچک چایی دەرمانی کێک بکە ئاردەکەوە و تێکەڵیان بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

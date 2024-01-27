@@ -174,11 +174,17 @@ class EnglishEntrybanger extends StatelessWidget {
 ١. (ناو) تێکەڵەیەک لە گۆشت و چەوری و نان کە دەکرێت بە پارچەی بچووک و درووست دەکرێت لە شێوەی لوولەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I love having bangers and mash for dinner."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزم لە سۆسجە بۆ نانی ئێوارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I love having bangers and mash for dinner."),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزم لە سۆسجە بۆ نانی ئێوارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybanger extends StatelessWidget {
 ٢. (ناو) ئۆتۆمبێلێکی زۆر کۆن کە لە دۆخێکی خراپ و شڕە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You’re not still driving that old banger, are you?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You’re not still driving that old banger, are you?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntrybanger extends StatelessWidget {
 ٣. (ناو) یاری ئاگرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some idiot decided to let off a banger right next to my ear."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبەنگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some idiot decided to let off a banger right next to my ear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبەنگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,10 +272,18 @@ class EnglishEntrybanger extends StatelessWidget {
 ٤. (ناو) گۆرانییەکی زۆر خۆش، بەتایبەتی یەکێک کە خەڵکی دەتوانن سەمای لەگەڵ بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The new album is full of bangers."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەلبوومە تازەکە ھەموو گۆرانی سەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new album is full of bangers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەلبوومە تازەکە ھەموو گۆرانی سەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -363,10 +363,16 @@ class EnglishEntrybroad extends StatelessWidget {
 ١. (ھاوەڵناو) فراوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's got broad shoulders."),
-                              const ExampleSentenceKurdish(
-                                  text: "شانی پانی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's got broad shoulders."),
+                                    ExampleSentenceKurdish(
+                                        text: "شانی پانی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broad" as
                               Column(
                                 children: [
@@ -383,10 +389,18 @@ class EnglishEntrybroad extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He is tall, broad and muscular."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرز و پان و پۆڕ و بە ماسولکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is tall, broad and muscular."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرز و پان و پۆڕ و بە ماسولکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,7 +423,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He turned to me with a broad smile."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە بزەیەکی فراوانەوە ڕووی لێم کرد."),
                                       const CustomSizedBoxForTTS(),
@@ -433,7 +447,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We drove down a broad avenue lined with trees."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە ڕێگایەکی فراواندا چووین کە بە ڕیزە دار دەوردرابوو."),
                                       const CustomSizedBoxForTTS(),
@@ -461,12 +475,18 @@ class EnglishEntrybroad extends StatelessWidget {
                                   "٢. (ھاوەڵناو) لە دوای پێوانەی دووری بەکاربێت بۆ پیشاندانی فراوانی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The wardrobe stands at one metre broad and two metres high."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆڵابەکە یەک مەتر پانە و دوو مەتر بەرزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The wardrobe stands at one metre broad and two metres high."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆڵابەکە یەک مەتر پانە و دوو مەتر بەرزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -486,12 +506,18 @@ class EnglishEntrybroad extends StatelessWidget {
                                   "٣. (ھاوەڵناو) لە خۆگرتنی ژمارەیەکی زۆر لە خەڵکی و شت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The course caters for a broad spectrum of interests."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆرسەکە گونجاوە ژمارەیەکی زۆر لە حەز و ئارەزوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The course caters for a broad spectrum of interests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆرسەکە گونجاوە ژمارەیەکی زۆر لە حەز و ئارەزوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -508,12 +534,18 @@ class EnglishEntrybroad extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is broad support for the government's policies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشتیوانی فراوان ھەیە بۆ سیاسەتەکانی حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is broad support for the government's policies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشتیوانی فراوان ھەیە بۆ سیاسەتەکانی حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -536,7 +568,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She took a broad view of the duties of being a teacher (= she believed her duties included a wide range of things)."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ڕوانگەیەکی فراوانی ھەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە)."),
                                       const CustomSizedBoxForTTS(),
@@ -560,7 +592,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The promotion helped the company reach a much broader audience."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە ھاوڵاتی زیاتر."),
                                       const CustomSizedBoxForTTS(),
@@ -588,12 +620,18 @@ class EnglishEntrybroad extends StatelessWidget {
                                   "٤. (ھاوەڵناو) شتێک کە بە گشتییە و ناچێتە ناو وردەکارییەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The negotiators were in broad agreement on the main issues."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دراوسێیەکان لە ڕێککەوتنێکی گشتیدا بوون لەسەر کێشە سەرەکییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The negotiators were in broad agreement on the main issues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دراوسێیەکان لە ڕێککەوتنێکی گشتیدا بوون لەسەر کێشە سەرەکییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -610,12 +648,18 @@ class EnglishEntrybroad extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In broad terms, the paper argues that each country should develop its own policy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی گشتی، توێژینەوەکە پێی‌وایە ھەر وڵاتێک دەبێت سیاسەتی خۆی ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In broad terms, the paper argues that each country should develop its own policy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی گشتی، توێژینەوەکە پێی‌وایە ھەر وڵاتێک دەبێت سیاسەتی خۆی ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -634,12 +678,18 @@ class EnglishEntrybroad extends StatelessWidget {
                               text: "٥. (ھاوەڵناو) ناوچەیەکی فراوان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The broad plains of the American West are hard to cross."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕینی دەشتە فراوانەکانی ڕۆژئاوای ئەمریکا گرانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The broad plains of the American West are hard to cross."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕینی دەشتە فراوانەکانی ڕۆژئاوای ئەمریکا گرانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -659,12 +709,18 @@ class EnglishEntrybroad extends StatelessWidget {
                                   "٦. (ھاوەڵناو) شێوازێکی قسەکردن کە ھێندە ڕوونە دەتوانی شوێنی ژیانی کەسەکەی پێ دیاری بکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He spoke with a broad Australian accent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئەکسێنتێکی خەستی ئوسترالی قسەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spoke with a broad Australian accent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئەکسێنتێکی خەستی ئوسترالی قسەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -684,12 +740,18 @@ class EnglishEntrybroad extends StatelessWidget {
                                   "٧. (ھاوەڵناو) ئاماژەیەکی کە ڕوونە و ئاسانە بۆ تێگەشتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She avoided details but gave broad hints of what were the plans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی بە دوورگرت لە وردەکارییەکان بەڵام ئاماژەی ڕوونی دا سەبارەت بەوەی پلانەکان چی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She avoided details but gave broad hints of what were the plans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی بە دوورگرت لە وردەکارییەکان بەڵام ئاماژەی ڕوونی دا سەبارەت بەوەی پلانەکان چی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

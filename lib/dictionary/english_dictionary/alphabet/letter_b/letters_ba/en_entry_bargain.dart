@@ -168,12 +168,18 @@ class EnglishEntrybargain extends StatelessWidget {
 ١. (ناو) شتێک کە دەکڕدرێت ھەرزانتر لە نرخی ئاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I picked up a few good bargains in the sale."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I picked up a few good bargains in the sale."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک شتی ھەرزانم کڕی لە ھەڕاجییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybargain extends StatelessWidget {
 ٢. (ناو) ڕێککەوتنی نێوان دوو کەس یان زیاتر بۆ کردنی کارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He and his partner had made a bargain to tell each other everything."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو و ھاوژینەکەی ڕێککەوتنێکیان کردبوو کە ھەموو شتێک بە یەکدی بڵێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He and his partner had made a bargain to tell each other everything."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو و ھاوژینەکەی ڕێککەوتنێکیان کردبوو کە ھەموو شتێک بە یەکدی بڵێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +228,18 @@ class EnglishEntrybargain extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Finally the two sides struck a bargain (= reached an agreement)."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "لە کۆتاییدا ھەردوو لایەن ڕێککەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Finally the two sides struck a bargain (= reached an agreement)."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتاییدا ھەردوو لایەن ڕێککەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybargain extends StatelessWidget {
 ٣. (کردار) مامەڵەکردن لەگەڵ کەسێک بۆ گەشتنە ڕێككەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the market dealers were bargaining with growers over the price of coffee."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بازاڕەکە فرۆشیاران لەگەڵ بەرھەمھێنەران مامەڵەیان بوو لەسەر نرخی قاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the market dealers were bargaining with growers over the price of coffee."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بازاڕەکە فرۆشیاران لەگەڵ بەرھەمھێنەران مامەڵەیان بوو لەسەر نرخی قاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

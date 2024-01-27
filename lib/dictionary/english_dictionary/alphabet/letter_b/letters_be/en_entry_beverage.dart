@@ -168,12 +168,18 @@ class EnglishEntrybeverage extends StatelessWidget {
 ١. (ناو) ھەر خواردنەوەیەک جگە لە ئاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Studies on the consumption of various alcoholic beverages have been conducted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تویژینەوە لەسەر خواردنەوەی ژمارەیەک لە خواردنەوەی کحوولی ئەنجام دراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Studies on the consumption of various alcoholic beverages have been conducted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تویژینەوە لەسەر خواردنەوەی ژمارەیەک لە خواردنەوەی کحوولی ئەنجام دراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

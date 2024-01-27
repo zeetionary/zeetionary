@@ -168,12 +168,18 @@ class EnglishEntrybawdy extends StatelessWidget {
 ١. (ھاوەڵناو) مامەڵەکردن لەگەڵ سێکس بەشێوەیەک کە بێ‌ڕێزانە و پێکەنیناوییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bawdy jokes of the comedian made the audience blush."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوکتە ھەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bawdy jokes of the comedian made the audience blush."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نوکتە ھەرزەکانی ئەکتەرە کۆمیدییەکە گوێگرانی خستە پێکەنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

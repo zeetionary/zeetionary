@@ -168,10 +168,16 @@ class EnglishEntryboyfriend extends StatelessWidget {
 ١. (ناو) پیاوێک یان کوڕێک کە کەسێک پەیوەندی ڕۆمانسی یان سێکسی لەگەڵی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's got a new boyfriend."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆستێکی کوڕی تازەی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's got a new boyfriend."),
+                                    ExampleSentenceKurdish(
+                                        text: "دۆستێکی کوڕی تازەی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntryboyfriend extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My boyfriend at the time, who is now my ex-boyfriend, got me the job here."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆستە کوڕەکەی ئەو کاتەم، کە ئێستا دۆستی ڕابردوومە، کارەکەی لێرە بۆ دۆزیمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My boyfriend at the time, who is now my ex-boyfriend, got me the job here."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆستە کوڕەکەی ئەو کاتەم، کە ئێستا دۆستی ڕابردوومە، کارەکەی لێرە بۆ دۆزیمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +222,18 @@ class EnglishEntryboyfriend extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's not my boyfriend - we're just good friends!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆستی کوڕم نییە، تەنھا ھاوڕێی نزیکین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's not my boyfriend - we're just good friends!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆستی کوڕم نییە، تەنھا ھاوڕێی نزیکین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +250,18 @@ class EnglishEntryboyfriend extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was living with my boyfriend for three years and then he dumped me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ سێ ساڵ لەگەڵ خۆشەویستە کوڕەکەم بووم و دواتر وازی‌لێ‌ھێنام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was living with my boyfriend for three years and then he dumped me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ سێ ساڵ لەگەڵ خۆشەویستە کوڕەکەم بووم و دواتر وازی‌لێ‌ھێنام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

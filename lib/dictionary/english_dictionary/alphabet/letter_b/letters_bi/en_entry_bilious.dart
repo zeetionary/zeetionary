@@ -172,12 +172,18 @@ class EnglishEntrybilious extends StatelessWidget {
 ١. (ھاوەڵناو) ھەست بکەیت کە دەڕشێیتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt a little bilious after last night’s dinner."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک ھەستم بە ڕشانەوە دەکرد لە دوای نانی ئێوارەی دوێنێ شەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt a little bilious after last night’s dinner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک ھەستم بە ڕشانەوە دەکرد لە دوای نانی ئێوارەی دوێنێ شەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +203,18 @@ class EnglishEntrybilious extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His shirt was a bilious shade of green."),
-                              const ExampleSentenceKurdish(
-                                  text: "جلەکەی ڕەنگێکی سەوزی ناشرین بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His shirt was a bilious shade of green."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکەی ڕەنگێکی سەوزی ناشرین بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,11 +234,17 @@ class EnglishEntrybilious extends StatelessWidget {
 ٣. (ھاوەڵناو) """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He woke up feeling bilious."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە خەو ھەستا و ھەستی بە تووڕەیی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He woke up feeling bilious."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە خەو ھەستا و ھەستی بە تووڕەیی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

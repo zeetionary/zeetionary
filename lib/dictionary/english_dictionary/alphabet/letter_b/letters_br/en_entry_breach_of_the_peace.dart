@@ -167,12 +167,18 @@ class EnglishEntrybreachofthepeace extends StatelessWidget {
 ١. (ناو) تێکدان یان شێواندنی ئاسایشی گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This, she said, constituted a serious breach of the peace."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوتی ئەمە یەکسانە بە شێواندنێکی خراپی ئاسایشی گشتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This, she said, constituted a serious breach of the peace."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوتی ئەمە یەکسانە بە شێواندنێکی خراپی ئاسایشی گشتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybreachofthepeace extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was arrested to prevent a further breach of the peace."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستگیرکرا بۆ ڕێگری زیاتر لە شێواندنی ئاسایشی گشتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was arrested to prevent a further breach of the peace."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکرا بۆ ڕێگری زیاتر لە شێواندنی ئاسایشی گشتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

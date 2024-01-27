@@ -167,12 +167,18 @@ class EnglishEntrybarrage extends StatelessWidget {
 ١. (ناو) ڕێژەیەکی زۆر لە ھیرشی بە ئاراستەیەکدا، بەتایبەتی بۆ پاراستنی ئەو سەربازانەی کە ھێرش دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Troops unleashed a barrage of grenades."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان ھاویشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Troops unleashed a barrage of grenades."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان ڕێژەیەکی زۆر نارنجۆکیان ھاویشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybarrage extends StatelessWidget {
 ٢. (ناو) ڕێژەیەکی زۆر لە شتێک، بۆ نموونە پرسیار و ڕەخنە، ڕووبەڕووی کەسێک یەک‌ لە دوای یەک و بەخێرایی، زۆرجار بەشێوەیەکی توند"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president is facing a barrage of criticism over his handling of the crisis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەھۆی مامەڵەکردنی لەگەڵ قەیرانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president is facing a barrage of criticism over his handling of the crisis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک ڕووبەڕووی ڕەخنەباران بووە بەھۆی مامەڵەکردنی لەگەڵ قەیرانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,11 +229,18 @@ class EnglishEntrybarrage extends StatelessWidget {
 ٣. (ناو) دیوارێک کە لەسەر ڕووبارێک درووستدەکرێت بۆ کۆگاکردنی ئاو، ڕێگری لە لافاو، ھتد."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They built a barrage across the bay."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەنباراوێکیان بەسەر کەنداوەکەدا درووستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They built a barrage across the bay."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەنباراوێکیان بەسەر کەنداوەکەدا درووستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

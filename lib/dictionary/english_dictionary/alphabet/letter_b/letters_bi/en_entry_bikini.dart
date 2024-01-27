@@ -168,12 +168,18 @@ class EnglishEntrybikini extends StatelessWidget {
 ١. (ناو) جلێک کە دوو بەشی بچووکە و بۆ مەلەکردن و ڕاکشان لەپێش خۆردا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The store had a wide selection of bikinis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشگاکە ڕێژەیەکی ھەمەجۆری جلەمەلێی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The store had a wide selection of bikinis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشگاکە ڕێژەیەکی ھەمەجۆری جلەمەلێی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,10 +167,17 @@ class EnglishEntrybeseech extends StatelessWidget {
 ١. (کردار) پاڕانەوە لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let him go, I beseech you!"),
-                              const ExampleSentenceKurdish(
-                                  text: "وازی لێ بێنە بڕوا، لێت دەپاڕێمەوە!."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let him go, I beseech you!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وازی لێ بێنە بڕوا، لێت دەپاڕێمەوە!."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

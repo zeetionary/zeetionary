@@ -167,12 +167,18 @@ class EnglishEntrybreakup extends StatelessWidget {
 ١. (ناو) کۆتایی ھاتنی پەیوەندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Family break-up increases the risk of childhood depression."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "‌ەڵوەشانەوەی خێزان تووشبوون بە خەمۆکی منداڵی زیاد دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Family break-up increases the risk of childhood depression."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "‌ەڵوەشانەوەی خێزان تووشبوون بە خەمۆکی منداڵی زیاد دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybreakup extends StatelessWidget {
                                   "٢. (ناو) دابەشبوونی دامەزراوەیەک یان وڵاتێکی گەورە بۆ ھی بچووکتر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The break-up of the pop group came as no surprise."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دابەشبوونی گرووپە پۆپەکە جێگەی سەرسامی نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The break-up of the pop group came as no surprise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دابەشبوونی گرووپە پۆپەکە جێگەی سەرسامی نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -365,10 +365,17 @@ class EnglishEntrybrain extends StatelessWidget {
 ١. (ناو) مێشکی مرۆڤ و ئاژەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The human brain is a complex organ."),
-                              const ExampleSentenceKurdish(
-                                  text: "مێشکی مرۆڤ ئەندامێکی ئاڵۆزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The human brain is a complex organ."),
+                                    ExampleSentenceKurdish(
+                                        text: "مێشکی مرۆڤ ئەندامێکی ئاڵۆزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -385,12 +392,18 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My tired brain couldn't cope with such a complex problem."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێشکە ماندووەکەم نەیدەتوانی مامەڵە لەگەڵ کێشەیەکی وەھا ئاڵۆز بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My tired brain couldn't cope with such a complex problem."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێشکە ماندووەکەم نەیدەتوانی مامەڵە لەگەڵ کێشەیەکی وەھا ئاڵۆز بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -407,11 +420,18 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was found to have sustained a brain injury."),
-                              const ExampleSentenceKurdish(
-                                  text: "زانرا کە مێشکی تووشی گورز بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was found to have sustained a brain injury."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانرا کە مێشکی تووشی گورز بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -434,7 +454,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Sometimes the doctor will also do a brain scan."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەندێکجار دکتۆرەکە سکانێکی مێشک دەکات."),
                                       const CustomSizedBoxForTTS(),
@@ -458,7 +478,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He was found to have a blood clot on his brain."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "زانرا کە کڵۆیەک خوێن لە مێشکیدا ھەیە."),
                                       const CustomSizedBoxForTTS(),
@@ -481,7 +501,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "She died of a brain tumour."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "بە گرێی مێشک مرد."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -504,7 +524,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She is Britain's youngest female brain surgeon."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەو گەنجترین نەشتەرگەری مێشکە لە بەریتانیادا."),
                                       const CustomSizedBoxForTTS(),
@@ -528,7 +548,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The scan apparently showed no damage to the brain."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "سکانەکە ھیچ زیانێکی لە مێشکدا پیشان نەدا."),
                                       const CustomSizedBoxForTTS(),
@@ -556,12 +576,18 @@ class EnglishEntrybrain extends StatelessWidget {
                                   "٢. (ناو) مێشکی ئاژەڵێک کە وەک خواردن دەخورێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The local market offered fresh cow brain for sale."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشگا لۆکاڵییەکە مەغزی تازەی مانگای ھەبوو بۆ فرۆشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The local market offered fresh cow brain for sale."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشگا لۆکاڵییەکە مەغزی تازەی مانگای ھەبوو بۆ فرۆشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -581,12 +607,18 @@ class EnglishEntrybrain extends StatelessWidget {
                                   "٣. (ناو) توانای بیرکردنەوە بەخێرایی، ژیرانە، و ئاقڵانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It doesn't take much brain to work out that both stories can't be true."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێندە بیرکردنەوەی ناوێت کە بزانی ھەردوو چیرۆکەکە ناکرێت ڕاست بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It doesn't take much brain to work out that both stories can't be true."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێندە بیرکردنەوەی ناوێت کە بزانی ھەردوو چیرۆکەکە ناکرێت ڕاست بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -603,12 +635,18 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Teachers spotted that he had a good brain at an early age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکان لە تەمەنێکی سەرەتاوە ھەستیان کرد مێشکێکی باشی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Teachers spotted that he had a good brain at an early age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکان لە تەمەنێکی سەرەتاوە ھەستیان کرد مێشکێکی باشی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -627,12 +665,18 @@ class EnglishEntrybrain extends StatelessWidget {
                               text: "٤. (ناو) کەسێکی زیرەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have the best scientific brains in the country working on this."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیرەکترینەکانی زانستمان لە وڵاتەکەدا ھەیە کە کار لەسەر ئەمە دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have the best scientific brains in the country working on this."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیرەکترینەکانی زانستمان لە وڵاتەکەدا ھەیە کە کار لەسەر ئەمە دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -652,11 +696,18 @@ class EnglishEntrybrain extends StatelessWidget {
                                   "٥. (ناو) زیرەکترین کەس لەناو کۆمەڵێکدا، کەسی بەرپرس و ڕێکخەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's always been the brains of the family."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە بلیمەتی ناو خێزانەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's always been the brains of the family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە بلیمەتی ناو خێزانەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -673,11 +724,17 @@ class EnglishEntrybrain extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was the brains behind the robberies."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرقافڵەی دزییەکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was the brains behind the robberies."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەرقافڵەی دزییەکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -697,11 +754,18 @@ class EnglishEntrybrain extends StatelessWidget {
                                   "٦. (کردار) کووشتنی کەسێک یان ئاژەڵێک بە لێدانێکی سەخت لە سەردا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The accident could have easily brained him."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووداوەکە بە ئاسانی دەکرا بیکوشتایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The accident could have easily brained him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکە بە ئاسانی دەکرا بیکوشتایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -720,11 +784,18 @@ class EnglishEntrybrain extends StatelessWidget {
                               text: "٧. (کردار) لێدان لە سەری کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll brain you if you don't keep quiet."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەکێشمە سەرتا گەر بێدەنگ نەبیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll brain you if you don't keep quiet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەکێشمە سەرتا گەر بێدەنگ نەبیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

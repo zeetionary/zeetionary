@@ -169,10 +169,17 @@ class EnglishEntrybaldly extends StatelessWidget {
 ١. (ھاوەڵکار) بە چەند وشەیەکی کەم و بەبێ ھیچی زیادە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "‘You're lying,’ he said baldly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کورتی وتی 'درۆدەکەیت'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘You're lying,’ he said baldly."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە کورتی وتی 'درۆدەکەیت'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

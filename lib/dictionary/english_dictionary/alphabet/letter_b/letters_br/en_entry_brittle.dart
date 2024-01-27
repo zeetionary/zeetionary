@@ -170,11 +170,18 @@ class EnglishEntrybrittle extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە سەختە بەڵام ئاسان دەشکێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The paint was brittle with age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The paint was brittle with age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکە بە تێپەڕبوونی کات ناسک بووبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brittle" as
                               Column(
                                 children: [
@@ -191,12 +198,18 @@ class EnglishEntrybrittle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As you get older your bones become increasingly brittle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر ھەستیار دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As you get older your bones become increasingly brittle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە دەچیت بە تەمەندا ئێسکەکانت زیاتر ھەستیار دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +226,18 @@ class EnglishEntrybrittle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The pond was covered in a brittle layer of ice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆنگاوەکە بە چینێک لە شەختەی ناسک داپۆشرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The pond was covered in a brittle layer of ice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆنگاوەکە بە چینێک لە شەختەی ناسک داپۆشرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +257,18 @@ class EnglishEntrybrittle extends StatelessWidget {
                                   "٢. (ھاوەڵناو) کەشێک کە تێیدا کەسێک دڵخۆش و بەھێز دەردەکەوێت بەڵام لە ڕاستیدا قەلەقە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The character she plays is successful but emotionally brittle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووھەڵچووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The character she plays is successful but emotionally brittle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کارەکتەرەی ڕۆڵەکەی دەگێڕێت سەرکەوتووە بەڵام لە ڕووی سۆزەوە زووھەڵچووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,11 +285,18 @@ class EnglishEntrybrittle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She greeted him with a brittle smile."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە بزەیەکی ساختەوە خێراتنی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She greeted him with a brittle smile."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە بزەیەکی ساختەوە خێراتنی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +315,18 @@ class EnglishEntrybrittle extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) دەنگێکی زیق"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Not at all,’ she said in a brittle voice, avoiding his eye."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە دەنگێکی زیقەوە و دوورگرتنی چاوی گوتی 'شایەنی نییە'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Not at all,’ she said in a brittle voice, avoiding his eye."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دەنگێکی زیقەوە و دوورگرتنی چاوی گوتی 'شایەنی نییە'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -308,12 +346,18 @@ class EnglishEntrybrittle extends StatelessWidget {
                                   "٤. (ناو) شیرینییەکی ڕەق کە لە کەرە و شەکر درووست دەکرێت و بستەی تێدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They gave us pieces of almond brittle coated in chocolate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شیرینی بادەمیان پێمان دا کە بە چکلێت داپۆشرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They gave us pieces of almond brittle coated in chocolate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شیرینی بادەمیان پێمان دا کە بە چکلێت داپۆشرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

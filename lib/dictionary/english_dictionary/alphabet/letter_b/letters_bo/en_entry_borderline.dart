@@ -169,12 +169,18 @@ class EnglishEntryborderline extends StatelessWidget {
 ١. (ھاوەڵناو) لە نێوان دوو حاڵەتدا بەبێ ئەوەی بە تەواوی بۆ یەکێکیان بگەڕێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In borderline cases teachers will take the final decision, based on the student's previous work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە حاڵەتێکدا کە خوێندکار نزیکە لە دەرچوون مامۆستا بڕیاری کۆتایی دەداتبە پێی ئاستی پێشووی خوێندکار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In borderline cases teachers will take the final decision, based on the student's previous work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە حاڵەتێکدا کە خوێندکار نزیکە لە دەرچوون مامۆستا بڕیاری کۆتایی دەداتبە پێی ئاستی پێشووی خوێندکار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryborderline extends StatelessWidget {
                                   "٢. (ناو) جیاکەرەوەی نێوان دوو خاسیەت یان مەرج"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The borderline between friendship and intimacy is often hard to define."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاڵی جیاکەرەوەی نێوان ھاوڕێیەتی و سۆزداری زۆرجار سەختە دیاری بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The borderline between friendship and intimacy is often hard to define."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاڵی جیاکەرەوەی نێوان ھاوڕێیەتی و سۆزداری زۆرجار سەختە دیاری بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

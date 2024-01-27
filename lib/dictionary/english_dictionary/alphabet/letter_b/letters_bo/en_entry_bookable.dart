@@ -167,11 +167,18 @@ class EnglishEntrybookable extends StatelessWidget {
 ١. (ھاوەڵناو) بلیتێک کە پێشوەختە دەتوانرێت بکڕدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "All seats are bookable by phone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو جێگاکان دەتوانرێت پێشوەختە بگیردرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All seats are bookable by phone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو جێگاکان دەتوانرێت پێشوەختە بگیردرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +198,18 @@ class EnglishEntrybookable extends StatelessWidget {
                                   "٢. (ھاوەڵناو) ھەڵەیەک کە شایەنی کارتی زەردە لە تۆپی پێدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That tackle was a bookable offence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ڕووبەڕووبوونەوەیە شیاوی کارتی زەرد بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That tackle was a bookable offence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ڕووبەڕووبوونەوەیە شیاوی کارتی زەرد بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

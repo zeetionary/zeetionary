@@ -171,12 +171,18 @@ class EnglishEntrybeech extends StatelessWidget {
 ١. (ناو) دارێژی بەرزی ناو دارستان کە توێکڵی سەوزی لووسی ھەیە لەگەڵ گەڵای بریقەدار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The great beeches towered up towards the sky."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دار نارەوەنە گەورەکان بە ئاسماندا درێژبووبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The great beeches towered up towards the sky."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دار نارەوەنە گەورەکان بە ئاسماندا درێژبووبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,18 @@ class EnglishEntrybeech extends StatelessWidget {
 ٢. (ناو) تەختەی دار نارەوەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The table was made of solid beech."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێزەکە لە تەختەی نارەوەنی قایم درووستکرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The table was made of solid beech."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێزەکە لە تەختەی نارەوەنی قایم درووستکرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

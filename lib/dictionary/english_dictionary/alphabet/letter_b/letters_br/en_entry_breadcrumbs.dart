@@ -166,12 +166,18 @@ class EnglishEntrybreadcrumbs extends StatelessWidget {
 ١. (ناو) وردەنانی زۆر بچووک کە دەکرێت لە درووستکردنی خواردندا بەکاربێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sprinkle the breadcrumbs over the mixture before baking."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وردەنانەکە بپرژێنە بەسەر تێکەڵەکەدا پێش ئەوەی بیبرژێنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sprinkle the breadcrumbs over the mixture before baking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وردەنانەکە بپرژێنە بەسەر تێکەڵەکەدا پێش ئەوەی بیبرژێنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

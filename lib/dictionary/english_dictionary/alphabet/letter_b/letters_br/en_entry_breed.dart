@@ -170,12 +170,18 @@ class EnglishEntrybreed extends StatelessWidget {
 ١. (کردار) جووتبوون و وەچەخستنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many animals breed only at certain times of the year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many animals breed only at certain times of the year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ئاژەڵ تەنھا لە ھەندێک کاتی دیاریکراوی ساڵدا وەچە دەخەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breed" as
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybreed extends StatelessWidget {
                                   "٢. (کردار) بەخێوکردنی ئاژەڵ بۆ ئەوەی وەچە بخەنەوە بۆ مەبەستێکی دیاریکراو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rabbits are bred for their long coats."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەروێشک بۆ تووکە درێژەکەیان بەخێودەکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rabbits are bred for their long coats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەروێشک بۆ تووکە درێژەکەیان بەخێودەکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybreed extends StatelessWidget {
                               text: "٣. (کردار) بوون بە ھۆکاری شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some teachers believe that early failures can later breed success."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک مامۆستا باوەڕیان وایە شکستھێنانی سەرەتا دەبێتەھۆی سەرکەوتن لە داھاتوودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some teachers believe that early failures can later breed success."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک مامۆستا باوەڕیان وایە شکستھێنانی سەرەتا دەبێتەھۆی سەرکەوتن لە داھاتوودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +262,18 @@ class EnglishEntrybreed extends StatelessWidget {
                                   "٤. (کردار) پەروەردەکردنی کەسێک بەشێوەیەکی تایبەتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fear of failure was bred into him at an early age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ترسی شکست لە تەمەنی منداڵییەوە تێدا چێنرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fear of failure was bred into him at an early age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ترسی شکست لە تەمەنی منداڵییەوە تێدا چێنرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,12 +293,18 @@ class EnglishEntrybreed extends StatelessWidget {
                                   "٥. (ناو) جۆرێکی تایبەتی ئاژەڵ کە لەلایەن خۆڵکییەوە بە جۆرێکی تایبەت گەورەکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This breed is used for both milk and meat production."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم چەشنە بەکاردێت بۆ بەرھەمھێنانی شیر و گۆشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This breed is used for both milk and meat production."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم چەشنە بەکاردێت بۆ بەرھەمھێنانی شیر و گۆشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -292,11 +322,17 @@ class EnglishEntrybreed extends StatelessWidget {
                           const DefinitionKurdish(text: "٦. (ناو) جۆرە کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He represents a new breed of politician."),
-                              const ExampleSentenceKurdish(
-                                  text: "جۆرێکی تازەی سیاسەتمەدارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He represents a new breed of politician."),
+                                    ExampleSentenceKurdish(
+                                        text: "جۆرێکی تازەی سیاسەتمەدارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,12 +349,18 @@ class EnglishEntrybreed extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It takes a special breed of person to be a surgeon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جۆرە کەسێکی تایبەت دەتوانێت ببێت بە نەشتەرگەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It takes a special breed of person to be a surgeon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆرە کەسێکی تایبەت دەتوانێت ببێت بە نەشتەرگەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

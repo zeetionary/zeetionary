@@ -167,12 +167,18 @@ class EnglishEntrybowler extends StatelessWidget {
 ١. (ناو) کەسێک کە تۆپ فڕێ دەدات، بەتایبەتی لە یاری بۆوڵینگ و کریکیتدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's an excellent bowler, consistently scoring high in competitions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاریزانێکی باشی بۆوڵینگە و بەردەوام خاڵی باش تۆمار دەکات لە پاڵەوانێتییەکاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's an excellent bowler, consistently scoring high in competitions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاریزانێکی باشی بۆوڵینگە و بەردەوام خاڵی باش تۆمار دەکات لە پاڵەوانێتییەکاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybowler extends StatelessWidget {
                                   "٢. (ناو) کڵاوێکی ڕەشی ڕەق کە قەراغەکانی چەماوەیە و سەرەوەی خڕە، جاران لە لایەن پیاوانی بازرگانەوە لە بەریتانیا لەسەر دەکرا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bowler became a popular accessory in the 19th century."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵاوی خڕ بوو بە جوانکارییەکی بەرفراوان لە سەدەی ١٩ دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bowler became a popular accessory in the 19th century."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵاوی خڕ بوو بە جوانکارییەکی بەرفراوان لە سەدەی ١٩ دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

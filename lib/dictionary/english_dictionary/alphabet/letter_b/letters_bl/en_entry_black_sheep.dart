@@ -168,10 +168,17 @@ class EnglishEntryblacksheep extends StatelessWidget {
 ١. (ناو) کەسێک کە جیاوازە لە ئەندامانی دیکەی خێزانەکەی و بە خراپ و مایەی ئابڕووچوون و شەرمەزاری دادەنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's the black sheep of the family."),
-                              const ExampleSentenceKurdish(
-                                  text: "مایەی نەنگی خێزانەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's the black sheep of the family."),
+                                    ExampleSentenceKurdish(
+                                        text: "مایەی نەنگی خێزانەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -213,12 +213,18 @@ class EnglishEntryburglar extends StatelessWidget {
 ١. (ناو) کەسێک کە بە نایاسایی دەچێتە بینایەکەوە بۆ دزیکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Burglars broke into the gallery and stole dozens of priceless paintings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەهایان دزی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Burglars broke into the gallery and stole dozens of priceless paintings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەهایان دزی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burglar", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntryburglar extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The burglar had broken in through a window."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دزەکە لە پەنجەرەیەکە هاتبووە ژوورەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The burglar had broken in through a window."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دزەکە لە پەنجەرەیەکە هاتبووە ژوورەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

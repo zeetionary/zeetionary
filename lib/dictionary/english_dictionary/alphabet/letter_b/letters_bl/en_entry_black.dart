@@ -366,11 +366,18 @@ class EnglishEntryblack extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگی ڕەش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had curly black hair and blue eyes."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژی ڕەشی لوول و چاوی شینی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had curly black hair and blue eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قژی ڕەشی لوول و چاوی شینی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -388,12 +395,18 @@ class EnglishEntryblack extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wanted a simple black dress, nothing fancy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا جلێکی ڕەشی سادەم دەویست، شتێکی دڵبەر نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wanted a simple black dress, nothing fancy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا جلێکی ڕەشی سادەم دەویست، شتێکی دڵبەر نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -411,12 +424,18 @@ class EnglishEntryblack extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The zebra is a wild African horse with black and white stripes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەرەکێوی ئەسپێکی کێویی ئەفریقییە بە خەتی ڕەش و سپییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The zebra is a wild African horse with black and white stripes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەرەکێوی ئەسپێکی کێویی ئەفریقییە بە خەتی ڕەش و سپییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -436,12 +455,18 @@ class EnglishEntryblack extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) تەواو تاریک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My head banged on a rock and everything went black."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرم دای بە بەردێکدا و ھەموو شتێک تاریک بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My head banged on a rock and everything went black."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرم دای بە بەردێکدا و ھەموو شتێک تاریک بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -460,12 +485,18 @@ class EnglishEntryblack extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Through the black night came the sound of thunder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدرێژایی شەوە تاریکەکە دەنگی ھەورەگرمە دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Through the black night came the sound of thunder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدرێژایی شەوە تاریکەکە دەنگی ھەورەگرمە دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -486,12 +517,18 @@ class EnglishEntryblack extends StatelessWidget {
                                   "٣. (ھاوەڵناو) پەیوەندیدار بە کەسانی ڕەشپێست، زیاتر ئەوانەی بە ڕەچەڵەک ئەفریقین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's seen as a role model for young Black men."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک نموونەیەک سەیر دەکرێت بۆ پیاوانی ڕەشپێستی گەنج."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's seen as a role model for young Black men."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک نموونەیەک سەیر دەکرێت بۆ پیاوانی ڕەشپێستی گەنج."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -510,12 +547,18 @@ class EnglishEntryblack extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's a large Black community living in this area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمەڵگەیەکی گەورەی کەسانی ڕەشپێست ھەیە لەم ناوچە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a large Black community living in this area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمەڵگەیەکی گەورەی کەسانی ڕەشپێست ھەیە لەم ناوچە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -535,10 +578,16 @@ class EnglishEntryblack extends StatelessWidget {
                               text: "٤. (ھاوەڵناو) چا و قاوەی بێ شیر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Two black coffees, please."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو قاوەی بێ شیر بێ زەحمەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Two black coffees, please."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو قاوەی بێ شیر بێ زەحمەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -558,11 +607,18 @@ class EnglishEntryblack extends StatelessWidget {
                               text: "٥. (ھاوەڵناو) زۆر پیس"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Go and wash your hands; they're absolutely black!"),
-                              const ExampleSentenceKurdish(
-                                  text: "بچۆ و دەستت بشۆرە، تەواو گەنیاون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Go and wash your hands; they're absolutely black!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بچۆ و دەستت بشۆرە، تەواو گەنیاون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -582,12 +638,18 @@ class EnglishEntryblack extends StatelessWidget {
                               text: "٦. (ھاوەڵناو) پڕ لە ڕق و تووڕەیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's been in a really black mood all day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی ڕۆژەکە لە کەشێکی تووڕەیی بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been in a really black mood all day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی ڕۆژەکە لە کەشێکی تووڕەیی بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -607,10 +669,16 @@ class EnglishEntryblack extends StatelessWidget {
                               text: "٧. (ھاوەڵناو) زۆر بێزار و نائومێدکەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The future looks pretty black."),
-                              const ExampleSentenceKurdish(
-                                  text: "داھاتوو زۆر بێ ھیوابڕ دیارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The future looks pretty black."),
+                                    ExampleSentenceKurdish(
+                                        text: "داھاتوو زۆر بێ ھیوابڕ دیارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -629,12 +697,18 @@ class EnglishEntryblack extends StatelessWidget {
                           const DefinitionKurdish(text: "٨. (ناو) ڕەنگی ڕەش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Everyone at the funeral was dressed in black."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەوانەی لە مەراسیمی ناشتنەکە بوون جلی ڕەشیان پۆشیبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everyone at the funeral was dressed in black."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەوانەی لە مەراسیمی ناشتنەکە بوون جلی ڕەشیان پۆشیبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -653,11 +727,17 @@ class EnglishEntryblack extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She often dresses in black (= in black clothes)."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرجار ڕەنگی ڕەش دەپۆشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She often dresses in black (= in black clothes)."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆرجار ڕەنگی ڕەش دەپۆشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -678,12 +758,18 @@ class EnglishEntryblack extends StatelessWidget {
                                   "٩. (ناو) کەسانی ڕەشپێست (بەکارھێنانی وشەکە بەم واتایە وەک ناو باش نییە. باشترە وەک ھاوەڵناو بەکاربێت)"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The museum exhibit featured portraits of influential blacks who shaped history."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشانگای مۆزەخانەکە ژمارەیەک وێنەی کەسانی کاریگەری ڕەشپێست نمایش دەکات کە کاریگەرییان لەسەر مێژوو ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The museum exhibit featured portraits of influential blacks who shaped history."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشانگای مۆزەخانەکە ژمارەیەک وێنەی کەسانی کاریگەری ڕەشپێست نمایش دەکات کە کاریگەرییان لەسەر مێژوو ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -704,12 +790,18 @@ class EnglishEntryblack extends StatelessWidget {
                                   "١٠. (کردار) رەتکردنەوەی مامەڵە لەگەڵ کەسێک وەک ناڕەزایی سیاسی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The countries have blacked all imports from Russia."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکان ھەموو ھاوردەیەکیان لە ڕووسیاوە ڕاگرتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The countries have blacked all imports from Russia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکان ھەموو ھاوردەیەکیان لە ڕووسیاوە ڕاگرتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -729,12 +821,18 @@ class EnglishEntryblack extends StatelessWidget {
                               text: "١١. (کردار) ڕەشکردنی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The artist decided to black out the background to emphasize the central figure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھونەرمەندەکە بڕیاری دا پشتەوە ڕەش بکاتەوە بۆ ئەوەی سەرنج بخاتە سەر ئەو کەسەی لە ناوەڕاست بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The artist decided to black out the background to emphasize the central figure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھونەرمەندەکە بڕیاری دا پشتەوە ڕەش بکاتەوە بۆ ئەوەی سەرنج بخاتە سەر ئەو کەسەی لە ناوەڕاست بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

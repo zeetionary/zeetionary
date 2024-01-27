@@ -167,12 +167,18 @@ class EnglishEntrybrainwash extends StatelessWidget {
 ١. (کردار) زۆرکردن لە کەسێک کە بیرۆکەکانت پەسەند بە بەوەی دووبارە و دووبارەیان بکەیتەوە یان ڕێگەی لێ بگری بەڕوونی بیربکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The group is accused of brainwashing its young members."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپەکە تاوانبارکراوە بە مێشک شتنەوەی ئەندامە گەنجەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The group is accused of brainwashing its young members."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپەکە تاوانبارکراوە بە مێشک شتنەوەی ئەندامە گەنجەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybrainwash extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were brainwashed into believing that their leader was all-powerful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێشکیان شۆردرابووەوە بەوەی باوەڕ بکەن سەرکردەکەیان تەواو بەدەسەڵات بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were brainwashed into believing that their leader was all-powerful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێشکیان شۆردرابووەوە بەوەی باوەڕ بکەن سەرکردەکەیان تەواو بەدەسەڵات بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

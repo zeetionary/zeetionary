@@ -172,12 +172,18 @@ class EnglishEntrybibliographer extends StatelessWidget {
 ١. (ناو) کەسێک کە مێژووی کتێب و بەرھەمھێنانیان دەخوێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bibliographer meticulously listed all the works of the 19th-century poet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبناسەکە بەوردی ھەموو کارەکانی ھۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bibliographer meticulously listed all the works of the 19th-century poet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبناسەکە بەوردی ھەموو کارەکانی ھۆزانڤانەکەی سەدەی ١٩ ی خستە لیستێکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

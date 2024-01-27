@@ -212,12 +212,18 @@ class EnglishEntrybuttock extends StatelessWidget {
 ١. (ناو) سمت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He fell down hard on his right buttock and slid along the path."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر سمتی ڕاستی کەوت و بە ڕێگاکەدا خشا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He fell down hard on his right buttock and slid along the path."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر سمتی ڕاستی کەوت و بە ڕێگاکەدا خشا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttock", follow LX strictly
                               Column(
                                 children: [

@@ -173,11 +173,17 @@ class EnglishEntrybloodgroup extends StatelessWidget {
 ١. (ناو) جۆرەکانی خوێنی مرۆڤ کە بۆ مەبەستی پزیشکی جیاکراونەتەوە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "(British English) What blood group are you?"),
-                              const ExampleSentenceKurdish(
-                                  text: "سەر بە چی جۆرێکی خوێنی؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "(British English) What blood group are you?"),
+                                    ExampleSentenceKurdish(
+                                        text: "سەر بە چی جۆرێکی خوێنی؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +200,17 @@ class EnglishEntrybloodgroup extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "(North American English) What blood type do you have?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چی کۆمەڵەیەکی خوێنت ھەیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "(North American English) What blood type do you have?"),
+                                    ExampleSentenceKurdish(
+                                        text: "چی کۆمەڵەیەکی خوێنت ھەیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

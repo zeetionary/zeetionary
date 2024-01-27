@@ -170,12 +170,18 @@ class EnglishEntrybedlam extends StatelessWidget {
 ١. (ھاوەڵناو) دیمەنێکی پڕ لە جەنجاڵی و ھەراوھوریا """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was bedlam at our house on the morning of the wedding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شلۆقاوییەکی زۆر بوو لە ماڵەکەمان لە ڕۆژی ئاھەنگی ھاوسەرگیرییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was bedlam at our house on the morning of the wedding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شلۆقاوییەکی زۆر بوو لە ماڵەکەمان لە ڕۆژی ئاھەنگی ھاوسەرگیرییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

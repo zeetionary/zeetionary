@@ -165,12 +165,18 @@ class EnglishEntrybrutality extends StatelessWidget {
 ١. (ناو) ھەڵسوکەوتی دڕندانە و توندوتیژانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The brutality of the dictator's regime shocked the international community."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The brutality of the dictator's regime shocked the international community."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڕندەیی ڕژێمی دیکتاتۆرەکە کۆمەڵگەی نێودەوڵەتی حەپەساند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brutality" as
                               Column(
                                 children: [
@@ -190,10 +196,18 @@ class EnglishEntrybrutality extends StatelessWidget {
                                   "٢. (ناو) ڕوون و ئاشکرا لەسەر شتێکی ناخۆش؛ بەبێ گرنگیدان بە ھەستی خەڵکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The comedian's humor had brutality."),
-                              const ExampleSentenceKurdish(
-                                  text: "گاڵتەکانی کۆمیدیانەکە توند بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The comedian's humor had brutality."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گاڵتەکانی کۆمیدیانەکە توند بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

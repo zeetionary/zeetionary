@@ -168,12 +168,18 @@ class EnglishEntryblackice extends StatelessWidget {
 ١. (ناو) توێژی باریکی سەھۆڵ لەسەر ڕێگا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Motorists have been warned about black ice on the roads."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Motorists have been warned about black ice on the roads."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێران ئاگادارکراونەتەوە سەبارەت بە سەھۆڵەڕيشە لەسەر ڕێگاکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

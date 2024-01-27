@@ -376,10 +376,17 @@ class EnglishEntryblow extends StatelessWidget {
 ١. (کردار) فووکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You're not blowing hard enough!"),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر خێرا فوو ناکەیت!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You're not blowing hard enough!"),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر خێرا فوو ناکەیت!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -396,12 +403,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The policeman asked me to blow into the breathalyser."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیسەکە داوای لێکردم فوو بکەم بە ئەلکھول‌پێوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The policeman asked me to blow into the breathalyser."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیسەکە داوای لێکردم فوو بکەم بە ئەلکھول‌پێوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -418,12 +431,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He drew on his cigarette and blew out a stream of smoke."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قومێکی لە جگەرەکەی دا و دووکەڵەکەی کرد بە ھەوادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He drew on his cigarette and blew out a stream of smoke."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قومێکی لە جگەرەکەی دا و دووکەڵەکەی کرد بە ھەوادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -441,12 +460,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (کردار) جوڵانی با"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The birds were singing and a warm wind was blowing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵندەکان دەیان چریکاند و بایەکی گەرم ھەڵیکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The birds were singing and a warm wind was blowing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵندەکان دەیان چریکاند و بایەکی گەرم ھەڵیکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -463,10 +488,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A cold wind blew from the east."),
-                              const ExampleSentenceKurdish(
-                                  text: "بایەکی سارد لە ڕۆژھەڵاتەوە ھەڵیکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A cold wind blew from the east."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بایەکی سارد لە ڕۆژھەڵاتەوە ھەڵیکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -486,10 +519,16 @@ class EnglishEntryblow extends StatelessWidget {
                                   "٣. (کردار) جوڵان بە با، ھەناسەی کەسێک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My hat blew off."),
-                              const ExampleSentenceKurdish(
-                                  text: "کڵاوەکەم با بردی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My hat blew off."),
+                                    ExampleSentenceKurdish(
+                                        text: "کڵاوەکەم با بردی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -506,11 +545,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She blew the dust off the book."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فووی کرد بە تۆزەکەدا و لە کتێبەکەی کردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She blew the dust off the book."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فووی کرد بە تۆزەکەدا و لە کتێبەکەی کردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -530,10 +576,16 @@ class EnglishEntryblow extends StatelessWidget {
                                   "٤. (کردار) لێدانی فیکەیەک یان ئامێرێکی میوزیکی بە فووکردن پێیدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The referee blew his whistle."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوبژیوانەکە فیکەکەی لێدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The referee blew his whistle."),
+                                    ExampleSentenceKurdish(
+                                        text: "ناوبژیوانەکە فیکەکەی لێدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -553,12 +605,18 @@ class EnglishEntryblow extends StatelessWidget {
                                   "٥. (کردار) پاککردنەوەی لووتت بە تێپەڕاندنی ھەوا پێیدا بۆ دەرەوە بۆ ناو کلێنسێک یان دەستەسڕێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She grabbed a tissue and loudly blew her nose."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کلێنسێکی ڕاکێشا و بە دەنگی بەرز مشەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She grabbed a tissue and loudly blew her nose."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کلێنسێکی ڕاکێشا و بە دەنگی بەرز مشەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -578,12 +636,18 @@ class EnglishEntryblow extends StatelessWidget {
                                   "٦. (کردار) ماچکردنی دەستت و نیشاندانی وەک ئەوەی بە فووکردن دەینێری بۆ کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As I finished my speech, she blew me a kiss from the audience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە وتارەکەمم تەواوکرد، ماچێکی بۆ ھاویشتم لەناو جەماوەرەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As I finished my speech, she blew me a kiss from the audience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە وتارەکەمم تەواوکرد، ماچێکی بۆ ھاویشتم لەناو جەماوەرەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -603,10 +667,17 @@ class EnglishEntryblow extends StatelessWidget {
                                   "٧. (کردار) درووستکردن یان پێدانی شێوە بە فووکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She blew bubbles with a bubble wand."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڵقی درووستدەکرد بە دارکەفێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She blew bubbles with a bubble wand."),
+                                    ExampleSentenceKurdish(
+                                        text: "بڵقی درووستدەکرد بە دارکەفێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -625,12 +696,18 @@ class EnglishEntryblow extends StatelessWidget {
                               text: "٨. (کردار) تایە تەقین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The car spun out of control when a tyre blew."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە سووڕا و لە کۆنترۆڵ دەرچوو کە تایەیەکی تەقی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car spun out of control when a tyre blew."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە سووڕا و لە کۆنترۆڵ دەرچوو کە تایەیەکی تەقی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -649,11 +726,18 @@ class EnglishEntryblow extends StatelessWidget {
                               text: "٩. (کردار) کردنەوەی شتێک بە تەقەمەنی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The safe had been blown by the thieves."),
-                              const ExampleSentenceKurdish(
-                                  text: "قاسەکە شکێندرابوو لەلایەن دزەکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The safe had been blown by the thieves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قاسەکە شکێندرابوو لەلایەن دزەکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -672,11 +756,18 @@ class EnglishEntryblow extends StatelessWidget {
                               text: "١٠. (کردار) ئاشکراکردنی نھێنی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One mistake could blow your cover (= make your real name, job, intentions, etc. known)."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەک ھەڵە ڕەنگە ناسنامەت ئاشکرا بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One mistake could blow your cover (= make your real name, job, intentions, etc. known)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک ھەڵە ڕەنگە ناسنامەت ئاشکرا بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -696,12 +787,18 @@ class EnglishEntryblow extends StatelessWidget {
                                   "١١. (کردار) بەھەدەردانی ژمارەیەکی زۆر پارە لە شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He inherited over a million dollars and blew it all on drink and gambling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەروو یەک ملیۆن دۆلاری بە میراتی بۆ جێما و ھەمووی لە خواردنەوە و قوماردا بەھەدەردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He inherited over a million dollars and blew it all on drink and gambling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەروو یەک ملیۆن دۆلاری بە میراتی بۆ جێما و ھەمووی لە خواردنەوە و قوماردا بەھەدەردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -720,12 +817,18 @@ class EnglishEntryblow extends StatelessWidget {
                               text: "١٢. (کردار) لەدەستدانی ھەلێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She blew her chances by arriving late for the interview."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەلەکانی لەدەستدا بە فرەنگ گەشتن بە چاوپێکەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She blew her chances by arriving late for the interview."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەلەکانی لەدەستدا بە فرەنگ گەشتن بە چاوپێکەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -745,10 +848,17 @@ class EnglishEntryblow extends StatelessWidget {
                                   "١٣. (کردار) بەکاردێت بۆ پیشاندانی ئەوەی بێزار یان سەرسامی، یان ئەوەی شتێکت لا گرنگ نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blow it! We've missed the bus."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستی شکاوم! پاسەکەمان لەدەستدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Blow it! We've missed the bus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی شکاوم! پاسەکەمان لەدەستدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -765,12 +875,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm blowed if I'm going to (= I certainly will not) let him treat you like that."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵبەتە مردووم ئەگەر بھێڵم وەھا مامەڵەت لەگەڵ بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm blowed if I'm going to (= I certainly will not) let him treat you like that."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵبەتە مردووم ئەگەر بھێڵم وەھا مامەڵەت لەگەڵ بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -789,10 +905,16 @@ class EnglishEntryblow extends StatelessWidget {
                               text: "١٤. (کردار) جێھێشتنی شوێنێک لەناکاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's blow this place."),
-                              const ExampleSentenceKurdish(
-                                  text: "با بۆی دەرچین لەم شوێنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's blow this place."),
+                                    ExampleSentenceKurdish(
+                                        text: "با بۆی دەرچین لەم شوێنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -812,10 +934,17 @@ class EnglishEntryblow extends StatelessWidget {
                                   "١٥. (ناو) لێدانێکی بەھێز بە دەست، چەک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The two men were exchanging blows."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو پیاوەکە یەکتریان دەکووتا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two men were exchanging blows."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو پیاوەکە یەکتریان دەکووتا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -832,10 +961,17 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He landed a blow on Jim's nose."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێشای بە لوتی جیمدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He landed a blow on Jim's nose."),
+                                    ExampleSentenceKurdish(
+                                        text: "کێشای بە لوتی جیمدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -855,12 +991,18 @@ class EnglishEntryblow extends StatelessWidget {
                                   "١٦. (ناو) ڕووداوێکی لەناکاو کە زیانی دەبێت بۆ کەسێک/شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Losing his job came as a terrible blow to him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەدەستدانی کارەکەی گورزێکی خراپ بوو بۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Losing his job came as a terrible blow to him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەدەستدانی کارەکەی گورزێکی خراپ بوو بۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -877,12 +1019,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a shattering blow to her pride."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گورزێکی کەمەرشکێن بوو بۆ لووت‌بەرزییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a shattering blow to her pride."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گورزێکی کەمەرشکێن بوو بۆ لووت‌بەرزییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -899,12 +1047,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The news came as a bitter blow to the staff."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەواڵەکە وەک گورزێکی تاڵ بوو بۆ ستافەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The news came as a bitter blow to the staff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەواڵەکە وەک گورزێکی تاڵ بوو بۆ ستافەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -922,12 +1076,18 @@ class EnglishEntryblow extends StatelessWidget {
                           const DefinitionKurdish(text: "١٧. (ناو) فووکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Try to put the candles out in one blow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵ بدە مۆمەکان بە یەک فوو بکوژێنیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try to put the candles out in one blow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ بدە مۆمەکان بە یەک فوو بکوژێنیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -944,11 +1104,17 @@ class EnglishEntryblow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Give your nose a good blow (= clear it completely)."),
-                              const ExampleSentenceKurdish(
-                                  text: "مشەمشێک بکە بە لووتت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Give your nose a good blow (= clear it completely)."),
+                                    ExampleSentenceKurdish(
+                                        text: "مشەمشێک بکە بە لووتت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -968,10 +1134,17 @@ class EnglishEntryblow extends StatelessWidget {
                                   "١٨. (سەرسوڕمان) بۆ پیشاندانی بێزاری سەبارەت بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Blow! I completely forgot it."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستی شکاوم! بە تەواوی بیرم چوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Blow! I completely forgot it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی شکاوم! بە تەواوی بیرم چوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,10 +168,18 @@ class EnglishEntrybookkeeper extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری تۆمارکردنی پارەی وەرگیراو و خەرجکراوە لە کۆمپانیایەک یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My first job was as a bookkeeper."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەکەم کارم وەک ھەژمارنووسێک بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My first job was as a bookkeeper."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەم کارم وەک ھەژمارنووسێک بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

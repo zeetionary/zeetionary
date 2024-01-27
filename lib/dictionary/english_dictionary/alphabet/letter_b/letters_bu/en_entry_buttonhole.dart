@@ -213,12 +213,18 @@ class EnglishEntrybuttonhole extends StatelessWidget {
 ١. (ناو) کونی دووگمە لە جلێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His jacket had a perfectly aligned buttonhole."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری هەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His jacket had a perfectly aligned buttonhole."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری هەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttonhole", follow LX strictly
                               Column(
                                 children: [
@@ -238,11 +244,17 @@ class EnglishEntrybuttonhole extends StatelessWidget {
                                   "٢. (کردار) وەستاندنی کەسێک بۆ ئەوەی قسەت لەگەڵ بکات، بە تایبەتی کە نایەوێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He buttonholed me just as I was going home."),
-                              const ExampleSentenceKurdish(
-                                  text: "هاتە سەرەڕێم کە دەچوومەوە ماڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He buttonholed me just as I was going home."),
+                                    ExampleSentenceKurdish(
+                                        text: "هاتە سەرەڕێم کە دەچوومەوە ماڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

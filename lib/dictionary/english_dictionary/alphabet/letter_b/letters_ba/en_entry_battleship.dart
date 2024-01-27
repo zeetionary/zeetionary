@@ -168,11 +168,18 @@ class EnglishEntrybattleship extends StatelessWidget {
 ١. (ناو) کەشتی شەڕکەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A plane sunk the battleship at sea."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەیەک کەشتییە شەڕکەرەکەی لە دەریادا نغرۆکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A plane sunk the battleship at sea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەیەک کەشتییە شەڕکەرەکەی لە دەریادا نغرۆکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

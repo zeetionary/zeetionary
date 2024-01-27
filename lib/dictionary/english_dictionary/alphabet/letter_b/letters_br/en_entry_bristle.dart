@@ -167,12 +167,18 @@ class EnglishEntrybristle extends StatelessWidget {
 ١. (ناو) تاڵە قژێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The old woman had a few grey bristles sprouting from her chin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The old woman had a few grey bristles sprouting from her chin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنە پیرەکە ژمارەیەک تاڵە مووی سپی ھەبوو لە چەناگەیەوە دەرچووبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bristle" as
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybristle extends StatelessWidget {
                                   "٢. (ناو) تاڵ یان دانەکانی فڵچەیەک یان شانەیەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My toothbrush has blue and white plastic bristles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My toothbrush has blue and white plastic bristles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڵچەی ددانەکەم تاڵی پلاستیکی سپی و شینی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,10 +229,17 @@ class EnglishEntrybristle extends StatelessWidget {
                                   "٣. (کردار) لەناکاو تەواو تووڕەبوون بەوەی کەسێک وتویەتی یان کردوویەتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His lies made her bristle with rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "درۆکانی لە داخدا تووڕەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His lies made her bristle with rage."),
+                                    ExampleSentenceKurdish(
+                                        text: "درۆکانی لە داخدا تووڕەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybristle extends StatelessWidget {
                                   "٤. (کردار) مووی ئاژەڵێک کە گیڤ بووەتەوە بەھۆی ترسەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cat's fur bristled and it arched its back."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cat's fur bristled and it arched its back."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووی پشیلەکە گیڤ بووەوە و پشتی چەماندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

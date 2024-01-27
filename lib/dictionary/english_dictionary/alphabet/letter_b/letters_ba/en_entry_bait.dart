@@ -175,10 +175,16 @@ class EnglishEntrybait extends StatelessWidget {
 ١. (ناو) پێناسەکەمێک خواردن کە وەک داو بەکاردێت بۆ گرتنی ماسی یان نێچیر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Live worms are used as bait."),
-                              const ExampleSentenceKurdish(
-                                  text: "کرمی زیندوو وەک تامک بەکاردێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Live worms are used as bait."),
+                                    ExampleSentenceKurdish(
+                                        text: "کرمی زیندوو وەک تامک بەکاردێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybait extends StatelessWidget {
 ٢. (ناو) کەسێک کە بەکاردێت بۆ نزیککردنەوەی کەسێک بۆ ئەوەی بیگریت یان وای‌لێ‌بکەیت ئەوە بکات کە دەتەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police used him as bait to trap the killers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police used him as bait to trap the killers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntrybait extends StatelessWidget {
 ٣. (کردار) دانانی تامک لەسەر تەڵەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He baited the trap with a piece of meat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He baited the trap with a piece of meat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +272,18 @@ class EnglishEntrybait extends StatelessWidget {
 ٤. (کردار) بەئەنقەست تووڕەکردنی کەسێک بە لێدوانی توند"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldiers remained calm even though the crowd was baiting them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldiers remained calm even though the crowd was baiting them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,12 +305,18 @@ class EnglishEntrybait extends StatelessWidget {
 ٥. (کردار) چالاکی ھێرش کردنە سەر ئاژەڵ بە بەکارھێنانی سەگ بۆ خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The activity of bear-baiting was finally banned in England in the 19th century."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The activity of bear-baiting was finally banned in England in the 19th century."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

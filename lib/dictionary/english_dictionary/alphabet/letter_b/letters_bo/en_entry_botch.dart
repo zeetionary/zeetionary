@@ -169,11 +169,18 @@ class EnglishEntrybotch extends StatelessWidget {
 ١. (کردار) کردنی شتێک بە خراپی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He completely botched up the interview."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەواوی چاوپێکەوتنەکەی شێواند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He completely botched up the interview."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی چاوپێکەوتنەکەی شێواند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +199,18 @@ class EnglishEntrybotch extends StatelessWidget {
                               text: "٢. (ناو) کارێک کە خراپ کراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've made a real botch of the decorating."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕازاندنەوەکەم بە تەواوی شێواندووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've made a real botch of the decorating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕازاندنەوەکەم بە تەواوی شێواندووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

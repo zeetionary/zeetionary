@@ -171,11 +171,18 @@ class EnglishEntrybeforehand extends StatelessWidget {
 ١. (ھاوەڵکار) پێشوەختە؛ پێش ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wish we'd known about it beforehand."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆزگە پێشوەختە لەسەری بمانزانیایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wish we'd known about it beforehand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆزگە پێشوەختە لەسەری بمانزانیایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybeforehand extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I knew she was coming that afternoon because she had phoned beforehand to say so."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمزانی ئەو نیوەڕۆیە دێ چونکە پێشوەختە پەیوەندی کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I knew she was coming that afternoon because she had phoned beforehand to say so."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمزانی ئەو نیوەڕۆیە دێ چونکە پێشوەختە پەیوەندی کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

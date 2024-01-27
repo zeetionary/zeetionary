@@ -166,11 +166,18 @@ class EnglishEntrybluecollar extends StatelessWidget {
 ١. (ناو) پەیوەندیدار بە کارمەندێک کە لە شوێنێک کارێک بکات کە پێویستی بە ھێزی جەستەیی ھەبێت وەک لەوەی کاری ئۆفیس (نووسین و کۆمپیوتەر) بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He found a blue-collar job at the factory."),
-                              const ExampleSentenceKurdish(
-                                  text: "کاڕێکی کرێکاری دۆزییەوە لە کارگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He found a blue-collar job at the factory."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاڕێکی کرێکاری دۆزییەوە لە کارگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

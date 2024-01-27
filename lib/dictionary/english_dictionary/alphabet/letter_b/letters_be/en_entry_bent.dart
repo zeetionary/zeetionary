@@ -174,11 +174,18 @@ class EnglishEntrybent extends StatelessWidget {
 ١. (ھاوەڵناو) لار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do this exercise with your knees bent (= not with your legs straight)."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ڕاھێنانە بکە بە لاقی چەماوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do this exercise with your knees bent (= not with your legs straight)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڕاھێنانە بکە بە لاقی چەماوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +203,18 @@ class EnglishEntrybent extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The lamp post got bent in the crash."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستوونی گڵۆپەکە لار بوو لە پێکدادانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The lamp post got bent in the crash."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستوونی گڵۆپەکە لار بوو لە پێکدادانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +234,18 @@ class EnglishEntrybent extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە ناتوانێت ڕاست بوەستێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw a small bent old woman crossing the street."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنێکی بچووکی چەماوەم بینی کە لە شەقامەکە دەپەڕییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I saw a small bent old woman crossing the street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنێکی بچووکی چەماوەم بینی کە لە شەقامەکە دەپەڕییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,12 +265,18 @@ class EnglishEntrybent extends StatelessWidget {
 ٣. (ھاوەڵناو) کەسێک کە تەڵەکەباز و ساختەچییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The politician was accused of being bent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیاسەتمەدارەکە بە ساختەچێتی تۆمەتبار کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The politician was accused of being bent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیاسەتمەدارەکە بە ساختەچێتی تۆمەتبار کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -270,10 +296,17 @@ class EnglishEntrybent extends StatelessWidget {
 ٤. (ھاوەڵناو) بەھرەیەک یان حەزێکی سرووشتی بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She has a bent for mathematics."),
-                              const ExampleSentenceKurdish(
-                                  text: "خولیای بۆ بیرکاری ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has a bent for mathematics."),
+                                    ExampleSentenceKurdish(
+                                        text: "خولیای بۆ بیرکاری ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,12 +164,18 @@ class EnglishEntrybugle extends StatelessWidget {
 ١. (ناو) ئامێرێکی میوزیکی کە وەک زوڕنا وایە و لە سوپادا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As the sun set, the bugle called the troops back to the barracks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە خۆر ئاوابوو، زوڕناکە لێدرا بۆ ئەوەی سەربازەکان بگەڕێنەوە سەربازگەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As the sun set, the bugle called the troops back to the barracks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە خۆر ئاوابوو، زوڕناکە لێدرا بۆ ئەوەی سەربازەکان بگەڕێنەوە سەربازگەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bugle", follow LX strictly
                               Column(
                                 children: [

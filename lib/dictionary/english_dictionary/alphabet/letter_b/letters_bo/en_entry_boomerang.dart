@@ -168,12 +168,18 @@ class EnglishEntryboomerang extends StatelessWidget {
 ١. (ناو) پارچە تەختەیەکی چەماوە کە فڕێی دەدەیت و بە بازنەیەکدا دەگەڕێتەوە بۆ خۆت، ئەم ئامێرە سەرەتا لەلایەن دانیشتوانی ڕەسەنی ئەمریکاوە بەکارھات بۆ ڕاوکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plan had a boomerang effect (= caused unexpected harm to the person responsible for it)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراوی) پلانەکە کاریگەرییەکی پێچەوانەی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plan had a boomerang effect (= caused unexpected harm to the person responsible for it)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراوی) پلانەکە کاریگەرییەکی پێچەوانەی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

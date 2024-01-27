@@ -167,10 +167,17 @@ class EnglishEntrybtwo extends StatelessWidget {
 ١. (کورتکراوە) کورتکراوە بۆ born"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Emily Clifton, b. 1800"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێمیڵی کلیفتۆن لەدایکبووی ١٨٠٠."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Emily Clifton, b. 1800"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێمیڵی کلیفتۆن لەدایکبووی ١٨٠٠."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

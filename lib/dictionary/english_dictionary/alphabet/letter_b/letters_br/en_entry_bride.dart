@@ -167,10 +167,16 @@ class EnglishEntrybride extends StatelessWidget {
 ١. (ناو) ژنێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He introduced his new bride."),
-                              const ExampleSentenceKurdish(
-                                  text: "بووکە تازەکەی ناساند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He introduced his new bride."),
+                                    ExampleSentenceKurdish(
+                                        text: "بووکە تازەکەی ناساند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bride" as
                               Column(
                                 children: [
@@ -187,12 +193,18 @@ class EnglishEntrybride extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bride looked radiant in her white gown."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بووکەکە دڵخۆش دیاربوو لە جلە سپییەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bride looked radiant in her white gown."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بووکەکە دڵخۆش دیاربوو لە جلە سپییەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,11 +221,17 @@ class EnglishEntrybride extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You may now kiss the bride."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێستا دەتوانی ماچی بووکەکە بکەیت (پیر و خەڕۆ بن پێکەوە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You may now kiss the bride."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا دەتوانی ماچی بووکەکە بکەیت (پیر و خەڕۆ بن پێکەوە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +248,18 @@ class EnglishEntrybride extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bride and groom posed for pictures outside the church."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بووک و زاواکە وێنەیان لە دەرەوەی کڵێساکە گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bride and groom posed for pictures outside the church."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بووک و زاواکە وێنەیان لە دەرەوەی کڵێساکە گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

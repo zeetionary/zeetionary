@@ -170,12 +170,18 @@ class EnglishEntrybloodless extends StatelessWidget {
 ١. (ھاوەڵناو) بەبێ کووشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rebel soldiers seized power in a bloodless coup."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازە ھەڵگەڕاوەکان دەستیان بەسەر دەسەڵاتدا گرت لە کودەتایەکی بێ خوێن ڕژاندا ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rebel soldiers seized power in a bloodless coup."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازە ھەڵگەڕاوەکان دەستیان بەسەر دەسەڵاتدا گرت لە کودەتایەکی بێ خوێن ڕژاندا ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +200,18 @@ class EnglishEntrybloodless extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) پێستێکی ڕەنگپەڕیو و کاڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His face was thin and bloodless."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری باریک و ڕەنگپەڕیو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His face was thin and bloodless."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری باریک و ڕەنگپەڕیو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +230,18 @@ class EnglishEntrybloodless extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) کەسێکی بێ ھەست"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The novel portrayed a bloodless romance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆمانەکە پەیوەندییەکی خۆشەویستیی بێ ھەستانەی وێنا دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The novel portrayed a bloodless romance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆمانەکە پەیوەندییەکی خۆشەویستیی بێ ھەستانەی وێنا دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntrybrazen extends StatelessWidget {
 ١. (ھاوەڵناو) ئاشکرا و بێ‌شەرمانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had become brazen about the whole affair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێ‌شەرم بووبوو سەبارەت بە تەواوی ڕووداوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had become brazen about the whole affair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێ‌شەرم بووبوو سەبارەت بە تەواوی ڕووداوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybrazen extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They showed a brazen disregard for the law."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بایەخ‌نەدانی ئاشکرایان بۆ یاسا پیشان دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They showed a brazen disregard for the law."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بایەخ‌نەدانی ئاشکرایان بۆ یاسا پیشان دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -210,12 +210,18 @@ class EnglishEntrybunny extends StatelessWidget {
 ١. (ناو) کەروێشک بە زمانی منداڵان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children giggled with delight as they spotted a fluffy bunny in the garden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان شاگەشکەبوو بوون لە خۆشیدا کە کەروێشکێکیان لە باخچەکەدا بینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children giggled with delight as they spotted a fluffy bunny in the garden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان شاگەشکەبوو بوون لە خۆشیدا کە کەروێشکێکیان لە باخچەکەدا بینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bunny", follow LX strictly
                               Column(
                                 children: [

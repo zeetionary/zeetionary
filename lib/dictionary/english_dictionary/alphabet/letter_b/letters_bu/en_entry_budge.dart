@@ -166,11 +166,18 @@ class EnglishEntrybudge extends StatelessWidget {
 ١. (کردار) جوڵان بە کەمی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She pushed at the door but it wouldn't budge."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She pushed at the door but it wouldn't budge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرگاکەی پاڵنا بەڵام نسقەی نەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "budge", follow LX strictly.
                               Column(
                                 children: [
@@ -187,10 +194,16 @@ class EnglishEntrybudge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dog refused to budge."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگەکە نەدەجووڵا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The dog refused to budge."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەگەکە نەدەجووڵا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +222,18 @@ class EnglishEntrybudge extends StatelessWidget {
                               text: "٢. (کردار) گۆڕینی بۆچوونت لەسەر شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Company executives refused to budge from their position."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرانی کۆمپانیاکە ڕەتیان کردەوە بۆچوونی خۆیان بگۆڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Company executives refused to budge from their position."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرانی کۆمپانیاکە ڕەتیان کردەوە بۆچوونی خۆیان بگۆڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,11 +250,18 @@ class EnglishEntrybudge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was not to be budged on the issue."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەسەر بابەتەکە بۆچوونی نەگۆڕ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was not to be budged on the issue."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر بابەتەکە بۆچوونی نەگۆڕ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

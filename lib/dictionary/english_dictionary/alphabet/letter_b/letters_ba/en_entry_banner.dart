@@ -172,12 +172,18 @@ class EnglishEntrybanner extends StatelessWidget {
 ١. (ناو) پارچەیەک کە بە دوو ستوون ھەڵدەگیرێت و درووشمێکی لەسەرە وەک پشتیوانی بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Protesters carried a banner reading ‘Save our Wildlife’."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Protesters carried a banner reading ‘Save our Wildlife’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybanner extends StatelessWidget {
 ٢. (ناو) ناونیشانێک یان ڕیکلامێک لەسەروە، خوارەوە، یان تەنیشتەکانی پەڕەیەکی ئینتەرنێت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They put up a website banner advising customers to order early."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They put up a website banner advising customers to order early."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybolster extends StatelessWidget {
 ١. (کردار) بەھێزکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More money is needed to bolster the industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەی زیاتر پێویستە بۆ بەھێزکردنی پیشەسازییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More money is needed to bolster the industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەی زیاتر پێویستە بۆ بەھێزکردنی پیشەسازییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybolster extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They need to do something to bolster their image."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت شتێک بکەن بۆ ئەوەی وێنایان جوان بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They need to do something to bolster their image."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت شتێک بکەن بۆ ئەوەی وێنایان جوان بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybolster extends StatelessWidget {
                                   "٢. (ناو) سەرینێک کە لە شێوەی سەرینی کوردییە و دەخرێتە ژێر سەرینەکانی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hotel room had comfortable beds with bolsters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژووری ھوتێلەکە جێخەوی ئاسوودەبەخشی ھەبوو لەگەڵ سەرینی پاڵپشتیکار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hotel room had comfortable beds with bolsters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژووری ھوتێلەکە جێخەوی ئاسوودەبەخشی ھەبوو لەگەڵ سەرینی پاڵپشتیکار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

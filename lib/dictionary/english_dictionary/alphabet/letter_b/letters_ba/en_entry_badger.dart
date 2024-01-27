@@ -172,12 +172,18 @@ class EnglishEntrybadger extends StatelessWidget {
 ١. (ناو) ئاژەڵێکە کە فەرووی خۆڵەمێشی ھەیە لەگەڵ ھێڵی ڕەش و سپی لەسەر سەری. ئاژەڵەکە زیاتر لە شەودا چالاکە و لە کوندا دەژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The owl's predators include hawks, larger owls, snakes, and badgers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The owl's predators include hawks, larger owls, snakes, and badgers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,11 +205,17 @@ class EnglishEntrybadger extends StatelessWidget {
 ٢. (کردار) پەستان خستنەسەر کەسێک بە دووبارە و دووبارە پرسیارکردن یان داواکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I finally badgered him into coming with us."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەکۆتاییدا ناچار بە ھاتنم کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I finally badgered him into coming with us."),
+                                    ExampleSentenceKurdish(
+                                        text: "لەکۆتاییدا ناچار بە ھاتنم کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

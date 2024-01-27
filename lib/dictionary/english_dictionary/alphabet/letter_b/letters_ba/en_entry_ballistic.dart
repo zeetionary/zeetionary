@@ -171,12 +171,18 @@ class EnglishEntryballistic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە لێکۆڵینەوەی زانستی لەو شتانەی کە بە ھەوادا دەھاوێژرێن، وەک فیشەک و موشەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "None of the defendants could be linked to the fatal gunshot because of a lack of ballistic evidence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەدەکرا ھیچ کام لە گومان‌لێ‌کراوان بە شەڕەتەقە کوشندەکەوە ببەسترێتەوە بەھۆی کەمی بەڵگەی ھاوێژەیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "None of the defendants could be linked to the fatal gunshot because of a lack of ballistic evidence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەدەکرا ھیچ کام لە گومان‌لێ‌کراوان بە شەڕەتەقە کوشندەکەوە ببەسترێتەوە بەھۆی کەمی بەڵگەی ھاوێژەیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

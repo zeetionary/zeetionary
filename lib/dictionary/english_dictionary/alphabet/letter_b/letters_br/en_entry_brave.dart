@@ -277,12 +277,18 @@ class EnglishEntrybrave extends StatelessWidget {
 ١. (ھاوەڵناو) ئازا و چاونەترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wasn't brave enough to tell her what I thought of her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێندە بوێر نەبووم پێی بڵێم چۆن بیرم لێی دەکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wasn't brave enough to tell her what I thought of her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێندە بوێر نەبووم پێی بڵێم چۆن بیرم لێی دەکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -299,10 +305,16 @@ class EnglishEntrybrave extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Desperation had made me brave."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستبەستراوی بوێری کردووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Desperation had made me brave."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستبەستراوی بوێری کردووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -319,10 +331,16 @@ class EnglishEntrybrave extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She has been incredibly brave."),
-                              const ExampleSentenceKurdish(
-                                  text: "کچەکە تەواو بوێر بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She has been incredibly brave."),
+                                    ExampleSentenceKurdish(
+                                        text: "کچەکە تەواو بوێر بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -342,12 +360,18 @@ class EnglishEntrybrave extends StatelessWidget {
                                   "٢. (ھاوەڵناو) شتێک کە پێویستی بە ئازایەتییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She took the brave decision to start her own business."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بڕیارە بوێرانەی دا کە کاری بازرگانی خۆی دەستپێ‌بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She took the brave decision to start her own business."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بڕیارە بوێرانەی دا کە کاری بازرگانی خۆی دەستپێ‌بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -364,12 +388,18 @@ class EnglishEntrybrave extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She died after a brave fight against cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گیانی لەدەستدا لەدوای بەربەرەکانییەکی ئازایانە لەگەڵ شێرپەنجە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She died after a brave fight against cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیانی لەدەستدا لەدوای بەربەرەکانییەکی ئازایانە لەگەڵ شێرپەنجە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -389,12 +419,18 @@ class EnglishEntrybrave extends StatelessWidget {
                                   "٣. (کردار) مامەڵەکردن لەگەڵ دۆخێکی ناخۆش و سەخت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Let's brave the snow and go for a walk (= go for a walk even though it is snowing)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "با بەسەر بەفرەکە زاڵ‌ببین و بچین بۆ پیاسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's brave the snow and go for a walk (= go for a walk even though it is snowing)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با بەسەر بەفرەکە زاڵ‌ببین و بچین بۆ پیاسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -411,12 +447,18 @@ class EnglishEntrybrave extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She braved the wrath of her parents by refusing to marry the man they had chosen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاڵ‌بوو بەسەر تووڕەیی دایک و باوکی بە ڕەتکردنەوەی ھاوسەرگیری لەگەڵ ئەو کەسەی دیاریان کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She braved the wrath of her parents by refusing to marry the man they had chosen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاڵ‌بوو بەسەر تووڕەیی دایک و باوکی بە ڕەتکردنەوەی ھاوسەرگیری لەگەڵ ئەو کەسەی دیاریان کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -434,12 +476,18 @@ class EnglishEntrybrave extends StatelessWidget {
                           const DefinitionKurdish(text: "٤. (ناو) کەسانی ئازا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "America, the land of the free and the home of the brave"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمریکا، زەوی کەسانی ئازاد و نیشتیمانی ئازایان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "America, the land of the free and the home of the brave"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمریکا، زەوی کەسانی ئازاد و نیشتیمانی ئازایان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

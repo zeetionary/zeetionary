@@ -168,11 +168,18 @@ class EnglishEntrybrainstorm extends StatelessWidget {
 ١. (کردار) بیرکردنەوەی کۆمەڵێک کەس پێکەوە لە یەک کاتدا بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Brainstorm as many ideas as possible."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەرچەندە بیرۆکە دەزانی گردی‌بکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Brainstorm as many ideas as possible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرچەندە بیرۆکە دەزانی گردی‌بکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                                   "٢. (ناو) وەستانی لەناکاوی بیرکردنەوە بە باشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a brainstorm in the exam and didn't answer a single question."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تاقیکردنەوەکە تووشی شڵەژانی دەروونی بوو و نەیتوانی وەڵامی یەک پرسیاریش بداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a brainstorm in the exam and didn't answer a single question."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تاقیکردنەوەکە تووشی شڵەژانی دەروونی بوو و نەیتوانی وەڵامی یەک پرسیاریش بداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +229,18 @@ class EnglishEntrybrainstorm extends StatelessWidget {
                               text: "٣. (ناو) بیرۆکەیەکی باشی لەناکاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This was a brainstorm I came up with when I was driving."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە بیرۆکەیەکی تازەیە کە بۆم ھات کاتێک شۆفێریم دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This was a brainstorm I came up with when I was driving."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە بیرۆکەیەکی تازەیە کە بۆم ھات کاتێک شۆفێریم دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

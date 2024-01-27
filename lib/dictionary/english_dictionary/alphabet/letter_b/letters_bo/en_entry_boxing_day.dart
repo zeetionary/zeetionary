@@ -164,12 +164,18 @@ class EnglishEntryboxingday extends StatelessWidget {
 ١. (ناو) یەکەم ڕۆژی دوای ڕۆژی کریسمسە و لە شانشینی یەکگرتوو و ژمارەیەک وڵاتی دیکە پشووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Employees happily received their gifts on the cheerful Boxing Day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارمەندان بە دڵخۆشییەوە دیارییەکانیان وەرگرت لە ڕۆژی پڕشادی دوای کریسمس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Employees happily received their gifts on the cheerful Boxing Day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارمەندان بە دڵخۆشییەوە دیارییەکانیان وەرگرت لە ڕۆژی پڕشادی دوای کریسمس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

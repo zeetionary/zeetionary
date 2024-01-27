@@ -170,12 +170,18 @@ class EnglishEntrybattlements extends StatelessWidget {
 ١. (ناو) دیوارێک بە دەوری بەشی سەرەوەی قەڵایەکدا کە بۆشایی بە دەوریدا ھەیە بۆ ئەوەی لێیەوە تیر بھاوێژن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The defenders poured boiling oil and arrows down upon the attacking army from the safety of the castle's battlements."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرگریکاران نەوتی گەرم و تیریان ھاویشت بەسەر سوپای ھێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The defenders poured boiling oil and arrows down upon the attacking army from the safety of the castle's battlements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرگریکاران نەوتی گەرم و تیریان ھاویشت بەسەر سوپای ھێرشکاردا لە بەشی ئارامی شوورای قەڵاکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

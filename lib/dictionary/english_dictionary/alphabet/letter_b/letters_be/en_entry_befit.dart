@@ -171,12 +171,18 @@ class EnglishEntrybefit extends StatelessWidget {
 ١. (کردار) گونجاو بۆ کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a lavish reception as befitted a visitor of her status."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشوازییەکی گەورە بوو شیاو بە میوانێک لە ئاستی ئەودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a lavish reception as befitted a visitor of her status."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشوازییەکی گەورە بوو شیاو بە میوانێک لە ئاستی ئەودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybefit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He lived in the style befitting a gentleman."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەک دەژیا کە لە جوامێرێکی وەک ئەو بوەشێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lived in the style befitting a gentleman."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەک دەژیا کە لە جوامێرێکی وەک ئەو بوەشێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

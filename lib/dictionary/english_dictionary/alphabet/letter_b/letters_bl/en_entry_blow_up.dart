@@ -168,11 +168,17 @@ class EnglishEntryblowup extends StatelessWidget {
 ١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "speakblowups111111111111111111111111111111111"),
-                              const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "speakblowups111111111111111111111111111111111"),
+                                    ExampleSentenceKurdish(
+                                        text: "رستە_رستە_رستە_رستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

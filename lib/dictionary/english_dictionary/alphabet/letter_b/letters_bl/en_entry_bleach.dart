@@ -169,10 +169,17 @@ class EnglishEntrybleach extends StatelessWidget {
 ١. (کردار) سپی بوون بە پڕۆسەی کیمیایی یان بەرکەوتن بە خۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His hair was bleached by the sun."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژی دەدرەوشایەوە لە خۆرەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His hair was bleached by the sun."),
+                                    ExampleSentenceKurdish(
+                                        text: "قژی دەدرەوشایەوە لە خۆرەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,10 +199,16 @@ class EnglishEntrybleach extends StatelessWidget {
                                   "٢. (ناو) مادەیەکی کیمیایی کە وەک سپیکەرەوە و پاککەرەوە بەکاردێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I poured bleach down the loo."),
-                              const ExampleSentenceKurdish(
-                                  text: "فاسم کرد بە سەراوەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I poured bleach down the loo."),
+                                    ExampleSentenceKurdish(
+                                        text: "فاسم کرد بە سەراوەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

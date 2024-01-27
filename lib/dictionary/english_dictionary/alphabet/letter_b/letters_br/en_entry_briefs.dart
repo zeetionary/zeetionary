@@ -163,12 +163,18 @@ class EnglishEntrybriefs extends StatelessWidget {
 ١. (ناو) شۆرتی ژێرەوەی پیاوان و ژنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He usually wears regular black cotton briefs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرجار شۆرتی کەتانی ئاسایی ڕەش لەبەردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He usually wears regular black cotton briefs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار شۆرتی کەتانی ئاسایی ڕەش لەبەردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "briefs" as
                               Column(
                                 children: [
@@ -185,12 +191,18 @@ class EnglishEntrybriefs extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm looking for some plain cotton briefs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشوێن ھەندێک شۆرتی سادەی کەتاندا دەگەڕێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm looking for some plain cotton briefs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشوێن ھەندێک شۆرتی سادەی کەتاندا دەگەڕێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

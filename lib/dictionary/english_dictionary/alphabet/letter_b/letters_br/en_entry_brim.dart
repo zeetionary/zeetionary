@@ -168,10 +168,17 @@ class EnglishEntrybrim extends StatelessWidget {
 ١. (ناو) لێواری گڵاسێک، دەفرێک، دۆڵکەیەک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He filled the glass to the brim."),
-                              const ExampleSentenceKurdish(
-                                  text: "گڵاسەکەی تا لێوەکەی پڕکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He filled the glass to the brim."),
+                                    ExampleSentenceKurdish(
+                                        text: "گڵاسەکەی تا لێوەکەی پڕکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brim" as
                               Column(
                                 children: [
@@ -188,12 +195,18 @@ class EnglishEntrybrim extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt suddenly alive and full to the brim with enthusiasm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراوی) لەناکاو ھەستی بە گڕوتین کرد و تەواو بە جۆش و خرۆش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt suddenly alive and full to the brim with enthusiasm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراوی) لەناکاو ھەستی بە گڕوتین کرد و تەواو بە جۆش و خرۆش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +225,18 @@ class EnglishEntrybrim extends StatelessWidget {
                               text: "٢. (ناو) لێوارەکانی کڵاوێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She watched the crowd from beneath the brim of her hat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ژێرەوەی کڵاوەکەیەوە سەیری جەماوەرەکەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She watched the crowd from beneath the brim of her hat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژێرەوەی کڵاوەکەیەوە سەیری جەماوەرەکەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,11 +256,17 @@ class EnglishEntrybrim extends StatelessWidget {
                                   "٣. (ناو) ھەبوونی ئەو جۆرە لێوارەی کە باسکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wore a wide-brimmed hat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵاوێکی لێوارە پانی (شەبقە) لەسەر کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She wore a wide-brimmed hat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵاوێکی لێوارە پانی (شەبقە) لەسەر کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,10 +285,16 @@ class EnglishEntrybrim extends StatelessWidget {
                               text: "٤. (کردار) پڕ لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tears brimmed in her eyes."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوەکانی پڕ لە فرمێسک بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Tears brimmed in her eyes."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوەکانی پڕ لە فرمێسک بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -280,12 +311,18 @@ class EnglishEntrybrim extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team were brimming with confidence before the game."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە پڕ لە متمانە بوون پێش یارییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team were brimming with confidence before the game."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە پڕ لە متمانە بوون پێش یارییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntrybold extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی ئازا کە متمانەی بەخۆی ھەیە و ناترسێت لە کردن یان وتنی ئەوەی دەیەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a bold move on their part to open a business in France."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوڵەیەکی بوێرانە بوو لەلایەن ئاوانەوە کە بازرگانییەک لە فەرەنسا بکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a bold move on their part to open a business in France."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوڵەیەکی بوێرانە بوو لەلایەن ئاوانەوە کە بازرگانییەک لە فەرەنسا بکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybold extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Few people have been bold enough to criticize the president."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەم کەس ھێندە بوێر بوونە کە ڕەخنە لە بەڕێوبەرەکە بگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Few people have been bold enough to criticize the president."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەم کەس ھێندە بوێر بوونە کە ڕەخنە لە بەڕێوبەرەکە بگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,11 +230,18 @@ class EnglishEntrybold extends StatelessWidget {
                                   "٢. (ھاوەڵناو) تۆخ؛ نووسین بە ئەستوور و تاریک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Highlight the important words in bold type."),
-                              const ExampleSentenceKurdish(
-                                  text: "وشە گرنگەکان بە تۆخی دیاری بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Highlight the important words in bold type."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشە گرنگەکان بە تۆخی دیاری بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +260,18 @@ class EnglishEntrybold extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) شتێک کە بە ئاسانی دەبینرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The furniture was painted in bold, primary colours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەلوپەلەکان بە ڕەنگی دیار و سەرەکییەکان بۆیەکران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The furniture was painted in bold, primary colours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەلوپەلەکان بە ڕەنگی دیار و سەرەکییەکان بۆیەکران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

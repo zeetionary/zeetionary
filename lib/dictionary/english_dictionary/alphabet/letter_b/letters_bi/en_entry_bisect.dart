@@ -169,11 +169,18 @@ class EnglishEntrybisect extends StatelessWidget {
 ١. (کردار) دوو بەش کردن، دوو کەرت کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A busy road bisects the village."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگایەکی قەرەباڵغ گوندەکەی دابەش دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A busy road bisects the village."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگایەکی قەرەباڵغ گوندەکەی دابەش دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +198,18 @@ class EnglishEntrybisect extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A circle is bisected by its diameter."),
-                              const ExampleSentenceKurdish(
-                                  text: "بازنەیەک بە تیرەکەی کەرت دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A circle is bisected by its diameter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازنەیەک بە تیرەکەی کەرت دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

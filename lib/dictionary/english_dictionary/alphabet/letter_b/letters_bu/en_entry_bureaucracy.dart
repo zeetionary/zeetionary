@@ -211,12 +211,18 @@ class EnglishEntrybureaucracy extends StatelessWidget {
 ١. (ناو) سیستەمی یاسا فەرمییەکان و شێوازی ئەنجامدانی ئەو کارانەی حکومەتێک یان دامەزراوەیەک هەیەتی، بەتایبەتی کاتێک ئەمە زۆر ئاڵۆزە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The organization has promised to eliminate unnecessary bureaucracy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەهێڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The organization has promised to eliminate unnecessary bureaucracy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەهێڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureaucracy", follow LX strictly
                               Column(
                                 children: [
@@ -238,11 +244,18 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                                   "٢. (ناو) سیستەمێکی حکومەت کە ژمارەیەکی زۆر بەرپرسی هەیە کە ڕاستەوخۆ هەڵنەبژێردراون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are living in a modern bureaucracy."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە بیرۆکڕاسییەکی سەردەمیانەدا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are living in a modern bureaucracy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بیرۆکڕاسییەکی سەردەمیانەدا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

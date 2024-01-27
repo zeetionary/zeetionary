@@ -170,12 +170,18 @@ class EnglishEntrybenchmark extends StatelessWidget {
 ١. (ناو) شتێک کە دەکرێت وەک پێوەری ستاندارد بەکاربێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The German recycling system is seen as a benchmark for schemes throughout Europe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمی ڕیسایکڵی ئەڵمانیا وەک نموونەیەک دەبینرێت بۆ پلانەکان لە سەرانسەری ئەورووپا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The German recycling system is seen as a benchmark for schemes throughout Europe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمی ڕیسایکڵی ئەڵمانیا وەک نموونەیەک دەبینرێت بۆ پلانەکان لە سەرانسەری ئەورووپا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

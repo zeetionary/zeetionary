@@ -164,12 +164,18 @@ class EnglishEntrybaroque extends StatelessWidget {
 ١. (ناو) ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و ھونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The villa is an eccentric fusion of the classical, the baroque and the modernist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڤێلاکە تێکەڵەیەکی سەیروسەمەرەی کلاسیک و بروک و سەردەمیانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The villa is an eccentric fusion of the classical, the baroque and the modernist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڤێلاکە تێکەڵەیەکی سەیروسەمەرەی کلاسیک و بروک و سەردەمیانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybaroque extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ستایلی ناوازە و پڕ لە ڕازاندنەوەی بیناسازی و ھونەر و میوزیکی ئەورووپی لە سەدەکانی ١٧ و ١٨ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baroque St Martin's church is considered one of the most beautiful churches in the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵێسای ڕازاوەی سان مارتن بە یەکێک لە جوانترین کڵێساکان لە وڵاتەکەدا دادەنرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baroque St Martin's church is considered one of the most beautiful churches in the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵێسای ڕازاوەی سان مارتن بە یەکێک لە جوانترین کڵێساکان لە وڵاتەکەدا دادەنرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

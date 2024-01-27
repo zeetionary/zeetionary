@@ -214,12 +214,18 @@ class EnglishEntrybureau extends StatelessWidget {
 ١. (ناو) دۆڵابێکی جلوبەرگ، یان مێزێک کە چەکمەجەی هەیە و بەشێکی سەرەوەی هەیە کە دەکرێتەوە بۆ ئەوەی لەسەری بنووسیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was just enough space for a fold-up bed, washstand and bureau."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنها هێندە شوێن هەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was just enough space for a fold-up bed, washstand and bureau."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنها هێندە شوێن هەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureau", follow LX strictly
                               Column(
                                 children: [
@@ -239,11 +245,18 @@ class EnglishEntrybureau extends StatelessWidget {
                                   "٢. (ناو) ئۆفیسێک یان دامەزراوەیەک کە زانیاریی لەسەر بابەتێکی دیاریکراو هەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She works for an employment bureau."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ دامەزراوەیەکی دامەزراندن کاردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She works for an employment bureau."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ دامەزراوەیەکی دامەزراندن کاردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +276,18 @@ class EnglishEntrybureau extends StatelessWidget {
                                   "٣. (ناو) بەڕێوبەرایەتییەک لە حکومەتی ئەمریکادا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Federal Bureau of Investigation (FBI) was founded on July 26, 1908."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرایەتیی لێکۆڵینەوەی نیشتیمانی لە ٢٦ی تەممووزی ١٩٠٨ دامەزرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Federal Bureau of Investigation (FBI) was founded on July 26, 1908."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرایەتیی لێکۆڵینەوەی نیشتیمانی لە ٢٦ی تەممووزی ١٩٠٨ دامەزرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

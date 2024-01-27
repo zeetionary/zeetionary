@@ -171,12 +171,18 @@ class EnglishEntrybedside extends StatelessWidget {
 ١. (ناو) ناوچەی تەنیشت جێگەی خەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His mother has been at his bedside throughout his illness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکی لە تەنیشت جێخەوەکەی بوو بەدرێژایی ماوەی نەخۆشییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His mother has been at his bedside throughout his illness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکی لە تەنیشت جێخەوەکەی بوو بەدرێژایی ماوەی نەخۆشییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybedside extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I like to keep a glass of water by my bedside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزدەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I like to keep a glass of water by my bedside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزدەکەم گڵاسێک ئاو لە تەنیشت جێگەی خەوەکەم ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

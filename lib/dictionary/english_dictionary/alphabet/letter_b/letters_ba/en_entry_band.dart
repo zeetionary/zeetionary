@@ -194,12 +194,18 @@ class EnglishEntryband extends StatelessWidget {
 ١. (ناو) کۆمەڵە میوزیکژەنێک کە لەگەڵ گۆرانیبێژێک یان زیاتر کاردەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He plays drums in a band that he formed with some friends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He plays drums in a band that he formed with some friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +227,18 @@ class EnglishEntryband extends StatelessWidget {
 ٢. (ناو) کۆمەڵە کەسێک کە پێکەوە کاردەکەن یان ھەمان بیرۆکەیان ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He persuaded a small band of volunteers to help."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He persuaded a small band of volunteers to help."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -248,12 +260,18 @@ class EnglishEntryband extends StatelessWidget {
 ٣. (ناو) پارچەیەک کە لە دەوری شتێک دەبەسترێت بۆ بەھێزکردنی یان ڕاگرتنی لە شوێنی خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All babies in the hospital have name bands on their wrists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێکیان لە مەچەکە کە ناویانی لەسەر نووسراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All babies in the hospital have name bands on their wrists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێکیان لە مەچەکە کە ناویانی لەسەر نووسراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -275,12 +293,18 @@ class EnglishEntryband extends StatelessWidget {
 ٤. (ناو) ھێڵێک لە ڕەنگ یان مادە کە ڕەنگەکەی جیاوازە لەوەی دەورووبەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The light had expanded in a broad band across the sky."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The light had expanded in a broad band across the sky."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -302,12 +326,18 @@ class EnglishEntryband extends StatelessWidget {
 ٥. (ناو) شەپۆلی ڕادیۆیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Short-wave radio uses the 20–50-metre band."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Short-wave radio uses the 20–50-metre band."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -329,11 +359,18 @@ class EnglishEntryband extends StatelessWidget {
 ٦. (ناو) کۆمەڵێکی جیاواز لە ژمارە، تەمەن، نرخ کە بە گەڕانەوە بۆیان خەڵکی دەژمێردرێن یان دەپێورێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Which tax band do you fall into?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Which tax band do you fall into?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -355,12 +392,18 @@ class EnglishEntryband extends StatelessWidget {
 ٧. (کردار) دانانی پارچەیەکی ڕەنگ یان مادە جیاواز لە دەوری شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We banded the birds (= put bands around their legs) so that we could identify them later."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We banded the birds (= put bands around their legs) so that we could identify them later."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -382,11 +425,18 @@ class EnglishEntryband extends StatelessWidget {
 ٨. (کردار) دابەشکردن بۆ گرووپی جیاواز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tax is banded according to income."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باجدان دەستە دەستە دەکرێت بەپێی داھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tax is banded according to income."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باجدان دەستە دەستە دەکرێت بەپێی داھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

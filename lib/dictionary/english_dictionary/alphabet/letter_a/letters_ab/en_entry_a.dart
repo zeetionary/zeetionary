@@ -137,258 +137,185 @@ class EnglishEntrya extends StatelessWidget {
                     const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
-                      child: Expanded(
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.end,
-                          children: [
-                            const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون',
-                              style: TextStyle(fontSize: 18),
-                              textAlign: TextAlign
-                                  .right, // Set text alignment to right
-                            ),
-                            Row(
-                              children: [
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      'I can only carry two at a time.',
-                                      textDirection: TextDirection
-                                          .ltr, // Right-to-left direction
-                                      textAlign: TextAlign.left,
-                                    ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.end,
+                        children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: """
+١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون"""),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can only carry two at a time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە یەک کاتدا تەنها دەتوانم دووان هەڵبگرم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak142574("en-GB"),
                                   ),
-                                ),
-                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "لە یەک کاتدا دەتوانم تەنھا دووان ھەڵبگرم.",
-                                      textAlign: TextAlign
-                                          .right, // Right-to-left direction
-                                      textDirection: TextDirection.rtl,
-                                    ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak142574("en-US"),
                                   ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "There's a visitor for you."),
+                                    ExampleSentenceKurdish(
+                                        text: "میوانێکت هەیە."),
+                                  ],
                                 ),
-                                CustomIconButtonBritish(
-                                  onPressed: () => speak142574("en-GB"),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speak142574("en-US"),
-                                ),
-                              ],
-                            ),
-                            const DividerSentences(),
-                            Row(
-                              children: [
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "There's a visitor for you.",
-                                      textDirection: TextDirection
-                                          .ltr, // Right-to-left direction
-                                      textAlign: TextAlign.left,
-                                    ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak48652("en-GB"),
                                   ),
-                                ),
-                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "میوانێکت ھەیە.",
-                                      textAlign: TextAlign
-                                          .right, // Right-to-left direction
-                                      textDirection: TextDirection.rtl,
-                                    ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak48652("en-US"),
                                   ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's a Buddhist."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەو بوودییە."),
+                                  ],
                                 ),
-                                CustomIconButtonBritish(
-                                  onPressed: () => speak48652("en-GB"),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speak48652("en-US"),
-                                ),
-                              ],
-                            ),
-                            const DividerDefinition(),
-                            const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە',
-                              style: TextStyle(fontSize: 18),
-                              textAlign: TextAlign
-                                  .right, // Set text alignment to right
-                            ),
-                            Row(
-                              children: [
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "She's a Buddhist.",
-                                      textDirection: TextDirection
-                                          .ltr, // Right-to-left direction
-                                      textAlign: TextAlign.left,
-                                    ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak45287("en-GB"),
                                   ),
-                                ),
-                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "ئەو بوودییە.",
-                                      textAlign: TextAlign
-                                          .right, // Right-to-left direction
-                                      textDirection: TextDirection.rtl,
-                                    ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak45287("en-US"),
                                   ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A lion is a dangerous animal."),
+                                    ExampleSentenceKurdish(
+                                        text: "شێر ئاژەڵێکی دڕندەیە."),
+                                  ],
                                 ),
-                                CustomIconButtonBritish(
-                                  onPressed: () => speak45287("en-GB"),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speak45287("en-US"),
-                                ),
-                              ],
-                            ),
-                            const DividerDefinition(),
-                            const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن',
-                              style: TextStyle(fontSize: 18),
-                              textAlign: TextAlign
-                                  .right, // Set text alignment to right
-                            ),
-                            Row(
-                              children: [
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "A lion is a dangerous animal.",
-                                      textDirection: TextDirection
-                                          .ltr, // Right-to-left direction
-                                      textAlign: TextAlign.left,
-                                    ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak197524("en-GB"),
                                   ),
-                                ),
-                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "شێر ئاژەڵێکی دڕندەیە.",
-                                      textAlign: TextAlign
-                                          .right, // Right-to-left direction
-                                      textDirection: TextDirection.rtl,
-                                    ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak197524("en-US"),
                                   ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "a good knowledge of French."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیارییەکی باشی زمانی فەرەنسی."),
+                                  ],
                                 ),
-                                CustomIconButtonBritish(
-                                  onPressed: () => speak197524("en-GB"),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speak197524("en-US"),
-                                ),
-                              ],
-                            ),
-                            const DividerDefinition(),
-                            const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت',
-                              style: TextStyle(fontSize: 18),
-                              textAlign: TextAlign
-                                  .right, // Set text alignment to right
-                            ),
-                            Row(
-                              children: [
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "a good knowledge of French",
-                                      textDirection: TextDirection
-                                          .ltr, // Right-to-left direction
-                                      textAlign: TextAlign.left,
-                                    ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak475968("en-GB"),
                                   ),
-                                ),
-                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "زانیارییەکی باش لە زمانی فەرەنسی",
-                                      textAlign: TextAlign
-                                          .right, // Right-to-left direction
-                                      textDirection: TextDirection.rtl,
-                                    ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak475968("en-US"),
                                   ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن"),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. لە جیاتی ژمارە یەک بەکاردێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I have a pen."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێنووسێکم هەیە."),
+                                  ],
                                 ),
-                                CustomIconButtonBritish(
-                                  onPressed: () => speak475968("en-GB"),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speak475968("en-US"),
-                                ),
-                              ],
-                            ),
-                            const DividerDefinition(),
-                            const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن ',
-                              style: TextStyle(fontSize: 18),
-                              textAlign: TextAlign
-                                  .right, // Set text alignment to right
-                            ),
-                            const DividerDefinition(),
-                            const Text(
-                              // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                              '٦. لە جیاتی ژمارە یەک بەکاردێت',
-                              style: TextStyle(fontSize: 18),
-                              textAlign: TextAlign
-                                  .right, // Set text alignment to right
-                            ),
-                            Row(
-                              children: [
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "I have a pen.",
-                                      textDirection: TextDirection
-                                          .ltr, // Right-to-left direction
-                                      textAlign: TextAlign.left,
-                                    ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speak63328("en-GB"),
                                   ),
-                                ),
-                                // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                                const Expanded(
-                                  child: Align(
-                                    alignment: Alignment.topLeft,
-                                    child: Text(
-                                      "پێنووسێکم ھەیە.",
-                                      textAlign: TextAlign
-                                          .right, // Right-to-left direction
-                                      textDirection: TextDirection.rtl,
-                                    ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speak63328("en-US"),
                                   ),
-                                ),
-                                CustomIconButtonBritish(
-                                  onPressed: () => speak63328("en-GB"),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speak63328("en-US"),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
+                                ],
+                              ),
+                            ],
+                          ),
+                        ],
                       ),
                     ),
                     YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW

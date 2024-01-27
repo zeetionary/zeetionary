@@ -170,11 +170,18 @@ class EnglishEntryblemish extends StatelessWidget {
 ١. (ناو) نیشانەیەک لەسەر پێست یان شتێک کە لە جوانی کەم دەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her skin didn't have a single blemish."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێستی ھیچ نیشانەیەکی لەسەر نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her skin didn't have a single blemish."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێستی ھیچ نیشانەیەکی لەسەر نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +198,18 @@ class EnglishEntryblemish extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His reputation is without a blemish."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراوی) ناوبانگی ھیچ خەوشێکی پێوە نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His reputation is without a blemish."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراوی) ناوبانگی ھیچ خەوشێکی پێوە نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +230,18 @@ class EnglishEntryblemish extends StatelessWidget {
                                   "٢. (کردار) کەمکردنەوە لە جوانی یان باشی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This latest revelation has seriously blemished the governor's reputation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ئاشکراکردنانەی ئەم دواییە بەخراپی ناوبانگی پارێزگارەکەی لەکەدارکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This latest revelation has seriously blemished the governor's reputation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئاشکراکردنانەی ئەم دواییە بەخراپی ناوبانگی پارێزگارەکەی لەکەدارکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -327,11 +327,18 @@ class EnglishEntrybump extends StatelessWidget {
 ١. (کردار) لێدان لە شتێک بە ڕێکەوت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "In the dark I bumped into a chair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the dark I bumped into a chair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تاریکییەکەدا خۆم کێشا بە کورسییەکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bump", follow LX strictly
                               Column(
                                 children: [
@@ -348,10 +355,18 @@ class EnglishEntrybump extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The car bumped against the kerb."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car bumped against the kerb."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە کێشای بە قەراغەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -374,7 +389,7 @@ class EnglishEntrybump extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Toddlers are always falling over and bumping their heads."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "منداڵان هەمیشە دەکەون و سەریان دەدەن بە زەویدا."),
                                       const CustomSizedBoxForTTS(),
@@ -398,7 +413,7 @@ class EnglishEntrybump extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I bumped my head on the door frame."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "سەرمم کێشا بە چوارچێوەی دەرگاکەدا."),
                                       const CustomSizedBoxForTTS(),
@@ -425,11 +440,17 @@ class EnglishEntrybump extends StatelessWidget {
                               text: "٢. (کردار) جوڵان بەسەر ڕوویەکی سەختدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The jeep bumped along the dirt track."),
-                              const ExampleSentenceKurdish(
-                                  text: "جیبەکەبە ڕێگا قوڕەکەدا چوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The jeep bumped along the dirt track."),
+                                    ExampleSentenceKurdish(
+                                        text: "جیبەکەبە ڕێگا قوڕەکەدا چوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -449,12 +470,18 @@ class EnglishEntrybump extends StatelessWidget {
                                   "٣. (کردار) گواستنەوە یان سڕینەوەی کەسێک لە گرووپێک یان شوێنێکەوە بۆ یەکێکی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The coach told him he had been bumped from the crew."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاهێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The coach told him he had been bumped from the crew."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاهێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -471,12 +498,18 @@ class EnglishEntrybump extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you are bumped from an oversold flight you are entitled to compensation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەهۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you are bumped from an oversold flight you are entitled to compensation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەهۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -496,12 +529,18 @@ class EnglishEntrybump extends StatelessWidget {
                                   "٤. (ناو) کێشان یان دەنگی شتێک کە دەکێشێتە بە ڕوویەکی سەختدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We could hear loud bumps from upstairs where the children were playing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێمان لە زرمەی بەرز بوو لە نهۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We could hear loud bumps from upstairs where the children were playing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێمان لە زرمەی بەرز بوو لە نهۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -521,12 +560,18 @@ class EnglishEntrybump extends StatelessWidget {
                                   "٥. (ناو) هەڵاوسانێک لەسەر جەستە، بەزۆری بەهۆی بەرکەوتن بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was covered in bumps and bruises."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاشەی پڕ لە پەنەمان و شینبوونەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was covered in bumps and bruises."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاشەی پڕ لە پەنەمان و شینبوونەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -545,12 +590,18 @@ class EnglishEntrybump extends StatelessWidget {
                               text: "٦. (ناو) زگی ژنێکی دووگیان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wore a black dress that showed off her expanding bump."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی ڕەشی لەبەرکردبوو کە سکە دووگیانییەکەی دەرخستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wore a black dress that showed off her expanding bump."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلێکی ڕەشی لەبەرکردبوو کە سکە دووگیانییەکەی دەرخستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -570,11 +621,18 @@ class EnglishEntrybump extends StatelessWidget {
                                   "٧. (ناو) بەشێکی شوێنێکی تەخت کە بەرزبووەتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We hit a bump and the car swerved."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە هەڵسووڕا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We hit a bump and the car swerved."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە هەڵسووڕا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -594,12 +652,18 @@ class EnglishEntrybump extends StatelessWidget {
                                   "٨. (ناو) ڕووداوێکی بچووک کە تێیدا ئۆتۆمبێلێک لە شتێک دەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had a bump in the car earlier, but it wasn’t serious."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکدادانێکی بچووکم هەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had a bump in the car earlier, but it wasn’t serious."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکدادانێکی بچووکم هەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

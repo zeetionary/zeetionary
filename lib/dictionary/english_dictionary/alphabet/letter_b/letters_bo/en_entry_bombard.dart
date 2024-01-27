@@ -169,12 +169,18 @@ class EnglishEntrybombard extends StatelessWidget {
 ١. (کردار) ھێرشکردنە سەر شوێنێک بە ھاویشتن یان بەردانەوەی بۆمبێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Madrid was heavily bombarded for several months."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەدرید بۆ چەند مانگێک بە سەختی بۆمباران کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Madrid was heavily bombarded for several months."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەدرید بۆ چەند مانگێک بە سەختی بۆمباران کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +200,17 @@ class EnglishEntrybombard extends StatelessWidget {
                                   "٢. (کردار) ئاراستەکردنی ژمارەیەکی زۆر لە پرسیار، ڕەخنە، ھتد لە کەسێک یان پێدانی ڕێژەیەکی زۆر لە زانیاری یان شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have been bombarded with letters of complaint."),
-                              const ExampleSentenceKurdish(
-                                  text: "دراوینەتە بەر نامەی ناڕەزایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have been bombarded with letters of complaint."),
+                                    ExampleSentenceKurdish(
+                                        text: "دراوینەتە بەر نامەی ناڕەزایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

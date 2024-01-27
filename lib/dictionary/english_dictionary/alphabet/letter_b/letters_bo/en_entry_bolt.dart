@@ -249,10 +249,17 @@ class EnglishEntrybolt extends StatelessWidget {
 ١. (ناو) کێلۆنە دەرگا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He slid back the bolt on the door."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێلۆنی دەرگاکەی کردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He slid back the bolt on the door."),
+                                    ExampleSentenceKurdish(
+                                        text: "کێلۆنی دەرگاکەی کردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +276,18 @@ class EnglishEntrybolt extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I closed the window and drew the bolt (= slid the bolt across)."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەنجەرەکەم گرت و کێلۆنەکەم داخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I closed the window and drew the bolt (= slid the bolt across)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنجەرەکەم گرت و کێلۆنەکەم داخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -293,12 +307,18 @@ class EnglishEntrybolt extends StatelessWidget {
                                   "٢. (ناو) بورغوو؛ پارچە ئاسنێک کە لەگەڵ نەتێک بەکاردێت بۆ بەستنی شت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Use a bolt and nut to fasten the parts together."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بورغوو و نەت بەکاربێنە بۆ بەستنی پارچەکان پێکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Use a bolt and nut to fasten the parts together."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بورغوو و نەت بەکاربێنە بۆ بەستنی پارچەکان پێکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -318,12 +338,18 @@ class EnglishEntrybolt extends StatelessWidget {
                                   "٣. (ناو) ھەورەتریشقەیەکی لەناکاو لە ئاسماندا لە شێوەی ھێڵێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thunder rumbled after a bright bolt of lightning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تریشقە گرماندی لە دوای چەخماخەیەکی ھەورەبرووسکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thunder rumbled after a bright bolt of lightning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تریشقە گرماندی لە دوای چەخماخەیەکی ھەورەبرووسکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -343,12 +369,18 @@ class EnglishEntrybolt extends StatelessWidget {
                                   "٤. (ناو) تیرێکی کورتی قورس کە لە کەوانێکەوە دەھاوێژرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The archer loaded a bolt into his crossbow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیرھاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The archer loaded a bolt into his crossbow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیرھاوێژەکە تیرێکی کورتی خستە کەوانەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -368,10 +400,16 @@ class EnglishEntrybolt extends StatelessWidget {
                                   "٥. (کردار) بەستنی دەرگایەک یان پەنجەرەیەک بە کێلۆنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't forget to bolt the door."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیرت نەچێت دەرگاکە کێلۆن بدە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't forget to bolt the door."),
+                                    ExampleSentenceKurdish(
+                                        text: "بیرت نەچێت دەرگاکە کێلۆن بدە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -390,12 +428,18 @@ class EnglishEntrybolt extends StatelessWidget {
                               text: "٦. (کردار) بەستنی شت پێکەوە بە بورغوو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The various parts of the car are then bolted together."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچە جیاوازەکانی ئۆتۆمبێلەکە دواتر پێکەوە دەبەسترێن بە بورغوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The various parts of the car are then bolted together."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچە جیاوازەکانی ئۆتۆمبێلەکە دواتر پێکەوە دەبەسترێن بە بورغوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -415,12 +459,18 @@ class EnglishEntrybolt extends StatelessWidget {
                                   "٧. (کردار) ڕاکردنی ئاژەڵێک، بەتایبەتی ئەسپ، بەھۆی ئەوەی ترساوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plane swooped down low and the horses bolted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەکە نزمبووەوە و ئەسپەکان ھەڵھاتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plane swooped down low and the horses bolted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە نزمبووەوە و ئەسپەکان ھەڵھاتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -439,12 +489,18 @@ class EnglishEntrybolt extends StatelessWidget {
                               text: "٨. (کردار) ڕاکردن، بەتایبەتی بۆ ھەڵھاتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When he saw the police arrive, he bolted down an alley."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا ھەڵھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When he saw the police arrive, he bolted down an alley."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە بینی پۆلیس گەشتن، بە کۆڵانێکدا ھەڵھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -463,10 +519,16 @@ class EnglishEntrybolt extends StatelessWidget {
                               text: "٩. (ناو) خواردنی شتێک بە خێرایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't bolt your food!"),
-                              const ExampleSentenceKurdish(
-                                  text: "خواردنەکە ھەڵمەلووشە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't bolt your food!"),
+                                    ExampleSentenceKurdish(
+                                        text: "خواردنەکە ھەڵمەلووشە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -486,12 +548,18 @@ class EnglishEntrybolt extends StatelessWidget {
                                   "١٠. (کردار) وەستان لە پشتگیری گرووپێک یان پارتێکی سیاسی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many Democrats bolted the party to vote Republican."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە ھێنا بۆ دەنگدان بە کۆمارییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many Democrats bolted the party to vote Republican."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر دەنگدەری دیموکراتەکان وازیان لە پارتەکە ھێنا بۆ دەنگدان بە کۆمارییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

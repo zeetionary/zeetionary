@@ -211,11 +211,18 @@ class EnglishEntrybattle extends StatelessWidget {
 ١. (ناو) شەڕی لە نێوان سوپا، کەشتی، یان فڕۆکە، بەتایبەتی لە کاتی جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Napoleon was defeated at the Battle of Waterloo."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناپلیۆن لە جەنگی واتەرلۆدا تێکشکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Napoleon was defeated at the Battle of Waterloo."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناپلیۆن لە جەنگی واتەرلۆدا تێکشکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,11 +240,17 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His father had been killed in battle."),
-                              const ExampleSentenceKurdish(
-                                  text: "باوکی لە جەنگدا کوژرا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His father had been killed in battle."),
+                                    ExampleSentenceKurdish(
+                                        text: "باوکی لە جەنگدا کوژرا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +270,18 @@ class EnglishEntrybattle extends StatelessWidget {
 ٢. (ناو) پێشبڕکێ، یان ھەوڵ و تێکۆشان بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She finally won her six-year battle for compensation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا ھەوڵە شەش ساڵییەکەی بردەوە بۆ قەرەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She finally won her six-year battle for compensation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتاییدا ھەوڵە شەش ساڵییەکەی بردەوە بۆ قەرەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -280,12 +299,18 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The essay discusses the endless battle between man and nature."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە باسی ململانێی بێ کۆتایی نێوان مرۆڤ و سرووشت دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The essay discusses the endless battle between man and nature."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە باسی ململانێی بێ کۆتایی نێوان مرۆڤ و سرووشت دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,12 +328,18 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He faces an uphill battle against a hostile press."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووبەڕووی ململانێیەکی دژوار دەبێتەوە دژ بە میدیایەکی دژبەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He faces an uphill battle against a hostile press."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبەڕووی ململانێیەکی دژوار دەبێتەوە دژ بە میدیایەکی دژبەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -328,12 +359,18 @@ class EnglishEntrybattle extends StatelessWidget {
 ٣. (ناو) ھەوڵیکی زۆر کە کەسێک دەیدات بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She finally lost her long battle against cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا جەنگە درێژەکەی دژ بە شێرپەنجە دۆڕاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She finally lost her long battle against cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتاییدا جەنگە درێژەکەی دژ بە شێرپەنجە دۆڕاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -351,12 +388,18 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have been at the forefront of the battle to save the hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بەرەی پێشەوەی تێکۆشان بوونە بۆ ھێشتنەوەی نەخۆشخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have been at the forefront of the battle to save the hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بەرەی پێشەوەی تێکۆشان بوونە بۆ ھێشتنەوەی نەخۆشخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -376,12 +419,18 @@ class EnglishEntrybattle extends StatelessWidget {
 ٤. (کردار) ھەوڵدانی زۆر بۆ بەدەستھێنانی شتێکی سەخت یان مامەڵەکردن لەگەڵ شتێکی ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two leaders are battling for control of the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو سەرکردەکە تێدەکۆشن بۆ ھەژموونیان بەسەر حکومەتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two leaders are battling for control of the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو سەرکردەکە تێدەکۆشن بۆ ھەژموونیان بەسەر حکومەتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -399,11 +448,18 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's still battling with a knee injury."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێشتا دەناڵێنێت بەسەر برینی ئەژنۆوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's still battling with a knee injury."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا دەناڵێنێت بەسەر برینی ئەژنۆوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -421,12 +477,18 @@ class EnglishEntrybattle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two sides will battle it out in the final next week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو بەرەکە ھەفتەی داھاتوو بۆ کۆتا جار ڕووبەڕوو دەبنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two sides will battle it out in the final next week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو بەرەکە ھەفتەی داھاتوو بۆ کۆتا جار ڕووبەڕوو دەبنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

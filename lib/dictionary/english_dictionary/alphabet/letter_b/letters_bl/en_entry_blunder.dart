@@ -169,12 +169,18 @@ class EnglishEntryblunder extends StatelessWidget {
 ١. (ھاوەڵناو) ھەڵەیەکی گەمژانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I made a blunder by getting his name wrong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵەیەکی گەمژانەم کرد بە وتنی ناوی بە ھەڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I made a blunder by getting his name wrong."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵەیەکی گەمژانەم کرد بە وتنی ناوی بە ھەڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntryblunder extends StatelessWidget {
                               text: "٢. (کردار) کردنی ھەڵەیەکی گەمژانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government had blundered in its handling of the affair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ھەڵەیەکی گەمژانەی کرد لە مامەڵەکردن لەگەڵ کێشەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government had blundered in its handling of the affair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ھەڵەیەکی گەمژانەی کرد لە مامەڵەکردن لەگەڵ کێشەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

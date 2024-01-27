@@ -165,11 +165,18 @@ class EnglishEntrybreathtaking extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر سەرنجڕاکێش و ناوازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The scene was one of breathtaking beauty."),
-                              const ExampleSentenceKurdish(
-                                  text: "دیمەنەکە جوانییەکی ناوازەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The scene was one of breathtaking beauty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیمەنەکە جوانییەکی ناوازەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breathtaking" as
                               Column(
                                 children: [
@@ -188,12 +195,18 @@ class EnglishEntrybreathtaking extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The birds pinpoint their prey with breathtaking accuracy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵندەکان نێچیر بە درووستی ناوازەوە دەدۆزنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The birds pinpoint their prey with breathtaking accuracy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵندەکان نێچیر بە درووستی ناوازەوە دەدۆزنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

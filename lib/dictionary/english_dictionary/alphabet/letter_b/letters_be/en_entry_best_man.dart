@@ -170,12 +170,18 @@ class EnglishEntrybestman extends StatelessWidget {
 ١. (ناو) کەسێک کە ھاوڕێ یان خزمی زاوایە لە ئاھەنگێکدا کە یارمەتی دەدا لەکاتی ئاھەنگەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The groom asked his best friend to be his best man."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاواکە داوای لە باشترین ھاوڕێی کرد ببێت بە برازاوای."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The groom asked his best friend to be his best man."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاواکە داوای لە باشترین ھاوڕێی کرد ببێت بە برازاوای."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

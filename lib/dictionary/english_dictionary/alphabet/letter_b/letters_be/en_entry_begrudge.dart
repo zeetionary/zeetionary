@@ -171,12 +171,18 @@ class EnglishEntrybegrudge extends StatelessWidget {
 ١. (کردار) ناڕەحەت بوون بەوەی کەسێک شتێکی ھەیە چونکە پێت‌وایە شایەنی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You surely don't begrudge him his happiness?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدڵنیاییەوە ناڕەحەت نیت بە دڵخۆشییەکەی؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You surely don't begrudge him his happiness?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدڵنیاییەوە ناڕەحەت نیت بە دڵخۆشییەکەی؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +200,17 @@ class EnglishEntrybegrudge extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't begrudge her being so successful."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناڕەحەت نابم بە سەرکەوتنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't begrudge her being so successful."),
+                                    ExampleSentenceKurdish(
+                                        text: "ناڕەحەت نابم بە سەرکەوتنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +230,18 @@ class EnglishEntrybegrudge extends StatelessWidget {
 ٢. (کردار) ناڕەحەت بوون بە کردن، پارەدان، یان پێدانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I begrudge every second I spent trying to help him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕقم لە ھەر چرکەیەک دەبێتەوە کە بەسەری دەبەم بە ھەوڵدان بۆ یارمەتیدانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I begrudge every second I spent trying to help him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕقم لە ھەر چرکەیەک دەبێتەوە کە بەسەری دەبەم بە ھەوڵدان بۆ یارمەتیدانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybegrudge extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They begrudge paying so much money for a a bad service like this."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕقیان لە پارەدانێکی وەھا زۆرە بۆ خزمەتێکی خراپی وەک ئەمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They begrudge paying so much money for a a bad service like this."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕقیان لە پارەدانێکی وەھا زۆرە بۆ خزمەتێکی خراپی وەک ئەمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

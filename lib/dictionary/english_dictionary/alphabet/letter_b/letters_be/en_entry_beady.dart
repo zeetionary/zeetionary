@@ -170,11 +170,18 @@ class EnglishEntrybeady extends StatelessWidget {
 ١. (ھاوەڵناو) چاوی بچووک و خڕ و درەوشاوە؛ سەیرکردنی ھەموو شتێکی بە چاوێکی بز و زەقەوە چونکە گومانت ھەیە شتێکی ھەڵە و خراپ ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I shall certainly keep a beady eye on his behaviour."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەدڵنیاییەوە بە زەقی چاودێری دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I shall certainly keep a beady eye on his behaviour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدڵنیاییەوە بە زەقی چاودێری دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,12 +164,18 @@ class EnglishEntrybroth extends StatelessWidget {
 ١. (ناو) شۆربایەک کە درووستکراوە بەوەی گۆشت، ماسی، یان سەوزەی تێکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I enjoyed a warm bowl of chicken broth when I was feeling under the weather."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە نەخۆش بووم دەفرێک لە مەرگەی گەرمم خوارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I enjoyed a warm bowl of chicken broth when I was feeling under the weather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە نەخۆش بووم دەفرێک لە مەرگەی گەرمم خوارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broth" as
                               Column(
                                 children: [

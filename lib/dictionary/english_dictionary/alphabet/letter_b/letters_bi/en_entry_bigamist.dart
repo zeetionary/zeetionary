@@ -168,12 +168,18 @@ class EnglishEntrybigamist extends StatelessWidget {
 ١. (ناو) کەسێک کە ھاوسەرگیری لەگەڵ کەسێک دەکات لەکاتێکدا ھێشتا ھاوسەری کەسێکی ترە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The marriage is not valid if one spouse is a bigamist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە ھاوسەرەکان پێشوەختە ھاوژینێکی ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The marriage is not valid if one spouse is a bigamist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوسەرگیرییەکە بە یاسایی دانانرێت ئەگەر یەکێک لە ھاوسەرەکان پێشوەختە ھاوژینێکی ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybaulk extends StatelessWidget {
 ١. (کردار) ناڕازی بە کردن یان رێوەگلان لە شتێک چونکە زۆر گران یان ترسناکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many parents may baulk at the idea of paying £100 for a pair of shoes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر دایک و باوک ڕەنگە ناڕازی بن بە پێدانی ١٠٠ پاوەند بە جووتە پێڵاوێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many parents may baulk at the idea of paying £100 for a pair of shoes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر دایک و باوک ڕەنگە ناڕازی بن بە پێدانی ١٠٠ پاوەند بە جووتە پێڵاوێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybaulk extends StatelessWidget {
 ٢. (کردار) وەستانی لەناکاوی ئەسپێک لە بازدان بەسەر پەرژینێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The horse baulked at the fence, refusing to jump it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەسپەکە لە پێش پەرژینەکە وەستا و ڕەتیکردەوە بازدا بەسەریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The horse baulked at the fence, refusing to jump it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەسپەکە لە پێش پەرژینەکە وەستا و ڕەتیکردەوە بازدا بەسەریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybaulk extends StatelessWidget {
 ٣. (کردار) ڕێگرتن لەوەی کەسێک شتێک بکات یان ھەیبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She looked like a lion baulked of its prey."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک شێرێک بوو کە لە نێچیرەکەی کرابێت (نێچیرەکەی دزرابێت)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked like a lion baulked of its prey."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک شێرێک بوو کە لە نێچیرەکەی کرابێت (نێچیرەکەی دزرابێت)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

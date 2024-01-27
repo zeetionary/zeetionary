@@ -172,12 +172,18 @@ class EnglishEntrybaker extends StatelessWidget {
 ١. (ناو) کەسێک کە پیشەی فرۆشتنی نان و کێکی برژاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has to get up at 4 a.m. for his job as a baker."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت کاتژمێر ٤ی بەرەبەیان لە خەو ھەڵبستێت بۆ کارەکەی وەک نانەوایەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has to get up at 4 a.m. for his job as a baker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت کاتژمێر ٤ی بەرەبەیان لە خەو ھەڵبستێت بۆ کارەکەی وەک نانەوایەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,16 @@ class EnglishEntrybaker extends StatelessWidget {
 ٢. (ناو) نانەواخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm just going to the baker's."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەنھا دەچم بۆ نانەواخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'm just going to the baker's."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەنھا دەچم بۆ نانەواخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

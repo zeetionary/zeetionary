@@ -166,12 +166,18 @@ class EnglishEntrybroadcaster extends StatelessWidget {
 ١. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is a writer and broadcaster on environmental matters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is a writer and broadcaster on environmental matters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسەر و پێشکەشکارە لەسەر بابەتە ژینگەییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broadcaster" as
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybroadcaster extends StatelessWidget {
                               text: "٢. (ناو) کۆمپانیا یان دەزگای پەخش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بی بی سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The BBC is the largest global broadcaster by number of employees with a staff of around 20,000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بی بی سی گەورەترین دەزگای پەخشی جیھانە بە ستافێکی نزیکەی ٢٠,٠٠٠ کەسییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

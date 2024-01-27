@@ -445,12 +445,18 @@ class EnglishEntrybut extends StatelessWidget {
 ١. (لێکدەر) بەڵام؛ بەڵکو؛ بۆ وتنی شتێک کە پێچەوانەی ئەوەیە کە پێشتر وتراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I got it wrong. It wasn't the red one but the blue one."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە هەڵە تێگەشتم. سوورەکە نەبوو بەڵکو شینەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I got it wrong. It wasn't the red one but the blue one."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە هەڵە تێگەشتم. سوورەکە نەبوو بەڵکو شینەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "but", follow LX strictly
                               Column(
                                 children: [
@@ -467,12 +473,18 @@ class EnglishEntrybut extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His mother won't be there, but his father might."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "براکەی لەوێ نابێت، بەڵام باوکی ئەگەری هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His mother won't be there, but his father might."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "براکەی لەوێ نابێت، بەڵام باوکی ئەگەری هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -495,7 +507,7 @@ class EnglishEntrybut extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "It isn't that he lied exactly, but he does tend to exaggerate."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەوە نییە کە درۆی کردبێت، بەڵام مەیلی هەیە مبالغە بکات."),
                                       const CustomSizedBoxForTTS(),
@@ -519,7 +531,7 @@ class EnglishEntrybut extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The play's good, but not that good - I've seen better."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "شانۆکە باشە، بەڵام زۆر باش نا، باشترم بینیوە."),
                                       const CustomSizedBoxForTTS(),
@@ -546,12 +558,18 @@ class EnglishEntrybut extends StatelessWidget {
                               text: "٢. (لێکدەر) سەرەڕای شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'd asked everybody but only two people came."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوام لە هەمووان کردبوو بێن بەڵام دوو کەس هاتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'd asked everybody but only two people came."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوام لە هەمووان کردبوو بێن بەڵام دوو کەس هاتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -568,12 +586,18 @@ class EnglishEntrybut extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "By the end of the day we were tired but happy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتایی ڕۆژەکەدا ماندوو بەڵام دڵخۆش بووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "By the end of the day we were tired but happy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتایی ڕۆژەکەدا ماندوو بەڵام دڵخۆش بووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -593,12 +617,18 @@ class EnglishEntrybut extends StatelessWidget {
                                   "٣. (لێکدەر) بۆ دەربڕینی لێبووردنخوازی سەبارەت بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm sorry but I can't stay any longer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەداخەوەم بەڵام ناتوانم چی دیکە بمێنمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm sorry but I can't stay any longer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەداخەوەم بەڵام ناتوانم چی دیکە بمێنمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -618,10 +648,16 @@ class EnglishEntrybut extends StatelessWidget {
                                   "٤. (لێکدەر) بۆ وتنی شتێک کە پیشانی دەدات سەرسامی بە یان تووڕەی لە شتێک، یان دژ بە شتێکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "But that's not possible!"),
-                              const ExampleSentenceKurdish(
-                                  text: "بەڵام ئەوە ناکرێت!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "But that's not possible!"),
+                                    ExampleSentenceKurdish(
+                                        text: "بەڵام ئەوە ناکرێت!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -639,12 +675,18 @@ class EnglishEntrybut extends StatelessWidget {
                           const DefinitionKurdish(text: "٥. (لێکدەر) جگە لە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had no choice but to sign the contract."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هیج هەڵبژاردەم نەبوو جگە لە واژۆکردنی ڕێککەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had no choice but to sign the contract."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیج هەڵبژاردەم نەبوو جگە لە واژۆکردنی ڕێککەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -664,12 +706,18 @@ class EnglishEntrybut extends StatelessWidget {
                                   "٦. (لێکدەر) بەکاردێت پێش دووبارەکردنەوەی وشەیەک بۆ ئەوەی جەختی لێ بکەیتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Nothing, but nothing would make him change his mind."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هیچ، هیچ شتێک ناتوانێت بیرکردنەوەی بگۆڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nothing, but nothing would make him change his mind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیچ، هیچ شتێک ناتوانێت بیرکردنەوەی بگۆڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -689,12 +737,18 @@ class EnglishEntrybut extends StatelessWidget {
                                   "٧. (لێکدەر) بۆ جەختکردنەوە لەوەی شتێک هەموو کات ڕاستە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She never passed her old home but she thought of the happy years she had spent there (= she always thought of them)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەرگیز بەلای خانووە کۆنەکەیدا تێنەپەڕی، بەڵام هەمیشە بیری لەو ڕۆژانە خۆشانە دەکردەوە کە لەوێ تێیپەڕاندن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She never passed her old home but she thought of the happy years she had spent there (= she always thought of them)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەرگیز بەلای خانووە کۆنەکەیدا تێنەپەڕی، بەڵام هەمیشە بیری لەو ڕۆژانە خۆشانە دەکردەوە کە لەوێ تێیپەڕاندن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -712,12 +766,18 @@ class EnglishEntrybut extends StatelessWidget {
                           const DefinitionKurdish(text: "٨. (ئامراز) جگە لە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We've had nothing but trouble with this car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هیچمان لەم ئۆتۆمبێلە نەدیوە جگە لە کێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've had nothing but trouble with this car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیچمان لەم ئۆتۆمبێلە نەدیوە جگە لە کێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -734,11 +794,18 @@ class EnglishEntrybut extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The problem is anything but easy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کێشەیە لە ئاسان زیاتر هیچی تر نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The problem is anything but easy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کێشەیە لە ئاسان زیاتر هیچی تر نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -761,7 +828,7 @@ class EnglishEntrybut extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Who but Rosa could think of something like that?"),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "جگە لە ڕۆزا کێ دەیتوانی بیر لە شتێکی وەها بکاتەوە؟"),
                                       const CustomSizedBoxForTTS(),
@@ -784,7 +851,7 @@ class EnglishEntrybut extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "Everyone was there but him."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "هەمووان لەوێ بوون جگە لە ئەو."),
                                       const CustomSizedBoxForTTS(),
@@ -810,12 +877,18 @@ class EnglishEntrybut extends StatelessWidget {
                           const DefinitionKurdish(text: "٩. (هاوەڵکار) تەنها"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were a lot of famous people there: Adele and Taylor Swift, to name but two."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسانی بەناوبانگی زۆر لەوێ بوون: ئادێڵ و تایلەر سویفت، ئەگەر تەنها ناوی دووان بوترێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were a lot of famous people there: Adele and Taylor Swift, to name but two."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسانی بەناوبانگی زۆر لەوێ بوون: ئادێڵ و تایلەر سویفت، ئەگەر تەنها ناوی دووان بوترێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -832,10 +905,16 @@ class EnglishEntrybut extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's but a young girl!"),
-                              const ExampleSentenceKurdish(
-                                  text: "تەنها کچێکی گەنجە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's but a young girl!"),
+                                    ExampleSentenceKurdish(
+                                        text: "تەنها کچێکی گەنجە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -855,12 +934,18 @@ class EnglishEntrybut extends StatelessWidget {
                                   "١٠. (ناو) هۆکارێک کە کەسێک هەیەتی بۆ نەکردنی شتێک یان دژبوون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "With so many ifs and buts, it is easier to wait and see."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەم هەموو ئەگەر و نەگەرەوە، باشتر وایە چاوەڕێ بیت و ببینیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "With so many ifs and buts, it is easier to wait and see."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەم هەموو ئەگەر و نەگەرەوە، باشتر وایە چاوەڕێ بیت و ببینیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

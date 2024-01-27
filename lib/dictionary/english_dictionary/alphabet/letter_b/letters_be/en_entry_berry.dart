@@ -170,12 +170,18 @@ class EnglishEntryberry extends StatelessWidget {
 ١. (ناو) میوەیەکی بچووک کە لە بنجێکدا سەوز دەبێت و ھەندێک جۆری دەخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Birds feed on nuts and berries in the winter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵندە میوەی کاکڵدار و توو دەخۆن لە زستاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Birds feed on nuts and berries in the winter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵندە میوەی کاکڵدار و توو دەخۆن لە زستاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

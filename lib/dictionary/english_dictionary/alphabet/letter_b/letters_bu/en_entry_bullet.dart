@@ -167,10 +167,17 @@ class EnglishEntrybullet extends StatelessWidget {
 ١. (ناو) فیشەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There were bullet holes in the door."),
-                              const ExampleSentenceKurdish(
-                                  text: "کونی فیشەک لە دەرگاکەدا هەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were bullet holes in the door."),
+                                    ExampleSentenceKurdish(
+                                        text: "کونی فیشەک لە دەرگاکەدا هەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullet", follow LX strictly
                               Column(
                                 children: [
@@ -187,11 +194,18 @@ class EnglishEntrybullet extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was found to have a single bullet wound in his chest."),
-                              const ExampleSentenceKurdish(
-                                  text: "زانرا کە برینێکی فیشەک لە سنگیدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was found to have a single bullet wound in his chest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانرا کە برینێکی فیشەک لە سنگیدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,11 +221,17 @@ class EnglishEntrybullet extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was killed by a bullet in the head."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە فیشەکێک لە سەریدا کوژرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was killed by a bullet in the head."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە فیشەکێک لە سەریدا کوژرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,11 +248,18 @@ class EnglishEntrybullet extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A stray bullet whistled past his ear."),
-                              const ExampleSentenceKurdish(
-                                  text: "فیشەکێکی وێڵ بە لاگوێیدا تێپەڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A stray bullet whistled past his ear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیشەکێکی وێڵ بە لاگوێیدا تێپەڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

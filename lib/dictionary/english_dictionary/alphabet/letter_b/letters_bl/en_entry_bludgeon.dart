@@ -169,10 +169,17 @@ class EnglishEntrybludgeon extends StatelessWidget {
 ١. (کردار) لێدانی کەسێک چەند جارێک بە شتێکی قوورس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had been bludgeoned to death."),
-                              const ExampleSentenceKurdish(
-                                  text: "کوتەک کاری کرا تا مردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had been bludgeoned to death."),
+                                    ExampleSentenceKurdish(
+                                        text: "کوتەک کاری کرا تا مردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntrybludgeon extends StatelessWidget {
                                   "٢. (کردار) زۆرکردن لە کەسێک تا شتێک بکات، بە تایبەتی بە مشتومڕکردن لەگەڵی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They tried to bludgeon me into joining their protest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵیان دا پەلکێشم بکەنە ناو ناڕەزاییەتییەکەیانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They tried to bludgeon me into joining their protest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیان دا پەلکێشم بکەنە ناو ناڕەزاییەتییەکەیانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

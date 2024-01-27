@@ -168,10 +168,17 @@ class EnglishEntrybiceps extends StatelessWidget {
 ١. (ناو) ماسوولکەی سەرەکی پێشەوەی بەشی سەرەوەی باڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He showed off his bulging biceps."),
-                              const ExampleSentenceKurdish(
-                                  text: "عەزەڵاتە پڕەکەی دەرخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He showed off his bulging biceps."),
+                                    ExampleSentenceKurdish(
+                                        text: "عەزەڵاتە پڕەکەی دەرخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

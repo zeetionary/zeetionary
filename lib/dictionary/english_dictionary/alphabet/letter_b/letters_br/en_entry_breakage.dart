@@ -167,12 +167,18 @@ class EnglishEntrybreakage extends StatelessWidget {
 ١. (ناو) شتێکی شکاو، یان شکانی شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The last time we moved house there were very few breakages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆتا جار کە ماڵمان گواستەوە شکانی شت کەم ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The last time we moved house there were very few breakages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆتا جار کە ماڵمان گواستەوە شکانی شت کەم ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybreakage extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Wrap it up carefully to protect against breakage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەوریاییەوە بیپێچەوە بۆ پاراستن لە شکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Wrap it up carefully to protect against breakage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەوریاییەوە بیپێچەوە بۆ پاراستن لە شکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

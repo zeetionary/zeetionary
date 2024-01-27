@@ -171,12 +171,18 @@ class EnglishEntrybacker extends StatelessWidget {
 ١. (ناو) کەسێک کە یارمەت پێشکەش دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The project receives its money from European backers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆژەکە پارە بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The project receives its money from European backers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆژەکە پارە بۆ دابین دەکرێت لە پشتیوانە ئەورووپییەکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

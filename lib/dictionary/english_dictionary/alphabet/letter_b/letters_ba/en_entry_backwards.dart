@@ -173,10 +173,16 @@ class EnglishEntrybackwards extends StatelessWidget {
 ١. (ھاوەڵکار) بەرەو دواوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He took a step backwards."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەنگاوێکی بەرەو دواوە نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He took a step backwards."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەنگاوێکی بەرەو دواوە نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybackwards extends StatelessWidget {
 ٢. (ھاوەڵکار) پێچەوانەی دۆخی ئاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Ambulance’ is written backwards so you can read it in the mirror."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Ambulance’ is written backwards so you can read it in the mirror."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybackwards extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the movie they take a journey backward through time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the movie they take a journey backward through time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,12 +267,18 @@ class EnglishEntrybackwards extends StatelessWidget {
 ٣. (ھاوەڵکار) بۆ دۆخێکی خراپتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt that going to live with my parents would be a step backward."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt that going to live with my parents would be a step backward."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

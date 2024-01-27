@@ -168,10 +168,16 @@ class EnglishEntryblustery extends StatelessWidget {
 ١. (ھاوەڵناو) کەشوھەوایەک کە بای توندی لەگەڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The day was cold and blustery."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆژەکە سارد و پڕبا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The day was cold and blustery."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕۆژەکە سارد و پڕبا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

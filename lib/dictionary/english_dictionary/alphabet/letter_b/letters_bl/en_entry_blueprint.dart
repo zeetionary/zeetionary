@@ -169,12 +169,18 @@ class EnglishEntryblueprint extends StatelessWidget {
 ١. (ناو) کۆپییەکی وێنەیی پلانێک بۆ بینایەک یان ئامێرێک کە ھێڵی سپی لەسەرە و پشتەوەی شینە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blueprint showed plans for an underground nuclear shelter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخشەکە پلانەکانی بۆ پەناگەیەکی ژێرزەمینی ئەتۆمی پیشان دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blueprint showed plans for an underground nuclear shelter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخشەکە پلانەکانی بۆ پەناگەیەکی ژێرزەمینی ئەتۆمی پیشان دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +200,18 @@ class EnglishEntryblueprint extends StatelessWidget {
                                   "٢. (ناو) پلانێک کە پیشانی دەدات چی دەتوانرێت بکرێت و چی بەدەستدەھێنرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government does not have a blueprint for reform."),
-                              const ExampleSentenceKurdish(
-                                  text: "حکومەت نەخشە ڕێگای بۆ چاکسازی نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government does not have a blueprint for reform."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت نەخشە ڕێگای بۆ چاکسازی نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

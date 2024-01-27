@@ -169,12 +169,18 @@ class EnglishEntrybluntness extends StatelessWidget {
 ١. (ناو) شێوازی قسەکردنێک کە چی لە دڵت بووێ دەیڵێیت بەبێ ھەوڵدان بۆ ئەوەی بەڕێز بیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She later apologized for her bluntness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دواتر داوای لێبووردنی کرد بۆ قسەلەڕووییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She later apologized for her bluntness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دواتر داوای لێبووردنی کرد بۆ قسەلەڕووییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +199,18 @@ class EnglishEntrybluntness extends StatelessWidget {
                               text: "٢. (ناو) ئەوەی شتێک کول بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bluntness of the knife made cutting difficult."),
-                              const ExampleSentenceKurdish(
-                                  text: "کولیی چەقۆکە وایکرد بڕین گران بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bluntness of the knife made cutting difficult."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کولیی چەقۆکە وایکرد بڕین گران بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -212,12 +212,18 @@ class EnglishEntrybuttercup extends StatelessWidget {
 ١. (ناو) ڕووەکێکی دەشتی کە گوڵی زەردی بچووک دەگرێت کە وەک کوپن لە شێوەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children enjoy picking buttercups in spring."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەهاردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children enjoy picking buttercups in spring."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەهاردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttercup", follow LX strictly
                               Column(
                                 children: [

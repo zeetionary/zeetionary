@@ -165,10 +165,16 @@ class EnglishEntrybroaden extends StatelessWidget {
 ١. (کردار) پانبوون، فراوانبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her smile broadened."),
-                              const ExampleSentenceKurdish(
-                                  text: "بزەکەی گەورەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her smile broadened."),
+                                    ExampleSentenceKurdish(
+                                        text: "بزەکەی گەورەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broaden" as
                               Column(
                                 children: [
@@ -187,12 +193,18 @@ class EnglishEntrybroaden extends StatelessWidget {
                               text: "٢. (کردار) زیادبوونی کاریگەری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This seems to be an attempt to broaden his political appeal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە وەک ھەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This seems to be an attempt to broaden his political appeal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە وەک ھەوڵێک دیارە بۆ فراوانکردنی وێنای سیاسیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +224,18 @@ class EnglishEntrybroaden extends StatelessWidget {
                                   "٣. (کردار) زیادکردنی ئەزموون، شارەزایی، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Spending a year working in the city helped to broaden his horizons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەسەربردنی ساڵیک لە شار بە کارکردنەوە تێگەشتنی فراوان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Spending a year working in the city helped to broaden his horizons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەسەربردنی ساڵیک لە شار بە کارکردنەوە تێگەشتنی فراوان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -214,12 +214,18 @@ class EnglishEntrybumper extends StatelessWidget {
 ١. (ناو) پارچەیەک کە لە ئۆتۆمبێل دەبەسترێت بۆ کەمکردنەوەی زیانی پێکدادان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cars were bumper to bumper on the road to the coast (= so close that their bumpers were nearly touching)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cars were bumper to bumper on the road to the coast (= so close that their bumpers were nearly touching)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکان تەواو لێک نزیک بوون لەسەر ڕێگای چوون بۆ کەنارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumper", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrybumper extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He crashed into the van, denting its bumper."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشای بە ڤانەکەدا و زەربەگێڕەوەکەی قوپاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He crashed into the van, denting its bumper."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشای بە ڤانەکەدا و زەربەگێڕەوەکەی قوپاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +272,18 @@ class EnglishEntrybumper extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) زۆر گەورە؛ بە ئاستێکی زۆر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Farmers have been celebrating bumper crops this year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Farmers have been celebrating bumper crops this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیاران خۆشیان لە دانەوێڵەی زۆری بینیوە ئەمساڵ ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntrybarometer extends StatelessWidget {
 ١. (ناو) ئەمێرێکی بۆ پێوانی پەستانی ھەوا و دیاریکردنی گۆڕانی کەشوھەوا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barometer has been steady for three days now."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تا ئێستا پەستان‌پێوەکە سێ ڕۆژ دەبێت نەگۆڕاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barometer has been steady for three days now."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تا ئێستا پەستان‌پێوەکە سێ ڕۆژ دەبێت نەگۆڕاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybarometer extends StatelessWidget {
 ٢. (ناو) شتێک کە پیشانی دەدات گۆڕان لە دۆخێکدا ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Infant mortality is a reliable barometer of socio-economic conditions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گیان لەدەستندانی منداڵی ساوا پێوەرێکی باشە بۆ زانینی دۆخی ئابووری و کۆمەڵایەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Infant mortality is a reliable barometer of socio-economic conditions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیان لەدەستندانی منداڵی ساوا پێوەرێکی باشە بۆ زانینی دۆخی ئابووری و کۆمەڵایەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybarometer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The skin is an accurate barometer of your state of health."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێست پێوەرێکی درووستە بۆ زانینی دۆخی تەندرووستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The skin is an accurate barometer of your state of health."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێست پێوەرێکی درووستە بۆ زانینی دۆخی تەندرووستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

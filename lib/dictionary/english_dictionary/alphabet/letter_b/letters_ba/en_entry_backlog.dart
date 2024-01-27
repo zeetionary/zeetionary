@@ -171,12 +171,18 @@ class EnglishEntrybacklog extends StatelessWidget {
 ١. (ناو) ژمارەیەک کار کە دەبوو پێشتر بکرابان، بەڵام ھێشتا نەکراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When she eventually returned to work, there was a tremendous backlog of paperwork to catch up on."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک لە کۆتاییدا گەڕایەوە سەر کار، ژمارەیەکی زۆر کەڵەکەبوونی کاغەزکاری ھەبوو کە دەبوو پێی ڕابگات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When she eventually returned to work, there was a tremendous backlog of paperwork to catch up on."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک لە کۆتاییدا گەڕایەوە سەر کار، ژمارەیەکی زۆر کەڵەکەبوونی کاغەزکاری ھەبوو کە دەبوو پێی ڕابگات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

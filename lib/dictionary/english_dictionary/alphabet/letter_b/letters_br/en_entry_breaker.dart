@@ -166,12 +166,18 @@ class EnglishEntrybreaker extends StatelessWidget {
 ١. (ناو) شەپۆلێکی گەورە کە بەرەو وشکانی دێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw another ship out beyond the breakers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتییەکی دیکەم دی کە لە پشتەوەی شەپۆلەکانەوە دەرکەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I saw another ship out beyond the breakers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییەکی دیکەم دی کە لە پشتەوەی شەپۆلەکانەوە دەرکەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -173,12 +173,18 @@ class EnglishEntryballet extends StatelessWidget {
 ١. (ناو) جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Natalie is, without a doubt, the star student in this year's ballet class."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Natalie is, without a doubt, the star student in this year's ballet class."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryballet extends StatelessWidget {
 ٢. (ناو) چیرۆکێک یان کارێکی ھونەری کە لەلایەن ژمارەیەک سەماکاری بالێوە نمایش دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "By the age of 15 he had already composed his first ballet (= music for a ballet)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "By the age of 15 he had already composed his first ballet (= music for a ballet)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntryballet extends StatelessWidget {
 ٣. (ناو) ژمارەیەک سەماکاری بالێ کە پێکەوە سەما دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The members of the Royal Ballet are renowned for their grace, athleticism, and artistry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The members of the Royal Ballet are renowned for their grace, athleticism, and artistry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

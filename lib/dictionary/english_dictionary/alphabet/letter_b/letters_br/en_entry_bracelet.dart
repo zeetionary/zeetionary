@@ -166,12 +166,18 @@ class EnglishEntrybracelet extends StatelessWidget {
 ١. (ناو) خشڵێک کە لە مەچەک و باڵ دەبەسترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a charm bracelet on her wrist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەست‌بەندێکی جوانی لە مەچەکی بەستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a charm bracelet on her wrist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەست‌بەندێکی جوانی لە مەچەکی بەستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

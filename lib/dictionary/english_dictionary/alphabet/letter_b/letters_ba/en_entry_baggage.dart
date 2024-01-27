@@ -172,10 +172,18 @@ class EnglishEntrybaggage extends StatelessWidget {
 ١. (ناو) جانتایەک کە کەلوپەل و شتومەکی کەسێکی تێدایە لە کاتی گەشتکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We loaded our baggage into the car."),
-                              const ExampleSentenceKurdish(
-                                  text: "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We loaded our baggage into the car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,10 +203,17 @@ class EnglishEntrybaggage extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's claim our baggage first."),
-                              const ExampleSentenceKurdish(
-                                  text: "با سەرەتا جانتاکانمان وەربگرینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's claim our baggage first."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با سەرەتا جانتاکانمان وەربگرینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +235,18 @@ class EnglishEntrybaggage extends StatelessWidget {
 ٢. (ناو) ئەو کەلوپەلانەی کە سوپایەک لەگەڵ خۆی دەیانبات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Extensive baggage trains followed the troops."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Extensive baggage trains followed the troops."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

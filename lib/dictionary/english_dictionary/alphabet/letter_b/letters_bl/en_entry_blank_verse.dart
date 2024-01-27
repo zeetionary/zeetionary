@@ -166,12 +166,18 @@ class EnglishEntryblankverse extends StatelessWidget {
 ١. (ناو) ھەڵبەستی سپی یان ئازاد، ھۆنراوەی یان شێعری بێ‌سەروا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە ھەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The playwright chose to write the entire play in blank verse for a more natural and conversational tone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شانۆنووسەکە بڕیاریدا تەواوی شانۆکە بە ھەڵبەستی ئازاد بنووسێت بۆ پێدانی تۆنێکی سرووشتی و گفتوگۆیانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -245,12 +245,18 @@ class EnglishEntrybitter extends StatelessWidget {
 ١. (ھاوەڵناو) تاڵ؛ تامێکی توندی ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Black coffee leaves a bitter taste in the mouth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قاوەی ڕەش تامێکی تاڵ لە دەمدا جێدێڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Black coffee leaves a bitter taste in the mouth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قاوەی ڕەش تامێکی تاڵ لە دەمدا جێدێڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,12 +275,18 @@ class EnglishEntrybitter extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This plant is ignored by livestock because of the bitter taste."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەڕوماڵات ڕووەکەکە ناخۆن بەھۆی تامە تاڵەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This plant is ignored by livestock because of the bitter taste."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەڕوماڵات ڕووەکەکە ناخۆن بەھۆی تامە تاڵەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -295,12 +307,18 @@ class EnglishEntrybitter extends StatelessWidget {
                                   "٢. (ھاوەڵناو) مشتومڕێک یان ناکۆکییەک کە کە توندە و ڕق و تووڕەیی تێدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were bitter foes for many years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕکابەری سەرسەختی یەکدی بوون بۆ ساڵانێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were bitter foes for many years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕکابەری سەرسەختی یەکدی بوون بۆ ساڵانێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -319,10 +337,16 @@ class EnglishEntrybitter extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They had a bitter divorce."),
-                              const ExampleSentenceKurdish(
-                                  text: "جیابوونەوەیەکی تاڵیان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They had a bitter divorce."),
+                                    ExampleSentenceKurdish(
+                                        text: "جیابوونەوەیەکی تاڵیان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -343,11 +367,18 @@ class EnglishEntrybitter extends StatelessWidget {
                                   "٣. (ھاوەڵناو) ھەستکردن بە دڵتەنگی و تووڕەیی چونکە پێت وایە خراپ مامەڵەت لەگەڵ کراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is very bitter about losing her job."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر ناڕەحەتە بە لەدەستدانی کارەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is very bitter about losing her job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ناڕەحەتە بە لەدەستدانی کارەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -368,12 +399,18 @@ class EnglishEntrybitter extends StatelessWidget {
                                   "٤. (ھاوەڵناو) شتێک کە وات لێ دەکات ناڕەحەت بیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Losing the match was a bitter disappointment for the team."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆڕاندنی یارییەکە نائومێدییەکی ناخۆش بوو بۆ تیمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Losing the match was a bitter disappointment for the team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆڕاندنی یارییەکە نائومێدییەکی ناخۆش بوو بۆ تیمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -393,10 +430,16 @@ class EnglishEntrybitter extends StatelessWidget {
                               text: "٥. (ھاوەڵناو) سارد و ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's really bitter out today."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمڕۆ دەرەوە تەواو ساردە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It's really bitter out today."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەمڕۆ دەرەوە تەواو ساردە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -417,10 +460,16 @@ class EnglishEntrybitter extends StatelessWidget {
                                   "٦. (ناو) بیرەیەک کە تامێکی تاڵی توندی ھەیە لەگەڵ ڕەنگێکی تۆخ، و لە ئینگلتەرە و وێڵز بەناوبانگە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A can of bitter, please."),
-                              const ExampleSentenceKurdish(
-                                  text: "قوتوویەک ئاوجۆی تاڵ، بێزەحمەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A can of bitter, please."),
+                                    ExampleSentenceKurdish(
+                                        text: "قوتوویەک ئاوجۆی تاڵ، بێزەحمەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

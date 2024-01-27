@@ -171,12 +171,18 @@ class EnglishEntrybeset extends StatelessWidget {
 ١. (کردار) ھەبوونی کاریگەری خراپ و زیانبەخش لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team was beset by injury all season."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە تەواوی وەرزەکە گیرۆدەی پێکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team was beset by injury all season."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە تەواوی وەرزەکە گیرۆدەی پێکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybeset extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's one of the most difficult problems besetting our modern way of life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە یەکێکە لە گەورەترین کێشە گەورەکان کە ژیانی سەردەم پێوەی گیرۆدە بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's one of the most difficult problems besetting our modern way of life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە یەکێکە لە گەورەترین کێشە گەورەکان کە ژیانی سەردەم پێوەی گیرۆدە بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

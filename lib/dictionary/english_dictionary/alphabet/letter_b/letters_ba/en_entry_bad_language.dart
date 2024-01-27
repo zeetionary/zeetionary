@@ -172,11 +172,18 @@ class EnglishEntrybadlanguage extends StatelessWidget {
 ١. (ناو) زمانی ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's far too much bad language on television."),
-                              const ExampleSentenceKurdish(
-                                  text: "قسەی پیس لەسەر تەلەفیزیۆن زۆرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's far too much bad language on television."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قسەی پیس لەسەر تەلەفیزیۆن زۆرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

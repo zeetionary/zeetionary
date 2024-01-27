@@ -168,10 +168,17 @@ class EnglishEntrybbc extends StatelessWidget {
 ١. (ناو) دامەزراوەیەکی نیشتیمانی کە پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی پەخشدەکات و لەلایەن خەڵکەوە پارەی بۆ دەدرێت وەک لە ڕیکلامکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The BBC broadcasts every day."),
-                              const ExampleSentenceKurdish(
-                                  text: "بی بی سی ھەموو ڕۆژێک پەخشدەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The BBC broadcasts every day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بی بی سی ھەموو ڕۆژێک پەخشدەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

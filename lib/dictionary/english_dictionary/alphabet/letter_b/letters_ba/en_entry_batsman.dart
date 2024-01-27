@@ -165,12 +165,18 @@ class EnglishEntrybatsman extends StatelessWidget {
 ١. (ناو) یاریزانێک کە لە تۆپەکە دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The next four batsmen made just 21 between them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چوار داربە دەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The next four batsmen made just 21 between them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوار داربە دەستی دواتر پێکەوە ٢١ خاڵیان تۆمارکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -174,12 +174,18 @@ class EnglishEntrybeginning extends StatelessWidget {
 ١. (ناو) کاتی دەستپێکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A story has to have a beginning, middle, and end."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چیرۆکێک دەبێت سەرەتا، ناوەڕاست، و کۆتایی ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A story has to have a beginning, middle, and end."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چیرۆکێک دەبێت سەرەتا، ناوەڕاست، و کۆتایی ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +203,17 @@ class EnglishEntrybeginning extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We missed the beginning of the movie."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرەتای فیلمەکەمان لەدەستچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We missed the beginning of the movie."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەرەتای فیلمەکەمان لەدەستچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybeginning extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's been working there since the beginning of last summer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەرەتای ھاوینی ڕابردووەوە لەوێ کاردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been working there since the beginning of last summer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەرەتای ھاوینی ڕابردووەوە لەوێ کاردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +262,18 @@ class EnglishEntrybeginning extends StatelessWidget {
 ٢. (ناو) یەکەم یان سەرەتاییترینی کۆمەڵە بیرۆکەیەک، نیشانەیەک، یان قۆناغی شتێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Did democracy have its beginnings in ancient Greece?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیموکراسی سەرەتاکەی لە یۆنانی کۆنەوە بوو؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Did democracy have its beginnings in ancient Greece?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیموکراسی سەرەتاکەی لە یۆنانی کۆنەوە بوو؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +291,18 @@ class EnglishEntrybeginning extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The city had its beginnings in Roman times."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارەکە بنەڕەتەکەی دەگەڕێتەوە بۆ سەردەمی ڕۆمەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city had its beginnings in Roman times."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە بنەڕەتەکەی دەگەڕێتەوە بۆ سەردەمی ڕۆمەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

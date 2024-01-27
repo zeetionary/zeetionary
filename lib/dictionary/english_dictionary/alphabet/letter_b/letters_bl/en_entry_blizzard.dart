@@ -170,12 +170,18 @@ class EnglishEntryblizzard extends StatelessWidget {
 ١. (ناو) بەفربارینێکی زۆر لەگەڵ بای بەھێزدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blizzard struck the north-east yesterday, causing serious damage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوبۆرانەکە لە باکووری ڕۆژھەڵاتی دا دوێنێ و بووە ھۆی زیانی زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blizzard struck the north-east yesterday, causing serious damage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوبۆرانەکە لە باکووری ڕۆژھەڵاتی دا دوێنێ و بووە ھۆی زیانی زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryblizzard extends StatelessWidget {
                               text: "٢. (ناو) ڕێژەیەکی زۆر لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her social media post attracted a blizzard of likes and shares."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆستەکەی لە سۆشیال میدیا ژمارەیەکی زۆر لایک و ھاوبەشکردنی بۆ ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her social media post attracted a blizzard of likes and shares."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆستەکەی لە سۆشیال میدیا ژمارەیەکی زۆر لایک و ھاوبەشکردنی بۆ ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntryblizzard extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The chef received a blizzard of compliments for the delicious meal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێفەکە ژمارەیەکی زۆر دەستخۆشی پێگەیشت بۆ ژەمە خواردنە خۆشەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The chef received a blizzard of compliments for the delicious meal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێفەکە ژمارەیەکی زۆر دەستخۆشی پێگەیشت بۆ ژەمە خواردنە خۆشەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,11 +172,18 @@ class EnglishEntrybachelor extends StatelessWidget {
 ١. (ناو) پیاوێک کە ھیچ کات ھاوسەرگیری نەکردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was 38, and a confirmed bachelor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was 38, and a confirmed bachelor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەمەنی ٣٨ ساڵ بوو ھیچ ھاوسەرگیری نەکردبوو (و ناشیەوێت)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +205,18 @@ class EnglishEntrybachelor extends StatelessWidget {
 ٢. (ناو) کەسێک کە بڕوانامەی بەکالۆریۆسی ھەیە (یەکەم بڕوانامەی زانکۆ)، یان بڕوانامەکە خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bachelor of arts graduate was eager to start her career."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bachelor of arts graduate was eager to start her career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی دەرچووی بەکالۆریۆس لە ھونەر بوو بەپەرۆش بوو کارەکەی دەستپێ‌بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

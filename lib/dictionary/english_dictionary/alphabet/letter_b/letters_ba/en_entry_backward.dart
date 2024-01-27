@@ -218,10 +218,18 @@ class EnglishEntrybackward extends StatelessWidget {
 ١. (ھاوەڵناو) بەرەو دواوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She left without a backward glance."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆشت بەبێ ئەوەی سەیری دواوە بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She left without a backward glance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆشت بەبێ ئەوەی سەیری دواوە بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +251,18 @@ class EnglishEntrybackward extends StatelessWidget {
 ٢. (ھاوەڵناو) بە ئاراستەیەک کە واتا ھیچ بەرەوپێشچوون ڕووینەداوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt that going back to live in her home town would be a backward step."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وای ھەستکرد گەڕانەوە بۆ ژیانکردن لە شارەکەی ھەنگاوێکی بەتاڵ دەبێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt that going back to live in her home town would be a backward step."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وای ھەستکرد گەڕانەوە بۆ ژیانکردن لە شارەکەی ھەنگاوێکی بەتاڵ دەبێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -270,11 +284,17 @@ class EnglishEntrybackward extends StatelessWidget {
 ٣. (ھاوەڵناو) کەمتر لە کەسانی تر یان شتی تر لە ڕووی گەشە و پێشکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's not backward in coming forward (= she's not shy)."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناسڵەمێتەوە لە ھاتنە پێشەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's not backward in coming forward (= she's not shy)."),
+                                    ExampleSentenceKurdish(
+                                        text: "ناسڵەمێتەوە لە ھاتنە پێشەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +314,18 @@ class EnglishEntrybackward extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People still think of it as a backward country (= one without industry or modern machines)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی ھێشتا وەک وڵاتێکی دواکەوتوو بیری‌لێ‌دەکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People still think of it as a backward country (= one without industry or modern machines)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی ھێشتا وەک وڵاتێکی دواکەوتوو بیری‌لێ‌دەکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -321,12 +347,18 @@ class EnglishEntrybackward extends StatelessWidget {
 ٤. (ھاوەڵناو) منداڵێک کە ئاسان فێرنابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When he was a child, his teachers thought he was backward (= unable to learn as much as most children)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە منداڵ بوو مامۆستاکان وایان دەزانی گەلحۆیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When he was a child, his teachers thought he was backward (= unable to learn as much as most children)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە منداڵ بوو مامۆستاکان وایان دەزانی گەلحۆیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -348,10 +380,16 @@ class EnglishEntrybackward extends StatelessWidget {
 ٥. (ھاوەڵکار) بەرەو دواوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He took a step backward."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەنگاوێکی بەرەو دواوە نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He took a step backward."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەنگاوێکی بەرەو دواوە نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -373,12 +411,18 @@ class EnglishEntrybackward extends StatelessWidget {
 ٦. (ھاوەڵکار) پێچەوانەی دۆخی ئاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Ambulance’ is written backwards so you can read it in the mirror."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Ambulance’ is written backwards so you can read it in the mirror."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -397,12 +441,18 @@ class EnglishEntrybackward extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the movie they take a journey backward through time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the movie they take a journey backward through time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -424,12 +474,18 @@ class EnglishEntrybackward extends StatelessWidget {
 ٧. (ھاوەڵکار) بۆ دۆخێکی خراپتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt that going to live with my parents would be a step backward."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt that going to live with my parents would be a step backward."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

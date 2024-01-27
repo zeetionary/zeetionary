@@ -169,11 +169,18 @@ class EnglishEntrybloodily extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە توندوتیژی و کووشتنی زۆر لە خۆدەگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The uprising was bloodily suppressed."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرھەڵدانەکە دڕندانە سەرکوتکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The uprising was bloodily suppressed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرھەڵدانەکە دڕندانە سەرکوتکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,10 +197,17 @@ class EnglishEntrybloodily extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The war raged bloodily on."),
-                              const ExampleSentenceKurdish(
-                                  text: "جەنگەکە دڕندانە بەردەوامی کێشا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The war raged bloodily on."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەنگەکە دڕندانە بەردەوامی کێشا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +227,18 @@ class EnglishEntrybloodily extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە خوێنی زۆر لەخۆدەگرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Protestors collided bloodily with police."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆپیشاندەران بەخوێناوییانە لەگەڵ پۆلیس تێکئاڵان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Protestors collided bloodily with police."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆپیشاندەران بەخوێناوییانە لەگەڵ پۆلیس تێکئاڵان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntrybetrayer extends StatelessWidget {
 ١. (ناو) کەسێکی خیانەتکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Judas Iscariot is remembered as Christ's betrayer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەھودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەھێندرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Judas Iscariot is remembered as Christ's betrayer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەھودا ئیسخاریۆت وەک خیانەتکار لە پێغەمبەر عیسا بەبیردەھێندرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

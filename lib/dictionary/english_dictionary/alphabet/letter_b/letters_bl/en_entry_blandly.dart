@@ -169,12 +169,18 @@ class EnglishEntryblandly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو بە کەمی پیشان دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their home is blandly but expensively decorated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماڵەکەیان بە سادەیی بەڵام گرانبەھایی دیکۆرات کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their home is blandly but expensively decorated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماڵەکەیان بە سادەیی بەڵام گرانبەھایی دیکۆرات کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblandly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بەبێ پیشاندانی ھەست و جۆشوخرۆشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He blandly declared that he could not be held responsible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە وشکی و لەسەرخۆیی وتی کە ناکرێت بە بەرپرسیار دابنرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He blandly declared that he could not be held responsible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە وشکی و لەسەرخۆیی وتی کە ناکرێت بە بەرپرسیار دابنرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

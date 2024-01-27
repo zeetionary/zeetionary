@@ -163,10 +163,16 @@ class EnglishEntrybrokenhome extends StatelessWidget {
 ١. (ناو) خێزانی لێک‌ھەڵوەشاو؛ خێزانێک کە دایک و باوکەکەی جیابوونەتەوە یان بە جیایی دەژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She comes from a broken home."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە خێزانێکی داڕماو گەورەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She comes from a broken home."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە خێزانێکی داڕماو گەورەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broken home" as
                               Column(
                                 children: [
@@ -183,12 +189,18 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Almost all of these young people came from broken homes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەنزیکەیی زۆرینەی ئەم منداڵە گەنجانە لە خێزانە لێک‌ھەڵوەشاوەکانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Almost all of these young people came from broken homes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەنزیکەیی زۆرینەی ئەم منداڵە گەنجانە لە خێزانە لێک‌ھەڵوەشاوەکانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

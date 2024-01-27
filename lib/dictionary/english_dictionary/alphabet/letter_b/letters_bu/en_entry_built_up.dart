@@ -162,12 +162,18 @@ class EnglishEntrybuiltup extends StatelessWidget {
 ١. (ناو) ناوچەیەکی کە بە بینا و ڕێگاوبان ئاوەدان کراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "City council plans to lower speed limit in built-up areas to 30 km/h."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەنجوومەنی شارەکە پلانی هەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "City council plans to lower speed limit in built-up areas to 30 km/h."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەنجوومەنی شارەکە پلانی هەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "built-up", follow LX strictly
                               Column(
                                 children: [

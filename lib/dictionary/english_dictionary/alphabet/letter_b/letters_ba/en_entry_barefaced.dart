@@ -165,11 +165,17 @@ class EnglishEntrybarefaced extends StatelessWidget {
 ١. (ھاوەڵناو) بێ‌شەرم و بەبێ ھیچ ھەوڵێک بۆ شاردنەوەی ڕووی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That's a barefaced lie!"), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە درۆیەکی بێ‌شەرمانەیە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That's a barefaced lie!"), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوە درۆیەکی بێ‌شەرمانەیە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybarefaced extends StatelessWidget {
 ٢. (ھاوەڵناو) بەبێ مەیکەپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I prefer a barefaced, natural look."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕوویەکی سرووشتی بێ مەیکەپم لا پەسەندە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I prefer a barefaced, natural look."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕوویەکی سرووشتی بێ مەیکەپم لا پەسەندە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

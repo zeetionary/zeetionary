@@ -170,12 +170,18 @@ class EnglishEntrybazooka extends StatelessWidget {
 ١. (ناو) چەکێکی درێژ کە شیوەی لوولەیی ھەیە و دەخرێتە سەر شان بۆ ھاویشتنی دژ بە تانک و ئۆتۆمبێلی سەربازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He knocked out an enemy tank with his bazooka."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تانکێکی دووژمنی تەقاندەوە بە دژەتانکەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He knocked out an enemy tank with his bazooka."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تانکێکی دووژمنی تەقاندەوە بە دژەتانکەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

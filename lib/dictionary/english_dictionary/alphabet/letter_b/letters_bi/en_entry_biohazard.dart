@@ -168,12 +168,18 @@ class EnglishEntrybiohazard extends StatelessWidget {
 ١. (ناو) شتێک، بۆ نموونە نەخۆشییەک یان مادەیەکی کیمیایی، کە دەکرێت زیان بە خەڵکی یان ئاژەڵان بگەیەنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The threat of biohazards for workers in health-care and other human services is increasing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەترسییە زیندەییەکان بۆ کارمەندان لە بواری تەندرووستی و خزمەتگوزارییە مرۆییەکانی دیکە لە زیادبووندایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The threat of biohazards for workers in health-care and other human services is increasing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەترسییە زیندەییەکان بۆ کارمەندان لە بواری تەندرووستی و خزمەتگوزارییە مرۆییەکانی دیکە لە زیادبووندایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

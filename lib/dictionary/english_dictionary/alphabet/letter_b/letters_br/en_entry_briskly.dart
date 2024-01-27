@@ -167,12 +167,18 @@ class EnglishEntrybriskly extends StatelessWidget {
 ١. (ھاوەڵکار) بەخێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She walked briskly over to the phone and answered it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەخێرایی چوو بۆ لای تەلەفۆنەکە و وەڵامی دایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She walked briskly over to the phone and answered it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخێرایی چوو بۆ لای تەلەفۆنەکە و وەڵامی دایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "briskly" as
                               Column(
                                 children: [
@@ -189,10 +195,16 @@ class EnglishEntrybriskly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The game is selling briskly."),
-                              const ExampleSentenceKurdish(
-                                  text: "یارییەکی بەخێرایی دەفرۆشرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The game is selling briskly."),
+                                    ExampleSentenceKurdish(
+                                        text: "یارییەکی بەخێرایی دەفرۆشرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +224,18 @@ class EnglishEntrybriskly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بەشێوەیەکی پراکتیکی و بە متمانەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'Let's get started,' he said, rubbing his hands briskly together."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتێکی دەستی بە یەکدا دەھێنا وتی 'با دەستپێ بکەین'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'Let's get started,' he said, rubbing his hands briskly together."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتێکی دەستی بە یەکدا دەھێنا وتی 'با دەستپێ بکەین'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,10 +255,16 @@ class EnglishEntrybriskly extends StatelessWidget {
                                   "٣. (ھاوەڵکار) کە بایەک بە ساردی بەڵام خۆشی ھەڵدەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The wind was blowing briskly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بایەکە بە فێنکی ھەڵیکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The wind was blowing briskly."),
+                                    ExampleSentenceKurdish(
+                                        text: "بایەکە بە فێنکی ھەڵیکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntryblight extends StatelessWidget {
 ١. (کردار) ھەبوونی کاریگەرییەکی خراپ لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A broken leg blighted her chances of winning the championship."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاق شکاوی شانسی بردنەوەی پاڵەوانێتییەکەی بۆی خستە مەترسییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A broken leg blighted her chances of winning the championship."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاق شکاوی شانسی بردنەوەی پاڵەوانێتییەکەی بۆی خستە مەترسییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblight extends StatelessWidget {
                                   "٢. (ناو) ھەر نەخۆشییەک کە تووشی ڕووەک ببێت، بەتایبەتی دانەوێڵە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many areas have been devastated by blights which destroyed cereal crops and vines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر ناوچە وێرانبوونە بە ئافات کە بەرھەمی دانەوێڵە و دار مێوی لەناوبردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many areas have been devastated by blights which destroyed cereal crops and vines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر ناوچە وێرانبوونە بە ئافات کە بەرھەمی دانەوێڵە و دار مێوی لەناوبردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntryblight extends StatelessWidget {
                                   "٣. (ناو) شتێک کە کاریگەرییەکی خراپی ھەیە لەسەر دۆخێک، ژیانی کەسێک، یان ژینگە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their divorce was a great blight on the life of their children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جیابوونەوەکەیان بەڵایەکی گەورە بوو بۆ ژیانی منداڵەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their divorce was a great blight on the life of their children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیابوونەوەکەیان بەڵایەکی گەورە بوو بۆ ژیانی منداڵەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

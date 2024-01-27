@@ -173,12 +173,18 @@ class EnglishEntrybirth extends StatelessWidget {
 ١. (ناو) کاتی لەدایکبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baby weighed three kilos at birth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە سێ کیلۆ بوو لە کاتی لەدایکبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baby weighed three kilos at birth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە سێ کیلۆ بوو لە کاتی لەدایکبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,10 +202,17 @@ class EnglishEntrybirth extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Mark has been blind from birth."),
-                              const ExampleSentenceKurdish(
-                                  text: "مارک لە زگماکەوە کوێر بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mark has been blind from birth."),
+                                    ExampleSentenceKurdish(
+                                        text: "مارک لە زگماکەوە کوێر بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +232,18 @@ class EnglishEntrybirth extends StatelessWidget {
 ٢. (ناو) سەرەتای شتێکی (دۆخێک، بیرۆکەیەک، شوێنێک، ھتد) نوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This declaration marked the birth of a new society in South Africa."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاگەیاندنەکە سەرەتای کۆمەڵگەیەکی تازەی لە باشووری ئەفریقا دیاریکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This declaration marked the birth of a new society in South Africa."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاگەیاندنەکە سەرەتای کۆمەڵگەیەکی تازەی لە باشووری ئەفریقا دیاریکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +263,18 @@ class EnglishEntrybirth extends StatelessWidget {
 ٣. (ناو) بنەچەی کەسێک یان باری کۆمەڵایەتی خێزانەکەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Anne was French by birth but lived most of her life in Italy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئان بە بنەچە فەرەنسی بوو، بەڵام زۆرینەی ژیانی لە ئیتالیا بەسەربرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Anne was French by birth but lived most of her life in Italy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئان بە بنەچە فەرەنسی بوو، بەڵام زۆرینەی ژیانی لە ئیتالیا بەسەربرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

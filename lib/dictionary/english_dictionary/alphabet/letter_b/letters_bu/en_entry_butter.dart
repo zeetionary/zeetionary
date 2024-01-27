@@ -214,10 +214,16 @@ class EnglishEntrybutter extends StatelessWidget {
 ١. (ناو) خواردنێکی زەردی نەرم کە بەکاردێت لە خواردن درووستکردندا و بڵاوکردنەوە لەسەر نان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Fry the onions in butter."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیازەکان لە ڕۆندا سووربکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Fry the onions in butter."),
+                                    ExampleSentenceKurdish(
+                                        text: "پیازەکان لە ڕۆندا سووربکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butter", follow LX strictly
                               Column(
                                 children: [
@@ -234,12 +240,18 @@ class EnglishEntrybutter extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Melt the butter in a small pan, add the flour and stir well."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆنەکە لە تاوەیەکی بچووکدا بتاوێنەوە و ئاردەکەی تێبکە و جوان تێی ڕادە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Melt the butter in a small pan, add the flour and stir well."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆنەکە لە تاوەیەکی بچووکدا بتاوێنەوە و ئاردەکەی تێبکە و جوان تێی ڕادە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,7 +274,7 @@ class EnglishEntrybutter extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "This butter doesn't spread very well."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "ئەم کرێمە باش بڵاونابێتەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -288,12 +300,18 @@ class EnglishEntrybutter extends StatelessWidget {
                               text: "٢. (کردار) بڵاوکردنەوەی کەرە لەسەر شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She buttered four thick slices of bread."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چوار پارچە نانی ئەستووری بە کەرە چەور کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She buttered four thick slices of bread."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوار پارچە نانی ئەستووری بە کەرە چەور کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

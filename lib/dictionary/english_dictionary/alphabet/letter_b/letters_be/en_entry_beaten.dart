@@ -168,11 +168,18 @@ class EnglishEntrybeaten extends StatelessWidget {
 ١. (ھاوەڵناو) زێڕ یان کانزایەکی تر کە پانکراوەتەوە بە کوتران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing a necklace of beaten gold."),
-                              const ExampleSentenceKurdish(
-                                  text: "ملوانکەیەکی زێڕی کوتراوی لە مل بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was wearing a necklace of beaten gold."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ملوانکەیەکی زێڕی کوتراوی لە مل بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

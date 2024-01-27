@@ -175,12 +175,18 @@ class EnglishEntryballot extends StatelessWidget {
 ١. (ناو) سیستەمی دەنگدان لەسەر کاغەز و بەنھێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The club members decided in a ballot to suspend the captain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The club members decided in a ballot to suspend the captain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryballot extends StatelessWidget {
 ٢. (ناو) پەڕەیەک کە کەسێک دەنگی لەسەر دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What percentage of voters cast their ballots?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What percentage of voters cast their ballots?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,10 +241,16 @@ class EnglishEntryballot extends StatelessWidget {
 ٣. (ناو) ڕێژەی گشتی دەنگدان لە ھەڵبژاردنێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She won 58.8% of the ballot."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She won 58.8% of the ballot."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +272,18 @@ class EnglishEntryballot extends StatelessWidget {
 ٤. (کردار) داواکردن لە خەڵکی بۆ دەنگدانی نھێنی لەسەر کاغەز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The union balloted its members on the proposed changes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The union balloted its members on the proposed changes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,10 +305,18 @@ class EnglishEntryballot extends StatelessWidget {
 ٥. (کردار) دەنگدانی نھێنی لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The workers balloted for a strike."),
-                              const ExampleSentenceKurdish(
-                                  text: "کرێکاران دەنگیان بۆ مانگرتن دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The workers balloted for a strike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێکاران دەنگیان بۆ مانگرتن دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

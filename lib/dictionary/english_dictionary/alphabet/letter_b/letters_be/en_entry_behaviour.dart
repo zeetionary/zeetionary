@@ -174,12 +174,18 @@ class EnglishEntrybehaviour extends StatelessWidget {
 ١. (ناو) شێوازی ھەڵسوکەوت و ڕەفتاری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His behaviour towards her was becoming more and more aggressive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسوکەوتی بەرامبەری بەردەوام توندوتیژترانە دەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His behaviour towards her was becoming more and more aggressive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسوکەوتی بەرامبەری بەردەوام توندوتیژترانە دەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +203,18 @@ class EnglishEntrybehaviour extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I noticed a change in his behaviour."),
-                              const ExampleSentenceKurdish(
-                                  text: "تێبینی گۆڕانێکم لە ھەڵسوکەوتی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I noticed a change in his behaviour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێبینی گۆڕانێکم لە ھەڵسوکەوتی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +232,18 @@ class EnglishEntrybehaviour extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I know you were upset, but that doesn't excuse your behaviour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەزانم بێزار بوویت، بەڵام ئەوە نابێتە بیانوو بۆ ڕەفتاری خراپت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I know you were upset, but that doesn't excuse your behaviour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەزانم بێزار بوویت، بەڵام ئەوە نابێتە بیانوو بۆ ڕەفتاری خراپت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +263,18 @@ class EnglishEntrybehaviour extends StatelessWidget {
 ٢. (ناو) شێوازی مامەڵە یان کارکردنی کەسێک، ئاژەڵێک، ڕووەکێک، ھتد لە دۆخێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Quantum theory describes the behaviour of subatomic particles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیردۆزی کوانتەم باسی کارکردنی تەنۆلکەی ژێرگەردیلەیی دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Quantum theory describes the behaviour of subatomic particles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیردۆزی کوانتەم باسی کارکردنی تەنۆلکەی ژێرگەردیلەیی دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +292,18 @@ class EnglishEntrybehaviour extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Activity near the birds' nest is bound to affect their behaviour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چالاکی نزیک لە ھێلانەی باڵندەکە بە ئەگەری زۆر کاریگەری لەسەر جوڵانەوەیان جێدێڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Activity near the birds' nest is bound to affect their behaviour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چالاکی نزیک لە ھێلانەی باڵندەکە بە ئەگەری زۆر کاریگەری لەسەر جوڵانەوەیان جێدێڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

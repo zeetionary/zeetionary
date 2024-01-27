@@ -173,10 +173,16 @@ class EnglishEntryballoon extends StatelessWidget {
 ١. (ھاوەڵناو) فودانکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My balloon has burst!"),
-                              const ExampleSentenceKurdish(
-                                  text: "فودانکەکەم تەقی!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My balloon has burst!"),
+                                    ExampleSentenceKurdish(
+                                        text: "فودانکەکەم تەقی!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,10 +204,16 @@ class EnglishEntryballoon extends StatelessWidget {
 ٢. (ناو) باڵۆنێکی گەورە کە لە مادەی بەھێز پێکھاتووە کە پڕکراوە لە گاس یان ھەوای گەرم بۆ ئەوەی بەرزبێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We went up in a balloon."),
-                              const ExampleSentenceKurdish(
-                                  text: "سواری باڵۆنێک بووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We went up in a balloon."),
+                                    ExampleSentenceKurdish(
+                                        text: "سواری باڵۆنێک بووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,10 +235,18 @@ class EnglishEntryballoon extends StatelessWidget {
 ٣. (کردار) درووستکردنی شێوەیەکی خڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her skirt ballooned out in the wind."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەنوورەکەی لە بایەکەدا خڕبوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her skirt ballooned out in the wind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنوورەکەی لە بایەکەدا خڕبوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -248,11 +268,17 @@ class EnglishEntryballoon extends StatelessWidget {
 ٤. (کردار) بەرزبوونەوە بەخێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Unemployment ballooned to fourteen per cent."),
-                              const ExampleSentenceKurdish(
-                                  text: "بێکاری ھەڵبەزی بۆ ١٤٪."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Unemployment ballooned to fourteen per cent."),
+                                    ExampleSentenceKurdish(
+                                        text: "بێکاری ھەڵبەزی بۆ ١٤٪."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -274,12 +300,18 @@ class EnglishEntryballoon extends StatelessWidget {
 ٥. (کردار) گەشتکردن بە باڵۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He planned to become the first person to balloon over the North Pole."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He planned to become the first person to balloon over the North Pole."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

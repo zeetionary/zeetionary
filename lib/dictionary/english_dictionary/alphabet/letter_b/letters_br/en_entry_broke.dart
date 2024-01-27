@@ -165,11 +165,18 @@ class EnglishEntrybroke extends StatelessWidget {
 ١. (ھاوەڵناو) بێ پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm always broke by the end of the month."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە لەکۆتایی مانگدا بێ پارەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm always broke by the end of the month."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە لەکۆتایی مانگدا بێ پارەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broke" as
                               Column(
                                 children: [
@@ -186,12 +193,18 @@ class EnglishEntrybroke extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "During the recession thousands of small businesses went broke (= had to stop doing business)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی قەیرانەکەدا چەندین بازرگانیی بچووک مایەپووچ بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "During the recession thousands of small businesses went broke (= had to stop doing business)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی قەیرانەکەدا چەندین بازرگانیی بچووک مایەپووچ بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

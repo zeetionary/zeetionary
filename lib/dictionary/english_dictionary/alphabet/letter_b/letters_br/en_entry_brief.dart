@@ -353,10 +353,16 @@ class EnglishEntrybrief extends StatelessWidget {
 ١. (ھاوەڵناو) بۆ ماوەیەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Mozart's life was brief."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیانی مۆزارت کورتخایەن بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Mozart's life was brief."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژیانی مۆزارت کورتخایەن بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brief" as
                               Column(
                                 children: [
@@ -373,12 +379,18 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      " He said nothing during the brief court appearance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچی نەگوت لە ئامادەبوونە کورتەکەی لە دادگادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            " He said nothing during the brief court appearance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچی نەگوت لە ئامادەبوونە کورتەکەی لە دادگادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -401,7 +413,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He died after a relatively brief period of suffering."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "گیانی لەدەستدا لە دوای ماوەیەکی کەم لە ئازارکێشان."),
                                       const CustomSizedBoxForTTS(),
@@ -425,7 +437,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Could you make it brief? I've got a meeting in ten minutes."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەتوانی بە کورتی بیڵێیت؟ کۆبوونەوەیەکم ھەیە لە چەند خولەکێکی تردا."),
                                       const CustomSizedBoxForTTS(),
@@ -452,11 +464,17 @@ class EnglishEntrybrief extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) بەکارھێنانی وشەی کەم"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please be brief (= say what you want to say quickly)."),
-                              const ExampleSentenceKurdish(
-                                  text: "تکایە بە کورتی/زوویی بیڵێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please be brief (= say what you want to say quickly)."),
+                                    ExampleSentenceKurdish(
+                                        text: "تکایە بە کورتی/زوویی بیڵێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -473,12 +491,18 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Section 1 of the book gives a brief history of Mexico."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشی یەکەمی کتێبەکە مێژووی کورتی مەکسیک دەخاتە بەردەست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Section 1 of the book gives a brief history of Mexico."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشی یەکەمی کتێبەکە مێژووی کورتی مەکسیک دەخاتە بەردەست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -497,12 +521,18 @@ class EnglishEntrybrief extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) جلێکی کورت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing a fairly brief skirt, as I recall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی ئەوەی بیرم بێت تەنوورەیەکی تاڕادەیەک کورتی لەبەربوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was wearing a fairly brief skirt, as I recall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی ئەوەی بیرم بێت تەنوورەیەکی تاڕادەیەک کورتی لەبەربوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -522,12 +552,18 @@ class EnglishEntrybrief extends StatelessWidget {
                                   "٤. (ناو) کۆمەڵێک ڕێنمایی کە بە کەسێک دەدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It wasn't part of his brief to speak to the press."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە بەشێک لە ڕێنمایەکانی نەبوو کە بە میدیاکان بڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It wasn't part of his brief to speak to the press."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە بەشێک لە ڕێنمایەکانی نەبوو کە بە میدیاکان بڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -544,12 +580,18 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's not part of my brief to advise on financial matters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە بەشێک لە ڕاسپاردەکانم نییە کە ڕاوێژ کە باسی ئابووریدا بدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's not part of my brief to advise on financial matters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە بەشێک لە ڕاسپاردەکانم نییە کە ڕاوێژ کە باسی ئابووریدا بدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -569,10 +611,16 @@ class EnglishEntrybrief extends StatelessWidget {
                                   "٥. (ناو) کەیسێکی یاسایی کە دەدرێت بە پارێزەرێک بۆ ئەوەی لە دادگا بەرگری لێ بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Will you accept this brief?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم کەیسە/دۆسیەیە وەردەگریت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Will you accept this brief?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم کەیسە/دۆسیەیە وەردەگریت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -592,10 +640,16 @@ class EnglishEntrybrief extends StatelessWidget {
                                   "٦. (ناو) پارێزەرێک کە بەرگری لە کەیسێک دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I want to see my brief."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەمەوێت پارێزەرەکەم ببینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I want to see my brief."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەمەوێت پارێزەرەکەم ببینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -615,12 +669,18 @@ class EnglishEntrybrief extends StatelessWidget {
                                   "٧. (ناو) زانیاری و ڕێنمایی کە لە کۆبوونەوەیەکدا دەدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were given daily briefs by the general."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیاری ڕۆژانەمان پێدەدرا لەلایەن ژەنەراڵەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were given daily briefs by the general."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیاری ڕۆژانەمان پێدەدرا لەلایەن ژەنەراڵەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -640,12 +700,18 @@ class EnglishEntrybrief extends StatelessWidget {
                                   "٨. (کردار) پێدانی زانیاری بە کەسێک بۆ ئەوەی ئامادە بێت مامەڵەی لەگەڵدا بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I expect to be kept fully briefed at all times."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەڕێی ئەوە دەکەم ھەموو کات زانیاریم پێ بدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I expect to be kept fully briefed at all times."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوەڕێی ئەوە دەکەم ھەموو کات زانیاریم پێ بدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -662,12 +728,18 @@ class EnglishEntrybrief extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The officer briefed her on what to expect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەرەکە زانیاریی پێدا لەسەر ئەوەی چاوەڕێی چی بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The officer briefed her on what to expect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەفسەرەکە زانیاریی پێدا لەسەر ئەوەی چاوەڕێی چی بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -690,7 +762,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We had already been briefed about/on what the job would entail."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پێشوەختە زانیاریمان پێدرابوو کە کارەکە چی لەخۆدەگرێت."),
                                       const CustomSizedBoxForTTS(),
@@ -714,7 +786,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The men have been fully briefed about the mission."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "سەربازەکان بە تەواوی زانیارییان پێدراوە لەسەر ئەرکەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -742,12 +814,18 @@ class EnglishEntrybrief extends StatelessWidget {
                                   "٩. (کردار) ئاشکراکردنی زانیاری لەسەر کەسێک/شتێک بە مەبەستی دژایەتی یان پەسندانی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On several occasions government officials briefed against their own ministers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ژمارەیەک بۆنەدا بەرپرسانی حکومەت زانیارییان دژ بە وەزیرەکانی خۆیان ئاشکراکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On several occasions government officials briefed against their own ministers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژمارەیەک بۆنەدا بەرپرسانی حکومەت زانیارییان دژ بە وەزیرەکانی خۆیان ئاشکراکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

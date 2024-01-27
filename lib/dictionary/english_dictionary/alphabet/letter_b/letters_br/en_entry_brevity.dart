@@ -166,11 +166,17 @@ class EnglishEntrybrevity extends StatelessWidget {
 ١. (ناو) بەکارھێنانی وشەی کەم لە قسەکردندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The report is a masterpiece of brevity."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕاپۆرتەکە شاکارێکی پوختییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The report is a masterpiece of brevity."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕاپۆرتەکە شاکارێکی پوختییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brevity" as
                               Column(
                                 children: [
@@ -187,12 +193,18 @@ class EnglishEntrybrevity extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Charles Dickens was not known for his brevity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چارڵس دیکنز ناسراو نەبوو بۆ بۆ کەمدووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Charles Dickens was not known for his brevity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چارڵس دیکنز ناسراو نەبوو بۆ بۆ کەمدووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +222,18 @@ class EnglishEntrybrevity extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) کورتخایەن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite the brevity of the meeting, important decisions were made."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای کورتخایەنی کۆبوونەوەکە، بڕیاری گرنگ دران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite the brevity of the meeting, important decisions were made."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای کورتخایەنی کۆبوونەوەکە، بڕیاری گرنگ دران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,7 +170,7 @@ class EnglishEntrybaytree extends StatelessWidget {
                           //     const ExampleSentenceEnglish(
                           //         text:
                           //             "speakBaytrees111111111111111111111111111111111"),
-                          //     const ExampleSentenceKurdish(
+                          //     ExampleSentenceKurdish(
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     CustomIconButtonBritish(
                           //       onPressed: () => speakBaytrees1("en-GB"),

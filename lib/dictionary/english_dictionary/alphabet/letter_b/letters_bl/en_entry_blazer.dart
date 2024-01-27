@@ -166,12 +166,18 @@ class EnglishEntryblazer extends StatelessWidget {
 ١. (ناو) چاکەتێک کە ڕەنگەکەی جیاوازە لە ڕەنگی پانتۆڵ یان تەنوورەکەیکە لەگەڵی لەبەر دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was smartly dressed in a blazer and slacks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی جوان چاکەت و پانتۆڵی لەبەرکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was smartly dressed in a blazer and slacks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی جوان چاکەت و پانتۆڵی لەبەرکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

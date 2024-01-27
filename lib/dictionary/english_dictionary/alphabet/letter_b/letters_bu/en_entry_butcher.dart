@@ -217,12 +217,18 @@ class EnglishEntrybutcher extends StatelessWidget {
 ١. (ناو) قەساب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Every morning, the butcher displays fresh cuts in the shop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەموو بەیانییەک قەسابەکە گۆشتی تازە هەڵدەواسێت لە قەسابخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Every morning, the butcher displays fresh cuts in the shop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموو بەیانییەک قەسابەکە گۆشتی تازە هەڵدەواسێت لە قەسابخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butcher", follow LX strictly
                               Column(
                                 children: [
@@ -240,11 +246,18 @@ class EnglishEntrybutcher extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) قەسابخانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He owns the butcher's in the main street."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەسابخانەی شەقامە سەرەکییەکەی هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He owns the butcher's in the main street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەسابخانەی شەقامە سەرەکییەکەی هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +276,18 @@ class EnglishEntrybutcher extends StatelessWidget {
                               text: "٣. (ناو) کەسێک کە دڕندانە خەڵک دەکوژێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ruthless dictator was known as a political butcher."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیکتاتۆرە بێ‌بەزەییەکە ناسراو بوو وەک خوێنڕێژێکی سیاسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ruthless dictator was known as a political butcher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیکتاتۆرە بێ‌بەزەییەکە ناسراو بوو وەک خوێنڕێژێکی سیاسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +307,18 @@ class EnglishEntrybutcher extends StatelessWidget {
                                   "٤. (کردار) کوشتنی خەڵکی بەشێوەیەکی دڕندانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Unarmed civilians are being butchered by the occupying forces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هاوڵاتیی مەدەنیی بێ‌چەک لەلایەن هێزە داگیرکەرەکانەوە دەکوژرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Unarmed civilians are being butchered by the occupying forces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هاوڵاتیی مەدەنیی بێ‌چەک لەلایەن هێزە داگیرکەرەکانەوە دەکوژرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,12 +338,18 @@ class EnglishEntrybutcher extends StatelessWidget {
                                   "٥. (کردار) کوشتنی ئاژەڵ بۆ بەکارهێنان و فرۆشتن یان خواردنی گۆشتەکەی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is where farmers brought their livestock to be butchered."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە ئەوێیە کە ئاژەڵداران مەڕوماڵاتەکەیان هێنا بۆ ئەوەی سەرببڕدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is where farmers brought their livestock to be butchered."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە ئەوێیە کە ئاژەڵداران مەڕوماڵاتەکەیان هێنا بۆ ئەوەی سەرببڕدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,12 +368,18 @@ class EnglishEntrybutcher extends StatelessWidget {
                               text: "٦. (کردار) کردنی شتێک بە خراپی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I couldn't bear to hear our national anthem being butchered like that."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەمدەتوانی گوێم لە ئەنزیمی نیشتیمانیمان بێت بەو شێوەیە بشێوێندرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I couldn't bear to hear our national anthem being butchered like that."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمدەتوانی گوێم لە ئەنزیمی نیشتیمانیمان بێت بەو شێوەیە بشێوێندرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

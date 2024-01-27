@@ -168,12 +168,18 @@ class EnglishEntrybooktoken extends StatelessWidget {
 ١. (ناو) کاردێک کە وەک دیاری دەبەخشرێت و نرخێکی دیاریکراوی ھەیە، و دەتوانرێت بەکاربھێندرێت تەنھا بۆ کڕینی کتێب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was gifted a £10 book token on my birthday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆپۆنێکی کتێبی ١٠ پاوەندیم وەک دیاری پێ بەخشرا لە ڕۆژی لەدایکبوونم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was gifted a £10 book token on my birthday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆپۆنێکی کتێبی ١٠ پاوەندیم وەک دیاری پێ بەخشرا لە ڕۆژی لەدایکبوونم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

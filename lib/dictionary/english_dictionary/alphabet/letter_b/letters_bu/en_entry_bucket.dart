@@ -169,12 +169,18 @@ class EnglishEntrybucket extends StatelessWidget {
 ١. (ناو) سەتڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children ran down to the beach with their buckets and spades."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children ran down to the beach with their buckets and spades."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان بە کەنارەکەدا ڕایان دەکرد بە سەتڵ و خاکەنازەکانیانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bucket" as
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybucket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cleaner put down his mop and bucket and sat down."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاککەرەوەکە عەرزسڕ و سەتڵەکەی دانا و دانیشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cleaner put down his mop and bucket and sat down."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاککەرەوەکە عەرزسڕ و سەتڵەکەی دانا و دانیشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybucket extends StatelessWidget {
                               text: "٢. (ناو) قەپی شۆفڵ یان حەفارە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The excavator's bucket scooped up the loose earth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەپی حەفارەکە زەوییە نەرمەکەی ھەڵکەند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The excavator's bucket scooped up the loose earth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەپی حەفارەکە زەوییە نەرمەکەی ھەڵکەند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,11 +258,17 @@ class EnglishEntrybucket extends StatelessWidget {
                                   "٣. (ناو) ئەو ڕێژەیەی لە سەتڵێکدا جێگای دەبێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They used to drink tea by the bucketful (= in large quantities)."),
-                              const ExampleSentenceKurdish(
-                                  text: "جاران چایان زۆر دەخواردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They used to drink tea by the bucketful (= in large quantities)."),
+                                    ExampleSentenceKurdish(
+                                        text: "جاران چایان زۆر دەخواردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +285,18 @@ class EnglishEntrybucket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She poured the bucket of dirty water down the drain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەتڵی ئاوە پیسەکەی ڕژاندە ناو ئاوەڕۆکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She poured the bucket of dirty water down the drain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەتڵی ئاوە پیسەکەی ڕژاندە ناو ئاوەڕۆکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +315,18 @@ class EnglishEntrybucket extends StatelessWidget {
                               text: "٤. (ناو) ڕێژەیەکی زۆر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was sweating buckets by the end of the race."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتایی پێشبڕکێیەکەدا یەکجار زۆر ئارەقەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was sweating buckets by the end of the race."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتایی پێشبڕکێیەکەدا یەکجار زۆر ئارەقەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

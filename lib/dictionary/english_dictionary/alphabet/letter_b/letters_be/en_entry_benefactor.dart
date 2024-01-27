@@ -170,12 +170,18 @@ class EnglishEntrybenefactor extends StatelessWidget {
 ١. (ناو) کەسێک کە پارە یان شتومەک دەبەخشێت بە کەسێک یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An anonymous benefactor donated £20 000."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاکەکارێکی نەناسراو ٢٠٠٠٠ پاوەندی بەخشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An anonymous benefactor donated £20 000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاکەکارێکی نەناسراو ٢٠٠٠٠ پاوەندی بەخشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

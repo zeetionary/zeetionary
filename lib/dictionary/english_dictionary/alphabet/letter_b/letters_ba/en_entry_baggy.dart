@@ -171,11 +171,18 @@ class EnglishEntrybaggy extends StatelessWidget {
 ١. (ھاوەڵناو) جلی فش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My T-shirt went all baggy in the wash."),
-                              const ExampleSentenceKurdish(
-                                  text: "فانیلەکەم لە شۆردنەکەدا فش بووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My T-shirt went all baggy in the wash."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فانیلەکەم لە شۆردنەکەدا فش بووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

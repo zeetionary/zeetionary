@@ -166,12 +166,18 @@ class EnglishEntrybrowser extends StatelessWidget {
 ١. (ناو) پڕۆگرامێکی کۆمپیوتەری کە بەکاردێت بۆ گيران بە ئینتەرنێت و خوێندنەوە تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What do you use as your default browser?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What do you use as your default browser?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چی وەک وێب‌گەڕۆکێکی پێش‌ھەڵبژاردەت (سەرەکی) بەکاردێنیت؟."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "browser" as
                               Column(
                                 children: [
@@ -188,11 +194,18 @@ class EnglishEntrybrowser extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Google Chrome is the most popular browser."),
-                              const ExampleSentenceKurdish(
-                                  text: "کرۆمی گووگڵ بەربڵاوترین براوزەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Google Chrome is the most popular browser."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرۆمی گووگڵ بەربڵاوترین براوزەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +225,18 @@ class EnglishEntrybrowser extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە سەیری گۆڤار، کتێب، ھتد یان شت بۆ فرۆشتن دەکات بەڵام ڕەنگە مەبەستی نەبێت ھیچ بکڕێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were one or two browsers in the bookstore."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەک دوو کڕیار لە کتێب فرۆشییەکەدا بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were one or two browsers in the bookstore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک دوو کڕیار لە کتێب فرۆشییەکەدا بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

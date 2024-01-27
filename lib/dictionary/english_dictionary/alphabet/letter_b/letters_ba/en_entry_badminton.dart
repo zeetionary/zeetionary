@@ -169,12 +169,18 @@ class EnglishEntrybadminton extends StatelessWidget {
 ١. (ناو) یارییەکە کە وەک تێنسە و لەلایەن دوو یان چوار کەسەوە دەکرێت. یاریزانان لە تۆپێک دەدەن کە پەڕدارە بە دەسکێک بەسەر تۆڕێکی بەرزدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I enjoyed watching the badminton tournament, even though I didn't understand all the rules."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I enjoyed watching the badminton tournament, even though I didn't understand all the rules."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چێژم بینی لە سەیرکردنی یاری بادمینتۆنەکە، ئەگەرچی لە ھەموو یاساکان تێنەدەگەشتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

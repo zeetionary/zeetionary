@@ -168,12 +168,18 @@ class EnglishEntrybestseller extends StatelessWidget {
 ١. (ناو) بەرھەمێک، بەزۆری کتێبێک، کە فرۆشێکی زۆری ھەبوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The 'Harry Potter' novels were all bestsellers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆمانەکانی ھاری پۆتەر ھەموو پڕفرۆش بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The 'Harry Potter' novels were all bestsellers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆمانەکانی ھاری پۆتەر ھەموو پڕفرۆش بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

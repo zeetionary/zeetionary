@@ -169,11 +169,18 @@ class EnglishEntryb extends StatelessWidget {
 ١. (ناو) دوومین پیتی ئەلفوبێی ئینگلیزی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "‘Butter’ begins with (a) B/‘B’."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Butter’ begins with (a) B/‘B’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی ‘Butter’ بە پیتی B دەستپێ‌دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +201,16 @@ class EnglishEntryb extends StatelessWidget {
 ٢. (ناو) نمرەیەک کە خوێندکارێک وەری‌دەگرێت کە باشە بەڵام نایاب نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She got (a) B in history."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە مێژوو باشەی ھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She got (a) B in history."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە مێژوو باشەی ھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,10 +231,17 @@ class EnglishEntryb extends StatelessWidget {
 ٣. (ناو) بەکاردێت بۆ ئاماژە بە دووەم ھەڵبژاردە لە دوو یان کۆمەڵە ھەڵبژاردەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Shall we go for plan A or plan B?"),
-                              const ExampleSentenceKurdish(
-                                  text: "پلانی A یان B ھەڵبژێرین؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shall we go for plan A or plan B?"),
+                                    ExampleSentenceKurdish(
+                                        text: "پلانی A یان B ھەڵبژێرین؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,10 +262,18 @@ class EnglishEntryb extends StatelessWidget {
 ٤. (ناو) بەکاردێت بۆ ئاماژە بە کەسێک لە دۆخی خەیاڵکردن یان بۆ شاردنی ناسنامە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's pretend A meets B in the park."),
-                              const ExampleSentenceKurdish(
-                                  text: "با وادابنێین A لە پارکەکە B دەبینێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's pretend A meets B in the park."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با وادابنێین A لە پارکەکە B دەبینێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

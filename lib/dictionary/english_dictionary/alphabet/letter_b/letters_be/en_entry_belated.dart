@@ -171,12 +171,18 @@ class EnglishEntrybelated extends StatelessWidget {
 ١. (ھاوەڵناو) درەنگتر لە کاتی خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This increase in funding suggests a belated acknowledgement of the project’s value."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیادکردنی بودجە ئاماژەیە بۆ دانپێانانێکی درەنگ بە گرنگی پڕۆژەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This increase in funding suggests a belated acknowledgement of the project’s value."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیادکردنی بودجە ئاماژەیە بۆ دانپێانانێکی درەنگ بە گرنگی پڕۆژەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybelated extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He did make a belated attempt to apologize."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵێکی زۆردرەنگی دا بۆ داواکردن بۆ لێبووردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He did make a belated attempt to apologize."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵێکی زۆردرەنگی دا بۆ داواکردن بۆ لێبووردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,11 +172,18 @@ class EnglishEntrybiological extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە زیندەناسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Eating is a biological necessity!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردن پێویستییەکە لە ڕووی زیندەناسییەوە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Eating is a biological necessity!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردن پێویستییەکە لە ڕووی زیندەناسییەوە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +203,18 @@ class EnglishEntrybiological extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بەو پڕۆسانەی کە لەناو گیانلەبەردا ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The biological effects of radiation can cause cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاریگەرییەکانی زیندەیی تیشکی مادە تیشکدەرەکان دەکرێت ببێتە ھۆی شێرپەنجە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The biological effects of radiation can cause cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاریگەرییەکانی زیندەیی تیشکی مادە تیشکدەرەکان دەکرێت ببێتە ھۆی شێرپەنجە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +234,18 @@ class EnglishEntrybiological extends StatelessWidget {
 ٣. (ھاوەڵناو) ھەبوونی پەیوەندی خوێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She decided to search for her biological mother after her adoptive parents died."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She decided to search for her biological mother after her adoptive parents died."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,7 +268,7 @@ class EnglishEntrybiological extends StatelessWidget {
 //                               const ExampleSentenceEnglish(
 //                                   text:
 //                                       "speakBiologicals44"),
-//                               const ExampleSentenceKurdish(
+//                               ExampleSentenceKurdish(
 //                                   text: "بڕیاریدا بگەڕێت بۆ دایکی خوێنیی کە دایک و باوکە ھەڵگرەوەکەی کۆچی دواییان کرد."),
 //                               const CustomSizedBoxForTTS(),
 //                               CustomIconButtonBritish(

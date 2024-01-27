@@ -215,10 +215,17 @@ class EnglishEntryburgle extends StatelessWidget {
 ١. (کردار) چوونە بینایەک بە نایاسایی و بەکارهێنانی هێز بە مەبەستی دزیکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The house next door was burgled."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماڵی دراوسێمان دزی لێکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house next door was burgled."),
+                                    ExampleSentenceKurdish(
+                                        text: "ماڵی دراوسێمان دزی لێکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burgle", follow LX strictly
                               Column(
                                 children: [

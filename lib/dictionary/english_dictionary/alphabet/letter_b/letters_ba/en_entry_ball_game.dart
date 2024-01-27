@@ -172,12 +172,18 @@ class EnglishEntryballgame extends StatelessWidget {
 ١. (ناو) یارییەک کە بە تۆپ دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ball games and skateboarding are prohibited in this area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆپێن و سکەیتەوانی لەم ناوچە قەدەغەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ball games and skateboarding are prohibited in this area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپێن و سکەیتەوانی لەم ناوچە قەدەغەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,17 @@ class EnglishEntryballgame extends StatelessWidget {
 ٢. (ناو) یاری بەیسبۆڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Are you going to the ball game?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەچی بۆ یاری بەیسبۆڵەکە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are you going to the ball game?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەچی بۆ یاری بەیسبۆڵەکە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,10 +168,16 @@ class EnglishEntryblatant extends StatelessWidget {
 ١. (ھاوەڵناو) کارێکی خراپ کە بە ئاشکرا دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was a blatant lie."),
-                              const ExampleSentenceKurdish(
-                                  text: "درۆیەکی ئاشکرا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It was a blatant lie."),
+                                    ExampleSentenceKurdish(
+                                        text: "درۆیەکی ئاشکرا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,11 +194,18 @@ class EnglishEntryblatant extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His behavior showed a blatant lack of respect."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەڵسوکەوتی بێ ڕێزی ئاشکرای پیشان دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His behavior showed a blatant lack of respect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسوکەوتی بێ ڕێزی ئاشکرای پیشان دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

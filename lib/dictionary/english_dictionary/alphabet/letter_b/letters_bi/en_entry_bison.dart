@@ -170,12 +170,18 @@ class EnglishEntrybison extends StatelessWidget {
 ١. (ناو) ئاژەڵێکی گەورەیە کە جۆرێکی مانگایە و ئەورووپی و ئەمریکای باکووریی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Large herds of bison used to live on the plains of western North America."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمەڵی گەورەی بایسن جاران لە دەشتەکانی ڕۆژئاوای ئەمریکای باکوور دەژیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Large herds of bison used to live on the plains of western North America."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمەڵی گەورەی بایسن جاران لە دەشتەکانی ڕۆژئاوای ئەمریکای باکوور دەژیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

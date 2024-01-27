@@ -171,12 +171,18 @@ class EnglishEntrybiochemistry extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوەی زانستی لە پێکھاتە و ڕەفتاری کیمیایی زیندەوەران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Researchers are studying the biochemistry of cancer cells to identify potential targets for novel therapies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژەران لە بایۆکیمیای خانەکانی شێرپەنجە دەکۆڵنەوە بۆ دۆزینەوەی ئەو خانانەی کە دەکرێت ئامانج بن لە دۆزینەوەی چارەسەری تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Researchers are studying the biochemistry of cancer cells to identify potential targets for novel therapies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژەران لە بایۆکیمیای خانەکانی شێرپەنجە دەکۆڵنەوە بۆ دۆزینەوەی ئەو خانانەی کە دەکرێت ئامانج بن لە دۆزینەوەی چارەسەری تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybiochemistry extends StatelessWidget {
 ٢. (ناو) پێکھاتە و ڕەفتاری کیمیایی زیندەوەران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Human's biochemistry is almost identical to that of a cat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Human's biochemistry is almost identical to that of a cat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

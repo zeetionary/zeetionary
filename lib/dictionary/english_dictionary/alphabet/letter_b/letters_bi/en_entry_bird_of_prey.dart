@@ -171,12 +171,18 @@ class EnglishEntrybirdofprey extends StatelessWidget {
 ١. (ھاوەڵناو) باڵندەیەک کە گیانلەبەری تر دەکوژێت و دەیخوات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many birds of prey have powerful wings for hunting and soaring effortlessly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک باڵندەی ڕاوی باڵی بەھێزیان ھەیە بۆ ڕاوکردن و بەرزبوونەوە بە ساناھی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many birds of prey have powerful wings for hunting and soaring effortlessly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک باڵندەی ڕاوی باڵی بەھێزیان ھەیە بۆ ڕاوکردن و بەرزبوونەوە بە ساناھی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

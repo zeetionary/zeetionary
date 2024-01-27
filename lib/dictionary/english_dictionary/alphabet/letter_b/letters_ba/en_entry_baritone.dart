@@ -165,7 +165,7 @@ class EnglishEntrybaritone extends StatelessWidget {
                           //   children: [
                           //     const ExampleSentenceEnglish(
                           //         text: "speakBaritones11"),
-                          //     const ExampleSentenceKurdish(
+                          //     ExampleSentenceKurdish(
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     CustomIconButtonBritish(
                           //       onPressed: () => speakBaritones1("en-GB"),

@@ -171,12 +171,18 @@ class EnglishEntrybalmy extends StatelessWidget {
 ١. (ھاوەڵناو) گەرم و خۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was hardly any wind, just a balmy breeze."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئەستەم ھیچ با ھەبوو، تەنھا شنەیەکی گەرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was hardly any wind, just a balmy breeze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئەستەم ھیچ با ھەبوو، تەنھا شنەیەکی گەرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

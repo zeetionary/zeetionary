@@ -310,12 +310,18 @@ class EnglishEntrybond extends StatelessWidget {
 ١. (ناو) شتێک کە پەیوەندی یان ھاوڕێیەتی درووست دەکات لە نێوان خەڵکی و گرووپدا، بۆ نموونە خۆشەویستی یان بیرۆکە و ئەزموون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bond of friendship had been forged between them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندییەکی خۆشەویستی درووست بووە لە نێوانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bond of friendship had been forged between them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندییەکی خۆشەویستی درووست بووە لە نێوانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -332,12 +338,18 @@ class EnglishEntrybond extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The agreement strengthened the bonds between the two countries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەھێزکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The agreement strengthened the bonds between the two countries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنەکە پەیوەندی نێوان دوو وڵاتەکەی بەھێزکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -360,7 +372,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The students formed strong bonds with each other."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "قوتابییان پەیوەندیی بەھێزیان لەگەڵ یەکدی درووستکرد."),
                                       const CustomSizedBoxForTTS(),
@@ -384,7 +396,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She felt a bond of affection for the other girls."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە."),
                                       const CustomSizedBoxForTTS(),
@@ -412,11 +424,18 @@ class EnglishEntrybond extends StatelessWidget {
                                   "٢. (ناو) ڕێککەوتنێک لەلایەنی حکومەتێک یان بانکێکەوە کە سووت پێبدات بۆ ئەو پارەیەی بە قەرز پێیان دەدەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bonds were redeemed in 2002."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرێبەستەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bonds were redeemed in 2002."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرێبەستەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -435,10 +454,18 @@ class EnglishEntrybond extends StatelessWidget {
                               text: "٣. (ناو) بڕێک پارە کە وەک کەفالەت دەدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was released on £5 000 bond."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کەفالەتی ٥٠٠٠ پاوەند ئازادکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was released on £5 000 bond."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەفالەتی ٥٠٠٠ پاوەند ئازادکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -458,12 +485,18 @@ class EnglishEntrybond extends StatelessWidget {
                                   "٤. (ناو) بڕێک ڕێککەوتنێکی یاسایی کە بەپێی ئەوە بانکێک پارەت پێدەدات بۆ بەکارھێنان و بەدرێژایی چەندین ساڵ دەیدەیتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We had to take out a second bond on the property."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویست بوو بیمەی دووەم وەربگرین بە دانانی زەوییەکە وەک زەمانەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We had to take out a second bond on the property."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویست بوو بیمەی دووەم وەربگرین بە دانانی زەوییەکە وەک زەمانەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -483,10 +516,17 @@ class EnglishEntrybond extends StatelessWidget {
                                   "٥. (ناو) حەبل یان زنجیر کە بەندکراوێکی پێوە بەستراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Loose his bonds and set him free."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆتەکەی شل بکەوە و ئازادی بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Loose his bonds and set him free."),
+                                    ExampleSentenceKurdish(
+                                        text: "کۆتەکەی شل بکەوە و ئازادی بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -505,10 +545,17 @@ class EnglishEntrybond extends StatelessWidget {
                               text: "٦. (ناو) بەڵێن یان ڕێککەوتنێکی یاسایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We entered into a solemn bond."),
-                              const ExampleSentenceKurdish(
-                                  text: "چووینە ناو ڕێککەوتنێکی فەرمییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We entered into a solemn bond."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چووینە ناو ڕێککەوتنێکی فەرمییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -527,12 +574,18 @@ class EnglishEntrybond extends StatelessWidget {
                               text: "٧. (ناو) شێوازی پێکەوەبەسترانی دوو شت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When the glue has set, the bond formed is watertight."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە چەسپەکە جێی خۆی دەگرێت، شوێنی یەکگرتنەکە ئاو ناکێشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When the glue has set, the bond formed is watertight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە چەسپەکە جێی خۆی دەگرێت، شوێنی یەکگرتنەکە ئاو ناکێشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -552,12 +605,18 @@ class EnglishEntrybond extends StatelessWidget {
                                   "٨. (ناو) ھێزی پێکەوەلکێنەری ئەتۆمەکان لە ئاوێتەیەکی کیمیاییدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Carbon atoms can form bonds not only with themselves but with the atoms of oxygen and nitrogen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنھا لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Carbon atoms can form bonds not only with themselves but with the atoms of oxygen and nitrogen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتۆمەکانی کاربۆن دەتوانن بۆند درووست بکەن نەک تەنھا لەگەڵ خۆیان بەڵکو لەگەڵ ئەتۆمەکانی ئۆکسجین و نایترۆجین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -577,12 +636,18 @@ class EnglishEntrybond extends StatelessWidget {
                                   "٩. (کردار) پێکەوەلکاندنی دوو شت بە توندی پێکەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This new glue bonds a variety of surfaces in seconds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم چەسپە تازەیە ژمارەیەکی جیاواز لە ڕووکەش پێکەوەدەبەستێت لە چەند چرکەیەکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This new glue bonds a variety of surfaces in seconds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم چەسپە تازەیە ژمارەیەکی جیاواز لە ڕووکەش پێکەوەدەبەستێت لە چەند چرکەیەکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -605,7 +670,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "It cannot be used to bond wood to metal."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ناتوانرێت بەکاربھێندرێت بۆ لکاندنی تەختە بە ئاسنەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -629,7 +694,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The atoms bond together to form a molecule."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەتۆمەکان یەکدەگرن بۆ درووستکردنی ئاوێتە."),
                                       const CustomSizedBoxForTTS(),
@@ -657,12 +722,18 @@ class EnglishEntrybond extends StatelessWidget {
                                   "١٠. (کردار) درووستکردن یان پەرەپێدانی پەیوەندی لەسەر بنەمای متمانە لەگەڵ کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mothers who are depressed sometimes fail to bond with their children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو دایکانەی کە خەمۆکییان ھەیە ھەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mothers who are depressed sometimes fail to bond with their children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو دایکانەی کە خەمۆکییان ھەیە ھەندێک جار ناتوانن لەگەڵ منداڵەکانیان ئاوێتە بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

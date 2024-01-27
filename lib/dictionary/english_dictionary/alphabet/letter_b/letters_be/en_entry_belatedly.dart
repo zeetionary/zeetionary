@@ -169,10 +169,17 @@ class EnglishEntrybelatedly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە درەنگتر لە کاتی خۆی ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He apologized belatedly."),
-                              const ExampleSentenceKurdish(
-                                  text: "درەنگ‌وەختە داوای لێبووردنی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He apologized belatedly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "درەنگ‌وەختە داوای لێبووردنی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

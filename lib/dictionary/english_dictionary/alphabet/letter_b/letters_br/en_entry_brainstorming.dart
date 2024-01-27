@@ -166,12 +166,18 @@ class EnglishEntrybrainstorming extends StatelessWidget {
 ١. (ناو) بیرکردنەوەی بە کۆمەڵی ژمارەیەک خەڵک کە پێکەوە دادەنیشن بۆ دۆزینەوەی چارەسەری کێشەیەک یان دۆزینەوەی بیرۆکەی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We need to do some brainstorming before we get down to detailed planning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت ھەندێک بیرکردنەوەی بەکۆمەڵ بکەین پێش ئەوەی دەست بکەین بە پلاندانانی ورد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need to do some brainstorming before we get down to detailed planning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت ھەندێک بیرکردنەوەی بەکۆمەڵ بکەین پێش ئەوەی دەست بکەین بە پلاندانانی ورد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

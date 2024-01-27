@@ -173,10 +173,17 @@ class EnglishEntrybake extends StatelessWidget {
 ١. (کردار) برژاندنی شت لە فڕندا بەبێ ڕۆن یان شلە لەسەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bread is baking in the oven."),
-                              const ExampleSentenceKurdish(
-                                  text: "نانەکە لە فڕنەکەدا دەبرژێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bread is baking in the oven."),
+                                    ExampleSentenceKurdish(
+                                        text: "نانەکە لە فڕنەکەدا دەبرژێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +203,18 @@ class EnglishEntrybake extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm baking a birthday cake for Alex."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm baking a birthday cake for Alex."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +236,18 @@ class EnglishEntrybake extends StatelessWidget {
 ٢. (کردار) ڕەقبوون بە گەرمبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bricks are left in the kiln to bake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bricks are left in the kiln to bake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,11 +269,17 @@ class EnglishEntrybake extends StatelessWidget {
 ٣. (کردار) گەرمبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We sat baking in the sun."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We sat baking in the sun."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -165,12 +165,18 @@ class EnglishEntrybroach extends StatelessWidget {
 ١. (کردار) قسەکردن لەسەر شتێک کە سەختە زۆرجار بەھۆی ئەوەی خەڵکی پێی شەرمەزار دەبن یان ناکۆکی ھەیە لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was dreading having to broach the subject of money to her father."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەترسا لەوەی پێویست بکات بابەتی پارە لای باوکی باس بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was dreading having to broach the subject of money to her father."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەترسا لەوەی پێویست بکات بابەتی پارە لای باوکی باس بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broach" as
                               Column(
                                 children: [
@@ -187,12 +193,18 @@ class EnglishEntrybroach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The report fails to broach some important questions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاپۆرتەکە شکستی ھێناوە لە باسکردنی ھەندێک پرسیاری گرنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The report fails to broach some important questions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاپۆرتەکە شکستی ھێناوە لە باسکردنی ھەندێک پرسیاری گرنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

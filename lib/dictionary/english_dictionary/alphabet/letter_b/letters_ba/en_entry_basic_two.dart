@@ -169,12 +169,18 @@ class EnglishEntrybasictwo extends StatelessWidget {
 ١. (ھاوەڵناو) پێکھێنەری بەشێکی شتێک کە گرنگترە لە ھەموو بەشەکانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a basic fault in the design of the engine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵەیەکی بنچینەیی ھەیە لە دیزاینی بزوێنەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a basic fault in the design of the engine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵەیەکی بنچینەیی ھەیە لە دیزاینی بزوێنەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybasictwo extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They haven't even given us the most basic information we need."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا سەرەتاییترین زانیارییان پێ‌نەداوین کە پێویستمانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They haven't even given us the most basic information we need."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا سەرەتاییترین زانیارییان پێ‌نەداوین کە پێویستمانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +229,18 @@ class EnglishEntrybasictwo extends StatelessWidget {
 ٢. (ھاوەڵناو) لە ئاستێکی سادە و سەرەتایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My knowledge of French is pretty basic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیاریم لە زمانی فەرەنسی لە ئاستێکی سەرەتاییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My knowledge of French is pretty basic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیاریم لە زمانی فەرەنسی لە ئاستێکی سەرەتاییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +260,18 @@ class EnglishEntrybasictwo extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە بۆ ھەموو کەسێک گرنگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەیرانەکە بووە بەھۆی بەرزبوونەوەی نرخی خواردەمەنی سەرەتایی وەک گۆشت و پەنیر و شەکر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The crisis has led to price rises in basic foodstuffs, such as meat, cheese, and sugar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەیرانەکە بووە بەھۆی بەرزبوونەوەی نرخی خواردەمەنی سەرەتایی وەک گۆشت و پەنیر و شەکر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +291,18 @@ class EnglishEntrybasictwo extends StatelessWidget {
 ٤. (ھاوەڵناو) پێش زیادکردنی ھیچ شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The basic pay of the average worker has risen by 3 per cent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووچەی بنەڕەتی کرێکاری ئاسایی بە ڕێژەی ٣٪ زیادیکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The basic pay of the average worker has risen by 3 per cent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووچەی بنەڕەتی کرێکاری ئاسایی بە ڕێژەی ٣٪ زیادیکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,10 +170,17 @@ class EnglishEntrybedspread extends StatelessWidget {
 ١. (ناو) ڕووپۆشێکی جوان کە دەدرێت بەسەر پێخەف و داپۆشەرەکانی دیکەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Mary is stitching a bedspread."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماری خەریکە بەرگەجێخەوێک دەچنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Mary is stitching a bedspread."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماری خەریکە بەرگەجێخەوێک دەچنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

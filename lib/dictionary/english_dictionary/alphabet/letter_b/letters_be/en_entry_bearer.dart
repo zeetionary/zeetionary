@@ -173,12 +173,18 @@ class EnglishEntrybearer extends StatelessWidget {
 ١. (ناو) کەسێک کە ھەڵگری شتێکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a coffin bearer at his father's funeral."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵگری تابووتەکە بوو لە مەراسیمی ناشرنی باوکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a coffin bearer at his father's funeral."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵگری تابووتەکە بوو لە مەراسیمی ناشرنی باوکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybearer extends StatelessWidget {
 ٢. (ناو) ھێنەری نامەیەک یان ھەواڵێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm sorry to be the bearer of bad news."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm sorry to be the bearer of bad news."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەداخم بۆ بوون بە ھێنەری ھەواڵی خراپ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,12 +235,18 @@ class EnglishEntrybearer extends StatelessWidget {
 ٣. (ناو) کەسێک کە شتێکی پێیە یان خاوەنی شتێکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A pass will allow the bearer to enter the building."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مۆڵەتێکی چوونەژوورەوە ڕێگا بە خاوەنەکەی دەدات بچێتە بیناکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A pass will allow the bearer to enter the building."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆڵەتێکی چوونەژوورەوە ڕێگا بە خاوەنەکەی دەدات بچێتە بیناکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -248,12 +266,18 @@ class EnglishEntrybearer extends StatelessWidget {
 ٤. (ناو) کەسێک کە زانیارییەکی پێیە و دڵنیایی دەدات کە لەبیرناچیتەوە بە بڵاوکردنەوەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In many societies, women play an important role as bearers of cultures and traditions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە زۆر کۆمەڵگەدا، ژنان ڕۆڵی گرنگ دەبینن وەک پارێزەری کەلتوور و نەریت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In many societies, women play an important role as bearers of cultures and traditions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زۆر کۆمەڵگەدا، ژنان ڕۆڵی گرنگ دەبینن وەک پارێزەری کەلتوور و نەریت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntryboulder extends StatelessWidget {
 ١. (ناو) بەردێکی گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children climbed the smooth river boulders."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان بەسەر تاشە بەردە لووسەکانی ڕووبارەکەدا سەردەکەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children climbed the smooth river boulders."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان بەسەر تاشە بەردە لووسەکانی ڕووبارەکەدا سەردەکەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

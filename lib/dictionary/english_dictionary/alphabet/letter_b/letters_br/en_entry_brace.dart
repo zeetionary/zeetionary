@@ -305,12 +305,18 @@ class EnglishEntrybrace extends StatelessWidget {
 ١. (ناو) شتێک کە دادەنرێت بۆ ئەوەی شت پێکەوە یان لە شوێنی خۆی بھێڵێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wore a knee brace to support his injured joint."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wore a knee brace to support his injured joint."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -327,12 +333,18 @@ class EnglishEntrybrace extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was recently fitted with a brace for his bad back."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەم‌نزیکانە پشتێنێکی بۆ دانرا بۆ ئازاری پشتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was recently fitted with a brace for his bad back."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەم‌نزیکانە پشتێنێکی بۆ دانرا بۆ ئازاری پشتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -352,11 +364,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٢. (ناو) پارچە ئاسنێک کە منداڵان یان یان ئەو کەسانەی ددان ڕێکدەکەنەوە دەیبەستن بۆ ئەوەی ددان بە ڕاستی دەربچێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My daughter has to wear a brace on her teeth."),
-                              const ExampleSentenceKurdish(
-                                  text: "کچەکەم دەبوو تەل لە ددانی ببەستێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My daughter has to wear a brace on her teeth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچەکەم دەبوو تەل لە ددانی ببەستێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -373,10 +392,16 @@ class EnglishEntrybrace extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He had braces on his teeth."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەلی لە ددانی بەستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He had braces on his teeth."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەلی لە ددانی بەستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -396,11 +421,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٣. (ناو) پارچە قوماشێکی باریک کە لە سەرەوەی پانتۆڵ لە پێش و پاشەوە دەبەسترێت و بەسەر شاندا دەبردرێت بۆ ھێشتنەوەی پانتۆڵەکە لە شوێنی خۆی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The braces held up his trousers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەندەخوێنەکان پانتۆڵەکەی لە شوێنی خۆی ھێشتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The braces held up his trousers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەندەخوێنەکان پانتۆڵەکەی لە شوێنی خۆی ھێشتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -420,12 +452,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٤. (ناو) نیشانەکانی {} کە بەکاردێن بۆ وتنی ئەوەی ئەو شتانەی لە ناویدان، بۆ نموونە وشە، پەیوەندیدارن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In mathematics, a brace is used to denote a set."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بیرکاریدا برۆنیشان بەکاردێت بۆ پیشاندانی دەستەیەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In mathematics, a brace is used to denote a set."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بیرکاریدا برۆنیشان بەکاردێت بۆ پیشاندانی دەستەیەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -445,12 +483,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٥. (ناو) دوو شتی ھەمان جۆر، بە تایبەتی جووتە باڵندەیەک یان ئاژەڵێک کە لە ڕاودا کوژراون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farmer raised a brace of goats on his farm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیارەکە جوتێک بزنی لە کێڵگەکەی بەخێودەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farmer raised a brace of goats on his farm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیارەکە جوتێک بزنی لە کێڵگەکەی بەخێودەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -470,12 +514,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٦. (کردار) ئامادەکردنی کەسێک یان خۆت بۆ ڕووداوێکی ناخۆش کە ڕوودەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "UN troops are braced for more violence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزەکانی نەتەوە یەکگرتووەکان خۆیان بۆ توندوتیژی زیاتر ئامادەکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "UN troops are braced for more violence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزەکانی نەتەوە یەکگرتووەکان خۆیان بۆ توندوتیژی زیاتر ئامادەکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -492,12 +542,18 @@ class EnglishEntrybrace extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They are bracing themselves for a long legal battle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆیان ئامادە دەکەن بۆ تێکۆشانێکی درێژی یاسایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are bracing themselves for a long legal battle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆیان ئامادە دەکەن بۆ تێکۆشانێکی درێژی یاسایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -517,11 +573,17 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٧. (کردار) خۆگرتن لەوەی کە بکەوی بە خۆتوندکردن لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They braced themselves against the wind."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆیان توند ڕاگرت دژ بە بایەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They braced themselves against the wind."),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆیان توند ڕاگرت دژ بە بایەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -541,12 +603,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٨. (کردار) گرژکردنەوەی ماسولکەکانی جەستەت پێش کردنی کارێکی سەخت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stood with his legs and shoulders braced, ready to lift the weights."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستابوو بە توندکردنەوەی لاقی و شانەکانی، و ئامادە بۆ بەرزکردنەوەی قورساییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stood with his legs and shoulders braced, ready to lift the weights."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستابوو بە توندکردنەوەی لاقی و شانەکانی، و ئامادە بۆ بەرزکردنەوەی قورساییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -566,12 +634,18 @@ class EnglishEntrybrace extends StatelessWidget {
                                   "٩. (کردار) وا لە شتێک بکەیت بەھێز یان جێگیر بیت بە دانانی ڕاگیرکردنی بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The side wall of the old house was braced with a wooden support."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیواری تەنیشتی خانووە کۆنەکە بەھێزکرا بە ڕاگرێکی دارین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The side wall of the old house was braced with a wooden support."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیواری تەنیشتی خانووە کۆنەکە بەھێزکرا بە ڕاگرێکی دارین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

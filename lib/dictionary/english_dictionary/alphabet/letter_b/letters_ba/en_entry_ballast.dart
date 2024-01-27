@@ -172,12 +172,18 @@ class EnglishEntryballast extends StatelessWidget {
 ١. (ناو) مادەی قورس کە دەخرێتە کەشتی بۆ ئەوەی بە جێگیری بیھێڵێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The submarine took in water as ballast to submerge itself fully beneath the surface."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The submarine took in water as ballast to submerge itself fully beneath the surface."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryballast extends StatelessWidget {
 ٢. (ناو) چینێک لە زیخ کە لە سەرەوەی ڕێگا درووست دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The workers laid a layer of ballast before paving the road with asphalt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The workers laid a layer of ballast before paving the road with asphalt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

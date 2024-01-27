@@ -168,12 +168,18 @@ class EnglishEntryblottingpaper extends StatelessWidget {
 ١. (ناو) کاغەزی ئەستووری نەرم کە دەدرێت بەسەر کاغەزێکدا کە تازەگی لەسەری نووسراوە بۆ وشککردنەوەی مەرەکەبەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She reached for the blotting paper to dry her letter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی برد بۆ زوھانگەکە بۆ بۆ وشککردنەوەی نامەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She reached for the blotting paper to dry her letter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی برد بۆ زوھانگەکە بۆ بۆ وشککردنەوەی نامەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybackbiting extends StatelessWidget {
 ١. (ناو) قسەی خراپ لەسەر کەسێک کە ئامادە نییە لەو شوێنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was tired of all the backbiting and gossip in the office."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێزاربوو لەو ھەموو غەیبەت و قسەڵۆکانەی ئۆفیسەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was tired of all the backbiting and gossip in the office."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێزاربوو لەو ھەموو غەیبەت و قسەڵۆکانەی ئۆفیسەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

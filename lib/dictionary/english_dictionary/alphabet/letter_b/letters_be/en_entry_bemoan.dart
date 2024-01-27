@@ -168,12 +168,18 @@ class EnglishEntrybemoan extends StatelessWidget {
 ١. (کردار) ناڕەزایی دەربڕین لەسەر شتێک، یان وتنی ئەوەی دڵخۆش نیت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Researchers at universities are always bemoaning their lack of funds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژەرانی زانکۆکان ھەمیشە نیگەرانن لە کەمی بودجەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Researchers at universities are always bemoaning their lack of funds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژەرانی زانکۆکان ھەمیشە نیگەرانن لە کەمی بودجەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

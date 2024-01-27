@@ -166,12 +166,18 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
 ١. (ناو) سەوزەیەکی خڕی بچووکی سەوز کە وەک کەلەرمێکی بچووکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She reluctantly tried a Brussels sprout and was pleasantly surprised."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە نابەدڵییەوە کەلەرمێکی سەوزی تاقیکردەوە و سەرسام بوو پێی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She reluctantly tried a Brussels sprout and was pleasantly surprised."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە نابەدڵییەوە کەلەرمێکی سەوزی تاقیکردەوە و سەرسام بوو پێی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brussels sprout" as
                               Column(
                                 children: [

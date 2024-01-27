@@ -163,12 +163,18 @@ class EnglishEntrybathtub extends StatelessWidget {
 ١. (ناو) حەوزی خۆشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bathtub was so deep that I could completely submerge myself in the water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بە تەواوی خۆم نقووم کرد لە ئاوەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bathtub was so deep that I could completely submerge myself in the water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەوزی خۆشتنەکە ھێندە قووڵ بوو کە بە تەواوی خۆم نقووم کرد لە ئاوەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

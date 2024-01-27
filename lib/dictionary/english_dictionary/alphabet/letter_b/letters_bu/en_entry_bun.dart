@@ -214,11 +214,18 @@ class EnglishEntrybun extends StatelessWidget {
 ١. (ناو) کێک یان نانێکی بچووکی خڕ و شیرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She enjoyed a cinnamon bun with her coffee."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێکێکی سینمنی خوارد لەگەڵ قاوەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She enjoyed a cinnamon bun with her coffee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێکێکی سینمنی خوارد لەگەڵ قاوەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bun", follow LX strictly
                               Column(
                                 children: [
@@ -238,10 +245,16 @@ class EnglishEntrybun extends StatelessWidget {
                                   "٢. (ناو) قژ کە تۆپەڵ کراوە لە سەرەوە یان پشتەوەی سەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wore her hair in a bun."),
-                              const ExampleSentenceKurdish(
-                                  text: "قوتکەقژێکی دانا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She wore her hair in a bun."),
+                                    ExampleSentenceKurdish(
+                                        text: "قوتکەقژێکی دانا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +272,18 @@ class EnglishEntrybun extends StatelessWidget {
                           const DefinitionKurdish(text: "٣. (ناو) سمت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sitting on a hard surface for long periods can lead to sore buns."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانیشتن لەسەر ڕوویەکی ڕەق بۆ ماوەیەکی زۆر دەکرێت ببێتە هۆی ئێشی سمت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sitting on a hard surface for long periods can lead to sore buns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیشتن لەسەر ڕوویەکی ڕەق بۆ ماوەیەکی زۆر دەکرێت ببێتە هۆی ئێشی سمت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,11 +172,17 @@ class EnglishEntrybelligerent extends StatelessWidget {
 ١. (ھاوەڵناو) شەڕخواز و نەیار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is always very belligerent towards me."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە زۆر دووژمنانەیە لەگەڵم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is always very belligerent towards me."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەمیشە زۆر دووژمنانەیە لەگەڵم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybelligerent extends StatelessWidget {
 ٢. (ھاوەڵناو) وڵاتێک کە لە شەڕدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The belligerent countries are having difficulties funding the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتە شەڕکەرەکان ئاستەنگیان ھەیە لە دابینکردنی بودجەی شەڕ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The belligerent countries are having difficulties funding the war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتە شەڕکەرەکان ئاستەنگیان ھەیە لە دابینکردنی بودجەی شەڕ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +237,18 @@ class EnglishEntrybelligerent extends StatelessWidget {
 ٣. (ناو) وڵاتێک، گرووپێک، یان کەسێک کە لە شەڕدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Wars often end in partition treaties in which territory is divided among the belligerents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەنگ زۆرجار بە دابەشکاری کۆتایی کە تێیدا ناوچەکان دابەش دەکرێن بەسەر وڵاتانی شەڕکەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Wars often end in partition treaties in which territory is divided among the belligerents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەنگ زۆرجار بە دابەشکاری کۆتایی کە تێیدا ناوچەکان دابەش دەکرێن بەسەر وڵاتانی شەڕکەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

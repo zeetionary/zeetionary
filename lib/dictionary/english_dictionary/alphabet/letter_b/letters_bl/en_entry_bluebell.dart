@@ -166,12 +166,18 @@ class EnglishEntrybluebell extends StatelessWidget {
 ١. (ناو) گوڵێک کە لە باخچەدا یان بە سرووشتی دەڕوێت و قەدێکی کورتی ھەیە و گوڵی بچووکی شین و سپی دەگرێت کە لە شێوەی زەنگدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bluebell carpeted the forest floor in spring."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەھاردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bluebell carpeted the forest floor in spring."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵە گەزیزە دارستانەکەی داپۆشیبوو لە بەھاردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

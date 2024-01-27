@@ -172,10 +172,16 @@ class EnglishEntrybackstroke extends StatelessWidget {
 ١. (ھاوەڵناو) جۆرە مەلەکردنێک کە لەسەر پشتت پاڵ دەکەویت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can you do (the) backstroke?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەتوانی پشتەمەلە بکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Can you do (the) backstroke?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەتوانی پشتەمەلە بکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

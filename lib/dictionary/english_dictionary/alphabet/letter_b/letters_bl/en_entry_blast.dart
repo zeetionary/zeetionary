@@ -302,12 +302,18 @@ class EnglishEntryblast extends StatelessWidget {
 ١. (ناو) تەقینەوە یان جوڵەیەکی بەھێزی ھەوا بەھۆی تەقینەوەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "27 schoolchildren were injured in the blast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "٢٧ منداڵی قوتابخانە برینداربوون لە تەقینەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "27 schoolchildren were injured in the blast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "٢٧ منداڵی قوتابخانە برینداربوون لە تەقینەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -325,11 +331,17 @@ class EnglishEntryblast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blast ripped through the building."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەقینەوەکە بیناکەی ھەژاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blast ripped through the building."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەقینەوەکە بیناکەی ھەژاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -348,12 +360,18 @@ class EnglishEntryblast extends StatelessWidget {
                               text: "٢. (ناو) جوڵەیەکی بەھێزی لەناکاوی ھەوا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A blast of hot air hit us as we stepped off the plane."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گڕەیەکی ھەوای گەرم لێمانی دا کە لە فڕۆکەکە دابەزین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A blast of hot air hit us as we stepped off the plane."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گڕەیەکی ھەوای گەرم لێمانی دا کە لە فڕۆکەکە دابەزین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -373,12 +391,18 @@ class EnglishEntryblast extends StatelessWidget {
                                   "٣. (ناو) دەنگێکی بەھێز، بەتایبەتی یەکێک کە درووست دەبێت لەلایەن ئامێرێکی میوزیکی، فیکەیەک، یان ھۆرنی ئۆتۆمبێل"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The driver opened the door letting out a blast of Taylor Swift."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێرەکە دەرگاکەی کردەوە و دەنگی بەرزی تایلەر سویفت بە بەرزی ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The driver opened the door letting out a blast of Taylor Swift."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێرەکە دەرگاکەی کردەوە و دەنگی بەرزی تایلەر سویفت بە بەرزی ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -396,12 +420,18 @@ class EnglishEntryblast extends StatelessWidget {
                           const DefinitionKurdish(text: "٤. (ناو) ڕەخنەی توند"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The administration was blasted for failing to create jobs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کابینەکە ڕەخنەی توندی لێ گیرا بۆ شکستھێنان لە ڕەخساندنی ھەلی کار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The administration was blasted for failing to create jobs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کابینەکە ڕەخنەی توندی لێ گیرا بۆ شکستھێنان لە ڕەخساندنی ھەلی کار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -419,10 +449,17 @@ class EnglishEntryblast extends StatelessWidget {
                           const DefinitionKurdish(text: "٥. (ناو) جەوێکی خۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We had a blast at the party."),
-                              const ExampleSentenceKurdish(
-                                  text: "جەوێکی خۆشمان ھەبوو لە ئاھەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We had a blast at the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەوێکی خۆشمان ھەبوو لە ئاھەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -442,12 +479,18 @@ class EnglishEntryblast extends StatelessWidget {
                                   "٦. (ناو) زانیارییەک یان ڕیکلامێک کە دەنێردرێت بۆ ژمارەیەکی زۆری خەڵکی لە یەک کاتدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They sent out email blasts and posted information on all their websites."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئیمەیڵیان بە کۆمەڵ نارد و زانیارییان لەسەر تەواوی وێبسایتەکەیان پۆستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They sent out email blasts and posted information on all their websites."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئیمەیڵیان بە کۆمەڵ نارد و زانیارییان لەسەر تەواوی وێبسایتەکەیان پۆستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -467,12 +510,18 @@ class EnglishEntryblast extends StatelessWidget {
                                   "٧. (کردار) وێرانکردن یان پارچەپارچەکردنی شتیک بە تەقەمەنی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had to blast a tunnel through the mountain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبوو تونێلێک لێ بدەن (بە بەکارھێنانی تەقەمەنی) بە چیاکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had to blast a tunnel through the mountain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبوو تونێلێک لێ بدەن (بە بەکارھێنانی تەقەمەنی) بە چیاکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -490,12 +539,18 @@ class EnglishEntryblast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the windows were blasted inwards with the force of the explosion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی پەنجەرەکان شکێبران بە ناوەوەدا بە ھێزی تەقینەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the windows were blasted inwards with the force of the explosion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی پەنجەرەکان شکێبران بە ناوەوەدا بە ھێزی تەقینەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -515,12 +570,18 @@ class EnglishEntryblast extends StatelessWidget {
                               text: "٨. (کردار) درووستکردنی دەنگێکی بەھێز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Music suddenly blasted out from the speakers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەناکاو میوزیک لە بڵندگۆیەکانەوە دەستیان پێکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Music suddenly blasted out from the speakers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەناکاو میوزیک لە بڵندگۆیەکانەوە دەستیان پێکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -540,12 +601,18 @@ class EnglishEntryblast extends StatelessWidget {
                               text: "٩. (کردار) ڕەخنەگرتن بە توندی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie was blasted by all the critics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە لەلایەن ھەموو ڕەخنەگرانەوە ڕەخنەی توندی لێ گیرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie was blasted by all the critics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە لەلایەن ھەموو ڕەخنەگرانەوە ڕەخنەی توندی لێ گیرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -566,12 +633,18 @@ class EnglishEntryblast extends StatelessWidget {
                                   "١٠. (کردار) لێدان لە کەسێک بەھێزێکی زۆرەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He blasted (= shot) the policeman right between the eyes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پۆلیسەکەی دا ڕێک لە نێوانی چاوانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He blasted (= shot) the policeman right between the eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پۆلیسەکەی دا ڕێک لە نێوانی چاوانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -592,12 +665,18 @@ class EnglishEntryblast extends StatelessWidget {
                                   "١١. (کردار) وەشاندنی شتێک (بۆ نموونە ھەوا یان ئاو) لە خەڵکی یان شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police blasted the demonstrators with water cannons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس لە خۆپیشاندەرانی دا بە دەزگای ئاوپرژاندن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police blasted the demonstrators with water cannons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس لە خۆپیشاندەرانی دا بە دەزگای ئاوپرژاندن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -618,12 +697,18 @@ class EnglishEntryblast extends StatelessWidget {
                                   "١٢. (کردار) لەناوبردنی شتێکی وەک ڕووەک بە نەخۆشی یان سەرما و گەرمان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their whole crop had been blasted by a late frost."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی دەغڵەکەیان وێرانبووە بەھۆی سەرمایەکی درەنگوەختە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their whole crop had been blasted by a late frost."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی دەغڵەکەیان وێرانبووە بەھۆی سەرمایەکی درەنگوەختە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -644,10 +729,16 @@ class EnglishEntryblast extends StatelessWidget {
                                   "١٣. (سەرسوڕمان) خەڵکی ھەندێک جار ئەم وشە دەڵێن کە تووڕەن بەدەست شتێکەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Oh blast! The car won't start."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەھ تف! ئۆتۆمبێلەکە ئیش ناکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Oh blast! The car won't start."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەھ تف! ئۆتۆمبێلەکە ئیش ناکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

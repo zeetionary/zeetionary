@@ -164,12 +164,18 @@ class EnglishEntrybroadcasting extends StatelessWidget {
 ١. (ناو) کاری بەرھەمھێنان و پەخشی پڕۆگرامی تەلەفیزیۆنی و ڕادیۆیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Huge amounts of money are spent on sports broadcasting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەیەکی زۆر خەرج دەکرێت بۆ پەخشی تەلەفیزیۆنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Huge amounts of money are spent on sports broadcasting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەیەکی زۆر خەرج دەکرێت بۆ پەخشی تەلەفیزیۆنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broadcasting" as
                               Column(
                                 children: [

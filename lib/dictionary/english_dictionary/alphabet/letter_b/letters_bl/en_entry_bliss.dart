@@ -169,12 +169,18 @@ class EnglishEntrybliss extends StatelessWidget {
 ١. (ناو) خۆشبەختیی تەواو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They're celebrating 25 years of wedded bliss."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵیادی ٢٥ ساڵ لە خۆشبەختیی ھاوسەرگیرییان دەگێڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They're celebrating 25 years of wedded bliss."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵیادی ٢٥ ساڵ لە خۆشبەختیی ھاوسەرگیرییان دەگێڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybliss extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Swimming on a hot day is sheer bliss."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەلەکردن لە ڕۆژێکی گەرمدا خۆشبەختی تەواوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Swimming on a hot day is sheer bliss."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەلەکردن لە ڕۆژێکی گەرمدا خۆشبەختی تەواوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

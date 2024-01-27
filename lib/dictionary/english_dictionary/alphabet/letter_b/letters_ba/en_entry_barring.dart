@@ -166,12 +166,18 @@ class EnglishEntrybarring extends StatelessWidget {
 ١. (ھاوەڵناو) بەکاردێت بۆ وتنی ئەوەی شتێک ڕوودەدات مەگەر ئەوەی شتێکی ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Barring accidents, we should arrive on time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لە کاتی خۆی دەگەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Barring accidents, we should arrive on time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەگەر ئەوەی ڕووداو ڕووبدات، ئەگەرنا لە کاتی خۆی دەگەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybarring extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We should arrive at ten o'clock, barring any (= if there are no) unexpected delays."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت لە کاتژمێر ١٠ بگەین، مەگەر ئەوەی دواکەوتنی نەخوازراو ڕووبدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We should arrive at ten o'clock, barring any (= if there are no) unexpected delays."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت لە کاتژمێر ١٠ بگەین، مەگەر ئەوەی دواکەوتنی نەخوازراو ڕووبدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

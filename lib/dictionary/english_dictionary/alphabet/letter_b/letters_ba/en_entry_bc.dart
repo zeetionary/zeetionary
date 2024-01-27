@@ -170,12 +170,18 @@ class EnglishEntrybc extends StatelessWidget {
 ١. (ناو) لە ڕحژژمێری زاییندا بەکاردێت بۆ پیشاندانی ساڵی پێش ئەو کاتەی کە باوەڕوایە پێغەمبەر عیسا لەدایکبووبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Battle of Actium took place in 31 BC."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەڕی ئاکتیەم لە ساڵی ٣١ی پێش زایین ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Battle of Actium took place in 31 BC."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەڕی ئاکتیەم لە ساڵی ٣١ی پێش زایین ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

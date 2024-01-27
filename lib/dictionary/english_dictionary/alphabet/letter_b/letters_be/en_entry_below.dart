@@ -226,10 +226,16 @@ class EnglishEntrybelow extends StatelessWidget {
 ١. (ھاوەڵکار) لە خوارەوە یان بەرەو خوارەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They live on the floor below."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە نھۆمی خوارەوە دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They live on the floor below."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە نھۆمی خوارەوە دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +253,18 @@ class EnglishEntrybelow extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I could still see the airport buildings far below."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا دەمتوانی بیناکانی فڕۆکەخانەکە کە زۆر لە خوارەوە بوون ببینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I could still see the airport buildings far below."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا دەمتوانی بیناکانی فڕۆکەخانەکە کە زۆر لە خوارەوە بوون ببینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -270,11 +282,18 @@ class EnglishEntrybelow extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "See below (= at the bottom of the page) for references."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەیری خوارەوە بکە بۆ سەرچاوەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "See below (= at the bottom of the page) for references."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیری خوارەوە بکە بۆ سەرچاوەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +313,18 @@ class EnglishEntrybelow extends StatelessWidget {
 ٢. (ھاوەڵکار) لە پلەیەکی نزمتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This ruling applies to the ranks of officers and below."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم بڕیارە ئەفسەران و ئەوانەی نزمتر لێیان دەگرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This ruling applies to the ranks of officers and below."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم بڕیارە ئەفسەران و ئەوانەی نزمتر لێیان دەگرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -319,12 +344,18 @@ class EnglishEntrybelow extends StatelessWidget {
 ٣. (ھاوەڵکار) نزمتر لە سفر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The thermometer had dropped to a record 40 below (= −40 degrees)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەرمی‌پێوەکە دابەزیوە بۆ ٤٠ی ژێر سفر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The thermometer had dropped to a record 40 below (= −40 degrees)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەرمی‌پێوەکە دابەزیوە بۆ ٤٠ی ژێر سفر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -344,10 +375,18 @@ class EnglishEntrybelow extends StatelessWidget {
 ٤. (ئامراز) لە ئاست یان جێگەیەکی خوارتر وەک لە کەسێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Please do not write below this line."),
-                              const ExampleSentenceKurdish(
-                                  text: "تکایە لە خوار ئەم ھێڵەوە مەنووسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please do not write below this line."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە لە خوار ئەم ھێڵەوە مەنووسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -365,11 +404,17 @@ class EnglishEntrybelow extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He dived below the surface of the water."),
-                              const ExampleSentenceKurdish(
-                                  text: "دابەزییە ژێر ئاوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He dived below the surface of the water."),
+                                    ExampleSentenceKurdish(
+                                        text: "دابەزییە ژێر ئاوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -387,12 +432,18 @@ class EnglishEntrybelow extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In this school, skirts will be worn below (= long enough to cover) the knee."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەم قوتابخانەیە، تەنوورە دەبێت لەخوار ئەژنۆوە بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In this school, skirts will be worn below (= long enough to cover) the knee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەم قوتابخانەیە، تەنوورە دەبێت لەخوار ئەژنۆوە بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -412,12 +463,18 @@ class EnglishEntrybelow extends StatelessWidget {
 ٥. (ئامراز) لە ئاستێک یان ستانداردی کەمتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The temperatures remained below freezing all day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەی گەرمی تەواوی ڕۆژەکە لەژێر پلەی بەستن مایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The temperatures remained below freezing all day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلەی گەرمی تەواوی ڕۆژەکە لەژێر پلەی بەستن مایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -437,12 +494,18 @@ class EnglishEntrybelow extends StatelessWidget {
 ٦. (ئامراز) لە پلەیەکی نزمتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She held a position below manager in the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەیەکی ھەبوو کە لە خوار سەرپەرشتیارەوە بوو لە کۆمپانیاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She held a position below manager in the company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلەیەکی ھەبوو کە لە خوار سەرپەرشتیارەوە بوو لە کۆمپانیاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

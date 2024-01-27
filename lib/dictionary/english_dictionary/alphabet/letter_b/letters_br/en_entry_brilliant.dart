@@ -300,10 +300,16 @@ class EnglishEntrybrilliant extends StatelessWidget {
 ١. (ھاوەڵناو) تەواو زیرەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What a brilliant idea!"),
-                              const ExampleSentenceKurdish(
-                                  text: "چی بیرۆکەیەکی بلیمەیانەیە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "What a brilliant idea!"),
+                                    ExampleSentenceKurdish(
+                                        text: "چی بیرۆکەیەکی بلیمەیانەیە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brilliant" as
                               Column(
                                 children: [
@@ -320,12 +326,18 @@ class EnglishEntrybrilliant extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made two brilliant saves to keep his side in the match."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو گەڕانەوەی بلیمەتانەی ئەنجامدا بۆ ھێشتنەوەی لایەنەکەی لە یارییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made two brilliant saves to keep his side in the match."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو گەڕانەوەی بلیمەتانەی ئەنجامدا بۆ ھێشتنەوەی لایەنەکەی لە یارییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -348,7 +360,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Her performance was technically brilliant but lacked feeling."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە ھەست و سۆز بوو."),
                                       const CustomSizedBoxForTTS(),
@@ -372,7 +384,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "This is a brilliant and fascinating piece of writing."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەمە پارچە نووسراوێکی بلیمەتانە و سەرجڕاکێشە."),
                                       const CustomSizedBoxForTTS(),
@@ -399,11 +411,17 @@ class EnglishEntrybrilliant extends StatelessWidget {
                               text: "٢. (ناو) زۆر باش؛ نایاب"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thanks. You've been brilliant (= very helpful)."),
-                              const ExampleSentenceKurdish(
-                                  text: "سوپاس، زۆر یارمەتیدەر بوویت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thanks. You've been brilliant (= very helpful)."),
+                                    ExampleSentenceKurdish(
+                                        text: "سوپاس، زۆر یارمەتیدەر بوویت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -420,11 +438,18 @@ class EnglishEntrybrilliant extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Winning that race was just brilliant."),
-                              const ExampleSentenceKurdish(
-                                  text: "بردنەوەی ئەو پێشبڕکێیە ناوازە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Winning that race was just brilliant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بردنەوەی ئەو پێشبڕکێیە ناوازە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -443,10 +468,17 @@ class EnglishEntrybrilliant extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) زۆر زیرەک و بەھرەدار"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's a brilliant young scientist."),
-                              const ExampleSentenceKurdish(
-                                  text: "زانایەکی گەنجی بلیمەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's a brilliant young scientist."),
+                                    ExampleSentenceKurdish(
+                                        text: "زانایەکی گەنجی بلیمەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -463,12 +495,18 @@ class EnglishEntrybrilliant extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has one of the most brilliant minds in the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاوەن یەکێک لە باشترین مێشکەکانی وڵاتەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has one of the most brilliant minds in the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاوەن یەکێک لە باشترین مێشکەکانی وڵاتەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -487,10 +525,18 @@ class EnglishEntrybrilliant extends StatelessWidget {
                               text: "٤. (ھاوەڵناو) زۆر سەرکەوتوو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The play was a brilliant success."),
-                              const ExampleSentenceKurdish(
-                                  text: "یارییەکە سەرکەوتنێکی ناوازە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The play was a brilliant success."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارییەکە سەرکەوتنێکی ناوازە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -509,10 +555,16 @@ class EnglishEntrybrilliant extends StatelessWidget {
                               text: "٥. (ھاوەڵناو) زۆر ڕۆشن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The sky was a brilliant blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاسمان شینی درەوشاوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The sky was a brilliant blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاسمان شینی درەوشاوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,10 +166,17 @@ class EnglishEntrybud extends StatelessWidget {
 ١. (ھاوەڵناو) خونچەی ڕووەکێک کە دواتر دەبێتە گوڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The tree is in bud already."),
-                              const ExampleSentenceKurdish(
-                                  text: "دارەکە دەمێک دەبێت خونچەی گرتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The tree is in bud already."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دارەکە دەمێک دەبێت خونچەی گرتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bud" as
                               Column(
                                 children: [
@@ -188,11 +195,18 @@ class EnglishEntrybud extends StatelessWidget {
                               text: "٢. (ناو) بۆ ناوھێنانی پیاوێک کە نایناسیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Listen, bud, enough of the wisecracks, OK?"),
-                              const ExampleSentenceKurdish(
-                                  text: "گوێ بگرە کاکە، نوکتە بەسە، باشە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Listen, bud, enough of the wisecracks, OK?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێ بگرە کاکە، نوکتە بەسە، باشە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +225,18 @@ class EnglishEntrybud extends StatelessWidget {
                               text: "٣. (کردار) خونچە گرتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In early spring the trees begin to bud."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەرەتای بەھاردا دارەکان دەست دەکەن بە خونچە گرتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In early spring the trees begin to bud."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەرەتای بەھاردا دارەکان دەست دەکەن بە خونچە گرتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

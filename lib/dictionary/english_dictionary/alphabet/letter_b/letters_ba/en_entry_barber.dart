@@ -166,10 +166,16 @@ class EnglishEntrybarber extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری بڕینی پرچی پیاوانە لەگەڵ کاری تاشین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He used to work as a barber."),
-                              const ExampleSentenceKurdish(
-                                  text: "جاران وەک سەرتاشێک کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He used to work as a barber."),
+                                    ExampleSentenceKurdish(
+                                        text: "جاران وەک سەرتاشێک کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +195,18 @@ class EnglishEntrybarber extends StatelessWidget {
 ٢. (ناو) سەرتاشخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The barber was closed on Sundays."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرتاشخانەکە ڕۆژانی یەکشەممان داخراوبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barber was closed on Sundays."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرتاشخانەکە ڕۆژانی یەکشەممان داخراوبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

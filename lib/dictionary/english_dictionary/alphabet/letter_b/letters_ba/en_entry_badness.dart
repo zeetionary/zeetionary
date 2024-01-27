@@ -169,11 +169,17 @@ class EnglishEntrybadness extends StatelessWidget {
 ١. (ناو) خراپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was not a hint of badness in him."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ ئاماژەی خراپەکاری تێدابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was not a hint of badness in him."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ ئاماژەی خراپەکاری تێدابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

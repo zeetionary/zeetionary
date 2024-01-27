@@ -171,12 +171,18 @@ class EnglishEntrybandy extends StatelessWidget {
 ١. (ھاوەڵناو) لاق چەماوە و بڵاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I couldn't help laughing at his bandy legs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I couldn't help laughing at his bandy legs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمدەتوانی خۆم بگرم لە پێکەنین بە لاقە چەماوەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

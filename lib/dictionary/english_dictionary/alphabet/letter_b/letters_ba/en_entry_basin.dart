@@ -167,10 +167,17 @@ class EnglishEntrybasin extends StatelessWidget {
 ١. (ناو) دەستشۆر کە دەلکێندرێت بە دیوارەوە و بەلووعەی پێوەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He washed his hands in the basin."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستەکانی لە دەستشۆرەکە شۆرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He washed his hands in the basin."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستەکانی لە دەستشۆرەکە شۆرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybasin extends StatelessWidget {
 ٢. (ناو) دەفرێکی گەورە بۆ ئاوتێکردن یان ئامادەکردنی خۆراک تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The chef carefully placed the dough into a large basin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێفەکە بەوریاییەوە ھەویرەکەی خستە ناو دەفرەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The chef carefully placed the dough into a large basin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێفەکە بەوریاییەوە ھەویرەکەی خستە ناو دەفرەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybasin extends StatelessWidget {
 ٣. (ناو) ناوچەیەک کە لە تەبیشت ڕووبارێکی گەورەیە و لقی پێدا تێدەپەڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Amazon River Basin is the largest river basin in the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆلاوی ڕووباری ئەمازۆن گەورەترین گۆلاوە لە جیھاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Amazon River Basin is the largest river basin in the world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆلاوی ڕووباری ئەمازۆن گەورەترین گۆلاوە لە جیھاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

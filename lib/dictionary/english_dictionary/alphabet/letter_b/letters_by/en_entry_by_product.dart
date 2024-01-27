@@ -213,12 +213,18 @@ class EnglishEntrybyproduct extends StatelessWidget {
 ١. (ناو) شتێک کە درووست دەبێت لە ئەنجامی درووستکردن یان لەناوبردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When burnt, plastic produces dangerous by-products."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە دەسووتێنرێت، پلاستیک لابەرهەمی مەترسیدار درووست دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When burnt, plastic produces dangerous by-products."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە دەسووتێنرێت، پلاستیک لابەرهەمی مەترسیدار درووست دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-product", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrybyproduct extends StatelessWidget {
                                   "٢. (ناو) شتێک کە ڕوودەدات، زۆرجار بە چاوەڕواننەکراوی، لە ئەنجامی شتێکی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of the by-products of unemployment is an increase in crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە کاریگەرییە لاوەکییەکانی بێ‌کاری زۆربوونی تاوانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the by-products of unemployment is an increase in crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە کاریگەرییە لاوەکییەکانی بێ‌کاری زۆربوونی تاوانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

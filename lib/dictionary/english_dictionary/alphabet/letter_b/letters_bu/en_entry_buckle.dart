@@ -166,10 +166,16 @@ class EnglishEntrybuckle extends StatelessWidget {
 ١. (کردار) بەستن بە ئاوزوونە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She buckled her belt."),
-                              const ExampleSentenceKurdish(
-                                  text: "قایشەکەی بە ئاوەزوونەکە بەست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She buckled her belt."),
+                                    ExampleSentenceKurdish(
+                                        text: "قایشەکەی بە ئاوەزوونەکە بەست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "buckle" as
                               Column(
                                 children: [
@@ -186,10 +192,16 @@ class EnglishEntrybuckle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He buckled on his sword."),
-                              const ExampleSentenceKurdish(
-                                  text: "شمشێرەکەی لە خۆی بەست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He buckled on his sword."),
+                                    ExampleSentenceKurdish(
+                                        text: "شمشێرەکەی لە خۆی بەست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +221,18 @@ class EnglishEntrybuckle extends StatelessWidget {
                                   "٢. (کردار) لاربوون یان شکان لەژێر کێشی شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The steel frames began to buckle under the strain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچەکانی ئاسنەکە دەستیان بە لاربوون کرد لەژێر پەستانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The steel frames began to buckle under the strain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچەکانی ئاسنەکە دەستیان بە لاربوون کرد لەژێر پەستانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +249,18 @@ class EnglishEntrybuckle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A weaker man would have buckled under the pressure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A weaker man would have buckled under the pressure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراوی) پیاوێکی لاوازتر کۆڵی دەدا لەژێر پەستانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +280,18 @@ class EnglishEntrybuckle extends StatelessWidget {
                                   "٣. (ناو) پارچەیەک ئاسن یان پلاستیک کە بەکاردێت بۆ بەستنی سەرەکانی قایشێک، یان بەستنی بەشێکی جانتایەک، پێڵاوێک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She adjusted the tightness of her belt by moving the buckle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توندی قایشەکەی ڕێکخست بە جوڵاندنی ئاوزوونەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She adjusted the tightness of her belt by moving the buckle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توندی قایشەکەی ڕێکخست بە جوڵاندنی ئاوزوونەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

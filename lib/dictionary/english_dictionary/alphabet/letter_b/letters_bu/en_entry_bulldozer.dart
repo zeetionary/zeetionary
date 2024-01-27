@@ -164,12 +164,18 @@ class EnglishEntrybulldozer extends StatelessWidget {
 ١. (ناو) ئامێرێکی بەهێز کە دەمێکی پانی هەیە و بەکاردێت بۆ ڕاماڵینی خۆڵ یان ڕووخاندنی خانوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They used a bulldozer to level the ground."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاکماڵێکیان بەکارهێنا بۆ ڕاماڵینی زەوییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They used a bulldozer to level the ground."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاکماڵێکیان بەکارهێنا بۆ ڕاماڵینی زەوییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldozer", follow LX strictly
                               Column(
                                 children: [

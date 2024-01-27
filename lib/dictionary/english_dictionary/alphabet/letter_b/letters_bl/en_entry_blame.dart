@@ -171,11 +171,18 @@ class EnglishEntryblame extends StatelessWidget {
 ١. (کردار) لۆمەکردنی کەسێک بە شتێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She doesn't blame anyone for her father's death."),
-                              const ExampleSentenceKurdish(
-                                  text: "لۆمەی کەس ناکات بۆ مەرگی باوکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She doesn't blame anyone for her father's death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لۆمەی کەس ناکات بۆ مەرگی باوکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +201,18 @@ class EnglishEntryblame extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Why is he blaming others for his problems?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچی لۆمەی کەسانی تر دەکات بۆ کێشەکانی؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Why is he blaming others for his problems?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچی لۆمەی کەسانی تر دەکات بۆ کێشەکانی؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +233,18 @@ class EnglishEntryblame extends StatelessWidget {
                                   "٢. (ناو) بەرپرسیاریەتی بۆ شتێکی بە خراپی یان ھەڵە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Why do I always get the blame for everything that goes wrong?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچی ھەمیشە سەرزەنشت دەخرێتە سەر من بۆ ھەر شتێک کە ھەڵە ڕوودەدات؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Why do I always get the blame for everything that goes wrong?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچی ھەمیشە سەرزەنشت دەخرێتە سەر من بۆ ھەر شتێک کە ھەڵە ڕوودەدات؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +263,18 @@ class EnglishEntryblame extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government will have to take the blame for the riots."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ ئاژاوەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government will have to take the blame for the riots."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ ئاژاوەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

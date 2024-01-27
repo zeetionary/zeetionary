@@ -164,12 +164,18 @@ class EnglishEntrybullion extends StatelessWidget {
 ١. (ناو) ئاڵتوون و زیو بە ڕێژەی زۆر یان بە پارچە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Investors often purchase gold bullion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرمایەداران زۆرجار پارچە ئاڵتوون دەکڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Investors often purchase gold bullion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرمایەداران زۆرجار پارچە ئاڵتوون دەکڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullion", follow LX strictly
                               Column(
                                 children: [

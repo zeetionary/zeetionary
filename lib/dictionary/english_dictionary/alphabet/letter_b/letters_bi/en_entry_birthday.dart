@@ -170,12 +170,18 @@ class EnglishEntrybirthday extends StatelessWidget {
 ١. (ناو) ڕۆژی لەدایکبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She celebrated her 21st birthday with a party for family and friends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "٢١ ھەمین ڕۆژی لەدایکبوونی پیرۆزکرد بە ئاھەنگێک بۆ خێزانی و ھاوڕێکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She celebrated her 21st birthday with a party for family and friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "٢١ ھەمین ڕۆژی لەدایکبوونی پیرۆزکرد بە ئاھەنگێک بۆ خێزانی و ھاوڕێکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

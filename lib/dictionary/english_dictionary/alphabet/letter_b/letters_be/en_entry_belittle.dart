@@ -168,12 +168,18 @@ class EnglishEntrybelittle extends StatelessWidget {
 ١. (کردار) پیشاندانی کەسێک یان ئەو شتانەی دەیکات وەک ئەوەی گرنگ نەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt her husband constantly belittled her achievements."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی دەکرد ھاوسەرەکەی بەردەوام بەدەستھێنانەکانی بچووک دەکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt her husband constantly belittled her achievements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی دەکرد ھاوسەرەکەی بەردەوام بەدەستھێنانەکانی بچووک دەکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

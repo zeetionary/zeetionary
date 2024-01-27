@@ -170,12 +170,18 @@ class EnglishEntrybevy extends StatelessWidget {
 ١. (ناو) ژمارەیەکی زۆر لە خەڵکی یان شتی ھەمان جۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bevy of movie stars arrived at the White House."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاقمێک لە ئەستێرەکانی فیلم گەشتنە کۆشکی سپی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bevy of movie stars arrived at the White House."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقمێک لە ئەستێرەکانی فیلم گەشتنە کۆشکی سپی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

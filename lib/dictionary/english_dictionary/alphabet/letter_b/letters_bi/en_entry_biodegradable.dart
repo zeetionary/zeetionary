@@ -172,10 +172,17 @@ class EnglishEntrybiodegradable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بە بەکتریا ھەڵدەوەشێت و بە تێپەڕبوونی کات و زیانی بۆ ژینگە نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Most plastics are not biodegradable."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرینەی پلاستیک ژینگەدۆست نین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most plastics are not biodegradable."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆرینەی پلاستیک ژینگەدۆست نین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

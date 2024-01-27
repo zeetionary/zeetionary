@@ -172,12 +172,18 @@ class EnglishEntrybadtempered extends StatelessWidget {
 ١. (ھاوەڵناو) زۆرجار تووڕە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She gets very bad-tempered when she's tired."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر بێ تەحەمول دەبێت کە ماندوو دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She gets very bad-tempered when she's tired."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر بێ تەحەمول دەبێت کە ماندوو دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

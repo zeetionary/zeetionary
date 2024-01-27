@@ -174,12 +174,18 @@ class EnglishEntrybackstage extends StatelessWidget {
 ١. (ھاوەڵکار) لە پشتەوەی پەردە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the show, we were allowed to go backstage to meet the cast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the show, we were allowed to go backstage to meet the cast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntrybackstage extends StatelessWidget {
 ٢. (ھاوەڵکار) بە نھێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The organizers say it's a fair contest but who knows what goes on backstage?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخەران دەڵێن پێشبڕکێیەکی دادپەروەرانەیە، بەڵام کێ دەزانێ چی لە پشتەوەی پەردە ڕوودەدات؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The organizers say it's a fair contest but who knows what goes on backstage?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخەران دەڵێن پێشبڕکێیەکی دادپەروەرانەیە، بەڵام کێ دەزانێ چی لە پشتەوەی پەردە ڕوودەدات؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +240,18 @@ class EnglishEntrybackstage extends StatelessWidget {
 ٣. (ھاوەڵناو) پەیوەندیدار بە پشتەوەی پەردە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The backstage crew worked tirelessly to ensure that the show ran smoothly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاقمی پشتەوەی پەردە ماندوونەناسانە کاریان دەکرد بۆ دڵنیاییکردنەوەی ئەوەی نمایشەکە بەبێ کێشەکە بەڕێوەدەچێت"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The backstage crew worked tirelessly to ensure that the show ran smoothly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقمی پشتەوەی پەردە ماندوونەناسانە کاریان دەکرد بۆ دڵنیاییکردنەوەی ئەوەی نمایشەکە بەبێ کێشەکە بەڕێوەدەچێت"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +273,18 @@ class EnglishEntrybackstage extends StatelessWidget {
 ٤. (ھاوەڵناو) بە نھێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The envoy conducted a series of backdoor meetings with rebel leaders to try to broker a ceasefire."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نێردەکە ژمارەیەک کۆبوونەوەی نھێنیی ئەنجامدا لەگەڵ سەرکردەکانی یاخیبووان بۆ ھێنانەئارای ئاگربەستێک"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The envoy conducted a series of backdoor meetings with rebel leaders to try to broker a ceasefire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نێردەکە ژمارەیەک کۆبوونەوەی نھێنیی ئەنجامدا لەگەڵ سەرکردەکانی یاخیبووان بۆ ھێنانەئارای ئاگربەستێک"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

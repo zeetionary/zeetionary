@@ -214,11 +214,18 @@ class EnglishEntrybyword extends StatelessWidget {
 ١. (ناو) کەسێک/شتێک کە زۆر باش ناسراوە و نموونەی بەرچاوی شتێکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The name Chanel became a byword for elegance."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوی شانێل بوو بە هێمای کەشخەیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The name Chanel became a byword for elegance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی شانێل بوو بە هێمای کەشخەیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "byword", follow LX strictly
                               Column(
                                 children: [
@@ -235,11 +242,18 @@ class EnglishEntrybyword extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their products are a byword for good value."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرهەمەکانیان نموونەی کوالێتی باشن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their products are a byword for good value."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرهەمەکانیان نموونەی کوالێتی باشن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +273,18 @@ class EnglishEntrybyword extends StatelessWidget {
                                   "٢. (ناو) وشەیەک یان زاراوەیەک کە باش زانراوە و زۆرجار بەکاردێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'Actions speak louder than words' is often used as a byword for emphasizing the importance of deeds over speech."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "'کردار شەرتە' زۆرجار وەک وتەی سەرزار بەکاردێت بۆ جەختکردنەوە لە گرنگی کردار وەک لە قسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'Actions speak louder than words' is often used as a byword for emphasizing the importance of deeds over speech."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "'کردار شەرتە' زۆرجار وەک وتەی سەرزار بەکاردێت بۆ جەختکردنەوە لە گرنگی کردار وەک لە قسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

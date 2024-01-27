@@ -166,12 +166,18 @@ class EnglishEntrybrotherhood extends StatelessWidget {
 ١. (ناو) ھاوڕێیەتی و تێگەشتن لە نێوان خەڵکیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The group tries to promote a spirit of brotherhood among its members."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The group tries to promote a spirit of brotherhood among its members."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپەکە ھەوڵ دەدات گیانی برایەتی برەو پێ بدات لە نێوان ئەندامەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brotherhood" as
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                                   "٢. (ناو) دامەزراوەیەک کە بۆ مەبەستێکی دیاریکراو درووستکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The various groups eventually fused into a single brotherhood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپە جیاوازەکان لە کۆتایی بوون بە یەک دامەزراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The various groups eventually fused into a single brotherhood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپە جیاوازەکان لە کۆتایی بوون بە یەک دامەزراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybrotherhood extends StatelessWidget {
                               text: "٣. (ناو) پەیوەندی نێوان ژمارەیەک برا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ties of brotherhood strengthened as they faced challenges together."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندیی برایانەیان بەھێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ties of brotherhood strengthened as they faced challenges together."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندیی برایانەیان بەھێزبوو کە پێکەوە ڕووبەڕووی چەڵەمە دەبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

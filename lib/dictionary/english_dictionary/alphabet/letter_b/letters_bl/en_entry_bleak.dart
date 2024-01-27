@@ -171,12 +171,18 @@ class EnglishEntrybleak extends StatelessWidget {
 ١. (ھاوەڵناو) دۆخێک کە ھیچ ھۆکارێک نییە ئومێدت پێی ھەبێت یان چاوەڕێی ھیچی باشی لێ بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The future looks bleak for the fishing industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داھاتوو نائومێدکەر دیاربوو بۆ پیشەسازی ماسیگرتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The future looks bleak for the fishing industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داھاتوو نائومێدکەر دیاربوو بۆ پیشەسازی ماسیگرتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybleak extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Prospects for the industry are extremely bleak."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشبینییەکان بۆ پیشەسازییەکە تەواو ھیوابڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Prospects for the industry are extremely bleak."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشبینییەکان بۆ پیشەسازییەکە تەواو ھیوابڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +229,18 @@ class EnglishEntrybleak extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) سارد و ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "With no shelter in sight, the hikers faced a bleak night in the mountains as temperatures dropped."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەوەی ھیچ پەناگەیەک دیار نەبوو، شاخەوانان ڕووبەڕووی شەوێکی سەرماوسۆڵە بوونەوە کە پلەی گەرمی دادەبەزی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "With no shelter in sight, the hikers faced a bleak night in the mountains as temperatures dropped."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەوەی ھیچ پەناگەیەک دیار نەبوو، شاخەوانان ڕووبەڕووی شەوێکی سەرماوسۆڵە بوونەوە کە پلەی گەرمی دادەبەزی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +260,18 @@ class EnglishEntrybleak extends StatelessWidget {
                                   "٣. (ھاوەڵناو) شوێنێکی بەتاڵ کە ھیچ خاسیەتێکی سەرنجڕاکێشی نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The house stands on a bleak, windswept hilltop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانووەکە دەکەوێتە سەر گردێکی چۆڵی باگرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house stands on a bleak, windswept hilltop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووەکە دەکەوێتە سەر گردێکی چۆڵی باگرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

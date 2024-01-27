@@ -172,10 +172,17 @@ class EnglishEntrybalcony extends StatelessWidget {
 ١. (ناو) شوێنێک کە لە بینایەکدا کە لە دەرەوەی نھۆمی سەرەوەوە درووست دەکرێت و سیاجی پارێزەری ھەیە بۆ ڕێگری لە کەوتنەخوارەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We had drinks on the hotel balcony."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە بەرھەیوانەکە خواردمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We had drinks on the hotel balcony."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە بەرھەیوانەکە خواردمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +204,18 @@ class EnglishEntrybalcony extends StatelessWidget {
 ٢. (ناو) بەشی سەرەوەی کوورسییەکانی سینەمایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our seats are in row F of the balcony."),
-                              const ExampleSentenceKurdish(
-                                  text: "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our seats are in row F of the balcony."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

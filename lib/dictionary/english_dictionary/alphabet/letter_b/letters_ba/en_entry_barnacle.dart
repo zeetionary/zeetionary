@@ -163,12 +163,18 @@ class EnglishEntrybarnacle extends StatelessWidget {
 ١. (ناو) گەنلەبەرێک کە لەژێر ئاودا بە شتەوە دەنووسێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Barnacles covered the hull of the ship."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بارنکڵ باشی پێشەوەی کەشتییەکەی داپۆشیبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Barnacles covered the hull of the ship."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بارنکڵ باشی پێشەوەی کەشتییەکەی داپۆشیبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

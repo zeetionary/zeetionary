@@ -168,12 +168,18 @@ class EnglishEntrybeefsteak extends StatelessWidget {
 ١. (ناو) پارچەیەکی کوالێتی باشی ئەستوور لە گۆشتی گا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hamburger steaks consist of finely minced beefsteak seasoned with salt and pepper."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچە گۆشتی ھەمبەرگر پێکدێت لە پارچە گۆشتی گا جوان کراو بە قیمە کە تامی سوێری و بیبەری پێوەکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hamburger steaks consist of finely minced beefsteak seasoned with salt and pepper."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچە گۆشتی ھەمبەرگر پێکدێت لە پارچە گۆشتی گا جوان کراو بە قیمە کە تامی سوێری و بیبەری پێوەکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

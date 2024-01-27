@@ -166,12 +166,18 @@ class EnglishEntryboardinghouse extends StatelessWidget {
 ١. (ناو) ماڵی خێزانێک کە خەڵکی دەتوانن تێدا بمێننەوە و خواردن بخۆن بە پارەدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His parents kept a boarding house in Miami."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکی میوانخانەیەکیان ھەبوو لە میامی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His parents kept a boarding house in Miami."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکی میوانخانەیەکیان ھەبوو لە میامی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

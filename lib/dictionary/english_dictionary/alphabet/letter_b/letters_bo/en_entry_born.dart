@@ -256,10 +256,16 @@ class EnglishEntryborn extends StatelessWidget {
 ١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was born in 1976."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ساڵی ١٩٧٦ لەدایکبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was born in 1976."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ساڵی ١٩٧٦ لەدایکبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,12 +282,18 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was born in a small village in northern Spain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was born in a small village in northern Spain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -304,7 +316,7 @@ class EnglishEntryborn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The baby was born by Caesarean section on Friday."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -328,7 +340,7 @@ class EnglishEntryborn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "These children were born into poverty."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەم منداڵانە لە ھەژاریدا لەدایکبوون."),
                                       const CustomSizedBoxForTTS(),
@@ -356,12 +368,18 @@ class EnglishEntryborn extends StatelessWidget {
                                   "٢. (کردار) دەستپێکردنی بیرۆکەیەک، جوڵانەوەیەک، دامەزراوەیەک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She acted with a courage born (out) of desperation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووستبووبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She acted with a courage born (out) of desperation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووستبووبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -381,12 +399,18 @@ class EnglishEntryborn extends StatelessWidget {
                                   "٣. (کردار) لەدایکبوو بەو شێوەیەی باسکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The part is played by an American-born actress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The part is played by an American-born actress."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -403,10 +427,17 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was the firstborn of his family."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەکەم منداڵی خێزانەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was the firstborn of his family."),
+                                    ExampleSentenceKurdish(
+                                        text: "یەکەم منداڵی خێزانەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -426,11 +457,18 @@ class EnglishEntryborn extends StatelessWidget {
                                   "٤. (ھاوەڵناو) ھەبوونی توانای سرووشتی بۆ چالاکییەک یان کارێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I felt born to take care of animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt born to take care of animals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -447,12 +485,18 @@ class EnglishEntryborn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

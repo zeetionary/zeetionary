@@ -167,12 +167,18 @@ class EnglishEntrybuff extends StatelessWidget {
 ١. (ناو) کەسێک کە زۆری حەز بە بابەتێکە و زۆری لەسەر دەزانێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were a group of computer buffs who used to meet every Thursday evening."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک تامەزرۆی کۆمپیوتەر هەبوون کە هەموو شەوانی پێنجشەممەیەک یەکیان دەدی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were a group of computer buffs who used to meet every Thursday evening."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک تامەزرۆی کۆمپیوتەر هەبوون کە هەموو شەوانی پێنجشەممەیەک یەکیان دەدی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "buff", follow LX strictly.
                               Column(
                                 children: [
@@ -192,10 +198,16 @@ class EnglishEntrybuff extends StatelessWidget {
                                   "٢. (ناو) ڕەنگی بێجی؛ ڕەنگێکی کاڵی قاوەیی باو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Is it available in buff?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ڕەنگی بێجی هەیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Is it available in buff?"),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ڕەنگی بێجی هەیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybuff extends StatelessWidget {
                                   "٣. (ناو) زیادبوونی توانای کارەکتەرێک، چەکێک، هتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some weapons will receive buffs in the next update."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەندێک لە چەکەکان هێز وەردەگرن لە نوێکردنوەی دواتردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some weapons will receive buffs in the next update."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەندێک لە چەکەکان هێز وەردەگرن لە نوێکردنوەی دواتردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,11 +257,18 @@ class EnglishEntrybuff extends StatelessWidget {
                               text: "٤. (ھاوەڵناو) ڕەنگی بێجی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The curtains were a lovely shade of buff."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەردەکان ڕەنگێکی جوانی بێجی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The curtains were a lovely shade of buff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەردەکان ڕەنگێکی جوانی بێجی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +288,18 @@ class EnglishEntrybuff extends StatelessWidget {
                                   "٥. (ھاوەڵناو) کەسێکی چوارشانە و جوان بە ماسولکەی گەورەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a tall buff guy in his thirties."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێکی چوارشانەی بەرز بوو لە سییەکانی تەمەنیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a tall buff guy in his thirties."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێکی چوارشانەی بەرز بوو لە سییەکانی تەمەنیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

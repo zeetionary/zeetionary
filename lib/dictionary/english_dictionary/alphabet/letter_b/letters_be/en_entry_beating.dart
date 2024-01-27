@@ -172,11 +172,17 @@ class EnglishEntrybeating extends StatelessWidget {
 ١. (ناو) کردەی لێدان لە کەسێک بە توندی و بەردەوامی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They caught him and gave him a violent beating."),
-                              const ExampleSentenceKurdish(
-                                  text: "گرتیان و لێدانێکی سەختیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They caught him and gave him a violent beating."),
+                                    ExampleSentenceKurdish(
+                                        text: "گرتیان و لێدانێکی سەختیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybeating extends StatelessWidget {
 ٢. (ناو) شکستێکی قوورس """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team has taken a few beatings this season."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team has taken a few beatings this season."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە ئەم وەرزە چەند شکستێکی قورسیان ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,11 +233,18 @@ class EnglishEntrybeating extends StatelessWidget {
 ٣. (ناو) زنجیرەیەک لە لێدان، بۆ نموونە لێدانی دەھۆڵ یان دڵ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He could hear the beating of his own heart."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەیتوانی گوێی لە ترپی دڵی خۆی بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He could hear the beating of his own heart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیتوانی گوێی لە ترپی دڵی خۆی بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

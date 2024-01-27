@@ -170,12 +170,18 @@ class EnglishEntrybewildering extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە سەرسامت دەکات بەھۆی ئەوەی ھەڵبژاردەی زۆری ھەیە، یان گرانە بۆ تێگەشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a bewildering variety of software available."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی سەرسووڕھێنەر لە نەرمامێر بەردەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a bewildering variety of software available."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی سەرسووڕھێنەر لە نەرمامێر بەردەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybanns extends StatelessWidget {
 ١. (ناو) ڕاگەیاندنی فەرمی کڵێسا کە دوو کەس ھاوسەرگیری دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The banns were published in their parish church."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاگەیاندنی ھاوسەرگیرییەکە بڵاوکرایەوە لە کڵێسای ناوچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The banns were published in their parish church."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاگەیاندنی ھاوسەرگیرییەکە بڵاوکرایەوە لە کڵێسای ناوچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

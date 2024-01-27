@@ -168,12 +168,18 @@ class EnglishEntrybloodpoisoning extends StatelessWidget {
 ١. (ناو) نەخۆشییەک کە تێیدا بەکتریا دەچێتە ناو خوێنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The wound became infected, leading to a severe blood poisoning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برینەکە تووشی ھەوکردن بوو و بوو بەھۆی ژەھراویبوونی توندی خوێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The wound became infected, leading to a severe blood poisoning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برینەکە تووشی ھەوکردن بوو و بوو بەھۆی ژەھراویبوونی توندی خوێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

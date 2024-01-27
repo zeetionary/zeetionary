@@ -169,12 +169,18 @@ class EnglishEntrybarmaid extends StatelessWidget {
 ١. (ناو) مەیگێڕێکی ژن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was working as a barmaid in a pub."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ژنەمەیگێڕێک لە باڕێکدا کاریدەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was working as a barmaid in a pub."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ژنەمەیگێڕێک لە باڕێکدا کاریدەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

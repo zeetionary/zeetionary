@@ -210,12 +210,18 @@ class EnglishEntrybungalow extends StatelessWidget {
 ١. (ناو) خانوویەکی یەک نهۆمی بەبێ قادرمە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were small, white bungalows dotted over the hillside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانووی یەک نهۆمی بچووکی سپی بەسەر گردەکە دیاربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were small, white bungalows dotted over the hillside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووی یەک نهۆمی بچووکی سپی بەسەر گردەکە دیاربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bungalow", follow LX strictly
                               Column(
                                 children: [

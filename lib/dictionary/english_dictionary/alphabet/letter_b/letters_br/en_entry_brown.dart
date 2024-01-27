@@ -168,11 +168,18 @@ class EnglishEntrybrown extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگی خاک یان قاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Soon the yellow leaves will turn brown."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەزوویی گەڵا زەردەکان قاوەیی دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Soon the yellow leaves will turn brown."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزوویی گەڵا زەردەکان قاوەیی دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brown" as
                               Column(
                                 children: [
@@ -189,12 +196,18 @@ class EnglishEntrybrown extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Henry has short brown hair and green eyes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێنری قژی قاوەیی کورتی ھەیە لەگەڵ چاوی سەوزدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Henry has short brown hair and green eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێنری قژی قاوەیی کورتی ھەیە لەگەڵ چاوی سەوزدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,10 +227,16 @@ class EnglishEntrybrown extends StatelessWidget {
                                   "٢. (ھاوەڵناو) ھەبوونی پێستێک کە بەسرووشتی قاوەییە یان بەھۆی خۆرەوە گۆڕاوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I don't go brown very easily."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ئاسانی ڕەشتاڵە نابم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I don't go brown very easily."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ئاسانی ڕەشتاڵە نابم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,11 +253,18 @@ class EnglishEntrybrown extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is proud to describe himself as a brown person."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە شانازییەوە خۆی ڕەشباو دەناسێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is proud to describe himself as a brown person."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە شانازییەوە خۆی ڕەشباو دەناسێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,11 +283,17 @@ class EnglishEntrybrown extends StatelessWidget {
                               text: "٣. (ناو) ڕەنگی قاوەیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Brown doesn't (= brown clothes do not) suit you."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەنگی قاوەییت لێ ناییەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Brown doesn't (= brown clothes do not) suit you."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕەنگی قاوەییت لێ ناییەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -280,10 +312,18 @@ class EnglishEntrybrown extends StatelessWidget {
                               text: "٤. (کردار) قاوەیی کردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Heat the butter until it browns."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەرەکە گەرم بکە تا قاوەیی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Heat the butter until it browns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەرەکە گەرم بکە تا قاوەیی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

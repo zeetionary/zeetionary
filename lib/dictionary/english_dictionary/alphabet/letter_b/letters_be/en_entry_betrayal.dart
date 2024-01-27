@@ -172,12 +172,18 @@ class EnglishEntrybetrayal extends StatelessWidget {
 ١. (ناو) خیانەتکردن، خیانەت‌لێ‌کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw her actions as a betrayal of my trust."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کردارەکانیم وەک خیانەت لە متمانەم بینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I saw her actions as a betrayal of my trust."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کردارەکانیم وەک خیانەت لە متمانەم بینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +201,18 @@ class EnglishEntrybetrayal extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Memories of his betrayal still haunted her."),
-                              const ExampleSentenceKurdish(
-                                  text: "یادەوەری خیانەتەکەی ھێشتا دەیتاساند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Memories of his betrayal still haunted her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یادەوەری خیانەتەکەی ھێشتا دەیتاساند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +230,18 @@ class EnglishEntrybetrayal extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The decisions were a betrayal of everything my father stood for."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیارەکان ناپاکی بوو لە ھەر شتێک کە باوکم باوەڕی پێی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The decisions were a betrayal of everything my father stood for."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارەکان ناپاکی بوو لە ھەر شتێک کە باوکم باوەڕی پێی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

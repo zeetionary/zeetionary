@@ -171,11 +171,18 @@ class EnglishEntrybreakfast extends StatelessWidget {
 ١. (ناو) نانی بەیانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were having breakfast when I arrived."),
-                              const ExampleSentenceKurdish(
-                                  text: "نانی بەیانیان دەخوارد کە گەشتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were having breakfast when I arrived."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نانی بەیانیان دەخوارد کە گەشتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,10 +199,17 @@ class EnglishEntrybreakfast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She doesn't eat much breakfast."),
-                              const ExampleSentenceKurdish(
-                                  text: "نانی بەیانی زۆر ناخوات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She doesn't eat much breakfast."),
+                                    ExampleSentenceKurdish(
+                                        text: "نانی بەیانی زۆر ناخوات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,7 +232,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Do you want bacon and eggs for breakfast?"),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "گۆشتی بەراز و ھێلکە بۆ نانی بەیانی دەخۆیت؟"),
                                       const CustomSizedBoxForTTS(),
@@ -242,7 +256,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He's in the kitchen cooking us breakfast."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "لە چێشتخانەکەیە نانی بەیانیمان بۆ ئامادە دەکات."),
                                       const CustomSizedBoxForTTS(),
@@ -269,12 +283,18 @@ class EnglishEntrybreakfast extends StatelessWidget {
                               text: "٢. (کردار) خواردنی نانی بەیانی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many of the hotel’s guests had already breakfasted and departed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک لە میوانەکانی ھوتێلەکە پێشوەختە نانی بەیانییان خواردبوو و ڕۆشتبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many of the hotel’s guests had already breakfasted and departed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک لە میوانەکانی ھوتێلەکە پێشوەختە نانی بەیانییان خواردبوو و ڕۆشتبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,10 +311,17 @@ class EnglishEntrybreakfast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She usually breakfasts alone."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرجار بە تەنھا نانی بەیانی دەخوات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She usually breakfasts alone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار بە تەنھا نانی بەیانی دەخوات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

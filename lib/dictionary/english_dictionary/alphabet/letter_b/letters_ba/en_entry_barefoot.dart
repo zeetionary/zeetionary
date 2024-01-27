@@ -166,11 +166,18 @@ class EnglishEntrybarefoot extends StatelessWidget {
 ١. (ھاوەڵناو) بەبێ لەپێکردنی ھیچ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He danced barefoot on the carpet."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "بە پێی پەتی لەسەر فەرشەکە سەمای کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He danced barefoot on the carpet."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە پێی پەتی لەسەر فەرشەکە سەمای کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +195,18 @@ class EnglishEntrybarefoot extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children had to go barefoot because there was no money for shoes."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان ناچاربوون بە پێ‌پەتییانە بچن چونکە پارە بۆ پێڵاو نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children had to go barefoot because there was no money for shoes."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان ناچاربوون بە پێ‌پەتییانە بچن چونکە پارە بۆ پێڵاو نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

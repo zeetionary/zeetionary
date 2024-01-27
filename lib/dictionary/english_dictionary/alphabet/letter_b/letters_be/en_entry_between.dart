@@ -320,12 +320,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ١. (ئامراز) لە نێوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Q comes between P and R in the English alphabet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "Q لە نێوان P و R دێت لە ئەلفوبێی ئینگلیزیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Q comes between P and R in the English alphabet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "Q لە نێوان P و R دێت لە ئەلفوبێی ئینگلیزیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -343,10 +349,17 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I sat down between Jim and Diana."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە نێوان جیم و دایانا دانیشتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I sat down between Jim and Diana."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە نێوان جیم و دایانا دانیشتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -364,12 +377,18 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Switzerland lies between France, Germany, Austria and Italy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سویسرا لە نێوان فەرەنسا و ئەڵمانیا و نەمسا و ئیتالیایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Switzerland lies between France, Germany, Austria and Italy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سویسرا لە نێوان فەرەنسا و ئەڵمانیا و نەمسا و ئیتالیایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -389,10 +408,17 @@ class EnglishEntrybetween extends StatelessWidget {
 ٢. (ئامراز) لە ماوەی کاتێکدا کە دوو ڕۆژ، ساڵ، ڕووداو، ھتد جیادەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't eat between meals."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە نێوان ژەمە خواردنەکان شت مەخۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't eat between meals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە نێوان ژەمە خواردنەکان شت مەخۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -410,12 +436,18 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children must attend school between the ages of 5 and 16."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان دەبێت بچنە قوتابخانە لە نێوان تەمەنی ٥ بۆ ١٦ ساڵی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children must attend school between the ages of 5 and 16."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان دەبێت بچنە قوتابخانە لە نێوان تەمەنی ٥ بۆ ١٦ ساڵی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -435,11 +467,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ٣. (ئامراز) ماوەی نێوان دوو خاڵ لە ڕێژەیەک، کێش، دووری، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It weighed between nine and ten kilos."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێشی لە نێوان نۆ بۆ دە کیلۆ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It weighed between nine and ten kilos."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشی لە نێوان نۆ بۆ دە کیلۆ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -459,12 +498,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ٤. (ئامراز) ھێڵێک کە شوێنێک لە یەکێکی تر جیادەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a long border between United States and Canada."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سنوورێکی درێژ ھەیە لە نێوان ئەمریکا و کەنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a long border between United States and Canada."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنوورێکی درێژ ھەیە لە نێوان ئەمریکا و کەنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -484,12 +529,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ٥. (ئامراز) لە شوێنێک بۆ یەکێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We fly between Rome and Paris twice daily."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We fly between Rome and Paris twice daily."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ڕۆژێک دوو جار لە نێوان ڕۆما و پاریسدا گەشت دەکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -509,11 +560,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ٦. (ئامراز) بۆ پیشاندانی پەیوەندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's a lot of animosity between them."),
-                              const ExampleSentenceKurdish(
-                                  text: "دووژمنکاری زۆر لە نێوانیان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a lot of animosity between them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووژمنکاری زۆر لە نێوانیان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -531,12 +589,18 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What’s the difference between this £100 watch and the £500 one?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جیاوازی چییە لە نێوان ئەم کاتژمێرە ١٠٠ پاوەندییە و ئەوەی ٥٠٠ پاوەندە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What’s the difference between this £100 watch and the £500 one?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیاوازی چییە لە نێوان ئەم کاتژمێرە ١٠٠ پاوەندییە و ئەوەی ٥٠٠ پاوەندە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -556,10 +620,16 @@ class EnglishEntrybetween extends StatelessWidget {
 ٧. (ئامراز) شتێک کە ھاوبەشە لە نێوان دوو کەسدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We ate a pizza between us."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیتزاکەمان بە ھاوبەشی خوارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We ate a pizza between us."),
+                                    ExampleSentenceKurdish(
+                                        text: "پیتزاکەمان بە ھاوبەشی خوارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -577,12 +647,18 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is just between you and me/between ourselves (= it is a secret)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نھێنییە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is just between you and me/between ourselves (= it is a secret)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە لە نێوان خۆم و خۆتە/لە نێوان خۆمانە (نھێنییە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -602,11 +678,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ٨. (ئامراز) بە یەکخستنی ھەوڵ یان کاری نێوان دوو کەس یان زیاتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We ought to be able to manage it between us."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێت بتوانین پێکەوە بەڕێوەی ببەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We ought to be able to manage it between us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت بتوانین پێکەوە بەڕێوەی ببەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -624,12 +707,18 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "China and India between them account for a third of the world's population."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چین و ھندستان پێکەوە پێکھێنەری یەک لە سێی دانیشتوانی جیھانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "China and India between them account for a third of the world's population."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چین و ھندستان پێکەوە پێکھێنەری یەک لە سێی دانیشتوانی جیھانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -649,12 +738,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ٩. (ئامراز) بەکاردێت بۆ دەرخستنی ئەوەی ژمارەیەک چالاکی ئەنجام دراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Between working full-time and taking care of the kids, he didn't have much time for hobbies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی ھیچ کاتی نەبوو بۆ خولیاکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Between working full-time and taking care of the kids, he didn't have much time for hobbies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە نێوان کارکردنی ڕۆژپڕ و چاودێری منداڵەکانی ھیچ کاتی نەبوو بۆ خولیاکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -674,12 +769,18 @@ class EnglishEntrybetween extends StatelessWidget {
 ١٠. (ھاوەڵکار) لە مەودا یان ماوەی نێوان دوو یان زیاتر لە خاڵ، شت، بەروار، ڕووداو، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The house was near a park but there was a road in between."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماڵەکە لە نزیک پارکێک بوو، بەڵام ڕێگایەک لە نێوانیان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house was near a park but there was a road in between."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماڵەکە لە نزیک پارکێک بوو، بەڵام ڕێگایەک لە نێوانیان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -697,12 +798,18 @@ class EnglishEntrybetween extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I see her most weekends but not very often in between."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I see her most weekends but not very often in between."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەیبینم، بەڵام زۆرنا لە نێوانیاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

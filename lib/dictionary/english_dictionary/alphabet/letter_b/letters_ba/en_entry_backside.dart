@@ -171,11 +171,18 @@ class EnglishEntrybackside extends StatelessWidget {
 ١. (ناو) سمت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Get up off your backside and do some work!"),
-                              const ExampleSentenceKurdish(
-                                  text: "سمتت لە ئەرز ھەڵبڕە و کارێک بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Get up off your backside and do some work!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سمتت لە ئەرز ھەڵبڕە و کارێک بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

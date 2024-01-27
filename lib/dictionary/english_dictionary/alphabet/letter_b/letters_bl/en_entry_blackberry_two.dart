@@ -168,12 +168,18 @@ class EnglishEntryblackberrytwo extends StatelessWidget {
 ١. (ناو) میوەیەکی نەرمی ڕەشی بچووک کە لەسەر ھێشوویەک دەڕوێت لە باخچەیەکدا """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children eagerly picked blackberries from the bushes during their summer outing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە ھێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی ھاوینەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children eagerly picked blackberries from the bushes during their summer outing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان بە پەرۆشییەوە تووەڕەشەیان لە ھێشووەکان لێ دەکردەوە لە کاتی جوونەدەرەوەی ھاوینەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

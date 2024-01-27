@@ -172,12 +172,18 @@ class EnglishEntrybilateral extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دوو گرووپ لە خەڵکی یان دوو وڵات تێیدا بەژدارن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both nations have signed bilateral treaties with the United States."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو وڵات ڕێککەوتنی دوولایەنەیان لەگەڵ نەتەوە یەکگرتووەکان واژۆ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both nations have signed bilateral treaties with the United States."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو وڵات ڕێککەوتنی دوولایەنەیان لەگەڵ نەتەوە یەکگرتووەکان واژۆ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybilateral extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە ھەردوو بەشی شتێکی جەستەی مرۆڤی گرتووەتەوە کە خۆی دوو بەشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor performed a bilateral mastectomy to remove both breasts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکەکە مەمک‌بڕی لەسەر ھەردوو مەمکی ئەنجامدا بۆ بڕینەوەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor performed a bilateral mastectomy to remove both breasts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکەکە مەمک‌بڕی لەسەر ھەردوو مەمکی ئەنجامدا بۆ بڕینەوەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybilateral extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The patient had bilateral vision loss due to glaucoma."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشەکە نەبوونی بینایی (کوێری) لە ھەردوو چاویدا ھەبوو بەھۆی گلوکۆماوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The patient had bilateral vision loss due to glaucoma."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشەکە نەبوونی بینایی (کوێری) لە ھەردوو چاویدا ھەبوو بەھۆی گلوکۆماوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

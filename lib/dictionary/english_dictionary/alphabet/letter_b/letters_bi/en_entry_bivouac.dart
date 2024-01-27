@@ -167,12 +167,18 @@ class EnglishEntrybivouac extends StatelessWidget {
 ١. (ناو) پەناگە یان کەمپێکی بچووک کە بەشێوەی کاتی دادەنرێت لەلایەن سەربازەوە یان شاخەوانان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldiers hastily set up a bivouac in the forest for the night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان بەخێرایی پەناگەیەکیان ھەڵخست بۆ شەوەکە لە دارستانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldiers hastily set up a bivouac in the forest for the night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان بەخێرایی پەناگەیەکیان ھەڵخست بۆ شەوەکە لە دارستانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybivouac extends StatelessWidget {
 ٢. (کردار) بەسەربردنی شەو لە پەناگە یان کەمپێکی بچووک کە بەشێوەی کاتی دادەنرێت لەلایەن سەربازەوە یان شاخەوانان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After a long day of hiking, they decided to bivouac."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ڕۆژێکی درێژ لە شاخەوانی، بڕیاریاندا پەناگەیەک دابنەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After a long day of hiking, they decided to bivouac."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ڕۆژێکی درێژ لە شاخەوانی، بڕیاریاندا پەناگەیەک دابنەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

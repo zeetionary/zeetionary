@@ -216,11 +216,18 @@ class EnglishEntrybutt extends StatelessWidget {
 ١. (کردار) لێدان لە کەسێک بە سەرت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The goat butted the door to open it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The goat butted the door to open it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butt", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +244,18 @@ class EnglishEntrybutt extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He butted his opponent in the wrestling match."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He butted his opponent in the wrestling match."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,11 +273,18 @@ class EnglishEntrybutt extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) دەسکی چەکێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They struck him with their rifle butts."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دەسکە دەمانچەکانیان لێیان دان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They struck him with their rifle butts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دەسکە دەمانچەکانیان لێیان دان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,11 +304,18 @@ class EnglishEntrybutt extends StatelessWidget {
                                   "٣. (ناو) ئەو بەشەی جگەرە کە ناسووتێت و فڕێ دەدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He flicked the butt of his cigarette into the ashtray."),
-                              const ExampleSentenceKurdish(
-                                  text: "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He flicked the butt of his cigarette into the ashtray."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -307,10 +334,16 @@ class EnglishEntrybutt extends StatelessWidget {
                           const DefinitionKurdish(text: "٤. (ناو) سمت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Get your butt over here! (= Come here!)"),
-                              const ExampleSentenceKurdish(text: "وەرە ئێرە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Get your butt over here! (= Come here!)"),
+                                    ExampleSentenceKurdish(text: "وەرە ئێرە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -329,11 +362,18 @@ class EnglishEntrybutt extends StatelessWidget {
                               text: "٥. (ناو) لێدان لە کەسێک بە سەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A butt from his head left him momentarily disorientated."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەللەیەک لەسەری بۆ ماوەی گێژی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A butt from his head left him momentarily disorientated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەللەیەک لەسەری بۆ ماوەی گێژی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

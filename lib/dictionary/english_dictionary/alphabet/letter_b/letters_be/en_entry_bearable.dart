@@ -169,12 +169,18 @@ class EnglishEntrybearable extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک/شتێک کە دەتوانیت بەرگەی بگریت و مامەڵەی لەگەڵ بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was the only thing that made life bearable for me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا شت بوو کە وایکردبوو بەرگەی ژیان بگرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was the only thing that made life bearable for me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا شت بوو کە وایکردبوو بەرگەی ژیان بگرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybearable extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The money made life more bearable for her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەکە وایکرد زیاتر بەرگەی ژیان بگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The money made life more bearable for her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەکە وایکرد زیاتر بەرگەی ژیان بگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -329,11 +329,18 @@ class EnglishEntrybreast extends StatelessWidget {
 ١. (ناو) مەمکی ژن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She put the baby to her breast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکەی نا بە مەمکییەوە (شیری پێدا)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She put the baby to her breast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکەی نا بە مەمکییەوە (شیری پێدا)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breast" as
                               Column(
                                 children: [
@@ -350,12 +357,18 @@ class EnglishEntrybreast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The protective benefits of breast milk are numerous for both mother and baby."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوودە پارێزەرەکانی شیری دایک زەبەندن بۆ دایک و منداڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The protective benefits of breast milk are numerous for both mother and baby."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوودە پارێزەرەکانی شیری دایک زەبەندن بۆ دایک و منداڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -378,7 +391,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She had breast-augmentation surgery."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "نەشتەرگەری گەورەکردنی مەمکی کرد."),
                                       const CustomSizedBoxForTTS(),
@@ -402,7 +415,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Getting breast implants entails major surgery."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "کردنی چاندنی مەمک نەشتەرگەری دژواری دەوێت."),
                                       const CustomSizedBoxForTTS(),
@@ -426,7 +439,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The book promoted the benefits of breast feeding to child health."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "کتێبەکە سوودەکانی شیری دایکی بۆ تەندرووستی منداڵ دەخستە بەرچاو."),
                                       const CustomSizedBoxForTTS(),
@@ -450,7 +463,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She discovered a lump in her breast."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "زانی گرێیەک لە مەمکیدایە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -475,11 +488,17 @@ class EnglishEntrybreast extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) سنگی مرۆڤ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He cradled the child against his breast."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکەی گوشی بە سنگییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He cradled the child against his breast."),
+                                    ExampleSentenceKurdish(
+                                        text: "منداڵەکەی گوشی بە سنگییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -498,12 +517,18 @@ class EnglishEntrybreast extends StatelessWidget {
                               text: "٣. (ناو) ئەو بەشەی جل کە سنگ دادەپۆشێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A row of medals was pinned to the breast of his coat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕیزێک لە مەدالیا لکێندرابوو بە سنگی قەمسەڵەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A row of medals was pinned to the breast of his coat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕیزێک لە مەدالیا لکێندرابوو بە سنگی قەمسەڵەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -521,10 +546,16 @@ class EnglishEntrybreast extends StatelessWidget {
                           const DefinitionKurdish(text: "٤. (ناو) سنگی باڵندە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The robin has a red breast."),
-                              const ExampleSentenceKurdish(
-                                  text: "باڵندەی ڕۆبن سنگی سوورە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The robin has a red breast."),
+                                    ExampleSentenceKurdish(
+                                        text: "باڵندەی ڕۆبن سنگی سوورە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -544,12 +575,18 @@ class EnglishEntrybreast extends StatelessWidget {
                                   "٤. (ناو) گۆشتی سنگی باڵندەیەک یان ئاژەڵێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had a cold chicken breast and a salad for lunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سنگە مریشکێکی سارد و زەڵاتەم بۆ نانی نیوەڕۆ خوارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had a cold chicken breast and a salad for lunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنگە مریشکێکی سارد و زەڵاتەم بۆ نانی نیوەڕۆ خوارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -569,12 +606,18 @@ class EnglishEntrybreast extends StatelessWidget {
                                   "٥. (ناو) ھەبوونی ئەو جۆرە سنگ یان مەمکەی کە باسکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fashion industry features both small-breasted and full-breasted models."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیشەسازی فاشن نمایشکارانی ھەردوو مەمک بچووک و مەمک زل لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fashion industry features both small-breasted and full-breasted models."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیشەسازی فاشن نمایشکارانی ھەردوو مەمک بچووک و مەمک زل لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -594,12 +637,18 @@ class EnglishEntrybreast extends StatelessWidget {
                                   "٦. (ناو) ئەو بەشەی جەستە کە باوەڕ وایە ھەست و سۆزی تێدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A feeling of love surged in his breast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی خۆشەویستی لە دەروونیدا پەرەی‌سەند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A feeling of love surged in his breast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی خۆشەویستی لە دەروونیدا پەرەی‌سەند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -618,12 +667,18 @@ class EnglishEntrybreast extends StatelessWidget {
                               text: "٧. (کردار) گەشتنە لوتکەی گردێک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As they breasted the hill, they saw the valley and lake before them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە سەرکەوتن بە گردەکەدا، دۆڵەکە و دەریاچەکەیان لە پێشیان دیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As they breasted the hill, they saw the valley and lake before them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە سەرکەوتن بە گردەکەدا، دۆڵەکە و دەریاچەکەیان لە پێشیان دیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -643,10 +698,17 @@ class EnglishEntrybreast extends StatelessWidget {
                                   "٨. (کردار) ڕۆشتن بۆ پێشەوە دژ یان بەناو شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I watched him breast the wave."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەیریم کرد بە شەپۆلەکەدا دەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I watched him breast the wave."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیریم کرد بە شەپۆلەکەدا دەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

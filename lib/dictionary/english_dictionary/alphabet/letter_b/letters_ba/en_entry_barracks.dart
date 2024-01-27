@@ -165,12 +165,18 @@ class EnglishEntrybarracks extends StatelessWidget {
 ١. (ھاوەڵناو) بینایەک یان کۆمەڵە بینایەکی گەورە بۆ ئەوەی سەرباز تێیدا بژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The troops were ordered back to barracks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان فەرمانیان پێکرا بگەڕێنەوە سەربازگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops were ordered back to barracks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان فەرمانیان پێکرا بگەڕێنەوە سەربازگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

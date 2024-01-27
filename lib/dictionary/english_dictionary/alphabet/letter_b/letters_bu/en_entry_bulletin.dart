@@ -166,12 +166,18 @@ class EnglishEntrybulletin extends StatelessWidget {
 ١. (ناو) کورتە هەواڵ لەسەر ڕادیۆ یان تەلەفیزیۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The story led the television news bulletins that evening."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەواڵەکە ئەو شەوە سەردێڕی کورتە هەواڵی تەلەفیزیۆنی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The story led the television news bulletins that evening."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەواڵەکە ئەو شەوە سەردێڕی کورتە هەواڵی تەلەفیزیۆنی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulletin", follow LX strictly
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybulletin extends StatelessWidget {
                                   "٢. (ناو) بەیاننامەیەکی فەرمی لەسەر شتێکی گرنگ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government will issue an official bulletin later this week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت بەیاننامەیەکی فەرمی دەردەکات دواتر لەم هەفتەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government will issue an official bulletin later this week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بەیاننامەیەکی فەرمی دەردەکات دواتر لەم هەفتەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybulletin extends StatelessWidget {
                                   "٣. (ناو) ڕاپۆرتێکی نووسراو کە هەواڵ دەدات لەسەر دامەزراوەیەک یان فرووپێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More details will be given in our next news bulletin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وردەکاریی زیاتر دەدرێت لە ڕاپۆرتی هەواڵیی دواترماندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More details will be given in our next news bulletin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وردەکاریی زیاتر دەدرێت لە ڕاپۆرتی هەواڵیی دواترماندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybarbed extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی نووکی تیژ کە بەرەو ناوەوە چەماوەتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barbed wire fence kept the animals out."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرژینە دڕکاوییە وایەرەکە ڕێگەی لە تاوانباران گرت ھەڵبێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barbed wire fence kept the animals out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرژینە دڕکاوییە وایەرەکە ڕێگەی لە تاوانباران گرت ھەڵبێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybarbed extends StatelessWidget {
 ٢. (ھاوەڵناو) لێدوانێک کە توندە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their conversation was filled with barbed banter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گفتوگۆکەیان پڕبوو لە شۆخی پڕ لە توانج."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their conversation was filled with barbed banter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گفتوگۆکەیان پڕبوو لە شۆخی پڕ لە توانج."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

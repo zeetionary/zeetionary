@@ -169,12 +169,18 @@ class EnglishEntryballerina extends StatelessWidget {
 ١. (ناو) سەماکارێکی بالێ (جۆرە سەمایەک کە جووڵەکان چیرۆکێک دەگێڕنەوە یان بیرۆکەیەک دەردەبڕن)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She turned to sport when she grew too tall to fulfil her ambition of becoming a ballerina."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلای وەرزشدا چوو کاتێک کە باڵای زۆر بەرز بوو بۆ ئەوەی ھیوای بوون بە بالێرینا بخولقێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She turned to sport when she grew too tall to fulfil her ambition of becoming a ballerina."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلای وەرزشدا چوو کاتێک کە باڵای زۆر بەرز بوو بۆ ئەوەی ھیوای بوون بە بالێرینا بخولقێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

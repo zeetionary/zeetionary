@@ -168,11 +168,17 @@ class EnglishEntrybaptize extends StatelessWidget {
 ١. (کردار) ئەنجامدانی ڕێوڕەسمی تەوفن (بۆنەیەک لە ئایینی مەسیحیدا کە تێیدا چەند دڵۆپە ئاوێک لەسەر کەسێک دەکرێت بۆ خێراتنکردنیان بۆ ناو کڵێسای مەسیحی، و زۆر جار بەپێدانی ناوێک ئەگەر منداڵ بێت)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was baptized Mary."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She was baptized Mary."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەراسیمی تەوفنی بۆ کرا و ناونرا ماری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybamboo extends StatelessWidget {
 ١. (ناو) دار حەیزەران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In her garden she has bamboos, palm trees and bananas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە باخچەکەیدا حەیزەران و دار خورما و مۆزی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In her garden she has bamboos, palm trees and bananas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە باخچەکەیدا حەیزەران و دار خورما و مۆزی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

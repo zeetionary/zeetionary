@@ -166,12 +166,18 @@ class EnglishEntrybloodcurdling extends StatelessWidget {
 ١. (ھاوەڵناو) چیرۆکێک یان دەنگێک کە تەواو تۆقێنەرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The horror movie had a blood-curdling scene that left everyone terrified."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمە ترسناکەکە دیمەنێکی تۆقێنەری تێدا بوو کە ھەمووانی تاساند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The horror movie had a blood-curdling scene that left everyone terrified."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمە ترسناکەکە دیمەنێکی تۆقێنەری تێدا بوو کە ھەمووانی تاساند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

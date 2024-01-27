@@ -168,10 +168,17 @@ class EnglishEntrybronze extends StatelessWidget {
 ١. (ناو) کانزایەکی سووری قاوەیی باو درووست دەکرێت بە تێکەڵکردنی مس و قەڵای"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The figure was cast in bronze."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەیکەرەکە لە برۆنز درووست کرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The figure was cast in bronze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیکەرەکە لە برۆنز درووست کرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bronze" as
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybronze extends StatelessWidget {
                               text: "٢. (ناو) ڕەنگی برۆنزی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The artist mixed red and yellow to create a stunning shade of bronze on the canvas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێوەکارەکە سوور و زەردی تێکەڵ کرد بۆ درووستکردنی ڕەنگێکی برۆنزی لەسەر کانڤسەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The artist mixed red and yellow to create a stunning shade of bronze on the canvas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێوەکارەکە سوور و زەردی تێکەڵ کرد بۆ درووستکردنی ڕەنگێکی برۆنزی لەسەر کانڤسەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybronze extends StatelessWidget {
                                   "٣. (ناو) کارێکی ھونەری کە لە برۆنز درووست کراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The museum exhibits an array of bronze statues depicting historical figures."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مۆزەخانەکە ژمارەیەکی زۆر لە کاری برۆنز نمایش دەکات کە کەسایەتییە مێژوویەکان پیشان دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The museum exhibits an array of bronze statues depicting historical figures."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆزەخانەکە ژمارەیەکی زۆر لە کاری برۆنز نمایش دەکات کە کەسایەتییە مێژوویەکان پیشان دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,10 +259,17 @@ class EnglishEntrybronze extends StatelessWidget {
                                   "٤. (ناو) مەدالیایەک کە دەدرێت بە براوەی سێیەم لە پێشبڕکێیەکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She got a bronze in the long jump."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە بازی درێژدا برۆنزی وەرگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She got a bronze in the long jump."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە بازی درێژدا برۆنزی وەرگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +289,18 @@ class EnglishEntrybronze extends StatelessWidget {
                                   "٥. (ھاوەڵناو) بوونی ڕەنگی سووری قاوەیی باو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The evening sky took on a bronze hue as the sun set over the horizon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاسمانی ئێوارە ڕەنگێکی برۆنزی پۆشی کە خۆر کەوتە خوار ئاسۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The evening sky took on a bronze hue as the sun set over the horizon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسمانی ئێوارە ڕەنگێکی برۆنزی پۆشی کە خۆر کەوتە خوار ئاسۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntrybloc extends StatelessWidget {
 ١. (ناو) لۆمەڵە وڵاتێک کە پێکەوە کار دەکەن چونکە بەرژەوەندی سیاسی ھاوبەشیان ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The European Union is a powerful trading/trade bloc."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێتیی ئەورووپا بلۆکێکی بازرگانیی بەھێزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The European Union is a powerful trading/trade bloc."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێتیی ئەورووپا بلۆکێکی بازرگانیی بەھێزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

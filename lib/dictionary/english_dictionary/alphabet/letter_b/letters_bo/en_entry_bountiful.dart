@@ -170,12 +170,18 @@ class EnglishEntrybountiful extends StatelessWidget {
 ١. (ھاوەڵناو) بە ئاستێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We found a bountiful supply of coconuts on the island."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەیەکی زۆر لە پێبژیوی گوێزھندمان دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We found a bountiful supply of coconuts on the island."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەیەکی زۆر لە پێبژیوی گوێزھندمان دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybountiful extends StatelessWidget {
                                   "٢. (ھاوەڵناو) دەستکراوە و میھرەبان بەرامبەر کەسانی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her bountiful donations supported various charities in the community."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەخشینە میھرەبانەکانی پشتیوانی ژمارەیەک ڕێکخراوی خێرخوازی لە کۆمەڵگەکە دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her bountiful donations supported various charities in the community."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخشینە میھرەبانەکانی پشتیوانی ژمارەیەک ڕێکخراوی خێرخوازی لە کۆمەڵگەکە دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

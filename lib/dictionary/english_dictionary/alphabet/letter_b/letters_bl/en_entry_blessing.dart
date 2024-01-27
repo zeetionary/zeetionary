@@ -172,10 +172,17 @@ class EnglishEntryblessing extends StatelessWidget {
 ١. (ناو) داواکردن لە خودا بۆ یارمەتی و پاراستن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The blessing was said in Hebrew."),
-                              const ExampleSentenceKurdish(
-                                  text: "نزاکە بە عیبری خوێندرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blessing was said in Hebrew."),
+                                    ExampleSentenceKurdish(
+                                        text: "نزاکە بە عیبری خوێندرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +201,18 @@ class EnglishEntryblessing extends StatelessWidget {
                               text: "٢. (ناو) مۆڵەت یان پشتگیری بۆ شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He went with his parents' blessing."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە پشتگیری دایک و باوکییەوە ڕۆشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He went with his parents' blessing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە پشتگیری دایک و باوکییەوە ڕۆشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +229,18 @@ class EnglishEntryblessing extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government gave its blessing to the new plans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت پشتگیری خۆیدا بە پلانە تازەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government gave its blessing to the new plans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت پشتگیری خۆیدا بە پلانە تازەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +259,18 @@ class EnglishEntryblessing extends StatelessWidget {
                               text: "٣. (ناو) شتێکی باش یان بەسوود"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Lack of traffic is one of the blessings of country life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمی ترافیکی ھاتووچۆ یەکێکە لە بەرەکەتەکانی ژیان لە گونددا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Lack of traffic is one of the blessings of country life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمی ترافیکی ھاتووچۆ یەکێکە لە بەرەکەتەکانی ژیان لە گونددا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +287,18 @@ class EnglishEntryblessing extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's a blessing that nobody was in the house at the time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیعمەتێک بوو کە ئەو کات کەس لە ماڵەکە نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's a blessing that nobody was in the house at the time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیعمەتێک بوو کە ئەو کات کەس لە ماڵەکە نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

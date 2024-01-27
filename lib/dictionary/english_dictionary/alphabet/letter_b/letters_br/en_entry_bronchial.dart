@@ -162,12 +162,18 @@ class EnglishEntrybronchial extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بەو بۆڕیچکانەی کە لە قوڕگەوە ھەوا دەگوازنەوە بۆ سنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had bronchial pneumonia as a child."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە منداڵ بوو ھەوکردنی لە لقە بۆرییەکانی ھەوای ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had bronchial pneumonia as a child."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە منداڵ بوو ھەوکردنی لە لقە بۆرییەکانی ھەوای ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bronchial" as
                               Column(
                                 children: [

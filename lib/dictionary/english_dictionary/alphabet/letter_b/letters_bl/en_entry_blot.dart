@@ -171,12 +171,18 @@ class EnglishEntryblot extends StatelessWidget {
 ١. (کردار) وشککردنەوەی شوێنێکی تەڕ، نووسین بە بۆیە، یان سووراو، بە دانانی شتێکی نەرم لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She put on her lipstick and then carefully blotted her lips with a tissue."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سووراوەکەی کرد و بەوریاییەوە لێوەکانی وشککردەوە بە کلێنسێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She put on her lipstick and then carefully blotted her lips with a tissue."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سووراوەکەی کرد و بەوریاییەوە لێوەکانی وشککردەوە بە کلێنسێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryblot extends StatelessWidget {
                                   "٢. (کردار) ڕژاندنی دڵۆپێک لە مەرەکەب بەسەر پەڕەیەکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The spilled ink blotted the pristine white tablecloth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەرەکەبە ڕژاوەکە مێزپۆشە سپییە خاوێنەکەی خاڵ خاڵ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The spilled ink blotted the pristine white tablecloth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەرەکەبە ڕژاوەکە مێزپۆشە سپییە خاوێنەکەی خاڵ خاڵ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntryblot extends StatelessWidget {
                                   "٣. (ناو) خاڵێک یان لەکەیەکی ناشرین لە مەرەکەب لەسەر شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were ink blots all over the paper."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاڵ خاڵی مەرەکەب لەسەر ھەموو پەڕەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were ink blots all over the paper."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاڵ خاڵی مەرەکەب لەسەر ھەموو پەڕەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,12 +264,18 @@ class EnglishEntryblot extends StatelessWidget {
                                   "٤. (ناو) شتێک کە کاریگەری خراپی دەبێت لەسەر بۆچوونی خەڵکی لەسەر کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her involvement in the fraud has left a serious blot on her character."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێوەگلانی لە فێڵبازییەکە خەوشێکی گرنگی لەسەر کەسایەتیی جێھێشتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her involvement in the fraud has left a serious blot on her character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێوەگلانی لە فێڵبازییەکە خەوشێکی گرنگی لەسەر کەسایەتیی جێھێشتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

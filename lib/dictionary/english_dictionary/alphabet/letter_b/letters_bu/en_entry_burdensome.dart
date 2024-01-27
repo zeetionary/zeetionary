@@ -212,12 +212,18 @@ class EnglishEntryburdensome extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new regulations will be burdensome for small businesses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێسا تازەکان دەکرێت ببنەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new regulations will be burdensome for small businesses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێسا تازەکان دەکرێت ببنەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burdensome", follow LX strictly
                               Column(
                                 children: [

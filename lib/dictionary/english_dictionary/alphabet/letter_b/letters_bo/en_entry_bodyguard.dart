@@ -169,11 +169,18 @@ class EnglishEntrybodyguard extends StatelessWidget {
 ١. (ناو) کەسێک یان کۆمەڵە کەسێک کە کاریان پاراستنی کەسێکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The President’s bodyguard is/are armed."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاسەوانەکانی سەرۆک چەکیان پێیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The President’s bodyguard is/are armed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاسەوانەکانی سەرۆک چەکیان پێیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybodyguard extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He never goes anywhere without his personal bodyguards."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز بۆ ھیچ شوێنێک ناچێت بەبی پاسەوانە تایبەتییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He never goes anywhere without his personal bodyguards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز بۆ ھیچ شوێنێک ناچێت بەبی پاسەوانە تایبەتییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

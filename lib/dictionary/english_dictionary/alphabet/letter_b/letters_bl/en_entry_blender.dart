@@ -168,11 +168,17 @@ class EnglishEntryblender extends StatelessWidget {
 ١. (ناو) ئەمێرێکی کارەبایی کە بۆ تێکەڵکردنی خواردنی نەرم و شلە بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Combine the milk and eggs in a blender."),
-                              const ExampleSentenceKurdish(
-                                  text: "شیر و ھێلکەکە بکە عەسارەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Combine the milk and eggs in a blender."),
+                                    ExampleSentenceKurdish(
+                                        text: "شیر و ھێلکەکە بکە عەسارەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

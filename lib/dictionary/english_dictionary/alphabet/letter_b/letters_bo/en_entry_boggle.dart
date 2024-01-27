@@ -169,12 +169,18 @@ class EnglishEntryboggle extends StatelessWidget {
 ١. (کردار) ھێواشبوون لە کردن یان پەسەندکردنی شتێک بەھۆی ئەوەی سەرسام یان شۆکیت پێی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The mind boggles at the amount of money they spend on food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێشک تێڕادەمێنێت لە ڕێژەی ئەو پارەیەی لە خواردندا خەرجی دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The mind boggles at the amount of money they spend on food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێشک تێڕادەمێنێت لە ڕێژەی ئەو پارەیەی لە خواردندا خەرجی دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntryboggle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was boggled by the idea that people could hate one another just because of the colour of their skin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرسام بوو بەو بیرکردنەوەیەی کە خەڵکی دەکرێت ڕقیان لە یەکدی تەنھا بەھۆی ڕەنگی پێستیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was boggled by the idea that people could hate one another just because of the colour of their skin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسام بوو بەو بیرکردنەوەیەی کە خەڵکی دەکرێت ڕقیان لە یەکدی تەنھا بەھۆی ڕەنگی پێستیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

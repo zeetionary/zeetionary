@@ -174,11 +174,17 @@ class EnglishEntrybatter extends StatelessWidget {
 ١. (کردار) لێدانی شتێک بە بەردەوامی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She battered at the door with her fists."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە مشتی دەیکێشا بە دەرگاکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She battered at the door with her fists."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە مشتی دەیکێشا بە دەرگاکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,10 +202,18 @@ class EnglishEntrybatter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The waves battered against the ship."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەپۆلەکان دەیانکێشا بە کەشتییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The waves battered against the ship."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەپۆلەکان دەیانکێشا بە کەشتییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +233,18 @@ class EnglishEntrybatter extends StatelessWidget {
 ٢. (ناو) تێکەڵەی ھێلکە و شیر و ئارد کە دەکرێت بەسەر ماسی و مریشکدا پێش برژاندن، یان بۆ درووستکردنی شلکێنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I started mixing the batter for the pancakes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستمکرد بە تێکەڵکردنی ھەویرەکە بۆ کێکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I started mixing the batter for the pancakes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستمکرد بە تێکەڵکردنی ھەویرەکە بۆ کێکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +264,18 @@ class EnglishEntrybatter extends StatelessWidget {
 ٣. (ناو) تێکەڵەی ھێلکە و شیر و ئارد کە بەکاردێت بۆ درووستکردنی کێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In most cake batters you typically add eggs to the batter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە زۆرینەی ھەویری کێکدا بەزۆری ھێلکە زیاددەکرێت بۆ ھەویرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In most cake batters you typically add eggs to the batter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زۆرینەی ھەویری کێکدا بەزۆری ھێلکە زیاددەکرێت بۆ ھەویرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,12 +295,18 @@ class EnglishEntrybatter extends StatelessWidget {
 ٤. (ناو) لە یاریدا، بۆ نموونە لە بەیسبۆڵ و کریکتدا، بەو کەسە دەوترێت کە لە تۆپەکە دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Jimmy struck out the first batter with ease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جیمی بە ئاسانی یەکەم تۆپھاوێژی کردە دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jimmy struck out the first batter with ease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیمی بە ئاسانی یەکەم تۆپھاوێژی کردە دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

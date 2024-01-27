@@ -171,10 +171,16 @@ class EnglishEntrybedtime extends StatelessWidget {
 ١. (ناو) کاتی خەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's way past your bedtime."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر بەسەر کاتی خەوت تێپەڕیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It's way past your bedtime."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر بەسەر کاتی خەوت تێپەڕیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,10 +198,18 @@ class EnglishEntrybedtime extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Will you read me a bedtime story?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چیرۆکێکی خەوتنانم بۆ دەگێڕیتەوە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Will you read me a bedtime story?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چیرۆکێکی خەوتنانم بۆ دەگێڕیتەوە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -212,10 +212,16 @@ class EnglishEntrybungle extends StatelessWidget {
 ١. (کردار) کردنی شتێک بەخراپی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They bungled the job."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئیشەکەیان گوو تێکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They bungled the job."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئیشەکەیان گوو تێکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bungle", follow LX strictly
                               Column(
                                 children: [
@@ -234,12 +240,18 @@ class EnglishEntrybungle extends StatelessWidget {
                               text: "٢. (ناو) شتێک کە بە خراپی کراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their pay was late because of a computer bungle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووچکەیان درەنگ کەوت بەهۆی کێشەیەکی کۆمپیوتەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their pay was late because of a computer bungle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووچکەیان درەنگ کەوت بەهۆی کێشەیەکی کۆمپیوتەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

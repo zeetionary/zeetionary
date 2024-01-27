@@ -171,12 +171,18 @@ class EnglishEntrybeastly extends StatelessWidget {
 ١. (ھاوەڵناو) ناخۆش، ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This car’s been nothing but trouble—I wish I’d never bought the beastly thing!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە جگە لە کێشە ھیچی تر نەبووە، خۆزگە ھەرگیز ئەو شتە ھیچەم نەکڕیایە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This car’s been nothing but trouble—I wish I’d never bought the beastly thing!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە جگە لە کێشە ھیچی تر نەبووە، خۆزگە ھەرگیز ئەو شتە ھیچەم نەکڕیایە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +200,16 @@ class EnglishEntrybeastly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don’t be so beastly to him!"),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر دڵڕەق مەبە بەرامبەری!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don’t be so beastly to him!"),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر دڵڕەق مەبە بەرامبەری!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

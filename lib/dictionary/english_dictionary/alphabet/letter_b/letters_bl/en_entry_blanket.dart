@@ -173,12 +173,18 @@ class EnglishEntryblanket extends StatelessWidget {
 ١. (ناو) داپۆشەرێکی گەورە کە لەکاتی خەودا دەدرێت بە خۆدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It’s cold tonight—can I have another blanket?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمشەو ساردە، دەکرێت بەتانییەکی ترم بۆ بێنیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It’s cold tonight—can I have another blanket?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمشەو ساردە، دەکرێت بەتانییەکی ترم بۆ بێنیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,18 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The baby was wrapped in a blanket."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە لە بەتانییەکدا پێچرابوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baby was wrapped in a blanket."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە لە بەتانییەکدا پێچرابوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,11 +233,18 @@ class EnglishEntryblanket extends StatelessWidget {
                                   "٢. (ناو) توێژاڵ یان چینێکی ئەستوور لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sun was breaking through the blanket of mist."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆر دەدرەوشایەوە بە چینێک لە تەمدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sun was breaking through the blanket of mist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆر دەدرەوشایەوە بە چینێک لە تەمدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +262,18 @@ class EnglishEntryblanket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The trial was conducted under a blanket of secrecy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراو) دادگاییەکە ئەنجامدرا لە تەمومژێکی نھێنیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The trial was conducted under a blanket of secrecy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراو) دادگاییەکە ئەنجامدرا لە تەمومژێکی نھێنیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +293,18 @@ class EnglishEntryblanket extends StatelessWidget {
                                   "٣. (ھاوەڵناو) خاسیەتی ھەبوونی کاریگەری یان گرتنەخۆی ھەموو کەیسەکان، دۆخ، و خەڵکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What I object to most is the blanket opposition to change."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی زیاتر لە ھەموو شتێک دژیم دژبەری کوێرانەیە بۆ گۆڕانکاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What I object to most is the blanket opposition to change."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی زیاتر لە ھەموو شتێک دژیم دژبەری کوێرانەیە بۆ گۆڕانکاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -292,11 +324,18 @@ class EnglishEntryblanket extends StatelessWidget {
                                   "٤. (کردار) داپۆشینی شتێک بە چینێکی ئەستوور"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ground was soon blanketed with snow."),
-                              const ExampleSentenceKurdish(
-                                  text: "زەوییەکە ھەرزوو داپۆشرا بە بەفر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ground was soon blanketed with snow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەوییەکە ھەرزوو داپۆشرا بە بەفر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

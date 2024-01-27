@@ -173,12 +173,18 @@ class EnglishEntrybulb extends StatelessWidget {
 ١. (ناو) بەشی شووشەی ڕۆشنکەرەوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Can you remove the bulb and replace it with an energy-efficient one?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Can you remove the bulb and replace it with an energy-efficient one?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت گڵۆپەکە لابدەیت و لەگەڵ دانەیەکی تر بیگۆڕیتەوە کە وزەی کەمتر بوێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulb", follow LX strictly
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybulb extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Coloured bulbs flashed on and off around the sign."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گڵۆپی ڕەنگین بەدەوری ئاماژەکەدا پرتەیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Coloured bulbs flashed on and off around the sign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گڵۆپی ڕەنگین بەدەوری ئاماژەکەدا پرتەیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,7 +235,7 @@ class EnglishEntrybulb extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I think the bulb is going to go. It's been flickering all evening."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پێم‌وایە گڵۆپەکە دەسووتێت. لە دوێنێ شەوەوە پرتەپرتێتی."),
                                       const CustomSizedBoxForTTS(),
@@ -251,12 +263,18 @@ class EnglishEntrybulb extends StatelessWidget {
                                   "٢. (ناو) سەلکی ڕووەکێک؛ ئەو بەشەی کە ڕووەکێکی تازەی لێ دەڕوێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She usually waters the indoor bulbs once a week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەزۆری سەلکەکانی ژوورەوە هەفتەی جارێک ئاو دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She usually waters the indoor bulbs once a week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزۆری سەلکەکانی ژوورەوە هەفتەی جارێک ئاو دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -273,10 +291,17 @@ class EnglishEntrybulb extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Place the bulbs close together."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەلکەکان نزیک لە یەکدی دابنێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Place the bulbs close together."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەلکەکان نزیک لە یەکدی دابنێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

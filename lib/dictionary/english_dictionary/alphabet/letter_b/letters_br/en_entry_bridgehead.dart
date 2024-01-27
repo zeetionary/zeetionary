@@ -164,12 +164,18 @@ class EnglishEntrybridgehead extends StatelessWidget {
 ١. (ناو) شوێنێکی بەھێز کە سوپایەک کۆنترۆڵی کردووە لە خاکی دووژمندا و لێیەوە دەتوانێت پێشڕەوی بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The advance troops established a bridgehead early in the fighting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The advance troops established a bridgehead early in the fighting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزە پێشڕەوەکان سەنگەرێکیان قایمکرد لە سەرەتای جەنگەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bridgehead" as
                               Column(
                                 children: [

@@ -373,11 +373,18 @@ class EnglishEntryburn extends StatelessWidget {
 ١. (کردار) درووستکردنی بڵێسە و گەرمی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fires were burning all over the city."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاگر تاوی سەندبوو لە تەواوی شارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fires were burning all over the city."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگر تاوی سەندبوو لە تەواوی شارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burn", follow LX strictly
                               Column(
                                 children: [
@@ -394,10 +401,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A small candle burned brightly."),
-                              const ExampleSentenceKurdish(
-                                  text: "مۆمێکی بچووک بە درەوشاوەیی دەسووتا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A small candle burned brightly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆمێکی بچووک بە درەوشاوەیی دەسووتا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -420,7 +435,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The fire was still burning fiercely."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئاگرەکە هێشتا بە تاوەوە دەگڕیا."),
                                       const CustomSizedBoxForTTS(),
@@ -444,7 +459,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She burned his old love letters."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "نامە ئەویندارییە کۆنەکانی سوتاند."),
                                       const CustomSizedBoxForTTS(),
@@ -471,11 +486,18 @@ class EnglishEntryburn extends StatelessWidget {
                               text: "٢. (کردار) بوون لە ناو ئاگردا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "By nightfall the whole city was burning."),
-                              const ExampleSentenceKurdish(
-                                  text: "تا شەو تەواوی شارەکە لە ئاگردابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "By nightfall the whole city was burning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تا شەو تەواوی شارەکە لە ئاگردابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -492,11 +514,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The girl ran from the burning building."),
-                              const ExampleSentenceKurdish(
-                                  text: "کچەکە ڕایکرد لە ماڵە گڕگرتووەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The girl ran from the burning building."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچەکە ڕایکرد لە ماڵە گڕگرتووەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -519,7 +548,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They called us to tell us that my aunt's house was burning."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پەیوەندییان پێوە کردین تا بڵێن ماڵی پوورم ئاگری گرتووە."),
                                       const CustomSizedBoxForTTS(),
@@ -547,10 +576,17 @@ class EnglishEntryburn extends StatelessWidget {
                                   "٣. (کردار) لەناوبردن، زیان گەیاندن، بریندارکردن، یان کوشتن بە ئاگر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The house burned to the ground."),
-                              const ExampleSentenceKurdish(
-                                  text: "خانووەکە بە تەواوی سووتا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house burned to the ground."),
+                                    ExampleSentenceKurdish(
+                                        text: "خانووەکە بە تەواوی سووتا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -567,11 +603,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ten people burned to death in the hotel fire."),
-                              const ExampleSentenceKurdish(
-                                  text: "دە کەس مردن لە ئاگری هوتێلەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ten people burned to death in the hotel fire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دە کەس مردن لە ئاگری هوتێلەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -594,7 +637,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "All his belongings were burnt in the fire."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "تەواوی کەلوپەلەکانی لە ئاگرەکەدا سووتان."),
                                       const CustomSizedBoxForTTS(),
@@ -618,7 +661,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Several protesters burned American flags."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ژمارەیەک خۆپیشاندەر ئاڵای ئەمریکایان سووتاند."),
                                       const CustomSizedBoxForTTS(),
@@ -646,11 +689,18 @@ class EnglishEntryburn extends StatelessWidget {
                                   "٤. (کردار) سووتاندنی سووتەمەنی بە مەبەستی درووستکردنی گەرمی، ڕۆشنایی، یان وزە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Which fuel burns most efficiently?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چی سووتەمەنییەک بە کاریگەری دەسووتێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Which fuel burns most efficiently?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چی سووتەمەنییەک بە کاریگەری دەسووتێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -667,12 +717,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some people burn calories (= use food to produce energy) faster than others."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارهێنانی خوازراوی) هەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people burn calories (= use food to produce energy) faster than others."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارهێنانی خوازراوی) هەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -692,12 +748,18 @@ class EnglishEntryburn extends StatelessWidget {
                                   "٥. (کردار) سووتاندنی خۆراک بەهۆی زۆر گەرمکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can smell something burning in the kitchen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆنی شتێک دەکەم لە چێشتخانەکە دەسووتێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can smell something burning in the kitchen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆنی شتێک دەکەم لە چێشتخانەکە دەسووتێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -714,10 +776,16 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Sorry—I burnt the cake."),
-                              const ExampleSentenceKurdish(
-                                  text: "ببوورە، کێکەکەم سووتاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Sorry—I burnt the cake."),
+                                    ExampleSentenceKurdish(
+                                        text: "ببوورە، کێکەکەم سووتاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -737,11 +805,17 @@ class EnglishEntryburn extends StatelessWidget {
                                   "٦. (کردار) بریندار بوون یان زیان پێگەشتن بە خۆر، گەرمی، ئەسید، هتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My skin burns easily (= in the sun).."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێستم بە ئاسانی دەسووتێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My skin burns easily (= in the sun).."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێستم بە ئاسانی دەسووتێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -758,12 +832,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I burnt my tongue trying to eat a hot soup."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زمانمم سووتاند بە خواردنی شۆربایەکی گەرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I burnt my tongue trying to eat a hot soup."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زمانمم سووتاند بە خواردنی شۆربایەکی گەرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -786,7 +866,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The soup's hot. Don't burn your mouth."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "شۆرباکە گەرمە. دەمت مەسووتێنە."),
                                       const CustomSizedBoxForTTS(),
@@ -810,7 +890,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "His face had been horrifically burnt by acid."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید."),
                                       const CustomSizedBoxForTTS(),
@@ -838,11 +918,18 @@ class EnglishEntryburn extends StatelessWidget {
                                   "٧. (کردار) گەرمبوون یان بەئازاربوونی بەشێکی جەستە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your forehead's burning. Have you got a fever?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوچاوانت گڕی گرتووە. تات هەیە؟."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your forehead's burning. Have you got a fever?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوچاوانت گڕی گرتووە. تات هەیە؟."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -859,12 +946,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our eyes were burning from the chemicals in the air."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەکانمان بە ئازار بوون بەهۆی مادە کیمیاییەکانی ناو هەوا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our eyes were burning from the chemicals in the air."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوەکانمان بە ئازار بوون بەهۆی مادە کیمیاییەکانی ناو هەوا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -883,12 +976,18 @@ class EnglishEntryburn extends StatelessWidget {
                               text: "٨. (کردار) درووستکردنی ڕۆشنایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their torches burned brightly in the dark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لایتەکان بە درەوشاوەیی هەڵکردبوو لە تاریکییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their torches burned brightly in the dark."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لایتەکان بە درەوشاوەیی هەڵکردبوو لە تاریکییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -908,12 +1007,18 @@ class EnglishEntryburn extends StatelessWidget {
                                   "٩. (کردار) هەستکردن بە هەست و ئارەزوویەکی بەهێز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She could sense the anger burning slowly inside him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She could sense the anger burning slowly inside him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -932,10 +1037,18 @@ class EnglishEntryburn extends StatelessWidget {
                               text: "١٠. (کردار) ڕۆشتن زۆر بە خێرایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The car was burning down the road."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلەکەی گڤەی دەهات بە ڕێگاکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car was burning down the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکەی گڤەی دەهات بە ڕێگاکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -954,10 +1067,17 @@ class EnglishEntryburn extends StatelessWidget {
                               text: "١١. (کردار) تووڕەکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "So you did it just to burn me?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوەت کرد بەس بۆ ئەوەی تووڕەم بکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "So you did it just to burn me?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەت کرد بەس بۆ ئەوەی تووڕەم بکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -976,12 +1096,18 @@ class EnglishEntryburn extends StatelessWidget {
                               text: "١٢. (کردار) پارە خەرجکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The state has already burned through its cash reserves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ویلایەتەکە دەمێک دەبێت هەموو پارەی کاشی یەدەگی بەکارهێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The state has already burned through its cash reserves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ویلایەتەکە دەمێک دەبێت هەموو پارەی کاشی یەدەگی بەکارهێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1001,12 +1127,18 @@ class EnglishEntryburn extends StatelessWidget {
                                   "١٣. (ناو) برین یان نیشانە بە ئاگر، ئەسید، یان گەرمی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She suffered serious burns but is expected to survive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی سووتانی خراپ بووە بەڵام چاوەڕێ دەکرێت ڕزگاری ببێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She suffered serious burns but is expected to survive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی سووتانی خراپ بووە بەڵام چاوەڕێ دەکرێت ڕزگاری ببێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -1023,12 +1155,18 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is recovering from burns to his face and hands."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەریکە چاکدەبێتەوە لە سووتاوی لە ڕووخسار و دەستیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is recovering from burns to his face and hands."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەریکە چاکدەبێتەوە لە سووتاوی لە ڕووخسار و دەستیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

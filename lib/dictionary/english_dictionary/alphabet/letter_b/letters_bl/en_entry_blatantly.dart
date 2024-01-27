@@ -169,10 +169,17 @@ class EnglishEntryblatantly extends StatelessWidget {
 ١. (ھاوەڵکار) بە ئاشکرایی بەبێ گرنگیدان بەوەی خەڵکی شۆک دەبن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He just blatantly lied about it."),
-                              const ExampleSentenceKurdish(
-                                  text: "بێ شەرمانە درۆی کرد لەسەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He just blatantly lied about it."),
+                                    ExampleSentenceKurdish(
+                                        text: "بێ شەرمانە درۆی کرد لەسەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +196,18 @@ class EnglishEntryblatantly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has made some blatantly bad decisions."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەندێک بڕیاری ھەڵەی ئاشکرای داوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has made some blatantly bad decisions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک بڕیاری ھەڵەی ئاشکرای داوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

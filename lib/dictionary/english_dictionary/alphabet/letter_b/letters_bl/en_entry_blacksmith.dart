@@ -168,12 +168,18 @@ class EnglishEntryblacksmith extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری ئاسنگەری دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In medieval times, the blacksmith played a crucial role in producing weapons for the kingdom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرھەمھێنانی چەک بۆ شانشینەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In medieval times, the blacksmith played a crucial role in producing weapons for the kingdom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەردەمی ناوەڕاستدا، ئاسنگەران ڕۆڵی گرنگیان دەبینی لە بەرھەمھێنانی چەک بۆ شانشینەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

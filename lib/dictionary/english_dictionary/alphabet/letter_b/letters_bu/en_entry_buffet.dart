@@ -166,10 +166,18 @@ class EnglishEntrybuffet extends StatelessWidget {
 ١. (ناو) ژەمە خواردنێک کە خەڵکئ لەسەر مێزێک خواردنی خۆیان تێ‌دەکەن و لە شوێنێکی تردا دەیخۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Breakfast is served buffet style."),
-                              const ExampleSentenceKurdish(
-                                  text: "نانی بەیانی بەشێوەی بووفە دەخورێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Breakfast is served buffet style."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نانی بەیانی بەشێوەی بووفە دەخورێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "buffet", follow LX strictly.
                               Column(
                                 children: [
@@ -189,12 +197,18 @@ class EnglishEntrybuffet extends StatelessWidget {
                                   "٢. (کردار) لێدان بە هێزێکی زۆرەوە بە بەردەوامئ؛ پاڵنانی کەسێک/شتێک لە لایەک بۆ لایەکی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The little boat was buffeted mercilessly by the waves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەپۆلەکان بێ‌بەزەییانە لە بەلەمە بچووکەکەیان دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The little boat was buffeted mercilessly by the waves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەپۆلەکان بێ‌بەزەییانە لە بەلەمە بچووکەکەیان دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

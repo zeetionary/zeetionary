@@ -169,10 +169,17 @@ class EnglishEntrybark extends StatelessWidget {
 ١. (ناو) بەشی دەرەوەی دارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bark peels off in summer."),
-                              const ExampleSentenceKurdish(
-                                  text: "توێکڵە دارەکە لە ھاویندا لێدەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The bark peels off in summer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێکڵە دارەکە لە ھاویندا لێدەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,10 +199,16 @@ class EnglishEntrybark extends StatelessWidget {
 ٢. (ناو) دەنگی سەگ و چەند ئاژەڵێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dog gave a loud bark."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگەکە بەبەرزی حەپاندی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The dog gave a loud bark."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەگەکە بەبەرزی حەپاندی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybark extends StatelessWidget {
 ٣. (ناو) دەنگێکی بەرز و کورت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bark of the laughter echoed through the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیقەی پێکەنین بە ژوورەکەدا دەنگی‌دەدایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bark of the laughter echoed through the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیقەی پێکەنین بە ژوورەکەدا دەنگی‌دەدایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybark extends StatelessWidget {
 ٤. (کردار) حەپاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dog suddenly started barking at us."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەگەکە لەناکاو دەستیکرد بە حەپاندن لێمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dog suddenly started barking at us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگەکە لەناکاو دەستیکرد بە حەپاندن لێمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,10 +290,16 @@ class EnglishEntrybark extends StatelessWidget {
 ٥. (کردار) پرسیارکردن یان فەرمانکردن بەشێوەیەکی بەرز و ناشرین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He barked questions at her."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەناشرینی پرسیاری لێدەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He barked questions at her."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەناشرینی پرسیاری لێدەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +319,18 @@ class EnglishEntrybark extends StatelessWidget {
 ٦. (کردار) ڕووشانی چۆکت یان شوێنێکی تری جەستەت بەھۆی کەوتن یان کێشان بە شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I barked my shins when I fell on the steps."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لوولاقم ڕووشا کە لەسەر پلەکانەکە کەوتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I barked my shins when I fell on the steps."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لوولاقم ڕووشا کە لەسەر پلەکانەکە کەوتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

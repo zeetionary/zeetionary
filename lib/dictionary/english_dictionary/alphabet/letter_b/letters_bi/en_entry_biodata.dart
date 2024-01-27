@@ -170,12 +170,18 @@ class EnglishEntrybiodata extends StatelessWidget {
 ١. (ناو) زانیاری لەسەر کەسێک و ئەوەی کردوویانە لە ژیاندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The website displayed the biodata of all team members, showcasing their individual roles and contributions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێبسایتەکە کورتە ژیانی ھەموو ئاندامانی تیمەکەی تێدابوو، لەگەڵ پیشاندانی ئەرکیان و کارەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The website displayed the biodata of all team members, showcasing their individual roles and contributions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێبسایتەکە کورتە ژیانی ھەموو ئاندامانی تیمەکەی تێدابوو، لەگەڵ پیشاندانی ئەرکیان و کارەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

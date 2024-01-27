@@ -175,12 +175,18 @@ class EnglishEntrybankrupt extends StatelessWidget {
 ١. (ھاوەڵناو) بەبێ پارەی پێویست بۆ دانەوەی ئەوەی قەرزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She lost the house after she was made bankrupt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She lost the house after she was made bankrupt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybankrupt extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the war, Britain was weary and bankrupt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the war, Britain was weary and bankrupt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntrybankrupt extends StatelessWidget {
 ٢. (ھاوەڵناو) نەبوونی ھیچ خاسیەتێکی باش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He believes that modern society is morally bankrupt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He believes that modern society is morally bankrupt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +272,18 @@ class EnglishEntrybankrupt extends StatelessWidget {
 ٣. (ناو) کەسێک کە دادگا بڕیاری داوە توانای نییە قەرزەکانی بداتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He later became Britain’s biggest bankrupt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He later became Britain’s biggest bankrupt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,11 +305,18 @@ class EnglishEntrybankrupt extends StatelessWidget {
 ٤. (کردار) مایەپووچکردنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They feared that the loss would bankrupt them."),
-                              const ExampleSentenceKurdish(
-                                  text: "ترسان زیانەکە مایەپووچیان بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They feared that the loss would bankrupt them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ترسان زیانەکە مایەپووچیان بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

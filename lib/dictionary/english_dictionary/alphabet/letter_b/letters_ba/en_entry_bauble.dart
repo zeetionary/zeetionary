@@ -169,12 +169,18 @@ class EnglishEntrybauble extends StatelessWidget {
 ١. (ناو) پارچە خشڵێکی کەم نرخ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a £50 000 antique diamond ring—not a mere ‘bauble’ as the judge said."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنھا خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a £50 000 antique diamond ring—not a mere ‘bauble’ as the judge said."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەڵقەیەکی ئەڵماسی ئەنتیکی ٥٠٠٠٠ پاوەندی بوو، نەک تەنھا خشڵێکی کەم نرخ وەک ئەوەی دادوەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybauble extends StatelessWidget {
 ١. (ناو) ئامرازێکی ڕازاندنەوە لە شێوەی تۆپێکدا بۆ داری کریسمس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Christmas tree was adorned with colorful baubles and sparkling lights."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دار کریسمسەکە بە گڵۆپی ڕەنگین و ڕۆشنایی بریسکەدار ڕازێندرابوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Christmas tree was adorned with colorful baubles and sparkling lights."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دار کریسمسەکە بە گڵۆپی ڕەنگین و ڕۆشنایی بریسکەدار ڕازێندرابوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

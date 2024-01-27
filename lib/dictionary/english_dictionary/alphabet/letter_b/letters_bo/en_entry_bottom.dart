@@ -373,12 +373,18 @@ class EnglishEntrybottom extends StatelessWidget {
 ١. (ناو) بەشی خوارەوەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Footnotes are given at the bottom of each page."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەراوێز لە خوارەوەی ھەموو لاپەڕەیەک نووسراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Footnotes are given at the bottom of each page."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەراوێز لە خوارەوەی ھەموو لاپەڕەیەک نووسراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -395,11 +401,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book I want is right at the bottom (= of the pile)."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەو کتێبەی دەمەوێت لە خوارەوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book I want is right at the bottom (= of the pile)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کتێبەی دەمەوێت لە خوارەوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -422,7 +435,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The wind blew through gaps at the top and bottom of the door."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -446,7 +459,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He reached the bottom of the steps in no time."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە خێرایی گەشتە خوارەوەی قادرمەکان."),
                                       const CustomSizedBoxForTTS(),
@@ -470,7 +483,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We rode along the bottom of the valley."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە خوارەوەی دۆڵەکەدا لێمانخوڕی."),
                                       const CustomSizedBoxForTTS(),
@@ -494,7 +507,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We walked to the bottom of the hill."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە ڕێکردن چووینە خوارەوەی گردەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -522,12 +535,18 @@ class EnglishEntrybottom extends StatelessWidget {
                                   "٢. (ناو) ئەو بەشەی شتێک کە ڕووی لە خوارەوەیە و زۆرجار نابینرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      " The ingredients are listed on the bottom of the box."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەچەتەکان لە ژێرەوەی سندووقەکە لیستکراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            " The ingredients are listed on the bottom of the box."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەچەتەکان لە ژێرەوەی سندووقەکە لیستکراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -544,12 +563,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The manufacturer's name is on the bottom of the plate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوی درووستکارەکە لە ژێرەوەی دەورییەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The manufacturer's name is on the bottom of the plate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی درووستکارەکە لە ژێرەوەی دەورییەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -569,12 +594,18 @@ class EnglishEntrybottom extends StatelessWidget {
                                   "٣. (ناو) بەشی خوارەوەی ڕووی ناوەوەی دەفرێک یان کاسەیەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Line the bottom of the cage with old newspaper."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوارەوەی قەفەزەکە بە ڕۆژنامەی کۆن داپۆشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Line the bottom of the cage with old newspaper."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوارەوەی قەفەزەکە بە ڕۆژنامەی کۆن داپۆشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -591,12 +622,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Allow the tea leaves to settle to the bottom of the cup."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بھێڵە گەڵا چاەییەکان بچنە بنی پێڵاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Allow the tea leaves to settle to the bottom of the cup."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بھێڵە گەڵا چاەییەکان بچنە بنی پێڵاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -615,12 +652,18 @@ class EnglishEntrybottom extends StatelessWidget {
                               text: "٤. (ناو) بنی دەریاچە، دەریا، حەوز، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I feel safe as long as I can touch the bottom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەست بە سەلامەتی دەکەم ئەگەر بتوانم ھەست بە بنی ئاوەکە بکەم (قووڵی لە باڵام زیاتر نەبێت)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I feel safe as long as I can touch the bottom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەست بە سەلامەتی دەکەم ئەگەر بتوانم ھەست بە بنی ئاوەکە بکەم (قووڵی لە باڵام زیاتر نەبێت)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -637,11 +680,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boat sank to the bottom of the sea."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەلەمەکە نغرۆبووە بنکی دەریاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boat sank to the bottom of the sea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکە نغرۆبووە بنکی دەریاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -661,12 +711,18 @@ class EnglishEntrybottom extends StatelessWidget {
                                   "٥. (ناو) نزمترین ئاست لە لیستێک، چین، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When the list came out, my name was near the bottom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە لیستەکە ھاتەوە ناوم لە نزیکی خواری خوارەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When the list came out, my name was near the bottom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە لیستەکە ھاتەوە ناوم لە نزیکی خواری خوارەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -683,12 +739,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was always bottom of the class in math."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە لە خوارترینی پۆلەکە بووم لە بیرکاریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was always bottom of the class in math."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە لە خوارترینی پۆلەکە بووم لە بیرکاریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -708,10 +770,17 @@ class EnglishEntrybottom extends StatelessWidget {
                                   "٦. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەری دادەنیشیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She slipped and fell on her bottom."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێی ھەڵکەوت و بە سمتیدا کەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She slipped and fell on her bottom."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێی ھەڵکەوت و بە سمتیدا کەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -731,12 +800,18 @@ class EnglishEntrybottom extends StatelessWidget {
                                   "٧. (ناو) بەشی خوارەوەی جلێک کە لە دوو بەش پێکھاتووە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She danced on the sand in a colorful bikini bottom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر لمەکە سەمای کرد بە بەشی خوارەوەی جلەمەلێیەکی ڕەنگاوڕەنگەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She danced on the sand in a colorful bikini bottom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر لمەکە سەمای کرد بە بەشی خوارەوەی جلەمەلێیەکی ڕەنگاوڕەنگەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -755,11 +830,18 @@ class EnglishEntrybottom extends StatelessWidget {
                               text: "٨. (ناو) ئەو بەشەی شتێک کە دوورترینە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a stream at the bottom of the garden."),
-                              const ExampleSentenceKurdish(
-                                  text: "جۆگەیەک لەوپەڕی باخچەکەوە ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a stream at the bottom of the garden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆگەیەک لەوپەڕی باخچەکەوە ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -776,12 +858,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I went to the school at the bottom of our street."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چوومە ئەو قوتابخانەیەی کە لە کۆتایی شەقامەکەمان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I went to the school at the bottom of our street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوومە ئەو قوتابخانەیەی کە لە کۆتایی شەقامەکەمان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -800,11 +888,18 @@ class EnglishEntrybottom extends StatelessWidget {
                               text: "٩. (ھاوەڵناو) لە خوارترین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Put your clothes in the bottom drawer."),
-                              const ExampleSentenceKurdish(
-                                  text: "جلەکانت بخە چەکمەجەکەی خوارەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put your clothes in the bottom drawer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکانت بخە چەکمەجەکەی خوارەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -821,12 +916,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bottom shelf holds the heavy books."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەفەی خوارەوە کتێبە قوورسەکانی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bottom shelf holds the heavy books."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەفەی خوارەوە کتێبە قوورسەکانی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -846,10 +947,16 @@ class EnglishEntrybottom extends StatelessWidget {
                                   "١٠. (ھاوەڵناو) لە کۆتایی لیستێک، پێشبڕکێیەک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We came bottom with 12 points."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ١٢ خاڵەوە لە کۆتایی بووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We came bottom with 12 points."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ١٢ خاڵەوە لە کۆتایی بووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -866,12 +973,18 @@ class EnglishEntrybottom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They finished six points ahead of bottom club Swindon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوبوون بە شەش خاڵەوە لە پێش یانەی کۆتایی کە سویندن بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They finished six points ahead of bottom club Swindon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوبوون بە شەش خاڵەوە لە پێش یانەی کۆتایی کە سویندن بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

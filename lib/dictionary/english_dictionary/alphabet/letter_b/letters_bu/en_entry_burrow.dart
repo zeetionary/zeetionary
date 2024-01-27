@@ -217,12 +217,18 @@ class EnglishEntryburrow extends StatelessWidget {
 ١. (کردار) درووستکردنی کونێک یان تونێلێک لە زەویدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rabbits had burrowed under the fence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەروێشک بە ژێر پەرژینەکەدا تونێلیان کەندبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rabbits had burrowed under the fence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەروێشک بە ژێر پەرژینەکەدا تونێلیان کەندبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burrow", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntryburrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Earthworms burrow deep into the soil."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرمەسوورکە کونی قووڵ دەکەنن بەناو خاکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Earthworms burrow deep into the soil."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرمەسوورکە کونی قووڵ دەکەنن بەناو خاکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,11 +276,18 @@ class EnglishEntryburrow extends StatelessWidget {
                                   "٢. (کردار) خۆتووندکردن لە کەسێک یان لەژێر شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He burrowed down beneath the blankets."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆی لەژێر بەتانییەکاندا گرمۆڵەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He burrowed down beneath the blankets."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی لەژێر بەتانییەکاندا گرمۆڵەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,11 +304,17 @@ class EnglishEntryburrow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She burrowed her face into his chest."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری نا بە سنگییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She burrowed her face into his chest."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕووخساری نا بە سنگییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -309,11 +334,17 @@ class EnglishEntryburrow extends StatelessWidget {
                                   "٣. (کردار) گەڕان بۆ شتێک لەژێر یان لەناو شتدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was afraid that they would burrow into his past."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەترسا بە ڕابردوویدا بگەڕێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was afraid that they would burrow into his past."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەترسا بە ڕابردوویدا بگەڕێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -331,12 +362,18 @@ class EnglishEntryburrow extends StatelessWidget {
                           const DefinitionKurdish(text: "٤. (ناو) پێنناسە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rabbit created a burrow in the earth to shelter from predators."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەروێشکەکە کونێکی لە زەوییەکەدا کەند بۆ پەناگرتن لە دڕندەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rabbit created a burrow in the earth to shelter from predators."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەروێشکەکە کونێکی لە زەوییەکەدا کەند بۆ پەناگرتن لە دڕندەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

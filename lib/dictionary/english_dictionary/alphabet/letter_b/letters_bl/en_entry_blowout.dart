@@ -171,11 +171,17 @@ class EnglishEntryblowout extends StatelessWidget {
 ١. (ناو) تەقینی تایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tire had a blowout on the highway."),
-                              const ExampleSentenceKurdish(
-                                  text: "تایەیەکی تەقی لەسەر ڕێگاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tire had a blowout on the highway."),
+                                    ExampleSentenceKurdish(
+                                        text: "تایەیەکی تەقی لەسەر ڕێگاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblowout extends StatelessWidget {
                                   "٢. (ناو) ژەمە خواردنێکی گەورە کە تێیدا خەڵکی زۆر دەخۆن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The family gathered for a blowout to honor milestones."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکە کۆبوونەوە بۆ ڕێزلێنان لە شتە گرنگەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The family gathered for a blowout to honor milestones."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکە کۆبوونەوە بۆ ڕێزلێنان لە شتە گرنگەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntryblowout extends StatelessWidget {
                               text: "٣. (ناو) ئاھەنگێکی گەورە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They threw a blowout party to celebrate their graduation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاھەنگێکی گەورەیان ڕێکخست بۆ ئاھەنگگێڕانی تەواوکردنی زانکۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They threw a blowout party to celebrate their graduation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاھەنگێکی گەورەیان ڕێکخست بۆ ئاھەنگگێڕانی تەواوکردنی زانکۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,10 +261,17 @@ class EnglishEntryblowout extends StatelessWidget {
                               text: "٤. (ناو) بردنەوەیەکی ئاسان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The game was a blowout, 8–1."),
-                              const ExampleSentenceKurdish(
-                                  text: "یارییەکە فیشقیات بوو، ٨ بە ١ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The game was a blowout, 8–1."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارییەکە فیشقیات بوو، ٨ بە ١ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

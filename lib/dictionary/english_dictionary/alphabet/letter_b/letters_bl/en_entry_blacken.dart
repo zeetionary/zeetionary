@@ -169,11 +169,18 @@ class EnglishEntryblacken extends StatelessWidget {
 ١. (کردار) ڕەشکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their faces were blackened with soot."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساریان لە دووکەڵدا ڕەشبوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their faces were blackened with soot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساریان لە دووکەڵدا ڕەشبوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +201,18 @@ class EnglishEntryblacken extends StatelessWidget {
                                   "٢. (کردار) وتنی شتی خراپ لەسەر خەڵکی کە دەبێتە ھۆی ناشرینبوونی وێنایان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He accused the newspaper of trying to blacken his name."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژنامەکەی تاوانبارکرد بە ھەوڵدان بۆ ناوزڕاندنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He accused the newspaper of trying to blacken his name."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەکەی تاوانبارکرد بە ھەوڵدان بۆ ناوزڕاندنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

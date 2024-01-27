@@ -166,12 +166,18 @@ class EnglishEntrybookstall extends StatelessWidget {
 ١. (ھاوەڵناو) مێزێک یان فرۆشگایەک کە پێشەوەی کراوەیە و کتێب و گۆڤار و ڕۆژنامە دەفرۆشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bookstall displayed a variety of genres and authors."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دووکانۆچکەکە ژمارەیەک ژانر و نووسەری نمایشکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bookstall displayed a variety of genres and authors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووکانۆچکەکە ژمارەیەک ژانر و نووسەری نمایشکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,10 +168,18 @@ class EnglishEntrybray extends StatelessWidget {
 ١. (ناو) سەڕەی گوێدرێژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The mules suddenly started braying."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێسرەکە لەناکاو دەستیکرد بە سەڕەسەڕ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The mules suddenly started braying."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێسرەکە لەناکاو دەستیکرد بە سەڕەسەڕ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +199,18 @@ class EnglishEntrybray extends StatelessWidget {
                                   "٢. (ناو) قسەکردن یان پێکەنین بە شێوەیەکی ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They were all braying with laughter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموویان سەڕەسەڕیان بوو لە پێکەنیندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were all braying with laughter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموویان سەڕەسەڕیان بوو لە پێکەنیندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +229,18 @@ class EnglishEntrybray extends StatelessWidget {
                               text: "٣. (کردار) سەڕاندنی گوێدرێژ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the distance they see the glow of the campfires and hear the occasional bray of a mule."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوورەوە ڕۆشنایی ئاگری بەر خێوەتەکان دەبینن لەگەڵ بیستنی ناوەناوەی سەڕەی ھێستر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the distance they see the glow of the campfires and hear the occasional bray of a mule."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوورەوە ڕۆشنایی ئاگری بەر خێوەتەکان دەبینن لەگەڵ بیستنی ناوەناوەی سەڕەی ھێستر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,10 +259,16 @@ class EnglishEntrybray extends StatelessWidget {
                               text: "٤. (کردار) قسەکردن یان پێکەنین بە ناخۆشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He brayed with laughter."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەڕەی دەھات لە پێکەنیندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He brayed with laughter."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەڕەی دەھات لە پێکەنیندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

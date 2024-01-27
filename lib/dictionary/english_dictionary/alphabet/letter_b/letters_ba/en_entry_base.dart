@@ -256,12 +256,18 @@ class EnglishEntrybase extends StatelessWidget {
 ١. (کردار) بەکارھێنانی شارێک، شارۆچکەیەک، ھتد وەک شوێنی سەرەکی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They decided to base the new company in New York."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاریاندا نیویۆرک بکەنە بنکەی سەرەکی کۆمپانیا تازەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They decided to base the new company in New York."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاریاندا نیویۆرک بکەنە بنکەی سەرەکی کۆمپانیا تازەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,10 +287,16 @@ class EnglishEntrybase extends StatelessWidget {
 ٢. (ناو) نزمترین بەشی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The lamp has a heavy base."),
-                              const ExampleSentenceKurdish(
-                                  text: "گڵۆپەکە بنکێکی قوورسی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The lamp has a heavy base."),
+                                    ExampleSentenceKurdish(
+                                        text: "گڵۆپەکە بنکێکی قوورسی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -302,12 +314,18 @@ class EnglishEntrybase extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He felt a sharp pain at the base of his spine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی بە ئازارێکی توند دەکرد لە بەشی خوارەوەی بڕبڕەی پشتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He felt a sharp pain at the base of his spine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی بە ئازارێکی توند دەکرد لە بەشی خوارەوەی بڕبڕەی پشتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -327,12 +345,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٣. (ناو) شوێنی سرەکی ژیان یان کارکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I spend a lot of time in Britain but Paris is still my base."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێکی زۆر لە پاریس بەسەر دەبەم، بەڵام ھێشتا پاریس ھەوارگەی سەرەکیمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I spend a lot of time in Britain but Paris is still my base."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێکی زۆر لە پاریس بەسەر دەبەم، بەڵام ھێشتا پاریس ھەوارگەی سەرەکیمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -352,11 +376,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٤. (ناو) بنکەی سەربازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the attack, they returned to base."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە دوای ھێرشەکە گەڕانەوە بنکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the attack, they returned to base."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ھێرشەکە گەڕانەوە بنکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -376,12 +407,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٥. (ناو) ئەو کەس و چالاکییانەی کەسێک لێیانەوە ھێز و پشتیوانی و پارە وەردەگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These policies have a broad base of support."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم سیاسەتانە بناغەیەکی فراوانی پشتیوانیان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These policies have a broad base of support."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم سیاسەتانە بناغەیەکی فراوانی پشتیوانیان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -399,12 +436,18 @@ class EnglishEntrybase extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This course is an opportunity to expand my knowledge base."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کۆرسە ھەلێکی بۆ فراوانکردنی بناغەی زانیاریم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This course is an opportunity to expand my knowledge base."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کۆرسە ھەلێکی بۆ فراوانکردنی بناغەی زانیاریم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -424,12 +467,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٦. (ناو) ئەو مووچەیەی کە وەریدەگری پێش ئەوەی ھیچی تری بۆ زیادبکرێت بۆ (نموونە بەخشیش)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All we got was base pay—we didn't reach profitability levels to award a bonus."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەوەی مووچەکەی خۆمان بوو، نەگەشتین بەو ئاستەی قازانج کە بەخشیش بدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All we got was base pay—we didn't reach profitability levels to award a bonus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەوەی مووچەکەی خۆمان بوو، نەگەشتین بەو ئاستەی قازانج کە بەخشیش بدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -449,12 +498,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٧. (ناو) بیرۆکەیەک، زانیارییەک، یان دۆخێک کە وەک سەرچاوە بەکاردێت بۆ گەشەپێدانی شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She used her family's history as a base for her novel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێژووی خێزانەکەی وەک سەرچاوە و ئیلھام بۆ ڕۆمانەکەی بەکارھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She used her family's history as a base for her novel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێژووی خێزانەکەی وەک سەرچاوە و ئیلھام بۆ ڕۆمانەکەی بەکارھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -474,12 +529,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٨. (ناو) یەکەم بەشی شتێک کە دواتر شتی تری بۆ زیاددەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Put some moisturizer on as a base before applying your make-up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کرێمی شێدارکەرەوە بەکاربێنە وەک بناغە پێش ئەوەی مەیکەپەکەت بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put some moisturizer on as a base before applying your make-up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کرێمی شێدارکەرەوە بەکاربێنە وەک بناغە پێش ئەوەی مەیکەپەکەت بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -499,12 +560,18 @@ class EnglishEntrybase extends StatelessWidget {
 ٩. (ناو) مادەیەکی کیمیایی کە دەتوانێت لەگەڵ ئەسید (ترشەڵۆک) یەکبگرێت بۆ درووستکردنی خوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھایدرۆکسایدی سۆدیۆم تفتێکی بەھێزە کە لە زۆر پڕۆسەی پیشەسازیدا بەکاردێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sodium hydroxide (NaOH) is a strong base that is used in many industrial processes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھایدرۆکسایدی سۆدیۆم تفتێکی بەھێزە کە لە زۆر پڕۆسەی پیشەسازیدا بەکاردێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -524,12 +591,18 @@ class EnglishEntrybase extends StatelessWidget {
 ١٠. (ناو) لە بیرکاریدا بریتییە لە ژمارەیەک کە سیستەمێکی ژماردن و دەربڕینی ژمارەی لەسەر بنیاتنراوە بۆ نموونە ژمارە لە سیستەمی دەیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The base of the decimal system is 10, which uses the digits 0-9."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بنچینەی سیستەمی دەیان بریتییە لە ١٠ و ژمارەکانی ١-٩ بەکاردێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The base of the decimal system is 10, which uses the digits 0-9."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بنچینەی سیستەمی دەیان بریتییە لە ١٠ و ژمارەکانی ١-٩ بەکاردێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -549,11 +622,17 @@ class EnglishEntrybase extends StatelessWidget {
 ١١. (ھاوەڵناو) کەسێک کە ھیچ بەھا و ئەخلاقی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He acted from base motives."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە پاڵنەری کەسی ھەنگاوی نا (بۆ بەرژەوەندی خۆی)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He acted from base motives."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە پاڵنەری کەسی ھەنگاوی نا (بۆ بەرژەوەندی خۆی)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

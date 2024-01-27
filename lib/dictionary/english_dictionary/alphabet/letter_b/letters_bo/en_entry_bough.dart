@@ -168,12 +168,18 @@ class EnglishEntrybough extends StatelessWidget {
 ١. (ناو) لقێکی گەورەی دارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Birds rested on the sturdy oak bough."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵندە لەسەر شالقە پتەوەکانی دارەکە دەنیشتنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Birds rested on the sturdy oak bough."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵندە لەسەر شالقە پتەوەکانی دارەکە دەنیشتنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

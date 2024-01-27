@@ -166,11 +166,17 @@ class EnglishEntryblab extends StatelessWidget {
 ١. (کردار) وتنی زانیاری بە کەسێک کە دەبێت بە نھێنی بھێڵدرێتەوە، زۆرجار لەکاتی قسەزۆری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Someone must have blabbed to the police."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Someone must have blabbed to the police."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەبێت کەسێک بە پۆلیسی وتبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +195,18 @@ class EnglishEntryblab extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Try not to blab the whole story."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try not to blab the whole story."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ بدە دەمشڕی نەکەیت و تەواوی چیرۆکەکە ئاشکرا بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

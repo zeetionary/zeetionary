@@ -213,11 +213,18 @@ class EnglishEntrybusinesslike extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە بە ڕێکخراوی و بەبێ کات بەفیڕۆدان کاردەکات بەبێ بیرکردنەوە لە بابەتی کەسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their relationship remained strictly businesslike."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەیوەندییا زۆر بە پڕۆفیشناڵی مایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their relationship remained strictly businesslike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندییا زۆر بە پڕۆفیشناڵی مایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "businesslike", follow LX strictly
                               Column(
                                 children: [
@@ -239,7 +246,7 @@ class EnglishEntrybusinesslike extends StatelessWidget {
                           // const ExampleSentenceEnglish(
                           // text:
                           // "Wearing the suit made him feel more businesslike."),
-                          // const ExampleSentenceKurdish(
+                          // ExampleSentenceKurdish(
                           // text: "لەبەرکردنی دەستە جلەکە ."),
                           // const CustomSizedBoxForTTS(),
                           // Column(

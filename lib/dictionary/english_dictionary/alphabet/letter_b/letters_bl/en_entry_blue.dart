@@ -326,12 +326,18 @@ class EnglishEntryblue extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sun shone brilliantly in the clear blue sky."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆر بە ڕۆشنی لە ئاسمانی ساماڵدا دەگەشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sun shone brilliantly in the clear blue sky."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆر بە ڕۆشنی لە ئاسمانی ساماڵدا دەگەشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -348,10 +354,16 @@ class EnglishEntryblue extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His eyes were dark blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوەکانی شینی تاری بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His eyes were dark blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوەکانی شینی تاری بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -368,10 +380,17 @@ class EnglishEntryblue extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wanted to dye her hair blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەیویست پرچی بۆیەی شین بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wanted to dye her hair blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەیویست پرچی بۆیەی شین بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -391,10 +410,16 @@ class EnglishEntryblue extends StatelessWidget {
                                   "٢. (ھاوەڵناو) کەسێک کە ڕەنگی شین بووەتەوە بەھۆی تەنگەنەفەسی یان سەرما"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His lips were turning blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێوەکانی شین دەبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His lips were turning blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "لێوەکانی شین دەبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -412,10 +437,17 @@ class EnglishEntryblue extends StatelessWidget {
                           const DefinitionKurdish(text: "٣. (ھاوەڵناو) دڵتەنگ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He'd been feeling blue all week."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی ھەفتەکە دڵتەنگ بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He'd been feeling blue all week."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەواوی ھەفتەکە دڵتەنگ بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -435,12 +467,18 @@ class EnglishEntryblue extends StatelessWidget {
                                   "٤. (ھاوەڵناو) فیلم، نووکتە، یان چیرۆک کە دەربارەی سێکسە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie is a bit too blue for children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە کەمێک بەدەر لە سنوور بۆ منداڵان باسی سێکس دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie is a bit too blue for children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە کەمێک بەدەر لە سنوور بۆ منداڵان باسی سێکس دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -460,12 +498,18 @@ class EnglishEntryblue extends StatelessWidget {
                                   "٥. (ھاوەڵناو) ناوچەیەکی ئەمریکا کە دەنگدەری پارتی دیموکرات تێیدا زیاترە وەک لە کۆماری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "California has mostly been a blue state in recent history."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەمێژووی نزیکدا کالیفۆرنیا زۆرجار ویلایەتێکی دەنگدەری دیموکراتەکان بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "California has mostly been a blue state in recent history."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەمێژووی نزیکدا کالیفۆرنیا زۆرجار ویلایەتێکی دەنگدەری دیموکراتەکان بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -485,12 +529,18 @@ class EnglishEntryblue extends StatelessWidget {
                                   "٦. (ناو) ڕەنگی شین؛ ڕەنگی ئاسمانی ساماڵ یان دەریا لە ڕۆژێکی پاکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The room was decorated in blues and yellows."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژوورەکە بە شین و زەرد دیکۆراتی بۆ کرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The room was decorated in blues and yellows."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورەکە بە شین و زەرد دیکۆراتی بۆ کرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -507,10 +557,16 @@ class EnglishEntryblue extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was dressed in blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەنگی شینی لەبەرکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She was dressed in blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕەنگی شینی لەبەرکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -527,10 +583,16 @@ class EnglishEntryblue extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm very fond of blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرم حەز بە شینە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'm very fond of blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆرم حەز بە شینە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -550,10 +612,16 @@ class EnglishEntryblue extends StatelessWidget {
                                   "٧. (ناو) کەسێک کە یارییەکی وەرزشی دیاریکراوی بۆ زانکۆی ئۆکسفۆرد یان کامبریج کردووە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He’s an Oxford rugby blue."),
-                              const ExampleSentenceKurdish(
-                                  text: "یاریزانێکی ڕەگبی ئۆکسفۆردە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He’s an Oxford rugby blue."),
+                                    ExampleSentenceKurdish(
+                                        text: "یاریزانێکی ڕەگبی ئۆکسفۆردە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

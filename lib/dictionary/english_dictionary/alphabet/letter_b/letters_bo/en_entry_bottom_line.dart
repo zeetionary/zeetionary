@@ -169,12 +169,18 @@ class EnglishEntrybottomline extends StatelessWidget {
 ١. (ناو) خاڵی سەرەکیی گفتوگۆیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bottom line is that we have to make a decision today."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاڵی سەرەکی ئەوەیە دەبێت ئەمڕۆ بڕیار بدەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bottom line is that we have to make a decision today."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاڵی سەرەکی ئەوەیە دەبێت ئەمڕۆ بڕیار بدەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybottomline extends StatelessWidget {
                                   "٢. (ناو) بڕی ئەو پارەیەی کە قزانج یان زیانە لە دوای ئەوەی ھەموو شتێک حسابکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How will the rise in interest rates affect our bottom line?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چۆن زیادکردنی ڕێژەی سوو کاریگەر دەبێت لەسەر قازانج و زیانمان؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How will the rise in interest rates affect our bottom line?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چۆن زیادکردنی ڕێژەی سوو کاریگەر دەبێت لەسەر قازانج و زیانمان؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

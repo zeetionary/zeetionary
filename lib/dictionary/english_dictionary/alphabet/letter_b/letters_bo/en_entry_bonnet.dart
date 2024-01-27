@@ -169,10 +169,17 @@ class EnglishEntrybonnet extends StatelessWidget {
 ١. (ناو) کڵاوێک کە لەژێر چەناگەدا دەبەسترێت و بۆ منداڵان دەبەسترێت، و لە ڕابردوودا بۆ ژنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The baby had a cute bonnet."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکە کڵاوێکی جوانی پۆشیبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The baby had a cute bonnet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە کڵاوێکی جوانی پۆشیبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +199,18 @@ class EnglishEntrybonnet extends StatelessWidget {
                                   "٢. (ناو) ئەو پارچەیەی کە لەسەر پێشەوەی ئۆتۆمبێلە و مەکینەکەی دادەپۆشێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Lift the bonnet to check the oil."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆنیتەکە بەرزبکەوە بۆ پشکنینی ڕۆنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Lift the bonnet to check the oil."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆنیتەکە بەرزبکەوە بۆ پشکنینی ڕۆنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

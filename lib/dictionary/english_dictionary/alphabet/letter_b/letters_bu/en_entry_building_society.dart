@@ -162,12 +162,18 @@ class EnglishEntrybuildingsociety extends StatelessWidget {
 ١. (ناو) ڕێکخراوی خانووبەرە یان خانووکڕین؛ دامەزراوەیەک کەپارە بە خەڵک دەدات بۆ کڕینی خانوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She opened an account at the building society."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She opened an account at the building society."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "building society", follow LX strictly
                               Column(
                                 children: [

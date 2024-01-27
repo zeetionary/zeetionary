@@ -171,12 +171,18 @@ class EnglishEntrybandwidth extends StatelessWidget {
 ١. (ناو) مەودایەک لە لەرە کە بەکاردێت بۆ ناردنی شەپۆلی ئەلیکترۆنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The radio station broadcasts on a bandwidth of 92.1 MHz."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The radio station broadcasts on a bandwidth of 92.1 MHz."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybandwidth extends StatelessWidget {
 ٢. (ناو) بڕێک لە زانیاری کە کۆمپیوتەرێک یان ھێڵی ئینتەرنێت دەتوانێت بینێرێت لەکاتێکی دیاریکراودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Upgrade to a higher bandwidth to increase your download limits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Upgrade to a higher bandwidth to increase your download limits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +237,18 @@ class EnglishEntrybandwidth extends StatelessWidget {
 ٣. (ناو) وزە یان توانای پێویست بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team does not have the bandwidth to take on new projects at the moment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team does not have the bandwidth to take on new projects at the moment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

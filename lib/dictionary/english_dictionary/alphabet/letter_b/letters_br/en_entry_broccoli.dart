@@ -164,12 +164,18 @@ class EnglishEntrybroccoli extends StatelessWidget {
 ١. (ناو) سەوزەیەک کە قەدێکی سەوزی ئەستووری ھەیە لەگەڵ چەند تۆپەڵێک لە چرۆی گوڵ لەسەرەوەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My son is a picky eater, and the only vegetable he likes is broccoli."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکەم لە خواردندا بە وڕکە و تەنھا سەوزە حەزی لێیە برۆکلییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My son is a picky eater, and the only vegetable he likes is broccoli."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکەم لە خواردندا بە وڕکە و تەنھا سەوزە حەزی لێیە برۆکلییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broccoli" as
                               Column(
                                 children: [

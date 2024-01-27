@@ -212,12 +212,18 @@ class EnglishEntrybystander extends StatelessWidget {
 ١. (ناو) کەسێک کە شتێک دەبینێت ڕووددات بەڵام بەشێک نییە لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Three innocent bystanders were killed in the crossfire."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەقەکەدا سێ سەیرکەری بێ‌تاوان کوژران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Three innocent bystanders were killed in the crossfire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەقەکەدا سێ سەیرکەری بێ‌تاوان کوژران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bystander", follow LX strictly
                               Column(
                                 children: [

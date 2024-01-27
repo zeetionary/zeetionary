@@ -166,12 +166,18 @@ class EnglishEntryblogger extends StatelessWidget {
 ١. (ناو) بلۆگنووس؛ کەسێک کە کاری بلۆگی دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Celebrity bloggers are obsessed with the royal family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بلۆگنووسانی کەسانی بەناوبانگ زۆر ھۆگرن بە خێزانی شاھانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Celebrity bloggers are obsessed with the royal family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلۆگنووسانی کەسانی بەناوبانگ زۆر ھۆگرن بە خێزانی شاھانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

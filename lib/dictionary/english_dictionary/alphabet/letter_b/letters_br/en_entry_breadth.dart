@@ -169,12 +169,18 @@ class EnglishEntrybreadth extends StatelessWidget {
 ١. (ناو) پانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She estimated the breadth of the lake to be 500 metres."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پانتایی دەریاچەکەی بە ٥٠٠ مەتر خەملاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She estimated the breadth of the lake to be 500 metres."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پانتایی دەریاچەکەی بە ٥٠٠ مەتر خەملاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybreadth extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boat measures 100 feet in length and 27 in breadth."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەلەمە ١٠٠ پێ درێژە و ٢٧ پێ پانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boat measures 100 feet in length and 27 in breadth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمە ١٠٠ پێ درێژە و ٢٧ پێ پانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,11 +228,18 @@ class EnglishEntrybreadth extends StatelessWidget {
                                   "٢. (ناو) ڕێژەیەکی زۆر لە زانیاری، حەز، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was surprised at her breadth of reading."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرسام بوو بە بەرینایی خوێندنەوەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was surprised at her breadth of reading."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسام بوو بە بەرینایی خوێندنەوەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +256,18 @@ class EnglishEntrybreadth extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The curriculum needs breadth and balance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرنامەی خوێندنەکە (مەنھەج) پێویستی بە بەرفراوانی و ھاوسەنگی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The curriculum needs breadth and balance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرنامەی خوێندنەکە (مەنھەج) پێویستی بە بەرفراوانی و ھاوسەنگی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

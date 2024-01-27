@@ -166,12 +166,18 @@ class EnglishEntrybuiltin extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لەگەڵ شتێکی تردایە و بە دابڕاوی لەگەڵی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both bedrooms have built-in wardrobes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both bedrooms have built-in wardrobes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "built-in", follow LX strictly
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybuiltin extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The device has a built-in microphone and speakers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامێرەکە مایکرۆفۆن و بڵندگۆی ناوەکی خۆی هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The device has a built-in microphone and speakers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامێرەکە مایکرۆفۆن و بڵندگۆی ناوەکی خۆی هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +225,18 @@ class EnglishEntrybuiltin extends StatelessWidget {
                                   "٢. (ھاوەڵناو) شتێک کە بەشێکی سەرەکیی شتێکی ترە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The system has a built-in resistance to change."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمەکە خۆڕاگرییەکی خودایی هەیە بەرامبەر گۆڕان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The system has a built-in resistance to change."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمەکە خۆڕاگرییەکی خودایی هەیە بەرامبەر گۆڕان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

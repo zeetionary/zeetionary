@@ -168,12 +168,18 @@ class EnglishEntrybestow extends StatelessWidget {
 ١. (ناو) پێدانی شتێک بە کەسێک، زۆرجار بۆ ڕێزلێنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a title bestowed upon him by the king."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نازناوێک بوو کە لەلایەن پاشاوە پێی درابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a title bestowed upon him by the king."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نازناوێک بوو کە لەلایەن پاشاوە پێی درابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

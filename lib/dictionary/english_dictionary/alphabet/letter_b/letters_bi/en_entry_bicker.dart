@@ -168,12 +168,18 @@ class EnglishEntrybicker extends StatelessWidget {
 ١. (کردار) مشتومڕ لەسەر ئەو شتانەی کە گرنگ نیین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children are always bickering about something or other."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان ھەمیشە دەمەدەمیانە لەسەر شتێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children are always bickering about something or other."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان ھەمیشە دەمەدەمیانە لەسەر شتێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

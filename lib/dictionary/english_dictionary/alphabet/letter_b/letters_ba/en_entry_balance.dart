@@ -231,12 +231,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ١. (ناو) دۆخێک کە تێیدا ژمارەیەک شت بوونیان ھەیە پێکەوە بە ھەمان بڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This newspaper maintains a good balance in its presentation of different opinions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This newspaper maintains a good balance in its presentation of different opinions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +262,18 @@ class EnglishEntrybalance extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Try to keep a balance between work and relaxation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try to keep a balance between work and relaxation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +295,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٢. (ناو) توانای وەستان لەکاتێکدا کێشی جیاواز لەسەر لایەکانی جەستەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He set his feet wider and adjusted his balance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He set his feet wider and adjusted his balance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,12 +328,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٣. (ناو) بڕی ماوە لە دوای بەکارھێنانی پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He asked the cashier for the balance of his current account."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He asked the cashier for the balance of his current account."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,12 +361,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٤. (ناو) بڕی قەرزی ماوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The balance of £500 must be paid within 90 days."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The balance of £500 must be paid within 90 days."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -364,12 +394,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٥. (ناو) گەورەترین بەشی گرووپێک یان بڕێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He argues that the balance has swung too far in favour of capitalism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He argues that the balance has swung too far in favour of capitalism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -391,12 +427,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٦. (ناو) تەرازوویەک کە لە دوو دەفر پێکھاتووە کە دەبێت وەکو یەکدی بن لە بەرزیدا بۆ ئەوەی ھەردوو دەفرەکە ھەمان کێشیان ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The scientist used a balance to measure the weight of the sample."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The scientist used a balance to measure the weight of the sample."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -418,10 +460,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٧. (کردار) ھاوسەنگی ڕاگرتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "How long can you balance on one leg?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How long can you balance on one leg?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -443,12 +493,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٨. (کردار) گرنگیدانی یەکسان بە دوو شتی جیاواز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The song perfectly balances melody and rhythm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The song perfectly balances melody and rhythm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -470,12 +526,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ٩. (کردار) یەکسان بوون لە بڕ یان نرخدا لەگەڵ شتێکی تری پێچەوانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This year's profits will balance out our previous losses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This year's profits will balance out our previous losses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -497,12 +559,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ١٠. (کردار) بەراوردکردنی گرنگی ڕێژەیی دوو شتی جیاواز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cost of obtaining legal advice needs to be balanced against its benefits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cost of obtaining legal advice needs to be balanced against its benefits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -524,12 +592,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ١١. (کردار) سەرپەرشتی خەرجکردنی پارە بۆ ئەوەی بڕی پارەی خەرجکراو و وەرگیردراو یەکسان بن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In order to balance the budget severe spending cuts had to be made."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In order to balance the budget severe spending cuts had to be made."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -551,12 +625,18 @@ class EnglishEntrybalance extends StatelessWidget {
 ١٢. (کردار) ھەبوونی ھەمان ڕێژە لە پارەی خەرجکراو و وەرگیردراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I tried to work out why the books wouldn't balance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I tried to work out why the books wouldn't balance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,12 +164,18 @@ class EnglishEntrybraindrain extends StatelessWidget {
 ١. (ناو) کۆچی کەسانی زیرەک و شارەزا بۆ وڵاتێکی تر کە تێیدا دەتوانن باشتر بژین و داھاتیان باشتر بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Britain has suffered a huge brain drain in recent years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەریتانیا لەم ساڵانەی دواییدا ڕووبەڕووی کۆچی بلیمەتەکان بووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Britain has suffered a huge brain drain in recent years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەریتانیا لەم ساڵانەی دواییدا ڕووبەڕووی کۆچی بلیمەتەکان بووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

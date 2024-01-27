@@ -172,12 +172,18 @@ class EnglishEntryboast extends StatelessWidget {
 ١. (کردار) قسەکردن بە شێوەیەک کە پیشانی دەدات زۆر شانازی بە شتێکەوە دەکەیت کە ھەتە یان دەتوانی بیکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't want to boast, but I can actually speak six languages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێت خۆم‌ھەڵکێشم بەڵام لە ڕاستیدا دەتوانم بە شەش زمان قسە بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't want to boast, but I can actually speak six languages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەوێت خۆم‌ھەڵکێشم بەڵام لە ڕاستیدا دەتوانم بە شەش زمان قسە بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryboast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is always boasting about how wonderful her children are."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە فڕوفیشاڵیەتی سەبارەت بەوەی منداڵەکانیان چەندە جوانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is always boasting about how wonderful her children are."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە فڕوفیشاڵیەتی سەبارەت بەوەی منداڵەکانیان چەندە جوانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +230,18 @@ class EnglishEntryboast extends StatelessWidget {
                               text: "٢. (کردار) ھەبوونی شتێکی سەرسوڕھێنەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rhodes boasts 300 days of sunshine a year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوورگەی ڕەودز ٣٠٠ ڕۆژی لە تیشکی خۆر ھەیە لە ساڵێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rhodes boasts 300 days of sunshine a year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوورگەی ڕەودز ٣٠٠ ڕۆژی لە تیشکی خۆر ھەیە لە ساڵێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +258,18 @@ class EnglishEntryboast extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is a region which proudly boasts its own distinct culture."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە ھەرێمێکە کە بە شانازییەوە کەلتووری جیاوازی خۆی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is a region which proudly boasts its own distinct culture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە ھەرێمێکە کە بە شانازییەوە کەلتووری جیاوازی خۆی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +289,18 @@ class EnglishEntryboast extends StatelessWidget {
                                   "٣. (ناو) شتێک کە کەسێک قسەی لەسەر دەکات بە شانازییەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite his boasts that his children were brilliant, neither of them went to college."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای لاف‌لێدانی کە منداڵەکانی بلیمەت بوون، ھیچیان نەگەشتن بە کۆلێژ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite his boasts that his children were brilliant, neither of them went to college."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای لاف‌لێدانی کە منداڵەکانی بلیمەت بوون، ھیچیان نەگەشتن بە کۆلێژ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

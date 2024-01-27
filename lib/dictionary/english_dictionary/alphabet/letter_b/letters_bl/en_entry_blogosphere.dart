@@ -166,12 +166,18 @@ class EnglishEntryblogosphere extends StatelessWidget {
 ١. (ناو) تەواوی وێبسایتەکانی سەر ئینتەرنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's one of the top stories in the blogosphere."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لەو چیرۆکانەی زۆرترین باسی لێوە کراو لەسەر ئینتەرنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's one of the top stories in the blogosphere."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لەو چیرۆکانەی زۆرترین باسی لێوە کراو لەسەر ئینتەرنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

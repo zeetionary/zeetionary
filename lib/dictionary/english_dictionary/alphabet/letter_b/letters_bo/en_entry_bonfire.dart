@@ -168,12 +168,18 @@ class EnglishEntrybonfire extends StatelessWidget {
 ١. (ناو) ئاگرێکی گەورە لە دەرەوە بۆ سووتاندنی پاشماوە یان ئاھەنگ گێڕان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There will be a bonfire and a firework display."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگرەخۆشەیەک و نمایشی یاری ئاگرین دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There will be a bonfire and a firework display."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرەخۆشەیەک و نمایشی یاری ئاگرین دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

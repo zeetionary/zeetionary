@@ -168,11 +168,18 @@ class EnglishEntrybreadline extends StatelessWidget {
 ١. (ناو) کەمترین بڕی داھات کە ژیان پێی بەڕێوەدەچێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many people without jobs are living on the breadline (= are very poor)."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر خەڵک لە ھێڵی ھەژاریدا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many people without jobs are living on the breadline (= are very poor)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر خەڵک لە ھێڵی ھەژاریدا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +196,18 @@ class EnglishEntrybreadline extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most students are on/close to/below the breadline."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر خوێندکار لە/نزیک لە/لە ژێر ھێڵی ھەژاریدا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most students are on/close to/below the breadline."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر خوێندکار لە/نزیک لە/لە ژێر ھێڵی ھەژاریدا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +227,18 @@ class EnglishEntrybreadline extends StatelessWidget {
                                   "٢. (ناو) ژمارەیەک خەڵک کە ڕیزیان بەستووە لە شوێنێک بۆ ئەوەی خواردنیان پێ بدرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You'll see breadlines outside many New York churches at lunchtime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی نانی نیوەڕۆدا زۆر ڕیزی خێروەرگران دەبینیت لە دەرەوەی کڵێساکان لە نیویۆرک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You'll see breadlines outside many New York churches at lunchtime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی نانی نیوەڕۆدا زۆر ڕیزی خێروەرگران دەبینیت لە دەرەوەی کڵێساکان لە نیویۆرک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

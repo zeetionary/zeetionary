@@ -169,12 +169,18 @@ class EnglishEntrybillowy extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە گەورە و نەرم دەردەکەوێت، یان ھەوای تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had a red, billowy scarf wrapped around his head."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەچکێکی سووری پفخواردووی پێچابوو لە سەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had a red, billowy scarf wrapped around his head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەچکێکی سووری پفخواردووی پێچابوو لە سەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybillowy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was dressed in an abaya, a kind of billowy cloak."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "عەبایەکی پۆشیبوو کە جۆرە جبەیەکی پفخواردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was dressed in an abaya, a kind of billowy cloak."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "عەبایەکی پۆشیبوو کە جۆرە جبەیەکی پفخواردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

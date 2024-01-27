@@ -171,12 +171,18 @@ class EnglishEntrybless extends StatelessWidget {
 ١. (ناو) داواکردن لە خودا بۆ پاراستنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They brought the children to Jesus and he blessed them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکانیان ھێنا بۆ عیسای مەسیح و ئەویش داوای ڕەحمەتی بۆ کردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They brought the children to Jesus and he blessed them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکانیان ھێنا بۆ عیسای مەسیح و ئەویش داوای ڕەحمەتی بۆ کردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,10 +199,16 @@ class EnglishEntrybless extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "God bless you!"),
-                              const ExampleSentenceKurdish(
-                                  text: "خودا ڕەحمت پێ بکات!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "God bless you!"),
+                                    ExampleSentenceKurdish(
+                                        text: "خودا ڕەحمت پێ بکات!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +228,18 @@ class EnglishEntrybless extends StatelessWidget {
                                   "٢. (کردار) پیرۆزکردنی شتێک بە خوێندنی نزا بەسەریدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The priest blessed the bread and meat."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەشەکە نان و گۆشتەکەی پیرۆزکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The priest blessed the bread and meat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەشەکە نان و گۆشتەکەی پیرۆزکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,10 +259,18 @@ class EnglishEntrybless extends StatelessWidget {
                               text: "٣. (کردار) ناوھێنانی خودا بە پیرۆزی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We bless your holy name, O Lord."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەی خودا، ناوت بە پیرۆزی دێنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We bless your holy name, O Lord."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەی خودا، ناوت بە پیرۆزی دێنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,10 +290,17 @@ class EnglishEntrybless extends StatelessWidget {
                               text: "٤. (کردار) بۆ پیشاندانی سەرسوڕمان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Bless my soul! Here comes Karen!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاھ، کارن ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bless my soul! Here comes Karen!"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاھ، کارن ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntryboastfully extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ستایشی خۆت و ئەوەی کردووتە دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was boastfully repeating all the praise he had received."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە خۆھەڵکێشانەوە ھەموو ئەو ستایشانەی دووبارە دەکردەوە کە وەریگرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was boastfully repeating all the praise he had received."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە خۆھەڵکێشانەوە ھەموو ئەو ستایشانەی دووبارە دەکردەوە کە وەریگرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

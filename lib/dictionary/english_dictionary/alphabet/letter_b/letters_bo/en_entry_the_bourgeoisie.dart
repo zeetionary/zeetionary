@@ -170,12 +170,18 @@ class EnglishEntrythebourgeoisie extends StatelessWidget {
 ١. (ناو) چینی ناوەڕاست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new bourgeoisie, which was created by the Industrial Revolution, had money to spend and wanted to travel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چینی تازەی بورژوازی، کە بەھۆی شۆڕشی پیشەسازییەوە درووست بووبوو، پارەیان ھەبوو خەرجی بکەن و گەشت بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new bourgeoisie, which was created by the Industrial Revolution, had money to spend and wanted to travel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چینی تازەی بورژوازی، کە بەھۆی شۆڕشی پیشەسازییەوە درووست بووبوو، پارەیان ھەبوو خەرجی بکەن و گەشت بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrythebourgeoisie extends StatelessWidget {
                                   "٢. (ناو) ئەو چینەی کۆمەڵگا کە بەری ڕەنجی کرێکاران دەخۆن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Without their control over the workers, the bourgeoisie could not remain in power."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەبێ کۆنترۆڵیان بەسەر چینی کرێکارانەوە، بورژوازییەکان نەیاندەتوانی لە دەسەڵات بمێننەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Without their control over the workers, the bourgeoisie could not remain in power."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەبێ کۆنترۆڵیان بەسەر چینی کرێکارانەوە، بورژوازییەکان نەیاندەتوانی لە دەسەڵات بمێننەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

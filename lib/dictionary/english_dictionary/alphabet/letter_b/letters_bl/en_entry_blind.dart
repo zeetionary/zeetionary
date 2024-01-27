@@ -369,10 +369,18 @@ class EnglishEntryblind extends StatelessWidget {
 ١. (ھاوەڵناو) کوێر؛ نەبوونی توانای بینین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Doctors think he will go blind."),
-                              const ExampleSentenceKurdish(
-                                  text: "دکتۆرەکان پێیان وایە کوێر دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Doctors think he will go blind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکان پێیان وایە کوێر دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -389,10 +397,18 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She went blind at the age of ten."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە تەمەنی ١٠ ساڵیدا بینایی لەدەستدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She went blind at the age of ten."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەمەنی ١٠ ساڵیدا بینایی لەدەستدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,10 +425,16 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was born blind."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە نابینایی لەدایکبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She was born blind."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە نابینایی لەدایکبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -431,10 +453,16 @@ class EnglishEntryblind extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) کەسانی نابینا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She trains dogs for the blind."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگ ڕادەھێنێت بۆ نابینایان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She trains dogs for the blind."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەگ ڕادەھێنێت بۆ نابینایان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -453,12 +481,18 @@ class EnglishEntryblind extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) ھەستنەکردن بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is blind to her husband's faults."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوی کوێرە لە ئاستی ھەڵەکانی ھاوژینەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is blind to her husband's faults."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوی کوێرە لە ئاستی ھەڵەکانی ھاوژینەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -475,11 +509,17 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They seem to be totally blind to reality."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواو بێ ئاگایە لە ڕاستییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They seem to be totally blind to reality."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەواو بێ ئاگایە لە ڕاستییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -499,11 +539,17 @@ class EnglishEntryblind extends StatelessWidget {
                                   "٤. (ھاوەڵناو) شتێک کە باوەڕی پێکراوە بە بێ ھۆکار یان بە بێ لێکۆڵینەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was blind with fury (= so angry that he could not behave reasonably)."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوی کوێر بووبوو لە تووڕەییدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was blind with fury (= so angry that he could not behave reasonably)."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوی کوێر بووبوو لە تووڕەییدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -520,11 +566,18 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was a moment of blind panic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساتێکی تاسانی کوێرانە بوو (بە بێ ھۆ ترسان)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a moment of blind panic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساتێکی تاسانی کوێرانە بوو (بە بێ ھۆ ترسان)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -544,12 +597,18 @@ class EnglishEntryblind extends StatelessWidget {
                                   "٥. (ھاوەڵناو) دۆخێک یان ڕووداوێک کە ناتوانرێت تێگەشتنی بۆ بکرێت "),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The earthquake, with the blind force of nature, shook the region, leaving buildings in ruins."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەژاند و بیناکانی کرد بە وێرانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The earthquake, with the blind force of nature, shook the region, leaving buildings in ruins."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بومەلەرزەکە بە ھێزی بێ سنووری سرووشتەوە ھەرێمەکەی ھەژاند و بیناکانی کرد بە وێرانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -569,12 +628,18 @@ class EnglishEntryblind extends StatelessWidget {
                                   "٦. (ھاوەڵناو) شوێنێک کە شۆفێرێک ناتوانێت بیبینێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The accident happened on a blind bend."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوەکە لە لادانێکی ناوچەی کوێردا ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The accident happened on a blind bend."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکە لە لادانێکی ناوچەی کوێردا ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -594,12 +659,18 @@ class EnglishEntryblind extends StatelessWidget {
                                   "٧. (ھاوەڵناو) شتێک کە ھیچ جیاوازی لە ڕووی ئەو خاسیەتەی کە باس دەکرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is very suspicious of anyone who claims to be race-blind."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر بە گومانە بەرامبەر ھەر کەسێک کە بانگەشەی ئەوە دەکات ڕەگەز لای گرنگ نەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is very suspicious of anyone who claims to be race-blind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر بە گومانە بەرامبەر ھەر کەسێک کە بانگەشەی ئەوە دەکات ڕەگەز لای گرنگ نەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -618,10 +689,17 @@ class EnglishEntryblind extends StatelessWidget {
                               text: "٨. (کردار) کوێرکردنی کەسێک بۆ ھەمیشە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was blinded in the explosion."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە تەقینەوەکەدا کوێر بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was blinded in the explosion."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە تەقینەوەکەدا کوێر بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -638,10 +716,18 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The attackers blinded him with acid."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێرشکارەکان بە ئەسید نابینایان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The attackers blinded him with acid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێرشکارەکان بە ئەسید نابینایان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -661,10 +747,17 @@ class EnglishEntryblind extends StatelessWidget {
                                   "٩. (کردار) سەختکردنی توانای بینین بۆ کەسێک بۆ ماوەیەکی کاتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His eyes were blinded by tears."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوەکانی پڕبوون لە فرمێسک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His eyes were blinded by tears."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوەکانی پڕبوون لە فرمێسک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -681,12 +774,18 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When she went outside she was temporarily blinded by the sun."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە لە دەرەوە بوو بۆ ماوەیەکی کاتی بینایی لەدەستدا بەھۆی خۆرەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When she went outside she was temporarily blinded by the sun."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە لە دەرەوە بوو بۆ ماوەیەکی کاتی بینایی لەدەستدا بەھۆی خۆرەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -706,12 +805,18 @@ class EnglishEntryblind extends StatelessWidget {
                                   "١٠. (کردار) وا لە کەسێک بکەیت چی تر بە ڕوونی بیرنەکاتەوە یان ڕەفتار بەشێوەیەکی ئاقڵانە بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His sense of loyalty blinded him to the truth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی وەفاداریی کوێری کرد لا ئاستی ڕاستییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His sense of loyalty blinded him to the truth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی وەفاداریی کوێری کرد لا ئاستی ڕاستییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -728,12 +833,18 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We shouldn't let our prejudices blind us to the facts of the situation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نابێت ڕێگا بدەین ڕقەکانمان کوێرمان بکات لە ئاستی دۆخەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We shouldn't let our prejudices blind us to the facts of the situation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نابێت ڕێگا بدەین ڕقەکانمان کوێرمان بکات لە ئاستی دۆخەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -753,10 +864,18 @@ class EnglishEntryblind extends StatelessWidget {
                                   "١١. (ناو) پەردەیەک کە بەرز و نزم دەکرێتەوە بە سووڕدانی لە بەشی سەرەوەی چوارچێوەی پەنجەرەکەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She saw a figure through the blinds."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەسێکی بینی لە بەینی پەردەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She saw a figure through the blinds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی بینی لە بەینی پەردەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -773,12 +892,18 @@ class EnglishEntryblind extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Pull up the blinds and let some light in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەردەکان بکەرەوە و ڕێگا بدە ھەندێک ڕۆشنایی بێتە ژوورەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pull up the blinds and let some light in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەردەکان بکەرەوە و ڕێگا بدە ھەندێک ڕۆشنایی بێتە ژوورەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -798,12 +923,18 @@ class EnglishEntryblind extends StatelessWidget {
                                   "١٢. (ھاوەڵکار) بە بێ ھەبوونی توانای بینین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Navigating through the thick fog, the plane's captain steered blind, relying on radar and experience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دەرچوون بەناو تەمە ئەستوورەکەدا، کاپتنی فڕۆکەکە بە کوێرانە بایدەدایەوە بە پشت بەستن بە ڕادار و ئەزموونی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Navigating through the thick fog, the plane's captain steered blind, relying on radar and experience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دەرچوون بەناو تەمە ئەستوورەکەدا، کاپتنی فڕۆکەکە بە کوێرانە بایدەدایەوە بە پشت بەستن بە ڕادار و ئەزموونی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

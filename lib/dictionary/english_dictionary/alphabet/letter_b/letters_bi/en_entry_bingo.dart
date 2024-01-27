@@ -168,12 +168,18 @@ class EnglishEntrybingo extends StatelessWidget {
 ١. (ناو) بینگۆ؛ یارییەک کە تێیدا خەڵات دەبەیتەوە ئەگەر بە شانس ژمارە بڵێیت و لەگەڵ ژمارەی سەر کاردێک یەکبگرێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We played bingo and had a cup of tea and a laugh."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاری بینگۆمان کرد، چامان خواردەوە و پێکەنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We played bingo and had a cup of tea and a laugh."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاری بینگۆمان کرد، چامان خواردەوە و پێکەنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

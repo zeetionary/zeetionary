@@ -168,12 +168,18 @@ class EnglishEntrybrightness extends StatelessWidget {
 ١. (ناو) درەوشاوەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was momentarily blinded by the brightness of the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ماوەیەکی کەم تووشی شەوارەیی بوو بە ڕۆشنایی ژوورەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was momentarily blinded by the brightness of the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەیەکی کەم تووشی شەوارەیی بوو بە ڕۆشنایی ژوورەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brightness" as
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybrightness extends StatelessWidget {
                               text: "٢. (ناو) ڕێژەیی ڕۆشنایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As the brake is applied, the light increases in brightness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە برێک دەگریت، لایتەکە ڕۆشنایی زیاد دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As the brake is applied, the light increases in brightness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە برێک دەگریت، لایتەکە ڕۆشنایی زیاد دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybrightness extends StatelessWidget {
                               text: "٣. (ناو) ڕۆشنایی لە ڕەندگدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Repeated use of some washing powders can lead to a loss of brightness in colours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکارھێنانی بەردەوامی تایتی شۆردن دەکرێت ببێتە ھۆی کەمبوونی پرشنگداریی ڕەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Repeated use of some washing powders can lead to a loss of brightness in colours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکارھێنانی بەردەوامی تایتی شۆردن دەکرێت ببێتە ھۆی کەمبوونی پرشنگداریی ڕەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybrightness extends StatelessWidget {
                                   "٤. (ناو) ڕەفتار و ھەڵسوکەوتی بەگوڕ و بەکەیف"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her brightness and energy kept us all together."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کامەرانیی و گوڕ و تینی ھەموومانی پێکەوە ھێشربووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her brightness and energy kept us all together."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کامەرانیی و گوڕ و تینی ھەموومانی پێکەوە ھێشربووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +289,18 @@ class EnglishEntrybrightness extends StatelessWidget {
                               text: "٥. (ناو) زیرەکی و بیرتیژی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The brightness of these students isn't in doubt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیرەکی ئەم خوێندکارانە گومانی لێ ناکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The brightness of these students isn't in doubt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیرەکی ئەم خوێندکارانە گومانی لێ ناکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

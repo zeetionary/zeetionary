@@ -222,12 +222,18 @@ class EnglishEntryburst extends StatelessWidget {
 ١. (کردار) تەقین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That balloon will burst if you blow it up any more."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فودانکەکە دەتەقێت ئەگەر هەوای زیاتری تێ بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That balloon will burst if you blow it up any more."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فودانکەکە دەتەقێت ئەگەر هەوای زیاتری تێ بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burst", follow LX strictly
                               Column(
                                 children: [
@@ -244,11 +250,18 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dam burst under the weight of water."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەنداوەکە تەقی لەژێر پەستانی ئاودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dam burst under the weight of water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەنداوەکە تەقی لەژێر پەستانی ئاودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -271,7 +284,7 @@ class EnglishEntryburst extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Shells were bursting (= exploding) all around us."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "گوللەتۆپ دەتەقی لە دەوروبەرمان."),
                                       const CustomSizedBoxForTTS(),
@@ -295,7 +308,7 @@ class EnglishEntryburst extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He felt he would burst with anger and shame."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "(بەکارهێنانی خوازراوی) هەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -322,12 +335,18 @@ class EnglishEntryburst extends StatelessWidget {
                               text: "٢. (کردار) چوون بۆ شوێنێک بە خێرایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He burst into the room without knocking."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He burst into the room without knocking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی کرد بە ژوورەکەدا بەبێ دان لە دەرگا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -344,10 +363,18 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The sun burst through the clouds."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆرەکە لە هەورەکانەوە دەدرەوشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sun burst through the clouds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆرەکە لە هەورەکانەوە دەدرەوشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -370,7 +397,7 @@ class EnglishEntryburst extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The words burst from her in an angry rush."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "وشە لە دەمییەوە دەهاتە خوارەوە  لە تووڕەییدا."),
                                       const CustomSizedBoxForTTS(),
@@ -397,10 +424,17 @@ class EnglishEntryburst extends StatelessWidget {
                               text: "٣. (کردار) پڕ لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The roads are bursting with cars."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێگاکان پڕن لە ئۆتۆمبێل."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The roads are bursting with cars."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕێگاکان پڕن لە ئۆتۆمبێل."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -417,11 +451,17 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’m bursting (for a pee)! (= I need to use the toilet right now)."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەریکە ئەتەقم بۆ میزکردن!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’m bursting (for a pee)! (= I need to use the toilet right now)."),
+                                    ExampleSentenceKurdish(
+                                        text: "خەریکە ئەتەقم بۆ میزکردن!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -441,10 +481,17 @@ class EnglishEntryburst extends StatelessWidget {
                                   "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان هەستێکی بەهێز کەلەناکاو دەستپێ دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I tend to work in bursts."),
-                              const ExampleSentenceKurdish(
-                                  text: "خواستم وایە لە کت‌وپڕیدا کار بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I tend to work in bursts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواستم وایە لە کت‌وپڕیدا کار بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -461,11 +508,18 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a spontaneous burst of applause."),
-                              const ExampleSentenceKurdish(
-                                  text: "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a spontaneous burst of applause."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەپڵەڕێزانێکی لەناکاو دەستی پێکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -483,12 +537,18 @@ class EnglishEntryburst extends StatelessWidget {
                           const DefinitionKurdish(text: "٥. (ناو) تەقین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A burst in the water pipe flooded the floor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەقینێک لە بۆری ئاوەکەدا نهۆمەکانی پڕئاو کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A burst in the water pipe flooded the floor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەقینێک لە بۆری ئاوەکەدا نهۆمەکانی پڕئاو کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -507,12 +567,18 @@ class EnglishEntryburst extends StatelessWidget {
                               text: "٦. (ناو) زنجیرەیەک لە تەقەی چەکێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pedestrians scattered as a rapid burst of gunfire erupted unexpectedly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێبواران پەرشوبڵاوبوون کە زنجیرەیەک لە تەقەکردن لەناکاو دەستی پێکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

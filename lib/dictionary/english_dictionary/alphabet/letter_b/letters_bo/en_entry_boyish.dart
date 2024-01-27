@@ -167,12 +167,18 @@ class EnglishEntryboyish extends StatelessWidget {
 ١. (ھاوەڵناو) شێوە و ھەڵسوکەوتی کوڕانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His boyish good looks made him popular with girls."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێوە کوڕانە جوانەکەی وایکرد لای کچان ناسراو بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His boyish good looks made him popular with girls."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێوە کوڕانە جوانەکەی وایکرد لای کچان ناسراو بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,10 +195,18 @@ class EnglishEntryboyish extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Jane fell for his boyish charm."),
-                              const ExampleSentenceKurdish(
-                                  text: "جەین کەوتە داوی سیما کوڕانەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jane fell for his boyish charm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەین کەوتە داوی سیما کوڕانەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

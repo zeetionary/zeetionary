@@ -169,12 +169,18 @@ class EnglishEntryblindness extends StatelessWidget {
 ١. (ناو) نابینایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A lack of vitamin A can cause blindness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمی ڤیتامین A دەکرێت ببێتە ھۆی نابینایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A lack of vitamin A can cause blindness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمی ڤیتامین A دەکرێت ببێتە ھۆی نابینایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntryblindness extends StatelessWidget {
                               text: "٢. (ناو) ھەست نەکردن بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His blindness to social codes was getting him into deeper trouble."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێ ئاگایی لە ڕێسا کۆمەڵایەتییەکان دەیخستە ناو کێشەی قووڵترەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His blindness to social codes was getting him into deeper trouble."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێ ئاگایی لە ڕێسا کۆمەڵایەتییەکان دەیخستە ناو کێشەی قووڵترەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

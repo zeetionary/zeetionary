@@ -165,12 +165,18 @@ class EnglishEntrybulimic extends StatelessWidget {
 ١. (ناو) کەسێک کە تووشبووی بولیمیایە (نەخۆشییەک دووبارە و دووبارە خواردنی زۆر دەخوات و دواتر خۆی بەزۆر دەڕیشێنێتەوە) """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She said she was bulimic up to the age of 36."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتی تووشبووی بولیمیا بوو تا تەمەنی ٣٦ ساڵی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She said she was bulimic up to the age of 36."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتی تووشبووی بولیمیا بوو تا تەمەنی ٣٦ ساڵی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulimic", follow LX strictly
                               Column(
                                 children: [
@@ -187,11 +193,18 @@ class EnglishEntrybulimic extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Many bulimic adults will recover."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر لە کەسانی پێگەشتووی تووشبووی بولیمیا چاکدەبنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many bulimic adults will recover."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر لە کەسانی پێگەشتووی تووشبووی بولیمیا چاکدەبنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

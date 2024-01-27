@@ -163,12 +163,18 @@ class EnglishEntrybaronet extends StatelessWidget {
 ١. (ناو) گەورەزادەیەک کە نزمترین نازناوی ھەیە لە شانشینی یەکگرتوو کە دەتوانرێت لە باوکەوە بۆ کوڕ بگوازرێتەوە. نازناوی Sir بەکاردێنن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The young baronet, despite his title, chose a career as a doctor, tending to the needs of the common folk."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەچکە بەگزادە گەنجەکە، سەرەڕای نازناوەکەی، بڕیاریدا ببێتە دکتۆر بۆ بەدەمەوەچوونی پێویستییەکانی خەڵکی ئاسایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The young baronet, despite his title, chose a career as a doctor, tending to the needs of the common folk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەچکە بەگزادە گەنجەکە، سەرەڕای نازناوەکەی، بڕیاریدا ببێتە دکتۆر بۆ بەدەمەوەچوونی پێویستییەکانی خەڵکی ئاسایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

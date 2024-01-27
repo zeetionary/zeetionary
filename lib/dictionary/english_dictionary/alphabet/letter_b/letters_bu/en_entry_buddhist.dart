@@ -164,12 +164,18 @@ class EnglishEntryBuddhist extends StatelessWidget {
 ١. (ھاوەڵناو) باوەڕدار یان پەیوەندیدار بە ئایینی بودیزم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In Thailand, many embrace the Buddhist faith."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم هەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In Thailand, many embrace the Buddhist faith."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم هەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "Buddhist", follow LX strictly.
                               Column(
                                 children: [
@@ -188,11 +194,18 @@ class EnglishEntryBuddhist extends StatelessWidget {
                               text: "٢. (ناو) شوێنکەوتووی ئایینی بودیزم"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She conversed with a knowledgeable Buddhist."),
-                              const ExampleSentenceKurdish(
-                                  text: "گفتوگۆی لەگەڵ بودییەکی شارەزا کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She conversed with a knowledgeable Buddhist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گفتوگۆی لەگەڵ بودییەکی شارەزا کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,12 +164,18 @@ class EnglishEntrybriefcase extends StatelessWidget {
 ١. (ناو) جانتایەکی تەخت کە بۆ ھەڵگرتنی کاغەز و بەڵگەنامە بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wore a torn suit and carried a battered briefcase."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wore a torn suit and carried a battered briefcase."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلوبەرگێکی دڕاوی لەبەربوو و جانتایەکی دەستی کۆنی ھەڵگرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "briefcase" as
                               Column(
                                 children: [

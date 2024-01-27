@@ -170,11 +170,18 @@ class EnglishEntrybombshell extends StatelessWidget {
 ١. (ناو) ڕووداوێک یان ھەواڵێک کە پێشبینینەکراوە و زۆرجار ناخۆشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The news of his death came as a bombshell."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەواڵی مردنەکەی چاوەڕواننەکراو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The news of his death came as a bombshell."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەواڵی مردنەکەی چاوەڕواننەکراو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +198,18 @@ class EnglishEntrybombshell extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She dropped a bombshell at the meeting and announced that she was leaving."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵێکی چاوەڕواننەکراوی ڕاگەیاند لە کۆبوونەوەکە بەوەی کە وازدێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She dropped a bombshell at the meeting and announced that she was leaving."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵێکی چاوەڕواننەکراوی ڕاگەیاند لە کۆبوونەوەکە بەوەی کە وازدێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybombshell extends StatelessWidget {
                               text: "٢. (ناو) کەسێکی زۆرجوان، بەتایبەتی ژن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The actress is known as a Hollywood bombshell."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانمە ئەکتەرەکە بە شۆخەکەی ھۆڵیوود ناسراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The actress is known as a Hollywood bombshell."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانمە ئەکتەرەکە بە شۆخەکەی ھۆڵیوود ناسراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

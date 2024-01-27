@@ -172,12 +172,18 @@ class EnglishEntrybell extends StatelessWidget {
 ١. (ناو) زەنگ؛ شتێکی کانزایی کە ناوەکەی بۆشە و زۆرجار شیوەی کوپێکی ھەیە، و دەنگێک دەردەکات کە ئەو بەشەی ناوی دەجووڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The church bells rang out to welcome in the New Year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەنگەکانی کڵێساکە دەستیان بە لێدان کرد بۆ پێشوازی لە ساڵی تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The church bells rang out to welcome in the New Year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگەکانی کڵێساکە دەستیان بە لێدان کرد بۆ پێشوازی لە ساڵی تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybell extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dancers wore bells on their ankles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەماکاران زەنگۆڵەیان لە لاقیان بەستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dancers wore bells on their ankles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەماکاران زەنگۆڵەیان لە لاقیان بەستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,11 +232,18 @@ class EnglishEntrybell extends StatelessWidget {
 ٢. (ناو) زەنگ؛ ئامێرێکی کارەبابی کە دەنگێک درووست دەکات کە لێدەدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Ring the bell to see if they're in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەنگەکە لێبدە بۆ زانینی ئەوەی لە ماڵەوەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ring the bell to see if they're in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگەکە لێبدە بۆ زانینی ئەوەی لە ماڵەوەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,11 +261,17 @@ class EnglishEntrybell extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "An alarm bell went off."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەنگێکی ئاگادارکەرەوە دەستی بە لێدان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "An alarm bell went off."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگێکی ئاگادارکەرەوە دەستی بە لێدان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

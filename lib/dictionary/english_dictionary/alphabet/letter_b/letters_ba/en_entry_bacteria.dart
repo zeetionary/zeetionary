@@ -170,12 +170,18 @@ class EnglishEntrybacteria extends StatelessWidget {
 ١. (ناو) بەکتریا؛ بچووکترین خانەی زیندوو. بەکتریا بە ژمارەیەکی زۆرەوە ھەن لە ھەوا و ئاو و خاک و خانەی زیندوو و مردوو و ڕووەکدا، و زۆرجار دەبنەھۆی نەخۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Food that is contaminated with bacteria may not look or smell bad."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Food that is contaminated with bacteria may not look or smell bad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybacteria extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These beneficial bacteria naturally reside in the intestines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These beneficial bacteria naturally reside in the intestines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

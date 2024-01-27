@@ -167,12 +167,18 @@ class EnglishEntrybrag extends StatelessWidget {
 ١. (کردار) قسەکردن بە شانازییەوە لەسەر شتێک کە ھەتە یان کردووتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bragged to his friends about the crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەلای ھاوڕێکانی خی‌ھەڵکێشا سەبارەت بە تاوانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bragged to his friends about the crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلای ھاوڕێکانی خی‌ھەڵکێشا سەبارەت بە تاوانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybrag extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’m not bragging but I think I did very well in the interview."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆم فشناکەمەوە، بەڵام پێـ‌وایە زۆر باش بووم لە چاوپێکەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’m not bragging but I think I did very well in the interview."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆم فشناکەمەوە، بەڵام پێـ‌وایە زۆر باش بووم لە چاوپێکەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

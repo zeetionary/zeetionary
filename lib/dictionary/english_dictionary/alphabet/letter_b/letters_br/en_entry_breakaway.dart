@@ -169,11 +169,18 @@ class EnglishEntrybreakaway extends StatelessWidget {
 ١. (ھاوەڵناو) گرووپێک، دامەزراوەیەک، یان بەشێکی وڵاتێک کە لە یەکێکی گەورەتر جیابووەتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The breakaway region declared its autonomy."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەرێمە دابڕاوەکە ئۆتۆنۆمی ڕاگەیاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The breakaway region declared its autonomy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرێمە دابڕاوەکە ئۆتۆنۆمی ڕاگەیاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybreakaway extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The breakaway group formed a new political party."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپە جیابووەوەکە پارتێکی سیاسی تازەی درووستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The breakaway group formed a new political party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپە جیابووەوەکە پارتێکی سیاسی تازەی درووستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybreakaway extends StatelessWidget {
                                   "٢. (ناو) دۆخێک کە ئەندامانی پارتێک یان گرووپێک جیادەبنەوە بۆ درووستکردنی یەکێکی دیکەی تازە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The political party experienced a breakaway due to ideological differences."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارتە سیاسییەکە بە لق‌لێبوونەوەیەکدا تێپەڕی بەھۆی جیاوازی بیروباوەڕەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The political party experienced a breakaway due to ideological differences."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارتە سیاسییەکە بە لق‌لێبوونەوەیەکدا تێپەڕی بەھۆی جیاوازی بیروباوەڕەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybreakaway extends StatelessWidget {
                                   "٣. (ناو) گۆڕانێک لە شتێکدا بەشێوەیەک کە جیاواز بێت لەوەی بوونی ھەیە و زانراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The breakaway in technology revolutionized the industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داھێنانە گەورە تەکنەلۆژییەکە شۆڕشی بەرپاکرد لە پیشەسازییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The breakaway in technology revolutionized the industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داھێنانە گەورە تەکنەلۆژییەکە شۆڕشی بەرپاکرد لە پیشەسازییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

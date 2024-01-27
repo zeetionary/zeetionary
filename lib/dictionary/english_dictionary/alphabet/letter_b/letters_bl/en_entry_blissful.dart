@@ -168,12 +168,18 @@ class EnglishEntryblissful extends StatelessWidget {
 ١. (ھاوەڵناو) تەواو دڵخۆش و خۆشبەخت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We spent three blissful weeks away from work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ ھەفتەی پڕ لە خۆشبەختیمان بەسەربرد دوور لە کار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We spent three blissful weeks away from work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ ھەفتەی پڕ لە خۆشبەختیمان بەسەربرد دوور لە کار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

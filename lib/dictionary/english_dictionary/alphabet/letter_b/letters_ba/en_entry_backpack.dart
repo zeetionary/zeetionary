@@ -170,10 +170,17 @@ class EnglishEntrybackpack extends StatelessWidget {
 ١. (ناو) جانتایەکی قایم کە لەپشت‌دەکرێت و زۆرجار لەلایەن شاخەوانان بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was wearing a heavy backpack."),
-                              const ExampleSentenceKurdish(
-                                  text: "جانتایەکی قوورسی لەپشت‌کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was wearing a heavy backpack."),
+                                    ExampleSentenceKurdish(
+                                        text: "جانتایەکی قوورسی لەپشت‌کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +202,18 @@ class EnglishEntrybackpack extends StatelessWidget {
 ٢. (ناو) چوون بۆ گەشتکردن بە جانتایەکی شاخەوانییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They went backpacking in Spain last year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They went backpacking in Spain last year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

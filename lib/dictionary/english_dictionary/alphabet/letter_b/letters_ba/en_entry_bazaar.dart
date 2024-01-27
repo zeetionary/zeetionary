@@ -169,12 +169,18 @@ class EnglishEntrybazaar extends StatelessWidget {
 ١. (ناو) بازاڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Why not visit the local bustling bazaar?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچی سەردانی بازاڕە خۆجێییە قەرەباڵغە ناکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Why not visit the local bustling bazaar?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچی سەردانی بازاڕە خۆجێییە قەرەباڵغە ناکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +200,18 @@ class EnglishEntrybazaar extends StatelessWidget {
 ٢. (ناو) پێشانگایەکی خێرخوازی کە تێیدا شتی دەستکرد دەفرۆشرێت، زۆرجار بۆ کۆکردنەوەی پارە بۆ خێرخوازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She got it at the church bazaar."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بازاڕە خێرخوازییەکەی کڵێساکە ھێنای."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She got it at the church bazaar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بازاڕە خێرخوازییەکەی کڵێساکە ھێنای."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

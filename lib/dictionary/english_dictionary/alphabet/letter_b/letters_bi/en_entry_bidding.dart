@@ -170,12 +170,18 @@ class EnglishEntrybidding extends StatelessWidget {
 ١. (ناو) کرداری پێشنیازکردنی بڕە پارەیەک بە تایبەتی لە زیادکردنی ئاشکرادا """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several companies remained in the bidding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک کۆمپانیا مانەوە لە پێشنیازکردندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several companies remained in the bidding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک کۆمپانیا مانەوە لە پێشنیازکردندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybidding extends StatelessWidget {
 ٢. (ناو) کرداری پێشنیازکردنی کردن یان پێشکەشکردنی شتێک بە نرخێکی دیریکراو """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was fierce competitive bidding for the contract."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشنیازکردنی توندی ڕکابەرانە ھەبوو بۆ گرێبەستەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was fierce competitive bidding for the contract."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشنیازکردنی توندی ڕکابەرانە ھەبوو بۆ گرێبەستەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybidding extends StatelessWidget {
 ٣. (ناو) داواکاری یان داخوازی کەسێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At his father’s bidding (= because his father asked him to) he wrote to his lawyer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر داوای باوکی نووسراوێکی نارد بۆ پارێزەرەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At his father’s bidding (= because his father asked him to) he wrote to his lawyer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر داوای باوکی نووسراوێکی نارد بۆ پارێزەرەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybanking extends StatelessWidget {
 ١. (ناو) چالاکی بازرگانی بانک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's thinking about a career in banking."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's thinking about a career in banking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیر لە دۆزینەوەی کارێک لە بانکداری دەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

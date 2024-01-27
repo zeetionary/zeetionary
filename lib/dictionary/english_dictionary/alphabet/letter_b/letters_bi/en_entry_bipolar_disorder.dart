@@ -175,12 +175,18 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی دەروونی کە تێیدا کەسێک ماوەیەک ھەست بە بێزاری زۆر دەکات و ماوەیەک ھەست بە چالاکی و جۆش و خرۆشی زۆردەکات بە وزەیەکی زۆرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At age 13 she was diagnosed with bipolar disorder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەمەنی ١٣ ساڵی وەک تووشبووی دووجەمسەری ناسێنرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At age 13 she was diagnosed with bipolar disorder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەمەنی ١٣ ساڵی وەک تووشبووی دووجەمسەری ناسێنرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

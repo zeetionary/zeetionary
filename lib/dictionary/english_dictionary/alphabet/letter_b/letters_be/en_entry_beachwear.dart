@@ -168,12 +168,18 @@ class EnglishEntrybeachwear extends StatelessWidget {
 ١. (ناو) جلێک کە لە کەناراو لەبەردەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In most tourist destinations, there are plenty of shops selling beachwear."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In most tourist destinations, there are plenty of shops selling beachwear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زۆرێک لە شوێنە گەشتیارییەکان فرۆشگای زۆر ھەیە بۆ فرۆشتنی جلی کەناراو و."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

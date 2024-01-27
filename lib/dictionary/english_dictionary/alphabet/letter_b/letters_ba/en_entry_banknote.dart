@@ -171,10 +171,17 @@ class EnglishEntrybanknote extends StatelessWidget {
 ١. (ھاوەڵناو) یەک پارچە پارەی کاغەز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They issue both banknotes and coins."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارەی کاغەز و دراویش دەردەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They issue both banknotes and coins."),
+                                    ExampleSentenceKurdish(
+                                        text: "پارەی کاغەز و دراویش دەردەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

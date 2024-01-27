@@ -173,12 +173,18 @@ class EnglishEntrybead extends StatelessWidget {
 ١. (ناو) پارچەیەکی بچووک لە شووشە یان دار کە کونێکی تێدایە و دەکرێت بکرێت بە زنجیرەیەک و وەک خشڵ ببەسترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bead curtain separated the two rooms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەردەیەکی موورووی دوو ژوورەکەی لێک جیاکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bead curtain separated the two rooms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەردەیەکی موورووی دوو ژوورەکەی لێک جیاکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,18 @@ class EnglishEntrybead extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She threaded the beads carefully."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "موورووەکانی بەوریاییەوە کرد بە دەزوویەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She threaded the beads carefully."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "موورووەکانی بەوریاییەوە کرد بە دەزوویەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +233,18 @@ class EnglishEntrybead extends StatelessWidget {
 ٢. (ناو) تەزبیح"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the church a woman was fingering her beads."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کڵێساکەدا ژنێک تەزبیحەکەی دەژمارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the church a woman was fingering her beads."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کڵێساکەدا ژنێک تەزبیحەکەی دەژمارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,11 +264,18 @@ class EnglishEntrybead extends StatelessWidget {
 ٣. (ناو) دڵۆپێکی بچووک لە شلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were beads of sweat on his forehead."),
-                              const ExampleSentenceKurdish(
-                                  text: "دڵۆپە ئارەق لەسەر ناوچاوانی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were beads of sweat on his forehead."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵۆپە ئارەق لەسەر ناوچاوانی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

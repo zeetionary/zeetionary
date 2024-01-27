@@ -172,12 +172,18 @@ class EnglishEntrybeckon extends StatelessWidget {
 ١. (کردار) ئاماژەکردن بە پەنجە یان دەست، زۆرجار بۆ بانگکردنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He beckoned to the waiter to bring the bill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاماژەی بۆ گارسۆنەکە کرد پسوولەکە بێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He beckoned to the waiter to bring the bill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاماژەی بۆ گارسۆنەکە کرد پسوولەکە بێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +203,16 @@ class EnglishEntrybeckon extends StatelessWidget {
 ٢. (کردار) دەرکەوتن بەشێوەیەکی زۆر سەرنجڕاکێش بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The clear blue sea beckoned."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەریا شینە ڕوونەکە دەگەشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The clear blue sea beckoned."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەریا شینە ڕوونەکە دەگەشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybeckon extends StatelessWidget {
 ٣. (کردار) بوون بە شتێک کە ئەگەری لە داھاتوودا ڕووبدات، یان بەسەر کەسێکدا بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For many kids leaving college the prospect of unemployment beckons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ زۆر منداڵ کە واز لە کۆلێژ دێنن پاشەڕۆژی بێ‌کاری چاوەڕێیان دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For many kids leaving college the prospect of unemployment beckons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ زۆر منداڵ کە واز لە کۆلێژ دێنن پاشەڕۆژی بێ‌کاری چاوەڕێیان دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

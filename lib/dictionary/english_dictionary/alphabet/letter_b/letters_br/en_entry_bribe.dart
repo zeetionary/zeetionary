@@ -167,12 +167,18 @@ class EnglishEntrybribe extends StatelessWidget {
 ١. (ناو) بڕە پارەیەک کە دەیدەیت بە کەسێک بۆ ئەوەی شتێکبۆ بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was alleged that he had taken bribes while in office."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانگەشەی ئەوە دەکرا کە ھەندێک بەرتیلی وەرگرتبێت کە دەسەڵاتدار بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was alleged that he had taken bribes while in office."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانگەشەی ئەوە دەکرا کە ھەندێک بەرتیلی وەرگرتبێت کە دەسەڵاتدار بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bribe" as
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybribe extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had been offered a £50 000 bribe to drop the charges."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرتیلی٥٠٠٠٠ پاوەندی پێدرا بۆ ئەوەی لە تۆمەتەکان پاشگەزبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had been offered a £50 000 bribe to drop the charges."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرتیلی٥٠٠٠٠ پاوەندی پێدرا بۆ ئەوەی لە تۆمەتەکان پاشگەزبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,11 +225,18 @@ class EnglishEntrybribe extends StatelessWidget {
                               text: "٢. (کردار) پێدانی بەرتیل"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was bribed into handing over secret information."),
-                              const ExampleSentenceKurdish(
-                                  text: "کڕدرا بۆ پێدانی زانیاریی نھێنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was bribed into handing over secret information."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڕدرا بۆ پێدانی زانیاریی نھێنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +253,18 @@ class EnglishEntrybribe extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bribed him to sign the certificate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرتیلیان پێدا بۆ واژۆکردنی بڕوانامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bribed him to sign the certificate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرتیلیان پێدا بۆ واژۆکردنی بڕوانامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -164,12 +164,18 @@ class EnglishEntrybulrush extends StatelessWidget {
 ١. (ناو) قامیش؛ ڕووەکێکی بەرز کە گەڵای """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Frogs hid among the bulrush in the pond."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆق لە پشتەوەی قامیشەکان لە زۆنگاوەکەدا خۆیان شاردبووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Frogs hid among the bulrush in the pond."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆق لە پشتەوەی قامیشەکان لە زۆنگاوەکەدا خۆیان شاردبووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulrush", follow LX strictly
                               Column(
                                 children: [

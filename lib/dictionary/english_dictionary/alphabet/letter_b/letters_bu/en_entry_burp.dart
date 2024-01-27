@@ -213,12 +213,18 @@ class EnglishEntryburp extends StatelessWidget {
 ١. (کردار) قرقێنەدانەوە؛ دەرکردنی هەوای ناو گەدە لە دەمەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He swigged his drink and burped loudly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قومێکی لە خواردنەوەکەی خواردەوە و قرقێنەیەکی بەرزی دایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He swigged his drink and burped loudly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قومێکی لە خواردنەوەکەی خواردەوە و قرقێنەیەکی بەرزی دایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burp", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntryburp extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) قرقێنەدان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the meal, the baby let out a burp."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای خواردنەکە، منداڵەکە قرقێنەیەکی دایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the meal, the baby let out a burp."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای خواردنەکە، منداڵەکە قرقێنەیەکی دایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

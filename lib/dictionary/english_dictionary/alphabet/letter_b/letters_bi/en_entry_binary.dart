@@ -172,12 +172,18 @@ class EnglishEntrybinary extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی تەنھا ژمارە سفر و یەک وەک سیستەمی ژمارەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Computers store all data in binary code."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپیوتەر تەواوی زانیارییەکان بە کۆدی دووانەیی کۆگا دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Computers store all data in binary code."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپیوتەر تەواوی زانیارییەکان بە کۆدی دووانەیی کۆگا دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybinary extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە لە دوو شت پێکھاتووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's a binary choice, you either accept or you refuse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's a binary choice, you either accept or you refuse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵبژاردەیەکی دووانییە، یان پەسەندی دەکەیت یان ڕەتی دەکەیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,10 +170,16 @@ class EnglishEntrybeard extends StatelessWidget {
 ١. (ناو) ڕیش؛ مووی چەناگە و لایەکانی ڕووخساری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My beard's grown a lot."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕیشم زۆر درێژ بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My beard's grown a lot."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕیشم زۆر درێژ بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +197,16 @@ class EnglishEntrybeard extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you like men with beards?"),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزت لە پیاوی ڕیشدارە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Do you like men with beards?"),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزت لە پیاوی ڕیشدارە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

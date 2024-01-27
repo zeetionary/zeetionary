@@ -169,10 +169,18 @@ class EnglishEntrybitesized extends StatelessWidget {
 ١. (ھاوەڵناو) ھێندە بچووک کە بە یەکجار بخرێتە دەم و بخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Cut the meat into bite-sized pieces."),
-                              const ExampleSentenceKurdish(
-                                  text: "گۆشتەکە وردبکە بۆ پارچەی پڕبەدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cut the meat into bite-sized pieces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆشتەکە وردبکە بۆ پارچەی پڕبەدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +200,18 @@ class EnglishEntrybitesized extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) بچووک و کورت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book breaks the information into bite-sized pieces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە زانیارییەکان دەکاتە بەش بەشی کورتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book breaks the information into bite-sized pieces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە زانیارییەکان دەکاتە بەش بەشی کورتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

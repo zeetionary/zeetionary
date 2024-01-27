@@ -169,12 +169,18 @@ class EnglishEntrybandwagon extends StatelessWidget {
 ١. (ناو) چالاکییەک کە خەڵکی زیاتر و زیاتر تێیدا بەژدار دەبن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They seem to have got an anti-government bandwagon rolling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They seem to have got an anti-government bandwagon rolling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

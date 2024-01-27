@@ -170,12 +170,18 @@ class EnglishEntrybedraggled extends StatelessWidget {
 ١. (ھاوەڵناو) تەڕ و پیس بەھۆی باران و لیتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I barely recognized the bedraggled figure who staggered in from the storm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئەستەم ئەو کەسە شێواوەم ناسییەوە کە لە زریانەکەوە دەرکەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I barely recognized the bedraggled figure who staggered in from the storm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئەستەم ئەو کەسە شێواوەم ناسییەوە کە لە زریانەکەوە دەرکەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

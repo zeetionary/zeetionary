@@ -167,10 +167,16 @@ class EnglishEntrybladder extends StatelessWidget {
 ١. (ناو) ئەندامێکی جەستە کە لە شێوەی کیسەیەکدایە و میزی تێدا کۆدەبێتەوە پێش ئەوەی لە جەستە بکرێتە دەرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He died of bladder cancer."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە شێرپەنجەی میزڵدان مرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He died of bladder cancer."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە شێرپەنجەی میزڵدان مرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

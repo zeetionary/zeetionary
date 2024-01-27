@@ -168,11 +168,18 @@ class EnglishEntrybighead extends StatelessWidget {
 ١. (ناو) کەسێکی خۆبەزلزان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's always boasting. He's such a bighead!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە فشە دەکات. زۆر خۆبەزلزانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's always boasting. He's such a bighead!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە فشە دەکات. زۆر خۆبەزلزانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

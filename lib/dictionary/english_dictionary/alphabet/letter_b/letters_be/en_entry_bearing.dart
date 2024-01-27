@@ -173,12 +173,18 @@ class EnglishEntrybearing extends StatelessWidget {
 ١. (ناو) شێوەی پەیوەندی شتێک بە شتێکی ترەوە یان شیوەی کاریگەرییەکەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Recent events had no bearing on our decision."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Recent events had no bearing on our decision."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکانی ئەم دواییە ھیچ کاریگەری لەسەر بڕیارەکەمان نابێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybearing extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Regular exercise has a direct bearing on fitness and health."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Regular exercise has a direct bearing on fitness and health."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاھێنانی بەردەوام کاریگەری ڕاستەوخۆی ھەیە لەسەر ھەیکەل و تەندرووستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,11 +233,18 @@ class EnglishEntrybearing extends StatelessWidget {
 ٢. (ناو) شێوازی ڕێکردن، وەستان، یان ڕەفتارکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a proud, distinguished bearing."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a proud, distinguished bearing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەیکەلێکی بەشکۆ و ھەڵکەوتووی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,12 +264,18 @@ class EnglishEntrybearing extends StatelessWidget {
 ٣. (ناو) زانیاری لەسەر شوێنەکەت بە لەبەرچاوگرتنی دەورووبەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He paused at the top of the hill, trying to get his bearings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر گردەکە وەستابوو بۆ دۆزینەوەی شوێنەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He paused at the top of the hill, trying to get his bearings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر گردەکە وەستابوو بۆ دۆزینەوەی شوێنەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,10 +168,16 @@ class EnglishEntryblasphemy extends StatelessWidget {
 ١. (ناو) ڕەفتار یان شێوازی قسەکردن کە لەلایەنی ئایینییەوە پەسەندنەکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was accused of blasphemy."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کفرکاری تاوانبارکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was accused of blasphemy."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە کفرکاری تاوانبارکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

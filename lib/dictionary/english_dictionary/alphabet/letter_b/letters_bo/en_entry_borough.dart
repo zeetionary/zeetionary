@@ -169,12 +169,18 @@ class EnglishEntryborough extends StatelessWidget {
 ١. (ناو) شارۆچکەیەک یان بەشێکی شارێک کە حکومەتی خۆجێیی خۆی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Bronx is one of the five boroughs of New York."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برۆنکس یەکێکە لە پێنج مەڵبەندەکەی نیویۆرک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Bronx is one of the five boroughs of New York."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برۆنکس یەکێکە لە پێنج مەڵبەندەکەی نیویۆرک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntryborough extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She served as a local councillor in the London Borough of Westminster."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ئەندامی ئەنجوومەنی خۆجێی لە مەڵبەندی وێستمنستەری لەندەن کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She served as a local councillor in the London Borough of Westminster."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ئەندامی ئەنجوومەنی خۆجێی لە مەڵبەندی وێستمنستەری لەندەن کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

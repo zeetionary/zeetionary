@@ -169,12 +169,18 @@ class EnglishEntrybuffer extends StatelessWidget {
 ١. (ناو) شتێک کە وەک پارێزەر کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She often had to act as a buffer between father and son."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرجار دەبوو وەک نێوەندگیر لەنێوان باوک و کوڕدا ڕۆڵ ببینێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She often had to act as a buffer between father and son."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار دەبوو وەک نێوەندگیر لەنێوان باوک و کوڕدا ڕۆڵ ببینێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "buffer", follow LX strictly.
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybuffer extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Peacekeepers have been sent in to establish a buffer zone between the rival forces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هێزی ئاشتی‌پارێز نێردراون بۆ درووستکردنی ناوچەی ئارام لە نێوان هێزە دژبەرەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Peacekeepers have been sent in to establish a buffer zone between the rival forces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هێزی ئاشتی‌پارێز نێردراون بۆ درووستکردنی ناوچەی ئارام لە نێوان هێزە دژبەرەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,7 +231,7 @@ class EnglishEntrybuffer extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Support from family and friends acts as a buffer against stress."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پشتگیری خێزان و دۆستان پارێزەر دەبێت دژ بە سترێس."),
                                       const CustomSizedBoxForTTS(),
@@ -245,9 +257,15 @@ class EnglishEntrybuffer extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) پیاوێکی پیر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Silly old buffer!"),
-                              const ExampleSentenceKurdish(text: "پیری گەوج!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Silly old buffer!"),
+                                    ExampleSentenceKurdish(text: "پیری گەوج!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,11 +284,18 @@ class EnglishEntrybuffer extends StatelessWidget {
                               text: "٣. (کردار) کەمکردنەوەی زیانی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Efforts were made to buffer the effects."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەوڵ درا کاریگەرییەکان کەم بکرێنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Efforts were made to buffer the effects."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەوڵ درا کاریگەرییەکان کەم بکرێنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,11 +314,17 @@ class EnglishEntrybuffer extends StatelessWidget {
                               text: "٤. (کردار) پاراستنی کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They tried to buffer themselves against problems and uncertainties."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاراستنی کەسێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They tried to buffer themselves against problems and uncertainties."),
+                                    ExampleSentenceKurdish(
+                                        text: "پاراستنی کەسێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,11 +341,18 @@ class EnglishEntrybuffer extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He tried to buffer her from the bad news."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەوڵی دا لە هەواڵی خراپ بیپارێزێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He tried to buffer her from the bad news."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەوڵی دا لە هەواڵی خراپ بیپارێزێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

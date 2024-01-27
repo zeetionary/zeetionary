@@ -168,12 +168,18 @@ class EnglishEntrybasically extends StatelessWidget {
 ١. (ھاوەڵکار) تەنھا بە لەبەرچاوگرتنی شتە گرنگەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think we are basically saying the same thing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم‌وایە لە بنەڕەتدا ھەمان شت دەڵێین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think we are basically saying the same thing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌وایە لە بنەڕەتدا ھەمان شت دەڵێین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybasically extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There have been some problems but basically it's a good system."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کێشە ھەبووە، بەڵام لە بنچینەدا سیستەمێکی باشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There have been some problems but basically it's a good system."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کێشە ھەبووە، بەڵام لە بنچینەدا سیستەمێکی باشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +228,18 @@ class EnglishEntrybasically extends StatelessWidget {
 ٢. (ھاوەڵکار) بەکاردێت کە بۆچوونت دەردەبڕیت یان وتنی ئەوەی چی گرنگترینە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Basically, there's not a lot we can do about it."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەڕاستیدا ھیچ نییە بتوانین بیکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Basically, there's not a lot we can do about it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەڕاستیدا ھیچ نییە بتوانین بیکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +257,18 @@ class EnglishEntrybasically extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He basically just sits there and does nothing all day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو تەنھا و تەنھا لەوێدا دادەنیشێت لەوێدا و تەواوی ڕۆژەکە ھیچ ناکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He basically just sits there and does nothing all day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو تەنھا و تەنھا لەوێدا دادەنیشێت لەوێدا و تەواوی ڕۆژەکە ھیچ ناکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

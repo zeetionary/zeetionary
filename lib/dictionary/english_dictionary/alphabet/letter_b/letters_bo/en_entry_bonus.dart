@@ -169,12 +169,18 @@ class EnglishEntrybonus extends StatelessWidget {
 ١. (ناو) پارەیەکی زیادە کە زیاددەکرێت بۆ مووچەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All employees get an annual bonus before the summer holidays."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو کارمەندان بەخششێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All employees get an annual bonus before the summer holidays."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو کارمەندان بەخششێکی ساڵانە وەردەگرن پێش پشووی ھاوین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybonus extends StatelessWidget {
                                   "٢. (ناو) ھەر شتێکی خۆش کە بە زیادەوە دەدرێت و باشترە لەوەی کە چاوەڕێت دەکرد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As a bonus, club members can get free tickets for all the family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As a bonus, club members can get free tickets for all the family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک زیادییەک، ھەموو ئەندامانی یانەکە دەتوانن بلیتی بێبەرامبەر وەربگرن بۆ تەواوی خێزانەکەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

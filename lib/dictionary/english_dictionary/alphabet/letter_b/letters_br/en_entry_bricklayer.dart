@@ -164,12 +164,18 @@ class EnglishEntrybricklayer extends StatelessWidget {
 ١. (ناو) کەسێک کە دیوار درووست دەکات، بە تایبەتی بە خشت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The experienced bricklayer meticulously arranged the bricks for the new wall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستا بە ئەزموونەکە بە وردییەوە خشتەکانی دانا بۆ بۆ دیوارە تازەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The experienced bricklayer meticulously arranged the bricks for the new wall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستا بە ئەزموونەکە بە وردییەوە خشتەکانی دانا بۆ بۆ دیوارە تازەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bricklayer" as
                               Column(
                                 children: [

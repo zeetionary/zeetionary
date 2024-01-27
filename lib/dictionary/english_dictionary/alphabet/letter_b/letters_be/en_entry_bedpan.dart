@@ -170,12 +170,18 @@ class EnglishEntrybedpan extends StatelessWidget {
 ١. (ناو) کاسەیەک کە نەخۆشێک وەک تەوالێت بەکاریدێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was too weak to get out of bed, so she used a bedpan."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر لاواز بوو کە بتوانێت لە جێگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن بەکاردەھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was too weak to get out of bed, so she used a bedpan."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر لاواز بوو کە بتوانێت لە جێگەی خەوەکەی ھەستێت، بۆیە کاسەکەیەکی بۆ سەراوکردن بەکاردەھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

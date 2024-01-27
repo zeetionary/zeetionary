@@ -169,12 +169,18 @@ class EnglishEntrybloated extends StatelessWidget {
 ١. (ھاوەڵناو) پڕ لە شلە یان ھەوا کە وادەکات گەورەتر لە ئاسایی دەربکەوێت بەشێوەیەک کە ناشرینە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bloated body floating in the river and police were called."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەرمێکی پەنەمیاو لە ڕووبارەکە دۆزرایەوە و پۆلیس بانگ کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bloated body floating in the river and police were called."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەرمێکی پەنەمیاو لە ڕووبارەکە دۆزرایەوە و پۆلیس بانگ کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybloated extends StatelessWidget {
                                   "٢. (ھاوەڵناو) پڕ لە خۆراک و ھەستکردن بە ناڕەحەتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the heavy meal, he felt bloated and uncomfortable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەدوای ژەمە قوورسەکە، ھەستی بە باکردووی و ناڕەحەتی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the heavy meal, he felt bloated and uncomfortable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەدوای ژەمە قوورسەکە، ھەستی بە باکردووی و ناڕەحەتی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

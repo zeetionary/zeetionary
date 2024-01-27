@@ -171,12 +171,18 @@ class EnglishEntrybeautyspot extends StatelessWidget {
 ١. (ناو) ناوچەیەکی دەرەوەی شار کە بەناوبانگە بۆ جوانییەکەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The lake is one of the local beauty spots."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەریاچەکە یەکێکە لە ناوچە گەشتیارییەکانی ئەم ناوچە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The lake is one of the local beauty spots."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەریاچەکە یەکێکە لە ناوچە گەشتیارییەکانی ئەم ناوچە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybeautyspot extends StatelessWidget {
 ٢. (ناو) خاڵێکی بچووک لەسەر ڕووخساری ژنان کە جاران بە جوان دادەنرا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a small beauty spot on the left side of her face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاڵێکی بچووکی لەسەر لای چەپی ڕووخساری ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a small beauty spot on the left side of her face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاڵێکی بچووکی لەسەر لای چەپی ڕووخساری ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntrybudgerigar extends StatelessWidget {
 ١. (ناو) باڵندەیەکی بچووک کە وەک تووتی وایە و لە قەفەزدا ڕادەگیرێت وەک باڵندەی ماڵی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The colorful budgerigar chirped merrily."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەهات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The colorful budgerigar chirped merrily."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەهات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "budgerigar", follow LX strictly.
                               Column(
                                 children: [

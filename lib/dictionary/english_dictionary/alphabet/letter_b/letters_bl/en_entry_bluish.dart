@@ -169,12 +169,18 @@ class EnglishEntrybluish extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگێک کە تا ڕادەیەک شینە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bluish flowers bloomed in spring."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵە شینباوەکان لە بەھاردا گوڵیان گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bluish flowers bloomed in spring."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵە شینباوەکان لە بەھاردا گوڵیان گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybluish extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sky turned a bluish hue as night fell."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاسمان بوو بە شینباو کە شەو داھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sky turned a bluish hue as night fell."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسمان بوو بە شینباو کە شەو داھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

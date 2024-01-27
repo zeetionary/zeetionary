@@ -166,12 +166,18 @@ class EnglishEntrybareness extends StatelessWidget {
 ١. (ھاوەڵناو) ڕووت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The statue's bareness shocked the conservative viewers."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووتی پەیکەرەکە بینەرە کۆنەپەرستەکانی شۆک کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The statue's bareness shocked the conservative viewers."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووتی پەیکەرەکە بینەرە کۆنەپەرستەکانی شۆک کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybareness extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر سادە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The poem's beauty lay in its bareness."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "جوانی ھۆنراوەکە لە سادەییەکەی دایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The poem's beauty lay in its bareness."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوانی ھۆنراوەکە لە سادەییەکەی دایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,11 +167,18 @@ class EnglishEntrybrawny extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە ماسولکەی بەھێزی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a great brawny brute of a man."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەڵەگایەکی گەورەی بازۆڵەبەھێز بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a great brawny brute of a man."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەڵەگایەکی گەورەی بازۆڵەبەھێز بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,11 +195,17 @@ class EnglishEntrybrawny extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a big brawny man with huge hands."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیاوێکی چوارشانەی دەست‌زل بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a big brawny man with huge hands."),
+                                    ExampleSentenceKurdish(
+                                        text: "پیاوێکی چوارشانەی دەست‌زل بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

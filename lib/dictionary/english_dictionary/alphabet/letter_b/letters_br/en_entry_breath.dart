@@ -351,10 +351,16 @@ class EnglishEntrybreath extends StatelessWidget {
 ١. (ناو) ھەناسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His breath smelt of garlic."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەناسەی بۆنی سیری دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His breath smelt of garlic."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەناسەی بۆنی سیری دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breath" as
                               Column(
                                 children: [
@@ -371,11 +377,17 @@ class EnglishEntrybreath extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was very short of breath (= had difficulty breathing)."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر ھەناسەبڕکێی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was very short of breath (= had difficulty breathing)."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر ھەناسەبڕکێی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,7 +410,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Patients develop a cough and shortness of breath."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "نەخۆشەکان تووشی کۆکە و ھەناسەتەنگی دەبن."),
                                       const CustomSizedBoxForTTS(),
@@ -422,7 +434,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We had to stop for breath before we got to the top."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "دەبوو بۆ ھەناسە ھەڵکێشانێک بوەستین پێش ئەوەی بگەینە لوتکەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -446,7 +458,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "While there is breath left in my body, I will refuse."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "تا ھەناسەم مابێ ڕەتیدەکەمەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -470,7 +482,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He came up out of the water gasping for breath."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "لە ئاوەکە ھاتە دەرەوە و ھەنکەھەنکی بوو بۆ ھەناسە."),
                                       const CustomSizedBoxForTTS(),
@@ -494,7 +506,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She could feel his warm breath against her cheek."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەستی بە ھەناسە گەرمەکەی دەکرد لەسەر گۆنای."),
                                       const CustomSizedBoxForTTS(),
@@ -522,10 +534,18 @@ class EnglishEntrybreath extends StatelessWidget {
                                   "٢. (ناو) ئەو ڕێژە ھەوایەی کە دەچێتە سنگەوە لە یەک کاتدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Take a deep breath and try to relax."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەناسەیەکی قووڵ ھەڵبمژە و بحەسێوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Take a deep breath and try to relax."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەناسەیەکی قووڵ ھەڵبمژە و بحەسێوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -542,10 +562,16 @@ class EnglishEntrybreath extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He sucked in a deep breath."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەناسەیەکی قووڵی ھەڵمژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He sucked in a deep breath."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەناسەیەکی قووڵی ھەڵمژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -567,7 +593,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "He let out a long breath."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "ھەناسەیەکی درێژی دایەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -590,7 +616,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I opened the window and took a deep breath."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پەنجەرەکەم کردەوە و ھەناسەیەکی قووڵم ھەڵمژی."),
                                       const CustomSizedBoxForTTS(),
@@ -617,12 +643,18 @@ class EnglishEntrybreath extends StatelessWidget {
                               text: "٣. (ناو) ڕێژەیەکی کەم لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Journalists eagerly sought any breath of political scandal in the upcoming election."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژنامەنووسان بە پەرۆشەوە بەدوای پڕووشێک لە ئابڕووچوونی سیاسیدا دەگەڕان لەم ھەڵبژاردنی دادێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Journalists eagerly sought any breath of political scandal in the upcoming election."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەنووسان بە پەرۆشەوە بەدوای پڕووشێک لە ئابڕووچوونی سیاسیدا دەگەڕان لەم ھەڵبژاردنی دادێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -641,11 +673,18 @@ class EnglishEntrybreath extends StatelessWidget {
                               text: "٤. (ناو) کەمێک جووڵەی ھەوا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a still day, without a breath of wind"),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆژێکی کپ بوو بەبێ شنە ھەوایەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a still day, without a breath of wind"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژێکی کپ بوو بەبێ شنە ھەوایەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

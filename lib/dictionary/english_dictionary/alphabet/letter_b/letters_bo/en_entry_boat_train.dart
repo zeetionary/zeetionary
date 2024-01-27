@@ -166,12 +166,18 @@ class EnglishEntryboattrain extends StatelessWidget {
 ١. (ناو) شەمەندەفەرێک کە گەشتیار دەگوازێتەوە بۆ شوێنێک یان لێیەوە کە بەلەم دەگەن یان جێیدێڵن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We will take the 7.30 p.m. boat train to Harwich."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەچینە ئەو شەمەندەفەرەی کە ٧:٣٠ ی ئێوارە دەچێت بۆ ھارویچ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We will take the 7.30 p.m. boat train to Harwich."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەچینە ئەو شەمەندەفەرەی کە ٧:٣٠ ی ئێوارە دەچێت بۆ ھارویچ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -165,10 +165,17 @@ class EnglishEntrybreaststroke extends StatelessWidget {
 ١. (ناو) جۆرە مەلەیەک کە لەسەر سنگت دەیکەیت، دەستەکان و قاچەکانت بۆ دوور لە جەستەت دەجوڵێنیت و دواتر بە بازنەیەک بەرەو جەستەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I can only do the breaststroke."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەنھا دەتوانم بۆقەمەلە بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can only do the breaststroke."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەنھا دەتوانم بۆقەمەلە بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breaststroke" as
                               Column(
                                 children: [

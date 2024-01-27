@@ -167,12 +167,18 @@ class EnglishEntrybluesky extends StatelessWidget {
 ١. (ھاوەڵناو) لەخۆگرتنی بیرۆکەی سەرنجڕاکێش و تازە بۆ شتانێک کە ھێشتا ناکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has been doing some blue-sky thinking on how to improve school standards."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ھەندێک بیرکردنەوەی تازەگەری کردووە سەبارەت بە چۆنیەتی بەھێزکردنی ستانداردی قوتابخانەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has been doing some blue-sky thinking on how to improve school standards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ھەندێک بیرکردنەوەی تازەگەری کردووە سەبارەت بە چۆنیەتی بەھێزکردنی ستانداردی قوتابخانەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybluesky extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A team of designers have been briefed to come up with blue-sky ideas to overhaul the company’s logo."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمێک لە دیزاینەران داوایان لێکراوە بۆدۆزینەوەی بیرۆکەی تازە بۆ وردبینییەکی تەواو بۆ لۆگۆی کۆمپانیاکە بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A team of designers have been briefed to come up with blue-sky ideas to overhaul the company’s logo."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمێک لە دیزاینەران داوایان لێکراوە بۆدۆزینەوەی بیرۆکەی تازە بۆ وردبینییەکی تەواو بۆ لۆگۆی کۆمپانیاکە بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

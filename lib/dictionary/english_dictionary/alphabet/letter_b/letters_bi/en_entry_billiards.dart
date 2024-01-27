@@ -168,12 +168,18 @@ class EnglishEntrybilliards extends StatelessWidget {
 ١. (ناو) بیلیارد؛ یارییەک کە لەلایەن دوو کەسەوە دەکرێت لەسەر مێزێک کە بە قوماشی نەرم داپۆشراوە، و دارێک بەکاردێنن بۆ لێدان لە تۆپ و کێشانیان بە یەکدا بۆ ئەوەی بیانخەنە ناو چاڵەکانەوە کە لە دەوری مێزەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He enjoys billiards because it offers a mix of strategy and physical skill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزی لە بیلیارد بوو چونکە تێکەڵەیەک لە ستراتیژی و شارەزایی کەسی لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He enjoys billiards because it offers a mix of strategy and physical skill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی لە بیلیارد بوو چونکە تێکەڵەیەک لە ستراتیژی و شارەزایی کەسی لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

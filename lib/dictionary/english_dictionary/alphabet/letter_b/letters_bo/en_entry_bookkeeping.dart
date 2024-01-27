@@ -168,12 +168,18 @@ class EnglishEntrybookkeeping extends StatelessWidget {
 ١. (ناو) کاری ڕاگرتنی تۆمارێکی پارەی وەرگیراو و خەرجکراو لەلایەن کۆمپانیایەک یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Accurate bookkeeping is essential for financial transparency."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Accurate bookkeeping is essential for financial transparency."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەژمارنووسی درووست گرنگە بۆ بەرچاوڕوونی دارایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

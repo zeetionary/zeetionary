@@ -166,11 +166,18 @@ class EnglishEntrybroom extends StatelessWidget {
 ١. (ناو) گەسک کە بە دەسکێکەوەیە و بۆ پاککردنەوە بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Grab a broom and let’s clean up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Grab a broom and let’s clean up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەسکێک ھەڵبگرە و با دەست بە پاککردنەوە بکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broom" as
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybroom extends StatelessWidget {
                                   "٢. (ناو) داری جادووگەران کە لە چیرۆکدا ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The witch cackled and flew away on her broom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جادووگەرەکە قاقایەکی لێدا و لەسەر دارەکەی فڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The witch cackled and flew away on her broom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جادووگەرەکە قاقایەکی لێدا و لەسەر دارەکەی فڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +227,18 @@ class EnglishEntrybroom extends StatelessWidget {
                               text: "٣. (ناو) دەوەنێکی کێوی گوڵی زەردی ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The mountains are covered in a scrub of broom and myrtle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چیاکان پڕبوون لە دەوەنێک لە گیای زەرد و گیامورد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The mountains are covered in a scrub of broom and myrtle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چیاکان پڕبوون لە دەوەنێک لە گیای زەرد و گیامورد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

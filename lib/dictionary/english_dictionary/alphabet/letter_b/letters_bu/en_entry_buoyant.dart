@@ -215,12 +215,18 @@ class EnglishEntrybuoyant extends StatelessWidget {
 ١. (ھاوەڵناو) چالاکی یان نرخ کە لە ئاستێکی بەرزدا بمێنێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The relatively buoyant housing market has kept consumers confident enough to spend."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازاڕی خانووبەرەی تاڕادەیەک جێگیر کڕیاران بە متمانەوە ڕاگرتووە بۆ ئەوەی پارەی تێدا خەرج بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The relatively buoyant housing market has kept consumers confident enough to spend."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازاڕی خانووبەرەی تاڕادەیەک جێگیر کڕیاران بە متمانەوە ڕاگرتووە بۆ ئەوەی پارەی تێدا خەرج بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoyant", follow LX strictly
                               Column(
                                 children: [
@@ -239,10 +245,17 @@ class EnglishEntrybuoyant extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) گەشبین و بەهیوا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They were all in buoyant mood."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەموویان لە کەشێکی گەشبینانەدا بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They were all in buoyant mood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموویان لە کەشێکی گەشبینانەدا بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +275,18 @@ class EnglishEntrybuoyant extends StatelessWidget {
                                   "٣. (ھاوەڵناو) سەرئاوکەتوو یان هەبوونی توانای هێشتنەوە بە سەرئاوکەوتووی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Salt water is more buoyant than fresh water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوی سوێر زیاتر سەرئاوکەوتەیە وەک لە ئاوی سازگار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Salt water is more buoyant than fresh water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوی سوێر زیاتر سەرئاوکەوتەیە وەک لە ئاوی سازگار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

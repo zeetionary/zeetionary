@@ -165,12 +165,18 @@ class EnglishEntrybrilliance extends StatelessWidget {
 ١. (ناو) خاسیەتی ھەبوونی یان زیرەکی تەواو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her first novel showed signs of brilliance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکەم ڕۆمانی ئاماژەی بلیمەتی تێدابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her first novel showed signs of brilliance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەم ڕۆمانی ئاماژەی بلیمەتی تێدابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brilliance" as
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybrilliance extends StatelessWidget {
                               text: "٢. (ناو) درەوشاوەیی زۆر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had never seen diamonds shine with such brilliance before."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز پێشووتر ئەڵماسم نەدیوە بەو ڕۆشناییە زۆرەوە بدرەوشێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had never seen diamonds shine with such brilliance before."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز پێشووتر ئەڵماسم نەدیوە بەو ڕۆشناییە زۆرەوە بدرەوشێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

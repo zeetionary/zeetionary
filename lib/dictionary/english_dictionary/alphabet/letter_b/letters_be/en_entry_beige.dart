@@ -171,12 +171,18 @@ class EnglishEntrybeige extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگی قاوەیی کاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The walls are white and the ceiling is beige."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیوارەکان سپین و سەقفەکە قاوەیی کاڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The walls are white and the ceiling is beige."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیوارەکان سپین و سەقفەکە قاوەیی کاڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybeige extends StatelessWidget {
 ٢. (ناو) ڕەنگی قاوەیی کاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The shoes are available in red or beige."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێڵاوەکان بەردەستن بە ڕەنگی سوور و قاوەیی کاڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The shoes are available in red or beige."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێڵاوەکان بەردەستن بە ڕەنگی سوور و قاوەیی کاڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

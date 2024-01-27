@@ -171,12 +171,18 @@ class EnglishEntryboundary extends StatelessWidget {
 ١. (ھاوەڵناو) سنوور؛ ھێڵێکی خەیاڵی یان ڕاستی کە سنووری شتێک دیاری دەکات و جیای دەکاتەوە لە شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the war the national boundaries were redrawn."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای جەنگەکە سنووری وڵاتان دووبارە کێشرانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the war the national boundaries were redrawn."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای جەنگەکە سنووری وڵاتان دووبارە کێشرانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntryboundary extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fence marks the boundary between my property and hers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرژینەکە سنووری نێوان زەوییەکەی من و ئەو دیاری دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fence marks the boundary between my property and hers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرژینەکە سنووری نێوان زەوییەکەی من و ئەو دیاری دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntryboundary extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists continue to push back the boundaries of human knowledge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان بەردەوامن لە فراوانکردنی سنووری زانستی مرۆڤ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists continue to push back the boundaries of human knowledge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان بەردەوامن لە فراوانکردنی سنووری زانستی مرۆڤ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntrybulk extends StatelessWidget {
 ١. (ناو) بەشی سەرەکیی شتێک؛ گرنگترین بەشی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bulk of the population lives in cities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی دانیشتوانەکە لە شارەکان دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bulk of the population lives in cities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی دانیشتوانەکە لە شارەکان دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulk", follow LX strictly
                               Column(
                                 children: [
@@ -190,11 +196,18 @@ class EnglishEntrybulk extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The great bulk of the work has now been done."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرینەی کارەکە لە ئێستادا کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The great bulk of the work has now been done."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی کارەکە لە ئێستادا کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +227,18 @@ class EnglishEntrybulk extends StatelessWidget {
                                   "٣. (ناو) ڕێژەی گەورەی بڕ یان ئەندازەی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite its bulk and weight, the car is extremely fast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای قەبەیی و کێشی، ئۆتۆمبێلەکە زۆر خێرایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite its bulk and weight, the car is extremely fast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای قەبەیی و کێشی، ئۆتۆمبێلەکە زۆر خێرایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,10 +255,17 @@ class EnglishEntrybulk extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's cheaper to buy in bulk."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It's cheaper to buy in bulk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +284,18 @@ class EnglishEntrybulk extends StatelessWidget {
                               text: "٣. (ناو) کێش یان شێوەی کەسێک/شتێکی گەورە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She eased/heaved her large bulk out of the chair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She eased/heaved her large bulk out of the chair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

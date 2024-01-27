@@ -169,11 +169,17 @@ class EnglishEntrybewitch extends StatelessWidget {
 ١. (کردار) سەرسامکردنی کەسێک بە ئاستێک کە ھۆش و بیری دەبەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was completely bewitched by her beauty."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەواوی تاسا بە جوانییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was completely bewitched by her beauty."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە تەواوی تاسا بە جوانییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybewitch extends StatelessWidget {
 ٢. (کردار) جادووکردن لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The villagers feared the woman's ability to bewitch their livestock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوندییەکان لە توانای ژنەکە دەترسان کە جادوو لە مەڕوماڵاتیان بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The villagers feared the woman's ability to bewitch their livestock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوندییەکان لە توانای ژنەکە دەترسان کە جادوو لە مەڕوماڵاتیان بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

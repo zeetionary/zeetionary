@@ -172,12 +172,18 @@ class EnglishEntrybanish extends StatelessWidget {
 ١. (کردار) دوورخستنەوەی کەسێک لە شوێنێک یان وڵاتێک وەک سزا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was banished to Australia, where he died five years later."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was banished to Australia, where he died five years later."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybanish extends StatelessWidget {
 ٢. (کردار) وا لە شتێک بکەیت نەمێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sight of food banished all other thoughts from my mind."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sight of food banished all other thoughts from my mind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

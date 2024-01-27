@@ -169,12 +169,18 @@ class EnglishEntrybarrier extends StatelessWidget {
 ١. (ناو) شتێک کە وەکو پەرژین وایە و ڕێگری لە خەڵکی دەکات لێی تێپەڕبن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The crowd had to stand behind barriers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The crowd had to stand behind barriers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەماوەرەکە دەبوو لە پشتی بەربەستەوە بوەستن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybarrier extends StatelessWidget {
 ٢. (ناو) دەروازەی گەراجی ئۆتۆمبێل کە بەرز و نزم دەبێتەوە بۆ ڕێگەدان بە ھاتووچۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scan your ticket at the barrier and it will automatically lift."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scan your ticket at the barrier and it will automatically lift."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلیتەکەت سکان بکە لە دەروازەکە و بە ئۆتۆماتیکی بەرزدەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybarrier extends StatelessWidget {
 ٣. (ناو) کێشەیەک یان دۆخێک کە ڕێگر دەبێت لە کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite the language barrier (= not speaking the same language), they soon became good friends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite the language barrier (= not speaking the same language), they soon became good friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەرچی ئاستەنگی زمانی لە نێوانیان بوو (زمانی یەکدیان نەدەزانی)، بەڵام زوو بوون بە دۆست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +262,18 @@ class EnglishEntrybarrier extends StatelessWidget {
 ٤. (ناو) شتێک کە لەنێوان دوو شت یان کەسدا ھەیە و جیایان دەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cream acts as a protective barrier against sun damage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cream acts as a protective barrier against sun damage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێمەکە وەک مادەیەکی پارێزەر کاردەکات دژ بە خۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,12 +293,18 @@ class EnglishEntrybarrier extends StatelessWidget {
 ٥. (ناو) بڕێک کە گرانە تێیپەڕێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was the first player whose earnings passed the £10 million barrier."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was the first player whose earnings passed the £10 million barrier."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو یەکەم یاریزان بوو کە قازانجەکانی بەربەستی ١٠ ملیۆن دۆلاری تێپەڕاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

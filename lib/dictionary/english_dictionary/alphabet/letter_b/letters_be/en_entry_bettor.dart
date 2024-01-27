@@ -175,12 +175,18 @@ class EnglishEntrybettor extends StatelessWidget {
 ١. (ناو) کەسێک کە گرەو دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bettors wagered a total of £67 million on the game."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرەوکاران بە تێکڕا ٦٧ ملیۆن پاوەندیان خستە گرەوەوە لەسەر یارییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bettors wagered a total of £67 million on the game."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرەوکاران بە تێکڕا ٦٧ ملیۆن پاوەندیان خستە گرەوەوە لەسەر یارییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

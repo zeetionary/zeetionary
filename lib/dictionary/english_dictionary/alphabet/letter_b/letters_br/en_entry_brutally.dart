@@ -164,10 +164,16 @@ class EnglishEntrybrutally extends StatelessWidget {
 ١. (ھاوەڵکار) بە توندوتیژی و بێ بەزەییانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was brutally assaulted."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دڕندانە ھێرشی کرایە سەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was brutally assaulted."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە دڕندانە ھێرشی کرایە سەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brutally" as
                               Column(
                                 children: [
@@ -187,10 +193,18 @@ class EnglishEntrybrutally extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بە ڕوونی و ڕاستەوخۆ، بەبێ گرنگیدان بە ھەستی خەڵکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let me be brutally frank about this."),
-                              const ExampleSentenceKurdish(
-                                  text: "بھێڵە تەواو ڕاستگۆ بم سەبارەت بەمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let me be brutally frank about this."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بھێڵە تەواو ڕاستگۆ بم سەبارەت بەمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

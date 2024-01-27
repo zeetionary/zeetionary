@@ -169,12 +169,18 @@ class EnglishEntryboisterous extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەفتاری مرۆڤ و ئاژەڵ کە پڕ لە قاڵەقاڵ و جۆشوخرۆشی و وزەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a challenge, keeping ten boisterous seven-year-olds amused."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بھێڵیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a challenge, keeping ten boisterous seven-year-olds amused."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەرکێکی قوورس بوو ١٠ منداڵی حەوت ساڵانی پڕوزە بە دڵخۆشی بھێڵیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntryboisterous extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children and the dogs raced out of the house to give me a boisterous welcome."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان و سەگەکان لە ماڵەکە ھاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children and the dogs raced out of the house to give me a boisterous welcome."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان و سەگەکان لە ماڵەکە ھاتنە دەرەوە بۆ ئەوەی خێراتنێکی گەرموگوڕم بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

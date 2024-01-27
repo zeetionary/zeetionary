@@ -167,12 +167,18 @@ class EnglishEntrybull extends StatelessWidget {
 ١. (ناو) نێرینەی هەر ئاژەڵێک کە مانگا بێت، یان نێرینەی فیل، قرش، یان ئاژەڵە گەورەکانی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They did not see the sign by the gate saying 'Beware of the bull'."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They did not see the sign by the gate saying 'Beware of the bull'."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو نووسراوەیان نەدی لە دەروازەکە کە نووسرابوو 'ئاگاداری نێرەگا بن'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bull", follow LX strictly
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybull extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bull lowered its horns and charged."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نێرەگاکە شاخەکانی نزمکردەوە و هێرشی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bull lowered its horns and charged."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نێرەگاکە شاخەکانی نزمکردەوە و هێرشی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +225,18 @@ class EnglishEntrybull extends StatelessWidget {
                               text: "٢. (ناو) بڕیارێک یان بەیاننامەیەکی پاپا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Papal bulls carry significant authority."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەیاننامەکانی پاپا گرنگی تایبەتیان هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Papal bulls carry significant authority."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەیاننامەکانی پاپا گرنگی تایبەتیان هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +256,18 @@ class EnglishEntrybull extends StatelessWidget {
                                   "٣. (ناو) بیرۆکە، باوەڕ، و قسە کە پێتوایە گەمژانەن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you want to believe all that bull it’s up to you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر باوەڕ بەو هەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you want to believe all that bull it’s up to you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر باوەڕ بەو هەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

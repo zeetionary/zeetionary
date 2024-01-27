@@ -168,12 +168,18 @@ class EnglishEntrybum extends StatelessWidget {
 ١. (ناو) سمت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They've been sitting on their bums all day, doing nothing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و هیچیان نەکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They've been sitting on their bums all day, doing nothing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و هیچیان نەکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bum", follow LX strictly
                               Column(
                                 children: [
@@ -192,11 +198,18 @@ class EnglishEntrybum extends StatelessWidget {
                               text: "٢. (ناو) کەسێک کە سواڵکەر و بێ‌لانەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He dropped out of college and became a bum."),
-                              const ExampleSentenceKurdish(
-                                  text: "وازی لە زانکۆ هێنا و بوو بە سواڵکەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He dropped out of college and became a bum."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وازی لە زانکۆ هێنا و بوو بە سواڵکەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,10 +229,18 @@ class EnglishEntrybum extends StatelessWidget {
                                   "٣. (ناو) کەسێک کە سوودی بۆ کەسانی دیکە و کۆمەڵگا نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's nothing but a no-good bum!"),
-                              const ExampleSentenceKurdish(
-                                  text: "هیچ نییە جگە لە تەوەزەلێکی بێسوود!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's nothing but a no-good bum!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیچ نییە جگە لە تەوەزەلێکی بێسوود!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,11 +260,18 @@ class EnglishEntrybum extends StatelessWidget {
                                   "٤. (کردار) وەرگرتنی شتێک لە کەسێک بە داواکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bummed a ride home from a friend."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای لە هاوڕێکەی کرد بیگەیەنێت بە ماڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bummed a ride home from a friend."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای لە هاوڕێکەی کرد بیگەیەنێت بە ماڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +290,18 @@ class EnglishEntrybum extends StatelessWidget {
                               text: "٥. (ھاوەڵناو) شتێکی بێسوود"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He gave us bum directions, but we eventually found the place."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناونیشانی بێسوودی پێداین، بەڵام لەکۆتاییدا شوێنەکەمان دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gave us bum directions, but we eventually found the place."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناونیشانی بێسوودی پێداین، بەڵام لەکۆتاییدا شوێنەکەمان دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

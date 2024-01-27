@@ -214,10 +214,17 @@ class EnglishEntrybustle extends StatelessWidget {
 ١. (کردار) پەلەپەلکردن و هاتووچۆ بە ئاراستەیەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She bustled around in the kitchen."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە چێشتخانەکەدا جم‌وجۆڵی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bustled around in the kitchen."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە چێشتخانەکەدا جم‌وجۆڵی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bustle", follow LX strictly
                               Column(
                                 children: [
@@ -234,12 +241,18 @@ class EnglishEntrybustle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The nurse bustled us out of the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرستارەکە لە ژوورەکە کردینییە دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The nurse bustled us out of the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرستارەکە لە ژوورەکە کردینییە دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +271,18 @@ class EnglishEntrybustle extends StatelessWidget {
                               text: "٢. (ناو) چالاکی بە دەنگەدەنگ و سەرقاڵانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I sat in a café, watching the (hustle and) bustle of the street outside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە قاوەخانەکە دانیشتم و دەمڕوانی لە قەرەباڵغی شەقامی دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I sat in a café, watching the (hustle and) bustle of the street outside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە قاوەخانەکە دانیشتم و دەمڕوانی لە قەرەباڵغی شەقامی دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

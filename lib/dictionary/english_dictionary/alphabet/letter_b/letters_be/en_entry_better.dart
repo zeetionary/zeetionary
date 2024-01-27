@@ -369,11 +369,18 @@ class EnglishEntrybetter extends StatelessWidget {
 ١. (ھاوەڵناو) باشتر لە شتێکی تر، شتێک کە ھێندەی شتێکی تر خراپ نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We're hoping for better weather tomorrow."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیوا بۆ کەشوھەوایەکی باشتر دەخوازین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We're hoping for better weather tomorrow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیوا بۆ کەشوھەوایەکی باشتر دەخوازین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -391,12 +398,18 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is in a much better mood than usual."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە حەوسەلەیەکی باشترە وەک لەوەی لە کاتی ئاسایی تێیدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is in a much better mood than usual."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە حەوسەلەیەکی باشترە وەک لەوەی لە کاتی ئاسایی تێیدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -416,10 +429,16 @@ class EnglishEntrybetter extends StatelessWidget {
 ٢. (ھاوەڵناو) گونجاوتر یان شیاوتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You'd be better going by bus."),
-                              const ExampleSentenceKurdish(
-                                  text: "باشتر دەبێت بە پاس بچیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You'd be better going by bus."),
+                                    ExampleSentenceKurdish(
+                                        text: "باشتر دەبێت بە پاس بچیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -437,12 +456,18 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It would be better for him to talk to his parents about his problems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشتر دەبێت قسە لەگەڵ دایک و باوکی بکات دەربارەی کێشەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It would be better for him to talk to his parents about his problems."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشتر دەبێت قسە لەگەڵ دایک و باوکی بکات دەربارەی کێشەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -462,11 +487,18 @@ class EnglishEntrybetter extends StatelessWidget {
 ٣. (ھاوەڵناو) بە تواناتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's far better at science than her brother."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە زانستدا زۆر باشترە لە براکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's far better at science than her brother."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زانستدا زۆر باشترە لە براکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -486,10 +518,16 @@ class EnglishEntrybetter extends StatelessWidget {
 ٤. (ھاوەڵناو) لە دۆخێکی تەندرووستی باشتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's a lot better today."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمڕۆ زۆر باشترە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's a lot better today."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەمڕۆ زۆر باشترە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -507,10 +545,16 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His leg was getting better."),
-                              const ExampleSentenceKurdish(
-                                  text: "لاقی باشتر دەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His leg was getting better."),
+                                    ExampleSentenceKurdish(
+                                        text: "لاقی باشتر دەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -530,11 +574,17 @@ class EnglishEntrybetter extends StatelessWidget {
 ٥. (ھاوەڵناو) بە تەواوی چاکبووەوە لە نەخۆشییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't go back to work until you are better."),
-                              const ExampleSentenceKurdish(
-                                  text: "مەچۆوە بۆ کار تا باش دەبیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't go back to work until you are better."),
+                                    ExampleSentenceKurdish(
+                                        text: "مەچۆوە بۆ کار تا باش دەبیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -554,10 +604,17 @@ class EnglishEntrybetter extends StatelessWidget {
 ٦. (ھاوەڵکار) بەشێوەیەکی باشتر؛ بەشێوەیەک کە وەک شتێکی تر خراپ نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She sings much better than I do."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە من باشتر گۆرانی دەڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She sings much better than I do."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە من باشتر گۆرانی دەڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -577,11 +634,17 @@ class EnglishEntrybetter extends StatelessWidget {
 ٧. (ھاوەڵکار) زیاتر؛ تا ئاستێکی زۆرتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You'll like her when you know her better."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆشتدەوێت کە باشتر بیناسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You'll like her when you know her better."),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆشتدەوێت کە باشتر بیناسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -599,12 +662,18 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Researchers are hoping to better understand the role of this protein in human disease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژەران ھیوا دەخوازن باشتر تێبگەن لە ئەرکی ئەم پڕۆتینە لە نەخۆشی مرۆڤدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Researchers are hoping to better understand the role of this protein in human disease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژەران ھیوا دەخوازن باشتر تێبگەن لە ئەرکی ئەم پڕۆتینە لە نەخۆشی مرۆڤدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -624,12 +693,18 @@ class EnglishEntrybetter extends StatelessWidget {
 ٨. (ھاوەڵکار) بەکاردێت بۆ وتنی ئەوەی شتێک گونجاوتر یان شیاوتر دەبێت بۆ کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The money could be better spent on more urgent cases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەکە دەکرێت خەرج بکرێت لەسەر بابەتی زەروورتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The money could be better spent on more urgent cases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەکە دەکرێت خەرج بکرێت لەسەر بابەتی زەروورتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -649,11 +724,17 @@ class EnglishEntrybetter extends StatelessWidget {
 ٩. (ناو) شتێکی باشتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I expected better of him (= I thought he would have behaved better)."),
-                              const ExampleSentenceKurdish(
-                                  text: "زیاتر لەوەم لێ چاوەڕێ دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I expected better of him (= I thought he would have behaved better)."),
+                                    ExampleSentenceKurdish(
+                                        text: "زیاتر لەوەم لێ چاوەڕێ دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -671,12 +752,18 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He ran the 100 metres in 9.91 seconds, and I have not seen better (= a faster result) this year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "١٠٠ مەتری لە ٩,٩١ چرکەدا بڕی و و باشتر لەوەم نەدیوە ئەمساڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He ran the 100 metres in 9.91 seconds, and I have not seen better (= a faster result) this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "١٠٠ مەتری لە ٩,٩١ چرکەدا بڕی و و باشتر لەوەم نەدیوە ئەمساڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -694,12 +781,18 @@ class EnglishEntrybetter extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You shouldn't be so mean to your mother - she deserves better."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نابێت وەھا توند بیت لەگەڵ دایکت، شایەنی باشتر لەوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You shouldn't be so mean to your mother - she deserves better."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نابێت وەھا توند بیت لەگەڵ دایکت، شایەنی باشتر لەوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -719,12 +812,18 @@ class EnglishEntrybetter extends StatelessWidget {
 ١٠. (ناو) ئەو کەسانەی کە لە تۆ زیرەکتر یان گرنگترن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As children, we were taught not to argue with our elders and betters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک منداڵ فێردەکرێین دەمەدەم نەکەین لەگەڵ گەورەکان و کەسانی باڵاتر لە خۆمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As children, we were taught not to argue with our elders and betters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک منداڵ فێردەکرێین دەمەدەم نەکەین لەگەڵ گەورەکان و کەسانی باڵاتر لە خۆمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -744,12 +843,18 @@ class EnglishEntrybetter extends StatelessWidget {
 ١١. (کردار) باشتربوون لە کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their success that season could not be bettered."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکەوتنیان لەو وەرزەدا نەدەتوانرا ببەزێندرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their success that season could not be bettered."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکەوتنیان لەو وەرزەدا نەدەتوانرا ببەزێندرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -769,12 +874,18 @@ class EnglishEntrybetter extends StatelessWidget {
 ١٢. (کردار) باشترکردنی دۆخی کۆمەڵایەتیت لە ڕێگەی کارێکی باشتر، خوێندن، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thousands of Victorian workers joined educational associations in an attempt to better themselves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەزاران کرێکاری سەردەمی شاژن ڤیکتۆریا پەیوەندییان بە کۆڕە پەروەردەییەکانەوە کرد بۆ باشترکردنی دۆخی کۆمەڵایەتییان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thousands of Victorian workers joined educational associations in an attempt to better themselves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەزاران کرێکاری سەردەمی شاژن ڤیکتۆریا پەیوەندییان بە کۆڕە پەروەردەییەکانەوە کرد بۆ باشترکردنی دۆخی کۆمەڵایەتییان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,10 +172,16 @@ class EnglishEntrybellow extends StatelessWidget {
 ١. (کردار) ھاوارکردن بە دەنگی بەرز بەھۆی ئەوەی تووڕەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They bellowed at her to stop."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەڕاندیان بەسەریدا تا بوەستێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They bellowed at her to stop."),
+                                    ExampleSentenceKurdish(
+                                        text: "نەڕاندیان بەسەریدا تا بوەستێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybellow extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He fell to the floor, bellowing with pain and rage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He fell to the floor, bellowing with pain and rage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەوت بەسەر زەوییەکەدا و بۆڕەی دەھات لە ئازار و توڕەییدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,10 +230,16 @@ class EnglishEntrybellow extends StatelessWidget {
 ٢. (کردار) کە ئاژەڵێک، بۆ نموونە نێرەگایەک، دەنگێکی بەرز دەردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bull bellowed in pain."),
-                              const ExampleSentenceKurdish(
-                                  text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The bull bellowed in pain."),
+                                    ExampleSentenceKurdish(
+                                        text: "نێرەگاکە نەڕەی بوو لە ئازاردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,10 +259,16 @@ class EnglishEntrybellow extends StatelessWidget {
 ٣. (ناو) ھاوارێک بە دەنگی بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He gave a bellow of rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەڕەیەکی کرد لە تووڕەییدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He gave a bellow of rage."),
+                                    ExampleSentenceKurdish(
+                                        text: "نەڕەیەکی کرد لە تووڕەییدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +288,18 @@ class EnglishEntrybellow extends StatelessWidget {
 ٤. (کردار) دەنگی بەرزی ئاژەڵێک، بۆ نموونە ھی نێرەگایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He saw blood around the cow's mouth and heard the rasp of its breath between each anguished bellow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێنی لە دەمی مانگاکەوە دی و گوێی لە دەنگی ھەناسەی بوو لەگەڵ ھەر نەڕەیەکی لەتاو ئازاردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

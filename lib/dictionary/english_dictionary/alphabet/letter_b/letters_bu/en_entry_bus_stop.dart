@@ -213,10 +213,16 @@ class EnglishEntrybusstop extends StatelessWidget {
 ١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I was waiting at the bus stop."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە وێستگەی پاسەکە چاوەڕێ بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I was waiting at the bus stop."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە وێستگەی پاسەکە چاوەڕێ بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bus stop", follow LX strictly
                               Column(
                                 children: [
@@ -233,12 +239,18 @@ class EnglishEntrybusstop extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's a bus stop just outside the hotel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێستگەیەکی پاسێک لە دەرەوەی هوتێلەکە هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a bus stop just outside the hotel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێستگەیەکی پاسێک لە دەرەوەی هوتێلەکە هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

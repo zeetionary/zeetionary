@@ -170,10 +170,17 @@ class EnglishEntrybrake extends StatelessWidget {
 ١. (ناو) وەستێنەری ئۆتۆمبێل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My brakes are not working properly."),
-                              const ExampleSentenceKurdish(
-                                  text: "برێکەکانم بەباشی کار ناکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My brakes are not working properly."),
+                                    ExampleSentenceKurdish(
+                                        text: "برێکەکانم بەباشی کار ناکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +197,18 @@ class EnglishEntrybrake extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She slammed on the brakes to try to avoid the dog."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێی نا بە برێکدا بۆ ئەوەی لە سەگەکە نەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She slammed on the brakes to try to avoid the dog."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێی نا بە برێکدا بۆ ئەوەی لە سەگەکە نەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybrake extends StatelessWidget {
                                   "٢. (ناو) شتێک کە شتێک دەوەستێنێت یان زەحمەتی دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "High interest rates are a brake on the economy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی بەرزی سوو لەمپەرێکە بۆ ئابووری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "High interest rates are a brake on the economy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی بەرزی سوو لەمپەرێکە بۆ ئابووری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,10 +258,16 @@ class EnglishEntrybrake extends StatelessWidget {
                               text: "٣. (کردار) پێنان بە وەستێنەری ئۆتۆمبێل"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The truck braked to a halt."),
-                              const ExampleSentenceKurdish(
-                                  text: "لۆرییەکە برێکی گرت تا وەستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The truck braked to a halt."),
+                                    ExampleSentenceKurdish(
+                                        text: "لۆرییەکە برێکی گرت تا وەستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +284,18 @@ class EnglishEntrybrake extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had to brake hard to avoid running into the car in front."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبوو بە توندی برێک بگرێت بۆ ئەوەی خۆی نەکێشێت بە ئۆتۆمبێلەکەی پێشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had to brake hard to avoid running into the car in front."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبوو بە توندی برێک بگرێت بۆ ئەوەی خۆی نەکێشێت بە ئۆتۆمبێلەکەی پێشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

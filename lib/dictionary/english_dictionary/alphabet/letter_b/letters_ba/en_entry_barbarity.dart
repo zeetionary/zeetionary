@@ -171,12 +171,18 @@ class EnglishEntrybarbarity extends StatelessWidget {
 ١. (ناو) ڕەفتاری دڕندانە کە بەئەنقەست زۆر ئازاربەخشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barbarity of the old regime was eventually exposed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barbarity of the old regime was eventually exposed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڕندەیی ڕژێمی پێشوو لەکۆتاییدا ئاشکرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

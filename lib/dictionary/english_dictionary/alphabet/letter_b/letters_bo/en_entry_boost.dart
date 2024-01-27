@@ -279,12 +279,18 @@ class EnglishEntryboost extends StatelessWidget {
 ١. (کردار) زیادکردنی شتێک، یان وای لێ بکەیت باشتر یان سەرکەوتووتر بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie helped boost her screen career."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە کارکردنی لە سینەمادا بەرەو پێش برد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie helped boost her screen career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە کارکردنی لە سینەمادا بەرەو پێش برد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -301,12 +307,18 @@ class EnglishEntryboost extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The total was boosted to nearly £200 by donations from parents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆی گشتی زیادکرا بۆ نزیکەی ٢٠٠ پاوەند بەو بەخشینەی دایک و باوکی دایان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The total was boosted to nearly £200 by donations from parents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆی گشتی زیادکرا بۆ نزیکەی ٢٠٠ پاوەند بەو بەخشینەی دایک و باوکی دایان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -323,12 +335,18 @@ class EnglishEntryboost extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company is looking for ways to boost sales in Asia, its biggest market."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە ھەوڵ دەدات فرۆشتن لە ئاسیادا زیاد بکات کە بەھێزترین بازاڕیەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company is looking for ways to boost sales in Asia, its biggest market."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە ھەوڵ دەدات فرۆشتن لە ئاسیادا زیاد بکات کە بەھێزترین بازاڕیەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -347,12 +365,18 @@ class EnglishEntryboost extends StatelessWidget {
                               text: "٢. (ناو) وەرگرتنی ڤاکسین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More than half of over 18s in the country have now been boosted against Covid."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیاتر لە نیوەی کەسانی سەروو ١٨ ساڵ لە وڵاتەکەدا ڤاکسینیان وەرگرتووە دژ بە کۆرۆنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More than half of over 18s in the country have now been boosted against Covid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە نیوەی کەسانی سەروو ١٨ ساڵ لە وڵاتەکەدا ڤاکسینیان وەرگرتووە دژ بە کۆرۆنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -372,12 +396,18 @@ class EnglishEntryboost extends StatelessWidget {
                                   "٣. (ناو) شتێک کە یارمەتی یان ھانی کەسێک/شتێک دەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tax cuts will give a much needed boost to the economy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمکردنەوەی باج یارمەتیی زۆر پێویست بە ئابووری دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tax cuts will give a much needed boost to the economy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمکردنەوەی باج یارمەتیی زۆر پێویست بە ئابووری دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -394,12 +424,18 @@ class EnglishEntryboost extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Winning the competition was a wonderful boost for her morale."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بردنەوەی پێشبڕکێیەکە ھاندەرێکی باشی ورەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Winning the competition was a wonderful boost for her morale."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بردنەوەی پێشبڕکێیەکە ھاندەرێکی باشی ورەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -418,12 +454,18 @@ class EnglishEntryboost extends StatelessWidget {
                               text: "٤. (ناو) زیادبوون لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Motorists who operate diesel-powered vehicles would face a 1.5-cent-a-gallon boost in fuel taxes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو شۆفێرانەی کە ئامێری گوازەرەوەی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Motorists who operate diesel-powered vehicles would face a 1.5-cent-a-gallon boost in fuel taxes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو شۆفێرانەی کە ئامێری گوازەرەوەی گازوایل بەکاردێنن ڕووبەڕووی ١,٥ سەنت بۆ ھەر گاڵۆنێک باجی سوتەمەنی دەبنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -443,12 +485,18 @@ class EnglishEntryboost extends StatelessWidget {
                                   "٥. (ناو) زیادبوون لە توانای بزوێنەرێک یان ئامێرێکی کارەبایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new software update offers a performance boost."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوێکردنەوەی تازەی نەرمامێرەکە زیادبوونێک لە توانای کارکردن دەبەخشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new software update offers a performance boost."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نوێکردنەوەی تازەی نەرمامێرەکە زیادبوونێک لە توانای کارکردن دەبەخشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

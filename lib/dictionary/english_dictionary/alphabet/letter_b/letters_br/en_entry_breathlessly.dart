@@ -164,12 +164,18 @@ class EnglishEntrybreathlessly extends StatelessWidget {
 ١. (ھاوەڵکار) بە ھەناسەبڕکێ، بەھاسکەھاسک؛ بەشێوەیەک ھەناسەدان توند دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He ran breathlessly into the house and burst into the room without knocking."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ھەناسەبڕکێوە ڕایکردە ماڵەکە و خۆی کرد بە ژوورەکەدا بەبێ لە دەرگادان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He ran breathlessly into the house and burst into the room without knocking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ھەناسەبڕکێوە ڕایکردە ماڵەکە و خۆی کرد بە ژوورەکەدا بەبێ لە دەرگادان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breathlessly" as
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybreathlessly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Inside the tent it was breathlessly hot."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناو خێوەتەکە تەنگەنەفەسکەرانە گەرم بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Inside the tent it was breathlessly hot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناو خێوەتەکە تەنگەنەفەسکەرانە گەرم بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybreathlessly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بەشێوەیەک کە خرۆشاوی و شڵەژاوی زۆری تێدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They waited breathlessly for the arrival of the Prince."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەخرۆشاوییەوە چاوەڕێی گەشتنی شازادەکە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They waited breathlessly for the arrival of the Prince."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخرۆشاوییەوە چاوەڕێی گەشتنی شازادەکە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

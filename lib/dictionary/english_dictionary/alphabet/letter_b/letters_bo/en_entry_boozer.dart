@@ -167,12 +167,18 @@ class EnglishEntryboozer extends StatelessWidget {
 ١. (ناو) مەیخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We decided to meet at the local boozer after work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیارماندا لە مەیخانە لۆکاڵییەکە یەکدی ببینین لە دوای کارکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We decided to meet at the local boozer after work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارماندا لە مەیخانە لۆکاڵییەکە یەکدی ببینین لە دوای کارکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntryboozer extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە دەخواتەوە، بەتایبەتی تا ئاستێکی زۆر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's trying to help her brother, who's become a boozer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵ دەدات یارمەتی براکەی بدات کە بووە بە ئارەق‌خۆرێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's trying to help her brother, who's become a boozer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ دەدات یارمەتی براکەی بدات کە بووە بە ئارەق‌خۆرێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntrybanister extends StatelessWidget {
 ١. (ناو) محەجەرەی پلەکانە کە دەستی پێوە دەگری لە کاتی سەرکەوتن یان دابەزین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The kids were sliding down the banisters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان بەسەر محەجەرەکەدا خلیسکێنەیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The kids were sliding down the banisters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان بەسەر محەجەرەکەدا خلیسکێنەیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

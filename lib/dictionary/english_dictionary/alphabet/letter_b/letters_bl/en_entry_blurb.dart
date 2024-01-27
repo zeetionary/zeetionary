@@ -168,12 +168,18 @@ class EnglishEntryblurb extends StatelessWidget {
 ١. (ناو) کورتە باسێکی کتێبێک، بەرھەمێکی تازە، ھتد کە لەلایەن ئەو کەسانەوە نووسراوە کە بەرھەمیان ھێناوە بۆ ئەوەی سەرنجت ڕابکێشێت یان وات لێ بکات بیکڕیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blurb says that this is Tarantino’s greatest movie."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کورتەباسەکە دەڵێت ئەمە مەزنترین فیلمی تارانتینۆیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blurb says that this is Tarantino’s greatest movie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کورتەباسەکە دەڵێت ئەمە مەزنترین فیلمی تارانتینۆیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntrybackless extends StatelessWidget {
 ١. (ھاوەڵناو) جلێک کە پشتەوە داناپۆشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing a very sexy backless dress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی تەواو سێکسی بێ‌پشتی لەبەرکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was wearing a very sexy backless dress."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلێکی تەواو سێکسی بێ‌پشتی لەبەرکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

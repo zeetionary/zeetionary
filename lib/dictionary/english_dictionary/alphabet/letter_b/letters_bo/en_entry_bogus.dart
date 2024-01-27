@@ -168,12 +168,18 @@ class EnglishEntrybogus extends StatelessWidget {
 ١. (ھاوەڵناو) واپیشاندانی ئەوەی کە ڕاست و درووستە بەڵام وانییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bogus claims of injury by workers are costing companies thousands of pounds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە ھەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bogus claims of injury by workers are costing companies thousands of pounds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانگەشەی درۆی برینداری لەلایەن کرێکارانەوە ھەزاران پاوەند لەسەر کۆمپانیاکان دەکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

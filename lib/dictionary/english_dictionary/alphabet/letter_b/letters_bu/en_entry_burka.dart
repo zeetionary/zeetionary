@@ -211,12 +211,18 @@ class EnglishEntryburka extends StatelessWidget {
 ١. (ناو) بورقە؛ پارچە جلێکی فش و درێژ کە تەواوی جەستە دادەپۆشێت، بە سەر و ڕووخساریشەوە، لە لایەن ژمارەیەک ئافرەتی موسڵمانەوە دەپۆشرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The burka is often associated with cultural and religious practices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The burka is often associated with cultural and religious practices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بورقە زۆرجار دەبەسترێتەوە بە ئادابی ئایینی و کەلتوورییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burka", follow LX strictly
                               Column(
                                 children: [

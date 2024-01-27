@@ -164,11 +164,18 @@ class EnglishEntrybrowbeat extends StatelessWidget {
 ١. (کردار) ترساندن یان ھەڕەشەکردن لە کەسێک بۆ ئەوەی شتێک بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were browbeaten into accepting the offer."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەزۆر ڕازیکران ئۆفەرەکە پەسەند بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were browbeaten into accepting the offer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەزۆر ڕازیکران ئۆفەرەکە پەسەند بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "browbeat" as
                               Column(
                                 children: [

@@ -163,11 +163,18 @@ class EnglishEntrybugbear extends StatelessWidget {
 ١. (ھاوەڵناو) شوتێک کە دەبێتە مایەی نیگەرانی، دڵەڕاوکێ، بێزاری، و ترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Inflation is the government's main bugbear."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەڵاوسان دێوەزمەی سەرەکی حکومەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Inflation is the government's main bugbear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەڵاوسان دێوەزمەی سەرەکی حکومەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bugbear" as
                               Column(
                                 children: [

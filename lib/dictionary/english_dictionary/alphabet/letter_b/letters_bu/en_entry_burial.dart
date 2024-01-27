@@ -213,11 +213,18 @@ class EnglishEntryburial extends StatelessWidget {
 ١. (ناو) کردار یان مەراسیمی ناشتنی جەستەیەکی مردوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her body was sent home for burial."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her body was sent home for burial."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاشەکەی نێردرایەوە ماڵەوە/وڵاتی خۆی بۆ ناشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burial", follow LX strictly
                               Column(
                                 children: [
@@ -234,12 +241,18 @@ class EnglishEntryburial extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His family insisted he should be given a proper burial."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکەی پێداگیربوون لەسەر ئەوەی ناشتنێکی شایستەی بۆ بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His family insisted he should be given a proper burial."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکەی پێداگیربوون لەسەر ئەوەی ناشتنێکی شایستەی بۆ بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

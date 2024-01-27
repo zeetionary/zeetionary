@@ -170,12 +170,18 @@ class EnglishEntrybirthrate extends StatelessWidget {
 ١. (ناو) پێناسەڕێژەی لەدایکبوون لە شوێنێکدا بۆ ھەر ١٠٠٠ کەس لە ساڵێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Educating girls has the effect of lowering birth rates."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی ھەیە ڕێژەی منداڵبوون دادەبەزێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Educating girls has the effect of lowering birth rates."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەروەردە و فێرکردنی کچان کاریگەری ئەوەی ھەیە ڕێژەی منداڵبوون دادەبەزێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

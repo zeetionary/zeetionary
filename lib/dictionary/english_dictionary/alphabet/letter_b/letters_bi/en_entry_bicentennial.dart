@@ -169,12 +169,18 @@ class EnglishEntrybicentennial extends StatelessWidget {
 ١. (ناو) ساڵێک یان ڕۆژێک کە ٢٠٠ ساڵ تێپەڕیوە بەسەر ڕووداوێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A statue was erected to mark the bicentennial of the composer's birth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A statue was erected to mark the bicentennial of the composer's birth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybicentennial extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بەو ساڵە یان ڕۆژە کە ٢٠٠ ساڵ تێپەڕیوە بەسەر ڕووداوێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The city organized a series of bicentennial events throughout the year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارەکە زنجیرەیەک لە ئاھەنگی بۆ دووسەدھەمین ساڵیادی ڕێکخست بەدرێژایی ساڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city organized a series of bicentennial events throughout the year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە زنجیرەیەک لە ئاھەنگی بۆ دووسەدھەمین ساڵیادی ڕێکخست بەدرێژایی ساڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

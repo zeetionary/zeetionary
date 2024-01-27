@@ -164,12 +164,18 @@ class EnglishEntrybrickwork extends StatelessWidget {
 ١. (ناو) ئەو خشتانەی بەکارھێنراون بۆ درووستکردنی بینایەک، دیوارێک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Plaster had fallen away in places, exposing the brickwork."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلاستەر لەملاولا لێبووەوە و خشتەکان دەرکەوتبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Plaster had fallen away in places, exposing the brickwork."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلاستەر لەملاولا لێبووەوە و خشتەکان دەرکەوتبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brickwork" as
                               Column(
                                 children: [

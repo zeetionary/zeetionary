@@ -172,12 +172,18 @@ class EnglishEntryblur extends StatelessWidget {
 ١. (ناو) شتێک کە ناتوانیت بەڕوونی بیبینیت، زۆرجار لەبەرئەوەی زۆر خێرا دەجووڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Everything is a blur when I take my glasses off."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو شت لێڵاییە کە چاویلکەکەم لادەدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everything is a blur when I take my glasses off."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو شت لێڵاییە کە چاویلکەکەم لادەدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryblur extends StatelessWidget {
                                   "٢. (ناو) شتێک کە بە ڕوونی بیرت ناکەوێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The events of that day were just a blur."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوەکانی ئەو ڕۆژە یادەوەری ناڕوون بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The events of that day were just a blur."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکانی ئەو ڕۆژە یادەوەری ناڕوون بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntryblur extends StatelessWidget {
                           const DefinitionKurdish(text: "٣. (کردار) تەڵخبوون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As she drifted into sleep, the doctor's face began to blur and fade."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە دەستیکرد بە بێھۆشکەوتن، ڕووخساری پزیشکەکە دەستیکرد بە تەڵخبوون و نەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As she drifted into sleep, the doctor's face began to blur and fade."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە دەستیکرد بە بێھۆشکەوتن، ڕووخساری پزیشکەکە دەستیکرد بە تەڵخبوون و نەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,10 +262,16 @@ class EnglishEntryblur extends StatelessWidget {
                               text: "٤. (کردار) نەبوونی توانای بینین بە ڕوونی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tears blurred her eyes."),
-                              const ExampleSentenceKurdish(
-                                  text: "فرمێسک چاوی تەڵخ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Tears blurred her eyes."),
+                                    ExampleSentenceKurdish(
+                                        text: "فرمێسک چاوی تەڵخ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +291,18 @@ class EnglishEntryblur extends StatelessWidget {
                                   "٥. (کردار) وابکەیت دوو شت زۆر لێکبچن، یان دوو شت وایان لێ بێت جیاوازییان نەمێنێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The differences between art and life seem to have blurred."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جیاوازی نێوان ھونەر و ژیان وا دەردەکەوێت کە کەمبووبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The differences between art and life seem to have blurred."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیاوازی نێوان ھونەر و ژیان وا دەردەکەوێت کە کەمبووبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +319,18 @@ class EnglishEntryblur extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She tends to blur the distinction between her friends and her colleagues."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزدەکات جیاوازی لە نێوان ھاوڕێکانی و ھاوکارەکانی پیشان نەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She tends to blur the distinction between her friends and her colleagues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزدەکات جیاوازی لە نێوان ھاوڕێکانی و ھاوکارەکانی پیشان نەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -162,10 +162,18 @@ class EnglishEntrybronzemedal extends StatelessWidget {
 ١. (ناو) نیشان یان میداڵی مەفرەخ؛ خەڵاتێکە بۆ کەسی سێیەم لە پێشبڕکێیەکدا)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She won (a) bronze at the Olympics."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She won (a) bronze at the Olympics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئۆڵۆمپیاددا خەڵاتی برۆنزی بردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bronze medal" as
                               Column(
                                 children: [

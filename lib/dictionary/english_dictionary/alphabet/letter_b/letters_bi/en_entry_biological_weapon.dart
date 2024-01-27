@@ -172,12 +172,18 @@ class EnglishEntrybiologicalweapon extends StatelessWidget {
 ١. (ناو) چەکێکی جەنگی کە نەخۆشی بڵاودەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک ڕاپۆرت بانگەشەی ئەوە دەکەن کە حکومەتی چین ڤایرۆسی کۆرۆنای وەک چەکێکی بایۆلۆژی درووستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some reports claim the Chinese government deliberately created the corona virus as a biological weapon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک ڕاپۆرت بانگەشەی ئەوە دەکەن کە حکومەتی چین ڤایرۆسی کۆرۆنای وەک چەکێکی بایۆلۆژی درووستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

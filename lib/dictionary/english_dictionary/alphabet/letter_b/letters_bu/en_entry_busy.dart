@@ -221,10 +221,16 @@ class EnglishEntrybusy extends StatelessWidget {
 ١. (ھاوەڵناو) سەرقاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Are you busy tonight?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمشەو سەرقاڵیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Are you busy tonight?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەمشەو سەرقاڵیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "busy", follow LX strictly
                               Column(
                                 children: [
@@ -241,10 +247,17 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The principal is a very busy woman."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەڕێوبەرەکە ژنێکی زۆر سەرقاڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The principal is a very busy woman."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەڕێوبەرەکە ژنێکی زۆر سەرقاڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +277,18 @@ class EnglishEntrybusy extends StatelessWidget {
                                   "٢. (ھاوەڵناو) پێدانی تەواوی سەرنجت بە چالاکییەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were busy enjoying themselves at the party."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرقاڵبوون بە چێژوەرگرتن لە ئاهەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were busy enjoying themselves at the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرقاڵبوون بە چێژوەرگرتن لە ئاهەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,10 +305,16 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Kate's busy with her homework."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەیت سەرقاڵە بە ئەرکی ماڵەوەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Kate's busy with her homework."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەیت سەرقاڵە بە ئەرکی ماڵەوەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -308,10 +333,16 @@ class EnglishEntrybusy extends StatelessWidget {
                               text: "٣. (ناو) پڕ لە کار و چالاکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Have you had a busy day?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕۆژێکی پڕکارت بوو؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Have you had a busy day?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕۆژێکی پڕکارت بوو؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -328,10 +359,17 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We've got a busy week ahead of us."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەفتەیەکی پڕجم‌وجۆڵمان لەپێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've got a busy week ahead of us."),
+                                    ExampleSentenceKurdish(
+                                        text: "هەفتەیەکی پڕجم‌وجۆڵمان لەپێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -351,12 +389,18 @@ class EnglishEntrybusy extends StatelessWidget {
                                   "٤. (ھاوەڵناو) شوێنێک کە پڕ لە چالاکی، خەڵک، ئۆتۆمبێل، هتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The place gets very busy at lunchtimes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێنەکە لەکاتی نانخواردندا زۆر قەرەباڵخ دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The place gets very busy at lunchtimes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێنەکە لەکاتی نانخواردندا زۆر قەرەباڵخ دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -373,12 +417,18 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have to cross a busy main road to get to school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت بە شەقامێکی سەرەکیی زۆر قەرەباڵخدا تێپەڕین بۆ گەشتن بە قوتابخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have to cross a busy main road to get to school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت بە شەقامێکی سەرەکیی زۆر قەرەباڵخدا تێپەڕین بۆ گەشتن بە قوتابخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,12 +448,18 @@ class EnglishEntrybusy extends StatelessWidget {
                                   "٥. (ھاوەڵناو) هێڵێکی پەیوەندی کە پەیوەندی تری لەگەڵدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The line is busy—I'll try again later."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هێڵەکە گیراوە، دواتر پەیوەندی دەکەمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The line is busy—I'll try again later."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هێڵەکە گیراوە، دواتر پەیوەندی دەکەمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -423,12 +479,18 @@ class EnglishEntrybusy extends StatelessWidget {
                                   "٦. (ناو) دیزاینێک یان نەخشێک کە پڕ لە وردەکارییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This wallpaper is too busy for the bedroom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم وێنەیە زۆر پڕوردەکارییە بۆ ژووری خەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This wallpaper is too busy for the bedroom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم وێنەیە زۆر پڕوردەکارییە بۆ ژووری خەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -447,12 +509,18 @@ class EnglishEntrybusy extends StatelessWidget {
                               text: "٧. (کردار) خۆسەرقاڵکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She busied herself with the preparations for the party."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی سەرقاڵکرد بە ئامادەکاری بۆ ئاهەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She busied herself with the preparations for the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی سەرقاڵکرد بە ئامادەکاری بۆ ئاهەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -469,12 +537,18 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "While we talked, Bill busied himself fixing lunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە قسەمان کرد، بیڵ خۆی سەرقاڵ کرد بە ئامادەکردنی نانی نیوەڕۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "While we talked, Bill busied himself fixing lunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە قسەمان کرد، بیڵ خۆی سەرقاڵ کرد بە ئامادەکردنی نانی نیوەڕۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntrybin extends StatelessWidget {
 ١. (ناو) تەنەکەی زباڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Put the bottles in the recycling bin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put the bottles in the recycling bin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوتڵەکان بخە تەنەکەی دووبارە بەکارھێنانەوەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybin extends StatelessWidget {
 ٢. (ناو) جێگەیەک کە سەرێکی ھەیە و شتی تێدەخەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All their toys are kept in plastic storage bins under the bed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لەژێر جێخەوەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All their toys are kept in plastic storage bins under the bed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو یارییە منداڵانەکانیان ھەڵدەگیرێن لە سندووقی پلاستیکی لەژێر جێخەوەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

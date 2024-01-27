@@ -169,12 +169,18 @@ class EnglishEntrybacterial extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بەکتریا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My sore throat came from a bacterial infection."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My sore throat came from a bacterial infection."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

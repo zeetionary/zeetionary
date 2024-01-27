@@ -166,12 +166,18 @@ class EnglishEntryblueblooded extends StatelessWidget {
 ١. (ھاوەڵناو) کەسانی پلە باڵا و خانەدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wrote a novel about the secret lives of the blue-blooded elite."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆمانێکی نووسی دەربارەی ژیانی نھێنیی کەسانی پلە باڵا و خانەدان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wrote a novel about the secret lives of the blue-blooded elite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆمانێکی نووسی دەربارەی ژیانی نھێنیی کەسانی پلە باڵا و خانەدان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

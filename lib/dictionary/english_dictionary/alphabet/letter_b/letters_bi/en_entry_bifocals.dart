@@ -168,10 +168,17 @@ class EnglishEntrybifocals extends StatelessWidget {
 ١. (ناو) چاویلکەیەک کە ھەر ھاوێنەیەکی لە دوو بەش پێکھاتووە. بەشی سەرەوە بۆ بینینی شتی دوورە و بەشی خوارەوەش بۆ بینینی شتی نزیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He peered through his bifocals."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە چاویلکەکەیەوە وردبوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He peered through his bifocals."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە چاویلکەکەیەوە وردبوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -219,12 +219,18 @@ class EnglishEntrybang extends StatelessWidget {
 ١. (کردار) لێدان لە شتێک بەشێوەیەک کە دەنگێکی بەرز درووست بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baby was banging the table with his spoon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە بە کەوچکەکەی زرمەی ھەڵساندبوو لە مێزەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baby was banging the table with his spoon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە بە کەوچکەکەی زرمەی ھەڵساندبوو لە مێزەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,10 +252,16 @@ class EnglishEntrybang extends StatelessWidget {
 ٢. (کردار) گرتنی شتێک بە دەنگێکی بەرزەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She banged the door shut."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەرگاکەی بەتوندی قەپاتکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She banged the door shut."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەرگاکەی بەتوندی قەپاتکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -271,12 +283,18 @@ class EnglishEntrybang extends StatelessWidget {
 ٣. (کردار) دانانی شتێک لە شوێنێک بە توندی و لەناکاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He kept banging his chair against the wall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەردەوام بوو لە کێشانی کورسییەکە بە دیوارەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He kept banging his chair against the wall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەردەوام بوو لە کێشانی کورسییەکە بە دیوارەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -298,11 +316,18 @@ class EnglishEntrybang extends StatelessWidget {
 ٤. (کردار) کێشانی شتێک، زۆرجار ئەندامێکی جەستە، بە شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She tripped and banged her knee on the desk."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێی ھەڵکەوت و چۆکی کێشا بە مێزەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She tripped and banged her knee on the desk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێی ھەڵکەوت و چۆکی کێشا بە مێزەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -324,12 +349,18 @@ class EnglishEntrybang extends StatelessWidget {
 ٥. (کردار) کردنی سێکس لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had banged a ton of guys by the time she was 25."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێکسی لەگەڵ یەک دونیا پیاو کردبوو کە تەمەنی ٢٥ ساڵان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had banged a ton of guys by the time she was 25."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێکسی لەگەڵ یەک دونیا پیاو کردبوو کە تەمەنی ٢٥ ساڵان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -351,10 +382,18 @@ class EnglishEntrybang extends StatelessWidget {
 ٦. (ناو) دەنگێکی بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The door swung shut with a bang."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەرگاکە بە زرمیەکەوە قەپات بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The door swung shut with a bang."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرگاکە بە زرمیەکەوە قەپات بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -376,12 +415,18 @@ class EnglishEntrybang extends StatelessWidget {
 ٧. (ناو) لێدانێکی توند لەسەر جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think she must have got a bang on the head."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم‌وایە دەبێت شتێک کێشابێتی بەسەریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think she must have got a bang on the head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌وایە دەبێت شتێک کێشابێتی بەسەریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -403,10 +448,17 @@ class EnglishEntrybang extends StatelessWidget {
 ٨. (ناو) پەرچەمی قژ؛ بەشی پێشەوە کە شۆڕ دەبێتەوە بۆ ناوچاوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She blew her bangs out of her face."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەرچەمی لەسەر ڕووخساری لادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She blew her bangs out of her face."),
+                                    ExampleSentenceKurdish(
+                                        text: "پەرچەمی لەسەر ڕووخساری لادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -428,11 +480,18 @@ class EnglishEntrybang extends StatelessWidget {
 ٩. (ھاوەڵکار) بە تەواوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My estimate was bang on target."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My estimate was bang on target."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -454,12 +513,18 @@ class EnglishEntrybang extends StatelessWidget {
 ١٠. (سەرسوڕمان) بەکاردێت بۆ ئاماژە بە دەنگێکی بەرز، بۆ نموونە دەنگی فیشەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە منداڵە بچووکەکە چەکێکی پلاستیکی ڕووم تێکردبوو وتی 'تەق تەق، تۆ مردووی'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'Bang! Bang! You're dead!' said the child, pointing a plastic gun at me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە منداڵە بچووکەکە چەکێکی پلاستیکی ڕووم تێکردبوو وتی 'تەق تەق، تۆ مردووی'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

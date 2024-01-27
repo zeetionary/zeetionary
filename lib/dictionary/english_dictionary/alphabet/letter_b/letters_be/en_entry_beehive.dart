@@ -171,12 +171,18 @@ class EnglishEntrybeehive extends StatelessWidget {
 ١. (ناو) شوێنی ژیانی ھەنگ کە درووست دەکرێت لە شێوەی سندووقێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children watched the beekeeper carefully remove the honey from the beehive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان سەیری ھەنگەوانەکەیان دەکرد کە بە وریاییەوە ھەنگوینەکەی لە کەلووەکە دەردەھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children watched the beekeeper carefully remove the honey from the beehive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان سەیری ھەنگەوانەکەیان دەکرد کە بە وریاییەوە ھەنگوینەکەی لە کەلووەکە دەردەھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,18 @@ class EnglishEntrybeehive extends StatelessWidget {
 ٢. (ناو) ستایلێکی قژ کە لە ساڵانی ١٩٦٠ ەکان بەربڵاو بوو بەشێوەیەک کە قژ تۆپەڵ دەکرێت لەسەر سەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She styled her hair in a beehive for the party."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ ئاھەنگەکە قژی بە کەلوویی داھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She styled her hair in a beehive for the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ئاھەنگەکە قژی بە کەلوویی داھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

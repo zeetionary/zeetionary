@@ -168,12 +168,18 @@ class EnglishEntrybonemarrow extends StatelessWidget {
 ١. (ناو) مادەیەکی نەرم کە بۆشاییەکانی ئێسک پڕدەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bone marrow transplant can be risky."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاندنی مۆخی ئێسک دەکرێت مەترسیدار بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bone marrow transplant can be risky."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاندنی مۆخی ئێسک دەکرێت مەترسیدار بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

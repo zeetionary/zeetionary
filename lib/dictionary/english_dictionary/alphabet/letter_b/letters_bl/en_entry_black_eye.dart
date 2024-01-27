@@ -168,12 +168,18 @@ class EnglishEntryblackeye extends StatelessWidget {
 ١. (ناو) ناوچەیەکی دەوری چاو کە شیندەبێتەوە لە کاتی لێدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had a fight at school and came home with a black eye."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە قوتابخانە شەڕی کرد و چاوی کرا بە قۆخ (لێیدرا و چاوی شینکرایەوە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had a fight at school and came home with a black eye."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە قوتابخانە شەڕی کرد و چاوی کرا بە قۆخ (لێیدرا و چاوی شینکرایەوە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

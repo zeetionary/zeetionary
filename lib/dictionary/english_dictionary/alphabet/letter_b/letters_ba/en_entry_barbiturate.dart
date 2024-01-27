@@ -163,12 +163,18 @@ class EnglishEntrybarbiturate extends StatelessWidget {
 ١. (ناو) مادەیەکی بەھێز کە ئارامت دەکاتەوە و دواتر ھۆش لەدەست دەدەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He died from an overdose of barbiturates."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھۆی ڕێژەیەکی زۆری مادەی بێھۆشکەرەوە مرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He died from an overdose of barbiturates."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھۆی ڕێژەیەکی زۆری مادەی بێھۆشکەرەوە مرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

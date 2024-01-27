@@ -172,11 +172,18 @@ class EnglishEntrybeggar extends StatelessWidget {
 ١. (ناو) کەسێک کە لەسەر شەقامەکان داوای پارە و شت دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The rich man waved the beggar away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوە دەوڵەمەندەکە دەستی ڕاوەشاند بۆ سواڵکەرەکە کە دووربکەوێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rich man waved the beggar away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوە دەوڵەمەندەکە دەستی ڕاوەشاند بۆ سواڵکەرەکە کە دووربکەوێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +203,18 @@ class EnglishEntrybeggar extends StatelessWidget {
 ٢. (ناو) بەکاردێت لەگەڵ ھاوەڵناو بۆ باسکردنی کەسێک بەشێوەیەکی تایبەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Aren't you dressed yet, you lazy beggar?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێشتا خۆت نەپۆشیوە، تەمەڵی تەوەزەل؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Aren't you dressed yet, you lazy beggar?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا خۆت نەپۆشیوە، تەمەڵی تەوەزەل؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,10 +234,17 @@ class EnglishEntrybeggar extends StatelessWidget {
 ٣. (کردار) وا لە کەسێک بکەیت زۆر ھەژار بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Why should I beggar myself for you?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆچی خۆم نەدار بکەم بۆ تۆ؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Why should I beggar myself for you?"),
+                                    ExampleSentenceKurdish(
+                                        text: "بۆچی خۆم نەدار بکەم بۆ تۆ؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

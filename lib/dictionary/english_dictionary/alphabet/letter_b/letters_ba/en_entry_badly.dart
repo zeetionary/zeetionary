@@ -243,11 +243,17 @@ class EnglishEntrybadly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی نەشارەزایانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The event was really badly organized."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The event was really badly organized."),
+                                    ExampleSentenceKurdish(
+                                        text: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +275,17 @@ class EnglishEntrybadly extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە سەرکەوتوو نەبووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Things have been going badly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Things have been going badly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -295,10 +307,17 @@ class EnglishEntrybadly extends StatelessWidget {
 ٣. (ھاوەڵکار) بەشێوەیەک کە گونجاو نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I think he behaved very badly."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێموایە کە زۆر ناشرین ڕەفتاری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I think he behaved very badly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێموایە کە زۆر ناشرین ڕەفتاری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -318,10 +337,18 @@ class EnglishEntrybadly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I think he was treated very badly."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think he was treated very badly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -341,12 +368,18 @@ class EnglishEntrybadly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The kids took the dog's death very badly (= they were very unhappy)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The kids took the dog's death very badly (= they were very unhappy)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -368,12 +401,18 @@ class EnglishEntrybadly extends StatelessWidget {
 ٤. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لە دژواری دۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The country has been badly affected by recession."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The country has been badly affected by recession."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -395,12 +434,18 @@ class EnglishEntrybadly extends StatelessWidget {
 ٥. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی کارێک دەبێت ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The building is badly in need of repair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The building is badly in need of repair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -422,12 +467,18 @@ class EnglishEntrybadly extends StatelessWidget {
 ٦. (ھاوەڵکار) بەشێوەیەک کە وادەکات کاریگەری نەرێنی لەسەر بۆچوونی خەڵکی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The economic crisis reflects badly on the government's policies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The economic crisis reflects badly on the government's policies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -449,12 +500,18 @@ class EnglishEntrybadly extends StatelessWidget {
 ٧. (ھاوەڵکار) ھەستکردن بە داخ یان شەرمەزاری سەبارەت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt badly about what she had done."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt badly about what she had done."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -213,12 +213,18 @@ class EnglishEntrybusily extends StatelessWidget {
 ١. (ھاوەڵکار) بەسەربردنی کاتێکی زۆر بە شتێکەوە کە پێویستی بە تەواوی سەرنجتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was busily engaged repairing his bike."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was busily engaged repairing his bike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێ‌وچان خەریک بوو بە چاککردنەوەی پاسکیلەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "busily", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrybusily extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was busily preparing for their arrival."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سەرقاڵییەوە ئامادەکاریم بۆ گەشتنیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was busily preparing for their arrival."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سەرقاڵییەوە ئامادەکاریم بۆ گەشتنیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

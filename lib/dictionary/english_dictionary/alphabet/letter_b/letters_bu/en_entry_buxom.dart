@@ -212,12 +212,18 @@ class EnglishEntrybuxom extends StatelessWidget {
 ١. (ھاوەڵناو) گەورە بەشێوەیەکی جوان و لەگەڵ مەمکی گەورەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Renaissance art often featured buxom women."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Renaissance art often featured buxom women."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buxom", follow LX strictly
                               Column(
                                 children: [

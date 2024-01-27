@@ -354,9 +354,15 @@ class EnglishEntrybrother extends StatelessWidget {
 ١. (ناو) کوڕێک یان پیاوێک کە ھەمان دایک و باوکی کەسێکی تری ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We're brothers."),
-                              const ExampleSentenceKurdish(text: "ئێمە براین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We're brothers."),
+                                    ExampleSentenceKurdish(text: "ئێمە براین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brother" as
                               Column(
                                 children: [
@@ -373,9 +379,15 @@ class EnglishEntrybrother extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's my brother."),
-                              const ExampleSentenceKurdish(text: "ئەو برامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's my brother."),
+                                    ExampleSentenceKurdish(text: "ئەو برامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,7 +410,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Does she have any brothers and sisters?"),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "ھیچ برا و خوشکی ھەیە؟"),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -421,7 +433,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Edward was the youngest of the Kennedy brothers."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئێدوارد بچووکترین بوو لەناو براکانی خێزانی کەنەدیدا."),
                                       const CustomSizedBoxForTTS(),
@@ -445,7 +457,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He was like a brother to me (= very close)."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text: "وەک برا وابوو بۆم."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -468,7 +480,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "My son really wanted a little brother."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "کوڕەکەم زۆر حەزی لە برایەکی بچووک بوو."),
                                       const CustomSizedBoxForTTS(),
@@ -492,7 +504,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Henry VIII married the wife of his late brother."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھێنری ھەشتەم ژنی برا کۆچکردووەکەی خواست."),
                                       const CustomSizedBoxForTTS(),
@@ -520,10 +532,17 @@ class EnglishEntrybrother extends StatelessWidget {
                                   "٢. (ناو) پیاوانی دامەزراوەیەک یان پیاوانێک کە ھەمان باوەڕ و بیرۆکەیان ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We must work together, brothers!"),
-                              const ExampleSentenceKurdish(
-                                  text: "برایان، دەبێت پێکەوە کاربکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must work together, brothers!"),
+                                    ExampleSentenceKurdish(
+                                        text: "برایان، دەبێت پێکەوە کاربکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -540,12 +559,18 @@ class EnglishEntrybrother extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are all brothers in the fight against injustice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموومان برای یەکین لە شەڕی دژ بە نادادیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are all brothers in the fight against injustice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموومان برای یەکین لە شەڕی دژ بە نادادیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -562,11 +587,18 @@ class EnglishEntrybrother extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We must support our weaker brethren."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت پشتگیری برا لاوازەکانمان بکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must support our weaker brethren."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت پشتگیری برا لاوازەکانمان بکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -586,12 +618,18 @@ class EnglishEntrybrother extends StatelessWidget {
                                   "٣. (ناو) پیاوانی گرووپێکی ئاینی، بەتایبەتی ڕەبەنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Brethren meet regularly for prayer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندامەکان زووزوو یەکیان دەدی بۆ نزاکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Brethren meet regularly for prayer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامەکان زووزوو یەکیان دەدی بۆ نزاکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -610,8 +648,14 @@ class EnglishEntrybrother extends StatelessWidget {
                               text: "٤. (سەرسوڕمان) بۆ دەبڕینی بێزاری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(text: "Oh brother!"),
-                              const ExampleSentenceKurdish(text: "ئەھ برا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(text: "Oh brother!"),
+                                    ExampleSentenceKurdish(text: "ئەھ برا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

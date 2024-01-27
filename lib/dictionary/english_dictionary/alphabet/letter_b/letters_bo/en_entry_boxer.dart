@@ -166,12 +166,18 @@ class EnglishEntryboxer extends StatelessWidget {
 ١. (ناو) کەسێک کە شەڕەمشت دەکات، بە تایبەتی وەک پیشەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a heavyweight before he became an actor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەڕەمشت‌کارێک بوو پێش ئەوەی ببێت بە ئەکتەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a heavyweight before he became an actor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەڕەمشت‌کارێک بوو پێش ئەوەی ببێت بە ئەکتەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntrybatteringram extends StatelessWidget {
 ١. (ھاوەڵناو) پارچە دارێکی گەورە کە لە کۆندا بەکاردەھات بۆ شکاندنی دەرگا و دیوار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The besiegers used a battering ram to breach the castle walls."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئابڵووقەدەران دەرگاشکێنێکیان بەکارھێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The besiegers used a battering ram to breach the castle walls."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئابڵووقەدەران دەرگاشکێنێکیان بەکارھێنا بۆ قڵشکردنە دیوارەکانی قەڵاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

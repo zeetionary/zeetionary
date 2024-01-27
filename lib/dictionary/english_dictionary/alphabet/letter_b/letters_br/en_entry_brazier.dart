@@ -166,12 +166,18 @@ class EnglishEntrybrazier extends StatelessWidget {
 ١. (ناو) ئاگردانێک کە بەکاردێت وەک گەرمکەرەوە یان بۆ خواردن درووستکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stood warming his hands by the brazier."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستابوو دەستی گەرم دەکردەوە لای ئاگردانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stood warming his hands by the brazier."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستابوو دەستی گەرم دەکردەوە لای ئاگردانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

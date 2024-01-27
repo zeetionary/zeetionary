@@ -164,12 +164,18 @@ class EnglishEntrybullock extends StatelessWidget {
 ١. (ناو) نێرەگایەکی بچووک کە خەسێندراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Farmers use bullocks for plowing fields."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیاران گوێرەکەی یەختە بەکاردێنن بۆ کێڵانی کێڵگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Farmers use bullocks for plowing fields."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیاران گوێرەکەی یەختە بەکاردێنن بۆ کێڵانی کێڵگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullock", follow LX strictly
                               Column(
                                 children: [

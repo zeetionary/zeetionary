@@ -169,12 +169,18 @@ class EnglishEntryboobytrap extends StatelessWidget {
 ١. (ناو) بۆمبێک کە دەتەقێتەوە کاتێک ئەو شتەی پێەوە پەیوەستکراوە دەستی لێدەدرێت، یان شتێک کە بۆ گاڵتە دانراوە، بۆ نموونە شتێک لەسەر دەرگایەک کە دەکەوێت بەسەر ئەو کەسەی دەرگاکە دەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Nobody went near the abandoned car in case it was a booby trap."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێھێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nobody went near the abandoned car in case it was a booby trap."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەس نەیوێرا بچێت بە دەوری ئۆتۆمبێلە جێھێكدراوەکەدا نەوەک تەقینەوەیەکی داڕێژراو بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryboobytrap extends StatelessWidget {
                                   "٢. (کردار) نانەوەی تەڵە یان چاندنی تەقەمەنی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police discovered that the car was booby-trapped."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس زانی ئۆتۆمبێلەکە بە بۆمب چێنرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police discovered that the car was booby-trapped."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس زانی ئۆتۆمبێلەکە بە بۆمب چێنرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

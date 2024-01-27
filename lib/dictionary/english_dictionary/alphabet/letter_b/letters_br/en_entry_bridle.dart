@@ -166,12 +166,18 @@ class EnglishEntrybridle extends StatelessWidget {
 ١. (ناو) ژمارەیەک لەتە پەڕۆ کە لە جڵەوی ملی ئەسپێک دەبەسترێت لە سەری ئەسپدا بۆ کۆنترۆڵکردنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She held his stirrup for him while Adam took the bridle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She held his stirrup for him while Adam took the bridle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچەکە ئاوزەنگەکەی بۆ گرتبوو لەکاتێکدا ئادەم ھەوسارەکەی بۆ گرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bridle" as
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybridle extends StatelessWidget {
                                   "٢. (کردار) دانانی ھەوسار لە دەوری سەری ئەسپ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Polly saddled and bridled her favourite horse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆڵی زین و ھەوساری لە ئەسپی دڵخوازی پۆشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Polly saddled and bridled her favourite horse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆڵی زین و ھەوساری لە ئەسپی دڵخوازی پۆشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntrybridle extends StatelessWidget {
                               text: "٣. (کردار) تووڕەبوونی لەناکاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bridled at the suggestion that she was lying."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووڕەبوو بەو بۆچوونەی کە کچەکە درۆی کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bridled at the suggestion that she was lying."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووڕەبوو بەو بۆچوونەی کە کچەکە درۆی کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

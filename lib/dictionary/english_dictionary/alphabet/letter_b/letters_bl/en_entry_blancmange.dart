@@ -166,12 +166,18 @@ class EnglishEntryblancmange extends StatelessWidget {
 ١. (ناو) شیرینییەک کە شێوەی لە جەلی دەچێت و بە شیر درووست دەکرێت لەگەڵ میوەدا کە تامی پێدەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Traditional English blancmange recipes include milk, sugar, and vanilla for flavor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەچەتەی کۆنی ئینگلیز بۆ بلەمانژ شیر و شەکر و ڤانێلا بۆ تام لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Traditional English blancmange recipes include milk, sugar, and vanilla for flavor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەچەتەی کۆنی ئینگلیز بۆ بلەمانژ شیر و شەکر و ڤانێلا بۆ تام لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

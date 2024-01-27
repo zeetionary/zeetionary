@@ -213,12 +213,18 @@ class EnglishEntrybuttress extends StatelessWidget {
 ١. (ناو) پێکهاتەیەک کە لە بەرد یان خشت درووستکراوە بۆ ڕاگرتنی دیوارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was necessary to strengthen the building with large external buttresses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرنگ بوو بیناکە بەهێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was necessary to strengthen the building with large external buttresses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرنگ بوو بیناکە بەهێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buttress", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrybuttress extends StatelessWidget {
                                   "٢. (کردار) پشتگیری یان وزە دان بە کەسێک/شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sharp increase in crime seems to buttress the argument for more police officers on the street."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی زۆری زیادبوونی تاوان پشتگیری دەدات بەو بۆچوونەی کە دەبێت پۆلیسی زیاتر لەسەر شەقام بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sharp increase in crime seems to buttress the argument for more police officers on the street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی زۆری زیادبوونی تاوان پشتگیری دەدات بەو بۆچوونەی کە دەبێت پۆلیسی زیاتر لەسەر شەقام بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

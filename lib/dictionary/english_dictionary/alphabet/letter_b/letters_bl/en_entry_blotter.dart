@@ -169,12 +169,18 @@ class EnglishEntryblotter extends StatelessWidget {
 ١. (ھاوەڵناو) پارچەیەکی گەورە لە وشککەرەوە کە لایەکی توند و جیڕە و بەکاردێت بۆ ھەڵمژینی مەرەکەب، زۆرجار لەسەر مێزێک دادەنرێت بۆ پاراستنی لە کاتی نووسیندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She kept a fresh blotter on her desk."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوھەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She kept a fresh blotter on her desk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوھەڵچنەیەکی پاکی لەسەر مێزەکەی دادەنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryblotter extends StatelessWidget {
                                   "٢. (ناو) تۆماری دەستگیرکردنەکان لەلایەن پۆلیسەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police officer updated the blotter with new incidents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەرەکە تۆمارەکەی نوێکردەوە بۆ زیادکردنی ڕووداوە تازەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police officer updated the blotter with new incidents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەفسەرەکە تۆمارەکەی نوێکردەوە بۆ زیادکردنی ڕووداوە تازەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,12 +166,18 @@ class EnglishEntryboozeup extends StatelessWidget {
 ١. (ناو) بۆنەیەک کە خەڵکی تێیدا ڕێژەیەکی زۆر خواردنەوە دەخۆنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The women organized a booze-up to forget all about family business for a day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی ھەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The women organized a booze-up to forget all about family business for a day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنەکان بۆنەیەکی خواردنەوەیان ڕێکخست بۆ لەبیرکردنی ھەموو شتێک دەربارەی کاری خێزانییان بۆ یەک ڕۆژ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

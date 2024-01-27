@@ -171,11 +171,18 @@ class EnglishEntryblossom extends StatelessWidget {
 ١. (ناو) گوڵێک یان ژۆمەڵە گوڵێک، بەتایبەتی لەسەر رووەکێک کە میوە دەگرێت یان بنجدارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She loved the spring, when the blossom was out."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزی لە بەھار بوو کە گوڵ بەدەرەوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She loved the spring, when the blossom was out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی لە بەھار بوو کە گوڵ بەدەرەوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntryblossom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hopefully the tree will produce some blossom next year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ھیواوە دارەکە ھەندێک بەردەگرێت ساڵی داھاتوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hopefully the tree will produce some blossom next year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ھیواوە دارەکە ھەندێک بەردەگرێت ساڵی داھاتوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +229,18 @@ class EnglishEntryblossom extends StatelessWidget {
                               text: "٢. (کردار) بەرگرتنی دارێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cherry trees blossomed early this year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دار گێلاسەکان سەرەتای ئەمساڵ بەریان گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cherry trees blossomed early this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دار گێلاسەکان سەرەتای ئەمساڵ بەریان گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntryblossom extends StatelessWidget {
                               text: "٣. (کردار) تەندرووست یان دڵخۆش بوون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has visibly blossomed over the last few months."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیار بوو لە ماوەی چەند مانگی ڕابردوودا ھۆشی کردبووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has visibly blossomed over the last few months."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیار بوو لە ماوەی چەند مانگی ڕابردوودا ھۆشی کردبووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

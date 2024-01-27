@@ -167,11 +167,18 @@ class EnglishEntrybrass extends StatelessWidget {
 ١. (ناو) کانزایەکی ڕۆشنی زەرد کە لە مس و زینک درووست بووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The door handles were made of brass."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەسکەکانی دەرگاکە لە مسی زەرد درووستکرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The door handles were made of brass."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەسکەکانی دەرگاکە لە مسی زەرد درووستکرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +198,18 @@ class EnglishEntrybrass extends StatelessWidget {
                                   "٢. (ناو) ئەو ئامێرە میوزیکیانەی لە مسی درووستکراون، یان ئەو کەسانەی دەیانژەنن لە ئۆرکێسترایەک یان باندێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The brass seems to me to be too loud in this recording."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەم تۆمارەدا ئامێرە میوزیکییەکان وادەردەکەون دەنگیان زۆر بەرز بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The brass seems to me to be too loud in this recording."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەم تۆمارەدا ئامێرە میوزیکییەکان وادەردەکەون دەنگیان زۆر بەرز بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

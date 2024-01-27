@@ -167,12 +167,18 @@ class EnglishEntrybrook extends StatelessWidget {
 ١. (ناو) ڕووبارێکی بچووک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We'll have to cross the brook to get to the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We'll have to cross the brook to get to the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت لە جۆگەکە بپەڕینەوە بۆ ئەوەی بگەین بە ڕێگاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brook" as
                               Column(
                                 children: [
@@ -189,10 +195,18 @@ class EnglishEntrybrook extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The road goes over a small brook."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێگاکە بەسەر جۆگەیەکی بچووکدا دەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road goes over a small brook."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە بەسەر جۆگەیەکی بچووکدا دەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +225,18 @@ class EnglishEntrybrook extends StatelessWidget {
                               text: "٢. (کردار) ڕێگەنەدان بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tone in his voice brooked no argument."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆنی قسەکردنی ھیچ ڕێگەی بە ناڕەزایی دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tone in his voice brooked no argument."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆنی قسەکردنی ھیچ ڕێگەی بە ناڕەزایی دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +253,18 @@ class EnglishEntrybrook extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She would brook no criticism of her son."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگەی بە ھیچ سەرزەنشتێکی کوڕەکەی نەدەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She would brook no criticism of her son."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگەی بە ھیچ سەرزەنشتێکی کوڕەکەی نەدەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

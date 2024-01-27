@@ -164,11 +164,18 @@ class EnglishEntrybugler extends StatelessWidget {
 ١. (ناو) کەسێک کە زوڕنایەک لێدەدات کە لەلایەن سوپاوە بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A bugler sounded the wake-up call."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەیپوورژەنێک زوڕنای لە خەوهەستانی لێدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bugler sounded the wake-up call."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەیپوورژەنێک زوڕنای لە خەوهەستانی لێدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bugler", follow LX strictly
                               Column(
                                 children: [

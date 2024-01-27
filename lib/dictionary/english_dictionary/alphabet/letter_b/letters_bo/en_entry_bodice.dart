@@ -168,12 +168,18 @@ class EnglishEntrybodice extends StatelessWidget {
 ١. (ناو) بەشی سەرەوەی جلی ژنانە، لە کەمەرەوە بۆ مل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing a ballgown with a fitted bodice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی ئاھەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was wearing a ballgown with a fitted bodice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلێکی ئاھەنگی لەبەرکردبوو کە مەمک‌بەندێکی پڕبەبەری ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

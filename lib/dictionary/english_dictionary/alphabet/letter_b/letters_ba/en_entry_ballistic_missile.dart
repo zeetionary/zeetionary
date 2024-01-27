@@ -170,12 +170,18 @@ class EnglishEntryballisticmissile extends StatelessWidget {
 ١. (ناو) مووشەکی بالیستیکی؛ موشەکێک کە بەخێرایی و گۆشەیەکی دیاریکراو دەھاوێژرێت بۆ ئەوەی لە شوێنی مەبەست بکەوێتە خوارەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The regime was planning on developing long-range ballistic missiles that could travel 600 miles or more."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕژێمەکە پلانی گەشەپێدانی موشەکی بالیستیکی مەودا درێژی ھەبوو کە دەیتوانی ٦٠٠ میل یان زیاتر ببڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

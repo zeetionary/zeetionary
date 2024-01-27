@@ -169,12 +169,18 @@ class EnglishEntrybread extends StatelessWidget {
 ١. (ناو) نان؛ خواردنێک کە لە ئارد و ئاو و ھەندێک جار خومرە درووست دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had to live on bread and water for two weeks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ دوو ھەفتە دەبوو تەنھا بە نان و ئاو بژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had to live on bread and water for two weeks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ دوو ھەفتە دەبوو تەنھا بە نان و ئاو بژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +197,17 @@ class EnglishEntrybread extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She tore off a large hunk of bread."),
-                              const ExampleSentenceKurdish(
-                                  text: "تیکەیەکی گەورە نانی بڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She tore off a large hunk of bread."),
+                                    ExampleSentenceKurdish(
+                                        text: "تیکەیەکی گەورە نانی بڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,10 +223,16 @@ class EnglishEntrybread extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This bread is going stale."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم نانە خەریکە خراپ دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "This bread is going stale."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم نانە خەریکە خراپ دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,10 +249,18 @@ class EnglishEntrybread extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What would you like on your bread?"),
-                              const ExampleSentenceKurdish(
-                                  text: "حەز دەکەیت چی بە نانەکەتەوە بێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What would you like on your bread?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەز دەکەیت چی بە نانەکەتەوە بێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -250,11 +277,18 @@ class EnglishEntrybread extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He ate his soup with a slice of bread."),
-                              const ExampleSentenceKurdish(
-                                  text: "شۆرباکەی خوارد بە پارچەیەک نانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He ate his soup with a slice of bread."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆرباکەی خوارد بە پارچەیەک نانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntryboastful extends StatelessWidget {
 ١. (ھاوەڵناو) قسەکردن لەسەر خۆت بە شانازی و فیزەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I tried to emphasize my good points without sounding boastful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵم دا جەخت لەسەر خاڵە باشەکان بکەمەوە بەبێ ئەوەی فیزن دەربکەوم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I tried to emphasize my good points without sounding boastful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵم دا جەخت لەسەر خاڵە باشەکان بکەمەوە بەبێ ئەوەی فیزن دەربکەوم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

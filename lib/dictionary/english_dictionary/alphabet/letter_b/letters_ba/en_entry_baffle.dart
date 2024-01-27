@@ -170,10 +170,16 @@ class EnglishEntrybaffle extends StatelessWidget {
 ١. (کردار) شتێک کە ئاڵۆزە بۆ تێگەشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His behaviour baffles me."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەفتارەکانی سەرم دەسوڕمێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His behaviour baffles me."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕەفتارەکانی سەرم دەسوڕمێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

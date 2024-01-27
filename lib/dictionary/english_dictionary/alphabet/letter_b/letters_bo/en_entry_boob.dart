@@ -247,12 +247,18 @@ class EnglishEntryboob extends StatelessWidget {
 ١. (ناو) مەمکی ژن؛ ھەر یەک لەو دوو بەشە نەرم و خڕەی سنگی ژنان کە شیر درووست دەکەن لەدوای منداڵبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wore a low-cut dress, revealing her boobs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی سنگ نزمی پۆشیبوو کە مەمکەکانی دەرخستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wore a low-cut dress, revealing her boobs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلێکی سنگ نزمی پۆشیبوو کە مەمکەکانی دەرخستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +275,18 @@ class EnglishEntryboob extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The swimsuit showcased her toned boobs."),
-                              const ExampleSentenceKurdish(
-                                  text: "جلەمەلەکە مەمکە توندەکانی دەرخستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The swimsuit showcased her toned boobs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەمەلەکە مەمکە توندەکانی دەرخستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -296,7 +309,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The comedian joked about his obsession with boobs."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەکتەرە کۆمیدییەکە نوکتەی درووستکرد لەسەر حەزی زۆری بۆ مەمک."),
                                       const CustomSizedBoxForTTS(),
@@ -320,7 +333,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The dress emphasized her cleavage and boobs."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "جلەکە قڵیشی مەمکی و مەمکەکانی زەقکردبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -344,7 +357,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "You know her - blonde hair and big boobs."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەیناسیت، ئەوەی قژی زەردە و مەمکی زلە."),
                                       const CustomSizedBoxForTTS(),
@@ -371,12 +384,18 @@ class EnglishEntryboob extends StatelessWidget {
                               text: "٢. (ناو) ھەڵەیەکی گەمژانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I made a bit of a boob deleting that file."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I made a bit of a boob deleting that file."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵەیەکی گەمژانەم کرد ئەو فایلەم سڕییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -395,12 +414,18 @@ class EnglishEntryboob extends StatelessWidget {
                               text: "٣. (ناو) کەسێکی گەمژە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't be such a boob; think before you act."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێندە گەمژە مەبە، پێش ئەوەی ھەنگاو بنێیت بیربکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't be such a boob; think before you act."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێندە گەمژە مەبە، پێش ئەوەی ھەنگاو بنێیت بیربکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -419,11 +444,18 @@ class EnglishEntryboob extends StatelessWidget {
                               text: "٤. (کردار) کردنی ھەڵەیەکی گەمژانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I boobed by forgetting the meeting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I boobed by forgetting the meeting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵەیەکی گەمژانەم کرد بە لەبیرچوونی کۆبوونەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

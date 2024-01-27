@@ -166,11 +166,18 @@ class EnglishEntrybulky extends StatelessWidget {
 ١. (ھاوەڵناو) گەورە بەشێوەیەک کە ئاسان نییە بۆ هەڵگرتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bulky items will be collected separately."),
-                              const ExampleSentenceKurdish(
-                                  text: "شتە زلەکان بە جیایی کۆدەکرێنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bulky items will be collected separately."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شتە زلەکان بە جیایی کۆدەکرێنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulky", follow LX strictly
                               Column(
                                 children: [
@@ -187,10 +194,18 @@ class EnglishEntrybulky extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The key felt bulky in his pocket."),
-                              const ExampleSentenceKurdish(
-                                  text: "کلیلەکە قەبە دیاربوو لە گیرفانیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The key felt bulky in his pocket."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کلیلەکە قەبە دیاربوو لە گیرفانیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,11 +224,17 @@ class EnglishEntrybulky extends StatelessWidget {
                               text: "٢. (ناو) کەسێکی قوورس و بەرز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is tall and bulky, with broad shoulders."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرز و قەبە و چوارشانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is tall and bulky, with broad shoulders."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەرز و قەبە و چوارشانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

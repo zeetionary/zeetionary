@@ -167,12 +167,18 @@ class EnglishEntrybrisk extends StatelessWidget {
 ١. (ھاوەڵناو) سەرقاڵ و بەبێ وەستان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ice-cream vendors were doing a brisk trade (= selling a lot of ice cream)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ice-cream vendors were doing a brisk trade (= selling a lot of ice cream)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشیارانی ئایس کریم بازاڕی باشیان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brisk" as
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybrisk extends StatelessWidget {
 ٢. (ھاوەڵناو) خێرا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We went for a brisk walk before lunch."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێش نیوەڕۆ چووین بۆ پیاسەیەکی خێرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We went for a brisk walk before lunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێش نیوەڕۆ چووین بۆ پیاسەیەکی خێرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +228,18 @@ class EnglishEntrybrisk extends StatelessWidget {
                                   "٣. (ھاوەڵناو) کەسێک، یان دەنگ و ڕەفتاری، کە متمانەی پێوە دیارە و حەزدەکات شتەکان بەخێرایی بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her tone on the phone was brisk (= she spoke quickly and used few words) and businesslike."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆنی دەنگی لە تەلەفۆنەکەدا خێرا و بازرگانیانە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her tone on the phone was brisk (= she spoke quickly and used few words) and businesslike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆنی دەنگی لە تەلەفۆنەکەدا خێرا و بازرگانیانە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +259,18 @@ class EnglishEntrybrisk extends StatelessWidget {
                                   "٤. (ھاوەڵناو) کەشێک یان بایەک کە ساردە بەڵام خۆشە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A a brisk wind started once we got into the island."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بایەکی فێنک دەستیپێکرد کە گەشتینە دوورگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A a brisk wind started once we got into the island."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بایەکی فێنک دەستیپێکرد کە گەشتینە دوورگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

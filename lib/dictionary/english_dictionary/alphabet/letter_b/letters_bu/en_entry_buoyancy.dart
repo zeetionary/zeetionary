@@ -215,12 +215,18 @@ class EnglishEntrybuoyancy extends StatelessWidget {
 ١. (ناو) دۆخێک کە تێیدا نرخ یان چالاکی وەک خۆی دەمێنێتەوە یان زیاد دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is continued buoyancy in the property market."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەشەسەندنی بەردەوام هەیە لە بازاڕی خانووبەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is continued buoyancy in the property market."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشەسەندنی بەردەوام هەیە لە بازاڕی خانووبەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buoyancy", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                               text: "٢. (ناو) گەشبینی و دڵخۆشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was normally subdued, but today she radiated buoyancy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرجار بێزاربوو، بەڵام ئەمڕۆ گەشبینی لێ دەباری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was normally subdued, but today she radiated buoyancy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار بێزاربوو، بەڵام ئەمڕۆ گەشبینی لێ دەباری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,11 +276,18 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                                   "٣. (ناو) توانای سەرئاوکەوتووی، هێشتنەوە بە سەراوکەوتە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We tested the boat for buoyancy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەراوکەوتوویی بەلەمەکەمان تاقیکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We tested the boat for buoyancy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەراوکەوتوویی بەلەمەکەمان تاقیکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

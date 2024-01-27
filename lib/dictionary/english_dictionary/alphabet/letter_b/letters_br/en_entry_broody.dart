@@ -166,12 +166,18 @@ class EnglishEntrybroody extends StatelessWidget {
 ١. (ھاوەڵناو) حەزی زۆر بۆ بوونی منداڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I reached the age of 27 and suddenly started to feel broody."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I reached the age of 27 and suddenly started to feel broody."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوومە ٢٧ ساڵ و لەناکاو بە مەراقی منداڵ بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broody" as
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybroody extends StatelessWidget {
                                   "٢. (ھاوەڵناو) مریشکێک کە حەزی لییە لەسەر ھێلکە کڕ بکەوێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The broody hen refused to leave the nest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێھێشتنی کولانەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The broody hen refused to leave the nest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مریشکە کڕکەوتووەکە مکوڕ بوو لەسەر جێھێشتنی کولانەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybroody extends StatelessWidget {
                                   "٣. (ھاوەڵناو) بێ دەنگ لە کاتێکدا بیر لە شتێک دەکەیتەوە بەھۆی ئەوەی بێزاریت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ruth started feeling broody in her late twenties."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕوس خەمبار بوو لە بیستەکانی تەمەنیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ruth started feeling broody in her late twenties."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕوس خەمبار بوو لە بیستەکانی تەمەنیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

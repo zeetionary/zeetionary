@@ -165,12 +165,18 @@ class EnglishEntrybatten extends StatelessWidget {
 ١. (ناو) پارچە تەختەیەک کە بۆ ھەڵواسینی شتی تر بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The battens were used to reinforce the frame of the door."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەختەکان بەکارھێندران بۆ بەھێزکردنی چوارچێوەی دەرگاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The battens were used to reinforce the frame of the door."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەختەکان بەکارھێندران بۆ بەھێزکردنی چوارچێوەی دەرگاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -163,11 +163,18 @@ class EnglishEntrybask extends StatelessWidget {
 ١. (کردار) چێژبینی لە پاڵکەوتن لەبەر خۆرەتاو یان ڕووناکی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We sat basking in the warm sunshine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانیشتین و خۆمان دایە پێش خۆرەتاوە گەرمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We sat basking in the warm sunshine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیشتین و خۆمان دایە پێش خۆرەتاوە گەرمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

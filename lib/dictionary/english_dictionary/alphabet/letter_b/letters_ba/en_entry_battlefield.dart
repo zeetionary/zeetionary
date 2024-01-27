@@ -171,10 +171,17 @@ class EnglishEntrybattlefield extends StatelessWidget {
 ١. (ناو) شوێنی ڕوودانی شەڕی نێوان دوو سوپا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was wounded on the battlefield."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە مەیدانی شەڕدا بریندار کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was wounded on the battlefield."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە مەیدانی شەڕدا بریندار کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +204,18 @@ class EnglishEntrybattlefield extends StatelessWidget {
 ٢. (ناو) دۆخێک یان بابەتێک کە تێیدا خەڵکی دژ بە یەکن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The issue has become a political battlefield in recent years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بابەتەکە بووە بە ئامرازێکی سیاسی لەم ساڵانەی دواییدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The issue has become a political battlefield in recent years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە بووە بە ئامرازێکی سیاسی لەم ساڵانەی دواییدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

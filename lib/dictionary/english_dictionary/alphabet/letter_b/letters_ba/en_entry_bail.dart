@@ -174,10 +174,17 @@ class EnglishEntrybail extends StatelessWidget {
 ١. (ناو) بڕە پارەیەک کە دەدرێت بۆ ئەوەی تاوانبارێک ئازادبکرێت تا ڕۆژی دادگایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can anyone put up bail for you?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Can anyone put up bail for you?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +204,18 @@ class EnglishEntrybail extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was released on £2 000 bail."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was released on £2 000 bail."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +237,18 @@ class EnglishEntrybail extends StatelessWidget {
 ٢. (کردار) ئازادکردنی کەسێک بە کەفالەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was bailed to appear in court on 15 March."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was bailed to appear in court on 15 March."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,10 +270,16 @@ class EnglishEntrybail extends StatelessWidget {
 ٣. (کردار) جێھێشتنی شوێنێک بەخێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Sorry, I really have to bail."),
-                              const ExampleSentenceKurdish(
-                                  text: "ببوورە، بەڕاستی دەبێت بڕۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Sorry, I really have to bail."),
+                                    ExampleSentenceKurdish(
+                                        text: "ببوورە، بەڕاستی دەبێت بڕۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

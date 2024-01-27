@@ -167,12 +167,18 @@ class EnglishEntrybreeze extends StatelessWidget {
 ١. (ناو) بایەکی نەرم و کز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The flowers were gently swaying in the breeze."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵەکان بە ئارامی لە سریوەکەدا دەڕاژان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The flowers were gently swaying in the breeze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵەکان بە ئارامی لە سریوەکەدا دەڕاژان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breeze" as
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybreeze extends StatelessWidget {
                               text: "٢. (ناو) شتێکی زۆر ئاسان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Going down the hill would be a breeze after the long climb up!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چوونە خوارەوە بە گردەکەدا فشە دەبێت لە دوای سەرکەوتنێکی درێژ پێیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Going down the hill would be a breeze after the long climb up!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوونە خوارەوە بە گردەکەدا فشە دەبێت لە دوای سەرکەوتنێکی درێژ پێیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybreeze extends StatelessWidget {
                                   "٣. (کردار) جوڵان بە بە دڵخۆشی و متمانەوە بەبێ ئەوەی ھەست بە شەرم بکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She just breezed in as if she'd only been away a day instead of a year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی کرد بە ژووردا وەک ئەوەی ڕۆژێک ڕۆشتبێت لەجیاتی ساڵێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She just breezed in as if she'd only been away a day instead of a year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی کرد بە ژووردا وەک ئەوەی ڕۆژێک ڕۆشتبێت لەجیاتی ساڵێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybreeze extends StatelessWidget {
                                   "٤. (کردار) بە ئاسانی تەواوکردن یان بردنەوەی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He breezed to victory with 78 percent of the vote."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکەوتنی تۆمارکرد بە ٧٨ لە سەدی دەنگەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He breezed to victory with 78 percent of the vote."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکەوتنی تۆمارکرد بە ٧٨ لە سەدی دەنگەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

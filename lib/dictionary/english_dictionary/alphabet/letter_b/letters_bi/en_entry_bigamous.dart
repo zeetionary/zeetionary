@@ -170,12 +170,18 @@ class EnglishEntrybigamous extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە دوو ھاوسەری ھەیە لە یەک کاتدا، یان پەیوەندییەک کە کەسێکیان دوو ھاوسەری ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wasn't ready to tell the story of her bigamous husband."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامادە نەبوو باسی چیرۆکی ھاوسەرە دووژنەکەی بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wasn't ready to tell the story of her bigamous husband."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادە نەبوو باسی چیرۆکی ھاوسەرە دووژنەکەی بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

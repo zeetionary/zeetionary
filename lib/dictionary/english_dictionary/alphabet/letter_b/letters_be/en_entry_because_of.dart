@@ -171,10 +171,16 @@ class EnglishEntrybecauseof extends StatelessWidget {
 ١. (ئامراز) بەکاردێت لە پێش ناوێک یان گرێی ناوی بۆ وتنی ئەوەی کەسێک/شتێک ھۆکارە بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They are here because of us."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێرەن بەھۆی ئێمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They are here because of us."),
+                                    ExampleSentenceKurdish(
+                                        text: "لێرەن بەھۆی ئێمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybecauseof extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Because of his wife(’s) being there, I said nothing about it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەبەرئەوەی ژنەکەی لەوێ بوو، ھیچم نەوت لەسەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Because of his wife(’s) being there, I said nothing about it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەبەرئەوەی ژنەکەی لەوێ بوو، ھیچم نەوت لەسەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

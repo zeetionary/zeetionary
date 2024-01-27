@@ -372,12 +372,18 @@ class EnglishEntrybear extends StatelessWidget {
 ١. (ناو) ورچ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A little bear cub ran right across the road in front of us."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەچکە ورچێکی بچکۆلە بە ڕێگاکەدا پەڕییەوە بە ڕاکردن لە پێشمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A little bear cub ran right across the road in front of us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەچکە ورچێکی بچکۆلە بە ڕێگاکەدا پەڕییەوە بە ڕاکردن لە پێشمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -397,12 +403,18 @@ class EnglishEntrybear extends StatelessWidget {
 ٢. (کردار) داننان و مامەڵەکردن بە شتێکی ناخۆش کە ڕوویداوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The pain was almost more than he could bear.The pain was almost more than he could bear."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The pain was almost more than he could bear.The pain was almost more than he could bear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئازارەکە تاڕادەیەکی زۆر زیاتر لەوە بوو کە دەیتوانی بەرگەی بگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -420,12 +432,18 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bore it all with her usual patience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرگەی ھەمووی گرت بە پشوودرێژی ھەمیشەییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bore it all with her usual patience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرگەی ھەمووی گرت بە پشوودرێژی ھەمیشەییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -445,12 +463,18 @@ class EnglishEntrybear extends StatelessWidget {
 ٣. (کردار) ھەڵگرتنی بەرپرسیاریەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bore the responsibility for most of the changes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان ھەڵگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bore the responsibility for most of the changes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسیاریەتی بۆ زۆرینەی گۆڕانکارییەکان ھەڵگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -468,12 +492,18 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the end it's consumers who bear the burden of higher prices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ ھەڵدەگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the end it's consumers who bear the burden of higher prices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتاییدا ئەوە کڕیارانن بارگرانی بەرزبوونەوەی نرخ ھەڵدەگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -493,12 +523,18 @@ class EnglishEntrybear extends StatelessWidget {
 ٤. (کردار) ھەڵگرتنی کێشی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ice is too thin to bear your weight."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەھۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ice is too thin to bear your weight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەھۆڵەکە زۆر باریکە کە بتوانێت کە بتوانێت بەرگەت بگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -518,10 +554,18 @@ class EnglishEntrybear extends StatelessWidget {
 ٥. (کردار) پیشاندان یان لەخۆگرتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The document bore her signature."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆکیومێنتەکە واژۆی ئەوی پێوەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The document bore her signature."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆکیومێنتەکە واژۆی ئەوی پێوەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -539,12 +583,18 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was badly wounded in the war and still bears the scars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە جەنگەکەدا بەخراپی برینداربوو و ھێشتا برینەکانی پێوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was badly wounded in the war and still bears the scars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە جەنگەکەدا بەخراپی برینداربوو و ھێشتا برینەکانی پێوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -562,11 +612,17 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She bears little resemblance to her mother."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر کەم لە دایکی دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She bears little resemblance to her mother."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر کەم لە دایکی دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -586,12 +642,18 @@ class EnglishEntrybear extends StatelessWidget {
 ٦. (کردار) نەگونجاو بۆشتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her later work does not bear comparison with her earlier novels (= because it is not nearly as good)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرھەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her later work does not bear comparison with her earlier novels (= because it is not nearly as good)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرھەمی دواتری بەراورد ناکرێت بە ڕۆمانەکانی پێشووتری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -609,12 +671,18 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plan won't bear close inspection (= it will be found to be unacceptable when carefully examined)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکە ناتوانێت بە پشکنینی ورددا دەربچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plan won't bear close inspection (= it will be found to be unacceptable when carefully examined)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکە ناتوانێت بە پشکنینی ورددا دەربچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -632,12 +700,18 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The joke doesn't bear repeating (= because it is not funny or may offend people)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوکتەکە بە کەڵکی دووبارەکردنەوە نایەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The joke doesn't bear repeating (= because it is not funny or may offend people)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نوکتەکە بە کەڵکی دووبارەکردنەوە نایەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -657,10 +731,17 @@ class EnglishEntrybear extends StatelessWidget {
 ٧. (کردار) ھەبوونی ھەستێکی نەرێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bears no resentment towards them."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ ڕقێکی بەرامبەریان نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bears no resentment towards them."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ ڕقێکی بەرامبەریان نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -678,11 +759,17 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's borne a grudge against me ever since that day."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەو ڕۆژەوە بوغزێکی دژم ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's borne a grudge against me ever since that day."),
+                                    ExampleSentenceKurdish(
+                                        text: "لەو ڕۆژەوە بوغزێکی دژم ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -702,12 +789,18 @@ class EnglishEntrybear extends StatelessWidget {
 ٨. (کردار) ھەبوونی ناوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The stone plaque bearing his name was smashed to pieces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو پارچەیەی کە ناوی ھەڵگرتبوو وردوخاش کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The stone plaque bearing his name was smashed to pieces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو پارچەیەی کە ناوی ھەڵگرتبوو وردوخاش کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -727,11 +820,17 @@ class EnglishEntrybear extends StatelessWidget {
 ٩. (کردار) ھەڵگرتنی کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He returned bearing a basket of vegetables."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەڕایەوە بە سەبەتەیەک سەوزەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He returned bearing a basket of vegetables."),
+                                    ExampleSentenceKurdish(
+                                        text: "گەڕایەوە بە سەبەتەیەک سەوزەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -749,10 +848,18 @@ class EnglishEntrybear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her two sons helped bear the coffin."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو کوڕەکەی تابووتەکەیان ھەڵگرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her two sons helped bear the coffin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو کوڕەکەی تابووتەکەیان ھەڵگرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -772,12 +879,18 @@ class EnglishEntrybear extends StatelessWidget {
 ١٠. (کردار) مامەڵە و ڕەفتارکردن بەشێوەیەکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bears himself (= stands, walks, etc.) proudly, like a soldier."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە شانازییەوە ڕەفتار دەکات، وەک سەربازێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bears himself (= stands, walks, etc.) proudly, like a soldier."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە شانازییەوە ڕەفتار دەکات، وەک سەربازێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -797,10 +910,16 @@ class EnglishEntrybear extends StatelessWidget {
 ١١. (کردار) منداڵبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had borne him six sons."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەش کوڕی پێبەخشیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She had borne him six sons."),
+                                    ExampleSentenceKurdish(
+                                        text: "شەش کوڕی پێبەخشیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -820,12 +939,18 @@ class EnglishEntrybear extends StatelessWidget {
 ١٢. (کردار) درووستکردنی گوڵ و میوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These trees take a long time to bear fruit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم دارانە کاتێکی زۆریان پێدەچێت تا بەر بگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These trees take a long time to bear fruit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دارانە کاتێکی زۆریان پێدەچێت تا بەر بگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -845,12 +970,18 @@ class EnglishEntrybear extends StatelessWidget {
 ١٣. (کردار) ڕۆشتن یان لادان بە ئاراستەیەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When you get to the fork in the road, bear right."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە دەگەیت بە دووڕیانەکە لە ڕێگاکەدا، بە ڕاستدا بچۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When you get to the fork in the road, bear right."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە دەگەیت بە دووڕیانەکە لە ڕێگاکەدا، بە ڕاستدا بچۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

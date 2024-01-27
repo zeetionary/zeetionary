@@ -169,10 +169,16 @@ class EnglishEntrybleat extends StatelessWidget {
 ١. (ناو) دەنگی مەڕ یان بزن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The lamb gave a faint bleat."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرخەکە بەنزمی باعاندی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The lamb gave a faint bleat."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەرخەکە بەنزمی باعاندی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +197,16 @@ class EnglishEntrybleat extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (کردار) باعاندن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A goat was bleating afar."),
-                              const ExampleSentenceKurdish(
-                                  text: "بزنێک لە دوورەوە دەیباعاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A goat was bleating afar."),
+                                    ExampleSentenceKurdish(
+                                        text: "بزنێک لە دوورەوە دەیباعاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +224,18 @@ class EnglishEntrybleat extends StatelessWidget {
                               text: "٣. (کردار) بۆڵەبۆڵکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's always bleating (on) about how badly she's been treated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's always bleating (on) about how badly she's been treated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە بۆڵە بۆڵیەتی لەسەر ئەوەی چەندە بە خراپ مامەڵەی لەگەڵ کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

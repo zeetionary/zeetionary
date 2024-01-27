@@ -166,12 +166,18 @@ class EnglishEntrybraille extends StatelessWidget {
 ١. (ناو) سیستەمێکی نووسین بۆ کەسانی نابینا کە تێیدا پیرەکان و ژمارەکان بە خاڵی بەرزەوەبوو دەنووسرێن و دەتوانرێن بخوێنرێنەوە بە دەستھێنان بە سەریاندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the exhibits are labelled in Braille."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو شتەکان بە بریڵ لەسەریان نووسراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the exhibits are labelled in Braille."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو شتەکان بە بریڵ لەسەریان نووسراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

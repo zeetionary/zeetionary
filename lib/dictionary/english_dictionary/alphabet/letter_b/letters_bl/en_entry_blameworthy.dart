@@ -168,12 +168,18 @@ class EnglishEntryblameworthy extends StatelessWidget {
 ١. (ھاوەڵناو) شایەنی سەرکۆنە و کۆمە بەھۆی کردنی شتێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Blameworthy or not, his father should pay some of the costs of repairing the damage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەتابار یان نا، باوکی دەبێت ھەندێک لە تێچووی چاککردنەوەی زیانەکە بدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Blameworthy or not, his father should pay some of the costs of repairing the damage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەتابار یان نا، باوکی دەبێت ھەندێک لە تێچووی چاککردنەوەی زیانەکە بدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

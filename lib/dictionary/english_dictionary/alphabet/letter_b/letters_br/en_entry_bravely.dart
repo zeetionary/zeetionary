@@ -167,10 +167,18 @@ class EnglishEntrybravely extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی ئازایانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He fought bravely for his country."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە بوێرییەوە جەنگا بۆ وڵاتەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He fought bravely for his country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە بوێرییەوە جەنگا بۆ وڵاتەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -187,12 +195,18 @@ class EnglishEntrybravely extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For more than two years she battled bravely against cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ زیاتر لە دوو ساڵ ئازایانە بەربەرەکانێی بوو لەگەڵ شێرپەنجە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For more than two years she battled bravely against cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ زیاتر لە دوو ساڵ ئازایانە بەربەرەکانێی بوو لەگەڵ شێرپەنجە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

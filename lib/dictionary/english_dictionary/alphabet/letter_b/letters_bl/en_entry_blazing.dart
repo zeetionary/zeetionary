@@ -169,12 +169,18 @@ class EnglishEntryblazing extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر گەرم و ڕۆشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We quickly grew tired in the blazing sunshine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرزوو بێزار بووین لە تیشکی گەرمی خۆرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We quickly grew tired in the blazing sunshine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرزوو بێزار بووین لە تیشکی گەرمی خۆرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntryblazing extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) زۆر تووڕە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a blazing row with Eddie and stormed out of the house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مشتومڕێکی زۆر توندی لەگەڵ ئێدی ھەبوو و ماڵی جێھێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a blazing row with Eddie and stormed out of the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مشتومڕێکی زۆر توندی لەگەڵ ئێدی ھەبوو و ماڵی جێھێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

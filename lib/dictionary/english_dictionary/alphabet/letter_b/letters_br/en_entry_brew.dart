@@ -169,11 +169,18 @@ class EnglishEntrybrew extends StatelessWidget {
 ١. (کردار) درووستکردنی بیرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This beer is brewed in the Czech Republic."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیرەکە لە کۆماری چیک درووستکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This beer is brewed in the Czech Republic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرەکە لە کۆماری چیک درووستکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brew" as
                               Column(
                                 children: [
@@ -193,10 +200,16 @@ class EnglishEntrybrew extends StatelessWidget {
                                   "٢. (کردار) ئامادەکردنی خواردنەوەی چا و قاوە بە تێکردنی ئاوی گەرم، یان بھێڵیت تام بداتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He brewed some coffee for us."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەندێک قاوەی بۆ ئامادەکردین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He brewed some coffee for us."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەندێک قاوەی بۆ ئامادەکردین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +226,18 @@ class EnglishEntrybrew extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Always let tea brew for a few minutes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە بھێڵە چایەکە بۆ چەند خولەکێک تام بداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Always let tea brew for a few minutes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە بھێڵە چایەکە بۆ چەند خولەکێک تام بداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,11 +256,18 @@ class EnglishEntrybrew extends StatelessWidget {
                               text: "٣. (کردار) شتێک کە ئەگەری ڕوودانی ھەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A storm was brewing up out at sea."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زریانێک لە دەریاکەوە خەریک بوو ھەڵیدەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A storm was brewing up out at sea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زریانێک لە دەریاکەوە خەریک بوو ھەڵیدەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,11 +287,18 @@ class EnglishEntrybrew extends StatelessWidget {
                                   "٤. (ناو) جۆرە بیرەیەک کە لە شوێنێک درووستکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I thought I'd try the local brew."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیرم لەوە کردەوە بیرە لۆکاڵییەکە تاقیبکەمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I thought I'd try the local brew."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرم لەوە کردەوە بیرە لۆکاڵییەکە تاقیبکەمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,10 +317,16 @@ class EnglishEntrybrew extends StatelessWidget {
                               text: "٥. (ناو) بڕێک چای ئامادەکراو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's have a brew."),
-                              const ExampleSentenceKurdish(
-                                  text: "با چایەک ئامادە بکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's have a brew."),
+                                    ExampleSentenceKurdish(
+                                        text: "با چایەک ئامادە بکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -307,12 +346,18 @@ class EnglishEntrybrew extends StatelessWidget {
                                   "٦. (ناو) تێکەڵەیەک لە کۆمەڵە بیرۆکەیەک، ڕووداوێک، ھتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie is a potent brew of adventure, sex and comedy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە تێکەڵەیەک لە سەرکێشی و سێکس و درامایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie is a potent brew of adventure, sex and comedy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە تێکەڵەیەک لە سەرکێشی و سێکس و درامایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

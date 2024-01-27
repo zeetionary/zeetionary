@@ -215,12 +215,18 @@ class EnglishEntrybypass extends StatelessWidget {
 ١. (ناو) ڕێگایەک کە بە دەوری شارۆچکەیەک یان شارێکدا دەڕوات وەک ئەوەی بەناویدا بچێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That stretch of bypass will be finished by January."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێفا پشتێنەییەکە تا کانوونی دووەم تەواو دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That stretch of bypass will be finished by January."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێفا پشتێنەییەکە تا کانوونی دووەم تەواو دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bypass", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrybypass extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They're building a new bypass around the town."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەقامێکی پشتێنەیی تازە بە دەوری شارۆچکەکەدا درووست دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They're building a new bypass around the town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەقامێکی پشتێنەیی تازە بە دەوری شارۆچکەکەدا درووست دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,11 +273,18 @@ class EnglishEntrybypass extends StatelessWidget {
                               text: "٢. (کردار) چوون بە لای شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A new road now bypasses the town."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەقامێکی تازە ئێستا بە دەوری شارۆچکەکەدا دەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A new road now bypasses the town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەقامێکی تازە ئێستا بە دەوری شارۆچکەکەدا دەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +304,18 @@ class EnglishEntrybypass extends StatelessWidget {
                                   "٣. (کردار) پشتگوێ خستنی یاسایەک، سیستەمێکی فەرمی، یان کەسێکی بەدەسەڵات بۆ ئەوەی کارێک بەخێرایی بکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They bypassed the committee and went straight to senior management."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لیژنەکەیان تێپەڕاند و ڕاستەوخۆ چوون بۆ بەڕێوبەرایەتی باڵا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They bypassed the committee and went straight to senior management."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیژنەکەیان تێپەڕاند و ڕاستەوخۆ چوون بۆ بەڕێوبەرایەتی باڵا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

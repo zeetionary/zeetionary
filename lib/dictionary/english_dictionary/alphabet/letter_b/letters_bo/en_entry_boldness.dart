@@ -170,12 +170,18 @@ class EnglishEntryboldness extends StatelessWidget {
 ١. (ناو) خاسیەتی ئازایی و متمانە بەخۆبوون و نەترسان لە کردن یان وتنی ئەوەی دەتەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both men were surprised by the boldness of the question."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both men were surprised by the boldness of the question."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو پیاوەکە سەرسام بوون بە بوێری پرسیارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +198,18 @@ class EnglishEntryboldness extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Even critics admire his boldness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنانەت ڕەخنەگرانیش سەرسامی بوێرییەکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Even critics admire his boldness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنانەت ڕەخنەگرانیش سەرسامی بوێرییەکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +229,18 @@ class EnglishEntryboldness extends StatelessWidget {
                                   "٢. (ناو) خاسیەتی ئاسان بوون بۆ بینین ھەبوونی ڕواڵەتێکی ئاشکرا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boldness of the architecture made the building an iconic landmark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرچاوی بیناسازییەکە وایکرد بیناکە وەک ناوەندێکی ئایکۆنی بینراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boldness of the architecture made the building an iconic landmark."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرچاوی بیناسازییەکە وایکرد بیناکە وەک ناوەندێکی ئایکۆنی بینراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

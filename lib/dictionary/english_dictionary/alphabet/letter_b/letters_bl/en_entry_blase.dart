@@ -168,12 +168,18 @@ class EnglishEntryblase extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە پێی سەرسام یان نیگەران نابیت چونکە زۆرجار دیوتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Kids have become blasé about violence on television."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان بە توندوتیژی لەسەر تەلەفیزیۆن ڕاھاتوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Kids have become blasé about violence on television."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان بە توندوتیژی لەسەر تەلەفیزیۆن ڕاھاتوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

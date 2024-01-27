@@ -164,12 +164,18 @@ class EnglishEntrybranding extends StatelessWidget {
 ١. (ناو) چالاکی درووستکردنی ناو یان وێنا بۆ شتێک بۆ کەلوپەل یان خزمەتگوزاری بۆ ئەوەی سەرنج ڕابکێشێت و خەڵکی بیکڕن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The successful branding and marketing of the new beverage has boosted sales."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەبازاڕکردن و ناساندنی سەرکەوتووی خواردنەوە تازەکە فرۆشی زیادکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The successful branding and marketing of the new beverage has boosted sales."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەبازاڕکردن و ناساندنی سەرکەوتووی خواردنەوە تازەکە فرۆشی زیادکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

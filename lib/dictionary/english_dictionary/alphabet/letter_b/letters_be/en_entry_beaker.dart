@@ -172,10 +172,18 @@ class EnglishEntrybeaker extends StatelessWidget {
 ١. (ناو) گڵاسێک کە بە زۆری لە پلاستیک درووستکراوە و دەسکی نییە، بەکاردێت بۆ خواردنەوە تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She drank from a plastic beaker."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە گڵاسێکی پلاستیکی (ئاوی) خواردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She drank from a plastic beaker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گڵاسێکی پلاستیکی (ئاوی) خواردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,10 +203,16 @@ class EnglishEntrybeaker extends StatelessWidget {
 ٢. (ناو) ئەو ڕێژەیەی لە گڵاسێکدا جێی دەبێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She gave me a beaker of juice."),
-                              const ExampleSentenceKurdish(
-                                  text: "گڵاسێک شەربەتی پێدام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She gave me a beaker of juice."),
+                                    ExampleSentenceKurdish(
+                                        text: "گڵاسێک شەربەتی پێدام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +232,18 @@ class EnglishEntrybeaker extends StatelessWidget {
 ٣. (ناو) گڵاسێک کە لە کیمیادا بەکاردێت بۆ پێوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a glass beaker containing copper sulphate solution on the table."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گڵاسێکی شووشە کە تواوەی سولفاتی مسی تێدابوو لەسەر مێزەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a glass beaker containing copper sulphate solution on the table."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گڵاسێکی شووشە کە تواوەی سولفاتی مسی تێدابوو لەسەر مێزەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

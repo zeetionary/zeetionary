@@ -168,11 +168,18 @@ class EnglishEntrybleary extends StatelessWidget {
 ١. (ھاوەڵناو) کە چاو نەتوانێت بە باشی ببینێت بەھۆی ماندووێتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had bleary red eyes from lack of sleep."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوی ماندوو بووبوو بەھۆی کەم‌خەوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had bleary red eyes from lack of sleep."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوی ماندوو بووبوو بەھۆی کەم‌خەوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

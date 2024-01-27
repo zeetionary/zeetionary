@@ -165,12 +165,18 @@ class EnglishEntrybarrelorgan extends StatelessWidget {
 ١. (ناو) ئامێرێکی میوزیکی کە دەژەنرێت بە سووڕدانی دەسکێک، جاران لە شەقامەکان دەژەنرا بۆ پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوازی بەگوڕی ئۆرگە دەستییەکە مەیدانی شارەکەی پڕکردبوو، جەماوەرێک لە گوێگری بەپەرۆشی کۆکردبووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barrel organ's cheerful tunes filled the town square, drawing in a crowd of curious listeners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوازی بەگوڕی ئۆرگە دەستییەکە مەیدانی شارەکەی پڕکردبوو، جەماوەرێک لە گوێگری بەپەرۆشی کۆکردبووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

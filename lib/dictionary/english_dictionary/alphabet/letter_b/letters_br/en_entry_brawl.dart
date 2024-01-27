@@ -168,12 +168,18 @@ class EnglishEntrybrawl extends StatelessWidget {
 ١. (ناو) شەڕی نێوان گرووپێک لە خەڵکی، زۆرجار لە شوێنێکی گشتیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He got into a drunken brawl in a bar."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی تێوەگلاند لە شەڕێکی سەرخۆشانە لە مەیخانەیەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He got into a drunken brawl in a bar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی تێوەگلاند لە شەڕێکی سەرخۆشانە لە مەیخانەیەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +196,18 @@ class EnglishEntrybrawl extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police officers were injured in a mass brawl outside a nightclub."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەرانی پۆلیس برینداربوون لە شەڕێکی گەورەدا لە دەرەوەی یانە شەوانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police officers were injured in a mass brawl outside a nightclub."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەفسەرانی پۆلیس برینداربوون لە شەڕێکی گەورەدا لە دەرەوەی یانە شەوانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,11 +227,18 @@ class EnglishEntrybrawl extends StatelessWidget {
                                   "٢. (کردار) بەژداری کردن لە شەڕێکی توندوتیژانە، بە تایبەتی لە شوێنێکی گشتیدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were arrested for brawling in the street."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستگیرکران بۆ شەڕکردن لە شەقامەکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were arrested for brawling in the street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکران بۆ شەڕکردن لە شەقامەکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

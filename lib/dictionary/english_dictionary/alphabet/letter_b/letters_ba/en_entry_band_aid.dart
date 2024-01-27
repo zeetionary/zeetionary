@@ -169,12 +169,18 @@ class EnglishEntrybandaid extends StatelessWidget {
 ١. (ناو) لەزگەی زاماری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The nurse applied a Band-Aid to the child's scrape after she fell off her bike."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The nurse applied a Band-Aid to the child's scrape after she fell off her bike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرستارەکە لەزگەی خستەسەر داڕووشاوی منداڵەکە لە دوای ئەوەی لە پاسکیلەکەی کەوتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

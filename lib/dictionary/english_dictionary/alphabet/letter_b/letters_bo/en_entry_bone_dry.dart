@@ -168,12 +168,18 @@ class EnglishEntrybonedry extends StatelessWidget {
 ١. (ھاوەڵناو) تەواو وشک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ground was bone dry after the drought."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەوییەکە وشک‌وبرینگ بوو لەدوای وشکەساڵییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ground was bone dry after the drought."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەوییەکە وشک‌وبرینگ بوو لەدوای وشکەساڵییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

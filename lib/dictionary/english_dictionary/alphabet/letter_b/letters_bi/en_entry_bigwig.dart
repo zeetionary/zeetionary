@@ -168,12 +168,18 @@ class EnglishEntrybigwig extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی گرنگ یان دەست‌ڕۆیشتوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were invited to a lunch with local bigwigs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانگھێشت کراین بۆ نانی نیوەڕۆ لەگەڵ پایەداران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were invited to a lunch with local bigwigs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانگھێشت کراین بۆ نانی نیوەڕۆ لەگەڵ پایەداران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

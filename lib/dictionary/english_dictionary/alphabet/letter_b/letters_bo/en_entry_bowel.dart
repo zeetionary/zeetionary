@@ -171,12 +171,18 @@ class EnglishEntrybowel extends StatelessWidget {
 ١. (ناو) ئەو جۆگەیەی کە خواردن پێیدا دەچێت بۆ کۆم لە دوای جێھێشتنی گەدە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Patients are asked to report any change in bowel habit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشان پرسیاریان لێ دەکرێت بۆ ھەر گۆڕانێک لە کارکردنی ڕیخۆڵەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Patients are asked to report any change in bowel habit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشان پرسیاریان لێ دەکرێت بۆ ھەر گۆڕانێک لە کارکردنی ڕیخۆڵەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,10 +199,17 @@ class EnglishEntrybowel extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He has trouble with his bowels."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێشەی لە ڕیخۆڵەیدا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has trouble with his bowels."),
+                                    ExampleSentenceKurdish(
+                                        text: "کێشەی لە ڕیخۆڵەیدا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,11 +228,18 @@ class EnglishEntrybowel extends StatelessWidget {
                               text: "٢. (ناو) قووڵترین بەش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A rumble came from the bowels of the earth (= deep underground)."),
-                              const ExampleSentenceKurdish(
-                                  text: "گرمەیەک لە قووڵایی زەوییەوە ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A rumble came from the bowels of the earth (= deep underground)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرمەیەک لە قووڵایی زەوییەوە ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

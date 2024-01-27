@@ -169,11 +169,18 @@ class EnglishEntrybaldness extends StatelessWidget {
 ١. (ناو) کەچەڵی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He wore a hat to hide his baldness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵاوێکی لەسەرکردبوو بۆ شاردنەوەی کەچەڵییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wore a hat to hide his baldness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵاوێکی لەسەرکردبوو بۆ شاردنەوەی کەچەڵییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

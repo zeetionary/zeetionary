@@ -169,12 +169,18 @@ class EnglishEntrybrighten extends StatelessWidget {
 ١. (کردار) ڕۆشنکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the distance, the sky was beginning to brighten."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوورەوە ئاسمان دەستی بە درەوشانەوە دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the distance, the sky was beginning to brighten."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوورەوە ئاسمان دەستی بە درەوشانەوە دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brighten" as
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybrighten extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The morning sunshine brightened the room."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەتاوی بەیانی ژوورەوەی ڕووناککردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The morning sunshine brightened the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەتاوی بەیانی ژوورەوەی ڕووناککردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,10 +227,16 @@ class EnglishEntrybrighten extends StatelessWidget {
                               text: "٢. (کردار) دڵخۆشبوون یان دڵخۆشکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her eyes brightened."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوەکانی گەشانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her eyes brightened."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوەکانی گەشانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,10 +253,16 @@ class EnglishEntrybrighten extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A smile brightened her face."),
-                              const ExampleSentenceKurdish(
-                                  text: "بزەیەک ڕووخساری گەشاندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A smile brightened her face."),
+                                    ExampleSentenceKurdish(
+                                        text: "بزەیەک ڕووخساری گەشاندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +281,18 @@ class EnglishEntrybrighten extends StatelessWidget {
                               text: "٣. (کردار) ھێنانی ھیوا و گەشبینی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A personal letter will usually brighten up a person's day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەیەکی کەسی زۆرجار ڕۆژی کەسێک گەشدەکاتەوە ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A personal letter will usually brighten up a person's day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەیەکی کەسی زۆرجار ڕۆژی کەسێک گەشدەکاتەوە ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,12 +312,18 @@ class EnglishEntrybrighten extends StatelessWidget {
                                   "٤. (کردار) وا لە شتێک بکەیت بدرەوشێتەوە لە ڕەنگدا یان چوان بێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fresh flowers will brighten up any room in the house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵی تازە ھەر ژوورێکی ماڵەکە دەدرەوشێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fresh flowers will brighten up any room in the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵی تازە ھەر ژوورێکی ماڵەکە دەدرەوشێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -306,12 +343,18 @@ class EnglishEntrybrighten extends StatelessWidget {
                                   "٥. (کردار) خۆشتربوونی کەشووھەوا، یان ڕووناک ببێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "According to the forecast, it should brighten up later."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی پێشبینییەکان دەبێت دواتر خۆش ببێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "According to the forecast, it should brighten up later."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی پێشبینییەکان دەبێت دواتر خۆش ببێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

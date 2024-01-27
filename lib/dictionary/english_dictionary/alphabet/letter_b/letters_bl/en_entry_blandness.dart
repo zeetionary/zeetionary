@@ -169,12 +169,18 @@ class EnglishEntryblandness extends StatelessWidget {
 ١. (ناو) بوونی کەمی لە ڕەنگ، جۆشوخرۆشی، یان حەز و ئارەزوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My usual enthusiasm for life was replaced by blandness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌ھیوایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My usual enthusiasm for life was replaced by blandness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تامەزرۆیی زۆرم بۆ ژیان گۆڕاوەتەوە بە بێ‌ھیوایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblandness extends StatelessWidget {
                                   "٢. (ناو) نەبوونی تامێکی بەھێز یان بەلەزەت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made a joke about the blandness of the food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوکتەیەکی گێڕایەوە سەبارەت بە بێ‌تامی خواردنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made a joke about the blandness of the food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نوکتەیەکی گێڕایەوە سەبارەت بە بێ‌تامی خواردنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

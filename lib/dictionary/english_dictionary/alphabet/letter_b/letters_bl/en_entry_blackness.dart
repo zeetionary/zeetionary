@@ -170,12 +170,18 @@ class EnglishEntryblackness extends StatelessWidget {
 ١. (ناو) ڕەشی یان تاریکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In such complete blackness, we couldn’t see a thing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تاریکی تەواوی وەھادا، نەماندەتوانی ھیچ ببینین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In such complete blackness, we couldn’t see a thing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تاریکی تەواوی وەھادا، نەماندەتوانی ھیچ ببینین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryblackness extends StatelessWidget {
                                   "٢. (ناو) پڕ لە توڕەیی و ڕق، یان بێ‌ھیوایی و بێزاری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her eyes reflected the blackness of her grief, the loss still raw and unhealed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە ھێشتا تازە و ساڕێژنەبوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her eyes reflected the blackness of her grief, the loss still raw and unhealed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوەکانی بێزاریی شیوەنەکەیی تێدا دەبینرا، لەدەستچوونەکە ھێشتا تازە و ساڕێژنەبوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntryblackness extends StatelessWidget {
                                   "٣. (ناو) بوون بە بەشێک لەو گرووپەی کە پێستیان ڕەشە و سەر بە ئەفریقان یان ڕەچەڵەکیان ئەفریقایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The documentary explored the historical significance of reclaiming and celebrating blackness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆکیومێنتارییەکە لێکۆڵینەوەی دەکرد لە گرنگی مێژوویی گەڕاندنەوە و شانازی بە ڕەشپێستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The documentary explored the historical significance of reclaiming and celebrating blackness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆکیومێنتارییەکە لێکۆڵینەوەی دەکرد لە گرنگی مێژوویی گەڕاندنەوە و شانازی بە ڕەشپێستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,11 +171,18 @@ class EnglishEntrybackache extends StatelessWidget {
 ١. (ناو) ئێش لە پشتدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A lot of sitting gives me such backache."),
-                              const ExampleSentenceKurdish(
-                                  text: "دانیشتنی زۆر تووشی پشتێشەم دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A lot of sitting gives me such backache."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیشتنی زۆر تووشی پشتێشەم دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

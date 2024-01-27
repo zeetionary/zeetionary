@@ -168,10 +168,16 @@ class EnglishEntrybloke extends StatelessWidget {
 ١. (ناو) پیاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He seemed like a nice bloke."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە پیاوێکی بەڕێز دەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He seemed like a nice bloke."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە پیاوێکی بەڕێز دەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

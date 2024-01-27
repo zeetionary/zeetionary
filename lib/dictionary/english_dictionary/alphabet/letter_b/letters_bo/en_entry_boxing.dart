@@ -166,10 +166,18 @@ class EnglishEntryboxing extends StatelessWidget {
 ١. (ناو) وەرزشێک کە دوو کەس تێیدا شەڕەمشت دەکەن بە دەستکێشی ئەستوورەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He does boxing in his spare time."),
-                              const ExampleSentenceKurdish(
-                                  text: "یاری شەڕەمشت دەکات لە کاتی بەتاڵیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He does boxing in his spare time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاری شەڕەمشت دەکات لە کاتی بەتاڵیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,11 +168,18 @@ class EnglishEntryblasphemous extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەفتارێک یان قسەکردنێک کە لەلایەنی ئایینییەوە پەسەندنەکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many people found the film blasphemous."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر کەس فیلمەکەیان بە کفراوی بینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many people found the film blasphemous."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر کەس فیلمەکەیان بە کفراوی بینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

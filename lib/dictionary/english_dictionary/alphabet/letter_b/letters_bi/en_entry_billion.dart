@@ -172,10 +172,17 @@ class EnglishEntrybillion extends StatelessWidget {
 ١. (ژمارە) ١٠٠٠,٠٠٠,٠٠٠؛ ھەزار ملیۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Worldwide sales reached 2.5 billion."),
-                              const ExampleSentenceKurdish(
-                                  text: "فرۆشی جیھانی گەشتە ٢,٥ ملیار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Worldwide sales reached 2.5 billion."),
+                                    ExampleSentenceKurdish(
+                                        text: "فرۆشی جیھانی گەشتە ٢,٥ ملیار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +200,18 @@ class EnglishEntrybillion extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have spent billions of dollars on the problem (= billions of dollars, etc.)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ملیاران دۆلاریان بە کێشەکەوە خەرجکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have spent billions of dollars on the problem (= billions of dollars, etc.)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ملیاران دۆلاریان بە کێشەکەوە خەرجکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +231,18 @@ class EnglishEntrybillion extends StatelessWidget {
 ٢. (ژمارە) بڕێکی زۆر گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our immune systems are killing billions of germs right now."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمی بەرگریمان لە ئێستادا ملیاران میکرۆب دەکوژێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our immune systems are killing billions of germs right now."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمی بەرگریمان لە ئێستادا ملیاران میکرۆب دەکوژێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -211,10 +211,17 @@ class EnglishEntrybye extends StatelessWidget {
 ١. (سەرسوڕمان) بۆ ماڵاوایی کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Bye! See you next week."),
-                              const ExampleSentenceKurdish(
-                                  text: "بای! هەفتەی داهاتوو دەتبینمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Bye! See you next week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بای! هەفتەی داهاتوو دەتبینمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bye", follow LX strictly
                               Column(
                                 children: [
@@ -231,10 +238,16 @@ class EnglishEntrybye extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Bye for now Dad!"),
-                              const ExampleSentenceKurdish(
-                                  text: "خوات لەگەڵ بۆ ئێستا باوکە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Bye for now Dad!"),
+                                    ExampleSentenceKurdish(
+                                        text: "خوات لەگەڵ بۆ ئێستا باوکە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

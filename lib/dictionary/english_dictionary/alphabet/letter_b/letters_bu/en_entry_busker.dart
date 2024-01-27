@@ -212,12 +212,18 @@ class EnglishEntrybusker extends StatelessWidget {
 ١. (ناو) کەسێک کە لەسەر شەقام میوزیک دەژەنێت و ڕێبواران دەتوانن پارەی پێ‌بدەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A busker was playing violin on the train platform."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوزیکژەنێکی گەڕۆک کەمانچەی دەژەنی لەسەر سەکۆی شەمەندەفەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A busker was playing violin on the train platform."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیکژەنێکی گەڕۆک کەمانچەی دەژەنی لەسەر سەکۆی شەمەندەفەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "busker", follow LX strictly
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybesiege extends StatelessWidget {
 ١. (کردار) دەوردانی شوێنێک (بینایەک، شارێک، ھتد.) کە سەربازی تێدایە تاوەکو خەڵکی ناوی ڕێگە دەدەن بچیتە ژوورەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Paris was besieged for four months and forced to surrender."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاریس بۆ چوار ڕۆژ گەمارۆدرا و خەڵکەی ناچارکران خۆیان بدەن بەدەستەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Paris was besieged for four months and forced to surrender."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاریس بۆ چوار ڕۆژ گەمارۆدرا و خەڵکەی ناچارکران خۆیان بدەن بەدەستەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybesiege extends StatelessWidget {
 ٢. (کردار) دەوردانی کەسێک/شتێک بە ژمارەیەکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The actress was besieged by reporters at the airport."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانمە ئەکتەرەکە لەلایەن پەیامنێرانەوە دەوردرا لە فڕۆکەخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The actress was besieged by reporters at the airport."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانمە ئەکتەرەکە لەلایەن پەیامنێرانەوە دەوردرا لە فڕۆکەخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybesiege extends StatelessWidget {
 ٢. (کردار) ناردنی ژمارەیەکی زۆر نامە، یان پرسیارکردنی زۆر بەشیوەیەک مامەڵەکردن لەگەڵیان ئاسان نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The radio station was besieged with calls from angry listeners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێستگە ڕادیۆییەکە ژمارەیەکی زۆر پەیوەندی پێوەکرا لەلایەن گوێگرانی تووڕەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The radio station was besieged with calls from angry listeners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێستگە ڕادیۆییەکە ژمارەیەکی زۆر پەیوەندی پێوەکرا لەلایەن گوێگرانی تووڕەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

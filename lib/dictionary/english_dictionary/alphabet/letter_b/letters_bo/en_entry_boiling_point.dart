@@ -170,10 +170,18 @@ class EnglishEntryboilingpoint extends StatelessWidget {
 ١. (ناو) ئەو پلەی گەرمییەی کە تێیدا شلە دەکوڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The boiling point of water is 100°C."),
-                              const ExampleSentenceKurdish(
-                                  text: "خاڵی کوڵانی ئاو ١٠٠ پلەی سیلیزییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boiling point of water is 100°C."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاڵی کوڵانی ئاو ١٠٠ پلەی سیلیزییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +203,18 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                                   "٢. (ناو) ئەو خاڵەی کە تییدا کەسێک تووڕە دەبێت یان بارودۆخێک لە دەست دەردەچێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Public frustration has reached boiling point."),
-                              const ExampleSentenceKurdish(
-                                  text: "نیگەرانی خەڵکی خەریکە لێی دەڕژێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Public frustration has reached boiling point."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیگەرانی خەڵکی خەریکە لێی دەڕژێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,11 +233,18 @@ class EnglishEntryboilingpoint extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Kate’s anger was reaching boiling point."),
-                              const ExampleSentenceKurdish(
-                                  text: "تووڕەیی کەیت گەشتبووە بینەقاقەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Kate’s anger was reaching boiling point."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووڕەیی کەیت گەشتبووە بینەقاقەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

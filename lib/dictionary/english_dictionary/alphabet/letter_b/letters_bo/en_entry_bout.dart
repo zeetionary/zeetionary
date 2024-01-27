@@ -173,12 +173,18 @@ class EnglishEntrybout extends StatelessWidget {
 ١. (ناو) ماوەیەکی کورت لە چالاکی زۆر یان شتێکی ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had been fighting after a drinking bout."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەڕیان دەکرد لە دوای ماوەیەک لە خواردنەوەی زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had been fighting after a drinking bout."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەڕیان دەکرد لە دوای ماوەیەک لە خواردنەوەی زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybout extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There has been a severe bout of inflation over recent months."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە چەند مانگی ڕابردوودا ماوەیەک لە ھەڵاوسانی ئابووریی توند ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There has been a severe bout of inflation over recent months."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە چەند مانگی ڕابردوودا ماوەیەک لە ھەڵاوسانی ئابووریی توند ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,11 +231,17 @@ class EnglishEntrybout extends StatelessWidget {
                               text: "٢. (ناو) ماوەیەک لە نەخۆشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He suffered occasional bouts of depression."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماوە ماوە تووشی خەمۆکی دەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He suffered occasional bouts of depression."),
+                                    ExampleSentenceKurdish(
+                                        text: "ماوە ماوە تووشی خەمۆکی دەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +258,18 @@ class EnglishEntrybout extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I got a bad bout of the flu last winter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی موددەتێکی خراپ لە ھەڵامەت بووم زستانی ڕابردوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I got a bad bout of the flu last winter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی موددەتێکی خراپ لە ھەڵامەت بووم زستانی ڕابردوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +288,18 @@ class EnglishEntrybout extends StatelessWidget {
                               text: "٣. (ناو) یارییەکی شەڕەبۆکس یان زۆرانبازی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor halted their bout after the ninth round."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکە زۆرانبازییەکەی وەستاند لە دوای گەڕی نۆیەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor halted their bout after the ninth round."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە زۆرانبازییەکەی وەستاند لە دوای گەڕی نۆیەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybillet extends StatelessWidget {
 ١. (ناو) شوێنێکی کاتی کە سەرباز بۆ ماوەیەکی کاتی تێیدا دەمێنێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The troops are all in billets (= not in camps or barracks)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان ھەموویان لە خانووی کاتیدا دەمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops are all in billets (= not in camps or barracks)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان ھەموویان لە خانووی کاتیدا دەمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybillet extends StatelessWidget {
 ٢. (کردار) ناردنی سەرباز بۆ ئەوەی بۆ ماوەیەکی کاتی لە شوێنێکدا بژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The troops were billeted in the town with local families."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان نێردران بۆ شارۆچکەکە بۆ ژیانکردن لەگەڵ خێزانە ناوخۆییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops were billeted in the town with local families."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان نێردران بۆ شارۆچکەکە بۆ ژیانکردن لەگەڵ خێزانە ناوخۆییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,11 +168,18 @@ class EnglishEntryborrower extends StatelessWidget {
 ١. (ناو) کەسێک یان دامەزراوەیەک کە پارە قەرز دەکات، بەتایبەتی لە بانکێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The interest rate was raised for borrowers."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێژەی سوو بەرزکرایەوە بە قەرزکەران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The interest rate was raised for borrowers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی سوو بەرزکرایەوە بە قەرزکەران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

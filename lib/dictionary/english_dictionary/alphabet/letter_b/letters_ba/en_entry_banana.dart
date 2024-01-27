@@ -169,11 +169,18 @@ class EnglishEntrybanana extends StatelessWidget {
 ١. (ناو) مۆز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Could you chop up a banana for the salad?"),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتوانی مۆزێک ورد بکەیت بۆ زەڵاتەکە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Could you chop up a banana for the salad?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانی مۆزێک ورد بکەیت بۆ زەڵاتەکە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

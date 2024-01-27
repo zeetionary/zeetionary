@@ -163,12 +163,18 @@ class EnglishEntrybasemetal extends StatelessWidget {
 ١. (ناو) کانزایەکی نرخ نزم، بۆ نموونە ئاسن، کە وەک ئاڵتوون گران نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Iron, copper, and zinc are among the most common base metals in the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نرخ نزمەکانی جیھانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Iron, copper, and zinc are among the most common base metals in the world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسن و مس و زینک لەناو بەربڵاوترین کانزا نرخ نزمەکانی جیھانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

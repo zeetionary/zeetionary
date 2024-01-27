@@ -168,11 +168,18 @@ class EnglishEntrybulge extends StatelessWidget {
 ١. (کردار) تەواو پڕبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her pockets were bulging with presents."),
-                              const ExampleSentenceKurdish(
-                                  text: "گیرفانەکانی تەقیبوون لە دیاریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her pockets were bulging with presents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیرفانەکانی تەقیبوون لە دیاریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulge", follow LX strictly
                               Column(
                                 children: [
@@ -191,10 +198,16 @@ class EnglishEntrybulge extends StatelessWidget {
                               text: "٢. (کردار) دەرپەڕین لە شێوەی بازنەیەکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His eyes bulged."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوەکانی دەرپۆقین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His eyes bulged."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوەکانی دەرپۆقین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +224,18 @@ class EnglishEntrybulge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "South of Benghazi the coastline bulges out then in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە باشووری بەنغازییەوە کەنارەوەکان دەردەپەڕن بەرەو دەرەوە و دواتر ناوەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "South of Benghazi the coastline bulges out then in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە باشووری بەنغازییەوە کەنارەوەکان دەردەپەڕن بەرەو دەرەوە و دواتر ناوەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +255,18 @@ class EnglishEntrybulge extends StatelessWidget {
                                   "٣. (ناو) شێوەیەکی خڕ یان چەماوە کە لە شتێکەوە دەرچووە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wondered what the bulge in her coat pocket was."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێ‌ڕامابووم ئەو دەرپۆقیانە چی بوو لە گیرفانی قەمسەڵەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wondered what the bulge in her coat pocket was."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێ‌ڕامابووم ئەو دەرپۆقیانە چی بوو لە گیرفانی قەمسەڵەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +285,18 @@ class EnglishEntrybulge extends StatelessWidget {
                               text: "٤. (ناو) چەوری زگ کە بەرەو دەرەوە دێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That skirt's too tight. It shows all your bulges."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنوورەکە زۆر تەسکە. هەموو ورگتی دەرخستووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That skirt's too tight. It shows all your bulges."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنوورەکە زۆر تەسکە. هەموو ورگتی دەرخستووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +316,18 @@ class EnglishEntrybulge extends StatelessWidget {
                                   "٥. (ناو) زیادبوونێکی کاتیی لەناکاو لە ڕێژەی شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the war there was a bulge in the birth rate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای جەنگەکە، زۆربوونێکی گەورە لە منداڵبووندا ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the war there was a bulge in the birth rate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای جەنگەکە، زۆربوونێکی گەورە لە منداڵبووندا ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
 ١. (ناو) سرکەیەکی ڕەشی شیرینی ئیتالی کە لە بەرمیلی دارینی خڕدا ھەڵدەگیرێت بۆ ئەوەی تامێکی تایبەتی پێبدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Drizzle some balsamic vinegar over your salad for a touch of sweetness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Drizzle some balsamic vinegar over your salad for a touch of sweetness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک سرکەی بالزامیک بپرژێنە بەسەر زەڵاتەکەدا بۆ ئەوەی ھەندێک شیرینی پێبدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

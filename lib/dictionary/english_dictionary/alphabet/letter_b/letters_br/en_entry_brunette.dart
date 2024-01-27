@@ -162,12 +162,18 @@ class EnglishEntrybrunette extends StatelessWidget {
 ١. (ناو) ژنێکی سپی پێستی کە قژێکی قاوەیی تاریکی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her wife was a plump, blue-eyed brunette."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنەکەی خرپنێکی چاو شینی قژ قاوەیی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her wife was a plump, blue-eyed brunette."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنەکەی خرپنێکی چاو شینی قژ قاوەیی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brunette" as
                               Column(
                                 children: [

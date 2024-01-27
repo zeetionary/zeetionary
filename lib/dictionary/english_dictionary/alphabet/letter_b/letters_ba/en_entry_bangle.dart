@@ -171,12 +171,18 @@ class EnglishEntrybangle extends StatelessWidget {
 ١. (ناو) پارچە خشڵێک کە لە مەچەکدا دەبەسترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bangles were a traditional part of her culture."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bangles were a traditional part of her culture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازنەکان بەشێکی کۆن لە کەلتوورەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntrybobsleigh extends StatelessWidget {
 ١. (ناو) خێشکەی پێشبڕکێ؛ گالیسکەی پێشبڕکێ، یان پێشبڕکێی وەرزشی بەسەر بەفردا بە گالیسکەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We watched athletes careering down an icy track on bobsleighs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەیری وەرزشوانەکانمان دەکرد بە ڕێگایەکی بەفریندا دەچوونە خوارەوە لە گالیسکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We watched athletes careering down an icy track on bobsleighs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیری وەرزشوانەکانمان دەکرد بە ڕێگایەکی بەفریندا دەچوونە خوارەوە لە گالیسکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybobsleigh extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was the first female bobsleigh team."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە یەکەمین تیمی ئافرەتانی گالیسکەوانی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was the first female bobsleigh team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە یەکەمین تیمی ئافرەتانی گالیسکەوانی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

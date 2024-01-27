@@ -170,12 +170,18 @@ class EnglishEntrybefall extends StatelessWidget {
 ١. (کردار) بەسەرداھاتن؛ ڕوودان بەسەر کەسێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were unaware of the fate that was to befall them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێ ئاگا بوون لەو چارەنووسەی بەسەریان دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were unaware of the fate that was to befall them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێ ئاگا بوون لەو چارەنووسەی بەسەریان دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybefall extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Should any harm befall me on my journey, you may open this letter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر ھەر شتێکی خراپ ڕوویدا بەسەر گەشتەکەمدا، ئەتوانی ئەم نامەیە بکەیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Should any harm befall me on my journey, you may open this letter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر ھەر شتێکی خراپ ڕوویدا بەسەر گەشتەکەمدا، ئەتوانی ئەم نامەیە بکەیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybefall extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many natural disasters have befallen that region."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر ڕووداوی سرووشتی بەسەر ناوچەکە ھاتوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many natural disasters have befallen that region."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ڕووداوی سرووشتی بەسەر ناوچەکە ھاتوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybirch extends StatelessWidget {
 ١. (ناو) دارێک کە توێکڵێکی ساف و لووسی ھەیە لەگەڵ لقی ناسک و باریک و لە وڵاتانی جەمسەری باکوور دەڕوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Birch branches swayed gently in the breeze."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لقەکانی دارە بێتولەکە بە ھێواشی سەمایان دەکرد لە کزە باکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Birch branches swayed gently in the breeze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لقەکانی دارە بێتولەکە بە ھێواشی سەمایان دەکرد لە کزە باکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybirch extends StatelessWidget {
 ٢. (ناو) تەختەی دار بێتولە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Craftsmen use birch to create furniture, toys, and decorative objects."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیشەگەران تەختەی بێتولە بەکاردێنن بۆ درووستکردنی کەلوپەلی ناوماڵ و یاری منداڵان و کەرەستەی جوانکاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Craftsmen use birch to create furniture, toys, and decorative objects."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیشەگەران تەختەی بێتولە بەکاردێنن بۆ درووستکردنی کەلوپەلی ناوماڵ و یاری منداڵان و کەرەستەی جوانکاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybirch extends StatelessWidget {
 ٣. (ناو) سزادانی کەسێک بە کێشان بە سمتیدا بە بەکارھێنانی دار بێتولە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The threat of the birch hung heavy in the air during school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڕەشەی دارکاری ھەمیشە بەسەر سەری خوێنکارەوە بوو لە قوتابخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The threat of the birch hung heavy in the air during school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڕەشەی دارکاری ھەمیشە بەسەر سەری خوێنکارەوە بوو لە قوتابخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

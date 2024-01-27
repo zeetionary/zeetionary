@@ -170,12 +170,18 @@ class EnglishEntrybackup extends StatelessWidget {
 ١. (ناو) یارمەتی زیادە کە لە کاتی پێویستی دەتوانی بەکاریبێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We can use him as a backup if one of the other players drops out."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We can use him as a backup if one of the other players drops out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +203,18 @@ class EnglishEntrybackup extends StatelessWidget {
 ٢. (ناو) کۆپییەکی فایلێک کە دەکرێت بەکاربھێنرێت ئەگەر فایلە ڕەسەنەکە لەناوبچێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Always make a backup of your work."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Always make a backup of your work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

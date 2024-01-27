@@ -173,12 +173,18 @@ class EnglishEntrybogey extends StatelessWidget {
 ١. (ناو) شتێک کە دەبێتە ھۆی ترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The looming deadline was a constant bogey for the student."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوامۆڵەتە نزیکبووەکە دێوەزمەیەکی بەردەوام بوو بەسەر سەری خوێندکارەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The looming deadline was a constant bogey for the student."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوامۆڵەتە نزیکبووەکە دێوەزمەیەکی بەردەوام بوو بەسەر سەری خوێندکارەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybogey extends StatelessWidget {
 ٢. (ناو) پارچە چڵمێکی وشکبوو لە لووتدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The child picked a bogey from his nose."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The child picked a bogey from his nose."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە پارچە چڵمێکی وشکی لە لووتی دەرھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybogey extends StatelessWidget {
                                   "٣. (ناو) دێو، دێوەزمە؛ بوونەوەرێکی خەیاڵی کە بەکاردێت بۆ ترساندنی منداڵان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children believed in the friendly bogey that lived under the bed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لەژێر جێ‌خەوەکە دەژیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children believed in the friendly bogey that lived under the bed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان باوەڕیان ھەبوو بە دێوەزمە دۆستەکەی کە لەژێر جێ‌خەوەکە دەژیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -250,7 +268,7 @@ class EnglishEntrybogey extends StatelessWidget {
                           // const ExampleSentenceEnglish(
                           // text:
                           // "speak3s111111111111111111111111111111111"),
-                          // const ExampleSentenceKurdish(
+                          // ExampleSentenceKurdish(
                           // text: "رستە_رستە_رستە_رستە."),
                           // const CustomSizedBoxForTTS(),
                           // CustomIconButtonBritish(

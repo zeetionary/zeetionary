@@ -170,12 +170,18 @@ class EnglishEntryboss extends StatelessWidget {
 ١. (ناو) کەسێک کە بەرپرسی کەسانی دیکەیە لەسەر کار و پێیان دەڵێت چی بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll ask my boss if I can have the day off."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سەرکارەکەم دەڵێم ئاخۆ بتوانم ئەو ڕۆژە پشوو وەربگرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll ask my boss if I can have the day off."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سەرکارەکەم دەڵێم ئاخۆ بتوانم ئەو ڕۆژە پشوو وەربگرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +198,17 @@ class EnglishEntryboss extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I like being my own boss (= working for myself and making my own decisions)."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزدەکەم سەرکاری خۆم بم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I like being my own boss (= working for myself and making my own decisions)."),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزدەکەم سەرکاری خۆم بم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntryboss extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە بەڕێوەبەری دامەزراوەیەکی گەورەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hospital bosses protested at the decision."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسانی نەخۆشخانەکان بڕیارەکانیان سەرکۆنە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hospital bosses protested at the decision."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسانی نەخۆشخانەکان بڕیارەکانیان سەرکۆنە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,10 +259,18 @@ class EnglishEntryboss extends StatelessWidget {
                                   "٣. (کردار) وتن بە کەسێک کە چی بکات بەشێوەیەکی توند و ناشرین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm sick of you bossing me around!"),
-                              const ExampleSentenceKurdish(
-                                  text: "بێزارم لێت فرمانم بەسەردا بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm sick of you bossing me around!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێزارم لێت فرمانم بەسەردا بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,10 +289,16 @@ class EnglishEntryboss extends StatelessWidget {
                               text: "٤. (ھاوەڵناو) زۆر باش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's a real boss chick."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژنێکی تەواو سەرکەوتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's a real boss chick."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژنێکی تەواو سەرکەوتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,10 +315,16 @@ class EnglishEntryboss extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was a boss party."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاھەنگێکی ناوازە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It was a boss party."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاھەنگێکی ناوازە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

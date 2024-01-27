@@ -172,12 +172,18 @@ class EnglishEntrybeloved extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر خۆشەویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were glad to be back in their beloved Ireland."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆشحاڵبوون بە گەڕانەوە بۆ ئێرلەندای خۆشەویستیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were glad to be back in their beloved Ireland."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆشحاڵبوون بە گەڕانەوە بۆ ئێرلەندای خۆشەویستیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +201,18 @@ class EnglishEntrybeloved extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was beloved by all who knew her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر خۆشەویست بوو لای ھەرکەس کە دەیناسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was beloved by all who knew her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر خۆشەویست بوو لای ھەرکەس کە دەیناسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +232,18 @@ class EnglishEntrybeloved extends StatelessWidget {
 ٢. (ناو) کەسێکی زۆر خۆشەویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was a gift from her beloved."),
-                              const ExampleSentenceKurdish(
-                                  text: "دیارییەک بوو لە خۆشەویستەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a gift from her beloved."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیارییەک بوو لە خۆشەویستەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

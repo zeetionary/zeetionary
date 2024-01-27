@@ -164,12 +164,18 @@ class EnglishEntrybareback extends StatelessWidget {
 ١. (ھاوەڵناو) لەسەر ئەسپێک بەبێ زین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The circus featured a performance by a bareback rider who executed daring stunts on a horse."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێرکەکە نمایشێکی لۆخەگرت لەلایەن سوارچاکێکی بێ‌زینەوە کە ژمارەیەک کاری شانۆیی ئەنجامدا لەسەر ئەسپێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The circus featured a performance by a bareback rider who executed daring stunts on a horse."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێرکەکە نمایشێکی لۆخەگرت لەلایەن سوارچاکێکی بێ‌زینەوە کە ژمارەیەک کاری شانۆیی ئەنجامدا لەسەر ئەسپێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +195,17 @@ class EnglishEntrybareback extends StatelessWidget {
 ٢. (ھاوەڵکار) سوارچاکی بەبێ زین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is it difficult riding bareback?"), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text: "سوارچاکی بەبێ زین گرانە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is it difficult riding bareback?"), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text: "سوارچاکی بەبێ زین گرانە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

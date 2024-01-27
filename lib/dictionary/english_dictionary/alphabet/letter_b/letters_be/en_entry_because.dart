@@ -174,10 +174,17 @@ class EnglishEntrybecause extends StatelessWidget {
 ١. (لێکدەر) بۆ پیشاندانی ھۆکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I did it because he told me to."),
-                              const ExampleSentenceKurdish(
-                                  text: "کردم چونکە ئەو پێی وتم بیکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I did it because he told me to."),
+                                    ExampleSentenceKurdish(
+                                        text: "کردم چونکە ئەو پێی وتم بیکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +202,18 @@ class EnglishEntrybecause extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Just because I'm lending you my dress for tonight doesn't mean you can borrow it whenever you want to."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا لەبەرئەوەی بۆ ئەمشەو جلەکمت پێ دەدەم بە قەرز واتای ئەوە نییە ھەموو کاتێک دەتوانی بیبەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Just because I'm lending you my dress for tonight doesn't mean you can borrow it whenever you want to."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا لەبەرئەوەی بۆ ئەمشەو جلەکمت پێ دەدەم بە قەرز واتای ئەوە نییە ھەموو کاتێک دەتوانی بیبەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +231,18 @@ class EnglishEntrybecause extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He hated being in the army because he had to obey commands."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزی لە دوپا نەبوو چونکە دەبوو پابەندی فەرمان بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He hated being in the army because he had to obey commands."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی لە دوپا نەبوو چونکە دەبوو پابەندی فەرمان بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

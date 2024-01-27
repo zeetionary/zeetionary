@@ -170,12 +170,18 @@ class EnglishEntrybigoted extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی باوەڕی توند و نابەجێ، و ڕەتی بکەیتەوە کە بیانگۆڕی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's so bigoted that she refuses to accept anyone who doesn't think like her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێندە بیرتەسکە کە ڕەتیدەکاتەوە ھیچ کەس پەسەند بکات کە وەک ئەو بیرنەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's so bigoted that she refuses to accept anyone who doesn't think like her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێندە بیرتەسکە کە ڕەتیدەکاتەوە ھیچ کەس پەسەند بکات کە وەک ئەو بیرنەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

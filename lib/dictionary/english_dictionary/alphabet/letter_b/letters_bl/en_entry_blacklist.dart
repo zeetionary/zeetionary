@@ -169,12 +169,18 @@ class EnglishEntryblacklist extends StatelessWidget {
 ١. (ناو) لیستی کەسانێک، ژمارەیەک کۆمپانیا، بەرھەم، یان وڵات کە دامەزراوەیەک یان حکومەتێک کە بەدڵیانی نییە و لییان دووردەکەوێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company maintained a blacklist of individuals who had violated the code of conduct."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە لیستی ڕەشی ئەو کەسانەی ھەڵدەگرت کە یاساکانیان شکاندبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company maintained a blacklist of individuals who had violated the code of conduct."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە لیستی ڕەشی ئەو کەسانەی ھەڵدەگرت کە یاساکانیان شکاندبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblacklist extends StatelessWidget {
                                   "٢. (کردار) زیادکردنی ناوی کەسێک، کۆمپانیایەک، بەرھەمێک، یان وڵاتێک بۆ لیستی ڕەش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was blacklisted by all the major Hollywood studios because of her political views."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خرایە لیستی ڕەشی ھەموو ستۆدیۆکانی ھۆڵیوودەوە بەھۆی بیروڕا سیاسییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was blacklisted by all the major Hollywood studios because of her political views."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خرایە لیستی ڕەشی ھەموو ستۆدیۆکانی ھۆڵیوودەوە بەھۆی بیروڕا سیاسییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

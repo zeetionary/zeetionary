@@ -172,11 +172,18 @@ class EnglishEntryblood extends StatelessWidget {
 ١. (ناو) خوێن؛ شلەی سوور کە بە لەشی مرۆڤ و ئاژەڵدا دەچێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He lost a lot of blood in the accident."),
-                              const ExampleSentenceKurdish(
-                                  text: "خوێنێکی زۆر لەدەستدا لە ڕووداوەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lost a lot of blood in the accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێنێکی زۆر لەدەستدا لە ڕووداوەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +200,18 @@ class EnglishEntryblood extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Blood was pouring out of a cut on her head."),
-                              const ExampleSentenceKurdish(
-                                  text: "خوێن دەچۆڕا لە برینێک لە سەریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Blood was pouring out of a cut on her head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێن دەچۆڕا لە برینێک لە سەریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,11 +228,18 @@ class EnglishEntryblood extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His hands were covered in blood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستەکانی بە خوێن سووربوو بوون (داپۆشرابوون)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His hands were covered in blood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستەکانی بە خوێن سووربوو بوون (داپۆشرابوون)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +259,18 @@ class EnglishEntryblood extends StatelessWidget {
                                   "٢. (ناو) ھەبوونی ئەو جۆرەی خوێن کە باسکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cold-blooded animals cannot generate their own body heat, but they do regulate it by changing their environment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژەڵە خوێن ساردەکان ئەوانەن کە ناتوانن گەرمی لەشی خۆیان ڕێکبخەن، بەڵام کۆنترۆڵی دەکەن بە بە گۆڕینی ژینگەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cold-blooded animals cannot generate their own body heat, but they do regulate it by changing their environment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵە خوێن ساردەکان ئەوانەن کە ناتوانن گەرمی لەشی خۆیان ڕێکبخەن، بەڵام کۆنترۆڵی دەکەن بە بە گۆڕینی ژینگەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,10 +289,16 @@ class EnglishEntryblood extends StatelessWidget {
                               text: "٣. (ناو) ڕەچەڵەکی کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She is of noble blood."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ڕەچەڵەکێکی خانەدانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She is of noble blood."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ڕەچەڵەکێکی خانەدانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,12 +317,18 @@ class EnglishEntryblood extends StatelessWidget {
                               text: "٤. (کردار) پێدانی یەکەم ئەزموون بە کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They decided to blood him in the international team at the age of only 18."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاریان دا بەژداری پێ بکەن لە تیمە نێودەوڵەتییەکە لە تەمەنی تەنھا ١٨ ساڵیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They decided to blood him in the international team at the age of only 18."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاریان دا بەژداری پێ بکەن لە تیمە نێودەوڵەتییەکە لە تەمەنی تەنھا ١٨ ساڵیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

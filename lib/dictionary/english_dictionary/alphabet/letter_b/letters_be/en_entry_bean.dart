@@ -172,12 +172,18 @@ class EnglishEntrybean extends StatelessWidget {
 ١. (ناو) تۆو، یان کەلووی تۆودار، کە ھی ڕووەکێکی ھەڵگژە و وەک سەوزە دەخورێت (فاسۆلیا، لۆبیا، پاقلە)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The villagers cultivate mostly maize and beans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The villagers cultivate mostly maize and beans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوندنشینەکان بەزۆری گەنمەشامی و لۆبیا و فاسۆلیا و پاقلە دەچێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +203,17 @@ class EnglishEntrybean extends StatelessWidget {
 ٢. (ناو) تۆوی ڕووەکێک کە قاوەی لێ بەرھەمدێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Coffee beans are the seeds of the coffee tree."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەنکە قاوە تۆوی داری قاوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Coffee beans are the seeds of the coffee tree."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەنکە قاوە تۆوی داری قاوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,10 +233,16 @@ class EnglishEntrybean extends StatelessWidget {
 ٣. (ناو) سەر یان مێشکی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Use your bean, kiddo!"),
-                              const ExampleSentenceKurdish(
-                                  text: "مێشکت بەکاربێنە منداڵ!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Use your bean, kiddo!"),
+                                    ExampleSentenceKurdish(
+                                        text: "مێشکت بەکاربێنە منداڵ!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +262,18 @@ class EnglishEntrybean extends StatelessWidget {
 ٤. (کردار) لێدانی کەسێک لەسەر سەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I got beaned by a rock someone threw."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I got beaned by a rock someone threw."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەردێک کە کەسێک ھاویشتی کێشای بە سەرمدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

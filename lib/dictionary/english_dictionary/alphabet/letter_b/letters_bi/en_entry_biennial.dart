@@ -171,12 +171,18 @@ class EnglishEntrybiennial extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دوو ساڵ جارێک ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university hosts a biennial art exhibition showcasing the work of local artists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە پێشانگایەکی ھونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری ھونەرمەندە خۆجێیەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university hosts a biennial art exhibition showcasing the work of local artists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە پێشانگایەکی ھونەری دوو ساڵ جارێک ڕێکدەخات بۆ نمایشی کاری ھونەرمەندە خۆجێیەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybiennial extends StatelessWidget {
 ٢. (ناو) ڕوەکێک کە دوو ساڵ دەژی و لە ساڵی دووەمدا گوڵ دەگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Carrots, beets, parsley, and are examples of biennials."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Carrots, beets, parsley, and are examples of biennials."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەزەر و چەوەندەر و مەعدەنووس نموونەی ڕووەکن کە دوو ساڵ دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

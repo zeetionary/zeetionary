@@ -165,12 +165,18 @@ class EnglishEntrybarista extends StatelessWidget {
 ١. (ناو) کەسێک کە لە قاوەخانەیەک کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of their baristas also won national and international honors."), // DOPSUM_WRITE_A_SENTENCE
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە کارمەندەکانی قاوەخانەکە ناوبانگی ناوخۆیی و نێودەڵەتی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of their baristas also won national and international honors."), // DOPSUM_WRITE_A_SENTENCE
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە کارمەندەکانی قاوەخانەکە ناوبانگی ناوخۆیی و نێودەڵەتی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

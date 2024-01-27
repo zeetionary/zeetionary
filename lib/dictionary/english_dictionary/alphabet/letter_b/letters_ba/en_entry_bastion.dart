@@ -166,12 +166,18 @@ class EnglishEntrybastion extends StatelessWidget {
 ١. (ناو) کۆمەڵە کەسێک یان سیستەمێک کە جۆرە شێوازێکی ھی==ژت=یان یان سیستەمێک دەپارێزێت کە وادیارە لە نەماندایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university is a bastion of academic freedom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە نموونەی زیندووھێڵەرەوەی ئازادی ئەکادیمییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university is a bastion of academic freedom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە نموونەی زیندووھێڵەرەوەی ئازادی ئەکادیمییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybastion extends StatelessWidget {
 ٢. (ناو) شوێنێک کە ھێزی سەربازی بەرگری لێ دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Singapore was the last bastion of British defences in South-East Asia."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سنگاپوور کۆتا شوورای بەرگری بەرخۆدانی بەریتانیا بوو لە باشووری ڕۆژھەڵاتی ئاسیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Singapore was the last bastion of British defences in South-East Asia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنگاپوور کۆتا شوورای بەرگری بەرخۆدانی بەریتانیا بوو لە باشووری ڕۆژھەڵاتی ئاسیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

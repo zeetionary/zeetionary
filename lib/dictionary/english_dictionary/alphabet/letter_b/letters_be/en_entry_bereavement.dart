@@ -171,11 +171,17 @@ class EnglishEntrybereavement extends StatelessWidget {
 ١. (ناو) لە دۆخێکدا کە خزمێک یان کەسێکی نزیکت لەدەست داوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has recently suffered a bereavement."),
-                              const ExampleSentenceKurdish(
-                                  text: "تازەگی تووشی جەرگ‌سووتاوی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has recently suffered a bereavement."),
+                                    ExampleSentenceKurdish(
+                                        text: "تازەگی تووشی جەرگ‌سووتاوی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybereavement extends StatelessWidget {
 ٢. (ناو) مردنی خزمێک یان کەسێکی نزیک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had suffered three bereavements in quick succession."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ جار جەرگ‌سووتاو بووبوو بەدوای یەکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had suffered three bereavements in quick succession."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ جار جەرگ‌سووتاو بووبوو بەدوای یەکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

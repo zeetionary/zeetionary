@@ -169,12 +169,18 @@ class EnglishEntrybanjo extends StatelessWidget {
 ١. (ناو) بانجۆ؛ ئامێرێکی میوزیکە وەک گیتار، لە دەسکێکی درێژ پێکھاتووە و بەشی خوارەوەی خڕە، و چوار تەڵ یان زیاتری پێوەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The banjo is often used to accompany singing, and its distinctive sound can add a lively feel to a song."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The banjo is often used to accompany singing, and its distinctive sound can add a lively feel to a song."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

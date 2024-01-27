@@ -167,12 +167,18 @@ class EnglishEntrybarricade extends StatelessWidget {
 ١. (ناو) ژمارەیەک شت کە دانراون بۆ ڕێگری لە تێپەڕبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police stormed the barricades the demonstrators had put up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس دای بەسەر ئەو بەربەستانەدا کە خۆپیشاندەران دایان نابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police stormed the barricades the demonstrators had put up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس دای بەسەر ئەو بەربەستانەدا کە خۆپیشاندەران دایان نابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybarricade extends StatelessWidget {
 ٢. (کردار) بەرگری کردن یان گرتنی شوێنێک بە دانانی بەربەست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They barricaded all the doors and windows."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو دەرگا و پەنجەرەکانیان بەربەست کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They barricaded all the doors and windows."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو دەرگا و پەنجەرەکانیان بەربەست کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

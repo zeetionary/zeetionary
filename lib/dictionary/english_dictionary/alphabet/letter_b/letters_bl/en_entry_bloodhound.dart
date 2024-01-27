@@ -168,12 +168,18 @@ class EnglishEntrybloodhound extends StatelessWidget {
 ١. (ناو) سەگێکی گەورە کە توانای بۆنکردنی تیژی ھەیە و بەکاردێت بۆ شوێنکەوتن یان گەڕان بە شوێن خەڵکیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Law enforcement relies on bloodhounds for locating missing persons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس سەگی ڕاو بەکاردێنێت بۆ دۆزینەوەی شوێنی کەسانی ونبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Law enforcement relies on bloodhounds for locating missing persons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس سەگی ڕاو بەکاردێنێت بۆ دۆزینەوەی شوێنی کەسانی ونبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

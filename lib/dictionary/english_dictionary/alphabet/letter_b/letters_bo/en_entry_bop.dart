@@ -169,10 +169,17 @@ class EnglishEntrybop extends StatelessWidget {
 ١. (ناو) سەما لەگەڵ میوزیکی پۆپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Fancy a bop?"),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزت بە سەمایەکە لەگەڵ میوزیکی پۆپ؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Fancy a bop?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزت بە سەمایەکە لەگەڵ میوزیکی پۆپ؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +198,18 @@ class EnglishEntrybop extends StatelessWidget {
                               text: "٢. (کردار) سەماکردن لەگەڵ میوزیکی پۆپ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They were all bopping to the music."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموویان سەمایان دەکرد لەگەڵ میوزیکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were all bopping to the music."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموویان سەمایان دەکرد لەگەڵ میوزیکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,11 +228,17 @@ class EnglishEntrybop extends StatelessWidget {
                               text: "٣. (کردار) لێدان لە کەسێک بە ھێواشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I accidentally bopped her on the head."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ڕێکەوت کێشام بە سەریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I accidentally bopped her on the head."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ڕێکەوت کێشام بە سەریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

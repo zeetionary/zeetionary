@@ -329,12 +329,18 @@ class EnglishEntrybridge extends StatelessWidget {
 ١. (ناو) ڕێگایەک کە بەسەر ڕێگایەکی تر، ڕووبارێک، ھتد درووست دەکرێت بۆ پەڕینەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We crossed the bridge over the River Windrush."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەسەر پردەکەی سەر ڕووباری ویندڕەش پەڕینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We crossed the bridge over the River Windrush."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەسەر پردەکەی سەر ڕووباری ویندڕەش پەڕینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bridge" as
                               Column(
                                 children: [
@@ -351,12 +357,18 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The river was spanned by a railway bridge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووبارەکە پردێکی سکەی شەمەندەفەری بەسەردا درووست کرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The river was spanned by a railway bridge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبارەکە پردێکی سکەی شەمەندەفەری بەسەردا درووست کرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -379,7 +391,7 @@ class EnglishEntrybridge extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Cross the bridge and turn right into the town."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بەسەر پردەکەدا بپەڕەوە و بەلای ڕاستدا بچۆ بۆ چوونە شارۆچکەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -403,7 +415,7 @@ class EnglishEntrybridge extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Floods washed away several bridges."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "لافاو ژمارەیەک پردی ڕووخاندبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -427,7 +439,7 @@ class EnglishEntrybridge extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The road goes under the old bridge."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ڕێگاکە بە ژێر پردەکەدا دەچێت."),
                                       const CustomSizedBoxForTTS(),
@@ -455,12 +467,18 @@ class EnglishEntrybridge extends StatelessWidget {
                                   "٢. (ناو) شتێک کە دوو شتی جیاواز پێکە دەبەستێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book serves as a bridge between ancient wisdom and modern science."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە خزمەت دەکات وەک پردێک لە نێوان ژیریی کۆن و زانستی سەردەمدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book serves as a bridge between ancient wisdom and modern science."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە خزمەت دەکات وەک پردێک لە نێوان ژیریی کۆن و زانستی سەردەمدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -477,12 +495,18 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cultural exchanges are a way of building bridges between countries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاڵوگۆڕی کەلتووری ڕێگایەکە بۆ ئاشنابوونی وڵاتان بە یەکدی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cultural exchanges are a way of building bridges between countries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاڵوگۆڕی کەلتووری ڕێگایەکە بۆ ئاشنابوونی وڵاتان بە یەکدی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -502,12 +526,18 @@ class EnglishEntrybridge extends StatelessWidget {
                                   "٣. (ناو) ئەو بەشەی کەشتی کە کاپتن و ئەفسەرەکان لەسەری دەوەستن کە کۆنترۆڵی کەشتییەکە دەکەن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Who was on the bridge when the collision took place?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێ لەسەر سەکۆی کەشتی‌یەوانییەکە بوو کە پێکدادانەکە ڕوویدا؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who was on the bridge when the collision took place?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێ لەسەر سەکۆی کەشتی‌یەوانییەکە بوو کە پێکدادانەکە ڕوویدا؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -527,11 +557,18 @@ class EnglishEntrybridge extends StatelessWidget {
                                   "٤. (ناو) یارییەکی دوو کەسی کە دەبێت بە سەرکەوتووی پێشبینی خاڵی بردنەوەیان بکەن و بەپێچەوانەوە خاڵ لەدەست دەدەن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I enjoy a game of bridge occasionally."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماوە ماوە حەز بە یاریی کۆنکان دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I enjoy a game of bridge occasionally."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماوە ماوە حەز بە یاریی کۆنکان دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -551,11 +588,18 @@ class EnglishEntrybridge extends StatelessWidget {
                                   "٥. (ناو) بەشی سەرەوەی لووت کە دەکەوێتە نێوان چاوەوە، یان ئەو بەشەی چاویلکە کە لەسەری دەوەستێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blow caught him right on the bridge of his nose."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێدانەکە ڕێک لە بەرزایی لووتی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blow caught him right on the bridge of his nose."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێدانەکە ڕێک لە بەرزایی لووتی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -574,12 +618,18 @@ class EnglishEntrybridge extends StatelessWidget {
                               text: "٦. (کردار) درووستکردنی پرد لەسەر شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The valley was originally bridged by the Romans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆڵەکە لە سەرەتادا لەلایەن ڕۆمەکانەوە پردی لەسەر درووستکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The valley was originally bridged by the Romans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆڵەکە لە سەرەتادا لەلایەن ڕۆمەکانەوە پردی لەسەر درووستکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -596,12 +646,18 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The river had been bridged at its narrowest point."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووبارەکە لە باریکترین خاڵیدا پردی لەسەر درووستکرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The river had been bridged at its narrowest point."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبارەکە لە باریکترین خاڵیدا پردی لەسەر درووستکرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -621,12 +677,18 @@ class EnglishEntrybridge extends StatelessWidget {
                                   "٧. (کردار) نەھێشتن یان کەمکردنەوەی ناکۆکی یان جیاوازی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We must bridge the gap between employees and management."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت ناکۆکی نێوان کارمەندان و بەڕێوبەرایەتی کەم بکەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must bridge the gap between employees and management."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت ناکۆکی نێوان کارمەندان و بەڕێوبەرایەتی کەم بکەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -643,12 +705,18 @@ class EnglishEntrybridge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university aims to bridge the gulf between education and industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە ئامانجیەتی پەیوەندی درووست بکات لە نێوان خوێندن و دەستی کاردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university aims to bridge the gulf between education and industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە ئامانجیەتی پەیوەندی درووست بکات لە نێوان خوێندن و دەستی کاردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

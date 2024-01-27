@@ -168,12 +168,18 @@ class EnglishEntrybrood extends StatelessWidget {
 ١. (کردار) بیرکردنەوەی زۆر لە شتێک کە وا دەکات بێزار، دوودڵ، یان خەمبار بیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You're not still brooding over what he said, are you?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You're not still brooding over what he said, are you?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا بیر لەوە دەکەیتەوە کە گوتی، وانییە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brood" as
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybrood extends StatelessWidget {
                                   "٢. (کردار) دانیشتنی مریشکێک لەسەر ھێلکە بۆ دانیشتن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hen would brood over her eggs to ensure they received the necessary warmth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مریشکەکە کڕ کەوت لەسەر ھێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hen would brood over her eggs to ensure they received the necessary warmth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مریشکەکە کڕ کەوت لەسەر ھێلکەکانی بۆ ئەوەی دڵنیا بێت لەوەی گەرمی پێویست وەردەگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +230,18 @@ class EnglishEntrybrood extends StatelessWidget {
                                   "٣. (ناو) تەواوی ئەو ئاژەڵ و باڵندانەی دایکێک لە یەک کاتدا دەیانھێنێتە دونیا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blackbird flew back and forth to its brood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەشپەڕەکە ھاتوچۆی بوو بۆ لای بێچووەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blackbird flew back and forth to its brood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەشپەڕەکە ھاتوچۆی بوو بۆ لای بێچووەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,11 +261,18 @@ class EnglishEntrybrood extends StatelessWidget {
                                   "٤. (ناو) خێزانێکی گەورە لە منداڵ؛ منداڵەکانی کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Ann was at the party with her brood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئانا لەگەڵ منداڵەکانی لە ئاھەنگەکە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ann was at the party with her brood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئانا لەگەڵ منداڵەکانی لە ئاھەنگەکە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +289,18 @@ class EnglishEntrybrood extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She grew up amidst a brood of brothers and sisters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەناو ژمارەیەک لە خوشک و برادا گەورە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She grew up amidst a brood of brothers and sisters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەناو ژمارەیەک لە خوشک و برادا گەورە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

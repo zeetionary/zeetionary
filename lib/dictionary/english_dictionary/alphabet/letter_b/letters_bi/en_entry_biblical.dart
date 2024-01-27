@@ -169,12 +169,18 @@ class EnglishEntrybiblical extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ئینجیل، کتێبی پیرۆزی ئایینی مەسیحییەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They named their son Isaac after the biblical figure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکەیان ناونا ئیسحاق بەناوی ئەو کەسایەتییەی ئینجیلەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They named their son Isaac after the biblical figure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکەیان ناونا ئیسحاق بەناوی ئەو کەسایەتییەی ئینجیلەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybiblical extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر گەورە؛ بە ئاستێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After rain of biblical proportions, the match was cancelled."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە ھەڵوەشێندرایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After rain of biblical proportions, the match was cancelled."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای باران بارین بە ئاستێکی زۆر، یارییەکە ھەڵوەشێندرایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

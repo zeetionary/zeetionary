@@ -249,12 +249,18 @@ class EnglishEntrybank extends StatelessWidget {
 ١. (ناو) دامەزراوەیەک کە ژمارەیەک خزمەتگوزاری دارایی پێشکەش دەکات، بۆ نموونە ھەڵگرتن و بەقەرزدانی پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't have much money in the bank at the end of the month."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't have much money in the bank at the end of the month."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,12 +282,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٢. (ناو) لە قوماردا ئەو پارەیە کە خاوەنەکەی دەیخاتە گرەو و بەژداربووان دەتوانن بیبەنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The player's bank was dwindling after several losses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The player's bank was dwindling after several losses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,12 +315,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٣. (ناو) ڕێژەیەک لە شت کە بەردەستە، یان ئەو شوێنەی کە تێیدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They intend to establish a bank of information which will be accessible to the public."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They intend to establish a bank of information which will be accessible to the public."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -328,12 +346,18 @@ class EnglishEntrybank extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blood bank is always in need of donations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blood bank is always in need of donations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -355,12 +379,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٤. (ناو) شوێنێک کە شتی تێدا دادەنرێت بۆ دووبارە بەکارھێنانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Take old clothes and shoes to the recycling bank."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Take old clothes and shoes to the recycling bank."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -382,12 +412,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٥. (ناو) قەراخی ڕووبارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The river burst its banks after heavy rain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The river burst its banks after heavy rain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,12 +445,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٦. (ناو) تەپۆلکە؛ ناوچەیەکی بەرز کە لە لاکەشەکانییەوە دادەبەزێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were low banks of earth between the rice fields."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were low banks of earth between the rice fields."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -436,12 +478,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٧. (ناو) لێژاییەکی دەستکرد لە قەراخی ڕێگایەک کە لێژبووە بەرەو ناوەوە بۆ ڕێگری لە خلیسکان لە کاتی پێچکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The driver carefully navigated the sharp bend on the banked road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The driver carefully navigated the sharp bend on the banked road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -463,11 +511,17 @@ class EnglishEntrybank extends StatelessWidget {
 ٨. (ناو) تۆپەڵێک لە ھەور، بەفر، ھتد، بەتایبەتی ئەگەر درووست بووبێت بەھۆی باوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sun disappeared behind a bank of clouds."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆر کەوتە پشت تۆپەڵە ھەورێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sun disappeared behind a bank of clouds."),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆر کەوتە پشت تۆپەڵە ھەورێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -489,12 +543,18 @@ class EnglishEntrybank extends StatelessWidget {
 ٩. (ناو) زنجیرەیەک لە ھەمان شت، بەتایبەتی ئامێر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was faced with a huge bank of switches and buttons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was faced with a huge bank of switches and buttons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -516,12 +576,18 @@ class EnglishEntrybank extends StatelessWidget {
 ١٠. (کردار) پارە خستنە بانک (لە دوای قازانجکردن)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is believed to have banked (= been paid) £10 million in two years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is believed to have banked (= been paid) £10 million in two years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -543,12 +609,18 @@ class EnglishEntrybank extends StatelessWidget {
 ١١. (کردار) ھەبوونی ھەژمارێک بانکێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The family had banked with Bank of America for generations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The family had banked with Bank of America for generations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -570,12 +642,18 @@ class EnglishEntrybank extends StatelessWidget {
 ١٢. (کردار) (فڕۆکە) گەشتکردن لەکاتێکدا لایەک بەرزترە لە لایەکی ترە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The pilot banked the plane to give passengers a better look at the mountain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The pilot banked the plane to give passengers a better look at the mountain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -597,12 +675,18 @@ class EnglishEntrybank extends StatelessWidget {
 ١٣. (کردار) درووستکردنی کەڵەکەیەک لە شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The snow had banked up in the corner of the garden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The snow had banked up in the corner of the garden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -624,12 +708,18 @@ class EnglishEntrybank extends StatelessWidget {
 ١٤. (کردار) کەڵەکەکردنی خەڵووز، ھتد لەسەر ئاگر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We banked up the fire (= put more coal on it) to keep it burning all night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We banked up the fire (= put more coal on it) to keep it burning all night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

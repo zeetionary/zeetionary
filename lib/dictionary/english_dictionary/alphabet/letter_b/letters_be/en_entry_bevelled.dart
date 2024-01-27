@@ -170,12 +170,18 @@ class EnglishEntrybevelled extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی لێوارێک یان ڕوویەک کە لێژی تێدایە (بۆ نموونە تیژ نییە)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A picture frame often has bevelled edges."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A picture frame often has bevelled edges."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

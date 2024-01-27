@@ -167,12 +167,18 @@ class EnglishEntrybulldoze extends StatelessWidget {
 ١. (کردار) ڕووخاندن بە خاکماڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The trees are being bulldozed to make way for a new factory."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The trees are being bulldozed to make way for a new factory."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دارەکان خاکماڵ دەکرێن بۆ درووستکردنی ڕێگا بۆ کارگەیەکی تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldoze", follow LX strictly
                               Column(
                                 children: [
@@ -189,11 +195,18 @@ class EnglishEntrybulldoze extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The town was bulldozed in the 1950s."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارۆچکەکە تەختکرا لە ساڵانی ١٩٥٠ کاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The town was bulldozed in the 1950s."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارۆچکەکە تەختکرا لە ساڵانی ١٩٥٠ کاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +225,18 @@ class EnglishEntrybulldoze extends StatelessWidget {
                               text: "٢. (کردار) بەزۆر چوونە شوێنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They bulldozed the tax through Parliament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆژە یاسای باجدانیان بەزۆر بە پەرلەماندا تێپەڕاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They bulldozed the tax through Parliament."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆژە یاسای باجدانیان بەزۆر بە پەرلەماندا تێپەڕاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,10 +253,17 @@ class EnglishEntrybulldoze extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He bulldozed his way to victory."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەزۆر خۆی گەیاندە سەرکەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bulldozed his way to victory."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەزۆر خۆی گەیاندە سەرکەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,10 +283,16 @@ class EnglishEntrybulldoze extends StatelessWidget {
                                   "ژممارە. (کردار) زۆرکردن لە کەسێک بۆ کردنی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "speakbulldozes55"),
-                              const ExampleSentenceKurdish(
-                                  text: "ناچار بە فرۆشتنیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "speakbulldozes55"),
+                                    ExampleSentenceKurdish(
+                                        text: "ناچار بە فرۆشتنیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

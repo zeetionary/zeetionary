@@ -170,11 +170,18 @@ class EnglishEntrybiography extends StatelessWidget {
 ١. (ھاوەڵناو) ژیانی کەسێک کە لەلایەن کەسێکی دیکەوە نووسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wrote a biography of Winston Churchill."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیاننامەیەکی وینستۆن چەرچڵی نووسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wrote a biography of Winston Churchill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژیاننامەیەکی وینستۆن چەرچڵی نووسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

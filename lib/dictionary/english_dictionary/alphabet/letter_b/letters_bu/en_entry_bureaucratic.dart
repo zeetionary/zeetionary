@@ -211,12 +211,18 @@ class EnglishEntrybureaucratic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بیرۆکراسی و کەسانی بیرۆکرات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company was inefficient because it was highly bureaucratic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە کەم‌بەرهەم بوو بەهۆی زۆریی بیرۆکراسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company was inefficient because it was highly bureaucratic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە کەم‌بەرهەم بوو بەهۆی زۆریی بیرۆکراسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bureaucratic", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrybureaucratic extends StatelessWidget {
                                   "٢. (ھاوەڵناو) لەخۆگرتنی بڕیار و پڕۆسەی ئاڵۆز کە وادەکات شتەکان هێواش و گران بن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had a lot of bureaucratic hassle trying to get the information I needed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر کێشمەکێشمی کارگێڕیانەم هەبوو بۆ دەستکەوتنی زانیارییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had a lot of bureaucratic hassle trying to get the information I needed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر کێشمەکێشمی کارگێڕیانەم هەبوو بۆ دەستکەوتنی زانیارییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

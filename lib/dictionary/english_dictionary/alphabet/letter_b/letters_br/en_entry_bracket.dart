@@ -172,12 +172,18 @@ class EnglishEntrybracket extends StatelessWidget {
 ١. (ناو) کەوانەی وەک () یان [] کە لە نووسیندا زانیاری زیادە لە ناویاندا دەنووسرێت. لە بیرکاریدا بەشێک لە ھاوکێشە لە ناو () دەنووسرێت. لە نووسیندا لێدوانی نووسەر لە ناو [] دەنووسرێت."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Publication dates are given in brackets after each title."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ھەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Publication dates are given in brackets after each title."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ھەر ناونیشانێک ساڵی بڵاوکردنەوە دەدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +200,18 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Add the numbers in brackets first."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەرەتا ژمارەکان لە کەوانەدا بنووسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Add the numbers in brackets first."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەتا ژمارەکان لە کەوانەدا بنووسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +230,18 @@ class EnglishEntrybracket extends StatelessWidget {
                               text: "٢. (ناو) مەودایەکی دیاریکراو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People in the lower income brackets will not be able to afford this."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسانی کۆمەڵەی کەمدەرامەت ناتوانن پارەی ئەمە دابین بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People in the lower income brackets will not be able to afford this."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسانی کۆمەڵەی کەمدەرامەت ناتوانن پارەی ئەمە دابین بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +258,18 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most of the houses are out of our price bracket."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی خانووەکان لە سەرەوەی ڕێژەی پارەی ئێمەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most of the houses are out of our price bracket."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی خانووەکان لە سەرەوەی ڕێژەی پارەی ئێمەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +289,18 @@ class EnglishEntrybracket extends StatelessWidget {
                                   "٣. (کردار) نووسینی زانیاری یان ژمارە لە ناو کەوانەدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've bracketed the parts of the text that could be omitted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بەشانەی نووسینەکەم خستووەتە کەوانەوە کە دەکرێت لاببرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've bracketed the parts of the text that could be omitted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بەشانەی نووسینەکەم خستووەتە کەوانەوە کە دەکرێت لاببرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +320,18 @@ class EnglishEntrybracket extends StatelessWidget {
                                   "٤. (کردار) دادانی خەڵکی یان شت لە ھەمان کۆمەڵەدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is unfair to bracket together those who cannot work with those who will not."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە ھەمان کۆمەڵە پۆلێن بکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is unfair to bracket together those who cannot work with those who will not."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نادادییە ئەوانەی کە ناتوانن کار بکەن و ئەوانەی کە کار ناکەن لە ھەمان کۆمەڵە پۆلێن بکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,12 +348,18 @@ class EnglishEntrybracket extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two writers are often bracketed together by critics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەھێنرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two writers are often bracketed together by critics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو نووسەرەکە زۆرجار لەلایەن ڕەخنەگرانەوە پێکەوە ناودەھێنرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntrybalti extends StatelessWidget {
 ١. (ناو) خواردنێکی توونی باشووری ئاسیایە کە لە دەفرێکی ئاسندا دەکرێت و بە نانەوە دەخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I enjoyed a delicious balti chicken dish at an Indian restaurant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I enjoyed a delicious balti chicken dish at an Indian restaurant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نانێکی بەتامی مریشکی باڵتیم لە چێشتخانەیەکی ھندی خوارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

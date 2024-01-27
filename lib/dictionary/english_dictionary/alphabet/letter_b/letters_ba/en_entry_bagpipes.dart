@@ -171,12 +171,18 @@ class EnglishEntrybagpipes extends StatelessWidget {
 ١. (ناو) ئامێرێکی میوزیکە کە زیاتر لە سکۆتلەندا باوە. ژەنیارەکە فوو دەکات بە کیسەیەکدا کە لەژێر باڵی گریویەتی، و دواتر پەستان دەخاتە سەر لوولەکان بۆ درووستکردنی دەنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She started learning the bagpipes three years ago."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She started learning the bagpipes three years ago."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ ساڵ پێش ئێستا دەستیکرد بە فێربوونی باگ‌پایپس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

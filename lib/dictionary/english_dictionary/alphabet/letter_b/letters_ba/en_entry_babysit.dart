@@ -169,12 +169,18 @@ class EnglishEntrybabysit extends StatelessWidget {
 ١. (کردار) چاودێریکردنی منداڵ بۆ ماوەیەکی کەم لەکاتێکدا دایک و باوکیان لە ماڵەوە نین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's babysitting the neighbour's children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاودێری منداڵەکانی دراوسێیەکەیان دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's babysitting the neighbour's children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاودێری منداڵەکانی دراوسێیەکەیان دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

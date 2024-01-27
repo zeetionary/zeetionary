@@ -166,12 +166,18 @@ class EnglishEntrybaseball extends StatelessWidget {
 ١. (ناو) یارییەک کە بەزۆری لە ویلایەتە یەکگرتووەکانی ئەمریکا دەکرێت لەلایەن دوو تیمی نۆ نەفەری، بە بەکارھێنانی دەسکێک و تۆپێک. ھەر یاریزانێک ھەوڵ دەدات لە تۆپەکە بدات و بە چوار گۆشەدا ڕابکات پێش ئەوەی تیمی بەرامبەر بتوانێت تۆپەکە بگەڕێنێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Jake never played baseball like the other kids."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەیک ھەرگیز وەک منداڵەکانی دیکە بەیسبۆڵی نەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jake never played baseball like the other kids."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەیک ھەرگیز وەک منداڵەکانی دیکە بەیسبۆڵی نەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybaseball extends StatelessWidget {
 ٢. (ناو) تۆپی یاری بەیسبۆڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had a baseball and a couple of bats in his sports bag."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆپێکی بەیسبۆڵ و ژمارەیەک دەسکی پێبوو لە جانتای وەرزشەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had a baseball and a couple of bats in his sports bag."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپێکی بەیسبۆڵ و ژمارەیەک دەسکی پێبوو لە جانتای وەرزشەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

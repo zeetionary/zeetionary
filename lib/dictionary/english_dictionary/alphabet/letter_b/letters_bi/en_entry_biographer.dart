@@ -170,12 +170,18 @@ class EnglishEntrybiographer extends StatelessWidget {
 ١. (ناو) کەسێک کە ژیاننامەی کەسانی تر دەنووسێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The biographer meticulously researched historical records and interviewed family members to paint a comprehensive portrait of the politician's life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژیاننامەنووسەکە بەوردی لێکۆڵینەوەی کرد لە تۆمارە مێژووییەکان و چاوپێکەوتنی لەگەڵ ئەندامانی خێزانەکە ئەنجامدا بۆ گێڕانەوەی وێنایەکی تەواوی ژیانی سیاسەتمەدارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The biographer meticulously researched historical records and interviewed family members to paint a comprehensive portrait of the politician's life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژیاننامەنووسەکە بەوردی لێکۆڵینەوەی کرد لە تۆمارە مێژووییەکان و چاوپێکەوتنی لەگەڵ ئەندامانی خێزانەکە ئەنجامدا بۆ گێڕانەوەی وێنایەکی تەواوی ژیانی سیاسەتمەدارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

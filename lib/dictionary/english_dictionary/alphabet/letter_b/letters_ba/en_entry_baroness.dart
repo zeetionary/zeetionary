@@ -164,12 +164,18 @@ class EnglishEntrybaroness extends StatelessWidget {
 ١. (ناو) ژنێک کە لە ناو گەورەزادەکاندا لە نزمترین ئاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Baroness Isabella, a skilled warrior, led her troops to victory in battle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنەمیر ئیزابێلا، جەنگاوەرێکی بەئەزموون، سەرکردایەتی سەربازەکانی کرد بۆ بردنەوە لە جەنگدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Baroness Isabella, a skilled warrior, led her troops to victory in battle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنەمیر ئیزابێلا، جەنگاوەرێکی بەئەزموون، سەرکردایەتی سەربازەکانی کرد بۆ بردنەوە لە جەنگدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybaroness extends StatelessWidget {
 ٢. (ناو) ژنی پیاوێک کە لە نزمترین ئاستی گەورەزادەکانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Young Sophia, the future Baroness, learned etiquette from her mother."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سۆفیای گەنج، کە دواتر بوو بە ژنەبەگزادە، ئەتەکێت لە دایکییەوە فێربوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Young Sophia, the future Baroness, learned etiquette from her mother."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سۆفیای گەنج، کە دواتر بوو بە ژنەبەگزادە، ئەتەکێت لە دایکییەوە فێربوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

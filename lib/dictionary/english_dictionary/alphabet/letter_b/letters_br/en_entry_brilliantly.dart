@@ -164,12 +164,18 @@ class EnglishEntrybrilliantly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ناوازە یان شارەزایانەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He seems to do everything brilliantly - piano playing, skiing, sailing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He seems to do everything brilliantly - piano playing, skiing, sailing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وا دەردەکەوێت ھەموو شتێک بە نایابی بکات، ژەنینی پیانۆ، خلیسکانی، بەلەمەوانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brilliantly" as
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The novel brilliantly captures the complex feel of modern life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆمانەکە بلیمەتانە ھەستی ئاڵۆزیی ژیانی سەردەم دەردەبڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The novel brilliantly captures the complex feel of modern life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆمانەکە بلیمەتانە ھەستی ئاڵۆزیی ژیانی سەردەم دەردەبڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,11 +227,17 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) زۆر باش؛ تەواو سەرکەوتووانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The plan worked brilliantly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکە تەواو سەرکەوتووانە بەڕێوەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The plan worked brilliantly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکە تەواو سەرکەوتووانە بەڕێوەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,10 +258,16 @@ class EnglishEntrybrilliantly extends StatelessWidget {
                               text: "٣. (ھاوەڵکار) بە ڕۆشنی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was brilliantly sunny."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆرەتاوێکی درەوشاوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It was brilliantly sunny."),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆرەتاوێکی درەوشاوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

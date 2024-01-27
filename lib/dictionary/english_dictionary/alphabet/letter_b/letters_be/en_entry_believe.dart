@@ -250,10 +250,16 @@ class EnglishEntrybelieve extends StatelessWidget {
 ١. (کردار) باوەڕکردن بە شتێک یان شتێک کە کەسێک دەیڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I don't believe you!"),
-                              const ExampleSentenceKurdish(
-                                  text: "باوەڕت پێ ناکەم!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I don't believe you!"),
+                                    ExampleSentenceKurdish(
+                                        text: "باوەڕت پێ ناکەم!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -271,10 +277,16 @@ class EnglishEntrybelieve extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you really believe her?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بەڕاستی باوەڕی پێ دەکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Do you really believe her?"),
+                                    ExampleSentenceKurdish(
+                                        text: "بەڕاستی باوەڕی پێ دەکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -292,10 +304,18 @@ class EnglishEntrybelieve extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Believe me, she's not right for you."),
-                              const ExampleSentenceKurdish(
-                                  text: "متمانەم پێ بکە، ئەو گونجاو نییە بۆت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Believe me, she's not right for you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "متمانەم پێ بکە، ئەو گونجاو نییە بۆت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,12 +335,18 @@ class EnglishEntrybelieve extends StatelessWidget {
 ٢. (کردار) بیرکردنەوە لەوەی کە شتێک ڕاستە یان ڕێی تێ دەچێت، ئەگەرچی دڵنیا نیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police believe (that) the man may be armed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس باوەڕی وایە پیاوەکە لەوانەیە چەکی پێ بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police believe (that) the man may be armed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس باوەڕی وایە پیاوەکە لەوانەیە چەکی پێ بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -338,12 +364,18 @@ class EnglishEntrybelieve extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "l firmly believe that she is still alive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕێکی بەھێزم ھەیە کە ھێشتا لە ژیاندایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "l firmly believe that she is still alive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕێکی بەھێزم ھەیە کە ھێشتا لە ژیاندایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -361,12 +393,18 @@ class EnglishEntrybelieve extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is widely believed that he was forced to resign."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕێکی بەفراوان ھەیە کە ناچارکرا دەستلەکاربکێشێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is widely believed that he was forced to resign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕێکی بەفراوان ھەیە کە ناچارکرا دەستلەکاربکێشێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -386,12 +424,18 @@ class EnglishEntrybelieve extends StatelessWidget {
 ٣. (کردار) ھەبوونی بۆچوونێک کە شتێک درووستە یان ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She believes that killing animals for food or fur is completely immoral."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕی وایە کووشتنی ئاژەڵان بۆ فەروو کارێکی نائەخلاقییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She believes that killing animals for food or fur is completely immoral."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕی وایە کووشتنی ئاژەڵان بۆ فەروو کارێکی نائەخلاقییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,12 +453,18 @@ class EnglishEntrybelieve extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She truly believes that love can change the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرڕاستانە باوەڕی وایە خۆشەویستی دەتوانێت جیھان بگۆڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She truly believes that love can change the world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرڕاستانە باوەڕی وایە خۆشەویستی دەتوانێت جیھان بگۆڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -434,12 +484,18 @@ class EnglishEntrybelieve extends StatelessWidget {
 ٤. (کردار) بۆ وتنی ئەوەی سەرسام یان تووڕەی بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She couldn’t believe (that) it was all happening again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەیدەتوانی باوەڕ بکات ھەموو ئەوە دووبارە ڕوویدەداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She couldn’t believe (that) it was all happening again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیدەتوانی باوەڕ بکات ھەموو ئەوە دووبارە ڕوویدەداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -457,12 +513,18 @@ class EnglishEntrybelieve extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can't believe how much better I feel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانم باوەڕ بێنم بەوەی چەند ھەستێکی باشترم ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can't believe how much better I feel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانم باوەڕ بێنم بەوەی چەند ھەستێکی باشترم ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -482,12 +544,18 @@ class EnglishEntrybelieve extends StatelessWidget {
 ٥. (کردار) ھەبوونی باوەڕێکی ئایینی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The god appears only to those who believe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا ئەوانەی باوەڕیان ھەیە ھەست بە بوونی خودا دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The god appears only to those who believe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا ئەوانەی باوەڕیان ھەیە ھەست بە بوونی خودا دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

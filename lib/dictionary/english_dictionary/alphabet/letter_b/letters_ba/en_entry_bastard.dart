@@ -168,10 +168,17 @@ class EnglishEntrybastard extends StatelessWidget {
 ١. (ناو) وشەیەکی ناپەسەند کە بەکاریدێنیت بۆ کەسێک کە پێتوایە ڕەفتاری ناشرین و ناپەسەند بووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You bastard! You've made her cry."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناڕەسەن! گریاندت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You bastard! You've made her cry."),
+                                    ExampleSentenceKurdish(
+                                        text: "ناڕەسەن! گریاندت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +198,16 @@ class EnglishEntrybastard extends StatelessWidget {
 ٢. (ناو) وشەیەک کە بەکاردێت بۆ کەسێک کە ئیرەیی یان بەزەییت بەرامبەری ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What a lucky bastard!"),
-                              const ExampleSentenceKurdish(
-                                  text: "چی زۆڵێکی بەبەختە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "What a lucky bastard!"),
+                                    ExampleSentenceKurdish(
+                                        text: "چی زۆڵێکی بەبەختە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,10 +227,16 @@ class EnglishEntrybastard extends StatelessWidget {
 ٣. (ناو) شتێک کە کێشە درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's a bastard of a problem."),
-                              const ExampleSentenceKurdish(
-                                  text: "شتێکی پڕ لە کێشەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It's a bastard of a problem."),
+                                    ExampleSentenceKurdish(
+                                        text: "شتێکی پڕ لە کێشەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,12 +256,18 @@ class EnglishEntrybastard extends StatelessWidget {
 ٤. (ناو) کەسێک کە لە کاتی لەدایکبوونی دایک و باوکی ھاسەری یەکدی نەبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was born in 1798, the bastard son of a country squire and his mistress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ساڵی ١٧٩٨ لەدایکبوو وەک منداڵی زۆڵی دەرەبەگێکی لادێ و ژنە دۆستەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was born in 1798, the bastard son of a country squire and his mistress."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ساڵی ١٧٩٨ لەدایکبوو وەک منداڵی زۆڵی دەرەبەگێکی لادێ و ژنە دۆستەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -191,12 +191,18 @@ class EnglishEntryboom extends StatelessWidget {
 ١. (ناو) زیادبوونێکی لەناکاوی زیادبوونی چالاکیی بازرگانی و ئابووری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Living standards improved rapidly during the post-war boom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستانداردی ژیان گەشەیکرد لە دەمی بووژانەوەی دوای جەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Living standards improved rapidly during the post-war boom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستانداردی ژیان گەشەیکرد لە دەمی بووژانەوەی دوای جەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +219,18 @@ class EnglishEntryboom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This year has seen a boom in book sales."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمساڵ فرۆشتنی کتێب گەشەی بەخۆوە دیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This year has seen a boom in book sales."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمساڵ فرۆشتنی کتێب گەشەی بەخۆوە دیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryboom extends StatelessWidget {
                                   "٢. (ناو) ماوەیەک کە وەرزشێک یان جۆرە میوزیکێک زۆر بەناوبانگ دەبێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The only way to satisfy the golf boom was to build more courses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا ڕێگە بۆ تێرکردنی حەز بە گۆڵف درووستکردنی یاریگای تازەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The only way to satisfy the golf boom was to build more courses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا ڕێگە بۆ تێرکردنی حەز بە گۆڵف درووستکردنی یاریگای تازەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +281,18 @@ class EnglishEntryboom extends StatelessWidget {
                                   "٣. (ناو) ستوونێکی درێژ کە بەشی خوارەوەی چارۆکەیەکی پێوە بەستراوە و بەکاردێت بۆ جوڵاندنی شوێنی چارۆکەکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sailors adjusted the boom to catch the wind."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیاوانان کۆڵەکەسووڕاوەکەیان ڕێکخست بۆ ئەوەی بایەکە گلبداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sailors adjusted the boom to catch the wind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیاوانان کۆڵەکەسووڕاوەکەیان ڕێکخست بۆ ئەوەی بایەکە گلبداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -287,12 +311,18 @@ class EnglishEntryboom extends StatelessWidget {
                               text: "٤. (ناو) دەنگێکی بەرز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The deafening boom of the explosion was heard up to 10 kilometres away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگی گوێ‌دڕی تەقینەوەکە بیسترا لە دووری ١٠ کیلۆمەترەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The deafening boom of the explosion was heard up to 10 kilometres away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی گوێ‌دڕی تەقینەوەکە بیسترا لە دووری ١٠ کیلۆمەترەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -311,12 +341,18 @@ class EnglishEntryboom extends StatelessWidget {
                               text: "٥. (کردار) درووستکردنی دەنگێکی بەرز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A crash of thunder boomed so loudly that the floor shook."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێدانی چەخماخە ھێندە دەنگی بەرز بوو زەوییەکە دەلەرزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A crash of thunder boomed so loudly that the floor shook."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێدانی چەخماخە ھێندە دەنگی بەرز بوو زەوییەکە دەلەرزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -335,11 +371,17 @@ class EnglishEntryboom extends StatelessWidget {
                               text: "٦. (کردار) وتنی شتێک بە دەنگی بەرز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A voice boomed out from the darkness."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەنگێک لە تاریکییەکەوە ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A voice boomed out from the darkness."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەنگێک لە تاریکییەکەوە ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -359,12 +401,18 @@ class EnglishEntryboom extends StatelessWidget {
                                   "٧. (کردار) ھەبوونی بووژانەوە و گەشەی لەناکاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "By the 1980s, the computer industry was booming."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دەستپێکی ١٩٨٠ کانەوە پیشەسازی کۆمپیوتەر دەگەشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "By the 1980s, the computer industry was booming."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دەستپێکی ١٩٨٠ کانەوە پیشەسازی کۆمپیوتەر دەگەشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntryboyhood extends StatelessWidget {
 ١. (ناو) سەردەمی کوڕێتی ژیانی پیاوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He spent most of his boyhood with his grandparents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی ژیانی کوڕێتی لەگەڵ باوانی بەسەربرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spent most of his boyhood with his grandparents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی ژیانی کوڕێتی لەگەڵ باوانی بەسەربرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,10 +195,16 @@ class EnglishEntryboyhood extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I had a very happy boyhood."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەردەمێکی خۆشی کوڕێتیم ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I had a very happy boyhood."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەردەمێکی خۆشی کوڕێتیم ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

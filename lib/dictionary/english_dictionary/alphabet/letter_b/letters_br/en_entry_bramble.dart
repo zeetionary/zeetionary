@@ -167,12 +167,18 @@ class EnglishEntrybramble extends StatelessWidget {
 ١. (ناو) دەوەنێکی سرووشتی کە دڕکی ھەیە و تووتڕکی ڕەش دەگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We carefully pushed our way through the low brambles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە وریاییەوە بە دڕکەدەوەنەکەدا چووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We carefully pushed our way through the low brambles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە وریاییەوە بە دڕکەدەوەنەکەدا چووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +196,18 @@ class EnglishEntrybramble extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) تووتڕکی ڕەش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We stopped to pick brambles by the side of the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستاین بۆ ئەوەی چەند تووتڕکێکی ڕەش لێ‌بکەینەوە لە قەراغی شەقامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We stopped to pick brambles by the side of the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستاین بۆ ئەوەی چەند تووتڕکێکی ڕەش لێ‌بکەینەوە لە قەراغی شەقامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntrybuildup extends StatelessWidget {
 ١. (ناو) زیادبوونی بڕی شتێک بە درێژایی ماوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The leak led to a slow build-up of carbon dioxide."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قڵشەکە بووە هۆی کەڵەکەبوونی هێواشی دووەم ئۆکسیدی کاربۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The leak led to a slow build-up of carbon dioxide."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قڵشەکە بووە هۆی کەڵەکەبوونی هێواشی دووەم ئۆکسیدی کاربۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "build-up", follow LX strictly
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybuildup extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The build-up of troops in the region makes war seem more likely."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆکردنەوەی سەرباز لە هەرێمەکە وادەکات ئەگەری جەنگ بەهێزتر بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The build-up of troops in the region makes war seem more likely."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆکردنەوەی سەرباز لە هەرێمەکە وادەکات ئەگەری جەنگ بەهێزتر بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +226,18 @@ class EnglishEntrybuildup extends StatelessWidget {
                                   "٢. (ناو) کاتی پێش ڕوودانی شتێکی گرنگ و ئامادەکاری خەڵکی بۆی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a lot of excitement in the build-up to the Olympics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جۆش‌وخرۆشێکی زۆر هەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a lot of excitement in the build-up to the Olympics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆش‌وخرۆشێکی زۆر هەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +257,18 @@ class EnglishEntrybuildup extends StatelessWidget {
                                   "٣. (ناو) دۆخێک کە تێیدا کەسێک/شتێک بە شێوەیەکی ئەرێنی باس دەکرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The media have given the movie a huge build-up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میدیاکان بانگەشەیەکی گەورەیان بۆ فیلمەکە کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The media have given the movie a huge build-up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میدیاکان بانگەشەیەکی گەورەیان بۆ فیلمەکە کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

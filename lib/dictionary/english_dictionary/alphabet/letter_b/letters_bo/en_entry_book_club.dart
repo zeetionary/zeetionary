@@ -169,12 +169,18 @@ class EnglishEntrybookclub extends StatelessWidget {
 ١. (ناو) دامەزراوەیەک کە کتێب بە ھەرزان دەفرۆشێت بە ئەندامانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book club requires members to buy at least six books in the first year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەرجی یانەی کتێبەکەیە بۆ ئەندامانی ئەوەیە بە لایەنی کەمەوە شەش کتێب بکڕن لە یەکەم ساڵدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book club requires members to buy at least six books in the first year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەرجی یانەی کتێبەکەیە بۆ ئەندامانی ئەوەیە بە لایەنی کەمەوە شەش کتێب بکڕن لە یەکەم ساڵدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybookclub extends StatelessWidget {
                                   "٢. (ناو) کۆمەڵە کەسێک کە ماوەیەک جارێک کۆدەبنەوە بۆ باسکردن لە کتێبێک کە ھەموویان خوێندوویانەتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I belong to a book club which meets once a month."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندامی یانەیەکی کتێبم کە مانگی جارێک کۆدەبینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I belong to a book club which meets once a month."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندامی یانەیەکی کتێبم کە مانگی جارێک کۆدەبینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

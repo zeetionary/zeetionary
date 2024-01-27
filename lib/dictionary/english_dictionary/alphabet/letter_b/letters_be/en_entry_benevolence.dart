@@ -170,12 +170,18 @@ class EnglishEntrybenevolence extends StatelessWidget {
 ١. (ناو) ھەبوونی خاسیەتی میھرەبانی، یارمەتیدەری، دەستکراوەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His sunny, calm tone suggested a man of deep benevolence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگە ئارام و خۆشحاڵییەکەی وای نیشاندا کە کەسێکی تەواو دڵپاک و چاکەکار بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His sunny, calm tone suggested a man of deep benevolence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگە ئارام و خۆشحاڵییەکەی وای نیشاندا کە کەسێکی تەواو دڵپاک و چاکەکار بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

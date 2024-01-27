@@ -173,12 +173,18 @@ class EnglishEntrybailiff extends StatelessWidget {
 ١. (ناو) ئەفسەرێکی کە کاری بردنی ماڵ و سامانی ئەو کەسانەیە کە ناتوانن قەرز بدەنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bailiffs seized the car and house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bailiffs seized the car and house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybailiff extends StatelessWidget {
 ٢. (ناو) کەسێک کە بە کرێ دەگیردرێت بۆ بەڕێوەبردنی زەوی‌زاری کەسێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bailiff managed the sale of the farm's produce."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bailiff managed the sale of the farm's produce."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntrybailiff extends StatelessWidget {
 ٣. (ناو) کەسێک کە دانیشتنی دادگا ڕێکدەخات بە بردنی خەڵکی بۆ کوورسییەکانیان و چاودێری زیندانیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bailiff escorted the defendant out of the courtroom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bailiff escorted the defendant out of the courtroom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

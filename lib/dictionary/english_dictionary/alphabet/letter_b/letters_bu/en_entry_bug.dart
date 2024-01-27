@@ -170,10 +170,17 @@ class EnglishEntrybug extends StatelessWidget {
 ١. (ناو) هەر مێروویەکی بچووک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There's a bug crawling up your arm."),
-                              const ExampleSentenceKurdish(
-                                  text: "مێروویەک لەسەر باڵت ڕێ دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a bug crawling up your arm."),
+                                    ExampleSentenceKurdish(
+                                        text: "مێروویەک لەسەر باڵت ڕێ دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bug" as
                               Column(
                                 children: [
@@ -193,10 +200,18 @@ class EnglishEntrybug extends StatelessWidget {
                                   "٢. (ناو) نەخۆشییەک کە سووکە بەڵام ئاسان بڵاودەبێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I picked up a bug in the office."),
-                              const ExampleSentenceKurdish(
-                                  text: "سووکە نەخۆشییەکم لە ئۆفیوەکەوە گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I picked up a bug in the office."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سووکە نەخۆشییەکم لە ئۆفیوەکەوە گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,10 +230,17 @@ class EnglishEntrybug extends StatelessWidget {
                               text: "٣. (ناو) حەزێکی زۆر بۆ شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's been bitten by the travel bug."),
-                              const ExampleSentenceKurdish(
-                                  text: "مەیلی بۆ گەشتکردن چووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been bitten by the travel bug."),
+                                    ExampleSentenceKurdish(
+                                        text: "مەیلی بۆ گەشتکردن چووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +260,18 @@ class EnglishEntrybug extends StatelessWidget {
                                   "٤. (ناو) هەڵەیەک لە ئامێرێکدا، بەتایبەتی سیستەمێکی کۆمپیوتەر یان پڕۆگرامێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My computer's really slow at the moment—it must be some kind of bug."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My computer's really slow at the moment—it must be some kind of bug."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپیوتەرەکەم زۆر خاوە، دەبێت تووشی ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +291,18 @@ class EnglishEntrybug extends StatelessWidget {
                                   "٥. (ناو) ئامێرێکی بچووک بۆ گوێگرتن لە گفتوگۆی کەسانی تر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They planted a bug in his hotel room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They planted a bug in his hotel room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,11 +322,17 @@ class EnglishEntrybug extends StatelessWidget {
                                   "٦. (کردار) دانانی مایکرۆفۆنێک بۆ گوێگرتن لە کەسانی تر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They bugged her hotel room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They bugged her hotel room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,11 +350,18 @@ class EnglishEntrybug extends StatelessWidget {
                           const DefinitionKurdish(text: "٧. (کردار) بێزارکردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What's the matter? Is there something bugging you?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کێشە چییە؟ شتێک هەیە بێزارت بکات؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What's the matter? Is there something bugging you?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشە چییە؟ شتێک هەیە بێزارت بکات؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

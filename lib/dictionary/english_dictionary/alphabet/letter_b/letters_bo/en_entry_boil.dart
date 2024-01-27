@@ -301,12 +301,18 @@ class EnglishEntryboil extends StatelessWidget {
 ١. (کردار) کوڵان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Boil plenty of water, then add the spaghetti."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەیەکی زۆر ئاو بکوڵێنە و دواتر سپاگێتییەکە زیاد بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Boil plenty of water, then add the spaghetti."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەیەکی زۆر ئاو بکوڵێنە و دواتر سپاگێتییەکە زیاد بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -323,10 +329,17 @@ class EnglishEntryboil extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Water boils at 100°C."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاو لە ١٠٠ پلەی سیلیزی دەکوڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Water boils at 100°C."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاو لە ١٠٠ پلەی سیلیزی دەکوڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -346,10 +359,16 @@ class EnglishEntryboil extends StatelessWidget {
                                   "٢. (کردار) کوڵان یان کوڵاندنی کترییەک، مەنجەڵێک، ھتد تاوەکو ئاوەکەی ناوی دەکوڵێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The kettle's boiling."),
-                              const ExampleSentenceKurdish(
-                                  text: "کترییەکە دەکوڵێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The kettle's boiling."),
+                                    ExampleSentenceKurdish(
+                                        text: "کترییەکە دەکوڵێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -366,12 +385,18 @@ class EnglishEntryboil extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll boil the kettle and make some tea."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کترییەکە دەکوڵێنم و ھەندێک چا ئامادە دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll boil the kettle and make some tea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کترییەکە دەکوڵێنم و ھەندێک چا ئامادە دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -391,10 +416,17 @@ class EnglishEntryboil extends StatelessWidget {
                                   "٣. (کردار) خواردن ئامادەکردن یان شۆردن لە ئاوی کوڵاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She put some potatoes on to boil."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەندێک پەتاتەی کوڵاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She put some potatoes on to boil."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەندێک پەتاتەی کوڵاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -411,10 +443,17 @@ class EnglishEntryboil extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She can scarcely boil an egg."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ئەستەم دەتوانێت ھێلکەش بکوڵێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She can scarcely boil an egg."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئەستەم دەتوانێت ھێلکەش بکوڵێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -433,10 +472,16 @@ class EnglishEntryboil extends StatelessWidget {
                               text: "٤. (کردار) زۆر تووڕەبوون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was boiling with rage."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەریک بوو دەتەقی لە داخدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was boiling with rage."),
+                                    ExampleSentenceKurdish(
+                                        text: "خەریک بوو دەتەقی لە داخدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -454,12 +499,18 @@ class EnglishEntryboil extends StatelessWidget {
                           const DefinitionKurdish(text: "٥. (ناو) خاڵی کوڵان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bring the soup to the boil, then allow it to simmer for five minutes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆرباکە بھێنە کوڵان و دواتر بھێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bring the soup to the boil, then allow it to simmer for five minutes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆرباکە بھێنە کوڵان و دواتر بھێڵە مێروولەکوڵ بێت بۆ پێنج خولەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -478,10 +529,16 @@ class EnglishEntryboil extends StatelessWidget {
                               text: "٢. (ناو) ھەڵئاوسانێکی بەئازار"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The doctor lanced the boil."),
-                              const ExampleSentenceKurdish(
-                                  text: "دکتۆرەکە زیپکەکەی تەقاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The doctor lanced the boil."),
+                                    ExampleSentenceKurdish(
+                                        text: "دکتۆرەکە زیپکەکەی تەقاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

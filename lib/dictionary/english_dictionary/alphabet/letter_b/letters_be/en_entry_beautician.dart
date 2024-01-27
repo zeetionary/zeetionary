@@ -170,10 +170,17 @@ class EnglishEntrybeautician extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری جوانکاری بۆ ڕووخسار و جەستە دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was working as a beautician."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک جوانکارێک کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was working as a beautician."),
+                                    ExampleSentenceKurdish(
+                                        text: "وەک جوانکارێک کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

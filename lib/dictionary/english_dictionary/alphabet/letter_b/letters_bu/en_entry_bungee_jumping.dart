@@ -214,12 +214,18 @@ class EnglishEntrybungeejumping extends StatelessWidget {
 ١. (ناو) خۆهەڵدان لە بەرزاییەوە بە تەنافێکەوە کە کێشی دێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bungee jumping would be a cool experience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆهەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bungee jumping would be a cool experience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆهەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bungee jumping", follow LX strictly
                               Column(
                                 children: [

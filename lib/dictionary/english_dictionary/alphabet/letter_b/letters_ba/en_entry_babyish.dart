@@ -169,12 +169,18 @@ class EnglishEntrybabyish extends StatelessWidget {
 ١. (ھاوەڵناو) وەک منداڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Now she’s nine, she thinks toys are babyish and wants a computer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێستا کە ٩ ساڵە، وابیردەکاتەوە کایە ھی منداڵانە و کۆمپیوتەرێکی دەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Now she’s nine, she thinks toys are babyish and wants a computer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا کە ٩ ساڵە، وابیردەکاتەوە کایە ھی منداڵانە و کۆمپیوتەرێکی دەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -169,12 +169,18 @@ class EnglishEntryboutique extends StatelessWidget {
 ١. (ناو) فرۆشگایەکی بچووک و کە جلی مۆدە و دیاری گرانبەھا دەفرۆشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She owns a chic boutique in the city center."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She owns a chic boutique in the city center."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشگایەکی جوانی جلی ھەیە لە سەنتەری شار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

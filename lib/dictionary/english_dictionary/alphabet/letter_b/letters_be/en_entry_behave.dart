@@ -249,14 +249,17 @@ class EnglishEntrybehave extends StatelessWidget {
 ١. (کردار) کردنی شتێک بەشێوەیەکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor behaved very unprofessionally."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکە زۆر ناپیشەییانە مامەڵەی کرد."),
-                              const SizedBox(
-                                width: 20,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor behaved very unprofessionally."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە زۆر ناپیشەییانە مامەڵەی کرد."),
+                                  ],
+                                ),
                               ),
                               const CustomSizedBoxForTTS(),
                               Column(
@@ -275,12 +278,18 @@ class EnglishEntrybehave extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They behaved very badly towards their guests."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر خراپ مامەڵەیان کرد لەگەڵ میوانەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They behaved very badly towards their guests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر خراپ مامەڵەیان کرد لەگەڵ میوانەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -298,11 +307,18 @@ class EnglishEntrybehave extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They behave differently when you're not around."),
-                              const ExampleSentenceKurdish(
-                                  text: "جیاوازتر ڕەفتاردەکەن کە تۆ دیار نیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They behave differently when you're not around."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیاوازتر ڕەفتاردەکەن کە تۆ دیار نیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,12 +336,18 @@ class EnglishEntrybehave extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I expect you to behave in a certain way."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەڕێی ئەوەت لێ دەکەم بەشێوەیەکی دیاریکراو ڕەفتار بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I expect you to behave in a certain way."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوەڕێی ئەوەت لێ دەکەم بەشێوەیەکی دیاریکراو ڕەفتار بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -345,10 +367,16 @@ class EnglishEntrybehave extends StatelessWidget {
 ٢. (کردار) کردنی شتێک بەشێوەیەک کە خەڵکی بەدڵیانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Will you kids just behave!"),
-                              const ExampleSentenceKurdish(
-                                  text: "جوان ڕەفتار بکەن منداڵەکان!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Will you kids just behave!"),
+                                    ExampleSentenceKurdish(
+                                        text: "جوان ڕەفتار بکەن منداڵەکان!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -366,12 +394,18 @@ class EnglishEntrybehave extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She doesn't know how to behave in public."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نازانێت چۆن لەناو خەڵکی جوان ھەڵسوکەوت بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She doesn't know how to behave in public."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نازانێت چۆن لەناو خەڵکی جوان ھەڵسوکەوت بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -389,12 +423,18 @@ class EnglishEntrybehave extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I want you to behave yourselves while I'm away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمەوێت ڕەفتارت جوان بێت کە لێرە نیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I want you to behave yourselves while I'm away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمەوێت ڕەفتارت جوان بێت کە لێرە نیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -414,12 +454,18 @@ class EnglishEntrybehave extends StatelessWidget {
 ٣. (کردار) لەگەڵ ھاوەڵناودا بەکاردێت بۆ وتنی ئەوەی کەسێک ڕەفتاری کردووە بەو شێوەیەی کە باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The teacher praised the children for being so well-behaved during the assembly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکە ستایشی منداڵەکانی کرد بۆ جوانی مامەڵەیان لە کۆبوونەوەکە"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The teacher praised the children for being so well-behaved during the assembly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکە ستایشی منداڵەکانی کرد بۆ جوانی مامەڵەیان لە کۆبوونەوەکە"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -439,12 +485,18 @@ class EnglishEntrybehave extends StatelessWidget {
 ٤. (کردار) ھەبوونی جووڵە یان کاردانەوەی سرووشتی بەشێوەیەکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They learn how particles behave in solids, liquids, and gases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فێردەبن تەنۆلکەکان چۆن کاردانەوەیان دەبێت لە تەنی ڕەقی و شلی و گازیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They learn how particles behave in solids, liquids, and gases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فێردەبن تەنۆلکەکان چۆن کاردانەوەیان دەبێت لە تەنی ڕەقی و شلی و گازیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

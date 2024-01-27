@@ -171,12 +171,18 @@ class EnglishEntrybarbarous extends StatelessWidget {
 ١. (ھاوەڵناو) پڕ لە دڕندەیی کە تووشی شۆکت بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His murder was an outrageous and barbarous act."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His murder was an outrageous and barbarous act."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیرۆرەکەی کردەیەکی جەرگبڕ و دڕندانە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

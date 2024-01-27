@@ -164,12 +164,18 @@ class EnglishEntrybrewer extends StatelessWidget {
 ١. (ناو) کەسێک یان کۆمپانیایەک کە بیرە درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Six big brewers account for about 75% of total beer sales in the UK."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەش کۆمپانیای بەرھەمھێنەری بیرە لە پشت ٧٥٪ فرۆشی بیرەن لە شانشینی یەکگرتوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Six big brewers account for about 75% of total beer sales in the UK."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەش کۆمپانیای بەرھەمھێنەری بیرە لە پشت ٧٥٪ فرۆشی بیرەن لە شانشینی یەکگرتوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brewer" as
                               Column(
                                 children: [

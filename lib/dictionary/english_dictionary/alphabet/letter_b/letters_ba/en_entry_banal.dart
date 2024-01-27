@@ -171,12 +171,18 @@ class EnglishEntrybanal extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی ئاسایی کە ھیچی سەرنجڕاکێشی تێدا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He knew how banal the question was as soon as he had asked it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He knew how banal the question was as soon as he had asked it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیزانی پرسیارەکە چەندە ھیچ بوو ھەرکە پرسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

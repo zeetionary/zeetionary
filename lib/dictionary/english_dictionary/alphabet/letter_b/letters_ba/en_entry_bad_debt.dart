@@ -171,12 +171,18 @@ class EnglishEntrybaddebt extends StatelessWidget {
 ١. (ناو) قەرزێک کە ئەگەری کەمە بدرێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bank expects to lose £703 million of last year's profits as a result of bad debts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانکەکە پێشبینی لەدەستدانی ٧٠٣ ملیۆن یۆرۆ دەکات لە قازانجەکانی ساڵی ڕابردوو بەھۆی قەرزی لەدەستچووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bank expects to lose £703 million of last year's profits as a result of bad debts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانکەکە پێشبینی لەدەستدانی ٧٠٣ ملیۆن یۆرۆ دەکات لە قازانجەکانی ساڵی ڕابردوو بەھۆی قەرزی لەدەستچووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

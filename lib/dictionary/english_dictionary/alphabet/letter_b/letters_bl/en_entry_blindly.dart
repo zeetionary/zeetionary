@@ -169,12 +169,18 @@ class EnglishEntryblindly extends StatelessWidget {
 ١. (ھاوەڵکار) بەبێ ھەبوونی توانای بەکارھێنانی بینایی بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She groped blindly for the light switch in the dark room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە کوێرانە ھەوڵی دۆزینەوەی سویچی گڵۆپەکانی دەدا لە ژوورە تاریکەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She groped blindly for the light switch in the dark room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کوێرانە ھەوڵی دۆزینەوەی سویچی گڵۆپەکانی دەدا لە ژوورە تاریکەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryblindly extends StatelessWidget {
                                   "٢. (ھاوەڵکار) بەبێ بیرکردنەوە لەوەی دەیکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wanted to decide for himself instead of blindly following his parents' advice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیویست بۆ خۆی بڕیار بدات لە جیاتی ئەوەی کوێرانە شوێن ڕاوێژی دایک و باوکی بکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wanted to decide for himself instead of blindly following his parents' advice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیویست بۆ خۆی بڕیار بدات لە جیاتی ئەوەی کوێرانە شوێن ڕاوێژی دایک و باوکی بکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

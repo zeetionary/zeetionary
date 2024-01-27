@@ -167,12 +167,18 @@ class EnglishEntryblinker extends StatelessWidget {
 ١. (ناو) لایتی سەر ئۆتۆمبێلێک کە دادەگیرسێنرێت و پرتەپرت دەکات بۆ ئاماژە بەوەی شۆفێرەکە لادەدات بەو ئاراستەیەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The driver forgot to use the blinker, causing confusion for others."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێرەکە بیری چوو سەکن لایتەکانی داگیرسێنێت و شڵەژاوی بۆ ئەوانی دیکە درووستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The driver forgot to use the blinker, causing confusion for others."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێرەکە بیری چوو سەکن لایتەکانی داگیرسێنێت و شڵەژاوی بۆ ئەوانی دیکە درووستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntryblinker extends StatelessWidget {
                                   "٢. (ناو) پارچە قوماشێک کە لە تەنیشتی چاوەکانی ئەسپ دەبەسترێت بۆ ئەوەی ڕێگری لێ بکات سەیری دەورووبەر بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We need to have a fresh look at the plan, without blinkers (= we need to consider every aspect of it)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "(بەکارھێنانی خوازراوی)دەبێت چاوێکی تر لە پلانەکە بکەین بە لەبەرچاوگرتنی ھەموو لایەنێکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need to have a fresh look at the plan, without blinkers (= we need to consider every aspect of it)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "(بەکارھێنانی خوازراوی)دەبێت چاوێکی تر لە پلانەکە بکەین بە لەبەرچاوگرتنی ھەموو لایەنێکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -167,12 +167,18 @@ class EnglishEntryblare extends StatelessWidget {
 ١. (کردار) دەرکردنی دەنگێکی ناخۆش و بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Music blared out from the open window."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوزیک تڵپەتڵپی بوو لە پەنجەرە کراوەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Music blared out from the open window."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیک تڵپەتڵپی بوو لە پەنجەرە کراوەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntryblare extends StatelessWidget {
                               text: "٢. (ناو) دەنگێکی بەرز و ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The siren’s blare was deafening."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگی بەرزی زەنگە ئاگادارکەرەوەکە گوێ‌دڕ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The siren’s blare was deafening."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی بەرزی زەنگە ئاگادارکەرەوەکە گوێ‌دڕ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

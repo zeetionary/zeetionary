@@ -172,12 +172,18 @@ class EnglishEntrybalustrade extends StatelessWidget {
 ١. (ناو) سیاجی پلەکانە یان بەرھەیوان بۆ ڕێگری لە کەوتنەخوارەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The balustrade of the grand staircase has been painted white."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The balustrade of the grand staircase has been painted white."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

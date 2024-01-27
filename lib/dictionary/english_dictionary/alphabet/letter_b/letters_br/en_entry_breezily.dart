@@ -162,12 +162,18 @@ class EnglishEntrybreezily extends StatelessWidget {
 ١. (ھاوەڵکار) ئێسک‌سووکانە، دڵخۆشانە و ئاسوودانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She breezily asked her ex if he was seeing anyone now."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئاسوودەییەوە پرسی لە خۆشەویستی پێشووی ئەگەر ئێستا لەگەڵ کەس پەیوەندی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She breezily asked her ex if he was seeing anyone now."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئاسوودەییەوە پرسی لە خۆشەویستی پێشووی ئەگەر ئێستا لەگەڵ کەس پەیوەندی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breezily" as
                               Column(
                                 children: [

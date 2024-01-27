@@ -166,12 +166,18 @@ class EnglishEntrybrutal extends StatelessWidget {
 ١. (ھاوەڵناو) توندوتیژ و دڕندانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had presided over a brutal regime in which thousands of people had been killed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had presided over a brutal regime in which thousands of people had been killed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکردەی ڕژێمێکی دڕندە بوو کە تێیدا ھەزاران کەس کوژران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brutal" as
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybrutal extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵی ١٩٤٥ زیندانی کرا بۆ تیرۆری دڕندانەی کچێکی ١٢ ساڵان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was imprisoned in 1945 for the brutal murder of a twelve-year-old girl."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵی ١٩٤٥ زیندانی کرا بۆ تیرۆری دڕندانەی کچێکی ١٢ ساڵان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +225,18 @@ class EnglishEntrybrutal extends StatelessWidget {
                                   "٢. (ھاوەڵناو) بە ڕوونی و بەبێ گرنگیدان بە ھەستەکانی کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "With brutal honesty she told him she did not love him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ڕاستگۆییەکی تاڵەوە پێی گوت کە خۆشی ناوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "With brutal honesty she told him she did not love him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ڕاستگۆییەکی تاڵەوە پێی گوت کە خۆشی ناوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

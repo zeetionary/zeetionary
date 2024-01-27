@@ -170,12 +170,18 @@ class EnglishEntrybenefactress extends StatelessWidget {
 ١. (ھاوەڵناو) ژنێک کە پارە یان شتومەک دەبەخشێت بە کەسێک یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hospital received a generous donation from a wealthy benefactress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشخانەکە بەخشینێکی زۆری پێگەیشت لە ژنە خێرخوازێکی دەوڵەمەندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hospital received a generous donation from a wealthy benefactress."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشخانەکە بەخشینێکی زۆری پێگەیشت لە ژنە خێرخوازێکی دەوڵەمەندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

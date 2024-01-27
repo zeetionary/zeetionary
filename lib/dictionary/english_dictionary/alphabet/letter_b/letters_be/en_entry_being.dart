@@ -174,12 +174,18 @@ class EnglishEntrybeing extends StatelessWidget {
 ١. (ناو) بوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Irish Free State came into being in 1922."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتی ئازادی ئێرلەندا لە ساڵی ١٩٢٢ ھاتە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Irish Free State came into being in 1922."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتی ئازادی ئێرلەندا لە ساڵی ١٩٢٢ ھاتە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybeing extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A new era was brought into being by the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەردەمێکی تازە ھاتە بوون بەھۆی جەنگەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A new era was brought into being by the war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەردەمێکی تازە ھاتە بوون بەھۆی جەنگەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybeing extends StatelessWidget {
 ٢. (ناو) گیانلەبەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "No living being deserves to be treated this way."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ گتانلەبەرێک شایەنی ئەوە نییە بەم شێوەیە مامەڵەی لەگەڵ بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "No living being deserves to be treated this way."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ گتانلەبەرێک شایەنی ئەوە نییە بەم شێوەیە مامەڵەی لەگەڵ بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,11 +263,17 @@ class EnglishEntrybeing extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Dolphins are highly intelligent beings."),
-                              const ExampleSentenceKurdish(
-                                  text: "دۆڵفین گیانلەبەرێکی ژیرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Dolphins are highly intelligent beings."),
+                                    ExampleSentenceKurdish(
+                                        text: "دۆڵفین گیانلەبەرێکی ژیرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,10 +293,18 @@ class EnglishEntrybeing extends StatelessWidget {
 ٣. (ناو) ھەست و بیر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I hated him with my whole being."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ھەموو ھۆش و بیرم ڕقم لێی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I hated him with my whole being."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ھەموو ھۆش و بیرم ڕقم لێی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

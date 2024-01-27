@@ -171,12 +171,18 @@ class EnglishEntrybilingual extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای قسەکردن بە دوو زمان وەک یەک بە باشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is bilingual in Mandarin and English."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو زمانەیە لە ھەردوو ماندارین و ئینگلیزی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is bilingual in Mandarin and English."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو زمانەیە لە ھەردوو ماندارین و ئینگلیزی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +202,17 @@ class EnglishEntrybilingual extends StatelessWidget {
 ٢. (ھاوەڵناو) گرووپێک یان شوێنێک کە دوو زمان وەک فەرمی بەکاردێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Iraq is a bilingual country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "عێراق وڵاتێکی خاوەن دوو زمانی فەرمییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Iraq is a bilingual country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "عێراق وڵاتێکی خاوەن دوو زمانی فەرمییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybilingual extends StatelessWidget {
 ٤. (ناو) کەسێک کە دوو زمان دەزانێ وەک یەک بە باشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The phone lines will be staffed by bilinguals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێڵەکانی پەیوەندی لەلایەن کەسانی دووزمانەوە بەڕێوەدەبردرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The phone lines will be staffed by bilinguals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێڵەکانی پەیوەندی لەلایەن کەسانی دووزمانەوە بەڕێوەدەبردرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

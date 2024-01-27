@@ -170,12 +170,18 @@ class EnglishEntrybehead extends StatelessWidget {
 ١. (کردار) سەربڕینی کەسێک، زۆرجار وەک سزا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was charged with treason and beheaded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە خیانەت تاوانبارکرا و سەری پەڕێندرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was charged with treason and beheaded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە خیانەت تاوانبارکرا و سەری پەڕێندرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

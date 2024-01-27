@@ -166,12 +166,18 @@ class EnglishEntrybrackish extends StatelessWidget {
 ١. (ھاوەڵناو) ئاوێک کە خوێی تێدایە و تامێکی سوێری ناخۆشی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Brackish lakes near the coast support unique aquatic life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەریاچە سوێرەکان لە نزیکی کەناراوەکە ژمارەیەکی بێ‌ھاوتای زیندەوەری ئاوی لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Brackish lakes near the coast support unique aquatic life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەریاچە سوێرەکان لە نزیکی کەناراوەکە ژمارەیەکی بێ‌ھاوتای زیندەوەری ئاوی لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

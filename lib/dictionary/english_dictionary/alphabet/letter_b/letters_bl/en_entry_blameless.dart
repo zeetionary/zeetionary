@@ -169,12 +169,18 @@ class EnglishEntryblameless extends StatelessWidget {
 ١. (ھاوەڵناو) بێ‌تاوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "None of us is entirely blameless in this matter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ کەسمان بە تەواوی بێ‌گوناح نییە لەم بابەتەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "None of us is entirely blameless in this matter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ کەسمان بە تەواوی بێ‌گوناح نییە لەم بابەتەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +199,18 @@ class EnglishEntryblameless extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In her father's eyes, she was blameless."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ڕوانگەی باوکییەوە بێ‌تاوان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In her father's eyes, she was blameless."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕوانگەی باوکییەوە بێ‌تاوان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

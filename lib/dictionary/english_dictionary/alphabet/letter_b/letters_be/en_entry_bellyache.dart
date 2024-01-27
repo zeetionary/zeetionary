@@ -170,9 +170,15 @@ class EnglishEntrybellyache extends StatelessWidget {
 ١. (ناو) ئازاری سک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I’ve got (a) bellyache."),
-                              const ExampleSentenceKurdish(text: "ژانەسکمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I’ve got (a) bellyache."),
+                                    ExampleSentenceKurdish(text: "ژانەسکمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybellyache extends StatelessWidget {
 ٢. (کردار) ناڕەزایی دەربڕین لەسەر شتێک بەشێوەیەکی بێزارکەرانە و ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He’s always bellyaching about how much work he has to do."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە بۆڵەبۆڵیەتی لەسەر ئەوەی چەندە زۆر دەبێت ئیش بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He’s always bellyaching about how much work he has to do."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە بۆڵەبۆڵیەتی لەسەر ئەوەی چەندە زۆر دەبێت ئیش بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

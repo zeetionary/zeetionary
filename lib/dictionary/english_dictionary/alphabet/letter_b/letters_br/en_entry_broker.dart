@@ -166,10 +166,18 @@ class EnglishEntrybroker extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری کڕین و فرۆشتن بۆ خەڵکی دیکە دەکات، یان کڕین و فرۆشتنی سەرمایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Ask advice from an insurance broker."),
-                              const ExampleSentenceKurdish(
-                                  text: "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ask advice from an insurance broker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای ڕاوێژ بکە لە دەڵاڵێکی بیمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broker" as
                               Column(
                                 children: [
@@ -189,12 +197,18 @@ class EnglishEntrybroker extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە ناوبژیکاری دوو لایەنی دژبەر دەبێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He offered to act as a broker between the rebels and the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He offered to act as a broker between the rebels and the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادەیی دەربڕی ناوبژیوان بێت لە نێوان یاخیبووەکان و حکومەتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +228,18 @@ class EnglishEntrybroker extends StatelessWidget {
                                   "٣. (کردار) ناوبژی کردن لە نێوان دوو لایەنی دژبەردا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The diplomats have failed in their attempts to broker a ceasefire."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیپلۆماتکارەکان شکستیان ھێناوە لە ھێنانە کایەی ئاگربەستەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The diplomats have failed in their attempts to broker a ceasefire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیپلۆماتکارەکان شکستیان ھێناوە لە ھێنانە کایەی ئاگربەستەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

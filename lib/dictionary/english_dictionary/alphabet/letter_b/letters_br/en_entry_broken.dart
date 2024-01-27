@@ -267,10 +267,16 @@ class EnglishEntrybroken extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە شکاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "How did this dish get broken?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چۆن دەورییەکە شکا؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "How did this dish get broken?"),
+                                    ExampleSentenceKurdish(
+                                        text: "چۆن دەورییەکە شکا؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broken" as
                               Column(
                                 children: [
@@ -287,12 +293,18 @@ class EnglishEntrybroken extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The UN system is broken beyond repair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمی نەتەوە یەکگرتووەکان بە جۆرێک شکاوە چاکناکرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The UN system is broken beyond repair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمی نەتەوە یەکگرتووەکان بە جۆرێک شکاوە چاکناکرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -309,12 +321,18 @@ class EnglishEntrybroken extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of her patients was a boy with a badly broken leg."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە نەخۆشەکانی کوڕێک بوو کە بە خراپی لاقی شکابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of her patients was a boy with a badly broken leg."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە نەخۆشەکانی کوڕێک بوو کە بە خراپی لاقی شکابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -333,12 +351,18 @@ class EnglishEntrybroken extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) بەڵێنێک کە نەبردراوەتە سەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Voters are disillusioned with the government's broken promises."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگدەران نائومێدن بەرامبەر بەڵێنە شکاوەکانی حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Voters are disillusioned with the government's broken promises."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگدەران نائومێدن بەرامبەر بەڵێنە شکاوەکانی حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -358,12 +382,18 @@ class EnglishEntrybroken extends StatelessWidget {
                                   "٣. (ھاوەڵناو) پەیوەندییەکی تەواوبوو یان شکاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When children are forced to move schools, education is interrupted and friendships are broken."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە خوێندکار ناچار دەبێت خوێندنگە بگۆڕێت، خوێندن پچڕانی تێدەکەوێت و پەیوەندی ھاوڕێیەتی کۆتایی دێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When children are forced to move schools, education is interrupted and friendships are broken."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە خوێندکار ناچار دەبێت خوێندنگە بگۆڕێت، خوێندن پچڕانی تێدەکەوێت و پەیوەندی ھاوڕێیەتی کۆتایی دێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -383,10 +413,17 @@ class EnglishEntrybroken extends StatelessWidget {
                                   "٤. (ھاوەڵناو) شتێک کە بەردەوام نییە و پچڕانی تێدەکەوێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I had a night of broken sleep."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمشەو چەند جارێک لە خەو ڕاپەڕیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I had a night of broken sleep."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمشەو چەند جارێک لە خەو ڕاپەڕیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -406,12 +443,18 @@ class EnglishEntrybroken extends StatelessWidget {
                                   "٥. (ھاوەڵناو) کەسێکی ماندوو و لاواز بەھۆی نەخۆشی و ناڕەحەتییەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a broken man after the failure of his business."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێکی داڕووخاو بوو لە دوای شکستھێنانی بازرگانییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a broken man after the failure of his business."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێکی داڕووخاو بوو لە دوای شکستھێنانی بازرگانییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -431,12 +474,18 @@ class EnglishEntrybroken extends StatelessWidget {
                                   "٦. (ھاوەڵناو) قسەکردن بە زمانێک کە پاراو نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He tried to explain what had happened in broken English."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵی دا ڕوونی بکاتەوە چی ڕوویدا بە ئینگلیزییەکی شپرزەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He tried to explain what had happened in broken English."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵی دا ڕوونی بکاتەوە چی ڕوویدا بە ئینگلیزییەکی شپرزەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

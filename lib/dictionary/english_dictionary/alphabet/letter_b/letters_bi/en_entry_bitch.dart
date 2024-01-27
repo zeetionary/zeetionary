@@ -171,12 +171,18 @@ class EnglishEntrybitch extends StatelessWidget {
 ١. (ناو) سەگی مێینە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our neighbor's bitch gave birth to a litter of puppies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دێڵی دراوسێیەکەمان ژمارەیەک بەچکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our neighbor's bitch gave birth to a litter of puppies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دێڵی دراوسێیەکەمان ژمارەیەک بەچکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybitch extends StatelessWidget {
                               text: "٢. (ناو) ژنێکی بێزارکەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She confronted the person who had referred to her as a bitch, demanding an apology."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت ھەرزە و داوای لێبووردنخوازی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She confronted the person who had referred to her as a bitch, demanding an apology."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبەڕووی ئەو کەسەوە بووەوە کە پێی گوت ھەرزە و داوای لێبووردنخوازی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,9 +233,15 @@ class EnglishEntrybitch extends StatelessWidget {
                               text: "٣. (ناو) شتێک کە کێشە درووست دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Life's a bitch."),
-                              const ExampleSentenceKurdish(text: "ژیان سەختە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Life's a bitch."),
+                                    ExampleSentenceKurdish(text: "ژیان سەختە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -244,12 +262,18 @@ class EnglishEntrybitch extends StatelessWidget {
                                   "٤. (ناو) ناڕەزایی لەسەر شتێک، یان گفتوگۆیەکی لەو شێوەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We've been having a bitch about our boss."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمەقاڵێمان ھەبووە سەبارەت بە بەڕێوبەرەکەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've been having a bitch about our boss."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمەقاڵێمان ھەبووە سەبارەت بە بەڕێوبەرەکەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -270,12 +294,18 @@ class EnglishEntrybitch extends StatelessWidget {
                                   "٥. (کردار) کردنی قسەی توند سەبارەت بە کەسێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She isn’t the sort of person who bitches about others behind their back."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەو جۆرە کەسانە نییە کە پرتەوبۆڵە لەسەر کەسێک بکات لە پشتیانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She isn’t the sort of person who bitches about others behind their back."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەو جۆرە کەسانە نییە کە پرتەوبۆڵە لەسەر کەسێک بکات لە پشتیانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

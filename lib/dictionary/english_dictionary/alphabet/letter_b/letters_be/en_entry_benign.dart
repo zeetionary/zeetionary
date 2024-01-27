@@ -173,12 +173,18 @@ class EnglishEntrybenign extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی بێ زیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You would never have guessed his intentions from the benign expression on his face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز نەتدەتوانی ھەست بە نیازەکانی بکەیت لە دەربڕینە بێوەییەکانی سەر ڕووخساری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You would never have guessed his intentions from the benign expression on his face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز نەتدەتوانی ھەست بە نیازەکانی بکەیت لە دەربڕینە بێوەییەکانی سەر ڕووخساری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybenign extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The native inhabitants at first thought European traders were completely benign."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانیشتوانە ڕەسەنەکان یەکەم جار وایان زانی ئەورووپییەکان بە تەواوی بێ‌وەیین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The native inhabitants at first thought European traders were completely benign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیشتوانە ڕەسەنەکان یەکەم جار وایان زانی ئەورووپییەکان بە تەواوی بێ‌وەیین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +233,18 @@ class EnglishEntrybenign extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێکی بێ زیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The industry's environmental impact is relatively benign, even positive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا بەزۆری بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The industry's environmental impact is relatively benign, even positive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاریگەرییە ژینگەییەکانی پیشەسازییەکە تا بەزۆری بێ‌مەترسین، ڕەنگە تەنانەت ئەرێنیش بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -246,12 +264,18 @@ class EnglishEntrybenign extends StatelessWidget {
 ٣. (ھاوەڵناو) لوویەک کە لە جەستەدا گەشە دەکات بەڵام مەترسیدار نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is recovering after surgery to remove a benign tumour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئێستادا باش دەبێتەوە لە دوای نەشتەرگەرییەک بۆ دەرکردنی لوویەکی بێ‌مەترسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is recovering after surgery to remove a benign tumour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئێستادا باش دەبێتەوە لە دوای نەشتەرگەرییەک بۆ دەرکردنی لوویەکی بێ‌مەترسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

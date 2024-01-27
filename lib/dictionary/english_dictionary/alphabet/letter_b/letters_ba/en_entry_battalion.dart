@@ -166,12 +166,18 @@ class EnglishEntrybattalion extends StatelessWidget {
 ١. (ناو) ژمارەیەکی زۆر سەرباز کە بەشێکن لە لیوایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldiers of the battalion trained rigorously for months before being sent into battle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازانی یەکەکە بەسەختی مەشقیان دەکرد بۆ چەندین مانگ پێش ئەوەی بنێردرێن بۆ جەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldiers of the battalion trained rigorously for months before being sent into battle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازانی یەکەکە بەسەختی مەشقیان دەکرد بۆ چەندین مانگ پێش ئەوەی بنێردرێن بۆ جەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybattalion extends StatelessWidget {
 ٢. (ناو) ژمارەیەکی زۆر لە خەڵک کە زۆرجار ڕێکخراون و ئامانجێکیان ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The battalion of scientists made a discovery that changed the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The battalion of scientists made a discovery that changed the world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمە زانستییەکە دۆزینەوەیەکیان ئەنجامدا کە جیھانی گۆڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

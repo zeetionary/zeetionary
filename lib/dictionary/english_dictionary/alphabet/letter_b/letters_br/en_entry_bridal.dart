@@ -166,12 +166,18 @@ class EnglishEntrybridal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بووک یان شایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She spent the afternoon trying on bridal gowns for her wedding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She spent the afternoon trying on bridal gowns for her wedding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیوەڕۆی بەسەربرد بە تاقیکردنەوەی جلە بووکێنییەکانی بۆ ئاھەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bridal" as
                               Column(
                                 children: [
@@ -188,12 +194,18 @@ class EnglishEntrybridal extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The members of the bridal party posed for photographs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەژداربووانی ئاھەنگی بووک وێنەیەکیان گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The members of the bridal party posed for photographs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەژداربووانی ئاھەنگی بووک وێنەیەکیان گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +222,18 @@ class EnglishEntrybridal extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The magazine had a section on bridal wear (= the clothes that a woman wears at her marriage)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆڤارەکە بەشێکی ھەبوو تایبەت بە جلی بووکێنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The magazine had a section on bridal wear (= the clothes that a woman wears at her marriage)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆڤارەکە بەشێکی ھەبوو تایبەت بە جلی بووکێنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

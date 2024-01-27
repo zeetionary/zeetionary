@@ -172,12 +172,18 @@ class EnglishEntrybelch extends StatelessWidget {
 ١. (کردار) قرقێنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wiped his hand across his mouth, then belched loudly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی نا بە دەمییەوە و قرقێنەیەکی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wiped his hand across his mouth, then belched loudly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی نا بە دەمییەوە و قرقێنەیەکی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybelch extends StatelessWidget {
 ٢. (کردار) دەردانی ڕێژەیەکی زۆر لە شتێک (دووکەڵ، بڵێسە، ھتد)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The exhaust pipe belched out dense black smoke."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لوولەی ئەکسۆزەکە ڕێژەیەکی زۆر لە دووکەڵی چڕی دەردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The exhaust pipe belched out dense black smoke."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لوولەی ئەکسۆزەکە ڕێژەیەکی زۆر لە دووکەڵی چڕی دەردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,10 +234,18 @@ class EnglishEntrybelch extends StatelessWidget {
 ٣. (ناو) قرقێنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He sat back and gave a loud belch."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاڵیدایەوە و قرقێنەیەکی بەرزی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He sat back and gave a loud belch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاڵیدایەوە و قرقێنەیەکی بەرزی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

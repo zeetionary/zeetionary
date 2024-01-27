@@ -167,10 +167,18 @@ class EnglishEntrybulimia extends StatelessWidget {
 ١. (ناو) نەخۆشییەک دووبارە و دووبارە خواردنی زۆر دەخوات و دواتر خۆی بەزۆر دەڕیشێنێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Feelings of guilt accompany bulimia."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەستکردن بە تاوان بەشێکە لە بۆلیمیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Feelings of guilt accompany bulimia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەستکردن بە تاوان بەشێکە لە بۆلیمیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "bulimia", follow LX strictly
                               Column(
                                 children: [

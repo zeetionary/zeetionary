@@ -165,10 +165,17 @@ class EnglishEntrybridegroom extends StatelessWidget {
 ١. (ناو) پیاوێک لە ڕۆژی ھاوسەرگیرییدا، یان ماوەیەکی کەم لە پێش یان پاشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I enjoyed the bridegroom’s speech."),
-                              const ExampleSentenceKurdish(
-                                  text: "وتاری زاواکەم بەدڵبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I enjoyed the bridegroom’s speech."),
+                                    ExampleSentenceKurdish(
+                                        text: "وتاری زاواکەم بەدڵبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bridegroom" as
                               Column(
                                 children: [
@@ -185,11 +192,17 @@ class EnglishEntrybridegroom extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bridegroom was late for the ceremony."),
-                              const ExampleSentenceKurdish(
-                                  text: "زاواکە درەنگ گەشتە ئاھەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bridegroom was late for the ceremony."),
+                                    ExampleSentenceKurdish(
+                                        text: "زاواکە درەنگ گەشتە ئاھەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

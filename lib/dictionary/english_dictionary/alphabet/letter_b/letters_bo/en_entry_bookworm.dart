@@ -166,12 +166,18 @@ class EnglishEntrybookworm extends StatelessWidget {
 ١. (ناو) کەسێک کە کتێب زۆر دەخوێنێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's a bookworm, often immersed in novels during her free time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاڵوودەیەکی کتێبە کە زۆرجار ڕۆچووە لە ڕۆماندا لە کاتە بەتاڵەکانیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's a bookworm, often immersed in novels during her free time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاڵوودەیەکی کتێبە کە زۆرجار ڕۆچووە لە ڕۆماندا لە کاتە بەتاڵەکانیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

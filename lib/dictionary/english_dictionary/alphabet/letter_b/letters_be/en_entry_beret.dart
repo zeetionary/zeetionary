@@ -168,12 +168,18 @@ class EnglishEntryberet extends StatelessWidget {
 ١. (ناو) کڵاوی بێرێ؛ کڵاوێکی تەخت کە لە پارچەی نەرم درووستکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldier was wearing the light blue beret of the United Nations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکە بێرێی شینی کاڵی نەتەوە یەکگرتووەکانی لەسەر بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldier was wearing the light blue beret of the United Nations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکە بێرێی شینی کاڵی نەتەوە یەکگرتووەکانی لەسەر بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

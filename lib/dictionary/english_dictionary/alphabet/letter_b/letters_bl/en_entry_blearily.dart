@@ -168,12 +168,18 @@ class EnglishEntryblearily extends StatelessWidget {
 ١. (ھاوەڵکار) بە چاوی ماندووێتییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Carl stared blearily at the newspaper."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارڵ بە چاوی ماندووێتییەوە لە ڕۆژنامەکەی دەڕوانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Carl stared blearily at the newspaper."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارڵ بە چاوی ماندووێتییەوە لە ڕۆژنامەکەی دەڕوانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

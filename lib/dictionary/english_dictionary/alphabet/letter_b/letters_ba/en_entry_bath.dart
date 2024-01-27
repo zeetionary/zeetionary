@@ -168,10 +168,16 @@ class EnglishEntrybath extends StatelessWidget {
 ١. (ناو) حەوزی خۆشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm in the bath!"),
-                              const ExampleSentenceKurdish(
-                                  text: "لە حەوزی خۆشتنەکەدام!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'm in the bath!"),
+                                    ExampleSentenceKurdish(
+                                        text: "لە حەوزی خۆشتنەکەدام!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybath extends StatelessWidget {
 ٢. (ناو) خۆشتن بە ڕاکشان لە حەوزێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think I'll have a bath and go to bed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم‌باشە خۆم بشۆم و بچمە جێگەی نووستن"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think I'll have a bath and go to bed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌باشە خۆم بشۆم و بچمە جێگەی نووستن"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +228,17 @@ class EnglishEntrybath extends StatelessWidget {
 ٣. (ناو) ئاوی ئامادەی حەوزێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please run a bath for me (= fill the bath with water)."),
-                              const ExampleSentenceKurdish(
-                                  text: "تکایە حەوزەکەم بۆ پڕبکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please run a bath for me (= fill the bath with water)."),
+                                    ExampleSentenceKurdish(
+                                        text: "تکایە حەوزەکەم بۆ پڕبکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +258,18 @@ class EnglishEntrybath extends StatelessWidget {
 ٤. (ناو) شوێنێکی گشتی کە بۆی دەچیت بۆ مەلەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My father took me to the baths every Sunday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My father took me to the baths every Sunday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکم ھەموو یەکشەمەیەک دەیبردم بۆ مەلەوانگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +289,18 @@ class EnglishEntrybath extends StatelessWidget {
 ٥. (ناو) شوێنێکی گشتی کە خەڵکی لە کۆندا بۆی دەچوون بۆ خۆشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most families had no bathroom and used the public baths instead."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most families had no bathroom and used the public baths instead."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر خێزان گەرماویان نەبوو و گەرماوی گشتییان لەجیاتیدا بەکاردەھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,10 +320,17 @@ class EnglishEntrybath extends StatelessWidget {
 ٦. (کردار) ششتنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's your turn to bath the baby."),
-                              const ExampleSentenceKurdish(
-                                  text: "نۆرەی تۆیە منداڵەکە بشۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's your turn to bath the baby."),
+                                    ExampleSentenceKurdish(
+                                        text: "نۆرەی تۆیە منداڵەکە بشۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,10 +350,16 @@ class EnglishEntrybath extends StatelessWidget {
 ٧. (کردار) خۆششتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She baths every morning."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموو بەیانییەک خۆی دەشوات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She baths every morning."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەموو بەیانییەک خۆی دەشوات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -222,10 +222,17 @@ class EnglishEntrybury extends StatelessWidget {
 ١. (کردار) ناشتنی کەسێکی مردوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They killed her and buried her body."),
-                              const ExampleSentenceKurdish(
-                                  text: "کوشتیان و لاشەکەیان ناشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They killed her and buried her body."),
+                                    ExampleSentenceKurdish(
+                                        text: "کوشتیان و لاشەکەیان ناشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bury", follow LX strictly
                               Column(
                                 children: [
@@ -242,12 +249,18 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Those people are now all dead and buried."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کەسانە ئێستا هەموویان مردوو و لەژێر گڵن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Those people are now all dead and buried."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کەسانە ئێستا هەموویان مردوو و لەژێر گڵن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +279,18 @@ class EnglishEntrybury extends StatelessWidget {
                               text: "٢. (کردار) لەدەستدانی کەسێک بە مردن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's 85 and has buried three husbands."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەمەنی ٨٥ ساڵە و سێ هاوسەری لەدەستداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's 85 and has buried three husbands."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەمەنی ٨٥ ساڵە و سێ هاوسەری لەدەستداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,12 +309,18 @@ class EnglishEntrybury extends StatelessWidget {
                               text: "٣. (کردار) شاردنەوەی شتێک لە زەویدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We used to dig for hours, looking for buried treasure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران چەندین کاتژمێر دەگەڕاین بۆ گەنجینەی شاردراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We used to dig for hours, looking for buried treasure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران چەندین کاتژمێر دەگەڕاین بۆ گەنجینەی شاردراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -312,12 +337,18 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dog had buried its bone in the garden."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەگەکە ئێسقانەکەی لە باخچەکەدا شاردبووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dog had buried its bone in the garden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگەکە ئێسقانەکەی لە باخچەکەدا شاردبووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,11 +368,18 @@ class EnglishEntrybury extends StatelessWidget {
                                   "٣. (کردار) داپۆشینی کەسێک/شتێک بە خۆڵ، بەرد، گەڵا، هتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The house was buried under ten feet of snow."),
-                              const ExampleSentenceKurdish(
-                                  text: "خانووەکە داپۆشرا بە ١٠ فیت لە بەفر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house was buried under ten feet of snow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووەکە داپۆشرا بە ١٠ فیت لە بەفر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -358,12 +396,18 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A landslide buried about 25 people yesterday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوومەخزەیەک نزیکەی ٢٥ کەسی کرد بە ژێرەوە دوێنێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A landslide buried about 25 people yesterday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوومەخزەیەک نزیکەی ٢٥ کەسی کرد بە ژێرەوە دوێنێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -383,11 +427,18 @@ class EnglishEntrybury extends StatelessWidget {
                                   "٥. (کردار) داپۆشینی شتێک بەشێوەیەک کە نەبینرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He buried his face in his hands and wept."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری لە دەستیدا داپۆشی و گریا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He buried his face in his hands and wept."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری لە دەستیدا داپۆشی و گریا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -406,10 +457,18 @@ class EnglishEntrybury extends StatelessWidget {
                               text: "٦. (کردار) شاردنەوەی هەست، هەڵە، هتد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had learnt to bury her feelings."),
-                              const ExampleSentenceKurdish(
-                                  text: "فێربوو بوو کە هەستەکانی بشارێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had learnt to bury her feelings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فێربوو بوو کە هەستەکانی بشارێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -428,12 +487,18 @@ class EnglishEntrybury extends StatelessWidget {
                               text: "٧. (کردار) بە قووڵی خستنە ناو شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He walked slowly, his hands buried in his pockets."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە هێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He walked slowly, his hands buried in his pockets."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە هێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -450,11 +515,18 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She always has her head buried in a book."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەمیشە سەری لەناو کتێبێکدا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She always has her head buried in a book."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەمیشە سەری لەناو کتێبێکدا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

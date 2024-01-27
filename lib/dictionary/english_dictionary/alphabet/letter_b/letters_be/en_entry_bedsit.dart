@@ -170,10 +170,18 @@ class EnglishEntrybedsit extends StatelessWidget {
 ١. (ناو) ژوورێک کەسێک بە کرێ دەیگرێت وەک شوێنی مانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He lives in a tiny student bedsit."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ژوورێکی بچووکی خوێندکاردا دەژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lives in a tiny student bedsit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژوورێکی بچووکی خوێندکاردا دەژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

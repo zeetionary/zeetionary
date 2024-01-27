@@ -163,12 +163,18 @@ class EnglishEntrybasicone extends StatelessWidget {
 ١. (ناو) زمانێک بە ئینگلیزییەکی ئاسان بۆ نووسینی پڕۆگرامی کۆمپیوتەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "BASIC was one of the first programming languages that I learned."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەیسیک یەکێک لە یەکەمین زمانەکانی پڕۆگرامسازی بوو کە فێری بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "BASIC was one of the first programming languages that I learned."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەیسیک یەکێک لە یەکەمین زمانەکانی پڕۆگرامسازی بوو کە فێری بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

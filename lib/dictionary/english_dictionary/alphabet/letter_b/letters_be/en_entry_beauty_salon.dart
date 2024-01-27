@@ -173,11 +173,18 @@ class EnglishEntrybeautysalon extends StatelessWidget {
 ١. (ناو) ساڵۆنی جوان‌کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She went to a beauty salon for a permanent."),
-                              const ExampleSentenceKurdish(
-                                  text: "چوو بۆ ساڵۆنەکە بۆ لوولکردنی قژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She went to a beauty salon for a permanent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوو بۆ ساڵۆنەکە بۆ لوولکردنی قژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,11 +170,18 @@ class EnglishEntrybetrothed extends StatelessWidget {
 ١. (ناو) کەسێک کە بەڵێنی ھاوسەرگیری پێدراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He sent a dozen roses to his betrothed."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژمارەیەک گوڵی بۆ دەزگیرانەکەی نارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He sent a dozen roses to his betrothed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک گوڵی بۆ دەزگیرانەکەی نارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

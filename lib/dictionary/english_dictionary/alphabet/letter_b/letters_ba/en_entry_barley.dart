@@ -165,10 +165,18 @@ class EnglishEntrybarley extends StatelessWidget {
 ١. (ھاوەڵناو) ڕووەکێک کە دەچێندرێت بۆ دەنکەکەی کە بۆ درووستکردنی خواردن، بیرە، و ویسکی بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The price of barley are set to rise."),
-                              const ExampleSentenceKurdish(
-                                  text: "نرخی جۆ بەرەوە بەرزبوونەوە دەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The price of barley are set to rise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی جۆ بەرەوە بەرزبوونەوە دەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

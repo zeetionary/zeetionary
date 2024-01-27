@@ -168,12 +168,18 @@ class EnglishEntrybigotry extends StatelessWidget {
 ١. (ناو) ھەبوون یان دەربڕینی باوەڕ و بۆچوون کە توند و نابەجێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The politician's bigotry towards immigrants led to his loss in the elections."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمارگرژی سیاسەتوانەکە دژ بە کۆچبەران بوو بەھۆی دۆڕانی لە ھەڵبژاردنەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The politician's bigotry towards immigrants led to his loss in the elections."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمارگرژی سیاسەتوانەکە دژ بە کۆچبەران بوو بەھۆی دۆڕانی لە ھەڵبژاردنەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

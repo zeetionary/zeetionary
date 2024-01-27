@@ -170,12 +170,18 @@ class EnglishEntrybeet extends StatelessWidget {
 ١. (ناو) ڕووەکێک کە ڕەگەکەی بەکاردێت وەک سەوزە، بەتایبەتی بۆ خواردنی ئاژەڵان یان درووستکردنی شەکر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farmers planted rows of beets in their field."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیاران چەندان ڕیزی چەوەندەریان چاند لە کێڵگەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farmers planted rows of beets in their field."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیاران چەندان ڕیزی چەوەندەریان چاند لە کێڵگەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntrybilge extends StatelessWidget {
 ١. (ناو) بەشی تەختی خوارەوەی کەشتییەک یان بەلەمێک کە تێیدا ئاوی پیس کۆدەبێتەوە، یان ئەو ئاوەی تێیدا کۆدەبێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bilges had been pumped and the ship was ready to set sail once again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بنەکەشتییەکە بەتاڵکرایەوە و کەشتییەکە ئامادەبوو بۆ دووبارە گەشتکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bilges had been pumped and the ship was ready to set sail once again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بنەکەشتییەکە بەتاڵکرایەوە و کەشتییەکە ئامادەبوو بۆ دووبارە گەشتکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,10 +201,16 @@ class EnglishEntrybilge extends StatelessWidget {
 ٢. (ناو) قسەی ھیچ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't talk such bilge!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێندە قسەی ھیج مەکە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't talk such bilge!"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھێندە قسەی ھیج مەکە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

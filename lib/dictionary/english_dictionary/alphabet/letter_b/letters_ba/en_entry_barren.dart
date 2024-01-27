@@ -168,11 +168,18 @@ class EnglishEntrybarren extends StatelessWidget {
 ١. (ھاوەڵناو) زەوییەک کە ڕووەک گەشەی لەسەر ناکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We drove through a barren, rocky landscape."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەنیشت دەشتێکی ڕووتاوەدا تێپەڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We drove through a barren, rocky landscape."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەنیشت دەشتێکی ڕووتاوەدا تێپەڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +199,18 @@ class EnglishEntrybarren extends StatelessWidget {
 ٢. (ھاوەڵناو) درەختێک کە میوەی لێ سەوز نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Years of drought had rendered the orchard a wasteland of barren trees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەندین ساڵ لە وشکەساڵی باخەکەی کردووە بە زەوییەکی بەیار لە داری بێ‌بەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Years of drought had rendered the orchard a wasteland of barren trees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەندین ساڵ لە وشکەساڵی باخەکەی کردووە بە زەوییەکی بەیار لە داری بێ‌بەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +230,18 @@ class EnglishEntrybarren extends StatelessWidget {
 ٣. (ھاوەڵناو) ژنێک یان ئاژەڵێکی مێینە کە منداڵی نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barren mare was a source of concern for the rancher."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماینە نەزۆکەکە جێگەی نیگەرانی بوو بۆ خاوەن ئاژەڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barren mare was a source of concern for the rancher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماینە نەزۆکەکە جێگەی نیگەرانی بوو بۆ خاوەن ئاژەڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +261,18 @@ class EnglishEntrybarren extends StatelessWidget {
 ٤. (ھاوەڵناو) دۆخێک کە ھیچی بەسوود و سەرکەوتووانەی لێ سەوز نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team will come through this barren patch and start to win again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە بەسەر ئەم دۆخە تاڵەدا زاڵ دەبن و دووبارە دەبەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team will come through this barren patch and start to win again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە بەسەر ئەم دۆخە تاڵەدا زاڵ دەبن و دووبارە دەبەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

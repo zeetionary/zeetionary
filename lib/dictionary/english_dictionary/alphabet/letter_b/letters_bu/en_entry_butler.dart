@@ -212,12 +212,18 @@ class EnglishEntrybutler extends StatelessWidget {
 ١. (ناو) خزمەتکاری سەرەکیی پیاو لە خانوویەکی گەورەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The butler announced that dinner was served."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The butler announced that dinner was served."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربەردەستەکە ڕایگەیاند کە نانی ئێوارە ئامادەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butler", follow LX strictly
                               Column(
                                 children: [

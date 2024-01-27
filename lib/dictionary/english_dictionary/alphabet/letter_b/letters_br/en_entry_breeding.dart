@@ -166,11 +166,18 @@ class EnglishEntrybreeding extends StatelessWidget {
 ١. (ناو) بەخێوکردنی ئاژەڵ بۆ وەچەخستنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The family's business was horse-breeding."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیشەی خێزانەکە بەخێوکردنی ئەسپ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The family's business was horse-breeding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیشەی خێزانەکە بەخێوکردنی ئەسپ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "breeding" as
                               Column(
                                 children: [
@@ -190,11 +197,18 @@ class EnglishEntrybreeding extends StatelessWidget {
                                   "٢. (ناو) زاوزێکردن یان درووستکردنی وەچە یان ڕووەکی تازە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The penguins' breeding season has begun."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەرزی زاوزێی پەنگوین دەستیپێکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The penguins' breeding season has begun."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەرزی زاوزێی پەنگوین دەستیپێکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +228,18 @@ class EnglishEntrybreeding extends StatelessWidget {
                                   "٣. (ناو) پێشینەی کۆمەڵایەتی یان خێزانی کە باوەڕوایە ھەڵسوکەوتی باش بەرھەمەکەی دەبێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her good breeding shows in her exquisite manners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەروەردەی باشی لە ھەڵسوکەوتی جوانیدا دەردەکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her good breeding shows in her exquisite manners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەروەردەی باشی لە ھەڵسوکەوتی جوانیدا دەردەکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

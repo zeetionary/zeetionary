@@ -166,11 +166,18 @@ class EnglishEntryboardingcard extends StatelessWidget {
 ١. (ناو) کارتی سواربوون ناو فڕۆکە یان کەشتی)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Show your boarding card at the gate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارتی سواربوونت لە دەروازەکە پیشان بدە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Show your boarding card at the gate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارتی سواربوونت لە دەروازەکە پیشان بدە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

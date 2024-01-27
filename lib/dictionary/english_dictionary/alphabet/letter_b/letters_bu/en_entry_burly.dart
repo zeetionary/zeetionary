@@ -212,12 +212,18 @@ class EnglishEntryburly extends StatelessWidget {
 ١. (ناو) گەورە و بەهێز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The burly construction worker effortlessly lifted the heavy beam into place."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێکارە کەتەکە بە ئاسانی کاریتەکەی خستە شوێنی خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The burly construction worker effortlessly lifted the heavy beam into place."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێکارە کەتەکە بە ئاسانی کاریتەکەی خستە شوێنی خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burly", follow LX strictly
                               Column(
                                 children: [

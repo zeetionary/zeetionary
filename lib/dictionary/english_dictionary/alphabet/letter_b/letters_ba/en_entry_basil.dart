@@ -165,12 +165,18 @@ class EnglishEntrybasil extends StatelessWidget {
 ١. (ھاوەڵناو) ڕووەکێک کە گەڵای درەوشاوەی سەوزی ھەیە، بۆنێکی خۆشی ھەیە، و لە خواردن درووستکردندا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Basil is often used in Italian cooking."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێحانە زۆرجار لە خواردنی ئیتالیدا بەکاردێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Basil is often used in Italian cooking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێحانە زۆرجار لە خواردنی ئیتالیدا بەکاردێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

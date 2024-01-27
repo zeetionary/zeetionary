@@ -171,12 +171,18 @@ class EnglishEntrybereft extends StatelessWidget {
 ١. (ھاوەڵناو) بە تەواوی بەبێ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Alone now and almost penniless, he was bereft of hope."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە تەنھا و بە نزیکەیی بەبێ پارە، بە تەواوی بێ ھیوا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Alone now and almost penniless, he was bereft of hope."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەنھا و بە نزیکەیی بەبێ پارە، بە تەواوی بێ ھیوا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybereft extends StatelessWidget {
 ٢. (ھاوەڵناو) (کەسێک) ناڕەحەت و تەنھایە بەھۆی ئەوەی شتێکی لەدەستداوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was utterly bereft when his wife died."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە تەواوی بێ‌کەس بوو کە ھاوژینەکەی مرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was utterly bereft when his wife died."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی بێ‌کەس بوو کە ھاوژینەکەی مرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

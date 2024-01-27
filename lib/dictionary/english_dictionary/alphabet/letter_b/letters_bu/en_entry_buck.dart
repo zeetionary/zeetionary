@@ -168,10 +168,16 @@ class EnglishEntrybuck extends StatelessWidget {
 ١. (ھاوەڵناو) دۆلاری ئەمریکی، نیوزلەندی، ئوسترالی، ڕوپێی ھندی، ڕاندی ئەفریقای باشوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They cost ten bucks."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دە دۆلارن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They cost ten bucks."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە دە دۆلارن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "buck" as
                               Column(
                                 children: [
@@ -188,11 +194,18 @@ class EnglishEntrybuck extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We're talking big bucks (= a lot of money) here."),
-                              const ExampleSentenceKurdish(
-                                  text: "باسی پارەیەکی زۆر دەکەین لێرەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We're talking big bucks (= a lot of money) here."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باسی پارەیەکی زۆر دەکەین لێرەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +225,18 @@ class EnglishEntrybuck extends StatelessWidget {
                                   "٢. (ناو) کەروێشک یان ئاسکی نێرە (لە ئەفریقای باشوور مێیەش)"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hunter spotted a buck in the forest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاوکەرەکە ئاسکێکی دۆزییەوە لە دارستانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hunter spotted a buck in the forest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاوکەرەکە ئاسکێکی دۆزییەوە لە دارستانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,11 +255,18 @@ class EnglishEntrybuck extends StatelessWidget {
                               text: "٣. (ناو) لۆمە یان بەرپرسیاریەتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was my decision. The buck stops here (= nobody else can be blamed)."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیاری من بوو. کەسی تر بەرپرس نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was my decision. The buck stops here (= nobody else can be blamed)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاری من بوو. کەسی تر بەرپرس نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,10 +285,16 @@ class EnglishEntrybuck extends StatelessWidget {
                               text: "٤. (کردار) بازدانی ئەسپ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The horse bucked wildly."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەسپەکە شێتانە بازی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The horse bucked wildly."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەسپەکە شێتانە بازی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -282,11 +314,17 @@ class EnglishEntrybuck extends StatelessWidget {
                                   "٥. (کردار) ھەڵبەز و دابەزکردنی شتێک وەک ئەوەی کۆنترۆڵی نەبێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The boat bucked beneath them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمەکە ھەڵبەز و دابەزی بوو لە ژێریاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The boat bucked beneath them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکە ھەڵبەز و دابەزی بوو لە ژێریاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -306,12 +344,18 @@ class EnglishEntrybuck extends StatelessWidget {
                                   "٦. (کردار) دژایەتی یان بەرەنگاری دژ بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He admired her willingness to buck the system (= oppose authority or rules)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرسام بوو بە ویستی بۆ دژایەتی دەسەڵات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He admired her willingness to buck the system (= oppose authority or rules)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسام بوو بە ویستی بۆ دژایەتی دەسەڵات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

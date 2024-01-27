@@ -170,12 +170,18 @@ class EnglishEntrybottomless extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر قووڵ وەک ئەوەی کۆتایی نەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sea looked dark, almost bottomless."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەریاکە تاریک دیار بوو، وەک ئەوەی بنی نەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sea looked dark, almost bottomless."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەریاکە تاریک دیار بوو، وەک ئەوەی بنی نەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybottomless extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They believed that at the centre of the earth, the sea poured into a bottomless hole."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕیان وابوو کە ناوەڕاستی زەویدا دەریاکە دەڕژایە ناو چاڵێکی بێ‌بنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They believed that at the centre of the earth, the sea poured into a bottomless hole."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕیان وابوو کە ناوەڕاستی زەویدا دەریاکە دەڕژایە ناو چاڵێکی بێ‌بنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,11 +228,18 @@ class EnglishEntrybottomless extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) بە بێ سنوور یان کۆتایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a bottomless hunger for learning."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزێکی بێ سنووری ھەبوو بۆ فێربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a bottomless hunger for learning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزێکی بێ سنووری ھەبوو بۆ فێربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

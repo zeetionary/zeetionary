@@ -170,12 +170,18 @@ class EnglishEntrybomber extends StatelessWidget {
 ١. (ناو) فڕۆکەیەک کە بۆمب ھەڵدەگرێت و بەری دەداتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The invasion on land was supported by bombers in the air."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The invasion on land was supported by bombers in the air."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێرشە زەمینییەکە لەلایەن بۆمباوێژەوە پشتگیری دەکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntrybomber extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە بەشێوەیەکی نایاسایی بۆمبێک دەباتە شوێنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The suicide bomber blew himself up in a crowded restaurant, killing twelve people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The suicide bomber blew himself up in a crowded restaurant, killing twelve people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێرشکارە خۆکوژییەکە خۆی تەقاندەوە لە چێشتخانەیەکی قەرەباڵغدا و دوازدە کەسی کوشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +229,18 @@ class EnglishEntrybomber extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Seventeen people were killed this morning by bombers who targeted a shopping centre."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەڤدە کەس ئەم بەیانییە کوژران لەلایەن بۆمب‌چنەوە کە سەنتەرێکی بازاڕکردنیان کردە ئامانج."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Seventeen people were killed this morning by bombers who targeted a shopping centre."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەڤدە کەس ئەم بەیانییە کوژران لەلایەن بۆمب‌چنەوە کە سەنتەرێکی بازاڕکردنیان کردە ئامانج."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

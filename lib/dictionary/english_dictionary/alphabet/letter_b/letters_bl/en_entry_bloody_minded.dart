@@ -171,10 +171,16 @@ class EnglishEntrybloodyminded extends StatelessWidget {
 ١. (ھاوەڵناو) سوور لەسەر ئەوەی دەتەوێت و ڕەتی بکەیتەوە وازبێنیت، بیرۆکەت بگۆڕیت، یان ئەوە بکەیت کە ئەوانی تر دەیانەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don’t be so bloody-minded!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێندە کەللەڕەق مەبە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don’t be so bloody-minded!"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھێندە کەللەڕەق مەبە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had the kind of bloody-minded determination necessary to succeed in the industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ویستە سەرسەختانەی ھەبوو کە پێویست بوو بۆ سەرکەوتن لە پیشەسازییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had the kind of bloody-minded determination necessary to succeed in the industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ویستە سەرسەختانەی ھەبوو کە پێویست بوو بۆ سەرکەوتن لە پیشەسازییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybloodyminded extends StatelessWidget {
                                   "٢. (ھاوەڵناو) حەزکردن لە یان ڕێخۆشکەر بۆ توندوتیژی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you believe that your government could be bloody-minded enough to kill 300 innocent civilians?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕت وایە حکونەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you believe that your government could be bloody-minded enough to kill 300 innocent civilians?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕت وایە حکونەتەکەت ھێندە خوێنخۆر بێت ٣٠٠ ھاوڵاتیی مەدەنی بێ‌تاوان بکوژێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

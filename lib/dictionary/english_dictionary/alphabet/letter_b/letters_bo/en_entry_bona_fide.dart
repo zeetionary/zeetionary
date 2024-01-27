@@ -171,12 +171,18 @@ class EnglishEntrybonafide extends StatelessWidget {
 ١. (ناو) ڕاستی، یاسایی، درووست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Make sure you are dealing with a bona fide company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیابەرەوە مامەڵە لەگەڵ کۆمپانیایەکی ڕاست دەکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Make sure you are dealing with a bona fide company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیابەرەوە مامەڵە لەگەڵ کۆمپانیایەکی ڕاست دەکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,11 +199,18 @@ class EnglishEntrybonafide extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You’re a bona fide member of the team now."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێستا ئەندامێکی یاساییت لە تیمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You’re a bona fide member of the team now."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا ئەندامێکی یاساییت لە تیمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

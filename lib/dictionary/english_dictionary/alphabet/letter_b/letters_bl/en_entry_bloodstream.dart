@@ -169,12 +169,18 @@ class EnglishEntrybloodstream extends StatelessWidget {
 ١. (ناو) ئەو خوێنەی بە جەستەدا سووڕدەخوات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They injected the drug directly into her bloodstream."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرمانەکەیان ڕاستەوخۆ کردە ناو سووڕی خوێنییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They injected the drug directly into her bloodstream."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرمانەکەیان ڕاستەوخۆ کردە ناو سووڕی خوێنییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybloodstream extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Red blood cells transport oxygen through the bloodstream."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جڕۆکە سوورەکان ئۆکسجین بە سووڕی خوێندا دەگوانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Red blood cells transport oxygen through the bloodstream."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جڕۆکە سوورەکان ئۆکسجین بە سووڕی خوێندا دەگوانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

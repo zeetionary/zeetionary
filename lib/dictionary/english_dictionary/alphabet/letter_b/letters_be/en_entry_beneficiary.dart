@@ -171,12 +171,18 @@ class EnglishEntrybeneficiary extends StatelessWidget {
 ١. (ناو) کەسێک کە لە ئەنجامی شتێکدا سوود دەبینێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her wife was the chief beneficiary of her will."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنەکەی سوودمەندی سەرەکی وەسیەتەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her wife was the chief beneficiary of her will."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنەکەی سوودمەندی سەرەکی وەسیەتەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrybeneficiary extends StatelessWidget {
 ٢. (ناو) کەسێک کە سەروەت و سامانی کەسێکی دیکە وەردەگرێت کە دەمرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was the sole beneficiary of her father’s will."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا کەسی میراتگر بوو لە وەسیەتەکەی باوکیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was the sole beneficiary of her father’s will."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا کەسی میراتگر بوو لە وەسیەتەکەی باوکیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

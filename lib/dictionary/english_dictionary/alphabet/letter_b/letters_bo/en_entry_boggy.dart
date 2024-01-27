@@ -166,12 +166,18 @@ class EnglishEntryboggy extends StatelessWidget {
 ١. (ھاوەڵناو) خاکێکی نەرم و تەڕ وەک زەلکاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The path through the moorland is boggy but still in use."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە بە دەشتەبوورەکەدا لیتەیە بەڵام ھێشتا بەکاردێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The path through the moorland is boggy but still in use."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە بە دەشتەبوورەکەدا لیتەیە بەڵام ھێشتا بەکاردێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

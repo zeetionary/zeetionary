@@ -169,12 +169,18 @@ class EnglishEntrybouncing extends StatelessWidget {
 ١. (ھاوەڵناو) تەندرووست و پڕ لە وزە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We've got two grandchildren - a three-year-old girl and a bouncing baby boy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو نەوەمان ھەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've got two grandchildren - a three-year-old girl and a bouncing baby boy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو نەوەمان ھەیە، کچێکی سێ ساڵان و کوڕێکی تەندرووست ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

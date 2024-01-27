@@ -164,12 +164,18 @@ class EnglishEntrybrutish extends StatelessWidget {
 ١. (ھاوەڵناو) توندوتیژ؛ بەبێ بیرکردنەوە و زیرەکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Life for our early ancestors was nasty, brutish and short, according to the evidence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی بەڵگەکان، ژیان بۆ باوانە سەرەتاییەکانمان ناخۆش، سەخت، و کورت بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Life for our early ancestors was nasty, brutish and short, according to the evidence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی بەڵگەکان، ژیان بۆ باوانە سەرەتاییەکانمان ناخۆش، سەخت، و کورت بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brutish" as
                               Column(
                                 children: [

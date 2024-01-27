@@ -169,12 +169,18 @@ class EnglishEntrybreakthrough extends StatelessWidget {
 ١. (ناو) ڕووداو یان دۆزینەوەیەکی گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new deal represents a major breakthrough for the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنە نوێیەکە پيشکەوتنێکی بایەخدارە بۆ کۆمپانیاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new deal represents a major breakthrough for the company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنە نوێیەکە پيشکەوتنێکی بایەخدارە بۆ کۆمپانیاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +199,18 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are hoping for a breakthrough in the search for a cure for cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان ھیوا بۆ پەرەسەندنێکی گەورە دەخوازن لە ھەوڵ بۆ دۆزینەوەی چارەسەرێک بۆ شێرپەنجە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists are hoping for a breakthrough in the search for a cure for cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان ھیوا بۆ پەرەسەندنێکی گەورە دەخوازن لە ھەوڵ بۆ دۆزینەوەی چارەسەرێک بۆ شێرپەنجە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +232,18 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                                   "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک/شتێک بۆ یەکەم جار سەرکەوتووە و ئەگەری بەرەوپێشچوونی زیاتری ھەیە لە داھاتوودا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a breakthrough album for the band."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەلبوومەکە بۆ باندەکە دەرگای سەرکەوتنی کردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a breakthrough album for the band."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەلبوومەکە بۆ باندەکە دەرگای سەرکەوتنی کردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +265,18 @@ class EnglishEntrybreakthrough extends StatelessWidget {
                                   "٣. (ھاوەڵناو) زۆر گرنگ لە پەرەسەندنی کەسێک/شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article described the impact of their breakthrough discovery of the structure of DNA."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە باسی کاریگەریی دۆزینەوە گەورەکەیانی دەکرد کە لەسەر پێکھاتەی DNA بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The article described the impact of their breakthrough discovery of the structure of DNA."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە باسی کاریگەریی دۆزینەوە گەورەکەیانی دەکرد کە لەسەر پێکھاتەی DNA بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

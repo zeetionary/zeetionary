@@ -165,11 +165,18 @@ class EnglishEntrybasement extends StatelessWidget {
 ١. (ناو) ژێرزەمینی بینایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She lives in a two-room basement flat."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە فلاتێکی دوو ژووری ژێرزەمینی دەژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She lives in a two-room basement flat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە فلاتێکی دوو ژووری ژێرزەمینی دەژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

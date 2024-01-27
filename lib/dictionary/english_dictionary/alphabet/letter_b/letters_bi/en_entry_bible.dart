@@ -174,12 +174,18 @@ class EnglishEntrybible extends StatelessWidget {
 ١. (ناو) ئینجیل؛ کتێبی پیرۆزی ئایینی مەسیحییەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the Bible it says that Adam and Eve were the first human beings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئینجیل دەڵێت ئادەم و حەوا یەکەمین مرۆڤەکان بوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the Bible it says that Adam and Eve were the first human beings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئینجیل دەڵێت ئادەم و حەوا یەکەمین مرۆڤەکان بوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntrybible extends StatelessWidget {
 ٤. (ناو) کتێبێک یان گۆڤارێک کە ڕاوێژ و زانیاریی گرنگ دەدات سەبارەت بە بابەتێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Vogue magazine quickly became the bible of fashionable women."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆڤاری Vogue ھەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Vogue magazine quickly became the bible of fashionable women."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆڤاری Vogue ھەرزوو بوو بە سەرچاوە بۆ ژنانی مۆدباز."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

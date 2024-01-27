@@ -212,12 +212,18 @@ class EnglishEntrybumpy extends StatelessWidget {
 ١. (ھاوەڵناو) شوێنێک کە تەواو تەخت نییە و چاڵ‌وچۆڵی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The road was getting bumpier and we had to hold on to our seats."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە پڕچاڵ‌وچۆڵ دەبوو و دەبوو دەست بگرین بە کۆشینەکانمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road was getting bumpier and we had to hold on to our seats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە پڕچاڵ‌وچۆڵ دەبوو و دەبوو دەست بگرین بە کۆشینەکانمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumpy", follow LX strictly
                               Column(
                                 children: [

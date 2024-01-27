@@ -168,12 +168,18 @@ class EnglishEntryboiler extends StatelessWidget {
 ١. (ناو) شتێکە کە تێیدا ئاو گەرم دەکرێت بۆ ئەوەی ئاوی گەرم بۆ بینایەک دابین بکات یان ھەڵم درووست بکات بۆ بزوێنەرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You might need to install a new boiler."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەنگە پێویست بکات گیزەرێکی تازە دابنەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You might need to install a new boiler."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەنگە پێویست بکات گیزەرێکی تازە دابنەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

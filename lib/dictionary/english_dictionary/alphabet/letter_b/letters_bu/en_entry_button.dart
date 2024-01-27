@@ -219,12 +219,18 @@ class EnglishEntrybutton extends StatelessWidget {
 ١. (ناو) دووگمەی جلوبەگ بۆ بەستنی دوو بەش پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of the buttons on his jacket was missing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە دووگمەکانی چاکەتەکەی دیار نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the buttons on his jacket was missing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە دووگمەکانی چاکەتەکەی دیار نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "button", follow LX strictly
                               Column(
                                 children: [
@@ -241,11 +247,18 @@ class EnglishEntrybutton extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The top button of his shirt was undone."),
-                              const ExampleSentenceKurdish(
-                                  text: "دووگمەی سەرەوەی کراسەکەی نەدرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The top button of his shirt was undone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووگمەی سەرەوەی کراسەکەی نەدرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +278,18 @@ class EnglishEntrybutton extends StatelessWidget {
                                   "٢. (ناو) بەشێکی ئامێرێک کە پەنجەی پێدا دەنێیت بۆ ئەوەی کاربکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Adam pressed a button on the elevator and waited for the lift."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئادەم پەنجەی نا بە دووگمەیەکدا لەسەر بەرزکەرەوەکە و چاوەڕێی چوونەسەرەوەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Adam pressed a button on the elevator and waited for the lift."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئادەم پەنجەی نا بە دووگمەیەکدا لەسەر بەرزکەرەوەکە و چاوەڕێی چوونەسەرەوەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -287,12 +306,18 @@ class EnglishEntrybutton extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Choose ‘printer’ from the menu and click with the right mouse button."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی ‘printer’ هەڵبژێرە لە لیستەکە و دەست بنێ بە دووگمەی ڕاستی ماوسەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Choose ‘printer’ from the menu and click with the right mouse button."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی ‘printer’ هەڵبژێرە لە لیستەکە و دەست بنێ بە دووگمەی ڕاستی ماوسەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -312,12 +337,18 @@ class EnglishEntrybutton extends StatelessWidget {
                                   "٣. (ناو) بەشێکی بچووکی کۆمپیوتەرێک یان موبایل کە پەنجەی پێدا دەنێیت بۆ ئەوەی کارێک بکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Click on the back button to go back to the previous screen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنجە بنێ بە دووگمەی back دا بۆ گەڕانەوە بۆ شاشەی پێشوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Click on the back button to go back to the previous screen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنجە بنێ بە دووگمەی back دا بۆ گەڕانەوە بۆ شاشەی پێشوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -336,12 +367,18 @@ class EnglishEntrybutton extends StatelessWidget {
                               text: "٤. (ناو) باجێک کە شتێکی لەسەر نووسراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They all wore buttons saying ‘Stop the war’."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەموویان باجێکیان بەستبوو کە لەسەری نووسرابوو 'جەنگ بوەستێنن'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They all wore buttons saying ‘Stop the war’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموویان باجێکیان بەستبوو کە لەسەری نووسرابوو 'جەنگ بوەستێنن'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -360,11 +397,18 @@ class EnglishEntrybutton extends StatelessWidget {
                               text: "٥. (کردار) بەستن بە دووگمە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She buttoned the child into his coat."),
-                              const ExampleSentenceKurdish(
-                                  text: "دووگمەی قەمسەڵەی منداڵەکەی بەست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She buttoned the child into his coat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووگمەی قەمسەڵەی منداڵەکەی بەست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -383,11 +427,18 @@ class EnglishEntrybutton extends StatelessWidget {
                               text: "٦. (کردار) بوونی دووگمە بۆ بەستن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dress buttons (up) at the back."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کراسەکە لە پشتەوە بە دووگمە دەبەسترێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dress buttons (up) at the back."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کراسەکە لە پشتەوە بە دووگمە دەبەسترێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

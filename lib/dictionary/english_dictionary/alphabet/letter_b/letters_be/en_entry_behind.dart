@@ -262,10 +262,16 @@ class EnglishEntrybehind extends StatelessWidget {
 ١. (ئامراز) لە پشتەوە یان بەرەو پشتەوەی کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Stay close behind me."),
-                              const ExampleSentenceKurdish(
-                                  text: "نزیک لێم و لەدوامەوە بمێنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Stay close behind me."),
+                                    ExampleSentenceKurdish(
+                                        text: "نزیک لێم و لەدوامەوە بمێنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,10 +289,16 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She glanced behind her."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوێکی لە دواوەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She glanced behind her."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاوێکی لە دواوەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -304,12 +316,18 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't forget to lock the door behind you (= when you leave)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیرت نەچێت دەرگاکە لە دوای خۆت دابخەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't forget to lock the door behind you (= when you leave)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرت نەچێت دەرگاکە لە دوای خۆت دابخەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -329,12 +347,18 @@ class EnglishEntrybehind extends StatelessWidget {
 ٢. (ئامراز) ھەبوونی بەرەوپێشچوونی کەمتر لە کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's behind the rest of the class in reading."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە خوێندنەوەدا لە دوای ئەوانی تری پۆلەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's behind the rest of the class in reading."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە خوێندنەوەدا لە دوای ئەوانی تری پۆلەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -354,12 +378,18 @@ class EnglishEntrybehind extends StatelessWidget {
 ٣. (ئامراز) یارمەتیدانی کەسێک یان پێدانی ڕەزامەندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She knew that, whatever she decided, her family was right behind her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیزانی ھەرچی بڕیارێک بدات خێزانەکەی لەپشتی دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She knew that, whatever she decided, her family was right behind her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیزانی ھەرچی بڕیارێک بدات خێزانەکەی لەپشتی دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -379,10 +409,18 @@ class EnglishEntrybehind extends StatelessWidget {
 ٤. (ئامراز) ھۆکاری دەستپێکردن یان ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What's behind that happy smile?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چی ھۆکارە بۆ ئەم پێکەنینە دڵخۆشانە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What's behind that happy smile?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چی ھۆکارە بۆ ئەم پێکەنینە دڵخۆشانە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -400,12 +438,18 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was the man behind the plan to build a new hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کەسەیە کە لە پشتەوەی پلانی درووستکردنی نەخۆشخانە تازەکەیە"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was the man behind the plan to build a new hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کەسەیە کە لە پشتەوەی پلانی درووستکردنی نەخۆشخانە تازەکەیە"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -425,12 +469,18 @@ class EnglishEntrybehind extends StatelessWidget {
 ٥. (ئامراز) بەکاردێت بۆ وتنی ئەوەی شتێک بەشێکە لە ڕابردووی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The accident is behind you now, so try to forget it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوەکە بەشێکە لە ڕابردووت ئێستا، ھەوڵ بدە لەبیری بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The accident is behind you now, so try to forget it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکە بەشێکە لە ڕابردووت ئێستا، ھەوڵ بدە لەبیری بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -450,12 +500,18 @@ class EnglishEntrybehind extends StatelessWidget {
 ٦. (ھاوەڵکار) لە پشتەوە یان بەرەو پشتەوەی کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She rode the bike down the road with the dog running behind."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ڕێگاکەدا پاسکیلی دەڕانی و سەگەکەش بەدوایدا ڕایدەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She rode the bike down the road with the dog running behind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ڕێگاکەدا پاسکیلی دەڕانی و سەگەکەش بەدوایدا ڕایدەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -473,10 +529,17 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The others are a long way behind."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوانی تر زۆر لە دواوەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The others are a long way behind."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوانی تر زۆر لە دواوەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -494,11 +557,18 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was shot from behind as he ran away."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە دواوە تەقەی لێکرا کە ڕایدەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was shot from behind as he ran away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دواوە تەقەی لێکرا کە ڕایدەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -518,11 +588,18 @@ class EnglishEntrybehind extends StatelessWidget {
 ٧. (ھاوەڵکار) لەو شوێنەی کە کەسێک/شتێکی لێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This bag was left behind after the class."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم جانتا جێھێڵدرا لە دوای دەوام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This bag was left behind after the class."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم جانتا جێھێڵدرا لە دوای دەوام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -542,11 +619,17 @@ class EnglishEntrybehind extends StatelessWidget {
 ٨. (ھاوەڵکار) درەنگ لە پێدانی پارە یان تەواوکردنی کار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's fallen behind with the payments."),
-                              const ExampleSentenceKurdish(
-                                  text: "دواکەوتووە لە پێدانی پارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's fallen behind with the payments."),
+                                    ExampleSentenceKurdish(
+                                        text: "دواکەوتووە لە پێدانی پارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -564,10 +647,17 @@ class EnglishEntrybehind extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was terribly behind in his work."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر لە کارەکەی دواکەوتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was terribly behind in his work."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر لە کارەکەی دواکەوتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -587,10 +677,16 @@ class EnglishEntrybehind extends StatelessWidget {
 ٩. (سمت) سمت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dog bit him on his behind."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگەکە گازی لە سمتی گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The dog bit him on his behind."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەگەکە گازی لە سمتی گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

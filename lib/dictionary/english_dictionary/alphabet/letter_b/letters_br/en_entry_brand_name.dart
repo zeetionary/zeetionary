@@ -171,12 +171,18 @@ class EnglishEntrybrandname extends StatelessWidget {
 ١. (ناو) ئەو ناوەی کە دەدرێت بۆ بەرھەمێک لەلایەن کۆمپانیای بەرھەمھێنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Coca-Cola's global brand name recognition is unbeatable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناسراوی ناوی جیھانی براندی کۆکاکۆلا ڕکابەری لەگەڵ ناکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Coca-Cola's global brand name recognition is unbeatable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناسراوی ناوی جیھانی براندی کۆکاکۆلا ڕکابەری لەگەڵ ناکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

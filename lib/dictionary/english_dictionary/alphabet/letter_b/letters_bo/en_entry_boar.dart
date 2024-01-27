@@ -168,12 +168,18 @@ class EnglishEntryboar extends StatelessWidget {
 ١. (ناو) بەرازێکی نێرە کە بۆ زاوزێ بەکاردێت لە کێڵگەیەکدا، یان بەرازێکی کێوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A boar's diet consists of roots, fruits, and small animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردنی بەرازی نێرە پێکدێت لە ڕەگی دار و میوە و ئاژیڵی بچووک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A boar's diet consists of roots, fruits, and small animals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنی بەرازی نێرە پێکدێت لە ڕەگی دار و میوە و ئاژیڵی بچووک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

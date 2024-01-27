@@ -166,10 +166,18 @@ class EnglishEntrybarbecue extends StatelessWidget {
 ١. (ناو) پارچە ئاسنێک کە لەسەر فڕن یان ئاگر گۆشتی پێ دەبرژێندرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I put another steak on the barbecue."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارچە گۆشتێکی ترم خستەسەر مەقاڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I put another steak on the barbecue."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچە گۆشتێکی ترم خستەسەر مەقاڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +199,16 @@ class EnglishEntrybarbecue extends StatelessWidget {
 ٢. (ناو) ژەمە خواردنێک کە لە دەرەوە دەیخۆیت و خواردن لەسەر مەقاڵە دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's have a barbecue!"),
-                              const ExampleSentenceKurdish(
-                                  text: "با لە دەرەوە نان بخۆین!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's have a barbecue!"),
+                                    ExampleSentenceKurdish(
+                                        text: "با لە دەرەوە نان بخۆین!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,10 +230,18 @@ class EnglishEntrybarbecue extends StatelessWidget {
 ٣. (ناو) ئامادەکردنی خواردن لەسەر مەقاڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We had barbecued chicken wings."),
-                              const ExampleSentenceKurdish(
-                                  text: "سنگی مریشکی لە مەقاڵەدراومان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We had barbecued chicken wings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنگی مریشکی لە مەقاڵەدراومان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

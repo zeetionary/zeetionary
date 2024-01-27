@@ -171,12 +171,18 @@ class EnglishEntrybenevolent extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی میھرەبان، یارمەتیدەر، و دەستکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The officer was benevolent, but not stupid."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەفسەرەکە میھرەبان بوو، بەڵام گەمژە نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The officer was benevolent, but not stupid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەفسەرەکە میھرەبان بوو، بەڵام گەمژە نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybenevolent extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a benevolent old man and wouldn't hurt a fly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیرێکی میھرەبان بوو کە ئازاری مێشێکیشی نەدەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a benevolent old man and wouldn't hurt a fly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیرێکی میھرەبان بوو کە ئازاری مێشێکیشی نەدەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

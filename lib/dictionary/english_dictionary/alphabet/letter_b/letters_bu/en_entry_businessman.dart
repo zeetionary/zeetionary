@@ -221,12 +221,18 @@ class EnglishEntrybusinessman extends StatelessWidget {
 ١. (ناو) بازرگان/ژنە بازرگان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a successful businessman before becoming a writer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a successful businessman before becoming a writer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازتگانێکی سەرکەوتوو بوو پێش ئەوەی ببێت بە نووسەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "businessman", follow LX strictly
                               Column(
                                 children: [
@@ -245,10 +251,16 @@ class EnglishEntrybusinessman extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's a shrewd businesswoman."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژنە بازرگانێکی بیرتیژە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's a shrewd businesswoman."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژنە بازرگانێکی بیرتیژە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -270,12 +282,18 @@ class EnglishEntrybusinessman extends StatelessWidget {
                                   "٢. (ناو) پیاوێک یان ژنێک کە شارەزایی هەیە لە بازرگانی و کاری دارایی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I should have got a better price for the car, but I'm not much of a businessman."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبوو پارەیەکی باشترم بۆ ئۆتۆمبێلەکە وەربگرتایە، بەڵام سەوداگەرێکی باش نیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I should have got a better price for the car, but I'm not much of a businessman."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبوو پارەیەکی باشترم بۆ ئۆتۆمبێلەکە وەربگرتایە، بەڵام سەوداگەرێکی باش نیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

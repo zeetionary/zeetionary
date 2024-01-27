@@ -166,11 +166,18 @@ class EnglishEntryblackly extends StatelessWidget {
 ١. (ھاوەڵکار) بینینی شتی ناخۆش، وەک کوشتن، بە گاڵتەوگەپەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie takes a blackly humorous look at death."),
-                              const ExampleSentenceKurdish(
-                                  text: "فیلمەکە بە تەنزەوە لە مەرگ دەڕوانێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie takes a blackly humorous look at death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە بە تەنزەوە لە مەرگ دەڕوانێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

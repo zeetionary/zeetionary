@@ -171,12 +171,18 @@ class EnglishEntrybaddy extends StatelessWidget {
 ١. (ناو) کارەکتەرێکی خراپ لە فیلمێک، کتێبێک، شانۆیەک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As usual, the cops get the baddies in the end."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As usual, the cops get the baddies in the end."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ھەمیشە، پۆلیس لەکۆتاییدا کەسە خراپەکان دەگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

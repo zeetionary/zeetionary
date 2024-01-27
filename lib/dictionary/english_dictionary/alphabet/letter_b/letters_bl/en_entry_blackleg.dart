@@ -168,12 +168,18 @@ class EnglishEntryblackleg extends StatelessWidget {
 ١. (ناو) کەسێک کە بەردەوامە لە کارکردن لە کاتێکدا ھاوکارەکانی مانیان گرتووە لە کارکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some workers viewed blacklegs with disdain, considering them traitors to the collective cause."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some workers viewed blacklegs with disdain, considering them traitors to the collective cause."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کرێکار مانبڕەکانیان ڕێزی کەمەوە و بە خیانەتکار لە ئامانجە گشتییەکەیان دەیانبینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

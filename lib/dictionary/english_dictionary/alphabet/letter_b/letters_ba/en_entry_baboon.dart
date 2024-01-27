@@ -171,11 +171,18 @@ class EnglishEntrybaboon extends StatelessWidget {
 ١. (ناو) مەیموونێکی ئەفریقایی یان ئاسیایی کە ڕووخسارێکی درێژی ھەیە وەک ئەوەی سەگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's got all this thick black hair like a baboon."),
-                              const ExampleSentenceKurdish(
-                                  text: "مووی ئەستووری ڕەشی ھەیە وەک بابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's got all this thick black hair like a baboon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووی ئەستووری ڕەشی ھەیە وەک بابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

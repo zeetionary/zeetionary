@@ -213,12 +213,18 @@ class EnglishEntryburnish extends StatelessWidget {
 ١. (کردار) پاککردنەوە تا ئەوەندەی لووس و درەوشاوە بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She used a soft cloth to burnish the antique silverware."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوماشێکی نەرمی بەکارهێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She used a soft cloth to burnish the antique silverware."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوماشێکی نەرمی بەکارهێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burnish", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntryburnish extends StatelessWidget {
                                   "٢. (کردار) کردنی کارێک کە وێنات لە ناو خەڵکیدا جوان دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company is currently trying to burnish its public image."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە لە ئێستادا هەوڵ دەدات وێنای گشتیی جوان بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company is currently trying to burnish its public image."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە لە ئێستادا هەوڵ دەدات وێنای گشتیی جوان بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

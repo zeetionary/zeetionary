@@ -210,12 +210,18 @@ class EnglishEntrybyelection extends StatelessWidget {
 ١. (ناو) هەڵبژاردنێک بۆ ئەندامێکی تازەی پەرلەمان بۆ شوێنگرتنەوەی یەکێک کە مردووە یان دەستی لەکارکێشاوەتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She resigned as an MP, triggering a by-election."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و هەڵبژاردنێک بەدوایدا هات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She resigned as an MP, triggering a by-election."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و هەڵبژاردنێک بەدوایدا هات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "by-election", follow LX strictly
                               Column(
                                 children: [

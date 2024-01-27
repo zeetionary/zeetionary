@@ -173,12 +173,18 @@ class EnglishEntrybalm extends StatelessWidget {
 ١. (ناو) ڕۆنێکی بۆنخۆش کە لە ھەندێک دار و ڕووەکەوە دەستدەکەوێت، لەکۆندا بۆ خۆشکردنەوەی برین بەکاردەھات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ancient Egyptians used balms as part of their religious rituals and cosmetic practices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ancient Egyptians used balms as part of their religious rituals and cosmetic practices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +206,18 @@ class EnglishEntrybalm extends StatelessWidget {
 ٢. (ناو) شلەیەک یان کرێمێک کە بەکاردێت بۆ ساڕێژکردنی برین یان نەرمکردنی پێست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He used a skin balm after shaving."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He used a skin balm after shaving."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +239,18 @@ class EnglishEntrybalm extends StatelessWidget {
 ٣. (ناو) (وێژە) شتێکە کە ھێمنت دەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The gentle music was a balm to his spirit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The gentle music was a balm to his spirit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

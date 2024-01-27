@@ -165,11 +165,18 @@ class EnglishEntrybrothel extends StatelessWidget {
 ١. (ناو) شوێنێک کە خەڵکی تێدا سێکس دەکەن بە پارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He used to visit a brothel in Paris."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He used to visit a brothel in Paris."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران سەردانی قەحبەخانەیەکی لە پاریس دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brothel" as
                               Column(
                                 children: [
@@ -186,11 +193,18 @@ class EnglishEntrybrothel extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She ran a brothel in Las Vegas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسی قەحبەخانەیەک بوو لە لاس ڤێگاس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She ran a brothel in Las Vegas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسی قەحبەخانەیەک بوو لە لاس ڤێگاس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

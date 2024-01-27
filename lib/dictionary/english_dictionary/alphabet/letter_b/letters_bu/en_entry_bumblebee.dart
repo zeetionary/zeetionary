@@ -164,11 +164,18 @@ class EnglishEntrybumblebee extends StatelessWidget {
 ١. (ناو) مێشهەنگێکی گەورە کە بە مووی بچووک داپۆشراوە و دەنگێکی گەورە دەردەکات کە دەفڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Children often draw cute bumblebees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان زۆرجار وێنەی هەنگەزلەی جوان دەکێشن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children often draw cute bumblebees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان زۆرجار وێنەی هەنگەزلەی جوان دەکێشن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bumblebee", follow LX strictly
                               Column(
                                 children: [

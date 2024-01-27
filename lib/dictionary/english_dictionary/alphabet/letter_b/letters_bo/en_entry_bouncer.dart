@@ -169,12 +169,18 @@ class EnglishEntrybouncer extends StatelessWidget {
 ١. (ناو) کەسێک کە لە پێش باڕێک یان یانەیەکی شەوانە دەوەستێت بۆ ئەوەی ڕێگری لەو کەسانە بکات کە ڕێگەپێ‌نەدراون بچنە ژوورەوە، یان ئەو کەسانە دەربکات کە کێشە درووست دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bouncers threw him out when he became aggressive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاسەوانەکان فڕێیان دایە دەرەوە کە دەستی بە توندوتیژی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bouncers threw him out when he became aggressive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاسەوانەکان فڕێیان دایە دەرەوە کە دەستی بە توندوتیژی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

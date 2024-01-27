@@ -167,12 +167,18 @@ class EnglishEntrybrink extends StatelessWidget {
 ١. (ناو) لە دۆخێکدا کە مەترسیدار، تازە، بزوێنەرە؛ ئاستێک کە لەوە زیاتر گۆڕان درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are on the brink of making a major new discovery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان لە کات و ساتی دۆزینەوەیەکی گرنگی تازەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists are on the brink of making a major new discovery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان لە کات و ساتی دۆزینەوەیەکی گرنگی تازەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brink" as
                               Column(
                                 children: [
@@ -189,11 +195,18 @@ class EnglishEntrybrink extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's pulled the company back from the brink (= he has saved it from disaster)."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆمپانیاکەی لە ھەڵدێرێک گەڕاندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's pulled the company back from the brink (= he has saved it from disaster)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکەی لە ھەڵدێرێک گەڕاندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,7 +229,7 @@ class EnglishEntrybrink extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Extreme stress had driven him to the brink of a nervous breakdown."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "دوودڵی زۆر ھێناویەتییە قەراخی داڕمانی دەروونی."),
                                       const CustomSizedBoxForTTS(),
@@ -244,12 +257,18 @@ class EnglishEntrybrink extends StatelessWidget {
                                   "٢. (ناو) قەراخی قەدپاڵێک یان ناوچەیەکی بەرز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was standing right on the brink of the gorge."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێک لە سەر قەراخی تەنگەڵانەکە وەستابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was standing right on the brink of the gorge."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێک لە سەر قەراخی تەنگەڵانەکە وەستابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

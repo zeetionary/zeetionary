@@ -168,12 +168,18 @@ class EnglishEntryboathouse extends StatelessWidget {
 ١. (ناو) بینایەک لە تەنیشت ڕووبارێک یان دەریاچەیەک بۆ دانانی بەلەم تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boathouse provides a secure place to store the fishing boats."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەم‌خانەکە شوێنێکی پارێزراو بۆ ھەڵگرتنی بەلەمەکانی ماسیگرتن دابین دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boathouse provides a secure place to store the fishing boats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەم‌خانەکە شوێنێکی پارێزراو بۆ ھەڵگرتنی بەلەمەکانی ماسیگرتن دابین دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

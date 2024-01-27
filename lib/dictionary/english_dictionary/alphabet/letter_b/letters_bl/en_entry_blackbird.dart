@@ -168,12 +168,18 @@ class EnglishEntryblackbird extends StatelessWidget {
 ١. (ناو) باڵندەیەکی ئەورووپی کە نێرەکانیان ڕەشن و دەنووکیان زەردە، و مێینەکانیان قاوەیین و دەنووکیشیان قاوەییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Flocks of blackbirds filled the sky, creating intricate patterns as they migrated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستە ڕەشیشە ئاسمانیان پڕکرد و شێوەی ئاڵۆزیان درووستکرد کە کۆچیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Flocks of blackbirds filled the sky, creating intricate patterns as they migrated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستە ڕەشیشە ئاسمانیان پڕکرد و شێوەی ئاڵۆزیان درووستکرد کە کۆچیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

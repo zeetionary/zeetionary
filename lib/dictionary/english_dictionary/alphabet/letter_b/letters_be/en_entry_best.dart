@@ -370,11 +370,18 @@ class EnglishEntrybest extends StatelessWidget {
 ١. (ھاوەڵناو) باشترین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That's the best movie I've ever seen!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە باشترین فیلمە تا ئێستا دیبێتم!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That's the best movie I've ever seen!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە باشترین فیلمە تا ئێستا دیبێتم!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -392,12 +399,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wrote his best songs before he was 25."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترین گۆرانییەکانی پێش تەمەنی ٢٥ ساڵی نووسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wrote his best songs before he was 25."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین گۆرانییەکانی پێش تەمەنی ٢٥ ساڵی نووسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -417,11 +430,18 @@ class EnglishEntrybest extends StatelessWidget {
 ٢. (ھاوەڵناو) پێدانی زۆرترین خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Those were the best years of my life."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوانە باشترین ساڵەکانی ژیانم بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Those were the best years of my life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوانە باشترین ساڵەکانی ژیانم بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -441,10 +461,16 @@ class EnglishEntrybest extends StatelessWidget {
 ٣. (ھاوەڵناو) گونجاوترین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's the best man for the job."),
-                              const ExampleSentenceKurdish(
-                                  text: "گونجاوترین کەسە بۆ کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's the best man for the job."),
+                                    ExampleSentenceKurdish(
+                                        text: "گونجاوترین کەسە بۆ کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -462,12 +488,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The best thing to do would be to apologize."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترین شت بیکەیت ئەوەیە داوای لێبووردن بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The best thing to do would be to apologize."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین شت بیکەیت ئەوەیە داوای لێبووردن بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -487,10 +519,16 @@ class EnglishEntrybest extends StatelessWidget {
 ٤. (ھاوەڵکار) زیاترین؛ تا بەرزترین ئاست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Which one do you like best?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کامەیانت زیاترین حەز لێیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Which one do you like best?"),
+                                    ExampleSentenceKurdish(
+                                        text: "کامەیانت زیاترین حەز لێیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -508,12 +546,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Which evening would suit you best for the party?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کام شەو زیاترین گونجاوە بۆت بۆ ئاھەنگەکە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Which evening would suit you best for the party?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کام شەو زیاترین گونجاوە بۆت بۆ ئاھەنگەکە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -533,11 +577,17 @@ class EnglishEntrybest extends StatelessWidget {
 ٥. (ھاوەڵکار) بە باشترین شێوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He works best in the mornings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بەیانییاندا باشترین کار دەکات (چالاکترینە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He works best in the mornings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بەیانییاندا باشترین کار دەکات (چالاکترینە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -555,12 +605,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The beaches are beautiful, but, best of all, there are very few tourists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەنار دەریاکان جوانن، بەڵام لە ھەمووی باشتر، گەشتیاری کەم لەوێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The beaches are beautiful, but, best of all, there are very few tourists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەنار دەریاکان جوانن، بەڵام لە ھەمووی باشتر، گەشتیاری کەم لەوێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -580,10 +636,17 @@ class EnglishEntrybest extends StatelessWidget {
 ٦. (ھاوەڵکار) بە گونجاوترین شێوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Painting is best done in daylight."),
-                              const ExampleSentenceKurdish(
-                                  text: "تابلۆ باشتر لە ڕۆژدا دەکێشرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Painting is best done in daylight."),
+                                    ExampleSentenceKurdish(
+                                        text: "تابلۆ باشتر لە ڕۆژدا دەکێشرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -601,11 +664,17 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do as you think best (= what you think is the most suitable thing to do)."),
-                              const ExampleSentenceKurdish(
-                                  text: "چیت پێ باشە بیکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do as you think best (= what you think is the most suitable thing to do)."),
+                                    ExampleSentenceKurdish(
+                                        text: "چیت پێ باشە بیکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -625,10 +694,16 @@ class EnglishEntrybest extends StatelessWidget {
 ٧. (ناو) باشترین کەس یان شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They only buy the best."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەنھا باشترین شت دەکڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They only buy the best."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەنھا باشترین شت دەکڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -646,12 +721,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They're all good players, but she's the best of all."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموویان یاریزانی باشن، بەڵام ئەو باشترینە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They're all good players, but she's the best of all."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموویان یاریزانی باشن، بەڵام ئەو باشترینە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -671,11 +752,17 @@ class EnglishEntrybest extends StatelessWidget {
 ٨. (ناو) بەرزترین ئاست کە کەسێک دەتوانێت پێی بگات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She always brings out the best in people."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە باشترین خەڵکی دەردەخات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She always brings out the best in people."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەمیشە باشترین خەڵکی دەردەخات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -693,12 +780,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't worry about the exam—just do your best."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیگەرانی تاقیکردنەوەکە مەبە، تەنھا ئەوەی دەتوانی بیکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't worry about the exam—just do your best."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیگەرانی تاقیکردنەوەکە مەبە، تەنھا ئەوەی دەتوانی بیکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -718,12 +811,18 @@ class EnglishEntrybest extends StatelessWidget {
 ٩. (ناو) شتێک کە نزیکترینە لەوەی کە دەتەوێت یان پێویستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fifty pounds is the best I can offer you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنجا پاوەند زۆرترینە کە بتوانم بیدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fifty pounds is the best I can offer you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنجا پاوەند زۆرترینە کە بتوانم بیدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -741,12 +840,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The best we can hope for in the game is a draw."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترین کە لە یارییەکە دەتوانین ھیوای بۆ بخوازین یەکسان بوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The best we can hope for in the game is a draw."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین کە لە یارییەکە دەتوانین ھیوای بۆ بخوازین یەکسان بوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -766,12 +871,18 @@ class EnglishEntrybest extends StatelessWidget {
 ١٠. (کردار) تێکشکاندن یان سەرکەوتووتر بوون لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was determined not to be bested by his old rival."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوور بوو لەسەر ئەوەی شکست نەخوات بە دەستی ڕکابەرە کۆنەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was determined not to be bested by his old rival."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوور بوو لەسەر ئەوەی شکست نەخوات بە دەستی ڕکابەرە کۆنەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -789,12 +900,18 @@ class EnglishEntrybest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A great colonial power was nearly bested by a few farmers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەسەڵاتێکی داگیرکەری گەورە بە نزیکەیی شکستی خوارد بە دەستی ژمارەیەکی کەم جوتیار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A great colonial power was nearly bested by a few farmers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەسەڵاتێکی داگیرکەری گەورە بە نزیکەیی شکستی خوارد بە دەستی ژمارەیەکی کەم جوتیار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

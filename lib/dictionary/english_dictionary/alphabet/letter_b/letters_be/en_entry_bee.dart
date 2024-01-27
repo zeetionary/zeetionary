@@ -171,12 +171,18 @@ class EnglishEntrybee extends StatelessWidget {
 ١. (ناو) ھەنگ؛ مێروویەکی فڕیوی ڕەش و زەرد کە دەچزێت. ھەنگ بە گرووپی گەورە دەژین و ھەنگوین درووست دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bees were buzzing outside the window."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەنگ لە دەرەوەی پەنجەرەکە گیزەگیزی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bees were buzzing outside the window."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەنگ لە دەرەوەی پەنجەرەکە گیزەگیزی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybee extends StatelessWidget {
 ٢. (ناو) چاوپێکەوتنی گرووپێک لە خەڵک بۆ بەژداری لە چالاکییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The school held a spelling bee to see who could spell the most words correctly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوتابخانەکە پێشبڕکێیەکی ڕێنووسکردنی ڕێکخست بۆ زانینی ئەوەی کێ دەتوانێت زۆرترین وشە بەدرووستی ڕێنووس بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The school held a spelling bee to see who could spell the most words correctly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتابخانەکە پێشبڕکێیەکی ڕێنووسکردنی ڕێکخست بۆ زانینی ئەوەی کێ دەتوانێت زۆرترین وشە بەدرووستی ڕێنووس بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

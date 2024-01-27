@@ -164,10 +164,17 @@ class EnglishEntrybulldog extends StatelessWidget {
 ١. (ناو) سەگێکی بچووک کە لاقی کورتی هەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەهێز بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Courage is inherent in bulldogs."),
-                              const ExampleSentenceKurdish(
-                                  text: "بوێری بەشێکی سەرەکیی گاسەگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Courage is inherent in bulldogs."),
+                                    ExampleSentenceKurdish(
+                                        text: "بوێری بەشێکی سەرەکیی گاسەگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bulldog", follow LX strictly
                               Column(
                                 children: [

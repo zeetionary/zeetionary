@@ -163,12 +163,18 @@ class EnglishEntrybassoon extends StatelessWidget {
 ١. (ناو) ئامێرێکی گەورەی میوزیکی کە لێدەدرێت بە فووکردنە لوولەیەکی چەماوەی درێژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The young musician struggled to master the complex fingering of the bassoon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوزیکژەنە گەنجەکە تەقەڵای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The young musician struggled to master the complex fingering of the bassoon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیکژەنە گەنجەکە تەقەڵای‌بوو لە فێربوونی پەنجەژەنینی ئاڵۆزی بەسوونەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

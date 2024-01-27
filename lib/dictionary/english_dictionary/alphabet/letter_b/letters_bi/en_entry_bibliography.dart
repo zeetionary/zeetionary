@@ -173,12 +173,18 @@ class EnglishEntrybibliography extends StatelessWidget {
 ١. (ناو) کۆمەڵە کتێبێک کە بەکارھێندراون بۆ نووسینی کتێبێک یان وتارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Other sources of information are found in the bibliography at the end of this article."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرچاوەکانی تری زانیاری لە چاوگنامە لە کۆتایی ئەم وتارەدا دانراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Other sources of information are found in the bibliography at the end of this article."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرچاوەکانی تری زانیاری لە چاوگنامە لە کۆتایی ئەم وتارەدا دانراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybibliography extends StatelessWidget {
 ٢. (ناو) کۆمەڵە کتێبێک کە لە لایەن کەسێکەوە نووسراون، لەلایەن ناوەندێکەوە بڵاوکراونەتەوە، یان لەسەر یەک بابەتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's only 46, and his bibliography already includes almost 100 novels."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەمەنی ٤٦ ساڵە و بیبلیۆگڕافییەکەی لەمێژە ١٠٠ ڕۆمان لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's only 46, and his bibliography already includes almost 100 novels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەمەنی ٤٦ ساڵە و بیبلیۆگڕافییەکەی لەمێژە ١٠٠ ڕۆمان لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +237,18 @@ class EnglishEntrybibliography extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At the end of the interview is a good bibliography of the writer's work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتایی چاوپێکەوتنەکە چاوگنامەیەکی باشی کارەکانی نووسەرەکە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At the end of the interview is a good bibliography of the writer's work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتایی چاوپێکەوتنەکە چاوگنامەیەکی باشی کارەکانی نووسەرەکە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,12 +270,18 @@ class EnglishEntrybibliography extends StatelessWidget {
 ٣. (ناو) لێکۆڵینەوە کتێب و مێژژوەکەی و دەرکەوتنی کۆپییان و پۆلێنکردنیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is a professional librarian skilled in bibliography and at home in the world of books."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەوانێکی کارامەیە کە شارەزایی ھەیە لە کتێبناسی و لە جیھانی کتێبدا ڕۆچووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is a professional librarian skilled in bibliography and at home in the world of books."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەوانێکی کارامەیە کە شارەزایی ھەیە لە کتێبناسی و لە جیھانی کتێبدا ڕۆچووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

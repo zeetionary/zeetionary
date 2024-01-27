@@ -168,12 +168,18 @@ class EnglishEntrybloodvessel extends StatelessWidget {
 ١. (ناو) ئەو مولوولانەی خوێن پێیاندا تێدەپەڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The knife had missed the major blood vessels."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەقۆکە لە دەمارە سەرەکییەکانی خوێنی نەدابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The knife had missed the major blood vessels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەقۆکە لە دەمارە سەرەکییەکانی خوێنی نەدابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

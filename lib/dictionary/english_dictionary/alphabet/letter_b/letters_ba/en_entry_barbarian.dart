@@ -172,12 +172,18 @@ class EnglishEntrybarbarian extends StatelessWidget {
 ١. (ناو) لە سەردەمی کۆندا بە کەسێک دەگوترا کە سەر بە شارستانییەکی گەورە نەبوو، بۆ نموونە ڕۆم و یۆنان، و بە دڕندە و ناشارستانییەت دادەنران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The walled city was attacked by barbarian hordes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The walled city was attacked by barbarian hordes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntrybarbarian extends StatelessWidget {
 ٢. (ناو) کەسێک کە خوێندنی نەکردووە و حەزی لە کەلتوور و ھونەر نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How can you call those barbarians your friends?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How can you call those barbarians your friends?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

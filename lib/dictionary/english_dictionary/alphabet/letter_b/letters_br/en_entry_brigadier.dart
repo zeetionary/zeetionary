@@ -164,10 +164,16 @@ class EnglishEntrybrigadier extends StatelessWidget {
 ١. (ناو) ئەفسەرێکی پلە باڵا لە سوپادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Thank you, Brigadier."),
-                              const ExampleSentenceKurdish(
-                                  text: "سوپاس، سەرلیوا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Thank you, Brigadier."),
+                                    ExampleSentenceKurdish(
+                                        text: "سوپاس، سەرلیوا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "brigadier" as
                               Column(
                                 children: [
@@ -184,12 +190,18 @@ class EnglishEntrybrigadier extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The brigadier inspected the military base."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرتیپەکە بارەگا سەربازییەکەی بەسەرکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The brigadier inspected the military base."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرتیپەکە بارەگا سەربازییەکەی بەسەرکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

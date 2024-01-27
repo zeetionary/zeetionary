@@ -167,12 +167,18 @@ class EnglishEntrybloodbath extends StatelessWidget {
 ١. (ناو) دۆخێک کە تێیدا ژمارەیەکی زۆر خەڵک بە دڕندەیی دەکوژرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have threatened a bloodbath if he does not resign."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڕەشەی گۆماوی خوێنیان کردووە ئەگەر دەستلەکارنەکێشێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have threatened a bloodbath if he does not resign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڕەشەی گۆماوی خوێنیان کردووە ئەگەر دەستلەکارنەکێشێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybloodbath extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is there nothing that the outside world can do to prevent a bloodbath?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ شتێک نییە جیھانی دەرەوە بیکات بۆ ڕێگری لە کۆمەڵکوژی؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is there nothing that the outside world can do to prevent a bloodbath?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ شتێک نییە جیھانی دەرەوە بیکات بۆ ڕێگری لە کۆمەڵکوژی؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

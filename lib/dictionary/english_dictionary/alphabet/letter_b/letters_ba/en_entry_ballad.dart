@@ -171,12 +171,18 @@ class EnglishEntryballad extends StatelessWidget {
 ١. (ناو) گۆرانییەک یان ھۆنراوەیەک کە چیرۆکێک دەڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Adele's 'Someone Like You' is a ballad about lost love."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Adele's 'Someone Like You' is a ballad about lost love."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆرانی 'Someone Like You'ی ئەدێڵ لاوژەیەکە سەبارەت بە خۆشەویستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

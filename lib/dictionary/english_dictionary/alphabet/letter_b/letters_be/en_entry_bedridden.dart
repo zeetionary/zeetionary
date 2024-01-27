@@ -170,10 +170,17 @@ class EnglishEntrybedridden extends StatelessWidget {
 ١. (ھاوەڵناو) کەوتنەجێ بە بەردەوامی بەھۆی ئەوەی نەخۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His aunt was 93 and bedridden."),
-                              const ExampleSentenceKurdish(
-                                  text: "پووری ٩٣ ساڵ بوو و جێکەوتە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His aunt was 93 and bedridden."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پووری ٩٣ ساڵ بوو و جێکەوتە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

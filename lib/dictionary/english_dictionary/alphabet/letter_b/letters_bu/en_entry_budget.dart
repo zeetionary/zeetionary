@@ -326,12 +326,18 @@ class EnglishEntrybudget extends StatelessWidget {
 ١. (ناو) بودجە؛ بڕی پارەی بەردەستی کەسێک یان دامەزراوەیەک لەگەڵ پلانێک کە چۆن خەرج دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many families struggle to balance the household budget."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر خێزان تەقەڵایانە هاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many families struggle to balance the household budget."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر خێزان تەقەڵایانە هاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "budget", follow LX strictly.
                               Column(
                                 children: [
@@ -348,12 +354,18 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's one of those big-budget Hollywood movies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێکە لە فیلمە بودجە زۆرەکانی هۆڵیهوود."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's one of those big-budget Hollywood movies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێکە لە فیلمە بودجە زۆرەکانی هۆڵیهوود."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -376,7 +388,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The museum has an annual budget of £3 million with which to acquire new works of art."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی هەیە بۆ کڕینی کاری نوێی هونەری."),
                                       const CustomSizedBoxForTTS(),
@@ -400,7 +412,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The government is planning to double the education budget."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "حکومەت پلانی هەیە بودجەی پەروەردە دوو هێندە بکات."),
                                       const CustomSizedBoxForTTS(),
@@ -428,12 +440,18 @@ class EnglishEntrybudget extends StatelessWidget {
                                   "٢. (ناو) بودجەی ساڵانە کە لە باجەوە کۆدەکرێتەوە و شێوازی خەرجکردنی "),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Tax cuts are expected to be a major part of this year's Budget."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمکردنەوەی باج چاوەڕوان دەکرێت بەشێکی گرنگی بودجەی ئەمساڵ بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tax cuts are expected to be a major part of this year's Budget."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمکردنەوەی باج چاوەڕوان دەکرێت بەشێکی گرنگی بودجەی ئەمساڵ بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -450,12 +468,18 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Military spending accounts for around 17% of the federal budget."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەرجی سەربازی ١٧٪ بودجەی حکومەتی ناوەندی دەبات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Military spending accounts for around 17% of the federal budget."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەرجی سەربازی ١٧٪ بودجەی حکومەتی ناوەندی دەبات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -478,7 +502,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The finance ministry is trying to reduce the budget deficit."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "وەزیری دارایی هەوڵ دەدات کورتهێنانی بودجە کەم‌بکاتەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -506,12 +530,18 @@ class EnglishEntrybudget extends StatelessWidget {
                                   "٣. (ناو) ڕێژەیەک لە شتێک کە داتناوە لە پلانەکانتدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Find a holiday to suit your time budget."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشوویەک بدۆزەوە کە لەگەڵ کاتی بەردەستت دەگونجێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Find a holiday to suit your time budget."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشوویەک بدۆزەوە کە لەگەڵ کاتی بەردەستت دەگونجێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -531,12 +561,18 @@ class EnglishEntrybudget extends StatelessWidget {
                                   "٤. (کردار) وریا سەبارەت بەو بڕە پارەیەی خەرجی دەکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If we budget carefully we'll be able to afford the trip."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر بە ئاگایەوە خەرجی بکەین، دەتوانن پارەی گەشتەکە بدەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If we budget carefully we'll be able to afford the trip."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر بە ئاگایەوە خەرجی بکەین، دەتوانن پارەی گەشتەکە بدەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -553,12 +589,18 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ten million euros has been budgeted for the project."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "١٠ ملیۆن یۆرۆ بۆ پڕۆژەکە تەرخانکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ten million euros has been budgeted for the project."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "١٠ ملیۆن یۆرۆ بۆ پڕۆژەکە تەرخانکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -576,12 +618,18 @@ class EnglishEntrybudget extends StatelessWidget {
                           const DefinitionKurdish(text: "٥. (ھاوەڵناو) هەرزان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can save money on budget flights."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی هەرزان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can save money on budget flights."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی هەرزان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

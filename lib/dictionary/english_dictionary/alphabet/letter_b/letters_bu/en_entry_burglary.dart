@@ -213,12 +213,18 @@ class EnglishEntryburglary extends StatelessWidget {
 ١. (ناو) تاوانی بە نایاسایی چوونە ناو بینایەک و دزیکردن لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The youth was charged with three counts of burglary."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The youth was charged with three counts of burglary."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burglary", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntryburglary extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several men were questioned by police yesterday about the burglary."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک پیاو لەلایەن پۆلیسەوە لێکۆڵینەوەیان لێکرا سەبارەت بە دزییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several men were questioned by police yesterday about the burglary."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک پیاو لەلایەن پۆلیسەوە لێکۆڵینەوەیان لێکرا سەبارەت بە دزییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

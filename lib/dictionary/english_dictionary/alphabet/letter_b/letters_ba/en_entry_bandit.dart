@@ -171,12 +171,18 @@ class EnglishEntrybandit extends StatelessWidget {
 ١. (ناو) ڕێگر؛ ئەندامێکی گرووپێک لە دز کە ھێرش دەکەنە سەر گەشتیاران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Buses driving through the mountains have been attacked by bandits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو پاسانەی کە بە شاخەکاندا گەشت دەکەن لەلایەن ڕێگرەکانەوە ھێرشیان کراوەتەسەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Buses driving through the mountains have been attacked by bandits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو پاسانەی کە بە شاخەکاندا گەشت دەکەن لەلایەن ڕێگرەکانەوە ھێرشیان کراوەتەسەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntryblindspot extends StatelessWidget {
 ١. (ناو) ناوچەیەک کە کەسێک ناوانێت بیبینێت، بەتایبەتی ناوچەیەکی ڕێگایەک لە کاتی شۆفێریدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rear-view mirror helps to reduce blind spots on both sides of the car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوێنەی پێشەوە یارمەتیدەرە بۆ کەمکردنەوەی ناوچەی کوێر لە ھەردوو لای ئۆتۆمبێلێکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rear-view mirror helps to reduce blind spots on both sides of the car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوێنەی پێشەوە یارمەتیدەرە بۆ کەمکردنەوەی ناوچەی کوێر لە ھەردوو لای ئۆتۆمبێلێکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +201,17 @@ class EnglishEntryblindspot extends StatelessWidget {
                                   "٢. (ناو) کاتێک کەسێک شتێک پشتگوێ دەخات، یان توانای نییە، یان ئامادە نییە فێربێت لەسەری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have a blind spot where maths is concerned."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو چاوی ھەیە بیرکاری نابینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have a blind spot where maths is concerned."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو چاوی ھەیە بیرکاری نابینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntryblindspot extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I am pretty good at English, but I have a blind spot where spelling is concerned."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئینگلیزی باشم، بەڵام حساب بۆ ڕێنووس ناکەم (یان ناتوانم فێری ببم)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I am pretty good at English, but I have a blind spot where spelling is concerned."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئینگلیزی باشم، بەڵام حساب بۆ ڕێنووس ناکەم (یان ناتوانم فێری ببم)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

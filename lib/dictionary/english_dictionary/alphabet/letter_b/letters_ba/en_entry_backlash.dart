@@ -171,12 +171,18 @@ class EnglishEntrybacklash extends StatelessWidget {
 ١. (ناو) کاردانەوەی توندی کۆمەڵێک خەڵک بەرامبەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government is facing an angry backlash from voters over the new tax."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government is facing an angry backlash from voters over the new tax."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ڕووبەڕووی کاردانەوەی توندی دەنگدەران بووە بەھۆی باجە نوێیەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

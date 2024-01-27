@@ -167,12 +167,18 @@ class EnglishEntrybodewellill extends StatelessWidget {
 ١. (ئیدیەم) بوون بە ئاماژەیەکی باش یان خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These figures do not bode well for the company's future."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ئامارانە ئاماژەی باش نین بۆ داھاتووی کۆمپانیاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These figures do not bode well for the company's future."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئامارانە ئاماژەی باش نین بۆ داھاتووی کۆمپانیاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybodewellill extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The look on her face boded ill for anyone who crossed her path that day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووی سەر ڕووخساری خراپ بوو بۆ ھەر کەسێک کە بە ھەمان ڕێگای ئەودا چوو ئەو ڕۆژە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The look on her face boded ill for anyone who crossed her path that day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووی سەر ڕووخساری خراپ بوو بۆ ھەر کەسێک کە بە ھەمان ڕێگای ئەودا چوو ئەو ڕۆژە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

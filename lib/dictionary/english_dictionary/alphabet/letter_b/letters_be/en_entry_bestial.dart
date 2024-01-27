@@ -170,12 +170,18 @@ class EnglishEntrybestial extends StatelessWidget {
 ١. (ھاوەڵناو) دڕندە و ترسناک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldiers were accused of bestial acts against unarmed civilians."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە ھاوڵاتیانی مەدەنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldiers were accused of bestial acts against unarmed civilians."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازان تۆمەتبارکران بە کردەی دڕندانە دژ بە ھاوڵاتیانی مەدەنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

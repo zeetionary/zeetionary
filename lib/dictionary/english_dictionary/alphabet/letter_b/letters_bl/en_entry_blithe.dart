@@ -168,12 +168,18 @@ class EnglishEntryblithe extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ئەوەی گرنگی نادەیت یان نیگەران نیت سەبارەت بەوەی دەیکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He drove with blithe disregard for the rules of the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێری دەکرد بە کەمتەرخەمی مێشک‌سافییەوە بۆ یاساکانی ڕێگاوبان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He drove with blithe disregard for the rules of the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێری دەکرد بە کەمتەرخەمی مێشک‌سافییەوە بۆ یاساکانی ڕێگاوبان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

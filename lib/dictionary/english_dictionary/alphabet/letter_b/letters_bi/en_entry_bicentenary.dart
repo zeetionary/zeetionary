@@ -171,12 +171,18 @@ class EnglishEntrybicentenary extends StatelessWidget {
 ١. (ناو) ساڵێک یان ڕۆژێک کە ئاھەنگی ڕووداوێک دەگێڕیت کە ٢٠٠ ساڵ بەسەریدا تێپەڕیوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A statue was erected to mark the bicentenary of the composer's birth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A statue was erected to mark the bicentenary of the composer's birth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیکەرێک دانرا بۆ وەبیرھێنانەوەی دووسەدھەمین ساڵیادی لەدایکبوونی ئاوازدانەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

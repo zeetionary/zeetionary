@@ -167,10 +167,17 @@ class EnglishEntrybully extends StatelessWidget {
 ١. (ناو) کەسێک کە هێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Leave him alone, you big bully!"),
-                              const ExampleSentenceKurdish(
-                                  text: "وازی لێبێنە، کەڵەگای زل."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Leave him alone, you big bully!"),
+                                    ExampleSentenceKurdish(
+                                        text: "وازی لێبێنە، کەڵەگای زل."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bully", follow LX strictly
                               Column(
                                 children: [
@@ -187,12 +194,18 @@ class EnglishEntrybully extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Teachers usually know who the bullies are in a class."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستایان زۆرجار دەزانن ملهوڕانی پۆل کێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Teachers usually know who the bullies are in a class."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستایان زۆرجار دەزانن ملهوڕانی پۆل کێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,11 +225,18 @@ class EnglishEntrybully extends StatelessWidget {
                                   "٢. (کردار) بەکارهێنانی هێز و دەسەڵات بۆ ترساندن و ئازاردانی کەسانی تر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My son is being bullied at school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کوڕەکەم لە قوتابخانە وەی پێ دەگێڕدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My son is being bullied at school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کوڕەکەم لە قوتابخانە وەی پێ دەگێڕدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +253,18 @@ class EnglishEntrybully extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I won't be bullied into signing anything."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانرێت ناچار بکرێم بە واژۆکردنی هیچ شتێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I won't be bullied into signing anything."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانرێت ناچار بکرێم بە واژۆکردنی هیچ شتێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

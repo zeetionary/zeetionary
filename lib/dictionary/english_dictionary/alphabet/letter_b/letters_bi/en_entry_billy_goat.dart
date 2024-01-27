@@ -168,12 +168,18 @@ class EnglishEntrybillygoat extends StatelessWidget {
 ١. (ناو) بزنی نێر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farmer led the billy goat away from the ewes to prevent further breeding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژەڵدارەکە بزنە نێرەکەی دوورخستەوە لە مەڕەکان بۆ ڕێگری لە زاوزێی زیاتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farmer led the billy goat away from the ewes to prevent further breeding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵدارەکە بزنە نێرەکەی دوورخستەوە لە مەڕەکان بۆ ڕێگری لە زاوزێی زیاتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -213,12 +213,18 @@ class EnglishEntrybuzzard extends StatelessWidget {
 ١. (ناو) باڵندەیەکی ڕاوکەری ئەورووپی لە خێزانی باز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "High above the forest, a buzzard circles in search of its prey."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بەرزی دارستانەکەوە باشوویەک دەسووڕێتەوە بە دوای نێچیرەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "High above the forest, a buzzard circles in search of its prey."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بەرزی دارستانەکەوە باشوویەک دەسووڕێتەوە بە دوای نێچیرەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "buzzard", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrybuzzard extends StatelessWidget {
                                   "٢. (ناو) باڵندەیەکی گەورەی ئەمریکی کە مردوو دەخوات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The territory offers nothing but the occasional buzzard gorging on a roadkill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوچەکە هیچی تێدا نییە جگە لە داڵەکەرخۆر کە ئاژەڵی کوژراوی سەر شەقام دەخۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The territory offers nothing but the occasional buzzard gorging on a roadkill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوچەکە هیچی تێدا نییە جگە لە داڵەکەرخۆر کە ئاژەڵی کوژراوی سەر شەقام دەخۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

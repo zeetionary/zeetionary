@@ -169,11 +169,18 @@ class EnglishEntryboundless extends StatelessWidget {
 ١. (ھاوەڵناو) بێ سنوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has boundless energy and enthusiasm."),
-                              const ExampleSentenceKurdish(
-                                  text: "جۆش‌وخرۆشی و وزەی بێ سنووری ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has boundless energy and enthusiasm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆش‌وخرۆشی و وزەی بێ سنووری ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

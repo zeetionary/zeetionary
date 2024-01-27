@@ -169,12 +169,18 @@ class EnglishEntrybanquet extends StatelessWidget {
 ١. (ناو) ژەمێکی فەرمی و گەورە بۆ ژمارەیەکی زۆر خەڵکی، زۆرجار لە بۆنەی تایبەتدا کە وتاری تێدا پێشکەش دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Over 1 600 people attended a banquet in her honour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Over 1 600 people attended a banquet in her honour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە ١٦٠٠ کەس بەژداری میواندارییەکە بوون کە بۆ ڕێزلێنان لێی سازکرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

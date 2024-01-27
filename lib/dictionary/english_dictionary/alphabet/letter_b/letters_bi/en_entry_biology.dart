@@ -171,12 +171,18 @@ class EnglishEntrybiology extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوەی زانستی لە ژیان و پێکھاتەی ئاژەڵ و ڕووەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book deals with the reproductive biology of the lion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە باس لە زیندەناسی زاوزێ دەکات لە شێردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book deals with the reproductive biology of the lion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە باس لە زیندەناسی زاوزێ دەکات لە شێردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybiology extends StatelessWidget {
 ٢. (ناو) شێوازی ڕەفتاری جەستە و خانەکانی گیانلەبەرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How far is human nature determined by biology?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تا چەند سرووشتی مرۆڤ بە زیندەناسی دیاری دەکرێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How far is human nature determined by biology?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تا چەند سرووشتی مرۆڤ بە زیندەناسی دیاری دەکرێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

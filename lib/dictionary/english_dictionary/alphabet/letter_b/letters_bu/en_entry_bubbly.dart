@@ -166,10 +166,16 @@ class EnglishEntrybubbly extends StatelessWidget {
 ١. (ھاوەڵناو) پڕ لە بڵق یان کەف"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I want a nice hot bubbly bath."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەوزێکی گەرمی پڕ کەفم دەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I want a nice hot bubbly bath."),
+                                    ExampleSentenceKurdish(
+                                        text: "حەوزێکی گەرمی پڕ کەفم دەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "bubbly" as
                               Column(
                                 children: [
@@ -188,10 +194,17 @@ class EnglishEntrybubbly extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) کەسێکی دڵخۆش و بەجۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She has a very bubbly character."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەسایەتییەکی زۆر ڕووخۆشی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has a very bubbly character."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەسایەتییەکی زۆر ڕووخۆشی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +223,18 @@ class EnglishEntrybubbly extends StatelessWidget {
                               text: "٣. (ناو) شامپەین (بیرەیەکی سپی فەرەنسی)"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Let's crack open a bottle of bubbly to celebrate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "با بتڵێک شامپەین ھەڵپچڕین بۆ ئاھەنگ گێڕان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's crack open a bottle of bubbly to celebrate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با بتڵێک شامپەین ھەڵپچڕین بۆ ئاھەنگ گێڕان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

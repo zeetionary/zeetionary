@@ -174,12 +174,18 @@ class EnglishEntryban extends StatelessWidget {
 ١. (کردار) قەدەغەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The law bans smoking in all public places."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The law bans smoking in all public places."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryban extends StatelessWidget {
 ٢. (کردار) ڕێگریکردن لە کەسێک لە کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's been banned from leaving the country while the allegations are investigated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been banned from leaving the country while the allegations are investigated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +238,18 @@ class EnglishEntryban extends StatelessWidget {
 ٣. (ناو) بڕیارێکی فەرمی کە شتێک قەدەغەدەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A majority of people are against the ban."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A majority of people are against the ban."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,12 +270,18 @@ class EnglishEntryban extends StatelessWidget {
 ٤. (ناو) بڕیارێکی فەرمی کە کردنی شتێک لە کەسێک قەدەغەدەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His behaviour led to a life ban from international football."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His behaviour led to a life ban from international football."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

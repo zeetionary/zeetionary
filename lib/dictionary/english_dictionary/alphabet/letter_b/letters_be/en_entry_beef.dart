@@ -172,11 +172,18 @@ class EnglishEntrybeef extends StatelessWidget {
 ١. (ناو) گۆشتی مانگا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Dad stood up to carve the beef."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکە ھەستایە سەرپێ بۆ کەوڵکردنی گۆشتی مانگاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Dad stood up to carve the beef."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکە ھەستایە سەرپێ بۆ کەوڵکردنی گۆشتی مانگاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +201,18 @@ class EnglishEntrybeef extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I bought a kilo of very lean minced beef."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کیلۆیەک گۆشتی گای لە گۆشتاڕ دراوم کڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I bought a kilo of very lean minced beef."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کیلۆیەک گۆشتی گای لە گۆشتاڕ دراوم کڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +232,16 @@ class EnglishEntrybeef extends StatelessWidget {
 ٢. (ناو) ناڕەزایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What's his latest beef?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆتا پرتەوبۆڵەی چییە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "What's his latest beef?"),
+                                    ExampleSentenceKurdish(
+                                        text: "کۆتا پرتەوبۆڵەی چییە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,12 +261,18 @@ class EnglishEntrybeef extends StatelessWidget {
 ٣. (کردار) ناڕەزایی دەربڕین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't just beef about it—do something!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا پرتەوبۆڵە مەکە لەسەری، شتێک بکە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't just beef about it—do something!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا پرتەوبۆڵە مەکە لەسەری، شتێک بکە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

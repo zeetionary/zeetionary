@@ -166,12 +166,18 @@ class EnglishEntrybathrobe extends StatelessWidget {
 ١. (ناو) جلێک کە لەپێش و پاش خۆشتن دەپۆشرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I stepped out of the shower and wrapped myself in a fluffy white bathrobe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گەرماوەکە ھاتمە دەرەوە و خۆم ئاڵاند لە خاولییەکی نەرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +197,18 @@ class EnglishEntrybathrobe extends StatelessWidget {
 ٢. (ناو) جلی ماڵەوە کە بەسەر جلی تردا لەبەردەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was wearing a bathrobe and slippers when I answered the door."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلی ماڵەوەی لەبەربوو نەعلی لەپێبوو کە دەرگاکەم کردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was wearing a bathrobe and slippers when I answered the door."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلی ماڵەوەی لەبەربوو نەعلی لەپێبوو کە دەرگاکەم کردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

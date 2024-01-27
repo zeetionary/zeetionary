@@ -170,12 +170,18 @@ class EnglishEntrybigamy extends StatelessWidget {
 ١. (ناو) تاوانی ھاوسەرگیری لەگەڵ کەسێک لە کاتێکدا ھاوسەرێکی دیکەت ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In court, he admitted that he had committed bigamy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دادگا دانی پێدا نا کە تاوانی ھەبوونی ھاوسەری دووەمی ئەنجامداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In court, he admitted that he had committed bigamy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دادگا دانی پێدا نا کە تاوانی ھەبوونی ھاوسەری دووەمی ئەنجامداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

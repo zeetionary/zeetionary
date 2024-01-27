@@ -170,12 +170,18 @@ class EnglishEntryblush extends StatelessWidget {
 ١. (کردار) سووربوونەوەی ڕووخسار بەھۆی ئەوەی خەجاڵەتی یان شەرم دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I blush to think what a fool I made of myself."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوورھەڵدەگەڕێم کە بیر لەوە دەکەمەوە چەندە خۆم گەمژە پیشان دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I blush to think what a fool I made of myself."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوورھەڵدەگەڕێم کە بیر لەوە دەکەمەوە چەندە خۆم گەمژە پیشان دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryblush extends StatelessWidget {
                                   "٢. (کردار) خەجاڵەت بوون یان شەرمەزار بوون سەبارەت بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I blush to admit it, but I quite like her music."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەرم دەکەم دانی پێدا بنێم، بەڵام تا ڕادیەک حەزم بە گۆرانییەکانیەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I blush to admit it, but I quite like her music."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەرم دەکەم دانی پێدا بنێم، بەڵام تا ڕادیەک حەزم بە گۆرانییەکانیەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,11 +232,18 @@ class EnglishEntryblush extends StatelessWidget {
                                   "٣. (ناو) ڕەنگی سوور کە بەسەر دەموچاودا دێت کە ھەست بە خەجاڵەتی یان شەرم دەکەیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He turned away to hide his blushes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووی وەرگێڕا بۆ شاردنەوەی سوورھەڵگەڕانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He turned away to hide his blushes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووی وەرگێڕا بۆ شاردنەوەی سوورھەڵگەڕانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,7 +264,7 @@ class EnglishEntryblush extends StatelessWidget {
                           // const ExampleSentenceEnglish(
                           // text:
                           // "speak3s111111111111111111111111111111111"),
-                          // const ExampleSentenceKurdish(
+                          // ExampleSentenceKurdish(
                           // text: "رستە_رستە_رستە_رستە."),
                           // const CustomSizedBoxForTTS(),
                           // CustomIconButtonBritish(

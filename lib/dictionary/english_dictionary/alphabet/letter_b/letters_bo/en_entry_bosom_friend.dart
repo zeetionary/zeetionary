@@ -174,12 +174,18 @@ class EnglishEntrybosomfriend extends StatelessWidget {
 ١. (ناو) ھاوڕێیەکی زۆر نزیک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two girls had become bosom friends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو کچەکە بووبوون بە ھاوڕێی گیانی بە گیانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two girls had become bosom friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو کچەکە بووبوون بە ھاوڕێی گیانی بە گیانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,11 +204,17 @@ class EnglishEntrybosomfriend extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We soon became bosom pals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرزوو بووین بە دۆستی گەوموگوڕی یەکدی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We soon became bosom pals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرزوو بووین بە دۆستی گەوموگوڕی یەکدی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntrybattered extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی کۆن کە زۆر بەکارھاتووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The battered car was still running, but it was barely roadworthy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلە شڕەکە ھێشتا بەڕێدا دەچوو، بەڵام بەئەستەم ھی ئەوە بوو بچێتە سەر شەقام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The battered car was still running, but it was barely roadworthy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلە شڕەکە ھێشتا بەڕێدا دەچوو، بەڵام بەئەستەم ھی ئەوە بوو بچێتە سەر شەقام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntrybattered extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە ئازاری ھەیە بەھۆی لێدانی بەردەوام """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She set up a sanctuary for battered wives."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەناگەیەکی درووستکرد بۆ ئەو ژنانەی لێیاندراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She set up a sanctuary for battered wives."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەناگەیەکی درووستکرد بۆ ئەو ژنانەی لێیاندراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntrybattered extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە لە دۆخێکی خراپدایە بەھۆی ھێرشی چەکەوە یان کەشوھەواوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rockets and shells continued to hit the battered port."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆکێت و گوللەتۆپەوە بەردەوامبوون لە لێدان لە بەندەرە لەبەریەک‌ھەڵوەشاوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rockets and shells continued to hit the battered port."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆکێت و گوللەتۆپەوە بەردەوامبوون لە لێدان لە بەندەرە لەبەریەک‌ھەڵوەشاوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

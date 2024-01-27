@@ -168,11 +168,17 @@ class EnglishEntrybizarre extends StatelessWidget {
 ١. (ھاوەڵناو) نامۆ و نائاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made some totally bizarre comments."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەندێک لێدوانی تەواو سەیری دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made some totally bizarre comments."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەندێک لێدوانی تەواو سەیری دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

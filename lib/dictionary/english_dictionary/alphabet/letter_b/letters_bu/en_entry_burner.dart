@@ -213,12 +213,18 @@ class EnglishEntryburner extends StatelessWidget {
 ١. (ناو) ئەو بەشەی گازی گەرمکەرەوە کە ئاگر درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The chef adjusted the burner to simmer the sauce slowly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بە هێواشی مێروولەکوڵ بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The chef adjusted the burner to simmer the sauce slowly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بە هێواشی مێروولەکوڵ بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "burner", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntryburner extends StatelessWidget {
                                   "٢. (ناو) موبایلێکی هەرزان کە بۆ ماوەیەکی کەم بەکاردێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He used three different burner numbers to conceal his identity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ موبایلی جیاوازی کاتیی بەکارهێنا بۆ شاردنەوەی ناسنامەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He used three different burner numbers to conceal his identity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ موبایلی جیاوازی کاتیی بەکارهێنا بۆ شاردنەوەی ناسنامەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

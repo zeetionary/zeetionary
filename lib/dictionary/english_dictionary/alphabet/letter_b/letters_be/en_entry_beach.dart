@@ -173,12 +173,18 @@ class EnglishEntrybeach extends StatelessWidget {
 ١. (ناو) ناوچەیەکی خۆڵاوی یان وردە زیخ لە نزیک دەریایەک یان دەریاچەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He decided to go to the beach for a swim."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاری دا بۆ مەکەیەک بچێتە کەناراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He decided to go to the beach for a swim."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاری دا بۆ مەکەیەک بچێتە کەناراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,10 +202,16 @@ class EnglishEntrybeach extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He walked along the beach."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کەنار دەریاکەدا پیاسەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He walked along the beach."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە کەنار دەریاکەدا پیاسەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +228,18 @@ class EnglishEntrybeach extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She lay on the beach and read her book."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کەناراوەکە پاڵکەوت و کتێبەکەی خوێندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She lay on the beach and read her book."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کەناراوەکە پاڵکەوت و کتێبەکەی خوێندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybeach extends StatelessWidget {
 ٢. (کردار) ھێنانی بەلەمێک لە دەریاوە بۆ کەناراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He beached the boat and lifted the boy onto the shore."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمەکەی ھێنایە کەناراوەکە و منداڵەکەی بەرزکردەوە و خستیە گوێ‌ئاوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He beached the boat and lifted the boy onto the shore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکەی ھێنایە کەناراوەکە و منداڵەکەی بەرزکردەوە و خستیە گوێ‌ئاوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +290,18 @@ class EnglishEntrybeach extends StatelessWidget {
 ٣. (کردار) گیرخواردن لەسەر وشکانی و نەبوونی توانای گەڕانەوە بۆ ناو دەریا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We don't know what causes whales to beach."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نازانین چی دەبێتەھۆی ئەوەی نەھەنگەکان لە وشکانی گیربخۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We don't know what causes whales to beach."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نازانین چی دەبێتەھۆی ئەوەی نەھەنگەکان لە وشکانی گیربخۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

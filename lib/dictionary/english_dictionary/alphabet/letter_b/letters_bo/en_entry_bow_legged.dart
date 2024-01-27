@@ -167,12 +167,18 @@ class EnglishEntrybowlegged extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی لاقێک کە لە چۆکدا چەماوەتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The toddler was adorable but slightly bow-legged."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە جوان بوو بەڵام کەمێک چۆک قەوس بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The toddler was adorable but slightly bow-legged."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە جوان بوو بەڵام کەمێک چۆک قەوس بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

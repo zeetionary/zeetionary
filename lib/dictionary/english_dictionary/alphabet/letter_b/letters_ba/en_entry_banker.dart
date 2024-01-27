@@ -172,12 +172,18 @@ class EnglishEntrybanker extends StatelessWidget {
 ١. (ناو) کەسێک کە خاوەنی بانکێکە، یان پۆستێکی باڵای تێدا ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was a successful banker by the time she was 40."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was a successful banker by the time she was 40."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,17 @@ class EnglishEntrybanker extends StatelessWidget {
 ٢. (ناو) کەسێک کە لە یاری و قوماردا پارەکەی لا دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The banker collected the bets."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاودێرەکە پارەی گرەوەکانی کۆکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The banker collected the bets."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاودێرەکە پارەی گرەوەکانی کۆکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

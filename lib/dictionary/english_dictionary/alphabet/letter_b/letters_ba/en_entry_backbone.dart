@@ -173,12 +173,18 @@ class EnglishEntrybackbone extends StatelessWidget {
 ١. (ناو) بڕبڕەی پشت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor examined the patient's backbone for signs of injury."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor examined the patient's backbone for signs of injury."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntrybackbone extends StatelessWidget {
 ٢. (ناو) گرنگترین بەشی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Farming is the backbone of the country's economy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Farming is the backbone of the country's economy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntrybackbone extends StatelessWidget {
 ٣. (ناو) ھێزی پێویست بۆ کردنی شتێکی گران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He doesn't have the backbone to face the truth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He doesn't have the backbone to face the truth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

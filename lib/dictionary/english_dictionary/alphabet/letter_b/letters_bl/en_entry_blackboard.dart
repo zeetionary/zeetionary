@@ -168,12 +168,18 @@ class EnglishEntryblackboard extends StatelessWidget {
 ١. (ناو) تەختەیەکی ڕەش یان سەوزی تۆخ کە مامۆستا شتی لەسەر دەنووسێت بە تەباشیر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please copy the homework from the blackboard."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە ئەرکی ناڵەوەی سەر تەختە ڕەشەکە بنووسنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please copy the homework from the blackboard."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە ئەرکی ناڵەوەی سەر تەختە ڕەشەکە بنووسنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

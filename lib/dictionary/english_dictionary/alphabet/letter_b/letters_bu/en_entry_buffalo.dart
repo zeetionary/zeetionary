@@ -164,12 +164,18 @@ class EnglishEntrybuffalo extends StatelessWidget {
 ١. (ناو) ئاژەڵێکی گەورە کە لە خێزانی مانگاکانە و شاخی فراوان و چەماوەی هەیە. جۆری ئاسیا و ئەفریقایی هەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is common here to see a water buffalo pulling a cart."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is common here to see a water buffalo pulling a cart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێرە بینی گامێشێکی ئاوی کە عارەبانەیەک ڕابکێشێت بەربڵاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "buffalo", follow LX strictly.
                               Column(
                                 children: [

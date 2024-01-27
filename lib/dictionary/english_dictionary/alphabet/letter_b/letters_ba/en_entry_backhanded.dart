@@ -172,12 +172,18 @@ class EnglishEntrybackhanded extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەکرێت واتایەکی شاراوەی ھەبێت کە پێچەوانەی واتا ڕوونەکەی بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In a backhanded compliment she said he looked very good for his age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In a backhanded compliment she said he looked very good for his age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

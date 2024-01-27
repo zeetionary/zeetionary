@@ -173,7 +173,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
                           //     const ExampleSentenceEnglish(
                           //         text:
                           //             "speakBillofladings111111111111111111111111111111111"),
-                          //     const ExampleSentenceKurdish(
+                          //     ExampleSentenceKurdish(
                           //         text: "رستە_رستە_رستە_رستە."),
                           //     const CustomSizedBoxForTTS(),
                           //     CustomIconButtonBritish(

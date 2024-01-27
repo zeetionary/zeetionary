@@ -173,12 +173,18 @@ class EnglishEntrybald extends StatelessWidget {
 ١. (ھاوەڵناو) کەچەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He started going bald in his twenties."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی بە کەچەڵبوون کرد لە بیستەکانی تەمەنیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He started going bald in his twenties."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی بە کەچەڵبوون کرد لە بیستەکانی تەمەنیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +206,18 @@ class EnglishEntrybald extends StatelessWidget {
 ٢. (ھاوەڵناو) بەبێ ئەوەی بە موو داپۆشرابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Our dog has a bald patch on its leg."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەگەکەمان خاڵێکی بێ مووی لەسەر لاقی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our dog has a bald patch on its leg."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگەکەمان خاڵێکی بێ مووی لەسەر لاقی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +239,18 @@ class EnglishEntrybald extends StatelessWidget {
 ٣. (ھاوەڵناو) بەبێ ھیچ ڕوونکردنەوەی زیادە یان وردەکاری بۆ تێگەشتن لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bald fact is that we don't need you any longer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاستییە ئاشکراکە ئەوەیە چیتر پێویستیمان پێتان نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bald fact is that we don't need you any longer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاستییە ئاشکراکە ئەوەیە چیتر پێویستیمان پێتان نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

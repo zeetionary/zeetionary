@@ -170,10 +170,16 @@ class EnglishEntrybeginner extends StatelessWidget {
 ١. (ناو) کەسێک کە تازە دەستی بە فێربوونی شتێک کردووە و ھیشتا بە باشی لێی نازانێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's in the beginners' class."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە پۆلی تازەکارانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's in the beginners' class."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە پۆلی تازەکارانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -301,12 +301,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ١. (ناو) شتێک کە بەسوودە و کاریگەری ئەرێنی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Freedom of information brings great benefits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئازادیی ڕۆژنامەوانی سوودی گرنگی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Freedom of information brings great benefits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئازادیی ڕۆژنامەوانی سوودی گرنگی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -324,12 +330,18 @@ class EnglishEntrybenefit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've had the benefit of a good education."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرفەتی ئەوەم ھەبووە خوێدنێکی باشم ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've had the benefit of a good education."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرفەتی ئەوەم ھەبووە خوێدنێکی باشم ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -347,12 +359,18 @@ class EnglishEntrybenefit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was good to see her finally reaping the benefits (= enjoying the results) of all her hard work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باش بوو لە کۆتاییدا بینرا کە بەرھەمی ھەموو کارە سەختەکانی چنییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was good to see her finally reaping the benefits (= enjoying the results) of all her hard work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باش بوو لە کۆتاییدا بینرا کە بەرھەمی ھەموو کارە سەختەکانی چنییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -372,12 +390,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ٢. (ناو) پارەیەک کە حکومەت بە خەڵکی دەدات بەھۆی ئەوەی کاریان نییە یان نەخۆشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You may be eligible to receive benefits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەنگە شایستە بیت بۆ وەرگرتنی برە پارەیەکی بڕاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You may be eligible to receive benefits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەنگە شایستە بیت بۆ وەرگرتنی برە پارەیەکی بڕاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -397,12 +421,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ٣. (ناو) شتێک کە کۆمپانیایەک پێت دەدات بەسەر مووچەکەی خۆتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In addition to my salary, I get a pension and medical benefits from my job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای مووچەکەم، خانەنشینی و تێچووی تەندرووستی وەردەگرم لە کارەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In addition to my salary, I get a pension and medical benefits from my job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای مووچەکەم، خانەنشینی و تێچووی تەندرووستی وەردەگرم لە کارەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -422,12 +452,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ٤. (ناو) پارەی کۆمپانیای بیمە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The insurance plan will provide substantial cash benefits to your family in case of your death."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنی بیمەکە پارەیەکی زۆری کاش لەخۆدەگرێت بۆ خێزانەکەت لە حاڵەتی مردنت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The insurance plan will provide substantial cash benefits to your family in case of your death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنی بیمەکە پارەیەکی زۆری کاش لەخۆدەگرێت بۆ خێزانەکەت لە حاڵەتی مردنت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -447,12 +483,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ٥. (ناو) ئاھەنگێک وەک نمایشێک یان ژەمە خواردنێک کە ئامانج لێی کۆکردنەوەی ھاوکارییە بۆ کەسێک یان ڕێکخراوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The proceeds from the benefit will go directly to the refugee camps."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەی کۆکراوەی ئاھەنگەکە ڕاستەوخۆ دەچێت بۆ کەمپی پەنابەران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The proceeds from the benefit will go directly to the refugee camps."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەی کۆکراوەی ئاھەنگەکە ڕاستەوخۆ دەچێت بۆ کەمپی پەنابەران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -472,12 +514,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ٦. (کردار) سوومەند بوو بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We should spend the money on something that will benefit everyone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت پارەکە لە شتێک خەرج بکەین کە سوود بە ھەمووان بگەیەنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We should spend the money on something that will benefit everyone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت پارەکە لە شتێک خەرج بکەین کە سوود بە ھەمووان بگەیەنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -495,12 +543,18 @@ class EnglishEntrybenefit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new tax laws will clearly benefit those on low wages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاسا تازەکانی باج بەئاشکرایی سوود بەوانە دەگەیەنێت کە مووچەیان کەمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new tax laws will clearly benefit those on low wages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاسا تازەکانی باج بەئاشکرایی سوود بەوانە دەگەیەنێت کە مووچەیان کەمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -520,12 +574,18 @@ class EnglishEntrybenefit extends StatelessWidget {
 ٧. (کردار) بوون لە دۆخێکی باشتر بەھۆی شتێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We all benefit when our young people realize their potential."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمووان سوودمەند دەبین کە گەنجەکانمان بە تواناکانیان دەزانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We all benefit when our young people realize their potential."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمووان سوودمەند دەبین کە گەنجەکانمان بە تواناکانیان دەزانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -543,12 +603,18 @@ class EnglishEntrybenefit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Who exactly stands to benefit from these changes?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدرووستی کێ سوودمەند دەبێت لەم گۆڕانکارییانە دەبێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who exactly stands to benefit from these changes?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدرووستی کێ سوودمەند دەبێت لەم گۆڕانکارییانە دەبێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -566,12 +632,18 @@ class EnglishEntrybenefit extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most crime victims benefit greatly by talking about their experiences."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک لە قوربانییانی تاوانەکان دۆخیان باشتر دەبێت ئەگەر باسی بەسەرھاتەکانیان بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most crime victims benefit greatly by talking about their experiences."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک لە قوربانییانی تاوانەکان دۆخیان باشتر دەبێت ئەگەر باسی بەسەرھاتەکانیان بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

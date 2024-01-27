@@ -170,12 +170,18 @@ class EnglishEntrybuilding extends StatelessWidget {
 ١. (ناو) بینایەک، بۆ نموونە خانوو یان قوتابخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The architects have presented the design of a new office building."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەلارسازان دیزاینی بینایەکی تازەی ئۆفیسیان پێشکەش کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The architects have presented the design of a new office building."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەلارسازان دیزاینی بینایەکی تازەی ئۆفیسیان پێشکەش کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples define the word "building", follow LX strictly
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntrybuilding extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The old industrial buildings have all been demolished."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بینا کۆنەکانی نیشتەجێبوون هەموویان ڕووخیندراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The old industrial buildings have all been demolished."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بینا کۆنەکانی نیشتەجێبوون هەموویان ڕووخیندراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,7 +232,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "In 2018 the building was converted into a house."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "لە ساڵی ٢٠١٨ بیناکە کرا بە خانوو."),
                                       const CustomSizedBoxForTTS(),
@@ -244,7 +256,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Several new buildings are now being put up."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ژمارەیەک بینای تازە لە ئێستادا درووست دەکرێن."),
                                       const CustomSizedBoxForTTS(),
@@ -272,11 +284,18 @@ class EnglishEntrybuilding extends StatelessWidget {
                                   "٢. (ناو) پڕۆسە و کاری درووستکردنی بینایەک یان چوارچێوەیەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's building work going on next door."),
-                              const ExampleSentenceKurdish(
-                                  text: "کاری بیناسازی لە تەنیشتمانەوە هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's building work going on next door."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاری بیناسازی لە تەنیشتمانەوە هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -293,12 +312,18 @@ class EnglishEntrybuilding extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He started off in the building trade before opening his own restaurant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاری بیناسازییەوە دەستی پێکرد پێش ئەوەی چێشتخانەی خۆی بکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He started off in the building trade before opening his own restaurant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاری بیناسازییەوە دەستی پێکرد پێش ئەوەی چێشتخانەی خۆی بکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -317,12 +342,18 @@ class EnglishEntrybuilding extends StatelessWidget {
                               text: "٣. (ناو) درووستکردن یان گەشەپێدانی شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The building of a consensus is not going to be an easy process."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "درووستکردنی هاودەنگی پڕۆسەیەکی ئاسان نابێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The building of a consensus is not going to be an easy process."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "درووستکردنی هاودەنگی پڕۆسەیەکی ئاسان نابێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

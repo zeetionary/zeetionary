@@ -171,12 +171,18 @@ class EnglishEntryballotbox extends StatelessWidget {
 ١. (ناو) سندووقی دەنگدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The voters cast their ballots into the ballot box one by one."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سندووقی دەنگدانەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The voters cast their ballots into the ballot box one by one."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگدەران دانەبەدانە پەڕەکانیان دەخەنە ناو سندووقی دەنگدانەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryballotbox extends StatelessWidget {
 ٢. (ناو) سیستەمی دەنگدان لە ھەڵبژاردنێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The people make their wishes known through the ballot box."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The people make their wishes known through the ballot box."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی خواستەکانیان دەردەبڕن لە سیستەمی ھەڵبژاردنەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

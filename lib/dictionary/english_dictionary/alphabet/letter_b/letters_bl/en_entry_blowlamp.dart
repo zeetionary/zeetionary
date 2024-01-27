@@ -171,12 +171,18 @@ class EnglishEntryblowlamp extends StatelessWidget {
 ١. (ناو) دەزگایەک کە بەکاردێت بۆ ئاراستەکردنی گڕێکی گەرم بەرەو ڕووی شتێک، بۆ نموونە بۆ سڕینەوەی بۆیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plumber employed a blowlamp to thaw a frozen pipe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plumber employed a blowlamp to thaw a frozen pipe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆڕیچییەکە پەرەمێزێکی بەکارھێنا بۆ گەرمکردنی بۆڕییە بەستووەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

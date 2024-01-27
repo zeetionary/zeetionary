@@ -315,10 +315,16 @@ class EnglishEntrybeat extends StatelessWidget {
 ١. (کردار) شکستھێنان بە کەسێک لە یارییەک یان پێشبڕکێیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He beat me at chess."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە شەترەنجدا لێی بردمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He beat me at chess."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە شەترەنجدا لێی بردمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -336,10 +342,17 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I beat her by just three points."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە جیاوازی سێ خاڵ لێم بردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I beat her by just three points."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە جیاوازی سێ خاڵ لێم بردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -359,10 +372,17 @@ class EnglishEntrybeat extends StatelessWidget {
 ٢. (کردار) باشتربوون لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Nothing beats home cooking."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ باشتر نابێت لە خواردنی ماڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Nothing beats home cooking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ باشتر نابێت لە خواردنی ماڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -382,12 +402,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ٣. (کردار) سەپاندنی ھەژموون بەسەر شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government's main aim is to beat inflation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجی سەرەکی حکومەت ئەوەیە کۆنترۆڵی ھەڵاوسانی ئابووری بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government's main aim is to beat inflation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجی سەرەکی حکومەت ئەوەیە کۆنترۆڵی ھەڵاوسانی ئابووری بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -407,12 +433,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ٤. (کردار) شتێک کە زۆر گران دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is a problem that beats even the experts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشەیەکە کە تەنانەت شارەزایانیش لێی تێ ناگەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is a problem that beats even the experts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەیەکە کە تەنانەت شارەزایانیش لێی تێ ناگەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -432,11 +464,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ٥. (کردار) دوورکەوتنەوە لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If we go early we should beat the traffic."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەگەر زوو بچین لە ترافیک دوور دەبین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If we go early we should beat the traffic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر زوو بچین لە ترافیک دوور دەبین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -456,12 +495,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ٦. (کردار) لێدانی زۆر لە کەسێک بە مەبەستی ئازاردان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At that time children were regularly beaten for quite minor offences (= as a punishment)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کات منداڵان کوتەکیان دەخوارد بە بەردەوامی بۆ ھەڵەی زۆر بچووک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At that time children were regularly beaten for quite minor offences (= as a punishment)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کات منداڵان کوتەکیان دەخوارد بە بەردەوامی بۆ ھەڵەی زۆر بچووک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -479,11 +524,18 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A man was found beaten to death."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێک دۆزرایەوە کە تا مردن لێی درابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A man was found beaten to death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێک دۆزرایەوە کە تا مردن لێی درابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -503,10 +555,17 @@ class EnglishEntrybeat extends StatelessWidget {
 ٧. (کردار) لێدان لە شتێک بۆ چەند جارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Somebody was beating at the door."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەسێک لە دەرگاکەی دەکووتا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Somebody was beating at the door."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەسێک لە دەرگاکەی دەکووتا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -526,11 +585,17 @@ class EnglishEntrybeat extends StatelessWidget {
 ٨. (کردار) درووستکردنی دەنگێکی بەردەوام، یان وا لە شتێک بکەیت دەنگێکی بەردەوام دەربکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's alive—her heart is still beating."),
-                              const ExampleSentenceKurdish(
-                                  text: "زیندووە، دڵی ھێشتا لێدەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's alive—her heart is still beating."),
+                                    ExampleSentenceKurdish(
+                                        text: "زیندووە، دڵی ھێشتا لێدەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -548,11 +613,17 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We heard the drums beating."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێمان لە دەنگی لێدانی دەھۆڵەکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We heard the drums beating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێمان لە دەنگی لێدانی دەھۆڵەکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -572,12 +643,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ٩. (کردار) تێکەڵکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beat the mixture well, until it is creamy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێکەڵەکە بە باشی تێکبدە تا کرێمدار دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beat the mixture well, until it is creamy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێکەڵەکە بە باشی تێکبدە تا کرێمدار دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -597,10 +674,17 @@ class EnglishEntrybeat extends StatelessWidget {
 ١٠. (کردار) گۆڕینی شێوەی شتێک، بەتایبەتی کانزا، بە لێدانی بە چەکووش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The metal had been beaten flat."),
-                              const ExampleSentenceKurdish(
-                                  text: "کانزاکە بە لێدان پانکراوەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The metal had been beaten flat."),
+                                    ExampleSentenceKurdish(
+                                        text: "کانزاکە بە لێدان پانکراوەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -620,12 +704,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ١١. (ناو) یەک لێدانی شتێک، بۆ نموونە یەک ترپەی دڵ، یان یەک لێدانی لە دەھۆڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I put my head on his chest but I could feel no heartbeat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرم خستە سەر سنگی بەڵام گوێم لە ھیچ ترپەیەکی دڵ نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I put my head on his chest but I could feel no heartbeat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرم خستە سەر سنگی بەڵام گوێم لە ھیچ ترپەیەکی دڵ نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -643,11 +733,18 @@ class EnglishEntrybeat extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They danced to the beat of the drums."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەمایان دەکرد لەگەڵ ڕیتمی دەھۆڵەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They danced to the beat of the drums."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەمایان دەکرد لەگەڵ ڕیتمی دەھۆڵەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -667,10 +764,17 @@ class EnglishEntrybeat extends StatelessWidget {
 ١٢. (ناو) زنجیرەیەک لە لێدانی شتێک، بۆ نموونە لێدانی دڵ یان دەھۆڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She felt the beat of his heart."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەستی بە لێدانی دڵی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt the beat of his heart."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەستی بە لێدانی دڵی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -690,11 +794,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ١٣. (ناو) ڕیتمی سەرەکی، یان یەک یەکەی ڕیتمێک، لە پارچەیەک میوزیک یان ھۆنراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He tapped his foot to the beat (= rhythm) of the music."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێی دادەکوتی لەگەڵ ڕیتمی میوزیکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He tapped his foot to the beat (= rhythm) of the music."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێی دادەکوتی لەگەڵ ڕیتمی میوزیکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -714,12 +825,18 @@ class EnglishEntrybeat extends StatelessWidget {
 ١٤. (ناو) ناوچەیەک کە ئەفسەرێکی پۆلیس بەردەوام بەسەریدا دەچێت و بەرپرسە بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More police officers out on the beat may help to cut crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیسی زیاتر لە نۆبەداریدا بن ئەگەری ھەیە تاوان کەمبکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More police officers out on the beat may help to cut crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیسی زیاتر لە نۆبەداریدا بن ئەگەری ھەیە تاوان کەمبکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -739,10 +856,16 @@ class EnglishEntrybeat extends StatelessWidget {
 ١٥. (ھاوەڵناو) زۆر ماندوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm beat - I'm going to bed."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر ماندووم، دەچم دەنووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'm beat - I'm going to bed."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر ماندووم، دەچم دەنووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

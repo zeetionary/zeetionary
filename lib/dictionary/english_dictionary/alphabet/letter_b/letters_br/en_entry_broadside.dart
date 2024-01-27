@@ -165,12 +165,18 @@ class EnglishEntrybroadside extends StatelessWidget {
 ١. (ناو) ڕەخنەی توند"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prime minister fired a broadside at his critics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prime minister fired a broadside at his critics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک وەزیران ھێرشی توندی کردە سەر ڕەخنەگرانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broadside" as
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntrybroadside extends StatelessWidget {
                               text: "٢. (ھاوەڵکار) بە یەک لاوە ڕووی لە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The car skidded and crashed broadside into another car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە خلیسکا و بە لادا کێشای بە ئۆتۆمبێلێکی دیکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car skidded and crashed broadside into another car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە خلیسکا و بە لادا کێشای بە ئۆتۆمبێلێکی دیکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +225,18 @@ class EnglishEntrybroadside extends StatelessWidget {
                               text: "٣. (کردار) کێشان بە لای شتێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The driver ran a stop light and broadsided the truck."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێرەکە لە ترافیک لایتێکی دا (لەسەر سوور تێپەڕی) و کێشای بە لای بارھەڵگرێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The driver ran a stop light and broadsided the truck."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێرەکە لە ترافیک لایتێکی دا (لەسەر سوور تێپەڕی) و کێشای بە لای بارھەڵگرێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

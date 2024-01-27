@@ -167,12 +167,18 @@ class EnglishEntrybroadminded extends StatelessWidget {
 ١. (ھاوەڵناو) ئامادە بۆ گوێگرتن لە کەسانی تر و قبووڵکردنی ھەڵسوکەوت کە جیاوازە لە ھی خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My grandparents were surprisingly broad-minded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوانم بە شێوەیەکی چاوەڕواننەکراو بیرفراوان بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My grandparents were surprisingly broad-minded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوانم بە شێوەیەکی چاوەڕواننەکراو بیرفراوان بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // Define the word "broad-minded" as
                               Column(
                                 children: [
@@ -191,11 +197,18 @@ class EnglishEntrybroadminded extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are supposed to be a broad-minded society."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێمە دەبێت کۆمەڵگایەکی تێگەشتوو بین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are supposed to be a broad-minded society."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێمە دەبێت کۆمەڵگایەکی تێگەشتوو بین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

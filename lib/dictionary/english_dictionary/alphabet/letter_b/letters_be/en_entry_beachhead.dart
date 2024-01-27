@@ -168,12 +168,18 @@ class EnglishEntrybeachhead extends StatelessWidget {
 ١. (ناو) ناوچەیەکی کەناراوێک کە سوپایەک کۆنترۆڵی کردووە و ھێرشی لێوە دەستپێ‌دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The troops quickly established a beachhead and were preparing to advance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان بەزوویی ناوچەیەکی باڵادەستیان دامەزراند ئامادەکارییان بۆ پێشڕوەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops quickly established a beachhead and were preparing to advance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان بەزوویی ناوچەیەکی باڵادەستیان دامەزراند ئامادەکارییان بۆ پێشڕوەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

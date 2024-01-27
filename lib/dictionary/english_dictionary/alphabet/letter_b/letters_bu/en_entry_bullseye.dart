@@ -161,10 +161,16 @@ class EnglishEntrybullseye extends StatelessWidget {
 ١. (ناو) ناوەڕاستی ئامانجێک کە تەقەی لێ دەکەیت، یان تیری بۆ داهاوێژیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He scored a bullseye."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ناوەڕاستی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He scored a bullseye."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ناوەڕاستی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullseye", follow LX strictly
                               Column(
                                 children: [

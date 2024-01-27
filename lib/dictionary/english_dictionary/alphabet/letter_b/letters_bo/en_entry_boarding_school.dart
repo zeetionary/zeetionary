@@ -166,12 +166,18 @@ class EnglishEntryboardingschool extends StatelessWidget {
 ١. (ناو) خوێندنگەیەک کە خوێندکار دەتوانێت تێیدا بمێنێتەوە لە ماوەی وەرزی خوێندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He missed his family during his first term at boarding school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیری خێزانەکەی دەکرد لە ماوەی خولی یەکەمی لە خوێندنگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He missed his family during his first term at boarding school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیری خێزانەکەی دەکرد لە ماوەی خولی یەکەمی لە خوێندنگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

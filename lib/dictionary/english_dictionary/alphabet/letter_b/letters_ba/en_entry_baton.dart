@@ -169,12 +169,18 @@ class EnglishEntrybaton extends StatelessWidget {
 ١. (ناو) دارێک یان تێڵایەک کە پۆلیس بەکاریدێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Five people were injured in the baton charge (= one made by police carrying batons, to force a crowd back)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ کەس برینداربوون لە ھێرشی پۆلیسە کوتەک‌بەدەستەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Five people were injured in the baton charge (= one made by police carrying batons, to force a crowd back)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ کەس برینداربوون لە ھێرشی پۆلیسە کوتەک‌بەدەستەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntrybaton extends StatelessWidget {
 ٢. (ناو) دارێک کە سەرپەرشتیاری ئۆرکێسترایەکەوە بەکاردەھێنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The orchestra played brilliantly under Previn’s baton."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆرکێستراکە بە بلیمەتانە کاریانکرد لەژێر دارەکەی پرێڤندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The orchestra played brilliantly under Previn’s baton."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆرکێستراکە بە بلیمەتانە کاریانکرد لەژێر دارەکەی پرێڤندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +231,18 @@ class EnglishEntrybaton extends StatelessWidget {
 ٣. (ناو) دارێک کە لە یاریدا بەکاردێت و کەسێک دەیدات بە دەستی کەسێکی ترەوە کە ڕادەکات """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baton dropped to the ground as the third runner stumbled."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دارەکە کەوتە سەر زەوی کە سێیەم ڕاکەر کەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baton dropped to the ground as the third runner stumbled."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دارەکە کەوتە سەر زەوی کە سێیەم ڕاکەر کەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +259,18 @@ class EnglishEntrybaton extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The President handed over the baton (= passed responsibility) to his successor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک بەرپرسیاریەتی ڕادەستی شوێنگرەوەکەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The President handed over the baton (= passed responsibility) to his successor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک بەرپرسیاریەتی ڕادەستی شوێنگرەوەکەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

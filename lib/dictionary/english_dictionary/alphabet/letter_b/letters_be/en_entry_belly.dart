@@ -174,10 +174,17 @@ class EnglishEntrybelly extends StatelessWidget {
 ١. (ناو) سک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They crawled along on their bellies."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەسەر سکیان دەڕۆشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They crawled along on their bellies."),
+                                    ExampleSentenceKurdish(
+                                        text: "لەسەر سکیان دەڕۆشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +202,18 @@ class EnglishEntrybelly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's so fat, his belly hangs over his trousers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر قەڵەوە، سکی دێتە سەر پانتۆڵەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's so fat, his belly hangs over his trousers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر قەڵەوە، سکی دێتە سەر پانتۆڵەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +231,18 @@ class EnglishEntrybelly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt the child in her belly kick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی دەکرد منداڵەکەی لە سکیدا لەقە دەھاوێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt the child in her belly kick."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی دەکرد منداڵەکەی لە سکیدا لەقە دەھاوێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +262,18 @@ class EnglishEntrybelly extends StatelessWidget {
 ٢. (ناو) بەشی چەماوە یان بازنەیی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The belly of the aircraft was painted red."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکی فڕۆکەکە (لاشەی فڕۆکەکە لە خوارەوە، لە نێوان باڵەکانی)  ڕەنگی سوور کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The belly of the aircraft was painted red."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکی فڕۆکەکە (لاشەی فڕۆکەکە لە خوارەوە، لە نێوان باڵەکانی)  ڕەنگی سوور کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -268,12 +293,18 @@ class EnglishEntrybelly extends StatelessWidget {
 ٣. (ناو) لەگەڵ ھاوەڵناو بەکاردێت بۆ وتنی ئەوەی سک ھەمان ئەو شێوەیەی ھەیە کە باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The starving child's swollen belly was a stark reminder of the ongoing famine in the region."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکی ئاوساوی منداڵەکە بیرھێنەرەوەیەکی زەقی وشکەساڵی بەردەوامی ھەرێمەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The starving child's swollen belly was a stark reminder of the ongoing famine in the region."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکی ئاوساوی منداڵەکە بیرھێنەرەوەیەکی زەقی وشکەساڵی بەردەوامی ھەرێمەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

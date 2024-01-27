@@ -171,12 +171,18 @@ class EnglishEntrybedding extends StatelessWidget {
 ١. (ناو) پێخەف و داپۆشەر و سەرین و ئەو شتانەی دیکە کە لەسەر جێگەی خەو دادەنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new recruits at the army base were lined up to pick up their bedding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەرگیراوە تازەکانی بنکە سەربازییەکە ڕیزکران بۆ وەرگرتنی پێخەف و سەرینیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new recruits at the army base were lined up to pick up their bedding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەرگیراوە تازەکانی بنکە سەربازییەکە ڕیزکران بۆ وەرگرتنی پێخەف و سەرینیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybedding extends StatelessWidget {
 ٢. (ناو) پوشوپەڵاش بۆ ئەوەی ئاژەڵان لەسەری بخەون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farmer spread fresh bedding in the stalls for the horses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژەڵدارەکە پوشوپەڵاشی تازەی بڵاوکردەوە لە تەویلەی ئەسپەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farmer spread fresh bedding in the stalls for the horses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵدارەکە پوشوپەڵاشی تازەی بڵاوکردەوە لە تەویلەی ئەسپەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

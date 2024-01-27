@@ -171,12 +171,18 @@ class EnglishEntrybespoke extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بە تایبەتی بۆ کەسێک درووستکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bespoke leather shoes cost an average 1,000 pounds a pair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێڵاوی چەرمی تایبەتی جووتی دەگاتە ١٠٠٠ پاوەند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bespoke leather shoes cost an average 1,000 pounds a pair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێڵاوی چەرمی تایبەتی جووتی دەگاتە ١٠٠٠ پاوەند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntrybespoke extends StatelessWidget {
 ٢. (ھاوەڵناو) درووستکردنی بەرھەم بە تایبەتی بە پێی پێویستی تاکە کڕیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company specializes in bespoke jewelry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە شارەزایی ھەیە لە خشڵی تایبەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company specializes in bespoke jewelry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە شارەزایی ھەیە لە خشڵی تایبەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

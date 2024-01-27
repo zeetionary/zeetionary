@@ -170,12 +170,18 @@ class EnglishEntrybiologist extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری لێکۆڵینەوەیە لە زانستی ژیان و پێکھاتەی ئاژەڵ و ڕووەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She’s a research biologist for a pharmaceutical company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیندەناسێکی توێژەرە بۆ کۆمپانیایەکی دەوا و دەرمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She’s a research biologist for a pharmaceutical company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیندەناسێکی توێژەرە بۆ کۆمپانیایەکی دەوا و دەرمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

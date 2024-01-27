@@ -170,12 +170,18 @@ class EnglishEntrybiochemist extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە لێکۆڵینەوە لە زانستی پێکھاتە و ڕەفتاری کیمیایی زیندەوەران دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Biochemists have greatly advanced human understanding of how cells copy themselves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیندەکیمیازانان یەکجار زۆر تێگەشتنی مرۆڤیان زیادکردووە بۆ شێوازی زۆربوونی خانەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Biochemists have greatly advanced human understanding of how cells copy themselves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیندەکیمیازانان یەکجار زۆر تێگەشتنی مرۆڤیان زیادکردووە بۆ شێوازی زۆربوونی خانەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

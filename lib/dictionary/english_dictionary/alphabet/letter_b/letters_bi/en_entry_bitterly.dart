@@ -169,10 +169,17 @@ class EnglishEntrybitterly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ھەست بە دڵتەنگی و تووڕەیی دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They complained bitterly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ناڕەحەتییەوە گازەندەیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They complained bitterly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ناڕەحەتییەوە گازەندەیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,10 +198,16 @@ class EnglishEntrybitterly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She wept bitterly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دڵتەنگییەوە دەگریا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She wept bitterly."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە دڵتەنگییەوە دەگریا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,11 +227,18 @@ class EnglishEntrybitterly extends StatelessWidget {
                               text: "٢. (ھاوەڵکار) ئێجگار زۆر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was bitterly disappointed not to get the job."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر نائومێد بوو کە کارەکەی وەرنەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was bitterly disappointed not to get the job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر نائومێد بوو کە کارەکەی وەرنەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +258,18 @@ class EnglishEntrybitterly extends StatelessWidget {
                               text: "٣. (ھاوەڵکار) زۆر سارد"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I remember it was a bitterly cold December night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بیرمە شەوێکی تەزێنەری کانوونی یەکەم بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I remember it was a bitterly cold December night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بیرمە شەوێکی تەزێنەری کانوونی یەکەم بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

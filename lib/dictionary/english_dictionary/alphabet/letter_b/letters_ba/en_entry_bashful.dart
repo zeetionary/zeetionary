@@ -166,11 +166,18 @@ class EnglishEntrybashful extends StatelessWidget {
 ١. (ھاوەڵناو) شەرمن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was too bashful to talk about sex."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەرمی دەکرد قسە لەسەر سێکس بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was too bashful to talk about sex."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەرمی دەکرد قسە لەسەر سێکس بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +195,18 @@ class EnglishEntrybashful extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She looked bashful when he asked her what she wanted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووگیر دیاربوو کە داوای ئەوەی لێدەکرد کە دەیویست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked bashful when he asked her what she wanted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووگیر دیاربوو کە داوای ئەوەی لێدەکرد کە دەیویست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

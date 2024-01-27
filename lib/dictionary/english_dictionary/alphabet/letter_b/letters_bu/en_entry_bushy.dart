@@ -213,12 +213,18 @@ class EnglishEntrybushy extends StatelessWidget {
 ١. (ھاوەڵناو) قژ یان فەرووی پڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was short and stocky, with thick bushy eyebrows."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ هەبوونی برۆی ئەستووری پڕدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was short and stocky, with thick bushy eyebrows."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ هەبوونی برۆی ئەستووری پڕدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bushy", follow LX strictly
                               Column(
                                 children: [
@@ -237,11 +243,18 @@ class EnglishEntrybushy extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) ڕووەکێک کە پڕ و گەڵا زۆرە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It grows into a bushy plant, with soft leaves."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێتە ڕووەکێکی پڕ بە گەڵای نەرمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It grows into a bushy plant, with soft leaves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێتە ڕووەکێکی پڕ بە گەڵای نەرمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

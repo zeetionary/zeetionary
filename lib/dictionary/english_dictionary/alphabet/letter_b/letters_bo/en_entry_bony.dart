@@ -169,10 +169,18 @@ class EnglishEntrybony extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک زۆر باریک کو ئێسکەکانی لەژێر پێستی دەبینرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looked frail, her face bony."),
-                              const ExampleSentenceKurdish(
-                                  text: "لاواز بوو و ڕووخساری ڕەقەڵ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked frail, her face bony."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاواز بوو و ڕووخساری ڕەقەڵ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +199,17 @@ class EnglishEntrybony extends StatelessWidget {
                               text: "٢. (ھاوەڵناو) ماسییەک کە پڕ لە ئێسکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This fish is too bony to eat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماسییەکە دڕووی ئێجگار زۆرە تا بە کەڵکی خواردن بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "This fish is too bony to eat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسییەکە دڕووی ئێجگار زۆرە تا بە کەڵکی خواردن بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

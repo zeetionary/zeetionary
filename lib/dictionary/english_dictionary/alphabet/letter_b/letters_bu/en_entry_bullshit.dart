@@ -164,10 +164,16 @@ class EnglishEntrybullshit extends StatelessWidget {
 ١. (ناو) بیرۆکە، باوەڕ، یان قسە کە پێتوایە گەمژانەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That's just bullshit."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواو هەڵیت‌وپڵیتانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "That's just bullshit."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەواو هەڵیت‌وپڵیتانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "bullshit", follow LX strictly
                               Column(
                                 children: [
@@ -184,11 +190,18 @@ class EnglishEntrybullshit extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't listen to him—he's full of bullshit."),
-                              const ExampleSentenceKurdish(
-                                  text: "گوێی لێ مەگرە، پڕ لە قسەی هیچە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't listen to him—he's full of bullshit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێی لێ مەگرە، پڕ لە قسەی هیچە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

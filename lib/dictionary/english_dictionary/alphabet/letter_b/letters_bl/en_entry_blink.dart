@@ -172,10 +172,18 @@ class EnglishEntryblink extends StatelessWidget {
 ١. (کردار) چاو ترپاندن؛ داخستن و کردنەوەی چاو بەخێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He blinked in the bright sunlight."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاوی ترپاند لە خۆرەتاوە گەرمەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He blinked in the bright sunlight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوی ترپاند لە خۆرەتاوە گەرمەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,11 +200,17 @@ class EnglishEntryblink extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll be back before you can blink (= very quickly)."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە چەقەنەیەکدا دێمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll be back before you can blink (= very quickly)."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە چەقەنەیەکدا دێمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +227,18 @@ class EnglishEntryblink extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When I told him the news he didn't even blink (= showed no surprise at all)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە ھەواڵەکەم پێ وت ھەر چاویشی نەترپاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When I told him the news he didn't even blink (= showed no surprise at all)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ھەواڵەکەم پێ وت ھەر چاویشی نەترپاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,11 +258,18 @@ class EnglishEntryblink extends StatelessWidget {
                                   "٢. (کردار) درەوشانەوە بە ڕۆشناییەکی کە دەبڕێت و دەگەڕێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Suddenly a warning light blinked."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەناکاو لایتێکی ئاگادارکردنەوە دەستی بە پرتەپرت کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Suddenly a warning light blinked."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەناکاو لایتێکی ئاگادارکردنەوە دەستی بە پرتەپرت کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,10 +288,18 @@ class EnglishEntryblink extends StatelessWidget {
                               text: "٣. (ناو) ترپاندنی چاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was observing her every blink."),
-                              const ExampleSentenceKurdish(
-                                  text: "تێبینی ھەر ترپاندنێکی چاوی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was observing her every blink."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێبینی ھەر ترپاندنێکی چاوی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

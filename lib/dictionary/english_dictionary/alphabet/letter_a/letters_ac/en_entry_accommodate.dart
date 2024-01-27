@@ -138,12 +138,18 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ١. (کردار) دابینکردنی شوێنی مانەوە بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hotel can accommodate up to 500 guests."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hotel can accommodate up to 500 guests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھوتێلەکە ئەتوانێت ٥٠٠ میوان لەخۆبگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -162,12 +168,18 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ٢. (کردار) توانای لەخۆگرتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The garage can accommodate three cars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The garage can accommodate three cars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەراجەکە شوێنی سێ ئۆتۆمبێلی تێدا دەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +198,18 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ٣. (کردار) لەبەرچاوگرتنی پێویستی یان بۆچوونی کەسێک و گرنگیپێدان پێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our proposal tries to accommodate the special needs of minority groups."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our proposal tries to accommodate the special needs of minority groups."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشنیارەکانمان ھەوڵ دەدات پێداویستییە تایبەتەکانی کەمایەتییەکان لەبەرچاوبگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +228,18 @@ class EnglishEntryaccommodate extends StatelessWidget {
 ٤. (کردار) یارمەتیدانی کەسێک بە پێدانی ئەوەی دەیەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’m sure the bank will be able to accommodate you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’m sure the bank will be able to accommodate you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیام بانکەکە دەتوانێت یارمەتیت بدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

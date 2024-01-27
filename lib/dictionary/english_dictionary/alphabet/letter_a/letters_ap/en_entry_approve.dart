@@ -178,12 +178,18 @@ class EnglishEntryapprove extends StatelessWidget {
 ١. (کردار) پەسەندکردنی شتێک، ڕەزامەندی دەربڕین لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I told my mother I wanted to leave school but she didn't approve."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە دایکمم گوت واز لە قوتابخانە دێنم، بەڵام ڕازی نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I told my mother I wanted to leave school but she didn't approve."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دایکمم گوت واز لە قوتابخانە دێنم، بەڵام ڕازی نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,10 +209,16 @@ class EnglishEntryapprove extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you approve of my idea?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بیرۆکەکەمت بەدڵە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Do you approve of my idea?"),
+                                    ExampleSentenceKurdish(
+                                        text: "بیرۆکەکەمت بەدڵە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,11 +240,18 @@ class EnglishEntryapprove extends StatelessWidget {
 ٢. (کردار) پەسەندکردنی شتێک بەشێوەیەکی فەرمی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The committee unanimously approved the plan."),
-                              const ExampleSentenceKurdish(
-                                  text: "لیژنەکە بەتێکڕا پلانەکەی پەسەندکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The committee unanimously approved the plan."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیژنەکە بەتێکڕا پلانەکەی پەسەندکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +273,18 @@ class EnglishEntryapprove extends StatelessWidget {
 ٣. (کردار) وتنی ئەوەی شتێک بەشی پێویست باشە بۆ بەکارھێنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This medicine is not approved for use in children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم دەرمانە بۆ بەکارھێنان لەسەر منداڵ پەسەند نەکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This medicine is not approved for use in children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دەرمانە بۆ بەکارھێنان لەسەر منداڵ پەسەند نەکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -126,12 +126,18 @@ class EnglishEntryaircraft extends StatelessWidget {
 ١. (ناو) فڕۆکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aircraft was flown by a young American pilot."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aircraft was flown by a young American pilot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە بە دەستی فڕۆکەوانێکی گەنجی ئەمریکییەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,11 +157,17 @@ class EnglishEntryaircraft extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aircraft is due to take off at midnight."),
-                              const ExampleSentenceKurdish(
-                                  text: "فڕۆکەکە لە نیوەشەودا دەفڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aircraft is due to take off at midnight."),
+                                    ExampleSentenceKurdish(
+                                        text: "فڕۆکەکە لە نیوەشەودا دەفڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

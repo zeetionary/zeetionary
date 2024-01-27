@@ -131,11 +131,18 @@ class EnglishEntryalgae extends StatelessWidget {
 ١. (ناو) خانەی زۆر سەرەتایی کە ھیچ ڕەگ و قەد و بنەچەیان نییە و لە نزیک ئاو دەژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Algae has clogged the intake to the water stem."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Algae has clogged the intake to the water stem."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەوزە ڕێگای ڕێڕەوی ئاوەکەی گرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

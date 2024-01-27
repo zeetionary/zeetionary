@@ -178,11 +178,18 @@ class EnglishEntryarctic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە خولگەی جەمسەری باکوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "No trees grow in the Arctic regions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "No trees grow in the Arctic regions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ درەختێک لە ناوچەکانی جەمسەری باکوور گەشە ناکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +211,18 @@ class EnglishEntryarctic extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر سارد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The North of England has been experiencing Arctic conditions these past few days."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The North of England has been experiencing Arctic conditions these past few days."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم چەند ڕۆژەی ڕابردوو باکووری ئینگلتەرە بە کەشوھەوای زۆر سارددا تێپەڕیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,10 +244,18 @@ class EnglishEntryarctic extends StatelessWidget {
 ٣. (ناو) ناوچەی خولگەی باکووری زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Polar bears live in the Arctic."),
-                              const ExampleSentenceKurdish(
-                                  text: "ورچەسپی لە جەمسەری باکوور دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Polar bears live in the Arctic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ورچەسپی لە جەمسەری باکوور دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

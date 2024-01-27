@@ -130,10 +130,17 @@ class EnglishEntryamble extends StatelessWidget {
 ١. (کردار) ڕێکردن بە ھێواشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Mark ambled over to the girls."),
-                              const ExampleSentenceKurdish(
-                                  text: "مارک بەھێواشی چوو بۆ لای کچەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Mark ambled over to the girls."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مارک بەھێواشی چوو بۆ لای کچەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

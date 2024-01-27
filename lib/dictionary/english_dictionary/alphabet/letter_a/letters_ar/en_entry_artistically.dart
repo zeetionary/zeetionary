@@ -179,12 +179,18 @@ class EnglishEntryartistically extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە ھونەر و ھونەرمەندان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The film was both commercially and artistically successful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The film was both commercially and artistically successful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە لەلایەنی بازرگانی و ھونەرییەوە سەرکەوتووبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

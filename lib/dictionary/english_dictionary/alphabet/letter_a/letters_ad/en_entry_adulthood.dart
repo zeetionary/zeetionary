@@ -130,12 +130,18 @@ class EnglishEntryadulthood extends StatelessWidget {
 ١. (ھاوەڵناو) تەمەنی پێگەیشتووی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her childhood problems persisted into adulthood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her childhood problems persisted into adulthood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەکانی منداڵیی بەردەوام بوون لە پێگەیشتوویی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

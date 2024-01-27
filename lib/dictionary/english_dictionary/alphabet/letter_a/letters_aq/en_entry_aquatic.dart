@@ -177,12 +177,18 @@ class EnglishEntryaquatic extends StatelessWidget {
 ١. (ھاوەڵناو) گیانلەبەرێک کە لە ئاو یان نزیکی ئاو دەژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many forms of aquatic life inhabit ponds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many forms of aquatic life inhabit ponds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryaquatic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ئاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Aquatic sports include swimming and rowing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Aquatic sports include swimming and rowing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەرزشی ئاوی مەلەکردن و بەلەمەوانی لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

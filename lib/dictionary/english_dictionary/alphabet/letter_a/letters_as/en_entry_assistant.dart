@@ -180,12 +180,18 @@ class EnglishEntryassistant extends StatelessWidget {
 ١. (ناو) کەسێک کە لە کارکردندا وەک یاریدەدەر کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My assistant will now demonstrate the machine in action."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاریدەدەرەکەم ئێستا چۆنیەتی کارکردنی ئامێرەکەتان پێ‌پیشان‌دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My assistant will now demonstrate the machine in action."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاریدەدەرەکەم ئێستا چۆنیەتی کارکردنی ئامێرەکەتان پێ‌پیشان‌دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryassistant extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was working as a special assistant to the president."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک یاریدەدەرێکی تایبەت بۆ سەرۆک کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was working as a special assistant to the president."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک یاریدەدەرێکی تایبەت بۆ سەرۆک کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryassistant extends StatelessWidget {
 ٢. (ناو) کەسێک کە لە فرؤشگایەکدا کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She worked as an assistant in a local bookshop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک فرۆشیارێک لە کتێب‌فرۆشێکی ناوخۆیی کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She worked as an assistant in a local bookshop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک فرۆشیارێک لە کتێب‌فرۆشێکی ناوخۆیی کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

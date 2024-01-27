@@ -179,12 +179,18 @@ class EnglishEntryatheist extends StatelessWidget {
 ١. (ناو) کەسێک کە باوەڕی بە بوونی خودا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As an atheist, I do not accept this religious argument."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As an atheist, I do not accept this religious argument."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک بێ‌دینێک گفتوگۆ ئاینییەکەی پەسەند ناکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

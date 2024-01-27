@@ -169,12 +169,18 @@ class EnglishEntryanimatronics extends StatelessWidget {
 ١. (ناو) پڕۆسەی درووستکردنی ڕۆبۆت لەشێوەی مرۆڤ یان ئاژەڵدا کە لە فیلمدا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ask them if they can find out who's doing the animatronics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ask them if they can find out who's doing the animatronics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پرسیاریان لێ‌بکە ئاخۆ دەزانن کێ کاری ئانیماترۆنیکسەکەی کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,11 +177,18 @@ class EnglishEntryapparently extends StatelessWidget {
 ١. (ھاوەڵناو) بەپێی ئەوەی بیستووتە یان خوێندووتەوە؛ بەپێی ئەوەی دەردەکەوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Apparently they are getting divorced soon."),
-                              const ExampleSentenceKurdish(
-                                  text: "وادیارە بەم‌نزیکانە جیادەبنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Apparently they are getting divorced soon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادیارە بەم‌نزیکانە جیادەبنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +209,18 @@ class EnglishEntryapparently extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I thought she had retired, but apparently she hasn't."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I thought she had retired, but apparently she hasn't."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وامزانی خانەنشین‌بووە، بەڵام وادیارە وانییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -124,12 +124,18 @@ class EnglishEntryaids extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی کوشندە کە لە ڕێگەی ڤایرۆسی ئێچ ئای ڤییەوە لە کەسێک بۆ کەسێکی تر دەگوازرێتەوە و دەبێتەھۆی لاوازی جەستە بەرامبەر نەخۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She died of an AIDs-related illness at the age of 54."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She died of an AIDs-related illness at the age of 54."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

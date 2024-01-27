@@ -174,12 +174,18 @@ class EnglishEntryaqualung extends StatelessWidget {
 ١. (ناو) دەسگایەک کە کەسێک لەسەر پشتیان دەیبەستن بۆ ھەناسەدان لەژێر ئاودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The word 'aqualung' is a combination of 'aqua' for water and 'lung' for breathing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The word 'aqualung' is a combination of 'aqua' for water and 'lung' for breathing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی 'aqualung' لێکدراوی وشەکانی 'aqua' بە واتای ئاو و 'lung' بە واتای ھەناسەدانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

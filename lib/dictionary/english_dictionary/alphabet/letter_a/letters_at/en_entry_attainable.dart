@@ -180,12 +180,18 @@ class EnglishEntryattainable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە توانای بەدەستھاتنی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This standard is easily attainable by most students."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This standard is easily attainable by most students."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

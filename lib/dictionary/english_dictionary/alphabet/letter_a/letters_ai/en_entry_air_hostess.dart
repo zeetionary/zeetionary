@@ -128,12 +128,18 @@ class EnglishEntryairhostess extends StatelessWidget {
 ١. (ناو) کارگوزاری فڕۆکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An air hostess announced that the plane had been hijacked."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An air hostess announced that the plane had been hijacked."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە کارگوزاران ڕایگەیاند فڕۆکەکە ڕفێندراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

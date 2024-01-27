@@ -182,12 +182,18 @@ class EnglishEntryaudience extends StatelessWidget {
 ١. (ناو) ئامادەبووانی شانۆیەک، کۆنسێرتێک، وتارێک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The audience was/were clapping for 10 minutes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The audience was/were clapping for 10 minutes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادەبووان بۆ ماوەی ١٠ خولەک چەپڵەیان لێدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryaudience extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The museum is trying to attract a wider audience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The museum is trying to attract a wider audience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆزەخانەکە ھەوڵ دەدات سەردانیکاری زیاتر ڕابکێشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryaudience extends StatelessWidget {
 ٢. (ناو) ئەو کەسانەی کە گوێگر، بینەر، یان خوێنەری ھەمان شتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His book reached an even wider audience when it was made into a movie."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His book reached an even wider audience when it was made into a movie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکەی گەشت بە ھەواداری زیاتر کە کرا بە فیلم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryaudience extends StatelessWidget {
 ٣. (ناو) کۆبوونەوە لەگەڵ کەسێکی گرنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had a private audience with the king."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a private audience with the king."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆبوونەوەیەکی تایبەتی ھەبوو لەگەڵ پاشا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryalas extends StatelessWidget {
 ١. (سەرسوڕمان) بۆ دەربڕینی نیگەرانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For many people, alas, hunger is part of everyday life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For many people, alas, hunger is part of everyday life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ زۆر کەس، بەداخەوە، برسێتی بەشێکە لە ژیانی ڕۆژانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryalto extends StatelessWidget {
 ١. (ناو) دەنگێکی گۆرانی وتن کە نزمترە لە سۆپرانۆ (بەرزترین ئاست)، کەسێک کە بەم شێوەیە گۆرانی دەڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She began by singing soprano, then changed to alto."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She began by singing soprano, then changed to alto."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی پێکرد بە چڕینی سۆپرانۆ، و دواتر گۆڕی بۆ ئالتۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

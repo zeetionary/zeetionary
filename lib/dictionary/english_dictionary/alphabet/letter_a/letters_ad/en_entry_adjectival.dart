@@ -127,10 +127,16 @@ class EnglishEntryadjectival extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ھاوەڵناو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "an adjectival phrase"),
-                              const ExampleSentenceKurdish(
-                                  text: "گرێی ھاوەڵناوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "an adjectival phrase"),
+                                    ExampleSentenceKurdish(
+                                        text: "گرێی ھاوەڵناوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

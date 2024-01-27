@@ -127,12 +127,18 @@ class EnglishEntryadrenaline extends StatelessWidget {
 ١. (ھاوەڵناو) مادەیەک کە لە جەستەدا بەرھەم دێت کاتێک خرۆشاویت، ترساویت یان توڕەیت. وا دەکات دڵ خێراتر لێبدات و وزە و توانای جوڵەی خێرات زیاد دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The excitement at the start of a race can really get the adrenaline flowing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The excitement at the start of a race can really get the adrenaline flowing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆشوخرۆشی لە سەرەتای پێشبڕکێیەک دەکرێت وابکات ئەدریناڵین زیادبکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

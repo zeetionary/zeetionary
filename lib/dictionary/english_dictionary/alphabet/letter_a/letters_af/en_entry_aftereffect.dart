@@ -128,12 +128,18 @@ class EnglishEntryaftereffect extends StatelessWidget {
 ١. (ناو) کاریگەری دەرمانێک یان ڕووداوێک کە دواتر دەردەکەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Headaches are an aftereffect of this sort of accident."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Headaches are an aftereffect of this sort of accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرئێشە دەرئەنجامی ئەم جۆرە ڕووداوانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryaquamarine extends StatelessWidget {
 ١. (ناو) بەردێکی سەوزی شین‌باوی گران‌بەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beads made of aquamarine can bring luck in love."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beads made of aquamarine can bring luck in love."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مورووی زومروود دەکرێت بەخت‌ھێنەر بێت لە خۆشەویستیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryaquamarine extends StatelessWidget {
 ٢. (ناو) ڕەنگی سەوزی شین‌باوی ڕۆشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The television screen became a rectangle of icy aquamarine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The television screen became a rectangle of icy aquamarine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شاشەی تەلەفیزیۆنەکە بوو بە پارچە لاکێشەیەکی سەھۆڵی سەوزی شین‌باو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryaquamarine extends StatelessWidget {
 ٣. (ھاوەڵناو) ڕەنگی سەوزی شین‌باوی ڕۆشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aquamarine sea sparkled under the bright sun, creating a breathtaking view."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aquamarine sea sparkled under the bright sun, creating a breathtaking view."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەریا سەوزە شین‌باوەکە ئەدرەوشایەوە لەژێج خۆرە ڕۆشنەکەدا و دیمەنێکی دڵ‌ڕفێنەری درووستکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

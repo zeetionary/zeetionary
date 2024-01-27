@@ -180,11 +180,18 @@ class EnglishEntryassured extends StatelessWidget {
 ١. (ھاوەڵناو) بە متمانەبەخۆبوونەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He spoke in a calm, assured voice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قسەی کرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spoke in a calm, assured voice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قسەی کرد بە دەنگێکی لەسەرخۆ و متمانەبەخۆبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,10 +213,16 @@ class EnglishEntryassured extends StatelessWidget {
 ٢. (ھاوەڵناو) مسۆگەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Success seemed assured."),
-                              const ExampleSentenceKurdish(
-                                  text: "بردنەوە مسۆگەر دیاربوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Success seemed assured."),
+                                    ExampleSentenceKurdish(
+                                        text: "بردنەوە مسۆگەر دیاربوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +244,18 @@ class EnglishEntryassured extends StatelessWidget {
 ٣. (ھاوەڵناو) دڵنیایی لە بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You are assured of a warm welcome at this hotel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You are assured of a warm welcome at this hotel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت دڵنیابیت لە پێشوازییەکی گەرم لەم ھوتێلە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,11 +177,18 @@ class EnglishEntryarmchair extends StatelessWidget {
 ١. (ناو) کورسییەکی ئاسوودەبەخش کە جێ‌دەستی ھەیە و دەتوانی دەستت لەسەریان دابنێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He eased himself into the big armchair."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He eased himself into the big armchair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئیستراحەتی کرد لەسەر قەنەفە گەورەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +210,18 @@ class EnglishEntryarmchair extends StatelessWidget {
 ٢. (ھاوەڵناو) زانینی شتێک لە ڕێگەی تەلەفیزیۆن، ئینتەرنێت، یان کتێبەوە، لە جیاتی ئەوەی ئەزموونت تێیدا ھەبێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "While fewer people are attending football matches, armchair viewers are growing in number."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "While fewer people are attending football matches, armchair viewers are growing in number."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکاتێکدا خەڵکی کەمتر بەژداری یارییەکانی تۆپێن دەکەن، ژمارەی تەماشاکاران لە ماڵەوە زیاد دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

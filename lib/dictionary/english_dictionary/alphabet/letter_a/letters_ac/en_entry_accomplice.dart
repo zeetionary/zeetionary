@@ -113,12 +113,18 @@ class EnglishEntryaccomplice extends StatelessWidget {
 ١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ ئەنجامدانی تاوانێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police suspect that he had an accomplice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس گومان دەکەن کە ھاودەستێکی ھەبووبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police suspect that he had an accomplice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس گومان دەکەن کە ھاودەستێکی ھەبووبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

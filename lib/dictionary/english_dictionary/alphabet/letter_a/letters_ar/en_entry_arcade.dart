@@ -177,12 +177,18 @@ class EnglishEntryarcade extends StatelessWidget {
 ١. (ناو) ڕێگایەکی سەر داخراو کە کەوانەی تێدایە و تەنیشتەکانی بینایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Families like to spend time together at the shopping arcade on weekends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Families like to spend time together at the shopping arcade on weekends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکان حەزدەکەن پێکەوە کات بەسەر ببەن لە قەیسەرییەکە لە ڕۆژانی کۆتایی ھەفتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarcade extends StatelessWidget {
 ٢. (ناو) شوێنێک کە دەتوانی یاری بە ئامێر بکەیت بە پێدانی دراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Playing arcade games can be a fun way to spend time with friends and family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Playing arcade games can be a fun way to spend time with friends and family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کردنی یارییە ئارکەیدییەکان دەکرێت ڕێگایەکی خۆش بێت بۆ بەسەربردنی ھەندێک کات لەگەڵ ھاوڕێیان و خێزان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

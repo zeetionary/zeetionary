@@ -127,12 +127,18 @@ class EnglishEntryaffix extends StatelessWidget {
 ١. (کردار) لکاندنی شتێک بە شتێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sticker must be affixed to your windshield."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sticker must be affixed to your windshield."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستیکەرەکە ئەبێت بلکێنرێت بە جامی ئۆتۆمبێلەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

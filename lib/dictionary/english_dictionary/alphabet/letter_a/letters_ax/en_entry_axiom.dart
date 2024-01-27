@@ -171,12 +171,18 @@ class EnglishEntryaxiom extends StatelessWidget {
 ١. (ناو) بنەما یان باوەڕێک کە زۆر کەس باوەڕیان وایە ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is a widely held axiom that governments should not negotiate with terrorists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is a widely held axiom that governments should not negotiate with terrorists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە ڕێسایەکی بەربڵاوە کە حکومەتەکان نابێت مامەڵە لەگەڵ تیرۆریستان بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

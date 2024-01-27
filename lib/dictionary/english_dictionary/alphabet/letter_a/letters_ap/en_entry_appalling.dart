@@ -176,11 +176,18 @@ class EnglishEntryappalling extends StatelessWidget {
 ١. (ھاوەڵناو) ئێجگار خراپ، بەتایبەتی لەلایەنی ئەخلاقییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prisoners were living in appalling conditions."),
-                              const ExampleSentenceKurdish(
-                                  text: "زیندانیان لە دۆخی تۆقێنەردا دەژیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prisoners were living in appalling conditions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیندانیان لە دۆخی تۆقێنەردا دەژیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

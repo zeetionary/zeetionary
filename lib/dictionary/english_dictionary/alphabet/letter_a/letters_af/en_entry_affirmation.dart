@@ -130,12 +130,18 @@ class EnglishEntryaffirmation extends StatelessWidget {
 ١. (ھاوەڵناو) بە فەرمی ڕاگەیاندنی ئەوەی شتێک ڕاستە، یان ئەوەی کە پشتگیری شتێک بە تەواوی دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We welcome the government's affirmation of its intention to act."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We welcome the government's affirmation of its intention to act."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشوازی دەکەین لە پشتڕاستکردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryaffirmation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some people need frequent affirmations of love from their partners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people need frequent affirmations of love from their partners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کەس ماوە ماوە پێویستیان بە سەلماندنی خۆشەویستی لە ھاوسەرەکانیانەوە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,12 +192,18 @@ class EnglishEntryaffirmation extends StatelessWidget {
 ٢. (ھاوەڵناو) پشتیوانی سۆزداری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children were constantly looking for affirmation from their parents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children were constantly looking for affirmation from their parents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان بەردەوام داوای ھەست و سۆزی دایک و باوکیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -121,10 +121,17 @@ class EnglishEntryabusive extends StatelessWidget {
 ١. (ھاوەڵناو) بێ ڕێز و توندوتیژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He became abusive when he was drunk."),
-                              const ExampleSentenceKurdish(
-                                  text: "کە دەیخواردەوە توندوتیژ دەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He became abusive when he was drunk."),
+                                    ExampleSentenceKurdish(
+                                        text: "کە دەیخواردەوە توندوتیژ دەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -143,12 +150,18 @@ class EnglishEntryabusive extends StatelessWidget {
 ٢. (ھاوەڵناو) بارودۆخێک کە توندوتیژی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After many years in an abusive relationship, she left her husband."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After many years in an abusive relationship, she left her husband."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

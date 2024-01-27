@@ -125,12 +125,18 @@ class EnglishEntryadmiral extends StatelessWidget {
 ١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The admiral visited the ships under his command."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The admiral visited the ships under his command."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

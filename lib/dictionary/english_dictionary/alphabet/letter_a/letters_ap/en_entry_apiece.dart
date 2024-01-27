@@ -176,12 +176,18 @@ class EnglishEntryapiece extends StatelessWidget {
 ١. (ھاوەڵکار) بوونی بڕێک لەلایەن ھەریەکێک نەک پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sterling and Walcott scored a goal apiece."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sterling and Walcott scored a goal apiece."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستێرلینگ و واڵکۆت یەکی گۆڵێکیان تۆمارکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

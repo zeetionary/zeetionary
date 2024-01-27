@@ -125,12 +125,18 @@ class EnglishEntryairforce extends StatelessWidget {
 ١. (ناو) ھێزی ئاسمانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His parents discouraged him from joining the airforce."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His parents discouraged him from joining the airforce."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکی ساردیان کردەوە لە پەیوەندیکردن بە ھێزی ئاسمانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

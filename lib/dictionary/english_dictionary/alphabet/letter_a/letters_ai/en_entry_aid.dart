@@ -181,12 +181,18 @@ class EnglishEntryaid extends StatelessWidget {
 ١. (ناو) خواردن و کەلوپەل کە وەک یارمەتی دابەش دەکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The British government has now suspended humanitarian aid to the area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The British government has now suspended humanitarian aid to the area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەتی بەریتانیا ھاریکاری مرۆیی بۆ ناوچەکە وەستاندووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryaid extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Emergency aid arrived too late for many."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Emergency aid arrived too late for many."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارمەتی فریاگوزاری زۆر درەنگ بۆ زۆر کەس گەشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +243,18 @@ class EnglishEntryaid extends StatelessWidget {
 ٢. (ناو) یارمەتییەک کە پێویستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of the staff saw he was in difficulty and came to his aid (= helped him)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the staff saw he was in difficulty and came to his aid (= helped him)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە ستافەکە بینی کە لە کێشەدایە و چوو بە ھانای."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,10 +275,18 @@ class EnglishEntryaid extends StatelessWidget {
 ٣. (ناو) شتێک کە یارمەتیت دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Photos make useful teaching aids."),
-                              const ExampleSentenceKurdish(
-                                  text: "وێنە یارمەتیدەری باشە لە فێرکردندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Photos make useful teaching aids."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێنە یارمەتیدەری باشە لە فێرکردندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,12 +307,18 @@ class EnglishEntryaid extends StatelessWidget {
 ٤. (کردار) یارمەتیتدانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The charity was established to aid hurricane victims."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The charity was established to aid hurricane victims."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخراوە خێرخوازییەکە دامەزرا بۆ یارمەتیدانی قوربانیانی گێژەلووکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -305,12 +337,18 @@ class EnglishEntryaid extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were accused of aiding him to escape."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were accused of aiding him to escape."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆمەتبارکران بە یارمەتیدانی لە ڕاکردندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -331,12 +369,18 @@ class EnglishEntryaid extends StatelessWidget {
 ٥. (کردار) یارمەتیتدانی ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "New drugs are now available to aid recovery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "New drugs are now available to aid recovery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرمانە تازەکان ئێستا بەردەستن بۆ یارمەتیدانی چاکبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -355,10 +399,16 @@ class EnglishEntryaid extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Peppermint aids digestion."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەعنا یارمەتی ھەرسکردن دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Peppermint aids digestion."),
+                                    ExampleSentenceKurdish(
+                                        text: "نەعنا یارمەتی ھەرسکردن دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

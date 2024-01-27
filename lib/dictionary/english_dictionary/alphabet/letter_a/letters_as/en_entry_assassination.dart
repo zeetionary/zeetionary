@@ -179,12 +179,18 @@ class EnglishEntryassassination extends StatelessWidget {
 ١. (ناو) کوشتنی کەسێکی بەناوبانگ یان سیاسی، بەتایبەتی بۆ پارە یان ھۆکاری سیاسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president survived a number of assassination attempts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president survived a number of assassination attempts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆکەکە لە ژمارەیەک ھەوڵی تیرۆرکردن ڕزگاری‌بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

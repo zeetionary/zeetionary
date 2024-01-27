@@ -138,11 +138,18 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fruit juice tasted slightly alcoholic."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەربەتەکە کەمێک تامی کحولی دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fruit juice tasted slightly alcoholic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەربەتەکە کەمێک تامی کحولی دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -163,12 +170,18 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە کحول، یان ھەبوونی کحول تێیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The guests left in an alcoholic haze."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The guests left in an alcoholic haze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوانەکان بە گێژخواردوویی کحولەوە ڕۆشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,11 +202,18 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ٣. (ھاوەڵناو) ئاڵوودەی کحول بە ڕادەی نەخۆشبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was taking care of her alcoholic son."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاودێری کوڕە ئاڵوودەکەیی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was taking care of her alcoholic son."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاودێری کوڕە ئاڵوودەکەیی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +234,18 @@ class EnglishEntryalcoholic extends StatelessWidget {
 ٤. (ناو) کەسێک لە ڕادەبەدەر بخواتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don’t think an alcoholic can dry out without proper medical help."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don’t think an alcoholic can dry out without proper medical help."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم وانییە کەسێکی ئاڵوودە بتوانێت خواردنەوە تەرک بکات بەبێ یارمەتی گونجاوی پزیشکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

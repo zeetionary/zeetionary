@@ -128,11 +128,18 @@ class EnglishEntryadlib extends StatelessWidget {
 ١. (ھاوەڵکار) پێشکەشکردنی شتێک بەبێ ئامادەکاریی پێشوەختە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She delivered her speech ad lib."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She delivered her speech ad lib."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی بەبێ ئامادەکاریی پێشوەختە پێشکەشکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +160,18 @@ class EnglishEntryadlib extends StatelessWidget {
 ٢. (ھاوەڵکار) وتنی شتێک بەبێ ئامادەکاریی پێشوەختە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I lost my notes and had to ad-lib the whole speech."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I lost my notes and had to ad-lib the whole speech."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێبینییەکانمم ونکرد و ناچاربووم تەواوی وتارەکە لەخۆوە پێشکەش بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

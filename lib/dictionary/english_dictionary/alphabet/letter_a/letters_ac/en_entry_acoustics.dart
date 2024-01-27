@@ -127,11 +127,18 @@ class EnglishEntryacoustics extends StatelessWidget {
 ١. (ناو) گونجانی دیزاینی بینایەک لەگەڵ گواستنەوەی دەنگ بەناویدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The acoustics of the concert hall are excellent."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The acoustics of the concert hall are excellent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھۆڵی کۆنسێرتەکە زۆر گونجاوە بۆ دەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

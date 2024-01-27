@@ -125,10 +125,17 @@ class EnglishEntryacquit extends StatelessWidget {
 ١. (کردار) لێخۆشبوون لە گومانلێکراوێک لە دادگا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was acquitted on all charges."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ھەموو تۆمەتەکان بێبەریکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was acquitted on all charges."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ھەموو تۆمەتەکان بێبەریکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

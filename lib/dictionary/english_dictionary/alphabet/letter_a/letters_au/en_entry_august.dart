@@ -178,10 +178,16 @@ class EnglishEntryaugust extends StatelessWidget {
 ١. (ناو) مانگی ٨ کە دەکەوێت نێوان تەممووز و ئەیلوول"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was born in August."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە مانگی ئاب لەدایکبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She was born in August."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە مانگی ئاب لەدایکبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryarsenal extends StatelessWidget {
 ١. (ناو) چەک و تەقەمەنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The treaty requires them to reduce their nuclear arsenal by 30%."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The treaty requires them to reduce their nuclear arsenal by 30%."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنەکە ناچاریان دەکات چەکی ئەتۆمییان بە ڕێژەی ٣٠٪ کەم بکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryarsenal extends StatelessWidget {
 ٢. (ناو) کۆگای چەک و تەقەمەنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The building was used as an arsenal until the eighteenth century."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The building was used as an arsenal until the eighteenth century."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیناکە وەک جبەخانەیەک بەکارھات تاوەکو سەدەی ھەژدە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryadvancement extends StatelessWidget {
 ١. (ناو) پڕۆسەی بەرەوپێشچوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All she was interested in was the advancement of her own career."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All she was interested in was the advancement of her own career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەوەی گرنگ بوو بۆی بەرەوپێشچوونی کارەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

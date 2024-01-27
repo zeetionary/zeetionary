@@ -177,12 +177,18 @@ class EnglishEntryaudibly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە دەبیسترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Jets audibly passed overhead but the sky was too overcast for them to be seen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jets audibly passed overhead but the sky was too overcast for them to be seen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

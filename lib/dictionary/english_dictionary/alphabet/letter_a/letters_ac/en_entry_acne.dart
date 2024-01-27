@@ -127,10 +127,17 @@ class EnglishEntryacne extends StatelessWidget {
 ١. (ناو) ژمارەیەک زیپکە کە لە تەمەنی گەنجیدا دەردەکەوێت لەسەر ڕووخسار و مل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Acne often clears up by itself."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاکنی بەزۆری بۆ خۆی لادەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Acne often clears up by itself."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاکنی بەزۆری بۆ خۆی لادەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

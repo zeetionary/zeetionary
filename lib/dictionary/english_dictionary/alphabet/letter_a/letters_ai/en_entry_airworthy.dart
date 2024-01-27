@@ -129,10 +129,18 @@ class EnglishEntryairworthy extends StatelessWidget {
 ١. (ھاوەڵناو) فڕۆکەیەک کە گونجاوە بۆ فڕین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The planes were certified airworthy."),
-                              const ExampleSentenceKurdish(
-                                  text: "فڕۆکەکان بە گونجاو بۆ فڕین دانران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The planes were certified airworthy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکان بە گونجاو بۆ فڕین دانران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

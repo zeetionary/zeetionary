@@ -180,12 +180,18 @@ class EnglishEntryautomobile extends StatelessWidget {
 ١. (ناو) ئۆتۆمبیل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Learning to drive an automobile is not easy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Learning to drive an automobile is not easy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فێربوونی لێخوڕینی ئۆتۆمبێل ئاسان نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

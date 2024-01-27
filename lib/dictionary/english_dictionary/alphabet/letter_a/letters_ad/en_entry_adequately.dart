@@ -125,12 +125,18 @@ class EnglishEntryadequately extends StatelessWidget {
 ١. (ھاوەڵکار) بەپێی پێویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "While some patients can be adequately cared for at home, others are best served by care in a hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "While some patients can be adequately cared for at home, others are best served by care in a hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

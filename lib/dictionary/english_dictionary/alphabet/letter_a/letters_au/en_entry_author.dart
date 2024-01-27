@@ -182,11 +182,17 @@ class EnglishEntryauthor extends StatelessWidget {
 ١. (ناو) کەسێک کە کتێبێک دەنووسێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is the author of three books on art."),
-                              const ExampleSentenceKurdish(
-                                  text: "نووسەری سێ کتێبە لەسەر ھونەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is the author of three books on art."),
+                                    ExampleSentenceKurdish(
+                                        text: "نووسەری سێ کتێبە لەسەر ھونەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryauthor extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The film is based on a novel written by a female author."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The film is based on a novel written by a female author."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryauthor extends StatelessWidget {
 ٢. (ناو) کەسێک کە پلانێک یان بیرۆکەیەک دادەڕێژێت یان دەستی‌پێدەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As the author of the proposal I cannot agree with you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As the author of the proposal I cannot agree with you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,10 +278,17 @@ class EnglishEntryauthor extends StatelessWidget {
 ٣. (کردار) بوون بە نووسەری کتێبێک، وتارێک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He has authored more than 30 books."),
-                              const ExampleSentenceKurdish(
-                                  text: "زیاتر لە ٣٠ کتێبی نووسیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has authored more than 30 books."),
+                                    ExampleSentenceKurdish(
+                                        text: "زیاتر لە ٣٠ کتێبی نووسیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

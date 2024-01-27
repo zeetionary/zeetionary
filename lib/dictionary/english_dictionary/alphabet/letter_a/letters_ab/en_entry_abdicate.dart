@@ -112,11 +112,18 @@ class EnglishEntryabdicate extends StatelessWidget {
 ١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He abdicated in favour of his son."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He abdicated in favour of his son."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -133,12 +140,18 @@ class EnglishEntryabdicate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was forced to abdicate the throne of Spain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was forced to abdicate the throne of Spain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

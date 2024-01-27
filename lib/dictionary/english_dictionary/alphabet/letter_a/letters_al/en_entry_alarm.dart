@@ -198,11 +198,17 @@ class EnglishEntryalarm extends StatelessWidget {
 ١. (ناو) دەنگێکی بەرز کە خەڵکی لە کێشە ئاگادار دەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She decided to sound the alarm (= warn people that the situation was dangerous)."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیاریدا زەنگی مەترسی لێبدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She decided to sound the alarm (= warn people that the situation was dangerous)."),
+                                    ExampleSentenceKurdish(
+                                        text: "بڕیاریدا زەنگی مەترسی لێبدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +227,18 @@ class EnglishEntryalarm extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I hammered on all the doors to raise the alarm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I hammered on all the doors to raise the alarm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ھەموو دەرگاکانم دا بۆ ئاگادارکردنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +259,18 @@ class EnglishEntryalarm extends StatelessWidget {
 ٢. (ناو) ئامێرێک کە زەنگی مەترسی لێدەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A car alarm went off in the middle of the night (= started ringing)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A car alarm went off in the middle of the night (= started ringing)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگی ئاگادارکەرەوەی ئۆتۆمبێلێک لە نیوە شەودا دەستی بە لێدان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -273,11 +291,18 @@ class EnglishEntryalarm extends StatelessWidget {
 ٣. (ناو) زەنگێک کە دیاری دەکەیت لەسەر کاتژمێرێک یان موبایل بۆ ئەوەی لە کاتێکی دیاریکراو لێبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The alarm went off at 7 o'clock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The alarm went off at 7 o'clock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگەکە لە کاتژمێر ٧ دەستی بە لێدان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -298,12 +323,18 @@ class EnglishEntryalarm extends StatelessWidget {
 ٤. (ناو) ترس و نیگەرانی لە کاتی مەترسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor said there was no cause for alarm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor said there was no cause for alarm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکەکە وتی ھیچ ھۆکارێک نییە بۆ دڵەخورپە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -324,12 +355,18 @@ class EnglishEntryalarm extends StatelessWidget {
 ٥. (کردار) درووستکردنی نیگەرانی یان مەترسی لای کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It alarms me that nobody takes this problem seriously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It alarms me that nobody takes this problem seriously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی دڵەخورپە دەبم کە ھیچ کەس ئەم کێشەیە بە جدی وەرناگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

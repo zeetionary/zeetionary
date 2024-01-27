@@ -122,11 +122,18 @@ class EnglishEntryaccumulate extends StatelessWidget {
 ١. (کردار) کۆکردنەوەی شتێک بە تێپەڕبوونی کات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I seem to have accumulated a lot of books."),
-                              const ExampleSentenceKurdish(
-                                  text: "وادیارە کتێبی زۆرم خڕکردووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I seem to have accumulated a lot of books."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادیارە کتێبی زۆرم خڕکردووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -143,12 +150,18 @@ class EnglishEntryaccumulate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Dust and dirt soon accumulate if a house is not cleaned regularly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Dust and dirt soon accumulate if a house is not cleaned regularly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەپوتۆز ھەرزوو زیاددەکەن ئەگەر خانوویەک بە بەردەوامی پاکنەکرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

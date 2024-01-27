@@ -126,11 +126,18 @@ class EnglishEntryairconditioned extends StatelessWidget {
 ١. (ھاوەڵناو) شوێنێک کە سیستەمی فێنککەرەوەی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The restaurant is air-conditioned."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The restaurant is air-conditioned."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چێشتخانەکە سیستەمی فێنککەرەوەی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

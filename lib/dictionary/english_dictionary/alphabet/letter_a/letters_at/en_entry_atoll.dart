@@ -179,12 +179,18 @@ class EnglishEntryatoll extends StatelessWidget {
 ١. (ھاوەڵناو) دوورگەیەک کە لە شیلانە لە شێوەی ئەڵقەیەکدا پێکھاتووە لەگەڵ دەریاچەیەک لە ناوەڕاستیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Maldives is a group of atolls in the Indian Ocean."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Maldives is a group of atolls in the Indian Ocean."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماڵدیف کۆمەڵە شیلانەدوورگەیەکە لە زەریای ھندی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -146,12 +146,18 @@ class EnglishEntryadmission extends StatelessWidget {
 ١. (ناو) وەرگرتنی کەسێک لە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hospital admission is not necessary in most cases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hospital admission is not necessary in most cases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -170,11 +176,18 @@ class EnglishEntryadmission extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Is there any charge for admission?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is there any charge for admission?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +208,18 @@ class EnglishEntryadmission extends StatelessWidget {
 ٢. (ناو) دانپێدانانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has made no admission of any involvement in the plot."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has made no admission of any involvement in the plot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,11 +240,17 @@ class EnglishEntryadmission extends StatelessWidget {
 ٣. (ناو) بڕە پارەیەک کە ئەدرێت بۆ چوونەژوورەوە بۆ شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is an admission fee of 10 dollars."),
-                              const ExampleSentenceKurdish(
-                                  text: "کرێی چوونەژوورەوە ١٠ دۆلارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is an admission fee of 10 dollars."),
+                                    ExampleSentenceKurdish(
+                                        text: "کرێی چوونەژوورەوە ١٠ دۆلارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

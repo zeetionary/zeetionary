@@ -170,12 +170,18 @@ class EnglishEntryawaken extends StatelessWidget {
 ٢. (کردار) درووستبوونی یان درووستکردنی ھەستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dream awakened terrible memories."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dream awakened terrible memories."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەونەکە یادەوەری تۆقێنەری زیندووکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

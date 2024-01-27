@@ -127,10 +127,17 @@ class EnglishEntryadherence extends StatelessWidget {
 ١. (ناو) پابەندبوون بە شتێک کە باوەڕت پێی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "strict adherence to the rules"),
-                              const ExampleSentenceKurdish(
-                                  text: "پابەندبوونی توند بە یاساکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "strict adherence to the rules"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پابەندبوونی توند بە یاساکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

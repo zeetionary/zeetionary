@@ -128,11 +128,18 @@ class EnglishEntryadulterer extends StatelessWidget {
 ١. (ناو) کەسێک کە زینا دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her husband was a compulsive adulterer."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھاوسەرەکەی زیناکارێکی خراپ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her husband was a compulsive adulterer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوسەرەکەی زیناکارێکی خراپ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

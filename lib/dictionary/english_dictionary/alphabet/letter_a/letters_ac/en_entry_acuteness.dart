@@ -126,12 +126,18 @@ class EnglishEntryacuteness extends StatelessWidget {
 ١. (ناو) ڕێژەی کوشندەیی و سەختی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The choice of drug depends upon the severity, acuteness and cause of the pain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The choice of drug depends upon the severity, acuteness and cause of the pain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵبژاردنی دەرمانەکە دەکەوێتە سەرکوشندەیی، دژواری، و ھۆکاری ئازارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryacuteness extends StatelessWidget {
 ٢. (ناو) ڕێژەی ھەستیاریی ھەستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is remembered for the acuteness of his intellect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is remembered for the acuteness of his intellect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاد دەکرێتەوە بۆ بوونی داناییەکی زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

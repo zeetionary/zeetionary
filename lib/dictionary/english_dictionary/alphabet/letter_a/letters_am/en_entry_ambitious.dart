@@ -130,12 +130,18 @@ class EnglishEntryambitious extends StatelessWidget {
 ١. (ھاوەڵناو) ڕشت لەسەر ئەوەی دەوڵەمەند و سەرکەوتووبیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm not ambitious enough to try for the top."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm not ambitious enough to try for the top."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێندە تەماح‌کار نیم ھەوڵ بۆ باشترین بدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryambitious extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The students are all ambitious to do well."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێنکاران ھەموویان ئامانجیانە باش بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The students are all ambitious to do well."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێنکاران ھەموویان ئامانجیانە باش بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

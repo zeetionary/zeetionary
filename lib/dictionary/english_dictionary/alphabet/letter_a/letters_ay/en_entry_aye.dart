@@ -170,12 +170,18 @@ class EnglishEntryaye extends StatelessWidget {
 ١. (سەرسوڕمان) بەڵێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Did you see what happened?’ ‘Oh aye, I was there.’"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Did you see what happened?’ ‘Oh aye, I was there.’"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,10 +202,17 @@ class EnglishEntryaye extends StatelessWidget {
 ٢. (سەرسوڕمان) ھەمیشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I have aye wanted to see London."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە ویستوومە لەندەن ببینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have aye wanted to see London."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەمیشە ویستوومە لەندەن ببینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

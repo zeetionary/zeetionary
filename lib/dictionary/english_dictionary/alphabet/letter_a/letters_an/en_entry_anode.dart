@@ -171,12 +171,18 @@ class EnglishEntryanode extends StatelessWidget {
 ١. (ناو) جەمسەری ئەرێنی؛ شوێنی چوونە ژوورەوەی تەزووی کارەبایی لە باتری یان ئامێری کارەبایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A red wire is often attached to the anode."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A red wire is often attached to the anode."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وایەرێکی سوور زۆرجار دەلکێنرێت بە جەمسەرە گەرمەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

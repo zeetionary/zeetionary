@@ -138,11 +138,18 @@ class EnglishEntryactivity extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت لەبەرئەوەی حەزی لێیە یان چێژی لێ دەبینی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Shopping is now a leisure activity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shopping is now a leisure activity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -161,12 +168,18 @@ class EnglishEntryactivity extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The students were involved in a range of extracurricular activities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The students were involved in a range of extracurricular activities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکاران ژمارەیەک چالاکییان لە دەروەی بەرنامەی خوێندنیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -187,12 +200,18 @@ class EnglishEntryactivity extends StatelessWidget {
 ٢. (ناو) شتێک کە کەسێک دەیکات بە مەبەستی گەشتن بە ئامانجێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has decided to focus his time and resources on his business activities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has decided to focus his time and resources on his business activities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +232,18 @@ class EnglishEntryactivity extends StatelessWidget {
 ٣. (ناو) بارودۆخێک کە شتێک تێیدا ڕوودەدات، یان ژمارەیەکی زۆر شت دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The streets were noisy and full of activity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The streets were noisy and full of activity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryarbitrarily extends StatelessWidget {
 ١. (ھاوەڵکار) لەخۆوە؛ شتێک کە پشتی بە ھیچ لۆژیکێک، سیستەنێک، یان پلانێک نەبەستووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The leaders of the groups were chosen arbitrarily."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The leaders of the groups were chosen arbitrarily."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکردەی گرووپەکان بە ھەڕەمەکییانە ھەڵبژێردران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryarbitrarily extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە دەسەڵات بەکاردێت بە بێ‌سنووری و بە بێ گرنگیدان بە کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The political frontiers in Africa were often arbitrarily drawn up by the old colonial powers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنوورە سیاسییەکان لە ئەفریقا زۆرجار بە زۆرەملێیانە لەلایەن دەسەڵاتە داگیرکەرەکانی کۆنەوە دەکێشران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

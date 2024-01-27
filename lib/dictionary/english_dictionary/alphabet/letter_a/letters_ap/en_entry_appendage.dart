@@ -177,12 +177,18 @@ class EnglishEntryappendage extends StatelessWidget {
 ١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی گەورەتر یان گرنگتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They treat Scotland as a mere appendage of England."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک پاشکۆی ئەنگلتەرە مامەڵە لەگەڵ سکۆتلەندە دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They treat Scotland as a mere appendage of England."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک پاشکۆی ئەنگلتەرە مامەڵە لەگەڵ سکۆتلەندە دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryappendage extends StatelessWidget {
 ٢. (ناو) ئەندامی جەستەی گیانلەبەرێک کە دەردەچیتە دەرەوە و ئەرکێکی تایبەتی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two appendages hanging from the insect’s mouth are used to detect and taste food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو دوو ئەندامەی کە لە دەمی مێرووەکەوە دەرچوون بەکاردێن بۆ ناسینەوە و تام‌کردنی خۆراک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two appendages hanging from the insect’s mouth are used to detect and taste food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو دوو ئەندامەی کە لە دەمی مێرووەکەوە دەرچوون بەکاردێن بۆ ناسینەوە و تام‌کردنی خۆراک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

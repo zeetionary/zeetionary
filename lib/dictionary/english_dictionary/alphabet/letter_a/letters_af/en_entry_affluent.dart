@@ -127,10 +127,17 @@ class EnglishEntryaffluent extends StatelessWidget {
 ١. (ھاوەڵناو) دەوڵەمەند و خۆشگوزەران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We live in an affluent neighborhood."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە گەڕەکێکی دەوڵەمەند دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We live in an affluent neighborhood."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە گەڕەکێکی دەوڵەمەند دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

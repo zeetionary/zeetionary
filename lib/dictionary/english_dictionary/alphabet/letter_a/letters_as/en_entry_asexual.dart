@@ -178,10 +178,17 @@ class EnglishEntryasexual extends StatelessWidget {
 ١. (ھاوەڵناو) بەبێ چالاکی سێکسی یان بەبێ بوونی ھەستی سێکسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She led an asexual life."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیانێکی دوور لە سێکسی بەسەربرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She led an asexual life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژیانێکی دوور لە سێکسی بەسەربرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +210,18 @@ class EnglishEntryasexual extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە ھەستی سێکسی نییە، یان حەزی پێی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی سێکسنەخواز ئەتوانێت سێکس بکات ئەگەرچی دڵیشی نەچێت لە سێکس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +243,18 @@ class EnglishEntryasexual extends StatelessWidget {
 ٣. (ھاوەڵناو) بەبێ زاوزێ یان ھەبوونی ئەندامی زاوزێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Algae reproduce by both sexual and asexual reproduction."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Algae reproduce by both sexual and asexual reproduction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەوزە دەکرێت زاوزێ بکەن بە زۆربوونی سێکسی و بە ناسێکسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

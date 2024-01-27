@@ -171,12 +171,18 @@ class EnglishEntryavenge extends StatelessWidget {
 ١. (کرادر) تۆڵەکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He promised to avenge his father's murder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڵێنی‌دا تۆڵەی کووشتنی باوکی بکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He promised to avenge his father's murder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڵێنی‌دا تۆڵەی کووشتنی باوکی بکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

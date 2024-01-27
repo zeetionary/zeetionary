@@ -171,12 +171,18 @@ class EnglishEntryanecdote extends StatelessWidget {
 ١. (ناو) کورتە چیرۆکێکی سەرجڕاکێش و خۆش و پێکەنیناوی لەسەر کەسێک یان ڕووداوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book is a rich store of anecdote."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book is a rich store of anecdote."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە سەرچاوەیەکی دەوڵەمەندی سەرگوزشتەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryanecdote extends StatelessWidget {
 ٢. (ناو) گێڕانەوەی کەسیی کەسێک بۆ ڕووداوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This research is based on anecdote, not fact."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This research is based on anecdote, not fact."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم توێژینەوەیە پشتی بە سەرگوزشتە بەستووە نەک ڕاستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

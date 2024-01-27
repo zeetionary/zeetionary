@@ -177,12 +177,18 @@ class EnglishEntryattic extends StatelessWidget {
 ١. (ناو) ژووری ژێرزەمین، زۆرجار وەک کۆگا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've got boxes of old clothes in the attic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک سندووقی جلی کۆنم لەژێر زەمینەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've got boxes of old clothes in the attic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک سندووقی جلی کۆنم لەژێر زەمینەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

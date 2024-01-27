@@ -131,10 +131,18 @@ class EnglishEntryaloud extends StatelessWidget {
 ١. (ھاوەڵکار) بە دەنگێک کە خەڵکی تر گوێیان لێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He read the letter aloud to us."),
-                              const ExampleSentenceKurdish(
-                                  text: "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He read the letter aloud to us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەکەی بە دەنگی بەرز بۆ خوێندینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +161,18 @@ class EnglishEntryaloud extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People are starting to wonder aloud (= question publicly) whether the economic reforms have gone too far."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People are starting to wonder aloud (= question publicly) whether the economic reforms have gone too far."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی دەستیان کردووە بە گۆتەگۆت کە ئاخۆ چاکسازییە ئابوورییەکان پەلیان زۆر ھاویشتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,10 +193,16 @@ class EnglishEntryaloud extends StatelessWidget {
 ٢. (ھاوەڵکار) بە دەنگێکی بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She cried aloud in protest."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دەنگی بەرز ناڕەزایی دەربڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She cried aloud in protest."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە دەنگی بەرز ناڕەزایی دەربڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

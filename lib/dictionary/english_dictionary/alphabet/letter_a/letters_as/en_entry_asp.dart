@@ -178,12 +178,18 @@ class EnglishEntryasp extends StatelessWidget {
 ١. (ناو) مارێکی بچووک کە لە ڕۆژاوای ئەورووپا دەژی، و ناوێکی گشتگیر بۆ ژمارەیەک ماری بچووکی باکووری ئەفریقا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cleopatra, according to legend, committed suicide by an asp's bite."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cleopatra, according to legend, committed suicide by an asp's bite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی ئەفسانەکان کلیۆپاترا بە گازی ماری ئاسپ خۆی کووشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

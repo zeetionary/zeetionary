@@ -129,10 +129,17 @@ class EnglishEntryagricultural extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە زانست و کاری کشتوکاڵی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's studying agricultural science."),
-                              const ExampleSentenceKurdish(
-                                  text: "زانستی کشتوکاڵ دەخوێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's studying agricultural science."),
+                                    ExampleSentenceKurdish(
+                                        text: "زانستی کشتوکاڵ دەخوێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

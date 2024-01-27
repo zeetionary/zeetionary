@@ -180,12 +180,18 @@ class EnglishEntryassessor extends StatelessWidget {
 ١. (ناو) شارەزایەک لە باورێکی دیاریکراو کە لەلایەن دادگا یان بەرپرسی دیکە داوای ڕاوێژی لێ‌دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government appointed independent assessors to review the viability of the remaining coal mines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government appointed independent assessors to review the viability of the remaining coal mines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ھەڵسەنگێنەری سەربەخۆی دیاریکرد بۆ لێکۆڵینەوە لە گونجاوی ئەو خەڵووزانەی لە کانەکان مابوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryassessor extends StatelessWidget {
 ٢. (ناو) کەسێک کە نرخی شتێک دیاری‌دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The assessor's offices vary in how they determine a home's value."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The assessor's offices vary in how they determine a home's value."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆفیسی نرخێنەرەکان جیاوازن لە شێوازی خەمڵاندنی نرخی خانوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassessor extends StatelessWidget {
 ٣. (ناو) کەسێک کە ھەڵسەنگاندن بۆ ئاستی بەژداربوو لە تاقیکردنەوەیەک یان کێبڕکێیەک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The assessor evaluated the student's performance on the exam."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The assessor evaluated the student's performance on the exam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسەنگێنەرەکان توانای خوێندکارانیان لە تاقیکردنەوەکە نرخاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

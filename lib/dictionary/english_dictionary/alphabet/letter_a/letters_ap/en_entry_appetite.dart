@@ -177,12 +177,18 @@ class EnglishEntryappetite extends StatelessWidget {
 ١. (ناو) ئیشتیا؛ ھەبوونی حەزی خواردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He suffered from headaches and loss of appetite."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He suffered from headaches and loss of appetite."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی سەرئێشە و نەبوونی ئیشتیا بوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryappetite extends StatelessWidget {
 ٢. (ناو) ھەبوونی حەزێکی زۆر بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The BBC recognizes the public appetite for serious information."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بی بی سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The BBC recognizes the public appetite for serious information."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بی بی سی لە خواستی خەڵکی بۆ زانیاریی گرنگ تێ‌دەگات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

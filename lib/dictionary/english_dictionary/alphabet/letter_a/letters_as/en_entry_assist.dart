@@ -180,12 +180,18 @@ class EnglishEntryassist extends StatelessWidget {
 ١. (کردار) یارمەتی‌دان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are looking for people who would be willing to assist in the group's work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are looking for people who would be willing to assist in the group's work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ کەسانێک دەگەڕێین کە ئامادەبن یارمەتیدەربن لە کاری گرووپەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryassist extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His task is to advise and assist his colleagues."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His task is to advise and assist his colleagues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەرکەکەی ئەوەیە ڕاوێژ بدات بە ھاوکارەکانی و یارمەتییان بدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryassist extends StatelessWidget {
 ٢. (کردار) یارمەتیدان بۆ ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Volcanic eruptions like this probably assisted the development of life on this planet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Volcanic eruptions like this probably assisted the development of life on this planet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەقینەوەی گڕکانی وەک ئەمە ئەگەری ھەیە یارمەتیدەر بووبن لە گەشەی ژیان لەسەر زەوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryartfully extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی زیرەکانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In our conversation, he was artfully vague about his plans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In our conversation, he was artfully vague about his plans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گفتوگۆکەماندا بەشێوەیەکی زیرەکانە ناڕوون بوو سەبارەت بە پلانەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryartfully extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەکی زیرەکانە و وتنی درۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She opened her right hand but artfully concealed the key in her left hand."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی ڕاستی کردەوە بەڵام زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She opened her right hand but artfully concealed the key in her left hand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی ڕاستی کردەوە بەڵام زۆڵانە کلیلەکەی لە دەستی چەپی شاردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

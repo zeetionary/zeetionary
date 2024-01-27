@@ -129,10 +129,17 @@ class EnglishEntryalias extends StatelessWidget {
 ١. (ناو) ناوێکی تر کە ناوی ڕاستی کەسێک نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He travels under (= using) an alias."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەژێر نازناوێکدا گەشت دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He travels under (= using) an alias."),
+                                    ExampleSentenceKurdish(
+                                        text: "لەژێر نازناوێکدا گەشت دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +160,18 @@ class EnglishEntryalias extends StatelessWidget {
 ٢. (ھاوەڵکار) لەپێش دەربڕینی ناوێکی خوازراو بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Paul Kennedy, alias (= also known as) Rupert Sharp, went to prison today."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Paul Kennedy, alias (= also known as) Rupert Sharp, went to prison today."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاوڵ کەنەدی کە ھەروەھا ناسراوە بە ڕوپرت شارپ ئەمڕۆ چوو بپ زیندان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

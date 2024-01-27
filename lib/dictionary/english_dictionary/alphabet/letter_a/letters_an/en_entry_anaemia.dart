@@ -170,12 +170,18 @@ class EnglishEntryanaemia extends StatelessWidget {
 ١. (ناو) بارودۆخێکی تەندرووستی کە تێیدا کەسێک خڕۆکەی سوور یان ھیمۆگلۆبینی کەمە و دەبێتە ھۆی لاوازی و ڕەنگ‌پەڕیوی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The main symptoms of anaemia are tiredness and pallor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The main symptoms of anaemia are tiredness and pallor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیشانە سەرەکییەکانی ئەنیمیا ماندوێتی و ڕەنگ‌پەڕیویە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

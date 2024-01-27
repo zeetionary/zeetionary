@@ -178,12 +178,18 @@ class EnglishEntryannexe extends StatelessWidget {
 1. (کردار) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Delicate and valuable books are kept in an air-conditioned annexe to the main library."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Delicate and valuable books are kept in an air-conditioned annexe to the main library."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

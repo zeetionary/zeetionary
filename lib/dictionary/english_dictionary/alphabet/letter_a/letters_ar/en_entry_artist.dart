@@ -180,12 +180,18 @@ class EnglishEntryartist extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری ھونەری دەکات، بۆ نموونە وێنەکێشان یان نیگارکێشان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In 1942 the city commissioned war artist John Piper to paint its bombed cathedral."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ساڵی ١٩٤٢ بەرپرسانی شارەکە جۆن پیپەریان ڕاسپارد کە نیگارێکی کڵێسا بۆمب‌لێدراوەکەیان بکێشێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryartist extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The artist painted this picture using tiny brushstrokes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارھێنانی فڵچەی بچووک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The artist painted this picture using tiny brushstrokes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھونەرمەندەکە ئەم وێنەیەی کێشا بە بەکارھێنانی فڵچەی بچووک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryartist extends StatelessWidget {
 ٢. (ناو) ھونەرمەندێکی پڕۆفیشناڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the band broke up, Joe relaunched his career as a solo artist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the band broke up, Joe relaunched his career as a solo artist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

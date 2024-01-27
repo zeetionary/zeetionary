@@ -179,12 +179,18 @@ class EnglishEntryaudacious extends StatelessWidget {
 ١. (ھاوەڵناو) بوێرانە و چاونەترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He described the plan as ambitious and audacious."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He described the plan as ambitious and audacious."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکەی بە تەماحکارانە و چاونەترسی ناوھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

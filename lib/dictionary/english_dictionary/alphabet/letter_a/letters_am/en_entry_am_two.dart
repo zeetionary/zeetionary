@@ -126,11 +126,17 @@ class EnglishEntryamtwo extends StatelessWidget {
 ١. (کورتکراوە) لە نێوان ١٢ی شەو و ١٢ی نیوەڕۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It starts at 10 a.m."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It starts at 10 a.m."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتژمێر ١٠ی پێش نیوەڕۆ دەست پێدەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

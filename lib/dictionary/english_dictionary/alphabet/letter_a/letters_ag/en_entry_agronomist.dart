@@ -128,12 +128,18 @@ class EnglishEntryagronomist extends StatelessWidget {
 ١. (ناو) شارەزایەکی کە زانستی کە کاردەکات لەسەر پەیوەندی نێوان کشتوکاڵ و ژینگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Agronomists were working on new ways to create healthier food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Agronomists were working on new ways to create healthier food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەزایانی کشتوکاڵ کاریان لەسەر ڕێگای تازە دەکرد بۆ بەرھەمھێنانی خواردنی تەندرووستتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

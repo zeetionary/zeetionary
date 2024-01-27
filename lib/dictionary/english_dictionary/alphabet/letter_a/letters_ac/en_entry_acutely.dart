@@ -138,12 +138,18 @@ class EnglishEntryacutely extends StatelessWidget {
 ١. (ھاوەڵکار) تێبینی و ھەستکردن بە شتێک زۆر بە باشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I am acutely aware of the difficulties we face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I am acutely aware of the difficulties we face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرباش ئاگاداری ئەو ناڕەحەتییانەم کە تووشیان دەبین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -162,12 +168,18 @@ class EnglishEntryacutely extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She acutely identified all the main problems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She acutely identified all the main problems."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیرەکانە ھەموو کێشە سەرەکییەکانی دەستنیشانکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +200,18 @@ class EnglishEntryacutely extends StatelessWidget {
 ٢. (ھاوەڵکار) دەرکەوتنی ھەستێکی خراپ زۆر بە زەقی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Another scandal would be acutely embarrassing for the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Another scandal would be acutely embarrassing for the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئابڕووچوونێکی تر زۆر شەرمھێنەر دەبێت بۆ حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

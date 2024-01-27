@@ -180,10 +180,17 @@ class EnglishEntryapproximate extends StatelessWidget {
 ١. (ھاوەڵناو) بە نزیکەیی؛ تا ڕادەیەک تەواو، بەڵام بە تەواوی نا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The cost given is only approximate."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەو نرخەی دراوە بەنزیکەییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cost given is only approximate."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەو نرخەی دراوە بەنزیکەییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +211,18 @@ class EnglishEntryapproximate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The train's approximate time of arrival is 10:30."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The train's approximate time of arrival is 10:30."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتی گەشتنی شەمەندەفەرەکە بە نزیکەیی ١٠:٣٠ یە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +245,18 @@ class EnglishEntryapproximate extends StatelessWidget {
 ٢. (کردار) نزیک‌بوون لە شتێک لە بڕ، کوالێتی، یان شێوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The total cost will approximate £15 billion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخی گشتی نزیک‌دەبێتەوە لە ١٥ ملیار پاوەند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The total cost will approximate £15 billion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی گشتی نزیک‌دەبێتەوە لە ١٥ ملیار پاوەند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +277,18 @@ class EnglishEntryapproximate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The animals were reared in conditions which approximated the wild as closely as possible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژەڵەکان گەورەکران لە دۆخێک کە تا دەکرا نزیک‌بوو لە ژینگەی کێوییان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The animals were reared in conditions which approximated the wild as closely as possible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵەکان گەورەکران لە دۆخێک کە تا دەکرا نزیک‌بوو لە ژینگەی کێوییان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

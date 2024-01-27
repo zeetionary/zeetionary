@@ -170,11 +170,18 @@ class EnglishEntryanemone extends StatelessWidget {
 ١. (ناو) ڕووەکێک کە گوڵی سوور و سپی و شین و مۆریان ھەیە، شێوەیان وەک پیاڵەیە و ناوەڕاستیان ڕەشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We saw wild anemones in the woods."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵاڵەی دەشتیمان بینی لە دارستانەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We saw wild anemones in the woods."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵاڵەی دەشتیمان بینی لە دارستانەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

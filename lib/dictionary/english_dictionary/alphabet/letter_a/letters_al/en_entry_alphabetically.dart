@@ -128,12 +128,18 @@ class EnglishEntryalphabetically extends StatelessWidget {
 ١. (ھاوەڵکار) بە پێی ڕیزبەندی ئەلفوبێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The names of the contest winners are listed alphabetically."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The names of the contest winners are listed alphabetically."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی براوەکانی پێشبڕکێیەکە بەپێی ئەلفوبێ ڕیزکراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

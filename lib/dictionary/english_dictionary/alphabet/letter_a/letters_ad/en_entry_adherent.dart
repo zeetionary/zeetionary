@@ -127,12 +127,18 @@ class EnglishEntryadherent extends StatelessWidget {
 ١. (ناو) کەسێک کە شوێنکەوتووی بیروباوەڕێکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We should not show animosity to adherents of other faiths."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We should not show animosity to adherents of other faiths."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

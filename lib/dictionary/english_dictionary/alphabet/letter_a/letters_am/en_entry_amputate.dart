@@ -168,12 +168,18 @@ class EnglishEntryamputate extends StatelessWidget {
 ١. (کردار) بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her right arm became infected and had to be amputated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her right arm became infected and had to be amputated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵی ڕاستی تووشی ھەوکردن بوو و ناچاربوون بی‌بڕنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

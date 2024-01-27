@@ -103,12 +103,18 @@ class EnglishEntryabject extends StatelessWidget {
 ١. (ھاوەڵناو) خراپ و بەبێ ھیوا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "the most abject slaves joined in the revolt"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the most abject slaves joined in the revolt"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

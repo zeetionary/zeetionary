@@ -129,12 +129,18 @@ class EnglishEntryaddition extends StatelessWidget {
 ١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All of these technologies are fairly recent additions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All of these technologies are fairly recent additions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryaddition extends StatelessWidget {
 ٢. (ناو) کردەی زیادکردنی شتێک بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Add salt, tasting with every addition."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Add salt, tasting with every addition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -181,12 +193,18 @@ class EnglishEntryaddition extends StatelessWidget {
 ٣. (ناو) بەشیکی تازە کە زیاددەکرێت بۆ بینایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The addition should match the architecture of the house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The addition should match the architecture of the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

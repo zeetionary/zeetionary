@@ -129,12 +129,18 @@ class EnglishEntryalgorithm extends StatelessWidget {
 ١. (ناو) کۆمەڵە یاسایەک یان ڕێنماییەک کە دەدرێت بە کۆمپیوتەرێک بۆ ئەوەی کارێک بکات بە پشتبەستن پێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Music apps such as Spotify use algorithms to predict the probability that fans of one particular band will like another."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەپە میوزیکییەکان، بۆ نموونە سپۆتیفای، ئەلگۆریزم بەکاردێنن بۆ ئەوەی پێشبینی ئەگەری حەزی ھەوادارانی باندێک بۆ باندێکی دیکە بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

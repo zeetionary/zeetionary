@@ -110,13 +110,19 @@ class EnglishEntryabide extends StatelessWidget {
 ١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can't abide people with no sense of humour."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can't abide people with no sense of humour."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -133,13 +139,19 @@ class EnglishEntryabide extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can’t abide people who look down on others."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دەکە دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can’t abide people who look down on others."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دەکە دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

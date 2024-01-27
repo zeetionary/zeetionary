@@ -129,12 +129,18 @@ class EnglishEntryamend extends StatelessWidget {
 ١. (کردار) دەستکاریکردنی یاسایەک یان لێدوانێک بۆ چاککردنی ھەڵەیەک یان باشترکردنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Parliament will vote to amend the constitution."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرلەمان دەنگ لەسەر ھەمواری دەستوور دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Parliament will vote to amend the constitution."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرلەمان دەنگ لەسەر ھەمواری دەستوور دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryamend extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "MPs were urged to amend the law to prevent another oil tanker disaster."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "MPs were urged to amend the law to prevent another oil tanker disaster."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرلەمانتاران ھاندران گۆڕانکاری لە یاساکە بکەن بۆ ڕێگری لە کارەساتێکی دیکەی تەنکەری نەوتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

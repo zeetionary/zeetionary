@@ -127,12 +127,18 @@ class EnglishEntryagitate extends StatelessWidget {
 ١. (کردار) داواکردنی شتێک بە سەرسەختی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her family are agitating to have her transferred to a prison in the UK."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her family are agitating to have her transferred to a prison in the UK."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکەی بە پەشێوانە ھەوڵ دەدەن بتگوێزنەوە بۆ زیندانێک لە شانشینی یەکگرتوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,11 +159,17 @@ class EnglishEntryagitate extends StatelessWidget {
 ٢. (کردار) تووڕەکردنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I didn't want to agitate her by telling her."),
-                              const ExampleSentenceKurdish(
-                                  text: "نامەوێ توورەی بکەم بە پێ وتنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I didn't want to agitate her by telling her."),
+                                    ExampleSentenceKurdish(
+                                        text: "نامەوێ توورەی بکەم بە پێ وتنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -178,12 +190,18 @@ class EnglishEntryagitate extends StatelessWidget {
 ٣. (کردار) تێکدانی شلەیەک بۆ تێکەڵکردنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Agitate the mixture to dissolve the powder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Agitate the mixture to dissolve the powder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێکەڵەکە تێک بدە بۆ ئەوەی ئاردەڵووکەکە بتوێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

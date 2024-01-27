@@ -180,12 +180,18 @@ class EnglishEntryastral extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ئەستێرەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The astronomer observed the astral bodies through his telescope."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The astronomer observed the astral bodies through his telescope."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryastral extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە جیھانی ڕۆحی، وەک لە ژیانی ڕاستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She believed that her dreams took her to the astral plane."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She believed that her dreams took her to the astral plane."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

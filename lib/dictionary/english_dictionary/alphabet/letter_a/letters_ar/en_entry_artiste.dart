@@ -186,12 +186,18 @@ class EnglishEntryartiste extends StatelessWidget {
 ١. (ناو) ھونەرمەندێکی پڕۆفیشناڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After the band broke up, Joe relaunched his career as a solo artiste."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After the band broke up, Joe relaunched his career as a solo artiste."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ئەوەی باندەکە پارچەپارچە بوون، جۆو دووبارە بە تەنیایی دەستی‌پێکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

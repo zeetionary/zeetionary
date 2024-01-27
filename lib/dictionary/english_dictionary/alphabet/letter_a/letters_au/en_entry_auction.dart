@@ -180,11 +180,17 @@ class EnglishEntryauction extends StatelessWidget {
 ١. (ناو) ھەڕاجی ئاشکرا کە تێیدا شتێک دەفرۆشرێت بەو کەسەی زۆرتری پارە دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The house is up for auction (= will be sold at an auction)."),
-                              const ExampleSentenceKurdish(
-                                  text: "خانووەکە ھەڕاجکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house is up for auction (= will be sold at an auction)."),
+                                    ExampleSentenceKurdish(
+                                        text: "خانووەکە ھەڕاجکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryauction extends StatelessWidget {
 ٢. (ناو) فرۆشتنی شتێک لە زیادکردنی ئاشکرادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The costumes from the movie are to be auctioned for charity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The costumes from the movie are to be auctioned for charity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryalbino extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک یان ئاژەڵێک کە ڕەنگ لە پێستی یان قژی نییە و سپی دەردەکەون، یان لە چاوەکانی کە پەمەیی دەردەکەون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I ended up living with this albino guy who was an engineer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I ended up living with this albino guy who was an engineer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتاییدا کەوتم لەگەڵ کابرایەکی ئەلباینۆ کە ئەندازیار بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryalbino extends StatelessWidget {
 ٢. (ناو) کەسێکی ئەلباینۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was not an albino, but nearly so."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was not an albino, but nearly so."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی ئەلباینۆ نەبوو، بەڵام نزیک بوو لێی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

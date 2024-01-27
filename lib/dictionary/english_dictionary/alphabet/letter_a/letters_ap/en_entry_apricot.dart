@@ -176,10 +176,16 @@ class EnglishEntryapricot extends StatelessWidget {
 ١. (ناو) میوەیەکی خڕ بە توێکڵی زەرد یان پرتەقاڵی و ناوکێکی گەورەی ڕەق"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I don't like apricot."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزم لە قەیسی نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I don't like apricot."),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزم لە قەیسی نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryapricot extends StatelessWidget {
 ٢. (ناو) ڕەنگی پرتەقاڵی زەردباو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The room was painted apricot and white."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The room was painted apricot and white."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورەکە بۆیەکرا بە پرتەقاڵی زەردباو و سپی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryashtray extends StatelessWidget {
 ١. (ناو) جێیەک کە کەسانی جگەرەکێش سووتووی جھەرەی تێ‌دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ashtrays in the restaurant were emptied and cleaned regularly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ashtrays in the restaurant were emptied and cleaned regularly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەپڵەکی چێشتخانەکان بەزوویی بەتاڵ و پاک دەکرانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

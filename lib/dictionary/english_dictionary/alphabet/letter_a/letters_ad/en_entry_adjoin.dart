@@ -127,12 +127,18 @@ class EnglishEntryadjoin extends StatelessWidget {
 ١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's at this point that these three neighbourhoods adjoin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's at this point that these three neighbourhoods adjoin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,11 +177,18 @@ class EnglishEntryaura extends StatelessWidget {
 ١. (ناو) ھەستێک یان خاسیەتێک لە کەسێک یان شوێنێکدا کە ئاسانە ببینرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She always has an aura of confidence."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمیشە متمانەبەخۆبوونی لێ‌دەبارێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She always has an aura of confidence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە متمانەبەخۆبوونی لێ‌دەبارێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

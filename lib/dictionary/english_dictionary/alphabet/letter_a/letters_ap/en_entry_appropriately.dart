@@ -175,12 +175,18 @@ class EnglishEntryappropriately extends StatelessWidget {
 ١. (ھاوەڵکار) بە گونجاوی و درووستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has been accused of not responding appropriately to the needs of the homeless."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has been accused of not responding appropriately to the needs of the homeless."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت تاوانبار کراوە بە وەڵام‌نەدانەوەی گونجاو بۆ پێداویستییەکانی کەسانی بێ‌لانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

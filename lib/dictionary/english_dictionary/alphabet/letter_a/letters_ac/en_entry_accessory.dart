@@ -121,12 +121,18 @@ class EnglishEntryaccessory extends StatelessWidget {
 ١. (ناو) پارچەیەکی شتێک کە زۆر گرنگ نییە، بەڵام دەکرێت زیاد بکرێت وەک جوانکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We stock a large range of bicycle accessories."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل دابین دەکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We stock a large range of bicycle accessories."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەیەکی زۆر جیاواز لە جوانکارییەکانی پاسکیل دابین دەکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -143,12 +149,18 @@ class EnglishEntryaccessory extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sunglasses are much more than a fashion accessory."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sunglasses are much more than a fashion accessory."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاویلکە زۆر تەنھا بۆ جوانکاری و مۆدە نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -182,12 +182,18 @@ class EnglishEntryarticle extends StatelessWidget {
 ١. (ناو) پارچە نووسراوێک سەبارەت بە بابەتێکی دیاریکراو لە لەسەر ڕۆژنامەیەک، گۆڤارێک، یان وێبسایتێک بڵاوکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her tweet links to an article posted online by the ‘CNN’."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تویتەکەی لینکی وتارێکی تێدایە کە لەسەر سی-ئێن-ئێن پۆستکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her tweet links to an article posted online by the ‘CNN’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تویتەکەی لینکی وتارێکی تێدایە کە لەسەر سی-ئێن-ئێن پۆستکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryarticle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "According to a recent newspaper article, the company is worth over £20 billion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی وتارێکی تازەی ڕۆژنامەیەک، کۆمپانیاکە بەھای دەگاتە ٢٠ ملیار پاوەند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "According to a recent newspaper article, the company is worth over £20 billion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی وتارێکی تازەی ڕۆژنامەیەک، کۆمپانیاکە بەھای دەگاتە ٢٠ ملیار پاوەند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryarticle extends StatelessWidget {
 ٢. (ناو) بەشێکی ڕێککەوتنێک یان دۆکیومێنتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The key articles of the constitution can only be changed by referendum."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مادە سەرەکییەکانی دەستوور تەنھا بە ڕیفراندۆم دەتوانرێن بگۆڕدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The key articles of the constitution can only be changed by referendum."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مادە سەرەکییەکانی دەستوور تەنھا بە ڕیفراندۆم دەتوانرێن بگۆڕدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryarticle extends StatelessWidget {
 ٣. (ناو) شتێک کە بەشیکە لە کۆمەڵە شت‌ومەکێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The articles found in the car helped the police to identify the body."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو شتانەی لە ئۆتۆمبێلەکەدا دۆزرانەوە یارمەتی پۆلیسی دا لە ناسینەوەی تەرمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The articles found in the car helped the police to identify the body."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو شتانەی لە ئۆتۆمبێلەکەدا دۆزرانەوە یارمەتی پۆلیسی دا لە ناسینەوەی تەرمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +312,18 @@ class EnglishEntryarticle extends StatelessWidget {
 ٤. (ناو) وشەکانی a و an و the """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Names of countries in English do not usually take an article."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوی وڵاتان زۆرجار لە ئینگلیزیدا ئامرازی ناساندن وەرناگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Names of countries in English do not usually take an article."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی وڵاتان زۆرجار لە ئینگلیزیدا ئامرازی ناساندن وەرناگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

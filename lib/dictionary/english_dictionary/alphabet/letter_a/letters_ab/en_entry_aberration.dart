@@ -113,13 +113,19 @@ class EnglishEntryaberration extends StatelessWidget {
 ١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "a temporary aberration of his exhausted mind"),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "a temporary aberration of his exhausted mind"),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -136,13 +142,19 @@ class EnglishEntryaberration extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A childless woman was regarded as an aberration, almost a social outcast."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A childless woman was regarded as an aberration, almost a social outcast."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

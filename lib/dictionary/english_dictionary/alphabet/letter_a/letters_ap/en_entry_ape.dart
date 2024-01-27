@@ -176,11 +176,18 @@ class EnglishEntryape extends StatelessWidget {
 ١. (ناو) ئاژەڵیکی گەورەی بێ کلکی شێوە مەیموونە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Chimpanzees and gorillas are both apes."),
-                              const ExampleSentenceKurdish(
-                                  text: "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Chimpanzees and gorillas are both apes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شیمپانزی و گۆرێلا ھەردووکیان ئەیپن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +209,18 @@ class EnglishEntryape extends StatelessWidget {
 ٢. (کردار) کۆپی‌کردنی کاری کەسێک بە خراپی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For years the British film industry merely aped Hollywood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For years the British film industry merely aped Hollywood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ چەندین ساڵ پیشەسازیی فیلمی بەریتانی تەنھا کۆپی خراپی ھۆڵیھوود بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +242,18 @@ class EnglishEntryape extends StatelessWidget {
 ٣. (کردار) کۆپی‌کردنی ڕەفتاری کەسێک بۆ گاڵتەپێکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We used to ape the teacher's southern accent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We used to ape the teacher's southern accent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران لاسایی ئەکسێنتی باشووریی مامۆستاکەمان دەکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

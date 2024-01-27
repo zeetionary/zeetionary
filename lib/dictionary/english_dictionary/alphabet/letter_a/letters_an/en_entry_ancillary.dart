@@ -171,12 +171,18 @@ class EnglishEntryancillary extends StatelessWidget {
 ١. (ھاوەڵناو) پێدانی یارمەتی پێویست بە کار و چالاکییەکانی ڕێکخراوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ancillary workers support the hospital staff in various non-medical roles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ancillary workers support the hospital staff in various non-medical roles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارمەندە ئاریکارەکان یارمەتی ستافی نەخۆشخانەکە دەدەن لە ژمارەیەک لایەنی نا-تەندرووستییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryancillary extends StatelessWidget {
 ٢. (ھاوەڵناو) لەگەڵ شتێکی تر کە زیاتر گرنگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ancillary rights are often included in entertainment industry contracts for creators."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ancillary rights are often included in entertainment industry contracts for creators."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مافە لاوەکییەکان زۆرجار لە گرێبەستەکانی پیشەسازی فیلم و میوزیک ھەن بۆ بەرھەمھێنەران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

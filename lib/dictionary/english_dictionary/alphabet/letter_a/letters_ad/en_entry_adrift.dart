@@ -129,12 +129,18 @@ class EnglishEntryadrift extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک یان بەلەمێکی بێ کۆنترۆڵ لەناو دەریا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He spent three days adrift on his yacht."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spent three days adrift on his yacht."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ ڕۆژی لەناو شەپۆلەکان بەسەربرد لەسەر یەختەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,11 +161,18 @@ class EnglishEntryadrift extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێکی تەنھا و سەرلێشێواو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Without language, human beings are cast adrift."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەبێ زمان مرۆڤەکان سەرلێشێواون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Without language, human beings are cast adrift."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەبێ زمان مرۆڤەکان سەرلێشێواون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,12 +193,18 @@ class EnglishEntryadrift extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە بەو شێوەیە بەڕێوەناچێت کە مەبەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Something seems to have gone adrift in our calculations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Something seems to have gone adrift in our calculations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادیارە شتێک لە خەمڵاندنەکانمان ناڕێکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

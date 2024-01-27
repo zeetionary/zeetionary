@@ -127,11 +127,18 @@ class EnglishEntryaglow extends StatelessWidget {
 ١. (ھاوەڵناو) بریقانەوە بە ڕەنگ و درەوشانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His face was all aglow with excitement."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری لە خۆشیدا دەدرەوشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His face was all aglow with excitement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری لە خۆشیدا دەدرەوشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

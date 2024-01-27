@@ -174,12 +174,18 @@ class EnglishEntryauxiliary extends StatelessWidget {
 ١. (ھاوەڵناو) پێدانی یارمەتی بە کەسێکی تر کە بە سەرەکی کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The auxiliary nurse helped the doctor with patient care."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The auxiliary nurse helped the doctor with patient care."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryauxiliary extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە بەکاردێت کاتێک کێشە درووست دەبێت لەو شتەی بەشێوەیەکی سەرەکی بەکاریدێنیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The auxiliary engine provided power to the sailboat when the wind died down."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The auxiliary engine provided power to the sailboat when the wind died down."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +240,18 @@ class EnglishEntryauxiliary extends StatelessWidget {
 ٣. (ناو) کردارێک بۆ نموونە وەک be, do و have کە لەگەڵ کاری سەرەکی بەکاردێت بۆ پیشاندانی دەم یان درووستکردنی ڕستەی پرسیاری و نەرێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the question ‘Do you know where he has gone?’, ‘do’ and ‘has’ are auxiliaries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +273,18 @@ class EnglishEntryauxiliary extends StatelessWidget {
 ٤. (ناو) کارمەندێک کە یارمەتی بەو کەسانە دەدات کە بەشێوەی سەرەکی کاردەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگرکوژێنەرەوەکان لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The firefighters were aided by auxiliaries who helped to evacuate residents from the burning building."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرکوژێنەرەوەکان لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

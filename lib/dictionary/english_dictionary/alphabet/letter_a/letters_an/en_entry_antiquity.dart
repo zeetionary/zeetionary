@@ -176,12 +176,18 @@ class EnglishEntryantiquity extends StatelessWidget {
 ١. (ناو) سەردەمانی کۆن، بەتایبەتی سەردەمی یۆنان و ڕۆمی کۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The statue was brought to Rome in antiquity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The statue was brought to Rome in antiquity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیکەرەکە لە سەردەمانی کۆندا ھێنرا بۆ ڕۆما."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryantiquity extends StatelessWidget {
 ٢. (ناو) لە دۆخێکی کۆندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Archaeologists found 40 bodies of varying antiquity in the area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Archaeologists found 40 bodies of varying antiquity in the area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێنەوارناسان ٤٠ جەستەیان دۆزییەوە لە ناوچەکە کە لە تەمەنی جیاوازدا بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryantiquity extends StatelessWidget {
 ٣. (ناو) پارچە شوێنەوارێکی سەردەمانی کۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Under Greek law, all antiquities that are discovered in Greece belong to the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Under Greek law, all antiquities that are discovered in Greece belong to the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی یاسای یۆنان ھەموو ئەو پارچە شوێنەوارانەی لە یۆنان دەدۆزرێنەوە دەگەڕێنەوە بۆ حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -175,11 +175,17 @@ class EnglishEntryapprovingly extends StatelessWidget {
 ١. (ھاوەڵکار) بە شێوەیەک کە شتێکت پێ پەسەندە یان ڕازی پێیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She looked at him approvingly and smiled."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە قایلانە سەیری‌کرد و پێکەنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked at him approvingly and smiled."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە قایلانە سەیری‌کرد و پێکەنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

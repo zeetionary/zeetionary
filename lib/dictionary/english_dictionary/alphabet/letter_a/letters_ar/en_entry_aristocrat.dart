@@ -177,12 +177,18 @@ class EnglishEntryaristocrat extends StatelessWidget {
 ١. (ناو) ئەندامێکی چینی باڵای کۆمەڵگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The castle has been owned by a succession of wealthy aristocrats."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The castle has been owned by a succession of wealthy aristocrats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەڵاکە لەلایەن ژمارەیەک خانەدانی یەک لە دوای یەک خاوەندارێتی کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

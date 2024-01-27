@@ -176,11 +176,18 @@ class EnglishEntryarcher extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە تیر و کەوان بەکاردێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The archer can bend a strong bow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The archer can bend a strong bow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیراوێژەکە دەتوانێت کەوانێکی بەھێز بچەمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

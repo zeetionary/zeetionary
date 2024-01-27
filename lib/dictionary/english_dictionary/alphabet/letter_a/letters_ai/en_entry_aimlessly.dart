@@ -127,12 +127,18 @@ class EnglishEntryaimlessly extends StatelessWidget {
 ١. (ھاوەڵکار) بەبێ ھۆ و مەبەست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "While she waited, she walked aimlessly around the car park."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "While she waited, she walked aimlessly around the car park."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە چاوەڕێی دەکرد بێ مەبەستانە لە گەراجەکەدا دەسوڕایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

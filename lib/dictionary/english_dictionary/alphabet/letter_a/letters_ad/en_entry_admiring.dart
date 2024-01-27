@@ -128,12 +128,18 @@ class EnglishEntryadmiring extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "James was admiring of her courage and determination."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "James was admiring of her courage and determination."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryadmiring extends StatelessWidget {
 ٢. (ھاوەڵناو) پیشاندانی سەرسامی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was used to receiving admiring glances from men."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was used to receiving admiring glances from men."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

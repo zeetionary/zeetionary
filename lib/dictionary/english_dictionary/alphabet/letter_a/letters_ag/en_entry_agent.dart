@@ -154,12 +154,18 @@ class EnglishEntryagent extends StatelessWidget {
 ١. (ناو) کەسێک کە نوێنەری کەسێکی ترە لە بزنسێک یان سیاسەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our agent in New York deals with all US sales."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our agent in New York deals with all US sales."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نوێنەرەکەمان لە نیویۆرک مامەڵە لەگەڵ ھەموو فرۆشتنەکانمان لە ئەمریکا دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,10 +186,18 @@ class EnglishEntryagent extends StatelessWidget {
 ٢. (ناو) کەسێک کە ڕێکخەری کاری گۆەانیبێژێک یان یاریزانێکە، یان بڵاوکەرەوە دەدۆزێتەوە بۆ نووسەرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She got the work through an agent."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She got the work through an agent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕێگەی بریکارێکەوە کارەکەی وەرگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +218,18 @@ class EnglishEntryagent extends StatelessWidget {
 ٣. (ناو) کەسێک کە بە نھێنی زانیاری بۆ حکومەتێک یان دامەزراوەیەک کۆدەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was operating as an undercover agent in London."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was operating as an undercover agent in London."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک سیخوڕێکی نھێنی کاری دەکرد لە لەندەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +250,18 @@ class EnglishEntryagent extends StatelessWidget {
 ٤. (ناو) کەسێک/شتێک کە کاریگەرییەکی گرنگی لەسەر بارودۆخێک ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The charity has been an agent for social change."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The charity has been an agent for social change."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخراوەکە وەسیلەیەکی باش بووە بۆ گۆڕانکاری کۆمەڵایەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

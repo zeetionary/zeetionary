@@ -128,12 +128,18 @@ class EnglishEntryagnostic extends StatelessWidget {
 ١. (ناو) کەسێک کە باوەڕی وایە ناتوانرێت بزانرێت خودا بوونی ھەیە یان نا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Although he was raised a Catholic, he was an agnostic for most of his adult life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Although he was raised a Catholic, he was an agnostic for most of his adult life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەرچی وەک کاسۆلیکێک گەورە کرا، بەڵام زۆرینەی تەمەنی پێگەشتوویی وەک ئەگنۆستیکێک بەسەربرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryagnostic extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەڵگری باوەڕی ئەگنۆستیکس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Whether we are religious, atheist, or agnostic, there are some moral values we all share."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Whether we are religious, atheist, or agnostic, there are some moral values we all share."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی کە ئایینی، بێدین، یان ئەگنۆستیک بوو نازانرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

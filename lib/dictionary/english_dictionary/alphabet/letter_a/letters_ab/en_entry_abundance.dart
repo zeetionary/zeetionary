@@ -112,12 +112,18 @@ class EnglishEntryabundance extends StatelessWidget {
 ١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The country has an abundance of natural resources."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The country has an abundance of natural resources."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

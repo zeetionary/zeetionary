@@ -128,12 +128,18 @@ class EnglishEntryacrimonious extends StatelessWidget {
 ١. (ھاوەڵناو) مشتومڕێک یان کێشەیەک کە پڕە لە ھەست و قسەی ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His parents went through an acrimonious divorce."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His parents went through an acrimonious divorce."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکی بە جیابوونەوەیەکی تاڵدا تێپەڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

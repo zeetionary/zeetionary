@@ -189,12 +189,18 @@ class EnglishEntryaddress extends StatelessWidget {
 ١. (ناو) شوێنی ژیان یان کارکردنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll give you my address and phone number."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll give you my address and phone number."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +219,18 @@ class EnglishEntryaddress extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police found him at an address (= a house or flat) in West London."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police found him at an address (= a house or flat) in West London."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,10 +251,16 @@ class EnglishEntryaddress extends StatelessWidget {
 ٢. (ناو) ژمارەیەک پیت و ژمارە کە ناونیشانی شوێنێک یان کەسێکە لەسەر ئینتەرنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What's your email address?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ناونیشانی ئیمەیڵەکەت چییە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "What's your email address?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ناونیشانی ئیمەیڵەکەت چییە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +281,18 @@ class EnglishEntryaddress extends StatelessWidget {
 ٣. (ناو) وتارێکی فەرمی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He gave details of the policy in an address to party members."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gave details of the policy in an address to party members."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +313,18 @@ class EnglishEntryaddress extends StatelessWidget {
 ٤. (کردار) بیرکرنەوە لە چۆنیەتی مامەڵەکردن لەگەل کێشەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These concerns were not adequately addressed in the report."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These concerns were not adequately addressed in the report."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,12 +345,18 @@ class EnglishEntryaddress extends StatelessWidget {
 ٥. (کردار) نووسینی ناو و ناونیشانی کەسێک و شوێنەکەی لەسەر نامەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The letter was correctly addressed, but delivered to the wrong house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The letter was correctly addressed, but delivered to the wrong house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -341,12 +377,18 @@ class EnglishEntryaddress extends StatelessWidget {
 ٦. (کردار) پێشکەشکردنی وتارێک بۆ کۆمەڵە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The President has been asked to address the parliament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The President has been asked to address the parliament."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,12 +409,18 @@ class EnglishEntryaddress extends StatelessWidget {
 ٧. (کردار) وتنی شتێک ڕاستەوخۆ بە کەسێك"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He addressed his comments to the supervisor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He addressed his comments to the supervisor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

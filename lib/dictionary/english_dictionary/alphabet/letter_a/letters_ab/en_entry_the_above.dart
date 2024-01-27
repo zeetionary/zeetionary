@@ -110,12 +110,18 @@ class EnglishEntrytheabove extends StatelessWidget {
 ١. شتێک یان کەسێک کە لە سەرەوە باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please notify us if the above is not correct."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please notify us if the above is not correct."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

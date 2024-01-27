@@ -127,11 +127,18 @@ class EnglishEntryagreeable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی خۆش و دڵگیر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She did her best to make herself agreeable."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She did her best to make herself agreeable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو شتێکی کرد بۆ ئەوەی دڵگیر بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

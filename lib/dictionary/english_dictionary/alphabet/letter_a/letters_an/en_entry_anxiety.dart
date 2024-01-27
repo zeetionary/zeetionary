@@ -178,12 +178,18 @@ class EnglishEntryanxiety extends StatelessWidget {
 ١. (ناو) دۆخی ھەستکردن بە شڵەژاوی و نیگەرانی سەبارەت بەوەی شتێکی خراپ ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some hospital patients experience high levels of anxiety."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some hospital patients experience high levels of anxiety."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک لە نەخۆشانی نەخۆشخانە بە دڵەڕاوکێی زۆردا تێپەڕدەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryanxiety extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A lot of anxiety surrounds the issue of human cloning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A lot of anxiety surrounds the issue of human cloning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵەڕاوکێی زۆر ھەیە سەبارەت بۆ کۆپی‌کردنی مرۆڤ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +242,18 @@ class EnglishEntryanxiety extends StatelessWidget {
 ٢. (ناو) نەخۆشییەکی دەروونی کە دەبێتەھۆی ئەوەی کەسێک ھێندە زۆر نیگەران بێت کە کاریگەری نەرێنی زۆری لەسەریان ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some people are feeling the pressure and suffering from anxiety and depression."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people are feeling the pressure and suffering from anxiety and depression."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کەس ھەست بە پەستان و ئازاری دڵەخورپە و بێزاری دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +275,18 @@ class EnglishEntryanxiety extends StatelessWidget {
 ٣. (ناو) نیگەرانی و ترس دەربارەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you're worried about your health, share your anxieties with your doctor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you're worried about your health, share your anxieties with your doctor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر نیگەرانیت بۆ تەندرووستیت، لای دکتۆرەکەت نیگەرانییەکانت باس بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,12 +308,18 @@ class EnglishEntryanxiety extends StatelessWidget {
 ٤. (ناو) ھەستێکی بەھێز بۆ ویستنی کردنی شتێک یان ویستنی ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A couple of photographers fell over themselves in their anxiety to get a shot of her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A couple of photographers fell over themselves in their anxiety to get a shot of her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک ڕۆژنامەنووس کەوتن بە مل خۆیاندا لە تامەزرۆییان بۆ گرتنی چەند وێنەیەکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

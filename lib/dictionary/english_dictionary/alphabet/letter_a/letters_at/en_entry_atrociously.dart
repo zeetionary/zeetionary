@@ -181,12 +181,18 @@ class EnglishEntryatrociously extends StatelessWidget {
 ١. (ھاوەڵکار) زۆر خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The movie is badly acted and atrociously directed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The movie is badly acted and atrociously directed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryatrociously extends StatelessWidget {
 ٢. (ھاوەڵکار) زۆر دڕندانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These prisoners have been treated atrociously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These prisoners have been treated atrociously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -126,12 +126,18 @@ class EnglishEntryadhere extends StatelessWidget {
 ١. (کردار) لکان بە شتێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Clean the surface first, or the paint will not adhere."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Clean the surface first, or the paint will not adhere."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,12 +156,18 @@ class EnglishEntryadhere extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Once in the bloodstream, the bacteria adhere to the surface of the red cells."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Once in the bloodstream, the bacteria adhere to the surface of the red cells."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -182,12 +182,18 @@ class EnglishEntryassume extends StatelessWidget {
 ١. (کردار) بیرکردنەوە بەجۆرێک کە شتێک ڕاستە بەبێ زانیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's probably safe to assume (that) we'll be hearing more about this story."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's probably safe to assume (that) we'll be hearing more about this story."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاڕادەیەک ئەتوانین وادابنێین کە شتی زیاتر لەسەر ئەم بابەتە دەبیستین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryassume extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Let us assume for a moment that the plan succeeds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let us assume for a moment that the plan succeeds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با بۆ کەمێک وادابنێین پلانەکە سەرکەوتوو دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassume extends StatelessWidget {
 ٢. (کردار) وەرگرتنی دەسەڵات یان بەرپرسیاریەتی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rebel forces have assumed control of the capital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rebel forces have assumed control of the capital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزە یاخیبووەکان کۆنترۆڵی پایتەختیان گرتووەتە دەست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryassume extends StatelessWidget {
 ٣. (کردار) ھەبوونی شێوەیەک یان خاسیەتێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the story the god assumes the form of an eagle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the story the god assumes the form of an eagle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە چیرۆکەکەدا خودا شێوەی داڵێک لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +312,18 @@ class EnglishEntryassume extends StatelessWidget {
 ٤. (کردار) واپیشاندان بەوەی خاسیەتێک یان ھەستێکی تایبەتت ھەیە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Moving to a different town, he assumed a false name."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Moving to a different town, he assumed a false name."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە چووە شارۆچکەیەکی تازە، ناوێکی تازەی ھەڵگرتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

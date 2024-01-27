@@ -127,12 +127,18 @@ class EnglishEntryaground extends StatelessWidget {
 ١. (ھاوەڵکار) کاتێک کەشتییەک بنکەکەی لە بنی دەریا دەدات بەھۆی ئەوەی قووڵی کەمە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The oil tanker ran/went aground off the Spanish coast."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The oil tanker ran/went aground off the Spanish coast."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییە نەوتییەکە چەقی لە کەناراوەکانی ئیسپانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntryanalogous extends StatelessWidget {
 ١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sleep has often been thought of as being in some way analogous to death."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sleep has often been thought of as being in some way analogous to death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەوتن زۆرجار بەجۆرێک لە جۆرەکان بە مردن چوێندراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,11 +203,18 @@ class EnglishEntryanalogous extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two situations are roughly analogous."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two situations are roughly analogous."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو بارودۆخەکە تاڕادەیەک لێکچوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

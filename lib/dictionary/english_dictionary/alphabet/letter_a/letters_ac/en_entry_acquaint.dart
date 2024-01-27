@@ -127,12 +127,18 @@ class EnglishEntryacquaint extends StatelessWidget {
 ١. (کردار) ئاشناکردنی کەسێک بە کەسێکی تر یان شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please acquaint me with the facts of the case."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please acquaint me with the facts of the case."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە ئاشنام بکە بە ڕاستییەکانی کەیسەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

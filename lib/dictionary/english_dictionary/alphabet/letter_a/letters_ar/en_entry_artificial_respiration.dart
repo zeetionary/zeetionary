@@ -180,12 +180,18 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
 ١. (ناو) پڕۆسەی یارمەتیدانی کەسێک کە لە ھەناسەدان کەوتووە دووبارە ھەناسە بداتەوە، زۆرجار بە پێدانی ھەوا پێیان لە ڕێگەی دەم یان لووتەوە، یان بە بەکارھێنانی ئامێری تایبەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rescuers pulled the child from the river, and she was given artificial respiration."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rescuers pulled the child from the river, and she was given artificial respiration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕزگارکەران منداڵەکەیان لە ڕووبارەکە ھێنایە دەرەوە و ھەناسەدانی دەستکردیان بۆ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,12 +177,18 @@ class EnglishEntryaupair extends StatelessWidget {
 ١. (ناو) کچێک کە لە ماڵێک لە وڵاتێکی تر دەمێنێتەوە بە مەبەستی فێربوونی زمان. ئەو کاری ماڵەوە دەکات و ئاگای لە منداڵەکان دەبێت و پارەیەکی کەم وەردەگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She worked in Paris for six months as an au pair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاریس شەس مانگ وەک ئۆپێرێک کاری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She worked in Paris for six months as an au pair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پاریس شەس مانگ وەک ئۆپێرێک کاری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

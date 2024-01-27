@@ -185,12 +185,18 @@ class EnglishEntryarrest extends StatelessWidget {
 ١. (کردار) دەستگیرکردن لەلایەن پۆلیسەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A man has been arrested in connection with the robbery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A man has been arrested in connection with the robbery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێک دەستگیرکراوە بەتۆمەتی تێوەگلان لە دزییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,11 +216,17 @@ class EnglishEntryarrest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was arrested on corruption charges."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەتۆمەتی گەندەڵی دەستگیرکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was arrested on corruption charges."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەتۆمەتی گەندەڵی دەستگیرکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryarrest extends StatelessWidget {
 ٢. (کردار) وەستاندنی پڕۆسەیەک، پەرەسەندنێک، یان گەشەسەندنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They failed to arrest the company's decline."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They failed to arrest the company's decline."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شکستیان ھێنا لە ڕێگری‌کردن لە داڕووخانی کۆمپانیاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryarrest extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The spread of the disease can be arrested with drugs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The spread of the disease can be arrested with drugs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرەسەندنی نەخۆشییەکە دەوەستێنرێت بە دەرمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +312,18 @@ class EnglishEntryarrest extends StatelessWidget {
 ٣. (کردار) وا لە کەسێک بکەیت ھەست بە شتێک بکات و سەرنجی پێ‌بدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An unusual noise arrested his attention."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An unusual noise arrested his attention."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگە دەنگێکی نائاسایی سەرنجی ڕاکێشا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,12 +345,18 @@ class EnglishEntryarrest extends StatelessWidget {
 ٤. (کردار) وەستانی دڵ لە لێدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He arrested on the way to the hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He arrested on the way to the hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵی لە لێدان کەوت لە ڕێگا بۆ نەخۆشخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -342,10 +378,18 @@ class EnglishEntryarrest extends StatelessWidget {
 ٥. (ناو) کرداری دەستگیرکردنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The police made several arrests."),
-                              const ExampleSentenceKurdish(
-                                  text: "پۆلیس ژمارەیەک کەسی دەستگیرکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police made several arrests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس ژمارەیەک کەسی دەستگیرکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,11 +411,18 @@ class EnglishEntryarrest extends StatelessWidget {
 ٦. (ناو) کرداری وەستانی شتێک یان ناوبڕکەوتنە ناوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He died after suffering a cardiac arrest (= when his heart suddenly stopped)."),
-                              const ExampleSentenceKurdish(
-                                  text: "گیانی لەدەستدا لە دوای وەستانی دڵی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He died after suffering a cardiac arrest (= when his heart suddenly stopped)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیانی لەدەستدا لە دوای وەستانی دڵی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

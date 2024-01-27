@@ -178,12 +178,18 @@ class EnglishEntryattributive extends StatelessWidget {
 ١. (ھاوەڵناو) ھاوەڵناوێک کە لە پێش ئەو ناوە بەکاردێت کە دەیناسێنێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In ‘the blue sky’ and ‘a family business’, ‘blue’ and ‘family’ are attributive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

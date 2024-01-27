@@ -113,12 +113,18 @@ class EnglishEntryaccountable extends StatelessWidget {
 ١. (ھاوەڵناو) دانانی کەسێک بە بەرپرس بۆ قسە و کردارەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Someone must be held accountable for the killings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Someone must be held accountable for the killings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێک دەبێت بە بەرپرسیار دابنرێت بۆ کووشتنەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -181,12 +181,18 @@ class EnglishEntryastride extends StatelessWidget {
 ١. (ئامراز) بە ھەر قاچێک یان بەشێک لە لایەکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She sat proudly astride her new motorbike."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە شانازییەوە گەڵاوگەڵ لەسەر ماتۆڕە تازەکەی دانیشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She sat proudly astride her new motorbike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە شانازییەوە گەڵاوگەڵ لەسەر ماتۆڕە تازەکەی دانیشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryastride extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The town lies astride (= on either side of) the River Havel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارۆچکەکە لەسەر ڕووباری ھەیڤڵ ھەڵکەوتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The town lies astride (= on either side of) the River Havel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارۆچکەکە لەسەر ڕووباری ھەیڤڵ ھەڵکەوتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,10 +245,17 @@ class EnglishEntryastride extends StatelessWidget {
 ٢. (ھاوەڵکار) بە ھەر قاچێک لە لایەکەوە، یان بە لاق بڵاوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He stood there, legs astride."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەوێ وەستابوو بە لاق بڵاوییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He stood there, legs astride."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەوێ وەستابوو بە لاق بڵاوییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

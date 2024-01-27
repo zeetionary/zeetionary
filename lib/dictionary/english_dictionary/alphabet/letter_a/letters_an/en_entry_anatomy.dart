@@ -173,12 +173,18 @@ class EnglishEntryanatomy extends StatelessWidget {
 ١. (ناو) وردبوونەوەی زانستی لە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، و ڕووەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An understanding of human anatomy is important to a dancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An understanding of human anatomy is important to a dancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێگەشتن لە پێکھاتەی درووستبوونی لەشی مرۆڤ گرنگە بۆ سەماکارێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryanatomy extends StatelessWidget {
 ٢. (ناو) پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The female anatomy includes organs like the ovaries and uterus."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The female anatomy includes organs like the ovaries and uterus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەستەی مێینە ئەندامەکانی وەک ھێلکەدان و مناڵ‌دان لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntryanatomy extends StatelessWidget {
 ٣. (ناو) جەستەی مرۆڤێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Various parts of his anatomy were clearly visible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Various parts of his anatomy were clearly visible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک لە بەشەکانی جەستەی بەڕوونی دیاربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +272,18 @@ class EnglishEntryanatomy extends StatelessWidget {
 ٤. (ناو) لێکۆڵینەوەی ورد لە بابەتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article explores an anatomy of the current recession's causes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The article explores an anatomy of the current recession's causes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە لێکۆڵینەوەیەکی وردە لە ھۆکارەکانی ئەم قەیرانەی ئێستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

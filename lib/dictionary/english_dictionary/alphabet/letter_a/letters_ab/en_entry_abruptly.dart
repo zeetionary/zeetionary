@@ -110,11 +110,17 @@ class EnglishEntryabruptly extends StatelessWidget {
 ١. شتێک لەناکاو و بەشێوەییەکی چاوەڕواننەکراو ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The interview ended abruptly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The interview ended abruptly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

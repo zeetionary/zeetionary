@@ -128,12 +128,18 @@ class EnglishEntryaerial extends StatelessWidget {
 ١. (ناو) پارچە دەزگایەک کە لە وایەر درووستکراوە یان پارچە ئاسنی باریک بۆ وەرگرتن و ناردنی ئاماژەی ڕادیۆ یان تەلەڤیزیۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A forest of television aerials on the roofs could be seen afar."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A forest of television aerials on the roofs could be seen afar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر ئاریەڵی تەلەڤیزیۆن لەسەر سەربانەکان لە دوورەوە دیار بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryaerial extends StatelessWidget {
 ٢. (ھاوەڵناو) لە ئاسمانەوە یان لە ناو فڕۆکەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The massive aerial bombardment of military targets continued unabated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The massive aerial bombardment of military targets continued unabated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆمبارانی ئاسمانی بۆ سەر ئامانجە سەربازییەکان بەردەوام بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

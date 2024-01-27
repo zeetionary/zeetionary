@@ -129,12 +129,18 @@ class EnglishEntryadvice extends StatelessWidget {
 ١. (ھاوەڵناو) بۆچوونێک یان پێشنیارێک لەسەر ئەوەی کەسێک دەبێت چی بکات لە بارودۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ask your teacher's advice on how to prepare for the exam."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ask your teacher's advice on how to prepare for the exam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای ئامۆژگاری لە مامۆستاکەت بکە لەسەر چۆنیەتی خۆ ئامادەکردن بۆ تاقیکردنەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,10 +159,17 @@ class EnglishEntryadvice extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let me give you a piece of advice."),
-                              const ExampleSentenceKurdish(
-                                  text: "با کەمێک ئامۆژگاریت بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let me give you a piece of advice."),
+                                    ExampleSentenceKurdish(
+                                        text: "با کەمێک ئامۆژگاریت بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

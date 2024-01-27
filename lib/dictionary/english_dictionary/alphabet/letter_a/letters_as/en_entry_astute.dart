@@ -179,12 +179,18 @@ class EnglishEntryastute extends StatelessWidget {
 ١. (ھاوەڵناو) زیرەک و خێرا لە کردنی کاری درووست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was an astute move to sell the shares then."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was an astute move to sell the shares then."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشتنی پشکەکان ئەوکات ھەنگاوێکی بلیمەتانە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

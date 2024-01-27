@@ -180,12 +180,18 @@ class EnglishEntryautobiographical extends StatelessWidget {
 ١. (ھاوەڵناو) پەوەندیدار بە خۆژین‌نامە؛ کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The novel is largely autobiographical."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The novel is largely autobiographical."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

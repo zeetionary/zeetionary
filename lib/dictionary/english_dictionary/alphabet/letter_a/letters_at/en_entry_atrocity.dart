@@ -179,12 +179,18 @@ class EnglishEntryatrocity extends StatelessWidget {
 ١. (ناو) کارێکی دڕندانە، بەتایبەتی لە جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the war, both sides committed atrocities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the war, both sides committed atrocities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -149,11 +149,17 @@ class EnglishEntryalignment extends StatelessWidget {
 ١. (ناو) ڕێک لەسەر ھێڵێکی ڕاست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A bone in my spine was out of alignment."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێسکێک لە بڕبڕەی پشتم پلابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A bone in my spine was out of alignment."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئێسکێک لە بڕبڕەی پشتم پلابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -173,12 +179,18 @@ class EnglishEntryalignment extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The door needs to be in alignment with the frame before you start work on it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The door needs to be in alignment with the frame before you start work on it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرگاکە پێویستە لەگەڵ چوارچێوەکەی ڕێک بێت پێش ئەوەی دەست بە کارکردن بکەیت لەسەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +212,18 @@ class EnglishEntryalignment extends StatelessWidget {
 ٢. (ناو) ئەو بارودۆخەی کە پەیوەندی یەکگیرر ھەیە لەنێوان دوو شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We will implement policies in alignment with our fiscal goals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We will implement policies in alignment with our fiscal goals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو سیاسەت دادەڕێژین کە لەگەل ئامانجەکانی ساڵەکەمان یەکبگرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +243,18 @@ class EnglishEntryalignment extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Property prices are too high and need to be brought back into alignment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Property prices are too high and need to be brought back into alignment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی زەوی زۆر بەرزە و پێویستە ڕێکبخرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,12 +276,18 @@ class EnglishEntryalignment extends StatelessWidget {
 ٣. (ناو) پشتگیری ئابووری یان سیاسی وڵاتێک یان گرووپێک بۆ یەکێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new prime minister has moved into a much closer alignment with America."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new prime minister has moved into a much closer alignment with America."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک وەزیرانە نوێیەکە ھاوپەیمانییەکی زیاتری لەگەڵ ئەمریکادا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

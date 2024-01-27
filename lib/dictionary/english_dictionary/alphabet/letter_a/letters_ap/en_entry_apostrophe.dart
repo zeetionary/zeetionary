@@ -179,12 +179,18 @@ class EnglishEntryapostrophe extends StatelessWidget {
 ١. (ناو) نیشانەی ’ وەک ئاماژەیەک بەوەی پیتێک یان زیاتر لە وشەیەکدا سڕدراونەتەوە، بۆ نموونە وەک she’s بۆ she is، یان ’63 بۆ 1963"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'It's' with an apostrophe means 'it is' or 'it has'."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'It's' with an apostrophe means 'it is' or 'it has'."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "'It's' بە کرتێنێکێکەوە دەکرێ واتای it is یان it has بێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,10 +213,16 @@ class EnglishEntryapostrophe extends StatelessWidget {
 ٢. (ناو) بۆ پیشاندانی خاوەندارێتی بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Helen's house is very large."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماڵ ھێلین زۆر گەورەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Helen's house is very large."),
+                                    ExampleSentenceKurdish(
+                                        text: "ماڵ ھێلین زۆر گەورەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,10 +245,16 @@ class EnglishEntryapostrophe extends StatelessWidget {
 ٣. (ناو) لە پێش یان پاشی پیتی s بەکاردێ بۆ دەربڕینی ژمارە یان پیت بۆ شێوەی کۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "How many 3’s are there in 9?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چەند دانە ٣ لە ٩دا ھەیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "How many 3’s are there in 9?"),
+                                    ExampleSentenceKurdish(
+                                        text: "چەند دانە ٣ لە ٩دا ھەیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,10 +275,16 @@ class EnglishEntryapostrophe extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There are two m’s in ‘comma’."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو m لە وشەی comma دا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "There are two m’s in ‘comma’."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو m لە وشەی comma دا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

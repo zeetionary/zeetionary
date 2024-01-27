@@ -126,12 +126,18 @@ class EnglishEntryadvertiser extends StatelessWidget {
 ١. (ناو) کەسێک یان دامەزراوەیەک کە کاری ڕیکلام دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Magazines need to attract advertisers to survive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Magazines need to attract advertisers to survive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆڤارەکان دەبێت سەرنجی بڵاوکاران ڕابکێشن بۆ ئەوەی بەردەوام بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

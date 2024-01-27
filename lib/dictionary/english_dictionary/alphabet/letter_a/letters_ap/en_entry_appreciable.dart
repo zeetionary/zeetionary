@@ -177,12 +177,18 @@ class EnglishEntryappreciable extends StatelessWidget {
 ١. (ھاوەڵناو) بەشی ھێندە گەورە بێت کە ببینرێت یان بە گرنگ دابنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There has been an appreciable increase in profits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There has been an appreciable increase in profits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیادبوونێکی بەرچاو لە قازانجەکان ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

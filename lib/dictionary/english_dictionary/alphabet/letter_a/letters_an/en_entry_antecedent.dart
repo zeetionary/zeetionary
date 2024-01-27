@@ -175,12 +175,18 @@ class EnglishEntryantecedent extends StatelessWidget {
 ١. (ناو) شتێک کە پێش شتێکی تر بوونی ھەبووە و کاریگەری لەسەری ھەبووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book dealt with the historical antecedents of the Civil War."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book dealt with the historical antecedents of the Civil War."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە لێکۆڵینەوەی لە پێشھاتەکانی جەنگی ناوخۆیی ئەمریکا دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryantecedent extends StatelessWidget {
 ٢. (ناو) باپیرانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many people feel a great curiosity to find out about their antecedents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many people feel a great curiosity to find out about their antecedents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر کەس حەزدەکەن زانیاری لەسەر باپیرانیان بزانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryantecedent extends StatelessWidget {
 ٤. (ھاوەڵناو) پێشووتر """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When the college was established in 1546, it inherited a hall from each of three antecedent institutions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When the college was established in 1546, it inherited a hall from each of three antecedent institutions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک کۆلێژەکە لە ساڵی ١٥٤٦ دامەزرا ھۆڵێکی لە ھەریەک لە سێ پەیمانگاکەی پێشووتر وەرگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

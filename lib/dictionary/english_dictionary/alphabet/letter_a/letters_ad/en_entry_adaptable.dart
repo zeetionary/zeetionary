@@ -127,12 +127,18 @@ class EnglishEntryadaptable extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای ڕاھاتن بە بارودۆخی نوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Successful businesses are highly adaptable to economic change."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Successful businesses are highly adaptable to economic change."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

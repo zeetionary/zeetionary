@@ -127,12 +127,18 @@ class EnglishEntryaerosol extends StatelessWidget {
 ١. (ناو) شلەیەک کە لەناو بوتڵێک دەخرێت و وەک سپرەی دەڕژێنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Aerosol cans are banned from aircraft cabins."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Aerosol cans are banned from aircraft cabins."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتووە پرژێنە قەدەغەیە لەناو فڕۆکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

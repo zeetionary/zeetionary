@@ -125,12 +125,18 @@ class EnglishEntryactivist extends StatelessWidget {
 ١. (ناو) کەسێک کە کاردەکات بۆ گۆڕانی سیاسی یان کۆمەڵایەتی، بەتایبەت وەک ئەندامی ڕێکخراوێک کە ئامانجی دیاریکراوی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thousands of environmental activists joined the march to demand action on climate change."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thousands of environmental activists joined the march to demand action on climate change."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەزاران چالاکوانی ژینگەیی بەژداربوون لە ڕێپێوانێک بۆ داوای ھەنگاونان دژ بە گۆڕانی کەشوھەوا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

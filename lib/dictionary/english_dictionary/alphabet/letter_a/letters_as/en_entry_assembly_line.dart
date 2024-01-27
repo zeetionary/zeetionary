@@ -177,12 +177,18 @@ class EnglishEntryassemblyline extends StatelessWidget {
 ١. (ناو) ڕیزێک لە کرێکار و ئامێر لە کارگەیەکدا کە قۆناغ بە قۆناغ کاردەکەن لەسەر بەستنی پارچەکانی بەرھەمێک تاوەکو تەواو دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The workers on the assembly line worked tirelessly to produce the cars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The workers on the assembly line worked tirelessly to produce the cars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێکاران لەسەر ھێڵی بەرھەمھێنانەکە ماندوونەناسانە کاریان دەکرد بۆ بەرھەمھێنانی ئۆتۆمبێل."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

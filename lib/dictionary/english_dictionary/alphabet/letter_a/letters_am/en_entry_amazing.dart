@@ -128,12 +128,18 @@ class EnglishEntryamazing extends StatelessWidget {
 ١. (ھاوەڵناو) سەیر و سەرسوڕھێنەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The amazing thing is, he really believes he'll get away with it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The amazing thing is, he really believes he'll get away with it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی سەیرە ئەوەیە پێی‌وایە لەمە دەربازی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryamazing extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I find it amazing that people can be so irresponsible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I find it amazing that people can be so irresponsible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لام سەیرە خەڵکی دەکرێت ھێندە نابەرپرسانە بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

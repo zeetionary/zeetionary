@@ -122,12 +122,18 @@ class EnglishEntryacademically extends StatelessWidget {
 ١. (ھاوەڵکار) پەیوەندیدار بە خوێندن، بەتایبەتی خوێندنی قاتابخانە و زانکۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You have to do well academically to get into medical school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ئەوەی بچیتە بەشی پزیشکی پێویستە لەلایەنی خوێندنەوە باش بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You have to do well academically to get into medical school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ئەوەی بچیتە بەشی پزیشکی پێویستە لەلایەنی خوێندنەوە باش بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -146,12 +152,18 @@ class EnglishEntryacademically extends StatelessWidget {
 ٢. (ھاوەڵکار) پەیوەندیدار بە خوێندن و خوێندنەوە، وەک لە شارەزایی کردەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wasn’t very well qualified academically but had a lot of experience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەلایەنی ئەکادیمییەوە زۆر لێوەشاوە نەبوو، بەڵام ئەزموونێکی زۆری ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wasn’t very well qualified academically but had a lot of experience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلایەنی ئەکادیمییەوە زۆر لێوەشاوە نەبوو، بەڵام ئەزموونێکی زۆری ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

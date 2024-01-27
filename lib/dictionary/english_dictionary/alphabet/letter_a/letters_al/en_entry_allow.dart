@@ -356,12 +356,18 @@ class EnglishEntryallow extends StatelessWidget {
 ١. (کردار) ڕێگەدان بە ڕوودانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His parents won't allow him to stay out late."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His parents won't allow him to stay out late."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکی ڕێگەی پێ نادەن تا درەنگ لە دەرەوە بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -380,12 +386,18 @@ class EnglishEntryallow extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The law allowed companies to dismiss workers without any reason."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The law allowed companies to dismiss workers without any reason."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاساکە ڕێگە بە کۆمپانیاکان دەدات کرێکاران بەبێ ھیچ ھۆکارێک دەربکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -406,12 +418,18 @@ class EnglishEntryallow extends StatelessWidget {
 ٢. (کردار) ڕێگەدان بە کەسێک شتێکی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You're allowed an hour to complete the test."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You're allowed an hour to complete the test."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک کاتژمێر کاتت ھەیە بۆ وەڵامدانەوەی تاقیکردنەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -432,11 +450,18 @@ class EnglishEntryallow extends StatelessWidget {
 ٣. (کردار) ڕێگەدان بە کەسێک بچێتە شوێنێک یان جێی بھێڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They weren't allowed into the country."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They weren't allowed into the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگەیان پێنەدرا بچنە ناو وڵاتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -457,12 +482,18 @@ class EnglishEntryallow extends StatelessWidget {
 ٤. (کردار) گونجاندنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The system allows people the opportunity to browse a wide selection of books."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The system allows people the opportunity to browse a wide selection of books."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمەکە ھەلی ئەوە دەگونجێنێت کە خەڵکی لەناو ژمارەیەکی زۆر جیاوازی پەرتووکدا بگەڕێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -483,12 +514,18 @@ class EnglishEntryallow extends StatelessWidget {
 ٥. (کردار) پەسەندکردن یان داننان بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was very helpful when my mother was ill—I'll allow you that."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was very helpful when my mother was ill—I'll allow you that."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر یارمەتیدەر بوو کە دایکم نەخۆش بوو، دان بەوەدا دەنێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

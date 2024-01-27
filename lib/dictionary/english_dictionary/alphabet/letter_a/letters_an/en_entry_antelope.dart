@@ -172,11 +172,18 @@ class EnglishEntryantelope extends StatelessWidget {
 ١. (ناو) ئاژەڵێکی ئەفریقی یان ئاسیاییە کە شێوەی وەک ئاسکە و زۆر خێرایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hunter disembowelled the antelope."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hunter disembowelled the antelope."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاوچییەکە ئاسکەکێوییەکەی کەوڵ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

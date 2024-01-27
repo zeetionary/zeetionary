@@ -126,10 +126,16 @@ class EnglishEntryadjective extends StatelessWidget {
 ١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک/شتێک، بۆ نموونە وشەی جوان لە "ماڵێکی جوان."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Adjectives qualify nouns."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھاوەڵناو پێناسەی ناو دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Adjectives qualify nouns."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھاوەڵناو پێناسەی ناو دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

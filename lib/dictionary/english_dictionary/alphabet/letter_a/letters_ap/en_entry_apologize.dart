@@ -175,10 +175,17 @@ class EnglishEntryapologize extends StatelessWidget {
 ١. (کردار) داواکردنی لێبووردەیی بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Why should I apologize?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆچی دەبێت داوای لێبووردن بکەم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Why should I apologize?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچی دەبێت داوای لێبووردن بکەم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +205,18 @@ class EnglishEntryapologize extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wanted to publicly apologize to his victims."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wanted to publicly apologize to his victims."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,12 +236,18 @@ class EnglishEntryapologize extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I apologize unreservedly for any offending remarks I made."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I apologize unreservedly for any offending remarks I made."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

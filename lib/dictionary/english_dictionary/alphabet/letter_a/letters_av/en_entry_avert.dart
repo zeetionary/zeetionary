@@ -171,10 +171,16 @@ class EnglishEntryavert extends StatelessWidget {
 ١. (کردار) ڕێگرتن لە شتێکی خراپ یان مەترسیدار لە ڕوودان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A disaster was averted."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێگە لە کارەساتێک گیردرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A disaster was averted."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕێگە لە کارەساتێک گیردرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryavert extends StatelessWidget {
 ٢. (کردار) کادانی چاوت یان شتێکی تر بۆ دووربوون لە بینینی شتێک کە ناتەوێت بیبینی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She averted her eyes from the terrible scene in front of her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She averted her eyes from the terrible scene in front of her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

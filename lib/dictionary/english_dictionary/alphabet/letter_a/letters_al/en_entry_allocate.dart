@@ -128,12 +128,18 @@ class EnglishEntryallocate extends StatelessWidget {
 ١. (کردار) پێدانی شتێک بە فەرمی بە کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A large sum has been allocated for buying new books for the library."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A large sum has been allocated for buying new books for the library."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوژمەیەکی زۆر تەرخانکراوە بۆ کڕینی پەرتووک بۆ پەرتوکخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryallocate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More money should be allocated for famine relief."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More money should be allocated for famine relief."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت پارەی زیاتر تەرخان بکرێت بۆ سوککردنی وشکەساڵییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

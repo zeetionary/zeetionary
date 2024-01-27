@@ -127,12 +127,18 @@ class EnglishEntryadmissible extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە پەسەند دەکرێت، زۆرجار لە دادگا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Photographs are usually admissible evidence provided it can be proved that they are authentic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Photographs are usually admissible evidence provided it can be proved that they are authentic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێنە جێیباوەڕە ئەگەر بسەلمێندرێت کە ڕاستین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -166,12 +166,18 @@ class EnglishEntryaccept extends StatelessWidget {
 ١. (کردار) ڕازیبوون بە وەرگرتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He asked me to marry him and I accepted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای لێکردم شووی پێ بکەم و ڕازی بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He asked me to marry him and I accepted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای لێکردم شووی پێ بکەم و ڕازی بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,11 +194,18 @@ class EnglishEntryaccept extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Please accept our sincere apologies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە داوای لێبووردنی پڕبەدڵمان پەسەند بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please accept our sincere apologies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە داوای لێبووردنی پڕبەدڵمان پەسەند بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,10 +224,17 @@ class EnglishEntryaccept extends StatelessWidget {
 ٢. (کردار) ڕازیبوون بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They accepted the court's decision."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیاری دادگایان پەسەندکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They accepted the court's decision."),
+                                    ExampleSentenceKurdish(
+                                        text: "بڕیاری دادگایان پەسەندکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +251,18 @@ class EnglishEntryaccept extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He accepted all the changes we proposed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەو گۆڕانکارییانەی پەسەندکرد کە پێشنیازمان کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He accepted all the changes we proposed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەو گۆڕانکارییانەی پەسەندکرد کە پێشنیازمان کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,10 +281,18 @@ class EnglishEntryaccept extends StatelessWidget {
 ٣. (کردار) وەرگرتنی جۆری پارەدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This machine only accepts coins."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ئامێرە تەنھا سکە وەردەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This machine only accepts coins."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئامێرە تەنھا سکە وەردەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -277,12 +311,18 @@ class EnglishEntryaccept extends StatelessWidget {
 ٤. (کردار) دانپێدانان بە ھەڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He accepts full responsibility for what happened."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسیاریەتی تەواو ھەڵدەگرێت بۆ ئەوەی کە ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He accepts full responsibility for what happened."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسیاریەتی تەواو ھەڵدەگرێت بۆ ئەوەی کە ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -301,12 +341,18 @@ class EnglishEntryaccept extends StatelessWidget {
 ٥. (کردار) بەردەوامبوون لە بارودۆخێکی سەختدا بەبێ وەستان چونکە ئەزانیت ناتوانیت بیگۆڕیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You just have to accept the fact that we're never going to be rich."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت ئەو ڕاستییە پەسەند بکەیت کە ئێمە ھەرگیز دەوڵەمەند نابین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You just have to accept the fact that we're never going to be rich."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت ئەو ڕاستییە پەسەند بکەیت کە ئێمە ھەرگیز دەوڵەمەند نابین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

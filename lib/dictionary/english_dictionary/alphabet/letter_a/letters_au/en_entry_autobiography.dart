@@ -180,12 +180,18 @@ class EnglishEntryautobiography extends StatelessWidget {
 ١. (ناو) کتێبی ژیاننامەی کەسێک کە لەلایەن خۆیەوە نووسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In his autobiography, he recalls the poverty he grew up in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە خۆژین‌نامەکەیدا ئەو ساتانەی ھەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In his autobiography, he recalls the poverty he grew up in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە خۆژین‌نامەکەیدا ئەو ساتانەی ھەژاریدا وەبیرێنێتەوە کە تێیدا گەورەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

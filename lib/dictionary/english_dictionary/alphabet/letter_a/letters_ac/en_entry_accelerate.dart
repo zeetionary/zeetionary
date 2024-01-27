@@ -131,12 +131,18 @@ class EnglishEntryaccelerate extends StatelessWidget {
 ١. (کردار) شتێک خێراتر ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Exposure to the sun can accelerate the ageing process."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Exposure to the sun can accelerate the ageing process."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرکەوتن بە خۆر ئەکرێت بەتەمەنبوون خێراتر بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +159,18 @@ class EnglishEntryaccelerate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The pace of change has begun to accelerate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The pace of change has begun to accelerate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێرایی گۆڕانکاری دەستیکردووە بە خێرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -177,11 +189,18 @@ class EnglishEntryaccelerate extends StatelessWidget {
 ٢. (کردار) کاتێک ئۆتۆمبێلێک خێراتر دەڕوات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The car accelerated to overtake me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car accelerated to overtake me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە خێرایی زیادکرد بۆ تێپەڕاندنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

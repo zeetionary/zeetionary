@@ -176,10 +176,18 @@ class EnglishEntryaromatic extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی بۆنێکی خۆش کە بە ئاسانی ھەستی پێ‌دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The plant is strongly aromatic."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plant is strongly aromatic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووەکەکە بۆنێکی توندی خۆشی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

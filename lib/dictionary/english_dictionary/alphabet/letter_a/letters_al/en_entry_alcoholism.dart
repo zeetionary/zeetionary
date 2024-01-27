@@ -128,12 +128,18 @@ class EnglishEntryalcoholism extends StatelessWidget {
 ١. (ناو) ئاڵوودەیی بە کحول"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He finally sought treatment for his alcoholism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He finally sought treatment for his alcoholism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتاییدا ھەوڵی چارەسەری بۆ ئاڵوودەییەکەی بە کحول دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

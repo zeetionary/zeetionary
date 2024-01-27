@@ -170,12 +170,18 @@ class EnglishEntryangelic extends StatelessWidget {
 ١. (ھاوەڵناو) فریشتەئاسا؛ باش و میھرەبان و جوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She smiled, revealing her angelic face to everyone around."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She smiled, revealing her angelic face to everyone around."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەنی و ڕووخسارە فریشتەئاساکەی پیشانی ھەمووان دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

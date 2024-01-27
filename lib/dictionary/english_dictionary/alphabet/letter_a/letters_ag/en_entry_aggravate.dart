@@ -126,10 +126,18 @@ class EnglishEntryaggravate extends StatelessWidget {
 ١. (کردار) خراپترکردنی بارودۆخێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Pollution can aggravate asthma."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیسبوونی ژینگە ڕبۆ توندتر دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pollution can aggravate asthma."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیسبوونی ژینگە ڕبۆ توندتر دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -148,12 +156,18 @@ class EnglishEntryaggravate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Military intervention will only aggravate the conflict even further."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Military intervention will only aggravate the conflict even further."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستوەردانی سەربازی تەنھا پێکدادانەکە ئاڵۆزتر دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

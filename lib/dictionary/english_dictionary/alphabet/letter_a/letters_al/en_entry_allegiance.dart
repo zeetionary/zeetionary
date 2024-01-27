@@ -129,11 +129,18 @@ class EnglishEntryallegiance extends StatelessWidget {
 ١. (ناو) دڵسۆزی و وەفاداری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He affirmed his allegiance to the president."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He affirmed his allegiance to the president."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەفاداری خۆی بۆ سەرۆک دووپاتکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

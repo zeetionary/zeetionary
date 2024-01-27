@@ -178,12 +178,18 @@ class EnglishEntryapparent extends StatelessWidget {
 ١. (ھاوەڵناو) ئاسان بۆ بینین و تێگەشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Then, for no apparent reason, the train suddenly stopped."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دواتر، بەبێ ھیچ ھۆکارێکی ڕوون، شەمەندەفەرەکە وەستا لە کارکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Then, for no apparent reason, the train suddenly stopped."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دواتر، بەبێ ھیچ ھۆکارێکی ڕوون، شەمەندەفەرەکە وەستا لە کارکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryapparent extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It soon became apparent to everyone that he couldn't sing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرزوو بۆ ھەموان ڕوونبووەوە کە توانای گۆرانی‌وتنی نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It soon became apparent to everyone that he couldn't sing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرزوو بۆ ھەموان ڕوونبووەوە کە توانای گۆرانی‌وتنی نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +242,18 @@ class EnglishEntryapparent extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک وەک ڕاستی دەردەکەوێت بەڵام ئەگەری ھەیە وا نەبێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My parents were concerned at my apparent lack of enthusiasm for school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکم نیگەران بوون بە کەمی ڕووکەشانەی تامەزرۆییم بۆ قوتابخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My parents were concerned at my apparent lack of enthusiasm for school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکم نیگەران بوون بە کەمی ڕووکەشانەی تامەزرۆییم بۆ قوتابخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

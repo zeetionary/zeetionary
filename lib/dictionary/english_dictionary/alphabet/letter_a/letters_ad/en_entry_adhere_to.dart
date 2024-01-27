@@ -127,12 +127,18 @@ class EnglishEntryadhereto extends StatelessWidget {
 ١. (کاری لێکدراو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For ten months he adhered to a no-fat low-salt diet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For ten months he adhered to a no-fat low-salt diet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی بە چەوری کەم خوێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,12 +157,18 @@ class EnglishEntryadhereto extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She adheres to teaching methods she learned over 30 years ago."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She adheres to teaching methods she learned over 30 years ago."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

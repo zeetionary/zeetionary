@@ -175,12 +175,18 @@ class EnglishEntryaward extends StatelessWidget {
 ١. (ناو) خەڵاتێک بۆ شتێک کەسێک کردوویەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was nominated for the best actor award."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was nominated for the best actor award."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryaward extends StatelessWidget {
 ٢. (ناو) زیادبوونێک لەو پارەی کەسێک بە دەستی دەخات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As head of the bank, she got an award of £2.18m."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As head of the bank, she got an award of £2.18m."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +241,18 @@ class EnglishEntryaward extends StatelessWidget {
 ٣. (ناو) بڕە پارەیەک کە دەدرێت بە کەسێک وەک قەرەبوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The judge has the power to make damages awards."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The judge has the power to make damages awards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +274,18 @@ class EnglishEntryaward extends StatelessWidget {
 ٤. (ناو) بڕیاری فەرمی پێدانی شتێک بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Satisfactory completion of the course will lead to the award of the Diploma of Social Work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +307,18 @@ class EnglishEntryaward extends StatelessWidget {
 ٥. (کردار) پێدانی پارە، خەڵات، قەرەبوو، ھتد بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prize is awarded annually for the best new building."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prize is awarded annually for the best new building."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

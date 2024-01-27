@@ -127,12 +127,18 @@ class EnglishEntryageism extends StatelessWidget {
 ١. (ناو) مامەڵەی خراپ لەگەڵ کەسانی بەتەمەن، زۆرجار لە شوێنی کارکردن، بەھۆی ئەوەی پیرن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At 56, no one would hire her, and she felt she was a victim of ageism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At 56, no one would hire her, and she felt she was a victim of ageism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەمەنی ٥٦ ساڵی کەس کاری پێنەدەدا، و ھەستی دەکرد قوربانیەکی تەمەنگەرییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

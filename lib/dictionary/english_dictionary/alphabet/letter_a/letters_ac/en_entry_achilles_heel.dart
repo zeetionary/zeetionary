@@ -127,12 +127,18 @@ class EnglishEntryachillesheel extends StatelessWidget {
 ١. (ناو) خاڵی لاواز """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The enemy had an Achilles heel somewhere, if only we could find it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The enemy had an Achilles heel somewhere, if only we could find it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووژمن خاڵێکی لاوازی ھەبوو، تەنھا ئەگەر بمانزانیایە لە کوێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -182,12 +182,18 @@ class EnglishEntryappeal extends StatelessWidget {
 ١. (ناو) پاڕانەوە؛ داوایەکی پڕ بەدڵ بۆ پارە، زانیاری، یان یارمەتی کە بەخێرایی پێویستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made an emotional appeal to voters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made an emotional appeal to voters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاڕانەوەیەکی ھەست‌بزوێنی ئاراستەی دەنگدەران کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryappeal extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police made an appeal to the public to remain calm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police made an appeal to the public to remain calm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس تکای لە خەڵکی کرد بە ھێمنی بمێننەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryappeal extends StatelessWidget {
 ٢. (ناو) خاسیەتێک کە وادەکای کەسێک/شتێک سەرنجڕاکێش یان سەرسوڕھێنەر بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was beginning to understand the appeal of living in the countryside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was beginning to understand the appeal of living in the countryside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەریک‌بوو دەستی‌ دەکرد بە تێگەشتن لە دڵڕفێنی ژیان لە لادێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryappeal extends StatelessWidget {
 ٣. (ناو) داوایەکی فەرمی لە دادگا یان لای دەسەڵاتدارێک بۆ گۆڕینی بڕیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The court dismissed his appeal against the verdict."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The court dismissed his appeal against the verdict."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادگا داوای پێداچوونەوەکەیی دژ بە بڕیارەکە ڕەتکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +312,18 @@ class EnglishEntryappeal extends StatelessWidget {
 ٤. (کردار) داواکردنی شتێک پڕبەدڵ بۆ داواکردنی شتێک کە بەپەلە پێویستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government appealed to the British people for help."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government appealed to the British people for help."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت تکای لە خەڵکی بەریتانیا کرد بۆ یارمەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,12 +345,18 @@ class EnglishEntryappeal extends StatelessWidget {
 ٥. (کردار) سەرنج‌ڕاکێشان، یان بوون بە ھۆی سەرسوڕھێنەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His movies appeal to a broad audience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His movies appeal to a broad audience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکانی سەرنجی بیسەری بەرفراوان ڕادەکێشن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -342,12 +378,18 @@ class EnglishEntryappeal extends StatelessWidget {
 ٦. (کردار) داواکردن لە دادگا یان کەسێکی بەدەسەڵات بۆ گۆڕینی بڕیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      " The company is appealing against the ruling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            " The company is appealing against the ruling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە داوای پێداچوونەوە بە بڕیارەکە دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

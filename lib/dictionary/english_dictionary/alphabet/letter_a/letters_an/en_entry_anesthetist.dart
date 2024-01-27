@@ -169,12 +169,18 @@ class EnglishEntryanesthetist extends StatelessWidget {
 ١. (ناو) پسپۆڕی بێ‌ھۆشی، کەسێک کە شارەزایی لە بەنج‌کردن ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The anesthetist tried three times to insert the anaesthetic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The anesthetist tried three times to insert the anaesthetic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پسپۆڕی بێ‌ھۆشی سێ جار ھەوڵی‌دا بەنجەکە بکوتێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

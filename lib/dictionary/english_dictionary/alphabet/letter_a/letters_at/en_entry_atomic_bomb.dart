@@ -178,12 +178,18 @@ class EnglishEntryatomicbomb extends StatelessWidget {
 ١. (ناو) بۆمبی ئەتۆمی؛ بۆمبێک کە دەتەقێتەوە بە بەکارھێنانی ئەو وزەیەی کە درووست دەبێت لە کاتی کەرتبوونی گەردیلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The atomic bombs dropped on Hiroshima and Nagasaki in 1945 caused widespread destruction and loss of life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بۆمبە ئەتۆمییانەی لە ساڵی ١٩٤٥ بەسەر ھیرۆشیما و ناگازاکیدا بەردرانەوە بوونە ھۆی وێرانی و لەدەستچوونی ژیانی زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

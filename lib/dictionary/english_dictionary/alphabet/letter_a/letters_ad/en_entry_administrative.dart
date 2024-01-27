@@ -129,12 +129,18 @@ class EnglishEntryadministrative extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your responsibilities will be mainly administrative."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your responsibilities will be mainly administrative."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryaseptic extends StatelessWidget {
 ١. (ھاوەڵناو) بەبێ ھیچ بەکتریایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The surgeon used aseptic techniques to prevent infection during the operation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The surgeon used aseptic techniques to prevent infection during the operation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەشتەرگەرەکە تەکنیکی خاوێن لە بەکتریای بەکارھێنا بۆ ڕێگری لە بڵاوبوونەوەی نەخۆشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

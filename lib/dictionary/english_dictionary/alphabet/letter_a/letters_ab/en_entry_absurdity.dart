@@ -112,12 +112,18 @@ class EnglishEntryabsurdity extends StatelessWidget {
 ١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was only later that she could see the absurdity of the situation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was only later that she could see the absurdity of the situation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

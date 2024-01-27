@@ -127,11 +127,18 @@ class EnglishEntryacrimony extends StatelessWidget {
 ١. (ھاوەڵناو) دەربڕینی بیر یان ھەست بە توندی و توڕەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dispute was settled without acrimony."),
-                              const ExampleSentenceKurdish(
-                                  text: "بابەتەکە بەبێ ناخۆشی چارەسەرکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dispute was settled without acrimony."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە بەبێ ناخۆشی چارەسەرکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

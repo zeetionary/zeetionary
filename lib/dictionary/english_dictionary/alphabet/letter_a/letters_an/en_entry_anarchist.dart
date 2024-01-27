@@ -168,12 +168,18 @@ class EnglishEntryanarchist extends StatelessWidget {
 ١. (ناو) حکومەت‌نەویست؛ کەسێک کە باوەڕی‌وایە یاسا و حکومەت ناپێویستن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a poet, an anarchist, and a vegan."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a poet, an anarchist, and a vegan."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی شاعیر و حکومەت‌نەویست و گیاخۆر بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryallowable extends StatelessWidget {
 ١. (ھاوەڵناو) ڕێگەپێدراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A certain level of error is allowable (= permitted to happen)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A certain level of error is allowable (= permitted to happen)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەیەکی دیاریکراوی ھەڵە ڕێگەپێدراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

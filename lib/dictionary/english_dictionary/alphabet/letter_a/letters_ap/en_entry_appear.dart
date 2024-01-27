@@ -217,10 +217,16 @@ class EnglishEntryappear extends StatelessWidget {
 ١. (کردار) دەست‌کردن بە دەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Smoke appeared on the horizon."),
-                              const ExampleSentenceKurdish(
-                                  text: "دووکەڵ لە ئاسۆدا دەرکەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Smoke appeared on the horizon."),
+                                    ExampleSentenceKurdish(
+                                        text: "دووکەڵ لە ئاسۆدا دەرکەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntryappear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Symptoms usually start appearing within two to three days."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Symptoms usually start appearing within two to three days."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیشانەکانی نەخۆشییەکە زۆرجار دەردەکەون لە ماوەی دوو ڕۆژدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +279,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٢. (کردار) درووست‌بوون، پێزانین، یان بەکارھێنان بۆ یەکەم جار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are unsure when the virus first appeared."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists are unsure when the virus first appeared."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان دڵنیانین ڤایرۆسەکە بۆ یەکەم جار لە کوێوە دەرکەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,11 +312,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٣. (کاری لێکدەر) دەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She didn't appear at all surprised at the news."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She didn't appear at all surprised at the news."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ سەرسام دیار نەبوو بە ھەواڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -318,11 +343,18 @@ class EnglishEntryappear extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Everything appeared normal at first."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everything appeared normal at first."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو شتێک ئاسایی دەرکەوت لە سەرەتادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -344,12 +376,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٤. (کردار) بڵاوکردنەوە یان پەخشکردنی کتێبێک، وتارێک، یان پڕۆگرامێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His new book will be appearing in the spring."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His new book will be appearing in the spring."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبە تازەکەی لە بەھاردا بڵاودەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -371,10 +409,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٥. (کردار) دەرکەوتن لە فیلمێک، شانۆیەک، یان پڕۆگرامێکی تەلەفیزیۆنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He has appeared in over 60 movies."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has appeared in over 60 movies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زیاتر لە ٦٠ فیلمدا دەرکەوتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -396,12 +442,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٦. (کردار) گەشتنە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A man appeared at the door and asked to see her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A man appeared at the door and asked to see her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێک گەشتە بەر دەرگاکە و داوای بینینی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -423,11 +475,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٧. (کردار) نووسراو یان ناوھێنراو لە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your name will appear at the front of the book."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوت لە بەرگی کتێبەکە دەنووسرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your name will appear at the front of the book."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوت لە بەرگی کتێبەکە دەنووسرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -449,12 +508,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٨. (کردار) ئامادەبوون لە دادگا بۆ پێدانی بەڵگە یان وەڵامدانەوەی تۆمەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A man will appear in court today charged with the murder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A man will appear in court today charged with the murder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێک ئەمڕۆ لە دادگا ئامادە دەبێت کە تۆمەتی کوشتنی لەسەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -476,12 +541,18 @@ class EnglishEntryappear extends StatelessWidget {
 ٩. (کردار) ئامادەبوون لە دادگا وەک پارێزەری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "James Gilbert is the lawyer appearing for the defendant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "James Gilbert is the lawyer appearing for the defendant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەیمس گیلبێرت پارێزەری بەرگریکارەکە دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

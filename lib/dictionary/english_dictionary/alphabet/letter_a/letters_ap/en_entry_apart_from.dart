@@ -176,11 +176,18 @@ class EnglishEntryapartfrom extends StatelessWidget {
 ١. (ئامراز) جگە لە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've finished apart from the last question."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمووم تەواوکردە جگە لە کۆتا پرسیار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've finished apart from the last question."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمووم تەواوکردە جگە لە کۆتا پرسیار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +210,18 @@ class EnglishEntryapartfrom extends StatelessWidget {
 ٢. (ئامراز) سەرەڕای شتێک، ھەروەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Apart from their house in London, they also have a villa in Spain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Apart from their house in London, they also have a villa in Spain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جگە لە ماڵەکەیان لە لەندەن، ڤێلایەکیشیان لە ئیسپانیا ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

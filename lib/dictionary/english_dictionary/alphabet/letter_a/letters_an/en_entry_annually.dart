@@ -171,10 +171,18 @@ class EnglishEntryannually extends StatelessWidget {
 ١. (ھاوەڵکار) ئەنجامدانی شتێک ساڵی جارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The exhibition is held annually."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The exhibition is held annually."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشانگاکە ساڵی جارێک ئەنجام‌دەدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

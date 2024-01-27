@@ -170,12 +170,18 @@ class EnglishEntryanaerobic extends StatelessWidget {
 ١. (ھاوەڵناو) ناپێویست بە ئۆکسجین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some bacteria can only live in anaerobic conditions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some bacteria can only live in anaerobic conditions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک بەکتریا تەنھا لە شوێنی بێ‌ئۆکسجیندا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

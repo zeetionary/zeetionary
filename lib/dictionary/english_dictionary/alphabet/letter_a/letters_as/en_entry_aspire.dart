@@ -178,10 +178,18 @@ class EnglishEntryaspire extends StatelessWidget {
 ١. (کردار) ئاوات‌خواستن بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She aspired to a scientific career."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاواتی ھەبوو کارێکی زانستی ھەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She aspired to a scientific career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاواتی ھەبوو کارێکی زانستی ھەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

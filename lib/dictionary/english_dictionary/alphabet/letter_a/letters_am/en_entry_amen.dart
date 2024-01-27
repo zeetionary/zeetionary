@@ -131,10 +131,18 @@ class EnglishEntryamen extends StatelessWidget {
 ١. (ناو) وشەیەک لە دوای نزا و بابەتی ئاینی بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We ask this through our Lord, Amen."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ ئەمە داوا لە خودا دەکەین، ئامین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We ask this through our Lord, Amen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ئەمە داوا لە خودا دەکەین، ئامین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,11 +162,17 @@ class EnglishEntryamen extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Amen to that (= I certainly agree with that)."),
-                              const ExampleSentenceKurdish(
-                                  text: "خودا بکات (ئەوە ڕووبدات)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Amen to that (= I certainly agree with that)."),
+                                    ExampleSentenceKurdish(
+                                        text: "خودا بکات (ئەوە ڕووبدات)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

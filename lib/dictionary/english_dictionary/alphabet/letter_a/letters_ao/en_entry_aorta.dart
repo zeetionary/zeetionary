@@ -172,12 +172,18 @@ class EnglishEntryaorta extends StatelessWidget {
 ١. (ناو) شاخوێن‌بەر؛ خوێن‌بەری سەرەکیی دڵی مرۆڤ کە خوێن بۆ ئەندامەکانی تری جەستە دەنێرێت لە دوای تێپەڕبوون بە سنگذا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blood can dissect up or down the aorta."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blood can dissect up or down the aorta."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێن دەکرێت بە شاخوێن‌بەردا دڵ جێبھێڵێت یان بێتە ناوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

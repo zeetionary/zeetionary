@@ -175,12 +175,18 @@ class EnglishEntryappoint extends StatelessWidget {
 ١. (کردار) دیاریکردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have appointed a new head teacher at my son's school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have appointed a new head teacher at my son's school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرێکی تازەیان دیاریکردووە لە قوتابخانەکەی کوڕەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryappoint extends StatelessWidget {
 ٢. (کردار) دیاریکردنی کات یان شوێنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A date for the meeting is still to be appointed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A date for the meeting is still to be appointed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیاریکردنی ڕێکەوتێک بۆ کۆبوونەوەکە ھێشتا قسەی لەسەر دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

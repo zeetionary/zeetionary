@@ -172,12 +172,18 @@ class EnglishEntryantifreeze extends StatelessWidget {
 ١. (ناو) مادەیەکی کیمیایی کە زیاد دەکرێت بۆ سیستەمی ساردکەرەوەی ئۆتۆمبێل بۆ ئەوەی ڕێگری لە بەستن بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Lack of antifreeze is a major cause of highway breakdowns."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Lack of antifreeze is a major cause of highway breakdowns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمی دژەبەستن ھۆکارێکی سەرەکی تێکچوونی ڕێگاکانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

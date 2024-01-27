@@ -131,12 +131,18 @@ class EnglishEntryalongside extends StatelessWidget {
 ١. (ھاوەڵکار) شان بە شان یان لە تەنیشت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Nick caught up with me and rode alongside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nick caught up with me and rode alongside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیک گەشتەوە پێم و شان بە شانم لێیخوڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -158,12 +164,18 @@ class EnglishEntryalongside extends StatelessWidget {
 ٢. (ئامراز) لە تەنیشت، یان لەگەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new pill will be used alongside existing medicines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new pill will be used alongside existing medicines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەبە تازەکە دەکرێت لەگەڵ دەرمانی دیکە بەکاربێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +195,18 @@ class EnglishEntryalongside extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most of the staff refused to work alongside the new team."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most of the staff refused to work alongside the new team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی ستافەکە ڕەتیان کردەوە شان بە شانی تیمە تازەکە کاربکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

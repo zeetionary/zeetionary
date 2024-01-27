@@ -126,12 +126,18 @@ class EnglishEntryadmire extends StatelessWidget {
 ١. (کردار) ڕێزگرتنی کەسێک/شتێک بەھۆی کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't agree with her, but I admire her for sticking to her principles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't agree with her, but I admire her for sticking to her principles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,12 +156,18 @@ class EnglishEntryadmire extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The school is widely admired for its excellent teaching."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The school is widely admired for its excellent teaching."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

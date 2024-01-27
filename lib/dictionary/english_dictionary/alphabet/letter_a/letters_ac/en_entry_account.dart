@@ -157,12 +157,18 @@ class EnglishEntryaccount extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێک کە کەسێک لەگەڵ بانکێك ھەیەتی بۆ ھەڵگرتنی پارەکانی و کێشانەوە لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He opened an account at a bank in Germany."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He opened an account at a bank in Germany."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەژمارێکی کردەوە لە بانکێک لە ئەڵمانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,10 +185,18 @@ class EnglishEntryaccount extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What's your account number please?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بێزەحمەت، ژمارەی ھەژمارەکەت چەندە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What's your account number please?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێزەحمەت، ژمارەی ھەژمارەکەت چەندە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,10 +215,18 @@ class EnglishEntryaccount extends StatelessWidget {
 ٢. (ناو) ھەبوونی ھەژمارێک لەسەر ئینتەرنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My YouTube account was terminated."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەژمارەکەم لەسەر یووتیووب سڕکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My YouTube account was terminated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەژمارەکەم لەسەر یووتیووب سڕکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,12 +245,18 @@ class EnglishEntryaccount extends StatelessWidget {
 ٣. (ناو) گێڕانەوەی ڕووداوێک کە ڕوویداوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She gave the police a full account of the incident."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She gave the police a full account of the incident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گێڕانەوەی تەواوی ڕووداوەکەی بە پۆلیس گوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,11 +275,17 @@ class EnglishEntryaccount extends StatelessWidget {
 ٤. (ناو) لیستی حیساباتی کڕین و فرۆشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Try to keep accurate accounts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Try to keep accurate accounts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵبدە لیستی حیساباتەکە بە درووستی ڕابگری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -270,12 +304,18 @@ class EnglishEntryaccount extends StatelessWidget {
 ٥. (کردار) ھەبوونی بۆچوونێک لەسەر کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "English law a person is accounted innocent until they are proved guilty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "English law a person is accounted innocent until they are proved guilty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە یاسای ئینگلتەرە کەسێک بە بێتاوان سەیردەکرێت تا بە تاوانبار دەسەلمێندرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

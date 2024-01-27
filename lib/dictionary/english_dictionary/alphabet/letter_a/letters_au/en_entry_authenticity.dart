@@ -180,11 +180,18 @@ class EnglishEntryauthenticity extends StatelessWidget {
 ١. (ناو) ڕاستی و درووستی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The authenticity of the letter is beyond doubt."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The authenticity of the letter is beyond doubt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

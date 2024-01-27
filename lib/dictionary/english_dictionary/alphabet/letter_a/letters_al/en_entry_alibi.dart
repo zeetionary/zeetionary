@@ -130,12 +130,18 @@ class EnglishEntryalibi extends StatelessWidget {
 ١. (ناو) بەڵگەی ئەوەی گومانلێکراوێک لە کاتی ئەنجامدانی تاوانێک لە شوێنێکی تر بووە بۆیە تاوانبار نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The suspects all had alibis for the day of the robbery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The suspects all had alibis for the day of the robbery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گومانلێکراوان ھەموویان بەڵگەی بێتاوانی خۆیان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryalibi extends StatelessWidget {
 ٢. (ناو) بیانوو بۆ خۆدزینەوە لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After eight years in power, the government can no longer use the previous government's policy as an alibi for its own failure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ھەشت ساڵ بوون لە دەسەڵات، حکومەت چیتر ناتوانێت سیاسەتی حکومەتی پێشووتر وەک بیانوو بۆ شکستی خۆی بێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

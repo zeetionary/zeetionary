@@ -112,12 +112,18 @@ class EnglishEntryaccolade extends StatelessWidget {
 ١. (ناو) ستایش یان خەڵاتکردنی کەسێک بەھۆی دەستکەوتەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's been granted the ultimate accolade - his face on a postage stamp."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's been granted the ultimate accolade - his face on a postage stamp."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوپەڕی ستایشی پێدرا بە دانانی وێنەکەی لەسەر پوولی پۆستەیەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

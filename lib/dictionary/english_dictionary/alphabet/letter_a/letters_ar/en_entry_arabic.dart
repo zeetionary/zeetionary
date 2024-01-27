@@ -178,11 +178,18 @@ class EnglishEntryarabic extends StatelessWidget {
 ١. (ناو) زمانی خەڵکی عەرەب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Arabic is very difficult to learn for many people."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Arabic is very difficult to learn for many people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ زۆر خەڵک عەرەبی گرانە بۆ فێربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +209,18 @@ class EnglishEntryarabic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hebrew and Arabic are Semitic languages."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "عیبری و عەرەبی ھەردووکیان زمانی سامین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hebrew and Arabic are Semitic languages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "عیبری و عەرەبی ھەردووکیان زمانی سامین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +242,18 @@ class EnglishEntryarabic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە زمان و ئەدەبی عەرەبی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The themes in Arabic poetry often revolve around love, nature, and cultural identity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The themes in Arabic poetry often revolve around love, nature, and cultural identity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکانی ھۆنراوەی عەرەبی زۆرجار باسی خۆشەویستی و سرووشت و ناسنامەی نەتەوەیین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

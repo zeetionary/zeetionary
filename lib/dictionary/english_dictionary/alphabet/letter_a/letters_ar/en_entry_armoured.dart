@@ -176,10 +176,17 @@ class EnglishEntryarmoured extends StatelessWidget {
 ١. (ھاوەڵناو) پارێزراو بە زرێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The tank was heavily armoured."),
-                              const ExampleSentenceKurdish(
-                                  text: "تانکەکە بە سەختی زرێپۆش‌کرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The tank was heavily armoured."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تانکەکە بە سەختی زرێپۆش‌کرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

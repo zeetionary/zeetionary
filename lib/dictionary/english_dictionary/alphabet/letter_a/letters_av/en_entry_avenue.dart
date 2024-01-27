@@ -173,12 +173,18 @@ class EnglishEntryavenue extends StatelessWidget {
 ١. (ناو) شەقامێکی فراوان لە شارێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We walked down a broad avenue lined with trees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە شەقامێکی فراواندا تێپەڕین کە بە درەخت دەوردرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We walked down a broad avenue lined with trees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە شەقامێکی فراواندا تێپەڕین کە بە درەخت دەوردرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryavenue extends StatelessWidget {
 ٢. (ناو) ڕێگایەکی فراوان و ڕێک کە درەخت لە ھەردوو لایەتی و دەگات بە ماڵێکی گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A mile-long avenue of lime trees leads to the house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگایەکی یەک میل درێژی دەوردراو بە درەختی لیمۆ دەگات بە ماڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A mile-long avenue of lime trees leads to the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگایەکی یەک میل درێژی دەوردراو بە درەختی لیمۆ دەگات بە ماڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +239,18 @@ class EnglishEntryavenue extends StatelessWidget {
 ٣. (ناو) ھەڵبژاردە یان ڕێگای مامەڵە لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Only two avenues are open to us - either we accept his offer or we give up the fight completely."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Only two avenues are open to us - either we accept his offer or we give up the fight completely."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا دوو ھەڵبژاردەمان لەبەردەستە: یان پێشنیارەکەی پەسەند دەکەین، یان بە تەواوی واز لە شەڕەکە دێنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

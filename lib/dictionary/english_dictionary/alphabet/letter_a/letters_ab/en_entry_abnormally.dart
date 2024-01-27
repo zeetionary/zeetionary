@@ -108,10 +108,17 @@ class EnglishEntryabnormally extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "abnormally high blood pressure"),
-                              const ExampleSentenceKurdish(
-                                  text: "پەستانی نائاسایی بەرز لە خوێندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "abnormally high blood pressure"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەستانی نائاسایی بەرز لە خوێندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

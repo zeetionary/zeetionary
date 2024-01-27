@@ -103,12 +103,18 @@ class EnglishEntryabate extends StatelessWidget {
 ١. (کردار) لەدەستدانی ھێز و لاوازبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The storm showed no signs of abating."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The storm showed no signs of abating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

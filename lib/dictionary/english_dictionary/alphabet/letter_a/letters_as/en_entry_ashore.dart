@@ -178,10 +178,16 @@ class EnglishEntryashore extends StatelessWidget {
 ١. (ھاوەڵکار) لە ئاوەوە بۆ سەر وشکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We swam ashore."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرەو وشکانی مەلەمان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We swam ashore."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەرەو وشکانی مەلەمان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryashore extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A few pieces of wood had washed ashore."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A few pieces of wood had washed ashore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەند پارچە تەختەیەک ھاتبوونە سەر وشکانییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

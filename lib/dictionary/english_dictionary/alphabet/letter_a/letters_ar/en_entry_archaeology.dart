@@ -177,12 +177,18 @@ class EnglishEntryarchaeology extends StatelessWidget {
 ١. (ناو) توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Daniel is very interested in history and archaeology, and often visits historic sites."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Daniel is very interested in history and archaeology, and often visits historic sites."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیاڵ زۆری حەز بە مێژوو و شوێنەوارناسییە و زۆرجار سەردانی شوێنەوارە مێژووییەکان دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

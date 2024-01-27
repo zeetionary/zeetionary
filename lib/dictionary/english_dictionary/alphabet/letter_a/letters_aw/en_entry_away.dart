@@ -175,10 +175,16 @@ class EnglishEntryaway extends StatelessWidget {
 ١. (ھاوەڵکار) دوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The beach is a mile away."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەنارەکە یەک میل دوورە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The beach is a mile away."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەنارەکە یەک میل دوورە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +206,18 @@ class EnglishEntryaway extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ شوێنێک یان ئاراستەیەکی جیاواز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The bright light made her look away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bright light made her look away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,11 +239,17 @@ class EnglishEntryaway extends StatelessWidget {
 ٣. (ھاوەڵکار) ئامادەنەبوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were ten children away yesterday."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوێنێ ١٠ منداڵ نەھاتبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were ten children away yesterday."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوێنێ ١٠ منداڵ نەھاتبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,11 +271,18 @@ class EnglishEntryaway extends StatelessWidget {
 ٤. (ھاوەڵکار) لە دوای کردار بەکاردێت بۆ وتنی ئەوەی شتێک بەردەوام یان بە وزەیەکی زۆرەوە دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were soon chatting away like old friends."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were soon chatting away like old friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -278,10 +304,17 @@ class EnglishEntryaway extends StatelessWidget {
 ٥. (ھاوەڵکار) تاوەکو بە تەواوی نامێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The music faded away."),
-                              const ExampleSentenceKurdish(
-                                  text: "میوزیکەکە بە تەواوی داگیرسایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The music faded away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوزیکەکە بە تەواوی داگیرسایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,12 +336,18 @@ class EnglishEntryaway extends StatelessWidget {
 ٦. (ھاوەڵکار) لە یاریگای دووژمن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Chelsea are playing away this Saturday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Chelsea are playing away this Saturday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -330,12 +369,18 @@ class EnglishEntryaway extends StatelessWidget {
 ٧. (ھاوەڵناو) یارییەک کە لە یاریگای تیمی بەرامبەرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We lost the away game but won both home games."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We lost the away game but won both home games."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

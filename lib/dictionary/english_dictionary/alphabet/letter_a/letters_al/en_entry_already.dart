@@ -167,12 +167,18 @@ class EnglishEntryalready extends StatelessWidget {
 ١. (ھاوەڵکار) پێش کاتێک لە ڕابردوودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We got there early but Mike had already left."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We got there early but Mike had already left."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زوو گەشتینە ئەوێ، بەڵام مایک لەمێژبوو ڕۆشتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,10 +199,17 @@ class EnglishEntryalready extends StatelessWidget {
 ٢. (ھاوەڵکار) پێش کاتێکی چاوەڕوانکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You're not leaving already, are you?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەروا زوو ناڕۆن، وایە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You're not leaving already, are you?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەروا زوو ناڕۆن، وایە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +230,18 @@ class EnglishEntryalready extends StatelessWidget {
 ٣. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی شتێک بوونی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new company already has an excellent reputation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new company already has an excellent reputation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیا تازەکە بەری نھا ناوودەنگێکی نایابی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +262,18 @@ class EnglishEntryalready extends StatelessWidget {
 ٤. (ھاوەڵکار) بەکاردێت بۆ دەربڕینی بێزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Just stop already, no one feels sorry for you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Just stop already, no one feels sorry for you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دە وازبێنە، کەس ھەست بە بەزەیی ناکات بۆت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

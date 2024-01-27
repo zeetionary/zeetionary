@@ -178,12 +178,18 @@ class EnglishEntryapologetically extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە پیشانی دەدات پەشیمانیت بۆ شتێکی ھەڵە کە کردووتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘I'm sorry I'm late,’ he murmured apologetically."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘I'm sorry I'm late,’ he murmured apologetically."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە پەشیمانییەوە چرپاندی 'ببوورە کە دواکەوتووم'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

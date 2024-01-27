@@ -112,12 +112,18 @@ class EnglishEntryabreast extends StatelessWidget {
 ١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A police car drove abreast of us and signalled us to stop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A police car drove abreast of us and signalled us to stop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

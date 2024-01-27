@@ -122,11 +122,17 @@ class EnglishEntryabundantly extends StatelessWidget {
 ١. (ھاوەڵکار) تا ئاستێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She made her wishes abundantly clear."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆزگەکانی تەواو ئاشکرا کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She made her wishes abundantly clear."),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆزگەکانی تەواو ئاشکرا کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryabundantly extends StatelessWidget {
 ٢. (ھاوەڵکار) بە ژمارەیەکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Calcium is found most abundantly in milk."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Calcium is found most abundantly in milk."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

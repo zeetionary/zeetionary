@@ -177,12 +177,18 @@ class EnglishEntryaristocratic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە چینی باڵای کۆمەڵگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were impressed by his accent and aristocratic manner."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرسام‌بوون بە ئەکسێنت و ھەڵسوکەوتی خانەدانەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were impressed by his accent and aristocratic manner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسام‌بوون بە ئەکسێنت و ھەڵسوکەوتی خانەدانەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

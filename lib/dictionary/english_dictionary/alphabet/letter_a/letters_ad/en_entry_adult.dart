@@ -130,12 +130,18 @@ class EnglishEntryadult extends StatelessWidget {
 ١. (ناو) کەسێک کە لە ڕووی یاساییەوە بەرپرسە بۆ کردارەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children must be accompanied by an adult."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children must be accompanied by an adult."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان دەبێت کەسێکی پێگەیشتوویان لەگەڵدا بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryadult extends StatelessWidget {
 ٢. (ناو) ئاژەڵێکی تەواو پێگەیشتوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fish return to the river as adults in order to breed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fish return to the river as adults in order to breed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسییەکان کە تەواو گەورە دەبن دەگەڕێنەوە ناو ڕووبارەکە بۆ زاوزێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

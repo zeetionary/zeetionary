@@ -170,11 +170,18 @@ class EnglishEntryanew extends StatelessWidget {
 ١. (ھاوەڵکار) کردنی شتێک لە سەرەتاوە یان بە شێوازێکی جیاواز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They started life anew in Canada."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They started life anew in Canada."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژیانیان سەرلەنوێ لە کەنەدا دەست‌پێکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

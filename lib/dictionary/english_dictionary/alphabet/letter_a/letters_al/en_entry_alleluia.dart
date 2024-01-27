@@ -129,12 +129,18 @@ class EnglishEntryalleluia extends StatelessWidget {
 ١. (ناو) وشەیەک بۆ دەربڕینی سوپاسگوزاری بۆ خودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When the news of their victory came, there was an 'alleluia' of happiness among the team."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When the news of their victory came, there was an 'alleluia' of happiness among the team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک ھەواڵی سەرکەوتنیان گەشت، شوکرانەیەکی زۆری دڵخۆشی ھەبوو لەناو تیمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

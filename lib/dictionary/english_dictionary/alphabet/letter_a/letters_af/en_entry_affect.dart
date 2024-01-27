@@ -144,12 +144,18 @@ class EnglishEntryaffect extends StatelessWidget {
 ١. (کردار) کاریگەری درووستکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article deals with issues affecting the lives of children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The article deals with issues affecting the lives of children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -168,12 +174,18 @@ class EnglishEntryaffect extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your opinion will not affect my decision."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your opinion will not affect my decision."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +206,18 @@ class EnglishEntryaffect extends StatelessWidget {
 ٢. (کردار) نەخۆشییەک کە کاریگەری دەبێت لەسەر جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The disease is more likely to affect women than men."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The disease is more likely to affect women than men."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,11 +238,18 @@ class EnglishEntryaffect extends StatelessWidget {
 ٣. (کردار) وا لە کەسێک بکەیت ھەست بە دڵتەنگی بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were deeply affected by the news of her death."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were deeply affected by the news of her death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ناڕەحەت بوون بە ھەواڵی مردنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

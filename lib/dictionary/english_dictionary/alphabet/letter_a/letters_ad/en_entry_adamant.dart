@@ -127,11 +127,18 @@ class EnglishEntryadamant extends StatelessWidget {
 ١. (ھاوەڵناو) بەردەوامبوون لەسەر بۆچوونی خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Eva was adamant that she would not come."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Eva was adamant that she would not come."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێڤا سوور بوو لەسەر ئەوەی کە نایەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

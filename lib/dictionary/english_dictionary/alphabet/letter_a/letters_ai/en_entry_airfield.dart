@@ -127,11 +127,18 @@ class EnglishEntryairfield extends StatelessWidget {
 ١. (ناو) سووینێک کە فڕۆکە لێوەی دەفڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is not just enough to have a bare airfield."),
-                              const ExampleSentenceKurdish(
-                                  text: "بوونی تەنھا باڵافڕگەیەک بەس نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is not just enough to have a bare airfield."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوونی تەنھا باڵافڕگەیەک بەس نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

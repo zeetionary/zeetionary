@@ -171,12 +171,18 @@ class EnglishEntryavow extends StatelessWidget {
 ١. (کردار) بەڕوونی و فەرمی دەربڕینی بۆچوونت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An aide avowed that the president had known nothing of the deals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاوێژکارێک ڕایگەیاند کە سەرۆک ھیچی نەزانیوە سەبارەت بە ڕێککەوتنەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An aide avowed that the president had known nothing of the deals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاوێژکارێک ڕایگەیاند کە سەرۆک ھیچی نەزانیوە سەبارەت بە ڕێککەوتنەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -113,12 +113,18 @@ class EnglishEntryabruptness extends StatelessWidget {
 ١. (ناو) بەشێوەیەکی لەناکاو و کتوپڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The abruptness of the ending comes as a shock after the long slow build-up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لە دوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The abruptness of the ending comes as a shock after the long slow build-up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەناکاوی کۆتاییپێھێنانەکە وەک شۆکێک وابوو لە دوای ئەو ھەموو خۆئامادەکرنە دوور و درێژە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

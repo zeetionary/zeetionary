@@ -129,12 +129,18 @@ class EnglishEntryairstrip extends StatelessWidget {
 ١. (ناو) پارچە زەوییەک کە فڕۆکە دەتوانێت لەسەری بنیشێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We landed at a tiny airstrip in the middle of the jungle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We landed at a tiny airstrip in the middle of the jungle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر نەختە زەوییەک لە ناوەڕاستی جەنگەڵەکە نیشتینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

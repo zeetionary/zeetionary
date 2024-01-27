@@ -172,12 +172,18 @@ class EnglishEntryanalyse extends StatelessWidget {
 ١. (ھاوەڵناو) لێکۆڵینەوە لە شتێک و شیتەڵ‌کردنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The job involves collecting and analysing data."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The job involves collecting and analysing data."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکە کۆکردنەوە و شیکردنەوەی داتا لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +203,17 @@ class EnglishEntryanalyse extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He tried to analyse his feelings."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He tried to analyse his feelings."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەوڵی‌دا لە ھەستەکانی تێ‌بگات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,11 +232,18 @@ class EnglishEntryanalyse extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We need to analyse what went wrong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need to analyse what went wrong."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە لێ‌بکۆڵینەوە لەوەی چی ھەڵە ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

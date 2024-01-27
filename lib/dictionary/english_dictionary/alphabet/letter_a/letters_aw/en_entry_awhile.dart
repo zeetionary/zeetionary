@@ -170,10 +170,16 @@ class EnglishEntryawhile extends StatelessWidget {
 ١. (ھاوەڵکار) بۆ ماوەیەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Stay awhile."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەمێک بوەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Stay awhile."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەمێک بوەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

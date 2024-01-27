@@ -171,12 +171,18 @@ class EnglishEntryamplifier extends StatelessWidget {
 ١. (ناو) پارچەیەکی ئەلیکترۆنی کە دەنگ بەرزدەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Have you connected the speakers to the amplifier?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Have you connected the speakers to the amplifier?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڵیندگۆکانت پەیوەست‌کردووە بە دەنگپێدەرەکەوە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

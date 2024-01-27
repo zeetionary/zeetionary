@@ -128,12 +128,18 @@ class EnglishEntryadvanced extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی شتی سەردەمی و بیردۆز و ئایدیای تازە پەرەپێدراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are working on highly advanced technology to replace fossil fuels."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists are working on highly advanced technology to replace fossil fuels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان کار دەکەن لەسەر تەکنۆلۆژیای زۆر پێشکەوتوو بۆ شوێنگرتنەوەی سوتەمەنی بەبەردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryadvanced extends StatelessWidget {
 ٢. (ھاوەڵناو) لە ئاستێکی بەرزدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He hopes to pursue an advanced degree in economics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He hopes to pursue an advanced degree in economics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیواخوازە بڕوانامەیەکی بەرز لە ئابووریدا بەدەستبھێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

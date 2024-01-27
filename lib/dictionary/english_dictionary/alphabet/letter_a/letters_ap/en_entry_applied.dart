@@ -176,12 +176,18 @@ class EnglishEntryapplied extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی کرداریی شتێک، نەک تەنھا بوونی وەک بیردۆزێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In medicine, applied science is vital for developing new treatments and medical technologies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In medicine, applied science is vital for developing new treatments and medical technologies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دەرمانسازیدا زانستی کرداری گرنگە بۆ چارەسەری تازە و تەکنۆلۆژیای تەندرووستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

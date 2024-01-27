@@ -180,12 +180,18 @@ class EnglishEntryatom extends StatelessWidget {
 ١. (ناو) بچووکترین یەکەی توخمێکی کیمیایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryatom extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The scientist Ernest Rutherford was the first person to split the atom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The scientist Ernest Rutherford was the first person to split the atom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

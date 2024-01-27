@@ -180,12 +180,18 @@ class EnglishEntryartificial extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەستکردە و ئامانج لێی کۆپیکردنی شتێکی سرووشتییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All food served in the restaurant is completely free from any artificial colours and flavours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All food served in the restaurant is completely free from any artificial colours and flavours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryartificial extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە جیاوازە لە ڕوودانی سرووشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A job interview is a very artificial situation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A job interview is a very artificial situation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryartificial extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێکی ساختە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The girl's artificial laughs were so believable that she could convince anyone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The girl's artificial laughs were so believable that she could convince anyone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

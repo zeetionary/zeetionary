@@ -179,12 +179,18 @@ class EnglishEntryapt extends StatelessWidget {
 ١. (ھاوەڵناو) گونجاو لە دۆخێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a particularly apt name for someone with his skills."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a particularly apt name for someone with his skills."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوێکی لێوەشاوەی ھەبوو بەپێی شارەزاییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryapt extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A skilled writer uses apt descriptions to create a rich and immersive narrative."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A skilled writer uses apt descriptions to create a rich and immersive narrative."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسەری بەھرەمەند باسکردنی بەجێ بەکاردێنی بۆ بەرھەمھێنانی گێڕانەوەی دەوڵەمەند کە خوێنەر تێیدا ڕۆبچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +243,18 @@ class EnglishEntryapt extends StatelessWidget {
 ٢. (ھاوەڵناو) ویستی سرووشتی بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Babies are apt to put objects into their mouths."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Babies are apt to put objects into their mouths."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵی بچووک خووی ئەوەیان ھەیە شت بخەنە دەمیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +276,18 @@ class EnglishEntryapt extends StatelessWidget {
 ٣. (ھاوەڵناو) کەسێک کە توانای سرووشتی بۆ فێربوون و تێگەشتن ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have some particularly apt students in the class this year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have some particularly apt students in the class this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمساڵ چەند خوێندکارێکی بەتایبەت زرنگمان ھەیە لە پۆلدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

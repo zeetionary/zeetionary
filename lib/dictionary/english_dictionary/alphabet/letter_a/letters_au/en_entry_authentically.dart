@@ -180,12 +180,18 @@ class EnglishEntryauthentically extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی ڕاست و درووست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These are novels that authentically represent human experience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیان مرۆڤ پیشان دەدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These are novels that authentically represent human experience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیان مرۆڤ پیشان دەدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,12 +177,18 @@ class EnglishEntryassassinate extends StatelessWidget {
 ١. (کردار) کووشتن یان تیرۆرکردنی کەسێکی بەناوبانگ یان گرنگ بۆ پارە یان بەھۆکاری سیاسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prime minister was assassinated by extremists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prime minister was assassinated by extremists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک وەزیران لەلایەن توندڕەوانەوە کوژرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

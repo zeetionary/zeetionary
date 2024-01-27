@@ -194,12 +194,18 @@ class EnglishEntryamniocentesis extends StatelessWidget {
 ١. (ھاوەڵناو) ئەمنیۆسێنتێسیس؛ تاقی‌کردنەوەیەکی پزیشکی بۆ ژنانی سکپڕ، بەمەبەستی دیاریکردنی بوونی نەخۆشییەکی تایبەتی یا کێشەیەکی تەندرووستی لە ئاوەڵمەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Pregnant women over the age of 35 will be offered (an) amniocentesis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pregnant women over the age of 35 will be offered (an) amniocentesis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنانی سکپڕی سەروو ٣٥ ساڵان ئەمنیۆسێنتێسیسیان بۆ دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

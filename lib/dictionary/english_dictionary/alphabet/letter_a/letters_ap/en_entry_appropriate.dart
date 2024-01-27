@@ -183,12 +183,18 @@ class EnglishEntryappropriate extends StatelessWidget {
 ١. (ھاوەڵناو) گونجاو و درووست بۆ بارودۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Now that the problem has been identified, appropriate action can be taken."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Now that the problem has been identified, appropriate action can be taken."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا کە کێشەکە ناسێنراوە، ھەنگاوی گونجاو دەبێت بگیردرێتە بەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is now an appropriate time to make a speech?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is now an appropriate time to make a speech?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئایا ئێستا کاتێکی باشە بۆ پێشکەش‌کردنی وتارێک؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This may be an appropriate treatment for many patients."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This may be an appropriate treatment for many patients."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە ڕەنگە چارەسەرێکی گونجاو بێت بۆ زۆر نەخۆش."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +281,18 @@ class EnglishEntryappropriate extends StatelessWidget {
 ٢. (کردار) بەکارھێنانی شتی کەسێکی تر بۆ خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some of the opposition party's policies have been appropriated by the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some of the opposition party's policies have been appropriated by the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک لە سیاسەتەکانی ئۆپۆزسیۆن لەلایەن حکومەتەوە دزراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +313,18 @@ class EnglishEntryappropriate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He lost his job when he was found to have appropriated some of the company's money."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lost his job when he was found to have appropriated some of the company's money."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کارەکەی دەرکرا لە دوای ئەوەی زانرا ھەندێک لە پارەی کۆمپانیاکەی بۆ خۆی بەکارھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -317,12 +347,18 @@ class EnglishEntryappropriate extends StatelessWidget {
 ٣. (کردار) بردن یان پێدانی شتێک، بۆ نموونە پارە، بۆ بەکارھێنانی بۆ مەبەستێکی تایبەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Five million dollars have been appropriated for research into the disease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Five million dollars have been appropriated for research into the disease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێنج ملیۆن دۆلار تەرخان‌کراوە بۆ توێژینەوە لە نەخۆشییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -345,12 +381,18 @@ class EnglishEntryappropriate extends StatelessWidget {
 ٤. (کردار) بردنی شتێک لە کەلتوورێک و بەکارھێنانی وەک ئەوەی ھی کەلتووری خۆت بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As the empire expanded, they eagerly appropriated the artistic styles of their sunjects."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As the empire expanded, they eagerly appropriated the artistic styles of their sunjects."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ئیمپراتۆریەتییەکە فراوان بوو، ستایلی ھونەریی ژێردەستەکانیان بە پەرۆشییەوە دزی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

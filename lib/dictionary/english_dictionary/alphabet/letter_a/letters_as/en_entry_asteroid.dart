@@ -178,12 +178,18 @@ class EnglishEntryasteroid extends StatelessWidget {
 ١. (ھاوەڵناو) ھەسارەی بچووک کە بە دەوری خۆردا دەسووڕێنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are tracking an asteroid that could potentially impact Earth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists are tracking an asteroid that could potentially impact Earth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان چاودێری ھەسارۆکەیەک دەکەن کە ئەگەری ھەیە کاریگەری لە زەوی بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

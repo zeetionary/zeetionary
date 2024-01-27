@@ -180,12 +180,18 @@ class EnglishEntryartichoke extends StatelessWidget {
 ١. (ناو) سەوزەیەکی خڕ کە کە گەڵای ئەستووری زۆری ھەیە. بەشی خوارەوەی گەڵاکان و ناوەوەی سەوزەکە دەکرێت بخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cut the artichoke into long quarters and remove the choke (the purple spikes and blond fluff)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئارتیشۆکەکە بکە چوار بەشی یەکسانەوە و ناوەکەی لابدە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

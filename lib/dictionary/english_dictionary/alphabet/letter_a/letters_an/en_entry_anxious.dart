@@ -177,12 +177,18 @@ class EnglishEntryanxious extends StatelessWidget {
 ١. (ھاوەڵناو) ھەست‌کردن بە نیگەرانی و شڵەژاوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bus was late and Sue began to get anxious."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bus was late and Sue began to get anxious."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاسەکە درەنگ کەوتبوو و سوو دەستی‌کرد بە شڵەژان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryanxious extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt very anxious and depressed about the future."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt very anxious and depressed about the future."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ھەستم بە نیگەرانی و بێزاری دەکرد سەبارەت بە داھاتوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +241,18 @@ class EnglishEntryanxious extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە دەبێتە ھۆی نیگەرانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were a few anxious moments in the baseball game."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were a few anxious moments in the baseball game."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک ساتی ئۆقرەبڕ ھەبوو لە یاری بەیسبۆڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +274,18 @@ class EnglishEntryanxious extends StatelessWidget {
 ٣. (ھاوەڵناو) ویستنی زۆری شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was anxious to finish school and get a job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was anxious to finish school and get a job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تامەزرۆ بوو قوتابجانە تەواو بکات و کارێک بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

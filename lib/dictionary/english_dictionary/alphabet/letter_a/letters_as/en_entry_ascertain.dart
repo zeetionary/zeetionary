@@ -177,12 +177,18 @@ class EnglishEntryascertain extends StatelessWidget {
 ١. (کردار) دۆزینەوەی زانیاریی ڕاستی لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It can be difficult to ascertain the facts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It can be difficult to ascertain the facts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryascertain extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I ascertained that the driver was not badly hurt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I ascertained that the driver was not badly hurt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەکرێت سەخت بێ ڕاستییەکان پشت‌ڕاستبکەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

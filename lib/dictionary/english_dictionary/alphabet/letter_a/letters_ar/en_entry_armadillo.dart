@@ -176,10 +176,17 @@ class EnglishEntryarmadillo extends StatelessWidget {
 ١. (ناو) گیانلەبەرێکی ئەمریکی کە توێکڵێکی ڕەقی وەک کیسەڵ ھەیە لە ئێسک پێکھاتووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I have never seen an armadillo."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەرگیز ئەرمادیلۆیەکم نەدیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have never seen an armadillo."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەرگیز ئەرمادیلۆیەکم نەدیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

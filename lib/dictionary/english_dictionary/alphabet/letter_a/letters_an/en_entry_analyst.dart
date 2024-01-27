@@ -171,12 +171,18 @@ class EnglishEntryanalyst extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری لێکۆڵینەوە و توێژینەوەیە بۆ تێگەشتن لە بابەتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "City analysts forecast huge profits this year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "City analysts forecast huge profits this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژەرانی شارەکە ئەمساڵ پێشبینی قازانجی زەبەلاح دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,10 +202,16 @@ class EnglishEntryanalyst extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She is a financial analyst."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێکۆڵەرێکی ئابوورییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She is a financial analyst."),
+                                    ExampleSentenceKurdish(
+                                        text: "لێکۆڵەرێکی ئابوورییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

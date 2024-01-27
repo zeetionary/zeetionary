@@ -127,12 +127,18 @@ class EnglishEntryaccuser extends StatelessWidget {
 ١. (ناو) کەسێک کە کەسێک بە تۆمەتباری ڕووداوێک دەزانێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He demanded the right to face his accusers at a public hearing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He demanded the right to face his accusers at a public hearing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای مافی ڕووبەڕووبوونەوەی لە گفتوگۆیەکی گشتی کرد بەرامبەر بە سکاڵالێکەرانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

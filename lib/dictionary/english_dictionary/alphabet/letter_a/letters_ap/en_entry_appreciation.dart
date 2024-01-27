@@ -182,11 +182,17 @@ class EnglishEntryappreciation extends StatelessWidget {
 ١. (ناو) ئەو خۆشیەی کە ھەتە لە کاتی چێژ بینین لە شتێکی باش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She shows little appreciation of good music."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەدری میوزیکی خۆش نازانێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She shows little appreciation of good music."),
+                                    ExampleSentenceKurdish(
+                                        text: "قەدری میوزیکی خۆش نازانێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryappreciation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have now developed an appreciation of poetry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have now developed an appreciation of poetry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryappreciation extends StatelessWidget {
 ٢. (ناو) تێگەشتنی تەواو بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had no appreciation of the problems they faced."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had no appreciation of the problems they faced."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryappreciation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a growing appreciation of the need for change."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a growing appreciation of the need for change."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +313,18 @@ class EnglishEntryappreciation extends StatelessWidget {
 ٣. (ناو) ھەستی سوپاسگوزری و پێزانین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I would like to express my appreciation and thanks to you all."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I would like to express my appreciation and thanks to you all."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -317,12 +347,18 @@ class EnglishEntryappreciation extends StatelessWidget {
 ٤. (ناو) زیادبوونی نرخی شتێک لە دوای ماوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The appreciation in the value of the house has brought joy to the homeowners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The appreciation in the value of the house has brought joy to the homeowners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

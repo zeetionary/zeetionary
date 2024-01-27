@@ -128,11 +128,17 @@ class EnglishEntryagility extends StatelessWidget {
 ١. (ناو) ھەبوونی توانای جوڵاندنی جەستە بەخێرایی و ئاسانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has the agility of a mountain goat."),
-                              const ExampleSentenceKurdish(
-                                  text: "گورجوگۆڵی بزنێکی شاخاوی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has the agility of a mountain goat."),
+                                    ExampleSentenceKurdish(
+                                        text: "گورجوگۆڵی بزنێکی شاخاوی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,11 +159,18 @@ class EnglishEntryagility extends StatelessWidget {
 ٢. (ناو) ھەبوونی توانای بیرکردنەوە بەڕوونی و خێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We underestimate the agility of a child's mind."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیروھۆشی منداڵ بە کەم سەیر دەکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We underestimate the agility of a child's mind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیروھۆشی منداڵ بە کەم سەیر دەکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

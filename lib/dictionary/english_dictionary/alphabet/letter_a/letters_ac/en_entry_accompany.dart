@@ -130,11 +130,17 @@ class EnglishEntryaccompany extends StatelessWidget {
 ١. (کردار) چوون بۆ شوێنێک لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was accompanied on the visit by his wife."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە گەشتەکەی ژنەکەی یاوەریکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was accompanied on the visit by his wife."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە گەشتەکەی ژنەکەی یاوەریکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,12 +157,18 @@ class EnglishEntryaccompany extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I must ask you to accompany me to the police station."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I must ask you to accompany me to the police station."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناچاردەبم داوات لێ بکەم لەگەڵم بێیت بۆ بنکەی پۆلیس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -173,10 +185,18 @@ class EnglishEntryaccompany extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Warships will accompany the convoy."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەشتی جەنگی یاوەری وەفدەکە دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Warships will accompany the convoy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتی جەنگی یاوەری وەفدەکە دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +215,18 @@ class EnglishEntryaccompany extends StatelessWidget {
 ٢. (کردار) ڕوودان لەگەڵ شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Shouts of protest accompanied this announcement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shouts of protest accompanied this announcement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی ناڕەزایی لەگەڵ ئەم ڕاگەیاندنە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

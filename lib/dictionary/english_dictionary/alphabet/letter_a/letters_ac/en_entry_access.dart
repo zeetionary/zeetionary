@@ -157,12 +157,18 @@ class EnglishEntryaccess extends StatelessWidget {
 ١. (ناو) ھەل یان مافی بینینی کەسێک، یان بەکارھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You need a password to get access to the computer system."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستت بە تێپەڕەوشە ھەیە بۆ چوونەناو ناو سیستەمی کۆمپیوتەرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You need a password to get access to the computer system."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستت بە تێپەڕەوشە ھەیە بۆ چوونەناو ناو سیستەمی کۆمپیوتەرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,12 +185,18 @@ class EnglishEntryaccess extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Journalists were denied access to the President."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگە بە ڕۆژنامەنووسان نەدرا سەرۆک ببینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Journalists were denied access to the President."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگە بە ڕۆژنامەنووسان نەدرا سەرۆک ببینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +215,18 @@ class EnglishEntryaccess extends StatelessWidget {
 ٢. (ناو) ڕێگای چوونەناو شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police gained access through a broken window."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس چوونەژوورەوە لە ڕێگەی پەنجەرەیەکی شکاوەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police gained access through a broken window."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس چوونەژوورەوە لە ڕێگەی پەنجەرەیەکی شکاوەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +245,18 @@ class EnglishEntryaccess extends StatelessWidget {
 ٣. (کردار) کردنەوەی فایلی کۆمپیوتەرێک، یان چوونەناو سیستەمی کۆمپیوتەرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most people use their phones to access the internet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی خەڵک موبایل بەکاردێنن بۆ بەکارھێنانی ئینتەرنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most people use their phones to access the internet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی خەڵک موبایل بەکاردێنن بۆ بەکارھێنانی ئینتەرنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -251,12 +275,18 @@ class EnglishEntryaccess extends StatelessWidget {
 ٤. (کردار) توانای بەکارھێنانی شتێک، بەتایبەتی شتێک کە مافی بەکارھێنانیت ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Older people may have difficulty accessing medical services."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسانی بەتەمەن ڕەنگە کێشەیان ھەبێت لە بەکارھێنانی خزمەتگوزارییە تەندرووستییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Older people may have difficulty accessing medical services."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسانی بەتەمەن ڕەنگە کێشەیان ھەبێت لە بەکارھێنانی خزمەتگوزارییە تەندرووستییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -275,12 +305,18 @@ class EnglishEntryaccess extends StatelessWidget {
 ٥. (کردار) چوونەناو شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The village is easily accessed by public transport."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئاسانی دەتوانرێت چوونەناو گوندەکە ئەنجام بدرێت لە ڕێگەی گواستنەوەی گشتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The village is easily accessed by public transport."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئاسانی دەتوانرێت چوونەناو گوندەکە ئەنجام بدرێت لە ڕێگەی گواستنەوەی گشتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

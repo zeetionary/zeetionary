@@ -172,10 +172,16 @@ class EnglishEntryangel extends StatelessWidget {
 ١. (ناو) بوونێک کە باوەڕوایە خزمەتگوزاری خودان و دەنێردرێن بۆ گەیاندنی پەیامێک یان بەجێھێنانی ئەرکێک. زۆرجار فریشتە بە جلی سپی و باڵەوە پیشان‌دەدرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looks like an angel."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەڵێی فریشتەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She looks like an angel."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەڵێی فریشتەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryangel extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wore a white costume with big furry angel wings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wore a white costume with big furry angel wings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلێکی سپی لەبەرکرد بە باڵی فریشتەیی پەڕدارەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,10 +234,18 @@ class EnglishEntryangel extends StatelessWidget {
 ٢. (ناو) کەسێکی زۆرباش و میھرەبان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Mary’s children are little angels."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکانی ماری فریشتەی وردیلەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mary’s children are little angels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکانی ماری فریشتەی وردیلەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,10 +267,16 @@ class EnglishEntryangel extends StatelessWidget {
 ٣. (ناو) بۆ ناوھێنانی کەسێک کە سوپاسگوزاری بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Thanks Dad, you're an angel."),
-                              const ExampleSentenceKurdish(
-                                  text: "سوپاس باوکە، تۆ فریشتەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Thanks Dad, you're an angel."),
+                                    ExampleSentenceKurdish(
+                                        text: "سوپاس باوکە، تۆ فریشتەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,10 +179,16 @@ class EnglishEntryaspirin extends StatelessWidget {
 ١. (ناو) دەرمانی کەمکردنەوەی ئازار و تا و ھەوکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you have any aspirin?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ ئاسپرینت ھەیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Do you have any aspirin?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ ئاسپرینت ھەیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,10 +208,17 @@ class EnglishEntryaspirin extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Take two aspirin(s) for a headache."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو ئاسپرین بخۆ بۆ سەرێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Take two aspirin(s) for a headache."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو ئاسپرین بخۆ بۆ سەرێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

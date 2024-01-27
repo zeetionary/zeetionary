@@ -176,10 +176,17 @@ class EnglishEntryarithmetic extends StatelessWidget {
 ١. (ناو) کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، ھتد. لە بیرکاریدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's not very good at arithmetic."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ژمێرەناسیدا زۆر باش نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's not very good at arithmetic."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ژمێرەناسیدا زۆر باش نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

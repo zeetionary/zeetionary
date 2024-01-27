@@ -175,12 +175,18 @@ class EnglishEntryantiquated extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی کۆن کە چی‌تر گونجاو نییە بۆ ئەم سەردەمە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The antiquated heating system barely heats the larger rooms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The antiquated heating system barely heats the larger rooms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمی گەرمییە کۆنەکە بە ئەستەم ژووری گەورە گەرم‌دەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

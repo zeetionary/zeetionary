@@ -141,12 +141,18 @@ class EnglishEntryalternative extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت یان ھەڵیدەبژێریت کاتێک زیاتر لە یەک ھەڵبژاردەت ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The car is too expensive so we're trying to find a cheaper alternative."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car is too expensive so we're trying to find a cheaper alternative."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە زۆر گرانە بۆیە ھەوڵ دەدەین جێگرەوەیەکی ھەرزانتر بدۆزینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -166,12 +172,18 @@ class EnglishEntryalternative extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We had no alternative but to fire Gibson."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We had no alternative but to fire Gibson."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ ھەڵبژاردەیەکمان نەبوو جگە لە دەرکردنی گیبسن لە کارەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,12 +205,18 @@ class EnglishEntryalternative extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە دەکرێت جێگرەوە بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The road was closed so we had to find an alternative route."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road was closed so we had to find an alternative route."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە گیرابوو، بۆیە ناچاربووین یەکێکی دیکە بدۆزینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +238,18 @@ class EnglishEntryalternative extends StatelessWidget {
 ٣. (ھاوەڵناو) ئەو شتانەی کە باو نین بەڵام ڕێژەیەکی کەمی شوێنکەوتووی وابەستە بەخۆیان ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In Los Angeles many companies encourage their employees to use alternative means of transportation, rather than the car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە لۆس ئەنجلس زۆر کۆمپانیا کارمەندانیان ھاندەدەن کە ڕێگای دیکەی گواستنەوە بەکاربێنن لە جیاتی ئۆتۆمبێل."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In Los Angeles many companies encourage their employees to use alternative means of transportation, rather than the car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە لۆس ئەنجلس زۆر کۆمپانیا کارمەندانیان ھاندەدەن کە ڕێگای دیکەی گواستنەوە بەکاربێنن لە جیاتی ئۆتۆمبێل."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

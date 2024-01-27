@@ -180,12 +180,18 @@ class EnglishEntryatrocious extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She speaks French with an atrocious accent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She speaks French with an atrocious accent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryatrocious extends StatelessWidget {
 ٢. (ھاوەڵناو) تاوانێکی قێزەون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The dictator committed atrocious crimes against his own people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dictator committed atrocious crimes against his own people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryalign extends StatelessWidget {
 ١. (کردار) ھاوتەریب یان ھاوئاراستەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The top and bottom line of each column on the page should align."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The top and bottom line of each column on the page should align."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێڵی سەرەوە و خوارەوەی ستوونی سەر پەڕەکە دەبێت لەسەر یەک ھێڵ بن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryalign extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This pillar is roughly aligned with the others."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This pillar is roughly aligned with the others."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پایەکە تاڕادەیەک تەریبە لەگەڵ ئەوانی تر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryalluring extends StatelessWidget {
 ١. (ھاوەڵناو) جوان و سەرنجڕاکێش بەشێوەیەکی سیحراوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing a most alluring dress at the wedding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was wearing a most alluring dress at the wedding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵڕفێنەرترین جلی لە ئاھەنگی ھاوسەرگیرییەکە لەبەرکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,11 +129,18 @@ class EnglishEntryadoption extends StatelessWidget {
 ١. (ناو) ھەڵگرتنەوەی منداڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She put the baby up for adoption."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She put the baby up for adoption."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستبەرداری منداڵەکە بوو بۆ ھەڵگرتنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +161,18 @@ class EnglishEntryadoption extends StatelessWidget {
 ٢. (ناو) دەستکردن بە بەکارھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The widespread adoption of new technology could save 162 billion dollars a year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The widespread adoption of new technology could save 162 billion dollars a year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکارھێنانی بەرفراوانی تەکنەلۆژیای تازە ئەکرێت ١٦٢ ملیار دۆلاری ساڵانە بگەڕێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,12 +193,18 @@ class EnglishEntryadoption extends StatelessWidget {
 ٣. (ناو) دیاریکردنی کەسێک وەک کاندیدی ھەڵبژاردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The party announced the formal adoption of George Smith as their election candidate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The party announced the formal adoption of George Smith as their election candidate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارتەکە بە فەرمی ھەڵبژاردنی جۆرج سمیسی وەک کاندیدی ھەڵبژاردنەکان ڕاگەیاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

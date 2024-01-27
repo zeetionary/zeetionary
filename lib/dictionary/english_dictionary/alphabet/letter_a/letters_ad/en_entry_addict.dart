@@ -128,12 +128,18 @@ class EnglishEntryaddict extends StatelessWidget {
 ١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many young boys become computer addicts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many young boys become computer addicts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaddict extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He used to be a drug addict for years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He used to be a drug addict for years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

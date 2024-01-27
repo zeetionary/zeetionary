@@ -175,12 +175,18 @@ class EnglishEntryaromatherapy extends StatelessWidget {
 ١. (ناو) بەکارھێنانی جۆرە جیاوازەکانی ڕۆنی سرووشتی کە بۆنیان خۆشە بۆ بەھێزکردنی لەش لە لایەنی جەستەیی و دەروونی بە ساوینی ڕۆنەکە بە لەشدا یان بۆنکردنیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Owen received aromatherapy massage weekly for about three months."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Owen received aromatherapy massage weekly for about three months."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆون ھەفتانە بۆ نزیکەی سێ مانگ مەساجی ئارۆماسێرەپی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

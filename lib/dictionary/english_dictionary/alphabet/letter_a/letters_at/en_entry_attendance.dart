@@ -181,11 +181,18 @@ class EnglishEntryattendance extends StatelessWidget {
 ١. (ناو) ئامادەبوون لە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Attendance at these lectures is not compulsory."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئامادەبوون لەم وانانە ناچاری نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Attendance at these lectures is not compulsory."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادەبوون لەم وانانە ناچاری نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,11 +215,17 @@ class EnglishEntryattendance extends StatelessWidget {
 ٢. (ناو) ژمارەی کەسانی ئامادەبوو لە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was an attendance of 42 at the meeting."),
-                              const ExampleSentenceKurdish(
-                                  text: "٤٢ کەس لە چاوپێکەوتنەکە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was an attendance of 42 at the meeting."),
+                                    ExampleSentenceKurdish(
+                                        text: "٤٢ کەس لە چاوپێکەوتنەکە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

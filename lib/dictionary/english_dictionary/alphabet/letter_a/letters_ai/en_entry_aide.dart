@@ -127,12 +127,18 @@ class EnglishEntryaide extends StatelessWidget {
 ١. (ناو) کەسێک کە یارمەتی کەسێکی تر دەدات بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He served as an aide to the former president."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He served as an aide to the former president."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک یاریدەدەری سەرۆکی پێشوو کاری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

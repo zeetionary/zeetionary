@@ -177,12 +177,18 @@ class EnglishEntryarticulated extends StatelessWidget {
 ١. (ھاوەڵناو) ئۆتۆمبێلێک کە لە زیاتر لە دوو بەش پێکھاتووە بۆ ئاسانی خولانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An articulated lorry has overturned on the southbound carriageway, shedding its load."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An articulated lorry has overturned on the southbound carriageway, shedding its load."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لۆرییەکی بارھەڵگر وەرگەڕاوە لەسەر ئەو سایدەی بەرەو باشوور دەچێت و بارەکەی ڕژاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

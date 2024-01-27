@@ -179,10 +179,17 @@ class EnglishEntryasphyxiation extends StatelessWidget {
 ١. (ناو) ھەناسەلێ‌بڕان تاوەکو مردن یان بێ‌ھۆش‌کەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The cause of death was asphyxiation."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھۆکاری مردنەکە خنکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cause of death was asphyxiation."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھۆکاری مردنەکە خنکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

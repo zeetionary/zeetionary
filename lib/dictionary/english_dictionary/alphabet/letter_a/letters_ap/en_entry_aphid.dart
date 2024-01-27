@@ -176,12 +176,18 @@ class EnglishEntryaphid extends StatelessWidget {
 ١. (ناو) مێروویەکی زۆر بچووک کە زەرەرمەندە بۆ ڕووەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Aphids can have babies without mating."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Aphids can have babies without mating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆکەکان دەتوانن وەچە بخەنەوە بەبێ جووتبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

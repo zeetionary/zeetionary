@@ -176,12 +176,18 @@ class EnglishEntryaqueduct extends StatelessWidget {
 ١. (ناو) بینایەک کە لە شێوەی پردێکدایە و ئاو دەگوازێتەوە بەسەر دۆڵێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many Roman generals built aqueducts for their army during battles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many Roman generals built aqueducts for their army during battles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک ژەنەراڵی ڕۆم ئاوبارەیان درووست‌دەکرد بۆ سوپاکانیان لە کاتی شەڕدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,11 +127,18 @@ class EnglishEntryadversity extends StatelessWidget {
 ١. (ناو) دۆخێکی سەخت و ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He overcame many personal adversities."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەسەر زۆر نەھامەتیی کەسیدا زاڵ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He overcame many personal adversities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەسەر زۆر نەھامەتیی کەسیدا زاڵ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryachievement extends StatelessWidget {
 ١. (ناو) شتێک کە کەسێک بە ھەوڵ و ماندییبیینی بە سەرکەوتووانە کردوویەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was a remarkable achievement for such a young player."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستکەوتێکی ناوازە بوو بۆ یاریزانێکی وا گەنج."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a remarkable achievement for such a young player."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستکەوتێکی ناوازە بوو بۆ یاریزانێکی وا گەنج."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryachievement extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This work is the crowning achievement (= the greatest achievement) of her career."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە گەورەترین دەستکەوتی کارکردنیەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This work is the crowning achievement (= the greatest achievement) of her career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە گەورەترین دەستکەوتی کارکردنیەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

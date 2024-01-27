@@ -179,12 +179,18 @@ class EnglishEntryaugur extends StatelessWidget {
 ١. (کردار) بوون بە ئاماژەیەک بەوەی شتێک سەرکەوتوو دەبێت یان نا لە داھاتوودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Conflicts among the various groups do not augur well for the future of the peace talks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Conflicts among the various groups do not augur well for the future of the peace talks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکدادان لە نێوان لایەنەکاندا ئاماژەیەکی باش نابێت بۆ داھاتووی گفتوگۆی ئاشتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

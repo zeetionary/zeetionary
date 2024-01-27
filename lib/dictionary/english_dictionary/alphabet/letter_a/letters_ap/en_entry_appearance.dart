@@ -181,12 +181,18 @@ class EnglishEntryappearance extends StatelessWidget {
 ١. (ناو) شێوازی دەرکەوتنی شتێک لە ڕواڵەتدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had never been greatly concerned about her appearance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had never been greatly concerned about her appearance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز ھێندە زۆر گرنگی بە ڕواڵەتی نەداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryappearance extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Judging by appearances can be misleading."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Judging by appearances can be misleading."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاردان بە ڕواڵەت دەکرێت بتخاتە ھەڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryappearance extends StatelessWidget {
 ٢. (ناو) گەشتنی کەسێک لە شوێنێک، بەتایبەتی کە پێشبینی‌نەکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sudden appearance of a security guard caused them to drop the money and run."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sudden appearance of a security guard caused them to drop the money and run."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرکەوتنی لەناکاوی پاسەوانێک بووە ھۆی ئەوەی پارەکە دابنێن و ھەڵبێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +281,18 @@ class EnglishEntryappearance extends StatelessWidget {
 ٣. (ناو) ساتی درووستبوون یان دەرکەوتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Since its first appearance in the 19th century, cholera has killed millions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Since its first appearance in the 19th century, cholera has killed millions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەرەتای دەرکەوتنییەوە لە سەدەی نۆزدەوە، کۆلێرا بووە بەھۆی کووشتنی ملیۆنان کەس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +315,18 @@ class EnglishEntryappearance extends StatelessWidget {
 ٤. (ناو) دەرکەوتن لە شوێنێکی گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The singer's first public appearance was at the age of eight."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The singer's first public appearance was at the age of eight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەم دەرکەوتنی گۆرانیبێژەکە لە تەمەنی ھەشت ساڵی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -319,12 +349,18 @@ class EnglishEntryappearance extends StatelessWidget {
 ٥. (ناو) بڵاوبوونەوە یان پەخشکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The appearance of claims about the minister's private life in the press has caused a lot of discussions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The appearance of claims about the minister's private life in the press has caused a lot of discussions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڵاوبوونەوەی دەنگۆکان لەسەر ژیان تایبەتیی وەزیرەکە لە میدیادا قسەی زۆری بەدوادا ھاتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

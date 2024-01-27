@@ -180,12 +180,18 @@ class EnglishEntryassimilate extends StatelessWidget {
 ١. (کردار) بە تەواوی تێگەشتن لە شتێک بە شێوەیەک کە خۆت بتوانیت بەکاریبێنیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The committee will need time to assimilate this report."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The committee will need time to assimilate this report."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیژنەکە پێویستی بە کاتە بۆ تێگەشتن لەم ڕاپۆرتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryassimilate extends StatelessWidget {
 ٢. (کردار) توانەوە یان تاواندنەوە لەناو گرووپێک؛ وا لە کەسێک بکەیت ببێت لە بەشێک لە گرووپێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You shouldn't expect immigrants to assimilate into an alien culture immediately."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You shouldn't expect immigrants to assimilate into an alien culture immediately."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نابێیت چاوەڕێی ئەوە لە پەنابەران بکەیت بەزویی بتوێنەوە ناو کەلتوورێکی نامۆ بەخۆیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryassimilate extends StatelessWidget {
 ٣. (کردار) گونجاندنی بیرۆکەیەک یان ڕەفتارێک لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These changes were gradually assimilated into everyday life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These changes were gradually assimilated into everyday life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم گۆڕانکارییانە کەم‌کەم لەگەڵ ژیانی ڕۆژانە گونجێندران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

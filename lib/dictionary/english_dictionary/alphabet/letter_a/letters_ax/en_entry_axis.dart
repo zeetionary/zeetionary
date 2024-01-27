@@ -174,12 +174,18 @@ class EnglishEntryaxis extends StatelessWidget {
 ١. (ھاوەڵناو) تەوەرە؛ ھێڵێکی جێگیر بە ناوەڕاستی شتێکدا کە بە دەوریدا دەسووڕێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mars takes longer to revolve on its axis than the Earth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mars takes longer to revolve on its axis than the Earth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەریخ زیاتر لە زەوی پێدەچێت بۆ سووڕانەوە بەدەوری تەوەرەکەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryaxis extends StatelessWidget {
 ٢. (ھاوەڵناو) ھێڵێکی جێگیر کە بەکاردێت بۆ دیاریکردنی شوێنی خاڵ، بۆ نموونە لەسەر نەخشەی پۆتان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The real wage is measured along the horizontal axis and the quantity of labour is measured along the vertical axis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووچەی ڕاستی لەسەر تەوەرەی ئاسۆییە و بڕی کارکردنیش لەسەر تەوەرەی ستوونییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +240,18 @@ class EnglishEntryaxis extends StatelessWidget {
 ٣. (ھاوەڵناو) ھێڵێک کە شێوەیەک دەکات بە دوو بەشەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The axis of a circle is its diameter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The axis of a circle is its diameter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێڵی ھاوتایی بازنەیەک بریتییە لە تیرەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +273,18 @@ class EnglishEntryaxis extends StatelessWidget {
 ٤. (ھاوەڵناو) ڕێککەوتنی نێوان دوو لایەن یان زیاتر کە بەشی سەرەکی ھاوپەیمانییەکی گەورەترن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Franco-British axis has shaped European foreign policy for decades."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Franco-British axis has shaped European foreign policy for decades."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنی فەرەنسا و بەریتانیا بە چەندین دەیەیە داڕێژەری سیاسەتی دەرەوەی ئەورووپا بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

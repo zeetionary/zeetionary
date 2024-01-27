@@ -128,12 +128,18 @@ class EnglishEntryadnauseam extends StatelessWidget {
 ١. (ھاوەڵکار) تا ئاستێکی بێزارکەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sports commentators repeat the same phrases ad nauseam."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sports commentators repeat the same phrases ad nauseam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمێنتارە وەرزشییەکان ھەمان شت دووبارە و دووبارە دەکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

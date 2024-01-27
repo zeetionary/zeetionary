@@ -130,11 +130,18 @@ class EnglishEntryallotment extends StatelessWidget {
 ١. (ناو) پارچە زەوییەکی بچووک کە کەسێک بە کرێی دەگرێت بە مەبەستی چاندن لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They eat fresh vegetables from their allotment."),
-                              const ExampleSentenceKurdish(
-                                  text: "میوەی تازەی زەوییەکەی خۆیان دەخۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They eat fresh vegetables from their allotment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوەی تازەی زەوییەکەی خۆیان دەخۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +162,18 @@ class EnglishEntryallotment extends StatelessWidget {
 ٢. (ناو) ڕێژەیەک لە شتێک کە کەسێک پێی دەدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Water allotments to farmers were cut back in the drought."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Water allotments to farmers were cut back in the drought."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشکی ئاو بە جوتیاران کەمکرایەوە لە وشکەساڵییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

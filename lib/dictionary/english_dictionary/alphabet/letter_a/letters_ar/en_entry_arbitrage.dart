@@ -176,12 +176,18 @@ class EnglishEntryarbitrage extends StatelessWidget {
 ١. (ناو) کڕینی شتێک لە شوێنێک و فرۆشتنی لە شوێنێکی تر کە نرخەکەی بەرزترە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Traders said a rise in the peso's value made Mexican share prices more expensive compared with shares sold in New York and sparked some arbitrage selling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بازرگانان وتیان بەرزبوونەوەی نرخی پیزۆ وای‌کرد نرخی پشکە مەکسیکییەکان گرانتر بن بە بەراورد بە ئەوانەی نیویۆرک و ئەمەش وایکرد ھەندێک کڕین و فرۆشتنەوە بە نرخی بەرز ڕووبدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Traders said a rise in the peso's value made Mexican share prices more expensive compared with shares sold in New York and sparked some arbitrage selling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بازرگانان وتیان بەرزبوونەوەی نرخی پیزۆ وای‌کرد نرخی پشکە مەکسیکییەکان گرانتر بن بە بەراورد بە ئەوانەی نیویۆرک و ئەمەش وایکرد ھەندێک کڕین و فرۆشتنەوە بە نرخی بەرز ڕووبدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

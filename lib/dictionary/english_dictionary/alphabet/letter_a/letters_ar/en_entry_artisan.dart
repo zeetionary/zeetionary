@@ -179,12 +179,18 @@ class EnglishEntryartisan extends StatelessWidget {
 ١. (ناو) کەسێکی شارەزا کە کارێک بە دەستی دەکات کە پێویستی بە شارەزایی تایبەت ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You will learn how eighteenth-century artisans did their work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You will learn how eighteenth-century artisans did their work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فێردەبیت چۆن پیشەسازانی سەدەی ١٨ کارەکانیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryartisan extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە پیشەسازێک، یان کارەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The artisan bakery's bread is made with only the finest ingredients and is baked in a traditional wood-fired oven."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The artisan bakery's bread is made with only the finest ingredients and is baked in a traditional wood-fired oven."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نانەکانی نانەواخانەی پیشەسازەکە تەنھا بە باشترین ڕەچەتە درووست دەکرێن و بە ڕێگای کۆن دەبرژێندرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

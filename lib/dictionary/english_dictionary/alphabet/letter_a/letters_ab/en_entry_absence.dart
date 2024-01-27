@@ -121,12 +121,18 @@ class EnglishEntryabsence extends StatelessWidget {
 ١. (ناو) کاتێک کەسێک لە شوێنێک ئامادە نییە لەکاتێکدا زۆرینەی کات لەوێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We did not receive any news during his long absence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We did not receive any news during his long absence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ ھەواڵێکمان پێنەگەیشت لەو ماوە زۆرەی بزر بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryabsence extends StatelessWidget {
 ٢. (ناو) کاتی نەبوونی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The case was dismissed in the absence of any definite proof."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The case was dismissed in the absence of any definite proof."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەیسەکە کۆتایی پێھێنرا بەھۆی نەبوونی بەڵگەی ئاشکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

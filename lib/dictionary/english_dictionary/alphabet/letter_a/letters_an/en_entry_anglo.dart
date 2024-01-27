@@ -168,12 +168,18 @@ class EnglishEntryanglo extends StatelessWidget {
 ١. (گرێدەر) ئینگلیزی یان بەریتانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The term 'Anglo-Canadian' refers to people of English descent living in Canada."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The term 'Anglo-Canadian' refers to people of English descent living in Canada."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئینگلیزی-بەریتانی واتە کەسێک کە بە ڕەچەڵەک ئینگلیزە بەڵام لە کەنەدا دەژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

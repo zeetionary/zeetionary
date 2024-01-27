@@ -122,12 +122,18 @@ class EnglishEntryaccordingly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ بارودۆخەکە دەگونجێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have to discover his plans and act accordingly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have to discover his plans and act accordingly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە پلانەکانی بدۆزینەوە و بە گونجاوی کردار بنێین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -146,12 +152,18 @@ class EnglishEntryaccordingly extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ دەربڕینی ئەنجامی ھۆکارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cost of materials rose sharply last year. Accordingly, we were forced to increase our prices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی کەرەستەکان ساڵی ڕابردوو بەرزبوویەوە، لەبەر ئەوە ناچاربووین نرخەکان بەرزبکەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

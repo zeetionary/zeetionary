@@ -113,11 +113,17 @@ class EnglishEntryaccomplished extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی ژمارەیەکی زۆر شارەزایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was an elegant and accomplished woman."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژنێکی ڕێکپۆش و کارامە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was an elegant and accomplished woman."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژنێکی ڕێکپۆش و کارامە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

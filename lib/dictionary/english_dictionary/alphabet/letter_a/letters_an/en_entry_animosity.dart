@@ -171,12 +171,18 @@ class EnglishEntryanimosity extends StatelessWidget {
 ١. (ناو) ڕق‌وکینە بەرامبەر کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He felt no animosity towards his critics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He felt no animosity towards his critics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی بە ھیچ ڕقێک بەرامبەر بە ڕەخنەگرانی نەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryanimosity extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They managed to discuss their past disagreements without animosity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They managed to discuss their past disagreements without animosity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانیان بەبێ ڕق‌وکینە باسی ناکۆکییەکانی ڕابردوویان بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

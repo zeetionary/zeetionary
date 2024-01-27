@@ -132,11 +132,18 @@ class EnglishEntryabandon extends StatelessWidget {
 ١. (کردار) جێھێشتنی کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The baby had been abandoned by its mother."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The baby had been abandoned by its mother."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە لەلایەن دایکی جێھێڵدرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +160,18 @@ class EnglishEntryabandon extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Snow forced many drivers to abandon their vehicles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Snow forced many drivers to abandon their vehicles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -182,12 +195,18 @@ class EnglishEntryabandon extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They abandoned the match because of rain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یارییەکەیان وەستاند بەھۆی باران بارین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They abandoned the match because of rain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارییەکەیان وەستاند بەھۆی باران بارین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +230,18 @@ class EnglishEntryabandon extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Germany abandoned its political leaders after WWII."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Germany abandoned its political leaders after WWII."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryaggression extends StatelessWidget {
 ١. (ناو) ھەستی ڕق و شەڕانگێزی کە ڕەنگە ببێتە ھۆی توندتوتیژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The research shows that computer games may cause aggression."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The research shows that computer games may cause aggression."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوەکە دەریدەخات کە یارییە ئەلیکترۆنییەکان دەکرێت ببنەھۆی شەڕەنگێزی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryaggression extends StatelessWidget {
 ٢. (ناو) شەڕفرۆشتنی کەسێک یان وڵاتێک بە یەکێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president announced that the country would not tolerate foreign aggressions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president announced that the country would not tolerate foreign aggressions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک ڕایگەیاند کە وڵاتەکە چاوپۆشی ناکات لە ھیچ دەستدرێژییەکی دەرەکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

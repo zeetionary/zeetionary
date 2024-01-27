@@ -127,12 +127,18 @@ class EnglishEntryadmirer extends StatelessWidget {
 ١. (ناو) کەسێک کە سەرسامە بە کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is a great admirer of Picasso's early paintings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is a great admirer of Picasso's early paintings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

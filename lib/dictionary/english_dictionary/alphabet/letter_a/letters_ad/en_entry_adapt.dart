@@ -127,12 +127,18 @@ class EnglishEntryadapt extends StatelessWidget {
 ١. (کردار) خۆگونجاندن لەگەڵ بارودۆخێکی جیاواز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have had to adapt quickly to the new system."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have had to adapt quickly to the new system."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستبووە زوو خۆمان بە سیستەمە نووێیەکە ڕابێنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

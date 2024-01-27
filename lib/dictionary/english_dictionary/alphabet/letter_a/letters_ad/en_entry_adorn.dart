@@ -125,11 +125,18 @@ class EnglishEntryadorn extends StatelessWidget {
 ١. (کردار) خۆجوانکردن بە شتی جوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children adorned themselves with flowers."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکان خۆیان بە گوڵ ڕازاندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children adorned themselves with flowers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان خۆیان بە گوڵ ڕازاندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -140,12 +140,18 @@ class EnglishEntryacceptable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زۆرینەی خەڵک لە کۆمەڵگا پێیان گونجاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is perfectly acceptable for you as an employee to say no."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is perfectly acceptable for you as an employee to say no."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -162,12 +168,18 @@ class EnglishEntryacceptable extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children must learn socially acceptable behaviour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children must learn socially acceptable behaviour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان دەبێت فێری ڕەفتاری لەگەڵ کۆمەڵگە گونجاو ببن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +198,18 @@ class EnglishEntryacceptable extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە جێگەی قبووڵکردنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is possible to find a solution that is acceptable to both sides."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is possible to find a solution that is acceptable to both sides."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێی تێ ئەچێ ڕێگەچارەیەک بدۆزینەوە کە ھەردوو لا لەسەری کۆکبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +228,18 @@ class EnglishEntryacceptable extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە زۆر باش نییە، بەڵام خراپیش نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Inspectors found that teaching standards were acceptable, but could be improved."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Inspectors found that teaching standards were acceptable, but could be improved."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

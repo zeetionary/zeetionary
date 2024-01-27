@@ -129,12 +129,18 @@ class EnglishEntryallusion extends StatelessWidget {
 ١. (ناو) شتێک کە بە شێوەی ناڕاستەوخۆ باسی کەسێک/شتێک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His statement was seen as an allusion to the recent drug-related killings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His statement was seen as an allusion to the recent drug-related killings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتەکەی وابینرا کە ئاماژەیەک بێت بۆ ئەو کوشتنانەی ئەم ماوە کە پەیوەندیدار بە مادەی ھۆشبەر بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

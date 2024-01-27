@@ -107,11 +107,18 @@ class EnglishEntryabode extends StatelessWidget {
 ١. (ناو) شوێنی ژیانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You are most welcome to my humble abode."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر بەخێربێیت بۆ وارگە سادەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You are most welcome to my humble abode."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر بەخێربێیت بۆ وارگە سادەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryassimilation extends StatelessWidget {
 ١. (ناو) پڕۆسەی تێگەشتن لە بیرۆکەی تازە بۆ ئەوەی خۆت بتوانی بەکاریان‌بێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the fast-paced world of technology, the rapid assimilation of new ideas is essential for companies to survive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the fast-paced world of technology, the rapid assimilation of new ideas is essential for companies to survive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە جیھانی خێرا-گوزەری تەکنەلۆژیادا، لەخۆگرتنی بیرۆکەی تازە گرنگە بۆ کۆمپانیاکان بۆ مانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryassimilation extends StatelessWidget {
 ٢. (ناو) پڕۆسەی بوون بە بەشێک لە وڵاتێک یان خەڵکی نەتەوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The assimilation of ethnic Germans in the US was accelerated by the two world wars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The assimilation of ethnic Germans in the US was accelerated by the two world wars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانەوەی بەڕەچەڵەک ئەڵمانییەکان لە ئەمریکا خێراتر بوو بەھۆی دوو جەنگە جیھانییەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

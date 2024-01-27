@@ -179,10 +179,16 @@ class EnglishEntryathletic extends StatelessWidget {
 ١. (ھاوەڵناو) لە ڕووی جەستەییەوە بەھێز و چالاک و وەرزشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looks very athletic."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر وەرزشی دیارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She looks very athletic."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر وەرزشی دیارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryathletic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە وەرزش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This college has a long tradition of athletic excellence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This college has a long tradition of athletic excellence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

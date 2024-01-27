@@ -128,12 +128,18 @@ class EnglishEntryaffected extends StatelessWidget {
 ١. (ھاوەڵناو) کاریگەربوون بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't worry about the rule changes—you're not affected."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't worry about the rule changes—you're not affected."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیگەران مەبە سەبارەت بە گۆڕانی یاساکان، تۆ کاریگەر نابیت پێیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryaffected extends StatelessWidget {
 ٢. (ھاوەڵناو) نا سرووشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don’t use such strange words—it makes you sound affected."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don’t use such strange words—it makes you sound affected."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی وا نامۆ بەکارمەھێنە، وای دەردەخات کە نواندن دەکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

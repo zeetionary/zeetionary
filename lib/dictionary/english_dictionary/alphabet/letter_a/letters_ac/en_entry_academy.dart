@@ -109,10 +109,16 @@ class EnglishEntryacademy extends StatelessWidget {
 ١. خوێندنگایەک بۆ خوێندنی تایبەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "a police/military academy"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەکادیمیای پۆلیسی/سەربازی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "a police/military academy"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەکادیمیای پۆلیسی/سەربازی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

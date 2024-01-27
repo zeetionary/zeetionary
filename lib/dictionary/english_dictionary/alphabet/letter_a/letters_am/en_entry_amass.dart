@@ -128,12 +128,18 @@ class EnglishEntryamass extends StatelessWidget {
 ١. (کردار) کۆکردنەوەی ڕێژەیەکی زۆر لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They amassed enough evidence to convict her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They amassed enough evidence to convict her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشی پێویست بەڵگەیان کۆکردەوە تاوانباری بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryamass extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Germany has amassed a large number of troops on the border with France."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Germany has amassed a large number of troops on the border with France."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەڵمانیا ڕێژەیەکی زۆر سەربازی لەسەر سنووری فەرەنسا کۆکردووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

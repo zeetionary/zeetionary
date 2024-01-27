@@ -128,12 +128,18 @@ class EnglishEntryagriculture extends StatelessWidget {
 ١. (ناو) زانست یان کاری کشتوکاڵ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Agriculture is still largely based on traditional methods in some countries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Agriculture is still largely based on traditional methods in some countries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کشتوکاڵ لە زۆر وڵات ھێشتا ھەر پشت بە ڕێگا باوە کۆنەکان دەبەستێت بەزۆری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

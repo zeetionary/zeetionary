@@ -180,12 +180,18 @@ class EnglishEntryaspiration extends StatelessWidget {
 ١. (ناو) خواست و ئارەزوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I didn't realize you had political aspirations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەمزانی بوو ئارەزووت بۆ سیاسەت ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I didn't realize you had political aspirations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمزانی بوو ئارەزووت بۆ سیاسەت ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +232,18 @@ class EnglishEntryaspiration extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The teacher instructed the student to pay attention to their aspiration when pronouncing certain words."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The teacher instructed the student to pay attention to their aspiration when pronouncing certain words."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکە داوای لە خوێندکارەکانی کرد سەرنج بدەن بە ئەسپیرەیشنیان لە خوێندنەوەی ھەندێک وشەی دیاریکراو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

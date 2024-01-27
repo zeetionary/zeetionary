@@ -169,12 +169,18 @@ class EnglishEntryawayday extends StatelessWidget {
 ١. (ناو) ڕۆژێک کە کۆمەڵێک کارمەند پێکەوە بەسەری دەبەن بۆ باسکردنی پلان و بیرۆکەکانیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The management are having an away day to discuss strategy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The management are having an away day to discuss strategy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمی بەڕێوەبردن ڕۆژێکی گفتوگۆیان ھەیە بۆ باسکردنی ستراتیژییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

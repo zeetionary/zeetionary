@@ -130,12 +130,18 @@ class EnglishEntryairspace extends StatelessWidget {
 ١. (ناو) ئاسمانی وڵاتێک کە لەلایەن ئەو وڵاتەوە کۆنترۆڵ کراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The airspace over Europe is becoming more and more crowded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The airspace over Europe is becoming more and more crowded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسمانی ئەورووپا زیاتر و زیاتر قەرەباڵغ دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,11 +160,18 @@ class EnglishEntryairspace extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The jet entered Chinese airspace without permission."),
-                              const ExampleSentenceKurdish(
-                                  text: "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The jet entered Chinese airspace without permission."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە چووە ئاسمانی چین بەبێ مۆڵەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

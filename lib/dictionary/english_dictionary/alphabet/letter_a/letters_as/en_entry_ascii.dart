@@ -176,10 +176,18 @@ class EnglishEntryASCII extends StatelessWidget {
 ١. (ناو) کۆدی ستاندارد بۆ گواستنەوەی زانیاری لە کۆمپیوتەرێک بۆ یەکێکی تر کە دوو پرۆگرامی جیاواز بەکاردێنن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Save the text as an ASCII file."),
-                              const ExampleSentenceKurdish(
-                                  text: "نووسراوەکە بە فایلێکی ئاسکی باربکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Save the text as an ASCII file."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسراوەکە بە فایلێکی ئاسکی باربکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

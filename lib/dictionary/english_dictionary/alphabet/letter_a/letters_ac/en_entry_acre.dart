@@ -127,12 +127,18 @@ class EnglishEntryacre extends StatelessWidget {
 ١. (ناو) یەکەی پێوانی زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Each house has acres of space around it (= a lot of space)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Each house has acres of space around it (= a lot of space)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر ماڵێک ڕێژەیەکی زۆر بۆشی لە دەوری ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

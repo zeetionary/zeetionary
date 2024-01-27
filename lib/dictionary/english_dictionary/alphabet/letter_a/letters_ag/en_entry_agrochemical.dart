@@ -128,12 +128,18 @@ class EnglishEntryagrochemical extends StatelessWidget {
 ١. (ناو) مادەی کیمیایی کە بەکاردێت لە کشتوکاڵدا بەکاردێت بۆ کوشتنی مێروو یان باشترکردنی گەشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They produce a wide range of agrochemicals including pesticides, fungicides, and herbicides."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر مادەی کیمیایی درووست دەکەن، لەوانە مێرووکوژ، کەڕووکوژ، گیاکوژ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

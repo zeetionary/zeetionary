@@ -129,12 +129,18 @@ class EnglishEntryalacrity extends StatelessWidget {
 ١. (ناو) شادی و جۆشوخرۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They accepted the offer with alacrity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They accepted the offer with alacrity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆفەرەکەیان بە جۆشوخرۆشییەوە پەسەندکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

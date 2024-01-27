@@ -183,11 +183,17 @@ class EnglishEntryassign extends StatelessWidget {
 ١. (کردار) پێدانی شتێک بە کەسێک بۆ بەکارھێنان، یان پێدانی کار یان بەرپرسیاریەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two large classrooms have been assigned to us."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو پۆلی گەورەمان پێدراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two large classrooms have been assigned to us."),
+                                    ExampleSentenceKurdish(
+                                        text: "دوو پۆلی گەورەمان پێدراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryassign extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The teacher assigned each of the children a different task."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The teacher assigned each of the children a different task."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکە ئەرکی جیاوازی دا بە ھەر قوتابییەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,11 +246,18 @@ class EnglishEntryassign extends StatelessWidget {
 ٢. (کردار) ڕاسپاردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They've assigned their best man to the job."),
-                              const ExampleSentenceKurdish(
-                                  text: "باشترین کەسیان بۆ کارەکە ڕاسپاردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They've assigned their best man to the job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین کەسیان بۆ کارەکە ڕاسپاردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,11 +279,18 @@ class EnglishEntryassign extends StatelessWidget {
 ٣. (کردار) ناردنی کەسێک بۆ کارکردن لەژێر سەرپەرشتی کەسێک، گرووپێک، یان شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the team were assigned to Poland."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی تیمەکە بۆ پۆڵەندا نێردران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the team were assigned to Poland."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی تیمەکە بۆ پۆڵەندا نێردران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +312,18 @@ class EnglishEntryassign extends StatelessWidget {
 ٤. (کردار) دیاریکردنی نرخ، بەرپرسیاریەتی، کات، یان شوێنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The painting cannot be assigned an exact date."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تابلۆکە ناتوانرێت مێژوویەکی تەواوی بۆ دیاری‌بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The painting cannot be assigned an exact date."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکە ناتوانرێت مێژوویەکی تەواوی بۆ دیاری‌بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,12 +345,18 @@ class EnglishEntryassign extends StatelessWidget {
 ٥. (کردار) وتنی ئەوەی مافەکانت لە ئێستادا بۆ کەسێکی تر دەگەڕێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The agreement assigns copyright to the publisher."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنەکە مافی کۆپیڕایت دەدات بە دەزگای بڵاوکار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The agreement assigns copyright to the publisher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنەکە مافی کۆپیڕایت دەدات بە دەزگای بڵاوکار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

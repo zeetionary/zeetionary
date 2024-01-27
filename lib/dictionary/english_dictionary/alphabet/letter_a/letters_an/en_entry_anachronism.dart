@@ -172,12 +172,18 @@ class EnglishEntryanachronism extends StatelessWidget {
 ١. (ناو) کۆنەپەرستی؛ شتێک کە پەیوەندی بە ڕابردوو ھەیە و لەگەڵ سەردەمدا یەکناگرێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The monarchy is seen by many people as an anachronism in the modern world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The monarchy is seen by many people as an anachronism in the modern world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاشایەتی لەلایەن زۆر کەس بە بەشێک لە ڕابردوو دادەنرێت لە جیھانی ئەمڕۆدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryanachronism extends StatelessWidget {
 ٢. شتێک کە یەکناگرێتەوە لەگەڵ ئەو سەردەمەی باسی‌دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book is full of anachronisms which suggests there were parts rewritten in later centuries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book is full of anachronisms which suggests there were parts rewritten in later centuries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە پڕە لە پاش‌وپێش‌گەری، ئەمەش واتە ھەندێکی دووبارە نووسرایەوە لە سەدەکانی دواتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

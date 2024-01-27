@@ -233,12 +233,18 @@ class EnglishEntryact extends StatelessWidget {
 ١. (کردار) کردنی شتێک بە مەبەستی دیاریکراو، یان بۆ مامەڵەکردن لەگەڵ بارودۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is vital that we act to stop the destruction of the rainforests."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر گرنگە ھەنگاوبنێین بۆ وەستاندنی وێرانکردنی جەنگەڵەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is vital that we act to stop the destruction of the rainforests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر گرنگە ھەنگاوبنێین بۆ وەستاندنی وێرانکردنی جەنگەڵەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +262,18 @@ class EnglishEntryact extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government was criticized for failing to act decisively."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت بەر ڕەخنە درا بەھۆی شکستھێنان لە ھەنگاونان بە خێرایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government was criticized for failing to act decisively."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بەر ڕەخنە درا بەھۆی شکستھێنان لە ھەنگاونان بە خێرایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,12 +293,18 @@ class EnglishEntryact extends StatelessWidget {
 ٢. (کردار) ڕەفتارکردن بەشێوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The man was seen acting suspiciously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوەکە بینرا بە گوماناوییەوە ڕەفتاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The man was seen acting suspiciously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوەکە بینرا بە گوماناوییەوە ڕەفتاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -306,10 +324,17 @@ class EnglishEntryact extends StatelessWidget {
 ٣. (کردار) ڕۆڵبینین لە بەشیکی شانۆیەک یان فیلمێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Who's acting the part of Hamlet?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کێ ڕۆڵی ھاملێت دەبینێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who's acting the part of Hamlet?"),
+                                    ExampleSentenceKurdish(
+                                        text: "کێ ڕۆڵی ھاملێت دەبینێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -329,12 +354,18 @@ class EnglishEntryact extends StatelessWidget {
 ٤. (کردار) خۆنیشاندانت بەشێوەیەکی تایبەت لە ڕێگەی ڕەفتارکردنتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's been acting the devoted husband all day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی ڕۆژەکە وەک مێردێکی خەمخۆر خۆی نیشانداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's been acting the devoted husband all day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی ڕۆژەکە وەک مێردێکی خەمخۆر خۆی نیشانداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -354,10 +385,17 @@ class EnglishEntryact extends StatelessWidget {
 ٥. (کردار) کردنی کارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can you act as interpreter?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەتوانی وەک وەرگێڕێک کار بکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Can you act as interpreter?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتوانی وەک وەرگێڕێک کار بکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -377,11 +415,18 @@ class EnglishEntryact extends StatelessWidget {
 ٦. (کردار) ھەبوونی کاریگەرییەک لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Alcohol acts quickly on the brain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کحوول ڕاستەوخۆ کاریگەری لەسەر مێشک دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Alcohol acts quickly on the brain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کحوول ڕاستەوخۆ کاریگەری لەسەر مێشک دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -401,11 +446,18 @@ class EnglishEntryact extends StatelessWidget {
 ٧. (ناو) شتێک کە کەسێک دەیکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You have committed a serious criminal act."),
-                              const ExampleSentenceKurdish(
-                                  text: "کارێکی تاوانکاریی کوشندەت کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You have committed a serious criminal act."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارێکی تاوانکاریی کوشندەت کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -425,10 +477,18 @@ class EnglishEntryact extends StatelessWidget {
 ٨. (ناو) یاسایەک کە لەلایەن پەرلەمانەوە دەرکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The old Act has now been repealed."),
-                              const ExampleSentenceKurdish(
-                                  text: "یاسا کۆنەکە ئێستا ھەڵپەسێردراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The old Act has now been repealed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاسا کۆنەکە ئێستا ھەڵپەسێردراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -448,11 +508,17 @@ class EnglishEntryact extends StatelessWidget {
 ٩. (ناو) ڕەفتارێک کە ڕاستی نییە و یەنھا بە مەبەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Don't take her seriously—it's all an act."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە جدی مەیگرە، ھەمووی نمایشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Don't take her seriously—it's all an act."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە جدی مەیگرە، ھەمووی نمایشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -472,11 +538,17 @@ class EnglishEntryact extends StatelessWidget {
 ١٠. (ناو) یەکێک لەو بەشانەی شانۆ یان ئۆپێرایەکی لێ پێکدێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The king is killed in the opening act."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاشا لە یەکەم بەش دەکوژرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The king is killed in the opening act."),
+                                    ExampleSentenceKurdish(
+                                        text: "پاشا لە یەکەم بەش دەکوژرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

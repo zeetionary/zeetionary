@@ -131,12 +131,18 @@ class EnglishEntryambition extends StatelessWidget {
 ١. (ناو) شتێک کە دەتەوێت بیکەیت یان بە دەستی بھێنیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At last he had realized his life's ambition."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At last he had realized his life's ambition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتاییدا لە ئامانجەکانی ژیانی تێگەشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,10 +161,17 @@ class EnglishEntryambition extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He had only one ambition in life."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەک ئامانجی لە ژیاندا ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had only one ambition in life."),
+                                    ExampleSentenceKurdish(
+                                        text: "یەک ئامانجی لە ژیاندا ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,10 +192,18 @@ class EnglishEntryambition extends StatelessWidget {
 ٢. (ناو) ئاوات‌خواستن بە پارە و دەسەڵات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was driven by personal ambition."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was driven by personal ambition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە حەز و ئارەزووی خۆی ھەڵدەسووڕا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -174,12 +174,18 @@ class EnglishEntryaria extends StatelessWidget {
 ١. (ناو) پارچە میوزیکێک کە لەلایەن یەک کەسەوە لە ئۆپێرایەک دەوترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Such was the enthusiasm that you might have thought that the singer had just sung an aria."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Such was the enthusiasm that you might have thought that the singer had just sung an aria."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆشوخرۆشییەکە ھێندە زۆربوو کە وابیرت‌دەکردەوە گۆرانیبێژەکە تازەگی ئاریایەکی وتبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

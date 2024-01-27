@@ -130,12 +130,18 @@ class EnglishEntryaftermath extends StatelessWidget {
 ١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president visited the region in the immediate aftermath of the disaster."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president visited the region in the immediate aftermath of the disaster."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

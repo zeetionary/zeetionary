@@ -172,11 +172,18 @@ class EnglishEntryanxiously extends StatelessWidget {
 ١. (ھاوەڵکار) بە نیگەرانییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We waited anxiously by the phone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We waited anxiously by the phone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە نیگەرانییەوە لەلای تەلەفۆنەکە چاوەڕێ‌بووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

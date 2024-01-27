@@ -172,12 +172,18 @@ class EnglishEntryanimated extends StatelessWidget {
 ١. (ھاوەڵناو) پڕ لە حەز و وزە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mark was beginning to sound animated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mark was beginning to sound animated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,10 +203,17 @@ class EnglishEntryanimated extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her face suddenly became animated."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری لەناکاو گەشایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her face suddenly became animated."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕووخساری لەناکاو گەشایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +235,18 @@ class EnglishEntryanimated extends StatelessWidget {
 ٢. (ھاوەڵناو) درووستکراو وەک ئەوەی ئەنیمەیشن بێ (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Animated cartoons are popular for entertainment and storytelling."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Animated cartoons are popular for entertainment and storytelling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

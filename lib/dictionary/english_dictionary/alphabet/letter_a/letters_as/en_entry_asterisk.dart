@@ -179,12 +179,18 @@ class EnglishEntryasterisk extends StatelessWidget {
 ١. (کردار) دانانی نیشانەی ئەستێرە (*) لە تەنیشت شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've asterisked the tasks I want you to do first."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've asterisked the tasks I want you to do first."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryasterisk extends StatelessWidget {
 ٢. (ناو) نیشانەی ئەستێرە (*) کە بەکاردێت بۆ دەرخستنی زیاتری وشەیەک یان دەستەواژەیەک، یان وەک ئاماژە بەوەی زانیاری زیاتر لە شوێنی تر دراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've placed an asterisk next to the tasks I want you to do first."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've placed an asterisk next to the tasks I want you to do first."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستێرەم لە تەنیشت ئەو ئەرکانە داناوە کە دەمەوێت سەرەتا بیانکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

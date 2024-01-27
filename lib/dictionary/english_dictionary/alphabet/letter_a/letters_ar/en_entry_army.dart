@@ -180,12 +180,18 @@ class EnglishEntryarmy extends StatelessWidget {
 ١. (ناو) ژمارەیەکی زۆر سەرباز کە ڕاھێنراون بۆ شەڕکردن لەسەر زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two opposing armies faced each other across the battlefield."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two opposing armies faced each other across the battlefield."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو سوپاکە ڕووبەڕووی یەکدی بوونەوە لە مەیدانی شەڕدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,10 +211,18 @@ class EnglishEntryarmy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A huge army marched on the city."),
-                              const ExampleSentenceKurdish(
-                                  text: "سوپایەکی گەورە دای بەسەر شارەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A huge army marched on the city."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوپایەکی گەورە دای بەسەر شارەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,10 +244,16 @@ class EnglishEntryarmy extends StatelessWidget {
 ٢. (ناو) سوپای زەمینی وڵاتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her sister is in the army."),
-                              const ExampleSentenceKurdish(
-                                  text: "خوشکەکەی لە سوپادایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her sister is in the army."),
+                                    ExampleSentenceKurdish(
+                                        text: "خوشکەکەی لە سوپادایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,12 +273,18 @@ class EnglishEntryarmy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      " He served in the French army during the First World War."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            " He served in the French army during the First World War."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سوپای فەرەنسادا خزمەتی کرد لە جەنگی یەکەمی جیھانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -280,12 +306,18 @@ class EnglishEntryarmy extends StatelessWidget {
 ٣. (ناو) ژمارەیەکی زۆر لە خەڵک یان شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "NASA maintains a small army of engineers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "NASA maintains a small army of engineers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناسا ژمارەیەکی زۆر لە ئەندازیار ڕادەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -305,12 +337,18 @@ class EnglishEntryarmy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An army of ants marched across the path."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An army of ants marched across the path."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوپایەک لە مێروولە بە ڕێگاکەدا تێپەڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

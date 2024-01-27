@@ -120,15 +120,18 @@ class EnglishEntryam extends StatelessWidget {
 ١. (کورتکراوە) یەکێک لە ڕێگا باوەکانی گواستنەوەی دەنگی ڕادیۆیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM."),
-                              const SizedBox(
-                                width: 30,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You're listening to Radio Gold, broadcasting 24 hours a day on 909 AM."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم."),
+                                  ],
+                                ),
                               ),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیسەری ڕادیۆی گۆڵدی، پەخشی ٢٤ کاتژمێری لەسەر شەپۆلی ٩٠٩ ئەی ئێم."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

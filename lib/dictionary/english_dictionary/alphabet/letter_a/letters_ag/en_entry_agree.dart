@@ -162,10 +162,18 @@ class EnglishEntryagree extends StatelessWidget {
 ١. (کردار) ھاوڕابوون لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "When he said that, I had to agree."),
-                              const ExampleSentenceKurdish(
-                                  text: "کە ئەوەی گوت، ناچاربووم ھاوڕابم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When he said that, I had to agree."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ئەوەی گوت، ناچاربووم ھاوڕابم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,11 +194,18 @@ class EnglishEntryagree extends StatelessWidget {
 ٢. (کردار) پەسەندکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't agree with hitting children as a punishment."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێدانی مناڵ وەک سزادان پەسەند ناکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't agree with hitting children as a punishment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێدانی مناڵ وەک سزادان پەسەند ناکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +226,18 @@ class EnglishEntryagree extends StatelessWidget {
 ٣. (کردار) کردن یان ڕێگەدان بە شتێک کە کەسێک دەیەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I asked for a pay rise and she agreed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I asked for a pay rise and she agreed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای زیادکردنی مووچەکەمم کرد و ئەویش ڕازی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,11 +258,17 @@ class EnglishEntryagree extends StatelessWidget {
 ٤. (کردار) ڕێککەوتن لەگەڵ کەسێک بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We agreed to meet on Thursday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We agreed to meet on Thursday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتین پێنجشەممە چاومان بە یەک بکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,10 +289,18 @@ class EnglishEntryagree extends StatelessWidget {
 ٥. (کردار) پەسەندکردنی پلانێک یان داوایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Next year's budget has been agreed."),
-                              const ExampleSentenceKurdish(
-                                  text: "بودجەی ساڵی داھاتوو پەسەندکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Next year's budget has been agreed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بودجەی ساڵی داھاتوو پەسەندکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +321,18 @@ class EnglishEntryagree extends StatelessWidget {
 ٦. (کردار) دوو شت یەکبگرنەوە لەگەڵ یەک و ھەمان شت بن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your account of the accident does not agree with hers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your account of the accident does not agree with hers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گێڕانەوەت بۆ ڕووداوەکە یەکناگرێتەوە لەگەڵ گێڕانەوەی ئەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

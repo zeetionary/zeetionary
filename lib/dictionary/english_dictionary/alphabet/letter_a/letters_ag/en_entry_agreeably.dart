@@ -128,12 +128,18 @@ class EnglishEntryagreeably extends StatelessWidget {
 ١. (ناو) بە ھاوڕایی و بێ کێشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were agreeably surprised by the quality of the food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were agreeably surprised by the quality of the food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو تێکڕا سەرسام بوون بە کوالێتی خواردنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryagreeably extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The day was agreeably warm after the cool night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The day was agreeably warm after the cool night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژەکە خۆش و خۆرەتاو بوو لە دوای ئەو شەوە ساردە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -126,12 +126,18 @@ class EnglishEntryaffirm extends StatelessWidget {
 ١. (کردار) بەڕوونی وتنی ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both sides affirmed their commitment to the ceasefire."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both sides affirmed their commitment to the ceasefire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو لایەن بەڕوونی پابەندی خۆیان بە ئاگربەستەوە ڕاگەیاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaffirm extends StatelessWidget {
 ٢. (کردار) وتنی ئەوەی باوەڕت بەشتێکە و بەرگری لێ دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We affirm the principle that leaders must be chosen by the people and be accountable to the people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We affirm the principle that leaders must be chosen by the people and be accountable to the people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشتیوانی ئەو باوەڕە دەکەین کە سەرکردەکان دەبێت لەلایەن خەڵکەوە ھەڵبژێردرێن و بەرپرسیار بن بەرامبەر خەڵکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

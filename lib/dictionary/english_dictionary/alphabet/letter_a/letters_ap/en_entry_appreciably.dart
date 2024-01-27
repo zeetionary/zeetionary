@@ -177,12 +177,18 @@ class EnglishEntryappreciably extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی بەرچاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The risk of infection is appreciably higher among children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەترسی تووشبوون بە شێوەیەکی بەرچاو زیاترە لەناو منداڵاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The risk of infection is appreciably higher among children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەترسی تووشبوون بە شێوەیەکی بەرچاو زیاترە لەناو منداڵاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntryavid extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر تامەزرۆ سەبارەت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has taken an avid interest in the project (= she is extremely interested in it)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has taken an avid interest in the project (= she is extremely interested in it)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,17 @@ class EnglishEntryavid extends StatelessWidget {
 ٢. (ھاوەڵناو) ویستنی شتێک بە ئاستێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was avid for more information."),
-                              const ExampleSentenceKurdish(
-                                  text: "تینووی زانیاریی زیاتر بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was avid for more information."),
+                                    ExampleSentenceKurdish(
+                                        text: "تینووی زانیاریی زیاتر بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

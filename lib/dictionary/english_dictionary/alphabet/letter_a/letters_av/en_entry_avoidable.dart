@@ -171,12 +171,18 @@ class EnglishEntryavoidable extends StatelessWidget {
 ١. (ھاوەڵناو) کە دەتوانرێت ڕێگری لێ بکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many deaths from heart disease are actually avoidable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر نەخۆشی دڵ لەڕاستیدا دەکرێت بەریان پێ‌بگیرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many deaths from heart disease are actually avoidable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر نەخۆشی دڵ لەڕاستیدا دەکرێت بەریان پێ‌بگیرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryaural extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بیستن و گوێگرتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She doesn’t speak English well, but her aural comprehension is good."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She doesn’t speak English well, but her aural comprehension is good."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانێ بە باشی بە ئینگلیزی قسەبکات، بەڵام توانای بیستنی باشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

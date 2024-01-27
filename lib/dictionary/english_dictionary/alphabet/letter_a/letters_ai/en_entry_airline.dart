@@ -127,12 +127,18 @@ class EnglishEntryairline extends StatelessWidget {
 ١. (ناو) ھێڵی ئاسمانی؛ کۆمپانیایەک کە گەشتی ئاسمانی ڕێکدەخات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll never fly this airline (= travel with this airline company) again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز ئەم ھێڵە ئاسمانییە بەکارناھێنمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll never fly this airline (= travel with this airline company) again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز ئەم ھێڵە ئاسمانییە بەکارناھێنمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,11 +127,18 @@ class EnglishEntryafterwards extends StatelessWidget {
 ١. (ھاوەڵکار) لە کاتێکی دواتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Afterwards she was sorry for what she'd said."),
-                              const ExampleSentenceKurdish(
-                                  text: "دواتر زۆر پەشیمان بۆ ئەوەی گوتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Afterwards she was sorry for what she'd said."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دواتر زۆر پەشیمان بۆ ئەوەی گوتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

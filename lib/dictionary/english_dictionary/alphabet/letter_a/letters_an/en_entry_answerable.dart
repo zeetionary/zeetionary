@@ -174,12 +174,18 @@ class EnglishEntryanswerable extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی پێویستیی وەڵامدانەوە بەرامبەر کەسێک کە دەسەڵاتی بەسەرت ھەیە یان شتێک، بۆ نموونە یاسا، کە کۆنترۆڵی کردارەکانت دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was a free agent, answerable to no one for her behaviour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was a free agent, answerable to no one for her behaviour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیخوڕێکی سەربەخۆ بوو کە پێویست نەبوو وەڵامی ھیچ کەس بداتەوە بۆ ڕەفتارەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryanswerable extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Any European central bank should be directly answerable to the European Parliament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Any European central bank should be directly answerable to the European Parliament."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر بانکێکی ئەورووپی دەبێت ڕاستەوخۆ لەژێر چاودێری/بەرپرسیار بێت بەرامبەر یەکێتیی ئەورووپا بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +240,18 @@ class EnglishEntryanswerable extends StatelessWidget {
 ٢. (ھاوەڵناو) بەرپرسیار بۆ شتێک و ھەبوونی ئامادەیی وەرگرتنی سزا بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ministers must be made answerable for their decisions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ministers must be made answerable for their decisions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەزیرەکان دەبێت بەرپرسیاربن بۆ بڕیارەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +272,18 @@ class EnglishEntryanswerable extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Soldiers who obey orders to commit atrocities should be answerable for their crimes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Soldiers who obey orders to commit atrocities should be answerable for their crimes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو سەربازانەی گوێ‌ڕایەڵی ئەنجامدانی تاوانی جەنگ دەکەن دەبێت ئامادەی وەرگرتنی سزابن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

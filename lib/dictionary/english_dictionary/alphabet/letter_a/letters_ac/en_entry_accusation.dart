@@ -130,12 +130,18 @@ class EnglishEntryaccusation extends StatelessWidget {
 ١. (ناو) کاتێک کەسێک بە کردنی کارێکی ھەڵە تۆمەتبار دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a hint of accusation in her voice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a hint of accusation in her voice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاماژەیەکی گومان لێکردن ھەبوو لە دەنگیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaccusation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At the time, no one believed her accusations against him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At the time, no one believed her accusations against him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتی خۆی ھیچ کەس باوەڕی بە تۆمەتەکانی دژ بە ئەو نەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

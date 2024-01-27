@@ -178,11 +178,17 @@ class EnglishEntryassertive extends StatelessWidget {
 ١. (ھاوەڵناو) دەربڕینی بۆچوون و ویستەکان و بەتوندی بۆ ئەوەی کەسانی تر ھەستی پێ‌بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You should try and be more assertive."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێت زیاتر خۆسەپێنەر بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You should try and be more assertive."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەبێت زیاتر خۆسەپێنەر بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

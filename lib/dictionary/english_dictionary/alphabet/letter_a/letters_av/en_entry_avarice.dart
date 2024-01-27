@@ -171,12 +171,18 @@ class EnglishEntryavarice extends StatelessWidget {
 ١. (ھاوەڵناو) حەزێکی زۆر بۆ پارە و سامان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her business empire brought her wealth beyond the dreams of avarice (= an extremely large amount of money)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her business empire brought her wealth beyond the dreams of avarice (= an extremely large amount of money)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -160,12 +160,18 @@ class EnglishEntryacknowledge extends StatelessWidget {
 ١. (کردار) داننان بە ڕاستی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have to acknowledge the fact that I am partly responsible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have to acknowledge the fact that I am partly responsible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت دان بەو ڕاستییە بنێم کە من بەرپرسیارم بۆ بەشێکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +189,18 @@ class EnglishEntryacknowledge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He does not acknowledge that he has done anything wrong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He does not acknowledge that he has done anything wrong."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دان بەوەدا نانێت کە ھیچ شتێکی ھەڵەی کردبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +220,18 @@ class EnglishEntryacknowledge extends StatelessWidget {
 ٢. (کردار) ناساندنی شتێک وەک ڕاستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is widely acknowledged as the best player in the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is widely acknowledged as the best player in the world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی گشتی ناسێندراوە بە باشتری یاریزانی جیھان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +251,18 @@ class EnglishEntryacknowledge extends StatelessWidget {
 ٣. (کردار) بە کەسێک وتن کە شتێکت پێگەیشتووە کە بۆی ناردوویت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All applications will be acknowledged."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی داخوازینامەکان وەڵام دەدرێنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All applications will be acknowledged."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی داخوازینامەکان وەڵام دەدرێنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

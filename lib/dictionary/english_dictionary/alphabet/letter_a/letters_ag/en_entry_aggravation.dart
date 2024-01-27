@@ -129,12 +129,18 @@ class EnglishEntryaggravation extends StatelessWidget {
 ١. (ناو) خراپتربوونی بارودۆخێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'd complain to the manager but it's not worth the aggravation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'd complain to the manager but it's not worth the aggravation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلای بەڕێوبەر سکاڵا دەکەن، بەڵام ئەوە ناھێنێ (ئەو سەرئێشە تووشی خۆم بکەم)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryaggravation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rest the affected leg to avoid further aggravation of the condition."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rest the affected leg to avoid further aggravation of the condition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاقە تووشبووەکەت بحەسێنەوە بۆ ئەوەی بارودۆخەکە خراپتر نەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

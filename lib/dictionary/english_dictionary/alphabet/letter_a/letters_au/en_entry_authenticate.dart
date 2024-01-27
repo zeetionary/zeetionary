@@ -179,12 +179,18 @@ class EnglishEntryauthenticate extends StatelessWidget {
 ١. (کردار) سەلماندنی ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The letter has been authenticated by handwriting experts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The letter has been authenticated by handwriting experts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryauthenticate extends StatelessWidget {
 ٢. (کردار) دڵنیایی‌کردنەوەی ناسنامە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Users must authenticate with their credentials to gain access to the internet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Users must authenticate with their credentials to gain access to the internet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

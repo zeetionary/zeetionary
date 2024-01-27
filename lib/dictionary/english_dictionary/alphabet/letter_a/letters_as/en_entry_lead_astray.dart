@@ -178,12 +178,18 @@ class EnglishEntryleadastray extends StatelessWidget {
 ١. (ئیدیەم) وا لە کەسێک بکەیت کاری ھەڵە بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Jack's parents thought the other boys might lead him astray."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکی جاک وایان دەفکری کوڕەکانی دیکە لەوانەیە گومڕای بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jack's parents thought the other boys might lead him astray."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکی جاک وایان دەفکری کوڕەکانی دیکە لەوانەیە گومڕای بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

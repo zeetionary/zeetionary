@@ -128,11 +128,17 @@ class EnglishEntryadjournment extends StatelessWidget {
 ١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The judge granted us a short adjournment."),
-                              const ExampleSentenceKurdish(
-                                  text: "دادوەرەکە وچانێکی کاتی بەخشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The judge granted us a short adjournment."),
+                                    ExampleSentenceKurdish(
+                                        text: "دادوەرەکە وچانێکی کاتی بەخشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

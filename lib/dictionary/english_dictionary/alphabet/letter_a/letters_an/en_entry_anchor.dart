@@ -176,11 +176,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ١. (ناو) پارچە ئاسنێکی قورس کە بە زنجیرێک یان گوریسێک بەستراوە و لەلایەکی کەشتیەک یان بەلەمێکەوە دەخرێتەخوارەوە بۆ ئەوەی لەنگەر بگرێت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We raised the anchor and set sail."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We raised the anchor and set sail."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەنگەرەکەمان خستەخوارەوە و دەستمان بە گەشت‌کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +207,17 @@ class EnglishEntryanchor extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We weighed anchor (= pulled it out of the water)."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەنگەرەکەمان ھەڵکێشا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We weighed anchor (= pulled it out of the water)."),
+                                    ExampleSentenceKurdish(
+                                        text: "لەنگەرەکەمان ھەڵکێشا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +239,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ٢. (ناو) پشت‌و‌پەنا؛ کەسێک کە پشتیوانی کەسێک دەکات لە تەنگانەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was my anchor when things were difficult for me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was my anchor when things were difficult for me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە شتەکان سەخت‌بوون بۆم ئەو پشت‌وپەنام بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,12 +272,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ٣. (ناو) پێشکەشکاری تەلەفیزیۆن یان ڕادیۆ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was questioned by a BBC anchor about her trip."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was questioned by a BBC anchor about her trip."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلایەن پێشکەشکارێکی بی‌بی‌سی‌یەوە پرسیاری لێکرا لەسەر گەشتەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -280,11 +305,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ٤. (کردار) داگرتنی لەنگەری کەشتییەک یان بەلەمێک بۆ وەستاندنی لە جوڵان """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We anchored off the coast of Spain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We anchored off the coast of Spain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کەناراوەکانی ئیسپانیا لەنگەرمان گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -306,11 +338,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ٥. (کردار) دانانی شتێک لە شوێنێک کە چی‌تر ناجوڵێت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ropes were anchored to the rocks."),
-                              const ExampleSentenceKurdish(
-                                  text: "گوریسەکان لە بەردەکان گیرکرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ropes were anchored to the rocks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوریسەکان لە بەردەکان گیرکرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -332,12 +371,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ٦. (کردار) پشت‌بەستنی شتێک بە شتێکی تر """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her novels are anchored in everyday experience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her novels are anchored in everyday experience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆمانەکانی پشت بە ئەزموونی ڕۆژانە دەبەستن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -359,12 +404,18 @@ class EnglishEntryanchor extends StatelessWidget {
 ٧. (کردار) پێشکەشکردنی ھەواڵ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She anchored the evening news for seven years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She anchored the evening news for seven years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەواڵی ئێوارانی بۆ حەوت ساڵ پێشکەش‌دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

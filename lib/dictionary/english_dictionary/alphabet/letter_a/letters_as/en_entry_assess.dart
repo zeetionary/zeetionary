@@ -179,12 +179,18 @@ class EnglishEntryassess extends StatelessWidget {
 ١. (کردار) ھەلسەنگاندن؛ سەیرکردنی شتێک و بڕیاردان لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Accurately assessing environmental impacts is very complex."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Accurately assessing environmental impacts is very complex."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدرووستی ھەڵسەنگاندنی کاریگەریی ژینگەیی کارێکی زۆر ئاڵۆزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryassess extends StatelessWidget {
 ٢. (کردار) خەمڵاندنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Damage to the building was assessed at £40 000."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Damage to the building was assessed at £40 000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیان بە بیناکە بە ٤٠,٠٠٠ پاوەند خەمڵێندرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryaccident extends StatelessWidget {
 ١. (ناو) ڕووداوێکی ناخۆش، زۆرجار ڕووداوی ھاتوچۆ، کە قوربانی لێدەکەوێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One in seven accidents is caused by sleepy drivers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One in seven accidents is caused by sleepy drivers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە حەوت ڕووداودا یەکێکیان بەھۆی شۆفێری خەوالووەوە ڕوودەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaccident extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Every year in the United Kingdom more than 4 000 people die in accidents in the home."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Every year in the United Kingdom more than 4 000 people die in accidents in the home."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ساڵێک ٤٠٠٠ کەس لە شانشینی یەکگرتوو دەمرن لە ئەنجامی ئەو ڕووداوانەی لە ماڵەوە ڕوودەدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -176,11 +188,18 @@ class EnglishEntryaccident extends StatelessWidget {
 ٢. (ناو) شتێک کە بەشێوەیەکی چاوەڕواننەکراو ڕوودەدات، نەک بەپێی پلانی پێشوەختە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their early arrival was just an accident."),
-                              const ExampleSentenceKurdish(
-                                  text: "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their early arrival was just an accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زوو گەیشتنیان تەنھا بە ڕێکەوت بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

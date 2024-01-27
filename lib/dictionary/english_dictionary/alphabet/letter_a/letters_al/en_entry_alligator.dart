@@ -128,12 +128,18 @@ class EnglishEntryalligator extends StatelessWidget {
 ١. (ناو) خشۆکێکی گەورە کە وەک تیمساحە و کلکی درێژ و پێستی قایم و کەڵبەی بەھێزی ھەیە و لە ئەمریکای باکوور و باشوور و وڵاتی چیندا دەژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It could be the size of an alligator."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It could be the size of an alligator."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بارستاییەکەی ھێندەی تیمساحێکی ئەمریکی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

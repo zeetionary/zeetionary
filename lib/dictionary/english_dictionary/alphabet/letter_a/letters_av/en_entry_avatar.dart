@@ -170,12 +170,18 @@ class EnglishEntryavatar extends StatelessWidget {
 ١. (ناو) لە ئایینی ھیندۆس و بودیدا بریتییە لە خودا کە لە شێوەی مرۆڤدا دێتە سەر زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Gautama Buddha is considered an avatar of the god Vishnu."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Gautama Buddha is considered an avatar of the god Vishnu."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryavatar extends StatelessWidget {
 ٢. (ناو) وێنەی دیجیتاڵی کەسێک کە وێنا لەو کەسە دەکات لەسەر کۆمپیوتەر و یارییە ئەلیکترۆنییەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The game creates a virtual world where people interact and participate in activities through their avatars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەقەتارەکانیانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The game creates a virtual world where people interact and participate in activities through their avatars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەقەتارەکانیانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

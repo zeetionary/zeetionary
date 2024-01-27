@@ -146,10 +146,17 @@ class EnglishEntryadd extends StatelessWidget {
 ١. (کردار) زیادکردنی شتێک بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Shall I add your name to the list?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوت زیادبکەم بۆ لیستەکە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shall I add your name to the list?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ناوت زیادبکەم بۆ لیستەکە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -168,12 +175,18 @@ class EnglishEntryadd extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Chlorine is added to the water to kill bacteria."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Chlorine is added to the water to kill bacteria."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,11 +207,18 @@ class EnglishEntryadd extends StatelessWidget {
 ٢. (کردار) کۆکردنەوەی ژمارە پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He knew how to add and subtract."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He knew how to add and subtract."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +239,18 @@ class EnglishEntryadd extends StatelessWidget {
 ٣. (کردار) زیادکردنی قسەیەک بۆ شتێک کە پێشتر وتووتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have nothing to add to my earlier statement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have nothing to add to my earlier statement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

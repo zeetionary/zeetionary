@@ -182,12 +182,18 @@ class EnglishEntryauthorization extends StatelessWidget {
 ١. (ناو) مۆڵەت یان دەسەڵاتی فەرمی بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Who gave the authorization to release the data?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who gave the authorization to release the data?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێ مۆڵەتی بڵاوکردنەوەی زانیارییەکانی دا؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryauthorization extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We cannot act without the explicit authorization of the board."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We cannot act without the explicit authorization of the board."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانین بەبێ مۆڵەتی ڕوونی دەستەکە ھەنگاو بنێین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,10 +248,16 @@ class EnglishEntryauthorization extends StatelessWidget {
 ٢. (ناو) دۆکیومێنتێک کە مۆڵەتە بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can I see your authorization?"),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتوانم مۆڵەتەکەت ببینم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Can I see your authorization?"),
+                                    ExampleSentenceKurdish(
+                                        text: "دەتوانم مۆڵەتەکەت ببینم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

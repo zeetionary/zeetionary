@@ -171,12 +171,18 @@ class EnglishEntryancestry extends StatelessWidget {
 ١. (ناو) ڕەچەڵەکی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was able to trace his ancestry back over 1 000 years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was able to trace his ancestry back over 1 000 years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیتوانی ڕەچەڵەکی بەدرێژایی ١٠٠٠ ساڵ بگێڕێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryancestry extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "According to science, humans share a common ancestry with chimpanzees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "According to science, humans share a common ancestry with chimpanzees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی زانست مرۆڤ و شیمپانزی ھەمان باوانی ھاوبەشیان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

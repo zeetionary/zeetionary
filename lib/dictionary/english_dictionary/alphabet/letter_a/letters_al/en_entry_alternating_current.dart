@@ -131,12 +131,18 @@ class EnglishEntryalternatingcurrent extends StatelessWidget {
 ١. (ناو) جۆرە تەزوویەکی کارەبا کە ئاراستەی دەگۆڕێت بەخێرایی جێگیر لە ماوەی چەند چرکەیەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Unlike Edison, George Westinghouse was a proponent of alternating current."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Unlike Edison, George Westinghouse was a proponent of alternating current."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێچەوانەی تۆماس ئەدیسۆن، جۆرج وێستینگھاوس لایەنگیری تەزووی گۆڕاو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

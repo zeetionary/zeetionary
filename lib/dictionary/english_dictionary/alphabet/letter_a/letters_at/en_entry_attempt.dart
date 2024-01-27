@@ -182,12 +182,18 @@ class EnglishEntryattempt extends StatelessWidget {
 ١. (ناو) ھەوڵی کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I passed my driving test at the first attempt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مۆڵەتی شۆفێریمم بە یەکەم ھەوڵ دەرھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I passed my driving test at the first attempt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆڵەتی شۆفێریمم بە یەکەم ھەوڵ دەرھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,11 +215,18 @@ class EnglishEntryattempt extends StatelessWidget {
 ٢. (ناو) ھەوڵدان بۆ کووشتنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is the third attempt on the President's life."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمە سێیەم ھەوڵە بۆ کووشتنی سەرۆک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is the third attempt on the President's life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە سێیەم ھەوڵە بۆ کووشتنی سەرۆک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +248,18 @@ class EnglishEntryattempt extends StatelessWidget {
 ٣. (کردار) ھەوڵدان بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I will attempt to answer all your questions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵ دەدەم وەڵامی ھەموو پرسیارەکانت بدەمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I will attempt to answer all your questions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ دەدەم وەڵامی ھەموو پرسیارەکانت بدەمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,11 +279,18 @@ class EnglishEntryattempt extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do not attempt to repair this yourself."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەوڵ مەدە خۆی ئەمە چاکبکەیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do not attempt to repair this yourself."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ مەدە خۆی ئەمە چاکبکەیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

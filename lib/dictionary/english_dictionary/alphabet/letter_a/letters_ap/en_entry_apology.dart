@@ -177,12 +177,18 @@ class EnglishEntryapology extends StatelessWidget {
 ١. (ناو) داوای لێبووردن کردن، دەربڕینی پەشیمانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You owe him an apology for what you said."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێبور‌دن‌خوازییەک قەرزاری بۆ ئەوەی وتت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You owe him an apology for what you said."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێبور‌دن‌خوازییەک قەرزاری بۆ ئەوەی وتت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,11 +208,18 @@ class EnglishEntryapology extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Please accept my sincere apologies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە عوزرماییە پڕ بەدڵەکەم پەسەند بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please accept my sincere apologies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە عوزرماییە پڕ بەدڵەکەم پەسەند بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

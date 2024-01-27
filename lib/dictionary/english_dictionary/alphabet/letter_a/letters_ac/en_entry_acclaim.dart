@@ -121,12 +121,18 @@ class EnglishEntryacclaim extends StatelessWidget {
 ١. (کردار) بەرزنرخاندنی شتێک بەشێوەیەکی گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This book has been widely acclaimed as a modern classic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This book has been widely acclaimed as a modern classic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کتێبە بەشێوەیەکی بەرفراوان پەسندراوە وەک کتێبێکی کلاسیکی سەردەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryacclaim extends StatelessWidget {
 ٢. (ناو) ستایش و مەحتکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His discoveries earned him wide acclaim."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His discoveries earned him wide acclaim."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆزینەوەکانی ستایشی بەرفراوانیان بەدوای خۆیاندا ھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

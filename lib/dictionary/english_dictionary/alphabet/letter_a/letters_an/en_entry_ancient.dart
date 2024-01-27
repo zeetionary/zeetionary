@@ -173,12 +173,18 @@ class EnglishEntryancient extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر‌کۆن؛ پێش ھەزاران ساڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Archaeologists are excavating the ruined temples of this ancient civilization."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Archaeologists are excavating the ruined temples of this ancient civilization."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێنەوارناسان پەرستگا وێرانەکانی ئەم شارستانیەتە کۆنە ھەڵدەدەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,11 +204,18 @@ class EnglishEntryancient extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People have lived in this valley since ancient times."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People have lived in this valley since ancient times."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی لەدێر زەمانەوە لەم دۆڵە ژیاون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -224,10 +237,16 @@ class EnglishEntryancient extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر‌کۆن؛ شتێک لەزووەوە ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's got an ancient laptop."),
-                              const ExampleSentenceKurdish(
-                                  text: "لاپتۆپێکی قەدیمی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's got an ancient laptop."),
+                                    ExampleSentenceKurdish(
+                                        text: "لاپتۆپێکی قەدیمی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,12 +268,18 @@ class EnglishEntryancient extends StatelessWidget {
 ٣. (ھاوەڵناو) وەک ناو بەکاردێت بۆ خەڵکی سەردەمی کۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ancients believed in mythical creatures and powerful gods."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ancients believed in mythical creatures and powerful gods."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زووژیاوان باوەڕیان بە بوونەوەری ئەفسانەیی و کۆمەڵە خواوەندی بەدەسەڵات ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

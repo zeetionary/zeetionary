@@ -172,12 +172,18 @@ class EnglishEntryavalanche extends StatelessWidget {
 ١. (ناو) ڕێژەیەکی زۆر بەفر، شەختە، یان بەرد کە لە شاخێکەوە دەکەوێتەخوارەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was killed in an avalanche while skiing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was killed in an avalanche while skiing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryavalanche extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The issue has generated an avalanche of controversy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The issue has generated an avalanche of controversy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,10 +128,16 @@ class EnglishEntryalmost extends StatelessWidget {
 ١. (ھاوەڵکار) نزیکەی، لە دەوروبەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I like almost all of them."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە نزیکەیی حەزم لە ھەموویانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I like almost all of them."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە نزیکەیی حەزم لە ھەموویانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,12 +156,18 @@ class EnglishEntryalmost extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The castle is almost entirely surrounded by water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The castle is almost entirely surrounded by water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەڵاکە بە نزیکەیی تەواو بە ئاو دەوردراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -174,11 +186,17 @@ class EnglishEntryalmost extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The painting is almost certainly a forgery."),
-                              const ExampleSentenceKurdish(
-                                  text: "تابلۆکە بە ئەگەری زۆر ساختەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The painting is almost certainly a forgery."),
+                                    ExampleSentenceKurdish(
+                                        text: "تابلۆکە بە ئەگەری زۆر ساختەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

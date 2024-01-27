@@ -113,10 +113,16 @@ class EnglishEntryabstinence extends StatelessWidget {
 ١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "total abstinence from alcohol"),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆبەدوورگرتنی تەواو لە کحوول."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "total abstinence from alcohol"),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆبەدوورگرتنی تەواو لە کحوول."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

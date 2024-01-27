@@ -128,12 +128,18 @@ class EnglishEntryad extends StatelessWidget {
 ١. (ناو) وێنەیەک یان ڤیدیۆیەک کە دەیەوێت کەسێک ڕازیبکات بۆ کڕینی شتێک."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I often prefer the ads on TV to the actual programmes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I often prefer the ads on TV to the actual programmes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار حەزم بە ڕیکلامەکانە لەسەر تەلەفیزیۆن وەک لە خودی پڕۆگرامەکان خۆیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,10 +160,17 @@ class EnglishEntryad extends StatelessWidget {
 ٢. (ھاوەڵکار) لە دوای لەدایکبوونی پێغەمبەر عیسا."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "during the seventh century AD"),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ماوەی سەدەی حەوتەمی دوای زایین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "during the seventh century AD"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ماوەی سەدەی حەوتەمی دوای زایین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

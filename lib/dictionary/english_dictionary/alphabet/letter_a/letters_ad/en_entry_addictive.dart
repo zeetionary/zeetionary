@@ -128,10 +128,16 @@ class EnglishEntryaddictive extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئاسان نییە لە بەکارھێنانی بوەستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The game is very addictive."),
-                              const ExampleSentenceKurdish(
-                                  text: "یارییەکە زۆر ئاڵوودەکەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The game is very addictive."),
+                                    ExampleSentenceKurdish(
+                                        text: "یارییەکە زۆر ئاڵوودەکەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaddictive extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە بە ئاسانی ئاڵوودە دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some people have an addictive personality."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people have an addictive personality."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

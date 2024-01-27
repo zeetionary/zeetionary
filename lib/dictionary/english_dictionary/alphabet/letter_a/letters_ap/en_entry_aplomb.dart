@@ -176,12 +176,18 @@ class EnglishEntryaplomb extends StatelessWidget {
 ١. (ناو) باوەڕبەخۆبوون و متمانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He delivered the speech with his usual aplomb."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He delivered the speech with his usual aplomb."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی پێشکەش‌کرد بە باوەڕبەخۆبوونی ھەردەمی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

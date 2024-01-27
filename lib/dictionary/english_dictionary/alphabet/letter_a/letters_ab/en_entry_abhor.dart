@@ -112,13 +112,19 @@ class EnglishEntryabhor extends StatelessWidget {
 ١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most decent people abhor corruption in government."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most decent people abhor corruption in government."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -134,13 +140,19 @@ class EnglishEntryabhor extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She abhors any form of cruelty towards animals."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She abhors any form of cruelty towards animals."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

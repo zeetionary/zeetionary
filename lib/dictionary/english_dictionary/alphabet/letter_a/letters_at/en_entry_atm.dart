@@ -177,12 +177,18 @@ class EnglishEntryatm extends StatelessWidget {
 ١. (ناو) دەزگایەک کە لە دەرەوەی بانکێک یان فرۆشگایەکە کە لە ڕێگەیەوە دەتوانی پارە ڕابکێشیت لە ھەژمارە بانکییەکەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I need to find an ATM to withdraw some cash before the store closes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I need to find an ATM to withdraw some cash before the store closes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

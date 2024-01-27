@@ -170,11 +170,18 @@ class EnglishEntryanti extends StatelessWidget {
 ١. (ئامراز) دژ بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They’re completely anti the new proposals."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەواوی دژ بە پێشنیازە تازەکانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They’re completely anti the new proposals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی دژ بە پێشنیازە تازەکانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

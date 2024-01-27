@@ -129,12 +129,18 @@ class EnglishEntryairily extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە شتێک لات گرنگ نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'He can do what he likes - it doesn't bother me,' she said airily."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بە خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'He can do what he likes - it doesn't bother me,' she said airily."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بە خەمساردییەوە وتی «چی دەکات با بیکات، گرنگ نییە لام»."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

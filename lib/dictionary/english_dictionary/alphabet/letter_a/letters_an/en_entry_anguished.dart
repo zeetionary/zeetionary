@@ -170,12 +170,18 @@ class EnglishEntryanguished extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The anguished song at the end was beautiful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The anguished song at the end was beautiful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆرانییە بەئازارەکە لەکۆتاییدا جوان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

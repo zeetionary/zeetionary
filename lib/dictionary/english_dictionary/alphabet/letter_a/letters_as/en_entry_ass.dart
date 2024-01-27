@@ -179,12 +179,18 @@ class EnglishEntryass extends StatelessWidget {
 ١. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەریان دادەنیشیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was wearing tight jeans that showed off her ass."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was wearing tight jeans that showed off her ass."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پانتۆڵی تەسکی لەپێ‌کردبوو کە سمتی دەرخستبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,10 +212,16 @@ class EnglishEntryass extends StatelessWidget {
 ٢. (ناو) کەسێکی گەمژە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't be such an ass!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێندە گەمژە مەبە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't be such an ass!"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھێندە گەمژە مەبە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +243,18 @@ class EnglishEntryass extends StatelessWidget {
 ٣. (ناو) گوێدرێژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farmer loaded the hay onto the ass's back."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farmer loaded the hay onto the ass's back."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیارەکە پەڵاشەکەی بارکردە سەر پشتی گوێدرێژەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

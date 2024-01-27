@@ -127,12 +127,18 @@ class EnglishEntryadept extends StatelessWidget {
 ١. (ھاوەڵناو) شارەزا لە کردنی شتێکی گران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was extremely adept at avoiding getting caught."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was extremely adept at avoiding getting caught."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

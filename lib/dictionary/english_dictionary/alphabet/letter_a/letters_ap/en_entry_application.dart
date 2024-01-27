@@ -181,12 +181,18 @@ class EnglishEntryapplication extends StatelessWidget {
 ١. (ناو) داخوازینامەی فەرمی بۆ وەرگرتنی کارێک، مۆڵەتی کردنی شتێک، یان جێگایەک لە زانکۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have received applications from more than 3 000 students."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داخوازینامەمان لە زیاتر لە ٣٠٠٠ خوێندکارەوە پێگەشتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have received applications from more than 3 000 students."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داخوازینامەمان لە زیاتر لە ٣٠٠٠ خوێندکارەوە پێگەشتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryapplication extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They submitted an application to the council to build two houses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داخوازینامەیەکیان پێشکەشی ئەنجوومەنەکە کرد بۆ درووستکردنی دوو خانوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They submitted an application to the council to build two houses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داخوازینامەیەکیان پێشکەشی ئەنجوومەنەکە کرد بۆ درووستکردنی دوو خانوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryapplication extends StatelessWidget {
 ٢. (ناو) بەکارھێنانی کرداریی شتێک، بۆ نموونە بیردۆزێک یان دۆزینەوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The invention would have a wide range of applications in industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داھێنانەکە بەکارھێنانی کرداریی زۆری دەبێت لە پیشەسازیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The invention would have a wide range of applications in industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داھێنانەکە بەکارھێنانی کرداریی زۆری دەبێت لە پیشەسازیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +281,18 @@ class EnglishEntryapplication extends StatelessWidget {
 ٣. (ناو) کرداری پێوەکردنی شتێک، بۆ نموونە بۆیە یان کرێم، بە شتێکی ترەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It took three applications of paint to cover the graffiti."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێ چین بۆیەی ویست تاوەکو گرافیتییەکە داپۆشین (بسڕینەوە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It took three applications of paint to cover the graffiti."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ چین بۆیەی ویست تاوەکو گرافیتییەکە داپۆشین (بسڕینەوە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +315,18 @@ class EnglishEntryapplication extends StatelessWidget {
 ٤. (ناو) کرداری خستنە بواری جێبەجێکردنی یاسایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Judges play a vital role in ensuring the strict application of the law."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دادوەران ڕۆڵی گرنگ دەبینن لە دڵنیایی‌کردنەوەی جێبەجێکردنی توندی یاساکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Judges play a vital role in ensuring the strict application of the law."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادوەران ڕۆڵی گرنگ دەبینن لە دڵنیایی‌کردنەوەی جێبەجێکردنی توندی یاساکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

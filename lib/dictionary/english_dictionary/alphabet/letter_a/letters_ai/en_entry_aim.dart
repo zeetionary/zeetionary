@@ -165,12 +165,18 @@ class EnglishEntryaim extends StatelessWidget {
 ١. (کردار) ھەوڵدان بۆ بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We should aim for a bigger share of the market."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We should aim for a bigger share of the market."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت ئامانجمان پشکێکی زیاتری بازاڕ بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -189,12 +195,18 @@ class EnglishEntryaim extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government is aiming at a 50% reduction in unemployment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government is aiming at a 50% reduction in unemployment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ئامانجیەتی بە ڕێژەی ٥٠٪ بێکاری کەمبکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,12 +227,18 @@ class EnglishEntryaim extends StatelessWidget {
 ٢. (کردار) ھەبوونی شتێک وەک ئامانج"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These measures are aimed at preventing violent crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These measures are aimed at preventing violent crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڕێکارانە ئامانجیانە تاوانی توندوتیژی کەمبکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,10 +259,17 @@ class EnglishEntryaim extends StatelessWidget {
 ٣. (کردار) وتن یان کردنی شتێک بە ئامانجی کارلێککردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My criticism wasn't aimed at you."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەخنەکانم ڕوو لە تۆ نەبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My criticism wasn't aimed at you."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕەخنەکانم ڕوو لە تۆ نەبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +290,18 @@ class EnglishEntryaim extends StatelessWidget {
 ٤. (کردار) ڕووکردنی چەک، کامێرا، بۆکس، یان شتێکی تر لە کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was aiming at the tree but hit the car by mistake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was aiming at the tree but hit the car by mistake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجم لە دارەکە گرتەوە، بەڵام بە ھەڵە لە ئۆتۆمبێلەکەم دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +322,18 @@ class EnglishEntryaim extends StatelessWidget {
 ٥. (کردار) ئامانج، شتێک کە ھەوڵی بەدەستھێنانی دەدەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His sole aim in life is to enjoy himself."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His sole aim in life is to enjoy himself."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا ئامانجی لە ژیان ئەوە بوو خۆشی لە خۆی ببینێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -317,12 +354,18 @@ class EnglishEntryaim extends StatelessWidget {
 ٦. (کردار) شارەزایی لە ئامانجگرتنەوە بە چەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her aim was good and she hit the lion with her first shot."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her aim was good and she hit the lion with her first shot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجگرتنەکەی باش بوو و بە یەکەم لێدان لە شێرەکەی دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

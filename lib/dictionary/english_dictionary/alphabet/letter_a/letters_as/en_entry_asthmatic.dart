@@ -180,12 +180,18 @@ class EnglishEntryasthmatic extends StatelessWidget {
 ١. (ھاوەڵناو) تووشبوو بە ھەناسەتوندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The asthmatic patient was admitted to the hospital for treatment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The asthmatic patient was admitted to the hospital for treatment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryasthmatic extends StatelessWidget {
 ٢. (ناو) کەسێکی تووشبوو بە ھەناسەتوندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The asthmatic was unable to participate in strenuous activities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The asthmatic was unable to participate in strenuous activities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

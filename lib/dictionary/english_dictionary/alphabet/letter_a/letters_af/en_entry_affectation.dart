@@ -129,11 +129,18 @@ class EnglishEntryaffectation extends StatelessWidget {
 ١. (ناو) گفت و ڕەفتار کە سرووشتی نییە و ئامانج لێی ئەوەیە کەسانی تر سەرسام بکەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has many annoying little affectations."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has many annoying little affectations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر مەکربازیی بچووکی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +159,18 @@ class EnglishEntryaffectation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He raised his eyebrows with an affectation of surprise (= pretending to be surprised)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He raised his eyebrows with an affectation of surprise (= pretending to be surprised)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برۆیەکانی بەرزکردەوە بە خۆنواندنی ئەوەی کە سەرسامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -230,12 +230,18 @@ class EnglishEntryaction extends StatelessWidget {
 ١. (ناو) پڕۆسەی کردنی شتێک نۆ بەدیھێنانی شتێک یان مامەڵە لەگەڵ بارودۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Firefighters took action immediately to stop the blaze spreading."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگرکوژێنەوەکان بەپەلە ھەنگاویان نا بۆ وەستاندنی بڵوبوونەوەی ئاگرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Firefighters took action immediately to stop the blaze spreading."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرکوژێنەوەکان بەپەلە ھەنگاویان نا بۆ وەستاندنی بڵوبوونەوەی ئاگرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,12 +259,18 @@ class EnglishEntryaction extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government is taking strong action on tax fraud."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت لێپێچینەوەی توند دەگرێتە بەر بۆ ڕێگری لە خۆدزینەوە لە باج"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government is taking strong action on tax fraud."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت لێپێچینەوەی توند دەگرێتە بەر بۆ ڕێگری لە خۆدزینەوە لە باج"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -278,12 +290,18 @@ class EnglishEntryaction extends StatelessWidget {
 ٢. (ناو) شتێک کە کەسێک دەیکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Each of us must take responsibility for our own actions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاک بە تاکمان دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ کردارەکانی خۆمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Each of us must take responsibility for our own actions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاک بە تاکمان دەبێت بەرپرسیاریەتی ھەڵبگرێت بۆ کردارەکانی خۆمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,12 +321,18 @@ class EnglishEntryaction extends StatelessWidget {
 ٣. (ناو) ئەو ھەنگاوانەی کە کرێکاران دەینێن بۆ دەربڕینی ناڕەزایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Workers voted in favour of strike action."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرێکاران دەنگیان دا لە بەرژەوەندی مانگرتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Workers voted in favour of strike action."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرێکاران دەنگیان دا لە بەرژەوەندی مانگرتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -328,12 +352,18 @@ class EnglishEntryaction extends StatelessWidget {
 ٤. (ناو) کەیسێکی یاسایی دژ بە کۆمپانیایەک یان دامەزراوەیەک بۆ وەستاندنی لە کردنی شتێکدا، یان ناچارکردنی بە پارەدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A libel action is being brought against the magazine that published the article."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سکاڵایەکی ناوزڕاندن تۆمار دەکرێت دژ بە ئەو گۆڤارەی وتارەکەی بڵاوکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A libel action is being brought against the magazine that published the article."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سکاڵایەکی ناوزڕاندن تۆمار دەکرێت دژ بە ئەو گۆڤارەی وتارەکەی بڵاوکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -353,11 +383,18 @@ class EnglishEntryaction extends StatelessWidget {
 ٥. (ناو) ڕووبەڕووبوونەوە لە شەڕێک یان جەنگێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I never saw action during the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لە کاتی جەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I never saw action during the war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز ڕووبەڕووبوونەوەم نەبینی لە کاتی جەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -377,10 +414,17 @@ class EnglishEntryaction extends StatelessWidget {
 ٦. (ناو) ئەو ڕووداوانەی لە چیرۆکێک یان شانۆیەک ڕوودەدەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The action takes place in France."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووداوەکان لە فەرەنسا ڕوودەدن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The action takes place in France."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕووداوەکان لە فەرەنسا ڕوودەدن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -400,11 +444,18 @@ class EnglishEntryaction extends StatelessWidget {
 ٧. (ناو) ڕووداوی خرووشێنەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I like films with plenty of action."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خرووشێنەریان تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I like films with plenty of action."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزم لەو فیلمانەیە کە زۆر ڕووداوی خرووشێنەریان تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -424,10 +475,16 @@ class EnglishEntryaction extends StatelessWidget {
 ٨. (کردار) دڵنیاییکردنەوە لەوەی شتێک مامەڵەی لەگەڵ دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Your request will be actioned."),
-                              const ExampleSentenceKurdish(
-                                  text: "داواکەت مامەڵەی لەگەڵ دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Your request will be actioned."),
+                                    ExampleSentenceKurdish(
+                                        text: "داواکەت مامەڵەی لەگەڵ دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

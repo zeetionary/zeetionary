@@ -131,12 +131,18 @@ class EnglishEntryabsorption extends StatelessWidget {
 ١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Vitamin D is necessary to aid the absorption of calcium from food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Vitamin D is necessary to aid the absorption of calcium from food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryabsorption extends StatelessWidget {
 ٢. (ناو) پڕۆسەی گرتنەخۆی گروپێکی بچووک لەلایەن یەکێکی گەورەترەوە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "the absorption of the town into the Leeds City Region"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the absorption of the town into the Leeds City Region"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,12 +191,18 @@ class EnglishEntryabsorption extends StatelessWidget {
 ٣. (ناو) کاتێک کەسێک زۆر حەز لە شتێک دەکات """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His work suffered because of his total absorption in sport."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His work suffered because of his total absorption in sport."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

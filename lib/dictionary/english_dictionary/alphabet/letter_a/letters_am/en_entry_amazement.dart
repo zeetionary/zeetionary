@@ -129,10 +129,17 @@ class EnglishEntryamazement extends StatelessWidget {
 ١. (ناو) ھەستی باوەڕنەکردن بەوەی ڕوویداوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looked at him in amazement."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە سەرسامییەوە سەیری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked at him in amazement."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە سەرسامییەوە سەیری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

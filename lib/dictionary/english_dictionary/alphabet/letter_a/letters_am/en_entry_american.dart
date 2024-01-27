@@ -195,11 +195,18 @@ class EnglishEntryamerican extends StatelessWidget {
 ١. (ناو) کەسێکی ئەمریکایی، بەتایبەت دانیشتووی ویلایەتە یەکگرتووەکانی ئەمریکا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He said he was proud to be an American."),
-                              const ExampleSentenceKurdish(
-                                  text: "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He said he was proud to be an American."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوتی شانازییە بۆی خەڵکی ئەمریکا بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,10 +227,16 @@ class EnglishEntryamerican extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ئەمریکا، بەتایبەت ویلایەتە یەکگرتووەکانی ئەمریکا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm American."),
-                              const ExampleSentenceKurdish(
-                                  text: "من ئەمریکیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'm American."),
+                                    ExampleSentenceKurdish(
+                                        text: "من ئەمریکیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -242,10 +255,17 @@ class EnglishEntryamerican extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They drive a big American car."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They drive a big American car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلێکی گەورەی ئەمریکییان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

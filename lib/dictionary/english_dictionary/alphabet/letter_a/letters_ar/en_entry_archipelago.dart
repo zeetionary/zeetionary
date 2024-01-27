@@ -177,12 +177,18 @@ class EnglishEntryarchipelago extends StatelessWidget {
 ١. (ناو) کۆمەڵە دوورگەیەک لە ناو ئاودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Hawaiian archipelago is famous for its unique volcanic landscapes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Hawaiian archipelago is famous for its unique volcanic landscapes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆدورگەی ھاوایی ناسراوە بۆ دیمەنە گڕکانییە بێ‌ھاوتاکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

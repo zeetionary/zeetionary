@@ -179,10 +179,17 @@ class EnglishEntryassistance extends StatelessWidget {
 ١. (ناو) یارمەتی و ھاوکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Can I be of any assistance?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Can I be of any assistance?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ ھەیە بتوانم یارمەتیدەربم تێیدا؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +210,18 @@ class EnglishEntryassistance extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The other passengers went to her assistance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The other passengers went to her assistance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرنشینەکانی دیکە چوون بۆ یارمەتیدانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

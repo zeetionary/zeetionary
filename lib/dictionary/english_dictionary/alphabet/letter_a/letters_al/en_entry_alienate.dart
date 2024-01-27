@@ -128,12 +128,18 @@ class EnglishEntryalienate extends StatelessWidget {
 ١. (کردار) وا لە کەسێک بکەیت لێت دوور بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His comments have alienated a lot of young voters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێدوانەکانی ژمارەیەکی زۆر ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His comments have alienated a lot of young voters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێدوانەکانی ژمارەیەکی زۆر ژمارەیەکی زۆر دەنگدەری گەنجی پەست کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryalienate extends StatelessWidget {
 ٢. (کردار) ھەستی ئەوەی کە ئەو جێگەیەی لێیت گونجاو نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Very talented children may feel alienated from the others in their class."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Very talented children may feel alienated from the others in their class."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵانی زۆر بەھرەمەند لەوانەیە ھەست بە نامۆیی بکەن لەگەل ئەوانی تری پۆلەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

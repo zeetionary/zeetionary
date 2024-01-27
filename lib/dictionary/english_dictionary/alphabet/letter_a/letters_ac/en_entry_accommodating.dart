@@ -113,12 +113,18 @@ class EnglishEntryaccommodating extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە یارمەتیی کەسانی تر دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They are very accommodating to people with special needs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are very accommodating to people with special needs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر بە تەنگ کەسانی خاوەن پێداویستی تایبەتەوە دەچن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

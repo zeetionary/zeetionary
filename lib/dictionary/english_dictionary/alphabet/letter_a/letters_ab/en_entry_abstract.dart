@@ -139,12 +139,18 @@ class EnglishEntryabstract extends StatelessWidget {
 ١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The research shows that pre-school children are capable of thinking in abstract terms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The research shows that pre-school children are capable of thinking in abstract terms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -163,12 +169,18 @@ class EnglishEntryabstract extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە تەنھا وەک ئایدیا بوونی ھەیە، نەک بەشێوەی فیزیایی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We may talk of beautiful things but beauty itself is abstract."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We may talk of beautiful things but beauty itself is abstract."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -187,12 +199,18 @@ class EnglishEntryabstract extends StatelessWidget {
 ٣. (ھاوەڵناو) جۆرێکی ھونەر کە شتەکان وەک خۆیان پیشان نادا، بەڵکو بەو جۆرەی ھونەرمەندەکە دەیانبینێت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "the work of American abstract artists like Mark Rothko"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the work of American abstract artists like Mark Rothko"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +229,18 @@ class EnglishEntryabstract extends StatelessWidget {
 ٤. (کردار) سڕینەوەی شتێک لە شوێنێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their plan is to abstract 8 million gallons of water from the river."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their plan is to abstract 8 million gallons of water from the river."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

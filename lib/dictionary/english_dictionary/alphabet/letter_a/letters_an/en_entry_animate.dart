@@ -172,11 +172,18 @@ class EnglishEntryanimate extends StatelessWidget {
 ١. (کردار) وا لە شتێک بکەیت کە زیاتر کراوە و پڕ وزە بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A smile suddenly animated her face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A smile suddenly animated her face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەنینێک ڕووخساری کردەوە (گەشاندەوە)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +205,18 @@ class EnglishEntryanimate extends StatelessWidget {
 ٢. (کردار) درووستکردنی ئەنیمەیشن (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The much-loved characters have been animated in this new film."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The much-loved characters have been animated in this new film."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکتەرە زۆر خۆشەویستەکان لەم فیلمە تازەدا وێناکراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +238,18 @@ class EnglishEntryanimate extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێکی زیندوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children quickly learn to distinguish between animate and inanimate motion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children quickly learn to distinguish between animate and inanimate motion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان بەزووی فێردەبن جیاوازی بکەن لەنێوان جووڵەی شتی زیندوو و بێ‌گیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

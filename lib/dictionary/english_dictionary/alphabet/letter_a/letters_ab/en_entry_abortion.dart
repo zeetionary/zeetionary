@@ -125,11 +125,18 @@ class EnglishEntryabortion extends StatelessWidget {
 ١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "the country's strict abortion laws"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the country's strict abortion laws"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -148,10 +155,18 @@ class EnglishEntryabortion extends StatelessWidget {
 ٢. (ناو) پڕۆسەی تەندرووستی بۆ لەباربردنی منداڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She decided to have an abortion."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She decided to have an abortion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -170,12 +185,18 @@ class EnglishEntryabortion extends StatelessWidget {
 ٣. (ناو) کردەی لەدایکبوونی منداڵی پێشوەختە بە مردوویی؛ لەبارچوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

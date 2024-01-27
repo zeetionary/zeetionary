@@ -171,12 +171,18 @@ class EnglishEntryawning extends StatelessWidget {
 ١. (ناو) پارچە چادرێک کە دەدرێت بەسەر دەرگایەکدا بۆ ڕێگری لە تیشکی خۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We sat under the blue and white awning of the cafe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We sat under the blue and white awning of the cafe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەژێر ساباتە ڕەنگ شین و سپییەکەی قاوەخانەکە دانیشتین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

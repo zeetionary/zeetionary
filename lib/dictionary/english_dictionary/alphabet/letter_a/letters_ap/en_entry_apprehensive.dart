@@ -177,12 +177,18 @@ class EnglishEntryapprehensive extends StatelessWidget {
 ١. (ھاوەڵناو) نیگەران یان تۆقاو لە ڕوودانی شتێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was a little apprehensive about the effects of what I had said."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was a little apprehensive about the effects of what I had said."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمێک نیگەران بووم سەبارەت بە کاریگەرییەکانی ئەوەی وتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,12 +177,18 @@ class EnglishEntryapathy extends StatelessWidget {
 ١. (ناو) نەبوونی تامەزرۆیی یان حەز بپ شتێک، یان ھەموو شتێک بە گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Such attitudes can only lead to apathy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Such attitudes can only lead to apathy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵوێستی وەھا ئەنجامەکەی تەنھا بێ‌ھەستی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryapathy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a growing sense of apathy among teens and a feeling that there are no opportunities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a growing sense of apathy among teens and a feeling that there are no opportunities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی بێ‌دەربەستیی ڕوولەزۆری لەناو گەنجان ھەیە، و ھەستی ئەوەی ھیچ ھەلێک نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

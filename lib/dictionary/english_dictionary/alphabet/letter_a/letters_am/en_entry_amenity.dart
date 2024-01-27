@@ -195,12 +195,18 @@ class EnglishEntryamenity extends StatelessWidget {
 ١. (ناو) خزمەتگوزاری؛ ئەو خزمەتگوزارییانەی وا دەکەن شوێنێک بە کەڵکی ژیان بێت، یان ژیانکردن تێیدا خۆش بێت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many of the houses lacked even basic amenities (= baths, showers, hot water, etc.)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر لە خانووەکان تەنانەت خزمەتگوزارییە سەرەتاییەکانیشیان تێدا نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +225,18 @@ class EnglishEntryamenity extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The hotel has excellent amenities."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hotel has excellent amenities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھوتێلەکە خزمەتگوزاریی نایابی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

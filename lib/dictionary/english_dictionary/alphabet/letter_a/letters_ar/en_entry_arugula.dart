@@ -176,12 +176,18 @@ class EnglishEntryarugula extends StatelessWidget {
 ١. (ناو) سەوزەیەک کە گەڵای درێژ و بۆنی تیژی ھەیە و ھایە بە تەنھا لەناو زەڵاتەدا دەخورێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I love the peppery flavor of arugula in salads."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I love the peppery flavor of arugula in salads."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزم لە چێژی توونی ئوروگولایە لە زەڵاتەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

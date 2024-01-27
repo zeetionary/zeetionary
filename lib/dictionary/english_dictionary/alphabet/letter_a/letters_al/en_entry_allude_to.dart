@@ -127,12 +127,18 @@ class EnglishEntryalludeto extends StatelessWidget {
 ١. (کاری لێکدراو) ئاماژەکردن بۆ شتێک؛ باسکردنی شتێک بە ناڕاستەوخۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The problem had been alluded to briefly in earlier discussions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The problem had been alluded to briefly in earlier discussions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گفتوگۆکانی پێشووتر کێشەکە بە کورتی ئاماژەی پێکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -182,12 +182,18 @@ class EnglishEntryassurance extends StatelessWidget {
 ١. (ناو) لێدوانێک سەبارەت بەوەی شتێک بە دڵنیاییەوە ڕاستە، یان ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They called for assurances that the government is committed to its education policy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They called for assurances that the government is committed to its education policy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای دڵنیاییان کرد کە حکومەت پابەند دەبێت بە پلانی پەروەردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryassurance extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I must have your assurance that there will be no repetition of this conduct."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I must have your assurance that there will be no repetition of this conduct."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەبێت بەڵێنم پێ‌بدەیت کە ئەم ڕەفتارە دووبارە نابێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassurance extends StatelessWidget {
 ٢. (ناو) متمانە بە ھێز و توانای خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Even at a very young age she showed a great deal of assurance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Even at a very young age she showed a great deal of assurance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنانەت لە تەمەنێکی گەنجیشدا لەخۆڕادیتنی زۆری پیشان دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

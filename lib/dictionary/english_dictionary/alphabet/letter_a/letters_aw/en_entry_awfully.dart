@@ -169,12 +169,18 @@ class EnglishEntryawfully extends StatelessWidget {
 ١. (ھاوەڵکار) یەکجار زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm awfully sorry about that problem the other day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر زۆر بەداخەوەم بۆ ئەو کێشەیەی ئەو ڕۆژەی تر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm awfully sorry about that problem the other day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر زۆر بەداخەوەم بۆ ئەو کێشەیەی ئەو ڕۆژەی تر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

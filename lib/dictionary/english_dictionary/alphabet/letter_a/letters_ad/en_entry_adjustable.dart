@@ -127,11 +127,18 @@ class EnglishEntryadjustable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The height of the bicycle seat is adjustable."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The height of the bicycle seat is adjustable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryambiguity extends StatelessWidget {
 ١. (ناو) ھەبوونی ناڕوونی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Write clear definitions in order to avoid ambiguity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Write clear definitions in order to avoid ambiguity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێناسەی ڕوون بنووسە بۆ ئەوەی لە ناڕوونی بەدوور بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

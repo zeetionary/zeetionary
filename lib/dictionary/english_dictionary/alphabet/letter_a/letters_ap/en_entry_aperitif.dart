@@ -174,11 +174,18 @@ class EnglishEntryaperitif extends StatelessWidget {
 ١. (ناو) خواردنەوەیەک کە کحولی تێدایە و زۆرجار پێش نان دەخوردرێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This vermouth is a delicious aperitif."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This vermouth is a delicious aperitif."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڤرماوسە ئیشتیاکەرەوەیەکی بەتامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

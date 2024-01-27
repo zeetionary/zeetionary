@@ -181,12 +181,18 @@ class EnglishEntryauthoritative extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ئەوەی چاوەڕێی گێڕایەڵی و ڕێز دەکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has an authoritative manner that at times is almost arrogant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has an authoritative manner that at times is almost arrogant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryauthoritative extends StatelessWidget {
 ٢. (ھاوەڵناو) جێگەی باوەڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her opinion on the subject was considered authoritative."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her opinion on the subject was considered authoritative."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

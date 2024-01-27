@@ -171,11 +171,18 @@ class EnglishEntryamplitude extends StatelessWidget {
 ١. (ناو) زۆرترین ماوەی کشانی شەپۆلێکی دەنگی یان ڕادیۆیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sound waves are measured by their amplitude."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sound waves are measured by their amplitude."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەپۆلی دەنگی بەپێی کشانیان دەپێورێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +205,18 @@ class EnglishEntryamplitude extends StatelessWidget {
 ٢. (ناو) بڕێکی زۆر، یان مەودایەکی فراوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sheer amplitude of the novel invites comparisons with Tolstoy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sheer amplitude of the novel invites comparisons with Tolstoy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەربڵاویی فراوانی ڕۆمانەکە وادەکات بەوانەی تۆڵستۆی بەراورد بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

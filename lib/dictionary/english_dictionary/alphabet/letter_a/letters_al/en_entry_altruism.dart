@@ -129,12 +129,18 @@ class EnglishEntryaltruism extends StatelessWidget {
 ١. (ناو) یارمەتیدانی خۆنەویستانەی کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Politicians are not necessarily motivated by altruism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Politicians are not necessarily motivated by altruism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیاسەتمەداران کارناکەن بە گیانی لەخۆبردووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

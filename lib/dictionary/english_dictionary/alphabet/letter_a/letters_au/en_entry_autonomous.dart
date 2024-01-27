@@ -182,12 +182,18 @@ class EnglishEntryautonomous extends StatelessWidget {
 ١. (ھاوەڵناو) خاکێک یان دامەزراوەیەک کە خۆی بەڕێوەدەبات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The country now has 17 autonomous regions, each with a distinct culture."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The country now has 17 autonomous regions, each with a distinct culture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +216,18 @@ class EnglishEntryautonomous extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە خۆی دەژێنێت بەبێ یارمەتی کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Teachers aim to help children become autonomous learners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستایان ئامانجیانە یارمەتی خوێندکاران بدەن ببن بە فێرخوازی سەربەخۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Teachers aim to help children become autonomous learners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستایان ئامانجیانە یارمەتی خوێندکاران بدەن ببن بە فێرخوازی سەربەخۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryautonomous extends StatelessWidget {
 ٣. (ھاوەڵناو) ئۆتۆمبێلێک کە بە یارمەتیی تەکنەلۆژیا توانای خۆ کۆنترۆڵکردنی ھەیە و پێویستی بە شۆفێر نییە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The development of autonomous vehicles has the potential to revolutionize transportation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرەپێدانی ئۆتۆمبێلی خۆلێخوڕ لەتوانادایە شۆڕشێک درووست بکات لە گواستنەوەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The development of autonomous vehicles has the potential to revolutionize transportation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرەپێدانی ئۆتۆمبێلی خۆلێخوڕ لەتوانادایە شۆڕشێک درووست بکات لە گواستنەوەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryadjudication extends StatelessWidget {
 ١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The case was referred to a higher court for adjudication."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The case was referred to a higher court for adjudication."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

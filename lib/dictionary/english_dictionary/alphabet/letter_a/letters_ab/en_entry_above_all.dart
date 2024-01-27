@@ -109,11 +109,17 @@ class EnglishEntryaboveall extends StatelessWidget {
 ١. بە تایبەتی، لە سەروو ھەموو شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Above all, keep in touch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Above all, keep in touch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

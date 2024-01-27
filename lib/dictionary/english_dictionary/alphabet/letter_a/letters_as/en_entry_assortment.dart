@@ -178,11 +178,17 @@ class EnglishEntryassortment extends StatelessWidget {
 ١. (ناو) کۆمەڵە شتێک، یان کۆمەڵە جۆرێکی جیاوازی یەک شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was dressed in an odd assortment of clothes."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستە جلێکی سەیری لەبەرکردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was dressed in an odd assortment of clothes."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستە جلێکی سەیری لەبەرکردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

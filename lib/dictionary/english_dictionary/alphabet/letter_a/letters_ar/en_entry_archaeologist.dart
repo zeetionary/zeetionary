@@ -177,12 +177,18 @@ class EnglishEntryarchaeologist extends StatelessWidget {
 ١. (ناو) کەسێکی شوێنەوارناس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's an archaeologist and has been on a dig in Crete for the past year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's an archaeologist and has been on a dig in Crete for the past year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوێنەوارناسە و بۆ ماوەی یەک ساڵی ڕابردوو خەریکی ھەڵکۆڵینی شوێنەوارێک بووە لە کریت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

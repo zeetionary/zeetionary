@@ -180,12 +180,18 @@ class EnglishEntryaudaciously extends StatelessWidget {
 ١. (ھاوەڵناو) بەشێوەیەک کە ئامادەی سەرکێشی ئەنجام بدەیت بەشێوەیەک خەڵکی سەرسام بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He audaciously applied for a promotion after only two months on the job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He audaciously applied for a promotion after only two months on the job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -194,11 +194,18 @@ class EnglishEntryammonia extends StatelessWidget {
 ١. (ناو) گاسێک کە بۆنێکی تیژی ھەیە و لە مادەی پاککەرەوە، پەیین، و تەقەمەنی‌دا بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is dangerous to inhale ammonia fumes."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is dangerous to inhale ammonia fumes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

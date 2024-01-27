@@ -121,12 +121,18 @@ class EnglishEntryabstain extends StatelessWidget {
 ١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ten people voted in favour, five against and two abstained."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ten people voted in favour, five against and two abstained."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,11 +151,18 @@ class EnglishEntryabstain extends StatelessWidget {
 ٢. (کردار) خۆبەدوورگرتن لە شتێک کە حەزت لێیە، بەھۆی ئەوەی خراپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "to abstain from alcohol/sex/drugs"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "to abstain from alcohol/sex/drugs"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

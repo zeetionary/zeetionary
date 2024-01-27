@@ -175,12 +175,18 @@ class EnglishEntryapplaud extends StatelessWidget {
 ١. (کردار) دەربڕینی بەدڵبوونت بۆ کەسێک بە چەپڵەلێدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He started to applaud and the others joined in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He started to applaud and the others joined in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی بە چەپڵەلێدان کرد و ئەوانی تریش بەدوایدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryapplaud extends StatelessWidget {
 ٢. (کردار) پەسندانی کەسێک بەھۆی بەدڵبوونی کارەکەیان لات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His efforts to improve the situation are to be applauded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His efforts to improve the situation are to be applauded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵەکانی بۆ باشترکردنی دۆخەکە جێگەی دەستخۆشییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

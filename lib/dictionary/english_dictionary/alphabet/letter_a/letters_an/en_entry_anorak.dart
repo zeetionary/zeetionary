@@ -171,12 +171,18 @@ class EnglishEntryanorak extends StatelessWidget {
 ١. (ناو) پاڵتاوێکی کورت لەگەڵ کڵاوێک بۆ پاراستن لە باران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My Mum made me take my anorak in case it rained."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My Mum made me take my anorak in case it rained."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکم زۆری لێ‌کردم پاڵتاوەکەم ببەم نەوەک باران ببارێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

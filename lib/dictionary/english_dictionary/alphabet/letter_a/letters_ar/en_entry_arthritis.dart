@@ -178,12 +178,18 @@ class EnglishEntryarthritis extends StatelessWidget {
 ١. (ناو) ھەڵئاوسانی جومگەیەک یان زیاتری جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is unclear why some people develop arthritis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھۆکاری بوونی جومگەماسێ لە ھەندێک کەسدا نەزانراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is unclear why some people develop arthritis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھۆکاری بوونی جومگەماسێ لە ھەندێک کەسدا نەزانراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

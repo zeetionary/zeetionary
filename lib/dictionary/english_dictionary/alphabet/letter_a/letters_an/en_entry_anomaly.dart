@@ -171,12 +171,18 @@ class EnglishEntryanomaly extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک یان بارودۆخێک کە نائاساییە وەک لەوەی چاوەڕوانکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are areas of anomaly in the report."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are areas of anomaly in the report."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک بەشی نائاسایی لە ڕاپۆرتەکە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

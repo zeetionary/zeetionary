@@ -130,12 +130,18 @@ class EnglishEntryaltruistic extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی خاسیەتی لەخۆبردوویی؛ یارمەتیدانی کەسانی تر بەبێ ھیچ ھۆکارێکی کەسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I doubt whether her motives for donating the money are altruistic - she's probably looking for publicity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گومانم ھەیە مەبەستی لە بەخشینی پارەکە تەنھا لەخۆبردووی بێت، پێدەچێت بۆ ناوبانگ بگەڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

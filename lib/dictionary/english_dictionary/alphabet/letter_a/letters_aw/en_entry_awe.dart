@@ -171,10 +171,16 @@ class EnglishEntryawe extends StatelessWidget {
 ١. (ناو) ھەستی زۆر سەرسامبوون بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He speaks of her with awe."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ھەیبەتەوە باسی دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He speaks of her with awe."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ھەیبەتەوە باسی دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryawe extends StatelessWidget {
 ٢. (کردار) وا لە کەسێک بکەیت ھەست بە سەرسامی زۆر بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She seemed awed by the presence of so many famous people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She seemed awed by the presence of so many famous people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

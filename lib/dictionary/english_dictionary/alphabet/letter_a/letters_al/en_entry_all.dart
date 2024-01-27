@@ -279,12 +279,18 @@ class EnglishEntryall extends StatelessWidget {
 ١. (پێشناو) ھەموو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All horses are animals, but not all animals are horses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەسپێک ئاژەڵە، بەڵام ھەموو ئاژەڵێک ئەسپ نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All horses are animals, but not all animals are horses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەسپێک ئاژەڵە، بەڵام ھەموو ئاژەڵێک ئەسپ نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,10 +309,17 @@ class EnglishEntryall extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "All my plants have died."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموو ڕووەکەکانم وشکیان کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "All my plants have died."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ڕووەکەکانم وشکیان کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -325,10 +338,16 @@ class EnglishEntryall extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He has lost all his money."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموو پارەکەی لەدەستداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He has lost all his money."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەموو پارەکەی لەدەستداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -349,10 +368,17 @@ class EnglishEntryall extends StatelessWidget {
 ٢. (پێشناو) تەواوی ماوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's worked hard all year."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی ساڵەکە بە سەختی کاری کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's worked hard all year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی ساڵەکە بە سەختی کاری کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -373,11 +399,18 @@ class EnglishEntryall extends StatelessWidget {
 ٣. (پێشناو) تا بەرزترین ئاست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In all honesty (= being as honest as I can), I can't agree."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواو سەرڕاست بم، ناتوانم ھاوڕابم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In all honesty (= being as honest as I can), I can't agree."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواو سەرڕاست بم، ناتوانم ھاوڕابم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,10 +431,17 @@ class EnglishEntryall extends StatelessWidget {
 ٤. (پێشناو) پێکھاتوو تەنھا لە یەک شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The magazine was all advertisements."),
-                              const ExampleSentenceKurdish(
-                                  text: "گۆڤارەکە ھەموو ڕیکلام بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The magazine was all advertisements."),
+                                    ExampleSentenceKurdish(
+                                        text: "گۆڤارەکە ھەموو ڕیکلام بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -422,10 +462,16 @@ class EnglishEntryall extends StatelessWidget {
 ٥. (جێناو) ھەموو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They've eaten all of it."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموویان خواردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They've eaten all of it."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەموویان خواردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -444,10 +490,17 @@ class EnglishEntryall extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "All of them enjoyed the party."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموویان چێژیان لە ئاھەنگەکە بینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "All of them enjoyed the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموویان چێژیان لە ئاھەنگەکە بینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -468,10 +521,16 @@ class EnglishEntryall extends StatelessWidget {
 ٦. (جێناو) تەنھا شت، ھەموو ئەوەی ھەتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was all that I had."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە ھەموو ئەوە بوو ھەمبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It was all that I had."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوە ھەموو ئەوە بوو ھەمبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -492,10 +551,18 @@ class EnglishEntryall extends StatelessWidget {
 ٧. (ھاوەڵکار) بە تەواوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The coffee went all over my skirt."),
-                              const ExampleSentenceKurdish(
-                                  text: "قاوەکە ڕژا بە ھەموو تەنوورەکەمدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The coffee went all over my skirt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قاوەکە ڕژا بە ھەموو تەنوورەکەمدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -516,10 +583,17 @@ class EnglishEntryall extends StatelessWidget {
 ٨. (ھاوەڵکار) زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Now don't get all upset about it."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر پەست مەبە لەسەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Now don't get all upset about it."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر پەست مەبە لەسەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -540,11 +614,17 @@ class EnglishEntryall extends StatelessWidget {
 ٩. (ھاوەڵکار) زیاتر لەوەی حەزی پێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The end of the trip came all too soon."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆتایی گەشتەکە زۆر زوو ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The end of the trip came all too soon."),
+                                    ExampleSentenceKurdish(
+                                        text: "کۆتایی گەشتەکە زۆر زوو ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

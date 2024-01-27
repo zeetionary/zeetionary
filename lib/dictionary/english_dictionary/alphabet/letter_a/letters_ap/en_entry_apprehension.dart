@@ -179,12 +179,18 @@ class EnglishEntryapprehension extends StatelessWidget {
 ١. (ناو) نیگەرانی یان ترس لەوەی شتێکی خراپ لەوانەیە ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is growing apprehension that fighting will begin again."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is growing apprehension that fighting will begin again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵەخورپەی زیاتر و زیاتر ھەیە کە شەڕ لەوانەیە دووبارە دەست‌پێ‌بکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryapprehension extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He watched the election results with apprehension."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He watched the election results with apprehension."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دڵەخورپەوە سەیری ئەنجامی ھەڵبژاردنەکانی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryapprehension extends StatelessWidget {
 ٢. (ناو) دەستگیرکردنی کەسێک کە پابەندی یاسا نەبووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both the army and the police were involved in the apprehension of the terrorists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both the army and the police were involved in the apprehension of the terrorists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو سوپا و پۆلیس بەژداربوون لە دەستگیرکردنی تیرۆریستەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

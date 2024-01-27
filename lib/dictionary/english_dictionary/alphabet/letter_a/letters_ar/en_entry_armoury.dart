@@ -178,12 +178,18 @@ class EnglishEntryarmoury extends StatelessWidget {
 ١. (ناو) کۆگای چەک و تەقەمەنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several guns had been stolen from the palace armoury."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several guns had been stolen from the palace armoury."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک چەک دزرابوون لە جبەخانەی کۆشکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryarmoury extends StatelessWidget {
 ٣. (ناو) ئەو شتانەی کە کەسێک ھەیەتی بۆ یارمەتیدانی لە بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Doctors have an armoury of drugs available."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Doctors have an armoury of drugs available."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکان گەنجینەیەک لە دەرمانیان لەبەردەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryarmoury extends StatelessWidget {
 ٤. (ناو) تەواوی چەک و کەرەستەی سەربازیی وڵاتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two countries signed an agreement to reduce their nuclear armouries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two countries signed an agreement to reduce their nuclear armouries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو وڵات ڕێککەوتنێکیان واژۆکرد بۆ کەمکردنەوەی چەکی ئەتۆمییان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

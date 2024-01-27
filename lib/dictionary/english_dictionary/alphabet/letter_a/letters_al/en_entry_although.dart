@@ -139,12 +139,18 @@ class EnglishEntryalthough extends StatelessWidget {
 ١. (لێکدەر) بۆ وتنی شتێک کە وا دەکات خاڵی سەرەکی ڕستەکە ببێت بە سوپرایز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Although the sun was shining, it wasn't very warm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Although the sun was shining, it wasn't very warm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -165,12 +171,18 @@ class EnglishEntryalthough extends StatelessWidget {
 ٢. (لێکدەر) بۆ وتنی بەڵام"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt he was wrong, although I didn't say so at the time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt he was wrong, although I didn't say so at the time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

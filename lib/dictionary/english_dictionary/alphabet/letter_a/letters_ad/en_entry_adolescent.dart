@@ -127,11 +127,18 @@ class EnglishEntryadolescent extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی ھەرزەکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Stop acting like an adolescent!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Stop acting like an adolescent!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وازبێنە لە ڕەفتارکردن وەک ھەرزەکارێک!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

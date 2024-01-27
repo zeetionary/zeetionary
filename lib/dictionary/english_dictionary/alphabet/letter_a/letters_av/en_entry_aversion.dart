@@ -171,12 +171,18 @@ class EnglishEntryaversion extends StatelessWidget {
 ١. (ناو) ڕقێکی زۆر بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had an aversion to getting up early."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had an aversion to getting up early."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوژمنایەتی لەگەڵ زوو لەخەوھەستان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

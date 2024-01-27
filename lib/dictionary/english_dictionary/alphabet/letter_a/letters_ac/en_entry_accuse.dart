@@ -128,10 +128,16 @@ class EnglishEntryaccuse extends StatelessWidget {
 ١. (کردار) وتنی ئەوەی کەسێک کارێکی ھەڵەی کردووە یان تۆمەتبارە بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She accused him of lying."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە درۆکردن تۆمەتباری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She accused him of lying."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە درۆکردن تۆمەتباری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -148,11 +154,18 @@ class EnglishEntryaccuse extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government was accused of incompetence."),
-                              const ExampleSentenceKurdish(
-                                  text: "حکومەت بە ناکارامەیی تۆمەتبارکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government was accused of incompetence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بە ناکارامەیی تۆمەتبارکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

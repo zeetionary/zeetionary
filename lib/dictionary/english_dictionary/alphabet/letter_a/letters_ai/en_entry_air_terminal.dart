@@ -130,12 +130,18 @@ class EnglishEntryairterminal extends StatelessWidget {
 ١. (ناو) بینای فڕۆکەخانە کە تێیدا گەشتیاران کارەکانیان ئەنجام دەدەن و چاوەڕێی فڕۆکە دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Passengers are conveyed by bus to the air terminal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Passengers are conveyed by bus to the air terminal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشتیاران بە پاس دەگوازرێنەوە دواوێستگەی فڕۆکەخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

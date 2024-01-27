@@ -128,12 +128,18 @@ class EnglishEntryadventure extends StatelessWidget {
 ١. (ناو) کارێکی مەترسیدار کە زۆرجار چێژبەخشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They fly around in their rocket ship and go on exciting adventures."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They fly around in their rocket ship and go on exciting adventures."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کەشتییە ئاسمانییەکەیان دەفڕن و دەچنە گەشتی جەربەزەیی چێژبەخش"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

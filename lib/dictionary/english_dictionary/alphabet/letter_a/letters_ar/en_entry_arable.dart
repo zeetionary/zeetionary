@@ -176,12 +176,18 @@ class EnglishEntryarable extends StatelessWidget {
 ١. (ھاوەڵناو) زەوییەک کە بەپیتە بۆ کشتوکاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The small village centre is surrounded by arable farms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The small village centre is surrounded by arable farms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوەڕاستی گوندە بچووکەکە بە زەویی بەپیت دەوردراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

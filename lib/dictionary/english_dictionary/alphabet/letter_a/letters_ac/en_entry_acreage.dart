@@ -127,12 +127,18 @@ class EnglishEntryacreage extends StatelessWidget {
 ١. (ناو) پارچە زەوییەک کە بە گاوەخان پێوراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aim is to double the forestry acreage by the end of the decade."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aim is to double the forestry acreage by the end of the decade."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجەکە ئەوەیە ڕووبەری دارستانەکە دوو ھێندە بکرێت تا کۆتایی ئەم دەیەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

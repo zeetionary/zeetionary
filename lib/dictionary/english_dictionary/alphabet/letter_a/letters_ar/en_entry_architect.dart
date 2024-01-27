@@ -176,12 +176,18 @@ class EnglishEntryarchitect extends StatelessWidget {
 ١. (ناو) کەسێک کە دیزاینی بینا دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The house was designed by architect Louis Kahn."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانووەکە لەلایەن بیناساز لویس کاھن دیزاین کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house was designed by architect Louis Kahn."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووەکە لەلایەن بیناساز لویس کاھن دیزاین کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

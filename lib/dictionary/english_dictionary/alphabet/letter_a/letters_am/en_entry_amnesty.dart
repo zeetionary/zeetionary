@@ -195,12 +195,18 @@ class EnglishEntryamnesty extends StatelessWidget {
 ١. (ناو) لێبوردن لە زیندانیان یان ئەو کەسانەی تاوانیان کردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president granted a general amnesty for all political prisoners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president granted a general amnesty for all political prisoners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک لێبووردنی گشتی بۆ ھەموو زیندانیانی سیاسی دەرکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +227,18 @@ class EnglishEntryamnesty extends StatelessWidget {
 ٢. (ناو) ماوەیەکی دیاریکراو کە تاوانباران دەتوانن دان بە تاواندا بنێن، یان چەکەکانیان، یان کەلوپەلی دزراو بدەن‌بەدەستەوە بەبێ ئەوەی سزابدرێن """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "2 000 knives have been handed in during the month-long amnesty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "2 000 knives have been handed in during the month-long amnesty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "٢٠٠٠ چەقۆ دران‌بەدەستەوە لە ماوەی مۆڵەتە یەک مانگییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

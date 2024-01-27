@@ -173,12 +173,18 @@ class EnglishEntryannouncer extends StatelessWidget {
 ١. (ناو) بێژەری تەلەفیزیۆن یان ڕادیۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The announcer advertised a few forthcoming programmes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The announcer advertised a few forthcoming programmes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێژەرەکە ژمارەیەک پڕۆگرامی ڕاگەیاند کە دواتر پێشکەش‌دەکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryannouncer extends StatelessWidget {
 ٢. (ناو) بانگەوازکەر؛ کەسێک کە لە وێستگەیەکدا زانیاری بە بڵیندگۆ دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The station announcer warned us that the train was running late."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The station announcer warned us that the train was running late."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانگەوازکەری وێستگەکە پێی ڕاگەیاندین شەمەندەفەرەکە درەنگ دەگات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,11 +239,18 @@ class EnglishEntryannouncer extends StatelessWidget {
 ٣. (ناو) بێژەری یارییەکی وەرزشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was the announcer for the NBA game."),
-                              const ExampleSentenceKurdish(
-                                  text: "بێژەری یارییەکەی ئێن-بی-ئەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was the announcer for the NBA game."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێژەری یارییەکەی ئێن-بی-ئەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryasylumseeker extends StatelessWidget {
 ١. (ناو) کەسێک کە بەھۆی مەترسی لەسەر ژیانی وڵاتی خۆی جێھێشتووە و داوای مانەوە لە وڵاتێکی تر دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The asylum seeker fled her home country due to political violence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەناخوازەکە وڵاتی خۆی جێھێشت بەھۆی توندوتیژی سیاسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The asylum seeker fled her home country due to political violence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەناخوازەکە وڵاتی خۆی جێھێشت بەھۆی توندوتیژی سیاسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

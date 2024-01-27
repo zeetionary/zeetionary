@@ -129,12 +129,18 @@ class EnglishEntryalms extends StatelessWidget {
 ١. (ناو) پارە و خواردن و خۆراک کە دەدرێت بە ھەژاران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the past, people thought it was their religious duty to give alms to the poor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the past, people thought it was their religious duty to give alms to the poor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران خەڵکی وایان دەزانی ئەرکی ئاینییانە پارە بە ھەژاران بدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

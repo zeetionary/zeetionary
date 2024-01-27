@@ -128,11 +128,17 @@ class EnglishEntryafternoon extends StatelessWidget {
 ١. (ناو) ناوەڕاستی ڕۆژ، لە کاتژمێر ١٢ی دوای نیوەڕۆ بۆ ٦ی ئێوارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the afternoon, they went shopping."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە نیوەڕواندا دەچوون بۆ بازاڕ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the afternoon, they went shopping."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە نیوەڕواندا دەچوون بۆ بازاڕ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,10 +157,16 @@ class EnglishEntryafternoon extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Come over on Sunday afternoon."),
-                              const ExampleSentenceKurdish(
-                                  text: "نیوەڕۆی یەکشەمە وەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Come over on Sunday afternoon."),
+                                    ExampleSentenceKurdish(
+                                        text: "نیوەڕۆی یەکشەمە وەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

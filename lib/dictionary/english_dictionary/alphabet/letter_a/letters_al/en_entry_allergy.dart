@@ -130,10 +130,17 @@ class EnglishEntryallergy extends StatelessWidget {
 ١. (ناو) حاڵەتێکی تەندرووستی کە وات لێ داکات بارودۆخت تێک بچێت یان نەخۆش بکەویت ئەگەر شتێک بۆخیت یان دەست لە شتێک بدەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I have an allergy to animal hair."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have an allergy to animal hair."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەستیاریم بە مووی ئاژەڵ ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,10 +160,18 @@ class EnglishEntryallergy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He developed an allergy to wheat."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەستیاری بە گەنمی بۆ درووست بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He developed an allergy to wheat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستیاری بە گەنمی بۆ درووست بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

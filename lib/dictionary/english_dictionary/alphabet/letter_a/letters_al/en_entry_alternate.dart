@@ -165,12 +165,18 @@ class EnglishEntryalternate extends StatelessWidget {
 ١. (ھاوەڵناو) کردنی شتێک سەرەتا بە یەکەم شت، دواتر بە شتێکی تر، و ئینجا دووبارە بە یەکەم شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Stretch up 30 times with alternate arms as a warm-up exercise."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Stretch up 30 times with alternate arms as a warm-up exercise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک خۆگەرمکردنەوەیەک ٣٠ جار سترێچ بکە، ھەرجارە و بە دەستێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,12 +198,18 @@ class EnglishEntryalternate extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕۆژ نا ڕۆژ، جار نا جار، ساڵ نا ساڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He and I clean our room on alternate days."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He and I clean our room on alternate days."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "من و ئەو ژوورەکەمان ڕۆژ نا ڕۆژێک پاکدەکەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,12 +230,18 @@ class EnglishEntryalternate extends StatelessWidget {
 ٣. (کردار) ڕوودان بەدوای یەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She alternated between cheerfulness and deep despair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She alternated between cheerfulness and deep despair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەردەوام لە نێوان دڵخۆشی و نائومێدی قووڵ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,12 +263,18 @@ class EnglishEntryalternate extends StatelessWidget {
 ٤. (کردار) ڕوودان بە بەردەوامی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ambulance crews alternate between emergency and routine work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ambulance crews alternate between emergency and routine work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکانی فریاگوزاری بەردەوام لەنێوان کاری ئاسایی ڕۆژانەیان و حاڵەتی نەخوازراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -271,12 +295,18 @@ class EnglishEntryalternate extends StatelessWidget {
 ٥. (ناو) کەسێکی جێگرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "David was too sick to attend, so Janet served as his alternate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "David was too sick to attend, so Janet served as his alternate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیڤد زۆر نەخۆش بوو کە بتوانێت بەژداربێت، بۆیە جانێت وەک جێگرەوەی کاری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

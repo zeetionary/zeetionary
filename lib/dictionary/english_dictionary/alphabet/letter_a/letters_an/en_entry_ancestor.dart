@@ -173,12 +173,18 @@ class EnglishEntryancestor extends StatelessWidget {
 ١. (ناو) باوان؛ کەسێکی بنەماڵەکەت کە زۆر لەمەوپێش ژیاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His ancestors had come to America from Ireland."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His ancestors had come to America from Ireland."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوانی لە ئێرلەنداوە ھات‌بوون بۆ ئەمریکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryancestor extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were portraits of his ancestors on the walls of the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێنەی باوانی لەسەر دیواری ژوورەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were portraits of his ancestors on the walls of the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێنەی باوانی لەسەر دیواری ژوورەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +237,18 @@ class EnglishEntryancestor extends StatelessWidget {
 ٢. (ناو) ئاژەڵێک کە لە کۆندا ژیاوە و لە ئێستادا ئاژەڵێکی تر لێوەی گەشەی کردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These bones come from an animal that is the ancestor of the modern horse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These bones come from an animal that is the ancestor of the modern horse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئێسکانە ھی ئاژەڵێکن کە باوانی ئەسپی ئێستایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,12 +271,18 @@ class EnglishEntryancestor extends StatelessWidget {
 ٣. (ناو) شێوەیەکی سەرەتایی کەرەستەیەک کە لە ئێستادا زیاتر بەرەوپێش‌چووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This wooden instrument is the ancestor of the modern metal flute."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This wooden instrument is the ancestor of the modern metal flute."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئامێرە دارینە شێوەی سەرەتایی فلوتی ئاسنی ئەم سەردەمەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

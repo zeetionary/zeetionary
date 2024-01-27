@@ -177,12 +177,18 @@ class EnglishEntryarena extends StatelessWidget {
 ١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rider has to halt the horse in the arena."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rider has to halt the horse in the arena."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوارەکە دەبێت ئەسپەکە لە گۆڕەپانەکەدا بوەستێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarena extends StatelessWidget {
 ٢. (ناو) کایەیەکی چالاکی کە خەڵکی گرنگی پێ‌دەدەن و بەسەر لایەنەکانیدا بە بیروڕای جیاوازەوە دابەش‌دەبن """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company has been very successful in the commercial arena."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company has been very successful in the commercial arena."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە زۆر سەرکەوتوو بووە لەلایەنی بازرگانییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

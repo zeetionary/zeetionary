@@ -181,10 +181,17 @@ class EnglishEntryarrange extends StatelessWidget {
 ١. (کردار) پلان‌دانان یان ڕێکخستنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The party was arranged quickly."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاھەنگەکە بەخێرایی ڕێکخرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The party was arranged quickly."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاھەنگەکە بەخێرایی ڕێکخرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,11 +211,18 @@ class EnglishEntryarrange extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She arranged a loan with the bank."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She arranged a loan with the bank."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەرگرتنی قەرزێکی ڕێکخست لەگەڵ بانکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +244,18 @@ class EnglishEntryarrange extends StatelessWidget {
 ٢. (کردار) ڕیزبەندی کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The books are arranged alphabetically by author."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The books are arranged alphabetically by author."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکان بەپێی ئەلفوبێی ناوی نووسەرەکانیان ڕیزبەندی کرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +277,18 @@ class EnglishEntryarrange extends StatelessWidget {
 ٣. (کردار) گۆڕینی پارچە میوزیکێک بۆ سازاندنی لەگەڵ ئامێرەکە یان ھونەرمەندەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Beethoven's fifth symphony has been arranged for the piano."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Beethoven's fifth symphony has been arranged for the piano."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێنجەم سیمفۆنی بیتھۆڤن بۆ پیانۆ سازێندراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

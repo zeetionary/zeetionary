@@ -130,12 +130,18 @@ class EnglishEntryallegorical extends StatelessWidget {
 ١. (ھاوەڵناو) چیرۆکێک کە ھەر کارەکتەرێک تێیدا سمبولە بۆ چەمکێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Every Russian knows the allegorical novel The Master And Margarita."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Every Russian knows the allegorical novel The Master And Margarita."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ڕووسیەک ڕۆمانی ھێمایی 'گەورە و مارگرێتا' دەزانێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryastronomy extends StatelessWidget {
 ١. (ناو) زانستی لێکۆڵینەوە لە خۆر و مانگ و ھەسارە و ئەستێرەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Astronomy is one of the oldest sciences."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Astronomy is one of the oldest sciences."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

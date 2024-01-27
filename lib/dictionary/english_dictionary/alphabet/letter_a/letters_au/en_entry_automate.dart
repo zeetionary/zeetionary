@@ -179,12 +179,18 @@ class EnglishEntryautomate extends StatelessWidget {
 ١. (کردار) بەکارھێنانی ئامێر و کۆمپیوتەر بۆ کردنی کار لە جیاتی مرۆڤ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The entire manufacturing process has been automated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The entire manufacturing process has been automated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی پڕۆسەی بەرھەمھێنانەکە کراوە بە خۆکارانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

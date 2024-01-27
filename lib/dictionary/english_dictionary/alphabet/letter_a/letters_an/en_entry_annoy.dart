@@ -171,12 +171,18 @@ class EnglishEntryannoy extends StatelessWidget {
 ١. (کردار) کەمێک کەسیك بێزار بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’m sure she does it just to annoy me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’m sure she does it just to annoy me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیام تەنھا بۆ بێزارکردنی من دەیکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

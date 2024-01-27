@@ -176,10 +176,16 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
 ١. (ناو) ژمارەکانی 0، 1، 2، 3، 4، 5، ھتد کە بەکاردێن لە زۆر وڵاتدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "1 and 2 are Arabic numerals."),
-                              const ExampleSentenceKurdish(
-                                  text: "1 و 2 ژمارەی عەرەبین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "1 and 2 are Arabic numerals."),
+                                    ExampleSentenceKurdish(
+                                        text: "1 و 2 ژمارەی عەرەبین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

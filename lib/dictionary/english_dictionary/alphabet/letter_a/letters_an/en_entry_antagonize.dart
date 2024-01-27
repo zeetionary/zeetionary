@@ -170,12 +170,18 @@ class EnglishEntryantagonize extends StatelessWidget {
 ١. (کردار) کردنی شتێک کە کەسێک تووڕە دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Not wishing to antagonize her further, he said no more."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Not wishing to antagonize her further, he said no more."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ دووربوون لە زیاتر تووڕەکردنی ھیچی دیکەی نەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

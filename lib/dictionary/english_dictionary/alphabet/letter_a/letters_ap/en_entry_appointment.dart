@@ -181,11 +181,17 @@ class EnglishEntryappointment extends StatelessWidget {
 ١. (ناو) ئامادەکاری بۆ بینین یان سەردانی کەسێک لە کاتێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've got a dental appointment at 3 o'clock."),
-                              const ExampleSentenceKurdish(
-                                  text: "وادەیەکم لای دکتۆری ددان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've got a dental appointment at 3 o'clock."),
+                                    ExampleSentenceKurdish(
+                                        text: "وادەیەکم لای دکتۆری ددان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryappointment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She made an appointment for her son to see the doctor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She made an appointment for her son to see the doctor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادەی دانا بۆ کوڕەکەی بۆ بینینی دکتۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryappointment extends StatelessWidget {
 ٢. (ناو) دیاریکردنی کەسێک بۆ کارێک یان بەرپرسیاریەتییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They announced the appointments of key security officials."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They announced the appointments of key security officials."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستنیشانکردنی بەرپرسانی ئاسایشیان ڕاگەیاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,11 +280,18 @@ class EnglishEntryappointment extends StatelessWidget {
 ٣. (ناو) کارێک یان پۆستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I would like to congratulate you on your appointment."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I would like to congratulate you on your appointment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیرۆزبایی پۆستە تازەکەت لێ‌دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +314,18 @@ class EnglishEntryappointment extends StatelessWidget {
 ٤. (ناو) کەسێک کە لە کارێک یان پۆستێکدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Government ministers and other political appointments are frequently replaced."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Government ministers and other political appointments are frequently replaced."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەزیرەکانی حکومەت و بەرپرسانی سیاسی دیکە زوو زوو دەگۆڕدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

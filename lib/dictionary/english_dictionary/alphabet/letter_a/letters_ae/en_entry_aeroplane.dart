@@ -129,11 +129,17 @@ class EnglishEntryaeroplane extends StatelessWidget {
 ١. (ناو) فڕۆکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aeroplane was carrying 350 people."),
-                              const ExampleSentenceKurdish(
-                                  text: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aeroplane was carrying 350 people."),
+                                    ExampleSentenceKurdish(
+                                        text: "فڕۆکەکە ٣٥٠ کەسی ھەڵگرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

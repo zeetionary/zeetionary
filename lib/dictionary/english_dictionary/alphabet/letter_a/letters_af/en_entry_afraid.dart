@@ -127,9 +127,15 @@ class EnglishEntryafraid extends StatelessWidget {
 ١. (ھاوەڵناو) ترساو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't be afraid."),
-                              const ExampleSentenceKurdish(text: "مەترسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't be afraid."),
+                                    ExampleSentenceKurdish(text: "مەترسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -148,10 +154,17 @@ class EnglishEntryafraid extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They know I'm afraid of heights."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەزانن لە بەرزی دەترسم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They know I'm afraid of heights."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەزانن لە بەرزی دەترسم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

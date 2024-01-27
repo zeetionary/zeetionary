@@ -172,12 +172,18 @@ class EnglishEntryaware extends StatelessWidget {
 ١. (ھاوەڵناو) بەئاگا لەشتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As you're aware, this is not a new problem."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ئاگادارن، ئەمە کێشەیەکی تازە نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As you're aware, this is not a new problem."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ئاگادارن، ئەمە کێشەیەکی تازە نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,11 +205,18 @@ class EnglishEntryaware extends StatelessWidget {
 ٢. (ھاوەڵناو) حەزکردن لە زانین دەربارەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Young people are very environmentally aware."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەنجان زۆر ھۆشیارن سەبارەت بە ژینگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Young people are very environmentally aware."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەنجان زۆر ھۆشیارن سەبارەت بە ژینگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

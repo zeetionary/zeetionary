@@ -126,10 +126,17 @@ class EnglishEntryaint extends StatelessWidget {
 am not/is not/are not"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Things ain't what they used to be."),
-                              const ExampleSentenceKurdish(
-                                  text: "شتەکان وەک جاران نین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Things ain't what they used to be."),
+                                    ExampleSentenceKurdish(
+                                        text: "شتەکان وەک جاران نین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,13 +158,16 @@ am not/is not/are not"""),
 has not/have not"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I ain't got no money."),
-                              const SizedBox(
-                                width: 4,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I ain't got no money."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ پارەم نییە."),
+                                  ],
+                                ),
                               ),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ پارەم نییە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -181,12 +181,18 @@ class EnglishEntryattorney extends StatelessWidget {
 ١. (ناو) پارێزەر، بەتایبەتی یەکێک کە دەتوانێت لە دادگا کارت بۆ بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Acting on the advice of his attorney, he remained silent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Acting on the advice of his attorney, he remained silent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryattorney extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The defence attorney requested an adjournment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارێزەری داوالێکراو داوای وچانێکی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The defence attorney requested an adjournment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارێزەری داوالێکراو داوای وچانێکی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryattorney extends StatelessWidget {
 ٢. (ناو) کەسێک کە دەسەڵاتی پێدەدرێت لە جێگەی کەسێکی تر بڕیار بدات لە کەیسی بازرگانی و یاساییدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was made her father's attorney when he became ill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was made her father's attorney when he became ill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

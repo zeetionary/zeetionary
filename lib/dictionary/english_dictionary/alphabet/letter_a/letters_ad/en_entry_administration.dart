@@ -150,12 +150,18 @@ class EnglishEntryadministration extends StatelessWidget {
 ١. (ناو) بەڕێوەبردنی شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university loses a lot of money through poor administration."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university loses a lot of money through poor administration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -176,12 +182,18 @@ class EnglishEntryadministration extends StatelessWidget {
 ٢. (ناو) حکومەتی وڵاتێک، بەتایبەتی ئەمریکا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was Secretary of Education in Obama's first administration."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was Secretary of Education in Obama's first administration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +214,18 @@ class EnglishEntryadministration extends StatelessWidget {
 ٣. (ناو) پڕۆسەی ڕێکخستنی شێوازی کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The administration of justice involves making sure that people are treated fairly in legal matters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The administration of justice involves making sure that people are treated fairly in legal matters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +247,18 @@ class EnglishEntryadministration extends StatelessWidget {
 ٤. (ناو) ئەو کەسانەی کە شوێنێک بەڕێوەدەبەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hospital administration can refuse patients' access to their own records."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hospital administration can refuse patients' access to their own records."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +279,18 @@ class EnglishEntryadministration extends StatelessWidget {
 ٥. (ناو) پێدانی دەرمان بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are strict controls on the administration of drugs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are strict controls on the administration of drugs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

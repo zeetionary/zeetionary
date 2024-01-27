@@ -130,10 +130,17 @@ class EnglishEntryabroad extends StatelessWidget {
 ١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She worked abroad for a year."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە دەروەی وڵات بۆ ساڵێک کاری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She worked abroad for a year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دەروەی وڵات بۆ ساڵێک کاری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,12 +157,18 @@ class EnglishEntryabroad extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was famous, both at home and abroad."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was famous, both at home and abroad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ناوەوە و دەروەی وڵات بەناوبانگ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -174,12 +187,18 @@ class EnglishEntryabroad extends StatelessWidget {
 ٢. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was news abroad that a change was coming."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was news abroad that a change was coming."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

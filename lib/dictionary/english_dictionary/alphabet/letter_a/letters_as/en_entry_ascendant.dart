@@ -178,12 +178,18 @@ class EnglishEntryascendant extends StatelessWidget {
 ١. (ناو) (فەلەکناسی) ئەو بەشەی ناوچەی کەلووەکان کە دەکەوێتە ئاسۆی ڕۆژھەڵات لە کات و شوێنی ڕووداوێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’m a Capricorn but my ascendant is Leo."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’m a Capricorn but my ascendant is Leo."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بورجی بزنم، بەڵام کەلووگەم بورجی شێرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryactress extends StatelessWidget {
 ١. (ناو) ژنێک کە کاری ڕۆڵگێڕان لە شانۆ و فیلم ئەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Oscar-winning actress has taken a break from acting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Oscar-winning actress has taken a break from acting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

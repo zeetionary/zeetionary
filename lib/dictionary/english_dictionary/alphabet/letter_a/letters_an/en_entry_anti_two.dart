@@ -177,12 +177,18 @@ class EnglishEntryantitwo extends StatelessWidget {
 ١. (پێشگر) دژبەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Just because I won't join you, it doesn't mean that I'm anti you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Just because I won't join you, it doesn't mean that I'm anti you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا لەبەرئەوەی پەیوەندیت پێوەناکەم واتای ئەوە نییە دژتم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryantitwo extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Soldiers used an anti-tank weapon to stop the big tank."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Soldiers used an anti-tank weapon to stop the big tank."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان چەکێکی دژە تانکیان بەکارھێنا بۆ وەستاندنی دەبابە گەورەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +241,18 @@ class EnglishEntryantitwo extends StatelessWidget {
 ٢. (پێشگر) پێچەوانەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Shakespeare's plays have different characters, some heroes, and some anti-heroes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Shakespeare's plays have different characters, some heroes, and some anti-heroes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شانۆکانی شکسپیر کارەکتەری جیاوازیان تێدایە، ھەندێکیان پاڵەوانن و ھەندێکیشیان دژە پاڵەوانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +274,18 @@ class EnglishEntryantitwo extends StatelessWidget {
 ٣. (پێشگر) ڕێگری لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Antifreeze keeps your car's engine from freezing in cold weather."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Antifreeze keeps your car's engine from freezing in cold weather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دژە بەستن ڕێگری لە بزوێنەری ئۆتۆمبێلەکەت دەکات بیبەستێ لە کەشوھەوای سارددا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

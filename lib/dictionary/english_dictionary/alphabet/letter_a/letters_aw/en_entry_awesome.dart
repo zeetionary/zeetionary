@@ -171,12 +171,18 @@ class EnglishEntryawesome extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر سەرسوڕھێنەر، یان زۆر قورس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As night fell, the volcano presented an awesome sight."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As night fell, the volcano presented an awesome sight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,10 +202,17 @@ class EnglishEntryawesome extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They had an awesome task ahead."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەرکێکی قورسیان لەپێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had an awesome task ahead."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەرکێکی قورسیان لەپێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,11 +234,18 @@ class EnglishEntryawesome extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆرخۆش و چێژبەخش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hey, come look at this! It's awesome!"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hey, come look at this! It's awesome!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

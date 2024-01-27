@@ -101,12 +101,18 @@ class EnglishEntryabashed extends StatelessWidget {
 ١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He glanced at Juliet accusingly and she looked abashed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He glanced at Juliet accusingly and she looked abashed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

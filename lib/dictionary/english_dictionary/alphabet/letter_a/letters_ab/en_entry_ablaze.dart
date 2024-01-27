@@ -139,10 +139,18 @@ class EnglishEntryablaze extends StatelessWidget {
 ١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The whole building was soon ablaze."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی بیناکە زوو بوو بە بڵێسە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The whole building was soon ablaze."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی بیناکە زوو بوو بە بڵێسە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -159,12 +167,18 @@ class EnglishEntryablaze extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cars and buses were set ablaze during the riot."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cars and buses were set ablaze during the riot."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,11 +197,17 @@ class EnglishEntryablaze extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕۆشن و پڕ لە ڕەنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The trees were ablaze with the colours of autumn."),
-                              const ExampleSentenceKurdish(
-                                  text: "دارەکان پڕ لە ڕەنگی پایز بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The trees were ablaze with the colours of autumn."),
+                                    ExampleSentenceKurdish(
+                                        text: "دارەکان پڕ لە ڕەنگی پایز بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,10 +224,17 @@ class EnglishEntryablaze extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Every window was ablaze with light."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەنجەرەکان پڕ لە ڕۆشنایی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Every window was ablaze with light."),
+                                    ExampleSentenceKurdish(
+                                        text: "پەنجەرەکان پڕ لە ڕۆشنایی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +253,18 @@ class EnglishEntryablaze extends StatelessWidget {
 ٣. (ھاوەڵناو) پڕ لە ھەست و جۆشوخرۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He turned to her, his eyes ablaze with love."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He turned to her, his eyes ablaze with love."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

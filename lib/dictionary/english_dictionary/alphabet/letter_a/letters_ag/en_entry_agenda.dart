@@ -128,12 +128,18 @@ class EnglishEntryagenda extends StatelessWidget {
 ١. (ناو) کۆمەڵە بابەتێک کە لە کۆبوونەوەیەک باسدەکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have a very full agenda of issues to discuss."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have a very full agenda of issues to discuss."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارنامەمان بابەتێکی زۆر لەخۆدەگرێت بۆ باسکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryagenda extends StatelessWidget {
 ٢. (ناو) کۆمەڵە شتێک کە دەبێت بکرێن، یان کۆمەڵە کێشەیەک کە دەبێت چارەسەر بکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Education is now at the top of the government's agenda (= most important)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Education is now at the top of the government's agenda (= most important)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەروەردە و فێرکردن لە گرنگترین خاڵەکانی کارنامەی حکومەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

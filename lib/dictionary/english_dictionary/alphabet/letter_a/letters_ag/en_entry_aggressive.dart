@@ -138,12 +138,18 @@ class EnglishEntryaggressive extends StatelessWidget {
 ١. (ھاوەڵناو) تووڕە و شەڕەنگێز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He became increasingly aggressive as the evening wore on."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He became increasingly aggressive as the evening wore on."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە شەوەکە زیاتر تێپەڕی زیاتر شەڕەنخواز بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -165,12 +171,18 @@ class EnglishEntryaggressive extends StatelessWidget {
 ٢. (ھاوەڵناو) سەرسەخت لەسەر سەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We need to get more aggressive in fighting terrorism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need to get more aggressive in fighting terrorism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە سەرسەختتر بین لە شەڕی دژ بە تیرۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,12 +203,18 @@ class EnglishEntryaggressive extends StatelessWidget {
 ٣. (ھاوەڵناو) نەخۆشییەک کە بەخێرایی پەرەدەسێنێت و چارەسەری سەختە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Doctors diagnosed her with a rare and aggressive cancer, which was feared to be incurable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکان نەخۆشییەکەیان دەستنیشانکرد بە جۆرێکی سەختی شێرپەنجە کە ترس ھەیە چارەسەری نەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,12 +235,18 @@ class EnglishEntryaggressive extends StatelessWidget {
 ٤. (ھاوەڵناو) چارەسەرێکی نەخۆشی کە ئامانج لێی ئەوەیە زۆرترین ماوە بەردەوامی بە کەسێک بدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nicholas was diagnosed with the rare disease in November and has undergone aggressive treatments since then."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشییەکەی نیکۆلاس لە تشرینی دووەم بە یەکێکی دەگمەن دەستنیشانکرا و لەو کاتەوە ھەموو چارەسەرێکی وەرگرتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -176,12 +176,18 @@ class EnglishEntryarmistice extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێکی فەرمی لە کاتی جەنگدا بۆ کۆتایی ھێنان بە جەنگ و دەستپێ‌کردنی گفروگۆی ئاشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The armistice was signed on 4 December."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The armistice was signed on 4 December."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگربەستەکە واژۆکرا لە ڕۆژی ٥ی کانوونی یەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

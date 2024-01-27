@@ -102,11 +102,17 @@ class EnglishEntryabduction extends StatelessWidget {
 ١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "child abduction"),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵ ڕفاندن"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "child abduction"),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text: "منداڵ ڕفاندن"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

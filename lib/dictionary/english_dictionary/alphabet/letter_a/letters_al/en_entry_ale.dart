@@ -129,10 +129,18 @@ class EnglishEntryale extends StatelessWidget {
 ١. (ناو) جۆرە بیرەیەک کە بڵقی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This pub specializes in fine ales."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم باڕە شارەزایە لە ئەیڵی فرەخاس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This pub specializes in fine ales."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم باڕە شارەزایە لە ئەیڵی فرەخاس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

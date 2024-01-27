@@ -179,12 +179,18 @@ class EnglishEntryappreciate extends StatelessWidget {
 ١. (کردار) قەدرزانینی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Over the years he came to appreciate the beauty and tranquillity of the river."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوای ساڵانێکی زۆر قەدری جوانی و ئارام‌بەخشیی ڕووبارەکەی زانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Over the years he came to appreciate the beauty and tranquillity of the river."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوای ساڵانێکی زۆر قەدری جوانی و ئارام‌بەخشیی ڕووبارەکەی زانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,10 +211,17 @@ class EnglishEntryappreciate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her family doesn't appreciate her."),
-                              const ExampleSentenceKurdish(
-                                  text: "خێزانەکەی قەدری نازانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her family doesn't appreciate her."),
+                                    ExampleSentenceKurdish(
+                                        text: "خێزانەکەی قەدری نازانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,10 +244,17 @@ class EnglishEntryappreciate extends StatelessWidget {
 ٢. (کردار) دەربڕینی سوپاسگوزاری بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'd appreciate some help."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێزانینم دەبێ بۆ ھەندێک یارمەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'd appreciate some help."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێزانینم دەبێ بۆ ھەندێک یارمەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +275,18 @@ class EnglishEntryappreciate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your kindness and generosity is much appreciated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەخشندەیی و دەست‌کراوەییت بەرزدەنرخێنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your kindness and generosity is much appreciated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخشندەیی و دەست‌کراوەییت بەرزدەنرخێنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +309,18 @@ class EnglishEntryappreciate extends StatelessWidget {
 ٣. (کردار) ھەست‌کردن بەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What I failed to appreciate was the distance between the two cities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی پێم‌نەزانی دووری نێوان دوو شارەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What I failed to appreciate was the distance between the two cities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی پێم‌نەزانی دووری نێوان دوو شارەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -311,12 +343,18 @@ class EnglishEntryappreciate extends StatelessWidget {
 ٤. (کردار) زیادبوونی نرخ لە دوای ماوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their investments have appreciated over the years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their investments have appreciated over the years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

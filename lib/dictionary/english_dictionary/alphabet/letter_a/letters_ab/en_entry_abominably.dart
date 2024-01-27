@@ -106,10 +106,16 @@ class EnglishEntryabominably extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی زۆر خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She treated him abominably."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر بەخراپی مامەڵەی لەگەڵ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She treated him abominably."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر بەخراپی مامەڵەی لەگەڵ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

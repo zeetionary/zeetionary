@@ -129,12 +129,18 @@ class EnglishEntryadverse extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئەنجامی باشی نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This drug is known to have adverse side effects."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This drug is known to have adverse side effects."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دەرمانە ناسراوە بەوەی کاریگەری لاوەکیی خراپی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

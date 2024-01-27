@@ -128,12 +128,18 @@ class EnglishEntryadminister extends StatelessWidget {
 ١. (کردار) بەڕێوەبردنی کۆمپانیایەک، دامەزراوەیەک، یان وڵاتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The country has to face up to the high cost of administering medical services."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The country has to face up to the high cost of administering medical services."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryadminister extends StatelessWidget {
 ٢. (کردار) دڵنیاییکردنی ئەوەی شتێک بەشێوەیەکی دادپەروەرانە دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is the function of the courts to administer the laws which Parliament has enacted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is the function of the courts to administer the laws which Parliament has enacted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,12 +192,18 @@ class EnglishEntryadminister extends StatelessWidget {
 ٣. (کردار) پێدانی شتێک بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A taxi driver administered first aid to the victims."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A taxi driver administered first aid to the victims."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

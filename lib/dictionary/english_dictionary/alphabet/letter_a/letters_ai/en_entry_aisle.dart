@@ -129,12 +129,18 @@ class EnglishEntryaisle extends StatelessWidget {
 ١. (ناو) نێوانی ڕیزە کورسی یان شتی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She looked radiant as she walked down the aisle on her father’s arm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked radiant as she walked down the aisle on her father’s arm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشبین دەردەکەوت کە بە ڕێڕەکەدا تێدەپەڕی دەست لەناو دەستی باوکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

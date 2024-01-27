@@ -129,12 +129,18 @@ class EnglishEntryallin extends StatelessWidget {
 ١. (ھاوەڵناو) لەخۆگرتنی تەواوی خەرجییەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The all-in holiday includes fares, full board and entrance to museums."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The all-in holiday includes fares, full board and entrance to museums."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشووەکە کرێی گواستنەوە و ژەمە خواردنەکان و چوونە مۆزەخانەکان لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

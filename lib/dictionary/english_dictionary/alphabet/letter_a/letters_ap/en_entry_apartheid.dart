@@ -174,12 +174,18 @@ class EnglishEntryapartheid extends StatelessWidget {
 ١. (ناو) سیستەمی پێشووتری حکومڕانیی ئەفریقای باشوور کە تێیدا تەنھا سپی‌پێستەکان مافی تەواوی سیاسییان ھەبوو و ئەوانی تر، بەتایبەتی ڕەشپێستەکان، ناچاردەکران بەجیا بژین و بچنە و قوتابخانە و دامەزراوەی دیکەی خۆیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "During the late 1980s and 1990s, South Africa was undergoing its dramatic transition from apartheid to black majority rule."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ساڵانی ١٩٨٠ و ١٩٩٠ ەکان ئەفریقای باشوور بە بە گۆڕانی بەرچاو تێدەپەڕی لە سیستەمی ئەپارتەیدەوە بۆ سیستەمی زۆرینە ڕەشپێست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

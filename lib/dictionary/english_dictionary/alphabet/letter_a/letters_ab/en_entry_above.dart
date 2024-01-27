@@ -177,10 +177,17 @@ class EnglishEntryabove extends StatelessWidget {
 ١. (ئامراز) لە سەروو کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We were flying above the clouds."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە سەروو ھەورەکانەوە دەفڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were flying above the clouds."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە سەروو ھەورەکانەوە دەفڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +204,18 @@ class EnglishEntryabove extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A captain in the navy ranks above a captain in the army."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A captain in the navy ranks above a captain in the army."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +234,18 @@ class EnglishEntryabove extends StatelessWidget {
 ٢. (ئامراز) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Temperatures have been above average."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Temperatures have been above average."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,12 +264,18 @@ class EnglishEntryabove extends StatelessWidget {
 ٣. (ئامراز) کاتێک شتێک باشتر یان گرنگترە لە شتی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I rate her above most other players of her age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I rate her above most other players of her age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,12 +294,18 @@ class EnglishEntryabove extends StatelessWidget {
 ٤. (ئامراز) لە ئاستێک کە شتێکی لێ ناوەشێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's not above lying when it suits her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's not above lying when it suits her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -293,10 +324,16 @@ class EnglishEntryabove extends StatelessWidget {
 ٥. (ھاوەڵکار) لە شوێنێکی بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Put it on the shelf above."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیخە سەر ڕەفەکەی سەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Put it on the shelf above."),
+                                    ExampleSentenceKurdish(
+                                        text: "بیخە سەر ڕەفەکەی سەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,12 +350,18 @@ class EnglishEntryabove extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Seen from above the cars looked tiny."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Seen from above the cars looked tiny."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,10 +380,17 @@ class EnglishEntryabove extends StatelessWidget {
 ٦. (ھاوەڵکار) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "children aged 12 and above"),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵانی تەمەن ١٢ ساڵ یان زیاتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "children aged 12 and above"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵانی تەمەن ١٢ ساڵ یان زیاتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -359,12 +409,18 @@ class EnglishEntryabove extends StatelessWidget {
 ٧. (ھاوەڵناو) ئاماژەپێکراو لەسەرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please write to us at the above address."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please write to us at the above address."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

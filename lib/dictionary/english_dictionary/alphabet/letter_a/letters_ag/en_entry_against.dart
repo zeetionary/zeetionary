@@ -148,13 +148,16 @@ class EnglishEntryagainst extends StatelessWidget {
 ١. (ئامراز) دژ بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "That's against the law."),
-                              const SizedBox(
-                                width: 40,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "That's against the law."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوە دژ بە یاسایە."),
+                                  ],
+                                ),
                               ),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە دژ بە یاسایە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -173,12 +176,18 @@ class EnglishEntryagainst extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was forced to marry against her will."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was forced to marry against her will."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دژ بە ویستی خۆی ناچار بە ھاوسەرگیری کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,13 +208,16 @@ class EnglishEntryagainst extends StatelessWidget {
 ٢. (ئامراز) شتێک کە لە بەرژەوەندیت نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The evidence is against him."),
-                              const SizedBox(
-                                width: 40,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The evidence is against him."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەڵگەکان لە دژین."),
+                                  ],
+                                ),
                               ),
-                              const ExampleSentenceKurdish(
-                                  text: "بەڵگەکان لە دژین."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,11 +238,18 @@ class EnglishEntryagainst extends StatelessWidget {
 ٣. (ئامراز) لە نزیک یان پاڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Put the piano there, against the wall."),
-                              const ExampleSentenceKurdish(
-                                  text: "پیانۆکە بخە ئەوێ، لەلای دیوارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put the piano there, against the wall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیانۆکە بخە ئەوێ، لەلای دیوارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -251,10 +270,18 @@ class EnglishEntryagainst extends StatelessWidget {
 ٤. (ئامراز) ڕێگەدان لە ڕوودانی شتێک یان کەمکردنەوەی زیانەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They took precautions against fire."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They took precautions against fire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکاریان دژ بە ئاگرەکە گرتەبەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

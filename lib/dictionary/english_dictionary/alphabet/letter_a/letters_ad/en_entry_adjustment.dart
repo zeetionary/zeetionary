@@ -129,12 +129,18 @@ class EnglishEntryadjustment extends StatelessWidget {
 ١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've made a few adjustments to the design."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've made a few adjustments to the design."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryadjustment extends StatelessWidget {
 ٢. (ناو) گۆڕانکاری لە ڕەفتار یان بیرکردنەوەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The process of adjustment to life in another country can be very difficult."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The process of adjustment to life in another country can be very difficult."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

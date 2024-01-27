@@ -176,12 +176,18 @@ class EnglishEntryarthritic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە نەخۆشی ھەوکردنی جومگەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her hands were swollen and arthritic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her hands were swollen and arthritic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستەکانی ئاوساوبوون و تووشی ھەوکردن بووبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

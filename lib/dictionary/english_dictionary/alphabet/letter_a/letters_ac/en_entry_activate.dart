@@ -127,12 +127,18 @@ class EnglishEntryactivate extends StatelessWidget {
 ١. (کردار) چالاککردنی شتێک، بۆ نموونە ئامێرێک یان پڕۆسەیەکی کیمیایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The gene is activated by a specific protein."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The gene is activated by a specific protein."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جینەکە لەلایەن پڕۆتینێکی تایبەتەوە چالاک دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

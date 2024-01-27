@@ -184,12 +184,18 @@ class EnglishEntryaspect extends StatelessWidget {
 ١. (ناو) یەک لایەنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book aims to cover all aspects of city life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book aims to cover all aspects of city life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە ئامانجیەتی ھەموو لایەنەکانی ژیانی شار باس‌بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryaspect extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt she had looked at the problem from every aspect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt she had looked at the problem from every aspect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وای ھەست‌کرد لە ھەموو لایەنێکەوە لە کێشەکەی ڕوانیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryaspect extends StatelessWidget {
 ٢ (ناو) شێوەی دەرکەوتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The glasses and the beard lend him a rather scholarly aspect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The glasses and the beard lend him a rather scholarly aspect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاویلکە و ڕیشەکەی ڕواڵەتی پسپۆڕێکیان پێ‌بەخشی‌بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,10 +281,17 @@ class EnglishEntryaspect extends StatelessWidget {
 ٣ (ناو) ئەو ئاراستەیەی شتێک ڕووی تێکردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Our room had a western aspect."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Our room had a western aspect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورەکەمان ڕووی لە ڕۆژئاوا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +313,18 @@ class EnglishEntryaspect extends StatelessWidget {
 ٤ (ناو) شێوەی کردارێک کە دەری‌دەخات ئایا یەک جار ڕوودەدات یان دووبارە و دووبارە، کە ئایا تەواو بووە یان ھێشتا بەردەوامە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In 'They were laughing', the verb is in the progressive aspect and shows that the action is continuing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕستەی 'They were laughing' کردارەکە لە شێوەی بەردەوامییە و دەرخەری ئەوەیە کارەکە ھێشتا بەرداوامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

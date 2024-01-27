@@ -196,12 +196,18 @@ class EnglishEntryamong extends StatelessWidget {
 ١. (ئامراز) دەوردراو بە کەسێک/شتێک، لە ناوەڕاستی کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw a few familiar faces among the crowd."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I saw a few familiar faces among the crowd."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەند ڕووخسارێکی ناسیاوم بینی لەناو جەماوەرەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,11 +228,18 @@ class EnglishEntryamong extends StatelessWidget {
 ٢. (ئامراز) بوون بە بەشێک لە گرووپێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A British woman was among the survivors."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژنێکی بەریتانی لەناو ڕزگاربووان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A British woman was among the survivors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنێکی بەریتانی لەناو ڕزگاربووان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -247,12 +260,18 @@ class EnglishEntryamong extends StatelessWidget {
 ٣. (ئامراز) دابەشکردن لە نێوان سێ کەس یان زیاتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He divided the country among his sons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He divided the country among his sons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکەی لە نێوان کوڕەکانی دابەش‌کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

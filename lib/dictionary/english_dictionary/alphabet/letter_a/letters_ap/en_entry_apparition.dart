@@ -176,12 +176,18 @@ class EnglishEntryapparition extends StatelessWidget {
 ١. (ھاوەڵناو) تارمایی کەسێکی مردوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Apparitions of a woman in white robes have been reported."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Apparitions of a woman in white robes have been reported."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تارمایی ژنێک بە ڕۆبەی سپییەوە ڕاگەیەندراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

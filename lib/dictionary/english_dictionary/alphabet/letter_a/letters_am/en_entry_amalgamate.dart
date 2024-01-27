@@ -130,12 +130,18 @@ class EnglishEntryamalgamate extends StatelessWidget {
 ١. (کردار) یەکگرتن بۆ درووستکردنی شتێکی گەورەتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A number of colleges have amalgamated to form the new university."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A number of colleges have amalgamated to form the new university."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک کۆلێژ یەکیان گرتووە بۆ درووستکردنی زانکۆ تازەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,11 +161,18 @@ class EnglishEntryamalgamate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They decided to amalgamate the two schools."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیاریاندا دوو قوتابخانەکە یەکبخەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They decided to amalgamate the two schools."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاریاندا دوو قوتابخانەکە یەکبخەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -181,12 +194,18 @@ class EnglishEntryamalgamate extends StatelessWidget {
 ٢. (کردار) یەکخستنی دوو شت یان زیاتر بۆ درووستکردنی یەک شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This information will be amalgamated with information obtained earlier."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This information will be amalgamated with information obtained earlier."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم زانیارییە یەکدەخرێت لەگەڵ زانیاری پێشووتر بەدەستھێنراو"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

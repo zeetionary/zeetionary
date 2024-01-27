@@ -127,10 +127,16 @@ class EnglishEntryairless extends StatelessWidget {
 ١. (ھاوەڵناو) بێ ھەوا و ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The night was hot and airless."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەوەکە گەرم و بێ با بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The night was hot and airless."),
+                                    ExampleSentenceKurdish(
+                                        text: "شەوەکە گەرم و بێ با بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

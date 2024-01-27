@@ -102,12 +102,18 @@ class EnglishEntryablebodied extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە جەستەیەکی ساغی ھەیە بەبێ ھیچ جۆرێکی کەمئەندامی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Military service is compulsory for every able-bodied male between 18 and 27."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Military service is compulsory for every able-bodied male between 18 and 27."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

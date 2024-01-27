@@ -112,12 +112,18 @@ class EnglishEntryabyss extends StatelessWidget {
 ١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They took a long look into the abyss before deciding whether to jump."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They took a long look into the abyss before deciding whether to jump."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

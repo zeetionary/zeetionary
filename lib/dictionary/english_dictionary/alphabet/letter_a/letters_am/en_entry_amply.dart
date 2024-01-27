@@ -170,10 +170,18 @@ class EnglishEntryamply extends StatelessWidget {
 ١. (ناو) بەپێی پێویست یان زیاتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His efforts were amply rewarded."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەوڵەکانی بەزیادەوە بەخشیشکران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His efforts were amply rewarded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵەکانی بەزیادەوە بەخشیشکران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,11 +172,17 @@ class EnglishEntryantidote extends StatelessWidget {
 ١. (ھاوەڵناو) مادەیەک کە کۆنترۆڵی نەخۆشی یان ژەھر دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is no known antidote to the poison."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is no known antidote to the poison."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ ژارکوژێک نییە بۆ ژەھرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

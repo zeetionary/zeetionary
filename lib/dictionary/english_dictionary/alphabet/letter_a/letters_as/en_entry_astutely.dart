@@ -179,12 +179,18 @@ class EnglishEntryastutely extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی بلیمەتی و بیرتیژانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She astutely points out the differences between the two accounts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She astutely points out the differences between the two accounts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

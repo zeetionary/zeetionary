@@ -194,10 +194,17 @@ class EnglishEntryamiable extends StatelessWidget {
 ١. (ھاوەڵناو) ڕووخۆش و ڕەزاسووک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her parents seemed very amiable."),
-                              const ExampleSentenceKurdish(
-                                  text: "دایک و باوکی ڕووخۆش بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her parents seemed very amiable."),
+                                    ExampleSentenceKurdish(
+                                        text: "دایک و باوکی ڕووخۆش بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

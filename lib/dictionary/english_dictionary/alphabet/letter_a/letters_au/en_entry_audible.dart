@@ -179,12 +179,18 @@ class EnglishEntryaudible extends StatelessWidget {
 ١. (ھاوەڵناو) دەنگێک کە ھێندە بەرزە ببیسترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her voice was barely audible above the noise."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her voice was barely audible above the noise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگەکەی بە ئەستەم زیاتر لە ورتەورت بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryappeasement extends StatelessWidget {
 ١. (ناو) ئارامکردنەوە یان ڕێگری لە ناکۆکی بە پێدانی ئەوەی کەسێک دەیەوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When he agreed to talks with the prime minister, he was accused of appeasement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە ڕازیبوو بە دانیشتن لەگەڵ سەرۆک وەزیران، بە ھەوڵدان بۆ دانوستان تۆمەتبارکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When he agreed to talks with the prime minister, he was accused of appeasement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ڕازیبوو بە دانیشتن لەگەڵ سەرۆک وەزیران، بە ھەوڵدان بۆ دانوستان تۆمەتبارکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryappeasement extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The statues were devoted to the glory and appeasement of the gods."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیکەرەکان بەخشران بۆ پیاھەڵدان و دڵ‌ڕەواندنەوەی خوداکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The statues were devoted to the glory and appeasement of the gods."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیکەرەکان بەخشران بۆ پیاھەڵدان و دڵ‌ڕەواندنەوەی خوداکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

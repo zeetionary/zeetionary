@@ -109,12 +109,18 @@ class EnglishEntryabjectly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە جێگەی بەزەییە بەڵام ھیچیش ناتوانرێت بکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has abjectly failed to read the mood of the nation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت بە بێ باکییەوە شکستی ھێناوە لە تێگەشتن لە خواستی خەڵکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has abjectly failed to read the mood of the nation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بە بێ باکییەوە شکستی ھێناوە لە تێگەشتن لە خواستی خەڵکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -133,10 +139,17 @@ class EnglishEntryabjectly extends StatelessWidget {
 ٢. بەشێوەیەک کە ڕێزی خۆت ناگری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He apologized abjectly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەبێ ڕێزییەوە داوای لێبووردنی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He apologized abjectly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەبێ ڕێزییەوە داوای لێبووردنی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

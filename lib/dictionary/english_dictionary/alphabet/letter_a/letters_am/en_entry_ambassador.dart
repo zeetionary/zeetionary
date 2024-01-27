@@ -131,12 +131,18 @@ class EnglishEntryambassador extends StatelessWidget {
 ١. (ناو) باڵیۆز؛ نوێنەری وڵاتێک لە وڵاتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The US ambassador to Egypt was recalled to Washington in protest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The US ambassador to Egypt was recalled to Washington in protest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باڵیۆزی ئەمریکا لە ناڕەزاییدا کشێندرایەوە لە میسر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryambassador extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's former ambassador of Germany to the UN."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's former ambassador of Germany to the UN."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نێردەی پێشووتری ئەڵمانیایە بۆ نەتەوە یەکگرتووەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

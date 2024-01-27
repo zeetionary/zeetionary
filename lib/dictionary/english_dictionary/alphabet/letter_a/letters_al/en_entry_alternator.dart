@@ -130,11 +130,18 @@ class EnglishEntryalternator extends StatelessWidget {
 ١. (ناو) ئامێرێک کە توزووی گۆڕاوی کارەبا درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The alternator fails to generate electricity."),
-                              const ExampleSentenceKurdish(
-                                  text: "داینەمۆکە تەزووی گۆڕاو درووست ناکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The alternator fails to generate electricity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داینەمۆکە تەزووی گۆڕاو درووست ناکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

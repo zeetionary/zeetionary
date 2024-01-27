@@ -171,12 +171,18 @@ class EnglishEntryavian extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە باڵندە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Avian eggs are a nutritious and versatile food source for humans and other animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Avian eggs are a nutritious and versatile food source for humans and other animals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێلکەی باڵندە سەرچاوەیەکی خۆراکی وزەبەخش و فرەکارەن بۆ مرۆڤ و ئاژەڵەکانی تر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

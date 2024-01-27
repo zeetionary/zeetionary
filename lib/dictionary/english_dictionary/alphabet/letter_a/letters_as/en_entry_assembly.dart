@@ -182,12 +182,18 @@ class EnglishEntryassembly extends StatelessWidget {
 ١. (ناو) گرووپێک لە خەڵکی کە ھەڵبژێردراون بۆ ئەوەی بەشێوەی بەردەوام کۆببنەوە و بڕیار و یاسا بۆ ناوچەیەک دەربکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Power has been handed over to provincial and regional assemblies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Power has been handed over to provincial and regional assemblies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەسەڵات ڕادەستی ئەنجوومەنی پارێزگا و ھەرێمەکان کراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryassembly extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a whole school assembly every Friday morning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a whole school assembly every Friday morning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ھەینییەک کۆبوونەوەی گشتی خوێندنگەکە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassembly extends StatelessWidget {
 ٢. (ناو) گردبوونەوەی کۆمەڵە کەسێک بۆ ھۆکارێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was to address a public assembly on the issue."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was to address a public assembly on the issue."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وابڕیاربوو قسە بۆ جەماوەرێکی گشتی لەسەر بابەتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +279,18 @@ class EnglishEntryassembly extends StatelessWidget {
 ٣. (ناو) کۆبوونەوەی مامۆستایان و خوێندکاران لە سەرەتای ڕۆژدا بۆباسکردنی مەراسیمەکانی خوێندنگە، پێدانی زانیاری، یان وتنەوەی سروود سروود و نزا خوێندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The deputy head was taking (= leading) school assembly that day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The deputy head was taking (= leading) school assembly that day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێگری بەڕێوبەرەکە ئەو ڕۆژە سەرپەرشتی کۆبوونەوەی قوتابخانەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +312,18 @@ class EnglishEntryassembly extends StatelessWidget {
 ٤. (ناو) پێکەوەنانی پارچەکانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Putting the bookcase together should be a simple assembly job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Putting the bookcase together should be a simple assembly job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەوەنانی پارچەکانی کتێبخانەکە دەبێت کارێکی ئاسان بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

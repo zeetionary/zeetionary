@@ -179,12 +179,18 @@ class EnglishEntryarraignment extends StatelessWidget {
 ١. (ناو) ھێنانی کەسێک بۆ دادگا بۆ بەفەرمی تاوانبارکردنیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A date for her arraignment has not yet been set."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A date for her arraignment has not yet been set."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتێک بۆ گوناھبارکردنەکەی دیاریکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

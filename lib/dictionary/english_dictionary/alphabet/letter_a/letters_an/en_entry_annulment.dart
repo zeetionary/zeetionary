@@ -171,12 +171,18 @@ class EnglishEntryannulment extends StatelessWidget {
 ١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Henry VIII sought an annulment of his marriage to Catherine of Aragon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Henry VIII sought an annulment of his marriage to Catherine of Aragon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

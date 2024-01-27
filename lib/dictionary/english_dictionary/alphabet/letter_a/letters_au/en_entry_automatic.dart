@@ -183,12 +183,18 @@ class EnglishEntryautomatic extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بۆ خۆی کاردەکات و پێویستی بە کۆنترۆڵکردن لەلایەن مرۆڤەوە نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The automatic pilot system on the airplane kept it on course even during turbulence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The automatic pilot system on the airplane kept it on course even during turbulence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryautomatic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The automatic doors opened as I approached the entrance to the store."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The automatic doors opened as I approached the entrance to the store."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,11 +249,18 @@ class EnglishEntryautomatic extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕوودان بەبێ بیرکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Breathing is an automatic function of the body."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Breathing is an automatic function of the body."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,11 +283,17 @@ class EnglishEntryautomatic extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە ھەمیشە ڕوودەدات لە ئەنجامی شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A fine for this offence is automatic."),
-                              const ExampleSentenceKurdish(
-                                  text: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A fine for this offence is automatic."),
+                                    ExampleSentenceKurdish(
+                                        text: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +316,18 @@ class EnglishEntryautomatic extends StatelessWidget {
 ٤. (ناو) چەکێک کە خۆی پڕدەکاتەوە ھەرچەندە دەست لەسەر پەلەپیتکەکە دابنێیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The gunman opened fire with an automatic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The gunman opened fire with an automatic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -319,11 +350,17 @@ class EnglishEntryautomatic extends StatelessWidget {
 ٥. (ناو) ئۆتۆمبێلێک کە خۆکارانە گێڕ دەگۆڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Kate drives an automatic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Kate drives an automatic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

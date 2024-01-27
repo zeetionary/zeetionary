@@ -181,12 +181,18 @@ class EnglishEntryauthentication extends StatelessWidget {
 ١. (ناو) سەلماندنی ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When buying jewellery, make sure you get a certificate of authentication."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When buying jewellery, make sure you get a certificate of authentication."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی کڕینی خشڵ، دڵنیابە لەوەی سەنەدی ڕەسەنێتی خشڵەکە وەربگری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryauthentication extends StatelessWidget {
 ٢. (ناو) سەلماندنی ناسنماەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "User authentication is often performed with passwords."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "User authentication is often performed with passwords."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەلماندنی ناسنامە زۆرجار بە تێپڕەوشە ئەنجام دەدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

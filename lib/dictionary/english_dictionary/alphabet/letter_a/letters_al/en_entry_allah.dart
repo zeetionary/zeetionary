@@ -128,10 +128,16 @@ class EnglishEntryallah extends StatelessWidget {
 ١. (ناو) ناوی خودا لای مسوڵمانان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It is the will of Allah."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە ویستی خودایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "It is the will of Allah."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوە ویستی خودایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

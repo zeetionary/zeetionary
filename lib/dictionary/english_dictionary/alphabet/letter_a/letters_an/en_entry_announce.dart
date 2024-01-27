@@ -173,12 +173,18 @@ class EnglishEntryannounce extends StatelessWidget {
 ١. (کردار) بە فەرمی ڕاگەیاندنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are pleased to announce that all five candidates were successful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are pleased to announce that all five candidates were successful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆشحاڵین بە ڕاگەیاندنی ئەوەی ھەر پێنج کاندیدەکە سەرکەوتووبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryannounce extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government yesterday announced to the media plans to create a million new jobs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government yesterday announced to the media plans to create a million new jobs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوێنێ حکومەت پلانی ڕەخساندنی یەک ملیۆن ھەلی کاری بە میدیا ڕاگەیاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,10 +237,17 @@ class EnglishEntryannounce extends StatelessWidget {
 ٢. (کردار) پێدانی زانیاری بە خەڵکی، زۆرجار لە ڕێگەی بڵیندگۆوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Has our flight been announced yet?"),
-                              const ExampleSentenceKurdish(
-                                  text: "گەشتەکەمان ڕاگەیەندراوە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Has our flight been announced yet?"),
+                                    ExampleSentenceKurdish(
+                                        text: "گەشتەکەمان ڕاگەیەندراوە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -250,11 +269,18 @@ class EnglishEntryannounce extends StatelessWidget {
 ٣. (کردار) وتنی شتێک بە دەنگی بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She announced that she'd given up drinking."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕایگەیاند وازی لە خواردنەوە ھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She announced that she'd given up drinking."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕایگەیاند وازی لە خواردنەوە ھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,11 +302,18 @@ class EnglishEntryannounce extends StatelessWidget {
 ٤. (کردار) ڕاگەیاندنی ناوی خۆت یان کەسێک کە دەگاتە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He announced the guests as they arrived. (= called out their names, for example at a formal party)"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He announced the guests as they arrived. (= called out their names, for example at a formal party)"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاتنی میوانەکانی ڕاگەیاند کە گەشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

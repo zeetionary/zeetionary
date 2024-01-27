@@ -127,12 +127,18 @@ class EnglishEntryaggressor extends StatelessWidget {
 ١. (ناو) کەسێک یان وڵاتێک کە سەرەتا ھێرش دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They are seen as the aggressors in the civil war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are seen as the aggressors in the civil war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک دەساوێژ دەبینرێن لە شەڕە ناوخۆییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

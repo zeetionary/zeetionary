@@ -128,11 +128,17 @@ class EnglishEntryaltitude extends StatelessWidget {
 ١. (ناو) بەرزایی لە سەروو ئاستی دەریا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are flying at an altitude of 6 000 metres."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are flying at an altitude of 6 000 metres."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە بەرزی ٦٠٠٠ مەتردا دەفڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,10 +128,16 @@ class EnglishEntryajar extends StatelessWidget {
 ١. (ھاوەڵناو) کەمێک کراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'll leave the door ajar."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەرگاکە بە کەمێک کراوە جێدێڵم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'll leave the door ajar."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەرگاکە بە کەمێک کراوە جێدێڵم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntryanticyclone extends StatelessWidget {
 ١. (ناو) ئەنتی‌سایکلۆن؛ ناوچەیەکی پەستان بەرز کە کەشوھەوایەکی ھێمن و ئاسمانێکی ڕوونی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The anticyclone brought bright sunshine and calm conditions to most areas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The anticyclone brought bright sunshine and calm conditions to most areas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دژە-زریانەکە تیشکی ڕوون و کەشی ھێمنی ھێنا بۆ زۆرێک لە ناوچەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

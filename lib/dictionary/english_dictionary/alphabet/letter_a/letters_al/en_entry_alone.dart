@@ -165,11 +165,17 @@ class EnglishEntryalone extends StatelessWidget {
 ١. (ھاوەڵناو) بە تەنھا و بەبێ خەڵکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was sitting all alone in the hall."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەنھا لە ھۆڵەکە دانیشتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was sitting all alone in the hall."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە تەنھا لە ھۆڵەکە دانیشتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,11 +194,18 @@ class EnglishEntryalone extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't like going out alone at night."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزناکەم شەوانە بە تەنھا دەربچم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't like going out alone at night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزناکەم شەوانە بە تەنھا دەربچم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,11 +226,17 @@ class EnglishEntryalone extends StatelessWidget {
 ٢. (ھاوەڵناو) بەبێ یارمەتی کەسی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The assassin said he had acted alone."),
-                              const ExampleSentenceKurdish(
-                                  text: "بکوژەکە گوتی ھەر خۆی بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The assassin said he had acted alone."),
+                                    ExampleSentenceKurdish(
+                                        text: "بکوژەکە گوتی ھەر خۆی بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,11 +257,18 @@ class EnglishEntryalone extends StatelessWidget {
 ٣. (ھاوەڵناو) تەنھا و بێزار بەبێ ھیچ ھاوەڵێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Carol felt all alone in the world."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Carol felt all alone in the world."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارۆڵ ھەستی بە تەنھایی دەکرد لەم جیھانەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +289,18 @@ class EnglishEntryalone extends StatelessWidget {
 ٤. (ھاوەڵناو) لە دوای ناو بەکاردێت بۆ وتنی ئەوەی کەسی ناوبراو تەنھا کەسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can't blame anyone else; you alone made the decision."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can't blame anyone else; you alone made the decision."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانی لۆمەی کەسی تر بکەی؛ خۆت بە تەنھا بڕیارەکەت دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryadjacent extends StatelessWidget {
 ١. (ھاوەڵناو) نزیک لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our farm land was adjacent to the river."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our farm land was adjacent to the river."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

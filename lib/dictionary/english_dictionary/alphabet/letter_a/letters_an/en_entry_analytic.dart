@@ -186,10 +186,16 @@ class EnglishEntryanalytic extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She has a clear analytic mind."),
-                              const ExampleSentenceKurdish(
-                                  text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She has a clear analytic mind."),
+                                    ExampleSentenceKurdish(
+                                        text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +216,18 @@ class EnglishEntryanalytic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The analytic methods we developed for this project will be useful for our future work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The analytic methods we developed for this project will be useful for our future work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ڕێگا شیکارییانەی گەشەمان‌پێدا بۆ ئەم پڕۆژە بەسوود دەبێت بۆ کارەکانی داھاتوومان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryanalytic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە بەکارھێنانی لۆژیک (وردبوونەوە و بیرکردنەوە لە بیرۆکەکان بە ڕێگای زانستی)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This book is one of the masterpieces of analytic philosophy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This book is one of the masterpieces of analytic philosophy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کتێبە یەکێکە لە شاکارەکانی فەلسەفەی شیکارانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

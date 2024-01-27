@@ -106,12 +106,18 @@ class EnglishEntryaboutturn extends StatelessWidget {
 ١. بە تەواوی گۆڕینی بۆچوون، ڕەفتار، یان پلان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government did an about-turn over nuclear energy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government did an about-turn over nuclear energy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

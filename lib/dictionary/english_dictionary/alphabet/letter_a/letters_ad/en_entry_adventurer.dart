@@ -128,12 +128,18 @@ class EnglishEntryadventurer extends StatelessWidget {
 ١. (ناو) کەسێک کە حەزی بە ئەزموونی تازە و بەجۆشھێنەرە، بەتایبەتی ڕۆیشتن بۆ شوێنی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was something of an adventurer, living most of his life abroad."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was something of an adventurer, living most of his life abroad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی تا ڕادەیەک سەرکێش بوو کە زۆرینەی ژیانی لە دەرەوە بەسەر دەبرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryappreciative extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی ھەستی پێزانین و سوپاسگوزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company was very appreciative of my efforts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە پێزانینی ھەبوو بۆ ھەوڵەکانم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company was very appreciative of my efforts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە پێزانینی ھەبوو بۆ ھەوڵەکانم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,11 +212,18 @@ class EnglishEntryappreciative extends StatelessWidget {
 ٢. (ھاوەڵناو) پیشاندانی چێژ و خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The audience was highly appreciative."),
-                              const ExampleSentenceKurdish(
-                                  text: "جەماوەرەکە زۆر بە حەماسەت بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The audience was highly appreciative."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەماوەرەکە زۆر بە حەماسەت بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

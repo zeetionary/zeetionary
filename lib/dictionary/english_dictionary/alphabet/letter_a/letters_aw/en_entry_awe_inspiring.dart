@@ -170,12 +170,18 @@ class EnglishEntryaweinspiring extends StatelessWidget {
 ١. (ھاوەڵناو) تەواو سەرنجڕاکێش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The building was awe-inspiring in size and design."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیناکە تەواو سەرنجڕاکێش بوو لە ڕووی قەبارە و دیزاینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The building was awe-inspiring in size and design."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیناکە تەواو سەرنجڕاکێش بوو لە ڕووی قەبارە و دیزاینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

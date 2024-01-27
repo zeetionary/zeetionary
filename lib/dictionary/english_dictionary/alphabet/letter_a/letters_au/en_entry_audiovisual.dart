@@ -180,12 +180,18 @@ class EnglishEntryaudiovisual extends StatelessWidget {
 ١. (ھاوەڵناو) لەخۆگرتنی دەنگ و وێنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The audiovisual presentation included slides of the birds and tapes of their songs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The audiovisual presentation included slides of the birds and tapes of their songs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -110,12 +110,18 @@ class EnglishEntryaccost extends StatelessWidget {
 ١. چوون بۆ لای کەسێک و قسەکردن لەگەڵی بەشێوەیەکی بێڕێزانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was accosted in the street by a complete stranger."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was accosted in the street by a complete stranger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -121,10 +121,16 @@ class EnglishEntryabundant extends StatelessWidget {
 ١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Fish are abundant in the lake."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماسی ئێجگار زۆرە لە دەریاچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Fish are abundant in the lake."),
+                                    ExampleSentenceKurdish(
+                                        text: "ماسی ئێجگار زۆرە لە دەریاچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -141,12 +147,18 @@ class EnglishEntryabundant extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have abundant evidence to prove his guilt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have abundant evidence to prove his guilt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

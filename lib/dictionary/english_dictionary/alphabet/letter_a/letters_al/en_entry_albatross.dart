@@ -130,12 +130,18 @@ class EnglishEntryalbatross extends StatelessWidget {
 ١. (ناو) باڵندەیەک کە باڵی درێژی ھەیە و لە زەریای ھێمن و زەریاکانی باشوور دەژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The albatross can stay airborne at sea for days at a time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The albatross can stay airborne at sea for days at a time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەلباتروس دەتوانێت بۆ چەندین ڕۆژ لەیەک کاتدا لە ئاسماندا بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +163,18 @@ class EnglishEntryalbatross extends StatelessWidget {
 ٢. (ناو) شتێک کە کێشەت بۆ درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The national debt is an albatross around the president’s neck."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The national debt is an albatross around the president’s neck."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەرزە نیشتیمانییەکان مایەی سەرێشەن بۆ سەرۆک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

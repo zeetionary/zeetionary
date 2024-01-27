@@ -172,12 +172,18 @@ class EnglishEntryanthem extends StatelessWidget {
 ١. (ناو) گۆرانییەک کە تایبەتمەندییەکی گرنگی ھەیە وڵاتێک، ڕێکخراوێک، یان کۆمەڵە کەسێک و لە بۆنە تایبەتەکاندا دەوترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The European anthem was played at the opening and closing ceremonies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The European anthem was played at the opening and closing ceremonies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەنزیمی ئەورووپا لێدرا لە سەرەتا و کۆتایی بۆنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

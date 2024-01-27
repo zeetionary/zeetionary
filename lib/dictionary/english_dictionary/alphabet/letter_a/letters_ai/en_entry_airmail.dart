@@ -125,10 +125,16 @@ class EnglishEntryairmail extends StatelessWidget {
 ١. (ناو) پۆستەی ئاسمانی؛ ناردنی نامە لە ڕێگەی فڕۆکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Send it airmail/by airmail."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە پۆستەی ئاسمانی بینێرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Send it airmail/by airmail."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە پۆستەی ئاسمانی بینێرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

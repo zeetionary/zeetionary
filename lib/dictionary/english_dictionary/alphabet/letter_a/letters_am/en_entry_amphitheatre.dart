@@ -171,11 +171,17 @@ class EnglishEntryamphitheatre extends StatelessWidget {
 ١. (ناو) بینایەکی بازنەیی کە سەقفی نییە و ڕیزە جێگای پلەپلەی دانیشتنی ھەیە بە دەوری گۆڕەپانێک لە ناوەڕاستی بیناکەدا. ئەم بینایانە زیاتر لە یۆنان و ڕۆمی کۆندا بەکاردەھاتن بۆ ئاھەنگە چێژبەخشەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The amphitheatre is well worth a visit."),
-                              const ExampleSentenceKurdish(
-                                  text: "شانۆپانەکە شایەنی سەردانییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The amphitheatre is well worth a visit."),
+                                    ExampleSentenceKurdish(
+                                        text: "شانۆپانەکە شایەنی سەردانییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

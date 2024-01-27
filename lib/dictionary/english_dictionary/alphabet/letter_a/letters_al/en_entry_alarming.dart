@@ -129,12 +129,18 @@ class EnglishEntryalarming extends StatelessWidget {
 ١. (ھاوەڵناو) بە ئاستێک کە جێگەی نیگەرانی و ترسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The rainforests are disappearing at an alarming rate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The rainforests are disappearing at an alarming rate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دارستانەکان بە ئاستێکی ترسێنەر کەمدەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

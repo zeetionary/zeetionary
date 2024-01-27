@@ -169,11 +169,18 @@ class EnglishEntryannotate extends StatelessWidget {
 ١. (کردار) تێبینی‌نووسین لەسەر لەسەر کتێبێک یان نووسراوێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The text was annotated with her own comments."),
-                              const ExampleSentenceKurdish(
-                                  text: "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The text was annotated with her own comments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە ڕاڤەکرابوو بە کۆمێنتی خۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

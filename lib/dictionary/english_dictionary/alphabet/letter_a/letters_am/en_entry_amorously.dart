@@ -122,10 +122,16 @@ class EnglishEntryamorously extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە حەزی سێکسی و خۆشەویستی پیشان دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He looked at her amorously."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە ئەویندارانە سەیری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He looked at her amorously."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ئەویندارانە سەیری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

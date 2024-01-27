@@ -177,12 +177,18 @@ class EnglishEntryaristocracy extends StatelessWidget {
 ١. (ناو) کەسانی بەرزترین ئاستی کۆمەڵگە کە زۆرجار پلە و سەروەت و سامانی زۆریان ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He married into the French aristocracy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He married into the French aristocracy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوسەرگیری لەگەڵ ئەندامی خێزانێکی خانەدانی فەرەنسی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

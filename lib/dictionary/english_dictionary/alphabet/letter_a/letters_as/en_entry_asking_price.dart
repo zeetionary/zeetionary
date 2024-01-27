@@ -177,12 +177,18 @@ class EnglishEntryaskingprice extends StatelessWidget {
 ١. (ناو) نرخی داواکراوی فرۆشتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The asking price for the house was £250,000."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The asking price for the house was £250,000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخی داواکراو بۆ خانووەکە ٢٥٠,٠٠٠ پاوەند بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

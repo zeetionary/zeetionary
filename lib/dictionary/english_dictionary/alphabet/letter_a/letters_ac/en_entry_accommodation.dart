@@ -140,11 +140,18 @@ class EnglishEntryaccommodation extends StatelessWidget {
 ١. (ناو) شوێنی ژیان یان کارکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She lived on her own in rented accommodation."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەنھا دەژیا لە جێگایەکی کری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She lived on her own in rented accommodation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەنھا دەژیا لە جێگایەکی کری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -161,12 +168,18 @@ class EnglishEntryaccommodation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We need more secure accommodation for young prisoners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need more secure accommodation for young prisoners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستیمان بە جێگای سەلامەتتر ھەیە بۆ زیندانییە گەنجەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +196,18 @@ class EnglishEntryaccommodation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boat provides overnight accommodations for four adults."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boat provides overnight accommodations for four adults."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکە جێگای مانەوەی شەوانی بۆ چوار کەسی پێگەیشتوو ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +226,18 @@ class EnglishEntryaccommodation extends StatelessWidget {
 ٢. (ناو) ڕێککوتنێک لەلایەن چەند لایەنێکی ناکۆک کە ھەموویان پێی ڕازین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were forced to reach an accommodation with the rebels."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناچارکران لەگەڵ یاخیبووان بگەنە سازان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were forced to reach an accommodation with the rebels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناچارکران لەگەڵ یاخیبووان بگەنە سازان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

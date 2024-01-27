@@ -125,12 +125,18 @@ class EnglishEntryairbag extends StatelessWidget {
 ١. (ناو) ئامێرێکە لە ئۆتۆمبێلدا کە پڕ دەبێت لە ھەوا بۆ پاراستنی شۆفێرەکە لە کاتی پێکداداندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the event of a collision, the airbag stops the driver of the car from hitting his or her chest on the steering wheel."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە حاڵەتی پێکداداندا ئێرباگەکە شۆفێرەکە دەوەستێنێت لە کێشانی سنگی بە سوکانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

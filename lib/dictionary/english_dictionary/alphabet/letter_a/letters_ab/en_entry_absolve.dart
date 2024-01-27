@@ -110,12 +110,18 @@ class EnglishEntryabsolve extends StatelessWidget {
 ١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The court absolved him of all responsibility for the accident."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The court absolved him of all responsibility for the accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

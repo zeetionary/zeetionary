@@ -179,12 +179,18 @@ class EnglishEntryathletics extends StatelessWidget {
 ١. (ھاوەڵناو) یارییە وەرزشییەکانی وەک ڕاکردن و بازدان و ھەڵدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My daughter wants to compete in athletics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My daughter wants to compete in athletics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

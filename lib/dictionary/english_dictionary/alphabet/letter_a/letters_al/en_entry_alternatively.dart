@@ -130,12 +130,18 @@ class EnglishEntryalternatively extends StatelessWidget {
 ١. (ھاوەڵکار) بۆ ناساندنی ھەڵبژاردەیەکی تر کە دەکرێت بەکاربێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The agency will make travel arrangements for you. Alternatively, you can organize your own transport."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The agency will make travel arrangements for you. Alternatively, you can organize your own transport."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژانسەکە کاری ڕێکخستنی گەشتەکەت بۆ دەکات. بەجێی‌ئەوە، خۆت دەتوانیت سەفەرەکەت ڕێک بخەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

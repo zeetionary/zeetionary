@@ -181,11 +181,18 @@ class EnglishEntryarouse extends StatelessWidget {
 ١. (کردار) وا لە کەسێک بکەیت ھەستێک یان ڕەفتارێکی دیاریکراو بنوێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her strange behaviour aroused our suspicions."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەفتارە نامۆکەی گومانی درووست‌کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her strange behaviour aroused our suspicions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەفتارە نامۆکەی گومانی درووست‌کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,11 +214,18 @@ class EnglishEntryarouse extends StatelessWidget {
 ٢. (کردار) ورووژاندنی کەسێک لە لایەنی سێکسییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Girls who wear perfume arouse him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کچانەی بۆن لە خۆیان دەدەن دەیورووژێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Girls who wear perfume arouse him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کچانەی بۆن لە خۆیان دەدەن دەیورووژێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,11 +247,18 @@ class EnglishEntryarouse extends StatelessWidget {
 ٣. (کردار) چالاککردنی کەسێک بۆ کردنی کارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The whole community was aroused by the crime."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی گەڕەکەکە بە تاوانەکە ڕاپەڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The whole community was aroused by the crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی گەڕەکەکە بە تاوانەکە ڕاپەڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +280,18 @@ class EnglishEntryarouse extends StatelessWidget {
 ٤. (کردار) لە خەو ھەستاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was aroused from a deep sleep by a loud noise."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was aroused from a deep sleep by a loud noise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دەنگێکی بەرز لە خەوێکی قووڵ ھەستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

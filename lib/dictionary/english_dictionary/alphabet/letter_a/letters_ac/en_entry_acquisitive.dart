@@ -128,12 +128,18 @@ class EnglishEntryacquisitive extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر ئەزکەر لە شتی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is an acquisitive company looking for ways to expand."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is an acquisitive company looking for ways to expand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیایەکی زۆرخوازە کە بەشوێن ڕێگادا دەگەڕێت بۆ فراوانبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -176,12 +176,18 @@ class EnglishEntryaverage extends StatelessWidget {
 ١. (ھاوەڵناو) تێکڕا؛ کۆی گشتی کۆمەڵە بڕێک و دابەشکردنی ئەنجامەکە بەسەر ژمارەی بڕەکان """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The average age of participants was 52 years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The average age of participants was 52 years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryaverage extends StatelessWidget {
 ٢. (ھاوەڵناو) ئەوەی کە ئاساییە و دەکرێت بکرێت بە پێوەر """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On an average day they sell more than £2 000 worth of vegetables."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On an average day they sell more than £2 000 worth of vegetables."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,11 +242,17 @@ class EnglishEntryaverage extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە لە ئاستێکی ئاساییە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was just an average sort of student."),
-                              const ExampleSentenceKurdish(
-                                  text: "خوێندکارێکی مام‌ناوەند بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was just an average sort of student."),
+                                    ExampleSentenceKurdish(
+                                        text: "خوێندکارێکی مام‌ناوەند بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +274,18 @@ class EnglishEntryaverage extends StatelessWidget {
 ٤. (ناو) تێکڕای کۆمەڵە ژمارەیەک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Parents spend an average of £220 a year on toys."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Parents spend an average of £220 a year on toys."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +307,18 @@ class EnglishEntryaverage extends StatelessWidget {
 ٥. (ناو) ئاستێک کە ئاساییە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Temperatures are above average for the time of year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Temperatures are above average for the time of year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,12 +340,18 @@ class EnglishEntryaverage extends StatelessWidget {
 ٦. (کردار) ھەبوونی ژمارەیەک وەک تێکڕا """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has averaged 15 goals over the past two seasons."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has averaged 15 goals over the past two seasons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,12 +373,18 @@ class EnglishEntryaverage extends StatelessWidget {
 ٧. (کردار) دۆزینەوەی تێکڕا """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Earnings are averaged over the whole period."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Earnings are averaged over the whole period."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

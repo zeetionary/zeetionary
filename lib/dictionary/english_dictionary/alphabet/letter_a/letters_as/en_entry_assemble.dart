@@ -180,12 +180,18 @@ class EnglishEntryassemble extends StatelessWidget {
 ١. (کردار) کۆکردنەوە یان کۆبوونەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the students were asked to assemble in the main hall."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the students were asked to assemble in the main hall."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو خوێندکاران داوایان لێ‌کرا لە ھۆڵە سەرەکییەکە کۆببنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,11 +211,18 @@ class EnglishEntryassemble extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She then addressed the assembled company (= all the people there)."),
-                              const ExampleSentenceKurdish(
-                                  text: "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She then addressed the assembled company (= all the people there)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دواتر قسەی بۆ تەواوی کۆمپانیاکە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +244,18 @@ class EnglishEntryassemble extends StatelessWidget {
 ٢. (کردار) کۆکردنەوە یان کۆبوونەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I spent an hour assembling the furniture."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I spent an hour assembling the furniture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک کاتژمێرم بەسەربرد بە پێکەوەنانی کەلوپەلەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

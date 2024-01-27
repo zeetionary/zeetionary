@@ -172,12 +172,18 @@ class EnglishEntryantler extends StatelessWidget {
 ١. (ھاوەڵناو) شاخی گاکێوی یان نێراسک (نێرە ئاسک)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Poachers in search of antlers prey on red deer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Poachers in search of antlers prey on red deer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ڕاوچیانەی بەشوێن شاخی نێراسک دەگەڕێن سوورئاسک ڕاودەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

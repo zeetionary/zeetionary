@@ -168,12 +168,18 @@ class EnglishEntryamp extends StatelessWidget {
 ١. (ناو) ئەمپێر؛ یەکەی پێوانەی تەزووی کارەبا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A typical household circuit carries 15 to 50 amps."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A typical household circuit carries 15 to 50 amps."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سرکتێکی ئاسایی ماڵان ١٥ بۆ ٢٠ ئەمپێر دەگوازێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

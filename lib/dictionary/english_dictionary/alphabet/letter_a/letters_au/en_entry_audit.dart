@@ -182,12 +182,18 @@ class EnglishEntryaudit extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوەی وردی تۆمارەکانی کۆمپانیایەک بۆ زانینی ڕاستییان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company has an audit at the end of each year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company has an audit at the end of each year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە پێداچوونەوەیەک دەکات لە کۆتایی ھەر ساڵێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryaudit extends StatelessWidget {
 ٢. (ناو) لێکۆڵینەوەی ورد بۆ دڵنیایی لە کوالێتی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Managers should undertake an audit of staff performance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Managers should undertake an audit of staff performance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرپەرشتیاران دەبێت پێداچوونەوەیەک بە توانای ستافدا بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryaudit extends StatelessWidget {
 ٣. (کردار) پێداچوونەوە لە تۆماری ئابووری کۆمپانیایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have just had our accounts audited."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have just had our accounts audited."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆمارەکانمان تازەگی پێداچوونەوەیان بۆ کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,11 +281,18 @@ class EnglishEntryaudit extends StatelessWidget {
 ٤. (کردار) بەژداریکردن لە کۆرسەکانی کۆلێژێک یان زانکۆیەک بەبێ وەرگرتنی بڕوانامە یان ئەنجامدانی تاقیکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She audited classes at the University of California."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەچووە وانەکان لە زانکۆی کالیفۆرنیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She audited classes at the University of California."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەچووە وانەکان لە زانکۆی کالیفۆرنیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -176,10 +176,18 @@ class EnglishEntryarduously extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ھێز و وزەی زۆری دەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They searched arduously for clues."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They searched arduously for clues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تاقەت‌پڕوقێنانە گەڕان بۆ سەرەداو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

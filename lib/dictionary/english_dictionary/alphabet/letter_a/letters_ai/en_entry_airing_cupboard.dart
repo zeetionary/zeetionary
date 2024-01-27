@@ -130,11 +130,17 @@ class EnglishEntryairingcupboard extends StatelessWidget {
 ١. (ناو) دۆڵابێک کە جلوبەرگی پاکی تێدەخەیت بۆ ئەوەی دڵنیابیت بە تەواوی وشکن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Put the clothes in the airing cupboard."),
-                              const ExampleSentenceKurdish(
-                                  text: "جلەکان بخە دۆڵابەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Put the clothes in the airing cupboard."),
+                                    ExampleSentenceKurdish(
+                                        text: "جلەکان بخە دۆڵابەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

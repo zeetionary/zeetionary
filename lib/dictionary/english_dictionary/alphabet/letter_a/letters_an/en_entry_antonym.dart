@@ -172,12 +172,18 @@ class EnglishEntryantonym extends StatelessWidget {
 ١. (ناو) وشەیەک کە واتاکەی پێچەوانەی واتای وشەیەکی ترە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A dictionary of antonyms is a helpful tool for understanding opposites in a language."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A dictionary of antonyms is a helpful tool for understanding opposites in a language."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فەرھەنگی دژواتاکان ئامرازێکی یارمەتیدەرە بۆ تێگەشتن لە دژواتاکان لە زمانێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

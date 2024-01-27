@@ -171,11 +171,17 @@ class EnglishEntryanaesthetic extends StatelessWidget {
 ١. (ناو) بەنج؛ دەرمانێک کە وا دەکات بەشێک یان تەواوی جەستەی کەسێک ھەست بە ھیچ نەکات، بەتایبەتی ئازار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How long will I be under anaesthetic?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چەندە لەژێر بەنج دەبم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How long will I be under anaesthetic?"),
+                                    ExampleSentenceKurdish(
+                                        text: "چەندە لەژێر بەنج دەبم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

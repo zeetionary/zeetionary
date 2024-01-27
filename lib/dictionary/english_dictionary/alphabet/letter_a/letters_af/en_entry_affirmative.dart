@@ -129,11 +129,18 @@ class EnglishEntryaffirmative extends StatelessWidget {
 ١. (ھاوەڵناو) وەڵامێکی ئەرێنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He gave an affirmative response to the question."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەڵامێکی ئەرێنی دا بە پرسیارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gave an affirmative response to the question."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەڵامێکی ئەرێنی دا بە پرسیارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,14 +161,17 @@ class EnglishEntryaffirmative extends StatelessWidget {
 ٢. (ناو) وشەیەک کە واتای بەڵێ دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She answered in the affirmative (= said ‘yes’)."),
-                              const SizedBox(
-                                width: 40,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She answered in the affirmative (= said ‘yes’)."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە بەڵێ وەڵامی داوە."),
+                                  ],
+                                ),
                               ),
-                              const ExampleSentenceKurdish(
-                                  text: "بە بەڵێ وەڵامی داوە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

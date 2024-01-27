@@ -128,11 +128,18 @@ class EnglishEntryacid extends StatelessWidget {
 ١. (ناو) مادەیەکی کیمیایی کە زۆرجار ترشە و ھایدرۆجینی تێدایە، ھایدرۆجینەکە دەکرێت بگۆڕدرێتەوە بە کانزایەک بۆ درووستکردنی خوێ. ئەسید بەزۆری ترشییەکی زۆری ھەیە کە دەکرێت کون درووستبکات لە شتێکدا یان زیان بگەیەنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The acid burned a hole in her coat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The acid burned a hole in her coat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەسیدەکە کونێکی درووستکرد لە پاڵتاوەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +162,18 @@ class EnglishEntryacid extends StatelessWidget {
 ٣. (ناو) شتێک کە زۆر ترشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It’s a very juicy fruit with a slightly acid flavour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It’s a very juicy fruit with a slightly acid flavour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "میوەیەکی زۆر ئاودارە لەگەڵ بوونی کەمێک تامی ترشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

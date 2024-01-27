@@ -128,12 +128,18 @@ class EnglishEntryactor extends StatelessWidget {
 ١. (ناو) کەسێک کە لە شانۆ یان فیلم ڕۆڵدەگێڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is one of the country’s leading actors."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is one of the country’s leading actors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryactor extends StatelessWidget {
 ٢. (ناو) کەسێک کە خۆی بەشێوەیەک دەردەخات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't know if he really meant the things he said—he was always a good actor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't know if he really meant the things he said—he was always a good actor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -131,10 +131,16 @@ class EnglishEntryairy extends StatelessWidget {
 ١. (ھاوەڵناو) شوێنێک کە جەنجاڵی کەمە و ھەوای پاکی زۆرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The office was light and airy."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The office was light and airy."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,11 +161,18 @@ class EnglishEntryairy extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕەفتارکردن یان کردنی شتێک بە شێوەیەک کە گرنگ نەبێ لات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He dismissed her with an airy wave."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He dismissed her with an airy wave."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,12 +193,18 @@ class EnglishEntryairy extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە بە جدی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The airy promises proved empty in practical implementation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The airy promises proved empty in practical implementation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

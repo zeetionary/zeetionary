@@ -169,10 +169,17 @@ class EnglishEntryanoint extends StatelessWidget {
 ١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The priest anointed her with oil."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەشەکە بە ڕۆن چەوری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The priest anointed her with oil."),
+                                    ExampleSentenceKurdish(
+                                        text: "قەشەکە بە ڕۆن چەوری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

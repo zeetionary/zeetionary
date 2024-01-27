@@ -144,12 +144,18 @@ class EnglishEntryadopt extends StatelessWidget {
 ١. (کردار) ھەڵگتنەوەی منداڵێک و بەخێوکردنی وەک منداڵی خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The child has now been legally adopted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The child has now been legally adopted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -170,11 +176,17 @@ class EnglishEntryadopt extends StatelessWidget {
 ٢. (کردار) دەستکردن بە بەکارھێنانی شێوازێکی مامەڵەکردن یان ڕێبازێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police adopted tighter security measures."),
-                              const ExampleSentenceKurdish(
-                                  text: "پۆلیس ڕێکاری توندتری گرتەبەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police adopted tighter security measures."),
+                                    ExampleSentenceKurdish(
+                                        text: "پۆلیس ڕێکاری توندتری گرتەبەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +207,18 @@ class EnglishEntryadopt extends StatelessWidget {
 ٣. (کردار) بە فەرمی پەسەندکردنی بڕیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government adopted a resolution on disarmament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government adopted a resolution on disarmament."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +239,18 @@ class EnglishEntryadopt extends StatelessWidget {
 ٤. (کردار) دەستکردن بە بەکارھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The party adopted its current name in 1965."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The party adopted its current name in 1965."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

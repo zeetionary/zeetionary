@@ -128,12 +128,18 @@ class EnglishEntryaffectionately extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە سۆز و خۆشەویستی پیشان دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "William was affectionately known as Billy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "William was affectionately known as Billy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ولیام بەھۆی سۆز و خۆشەویستی بۆی بە بیڵی ناسراوبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

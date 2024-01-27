@@ -129,12 +129,18 @@ class EnglishEntryalgebra extends StatelessWidget {
 ١. (ناو) جۆرێکی بیرکاری کە تێیدا ژمارە و ھێماکان بڕ پیشان دەدەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is fascinated by algebra while he considers it meaningless nonsense."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is fascinated by algebra while he considers it meaningless nonsense."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچەکە حەزی بە ئەلجبرەیە لەکاتێکدا کوڕەکە بە ھیچ و پڕووپووچی دادەنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

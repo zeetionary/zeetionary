@@ -128,12 +128,18 @@ class EnglishEntryaffluence extends StatelessWidget {
 ١. (ناو) بوونی پارەی زۆر و گوزەرانی باش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The 1950s were an age of affluence in America."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The 1950s were an age of affluence in America."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵانی ١٩٥٠ یەکان سەردەمی زۆر و زەبەندی بوو لە ئەمریکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaffluence extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The nation's affluence has made two- and even three-car families the norm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The nation's affluence has made two- and even three-car families the norm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەوڵەمەندی وڵاتەکە وایکردووە بوونی دوو و سێ ئۆتۆمبێل لە خێزانێکدا شتێکی ئاسایی بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryassertion extends StatelessWidget {
 ١. (ناو) شتێک کە دەیڵێیت و پێت‌وایە ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was correct in his assertion that the minister had been lying."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was correct in his assertion that the minister had been lying."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاست بوو لە جەخت‌کردنەوە لەوەی وەزیرەکە درۆی کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryassertion extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you have any evidence to support your assertions?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you have any evidence to support your assertions?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ بەڵگەت ھەیە وەک پشتگیری بۆ وتەکانت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassertion extends StatelessWidget {
 ٢. (ناو) کرداری وتن، بانگەشەکردن، یان بەکارھێنانی بۆ شتێک بە تەواوەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The demonstration was an assertion of the right to peaceful protest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The demonstration was an assertion of the right to peaceful protest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆپیشاندانەکە جەختکردنەوەیەک بوو لە مافی ناڕەزایی ھێمنانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

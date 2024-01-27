@@ -127,11 +127,18 @@ class EnglishEntryaffliction extends StatelessWidget {
 ١. (ناو) ئازار و مەینەتی، یان شتێک کە ببێتە ھۆکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These poor people are in great affliction."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These poor people are in great affliction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم خەڵکە ھەژارە لە مەینەتی زۆرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

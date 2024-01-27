@@ -181,10 +181,18 @@ class EnglishEntryaustere extends StatelessWidget {
 ١. (ھاوەڵناو) سادە و ساکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Their clothes were always austere."),
-                              const ExampleSentenceKurdish(
-                                  text: "جلەکانیان ھەمیشە سادە و ساکار بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their clothes were always austere."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکانیان ھەمیشە سادە و ساکار بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,10 +214,18 @@ class EnglishEntryaustere extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێکی جدی و دژوار لە دەرکەوتن و ڕەفتاردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His father was a tall, austere man."),
-                              const ExampleSentenceKurdish(
-                                  text: "باوکی پیاوێکی درێژی ڕووگرژ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His father was a tall, austere man."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکی پیاوێکی درێژی ڕووگرژ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +247,18 @@ class EnglishEntryaustere extends StatelessWidget {
 ٣. (ھاوەڵناو) ژیانێکی دژوار و بەتاڵ لەھەر شتێکی خۆشی‌بەخش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had an austere childhood during the war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had an austere childhood during the war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

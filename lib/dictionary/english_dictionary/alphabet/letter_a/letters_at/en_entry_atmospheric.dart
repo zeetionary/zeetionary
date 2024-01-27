@@ -181,12 +181,18 @@ class EnglishEntryatmospheric extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بەرگەھەوا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Plants are the main source of atmospheric oxygen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Plants are the main source of atmospheric oxygen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,11 +215,17 @@ class EnglishEntryatmospheric extends StatelessWidget {
 ٢. (ھاوەڵناو) درووستکردنی کەشێکی خۆش و سەرنجڕاکێش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new restaurant is highly atmospheric."),
-                              const ExampleSentenceKurdish(
-                                  text: "چێشتخانە تازەکە زۆر بزوێنەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new restaurant is highly atmospheric."),
+                                    ExampleSentenceKurdish(
+                                        text: "چێشتخانە تازەکە زۆر بزوێنەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

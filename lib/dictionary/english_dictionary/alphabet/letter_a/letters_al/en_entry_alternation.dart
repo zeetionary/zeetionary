@@ -130,12 +130,18 @@ class EnglishEntryalternation extends StatelessWidget {
 ١. (ناو) ڕودانی دوو شت بەدوای یەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The alternation of sun and snow continued for the rest of the week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The alternation of sun and snow continued for the rest of the week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نۆرەکاری خۆرەتاو و بەفربارین بەردەوام بوو تا کۆتایی ھەفتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

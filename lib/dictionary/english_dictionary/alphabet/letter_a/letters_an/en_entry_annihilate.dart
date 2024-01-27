@@ -171,12 +171,18 @@ class EnglishEntryannihilate extends StatelessWidget {
 ١. (کردار) لەناوبردنی شتێک بە تەواوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The human race has enough weapons to annihilate itself."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The human race has enough weapons to annihilate itself."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مرۆڤایەتی ھێندە چەکی ھەیە بە تەواوی خۆی لەناو ببات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryannihilate extends StatelessWidget {
 ٢. (کردار) بردنەوە لە کەسێک و تێکشکاندنی بە تەواوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She annihilated her opponent, who failed to win a single game."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She annihilated her opponent, who failed to win a single game."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕکابەرەکەی تێکشکاند کە نەیتوانی ھیچ یارییەک بباتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

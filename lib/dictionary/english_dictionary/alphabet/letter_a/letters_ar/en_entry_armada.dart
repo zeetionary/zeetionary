@@ -176,12 +176,18 @@ class EnglishEntryarmada extends StatelessWidget {
 ١. (ناو) ژمارەیەکی زۆری کەشتی جەنگی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Spanish Armada was sent to attack England in 1588."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Spanish Armada was sent to attack England in 1588."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتی‌گەلی ئیسپانیا نێردرا بۆ ھێرشکردنە سەر ئینگلتەرە لە ساڵی ١٥٨٨."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,10 +127,16 @@ class EnglishEntryagony extends StatelessWidget {
 ١. (ناو) ئازاری زۆری جەستەیی یان دەروونی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The soldier died in agony."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەربازەکە بە ئازارەوە مرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The soldier died in agony."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەربازەکە بە ئازارەوە مرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -149,11 +155,18 @@ class EnglishEntryagony extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Jack collapsed in agony on the floor."),
-                              const ExampleSentenceKurdish(
-                                  text: "جاک لە ئازاردا کەوت بە زەوییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jack collapsed in agony on the floor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاک لە ئازاردا کەوت بە زەوییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -126,12 +126,18 @@ class EnglishEntryadjudicate extends StatelessWidget {
 ١. (کردار) بڕیاردان لە نێوان دوو لایەن کە کامیان ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their purpose is to adjudicate disputes between employers and employees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their purpose is to adjudicate disputes between employers and employees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

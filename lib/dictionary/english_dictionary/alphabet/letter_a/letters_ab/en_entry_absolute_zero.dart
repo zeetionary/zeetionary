@@ -114,12 +114,18 @@ class EnglishEntryabsolutezero extends StatelessWidget {
 ١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We repeat the process until we reache the value of absolute zero."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We repeat the process until we reache the value of absolute zero."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

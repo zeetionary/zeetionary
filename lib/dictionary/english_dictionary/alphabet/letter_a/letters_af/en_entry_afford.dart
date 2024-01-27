@@ -136,12 +136,18 @@ class EnglishEntryafford extends StatelessWidget {
 ١. (کردار) ھەبوونی پارەی پێویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She never took a taxi, even though she could afford to."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She never took a taxi, even though she could afford to."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز تەکسی نەدەگرت، ئەگەرچی پارەشی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -160,11 +166,18 @@ class EnglishEntryafford extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They couldn't afford to buy a house there."),
-                              const ExampleSentenceKurdish(
-                                  text: "نەیاندەتوانی خانوویەک لەوێ بکڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They couldn't afford to buy a house there."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیاندەتوانی خانوویەک لەوێ بکڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -185,11 +198,18 @@ class EnglishEntryafford extends StatelessWidget {
 ٢. (کردار) شتێک کە پێویستە خۆتی لێ بە دوور ئەگەرنا کێشەت بۆ درووست دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We cannot afford to ignore this warning."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We cannot afford to ignore this warning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانین ئەم ھۆشدارییە پشتگوێ بخەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,11 +230,17 @@ class EnglishEntryafford extends StatelessWidget {
 ٣. (کردار) پێدانی شتێک بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tree affords some shelter from the sun."),
-                              const ExampleSentenceKurdish(
-                                  text: "دارەکە ھەندێک سێبەر دەبەخشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tree affords some shelter from the sun."),
+                                    ExampleSentenceKurdish(
+                                        text: "دارەکە ھەندێک سێبەر دەبەخشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

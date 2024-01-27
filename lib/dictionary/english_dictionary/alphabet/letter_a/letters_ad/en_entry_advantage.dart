@@ -138,12 +138,18 @@ class EnglishEntryadvantage extends StatelessWidget {
 ١. (ناو) شتێک کە دەتخاتە بارودۆخێکی باشتر وەک لە کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The advantage of booking tickets in advance is that you get better seats."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The advantage of booking tickets in advance is that you get better seats."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوودی کڕینی بلیت لە پێشدا ئەوەیە کە جێگەی باشتر وەردەگریت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -162,12 +168,18 @@ class EnglishEntryadvantage extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For a goalkeeper, it's a great advantage to have big hands."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For a goalkeeper, it's a great advantage to have big hands."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ گۆڵپارێزێک، ھەبوونی دەستی گەورە سوودێکی گەورەی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -188,12 +200,18 @@ class EnglishEntryadvantage extends StatelessWidget {
 ٢. (ناو) خاسیەتێک کە وادەکات شتێک باشتر بێت یان سوودی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is there any advantage in getting there early?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is there any advantage in getting there early?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ بەرژەوەندییەک ھەیە لە زوو گەشتن بەوێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +232,18 @@ class EnglishEntryadvantage extends StatelessWidget {
 ٣. (کردار) بەرژەوەندی پێدان بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Affluent parents seek to advantage their children by sending them to more prestigious universities"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Affluent parents seek to advantage their children by sending them to more prestigious universities"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایک و باوکانی دەوڵەمەند ھەوڵ دەدەن سوود بە منداڵانیان بگەیەنن بە نادنیان بۆ زانکۆ ناودارەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

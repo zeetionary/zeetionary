@@ -145,10 +145,17 @@ class EnglishEntryacute extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بە ئاستێکی سەخت بوونی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There is an acute shortage of water."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەمئاوییەکی سەخت بوونی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is an acute shortage of water."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەمئاوییەکی سەخت بوونی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -167,12 +174,18 @@ class EnglishEntryacute extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The scandal was an acute embarrassment for the President."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The scandal was an acute embarrassment for the President."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئابڕووچوونەکە شەرمەزارییەکی خراپ بوو بۆ سەرۆک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -193,10 +206,16 @@ class EnglishEntryacute extends StatelessWidget {
 ٢. (ھاوەڵناو) نەخۆشییەک کە لەناکاو سەخت و مەترسیدار دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "acute abdominal pains"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئازاری سەختی سک ئێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "acute abdominal pains"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئازاری سەختی سک ئێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -217,10 +236,18 @@ class EnglishEntryacute extends StatelessWidget {
 ٣. (ھاوەڵناو) ھەبوونی ھەستی تیژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Dogs have an acute sense of smell."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگ ھەستێکی تیژی بۆنکردنی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Dogs have an acute sense of smell."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگ ھەستێکی تیژی بۆنکردنی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,10 +268,16 @@ class EnglishEntryacute extends StatelessWidget {
 ٤. (ھاوەڵناو) زیرەک و خێرا لە تێگەشتن و بڕیاردان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her judgement is acute."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیاردانی وردبینانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her judgement is acute."),
+                                    ExampleSentenceKurdish(
+                                        text: "بڕیاردانی وردبینانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

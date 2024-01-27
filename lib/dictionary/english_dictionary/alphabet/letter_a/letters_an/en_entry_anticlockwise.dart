@@ -172,12 +172,18 @@ class EnglishEntryanticlockwise extends StatelessWidget {
 ١. (ھاوەڵناو، ھاوەڵکار) پێچەوانەی سووڕانی میلەکانی سەعات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "'How do I get the top off this bottle?'' 'Push it down and twist it anticlockwise.'"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "«چۆن سەری ئەم بوتڵە بکەمەوە؟» «پاڵی‌بنە خوار و بە پێچەوانەی میلی کاتژمێر بیسووڕێنە»"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryanticlockwise extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Turn the key anticlockwise/in an anticlockwise direction."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Turn the key anticlockwise/in an anticlockwise direction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کلیلەکە بە ئاراستەی پێچيوانەی میلی کاتژمێر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

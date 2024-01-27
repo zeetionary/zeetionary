@@ -128,12 +128,18 @@ class EnglishEntryadversely extends StatelessWidget {
 ١. (ھاوەڵکار) بشێوەیەک کە ئەنجامێکی باشی نابێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her health was adversely affected by the climate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her health was adversely affected by the climate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەندرووستیی بەشێوەیەکی خراپ کاریگەربوو بە ئاووھەوایەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

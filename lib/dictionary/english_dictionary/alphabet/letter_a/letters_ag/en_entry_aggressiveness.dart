@@ -129,12 +129,18 @@ class EnglishEntryaggressiveness extends StatelessWidget {
 ١. (ناو) شەڕەنخوازی و توندوتیژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our addiction to oil feeds belligerence, aggressiveness, and war. Wherever oil is drilled, people are killed for profit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خووگرتنمان بە نەوت تەنھا دوژمنایەتی و توندوتیژی و شەڕی لێ دەکەوێتەوە. لە ھەرکوێ نەوت دەربھێندرێت، خەڵکی بۆ پارە دەکوژرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryaggressiveness extends StatelessWidget {
 ٢. (ناو) سەرسەختی لە ھەوڵدان بۆ سەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her talent and aggressiveness make her a tennis star of the future."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her talent and aggressiveness make her a tennis star of the future."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھرە و سەرسەختیی بۆ سەرکەوتن وا دەکات ببێت بە ئەستێرەیەکی تێنس لە داھاتوودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

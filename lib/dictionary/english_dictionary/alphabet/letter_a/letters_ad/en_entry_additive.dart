@@ -127,12 +127,18 @@ class EnglishEntryadditive extends StatelessWidget {
 ١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This beverage is full of additives - just look at the label!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This beverage is full of additives - just look at the label!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -122,12 +122,18 @@ class EnglishEntryabstention extends StatelessWidget {
 ١. (ناو) بەژاداری نەکردن لە دەنگدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Voter abstention is seen as the only real form of dissent in elections."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Voter abstention is seen as the only real form of dissent in elections."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -146,12 +152,18 @@ class EnglishEntryabstention extends StatelessWidget {
 ٢. (ناو) خۆبەدوورگرتن لە شتێک کە حەزت لێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Church insisted on abstention from all luxuries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Church insisted on abstention from all luxuries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵێساکە خۆی بەدووردەگرت لە ھەموو جۆرە شتێکی جوان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

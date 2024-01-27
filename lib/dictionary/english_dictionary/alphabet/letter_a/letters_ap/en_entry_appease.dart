@@ -175,12 +175,18 @@ class EnglishEntryappease extends StatelessWidget {
 ٢. (کردار) ھێمنکردنەوەی کەسێک بە پێدانی ئەوەی دەیەوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The move was widely seen as an attempt to appease critics of the regime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەنگاوەکە بەشێوەیەکی بەرفراوان بینرا بە ھەوڵێک بۆ ھێمنکردنەوەی ڕەخنەگرانی ڕژێمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The move was widely seen as an attempt to appease critics of the regime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەنگاوەکە بەشێوەیەکی بەرفراوان بینرا بە ھەوڵێک بۆ ھێمنکردنەوەی ڕەخنەگرانی ڕژێمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryappease extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a crucial ally who the country needed to appease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوپەیمانێکی گرنگی وڵاتەکە بوو کە دەبوو دڵی‌ڕابگیردرێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a crucial ally who the country needed to appease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوپەیمانێکی گرنگی وڵاتەکە بوو کە دەبوو دڵی‌ڕابگیردرێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

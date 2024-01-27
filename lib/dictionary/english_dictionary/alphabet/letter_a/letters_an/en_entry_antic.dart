@@ -173,12 +173,18 @@ class EnglishEntryantic extends StatelessWidget {
 ١. (ناو) ڕەفتاری سەیر یان گاڵتەجاڕی بەشێوەیەک کە خەڵکی حەزیان لێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bank staff got up to all sorts of antics to raise money for charity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستافی بانکەکە ھەموو جۆرە کارێکی سەیریان دەکرد بۆ کۆکردنەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bank staff got up to all sorts of antics to raise money for charity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستافی بانکەکە ھەموو جۆرە کارێکی سەیریان دەکرد بۆ کۆکردنەوەی پارە بۆ ڕێکخراوە خێرخوازییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryantic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Such an antic comedy does not need to be realistic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرھەمێکی کۆمیدی وەھا گاڵتەجاڕی پێویست ناکات ڕاستی وێنا بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Such an antic comedy does not need to be realistic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرھەمێکی کۆمیدی وەھا گاڵتەجاڕی پێویست ناکات ڕاستی وێنا بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

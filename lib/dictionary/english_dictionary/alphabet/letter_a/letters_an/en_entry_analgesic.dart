@@ -172,12 +172,18 @@ class EnglishEntryanalgesic extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی خاسیەتی ئازارشکێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This cream contains a mild analgesic to soothe stings and bites."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This cream contains a mild analgesic to soothe stings and bites."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کرێمە ئازارشکێنێکی سووکی تێدایە کە پێوەدان و گەستن ھێوردەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,10 +206,16 @@ class EnglishEntryanalgesic extends StatelessWidget {
 ٢. (ناو) ئازارشکێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Aspirin is a mild analgesic."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەسپرین ئازارشکێنێکی سووکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Aspirin is a mild analgesic."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەسپرین ئازارشکێنێکی سووکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

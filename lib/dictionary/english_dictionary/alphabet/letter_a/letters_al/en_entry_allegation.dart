@@ -48,7 +48,7 @@ class EnglishEntryallegation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 12, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -130,12 +130,18 @@ class EnglishEntryallegation extends StatelessWidget {
 ١. (ناو) تۆمەت کە تەنھا دەنگۆیە و بێ بەڵگەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several newspapers made allegations of corruption in the city's police department."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several newspapers made allegations of corruption in the city's police department."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک ڕۆژنامە ئیدعای گەندەڵییان کرد لە پۆلیسخانەی شارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,11 +161,18 @@ class EnglishEntryallegation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She refused to admit the allegations."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەتیکردەوە دان بە تۆمەتەکان بنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She refused to admit the allegations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەتیکردەوە دان بە تۆمەتەکان بنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

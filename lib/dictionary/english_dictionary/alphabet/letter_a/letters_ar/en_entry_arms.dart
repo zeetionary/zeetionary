@@ -175,12 +175,18 @@ class EnglishEntryarms extends StatelessWidget {
 ١. (ناو) ئەو چەکانەی لەلایەن سوپاوە بەکاردێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The UN imposed an arms embargo on the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The UN imposed an arms embargo on the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەتەوە یەکگرتووەکان گەمارۆی چەک و تەقەمەنی بەسەر وڵاتەکەدا سەپاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryarms extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's the world's most notorious arms dealer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's the world's most notorious arms dealer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەناوبانگترین بازرگانی چەک و تەقەمەنییە لە جیھاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

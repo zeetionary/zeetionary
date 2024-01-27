@@ -111,12 +111,18 @@ class EnglishEntryaccountant extends StatelessWidget {
 ١. کەسێک کە کاری ژمێریاری دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We talked to the company’s chief accountant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قسەمان لەگەڵ ژمێریاری سەرەکیی کۆمپانیاکە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We talked to the company’s chief accountant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قسەمان لەگەڵ ژمێریاری سەرەکیی کۆمپانیاکە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

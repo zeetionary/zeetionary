@@ -145,11 +145,18 @@ class EnglishEntryache extends StatelessWidget {
 ١. (کردار) ھەستکردن بە ئێشێکی زۆر کە بە ئازار نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her eyes ached from lack of sleep."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her eyes ached from lack of sleep."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوەکانم ژانیان دەکرد بەھۆی کەمخەوییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -167,12 +174,18 @@ class EnglishEntryache extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It makes my heart ache (= it makes me sad) to see her suffer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It makes my heart ache (= it makes me sad) to see her suffer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵم دێتە ژان کە دەبینم ئازار دەکێشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -192,10 +205,16 @@ class EnglishEntryache extends StatelessWidget {
 ٢. (کردار) بوونی حەزێکی زۆر بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I was aching for home."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەریکبوو دڵی دەتەقا بۆ ماڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I was aching for home."),
+                                    ExampleSentenceKurdish(
+                                        text: "خەریکبوو دڵی دەتەقا بۆ ماڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -215,10 +234,16 @@ class EnglishEntryache extends StatelessWidget {
 ٣. (کردار) لەگەڵ بەشەکانی جەستە بەکاردێت بۆ ئاماژە بەوەی لەو بەشە ئازاری ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Mummy, I've got a tummy ache."),
-                              const ExampleSentenceKurdish(
-                                  text: "دایکە، سکم ژان ئەکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Mummy, I've got a tummy ache."),
+                                    ExampleSentenceKurdish(
+                                        text: "دایکە، سکم ژان ئەکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

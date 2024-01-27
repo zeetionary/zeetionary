@@ -176,11 +176,17 @@ class EnglishEntryarraign extends StatelessWidget {
 ١. (کردار) ھێنانی کەسێک بۆ دادگا بۆ ئەوەی بە فەرمی تاوانبار بکرێت بە تاوانێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was arraigned for murder."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێنرایە دادگا بۆ تاوانبارکردنی بە تۆمەتی کووشتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was arraigned for murder."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێنرایە دادگا بۆ تاوانبارکردنی بە تۆمەتی کووشتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryasthma extends StatelessWidget {
 ١. (ناو) بارودۆخێکی تەندرووستی کە دەبێتەھۆی ھەناسەتوندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have thousands of asthma cases a year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have thousands of asthma cases a year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵانە ھەزاران کەیسی ھەناسەتوندیمان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

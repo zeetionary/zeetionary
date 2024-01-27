@@ -172,12 +172,18 @@ class EnglishEntryavianflu extends StatelessWidget {
 ١. (ناو) ئەنفلۆنزای باڵندە؛ نەخۆشییەکی کوشندە کە تووشی باڵندە، بەتایبەتی مریشک، دەبێت و ئەگەری ھەیە بگوازرێتەوە بۆ مرۆڤ و ببێتەھۆی مردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Veterinarians closely monitored the birds for signs of avian flu."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکی ئاژەڵان بەوردی چاودێری باڵندەکانیان دەکرد بۆ ئاماژەی ئەنفلۆنزای باڵندە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Veterinarians closely monitored the birds for signs of avian flu."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکی ئاژەڵان بەوردی چاودێری باڵندەکانیان دەکرد بۆ ئاماژەی ئەنفلۆنزای باڵندە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

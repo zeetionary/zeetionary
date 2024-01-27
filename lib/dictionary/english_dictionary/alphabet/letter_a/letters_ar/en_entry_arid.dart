@@ -178,10 +178,18 @@ class EnglishEntryarid extends StatelessWidget {
 ١. (ھاوەڵناو) وشک و بێ‌باران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Nothing grows in these arid regions."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nothing grows in these arid regions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ گەشە ناکات لەم ناوچە بێ‌بارانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,10 +211,17 @@ class EnglishEntryarid extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە ھیچی تازە و سەرجڕاکێشی تێدا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I found his writing extremely arid."),
-                              const ExampleSentenceKurdish(
-                                  text: "نووسینەکانی وشک‌بوون بەلامەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I found his writing extremely arid."),
+                                    ExampleSentenceKurdish(
+                                        text: "نووسینەکانی وشک‌بوون بەلامەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +243,18 @@ class EnglishEntryarid extends StatelessWidget {
 ٣. (ھاوەڵناو) سەرکەوتوونەبوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After several arid years, the company has started to become successful."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After several arid years, the company has started to become successful."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای چەند ساڵێکی بێ‌قازانج، کۆمپانیاکە دەستی‌کردووە بە سەرکەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

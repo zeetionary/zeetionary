@@ -169,12 +169,18 @@ class EnglishEntryannul extends StatelessWidget {
 ١. (کردار) بەفەرمی وتنی ئەوەی شتێک لەڕووی یاساییەوە نەناسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their marriage was annulled after just six months."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their marriage was annulled after just six months."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوسەرگیرییەکەیان ھەڵوەشێندرایەوە لە دوای تەنھا شەش مانگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

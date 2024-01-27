@@ -194,12 +194,18 @@ class EnglishEntryamiably extends StatelessWidget {
 ١. (ھاوەڵناو) بەشێوەیەکی ھاوڕێیانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were chatting quite amiably on the phone last night so I assumed everything was okay."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were chatting quite amiably on the phone last night so I assumed everything was okay."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوێنێ شەو بە تەلەفۆن زۆر بە ڕووخۆشانە قسەیان دەکرد، بۆیە وام‌دانا ھەموو شتێک باشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

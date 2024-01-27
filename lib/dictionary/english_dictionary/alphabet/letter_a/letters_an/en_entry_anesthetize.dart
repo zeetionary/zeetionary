@@ -169,12 +169,18 @@ class EnglishEntryanesthetize extends StatelessWidget {
 ١. (کردار) بەنجکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My doctor said I will not need to be anesthetized during the procedure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My doctor said I will not need to be anesthetized during the procedure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکەکەم پێی‌وتم پێویست ناکات لە پڕۆسەکەدا بەنج‌بکرێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

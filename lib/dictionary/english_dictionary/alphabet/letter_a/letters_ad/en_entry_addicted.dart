@@ -127,12 +127,18 @@ class EnglishEntryaddicted extends StatelessWidget {
 ١. (ھاوەڵناو) ئاڵوودەبوون بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It did not take James very long to get addicted to video games."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆری نەبرد بۆ جەیمس بۆ ئەوەی ئاڵوودە بێت بە یارییە ڤیدیۆییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It did not take James very long to get addicted to video games."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆری نەبرد بۆ جەیمس بۆ ئەوەی ئاڵوودە بێت بە یارییە ڤیدیۆییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

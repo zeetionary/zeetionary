@@ -131,12 +131,18 @@ class EnglishEntryallocation extends StatelessWidget {
 ١. (ناو) بڕێک لە شتێک، زۆرجار پارە، کە تەرخان دەکرێت بۆ مەبەستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have spent our entire allocation for the year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have spent our entire allocation for the year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی گوژمەی ئەم ساڵەمان خەرجکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryallocation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The charity is trying to get its allocation increased for next year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The charity is trying to get its allocation increased for next year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخراوە خێرخوازییەکە ھەوڵ دەدات بودجەکەی بۆ ساڵی داھاتوو زیاد بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,11 +195,18 @@ class EnglishEntryallocation extends StatelessWidget {
 ٢. (ناو) کرداری پێدانی بڕێک لە شتێک، زۆرجار پارە، بۆ مەبەستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The allocation of space in this office is unusual."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێدانی شوێن لەم ئۆفیسەدا نامۆیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The allocation of space in this office is unusual."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێدانی شوێن لەم ئۆفیسەدا نامۆیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

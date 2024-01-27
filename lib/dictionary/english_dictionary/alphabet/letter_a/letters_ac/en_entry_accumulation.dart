@@ -131,12 +131,18 @@ class EnglishEntryaccumulation extends StatelessWidget {
 ١. پڕۆسەی خڕبوونەوە بەھێواشی لە ماوەیەکی درێژدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite this accumulation of evidence, the government persisted in doing nothing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوو لەسەر ئەوەی ھیچ نەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite this accumulation of evidence, the government persisted in doing nothing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەڕای زیادبوونی بەڵگە، حکوومەت سووربوو لەسەر ئەوەی ھیچ نەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +159,18 @@ class EnglishEntryaccumulation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Accumulations of sand can be formed by the action of waves on coastal beaches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Accumulations of sand can be formed by the action of waves on coastal beaches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆبوونەوەی خۆڵ ئەکرێت درووستببێت بەھۆی شەپۆل لە کەنار دەریاییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

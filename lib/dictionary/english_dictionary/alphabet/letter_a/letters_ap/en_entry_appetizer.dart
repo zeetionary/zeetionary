@@ -177,12 +177,18 @@ class EnglishEntryappetizer extends StatelessWidget {
 ١. (ناو) کەمێک خواردن یان خواردنەوە کە دەیخۆیت لە پێش ژەمێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some green olives make a simple appetizer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some green olives make a simple appetizer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک زەیتوونی سەوز بەرخۆراکێکی باش دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

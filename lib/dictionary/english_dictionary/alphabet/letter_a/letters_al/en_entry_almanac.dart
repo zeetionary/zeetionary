@@ -130,12 +130,18 @@ class EnglishEntryalmanac extends StatelessWidget {
 ١. (ناو) پەرتووکێک یان سەرچاوەیەکی ئەلیکترۆنی کە ھەموو ساڵێک بڵاودەکرێتەوە بۆ چالاکییەکانی ساڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The almanac says there will be above normal rainfall in the first half of the winter in California."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The almanac says there will be above normal rainfall in the first half of the winter in California."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵنامەکە دەڵێت ئەمساڵ زیاتر لە کاتی ئاسایی باران دەبێت لە نیوەی یەکەمی زستان لە کالیفۆرنیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -126,12 +126,18 @@ class EnglishEntryairlift extends StatelessWidget {
 ١. (ناو) ئۆپەراسیۆنی گواستنەوەی خەڵکی بە فڕۆکە لە ناوچەیەکی مەترسیدار یان لێقەوماو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The German authorities are considering an airlift if the situation becomes critical."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The German authorities are considering an airlift if the situation becomes critical."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەسەڵاتدارانی ئەڵمانیا بیر لە ئۆپەراسیۆنی گواستنەوەی ڕزگارکردن بە فڕۆکە دەکەنەوە لە حاڵەتی خراپبوونی دۆخەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryairlift extends StatelessWidget {
 ٢. (کردار) گواستنەوەی کەسێک بە فڕۆکە لە شوێنێکی مەترسیدار یان لێقەوماو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Over 200 residents were airlifted off the island."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Over 200 residents were airlifted off the island."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە ٢٠٠ کەس لە دوورگەکە بە فڕۆکە ڕزگارکران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

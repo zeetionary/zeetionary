@@ -171,12 +171,18 @@ class EnglishEntryaviary extends StatelessWidget {
 ١. (ناو) قەفەزێکی گەورە بۆ ڕاگرتنت باڵندە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our visitors will find hawks in the aviary."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our visitors will find hawks in the aviary."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەردانکەرانمان دەتوانن ھەڵۆ لە قەفەزی باڵندەکان ببینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

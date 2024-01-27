@@ -125,12 +125,18 @@ class EnglishEntryagm extends StatelessWidget {
 ١. (ناو) کۆبوونەوەی گشتیی ساڵانەی خاوەن پشکەکانی کۆمپانیایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mr Thomson was voted onto the board at the company's AGM two weeks ago."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mr Thomson was voted onto the board at the company's AGM two weeks ago."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێز تۆمسن بۆ دەستەی بەڕێوبەرایەتی کۆمپانیا ھەڵبژێردرا دوو ھەفتە پێش ئێستا لە کۆبوونەوەی ساڵانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

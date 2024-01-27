@@ -112,11 +112,17 @@ class EnglishEntryabsentminded extends StatelessWidget {
 ١. کەسێکە خەیاڵپڵاو کە بیر لە شتی تر دەکاتەوە وەک لەوەی کە لە دەوروبەریەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Grandpa’s becoming quite absent-minded."),
-                              const ExampleSentenceKurdish(
-                                  text: "باپیرە خەریکە خەیاڵپڵاو دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Grandpa’s becoming quite absent-minded."),
+                                    ExampleSentenceKurdish(
+                                        text: "باپیرە خەریکە خەیاڵپڵاو دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

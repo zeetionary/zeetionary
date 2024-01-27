@@ -176,12 +176,18 @@ class EnglishEntryarterial extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە خوێنبەرەکانی لەشی مرۆڤ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These symptoms are often the first evidence of arterial disease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These symptoms are often the first evidence of arterial disease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم نیشانانە زۆرجار سەلمێنەری سەرەتایی نەخۆشییە لە خوێنبەرەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

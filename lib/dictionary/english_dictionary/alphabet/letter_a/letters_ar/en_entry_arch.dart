@@ -180,12 +180,18 @@ class EnglishEntryarch extends StatelessWidget {
 ١. (ناو) کەوانەیەک کە زۆرجار لەژێر پردێک درووست دەکرێت بۆ کەمکردنەوەی ئەگەری ڕووخانی پردەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bridge they built over the river has three arches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bridge they built over the river has three arches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو پردەی بەسەر ڕووبارەکەدا درووستیان‌کرد سێ قەوسی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryarch extends StatelessWidget {
 ٢. (ناو) بینایەک کە لە سەرەوە قەوسێکی تێدایە و لاکانی ستوونین، و ھەندێک جار لە دەروازەی بینایەک درووست‌دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Go through the arch and follow the path."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Go through the arch and follow the path."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەوانەکەدا بچۆ ژوورەوە و بە ڕێگاکەدا بەردەوام‌ بە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,10 +246,16 @@ class EnglishEntryarch extends StatelessWidget {
 ٣. (ناو) بەشی ناوەڕاستی پێ لە خوارەوە کە بەرەو سەرەوە وەک قەوسێکی بچووک بەرزبووەتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She has very high arches."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەوانەی پێی زۆر بەرزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She has very high arches."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەوانەی پێی زۆر بەرزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +277,18 @@ class EnglishEntryarch extends StatelessWidget {
 ٤. (ناو) ھەر شتێک کە شێوەی کەوانەیی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The branches of the trees formed an arch over the bench."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The branches of the trees formed an arch over the bench."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لقی دارەکان قەوسێکیان درووستکردبوو بەسەر کورسییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,10 +310,18 @@ class EnglishEntryarch extends StatelessWidget {
 ٥. (کردار) درووستکردنی کەوانەیەک بە جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The cat arched its back and hissed."),
-                              const ExampleSentenceKurdish(
-                                  text: "پشیلەکە پشتی چەماندەوە و فساندی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cat arched its back and hissed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشیلەکە پشتی چەماندەوە و فساندی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -311,11 +343,18 @@ class EnglishEntryarch extends StatelessWidget {
 ٦. (کردار) وەرگرتنی شێوەی کەوانەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tall trees arched over the path."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tall trees arched over the path."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دارە بەرزەکان کەوانەیەکیان بەسەر ڕێگاکەدا درووستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -337,12 +376,18 @@ class EnglishEntryarch extends StatelessWidget {
 ٧. (ھاوەڵناو) ھەستکردن بە دڵخۆشی چونکە زیاتر لە خەڵکی تر دەزانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Using an arch tone doesn't always mean being mean; it can add humor to discussions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Using an arch tone doesn't always mean being mean; it can add humor to discussions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قسەکردن بە دەنگێکی لەخۆڕازییانە ھەمیشە بۆ ئەوە نییە کەسی دیکە تووڕە بکەیت؛ ئەکرێت خۆشی بە گفتوگۆ بدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryaccustomto extends StatelessWidget {
 ١. (کاری لێکدراو) خۆگونجاندن لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It took him a while to accustom himself to the idea."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It took him a while to accustom himself to the idea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماوەیەکی پێچوو تا خۆی بە بیرۆکەکە ڕابێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryaccustomto extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Education should accustom children to thinking for themselves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Education should accustom children to thinking for themselves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندن دەبێت منداڵان ڕابێنێت لەسەر بیرکردنەوەی خۆیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

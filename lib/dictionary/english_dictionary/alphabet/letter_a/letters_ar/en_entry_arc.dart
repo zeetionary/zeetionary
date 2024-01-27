@@ -178,12 +178,18 @@ class EnglishEntryarc extends StatelessWidget {
 ١. (ناو) ھێڵێکی کەوانەیی کە بەشێکە لە بازنەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ball rose in a high arc and fell behind the boundary line."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ball rose in a high arc and fell behind the boundary line."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپەکە لە شێوەی کەوانەیەک بەرزبوویەوە و چووە دەرەوەی یاریگاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryarc extends StatelessWidget {
 ٢. (ناو) شێوە کەوانەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were firing shells in a high arc over our heads."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were firing shells in a high arc over our heads."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوللە تۆپیان ھەڵدەدا بەسەرماندا لە شێوەی کەوانەیەکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryarc extends StatelessWidget {
 ٣. (ناو) چیرۆکی سەرەکیی ڕۆمانێک، یان چیرۆکی یەکێک لە کارەکتەرەکانی ڕۆمانێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The father has the most interesting character arc in the series."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The father has the most interesting character arc in the series."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

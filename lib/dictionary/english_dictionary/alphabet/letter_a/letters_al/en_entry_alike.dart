@@ -147,12 +147,18 @@ class EnglishEntryalike extends StatelessWidget {
 ١. (ھاوەڵکار) وەک یەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They tried to treat all their children alike."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They tried to treat all their children alike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیان دا وەک یەک مامەڵە لەگەڵ منداڵەکانیان بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -173,12 +179,18 @@ class EnglishEntryalike extends StatelessWidget {
 ٢. (ھاوەڵکار) بە یەکسان بۆ ھەردوولا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Good management benefits employers and employees alike."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Good management benefits employers and employees alike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوەبردنی باش سوود بە خاوەنکاران و کرێکاران دەگەیەنێت بە یەکسانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +211,17 @@ class EnglishEntryalike extends StatelessWidget {
 ٢. (ھاوەڵناو) لێکچوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Airports are all alike to me."),
-                              const ExampleSentenceKurdish(
-                                  text: "فڕۆکەخانەکان ھەموو وەکیەکن بۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Airports are all alike to me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەخانەکان ھەموو وەکیەکن بۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

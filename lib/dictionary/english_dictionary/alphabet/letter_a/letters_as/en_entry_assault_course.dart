@@ -177,12 +177,18 @@ class EnglishEntryassaultcourse extends StatelessWidget {
 ١. (ناو) گۆڕەپانی مەشقی سەربازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The recruits struggled to complete the assault course, but they were determined to succeed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تازەسەربازان بەئاستەنگ توانیان مەشقەکە تەواو بکەن، بەڵام سووربوون لەسەر سەرکەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The recruits struggled to complete the assault course, but they were determined to succeed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تازەسەربازان بەئاستەنگ توانیان مەشقەکە تەواو بکەن، بەڵام سووربوون لەسەر سەرکەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

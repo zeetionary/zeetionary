@@ -121,12 +121,18 @@ class EnglishEntryaccord extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێکی فەرمی نێوان دوو وڵات/دامەزراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two sides signed a peace accord last July."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two sides signed a peace accord last July."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو لا ڕێککەوتنێکی ئاشتییان واژۆکرد لە تەممووزی ڕابردوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryaccord extends StatelessWidget {
 ٢. (کردار) پێدانی گرنگی تایبەت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our society accords great importance to the family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our society accords great importance to the family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمەڵگاکەمان گرنگی تایبەت دەدات بە خێزان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryaged extends StatelessWidget {
 ١. (ھاوەڵناو) لە تەمەنێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have two children aged six and nine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have two children aged six and nine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو منداڵیان ھەیە کە تەمەنیان شەش و نۆ ساڵانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryaged extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر پیر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I’m not sure if my aged car can make it up that hill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I’m not sure if my aged car can make it up that hill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیانیم کە ئەم ئۆتۆمبێلە کۆنەم بتوانێ بەو گردەدا بچێتە سەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -182,12 +194,18 @@ class EnglishEntryaged extends StatelessWidget {
 ٣. (ھاوەڵناو) کەسانی زۆر پیر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hospital was built to meet the needs of the aged."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hospital was built to meet the needs of the aged."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشخانەکە بنیادنرا بۆ دابینکردنی پێداویستییەکانی کەسانی بەتەمەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

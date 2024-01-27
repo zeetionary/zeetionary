@@ -179,12 +179,18 @@ class EnglishEntryaugusttwo extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی گرنگی زۆر و لە بەرزترین ئاستی کۆمەڵگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had dared to challenge the views of an august body of imperial historians."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had dared to challenge the views of an august body of imperial historians."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntryancestral extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە باوانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had long planned to visit the family's ancestral homeland in the Philippines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had long planned to visit the family's ancestral homeland in the Philippines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماوەیەکی زۆر بوو پلانیان بوو سەردانی نیشتیمانی باوانیان بکەن کە لە فلیپین بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

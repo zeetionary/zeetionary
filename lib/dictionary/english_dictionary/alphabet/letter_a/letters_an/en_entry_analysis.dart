@@ -172,12 +172,18 @@ class EnglishEntryanalysis extends StatelessWidget {
 ١. (ناو) توێژینەوەی ورد لەسەر شتێک بۆ زیاتر تێگەشتن لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Further analysis revealed significant regional variations in the results."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Further analysis revealed significant regional variations in the results."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوەی زیاتر جیاوازیی بەرچاوی ھەرێمی لە ئەنجامەکان دەرخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryanalysis extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We made the decision based on our analysis of the situation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیارەکەمان‌دا لە دوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We made the decision based on our analysis of the situation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارەکەمان‌دا لە دوای لەبەرچاوگرتنی لێکدانەوەمان بۆ بارودۆخەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -224,12 +236,18 @@ class EnglishEntryanalysis extends StatelessWidget {
 ٢. (ناو) لێکۆڵینەوەی ورد لە شتێک بۆ ئەوەی بزانی لە چی پێکھاتووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The blood samples are sent to the laboratory for analysis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The blood samples are sent to the laboratory for analysis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سامپڵەکانی خوێنەکە نێردران بۆ تاقیگە بۆ لێکۆڵینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

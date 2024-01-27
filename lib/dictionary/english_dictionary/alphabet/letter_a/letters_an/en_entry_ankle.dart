@@ -170,12 +170,18 @@ class EnglishEntryankle extends StatelessWidget {
 ١. (ناو) ئەو بەشەی جەستە کە پێ و لاق پێکەوە دەبەستێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She suffered a serious ankle injury in training."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She suffered a serious ankle injury in training."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی گورزێکی کوشندە بوو لە قولەپێ‌یدا لە کاتی ڕاھێنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,10 +201,16 @@ class EnglishEntryankle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My ankles have swollen."),
-                              const ExampleSentenceKurdish(
-                                  text: "قولەپێ‌یەکانم ئاوساون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My ankles have swollen."),
+                                    ExampleSentenceKurdish(
+                                        text: "قولەپێ‌یەکانم ئاوساون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntryannexation extends StatelessWidget {
 ١. (ناو) داگیرکاری؛ جۆنترۆڵ‌کردنی وڵاتێک بە ھێز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He mentioned the Japanese annexation of Korea in 1910."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He mentioned the Japanese annexation of Korea in 1910."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داگیرکاریی ژاپۆنی بۆسەر کۆریا لە ساڵی ١٩١٠ ناوھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryannexation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The country's annexation of its neighbour caused an outcry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The country's annexation of its neighbour caused an outcry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داگیرکاریی وڵاتەکە بۆسەر دراوسێکەی کاردانەوەی توندی بەدودا ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

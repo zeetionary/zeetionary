@@ -180,12 +180,18 @@ class EnglishEntryattendant extends StatelessWidget {
 ١. (ناو) کەسێک کە یارمەتی یان خزمەتی خەڵکی تر دەکات لە شوێنێکی گشتیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Pool attendants kept a constant watch on the swimmers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pool attendants kept a constant watch on the swimmers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارمەندانی مەلەوانگەکە بەردەوام چاویان لەسەر مەلەکەرەکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryattendant extends StatelessWidget {
 ٢. (ناو) پەیوەندیدار بەو شتەی باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are too many risks attendant on such a large investment of money."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are too many risks attendant on such a large investment of money."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕیسکی زۆر ھەیە لەگەڵ خستنە بەرھەمھێنانی پارەیەکی وەھا زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

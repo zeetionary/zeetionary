@@ -128,11 +128,17 @@ class EnglishEntryaffectionate extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی خاسیەتی ھەست و سۆز پیشاندان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is very affectionate towards his children."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر بەسۆزە لەگەڵ منداڵەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is very affectionate towards his children."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر بەسۆزە لەگەڵ منداڵەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

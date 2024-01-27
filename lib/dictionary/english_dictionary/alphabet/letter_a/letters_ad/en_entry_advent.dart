@@ -127,12 +127,18 @@ class EnglishEntryadvent extends StatelessWidget {
 ١. (ناو) گەشتنی کەسێک، بۆنەیەک، یان داھێنانێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Before the advent of the railways, communications were slow and difficult."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Before the advent of the railways, communications were slow and difficult."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێش داھێنانی سکەی ئاسنین، پەیوەندیکردن زۆر سەخت بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

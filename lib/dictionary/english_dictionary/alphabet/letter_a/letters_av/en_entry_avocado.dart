@@ -171,12 +171,18 @@ class EnglishEntryavocado extends StatelessWidget {
 ١. (ناو) میوەیەک کە تویکڵێکی سەختی سەوزی کاڵی ھەیە لەگەڵ ناوێکی نەرمی سەوزی ڕۆشن کە شیرین نییە و تۆوێکی گەورەی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Half an avocado contains about 160 calories."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Half an avocado contains about 160 calories."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیوەی ئەڤۆکادۆیەک نزیکەی ١٦٠ کالۆری تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

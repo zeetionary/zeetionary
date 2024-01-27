@@ -170,10 +170,16 @@ class EnglishEntryanemic extends StatelessWidget {
 ١. (ھاوەڵناو) تووشبوو بە کەم‌خوێنی و لاوازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looks anemic."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەم‌خوێن دیارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She looks anemic."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەم‌خوێن دیارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +201,18 @@ class EnglishEntryanemic extends StatelessWidget {
 ٢. (ھاوەڵناو) بێ‌ھێز و بێ‌کاریگەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both actors gave fairly anemic performances."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both actors gave fairly anemic performances."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو ئەکتەرەکە تاڕادەیەک نمایشی لاوازیان پێشکەش‌کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

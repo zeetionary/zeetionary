@@ -154,12 +154,18 @@ class EnglishEntryactually extends StatelessWidget {
 ١. (ھاوەڵکار) بەکاردێت بۆ پیشاندانی ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are lots of people there who can actually help you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are lots of people there who can actually help you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر خەڵک ھەن لەوێ کە بەڕاستی دەتوانن یارمەتیت بدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -178,12 +184,18 @@ class EnglishEntryactually extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The book was never actually published."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The book was never actually published."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبەکە لەڕاستیدا ھەرگیز بڵاونەکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +216,18 @@ class EnglishEntryactually extends StatelessWidget {
 ٢. (ھاوەڵکار) بەکاردێت بۆ وتنی ڕاستی بابەتێک و بەراوردکردنی لەگەڵ باوەڕی کەسێک لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The food was not actually all that expensive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The food was not actually all that expensive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەڕاستیدا خواردنەکە ئەوەنەش گران نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +248,18 @@ class EnglishEntryactually extends StatelessWidget {
 ٣. (ھاوەڵکار) بەکاردێت بۆ بە ڕێزەوە ڕاستکردنەوەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We're not American, actually. We're Canadian."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We're not American, actually. We're Canadian."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێمە ئەمریکی نین لەڕاستیدا. ئێمە کەنەدین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

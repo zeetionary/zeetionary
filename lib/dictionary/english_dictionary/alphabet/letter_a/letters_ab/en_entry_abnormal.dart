@@ -121,11 +121,17 @@ class EnglishEntryabnormal extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە جیاوازە لە شێوازی ئاسایی، بەتایبەت شتێک کە جێگەی نیگەرانییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "abnormal levels of sugar in the blood"),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێژەی نائاسایی شەکر لە خوێندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "abnormal levels of sugar in the blood"),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕێژەی نائاسایی شەکر لە خوێندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -142,12 +148,18 @@ class EnglishEntryabnormal extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They thought his behaviour was abnormal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They thought his behaviour was abnormal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -164,12 +176,18 @@ class EnglishEntryabnormal extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ship was blown off course by abnormal weather conditions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ship was blown off course by abnormal weather conditions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

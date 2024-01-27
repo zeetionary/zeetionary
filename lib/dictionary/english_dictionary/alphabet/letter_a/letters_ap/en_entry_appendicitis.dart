@@ -177,12 +177,18 @@ class EnglishEntryappendicitis extends StatelessWidget {
 ١. (ناو) دۆخێکی تەندرووستی کە تێیدا پەلەڕیخۆڵە تووشی ئازار و ھەوکردن دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor has cured numerous people of appendicitis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor has cured numerous people of appendicitis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە ژمارەیەکی زۆر نەخۆشی ھەوکردنی پەلەڕیخۆڵەی چارەسەرکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

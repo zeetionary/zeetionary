@@ -251,12 +251,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ١. (ناو) ڕێگای مامەڵەکردن لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She took the wrong approach in her dealings with them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She took the wrong approach in her dealings with them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگایەکی ھەڵەی گرتە بەر بۆ مامەڵەکردن لەگەڵیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,12 +282,18 @@ class EnglishEntryapproach extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The approach they were using no longer seemed to work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The approach they were using no longer seemed to work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ڕێگایەی بەکاریان دەھێنا چی دیکە گونجاو نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -303,12 +315,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٢. (ناو) نزیکبوونەوە لە شتێک لەڕووی دورییەوە یان کات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They felt apprehensive about the approach of war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They felt apprehensive about the approach of war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نیگەران‌بوون سەبارەت بە نزیکبوونەوە لە جەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -328,12 +346,18 @@ class EnglishEntryapproach extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children fell silent at the approach of their teacher."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children fell silent at the approach of their teacher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان بێ‌دەنگ بوون بە نزیکبوونەوەی مامۆستاکەیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -355,12 +379,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٣. (ناو) قسەکردن لەگەڵ کەسێک سەبارەت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The club has made an approach to a local company for sponsorship."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The club has made an approach to a local company for sponsorship."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یانەکە قسەی لەگەڵ کۆمپانیایەکی ناوخۆیی کردووە بۆ ڕیکلام‌کردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -382,12 +412,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٤. (ناو) ھەوڵدان بۆ دەستپێکردنی پەیوەندی لەگەڵ کەسێک، بۆ نموونە پەیوەندی سێکسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She resented his persistent approaches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She resented his persistent approaches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرھەڵستی نزیکبوونەوە پێ‌داگیرەکانیی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,12 +445,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٥. (ناو) ڕێگای گەشتن بە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the approaches to the palace were guarded by troops."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the approaches to the palace were guarded by troops."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ڕێگاکانی گەشتن بە کۆشکەکە لەلایەن سەربازەکانەوە پاسەوانی دەکران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -436,12 +478,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٦. (ناو) کۆتا قۆناغی گەشتێکی فڕۆکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please fasten your seat belts, the plane is now making its final approach (in)to (= is coming near to and preparing to land at) Heathrow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please fasten your seat belts, the plane is now making its final approach (in)to (= is coming near to and preparing to land at) Heathrow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە پشتێنی سەلامەتی ببەستن، فڕۆکەکە ئێستا کۆتا فڕینی ئەنجام‌دەدا بۆ فڕۆکەخانەی ھیسرۆو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -463,11 +511,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٧. (کردار) نزیکبوونەوە لە کەسێک/شتێک لە کاتدا یان بەپێی دووری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We could hear the train approaching."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We could hear the train approaching."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوێمان لە دەنگی نزیکبوونەوەی شەمەندەفەرەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -487,10 +542,16 @@ class EnglishEntryapproach extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Winter is approaching."),
-                              const ExampleSentenceKurdish(
-                                  text: "زستان خەریکە نزیک‌دەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Winter is approaching."),
+                                    ExampleSentenceKurdish(
+                                        text: "زستان خەریکە نزیک‌دەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -512,12 +573,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٨. (کردار) نزیکبوونەوە لە کەسێک/شتێک لە کاتدا یان بەپێی دووری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزدەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'd like to ask his opinion but I find him difficult to approach (= not easy to talk to in a friendly way)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزدەکەم بۆچوونی بخوازم، بەڵام نزیکبوونەوە لێی بە ئاسان نابینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -539,11 +606,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ٩. (کردار) نزیکبوونەوە لە شتێک لە ڕووی بڕ، ئاست، یان کوالێتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Interest rates are approaching zero."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Interest rates are approaching zero."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی سوو خەریکە نزیک لە سفر دەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -565,12 +639,18 @@ class EnglishEntryapproach extends StatelessWidget {
 ١٠. (کردار) دەستکردن بە مامەڵەکردن لەگەڵ کێشەیەک یان ئەرکێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What's the best way to approach this problem?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What's the best way to approach this problem?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین ڕێگا چییە بۆ مامەڵەکردن لەگەڵ ئەم کێشەیە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

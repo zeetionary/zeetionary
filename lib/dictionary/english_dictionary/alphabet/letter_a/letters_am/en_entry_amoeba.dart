@@ -128,12 +128,18 @@ class EnglishEntryamoeba extends StatelessWidget {
 ١. (ناو) زیندەوەرێکی سەرەتایی کە لە یەک خانە پێکھاتووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is studying the ecology of amoeba."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is studying the ecology of amoeba."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوە دەکات لەسەر ژینگەناسیی ئەمیبا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

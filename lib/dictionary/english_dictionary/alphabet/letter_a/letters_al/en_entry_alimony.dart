@@ -129,12 +129,18 @@ class EnglishEntryalimony extends StatelessWidget {
 ١. (ناو) پارەیەک کە دەیدەیت بە ھاوژینەکەت کەدوای جیابوونەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has to pay alimony to his ex-wife."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە نەفەقە بدات بە ھاوسەری پێشووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has to pay alimony to his ex-wife."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە نەفەقە بدات بە ھاوسەری پێشووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -104,12 +104,19 @@ class EnglishEntryabhorrence extends StatelessWidget {
 ١. (ناو) ڕقێک کە ھەتە بۆ شتێک بەھۆی ئەوەی نەگونجاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had an abhorrence of waste of any kind."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had an abhorrence of waste of any kind."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

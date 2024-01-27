@@ -121,12 +121,18 @@ class EnglishEntryabrasive extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cleaner has a mildly abrasive action."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cleaner has a mildly abrasive action."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryabrasive extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Throughout his career he was known for his abrasive manner."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Throughout his career he was known for his abrasive manner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

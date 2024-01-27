@@ -177,12 +177,18 @@ class EnglishEntryarbitration extends StatelessWidget {
 ١. (ناو) پڕۆسەی دادوەری‌کردن لە ناکۆکی نێوان دوو لایەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Both sides in the dispute have agreed to go to arbitration."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Both sides in the dispute have agreed to go to arbitration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردوو لا ڕازی‌بوونە پەنا ببەنەبەر دادوەری‌کردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

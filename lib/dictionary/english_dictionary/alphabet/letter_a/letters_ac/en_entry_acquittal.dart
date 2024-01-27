@@ -127,10 +127,18 @@ class EnglishEntryacquittal extends StatelessWidget {
 ١. (ھاوەڵناو) ناساندنی گومانلێکراوێک لە دادگا بە بێ گوناح"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The case resulted in an acquittal."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەیسەکە بە لێخۆشبوون کۆتایی ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The case resulted in an acquittal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەیسەکە بە لێخۆشبوون کۆتایی ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

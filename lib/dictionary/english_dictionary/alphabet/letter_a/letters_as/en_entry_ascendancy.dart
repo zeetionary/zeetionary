@@ -180,12 +180,18 @@ class EnglishEntryascendancy extends StatelessWidget {
 ١. (ناو) ھەبوونی دەسەڵات یان ھێز بەسەر کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Manchester United gained the ascendancy after half-time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Manchester United gained the ascendancy after half-time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مانچستەر یونایتید یارییەکەی کۆنترۆڵ کرد لە دوای گێمی یەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryascendancy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The opposition party was in the ascendancy (= gaining control)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The opposition party was in the ascendancy (= gaining control)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارتی ئۆپۆزیسیۆن دەسەڵاتی زیادی‌دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryascendancy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new CEO quickly gained ascendancy over the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new CEO quickly gained ascendancy over the company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرە تازەکە بەزوویی دەسەڵاتی بەسەر کۆمپانیایەکەدا سەپاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

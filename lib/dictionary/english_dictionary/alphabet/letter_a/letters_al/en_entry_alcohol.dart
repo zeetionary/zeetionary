@@ -130,12 +130,18 @@ class EnglishEntryalcohol extends StatelessWidget {
 ١. (ناو) خواردنەوەی وەک بیرە و شەراب کە دەبێتەھۆی سەرخۆش بوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was unable to overcome his addiction to alcohol."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was unable to overcome his addiction to alcohol."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیدەتوانی زاڵ ببێت بەسەر ئاڵوودەیی بە کحوول."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,10 +162,17 @@ class EnglishEntryalcohol extends StatelessWidget {
 ٢. (ناو) ئەو مادە شلەییەی کە لە خواردنەوەکانی وەک بیرە و شەرابدا ھەیە و بەکاردێت لە دەرمان و بەرھەمەکانی پاککردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Wine contains about 10% alcohol."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیرە ڕێژەی ١٠٪ کحولی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Wine contains about 10% alcohol."),
+                                    ExampleSentenceKurdish(
+                                        text: "بیرە ڕێژەی ١٠٪ کحولی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

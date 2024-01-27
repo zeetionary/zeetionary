@@ -129,12 +129,18 @@ class EnglishEntryalkali extends StatelessWidget {
 ١. (ناو) مادەیەکی کیمیایی کە لەگەڵ ترشەڵۆک کارلێک دەکات بۆ درووستکردنی خوێ و ڕەنووسی ھایدرۆجینی بەرزتر دەبێت لە حەوت کە لە ئاودا دەتوێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When an acid and an alkali react together the result is a salt and water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When an acid and an alkali react together the result is a salt and water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک ترش و تفت کارلێک دەکەن خوێ و ئاو درووست دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -125,12 +125,18 @@ class EnglishEntryabort extends StatelessWidget {
 ١. (کردار) کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She aborted the child due to health issues."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She aborted the child due to health issues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -149,12 +155,18 @@ class EnglishEntryabort extends StatelessWidget {
 ٢. (کردار) منداڵبوونی پێشوەختە بەجۆرێک کە منداڵەکە ڕزگاری نەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The virus can cause pregnant animals to abort."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The virus can cause pregnant animals to abort."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -173,12 +185,18 @@ class EnglishEntryabort extends StatelessWidget {
 ٣. (کردار) کۆتاییپێھێنان بە شتێک پێش ئەوەی تەواو بێت، زۆرجار بەھۆی ئەوەی شکستی دەھێنا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plan was aborted at the last minute."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plan was aborted at the last minute."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,12 +172,18 @@ class EnglishEntryawareness extends StatelessWidget {
 ١. (ھاوەڵناو) ئاگاداری سەبارەت بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There seems to be a general awareness that this is not the solution."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There seems to be a general awareness that this is not the solution."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryawareness extends StatelessWidget {
 ٢. (ھاوەڵناو) حەز و گرنگی بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The group is trying to raise public awareness about homelessness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The group is trying to raise public awareness about homelessness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

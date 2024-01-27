@@ -114,12 +114,18 @@ class EnglishEntryabsolutemajority extends StatelessWidget {
 ١. زیاتر لە نیوەی دەنگدەران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "280 seats are needed for an absolute majority in the National Assembly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "280 seats are needed for an absolute majority in the National Assembly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

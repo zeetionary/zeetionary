@@ -127,12 +127,18 @@ class EnglishEntryadhoc extends StatelessWidget {
 ١. (ھاوەڵناو) ڕوودان لە ھەر کاتێکدا کە پێویست بکات، نەک بە پلانی پێشوەختە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The meetings will be held on an ad hoc basis."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The meetings will be held on an ad hoc basis."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆبوونەوەکان ڕێکدەخرێن ھەرکە پێویست بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,10 +159,17 @@ class EnglishEntryadhoc extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ مەبەستێکی تایبەت، نەک بەشێوەیەکی گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The decisions were made ad hoc."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕیارەکان گەرماوگەرم  دران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The decisions were made ad hoc."),
+                                    ExampleSentenceKurdish(
+                                        text: "بڕیارەکان گەرماوگەرم  دران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

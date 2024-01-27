@@ -129,10 +129,18 @@ class EnglishEntrytheaccused extends StatelessWidget {
 ١. (ناو) کەسێک کە لە دادگا گومانلێکراوە بە تاوانێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The accused was found innocent."),
-                              const ExampleSentenceKurdish(
-                                  text: "گومانلێکراو بە بێتاوان ناسێندرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The accused was found innocent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گومانلێکراو بە بێتاوان ناسێندرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,11 +158,18 @@ class EnglishEntrytheaccused extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "All the accused have pleaded guilty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the accused have pleaded guilty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو گومانلێکراوان دانیان بە تاوانەکەدا نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

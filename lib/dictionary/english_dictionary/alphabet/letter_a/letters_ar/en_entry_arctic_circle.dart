@@ -178,12 +178,18 @@ class EnglishEntryarcticcircle extends StatelessWidget {
 ١. (ناو) ھێڵی درێژی سەروو ٧٠ پلەی باکوور کە دەوری خولگەی جەمسەری باکوور دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Soviet Union tested atomic bomb in Arctic Circle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Soviet Union tested atomic bomb in Arctic Circle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێتیی سۆڤییەت چەکی ئەتۆمی لە خولگەی جەمسەری باکوور تاقیدەکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

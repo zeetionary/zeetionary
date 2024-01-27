@@ -179,12 +179,18 @@ class EnglishEntryaudition extends StatelessWidget {
 ١. (ناو) کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Auditions will be held from 9–12 on Friday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Auditions will be held from 9–12 on Friday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,11 +212,18 @@ class EnglishEntryaudition extends StatelessWidget {
 ٢. (کردار) پیشاندانی کورتە نمایشێک لەلایەن ئەکتەرێک یان گۆرانیبێژێک بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was auditioning for the role of Lady Macbeth."),
-                              const ExampleSentenceKurdish(
-                                  text: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was auditioning for the role of Lady Macbeth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +245,18 @@ class EnglishEntryaudition extends StatelessWidget {
 ٣. (کردار) بەژداریکردن وەک دادوەرێک بۆ بڕیاردان لە کورتە نمایشێک کە لەلایەن ئەکتەرێک یان گۆرانیبێژێکەوە پێشکەش دەکرێت بۆ ئەوەی بڕیار لەسەر تواناکانیان بدرێت بۆ بەژداری لە بەرھەمێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We auditioned over 200 children for the part."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We auditioned over 200 children for the part."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

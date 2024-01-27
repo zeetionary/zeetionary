@@ -133,12 +133,18 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
 ١. (ناو) کەسێک کە بە ڕادیۆ ڕێنمایی دەدات بە فڕۆکەوانان بۆ ئەوەی بزانن لە کوێ بفڕن و بنیشنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ron Connolly sometimes had to function on four hours of sleep or less when he worked as an air traffic controller."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆن کۆنۆڵی پێویست بوو چوار کاتژمێر یان کەمتر بخەوێت کاتێک وەک کۆنترۆڵوانی فڕۆکە کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

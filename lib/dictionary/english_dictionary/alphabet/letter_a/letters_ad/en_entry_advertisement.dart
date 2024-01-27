@@ -129,12 +129,18 @@ class EnglishEntryadvertisement extends StatelessWidget {
 ١. (ناو) بڵاونامەیەک کە ئاگادارییەک، وێنەیەک، یان ڤیدیۆیەکە کە بانگەشە بۆ شتێک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can place an advertisement on a website."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانی ڕیکلامەکە بخەیتە سەر وێبسایتێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can place an advertisement on a website."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانی ڕیکلامەکە بخەیتە سەر وێبسایتێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryadvertisement extends StatelessWidget {
 ٢. (ناو) نموونەیەک کە لایەنە باشەکانی شتێک پیشان دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm afraid I'm not a very good advertisement for the diet since I've actually put on weight!"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەداخەوەم کە من نموونەیەکی باش نیم بۆ ژەمە خۆراکییەکە بەھۆی ئەوەی کێشم زیادی کردووە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm afraid I'm not a very good advertisement for the diet since I've actually put on weight!"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەداخەوەم کە من نموونەیەکی باش نیم بۆ ژەمە خۆراکییەکە بەھۆی ئەوەی کێشم زیادی کردووە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntryanarchy extends StatelessWidget {
 ١. (ناو) پاشاگەردانی؛ بارودۆخێک کە تێیدا کەس‌بە‌کەس نییە و حکومەت بوونی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The overthrow of the military regime was followed by a period of anarchy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لادانی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The overthrow of the military regime was followed by a period of anarchy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لادانی ڕژێمە سەربازییەکە ماوەیەک لە پاشاگەردانی بەدوادا ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryanarchy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was complete anarchy in the classroom when their usual teacher was away."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was complete anarchy in the classroom when their usual teacher was away."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرکەس بۆخۆی بوو لە پۆلەکەدا کاتێک مامۆستاکەی خۆیان لەوێ نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

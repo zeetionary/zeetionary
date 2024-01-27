@@ -171,12 +171,18 @@ class EnglishEntryanthropology extends StatelessWidget {
 ١. (ناو) زانستی لێکۆڵینەوە لە مێژووی مرۆڤایەتی، بەتایبەتی سەرچاوە و گەشە و نەریت و باوەڕەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Social anthropology examines family relationships in detail."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Social anthropology examines family relationships in detail."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مرۆڤ‌ناسیی کۆمەڵایەتی بەوردی لێکۆڵینەوە دەکات لە پەیوەندیی خێزانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

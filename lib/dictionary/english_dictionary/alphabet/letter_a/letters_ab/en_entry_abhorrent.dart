@@ -103,13 +103,19 @@ class EnglishEntryabhorrent extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Racism is abhorrent to a civilized society."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Racism is abhorrent to a civilized society."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -181,12 +181,18 @@ class EnglishEntryastronomical extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ئەستێرەناسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The astronomical observatory is located on a mountaintop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The astronomical observatory is located on a mountaintop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,10 +215,16 @@ class EnglishEntryastronomical extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The costs were astronomical."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەرجییەکان زۆر زۆربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The costs were astronomical."),
+                                    ExampleSentenceKurdish(
+                                        text: "خەرجییەکان زۆر زۆربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

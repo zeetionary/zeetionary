@@ -176,11 +176,18 @@ class EnglishEntryarmpit extends StatelessWidget {
 ١. (ناو) بن‌باڵ؛ بەشی خوارەوەی جومگەی شان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "To my mind, a hairless armpit looks unnatural."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ من، بن‌باڵی بێ موو نا سرووشتییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "To my mind, a hairless armpit looks unnatural."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ من، بن‌باڵی بێ موو نا سرووشتییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

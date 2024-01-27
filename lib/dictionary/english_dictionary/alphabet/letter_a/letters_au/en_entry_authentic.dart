@@ -181,12 +181,18 @@ class EnglishEntryauthentic extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ڕاستە و ساختە نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't know if the painting is authentic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیاریم نییە ئاخۆ کە تابلۆکە ڕەسەنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't know if the painting is authentic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیاریم نییە ئاخۆ کە تابلۆکە ڕەسەنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryauthentic extends StatelessWidget {
 ٢. (ھاوەڵناو) ڕاست و درووست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوەی شەکەتکەری مێژوونووسان ئەنجامەکەی تێگەشتنێکی درووست بوو بۆ ئەو ڕووداوانەی کە گەشتن بە شۆڕشەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The historian's painstaking research resulted in an authentic understanding of the events leading up to the revolution."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوەی شەکەتکەری مێژوونووسان ئەنجامەکەی تێگەشتنێکی درووست بوو بۆ ئەو ڕووداوانەی کە گەشتن بە شۆڕشەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryauthentic extends StatelessWidget {
 ٣. (ھاوەڵناو) درووستکراو بۆ ئەوەی ھاوشێوەی تەواوی یەکێکی تر بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The architect's design for the new building was an authentic reproduction of a 19th-century house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیزاینی تەلارسازەکە بۆ بینا تازەکە کۆپپیەکی تەواوی خانوویەکی سەدەی ١٩ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The architect's design for the new building was an authentic reproduction of a 19th-century house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیزاینی تەلارسازەکە بۆ بینا تازەکە کۆپپیەکی تەواوی خانوویەکی سەدەی ١٩ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

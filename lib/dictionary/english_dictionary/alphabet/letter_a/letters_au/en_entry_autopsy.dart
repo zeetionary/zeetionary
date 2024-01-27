@@ -171,11 +171,18 @@ class EnglishEntryautopsy extends StatelessWidget {
 ١. (ناو) توێکاری لەشی مردوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The autopsy revealed that he had been poisoned."),
-                              const ExampleSentenceKurdish(
-                                  text: "توێکارییەکە دەریخست ژەھرخواردکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The autopsy revealed that he had been poisoned."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێکارییەکە دەریخست ژەھرخواردکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

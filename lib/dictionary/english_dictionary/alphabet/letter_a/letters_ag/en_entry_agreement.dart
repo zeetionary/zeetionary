@@ -154,12 +154,18 @@ class EnglishEntryagreement extends StatelessWidget {
 ١. (ناو) ڕێککەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had an agreement never to talk about work at home."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had an agreement never to talk about work at home."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنێکیان ھەبوو کە ھەرگیز لە ماڵەوە باسی کار نەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -178,12 +184,18 @@ class EnglishEntryagreement extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The agreement (= the document recording the agreement) was signed during a meeting at the UN."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The agreement (= the document recording the agreement) was signed during a meeting at the UN."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنەکە واژۆکرا لە کۆبوونەوەیەکدا لە نەتەوە یەکگرتووەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,10 +216,16 @@ class EnglishEntryagreement extends StatelessWidget {
 ٢. (ناو) ھاوڕایی لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Is everybody in agreement now?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمووان ھاوڕان؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Is everybody in agreement now?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەمووان ھاوڕان؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +246,18 @@ class EnglishEntryagreement extends StatelessWidget {
 ٣. (ناو) مۆڵەتپێدان بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You'll have to get your parents' agreement if you want to go on the trip."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You'll have to get your parents' agreement if you want to go on the trip."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە مۆڵەتی دایک و باوکت وەربگری پێش ئەوەی گەشتەکە بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

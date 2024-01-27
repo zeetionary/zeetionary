@@ -129,12 +129,18 @@ class EnglishEntryalbeit extends StatelessWidget {
 ١. (لێکدەر) سەرەڕای شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He finally agreed, albeit reluctantly, to help us."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He finally agreed, albeit reluctantly, to help us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆتاییدا ڕازیبوو یارمەتیمان بدات، ئەگەرچی بەنابەدڵییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

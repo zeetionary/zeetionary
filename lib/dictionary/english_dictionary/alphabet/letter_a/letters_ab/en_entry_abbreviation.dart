@@ -104,11 +104,17 @@ class EnglishEntryabbreviation extends StatelessWidget {
 ١. (ناو) شێوەی کورتکراوەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What's the abbreviation for this word?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کورتکراوەی ئەم وشەیە چییە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What's the abbreviation for this word?"),
+                                    ExampleSentenceKurdish(
+                                        text: "کورتکراوەی ئەم وشەیە چییە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

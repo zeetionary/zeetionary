@@ -179,12 +179,18 @@ class EnglishEntryapplicable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەکرێت ڕاست بێت یان بگونجێت بۆ کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Much of the form was not applicable (= did not apply) to me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Much of the form was not applicable (= did not apply) to me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی فۆرمەکە پەیوەندی بە منەوە نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,11 +211,18 @@ class EnglishEntryapplicable extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The law is applicable to everyone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The law is applicable to everyone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاساکە بەسەر ھەموواندا جێبەجێ‌دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

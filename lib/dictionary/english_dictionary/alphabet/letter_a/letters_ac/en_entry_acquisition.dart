@@ -130,12 +130,18 @@ class EnglishEntryacquisition extends StatelessWidget {
 ١. (ناو) بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The acquisition of huge amounts of data has helped our research enormously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدەستھێنانی ڕێژەیەکی زۆر داتا یارمەتی توێژینەوەکەمانی زۆر داوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The acquisition of huge amounts of data has helped our research enormously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدەستھێنانی ڕێژەیەکی زۆر داتا یارمەتی توێژینەوەکەمانی زۆر داوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryacquisition extends StatelessWidget {
 ٢. (ناو) کڕینی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The money will be spent on acquisitions for the university library."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەکە بەکاردێت بۆ کڕینی کتێبخانەی زانکۆکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The money will be spent on acquisitions for the university library."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەکە بەکاردێت بۆ کڕینی کتێبخانەی زانکۆکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,12 +192,18 @@ class EnglishEntryacquisition extends StatelessWidget {
 ٣. (ناو) کۆمپانیایەک یان پارچە زەوییەک کە لەلایەن کەسێک یان کۆمپانیایەکی دیکەوە دەکڕدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have made acquisitions in several EU countries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەند کۆمپانیایەکیان لە ژمارەیەک وڵاتی یەکێتیی ئەورووپا کڕیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have made acquisitions in several EU countries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەند کۆمپانیایەکیان لە ژمارەیەک وڵاتی یەکێتیی ئەورووپا کڕیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

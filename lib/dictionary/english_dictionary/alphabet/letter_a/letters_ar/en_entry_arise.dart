@@ -179,12 +179,18 @@ class EnglishEntryarise extends StatelessWidget {
 ١. (کردار) ھاتنەپێشەوەی کێشەیەک، ھەلێک، ڕووداوێک، ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An opportunity arose to work in the United States."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An opportunity arose to work in the United States."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەلێک ھاتەپێشەوە بۆ کارکردن لە ئەمریکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarise extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A serious problem can arise if the heart stops pumping effectively."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A serious problem can arise if the heart stops pumping effectively."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەیەکی گەورە دەکرێت درووست‌ببێت ئەگەر دڵ لە لێدان بکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +243,18 @@ class EnglishEntryarise extends StatelessWidget {
 ٢. (کردار) ڕوودان لە ئەنجامی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Violence typically arises out of anger."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Violence typically arises out of anger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توندوتیژی زۆرجار لە ئەنجامی تووڕەیی ڕوودەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +276,18 @@ class EnglishEntryarise extends StatelessWidget {
 ٣. (کردار) دەستپێ‌کردن یان درووست‌بوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several new industries arose in the town."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several new industries arose in the town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک کارگەی تازە درووست‌بوون لە شارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,10 +309,16 @@ class EnglishEntryarise extends StatelessWidget {
 ٤. (کردار) ھەستان لە جێگەی خەو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He arose at dawn."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە بەرەبەیاندا ھەستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He arose at dawn."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە بەرەبەیاندا ھەستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

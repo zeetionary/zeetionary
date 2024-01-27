@@ -178,12 +178,18 @@ class EnglishEntryasbestos extends StatelessWidget {
 ١. (ھاوەڵناو) کەرەستەیەکی نائەندانی کە ناسوتێت و دەکرێت بکرێت بە پارچە و جاران بەکاردەھات بۆ پاراستنی بینا لە سووتان. ئازبێستۆس دەکرێ مەترسیدار بێت ئەگەر ھەڵیبمژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The asbestos-laden ceiling tiles were falling apart, so they had to be replaced."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاشییەکانی سەقفەکە کە ئەزبێستۆسیان لێدرابوو دەکەوتنەخوارەوە، بۆیە دەبوو بگۆڕدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

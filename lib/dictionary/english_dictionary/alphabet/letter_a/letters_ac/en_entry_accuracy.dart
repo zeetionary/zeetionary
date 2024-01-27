@@ -129,12 +129,18 @@ class EnglishEntryaccuracy extends StatelessWidget {
 ١. (ناو) ڕاستی و درووستی شتێک و ئایا تا چەند تەواوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They questioned the accuracy of the information in the file."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They questioned the accuracy of the information in the file."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گومانیان خستەسەر ئەو زانیارییانەی لە فایلەکە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,11 +157,18 @@ class EnglishEntryaccuracy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She hits the ball with great accuracy."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە تۆپەکە دەدات بە وردیی زۆرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She hits the ball with great accuracy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تۆپەکە دەدات بە وردیی زۆرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

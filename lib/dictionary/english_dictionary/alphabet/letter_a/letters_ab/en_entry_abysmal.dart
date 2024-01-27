@@ -111,10 +111,16 @@ class EnglishEntryabysmal extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His manners are abysmal."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەڵسوکەوتی زۆر خراپە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His manners are abysmal."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەڵسوکەوتی زۆر خراپە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

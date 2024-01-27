@@ -195,12 +195,18 @@ class EnglishEntryamicably extends StatelessWidget {
 ١. (ھاوەڵناو) بە ھاوڕیانە و تەبایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The policeman chatted amicably to the bystanders."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The policeman chatted amicably to the bystanders."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیسەکان بە ھاوڕێیانە لەگەڵ پیادەکان قسەیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,11 +225,18 @@ class EnglishEntryamicably extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I hope we can settle this amicably."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I hope we can settle this amicably."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیوادارم بە تەبایی ئەمە چارەسەر بکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

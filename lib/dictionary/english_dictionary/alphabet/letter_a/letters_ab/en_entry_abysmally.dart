@@ -112,12 +112,18 @@ class EnglishEntryabysmally extends StatelessWidget {
 ١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has failed abysmally to deliver on its promises."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has failed abysmally to deliver on its promises."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

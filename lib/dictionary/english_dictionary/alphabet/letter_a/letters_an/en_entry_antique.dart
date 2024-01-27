@@ -175,12 +175,18 @@ class EnglishEntryantique extends StatelessWidget {
 ١. (ناو) شتی کۆن و گران‌بەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Priceless antiques were destroyed in the fire."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Priceless antiques were destroyed in the fire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارچە ئەنتیکی گران‌بەھا لە ئاگرەکەدا لەناوچوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryantique extends StatelessWidget {
 ٢. (ھاوەڵناو) کۆن و گران‌بەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some antique jewelry sparkles and shines."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some antique jewelry sparkles and shines."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک خشڵی ئەنتیکە ھێشتا بریسکە و درەوشانەوەیان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

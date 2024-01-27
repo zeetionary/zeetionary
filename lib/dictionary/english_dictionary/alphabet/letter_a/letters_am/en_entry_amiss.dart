@@ -195,12 +195,18 @@ class EnglishEntryamiss extends StatelessWidget {
 ١. (ھاوەڵناو) ھەڵە، نامۆ؛ جیاواز لە ئاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She sensed something was amiss and called the police."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She sensed something was amiss and called the police."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستیان‌کرد شتێک گوماناوییە و پەیوەندییان بە پۆلیسەوە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +225,18 @@ class EnglishEntryamiss extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He shone a light inside and saw nothing amiss."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He shone a light inside and saw nothing amiss."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لایتێکی بۆ ژوورەوە لێدا و ھیچی نائاسایی نەدی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

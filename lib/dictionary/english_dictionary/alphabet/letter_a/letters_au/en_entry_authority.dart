@@ -225,12 +225,18 @@ class EnglishEntryauthority extends StatelessWidget {
 ١. (ناو) دەسەڵاتی بڕیاردان بەسەر خەڵکی تردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She now has authority over the people who used to be her bosses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She now has authority over the people who used to be her bosses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -250,12 +256,18 @@ class EnglishEntryauthority extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Central government has extensive authority over teachers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Central government has extensive authority over teachers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -277,12 +289,18 @@ class EnglishEntryauthority extends StatelessWidget {
 ٢. (ناو) دەسەڵات یان مافی کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some experts think the agency may have exceeded its authority."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some experts think the agency may have exceeded its authority."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -304,10 +322,17 @@ class EnglishEntryauthority extends StatelessWidget {
 ٣. (ناو) مۆڵەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He took the car without authority."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He took the car without authority."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -329,11 +354,18 @@ class EnglishEntryauthority extends StatelessWidget {
 ٤. (ناو) کۆمەڵە کەسێک یان ڕێکخراوێک کە مافی بڕیاردانیان ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have to report this to the authorities."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێت ئەمە بە دەسەڵاتداران بڵێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have to report this to the authorities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت ئەمە بە دەسەڵاتداران بڵێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -355,12 +387,18 @@ class EnglishEntryauthority extends StatelessWidget {
 ٥. (ناو) دەسەڵاتی درووستکردنی کاریگەری بەھۆی ڕێزلێگیراوی بەھۆی زانیارییەکانت یان پێگەکەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He spoke with authority on the topic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spoke with authority on the topic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -382,11 +420,18 @@ class EnglishEntryauthority extends StatelessWidget {
 ٦. (ناو) کەسێکی شارەزا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's an authority on criminal law."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's an authority on criminal law."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

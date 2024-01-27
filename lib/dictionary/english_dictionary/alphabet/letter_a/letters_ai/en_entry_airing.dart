@@ -130,12 +130,18 @@ class EnglishEntryairing extends StatelessWidget {
 ١. (ناو) گەنگەشەی بابەتێک لەبەردەم ڕای گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The subject got a thorough airing in the British press."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The subject got a thorough airing in the British press."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە گەنگەشەی تەواوی لەسەر کرا لە میدیای بەریتانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryairing extends StatelessWidget {
 ٢. (ناو) ڕێگەدان بە ھەواگۆڕکێ بۆ ئەوەی شتێک تازە و وشک بکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Open the windows and give the house a good airing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Open the windows and give the house a good airing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنجەرەکان بکەوە و ھەواگۆڕکێیەکی باش بدە بە ژوورەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

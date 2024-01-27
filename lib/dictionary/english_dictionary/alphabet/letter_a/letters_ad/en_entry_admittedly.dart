@@ -127,12 +127,18 @@ class EnglishEntryadmittedly extends StatelessWidget {
 ١. (ھاوەڵکار) زۆرجار لە سەرەتای ڕستە بەکاردێت بۆ داننان بەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Admittedly, I could have tried harder but I still don't think all this criticism is fair."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Admittedly, I could have tried harder but I still don't think all this criticism is fair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

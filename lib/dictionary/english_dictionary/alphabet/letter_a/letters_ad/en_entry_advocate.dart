@@ -128,12 +128,18 @@ class EnglishEntryadvocate extends StatelessWidget {
 ١. (ناو) لایەنگر و داکۆکیکاری شتێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Canada was one of the strongest advocates of sanctions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canada was one of the strongest advocates of sanctions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەنەدا یەکێک لە سەختترین داکۆکیکارانی سزاکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryadvocate extends StatelessWidget {
 ٢. (کردار) پشتگیریکردنی شتێک بەشێوەیەکی گشتی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The group does not advocate the use of violence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The group does not advocate the use of violence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپەکە پشتیوانی بەکارھێنانی توندوتیژی ناکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

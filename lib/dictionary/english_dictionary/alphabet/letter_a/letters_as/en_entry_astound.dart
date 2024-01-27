@@ -179,10 +179,16 @@ class EnglishEntryastound extends StatelessWidget {
 ١. (کردار) سەرسامکردنی زۆری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His arrogance astounded her."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆبەزلزانییەکەی سەرسامی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "His arrogance astounded her."),
+                                    ExampleSentenceKurdish(
+                                        text: "خۆبەزلزانییەکەی سەرسامی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

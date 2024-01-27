@@ -179,12 +179,18 @@ class EnglishEntryapply extends StatelessWidget {
 ١. (کردار) پێشکەشکردنی داواکارییەک، زۆرجار بە نووسین، بۆ کارێک، قەرزێک، مۆڵەتی کردنی شتێک، یان جێگایەک لە زانکۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have decided to apply for this new job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have decided to apply for this new job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارم داوە داخوازینامە بۆ ئەم کارە تازە پێشکەش بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryapply extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They may apply to the court for the decision to be reversed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They may apply to the court for the decision to be reversed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەوانەیە داوا پێشکەشی دادگا بکەن بۆ ھەڵوەشاندنەوەی بڕیارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +243,18 @@ class EnglishEntryapply extends StatelessWidget {
 ٢. (کردار) جێبەجێبوونی شتێک، یان پەیوەندیداربوونی بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What I am saying applies only to some of you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What I am saying applies only to some of you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی دەیڵێم تەنھا بەسەر ھەندێکتان دەچەسپێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +276,18 @@ class EnglishEntryapply extends StatelessWidget {
 ٣. (کردار) جێبەجێبوونی شتێک، یان پەیوەندیداربوونی بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new technology was applied to farming."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new technology was applied to farming."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەکنەلۆژیا تازەکە بەکارھێندرا لە کشتوکاڵدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +307,18 @@ class EnglishEntryapply extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Now is the time to apply the insights you have gained from your studies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Now is the time to apply the insights you have gained from your studies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,12 +340,18 @@ class EnglishEntryapply extends StatelessWidget {
 ٤. (کردار) دانانی بۆیە یان کرێم لەسەر ڕوویەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The glue should be applied to both surfaces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The glue should be applied to both surfaces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەسپەکە دەبێت لە ھەردوو ڕووەکە بدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

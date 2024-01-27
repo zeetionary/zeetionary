@@ -184,12 +184,18 @@ class EnglishEntryattract extends StatelessWidget {
 ١. (کردار) حەزکردن لە ھەبوون یان کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had always been attracted by the idea of working abroad."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە حەزم بە بیرۆکەی کارکردن لە دەرەوە بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had always been attracted by the idea of working abroad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە حەزم بە بیرۆکەی کارکردن لە دەرەوە بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryattract extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What first attracted me to her was her sense of humour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی سەرەتا حەزی لام درووستکرد بۆی گاڵتەوگەپەکەی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What first attracted me to her was her sense of humour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی سەرەتا حەزی لام درووستکرد بۆی گاڵتەوگەپەکەی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,10 +248,17 @@ class EnglishEntryattract extends StatelessWidget {
 ٢. (کردار) حەزی بوونی پەیوەندی ڕۆمانسی یان سێکسی لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I am not attracted to him at all."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ پێی سەرسام نیم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I am not attracted to him at all."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ پێی سەرسام نیم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +280,18 @@ class EnglishEntryattract extends StatelessWidget {
 ٣. (کردار) سەرنجڕاکێشانی خەڵکی بۆ ھاتنە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Officials hope to attract more tourists to the area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسان ھیواخوازن گەشتیاری زیاتر ڕابکیشن بۆ ناوچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Officials hope to attract more tourists to the area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسان ھیواخوازن گەشتیاری زیاتر ڕابکیشن بۆ ناوچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +311,18 @@ class EnglishEntryattract extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The exhibition has attracted thousands of visitors."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشانگاکە ھەزاران سەردانیکەری ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The exhibition has attracted thousands of visitors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشانگاکە ھەزاران سەردانیکەری ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,12 +344,18 @@ class EnglishEntryattract extends StatelessWidget {
 ٤. (کردار) وا لە خەڵکی بکەیت کاردانەوەی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His comments were bound to attract criticism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێدوانەکانی شکی تێدانەبوو ڕەخنەی بەدوادا دێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His comments were bound to attract criticism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێدوانەکانی شکی تێدانەبوو ڕەخنەی بەدوادا دێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

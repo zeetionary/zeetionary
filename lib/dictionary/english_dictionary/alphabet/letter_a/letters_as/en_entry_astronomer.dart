@@ -180,12 +180,18 @@ class EnglishEntryastronomer extends StatelessWidget {
 ١. (ھاوەڵناو) زانایەک کە کار لەسەر ئەستێرەناسی دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Astronomers continue to discover new stars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Astronomers continue to discover new stars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

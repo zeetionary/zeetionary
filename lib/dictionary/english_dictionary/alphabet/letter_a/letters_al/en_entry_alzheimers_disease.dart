@@ -132,12 +132,18 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
 ١. (ناو) نەخۆشییەک کە زۆرجار بەساڵاچووان تووشی دەبن کە دەبێتەھۆی لەبیرچوونەوە و لەدەستدانی توانای قسەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The most common form of dementia is Alzheimer's disease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The most common form of dementia is Alzheimer's disease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوترین جۆری خەڵەفاوی نەخۆشی ئالزایمێرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

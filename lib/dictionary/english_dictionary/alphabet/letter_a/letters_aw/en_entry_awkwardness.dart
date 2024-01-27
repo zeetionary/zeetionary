@@ -174,11 +174,18 @@ class EnglishEntryawkwardness extends StatelessWidget {
 ١. (ناو) ھەستی شەرم و ناڕەحەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She laughed to cover up her feeling of awkwardness."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She laughed to cover up her feeling of awkwardness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەنی بۆ شاردنەوەی ھەستی ناڕەحەتیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +208,18 @@ class EnglishEntryawkwardness extends StatelessWidget {
 ٢. (ناو) ھەبوونی شێوەیەک یان دیزاینێک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The awkwardness of the shape makes the desk difficult to lift."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The awkwardness of the shape makes the desk difficult to lift."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەگونجاوی شێوەی مێزەکە وادەکات ئاسان نەبێت بەرزبکرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +242,18 @@ class EnglishEntryawkwardness extends StatelessWidget {
 ٣. (ناو) جوڵان بەشێوەیەکی ناسرووشتییە، نائاساییە، یان جوان نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He outgrew his physical awkwardness and became a leading man in school plays."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He outgrew his physical awkwardness and became a leading man in school plays."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆی ڕزگارکرد لە جەستە ناڕێکەکەی و بوو بە سەرمەشق لە یارییەکانی قوتابخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

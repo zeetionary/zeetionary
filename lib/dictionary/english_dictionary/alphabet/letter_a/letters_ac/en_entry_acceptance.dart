@@ -140,12 +140,18 @@ class EnglishEntryacceptance extends StatelessWidget {
 ١. (ناو) کرداری پەسەندکردنی دیارییەک، میواندارییەک، یان پێشنیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "So far we have had one refusal and three acceptances."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "So far we have had one refusal and three acceptances."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاوەکو ئێستا یەک ڕەتکردنەوە و سێ پەسەندکردنمان ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -162,12 +168,18 @@ class EnglishEntryacceptance extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please confirm your acceptance of this offer in writing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please confirm your acceptance of this offer in writing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە بە نووسراو دڵنیایی بکەوە کە ئەم پێشنیازە پەسەند دەکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +198,18 @@ class EnglishEntryacceptance extends StatelessWidget {
 ٢. (ناو) ڕازیبوون بە شتێک و پەسەندکردنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new laws have gained widespread acceptance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یاسا نوێیەکان بە فراوانی پەسەندکراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new laws have gained widespread acceptance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یاسا نوێیەکان بە فراوانی پەسەندکراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +226,18 @@ class EnglishEntryacceptance extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The idea was slow to gain general acceptance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەند دەکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The idea was slow to gain general acceptance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرۆکەکە بەھێواشی لەلایەن ڕای گشتییەوە پەسەند دەکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +256,18 @@ class EnglishEntryacceptance extends StatelessWidget {
 ٣. (ناو) پڕۆسەی ڕێگەدان بە کەسێک کە پەیوەندی بکات بە گرووپێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your acceptance into the union is guaranteed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your acceptance into the union is guaranteed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگەدانپێتان بۆ چوونە ناو یەکێتییەکە دەستەبەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

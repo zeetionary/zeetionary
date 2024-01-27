@@ -128,11 +128,18 @@ class EnglishEntryadequate extends StatelessWidget {
 ١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The room was small but adequate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The room was small but adequate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -151,11 +158,18 @@ class EnglishEntryadequate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He didn't give an adequate answer to the question."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەڵامێکی تەواوی پرسیارەکەی نەداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He didn't give an adequate answer to the question."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەڵامێکی تەواوی پرسیارەکەی نەداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

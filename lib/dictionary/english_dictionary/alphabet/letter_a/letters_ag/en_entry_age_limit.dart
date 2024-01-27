@@ -127,12 +127,18 @@ class EnglishEntryagelimit extends StatelessWidget {
 ١. (ناو) کەمترین یان زۆرترین تەمەن کە کەسێک دەتوانێت شتێک بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The lower age limit for buying cigarettes in the UK is 16."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The lower age limit for buying cigarettes in the UK is 16."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمترین تەمەن بۆ کڕینی جگەرە لە شانشینی یەکگرتوو ١٦ ساڵییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

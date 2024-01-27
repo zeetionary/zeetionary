@@ -179,11 +179,18 @@ class EnglishEntryartillery extends StatelessWidget {
 ١. (ناو) تۆپخانە؛ چەکی قورس کە زۆرجار بە بەکارھێنانی ویل دەجوڵێنرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The town is under heavy artillery fire."),
-                              const ExampleSentenceKurdish(
-                                  text: "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The town is under heavy artillery fire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارۆچکەکە لەژێر ھێرشی تۆپخانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +213,18 @@ class EnglishEntryartillery extends StatelessWidget {
 ٢. (ناو) یەکەی تۆپخانەی سوپایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He served in the artillery for twenty years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He served in the artillery for twenty years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەی ٢٠ ساڵ لە یەکەی تۆپخانە خزمەتی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

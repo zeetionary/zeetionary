@@ -112,10 +112,17 @@ class EnglishEntryabsorbent extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای ھەڵمژین، بەتایبەتی ھەڵمژینی شلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The towels are highly absorbent."),
-                              const ExampleSentenceKurdish(
-                                  text: "خاولییەکان زۆر ھەڵمژن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The towels are highly absorbent."),
+                                    ExampleSentenceKurdish(
+                                        text: "خاولییەکان زۆر ھەڵمژن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryallrounder extends StatelessWidget {
 ١. (ناو) کەسێک/شتێک کە زۆر شارەزایی، توانا، یان سوودی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is a good all-rounder who likes tennis, cricket, and swimming."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is a good all-rounder who likes tennis, cricket, and swimming."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەزارپیشەیەکی باشە کە حەزی بە تێنس و کریکت و مەلەوانی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

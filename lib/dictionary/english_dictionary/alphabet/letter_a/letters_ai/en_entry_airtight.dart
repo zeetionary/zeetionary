@@ -129,11 +129,18 @@ class EnglishEntryairtight extends StatelessWidget {
 ١. (ھاوەڵناو) ڕێگەنەدان بە ھاتووچۆی ھەوا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Store the cake in an airtight container."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Store the cake in an airtight container."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێکەکە لە دەفرێکی ھەوانەکێش ھەڵبگرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

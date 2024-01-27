@@ -177,12 +177,18 @@ class EnglishEntryartgallery extends StatelessWidget {
 ١. (ناو) پێشانگای ھونەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He frequently exhibits at the art gallery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He frequently exhibits at the art gallery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زوو زوو کارەکانی لە پێشانگای ھونەری نمایش‌دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

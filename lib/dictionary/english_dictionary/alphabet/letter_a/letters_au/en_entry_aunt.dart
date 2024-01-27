@@ -180,10 +180,16 @@ class EnglishEntryaunt extends StatelessWidget {
 ١. (ناو) خوشکی باوک و دایک؛ ژنی خاڵۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I have an aunt in Australia."),
-                              const ExampleSentenceKurdish(
-                                  text: "پورێکم ھەیە لە ئوسترالیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I have an aunt in Australia."),
+                                    ExampleSentenceKurdish(
+                                        text: "پورێکم ھەیە لە ئوسترالیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,10 +209,17 @@ class EnglishEntryaunt extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you want some tea, Aunt Alice?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چا ئەخۆیتەوە، پورە ئالیس؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you want some tea, Aunt Alice?"),
+                                    ExampleSentenceKurdish(
+                                        text: "چا ئەخۆیتەوە، پورە ئالیس؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

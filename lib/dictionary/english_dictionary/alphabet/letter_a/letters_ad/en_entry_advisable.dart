@@ -127,12 +127,18 @@ class EnglishEntryadvisable extends StatelessWidget {
 ١. (ھاوەڵناو) بیرۆکەیەکی ژیرانە و باش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We thought it advisable to seek police assistance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We thought it advisable to seek police assistance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێمان وابوو باشتروایە داوای یارمەتی لە پۆلیس بکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

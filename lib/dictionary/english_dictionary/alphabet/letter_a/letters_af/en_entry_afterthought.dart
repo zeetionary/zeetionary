@@ -128,12 +128,18 @@ class EnglishEntryafterthought extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت تەنھا لە دواییدا و بە تەواوی بیری لێ ناکەیتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They only invited Jack and Sarah as an afterthought."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They only invited Jack and Sarah as an afterthought."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاک و سارایان بانگھێشت کرد تەنھا دوای ئەوەی بیریانکەوتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

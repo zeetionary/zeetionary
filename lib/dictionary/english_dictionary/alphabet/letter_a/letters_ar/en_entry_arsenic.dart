@@ -176,12 +176,18 @@ class EnglishEntryarsenic extends StatelessWidget {
 ١. (ناو) زەرنیخ؛ مادەیەکی کیمیایی رەساسی کە زۆر ژەھراوییە، بەتایبەتی ئەگەر لەگەڵ مادەی دیکە یەکبگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor found traces of arsenic in his body."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor found traces of arsenic in his body."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکەکە پاشماوەی زەرنیخی لە لەشیدا دۆزییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

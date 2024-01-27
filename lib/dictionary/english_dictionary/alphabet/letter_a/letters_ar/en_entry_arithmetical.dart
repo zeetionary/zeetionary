@@ -177,12 +177,18 @@ class EnglishEntryarithmetical extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە کۆکردنەوە، لێدەرکردن، لێکدان، دابەش، ھتد. لە بیرکاریدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Figuring the amount is a simple arithmetical calculation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Figuring the amount is a simple arithmetical calculation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆزینەوەی بڕەکە لێکدانەوەیەکی سادەی ژمێریارییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

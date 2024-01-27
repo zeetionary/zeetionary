@@ -145,12 +145,18 @@ class EnglishEntryadmit extends StatelessWidget {
 ١. (کردار) داننان بەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She stubbornly refuses to admit the truth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She stubbornly refuses to admit the truth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەللەڕەقییەوە ڕەتیدەکاتەوە دان بە ڕاستییەکە بنێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -169,12 +175,18 @@ class EnglishEntryadmit extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was generally admitted that the government had acted too quickly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was generally admitted that the government had acted too quickly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی گشتی دان بەوەدا نرا کە حکومەت بەزووی ھەنگاوی نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,10 +207,17 @@ class EnglishEntryadmit extends StatelessWidget {
 ٢. (کردار) داننان بە بەرپرسیاریەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He refused to admit his guilt."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He refused to admit his guilt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەتیکردەوە دان بە ھەڵەکەیدا بنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +238,18 @@ class EnglishEntryadmit extends StatelessWidget {
 ٣. (کردار) ڕێگەدان بە کەسێک بچێتە شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You will not be admitted to the theatre after the performance has started."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You will not be admitted to the theatre after the performance has started."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگەت پێنادرێت بچیتە ناو ھۆڵی شانۆ لە دوای ئەوەی نمایش دەستیپێکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,12 +270,18 @@ class EnglishEntryadmit extends StatelessWidget {
 ٤. (کردار) بردنی کەسێک بۆ نەخۆشخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Two crash victims were admitted to the local hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Two crash victims were admitted to the local hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو قوربانی پێکدادانەکە بردرانە نەخۆشخانە ناوخۆییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

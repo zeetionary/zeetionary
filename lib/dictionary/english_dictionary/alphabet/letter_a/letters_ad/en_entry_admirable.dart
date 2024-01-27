@@ -127,11 +127,18 @@ class EnglishEntryadmirable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە شایەنی ڕێزە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her dedication to her work was admirable."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her dedication to her work was admirable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆتەرخانکردنی بۆ کارەکەی جێی ڕێزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

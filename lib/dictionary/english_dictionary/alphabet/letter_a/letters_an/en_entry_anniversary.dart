@@ -171,12 +171,18 @@ class EnglishEntryanniversary extends StatelessWidget {
 ١. (ھاوەڵناو) ساڵیاد؛ بەروارێک کە تێیدا ڕێژەیەکی دیاریکراو ساڵی تەواو بەسەر ڕووداوێک تێ‌پەڕیوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company is celebrating its 100-year anniversary this year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company is celebrating its 100-year anniversary this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمساڵ کۆمپانیاکە یادی ١٠٠ھەمین ساڵی دەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

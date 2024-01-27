@@ -122,12 +122,18 @@ class EnglishEntryacceleration extends StatelessWidget {
 ١. (ناو) ڕێژەی زیادبوونی خێرایی شتێک؛ تاودان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There has been a rapid acceleration in the growth of industry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There has been a rapid acceleration in the growth of industry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیادبوونێکی خێرا ڕوویداوە لە گەشەی پیشەسازی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,10 +151,16 @@ class EnglishEntryacceleration extends StatelessWidget {
 ٢. (ناو) تاودانی ئۆتۆمبێل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "a car with good acceleration"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلێک بە تاودانی باشەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "a car with good acceleration"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئۆتۆمبێلێک بە تاودانی باشەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

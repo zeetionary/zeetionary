@@ -112,11 +112,18 @@ class EnglishEntryabsent extends StatelessWidget {
 ١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was absent from work for two weeks."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was absent from work for two weeks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -133,11 +140,18 @@ class EnglishEntryabsent extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was absent from work for two weeks."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was absent from work for two weeks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەی دوو ھەفتە لە کار نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

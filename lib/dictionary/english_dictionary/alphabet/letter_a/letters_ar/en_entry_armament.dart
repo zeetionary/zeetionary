@@ -177,12 +177,18 @@ class EnglishEntryarmament extends StatelessWidget {
 ١. (ناو) چەک، بەتایبەتی چەکی قورسی وەک بۆمب و دەبابە و ھتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The armaments industry is a major force in the global economy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The armaments industry is a major force in the global economy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیشەسازی چەک و تەقەمەنی بەشێکی گرنگی ئابووری جیھانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarmament extends StatelessWidget {
 ٢. (ناو) پڕۆسەی زیادکردنی ڕێژەی چەک و تەقەمەنی سوپا یان وڵاتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As the country prepares for war, more and more money is being spent on armament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As the country prepares for war, more and more money is being spent on armament."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھۆی ئەوەی وڵاتەکە ئامادەکاری بۆ جەنگ دەکات، پارەی زیاتر و زیاتر بۆ خۆپڕچەککردن تەرخان‌دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,10 +168,16 @@ class EnglishEntryanon extends StatelessWidget {
 ١. (ھاوەڵکار) دەسبەجێ، لەڕێوە، زوو، بەزوویی، خێرا."""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "See you anon."),
-                              const ExampleSentenceKurdish(
-                                  text: "زوو دەتبینمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "See you anon."),
+                                    ExampleSentenceKurdish(
+                                        text: "زوو دەتبینمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

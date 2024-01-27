@@ -175,11 +175,18 @@ class EnglishEntryanticipate extends StatelessWidget {
 ١. (کردار) پێشبینی‌کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our anticipated arrival time is 8.30."),
-                              const ExampleSentenceKurdish(
-                                  text: "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our anticipated arrival time is 8.30."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتی پێشبینیکراوی گەشتنمان ٨:٣٠ یە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +207,17 @@ class EnglishEntryanticipate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't anticipate it being a problem."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێشبینی ناکەم ببێتە کێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't anticipate it being a problem."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێشبینی ناکەم ببێتە کێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +240,18 @@ class EnglishEntryanticipate extends StatelessWidget {
 ٢. (کردار) پێشبینی‌کردنی ڕوودانی شتێک و کردنی ئامادەکاری بۆ مامەڵە لەگەڵی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Try and anticipate what the interviewers will ask."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try and anticipate what the interviewers will ask."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +274,18 @@ class EnglishEntryanticipate extends StatelessWidget {
 ٣. (کردار) بە کەیف‌سازی بیرکردنەوە لە شتێک کە ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We eagerly anticipated the day we would leave school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We eagerly anticipated the day we would leave school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە خۆشییەوە بیرمان لەو ڕۆژە دەکردەوە کە قوتابخانە جێدێڵین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,12 +308,18 @@ class EnglishEntryanticipate extends StatelessWidget {
 ٤. (کردار) کردنی شتێک پێش کەسێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When Scott reached the South Pole he found that Amundsen had anticipated him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When Scott reached the South Pole he found that Amundsen had anticipated him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە سکۆت گەشتە جەمسەری باشوور زانی ئامندسن پێشی دابوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

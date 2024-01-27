@@ -183,12 +183,18 @@ class EnglishEntryalert extends StatelessWidget {
 ١. (کردار) وریاکردنەوەی کەسێک لەسەر بارودۆخێکی مەترسیدار، یان یەکێک کە پێویستە بەپەلە مامەڵەی لەگەڵ بکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An anonymous letter alerted police to the possibility of a terrorist attack at the airport."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەیەکی نھێنی پۆلیسی ئاگادارکردەوە لە ئەگەری ھێرشێکی تیرۆریستی لە فڕۆکەخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryalert extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Neighbours quickly alerted the emergency services."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Neighbours quickly alerted the emergency services."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دراوسێیەکان بەپەلە تیمە فریاگوزارییەکانیان ئاگادارکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryalert extends StatelessWidget {
 ٢. (کردار) ئاگادارکردنەوەی کەسێک لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had been alerted to the possibility of further price rises."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had been alerted to the possibility of further price rises."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگادارکرابوونەوە لە ئەگەری زیادبوونی زیاتری نرخ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +277,18 @@ class EnglishEntryalert extends StatelessWidget {
 ٣. (ناو) بارودۆخێک کە تێیدا خەڵکی ئاگادارکراون بۆ مەترسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More than 5 000 troops have been placed on (full) alert."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More than 5 000 troops have been placed on (full) alert."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە ٥٠٠٠ سەرباز خراونەتە ئامادابەشیی تەواو"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +309,18 @@ class EnglishEntryalert extends StatelessWidget {
 ٤. (ناو) ئاگادارکەرەوە بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I get text alerts when I have used 80% of my mobile data."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I get text alerts when I have used 80% of my mobile data."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگادارکەرەوەیەکی نووسراوم پێدەگات کە زیاتر لە ٨٠٪ ئینتەرنێتی موبایلەکەم بەکاربێنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -311,11 +341,18 @@ class EnglishEntryalert extends StatelessWidget {
 ٥. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Two alert scientists spotted the mistake."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Two alert scientists spotted the mistake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو زانای وریا تێبینی ھەڵەکەیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -336,11 +373,18 @@ class EnglishEntryalert extends StatelessWidget {
 ٦. (ھاوەڵناو) ئاگاداربوون لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We must be alert to the possibility of danger."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێویستە چاوکراوە بین بۆ مەترسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must be alert to the possibility of danger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە چاوکراوە بین بۆ مەترسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

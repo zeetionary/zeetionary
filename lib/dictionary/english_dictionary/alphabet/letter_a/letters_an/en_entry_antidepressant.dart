@@ -174,12 +174,18 @@ class EnglishEntryantidepressant extends StatelessWidget {
 ١. (ناو) دەرمانێک کە بەکاردێت بۆ چارەسەری بێزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's been on antidepressants ever since her husband died."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been on antidepressants ever since her husband died."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەوەتەی ھاوسەرەکەی مردووە دژە-خەمۆکی دەخوات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

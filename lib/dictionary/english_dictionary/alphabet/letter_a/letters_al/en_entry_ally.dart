@@ -130,12 +130,18 @@ class EnglishEntryally extends StatelessWidget {
 ١. (ناو) ھاوپەیمان، دوو لایەن کە یارمەتی یەکدی دەدەن، بەتایبەت لە کاتی جەنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Portugal is a traditional ally of England."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Portugal is a traditional ally of England."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پرتوگال بەشێوەیەکی مێژوویی ھاوپەیمانی ئینگلتەرەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryally extends StatelessWidget {
 ٢. (ناو) کەسێک کە لە تەنگانەدا پشتی پێ دەبەستیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had found an ally in her old teacher."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had found an ally in her old teacher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستا کۆنەکەی بووە بە دۆست و یاوەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

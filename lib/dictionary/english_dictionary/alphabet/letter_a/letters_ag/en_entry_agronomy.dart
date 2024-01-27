@@ -127,12 +127,18 @@ class EnglishEntryagronomy extends StatelessWidget {
 ١. (ناو) زانستی گرێدانی کشتوکاڵ و ژینگە پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Agronomy encompasses work in many areas including plant genetics, irrigation, and food production."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کشتوکاڵناسی زۆر شت لەخۆدەگرێت وەک بۆماوەناسی ڕووەک، ئاودێری، و بەرھەمھێنانی خۆراک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

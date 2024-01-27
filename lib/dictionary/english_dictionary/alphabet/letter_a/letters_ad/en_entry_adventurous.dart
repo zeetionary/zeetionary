@@ -127,10 +127,16 @@ class EnglishEntryadventurous extends StatelessWidget {
 ١. (ھاوەڵناو) ئامادەیی کردنی کاری سەرکێشی، یان تاقیکردنەوەی شتی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She led an adventurous life."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیانێکی سەرکێشیانەی ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She led an adventurous life."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژیانێکی سەرکێشیانەی ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -149,12 +155,18 @@ class EnglishEntryadventurous extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many teachers would like to be more adventurous."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر مامۆستا پێیان باشە تازەگەری بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many teachers would like to be more adventurous."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر مامۆستا پێیان باشە تازەگەری بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

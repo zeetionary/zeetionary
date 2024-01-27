@@ -177,11 +177,18 @@ class EnglishEntryappendix extends StatelessWidget {
 ١. (ناو) پارچە تورەگەیەک کە لکاوە بە ڕیخۆڵە ئەستوورەوە و ھیچ ئەرکێکی زانراوی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had to have his appendix out (= removed)."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێویست بوو پەلەڕیخۆڵەی دەربێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had to have his appendix out (= removed)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویست بوو پەلەڕیخۆڵەی دەربێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,11 +210,18 @@ class EnglishEntryappendix extends StatelessWidget {
 ٢. (ناو) بەشێکی کتێبێک یان دۆکیومێنتێک کە زانیاریی زیادەی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Full details are given in Appendix 3."),
-                              const ExampleSentenceKurdish(
-                                  text: "وردەکاریی تەواو لە پاشکۆی ٣ دراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Full details are given in Appendix 3."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وردەکاریی تەواو لە پاشکۆی ٣ دراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

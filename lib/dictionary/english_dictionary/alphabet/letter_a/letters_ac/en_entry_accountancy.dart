@@ -111,11 +111,17 @@ class EnglishEntryaccountancy extends StatelessWidget {
 ١. (ناو) کاری ژمێریاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She studied accountancy at university."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە زانکۆ ژمێریاری خوێند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She studied accountancy at university."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە زانکۆ ژمێریاری خوێند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

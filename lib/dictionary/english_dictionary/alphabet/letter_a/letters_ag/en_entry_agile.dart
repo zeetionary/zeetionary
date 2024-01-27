@@ -129,10 +129,17 @@ class EnglishEntryagile extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای خێرا و ئاسان جوڵان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Monkeys are very agile climbers."),
-                              const ExampleSentenceKurdish(
-                                  text: "مەیموون پیاھەڵگژی گورجە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Monkeys are very agile climbers."),
+                                    ExampleSentenceKurdish(
+                                        text: "مەیموون پیاھەڵگژی گورجە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +160,18 @@ class EnglishEntryagile extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی توانای بیرکردنەوە بەخێرایی و زیرەکانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For a man of 80, he has a remarkably agile mind."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For a man of 80, he has a remarkably agile mind."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەگەڵ ئەوەی ٨٠ ساڵە، ھێشتا بیر و ھۆشێکی زرنگی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,12 +192,18 @@ class EnglishEntryagile extends StatelessWidget {
 ٣. (ھاوەڵناو) جۆرێکی کارکردن کە تێیدا کارێک بەش بەش لەگەڵ ناوبڕ لانێوانیاندا بۆ ھەڵسەنگاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They used agile methods to complete difficult tasks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They used agile methods to complete difficult tasks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کۆمپانیاکە کارەکانیان بەش بەش دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

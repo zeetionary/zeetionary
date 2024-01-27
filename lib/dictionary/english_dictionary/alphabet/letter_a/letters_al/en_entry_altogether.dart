@@ -156,12 +156,18 @@ class EnglishEntryaltogether extends StatelessWidget {
 ١. (ھاوەڵکار) بە تەواوی؛ ھەموو پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The train went slower and slower until it stopped altogether."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The train went slower and slower until it stopped altogether."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -181,11 +187,18 @@ class EnglishEntryaltogether extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was an altogether different situation."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەواوی بارودۆخێکی گونجاو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was an altogether different situation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تەواوی بارودۆخێکی گونجاو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,10 +220,16 @@ class EnglishEntryaltogether extends StatelessWidget {
 ٢. (ھاوەڵکار) کۆی گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You owe me £68 altogether."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You owe me £68 altogether."),
+                                    ExampleSentenceKurdish(
+                                        text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +251,18 @@ class EnglishEntryaltogether extends StatelessWidget {
 ٣. (ھاوەڵکار) بەکورتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The food was good and we loved the music. Altogether it was a great evening."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردنەکە باش بوو حەزیشمان بە میوزیککە بوو. بەکورتی، شەوێکی خۆش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The food was good and we loved the music. Altogether it was a great evening."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنەکە باش بوو حەزیشمان بە میوزیککە بوو. بەکورتی، شەوێکی خۆش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

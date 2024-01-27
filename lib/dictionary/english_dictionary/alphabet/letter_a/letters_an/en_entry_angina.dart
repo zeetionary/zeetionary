@@ -170,12 +170,18 @@ class EnglishEntryangina extends StatelessWidget {
 ١. (ھاوەڵناو) ژانەسگ بەھۆی کەمی چوونی خوێن بۆ دڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you experience angina while exercising, stop."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر تووشی سنگ‌ئێشە دەبیت لە کاتی ڕاھێنان، بوەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you experience angina while exercising, stop."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر تووشی سنگ‌ئێشە دەبیت لە کاتی ڕاھێنان، بوەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

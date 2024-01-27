@@ -173,12 +173,18 @@ class EnglishEntryanticlimax extends StatelessWidget {
 ١. (ناو) شتێکی کە ڕوودەدات لە کاتێکدا شتێکی خۆش لە بەرزترین ئاستە، و دەبێتەھۆی ئەوەی شتە خۆشەکە چێژی لەدەست‌بدات یان کەمتر بێت لەوەی پێشبینیت دەکرد """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When you really look forward to something it's often an anticlimax when it actually happens."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When you really look forward to something it's often an anticlimax when it actually happens."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک زۆر چاوەڕیی شتێک دەکەیت زۆرجار نائومێدییەک ھەیە کە لە ڕاستیدا ڕوودەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

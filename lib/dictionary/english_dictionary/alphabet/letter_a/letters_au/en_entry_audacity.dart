@@ -179,11 +179,18 @@ class EnglishEntryaudacity extends StatelessWidget {
 ١. (ناو) بوێری و جەربەزەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had the audacity to say I was too fat."),
-                              const ExampleSentenceKurdish(
-                                  text: "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had the audacity to say I was too fat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

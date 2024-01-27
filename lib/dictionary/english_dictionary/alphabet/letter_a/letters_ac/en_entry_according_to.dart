@@ -122,12 +122,18 @@ class EnglishEntryaccordingto extends StatelessWidget {
 ١. بە گوێرەی شتێک یان وتەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You've been absent six times according to our records."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You've been absent six times according to our records."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەپێی تۆمارەکانمان شەش جار نەھاتوو بوویتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -146,11 +152,18 @@ class EnglishEntryaccordingto extends StatelessWidget {
 ٢. بە پێی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The work was done according to her instructions."),
-                              const ExampleSentenceKurdish(
-                                  text: "کارەکە کرا بەپێی ڕێنماییەکانی ئەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The work was done according to her instructions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکە کرا بەپێی ڕێنماییەکانی ئەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -131,12 +131,18 @@ class EnglishEntryaccomplishment extends StatelessWidget {
 ١. (ناو) شتێک کە لە دوای ھەوڵێکی زۆر بەدەستیدێنیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was one of the President's greatest accomplishments."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was one of the President's greatest accomplishments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە یەکێک لە دەسکەوتە گەورەکانی سەرۆک بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryaccomplishment extends StatelessWidget {
 ٢. (ناو) شارەزاییەک یان توانایەکی تایبەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Drawing and singing were among her many accomplishments."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Drawing and singing were among her many accomplishments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێنەکێشان و گۆرانیگوتن تەنھا ژمارەیەکی کەمی تواناکانی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,12 +191,18 @@ class EnglishEntryaccomplishment extends StatelessWidget {
 ٣. (ناو) بە سەرکەوتووی تەواوکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Money will be crucial to the accomplishment of our objectives."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Money will be crucial to the accomplishment of our objectives."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارە زۆر گرنگ دەبێت بۆ تەواوکردنی ئامانجەکانمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

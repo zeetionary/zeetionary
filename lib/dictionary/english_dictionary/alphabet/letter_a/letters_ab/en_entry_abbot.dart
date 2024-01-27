@@ -103,12 +103,18 @@ class EnglishEntryabbot extends StatelessWidget {
 ١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Under the abbot's leadership, the monastery flourished as a center of prayer and learning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Under the abbot's leadership, the monastery flourished as a center of prayer and learning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

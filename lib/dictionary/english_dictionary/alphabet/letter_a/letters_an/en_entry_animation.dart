@@ -172,12 +172,18 @@ class EnglishEntryanimation extends StatelessWidget {
 ١. (ناو) پڕۆسەی درووستکردنی فیلمێک کە تێیدا نیگار یان وێنەی مرۆڤ و ئاژەڵ وادەردەکەون بجووڵێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The intricate process of creating cartoon animation requires skill and creativity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The intricate process of creating cartoon animation requires skill and creativity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryanimation extends StatelessWidget {
 ٢. (ناو) فیلمێک کە تێیدا نیگار یان وێنەی مرۆڤ و ئاژەڵ وادەردەکەون بجووڵێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The electronic dictionary included some animations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The electronic dictionary included some animations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فەرھەنگە ئەلیکترۆنییەکە ژمارەیەک ئەنیمەیشنی تێدابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +240,18 @@ class EnglishEntryanimation extends StatelessWidget {
 ٣. (ناو) وزە و جۆش‌وخرۆشی لە شێوازی دەرکەوتنی کەسێک، یان ڕەفتار و قسەکردنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His face was drained of all colour and animation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His face was drained of all colour and animation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری ھیچ ڕەنگ و تین‌وگوڕی تێدانەمابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryassessment extends StatelessWidget {
 ١. (ناو) بوچوون یان بڕیاردانێک لەسەر کەسێک/شتێک کە بە تەواوی بیری‌لێ‌کراوەتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We conducted the initial assessments defining the scope of work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We conducted the initial assessments defining the scope of work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسەنگاندنێکی سەرەتاییمان ئەنجام‌دا بۆ دیاریکردنی ئاستی کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryassessment extends StatelessWidget {
 ٢. (ناو) کرداری ھەڵسەنگاندنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Needs assessment is crucial if the hospital is to deliver effective healthcare."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Needs assessment is crucial if the hospital is to deliver effective healthcare."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسەنگاندنی پێداویستییەکان گرنگە بۆ دابینکردنی خزمەتگوزاریی تەندرووستیی بەرچاو لە نەخۆشخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryassessment extends StatelessWidget {
 ٣. (ناو) پڕۆسەی تاقیکردنەوەی قوتابییان و بڕیاردان لەسەر تواناکانیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The usual means of assessment for our taught courses is by written essay."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The usual means of assessment for our taught courses is by written essay."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسەنگاندنی باو بۆ ئەو کۆرسانەی دەیڵێینەوە بریتییە لە داڕشتنی نووسراو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

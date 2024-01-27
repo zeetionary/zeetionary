@@ -104,12 +104,18 @@ class EnglishEntryabdication extends StatelessWidget {
 ١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "the chain of events leading to the king's abdication"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the chain of events leading to the king's abdication"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

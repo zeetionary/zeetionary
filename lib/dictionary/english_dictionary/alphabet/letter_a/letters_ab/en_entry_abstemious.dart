@@ -113,12 +113,18 @@ class EnglishEntryabstemious extends StatelessWidget {
 ١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a hard-working man with abstemious habits."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a hard-working man with abstemious habits."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

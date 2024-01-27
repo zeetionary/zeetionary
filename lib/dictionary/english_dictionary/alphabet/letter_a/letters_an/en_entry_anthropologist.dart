@@ -172,12 +172,18 @@ class EnglishEntryanthropologist extends StatelessWidget {
 ١. (ناو) کەسێک کە لێکۆڵینەوە دەکات لە مێژووی مرۆڤایەتی، بەتایبەتی سەرچاوە و گەشە و نەریت و باوەڕەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An anthropologist dug and found old bones in the ground."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مرۆڤناسێک ھەڵکۆڵینی کرد و ئێسکی کۆنی دۆزییەوە لە زەوییەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An anthropologist dug and found old bones in the ground."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مرۆڤناسێک ھەڵکۆڵینی کرد و ئێسکی کۆنی دۆزییەوە لە زەوییەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

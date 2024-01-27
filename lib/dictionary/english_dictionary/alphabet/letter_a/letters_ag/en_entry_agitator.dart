@@ -128,12 +128,18 @@ class EnglishEntryagitator extends StatelessWidget {
 ١. (ناو) کەسێک کە ھەوڵ دەدات خەڵکی ڕازی بکات بەژداری ناڕەزایی بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is thought that the strike was the work of undercover political agitators."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is thought that the strike was the work of undercover political agitators."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕ وایە مانگرتنەکە کاری ئاژاوەگێڕە نھێنییە سیاسییەکان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

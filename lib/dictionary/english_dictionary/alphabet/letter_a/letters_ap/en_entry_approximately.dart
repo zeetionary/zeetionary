@@ -178,12 +178,18 @@ class EnglishEntryapproximately extends StatelessWidget {
 ١. (ھاوەڵکار) بەنزیکەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The journey took approximately seven hours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The journey took approximately seven hours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشتەکە بە نزیکەیی حەوت کاتژمێری پێچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryapproximately extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two buildings were approximately equal in size."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two buildings were approximately equal in size."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیناکان بە نزیکەیی یەکسان بوون لە ئەندازەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

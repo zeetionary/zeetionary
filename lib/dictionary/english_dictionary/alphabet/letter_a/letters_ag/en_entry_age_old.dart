@@ -127,12 +127,18 @@ class EnglishEntryageold extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لەمێژە بوونی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All the villagers followed the age-old custom of taking a siesta after lunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All the villagers followed the age-old custom of taking a siesta after lunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی گوندەکە شوێنی ئەو نەریتە کۆنە دەکەوتن کە دوای نانی نیوەڕۆ سەرخەوێک بشکێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

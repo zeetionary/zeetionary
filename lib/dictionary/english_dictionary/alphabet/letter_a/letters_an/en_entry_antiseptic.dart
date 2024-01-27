@@ -178,10 +178,17 @@ class EnglishEntryantiseptic extends StatelessWidget {
 ١. (ناو) مادەیەک کە ڕێگە لە ھەوکردنی برین دەکات بە کوشتنی بەکتریا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Dab the graze with antiseptic."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووشاوییەکە بە خاوێن‌کەر بساوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Dab the graze with antiseptic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووشاوییەکە بە خاوێن‌کەر بساوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +209,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Use antiseptic to clean and dress cuts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Use antiseptic to clean and dress cuts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاوێن‌کەر بەکاربێنە بۆ پاککردنەوە و دواتر برینەکە بپێچە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +243,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی ڕێگری لە ھەوکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When you get a little cut, you can use antiseptic cream."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When you get a little cut, you can use antiseptic cream."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک برینێکی بچووکت دەبێت دەتوانی کرێمی دژە-ھەوکردن بەکاربێنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,11 +277,18 @@ class EnglishEntryantiseptic extends StatelessWidget {
 ٣. (ھاوەڵناو) زۆرپاک بەبێ بوونی ھیچ بەکتریایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cover the burn with an antiseptic dressing."),
-                              const ExampleSentenceKurdish(
-                                  text: "برینەکە بە پارچەیەکی زۆرپاک ببەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cover the burn with an antiseptic dressing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برینەکە بە پارچەیەکی زۆرپاک ببەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

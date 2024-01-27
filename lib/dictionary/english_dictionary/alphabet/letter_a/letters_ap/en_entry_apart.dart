@@ -177,12 +177,18 @@ class EnglishEntryapart extends StatelessWidget {
 ١. (ھاوەڵکار) جیایی لە یەک بەھۆی دووری یان کات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two houses stood 500 metres apart."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two houses stood 500 metres apart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو خانووەکە ٥٠٠ مەتر لە یەکدی دووربوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +208,18 @@ class EnglishEntryapart extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their birthdays are only three days apart."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their birthdays are only three days apart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژی لەدایکبوونیان تەنھا سێ ڕۆژی جیاوازە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,10 +241,16 @@ class EnglishEntryapart extends StatelessWidget {
 ٢. (ھاوەڵکار) بەجیا، نەک پێکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We're living apart now."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێستا بە جیا دەژین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We're living apart now."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئێستا بە جیا دەژین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +272,18 @@ class EnglishEntryapart extends StatelessWidget {
 ٣. (ھاوەڵکار) پارچە پارچە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Within minutes the ship began to break apart."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Within minutes the ship began to break apart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەماوەی چەند خولەکێکدا کەشتییەکە دەستی بە پارچە پارچە بوون کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,12 +305,18 @@ class EnglishEntryapart extends StatelessWidget {
 ٤. (ھاوەڵکار) بەکاردێت بۆ وتنە ئەوەی کەسێک بەشێک نییە لەوەی دەیڵێیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Victoria apart, not one of them seems suitable for the job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Victoria apart, not one of them seems suitable for the job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جگە لە ڤیکتۆریا، کەسی تریان گونجاو نین بۆ کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

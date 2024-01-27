@@ -113,11 +113,18 @@ class EnglishEntryaccomplish extends StatelessWidget {
 ١. (ناو) سەرکەوتن لە کردن یان تەواوکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The first part of the plan has been accomplished."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەکەم بەشی پلانەکە بەدەستھێندراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The first part of the plan has been accomplished."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەم بەشی پلانەکە بەدەستھێندراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

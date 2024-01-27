@@ -103,12 +103,18 @@ class EnglishEntryAbbess extends StatelessWidget {
 ١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

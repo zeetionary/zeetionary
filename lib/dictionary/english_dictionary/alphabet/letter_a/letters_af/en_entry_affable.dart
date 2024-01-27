@@ -127,11 +127,18 @@ class EnglishEntryaffable extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی ڕووخۆش و ئێسکسووک کە ئاسانە قسەی لەگەڵ بکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He struck me as an affable sort of a man."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He struck me as an affable sort of a man."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک پیاوێکی ڕووخۆش ھاتە بەرچاوم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

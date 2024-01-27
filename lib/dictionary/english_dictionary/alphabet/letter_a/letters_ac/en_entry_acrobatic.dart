@@ -126,10 +126,16 @@ class EnglishEntryacrobatic extends StatelessWidget {
 ١. (ھاوەڵناو) لەخۆگرتنی کردنی نمایشی قوورس بە جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "an acrobatic dancer"),
-                              const ExampleSentenceKurdish(
-                                  text: "سەماکارێکی ئاکرۆباتیک"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "an acrobatic dancer"),
+                                    ExampleSentenceKurdish(
+                                        text: "سەماکارێکی ئاکرۆباتیک"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -125,11 +125,18 @@ class EnglishEntryadmonish extends StatelessWidget {
 ١. (کردار) لۆمەکردنی کەسێک بەتوندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was admonished for chewing gum in class."),
-                              const ExampleSentenceKurdish(
-                                  text: "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was admonished for chewing gum in class."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

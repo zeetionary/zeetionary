@@ -178,12 +178,18 @@ class EnglishEntryapproachable extends StatelessWidget {
 ١. (ھاوەڵناو) ڕووخۆش و کۆمەڵایەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Despite being a big star, she's very approachable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Despite being a big star, she's very approachable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەرچی ئەستێرەیەکی گەورەیە، بەڵام کەسێکی کۆمەڵایەتییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryapproachable extends StatelessWidget {
 ٢. (ھاوەڵناو) شوێنێک کە ڕێگایەک پێی‌دەگات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The summit was approachable only from the south."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The summit was approachable only from the south."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لوتکەی شاخەکە تەنھا لە باشوورەوە بەردەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

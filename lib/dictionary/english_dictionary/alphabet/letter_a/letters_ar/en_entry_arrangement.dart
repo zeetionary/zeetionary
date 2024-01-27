@@ -184,12 +184,18 @@ class EnglishEntryarrangement extends StatelessWidget {
 ١. (ناو) پلانێک یان ئامادەکارییەک کە ئەنجامی دەدەیت بۆ ئەوەی شتێک ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Travel and accommodation arrangements have been finalized."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Travel and accommodation arrangements have been finalized."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخستنی کاتی گەشتەکە و شوێنی مانەوە ئەنجام‌دراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +216,18 @@ class EnglishEntryarrangement extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Arrangements for the funeral are complete."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Arrangements for the funeral are complete."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادەکارییەکان بۆ مەراسیمی ناشتنەکە تەواوبوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryarrangement extends StatelessWidget {
 ٢. (ناو) شێوازی کردن یان ڕێکخستنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's happy with her unusual living arrangements."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's happy with her unusual living arrangements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵخۆشە بە شێوازە نائاساییەکەی ژیانکردنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +284,18 @@ class EnglishEntryarrangement extends StatelessWidget {
 ٣. (ناو) ڕێککەوتنێک لەگەڵ کەسێک بۆ ئەوەی ھەردووکتان پەسەندی بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We can come to an arrangement over the price."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We can come to an arrangement over the price."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانین بگەینە ڕێککەوتنێک لەسەر نرخەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +318,18 @@ class EnglishEntryarrangement extends StatelessWidget {
 ٤. (ناو) کۆمەڵە شتێک کە بەشێوەیەکی جوان ڕێکخراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Who did this beautiful flower arrangement?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who did this beautiful flower arrangement?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێ ئەم ڕازاندنەوە جوانەی بۆ ئەم گوڵانە کرد؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -322,12 +352,18 @@ class EnglishEntryarrangement extends StatelessWidget {
 ٥. (ناو) پارچە میوزیکێک کە گۆڕدراوە بۆ گونجاندنی لەگەڵ ئامێرێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This new arrangement of the piece is for saxophone and piano."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This new arrangement of the piece is for saxophone and piano."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم سازاندنە تازەی پارچە میوزیکەکە بۆ ساکسۆفۆن و پیانۆیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

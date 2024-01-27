@@ -128,12 +128,18 @@ class EnglishEntryaccurately extends StatelessWidget {
 ١. (ھاوەڵکار) بە وردی و درووستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article accurately reflects public opinion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە بە درووستی بۆچوونی شەقام پیشان دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The article accurately reflects public opinion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە بە درووستی بۆچوونی شەقام پیشان دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,11 +158,18 @@ class EnglishEntryaccurately extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەکی تەواو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Quantities must be measured accurately."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڕەکان دەبێت بە تەواوی بپێورێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Quantities must be measured accurately."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕەکان دەبێت بە تەواوی بپێورێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

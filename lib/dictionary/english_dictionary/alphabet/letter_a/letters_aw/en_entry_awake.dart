@@ -172,12 +172,18 @@ class EnglishEntryawake extends StatelessWidget {
 ١. (ھاوەڵناو) نەخەوتوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was still awake when he came to bed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was still awake when he came to bed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,16 @@ class EnglishEntryawake extends StatelessWidget {
 ٢. (کردار) لەخەوھەستاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I awoke from a deep sleep."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە خەوێکی قووڵ ھەستام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I awoke from a deep sleep."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە خەوێکی قووڵ ھەستام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -224,12 +236,18 @@ class EnglishEntryawake extends StatelessWidget {
 ٣. (کردار) درووستبوونی یان درووستکردنی ھەستێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His speech is bound to awake old fears and hostilities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His speech is bound to awake old fears and hostilities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

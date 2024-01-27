@@ -180,12 +180,18 @@ class EnglishEntryasylum extends StatelessWidget {
 ١. (ناو) مافی پەنابەرێتی؛ پارێزگارییەک کە حکومەتێک دەیدات بە کەسێک کە وڵاتی خۆی جێھێشتووە، زۆرجار بەھۆی مەترسی لەسەر ژیانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a nationwide debate on whether the asylum laws should be changed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a nationwide debate on whether the asylum laws should be changed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,11 +213,17 @@ class EnglishEntryasylum extends StatelessWidget {
 ٢. (ناو) نەخۆشخانەی چاودێری بۆ ئەو کەسانەی کە لە ڕووی دەروونییەوە ناتەواون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Conditions in the asylum were deplorable."),
-                              const ExampleSentenceKurdish(
-                                  text: "بارودۆخی شێتخانەکە جەرگبڕ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Conditions in the asylum were deplorable."),
+                                    ExampleSentenceKurdish(
+                                        text: "بارودۆخی شێتخانەکە جەرگبڕ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

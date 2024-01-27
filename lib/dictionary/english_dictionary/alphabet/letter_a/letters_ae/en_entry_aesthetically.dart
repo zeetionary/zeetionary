@@ -129,12 +129,18 @@ class EnglishEntryaesthetically extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی پەیوەندیدار بە جوانی و ھونەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The film is technically and aesthetically brilliant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The film is technically and aesthetically brilliant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە لەڕووی تەکنیکی و ھونەرییەوە نایاب بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryaesthetically extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە جوانە بۆ سەیرکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The interior has been aesthetically decorated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The interior has been aesthetically decorated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشی ناوەوە بەشێوەیەکی جوان دیزاین کرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

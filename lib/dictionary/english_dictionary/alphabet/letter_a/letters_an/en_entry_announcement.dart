@@ -174,12 +174,18 @@ class EnglishEntryannouncement extends StatelessWidget {
 ١. (ناو) ڕاگەیاندنێک کە بە فەرمی بە خەڵکی دەوترێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We welcome the recent announcement by the Government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We welcome the recent announcement by the Government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشوازی لە ڕاگەیاندنە تازەکەی حکومەت دەکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryannouncement extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An announcement about her future is expected soon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An announcement about her future is expected soon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەم‌زوانە چاوەڕوانی ڕاگەیاندنێک دەکرێت دەربارەی داھاتووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,12 +240,18 @@ class EnglishEntryannouncement extends StatelessWidget {
 ٢. (ناو) بە فەرمی ڕاگەیاندنی شتێک بە خەڵکی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Announcement of the verdict was accompanied by shouts and cheers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Announcement of the verdict was accompanied by shouts and cheers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاگەیاندنی بڕیارەکە ھاوار و قریوەی بەدواداھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

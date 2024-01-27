@@ -164,10 +164,16 @@ class EnglishEntryagain extends StatelessWidget {
 ١. (ھاوەڵکار) جارێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This must never happen again."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "This must never happen again."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەمە ئەبێت ھەرگیز ڕوونەداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +192,18 @@ class EnglishEntryagain extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If he does it again I'll have to tell him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If he does it again I'll have to tell him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر دووبارەی بکاتەوە دەبێت پێی بڵێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,10 +224,17 @@ class EnglishEntryagain extends StatelessWidget {
 ٢. (ھاوەڵکار) پیشاندانی ئەوەی کەسێک لە ھەمان شوێن یان بارودۆخ دەبێت کە پێشووتر لێی بووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was glad to be home again."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was glad to be home again."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆشحاڵبوو کە دووبارە لە ماڵەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +255,18 @@ class EnglishEntryagain extends StatelessWidget {
 ٣. (ھاوەڵکار) زیادبوون بۆ سەر ژمارەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cost is about half as much again as it was two years ago."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cost is about half as much again as it was two years ago."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخەکەی نیوەی نرخی دوو ساڵ پێش ئێستای خۆی چووەتە سەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

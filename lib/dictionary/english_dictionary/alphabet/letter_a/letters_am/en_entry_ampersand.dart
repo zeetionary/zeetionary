@@ -170,12 +170,18 @@ class EnglishEntryampersand extends StatelessWidget {
 ١. (ناو) نیشانەی & کە بە واتای «و» بەکاردێت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has worked for both Google & Microsoft."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has worked for both Google & Microsoft."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ھەردوو گووگڵ و مایکرۆسۆفت کاری‌کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

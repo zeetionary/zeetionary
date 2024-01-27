@@ -172,12 +172,18 @@ class EnglishEntryanalog extends StatelessWidget {
 ١. (ھاوەڵناو) ئامێرێکی ئەلیکترۆنی کە مەودایەکی بەردەوام گۆڕاوی بڕی فیزیایی بەکاردێنێت بۆ پێوان و کۆگاکردنی زانیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is the standard method used to convert analog signals to digital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is the standard method used to convert analog signals to digital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە ڕێگای ستانداردە بۆ گۆڕینی شەپۆلی ئەنالۆگ بۆ دیجیتاڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryanalog extends StatelessWidget {
 ٢. (ھاوەڵناو) کاتژمێرێک کە میلی ھەیە وەک ئەوەی ژمارەکان پیشان‌بدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She still uses an old-fashioned analog alarm clock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She still uses an old-fashioned analog alarm clock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا کاتژمێرێکی ئەنالۆگی کۆنەباو وەک چاڵمە بەکاردێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +238,18 @@ class EnglishEntryanalog extends StatelessWidget {
 ٣. (ناو) شتێک کە ھاوشێوەی شتێکی ترە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists are attempting to compare features of extinct animals with living analogs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists are attempting to compare features of extinct animals with living analogs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان ھەوڵ‌دەدەن خاسیەتەکانی ئاژەڵە لەناوچووەکان بەراورد بکەن بە لێکچووە زیندووەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntryanomalous extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی نائاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They couldn’t find an explanation for the seemingly anomalous results of the experiment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They couldn’t find an explanation for the seemingly anomalous results of the experiment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیان‌دەتوانی ڕوونکردنەوەیەک بدۆزنەوە بۆ ئەنجامە سەیرەکانی تاقیکردنەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

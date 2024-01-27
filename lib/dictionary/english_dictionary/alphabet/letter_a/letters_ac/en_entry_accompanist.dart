@@ -111,12 +111,18 @@ class EnglishEntryaccompanist extends StatelessWidget {
 ١. کەسێک کە ئامێرێکی موسیقی دەژەنێت لە کاتێکدا کەسێکی تر بەشە گرنگەکەی گۆرانییەکە دەڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The singer's accompanist on the piano was Charles Harman."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The singer's accompanist on the piano was Charles Harman."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیانۆژەنی گۆرانیبێژەکە چارڵس ھارمان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

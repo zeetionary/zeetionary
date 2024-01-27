@@ -140,12 +140,18 @@ class EnglishEntryaccent extends StatelessWidget {
 ١. (ناو) شێوازی خوێندنەوەی وشەکانی زمانێک کە دەریدەخات کەسێک خەڵکی کوێیە یان کاری چییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Americans had learned Korean and spoke with a good accent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Americans had learned Korean and spoke with a good accent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمریکییەکان کۆری فێربووبوون و بە لەھجەیەکی باشەوە قسەیان پێدەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -162,11 +168,18 @@ class EnglishEntryaccent extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Where are you from? I can't place your accent."),
-                              const ExampleSentenceKurdish(
-                                  text: "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Where are you from? I can't place your accent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی کوێی؟ بە لەھجەکەتدا نازانم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -185,12 +198,18 @@ class EnglishEntryaccent extends StatelessWidget {
 ٢. (ناو) ئەو ھێزەی کە دەیخەیتە سەر بەشێکی وشەیەک لە کاتی وتنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On which syllable do you place the accent in this word?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On which syllable do you place the accent in this word?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەم وشەیەدا ھێز دەخەیتە سەر کام بڕگە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +228,18 @@ class EnglishEntryaccent extends StatelessWidget {
 ٣. (کردار) جەختکردنەوە سەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The women accent their eyes with make-up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The women accent their eyes with make-up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنان بە مەیکئەپ گرنگی تایبەت بە چاویان دەدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

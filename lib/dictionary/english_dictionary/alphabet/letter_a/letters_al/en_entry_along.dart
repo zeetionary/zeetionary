@@ -181,10 +181,18 @@ class EnglishEntryalong extends StatelessWidget {
 ١. (ئامراز) لەلایەکی شتێک بۆ لاکەی تری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They walked slowly along the road."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They walked slowly along the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھێواشی بەدرێژایی ڕێگاکە ڕێیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +213,18 @@ class EnglishEntryalong extends StatelessWidget {
 ٢. (ئامراز) لەسەر ھێڵێک بەدرێژایی شتێکی درێژ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Houses had been built along both sides of the river."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Houses had been built along both sides of the river."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانوو بەدرێژایی ھەردوو لای ڕووبارەکە بنیاتنراون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +245,18 @@ class EnglishEntryalong extends StatelessWidget {
 ٣. (ئامراز) لە شوێنێکی دیاریکراوی شوێنێکی درێژ، یان لە نزیکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Somewhere along this road there's a garage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Somewhere along this road there's a garage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە شوێنێک بەدرێژایی ئەم شەقامە گەراجێک ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +277,18 @@ class EnglishEntryalong extends StatelessWidget {
 ٤. (ھاوەڵکار) بۆ پێشەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were going along at about 50 miles an hour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were going along at about 50 miles an hour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ پێشەوە دەچووین بەخێرایی نزاکەی ٥٠ میل لە کاتژمێرێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -283,11 +309,18 @@ class EnglishEntryalong extends StatelessWidget {
 ٥. (ھاوەڵکار) لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'll be along (= I'll join you) in a few minutes."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە چەند خولەکێکدا دەگەمە لاتان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'll be along (= I'll join you) in a few minutes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە چەند خولەکێکدا دەگەمە لاتان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

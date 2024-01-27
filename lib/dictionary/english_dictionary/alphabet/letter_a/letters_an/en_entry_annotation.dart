@@ -172,11 +172,17 @@ class EnglishEntryannotation extends StatelessWidget {
 ١. (ناو) تێبینییەک کە زیاد دەکرێت بۆ کتێبێک، نووسراوێک، یان شتێک کە ڕوونکردنەوەی لەسەر دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It will be published with annotations."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It will be published with annotations."),
+                                    ExampleSentenceKurdish(
+                                        text: "بڵاودەکرێتەوە لەگەڵ پەراوێزدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -197,12 +203,18 @@ class EnglishEntryannotation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The annotation of literary texts makes them more accessible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The annotation of literary texts makes them more accessible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڵاوکردنەوەی نووسراوی ئەدەبی بە ڕوونکردنەوەوە وادەکات خەڵکی زیاتر بیانخوێننەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

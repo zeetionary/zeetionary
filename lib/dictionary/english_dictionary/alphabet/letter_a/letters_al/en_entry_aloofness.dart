@@ -129,12 +129,18 @@ class EnglishEntryaloofness extends StatelessWidget {
 ١. (ھاوەڵناو) گۆشەگیری و دووری لە خەڵکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her cool aloofness was seen as arrogance by some people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her cool aloofness was seen as arrogance by some people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوورەپەرێزییە ساردوسڕییەکەی وەک خۆبەزلزانی دەبینرا لەلایەن ھەندێک کەسەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

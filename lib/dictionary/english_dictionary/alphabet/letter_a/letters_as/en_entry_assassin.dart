@@ -178,10 +178,18 @@ class EnglishEntryassassin extends StatelessWidget {
 ١. (ناو) کەسێک کە کەسێکی بەناوبانگ یان گرنگ دەکوژێت بۆ پارە یان ھۆکاری سیاسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was killed by a hired assassin."),
-                              const ExampleSentenceKurdish(
-                                  text: "لەلایەن بکوژێکی بەکرێگیراو کوژرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was killed by a hired assassin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلایەن بکوژێکی بەکرێگیراو کوژرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

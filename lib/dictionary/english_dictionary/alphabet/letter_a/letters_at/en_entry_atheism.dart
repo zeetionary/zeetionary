@@ -179,12 +179,18 @@ class EnglishEntryatheism extends StatelessWidget {
 ١. (ناو) باوەڕی ئەوەی کە خودا بوونی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is torn between atheism and the religious traditions she was raised with."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is torn between atheism and the religious traditions she was raised with."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

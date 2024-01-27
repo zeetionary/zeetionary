@@ -112,12 +112,18 @@ class EnglishEntryabandoned extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە جێھێڵدراوە و چیتر بەکارناھێندرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The child was found abandoned but unharmed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The child was found abandoned but unharmed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -136,12 +142,18 @@ class EnglishEntryabandoned extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was an abandoned supermarket trolley in the middle of the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was an abandoned supermarket trolley in the middle of the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

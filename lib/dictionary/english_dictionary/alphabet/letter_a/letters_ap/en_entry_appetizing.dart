@@ -176,12 +176,18 @@ class EnglishEntryappetizing extends StatelessWidget {
 ١. (ھاوەڵناو) خواردنێک کە بۆنەکەی یان تامەکەی سەرجڕاکێشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The meals he cooked were always nourishing but never particularly appetizing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو خواردنانەی کە درووستی دەکردن ھەمیشە باش بوون بۆ تەندرووستی بەڵام ھەرگیز بەردڵان نەبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The meals he cooked were always nourishing but never particularly appetizing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو خواردنانەی کە درووستی دەکردن ھەمیشە باش بوون بۆ تەندرووستی بەڵام ھەرگیز بەردڵان نەبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

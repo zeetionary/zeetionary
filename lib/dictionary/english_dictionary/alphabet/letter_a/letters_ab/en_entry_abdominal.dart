@@ -102,12 +102,16 @@ class EnglishEntryabdominal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە سک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "abdominal pains"),
-                              const SizedBox(
-                                width: 50,
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "abdominal pains"),
+                                    
+                                    ExampleSentenceKurdish(text: "سک ئێشە."),
+                                  ],
+                                ),
                               ),
-                              const ExampleSentenceKurdish(text: "سک ئێشە."),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

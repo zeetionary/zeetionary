@@ -130,12 +130,18 @@ class EnglishEntryallclear extends StatelessWidget {
 ١. (ناو) ئاماژەیەک بۆ ئەوەی شوێنێک چی تر مەترسیدار نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children hid in the basement until the all-clear sounded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children hid in the basement until the all-clear sounded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان خۆیان لەژێر زەمینەکە شاردەوە تاوەکو ئاماژەی سەلامەتییان پێدرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +163,18 @@ class EnglishEntryallclear extends StatelessWidget {
 ٢. (ناو) وتنی ئەوەی ھیچ کێشەیەک نییە، بۆ نموونە پزیشک بڵێت ھیچ کێشەی تەندرووستیت نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The building was given the all-clear following tests."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The building was given the all-clear following tests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیناکە بە سەلامەت دانرا لە دوای پشکنینەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -184,12 +196,18 @@ class EnglishEntryallclear extends StatelessWidget {
 ٣. (ناو) مۆڵەتپێدان بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ship was given the all-clear to sail."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ship was given the all-clear to sail."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییەکە مۆڵەتی پێدرا بۆ چوونە دەریا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

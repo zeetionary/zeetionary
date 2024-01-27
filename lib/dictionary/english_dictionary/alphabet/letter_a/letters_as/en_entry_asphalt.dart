@@ -179,10 +179,17 @@ class EnglishEntryasphalt extends StatelessWidget {
 ١. (ناو) قیری درووستکرنی شەقام"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The road was paved with asphalt."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەقامەکە قیرتاوکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road was paved with asphalt."),
+                                    ExampleSentenceKurdish(
+                                        text: "شەقامەکە قیرتاوکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,10 +211,17 @@ class EnglishEntryasphalt extends StatelessWidget {
 ٢. (ناو) قیرتاوکردنی ڕێگایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The workers asphalted the road."),
-                              const ExampleSentenceKurdish(
-                                  text: "کرێکاران ڕێگاکەیان قیرتاوکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The workers asphalted the road."),
+                                    ExampleSentenceKurdish(
+                                        text: "کرێکاران ڕێگاکەیان قیرتاوکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

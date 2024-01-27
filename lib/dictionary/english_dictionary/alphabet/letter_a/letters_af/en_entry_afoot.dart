@@ -127,11 +127,18 @@ class EnglishEntryafoot extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لە پلاندایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are plans afoot to increase taxation."),
-                              const ExampleSentenceKurdish(
-                                  text: "پلان لە ئارادایە بۆ زیادکردنی باج"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are plans afoot to increase taxation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلان لە ئارادایە بۆ زیادکردنی باج"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

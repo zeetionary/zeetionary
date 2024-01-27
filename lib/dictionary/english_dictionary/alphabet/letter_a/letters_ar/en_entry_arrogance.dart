@@ -178,12 +178,18 @@ class EnglishEntryarrogance extends StatelessWidget {
 ١. (ناو) لەخۆڕازیی؛ بەشێوەیەل ڕەفتارکردن وەک ئەوەی لە کەسانی تر زیاتر بیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has a reputation for rudeness and intellectual arrogance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has a reputation for rudeness and intellectual arrogance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,11 +178,17 @@ class EnglishEntryarrogant extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەکی ناشرین و بەفیزانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I found him arrogant and rude."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە کەسێکی بێ‌ڕێز و لەخۆڕازی ھاتە پێش چاوم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I found him arrogant and rude."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەسێکی بێ‌ڕێز و لەخۆڕازی ھاتە پێش چاوم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

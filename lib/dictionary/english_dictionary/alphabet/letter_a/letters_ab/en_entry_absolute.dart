@@ -148,12 +148,18 @@ class EnglishEntryabsolute extends StatelessWidget {
 ١. (ھاوەڵناو) بە تەواوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've joined a class for absolute beginners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've joined a class for absolute beginners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -170,12 +176,18 @@ class EnglishEntryabsolute extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Clean water is an absolute necessity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاوی پاک پێویستییەکی تەواو سەرەتایییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Clean water is an absolute necessity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوی پاک پێویستییەکی تەواو سەرەتایییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +206,18 @@ class EnglishEntryabsolute extends StatelessWidget {
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We must keep costs to an absolute minimum."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must keep costs to an absolute minimum."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -218,11 +236,18 @@ class EnglishEntryabsolute extends StatelessWidget {
 ٣. (ھاوەڵناو) نەگۆڕ بەبێ ئەوەی گومانی لەسەر بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He taught us that the laws of physics were absolute."),
-                              const ExampleSentenceKurdish(
-                                  text: "فێریکردین کە یاساکانی فیزیا نەگۆڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He taught us that the laws of physics were absolute."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فێریکردین کە یاساکانی فیزیا نەگۆڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +266,18 @@ class EnglishEntryabsolute extends StatelessWidget {
 ٤. (ھاوەڵناو) گەشتن بە کۆتایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The divorce became absolute last week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The divorce became absolute last week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

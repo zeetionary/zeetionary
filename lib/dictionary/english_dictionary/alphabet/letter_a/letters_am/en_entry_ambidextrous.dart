@@ -130,12 +130,18 @@ class EnglishEntryambidextrous extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی توانای بەکارھێنانی دەستە ڕاست و چەپ وەک یەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I am naturally left-handed, but was not allowed to write with my left hand, with the result that I became ambidextrous."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی سرووشتی چەپلەرم، بەڵام ڕێگەم پێ‌نەدرا بە دەستە چەپم بنووسم، و لە ئەنجامدا بوومە دوودەستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

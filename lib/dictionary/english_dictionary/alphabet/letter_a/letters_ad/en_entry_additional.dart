@@ -127,12 +127,18 @@ class EnglishEntryadditional extends StatelessWidget {
 ١. (ھاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He provided additional information about this incident."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He provided additional information about this incident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

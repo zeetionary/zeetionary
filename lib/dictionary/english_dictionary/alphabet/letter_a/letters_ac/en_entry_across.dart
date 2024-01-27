@@ -182,11 +182,17 @@ class EnglishEntryacross extends StatelessWidget {
 ١. (ئامراز) لەلایەک بۆ لەیەکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I drew a line across the page."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I drew a line across the page."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێڵێکم کێشا لە لایەکی پەڕەکە بۆ لەیەکەی تری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryacross extends StatelessWidget {
                           const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Where's the nearest bridge across the river?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Where's the nearest bridge across the river?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نزیکترین پرد کە بەسەر ڕووبارەکەدا بڕوات لە کوێیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +241,18 @@ class EnglishEntryacross extends StatelessWidget {
 ٢. (ئامراز) لەلایەکەی تری شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's a bank right across the street."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a bank right across the street."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانکێک ھەیە لە لایەکەی تری شەقامەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,10 +272,16 @@ class EnglishEntryacross extends StatelessWidget {
 ٣. (ئامراز) لەسەر بەشێکی جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He hit him across the face."),
-                              const ExampleSentenceKurdish(
-                                  text: "کێشای بە ڕووخساریدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He hit him across the face."),
+                                    ExampleSentenceKurdish(
+                                        text: "کێشای بە ڕووخساریدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -277,12 +301,18 @@ class EnglishEntryacross extends StatelessWidget {
 ٤. (ئامراز) لە ھەموو بەشێکی وڵاتێک، گرووپێک. شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her family is scattered across the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her family is scattered across the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکەی بە وڵاتەکەدا بڵاوبووبوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -302,12 +332,18 @@ class EnglishEntryacross extends StatelessWidget {
 ٥. (ھاوەڵکار) لەلایەک بۆ لەیەکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The river is too wide. We can't swim across."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The river is too wide. We can't swim across."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووبارەکە زۆر فراوانە. ناتوانین بپەڕینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -327,12 +363,18 @@ class EnglishEntryacross extends StatelessWidget {
 ٦. (ھاوەڵکار) بە ئاراستەیەکی دیاریکراو و ڕوو لە کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When my name was called, he looked across at me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When my name was called, he looked across at me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ناوم خوێندرایەوە، ڕاستەوخۆ ڕووی لە من کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -352,11 +394,18 @@ class EnglishEntryacross extends StatelessWidget {
 ٧. (ھاوەڵکار) لە بەرامبەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's a school just across from our house."),
-                              const ExampleSentenceKurdish(
-                                  text: "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's a school just across from our house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندنگەیەک لە بەرامبەر ماڵمان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

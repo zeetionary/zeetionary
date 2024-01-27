@@ -127,12 +127,18 @@ class EnglishEntryacidrain extends StatelessWidget {
 ١. (ناو) بارانێک کە مادەی کیمیایی زیانبەخشی دووکەڵی کارگەکانی تێدایە کە دەبێتە ھۆی زیان بۆ درەختەکان، دانەوێڵە، و بیناکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sulphur, falling as acid rain, is killing fish in the Great Lakes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sulphur, falling as acid rain, is killing fish in the Great Lakes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سلفەر ئەگەر لەگەڵ ترشە باران بێت دەبێتە ھۆی کووشتنی ماسی لە دەریاچەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

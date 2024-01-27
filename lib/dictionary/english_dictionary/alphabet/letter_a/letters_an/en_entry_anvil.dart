@@ -174,11 +174,18 @@ class EnglishEntryanvil extends StatelessWidget {
 ١. (ناو) پارچە ئاسنێک کە ئاسنگەرێک پارچە کانزا دادەنا و بە چەکوش لێیان دەدات بۆ ڕێکخستنی شێوەکەیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A good anvil does not fear the hammer."),
-                              const ExampleSentenceKurdish(
-                                  text: "سندانێکی باش باکی بە چەکوش نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A good anvil does not fear the hammer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سندانێکی باش باکی بە چەکوش نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

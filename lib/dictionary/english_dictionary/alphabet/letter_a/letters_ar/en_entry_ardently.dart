@@ -175,10 +175,17 @@ class EnglishEntryardently extends StatelessWidget {
 ١. (ھاوەڵکار) بە پەرۆشی و تامەزرۆییەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He gazed at her ardently."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تامەزرۆییەوە لە کچەکەی دەڕوانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He gazed at her ardently."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە تامەزرۆییەوە لە کچەکەی دەڕوانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

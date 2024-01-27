@@ -112,11 +112,18 @@ class EnglishEntryabsurdly extends StatelessWidget {
 ١. بە ئاستێک کە جێگەی باوەڕ نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The paintings were sold for absurdly high prices."),
-                              const ExampleSentenceKurdish(
-                                  text: "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The paintings were sold for absurdly high prices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

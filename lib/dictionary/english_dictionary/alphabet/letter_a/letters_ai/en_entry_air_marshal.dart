@@ -126,12 +126,18 @@ class EnglishEntryairmarshal extends StatelessWidget {
 ١. (ناو) ئەفسەرێکی باڵا لە ھێزی ئاسمانیی بەریتانیا و ژمارەیەک وڵاتی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her father was an air marshal in the Australian Air Force."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her father was an air marshal in the Australian Air Force."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکی ئەفسەری باڵای ھێزی ئاسمانیی ئوسترالیا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +159,18 @@ class EnglishEntryairmarshal extends StatelessWidget {
 ٢. (ناو) کەسێکی ڕاھێنراو کە وەک سەرنشینێکی ئاسایی لە فڕۆکەیەکە بۆ حاڵەتی نەخوازراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "New security measures included increasing the number of air marshals and fortifying cockpit doors."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "New security measures included increasing the number of air marshals and fortifying cockpit doors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکارە تازەکانی ئەمنییەت زیادکردنی ژمارەی ئەفسەرە نھێنییەکان و توندکردنی دەرگای ژووری فڕۆکەوانەکان لەخۆدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

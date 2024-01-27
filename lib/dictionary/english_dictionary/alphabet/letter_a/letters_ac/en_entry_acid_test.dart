@@ -127,12 +127,18 @@ class EnglishEntryacidtest extends StatelessWidget {
 ١. (ناو) ڕێگای دیاریکردنی ئەوەی کەسێک/شتێک سەرکەوتووە یان نا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The acid test of a good driver is whether they remain calm in an emergency."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The acid test of a good driver is whether they remain calm in an emergency."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەنگی مەحەک بۆ شۆفێرێکی باش ئەوەیە کە بە ئارامی دەمێنێتەوە لە حاڵەتی نەخوازراو یان نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

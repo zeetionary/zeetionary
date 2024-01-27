@@ -177,12 +177,18 @@ class EnglishEntryatlas extends StatelessWidget {
 ١. (ناو) کتێبێک کە نەخشەی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "For those of you who don't have an atlas to hand, Newcastle is a city in the northeaeast of England."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

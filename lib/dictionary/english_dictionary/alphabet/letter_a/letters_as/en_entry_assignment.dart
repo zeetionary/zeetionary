@@ -180,12 +180,18 @@ class EnglishEntryassignment extends StatelessWidget {
 ١. (ناو) ئەرکێک کە کەسێک وەک باشێک لە کارەکەی یان خوێندنی پێی‌دەدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Students are required to complete all homework assignments."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Students are required to complete all homework assignments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتابیان دەبێت ھەموو ئەرکی ماڵەوە تەواو بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryassignment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is in Greece on an assignment for one of the Sunday newspapers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is in Greece on an assignment for one of the Sunday newspapers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر ئەرکە لە یۆنان بۆ یەکێک لە ڕۆژنامەکانی یەکشەممان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassignment extends StatelessWidget {
 ٢. (ناو) پێدانی شتێک بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His two-year assignment to the Mexico office starts in September."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His two-year assignment to the Mexico office starts in September."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاسپاردنی بۆ ماوەی دوو ساڵ بۆ ئۆفیسی مەکسیک لە ئەیلوولەوە دەستپێ‌دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryadviser extends StatelessWidget {
 ١. (ناو) کەسێک کە کاری ڕاوێژکاری دەکات؛ ئامۆژگاری بە کەسێک دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You ought to consult an independent legal adviser."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You ought to consult an independent legal adviser."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویستە ڕاوێژ بە ڕاوێژکارێکی یاسایی سەربەخۆ بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

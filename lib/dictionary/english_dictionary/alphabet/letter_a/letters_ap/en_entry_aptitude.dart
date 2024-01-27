@@ -176,11 +176,18 @@ class EnglishEntryaptitude extends StatelessWidget {
 ١. (ناو) توانای سرووشتی بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She showed a natural aptitude for the work."),
-                              const ExampleSentenceKurdish(
-                                  text: "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She showed a natural aptitude for the work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلیمەتیی سرووستی پیشان‌دا بۆ کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

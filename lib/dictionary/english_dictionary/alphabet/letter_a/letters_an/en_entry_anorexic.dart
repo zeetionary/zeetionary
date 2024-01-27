@@ -171,12 +171,18 @@ class EnglishEntryanorexic extends StatelessWidget {
 ١. (ناو) کەسێکی تووشبوو بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Not eating makes an anorexic feel in control."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Not eating makes an anorexic feel in control."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردن نەخواردن وا لە کەسێکی بێ‌ئیشتیا دەکات ھەست بکات کۆنترۆڵی کێشی کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,10 +204,16 @@ class EnglishEntryanorexic extends StatelessWidget {
 ٢. (ناو) پەیوەندیدار بە تووشبوون بە بێ‌ئیشتیایی؛ نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looks anorexic to me."),
-                              const ExampleSentenceKurdish(
-                                  text: "بێ‌ئیشتیا دیارە لام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She looks anorexic to me."),
+                                    ExampleSentenceKurdish(
+                                        text: "بێ‌ئیشتیا دیارە لام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

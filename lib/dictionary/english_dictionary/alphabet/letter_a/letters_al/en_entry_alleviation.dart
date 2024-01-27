@@ -130,12 +130,18 @@ class EnglishEntryalleviation extends StatelessWidget {
 ١. (ناو) وا لە سەختی شتێک بکەیت کەم ببێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Acupuncture might help with the alleviation of headaches."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Acupuncture might help with the alleviation of headaches."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرزی ئاژنین لەوانەیە یارمەتیدەر بێت لە سوککردنی سەرێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

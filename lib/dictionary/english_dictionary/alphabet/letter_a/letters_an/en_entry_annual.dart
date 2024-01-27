@@ -174,12 +174,18 @@ class EnglishEntryannual extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ساڵی جارێک ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She organized this year's annual Christmas dinner dance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She organized this year's annual Christmas dinner dance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەمای ساڵانەی ئێوارەی کریسمسی بۆ ئەمساڵ ڕێکخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryannual extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Companies publish annual reports to inform the public about the previous year's activities."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Companies publish annual reports to inform the public about the previous year's activities."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکان ڕاپۆرتی ساڵانە بڵاودەکەنەوە بۆ ئەوەی ڕای‌ گشتی ئاگاداربکەنەوە سەبارەت بە چالاکییەکانی ساڵی پێشوویان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +238,18 @@ class EnglishEntryannual extends StatelessWidget {
 ٢. (ھاوەڵناو) بۆ ماوەی یەک ساڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have decided to take my annual leave to be with my wife and baby."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have decided to take my annual leave to be with my wife and baby."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیارم‌داوە مۆڵەتی ساڵانەم وەربگرم بۆ ئەوەی لەگەڵ ژنەکەم و منداڵەکەم بم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,12 +271,18 @@ class EnglishEntryannual extends StatelessWidget {
 ٣. (ناو) کتێبێک کە بۆ منداڵانە و ساڵی جارێک بە ھەمان ناونیشان بەڵام ناوەڕۆکی جیاواز بڵاودەبێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children usually asked for comic or sporting annuals for Christmas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children usually asked for comic or sporting annuals for Christmas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان زۆرجار داوای کتێبی کۆمیک یان وەرزشییان دەکرد بۆ کریسمس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

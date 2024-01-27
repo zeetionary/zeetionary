@@ -116,10 +116,17 @@ class EnglishEntryaboard extends StatelessWidget {
 ١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was already aboard the plane."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێشوەختە لەناو فڕۆکەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was already aboard the plane."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێشوەختە لەناو فڕۆکەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -136,12 +143,18 @@ class EnglishEntryaboard extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plane crashed, killing all 157 passengers aboard."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plane crashed, killing all 157 passengers aboard."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

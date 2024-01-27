@@ -114,12 +114,18 @@ class EnglishEntryaccelerator extends StatelessWidget {
 ١. ئەو بەشەی ئۆتۆمبێل کە بەکاردێت بۆ کۆنترۆڵی خێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She put her foot on the accelerator and we sped through the traffic lights."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She put her foot on the accelerator and we sped through the traffic lights."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێی لەسەر بەنزین دانا و بەخێرایی بە ترافیک لایتەکە تێپەڕین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

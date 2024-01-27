@@ -179,12 +179,18 @@ class EnglishEntryauditorium extends StatelessWidget {
 ١. (ناو) ئەو بەشەی ھۆڵی کۆنسێرتێک یان سینەمایەک کە گوێگران تێیدا دادەنیشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The auditorium seats over a thousand people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The auditorium seats over a thousand people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryauditorium extends StatelessWidget {
 ٢. (ناو) ژوورێکی گەورە کە بۆنەی تێدا سازدەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stood at the back of the packed auditorium."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stood at the back of the packed auditorium."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

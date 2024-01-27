@@ -112,12 +112,18 @@ class EnglishEntryabscond extends StatelessWidget {
 ١. ھەڵھاتن لە شوێنێک کە ڕێگەت پێنەدراوە لێی ڕابکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She absconded from every children’s home they placed her in."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She absconded from every children’s home they placed her in."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

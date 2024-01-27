@@ -128,11 +128,17 @@ class EnglishEntryagency extends StatelessWidget {
 ١. (ناو) دامەزراوەیەک کە خزمەتگوزارییەک پێشکەش دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She works for an surveillance agency."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ دەزگایەکی چاودێری کاردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She works for an surveillance agency."),
+                                    ExampleSentenceKurdish(
+                                        text: "بۆ دەزگایەکی چاودێری کاردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +159,18 @@ class EnglishEntryagency extends StatelessWidget {
 ٢. (ناو) فەرمانگەیەکی حکومەت کە خزمەتگوزارییەکی دیاریکراو پێشکەش دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some laboratories are operated by government agencies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some laboratories are operated by government agencies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک تاقیگە لەلایەن فەرمانگەکانی حکومەتەوە بەڕێوەدەبردرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

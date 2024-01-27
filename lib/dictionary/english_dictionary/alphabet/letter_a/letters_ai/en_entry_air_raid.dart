@@ -127,12 +127,18 @@ class EnglishEntryairraid extends StatelessWidget {
 ١. (ناو) ھێرشی ئاسمانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The family was killed in an air raid."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The family was killed in an air raid."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکە لە ھێرشێکی ئاسمانیدا کوژران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

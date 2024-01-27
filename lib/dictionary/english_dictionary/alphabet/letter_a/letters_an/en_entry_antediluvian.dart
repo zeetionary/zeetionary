@@ -173,12 +173,18 @@ class EnglishEntryantediluvian extends StatelessWidget {
 ١. (ھاوەڵناو) کۆنەپەرست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My mother has some hopelessly antediluvian ideas about the role of women."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My mother has some hopelessly antediluvian ideas about the role of women."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکم ھەندێک بیرۆکەی کۆنەپەرستانەی نائومێدکەری ھەیە دەربارەی ئەرکی ژنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

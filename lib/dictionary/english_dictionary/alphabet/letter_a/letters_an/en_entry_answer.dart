@@ -237,11 +237,17 @@ class EnglishEntryanswer extends StatelessWidget {
 ١. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان دەیڵێیت وەک وەڵام بۆ پرسیارێک یان بارودۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I rang the bell, but there was no answer."),
-                              const ExampleSentenceKurdish(
-                                  text: "زەنگم لێدا بەڵام وەڵام نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I rang the bell, but there was no answer."),
+                                    ExampleSentenceKurdish(
+                                        text: "زەنگم لێدا بەڵام وەڵام نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,11 +267,18 @@ class EnglishEntryanswer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Can't you give me a definitive answer?"),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتوانیت وەڵامێکی تەواوم پێ بدەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Can't you give me a definitive answer?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت وەڵامێکی تەواوم پێ بدەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,11 +298,17 @@ class EnglishEntryanswer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had no answer to the accusations."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had no answer to the accusations."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ وەڵامی بۆ تۆمەتەکان نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -311,12 +330,18 @@ class EnglishEntryanswer extends StatelessWidget {
 ٢. (ناو) شتێک کە دەینووسیت یان دەیڵێیت وەک وەڵام بۆ پرسیارێک لە تاقیکردنەوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Write your answers on the sheet provided."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Write your answers on the sheet provided."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەڵامەکانت لەسەر ئەو پەڕە بنووسە کە پێت‌دراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -336,11 +361,17 @@ class EnglishEntryanswer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you know the answer (= the right one) to question 12?"),
-                              const ExampleSentenceKurdish(
-                                  text: "وەڵامی پرسیاری ١٢یەم دەزانی؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you know the answer (= the right one) to question 12?"),
+                                    ExampleSentenceKurdish(
+                                        text: "وەڵامی پرسیاری ١٢یەم دەزانی؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -362,11 +393,18 @@ class EnglishEntryanswer extends StatelessWidget {
 ٣. (ناو) چارەسەری کێشەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This may not be the answer for everyone."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This may not be the answer for everyone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە ڕەنگە چارەسەر نەبێت بۆ ھەموان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -386,12 +424,18 @@ class EnglishEntryanswer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The obvious answer would be to cancel the party."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The obvious answer would be to cancel the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چارەسەری ڕوون ھەڵوەشاندنەوەی ئاھەنگەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -413,12 +457,18 @@ class EnglishEntryanswer extends StatelessWidget {
 ٤. (کردار) کردن، نووسین، یان وتنی شتێک وەک وەڵام بۆ پرسیارێک یان بارودۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I repeated the question, but she didn't answer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I repeated the question, but she didn't answer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پرسیارەکەم دووبارە کردەوە بەڵام وەڵامی نەداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -438,10 +488,17 @@ class EnglishEntryanswer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You haven't answered my question."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەڵامی پرسیارەکەمت نەداوەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You haven't answered my question."),
+                                    ExampleSentenceKurdish(
+                                        text: "وەڵامی پرسیارەکەمت نەداوەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -461,12 +518,18 @@ class EnglishEntryanswer extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He refused to answer the charges against him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He refused to answer the charges against him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەتی‌کردەوە وەڵامی تۆمەتەکانی دژی بداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -488,12 +551,18 @@ class EnglishEntryanswer extends StatelessWidget {
 ٥. (کردار) بەرگری‌کردن لە خۆت بەرامبەر تۆمەت یان ڕەخنە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was summoned before the council to answer charges of treason."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was summoned before the council to answer charges of treason."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بانگ‌کرایە پێش ئەنجوومەنەکە بۆ وەڵامدانەوەی تۆمەتی خیانەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

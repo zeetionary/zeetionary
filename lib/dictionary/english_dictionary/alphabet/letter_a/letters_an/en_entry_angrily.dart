@@ -169,12 +169,18 @@ class EnglishEntryangrily extends StatelessWidget {
 ١. (ھاوەڵکار) توند، بە توندی، بە تووڕەیی‌یەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some senators reacted angrily to the president's remarks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some senators reacted angrily to the president's remarks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک سیناتۆر بەتوڕەییەوە کاردانەوەیان ھەبوو بۆ وتەکانی سەرۆک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryangrily extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president angrily denounced the coup as illegal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president angrily denounced the coup as illegal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک بەتوڕەییەوە کودەتاکەی بە نایاسایی سەرکۆنەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

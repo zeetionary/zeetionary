@@ -228,12 +228,18 @@ class EnglishEntryactive extends StatelessWidget {
 ١. (ھاوەڵناو) سەرقاڵ بە کارکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Staying physically active in later years can also keep you feeling younger."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Staying physically active in later years can also keep you feeling younger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتنەوەی چالاکیی جەستەیی لە کۆتاییەکانی ژیانت وات لێ دەکات ھەست بە گەنجی بکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,10 +259,18 @@ class EnglishEntryactive extends StatelessWidget {
 ٢. (ھاوەڵناو) بەژداربوون لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They were both politically active."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەردووکیان لە سیاسەتدا چالاک بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were both politically active."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەردووکیان لە سیاسەتدا چالاک بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,11 +290,18 @@ class EnglishEntryactive extends StatelessWidget {
 ٣. (ھاوەڵناو) کردنی شتێک بە بەردەوامی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These animals are active only at night."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These animals are active only at night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ئاژەڵانە تەنھا لە شەودا چالاکن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -300,11 +321,18 @@ class EnglishEntryactive extends StatelessWidget {
 ٤. (ھاوەڵناو) کارا و پڕ لە بیرۆکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That child has a very active imagination."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەو منداڵە خەیاڵێکی کارای ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That child has a very active imagination."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو منداڵە خەیاڵێکی کارای ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -324,12 +352,18 @@ class EnglishEntryactive extends StatelessWidget {
 ٥. (ھاوەڵناو) شتێک کە ھێشتا کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ensure the website URL is an active link."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ensure the website URL is an active link."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیابەوە کە لینکی وێبسایتەکە چالاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -349,12 +383,18 @@ class EnglishEntryactive extends StatelessWidget {
 ٦. (ھاوەڵناو) لە ڕێزماندا ئەو کردارەیە کە بکەری ڕستەکە جێبەجێکەریەتی """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In ‘He was driving the car’, the verb is active."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In ‘He was driving the car’, the verb is active."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕستەی 'ئەو ئۆتۆمبێلەکەی لێدەخوڕی،' کردارەکە لە شێوەی دیارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryastrology extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوە لە شوێنی ئەستێرەکان و جوڵەی ھەسارەکان بە باوەڕی ئەوەی کە کاریگەری لەسەر ژیان مرۆڤ درووست دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some people still believe in astrology."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people still believe in astrology."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

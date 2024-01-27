@@ -179,11 +179,18 @@ class EnglishEntryasset extends StatelessWidget {
 ١. (ناو) شتێکی بەنرخ یان بەسوود بۆ کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In his job, patience is an invaluable asset."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە کارەکەیدا پشوودرێژی گەوھەرێکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In his job, patience is an invaluable asset."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کارەکەیدا پشوودرێژی گەوھەرێکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +210,18 @@ class EnglishEntryasset extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Being able to speak a foreign language is a major asset."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Being able to speak a foreign language is a major asset."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەبوونی توانای قسەکردن بە زمانێکی بیانی نیعمەتێکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

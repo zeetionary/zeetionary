@@ -170,12 +170,18 @@ class EnglishEntryamusing extends StatelessWidget {
 ١. (ھاوەڵناو) جێگەی خۆشی و پێکەنین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I didn't find the joke at all amusing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I didn't find the joke at all amusing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نوکتەکەم ھیچ بە جێگەی پێکەنین نەبینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

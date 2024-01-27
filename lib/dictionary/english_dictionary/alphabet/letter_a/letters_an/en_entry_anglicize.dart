@@ -168,12 +168,18 @@ class EnglishEntryanglicize extends StatelessWidget {
 ١. (کردار) پێدانی خاسیەتی ئینگلیز بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She married Norwegian immigrant Niels Larsen, who later anglicized his name."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She married Norwegian immigrant Niels Larsen, who later anglicized his name."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوسەرگیری لەگەڵ پەنابەری نەرویجی نیەڵز لارسن کرد کە دواتر ناوەکەی خۆی بە ئینگلیزی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

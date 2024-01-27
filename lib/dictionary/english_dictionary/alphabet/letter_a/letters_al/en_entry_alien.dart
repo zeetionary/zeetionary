@@ -158,12 +158,18 @@ class EnglishEntryalien extends StatelessWidget {
 ١. (ناو) کەسێک کە خەڵکی ئەو وڵاتە نییە کە تێیدا دەژی یان کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "During the war, he was imprisoned as an enemy alien."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "During the war, he was imprisoned as an enemy alien."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی جەنگەکەدا وەک ھاوڵاتییەکی دووژمن زیندانی کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -184,12 +190,18 @@ class EnglishEntryalien extends StatelessWidget {
 ٢. (ناو) بوونەوەری ھەسارەیەک جگە لە زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Few movies represent intelligent aliens as physically different from humans."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Few movies represent intelligent aliens as physically different from humans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەم فیلم بوونەوەری ئاسمانی لە ڕووی جەستەییەوە جیاواز لە مرۆڤ پیشان دەدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +222,18 @@ class EnglishEntryalien extends StatelessWidget {
 ٣. (ھاوەڵناو) نامۆ و ترسێنەر، جیاواز لەوەی ئاساییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In a world that had suddenly become alien and dangerous, he was her only security."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In a world that had suddenly become alien and dangerous, he was her only security."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە جیھانێکدا کە جیاواز و ترسێنەرە، ئەو تەنھا پارێزەریەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +254,18 @@ class EnglishEntryalien extends StatelessWidget {
 ٤. (ھاوەڵناو) بیانی؛ خەڵکی وڵاتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A part of me still feels alien in this country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A part of me still feels alien in this country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێکم ھێشتا ھەست بە بێگانەیی دەکات لەم وڵاتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,10 +286,17 @@ class EnglishEntryalien extends StatelessWidget {
 ٥. (ھاوەڵناو) شتێکی نائاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The idea is alien to our religion."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیرۆکەکە نامۆیە بە ئاینەکەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The idea is alien to our religion."),
+                                    ExampleSentenceKurdish(
+                                        text: "بیرۆکەکە نامۆیە بە ئاینەکەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +317,18 @@ class EnglishEntryalien extends StatelessWidget {
 ٦. (ھاوەڵناو) پەیوەندیدار بە بوونەوەری دەرەوەی زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An alien spacecraft crashed into Earth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An alien spacecraft crashed into Earth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییەکی ئاسمانی بوونەوەری دیکە کێشای بە زەویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

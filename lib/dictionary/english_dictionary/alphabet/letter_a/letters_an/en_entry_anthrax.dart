@@ -170,12 +170,18 @@ class EnglishEntryanthrax extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی کوشندە کە دەکرێت تووشی مەڕ و مانگا و ھەندێک جاریش مرۆڤ ببێت و ببێتەھۆی مردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Humans can contract anthrax by handling products from infected animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Humans can contract anthrax by handling products from infected animals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مرۆڤ دەکرێت تووشی ڕەشەبرین ببێت بەھۆی دەستدان لە ئاژەڵی تووشبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

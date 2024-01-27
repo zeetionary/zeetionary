@@ -162,12 +162,18 @@ class EnglishEntryaffair extends StatelessWidget {
 ١. (ناو) ئەو بابەتانەی کە خەڵکی گرنگیان پێدەدات، یان مژاری سیاسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's always interfering in (= trying to influence) other people's affairs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's always interfering in (= trying to influence) other people's affairs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە خۆی لە کاری خەڵکی تر ھەڵدەقورتێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +192,18 @@ class EnglishEntryaffair extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As a leader, he's been criticized for his inexperience in foreign affairs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As a leader, he's been criticized for his inexperience in foreign affairs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک سەرکردەیەک، ڕەخنەی لێ گیردرا بۆ بێ ئەزموونیی لە کارووباری دەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -212,12 +224,18 @@ class EnglishEntryaffair extends StatelessWidget {
 ٢. (ناو) ڕووداوێک کە خەڵکی قسەی لەسەر دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The newspapers exaggerated the whole affair wildly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژنامەکان تەواوی ڕووداوەکەی زۆر گەورە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The newspapers exaggerated the whole affair wildly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەکان تەواوی ڕووداوەکەی زۆر گەورە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +256,18 @@ class EnglishEntryaffair extends StatelessWidget {
 ٣. (ناو) پەیوەندی سێکسی نێوان دوو کەس، زۆرجار لە کاتێکدا یەکێک یان ھەردووکیان لە پەیوەندین لەگەڵ کەسێکی تردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was having an affair with a co-worker."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was having an affair with a co-worker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندی سێکسی ھەبوو لەگەڵ ھاوپیشەیەکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

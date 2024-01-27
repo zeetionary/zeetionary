@@ -176,12 +176,18 @@ class EnglishEntryappraise extends StatelessWidget {
 ١. (کردار) وردبوونەوە لە شتێک بۆ تێگەشتن لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The architect gave the exterior an appraising glance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The architect gave the exterior an appraising glance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندازیارەکە نیگایەکی کرد لە دەرەوەی بیناکە بۆ نرخاندنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,11 +209,18 @@ class EnglishEntryappraise extends StatelessWidget {
 ٢. (کردار) وردبوونەوە لە شتێک بۆ دانانی نرخێک لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They appraised the painting at £200 000."),
-                              const ExampleSentenceKurdish(
-                                  text: "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They appraised the painting at £200 000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکەیان بە ٢٠٠٠٠٠ پاوەند نرخاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,11 +242,18 @@ class EnglishEntryappraise extends StatelessWidget {
 ٣. (کردار) ھەڵسەنگاندنی کاری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Managers must appraise all staff."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Managers must appraise all staff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەران دەبێت ھەڵسەنگاندن بۆ تەواوی ستافەکەیان بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

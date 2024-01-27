@@ -175,12 +175,18 @@ class EnglishEntryanticipation extends StatelessWidget {
 ١. (ناو) پێشبینی‌کردنی ڕوودانی شتێک لە داھاتوو و ھەوڵ‌دان بۆ کردنی کارێک دەربارەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bought extra food in anticipation of more people coming than he'd invited."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bought extra food in anticipation of more people coming than he'd invited."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خواردنی زیادەی کڕی لە پێشبینی ھاتنی خەڵکی زیاتر وەک لەوەی بانگھێشتی کردوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryanticipation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Parents visit the school in anticipation that action will be taken."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Parents visit the school in anticipation that action will be taken."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکان و باوکان سەردانی قوتابخانەکە دەکەن بەھیوای ئەوەی ھەنگاو بنرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,11 +241,18 @@ class EnglishEntryanticipation extends StatelessWidget {
 ٢. (ناو) ھەستێکی خۆش کە ھەتە سەبارەت بە ڕوودانی شتێکی خۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The courtroom was filled with anticipation."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژووری دادگا پڕ بوو لە تامەزرۆیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The courtroom was filled with anticipation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژووری دادگا پڕ بوو لە تامەزرۆیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

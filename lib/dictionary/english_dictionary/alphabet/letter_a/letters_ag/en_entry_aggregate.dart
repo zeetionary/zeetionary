@@ -129,12 +129,18 @@ class EnglishEntryaggregate extends StatelessWidget {
 ١. (ناو) کۆی گشتی چەند یەکەیەکی بچووکتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The three smaller parties gained an aggregate of 25 per cent of the vote."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەر سێ پارتەکە پێکەوە ٢٥٪ دەنگەکانیان بەدەستھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The three smaller parties gained an aggregate of 25 per cent of the vote."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر سێ پارتەکە پێکەوە ٢٥٪ دەنگەکانیان بەدەستھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryaggregate extends StatelessWidget {
 ٢. (کردار) تێکڕای کۆمەڵە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company aggregates news and information from a number of sources on its website."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە ھەواڵ و زانیاری لە ژمارەیەک سەرچاوەوە کۆدەکاتەوە لەسەر وێبسایتەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company aggregates news and information from a number of sources on its website."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە ھەواڵ و زانیاری لە ژمارەیەک سەرچاوەوە کۆدەکاتەوە لەسەر وێبسایتەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -181,12 +193,18 @@ class EnglishEntryaggregate extends StatelessWidget {
 ٣. (ھاوەڵناو) درووستبوو بە تێکڕای کۆمەڵە ژمارەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The seven companies made an aggregate profit of 10 million dollars."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەر حەوت کۆمپانیاکە پێکەوە ١٠ ملیۆن دۆلار قازانجیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The seven companies made an aggregate profit of 10 million dollars."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر حەوت کۆمپانیاکە پێکەوە ١٠ ملیۆن دۆلار قازانجیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

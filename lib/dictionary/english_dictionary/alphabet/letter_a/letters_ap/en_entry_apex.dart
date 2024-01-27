@@ -177,10 +177,17 @@ class EnglishEntryapex extends StatelessWidget {
 ١. (ناو) لە بەرزترین ئاستدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The king was at the apex of society."),
-                              const ExampleSentenceKurdish(
-                                  text: "پاشا لە لوتکەی کۆمەڵگایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The king was at the apex of society."),
+                                    ExampleSentenceKurdish(
+                                        text: "پاشا لە لوتکەی کۆمەڵگایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +207,18 @@ class EnglishEntryapex extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At 37, she'd reached the apex of her career."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At 37, she'd reached the apex of her career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەمەنی ٣٧ ساڵی لە ترۆپکی کارکردنیدا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

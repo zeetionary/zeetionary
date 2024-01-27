@@ -127,10 +127,16 @@ class EnglishEntryaimless extends StatelessWidget {
 ١. (ھاوەڵناو) بێ پلان و ئاراستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My life seemed aimless."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیانم بێ ئامانج دیاربوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My life seemed aimless."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژیانم بێ ئامانج دیاربوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -149,12 +155,18 @@ class EnglishEntryaimless extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She said that her life seemed aimless after her children left home."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She said that her life seemed aimless after her children left home."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوتی ژیانی بێ ئامانج بوو لە دوای ئەوەی منداڵەکانی ماڵەوەیان جێھێشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

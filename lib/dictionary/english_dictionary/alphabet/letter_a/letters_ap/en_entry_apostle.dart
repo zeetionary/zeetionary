@@ -177,12 +177,18 @@ class EnglishEntryapostle extends StatelessWidget {
 ١. (ناو) ھەریەک لەو دوازدە کەسەی لەلایەن پەیامبەر عیسا ھەڵبژێردران بۆ بڵاوکردنەوەی ناوی خۆی و ئامۆژگارییەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "James was beheaded in Jerusalem, the first apostle to be martyred."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "James was beheaded in Jerusalem, the first apostle to be martyred."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەیمس لە قودس سەربڕدرا و بوو بە یەکەم حەواری کە بکوژرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryapostle extends StatelessWidget {
 ٢. (ناو) کەسێک کە بە پەرۆشییەوە باوەڕی بە سیاسەتێک یان بیرۆکەیەک ھەیە و ھەوڵی بڵاوکردنەوەی دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her mother was a dedicated apostle of healthy eating."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her mother was a dedicated apostle of healthy eating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکی داکۆکی‌کارێکی سەرسەختی خواردنی تەندرووست بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryargument extends StatelessWidget {
 ١. (ناو) بابەتێک کە دوو یان سێ کەس تێیدا مشتومڕی لەسەر دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After some heated argument a decision was finally taken."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After some heated argument a decision was finally taken."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ھەندێک مشتومڕی گەرم بڕیارێک لە کۆتاییدا دار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,11 +210,18 @@ class EnglishEntryargument extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She got into an argument with the teacher."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەوتە مشتومڕێک لەگەڵ مامۆستاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She got into an argument with the teacher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەوتە مشتومڕێک لەگەڵ مامۆستاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -230,12 +243,18 @@ class EnglishEntryargument extends StatelessWidget {
 ٢. (ناو) کۆمەڵە ھۆکارێک کە ئەیدەیت بەدەستەوە بۆ بەرگری یان دژایەتی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are strong arguments for and against euthanasia."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڵگەھێنانەوەی بەھێز بۆ لەگەڵ‌بوون یان دژایەتی ھوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are strong arguments for and against euthanasia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڵگەھێنانەوەی بەھێز بۆ لەگەڵ‌بوون یان دژایەتی ھوومەرگی (کوشتنی مرۆڤ، بەتایبەتی نەخۆشێک، لەسەر داوای خۆی بە ڕێگای پزیشکی)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +276,18 @@ class EnglishEntryargument extends StatelessWidget {
 ٣. (ناو) کرداری ڕازی‌نەبوون لە گفتوگۆیەکدا بە پێدانی چەند ھۆکارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Let's assume for the sake of argument (= in order to discuss the problem) that we can't start till March."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's assume for the sake of argument (= in order to discuss the problem) that we can't start till March."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە مەبەستی گفتوگۆکردنی بابەتەکە با وادابنێین کە تاوەکو مانگی ئادار دەستپێ‌ناکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

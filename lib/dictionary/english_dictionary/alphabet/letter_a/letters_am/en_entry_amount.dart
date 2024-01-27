@@ -175,12 +175,18 @@ class EnglishEntryamount extends StatelessWidget {
 ١. (ناو) ڕێژە یان بڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was amazed at the amount he could eat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was amazed at the amount he could eat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسام‌بووم بەوەی دەتوانێت چەندە بخوات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryamount extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Try to reduce the amount of energy and water you use at home."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try to reduce the amount of energy and water you use at home."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵ‌بدە بڕی وزە و ئاوی بەکارھێندراو لە مەڵەوە کەم‌بکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,10 +237,17 @@ class EnglishEntryamount extends StatelessWidget {
 ٢. (ناو) بڕە پارەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Everyone has paid the same amount."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەمووان ھەمان بڕیان داوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everyone has paid the same amount."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەمووان ھەمان بڕیان داوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -249,12 +268,18 @@ class EnglishEntryamount extends StatelessWidget {
 ٣. (کردار) کۆی‌گشتی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His earnings are said to amount to £300 000 per annum."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His earnings are said to amount to £300 000 per annum."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قازانجەکانی دەبن بە ٣٠٠٠٠٠ پاوەند لە ساڵێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -275,12 +300,18 @@ class EnglishEntryamount extends StatelessWidget {
 ٤. (کردار) ھاوتابوون بە شتێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their actions in the war amount to genocide."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their actions in the war amount to genocide."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کردەوەکانیان لە جەنگەکەدا ھاوتایە بە جینۆساید."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -301,10 +332,17 @@ class EnglishEntryamount extends StatelessWidget {
 ٥. (کردار) بوون بە شتێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You'll never amount to anything."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەرگیز نابیت بە ھیچ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You'll never amount to anything."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەرگیز نابیت بە ھیچ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

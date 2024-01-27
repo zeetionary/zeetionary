@@ -127,12 +127,18 @@ class EnglishEntryacumen extends StatelessWidget {
 ١. (ناو) توانای تێگەشتن و بڕیاردان بە خێرایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had demonstrated considerable business acumen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی بەرچاو بیرتیژیی لە بازرگانیدا پیشاندابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had demonstrated considerable business acumen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی بەرچاو بیرتیژیی لە بازرگانیدا پیشاندابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

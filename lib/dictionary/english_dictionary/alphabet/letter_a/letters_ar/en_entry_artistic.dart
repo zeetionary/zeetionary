@@ -180,12 +180,18 @@ class EnglishEntryartistic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ھونەر یان ھونەرمەندان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The artistic talents of the Renaissance painters were truly remarkable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The artistic talents of the Renaissance painters were truly remarkable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانا ھونەرییەکانی نیگارکێشانی سەردەمی بوژانەوە بەڕاستی ناوازە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryartistic extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی توانای سرووشتی لە ھونەردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His friends are all artistic - they're painters, musicians, and writers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His friends are all artistic - they're painters, musicians, and writers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھاوڕێکانی ھەموویان دەسڕەنگینن، نیگارکێش و میوزیکژەن و نووسەرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryartistic extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک کە بە ھونەرییانە ئەنجام‌دراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The decor inside the house was very artistic."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The decor inside the house was very artistic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیکۆری ناو خانووەکە زۆر ھونەرکارانە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

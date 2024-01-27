@@ -129,12 +129,18 @@ class EnglishEntryacupuncture extends StatelessWidget {
 ١. (ناو) ڕێگایەکی چارەسەرکردنی ئازار و نەخۆشی بە بەکارھێنانی دەرزیی تایبەتی باریک کە دەکرێن بە بەشەکانی جەستەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Acupuncture has been practised in China for thousands of years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Acupuncture has been practised in China for thousands of years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەرزی ئاژنین ھەزاران ساڵە لە چین پەیڕەو دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

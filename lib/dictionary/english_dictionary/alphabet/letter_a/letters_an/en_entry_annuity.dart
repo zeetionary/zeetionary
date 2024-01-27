@@ -171,10 +171,17 @@ class EnglishEntryannuity extends StatelessWidget {
 ١. (ناو) بڕە پارەیەکی دیاریکراو کە دەدرێت بە کەسێک تا مردنی، زۆرجار وەک بەشێک لە بیمەنامەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She receives a small annuity."),
-                              const ExampleSentenceKurdish(
-                                  text: "بیمەیەکی بچووکی ساڵانە وەردەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She receives a small annuity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیمەیەکی بچووکی ساڵانە وەردەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

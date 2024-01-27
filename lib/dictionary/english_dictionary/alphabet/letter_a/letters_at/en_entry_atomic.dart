@@ -181,12 +181,18 @@ class EnglishEntryatomic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە گەردیلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Atomic physics is the study of the structure and properties of atoms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Atomic physics is the study of the structure and properties of atoms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryatomic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بەو وزەیەی درووست دەبێت لە کاتی کەرتکردنی گەردیلە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Atomic energy is a powerful and versatile source of energy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Atomic energy is a powerful and versatile source of energy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,10 +247,18 @@ class EnglishEntryatomic extends StatelessWidget {
 ٣. (ھاوەڵناو) پەیوەندیدار بە چەکی ئەتۆمی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Atomic weapons are very destructive."),
-                              const ExampleSentenceKurdish(
-                                  text: "چەکە ئەتۆمییەکان زۆر وێرانکەرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Atomic weapons are very destructive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەکە ئەتۆمییەکان زۆر وێرانکەرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

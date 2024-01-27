@@ -170,12 +170,18 @@ class EnglishEntryangular extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە ھێندە زەعیفە ماسولکەکانی لەژێر پێستییەوە دیارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her features were too angular, her face a little too long for beauty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her features were too angular, her face a little too long for beauty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری زۆر ڕەقەڵ بوو و سەری کەمێک زۆر درێژ بوو بەوەی جوان بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

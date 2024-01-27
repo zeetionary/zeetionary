@@ -131,12 +131,18 @@ class EnglishEntryadhesive extends StatelessWidget {
 ١. (ناو) مادەیەک کە دەلکێت بە شتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The adhesive takes at least an hour to set."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The adhesive takes at least an hour to set."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +163,18 @@ class EnglishEntryadhesive extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی لکان بە شتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The labels are easy to apply and very adhesive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The labels are easy to apply and very adhesive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

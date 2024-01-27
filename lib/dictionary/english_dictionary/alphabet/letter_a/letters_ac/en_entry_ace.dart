@@ -144,11 +144,17 @@ class EnglishEntryace extends StatelessWidget {
 ١. (کردار) سەرکەوتووبوون لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He aced all his tests."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He aced all his tests."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -171,11 +177,18 @@ class EnglishEntryace extends StatelessWidget {
 ٣. (ناو) کەسێک کە زۆرباشە لە کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "French ace Mbappé scored a penalty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "French ace Mbappé scored a penalty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +208,18 @@ class EnglishEntryace extends StatelessWidget {
 ٤. (ناو) لە یاری تێنسدا، یەکەم سێرڤە کە ھێندە خێرایە دەبێت بە خاڵ """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He served 20 aces in the match."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He served 20 aces in the match."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +239,16 @@ class EnglishEntryace extends StatelessWidget {
 ٥. (ھاوەڵناو) زۆرباش """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We had an ace time."),
-                              const ExampleSentenceKurdish(
-                                  text: "کاتێکی زۆرخۆشمان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We had an ace time."),
+                                    ExampleSentenceKurdish(
+                                        text: "کاتێکی زۆرخۆشمان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

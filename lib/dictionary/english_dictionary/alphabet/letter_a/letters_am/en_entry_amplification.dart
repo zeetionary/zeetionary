@@ -172,12 +172,18 @@ class EnglishEntryamplification extends StatelessWidget {
 ١. (ناو) زیادکردنی ھێزی شتێک، بەتایبەتی دەنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Amplification of this energy promotes fertilization of the surrounding area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Amplification of this energy promotes fertilization of the surrounding area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھێزکردنی ئەم وزەیە یارمەتیدەرە بۆ پیتاندنی ناوچەی دەورووبەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryamplification extends StatelessWidget {
 ٢. (ناو) زیادکردنی ڕوونکردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That comment needs some amplification."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That comment needs some amplification."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو لێدوانە پێویستی بە ھەندێک ڕوونکردنەوە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

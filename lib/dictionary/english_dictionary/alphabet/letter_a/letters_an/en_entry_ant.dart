@@ -171,12 +171,18 @@ class EnglishEntryant extends StatelessWidget {
 ١. (ناو) مێروویەکی بچووک کە لەژێر زەویدا بە ژمارەیەکی زۆر و گرووپی ڕێکخراو دەژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ants are tiny insects that crawl on the ground in large groups."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ants are tiny insects that crawl on the ground in large groups."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مێروولە مێرووی بچووکن کە بەسەر زەویدا دەڕۆن بە گرووپی زۆرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

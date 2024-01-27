@@ -180,10 +180,17 @@ class EnglishEntryattentive extends StatelessWidget {
 ١. (ھاوەڵناو) گوێگرتن یان سەیرکردن بە وریایی و حەزەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He listened, quiet and attentive."),
-                              const ExampleSentenceKurdish(
-                                  text: "گوێی گرت بە ئارامی و سەرنجەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He listened, quiet and attentive."),
+                                    ExampleSentenceKurdish(
+                                        text: "گوێی گرت بە ئارامی و سەرنجەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +212,18 @@ class EnglishEntryattentive extends StatelessWidget {
 ٢. (ھاوەڵناو) یارمەتیدەر، دڵنیاییکردنەوە لەوەی ھەموو شتێک خەڵکی دەیەوێت بەردەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hotel staff are friendly and attentive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hotel staff are friendly and attentive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

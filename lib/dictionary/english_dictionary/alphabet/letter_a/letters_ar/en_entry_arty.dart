@@ -178,12 +178,18 @@ class EnglishEntryarty extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی توانا یان حەزی ھونەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Why do you pretend you like those boring, arty films?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Why do you pretend you like those boring, arty films?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆچی وا خۆت پیشان دەدەیت کە حەزت لەو فیلمە بێزارکەرانەیە کە خۆیان وەک ھونەر پیشان دەدەن؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

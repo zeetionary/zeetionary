@@ -129,12 +129,18 @@ class EnglishEntryaging extends StatelessWidget {
 ١. (ناو) پڕۆسەی پیربوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are lots of skin care products which claim to halt the aging process."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are lots of skin care products which claim to halt the aging process."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر پارێزەری پێسی ھەیە کە بانگەشەی ئەوە دەکەن تەمەنکردن بوەستێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,10 +161,17 @@ class EnglishEntryaging extends StatelessWidget {
 ٢. (ھاوەڵناو) پیربوون و لەدەستدانت توانا و تەندرووستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He takes care of his aging mother."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاودێری دایکە پیرەکەی دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He takes care of his aging mother."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاودێری دایکە پیرەکەی دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

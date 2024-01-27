@@ -181,12 +181,18 @@ class EnglishEntryautocratic extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president resigned after 30 years of autocratic rule."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president resigned after 30 years of autocratic rule."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryautocratic extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی چاوەڕوانی گوێڕایەڵیی تەواو و گرنگینەدان بە بۆچوونی کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The autocratic boss micromanaged his employees and refused to consider their suggestions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The autocratic boss micromanaged his employees and refused to consider their suggestions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

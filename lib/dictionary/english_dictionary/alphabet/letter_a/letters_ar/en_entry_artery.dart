@@ -176,12 +176,18 @@ class EnglishEntryartery extends StatelessWidget {
 ١. (ھاوەڵناو) خوێنبەر؛ مولوولەی خوێن کە خوێن لە لەشەوە دەگوازنەوە بۆ بەشەکانی تری جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Hardening of the coronary arteries can lead to a heart attack."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Hardening of the coronary arteries can lead to a heart attack."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەقبوونی خوێنبەرەکانی ناو دڵ دەکرێت ببێتە ھۆی جەڵدەی دڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

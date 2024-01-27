@@ -128,12 +128,18 @@ class EnglishEntryadornment extends StatelessWidget {
 ١. (ناو) خشڵ و ئارایشتە جوانکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A plain necklace was her only adornment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A plain necklace was her only adornment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryadornment extends StatelessWidget {
 ٢. (ناو) جەانکاری و ڕازاندنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Precious stones have been used for the purposes of adornment for over 7000 years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Precious stones have been used for the purposes of adornment for over 7000 years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

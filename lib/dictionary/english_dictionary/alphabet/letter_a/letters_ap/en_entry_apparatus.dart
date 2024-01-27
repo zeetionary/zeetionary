@@ -176,12 +176,18 @@ class EnglishEntryapparatus extends StatelessWidget {
 ١. (ناو) ئەو کەرەستانەی کە پێویستن بۆ چالاکییەک یان ئەرکێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Firefighters needed breathing apparatus to enter the burning house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاگرکوژێنەرەوەکان پێویستیان بە ھەندێک دەزگای ھەناسەدان ھەبوو بۆ ئەوەی بچنە ناو خانووە سووتاوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Firefighters needed breathing apparatus to enter the burning house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرکوژێنەرەوەکان پێویستیان بە ھەندێک دەزگای ھەناسەدان ھەبوو بۆ ئەوەی بچنە ناو خانووە سووتاوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

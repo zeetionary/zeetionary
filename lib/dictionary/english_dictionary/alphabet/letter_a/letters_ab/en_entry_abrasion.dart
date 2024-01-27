@@ -121,12 +121,18 @@ class EnglishEntryabrasion extends StatelessWidget {
 ١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He suffered cuts and abrasions to the face."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشی برین و داڕووشان بوو لەسەر ڕووخساری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He suffered cuts and abrasions to the face."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشی برین و داڕووشان بوو لەسەر ڕووخساری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,11 +151,18 @@ class EnglishEntryabrasion extends StatelessWidget {
 ٢. (ناو) زیانگەشتن بەڕووی شتێ بەھۆی داڕووشان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Diamonds have extreme resistance to abrasion."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Diamonds have extreme resistance to abrasion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

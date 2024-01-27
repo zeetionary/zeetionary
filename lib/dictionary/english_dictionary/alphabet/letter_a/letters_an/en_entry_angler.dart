@@ -170,11 +170,18 @@ class EnglishEntryangler extends StatelessWidget {
 ١. (ناو) کەسێک کە ماسی دەگرێت بۆ خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The angler reeled in and went home."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The angler reeled in and went home."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماسیگرەکە قولابەکەیی کۆکردەوە و چووەوە ماڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

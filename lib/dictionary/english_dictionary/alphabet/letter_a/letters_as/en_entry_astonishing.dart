@@ -180,12 +180,18 @@ class EnglishEntryastonishing extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر سەرسوڕھێنەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She ran 100m in an astonishing 10.6 seconds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She ran 100m in an astonishing 10.6 seconds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

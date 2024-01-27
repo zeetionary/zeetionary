@@ -181,12 +181,18 @@ class EnglishEntryattainment extends StatelessWidget {
 ١. (ناو) شتێک کە بەدەستتھێناوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His scientific attainments are well known."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدەستھێنانە زانستییەکانی شتێکی زانراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His scientific attainments are well known."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدەستھێنانە زانستییەکانی شتێکی زانراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryattainment extends StatelessWidget {
 ٢. (ناو) سەرکەوتن لە بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She values educational attainment above all else."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She values educational attainment above all else."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

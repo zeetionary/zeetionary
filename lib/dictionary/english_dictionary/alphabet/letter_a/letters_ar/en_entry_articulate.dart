@@ -185,12 +185,18 @@ class EnglishEntryarticulate extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە توانای ئەوەی ھەیە بۆچوونەکانی بە ڕوونی دەرببڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was unusually articulate for a ten-year-old."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was unusually articulate for a ten-year-old."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی سەیر زمان‌ڕەوان بوو بۆ منداڵێکی ١٠ ساڵان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +219,18 @@ class EnglishEntryarticulate extends StatelessWidget {
 ٢. (ھاوەڵناو) قسەیەکی ڕوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All we could hear were loud sobs, but no articulate words."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All we could hear were loud sobs, but no articulate words."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەوەی گوێمان لێ‌بوو نوزەنوزە بوو، بەبێ ھیچ قسەیەکی ڕوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -241,12 +253,18 @@ class EnglishEntryarticulate extends StatelessWidget {
 ٣. (کردار) دەربڕینی بۆچوونەکانت بەڕوونی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She struggled to articulate her thoughts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She struggled to articulate her thoughts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەی ھەبوو لە دەربڕینی بیرۆکەکانی بەڕوونی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,11 +285,18 @@ class EnglishEntryarticulate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She cannot articulate her feelings very well."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She cannot articulate her feelings very well."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانێت بەڕوونی ھەستەکانی دەرببڕێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +319,18 @@ class EnglishEntryarticulate extends StatelessWidget {
 ٤. (کردار) قسەکردن یان خوێندنەوە بە ڕوونی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was too drunk to articulate properly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was too drunk to articulate properly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر سەرخۆش بوو تا بتوانێ بە ڕوونی قسەبکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -322,12 +353,18 @@ class EnglishEntryarticulate extends StatelessWidget {
 ٥. (کردار) بوون لە پەیوەندی لەگەڵ شتێکی تر بۆ ئەوەی پێکەوە یەک شت درووست بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These courses are designed to articulate with university degrees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These courses are designed to articulate with university degrees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کۆرسانە دیزاین کراون بۆ ئەوەی لەگەڵ بڕوانامەی زانکۆ ڕێکبکەون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

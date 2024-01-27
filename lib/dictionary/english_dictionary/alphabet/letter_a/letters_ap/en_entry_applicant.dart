@@ -176,11 +176,18 @@ class EnglishEntryapplicant extends StatelessWidget {
 ١. (ناو) کەسێک کە بە فەرمی داوای شتێک دەکات، بۆ نموونە کارێک، جێگایەک لە زانکۆ یان کۆلێژێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There were over 500 applicants for the job."),
-                              const ExampleSentenceKurdish(
-                                  text: "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were over 500 applicants for the job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە ٥٠٠ داواکار بۆ کارەکە ھەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryaffront extends StatelessWidget {
 ١. (ناو) قسەیەک کە بێڕێزی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His speech was an affront to many in the community."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەی بێحورمەتی بوو بە ژمارەیەکی زۆر خەڵک لە گەڕەکەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His speech was an affront to many in the community."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی بێحورمەتی بوو بە ژمارەیەکی زۆر خەڵک لە گەڕەکەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryaffront extends StatelessWidget {
 ٢. (کردار) بێڕێزی پێکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He hoped they would not feel affronted if they were not invited."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیواداربوو ھەست بە بێڕێزی پێکردن نەکەن ئەگەر بانگھێشت نەکرابان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He hoped they would not feel affronted if they were not invited."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیواداربوو ھەست بە بێڕێزی پێکردن نەکەن ئەگەر بانگھێشت نەکرابان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

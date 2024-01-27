@@ -171,12 +171,18 @@ class EnglishEntryantarctic extends StatelessWidget {
 ١. (ناو) ھەرێمی خولگەی جەمسەری باشووری زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The protection of the Antarctic from commercial exploitation is an important goal of environmentalists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاراستنی خولگەی جەمسەری باشوری زەوی لە بەکارھێنانی بە مەبەستی بازرگانی یەکێکە لە ئامانجە سەرەکییەکانی ژینگەپارێزان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryantarctic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە ھەرێمی خولگەی جەمسەری باشووری زەوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists went on an Antarctic expedition to study penguins and ice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists went on an Antarctic expedition to study penguins and ice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان دەستیان گە گەڕانێکی خولگەی جەمسەری باشوور کرد بۆ لێکۆڵینەوە لە پەنگوینەکان و سەھۆڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

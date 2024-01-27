@@ -176,12 +176,18 @@ class EnglishEntryarson extends StatelessWidget {
 ١. (ناو) سوتاندنی شوێنێک بە ئەنقەست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A cinema was burned out in north London last night. Police suspect arson."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A cinema was burned out in north London last night. Police suspect arson."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سینەمایەک دوێنێ شەو بە تەواوی لە باکووری لەندەن سووتا. پۆلیس گەمانی ھەیە سوتاندنی بە ئەنقەست بووبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

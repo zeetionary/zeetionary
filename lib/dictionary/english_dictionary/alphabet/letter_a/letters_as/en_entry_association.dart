@@ -183,12 +183,18 @@ class EnglishEntryassociation extends StatelessWidget {
 ١. (ناو) کۆمەڵە کەسێک کە گرووپێکیان ڕێکخراوێکیان درووستکردووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The British Medical Association is/are campaigning for a complete ban on tobacco advertising."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The British Medical Association is/are campaigning for a complete ban on tobacco advertising."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکخراوی تەندرووستیی بەریتانی ھەوڵ دەدات بۆ قەدەغەی تەواوەتیی ڕیکلام بۆ تۆباکۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +217,18 @@ class EnglishEntryassociation extends StatelessWidget {
 ٢. (ناو) پەیوەندیی نێوان خەڵک یان چەند ڕێکخراوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They have maintained a close association with a college in the US."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They have maintained a close association with a college in the US."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەماھەنگی نزیکیان لەگەڵ کۆلێژێکی ئەمریکی ھێشتووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +251,18 @@ class EnglishEntryassociation extends StatelessWidget {
 ٣. (ناو) بەستنەوەی شتەکان بە یەکترەوە لە مێشکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You should teach the child to form an association between good behaviour and rewards."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You should teach the child to form an association between good behaviour and rewards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت منداڵەکە فێربکەیت گرێیەک درووست بکات لەنێوان ڕەفتاری باش و پاداشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +285,18 @@ class EnglishEntryassociation extends StatelessWidget {
 ٤. (ناو) پەیوەندیی نێوان دوو شت کە یەکێکیان بەھۆی ئەوی دیکەوە ڕوویداوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The research showed an association between diet and various diseases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The research showed an association between diet and various diseases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوە پەیوەندی نێوان خواردن و ژمارەیەک نەخۆشی پیشاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

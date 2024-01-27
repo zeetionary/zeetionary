@@ -175,12 +175,18 @@ class EnglishEntryantithesis extends StatelessWidget {
 ١. (ناو) پێچەوانەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Students finishing their education at 16 is the very antithesis of what society needs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Students finishing their education at 16 is the very antithesis of what society needs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوکردنی خوێندن لە تەمەنی ١٦ ساڵی لەلایەن خوێندکارانەوە ڕێک پێچەوانەی ئەوەیە کە کۆمەڵگە پێویستییەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +209,18 @@ class EnglishEntryantithesis extends StatelessWidget {
 ٢. (ناو) جیاوازی نێوان دوو شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is an antithesis between the needs of the state and the needs of the people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is an antithesis between the needs of the state and the needs of the people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جیاوازییەک ھەیە لەنێوان خواستەکانی حکومەت و ئەوانەی خەڵکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryadulterate extends StatelessWidget {
 ١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The water supply had been adulterated with chemicals from the soil."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The water supply had been adulterated with chemicals from the soil."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

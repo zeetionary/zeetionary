@@ -130,11 +130,18 @@ class EnglishEntryalarmclock extends StatelessWidget {
 ١. (ناو) کاتژمێرێکی زەنگدار کە دەتوانێت لە کاتێکی دیاریکراو زەنگ لێبدات و لە خەو ھەڵت بسێنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I set the alarm clock for 7 o'clock."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I set the alarm clock for 7 o'clock."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەنگی کاتژمێرەکەم بۆ کاتژمێر ٧ چالاککرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

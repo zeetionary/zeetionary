@@ -127,11 +127,18 @@ class EnglishEntryailment extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی سووک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I got all the usual childhood ailments."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموو دەردە باوەکانی منداڵیم گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I got all the usual childhood ailments."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو دەردە باوەکانی منداڵیم گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

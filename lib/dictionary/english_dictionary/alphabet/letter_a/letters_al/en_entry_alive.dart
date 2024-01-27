@@ -182,12 +182,18 @@ class EnglishEntryalive extends StatelessWidget {
 ١. (ھاوەڵناو) زیندوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had to steal food just to stay alive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had to steal food just to stay alive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویست بوو خواردن بدزێت بۆ ئەوەی بە زیندوویی بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,11 +212,17 @@ class EnglishEntryalive extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We don't know whether he's alive or dead."),
-                              const ExampleSentenceKurdish(
-                                  text: "نازانین زیندووە یان مردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We don't know whether he's alive or dead."),
+                                    ExampleSentenceKurdish(
+                                        text: "نازانین زیندووە یان مردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,10 +243,16 @@ class EnglishEntryalive extends StatelessWidget {
 ٢. (ھاوەڵناو) پڕ لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Ed was alive with happiness."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئێد پڕ بوو لە خۆشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Ed was alive with happiness."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئێد پڕ بوو لە خۆشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -255,12 +273,18 @@ class EnglishEntryalive extends StatelessWidget {
 ٣. (ھاوەڵناو) بەردەوام"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The old customs are still very much alive in this region."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The old customs are still very much alive in this region."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەریتە کۆنەکان ھێشتا زیندوون لەم ھەرێمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -281,10 +305,17 @@ class EnglishEntryalive extends StatelessWidget {
 ٤. (ھاوەڵناو) پڕ لە زیندەوەر یان شتی جووڵاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The pool was alive with goldfish."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەوزەکە پڕ لە زەردەماسی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The pool was alive with goldfish."),
+                                    ExampleSentenceKurdish(
+                                        text: "حەوزەکە پڕ لە زەردەماسی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -305,12 +336,18 @@ class EnglishEntryalive extends StatelessWidget {
 ٥. (ھاوەڵناو) ئاگادار لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They are alive to the fact that the opposing team has not lost a game this season."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are alive to the fact that the opposing team has not lost a game this season."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باش ئاگاداری ئەو ڕاستییەن کە تیمی بەرامبەر ئەم وەرزە ھیچ یارییەکی نەدۆڕاندووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

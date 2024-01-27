@@ -182,12 +182,18 @@ class EnglishEntryattached extends StatelessWidget {
 ١. (ھاوەڵناو) لکێندراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Make sure all the wires remain firmly attached."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Make sure all the wires remain firmly attached."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,12 +215,18 @@ class EnglishEntryattached extends StatelessWidget {
 ٢. (ھاوەڵناو) حەزکردن لە شتێک بە ئاستێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We've grown very attached to this house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەورەبووینە بەوەی زۆر دڵبەستەی ئەم ماڵە بووینە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We've grown very attached to this house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەورەبووینە بەوەی زۆر دڵبەستەی ئەم ماڵە بووینە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -236,12 +248,18 @@ class EnglishEntryattached extends StatelessWidget {
 ٣. (ھاوەڵناو) لە پەیوەندی ھاوسەرگیری یان ڕۆمانسیدا لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It would be nice to meet some more guys who aren't attached."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It would be nice to meet some more guys who aren't attached."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,11 +281,18 @@ class EnglishEntryattached extends StatelessWidget {
 ٤. (ھاوەڵناو) کارکردن بۆ ڕێکخراوێک، یان بوون بە بەشێک لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The research unit is attached to the university."),
-                              const ExampleSentenceKurdish(
-                                  text: "یەکەی توێژینەوەکە بەشێکە لە زانکۆکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The research unit is attached to the university."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەی توێژینەوەکە بەشێکە لە زانکۆکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -110,12 +110,18 @@ class EnglishEntryabseil extends StatelessWidget {
 ١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was a little scared when I first abseiled."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was a little scared when I first abseiled."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

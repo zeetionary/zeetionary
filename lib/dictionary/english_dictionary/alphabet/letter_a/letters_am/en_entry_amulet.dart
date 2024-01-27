@@ -170,12 +170,18 @@ class EnglishEntryamulet extends StatelessWidget {
 ١. (ناو) خشڵێک کە کەسێک دەیبەستێت‌ لەخۆی چونکە باوەڕی وایە لە خراپە دەیپارێزێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The child was wearing a shiny amulet around his neck for good luck."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The child was wearing a shiny amulet around his neck for good luck."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکە چاوەزارێکی لە دەوری ملی بەستبوو بۆ ھێنانی بەختی باش"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryassumption extends StatelessWidget {
 ١. (ناو) گریمانە؛ دانانی شتێک وەک ڕاستی یان ئەوەی کە ڕوودەدات بەبێ زانیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We need to challenge some of the basic assumptions of Western philosophy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We need to challenge some of the basic assumptions of Western philosophy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت پرسیار بخەینە سەر ھەندێک لە گریمانەکانی فەلسەفەی ڕۆژئاوا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryassumption extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are working on the assumption that everyone invited will turn up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are working on the assumption that everyone invited will turn up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکان دەکەین بە گریمانەکردنی ئەوەی ھەموو ئەوانەی بانگھێشتکراون ئامادە دەبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryassumption extends StatelessWidget {
 ٢. (ناو) گرتنی دەسەڵات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The revolutionaries' assumption of power took the army by surprise."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرتنی دەسەڵات لەلایەن شۆڕشگێڕانەوە سوپای سەرسام کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The revolutionaries' assumption of power took the army by surprise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرتنی دەسەڵات لەلایەن شۆڕشگێڕانەوە سوپای سەرسام کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -173,12 +173,18 @@ class EnglishEntryannoyance extends StatelessWidget {
 ١. (ناو) کەمێک بێزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He could not conceal his annoyance at being interrupted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He could not conceal his annoyance at being interrupted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیدەتوانی بێزاریی بشارێتەوە بە قسەپێ‌بڕینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryannoyance extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I dropped out of college, much to the annoyance of my parents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I dropped out of college, much to the annoyance of my parents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وازم لە کۆلێژ ھێنا کە بووە ھۆی بێزاریی دایک و باوکم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,12 +237,18 @@ class EnglishEntryannoyance extends StatelessWidget {
 ٢. (ناو) شتێک کە دەبێتە ھۆی کەمێک بێزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of the greatest annoyances was being bitten by mosquitoes every night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the greatest annoyances was being bitten by mosquitoes every night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە گەورەترین جاڕسکەرەکان ئەوەبوو مێشوولە ھەموو شەوێک بتگەزێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryartificially extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە کۆپی شتێکی سرووشتییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most mushrooms sold in supermarkets have been grown artificially in manure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی قارچکەکان کە لە سوپەرمارکێتەکان دەفرۆشرێن بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most mushrooms sold in supermarkets have been grown artificially in manure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی قارچکەکان کە لە سوپەرمارکێتەکان دەفرۆشرێن بەشێوەی دەستکردانە لە پەییندا سەوزبوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryartificially extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە سرووشتی نییە و کاریگەریی مرۆڤی لەسەرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They are keeping their prices artificially low."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are keeping their prices artificially low."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخەکانیان بەخواستی خۆیان بە نزمی دەھێڵنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

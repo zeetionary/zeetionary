@@ -178,11 +178,18 @@ class EnglishEntryartistry extends StatelessWidget {
 ١. (ناو) شارەزایی ھونەرمەندێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You have to admire the artistry of her novels."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You have to admire the artistry of her novels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت سەرسامی ھونەری ڕۆمانەکانی بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

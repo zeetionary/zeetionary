@@ -129,12 +129,18 @@ class EnglishEntryadaptation extends StatelessWidget {
 ١. (ناو) پڕۆسەی ڕاھاتن لەگەڵ بارودۆخێکی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The process of adaptation to a new school is difficult for some children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The process of adaptation to a new school is difficult for some children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی یازە بۆ ھەندێک منداڵ ئاسان نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,11 +161,18 @@ class EnglishEntryadaptation extends StatelessWidget {
 ٢. (ناو) فیلمێک، درامەیەک، یان شانۆیەک کە پشتی ب کتێبێک یان شانۆیەک بەستووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "a screen adaptation of Shakespeare’s ‘Macbeth’"),
-                              const ExampleSentenceKurdish(
-                                  text: "سازاندنی فیلمیی ماکبێسی شکسپیر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "a screen adaptation of Shakespeare’s ‘Macbeth’"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سازاندنی فیلمیی ماکبێسی شکسپیر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

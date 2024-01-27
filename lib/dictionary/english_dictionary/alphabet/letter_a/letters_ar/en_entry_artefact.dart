@@ -178,12 +178,18 @@ class EnglishEntryartefact extends StatelessWidget {
 ١. (ناو) پارچەیەکی دەستکرد کە لەلایەن کەسێکەوە درووست‌کراوە، بەتایبەتی شتێک کە گرنگی مێژوویی یان کەلتووری ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The museum has a superb collection of ancient artefacts from Nubia."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The museum has a superb collection of ancient artefacts from Nubia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆزەخانەکە کۆمەڵە دەسکارێکی کۆنی ناوازەی نوبیای ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

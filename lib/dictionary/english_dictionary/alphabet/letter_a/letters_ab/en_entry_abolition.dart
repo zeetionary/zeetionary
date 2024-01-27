@@ -107,12 +107,18 @@ class EnglishEntryabolition extends StatelessWidget {
 ١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The report recommended the complete abolition of the tax."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The report recommended the complete abolition of the tax."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

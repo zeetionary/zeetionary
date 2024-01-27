@@ -103,12 +103,18 @@ class EnglishEntryabatement extends StatelessWidget {
 ١. (ناو) کردەی کەمکردنەوەی ھێزی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The city spends 9 million dollars a year on air pollution abatement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city spends 9 million dollars a year on air pollution abatement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە ساڵانە ٩ ملیۆن دۆلار خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

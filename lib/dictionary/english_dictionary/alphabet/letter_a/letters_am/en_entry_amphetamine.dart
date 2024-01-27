@@ -172,12 +172,18 @@ class EnglishEntryamphetamine extends StatelessWidget {
 ١. (ناو) دەرمانێ کە وات لێ‌دەکا ھەست بە ورووژان و ھێز و وزەیەکی زۆر بکەی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Floyd was banned from racing after a test revealed traces of amphetamine in his urine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Floyd was banned from racing after a test revealed traces of amphetamine in his urine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگری‌کرا لە فلۆید بەژداری لە پێشبڕکێیەکە بکات بەھۆی ئەوەی پشکنینەکە پاشماوەی وزەبەخشی لە میزەکەی ئاشکراکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

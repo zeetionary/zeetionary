@@ -176,10 +176,16 @@ class EnglishEntryapple extends StatelessWidget {
 ١. (ناو) میوەیەکی خڕ بە توێکڵی بریقەداری سوور و سەوز کە کەمێک ڕەقە و ناوەکەی سپییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I took a bite of the apple."),
-                              const ExampleSentenceKurdish(
-                                  text: "قەپێکم لە سێوەکە گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I took a bite of the apple."),
+                                    ExampleSentenceKurdish(
+                                        text: "قەپێکم لە سێوەکە گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +205,17 @@ class EnglishEntryapple extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Peel and core the apples."),
-                              const ExampleSentenceKurdish(
-                                  text: "سێوەکە پاک بکە و ناوەکەی دەربکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Peel and core the apples."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێوەکە پاک بکە و ناوەکەی دەربکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

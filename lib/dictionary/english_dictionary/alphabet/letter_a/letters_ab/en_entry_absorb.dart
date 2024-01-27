@@ -157,12 +157,18 @@ class EnglishEntryabsorb extends StatelessWidget {
 ١. (کردار) ھەڵمژینی مادەی شل، گاس، یان تەنی دیکە لە ھەوادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Plants absorb carbon dioxide from the air."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Plants absorb carbon dioxide from the air."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووەکەکان دووانە ئۆکسیدی کاربۆن لە سرووشتەوە وەردەگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,12 +185,18 @@ class EnglishEntryabsorb extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Let the rice cook until it has absorbed all the water."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let the rice cook until it has absorbed all the water."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بھێڵە برنجەکە بکوڵێت ھەتا تەواوی ئاوەکە ھەڵدەمژێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -203,12 +215,18 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٢. ھەڵمژینی گەرمی، ڕۆشنایی، وزە، و دەنگ لە جیاتی دانەوەیان """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Black walls absorb a lot of heat during the day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Black walls absorb a lot of heat during the day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیواری ڕەش لە ڕۆژدا ڕێژەیەکی زۆر گەرمی دەمژێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,12 +245,18 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٣. (کردار) کەمکردنەوەی کاریگەریی بەرکەوتن لەلایەن تەنێکی فیزیاییەوە   """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This tennis racket absorbs shock on impact."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This tennis racket absorbs shock on impact."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەسکە تێنسەکە لەگەل بەرکەوتندا تەزوو دەمژێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -251,12 +275,18 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٤. (کردار) وەرگرتنی زانیاری و تێگەشتن لێی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It took me several days to absorb the fact of her death."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەند ڕۆژێکی پێچوو بۆم تا بە مردنەکەی ڕابێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It took me several days to absorb the fact of her death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەند ڕۆژێکی پێچوو بۆم تا بە مردنەکەی ڕابێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -275,11 +305,18 @@ class EnglishEntryabsorb extends StatelessWidget {
 ٥. (کردار) وا لە کەسێک بکەیت بە تەواوی ھەموو بیرکردنەوەیت پێ بدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "His work absorbed him completely."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکەی بە تەواوی ھەموو ھۆش و بیری بردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His work absorbed him completely."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکەی بە تەواوی ھەموو ھۆش و بیری بردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

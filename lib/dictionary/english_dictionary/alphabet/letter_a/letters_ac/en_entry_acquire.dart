@@ -127,12 +127,18 @@ class EnglishEntryacquire extends StatelessWidget {
 ١. (کردار) بەدەستھێنانی شتێک بە ھەوڵ و ماندووبوونی خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has acquired a good knowledge of English."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has acquired a good knowledge of English."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانیارییەکی باشی ئینگلیزی بەدەستھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,11 +156,18 @@ class EnglishEntryacquire extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has acquired a reputation for dishonesty."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناوبانگی بۆ فروفێڵ بەدەستھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has acquired a reputation for dishonesty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوبانگی بۆ فروفێڵ بەدەستھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -174,12 +187,18 @@ class EnglishEntryacquire extends StatelessWidget {
 ٢. (کردار) بەدەستھێنانی شتێک بە کڕینی یان ئەوەی پێت بدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Property acquired through crime will be confiscated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Property acquired through crime will be confiscated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر ماڵومڵکێک بە تاوان بەدەستھاتبێت دەستیبەسەردا دەگیرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

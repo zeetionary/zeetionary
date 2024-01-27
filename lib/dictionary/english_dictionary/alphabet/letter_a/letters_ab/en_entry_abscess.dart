@@ -103,11 +103,18 @@ class EnglishEntryabscess extends StatelessWidget {
 ١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had a painful abscess on his hand."),
-                              const ExampleSentenceKurdish(
-                                  text: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had a painful abscess on his hand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دومەڵێکی گەورەی ھەبوو لەسەر دەستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryadvertising extends StatelessWidget {
 ١. (ناو) چالاکی یان پیشەسازی ڕیکلامکرن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Paid advertising on social media is an assured way to reach out to customers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Paid advertising on social media is an assured way to reach out to customers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕیکلامکردن لەسەر سۆشیال میدیا ڕێگایەکی زۆرباشە بۆ گەشتن بە کڕیاران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

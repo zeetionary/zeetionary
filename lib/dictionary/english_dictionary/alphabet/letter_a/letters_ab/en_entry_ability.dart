@@ -139,12 +139,18 @@ class EnglishEntryability extends StatelessWidget {
 ١. (ناو) توانای ئەنجامدانی کارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People with the disease may lose their ability to communicate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People with the disease may lose their ability to communicate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -161,12 +167,18 @@ class EnglishEntryability extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This program has the ability to adapt to its user."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This program has the ability to adapt to its user."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +195,18 @@ class EnglishEntryability extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has an uncanny ability to predict what consumers will want."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has an uncanny ability to predict what consumers will want."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +225,18 @@ class EnglishEntryability extends StatelessWidget {
 ٢. (ناو) ئاستی ھەبوونی شارەزاییەک یان زانیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A woman of her ability will easily find a job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A woman of her ability will easily find a job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +253,18 @@ class EnglishEntryability extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's important to discover the natural abilities of each child."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's important to discover the natural abilities of each child."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

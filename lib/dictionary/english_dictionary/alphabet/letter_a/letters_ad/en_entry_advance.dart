@@ -217,12 +217,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ١. (ناو) بەرەوپێشچوون و سەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We live in an age of rapid technological advance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We live in an age of rapid technological advance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەردەمێکدا دەژین کە تەکنەلۆژیا بەخێرایی بەرەو پێشەوە دەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -243,12 +249,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٢. (ناو) بۆ پێشەوە جووڵەی کۆمەڵێک کەس، بەتایبەت یەکەی سەربازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Enemy advances had forced them to retreat into the mountains."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Enemy advances had forced them to retreat into the mountains."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشڕەویی دووژمن ناچاری کردبوون بکشێنەوە ناو چیکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,11 +281,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٣. (ناو) پارەیەک کە لەپێشدا دەدرێت وەک پێشەکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The publishers have paid me an advance."),
-                              const ExampleSentenceKurdish(
-                                  text: "بڵاوکەرەوەکان پێشەکییەکیان داوە پێم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The publishers have paid me an advance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڵاوکەرەوەکان پێشەکییەکیان داوە پێم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +313,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٤. (ناو) ھەوڵدان بۆ دەستپێکردنی پەیوەندیی سێکسی لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had made advances to one of his colleagues."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had made advances to one of his colleagues."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیدا پەیوەندی سێکسی لەگەڵ یەکێک لە ھاوکارەکانی درووست بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,12 +345,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٥. (کردار) بەرەوپێشچوون و گەشەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our knowledge of the disease has advanced considerably over recent years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our knowledge of the disease has advanced considerably over recent years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێگەشتنمان بۆ نەخۆشییەکە زۆر بەرەوپێشچووە لە چەند ساڵی ڕابردوودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -346,12 +377,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٦. (کردار) بەرەوپێشچوونی کۆمەڵە کەسێک، بەتایبەتی پێشڕەویکردنی سەربازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The troops were finally given the order to advance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops were finally given the order to advance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازان لە کۆتاییدا فەرمانی پێشڕەوییان پێدرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -372,12 +409,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٧. (کردار) یارمەتیدان لە سەرکەوتنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They worked together to advance the cause of democracy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They worked together to advance the cause of democracy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەوە کاریان کرد بۆ بەرەوپێشچوونی دۆزی دیموکراسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -398,10 +441,16 @@ class EnglishEntryadvance extends StatelessWidget {
 ٨. (کردار) پێدانی پارە لە پێش کاتی خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We will advance you the money."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارەکەت بە پێشەکی پێدەدەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We will advance you the money."),
+                                    ExampleSentenceKurdish(
+                                        text: "پارەکەت بە پێشەکی پێدەدەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -422,12 +471,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ٩. (کردار) پێشنیارکردنی بیرۆکەیەک یان پلانێک بۆ گەنگەشەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article advances a new theory to explain changes in the climate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The article advances a new theory to explain changes in the climate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە بیردۆزێکی تازە پێشنیار دەکات بۆ ڕوونکردنەوەی گۆڕان لە ئاووھەوا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -448,12 +503,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ١٠. (کردار) گۆڕینی کاتی ڕووداوێک بۆ ئەوەی زووتر ڕووبدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The date of the trial has been advanced by one week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The date of the trial has been advanced by one week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکەوتی دانیشتنەکەی دادگا یەک ھەفتە ھێنراوەتە پێشەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -474,12 +535,18 @@ class EnglishEntryadvance extends StatelessWidget {
 ١١. (کردار) چوونە قۆناغێکی دواتری شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Participants advance through the program by answering a series of questions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Participants advance through the program by answering a series of questions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەژداربووان دەچنە قۆناغەکانی دواتری پڕۆگرامەکە بە وەڵامدانەوەی ژمارەیەک پرسیار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

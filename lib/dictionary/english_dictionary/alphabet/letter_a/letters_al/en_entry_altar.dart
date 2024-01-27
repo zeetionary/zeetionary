@@ -129,12 +129,18 @@ class EnglishEntryaltar extends StatelessWidget {
 ١. (ناو) مێزێک کە لە کڵێسا دادەنرێت لە کاتی بۆنەی ئاینی و شتە پیرۆزەکانی لەسەر دادەنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He built an altar to God and made a sacrifice."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He built an altar to God and made a sacrifice."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێش‌نوێژگەیەکی بۆ خودا دانا و قوربانی ئەنجامدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

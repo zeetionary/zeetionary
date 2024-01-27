@@ -125,12 +125,18 @@ class EnglishEntryadulterous extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە پەیوەنسییەکی نابەجێ کە لە دەرەوەی ھاوسەرگیرییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had an adulterous relationship with his wife's best friend."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had an adulterous relationship with his wife's best friend."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

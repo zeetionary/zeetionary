@@ -121,12 +121,18 @@ class EnglishEntryaccession extends StatelessWidget {
 ١. (ناو) گەشتن بە پلەیەکی باڵا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "1926 was the year of Emperor Hirohito's accession to the throne."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵی ١٩٢٦ ساڵی بوون بە پاشایی ئیمپراتۆر ھیرۆھیتۆ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "1926 was the year of Emperor Hirohito's accession to the throne."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵی ١٩٢٦ ساڵی بوون بە پاشایی ئیمپراتۆر ھیرۆھیتۆ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryaccession extends StatelessWidget {
 ٢. (ناو) بوون بە بەشێک لە ڕێکخراوێکی نێودەوڵەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is absolutely not right to speed up accession to Nato without public support."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ درووست نییە چوونە ناو ناتۆ خێرابکرێت بەبێ پشتگیری خەڵک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is absolutely not right to speed up accession to Nato without public support."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ درووست نییە چوونە ناو ناتۆ خێرابکرێت بەبێ پشتگیری خەڵک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

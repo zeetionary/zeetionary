@@ -129,12 +129,18 @@ class EnglishEntryalley extends StatelessWidget {
 ١. (ناو) ڕێگایەکی باریک لە نێوان خانوو و باڵەخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The car was hidden down a narrow alley."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car was hidden down a narrow alley."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە لە کۆڵانێکی باریک شاردرابوویەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

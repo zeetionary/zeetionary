@@ -177,12 +177,18 @@ class EnglishEntryattn extends StatelessWidget {
 ١. (کورتکراوە) لە نامەدا بەکاردێت لەپێش ناوی ئەو کەسەی پەیامەکەی بۆ نووسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Please send all submissions via email attn: Bill Simms."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Please send all submissions via email attn: Bill Simms."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تکایە ھەموو دۆکیومێنتەکان بە ئیمەیڵ بنێرە، ئاگاداربە بیڵ سیمس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -171,12 +171,18 @@ class EnglishEntryaxiomatic extends StatelessWidget {
 ١. (ھاوەڵناو) ھێندە ڕاست کە پێویستی بە بەڵگە نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It seems axiomatic that everyone would benefit from a better scientific education."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It seems axiomatic that everyone would benefit from a better scientific education."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

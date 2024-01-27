@@ -174,12 +174,18 @@ class EnglishEntryarchtwo extends StatelessWidget {
 ١. (پێشگر) سەرەکی، زیاتر لە ھەر شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's always been an arch-opponent of the project."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's always been an arch-opponent of the project."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە دژبەرێکی سەرسەختی پڕۆژەکە بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -170,12 +170,18 @@ class EnglishEntryampup extends StatelessWidget {
 ١. (کاری لێکدراو) زیادکردنی دەنگی میوزیک کە لە بڵیندگۆیەکەوە لێدەدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He knew exactly when to amp the music up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He knew exactly when to amp the music up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryampup extends StatelessWidget {
 ٢. (کاری لێکدراو) زیادکردنی ڕێژە یان بڕی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We're always looking for ways to amp up productivity in the workplace."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We're always looking for ways to amp up productivity in the workplace."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە ھەوڵ دەدەین ڕێگا بدۆزینەوە بۆ زیادکردنی بەرھەمھێنان لە شوێن‌کارەکەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +234,18 @@ class EnglishEntryampup extends StatelessWidget {
 ٣. (کاری لێکدراو) پێدانی جۆش‌وخرۆش بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After amping the crowd up with an impressive light show, the band took to the stage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After amping the crowd up with an impressive light show, the band took to the stage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای ئەوەی جەماوەرەکەیان خرۆشاند بە نمایشی لایتەکان، باندەکە چوونە سەر ستەیج"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

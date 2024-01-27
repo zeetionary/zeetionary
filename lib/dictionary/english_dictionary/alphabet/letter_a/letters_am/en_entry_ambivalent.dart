@@ -131,12 +131,18 @@ class EnglishEntryambivalent extends StatelessWidget {
 ١. (ھاوەڵناو) دوودڵ، ھەبوونی ھەستی ئەرێنی و ەرێنی لە یەک کاتدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She seems to feel ambivalent about her new job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She seems to feel ambivalent about her new job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادیاربوو دوودڵ بێت سەبارەت بە کارە تازەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryambivalent extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The party's position on nuclear weapons is deeply ambivalent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The party's position on nuclear weapons is deeply ambivalent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵوێستی پارتەکە سەبارەت بە چەکی ئەتۆمی پێک‌دژانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryacoustic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە دەنگ، یان ھەستی بیستن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The microphone converts acoustic waves to electrical signals for transmission."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The microphone converts acoustic waves to electrical signals for transmission."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مایکرۆفۆنەکە شەپۆلی دەنگی دەگۆڕێت بۆ نیشانەی کارەبایی بۆ گواستنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

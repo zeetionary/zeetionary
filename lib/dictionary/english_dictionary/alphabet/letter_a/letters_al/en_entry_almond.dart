@@ -129,12 +129,18 @@ class EnglishEntryalmond extends StatelessWidget {
 ١. (ناو) بادەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The almond cake is particularly sublime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The almond cake is particularly sublime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێکە بادەمەکە بەتایبەتی سەرسوڕھێنەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

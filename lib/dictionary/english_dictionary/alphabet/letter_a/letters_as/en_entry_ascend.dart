@@ -181,12 +181,18 @@ class EnglishEntryascend extends StatelessWidget {
 ١. (کردار) بەرزبوونەوە و سەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The air became colder as we ascended."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The air became colder as we ascended."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشەکە ساردتر بوو کە زیاتر سەرکەوتین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryascend extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her heart was thumping as she ascended the stairs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her heart was thumping as she ascended the stairs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵی بەخێرایی لێی‌دەدا کە بە پەیژەکەدا دەچووە سەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +243,18 @@ class EnglishEntryascend extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They slowly ascended the steep path up the mountain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They slowly ascended the steep path up the mountain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەھێواشی بە ڕێگا لێژەکەی سەرەوەی شاخەکەدا چوونەسەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +274,18 @@ class EnglishEntryascend extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The young prince ascended the throne after the death of his father."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The young prince ascended the throne after the death of his father."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شازادە گەنجەکە چووەسەر تەختی شاھانە لە دوای مەرگی باوکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,10 +128,16 @@ class EnglishEntryaloft extends StatelessWidget {
 ١. (ھاوەڵناو) لە حەوادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She held the glass aloft."),
-                              const ExampleSentenceKurdish(
-                                  text: "گڵاسەکەی لەحەوادا گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She held the glass aloft."),
+                                    ExampleSentenceKurdish(
+                                        text: "گڵاسەکەی لەحەوادا گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

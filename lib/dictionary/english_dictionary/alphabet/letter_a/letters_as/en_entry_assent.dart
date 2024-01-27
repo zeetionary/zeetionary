@@ -179,12 +179,18 @@ class EnglishEntryassent extends StatelessWidget {
 ١. (ناو) ڕەزامەندی یان ڕازیبوونی فەرمی لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The director has given her assent to the proposals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرەکە ڕەزامەندی لەسەر پێشنیارەکان دەربڕیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The director has given her assent to the proposals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرەکە ڕەزامەندی لەسەر پێشنیارەکان دەربڕیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryassent extends StatelessWidget {
 ٢. (کردار) ڕازیبوون بە داوایەک، بیرۆکەیەک، یان پێشنیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Nobody would assent to the terms they proposed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Nobody would assent to the terms they proposed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ کەس ڕازی‌نابێت بەو مەرجانەی پێشنیاریان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

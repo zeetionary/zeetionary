@@ -196,12 +196,18 @@ class EnglishEntryaspirate extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The word ‘hour’ is pronounced without an initial aspirate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The word ‘hour’ is pronounced without an initial aspirate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی ‘hour’ بەبێ ئەسپیرەیتی سەرەتا دەخوێندرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,12 +229,18 @@ class EnglishEntryaspirate extends StatelessWidget {
 ٢. (کردار) خوێندنەوەی دەنگێک بە ھەناسەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The teacher instructed the student to aspirate their 't's more forcefully."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The teacher instructed the student to aspirate their 't's more forcefully."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکە داوای لە خوێندکارەکانی کرد پیتی 'ت' بە ھەناسەی زیاترەوە بخوێننەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -250,12 +262,18 @@ class EnglishEntryaspirate extends StatelessWidget {
 ٣. (کردار) ھەڵمژینی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The drowning victim aspirated water into their lungs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The drowning victim aspirated water into their lungs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوربانییە نقومبووەکە ئاوی مژییە ناو سنگەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -277,12 +295,18 @@ class EnglishEntryaspirate extends StatelessWidget {
 ٤. (کردار) سڕینەوەی لە لاشەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor aspirated the fluid from the patient's lungs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor aspirated the fluid from the patient's lungs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکەکە شلەکەی لە لەشی نەخۆشەکە دەرکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -189,10 +189,16 @@ class EnglishEntryanyplace extends StatelessWidget {
 ١. (ھاوەڵکار) لە ڕستەی نەرێ و پرسیاری بۆ ئاماژە بۆ شوێن بەکاردێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I can't see it anyplace."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ھیچ شوێنێک نایبینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I can't see it anyplace."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ھیچ شوێنێک نایبینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,10 +220,17 @@ class EnglishEntryanyplace extends StatelessWidget {
 ٢. (ھاوەڵکار) لە ھەر شوێنێک، گرنگ نییە کوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Put the box down anyplace."),
-                              const ExampleSentenceKurdish(
-                                  text: "سنووقەکە لە ھەر کوێ دادەنێی دایبنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Put the box down anyplace."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنووقەکە لە ھەر کوێ دادەنێی دایبنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

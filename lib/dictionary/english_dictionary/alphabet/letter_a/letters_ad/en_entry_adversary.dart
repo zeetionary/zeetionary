@@ -128,12 +128,18 @@ class EnglishEntryadversary extends StatelessWidget {
 ١. (ناو) کەسێک کە دووژمن یان ڕکابەرتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He saw her as his main adversary within the company."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He saw her as his main adversary within the company."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ڕکابەری یەکەمی دەیبینی لە کۆمپانیەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

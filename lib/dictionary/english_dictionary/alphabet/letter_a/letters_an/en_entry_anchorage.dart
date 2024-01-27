@@ -171,12 +171,18 @@ class EnglishEntryanchorage extends StatelessWidget {
 ١. (ناو) شوێنی لەنگەرگرتنی کەشتی و بەلەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bay is well known as a safe anchorage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bay is well known as a safe anchorage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەنداوەکە بە باشی وەک بەندەرێکی سەلامەت ناسراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,11 +204,18 @@ class EnglishEntryanchorage extends StatelessWidget {
 ٢. (ناو) جێگیرکردنی شتێک بە قایمی لە جێگەی خۆیدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The plant needs firm anchorage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plant needs firm anchorage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووەکەکە پێویستی بە قایمکردنی توند ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

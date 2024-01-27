@@ -178,12 +178,18 @@ class EnglishEntryassailant extends StatelessWidget {
 ١. (ناو) کەسێکی ھێرشکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The alleged assailants appeared in court."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆمەتبارە بانگەشەبۆکراوەکان لە دادگا دەرکەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The alleged assailants appeared in court."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆمەتبارە بانگەشەبۆکراوەکان لە دادگا دەرکەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

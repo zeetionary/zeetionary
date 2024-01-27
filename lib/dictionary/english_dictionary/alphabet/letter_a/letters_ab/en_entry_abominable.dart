@@ -126,12 +126,18 @@ class EnglishEntryabominable extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر قێزەون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The judge described the attack as an abominable crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The judge described the attack as an abominable crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -148,11 +154,17 @@ class EnglishEntryabominable extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We were served the most abominable coffee."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناخۆشترین قاوەمان پێشکەشکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We were served the most abominable coffee."),
+                                    ExampleSentenceKurdish(
+                                        text: "ناخۆشترین قاوەمان پێشکەشکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -169,12 +181,18 @@ class EnglishEntryabominable extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think you are utterly selfish and your behaviour has been abominable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think you are utterly selfish and your behaviour has been abominable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

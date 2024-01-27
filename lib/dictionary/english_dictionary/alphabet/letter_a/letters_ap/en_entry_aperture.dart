@@ -177,12 +177,18 @@ class EnglishEntryaperture extends StatelessWidget {
 ١. (ناو) کونێکی بچووک لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldier fired the rifle through a narrow aperture in a pile of sandbags."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldier fired the rifle through a narrow aperture in a pile of sandbags."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکە فیشەکێکی تەقاند لە کونێکی بچووکەوە لە کەڵەکەیەک کیسەلمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,11 +210,18 @@ class EnglishEntryaperture extends StatelessWidget {
 ٢. (ناو) کونێکی بچووک کە ڕێگە بە ڕووناکی دەدات بگات بە لێنزێک، بەتایبەتی لە کامێرادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Binoculars of this aperture are very expensive."),
-                              const ExampleSentenceKurdish(
-                                  text: "دووربینەکانی ئەم دەرچەیە زۆر گرانن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Binoculars of this aperture are very expensive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووربینەکانی ئەم دەرچەیە زۆر گرانن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

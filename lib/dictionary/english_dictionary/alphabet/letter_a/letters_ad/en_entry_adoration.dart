@@ -127,10 +127,18 @@ class EnglishEntryadoration extends StatelessWidget {
 ١. (ناو) ھەستی خۆشەویستییەکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He gazed at her with pure adoration."),
-                              const ExampleSentenceKurdish(
-                                  text: "لێی دەڕوانی بە ئەڤینێکی بێگەرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gazed at her with pure adoration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێی دەڕوانی بە ئەڤینێکی بێگەرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

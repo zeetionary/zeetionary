@@ -172,11 +172,17 @@ class EnglishEntryamphibious extends StatelessWidget {
 ١. (ھاوەڵناو) گیانەوەرێک کە توانای ھەیە لە وشکانی و ئاودا بژێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most species of frogs are amphibious."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرینەی بۆقەکان دووژینەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most species of frogs are amphibious."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆرینەی بۆقەکان دووژینەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntryamphibious extends StatelessWidget {
 ٢. (ھاوەڵناو) ئۆپەراسیۆنێکی سەربازی کە سەربازان لە دەریاوە دێنەسەر وشکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A third brigade is at sea, ready for an amphibious assault."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A third brigade is at sea, ready for an amphibious assault."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێیەم لیوا لە دەریان و ئامادەی ھێرشی ئاوین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +238,18 @@ class EnglishEntryamphibious extends StatelessWidget {
 ٣. (ھاوەڵناو) ئۆتۆمبێلێک یان فڕۆکەیەک کە توانای ھەبێت لەسەر ئاو و وشکانیش کاربکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I saw an amphibious plane at the lake yesterday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I saw an amphibious plane at the lake yesterday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوێنێ فڕۆکەیەکی جووتفڕم بینی لە دەریاچەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

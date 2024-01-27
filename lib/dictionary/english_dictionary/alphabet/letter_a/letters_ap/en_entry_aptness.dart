@@ -176,12 +176,18 @@ class EnglishEntryaptness extends StatelessWidget {
 ١. (ناو) گونجاوی و شیاوی لە دۆخێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aptness of his comment was evident, as it precisely addressed the issue at hand."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گونجاوی کۆمێنتەکەی ڕوون بوو، بەھۆی ئەوەی بەڕوونی باسی لە کێشەکەی بەردەستمان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aptness of his comment was evident, as it precisely addressed the issue at hand."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گونجاوی کۆمێنتەکەی ڕوون بوو، بەھۆی ئەوەی بەڕوونی باسی لە کێشەکەی بەردەستمان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

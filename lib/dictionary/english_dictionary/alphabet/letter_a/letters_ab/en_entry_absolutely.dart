@@ -129,10 +129,16 @@ class EnglishEntryabsolutely extends StatelessWidget {
 ١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بە تەواوی ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You're absolutely right."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەواوی ڕاست دەکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You're absolutely right."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە تەواوی ڕاست دەکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -149,10 +155,17 @@ class EnglishEntryabsolutely extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The place was absolutely packed."),
-                              const ExampleSentenceKurdish(
-                                  text: "شوێنەکە بە تەواوی پڕبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The place was absolutely packed."),
+                                    ExampleSentenceKurdish(
+                                        text: "شوێنەکە بە تەواوی پڕبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -171,10 +184,16 @@ class EnglishEntryabsolutely extends StatelessWidget {
 ٢. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بە تەواوی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She absolutely adores you."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تەواوی حەزی لێتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She absolutely adores you."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە تەواوی حەزی لێتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

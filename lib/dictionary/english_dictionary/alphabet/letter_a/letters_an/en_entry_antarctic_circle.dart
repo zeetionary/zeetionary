@@ -174,12 +174,18 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
 ١. (ناو) یەکێک لە ھێڵەکانی درێژی کە بە نزیکەیی ٧٠ پلە لە باشووری زەوییە و دەوری خولگەی جەمسەری باشووری داوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Penguins live near the Antarctic Circle where it's very cold."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Penguins live near the Antarctic Circle where it's very cold."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەنگوینەکان نزیک لە سووڕگەی ئەنتارکتیک دەژین کە زۆر ساردە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

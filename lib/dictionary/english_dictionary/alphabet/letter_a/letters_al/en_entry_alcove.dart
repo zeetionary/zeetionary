@@ -129,12 +129,18 @@ class EnglishEntryalcove extends StatelessWidget {
 ١. (ناو) تاق؛ بەشێکی دیوارێک کە لە دواتر درووستکراوە وەک لە بەشەکانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bookcase fits neatly into the alcove."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bookcase fits neatly into the alcove."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێ‌کتێبەکە بە تەواوی لە تاقەکە جێیدەبێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

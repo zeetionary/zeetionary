@@ -183,10 +183,16 @@ class EnglishEntryaside extends StatelessWidget {
 ١. (ھاوەڵکار) بۆ لایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She pulled the curtain aside."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەردەکەی لادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She pulled the curtain aside."),
+                                    ExampleSentenceKurdish(
+                                        text: "پەردەکەی لادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryaside extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Stand aside and let these people pass."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Stand aside and let these people pass."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بچۆ ئەولاوە و بھێڵە ئەم خەڵکە تێپەڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,11 +245,18 @@ class EnglishEntryaside extends StatelessWidget {
 ٢. (ھاوەڵکار) بۆ دواتر بەکارھێنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We set aside some money for repairs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We set aside some money for repairs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک پارەمان خستە لاوە بۆ کاری چاککردنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +278,18 @@ class EnglishEntryaside extends StatelessWidget {
 ٣. (ناو) شتێک کە کارەکتەرێک لەسەر شانۆ بە ئامادەبووان دەڵێت کە کارەکتەرەکانی تر نابێت گوێیان لێ بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The actor paused mid-scene to deliver a whispered aside to the audience."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The actor paused mid-scene to deliver a whispered aside to the audience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەکتەرەکە لە ناوەڕاستی دیمەنەکە وەستا بۆ گەیاندنی 'لاپاڵێک' بە ئامادەبووان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +311,18 @@ class EnglishEntryaside extends StatelessWidget {
 ٤. (ناو) قسەیەک بە دەنگی نزم کە مەبەست لێی نییە کەسانی تر بیبیستن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He made several mocking asides about the inadequacy of women."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He made several mocking asides about the inadequacy of women."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک توانجی وەشاند لە بێ‌توانایی ژنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -313,10 +344,16 @@ class EnglishEntryaside extends StatelessWidget {
 ٥. (ناو) قسەیەک کە مەبەست لێی نییە بەشێک بێت لە بابەتی سەرەکیی گفتوگۆیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I mention it only as an aside."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەنھا وەک قەوسێک باسی دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I mention it only as an aside."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەنھا وەک قەوسێک باسی دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

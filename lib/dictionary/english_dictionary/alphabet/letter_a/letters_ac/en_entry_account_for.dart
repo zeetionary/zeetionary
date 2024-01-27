@@ -111,12 +111,18 @@ class EnglishEntryaccountfor extends StatelessWidget {
 ١. (کاری لێکدراو) شتێک کە ھۆکاری شتێک ڕووندەکاتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The poor weather may have accounted for the small crowd."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The poor weather may have accounted for the small crowd."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خراپی کەشوھەوا ڕەنگە ھۆکاربووبێت بۆ بچووکی گردبوونەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

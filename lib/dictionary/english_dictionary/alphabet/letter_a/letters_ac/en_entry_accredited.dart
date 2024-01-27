@@ -122,12 +122,18 @@ class EnglishEntryaccredited extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە بە فەرمی ناسێنراوە وەک شتێک، یان شتێک کە بە کوالێتی باش ناسراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Only accredited journalists were allowed entry."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Only accredited journalists were allowed entry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا ڕۆژنامەنووسانی جێباوەڕ ڕێگەیان پێدرا بچنەژوورەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -144,12 +150,18 @@ class EnglishEntryaccredited extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university was the most accredited around the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university was the most accredited around the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە لە ھەموو ئەوانی تر زیاتر باوەڕپێکراو بوو لە وڵاتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

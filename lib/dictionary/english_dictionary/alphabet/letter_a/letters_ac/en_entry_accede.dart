@@ -119,12 +119,18 @@ class EnglishEntryaccede extends StatelessWidget {
 ١. (کردار) ڕازیبوون بە داوایەک/پێشنیارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He acceded to demands for his resignation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He acceded to demands for his resignation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ملیدا بۆ داواکارییەکانی دەستلەکارکێشانەوەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -143,12 +149,18 @@ class EnglishEntryaccede extends StatelessWidget {
 ٢. (کردار) وەرگرتنی پۆستێکی باڵا، بۆ نموونە پۆستی پاشا یان شاژنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Queen Victoria acceded to the throne in 1837."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Queen Victoria acceded to the throne in 1837."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شاژن ڤیکتۆریا چووە سەر تەختی شاھانە لە ساڵی ١٨٣٧"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

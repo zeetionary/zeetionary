@@ -131,12 +131,18 @@ class EnglishEntryamalgamation extends StatelessWidget {
 ١. (ھاوەڵناو) پڕۆسەی یەکخستن، یان ئەوەی درووست دەبێت لە ئەنجامی ئەم پڕۆسەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We look towards the amalgamation of some of the neighborhood factories."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We look towards the amalgamation of some of the neighborhood factories."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە نیازین ژمارەیەک لە کارگەکانی گەڕەکەکە یەکبخەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,12 +162,18 @@ class EnglishEntryamalgamation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The proposed amalgamation of the two institutes has mow fallen through."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The proposed amalgamation of the two institutes has mow fallen through."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆسەی پێشنیازکراوی یەکخستنی دوو پەیمانگاکە شکستی ھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

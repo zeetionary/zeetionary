@@ -182,11 +182,18 @@ class EnglishEntryausterity extends StatelessWidget {
 ١. (ناو) دۆخی ئابووری خراپ بەھۆی سیاسەتی حکومەتەوە لە کاتی جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "War was followed by many years of austerity."),
-                              const ExampleSentenceKurdish(
-                                  text: "جەنگ چەندین ساڵی نەبوونی بەدواداھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "War was followed by many years of austerity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەنگ چەندین ساڵی نەبوونی بەدواداھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +215,18 @@ class EnglishEntryausterity extends StatelessWidget {
 ٢. (ناو) سادە و ساکار لە دەرکەوتندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The house was decorated in an austere style, with white walls and minimal furniture."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The house was decorated in an austere style, with white walls and minimal furniture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,11 +248,18 @@ class EnglishEntryausterity extends StatelessWidget {
 ٣. (ناو) دەرکەوتن بەشێوەی توند و دژوار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was noted for his austerity and authoritarianism."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەناسرا بۆ دژواری و سەرکوتکەری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was noted for his austerity and authoritarianism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەناسرا بۆ دژواری و سەرکوتکەری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +281,18 @@ class EnglishEntryausterity extends StatelessWidget {
 ٤. (ناو) خۆگرتنەوە لە خۆشی و چێژی ژیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The monks lived a life of austerity, with few possessions and simple meals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The monks lived a life of austerity, with few possessions and simple meals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

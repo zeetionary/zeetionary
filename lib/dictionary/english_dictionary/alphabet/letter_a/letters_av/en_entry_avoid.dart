@@ -173,12 +173,18 @@ class EnglishEntryavoid extends StatelessWidget {
 ١. (کردار) ڕێگریکردن لە ڕوودانی شتێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We must find a way to avoid similar problems in future."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must find a way to avoid similar problems in future."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,10 +206,18 @@ class EnglishEntryavoid extends StatelessWidget {
 ٢. (کردار) خۆدوورگرتن لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He's been avoiding me all week."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's been avoiding me all week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -225,11 +239,18 @@ class EnglishEntryavoid extends StatelessWidget {
 ٣. (کردار) خۆدوورگرتن لە لێدانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The car swerved to avoid a cat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The car swerved to avoid a cat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

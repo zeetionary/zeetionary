@@ -176,10 +176,18 @@ class EnglishEntryapron extends StatelessWidget {
 ١. (ناو) بەروانکە؛ پارچە کراسێک کە لەبەر دەکرێت بۆ داپۆشینی سنگ بەرەو خوارەوە، و لەنزیکی کەمەردا دەبسترێت. بەروانکە بەسەر جلی تر دەبەسترێت بۆ پاکڕاگرتنیاین، بۆ نموونە لە کاتی خواردن ئامادەکردن، یان کە منداڵ خواردن دەخوات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her apron was speckled with oil."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her apron was speckled with oil."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەروانکەکەی خاڵ خاڵ ڕۆنی پێوەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

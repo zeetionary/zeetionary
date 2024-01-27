@@ -128,10 +128,17 @@ class EnglishEntryailing extends StatelessWidget {
 ١. (ھاوەڵناو) نەخۆش بەبێ باشتربوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She looked after her ailing father."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاودێری باوکە ناساخەکەی دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She looked after her ailing father."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاودێری باوکە ناساخەکەی دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +159,18 @@ class EnglishEntryailing extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە لە بارودۆخێکی باش نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ted asked me if I could help him fix his ailing car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ted asked me if I could help him fix his ailing car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێد داوای لێکردم کە یارمەتی بدەم ئۆتۆمبێلە داشقەکەی چاکبکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

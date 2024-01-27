@@ -128,12 +128,18 @@ class EnglishEntryaggressively extends StatelessWidget {
 ١. (ھاوەڵکار) شەڕەنگێزانە و بەتوڕەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many drivers behave aggressively on the road."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many drivers behave aggressively on the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر شۆفێر لەسەر شەقامەکان بە توندوتیژی ڕەفتار دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryaggressively extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە ھێز و ماندووبوونی زیاتری تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They played more aggressively in the second half."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گێمی دووەم سەرسەختانەتر یارییان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They played more aggressively in the second half."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گێمی دووەم سەرسەختانەتر یارییان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

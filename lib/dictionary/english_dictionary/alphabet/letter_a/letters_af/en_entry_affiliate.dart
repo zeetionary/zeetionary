@@ -129,12 +129,18 @@ class EnglishEntryaffiliate extends StatelessWidget {
 ١. (کردار) گرێدراو بە شتێکەوە، بوون بە بەشێک لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The group is not affiliated to any political party."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The group is not affiliated to any political party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپەکە گرێدراو نییە بە ھیچ پارتێکی سیاسییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +159,18 @@ class EnglishEntryaffiliate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hospital is affiliated with the university."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hospital is affiliated with the university."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشخانەکە گرێدراو نییە بە زانکۆکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,11 +191,17 @@ class EnglishEntryaffiliate extends StatelessWidget {
 ٢. (ناو) کۆمپانیایەک یان دامەزراوەیەک کە بەشێکە لە یەکێکی گەورەتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our college is an affiliate of the university."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our college is an affiliate of the university."),
+                                    ExampleSentenceKurdish(
+                                        text: "کۆلێژەکەمان بەشێکە لە زانکۆکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

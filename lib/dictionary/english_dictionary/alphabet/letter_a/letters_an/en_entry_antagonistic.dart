@@ -172,12 +172,18 @@ class EnglishEntryantagonistic extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی دژبەری و دوژمنایەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The interview made her antagonistic towards journalists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The interview made her antagonistic towards journalists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوپێکەوتنەکە وای‌کرد دژبەرانە بێت بەرامبەر ڕۆژنامەنووسان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryadditionally extends StatelessWidget {
 ١. (ھاوەڵکار) زیاتر لەوەی پێشووتر باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

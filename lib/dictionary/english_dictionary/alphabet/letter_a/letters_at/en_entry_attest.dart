@@ -180,12 +180,18 @@ class EnglishEntryattest extends StatelessWidget {
 ١. (کردار) پیشاندانی ڕاستی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Contemporary accounts attest to his courage and determination."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرچاوە ھاوسەردەمەکان گەواھی دەدەن بۆ بوێری و کۆڵنەدانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Contemporary accounts attest to his courage and determination."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرچاوە ھاوسەردەمەکان گەواھی دەدەن بۆ بوێری و کۆڵنەدانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryattest extends StatelessWidget {
 ٢. (کردار) شایەتیدان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can attest that this treatment really works."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانم شایەتی بدەم کە ئەم چارەسەر کاردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can attest that this treatment really works."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانم شایەتی بدەم کە ئەم چارەسەر کاردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

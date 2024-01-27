@@ -182,12 +182,18 @@ class EnglishEntryattribute extends StatelessWidget {
 ١. (کردار) باوەڕبوون یان وتنی ئەوەی شتێک دەرئەنجامی شتێکی ترە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She attributes her success to hard work and a little luck."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She attributes her success to hard work and a little luck."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +216,18 @@ class EnglishEntryattribute extends StatelessWidget {
 ٢. (کردار) وتنی ئەوەی کەسێک بەرپرسی شتێکە، زۆرجار ئەوەی کە شتێکی وتووە، نووسیوە، یان کێشاوە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This play is usually attributed to Shakespeare."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This play is usually attributed to Shakespeare."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryattribute extends StatelessWidget {
 ٣. (کردار) گەڕاندنەوەی شتێک، بۆ نموونە تایبەتمەندییەک یان خاسیەتێک، بۆ کەسێک/شتێک """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The committee refused to attribute blame without further information."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The committee refused to attribute blame without further information."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +284,18 @@ class EnglishEntryattribute extends StatelessWidget {
 ٤. (ناو) تایبەتمەندی یان خاسیەت """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Patience is one of the most important attributes in a teacher."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Patience is one of the most important attributes in a teacher."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

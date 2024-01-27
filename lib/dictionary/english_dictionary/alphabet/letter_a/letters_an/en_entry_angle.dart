@@ -194,12 +194,18 @@ class EnglishEntryangle extends StatelessWidget {
 ١. (ناو) گۆشە؛ بۆشایی نێوان دوو ھێڵ لەو خاڵەی بە یەکدی دەگەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The interior angles of a square are right angles or angles of 90 degrees."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The interior angles of a square are right angles or angles of 90 degrees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆشەکانی ناوەوەی چوارگۆشەیەک تەواون یان گۆشەی ٩٠ پلەیین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -221,12 +227,18 @@ class EnglishEntryangle extends StatelessWidget {
 ٢. (ناو) سووچەکانی ناوەوە یان دەرەوەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's a modern building, all brick and glass and sharp angles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's a modern building, all brick and glass and sharp angles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بینایەکی سەردەمیانەیە، ھەموو خشت و شووشە و گۆشەی تیژە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -248,12 +260,18 @@ class EnglishEntryangle extends StatelessWidget {
 ٣. (ناو) ئاراستەی شتێک کە نە بەرەو سەرەوە یان خوارەوە، نە بەرەو ڕاست یان چەپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She adjusted the angle of the legs to make the table stand more firmly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She adjusted the angle of the legs to make the table stand more firmly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاراستەی لاقەکانی ڕێکخست بۆ ئەوەی مێزەکە قایمتر بوەستێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -273,12 +291,18 @@ class EnglishEntryangle extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Venus and the Earth orbit the Sun at a slight angle to each other."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Venus and the Earth orbit the Sun at a slight angle to each other."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زووھرە و زەوی بەدەوری خۆردا دەسووڕێنەوە بە ئاراستەیەک کەمێک بەلای یەکتردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -300,12 +324,18 @@ class EnglishEntryangle extends StatelessWidget {
 ٤. (ناو) گۆشەنیگا؛ شوێنی سەیرکردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The painting changes slightly when seen from different angles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The painting changes slightly when seen from different angles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تابلۆکە کەمێک دەگۆڕێت کە لە گۆشەنیگای دیکەوە سەیردەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -327,12 +357,18 @@ class EnglishEntryangle extends StatelessWidget {
 ٥. (ناو) گۆشەنیگا؛ شێوازی ڕوانین یان بیرکردنەوە لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can look at the issue from many different angles."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can look at the issue from many different angles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە دەتوانرێت لە زۆر گۆشەنیگای جیاوازەوە سەیربکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -354,12 +390,18 @@ class EnglishEntryangle extends StatelessWidget {
 ٦. (کردار) دانانی شتێک بەشێوەیەک کە ڕاستەوخۆ ڕووی لە شتێک نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He angled his chair so that he could sit and watch her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He angled his chair so that he could sit and watch her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کورسییەکەی بەلاداخست بۆ ئەوەی دابنیشێت و سەیری بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -381,11 +423,17 @@ class EnglishEntryangle extends StatelessWidget {
 ٧. (کردار) پێشکەشکردنی زانیاری یان ڕاپۆرتێک بە شێوازێک یان بۆ کەسانێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The programme is angled towards younger viewers."),
-                              const ExampleSentenceKurdish(
-                                  text: "پڕۆگرامەکە بۆ بیسەرانی گەنجە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The programme is angled towards younger viewers."),
+                                    ExampleSentenceKurdish(
+                                        text: "پڕۆگرامەکە بۆ بیسەرانی گەنجە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -407,12 +455,18 @@ class EnglishEntryangle extends StatelessWidget {
 ٨. (کردار) ماسیگرتن بە قولاب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On weekends, they often go angling by the lake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On weekends, they often go angling by the lake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕۆژانی کۆتایی ھەفتە دەچن بۆ ماسیگرتن لە دەریاچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -179,12 +179,18 @@ class EnglishEntryarrears extends StatelessWidget {
 ١. (ناو) قەرزێک کە ماوەی دانەوەی بەسەرچووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The family is facing eviction over mortgage arrears."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێزانەکە تووشی مەترسی دەرکردن لە خانووەکە دەبنەوە بەھۆی قەرزی کۆنی وامی خانووبەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The family is facing eviction over mortgage arrears."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێزانەکە تووشی مەترسی دەرکردن لە خانووەکە دەبنەوە بەھۆی قەرزی کۆنی وامی خانووبەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarrears extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has agreed to pay all arrears owed to members of the armed forces."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ڕازی‌بووە ھەموو مووچەی پاشەکەوتی ھێزە چەکدارەکان بداتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has agreed to pay all arrears owed to members of the armed forces."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ڕازی‌بووە ھەموو مووچەی پاشەکەوتی ھێزە چەکدارەکان بداتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

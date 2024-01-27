@@ -179,12 +179,18 @@ class EnglishEntryarrow extends StatelessWidget {
 ١. (ناو) تیر کە لە کەوانێکە دەھاوێژرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She aimed carefully at the tree but the arrow missed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She aimed carefully at the tree but the arrow missed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە وریاییەوە ئامانجی لە دارەکە گرتەوە بەڵام تیرەکە لێی‌نەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarrow extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The people used bows and arrows for hunting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The people used bows and arrows for hunting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی تیر و کەوانیان بەکاردەھێنا بۆ ڕاوکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,10 +243,16 @@ class EnglishEntryarrow extends StatelessWidget {
 ٢. (ناو) ھێمایەک کە وەک تیرێک (←) وایە بۆ پیشاندانی ئاراستە بەکاردێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Follow the arrows."),
-                              const ExampleSentenceKurdish(
-                                  text: "پابەندی ھێماکان بە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Follow the arrows."),
+                                    ExampleSentenceKurdish(
+                                        text: "پابەندی ھێماکان بە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

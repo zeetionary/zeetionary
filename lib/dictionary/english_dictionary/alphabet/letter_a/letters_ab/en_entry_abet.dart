@@ -101,13 +101,19 @@ class EnglishEntryabet extends StatelessWidget {
 ١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was abetted in the deception by his wife."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was abetted in the deception by his wife."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

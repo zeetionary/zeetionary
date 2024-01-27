@@ -183,12 +183,18 @@ class EnglishEntryattend extends StatelessWidget {
 ١. (کردار) ئامادەبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We'd like as many people as possible to attend."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزدەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We'd like as many people as possible to attend."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزدەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,10 +216,18 @@ class EnglishEntryattend extends StatelessWidget {
 ٢. (کردار) چوون بۆ شوێنێک بە بەردەوامی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Our children attend the same school."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکانمان دەچنە ھەمان خوێندنگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our children attend the same school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکانمان دەچنە ھەمان خوێندنگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,11 +249,18 @@ class EnglishEntryattend extends StatelessWidget {
 ٣. (کردار) سەرنجدان بە شتێک کە دەیکەیت، یان ئەوەی کەسێک دەیڵێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She hadn't been attending during the lesson."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە کاتی وانەکەدا سەرنجی نەدەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She hadn't been attending during the lesson."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی وانەکەدا سەرنجی نەدەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,11 +282,18 @@ class EnglishEntryattend extends StatelessWidget {
 ٤. (کردار) ڕوودان لە ھەمان کاتی شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Success attended their hard work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Success attended their hard work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -287,12 +315,18 @@ class EnglishEntryattend extends StatelessWidget {
 ٥. (کردار) لەگەڵ کەسێک بوون و یارمەتیدانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The president was attended by several members of his staff."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The president was attended by several members of his staff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

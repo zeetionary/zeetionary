@@ -129,10 +129,17 @@ class EnglishEntryallout extends StatelessWidget {
 ١. (ھاوەڵناو) بە بەکارھێنانی ھەموو ئەوەی بەردەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We're going all out to win."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دڵ و بە گیان دەچین بۆبردنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We're going all out to win."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە دڵ و بە گیان دەچین بۆبردنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

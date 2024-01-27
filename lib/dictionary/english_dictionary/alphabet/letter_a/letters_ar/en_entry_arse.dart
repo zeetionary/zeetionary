@@ -177,11 +177,17 @@ class EnglishEntryarse extends StatelessWidget {
 ١. (ناو) سمت؛ ئەو بەشەی جەستە کە لەسەریان دادەنیشیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Get off your arse! (= stop sitting around doing nothing)"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەستە ئیشێک بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Get off your arse! (= stop sitting around doing nothing)"),
+                                    ExampleSentenceKurdish(
+                                        text: "ھەستە ئیشێک بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

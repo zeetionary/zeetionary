@@ -117,11 +117,18 @@ class EnglishEntryaboriginal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "the issue of Aboriginal land rights"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the issue of Aboriginal land rights"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -140,10 +147,17 @@ class EnglishEntryaboriginal extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ناوچەیەک پێش ئەوەی ئەورووپییەکان تێیدا دەربکەون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "the aboriginal peoples of Canada"),
-                              const ExampleSentenceKurdish(
-                                  text: "دانیشتووانی ڕەسەنی کەنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "the aboriginal peoples of Canada"),
+                                    ExampleSentenceKurdish(
+                                        text: "دانیشتووانی ڕەسەنی کەنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

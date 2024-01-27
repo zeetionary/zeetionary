@@ -177,11 +177,18 @@ class EnglishEntryappend extends StatelessWidget {
 ١. (کردار) زیادکردنی شتێک لە کۆتایی پارچە نووسراوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Footnotes have been appended to the document."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەراوێز بۆ دۆکیومێنتەکە دانراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Footnotes have been appended to the document."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەراوێز بۆ دۆکیومێنتەکە دانراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +208,18 @@ class EnglishEntryappend extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The principal has the right to append comments to the final report."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The principal has the right to append comments to the final report."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕێوبەرەکە مافی ھەیە لێدوان بۆ کۆتایی ڕاپۆرتەکە زیاد بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

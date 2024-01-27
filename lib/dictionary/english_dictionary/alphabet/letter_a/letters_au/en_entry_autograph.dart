@@ -180,10 +180,16 @@ class EnglishEntryautograph extends StatelessWidget {
 ١. (ناو) ئیمزای کەسێکی بەناوبانگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Could I have your autograph?"),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتوانی ئیمزایەکم بۆ بکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Could I have your autograph?"),
+                                    ExampleSentenceKurdish(
+                                        text: "دەتوانی ئیمزایەکم بۆ بکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryautograph extends StatelessWidget {
 ٢. (کردار) کێشانی ئیمزا لەلایەن کەسێکی بەناوبانگەوە لەسەر شتێک بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The whole team has autographed a football, which will be used as a prize."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The whole team has autographed a football, which will be used as a prize."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی تیمەکە ئیمزایان لەسەر تۆپێک کردووە کە وەک دیارییەک بەکاردێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

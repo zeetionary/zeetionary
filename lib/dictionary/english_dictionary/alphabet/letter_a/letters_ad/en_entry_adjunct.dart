@@ -129,12 +129,18 @@ class EnglishEntryadjunct extends StatelessWidget {
 ٢. (ناو) شتێک کە زیاددەکرێت بۆ شتێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The course would be a useful adjunct to my studies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The course would be a useful adjunct to my studies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

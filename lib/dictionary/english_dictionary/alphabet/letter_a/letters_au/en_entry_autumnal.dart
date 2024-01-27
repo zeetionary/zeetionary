@@ -171,12 +171,18 @@ class EnglishEntryautumnal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە پاییز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The villages were blazoned with autumnal color."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوندەکان بە ڕەنگی پاییزە ڕازێندرابوونەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The villages were blazoned with autumnal color."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوندەکان بە ڕەنگی پاییزە ڕازێندرابوونەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -128,12 +128,18 @@ class EnglishEntryafflict extends StatelessWidget {
 ١. (کردار) تووشبوون بە شتێکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our city has been afflicted with a high crime rate for decades."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our city has been afflicted with a high crime rate for decades."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکەمان بۆ چەندین دەیەیە گیرۆدە بووە بە ڕێژەیەکی زۆری تاوان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,11 +158,18 @@ class EnglishEntryafflict extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Severe drought has afflicted the region."),
-                              const ExampleSentenceKurdish(
-                                  text: "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Severe drought has afflicted the region."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشکەساڵی سەخت ھەرێمەکەی گرتووەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

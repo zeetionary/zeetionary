@@ -139,12 +139,18 @@ class EnglishEntryaccurate extends StatelessWidget {
 ١. (ھاوەڵناو) ڕاست و درووست لە ھەموو لایەکەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The film is not historically accurate."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلمەکە لەلایەنی مێژووییەوە درووست نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The film is not historically accurate."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلمەکە لەلایەنی مێژووییەوە درووست نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -161,12 +167,18 @@ class EnglishEntryaccurate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cost is an accurate reflection of the high quality of our products."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cost is an accurate reflection of the high quality of our products."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نرخەکان ڕەنگدانەوەی درووستی کوالێتیی بەرزی کاڵاکانمانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -185,10 +197,16 @@ class EnglishEntryaccurate extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی توانای بەدەستەوەدانی زانیاریی درووست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My watch is not very accurate."),
-                              const ExampleSentenceKurdish(
-                                  text: "کاتژمێرەکەم تەواو نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My watch is not very accurate."),
+                                    ExampleSentenceKurdish(
+                                        text: "کاتژمێرەکەم تەواو نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +223,18 @@ class EnglishEntryaccurate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Scientists have found a more accurate way of dating cave paintings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Scientists have found a more accurate way of dating cave paintings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زاناکان ڕیگایەکی وردتریان دۆزیوەتەوە بۆ زانینی سەردەمی وێنەی ناو ئەشکەوتەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

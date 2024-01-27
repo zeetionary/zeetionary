@@ -128,12 +128,18 @@ class EnglishEntryairconditioner extends StatelessWidget {
 ١. (ناو) ئامێرێک کە ھەوای ناو ژوور یان ئۆتۆمبێل دەگۆڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The room temperature was controlled by using an air conditioner."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The room temperature was controlled by using an air conditioner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلەی گەرمیی ژوورەکە کۆنترۆڵ کرابوو بە بەکارھێنانی ھەواگۆڕکێیەک/فێنککەرەوەیەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -206,12 +206,18 @@ class EnglishEntryarea extends StatelessWidget {
 ١. (ناو) بەشێکی شوێنێک، ھەرێمێک، یان وڵاتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farm and surrounding area were flooded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farm and surrounding area were flooded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کێڵگەکە و ناوچەکەی دەورووبەری بەر لافاو کەوتن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,12 +237,18 @@ class EnglishEntryarea extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Large areas of the city were destroyed in the earthquake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Large areas of the city were destroyed in the earthquake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوچەیەکی زۆری شارەکە لە بومەلەرزەکەدا وێران‌بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +270,18 @@ class EnglishEntryarea extends StatelessWidget {
 ٢. (ناو) بەشێکی ژوورێک، بینایەک، یان شوێنێکی دیاریکراو کۆ مەبەستێک بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You can smoke in only designated areas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can smoke in only designated areas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانی جگەرە بکێشی تەنھا لە شوێنی دیاریکراوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,12 +303,18 @@ class EnglishEntryarea extends StatelessWidget {
 ٣. (ناو) شوێنێکی دیاریکراوی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tumour had not spread to other areas of his body."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tumour had not spread to other areas of his body."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لووەکە ھێشتا بڵاونەبووبووە بە بەشەکانی تری جەستەیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -312,11 +336,17 @@ class EnglishEntryarea extends StatelessWidget {
 ٤. (ناو) بابەتێکی دیاریکراو یان چالاکییەک، یان لایەنێکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That's outside my specific area of expertise."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەوە لە دەرەوەی شارەزایی منە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That's outside my specific area of expertise."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەوە لە دەرەوەی شارەزایی منە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -336,12 +366,18 @@ class EnglishEntryarea extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More research is needed in this area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More research is needed in this area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوەی تر پێویستن لەم ڕوانگەیەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -363,11 +399,17 @@ class EnglishEntryarea extends StatelessWidget {
 ٥. (ناو) ڕووبەری ناوچەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Britain occupies a total area of 88,798 square miles."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Britain occupies a total area of 88,798 square miles."),
+                                    ExampleSentenceKurdish(
+                                        text: "ڕووبەری بەریتانیا ٨٨,٧٩٨ میلە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -182,12 +182,18 @@ class EnglishEntryassure extends StatelessWidget {
 ١. (کردار) دڵنیایی‌کردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You think I did it deliberately, but I assure you (that) I did not."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You think I did it deliberately, but I assure you (that) I did not."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وابیردەکەیتەوە کە بە ئەنقەست کردم، بەڵام دڵنیات دەکەمەوە بەئەنقەست نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,10 +213,16 @@ class EnglishEntryassure extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We assured him of our support."),
-                              const ExampleSentenceKurdish(
-                                  text: "دڵنیامانکردەوە لە پشتیوانیمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We assured him of our support."),
+                                    ExampleSentenceKurdish(
+                                        text: "دڵنیامانکردەوە لە پشتیوانیمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryassure extends StatelessWidget {
 ٢. (کردار) دڵنیایی‌کردنەوەی خۆت لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She assured herself that the letter was still in the drawer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She assured herself that the letter was still in the drawer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵنیایی‌کردەوە کە نامەکە ھێشتا لە چەکمەجەکە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +277,18 @@ class EnglishEntryassure extends StatelessWidget {
 ٣. (کردار) مسۆگەرکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Victory would assure them a place in the finals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Victory would assure them a place in the finals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بردنەوە شوێنێکیان لە کۆتایی بۆ مسۆگەردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

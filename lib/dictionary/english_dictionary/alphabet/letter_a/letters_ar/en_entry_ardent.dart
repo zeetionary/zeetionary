@@ -176,12 +176,18 @@ class EnglishEntryardent extends StatelessWidget {
 ١. (ھاوەڵناو) تامەزرۆ و بەپەرۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As an ardent supporter, he cheers for Manchester United in every match."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As an ardent supporter, he cheers for Manchester United in every match."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک ھەوادارێکی تامەزرۆ، لە ھەموو یارییەکدا ھاوار بۆ مانچستەر یونایتید دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

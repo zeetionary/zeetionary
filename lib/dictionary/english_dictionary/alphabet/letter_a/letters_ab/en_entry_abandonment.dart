@@ -108,12 +108,18 @@ class EnglishEntryabandonment extends StatelessWidget {
 ١. (ناو) کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their childhood abandonment by their mother affected their lives greatly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their childhood abandonment by their mother affected their lives greatly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

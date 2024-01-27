@@ -140,10 +140,18 @@ class EnglishEntryalmighty extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی دەسەڵاتی تەواو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Almighty God, have mercy on us."),
-                              const ExampleSentenceKurdish(
-                                  text: "خودای بەدەسەڵات، ڕەحممان پێ بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Almighty God, have mercy on us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خودای بەدەسەڵات، ڕەحممان پێ بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -165,12 +173,18 @@ class EnglishEntryalmighty extends StatelessWidget {
 ٢. (ھاوەڵناو) زۆر بەرز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All of a sudden we heard an almighty crash from the kitchen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All of a sudden we heard an almighty crash from the kitchen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەناکاو تەقەیەکی بەرزمان لە چێشتخانەکەوە بیست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -191,11 +205,18 @@ class EnglishEntryalmighty extends StatelessWidget {
 ٣. (ھاوەڵناو) بۆ پیشاندانی توڕەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "God Almighty! What the hell do you think you are doing?"),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ خاتری خودا، پێت وایە چی دەکەیت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "God Almighty! What the hell do you think you are doing?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ خاتری خودا، پێت وایە چی دەکەیت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -216,12 +237,18 @@ class EnglishEntryalmighty extends StatelessWidget {
 ٤. (ھاوەڵناو) خودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We must pray to the Almighty for forgiveness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must pray to the Almighty for forgiveness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت لای خودا نزا بکەین بۆ لێخۆشبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

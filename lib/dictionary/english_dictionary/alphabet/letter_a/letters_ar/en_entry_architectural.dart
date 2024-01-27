@@ -178,12 +178,18 @@ class EnglishEntryarchitectural extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە بینا و بیناسازی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several architectural styles are being considered for the proposed housing development."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک ستایلی بیناسازی ڕەچاودەکرێن بۆ پڕۆژەی خانوبەرە پێشنیازکراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several architectural styles are being considered for the proposed housing development."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک ستایلی بیناسازی ڕەچاودەکرێن بۆ پڕۆژەی خانوبەرە پێشنیازکراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

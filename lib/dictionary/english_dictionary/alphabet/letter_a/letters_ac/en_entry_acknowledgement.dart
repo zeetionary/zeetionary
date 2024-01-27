@@ -131,11 +131,18 @@ class EnglishEntryacknowledgement extends StatelessWidget {
 ١. (ناو) داننان بە بوون یان ڕاستی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is acknowledgement on his part that he was to blame."),
-                              const ExampleSentenceKurdish(
-                                  text: "دانیپێداناوە کە ئەو بەرپرسیارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is acknowledgement on his part that he was to blame."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیپێداناوە کە ئەو بەرپرسیارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +162,18 @@ class EnglishEntryacknowledgement extends StatelessWidget {
 ٢. (ناو) دەربڕینی سوپاسگوزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The flowers were a small acknowledgement of your kindness."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The flowers were a small acknowledgement of your kindness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵەکان ناساندنێکی بچووکی میھرەبانیتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -181,12 +194,18 @@ class EnglishEntryacknowledgement extends StatelessWidget {
 ٣. (ناو) نامەیەک یان ئیمەیڵێک بۆ دڵنیاکردنەوەی ئەوەی شتێک گەیشتووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wrote to them but never got any acknowledgement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wrote to them but never got any acknowledgement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەم بۆ نووسین بەڵام ھیچ وەڵامم وەرنەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

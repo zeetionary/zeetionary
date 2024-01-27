@@ -128,11 +128,18 @@ class EnglishEntryagitation extends StatelessWidget {
 ١. (ناو) ناڕەحەتی و نیگەرانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was trying not to show her agitation."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was trying not to show her agitation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیدەدا ناڕەحەتیی پیشان نەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,11 +160,18 @@ class EnglishEntryagitation extends StatelessWidget {
 ٢. (ناو) ناڕەزایی جەماوەری بۆ گۆڕانکاریی سیاسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There has been mass agitation against the president."),
-                              const ExampleSentenceKurdish(
-                                  text: "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There has been mass agitation against the president."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناڕەزایی زۆر بەرامبەر سەرۆک ھەبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

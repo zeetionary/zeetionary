@@ -176,12 +176,18 @@ class EnglishEntryapplause extends StatelessWidget {
 ١. (ناو) چەپڵەڕێزان و ھاواری گرووپێک لە خەڵک بەھۆی بەدڵبوونی شتێک یان دەربڕینی خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He left the stage to thunderous applause."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He left the stage to thunderous applause."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستەیجەکەی جێھێشت لەگەڵ چەپڵەڕێزانێکی زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

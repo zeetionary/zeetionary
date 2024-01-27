@@ -175,12 +175,18 @@ class EnglishEntryapprehend extends StatelessWidget {
 ١. (کردار) دەستگیرکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police apprehended an armed suspect near the scene of the crime."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police apprehended an armed suspect near the scene of the crime."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس گومانلێکراوێکیان بە چەکەوە دەستگیرکرد لە شوێنی تاوانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,10 +208,17 @@ class EnglishEntryapprehend extends StatelessWidget {
 ٢. (کردار) تێگەشتن و ھەست‌کردن بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was slow to apprehend danger."),
-                              const ExampleSentenceKurdish(
-                                  text: "درەنگ ھەستی بە مەترسی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was slow to apprehend danger."),
+                                    ExampleSentenceKurdish(
+                                        text: "درەنگ ھەستی بە مەترسی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

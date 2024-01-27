@@ -125,12 +125,18 @@ class EnglishEntryacquainted extends StatelessWidget {
 ١. (ھاوەڵناو) ئاشنا لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The students are already acquainted with the works of Shakespeare."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The students are already acquainted with the works of Shakespeare."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکاران لەمێژە ئاشنان لەگەڵ کارەکانی شکسپیر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

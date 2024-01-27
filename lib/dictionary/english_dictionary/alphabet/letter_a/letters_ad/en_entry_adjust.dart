@@ -136,11 +136,18 @@ class EnglishEntryadjust extends StatelessWidget {
 ١. (کردار) گۆڕینی شتێک بە کەمی بۆ ئەوەی لەگەڵ بارودۆخێکی تازە بگونجێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This button is for adjusting the volume."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This button is for adjusting the volume."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -159,10 +166,17 @@ class EnglishEntryadjust extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The brakes need to be adjusted."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەستێنەرەکان دەبێت ڕێکبخرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The brakes need to be adjusted."),
+                                    ExampleSentenceKurdish(
+                                        text: "وەستێنەرەکان دەبێت ڕێکبخرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +197,18 @@ class EnglishEntryadjust extends StatelessWidget {
 ٢. (کردار) خۆڕاھێنان بە بارودۆخێکی تازە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It took her a while to adjust to living alone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It took her a while to adjust to living alone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -209,11 +229,18 @@ class EnglishEntryadjust extends StatelessWidget {
 ٣. (کردار) کردنی گۆڕانێک لە شتێکدا بۆ ئەوەی باشتر یان ڕێکتر دەربکەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He smoothed his hair and adjusted his tie."),
-                              const ExampleSentenceKurdish(
-                                  text: "قژی سافکرد و بۆینباخەکەی ڕێکخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He smoothed his hair and adjusted his tie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قژی سافکرد و بۆینباخەکەی ڕێکخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

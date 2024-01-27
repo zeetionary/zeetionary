@@ -172,12 +172,18 @@ class EnglishEntryantibody extends StatelessWidget {
 ١. (ناو) مادەیەک کە لەش درووستی‌دەکات لە خوێندا، یان وەک کاردانەوە دژ بە شتێک کە دەخرێتە لەشەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Antibodies found in breast milk protect newborn babies against infection."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Antibodies found in breast milk protect newborn babies against infection."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو دژەتەنانەی لە شیری سرووشتیدان منداڵی ساوا دەپارێزن لە نەخۆشی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

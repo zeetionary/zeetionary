@@ -144,12 +144,18 @@ class EnglishEntryafloat extends StatelessWidget {
 ١. (ھاوەڵناو) سەرئاوکەوتوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were struggling to keep the boat afloat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were struggling to keep the boat afloat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەقەڵایان بوو بۆ ئەوەی بەلەمەکە سەراوکەوتە بھێڵنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -170,12 +176,18 @@ class EnglishEntryafloat extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی بەشی پێویست پارە بۆ دانەوەی قەرزەکانی کۆمپانیایەک و توانای مانەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many small businesses are struggling to stay afloat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many small businesses are struggling to stay afloat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەکی زۆر بزنسی بچووک تەقەڵایانە ئیفلاس نەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

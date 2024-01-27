@@ -125,12 +125,18 @@ class EnglishEntryairliner extends StatelessWidget {
 ١. (ناو) فڕۆکەی نەفەرھەڵگر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The airliner was hijacked by a group of terrorists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The airliner was hijacked by a group of terrorists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە لەلایەن ژمارەیەک تیرۆریستەوە ڕفێندرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryanyway extends StatelessWidget {
 ١. (ھاوەڵکار) بەکاردێت بۆ زیادکردنی ڕستەیەک وەک پشتگیری بۆ یەکێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's too expensive and anyway the colour doesn't suit you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's too expensive and anyway the colour doesn't suit you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر گرانە، لەگەڵ ئەوەش ڕەنگەکەیت پێ ناکەوێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryanyway extends StatelessWidget {
 ٢. (ھاوەڵکار) سەرەڕای شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's going to happen anyway, so we won't object to it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's going to happen anyway, so we won't object to it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرچۆنێ بێت ھەر ڕوودەدات، بۆیە دژی نابین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryanyway extends StatelessWidget {
 ٣. (ھاوەڵکار) بەکاردێت لە کاتی گۆڕینی بابەتی گدتوگۆیەک، کۆتایی پێھێنانی، یان گەڕانەوە بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Anyway, I'd better go now—I'll see you tomorrow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Anyway, I'd better go now—I'll see you tomorrow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرچۆنێ بێت، باشترە ئێستا بچم، سبەی دەتبینمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +277,18 @@ class EnglishEntryanyway extends StatelessWidget {
 ٤. (ھاوەڵکار) بەکاردێت بۆ ڕاستکردنەوە یان کەمێک گۆڕین ئەوەی وتت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think she's right. I hope so, anyway."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think she's right. I hope so, anyway."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌وایە ڕاستە. یان ھیوادارم ڕاست بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,12 +308,18 @@ class EnglishEntryanyway extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She works in a bank. She did when I last saw her, anyway."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She works in a bank. She did when I last saw her, anyway."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە بانکێک کار دەکات. ڕاستی کە کۆتا جار بینیم ئەوەی وت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryalleviate extends StatelessWidget {
 ١. (کردار) سەختی شتێک کەمبکەیتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A number of measures were taken to alleviate the problem."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A number of measures were taken to alleviate the problem."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک ڕێکار گردرانە بەر بۆ سوککردنی کێشەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryalleviate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The drugs did nothing to alleviate her pain/suffering."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The drugs did nothing to alleviate her pain/suffering."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چارەسەرەکان ھیچیان نەکرد بۆ کەمکردنەوەی ئازارەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

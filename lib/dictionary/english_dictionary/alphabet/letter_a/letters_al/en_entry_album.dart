@@ -130,10 +130,18 @@ class EnglishEntryalbum extends StatelessWidget {
 ١. (ناو) کتێبێک کە تێیدا وێنە ھەڵدەگریت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I keep the photographs in an album."),
-                              const ExampleSentenceKurdish(
-                                  text: "وێنەکان لە ئەلبومێکدا ھەڵدەگرم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I keep the photographs in an album."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێنەکان لە ئەلبومێکدا ھەڵدەگرم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +162,18 @@ class EnglishEntryalbum extends StatelessWidget {
 ٢. (ناو) ژمارەیەک پارچە میوزیک یان گۆرانی کە پێکەوە لەسەر ئینتەرنێت یان بە سی دی بڵاودەکرێنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They recently released their debut album."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They recently released their debut album."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەم نزیکانە یەکەم ئەلبومیان بڵاوکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,11 +129,18 @@ class EnglishEntryalphabet extends StatelessWidget {
 ١. (ناو) ئەلفیبێی زمانێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Alpha is the first letter of the Greek alphabet."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Alpha is the first letter of the Greek alphabet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەلفا یەکەم پیتی ئەلفوبێی یۆنانییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

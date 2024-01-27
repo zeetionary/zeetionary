@@ -257,10 +257,17 @@ class EnglishEntryart extends StatelessWidget {
 ١. (ناو) بەکارھێنانی خەیاڵ بۆ دەربڕینی ھەست و بیرۆکە لە شێوەی تابلۆ و وێنەکێشان و پەیکەردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's a very beautiful piece of art."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارچەیەکی ھونەری زۆر جوانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's a very beautiful piece of art."),
+                                    ExampleSentenceKurdish(
+                                        text: "پارچەیەکی ھونەری زۆر جوانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -280,12 +287,18 @@ class EnglishEntryart extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His art style was less radical than his contemporaries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His art style was less radical than his contemporaries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستایلی ھونەریی کەمتر تازەگەریی تێدابوو وەک لەوانەی دیکەی ھاوسەردەمی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -307,12 +320,18 @@ class EnglishEntryart extends StatelessWidget {
 ٢. (ناو) نموونەی کاری ھونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The castle houses one of the finest art collections in Britain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The castle houses one of the finest art collections in Britain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەڵاکە یەکێک لە باشترین کۆمەڵە کاری ھونەری لە بەریتانیادا تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -334,10 +353,16 @@ class EnglishEntryart extends StatelessWidget {
 ٣. (ناو) شارەزایی لە درووستکردنی پارچەی ھونەری، بۆ نموونە تابلۆ، وێنەی کێشراو، یان پەیکەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She's good at art and design."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە ھونەر و دیزایندا باشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's good at art and design."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ھونەر و دیزایندا باشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -359,12 +384,18 @@ class EnglishEntryart extends StatelessWidget {
 ٤. (ناو) بابەتە ھونەرییەکان کاتێک پێکەوە باس دەکرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "More government money is needed for the arts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەی زیاتری حکومەت بۆ ھونەر پێویستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "More government money is needed for the arts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەی زیاتری حکومەت بۆ ھونەر پێویستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -386,12 +417,18 @@ class EnglishEntryart extends StatelessWidget {
 ٥. (ناو) ھونەری بینراو، یان یەکێک کە نمایش دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Drama is an art that is traditionally performed in a theatre."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Drama is an art that is traditionally performed in a theatre."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دراما ھونەرێکە زۆرجار لە ھۆڵی شانۆ پێشکەش دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -413,12 +450,18 @@ class EnglishEntryart extends StatelessWidget {
 ٦. (ناو) بابەتە نازانستییەکانی وەک مێژوو و زمانەکان و ئەدەب"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At school I was quite good at arts, but hopeless at science."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At school I was quite good at arts, but hopeless at science."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە قوتابخانە زۆر لە بابەتە ھونەرییەکان باش بووم، بەڵام لە زانست بێ‌ئەمەل بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -440,11 +483,18 @@ class EnglishEntryart extends StatelessWidget {
 ٧. (ناو) توانایەک یان شارەزاییەک کە دەتوانی زیاتر گەشەی پێ‌بدەیت بە ڕاھێنان‌کردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've never mastered the art of making bread."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەرگیز فێری ھونەری نانکردن نەبوومە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've never mastered the art of making bread."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز فێری ھونەری نانکردن نەبوومە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -185,12 +185,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
 ١. (ناو) ئەو گازانەی کە دەوری زەوییان داوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Volcanoes and hot springs can emit methane into the atmosphere."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Volcanoes and hot springs can emit methane into the atmosphere."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +217,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The spaceship should re-enter the earth's atmosphere later today."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The spaceship should re-enter the earth's atmosphere later today."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +251,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
 ٢. (ناو) ئەو گازانەی کە دەوری تەنێکی ئاسمانییان داوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The outermost part of the sun's atmosphere is called the corona."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The outermost part of the sun's atmosphere is called the corona."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +285,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
 ٣. (ناو) ھەوای ناو ژوورێک یان شوێنێکی بچووک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These plants love warm, humid atmospheres."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These plants love warm, humid atmospheres."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -295,12 +319,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
 ٤. (ناو) ئەو کەشەی لە بارودۆخێکدا ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "City officials have created an atmosphere of fear."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "City officials have created an atmosphere of fear."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -321,12 +351,18 @@ class EnglishEntryatmosphere extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was an atmosphere of mutual trust between them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was an atmosphere of mutual trust between them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

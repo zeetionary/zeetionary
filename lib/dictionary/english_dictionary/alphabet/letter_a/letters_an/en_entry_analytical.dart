@@ -169,10 +169,17 @@ class EnglishEntryanalytical extends StatelessWidget {
 ١. (ھاوەڵناو) بەکارھێنانی شێوازی بیرکردنەوەی لۆژیکیانە بۆ تێگەشتن لە شتێک، بەتایبەتی بە سەیرکردنی ھەموو بەشەکانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She has a clear analytical mind."),
-                              const ExampleSentenceKurdish(
-                                  text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has a clear analytical mind."),
+                                    ExampleSentenceKurdish(
+                                        text: "مێشکێکی تەواو بەدیقەتی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

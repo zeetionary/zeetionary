@@ -171,11 +171,18 @@ class EnglishEntryanguish extends StatelessWidget {
 ١. (ناو) ئازار، ناڕەحەتی، یان ناخۆشییەکی زۆری دەروونی یان جەستەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tears of anguish filled her eyes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tears of anguish filled her eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرمێسکی ئازار و ناڕەحەتی ھێینابوویە قوڵپی گریان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +202,18 @@ class EnglishEntryanguish extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He suffered the anguish of watching his son go to prison."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He suffered the anguish of watching his son go to prison."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ناڕەحەتی بینینی بردنی کوڕەکەی بۆ زیندان تێپەڕبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

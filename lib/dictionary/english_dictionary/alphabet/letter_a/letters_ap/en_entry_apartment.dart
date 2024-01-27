@@ -175,12 +175,18 @@ class EnglishEntryapartment extends StatelessWidget {
 ١. (ناو) ژمارەیەک ژوور بۆ ژیان تێیدا، زۆرجار لە نھۆمێکی بینایەکی گەورە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was renting a two-bedroom apartment in an old building."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was renting a two-bedroom apartment in an old building."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستەژوورێکی دوو ژووریم بە کرێ گرت‌بوو لە باڵەخانەیەکی کۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,11 +207,18 @@ class EnglishEntryapartment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was evicted from his Manhattan apartment."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە دەستەژوورەکەی لە مانھاتن دەرکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was evicted from his Manhattan apartment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دەستەژوورەکەی لە مانھاتن دەرکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

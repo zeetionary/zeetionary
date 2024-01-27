@@ -129,12 +129,18 @@ class EnglishEntryaloof extends StatelessWidget {
 ١. (ھاوەڵناو) حەزنەکردن لە خەڵکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was a cold man, aloof and distant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was a cold man, aloof and distant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی ساردوسڕ و گۆشەگیر و دوورەپەرێز بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

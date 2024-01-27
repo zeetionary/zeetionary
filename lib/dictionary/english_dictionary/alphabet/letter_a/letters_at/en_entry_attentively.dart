@@ -181,11 +181,18 @@ class EnglishEntryattentively extends StatelessWidget {
 ١. (ھاوەڵکار) بەوریاییەوە، بەشێوەیەک کە حەزی زۆر پیشاندەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children listened attentively to the story."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکان بەوریاییەوە گوێیان دەگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children listened attentively to the story."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان بەوریاییەوە گوێیان دەگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +215,18 @@ class EnglishEntryattentively extends StatelessWidget {
 ٢. (ھاوەڵکار) خەمخۆرانە، بەشێوەیەک ھەرشتێک پێویست بێت بەردەستی دەخەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The landlady cared attentively for her residents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاوەنەکە خەمخۆرانە گرنگی دەدا بە کرێچییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The landlady cared attentively for her residents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاوەنەکە خەمخۆرانە گرنگی دەدا بە کرێچییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

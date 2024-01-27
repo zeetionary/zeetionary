@@ -131,12 +131,18 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
 ١. (ناو) جۆگەی خۆراک لە دەمەوە بۆ کۆم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I had an abscess in the lower part of my alimentary canal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had an abscess in the lower part of my alimentary canal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دومەڵێکم ھەبوو لە بەشی خوارەوەی جۆگەی ھەرسم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryastrologer extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە لە شوێنی ئەستێرە و جوڵەی ھەسارەکان دەکۆڵێتەوە بۆ پێشبینی ڕووداوەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The astrologer consulted her charts to determine the best time for the job interview."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The astrologer consulted her charts to determine the best time for the job interview."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -181,12 +181,18 @@ class EnglishEntryattitude extends StatelessWidget {
 ١. (ناو) شێوازی بیرکردنەوە یان ڕوانین لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These societies have to change their attitudes towards women."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These societies have to change their attitudes towards women."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryattitude extends StatelessWidget {
 ٢. (ناو) شێوازی ڕەفتاری کەسێک کە بە جۆرێکە زۆرجار نەگونجاوە و کەسانی تر بەدڵنیان نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You'd better get rid of that attitude and shape up, young man."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕی گەنج."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You'd better get rid of that attitude and shape up, young man."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕی گەنج."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryattitude extends StatelessWidget {
 ٣. (ناو) شێوازی وەستانی جەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her hands were folded in an attitude of prayer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her hands were folded in an attitude of prayer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

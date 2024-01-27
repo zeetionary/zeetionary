@@ -111,12 +111,18 @@ class EnglishEntryaccentuate extends StatelessWidget {
 ١. (کردار) جەختکردنەوە لە شتێک، یان وای لێ بکەیت ئاسانتر ببینرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her short hair accentuated her huge eyes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her short hair accentuated her huge eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قژە کورتەکەی چاوە گەورەکانی زیاتر دەردەخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

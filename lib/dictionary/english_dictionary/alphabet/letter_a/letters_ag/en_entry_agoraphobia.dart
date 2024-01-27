@@ -128,12 +128,18 @@ class EnglishEntryagoraphobia extends StatelessWidget {
 ١. (ناو) ترسی بوون لە شوێنی گشتی و قەرەباڵغ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had agoraphobia and never wanted to go out of the house."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had agoraphobia and never wanted to go out of the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگۆرافۆبیای ھەبوو و ھەرگیز نەیدەویست لە ماڵەوە دەربچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

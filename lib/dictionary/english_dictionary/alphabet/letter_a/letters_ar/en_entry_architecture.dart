@@ -178,12 +178,18 @@ class EnglishEntryarchitecture extends StatelessWidget {
 ١. (ناو) ھونەر و زانستی دیزاینی بینا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's a professor of architecture at the University of Oregon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's a professor of architecture at the University of Oregon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پڕۆفیسۆری بیناسازییە لە زانکۆی ئۆریگۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryarchitecture extends StatelessWidget {
 ٢. (ناو) دیزاین یان ستایلی بینایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are examples of most styles of architecture in the town."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are examples of most styles of architecture in the town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نموونەی زۆرێک لە ستایلەکانی بیناسازی لە شارەکە ھەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

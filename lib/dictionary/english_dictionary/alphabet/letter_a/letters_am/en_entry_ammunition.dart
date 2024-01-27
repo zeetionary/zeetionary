@@ -195,12 +195,18 @@ class EnglishEntryammunition extends StatelessWidget {
 ١. (ناو) تەقەمەنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A few of the men had run out of ammunition."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A few of the men had run out of ammunition."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک لە پیاوەکان تەقەمەنییان پێ‌نەماوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +228,18 @@ class EnglishEntryammunition extends StatelessWidget {
 ٢. (ناو) زانیاری کە دەکرێت بەکاربھێنرێت دژ بە کەسێک لە مشتومڕێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The letter gave her all the ammunition she needed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The letter gave her all the ammunition she needed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەکە ھەموو زانیارییەکی پێدا کە پێویستی‌ بوو لە دژی ئەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

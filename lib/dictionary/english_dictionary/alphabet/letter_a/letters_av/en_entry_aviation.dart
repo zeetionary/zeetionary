@@ -171,12 +171,18 @@ class EnglishEntryaviation extends StatelessWidget {
 ١. (ناو) دیزاین و درووستکردن و فڕاندنی فڕۆکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Orville and Wilbur Wright were aviation trail blazers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Orville and Wilbur Wright were aviation trail blazers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆرڤڵ و ویڵبەر ڕێچکەشکێنی فڕینەوانی بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

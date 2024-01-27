@@ -180,12 +180,18 @@ class EnglishEntryauthorize extends StatelessWidget {
 ١. (کردار) پێدانی مۆڵەتی فەرمی بۆ شتێک، یان بە کەسێک بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I can authorize payments up to £5 000."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I can authorize payments up to £5 000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryauthorize extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The police were authorized to record his phone conversations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The police were authorized to record his phone conversations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

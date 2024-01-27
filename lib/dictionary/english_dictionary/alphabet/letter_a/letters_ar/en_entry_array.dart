@@ -181,12 +181,18 @@ class EnglishEntryarray extends StatelessWidget {
 ١. (ناو) کۆمەڵە کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her writing covers a wide array of topics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her writing covers a wide array of topics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسینەکانی کۆمەڵە بابەتێکی زۆر لەخۆیان‌دەگرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryarray extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The city has the usual array of social problems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city has the usual array of social problems."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارەکە کێشە دەستەیەک لە کێشەی باوی کۆمەڵایەتی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryarray extends StatelessWidget {
 ٢. (کردار) ڕێکخستنی کۆمەڵە شتێک بە شێوەیەکی جوان و ڕیزکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Jars of all shapes and sizes were arrayed on the shelves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Jars of all shapes and sizes were arrayed on the shelves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دۆڵکەی ھەموو جۆر و قەبارەیەک لەسەر ڕەفەکان ڕیزکرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +278,18 @@ class EnglishEntryarray extends StatelessWidget {
 ٣. (کردار) ڕێکخستنی کۆمەڵە سەربازێک بەشێوەیەک کە ئامادەی ھێرشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The enemy forces arrayed against them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزەکانی دووژمن لەدژیان کەوتنە ئامادەباشییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The enemy forces arrayed against them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزەکانی دووژمن لەدژیان کەوتنە ئامادەباشییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

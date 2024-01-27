@@ -127,12 +127,18 @@ class EnglishEntryageist extends StatelessWidget {
 ١. (ناو) کەسێک کە مامەڵەی لەگەڵ کەسانی بە تەمەن خراپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The fact is, we live in an ageist society."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fact is, we live in an ageist society."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاستییەکە ئەوەیە لە کۆمەڵگایەکدا دەژین کە مامەڵەی لەگەڵ کەسانی پیر خراپە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

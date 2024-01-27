@@ -129,10 +129,18 @@ class EnglishEntryallegory extends StatelessWidget {
 ١. (ناو) چیرۆکێک کە تێیدا ھەر کارەکتەرێک سمبولە بۆ بیرۆکەیەک یان چەمکێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The play can be read as allegory."),
-                              const ExampleSentenceKurdish(
-                                  text: "شانۆکە دەکرێت وەک ھێرۆک ببینرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The play can be read as allegory."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شانۆکە دەکرێت وەک ھێرۆک ببینرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

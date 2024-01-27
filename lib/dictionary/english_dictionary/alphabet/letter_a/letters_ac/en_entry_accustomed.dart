@@ -128,12 +128,18 @@ class EnglishEntryaccustomed extends StatelessWidget {
 ١. (ھاوەڵناو) کەم کەم ڕاھاتن بە شتێک، بۆ نموونە بارودۆخێکی نوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My eyes slowly grew accustomed to the dark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My eyes slowly grew accustomed to the dark."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوەکانم کەم کەم بە تاریکییەکە ڕاھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -150,12 +156,18 @@ class EnglishEntryaccustomed extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This was not the kind of behaviour I was accustomed to."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This was not the kind of behaviour I was accustomed to."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە لەو جۆرە ڕەفتارانە نەبوو کە پێی ڕاھاتووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

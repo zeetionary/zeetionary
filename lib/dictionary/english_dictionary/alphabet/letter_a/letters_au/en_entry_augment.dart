@@ -177,12 +177,18 @@ class EnglishEntryaugment extends StatelessWidget {
 ١. (کردار) زیادکردنی بڕ، نرخ، یان قەبارەی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wrote magazine articles in order to augment his income."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wrote magazine articles in order to augment his income."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتاری بۆ گۆڤار دەنووسی بۆ زیادکردنی داھاتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

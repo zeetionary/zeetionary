@@ -171,12 +171,18 @@ class EnglishEntryanatomical extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە پێکھاتەی فیزیکی مرۆڤ، ئاژەڵ، یان ڕووەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All medical students are required to do an anatomical dissection of a human body."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All medical students are required to do an anatomical dissection of a human body."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو خوێندکارانی پزیشکی دەبێت توێکارییەکی یەکاڵاکردنەوەیی جەستەی مرۆڤ بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

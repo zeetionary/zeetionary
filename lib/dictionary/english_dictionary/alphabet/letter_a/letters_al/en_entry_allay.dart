@@ -129,12 +129,18 @@ class EnglishEntryallay extends StatelessWidget {
 ١. (کردار) دامردکاندنەوەی شتێک، بۆ نموونە ترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The inquiry has done little to allay suspicion."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The inquiry has done little to allay suspicion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێکۆڵینەوەکە کاریگەری کەمی بووە لەسەر دامرکاندنەوەی گومان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

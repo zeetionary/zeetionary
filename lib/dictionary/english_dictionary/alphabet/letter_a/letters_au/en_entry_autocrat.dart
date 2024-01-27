@@ -180,10 +180,17 @@ class EnglishEntryautocrat extends StatelessWidget {
 ١. (ناو) سەرکردەیەک کە دەسەڵاتی تەواوی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He governed as an autocrat."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He governed as an autocrat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +212,18 @@ class EnglishEntryautocrat extends StatelessWidget {
 ٢. (ناو) کەسێک کە چاوەڕێ دەکات کەسانی تر گوێڕایەڵی بکەن و گرنگی بە بۆچوونیان نادات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The article painted her as an autocrat, angry with her husband and out of touch with her family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The article painted her as an autocrat, angry with her husband and out of touch with her family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,10 +177,16 @@ class EnglishEntryanything extends StatelessWidget {
 ١. (جێناو) بەکاردێت بۆ ئاماژە بۆ شتێک لە ڕستەی نەرێ و پرسیاری، لە دوای if و whether، و لە دوای ھەندێک کردار، بۆ نموونە prevent و ban و avoid"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Would you like anything else?"),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزت لە ھیچی ترە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Would you like anything else?"),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزت لە ھیچی ترە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryanything extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's never anything worth watching on TV."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرگیز ھیچ لەسەر تەلەفیزیۆن نییە شایەنی سەیرکردن بێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's never anything worth watching on TV."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز ھیچ لەسەر تەلەفیزیۆن نییە شایەنی سەیرکردن بێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,10 +239,18 @@ class EnglishEntryanything extends StatelessWidget {
 ٢. (جێناو) ھەرشتێک، گرنگ نییە چی بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'm so hungry, I'll eat anything."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆرم برسییە، ھەرچی ھەبێت ئەیخۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm so hungry, I'll eat anything."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرم برسییە، ھەرچی ھەبێت ئەیخۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,11 +272,18 @@ class EnglishEntryanything extends StatelessWidget {
 ٣. (جێناو) شتێکی گرنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Is there anything (= any truth) in these rumours?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ شتێکی گرنگ لەم دەنگۆیانە ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is there anything (= any truth) in these rumours?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ شتێکی گرنگ لەم دەنگۆیانە ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

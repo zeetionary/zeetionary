@@ -173,12 +173,18 @@ class EnglishEntryantenna extends StatelessWidget {
 ١. (ناو) شاخۆچکەی بچووکی ھەندێک مێروو کە بەکاردێن بۆ ھەست‌کردن و 'دەستدان' لە شت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The minister was praised for his acute political antennae (= ability to understand complicated political situations)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The minister was praised for his acute political antennae (= ability to understand complicated political situations)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەزیرەکە پەسن‌کرا بۆ بیرتیژیی لە سیاسەتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryantenna extends StatelessWidget {
 ٢. (ناو) پارچە دەزگایەک کە لە وایەر درووستکراوە یان پارچە ئاسنی باریک بۆ وەرگرتن و ناردنی ئاماژەی ڕادیۆ یان تەلەڤیزیۆن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They installed a dish antenna on the roof."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They installed a dish antenna on the roof."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەحنەی سەتەلایتێکیان لە سەربانەکە دانا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

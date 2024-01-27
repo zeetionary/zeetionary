@@ -194,12 +194,18 @@ class EnglishEntryamorous extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی حەزی سێکسی و خۆشەویستی بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mary rejected Tony's amorous advances."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mary rejected Tony's amorous advances."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ماری ھەوڵە ئەویندارییەکانی تۆنی‌ی ڕەتکردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

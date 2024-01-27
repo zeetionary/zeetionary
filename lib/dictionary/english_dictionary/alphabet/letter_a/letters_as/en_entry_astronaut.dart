@@ -179,12 +179,18 @@ class EnglishEntryastronaut extends StatelessWidget {
 ١. (ناو) کەسێک کە لەناو کەشتی ئاسمانی گەشت دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The astronauts trained for years for their mission to the moon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The astronauts trained for years for their mission to the moon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

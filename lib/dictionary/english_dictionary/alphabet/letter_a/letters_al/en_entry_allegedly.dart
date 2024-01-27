@@ -129,12 +129,18 @@ class EnglishEntryallegedly extends StatelessWidget {
 ١. (ھاوەڵکار) بەپێی ئەوەی بانگەشە دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was arrested for allegedly stealing a car."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was arrested for allegedly stealing a car."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکرا بەھۆی ئەوە بانگەشە دەکرێت ئۆتۆمبێلێکی دزی بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

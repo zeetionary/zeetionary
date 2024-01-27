@@ -129,12 +129,18 @@ class EnglishEntryairport extends StatelessWidget {
 ١. (ناو) فڕۆکەخانە؛ شوێنێک کە تێیدا فڕۆکە دەفڕن و دەنیشنەوە بۆ گواستنەوەی گەشتیاران"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She arrived at Sao Paulo international airport on Friday to begin her journey."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She arrived at Sao Paulo international airport on Friday to begin her journey."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژی ھەینی گەشتە فڕۆکەخانەی نێودەڵەتیی ساوپاولۆ بۆ دەستپێکردنی گەشتەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

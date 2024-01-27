@@ -172,12 +172,18 @@ class EnglishEntryanthology extends StatelessWidget {
 ١. (ناو) ھەڵبژاردەیەک لە کاری ھونەری کە لێکچووة و بە باشترین دادەنرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This Michael Jackson anthology includes some rare recordings of his best songs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This Michael Jackson anthology includes some rare recordings of his best songs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم گوڵب‌ژێرەی مایکڵ جاکسۆن ھەندێک لە تۆماری دەگمەنی باشترین گۆرانییەکانی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

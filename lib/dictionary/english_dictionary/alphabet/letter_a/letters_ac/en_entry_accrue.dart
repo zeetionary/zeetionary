@@ -101,12 +101,18 @@ class EnglishEntryaccrue extends StatelessWidget {
 ١. (کردار) زیادکردنی بەتێپەڕبوونی کات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "By the time they leave, they'll have accrued a year's holiday pay."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "By the time they leave, they'll have accrued a year's holiday pay."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تا ئەوکاتەی دەڕۆن، بەشی پشوویەکی یەک ساڵە پارە کۆدەکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

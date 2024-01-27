@@ -176,12 +176,18 @@ class EnglishEntryaroma extends StatelessWidget {
 ١. (ناو) بۆنێکی خۆش کە بە ئاسانی ھەستی پێ دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A delicious aroma was coming from the kitchen."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A delicious aroma was coming from the kitchen."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆن و بەرامەیەکی بەلەزەت لە چێشتخانەکەوە دەھات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

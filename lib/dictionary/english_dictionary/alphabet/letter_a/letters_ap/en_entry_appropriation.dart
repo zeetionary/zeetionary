@@ -179,12 +179,18 @@ class EnglishEntryappropriation extends StatelessWidget {
 ١. (ناو) بردنی شتی کەسێکی تر بەبێ مۆڵەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The film company sued them over their appropriation of a cartoon character."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The film company sued them over their appropriation of a cartoon character."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیا فیلمییەکە سکاڵای لەسەر تۆمارکردن بەھۆی دزینی کارەکتەرێکی فیلمە کارتۆنییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryappropriation extends StatelessWidget {
 ٢. (ناو) تەرخانکردنی بڕە پارەیەک بۆ مەبەستێکی دیاریکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The team scheduled a meeting to discuss the appropriation of funds for the upcoming project."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تیمەکە کۆبوونەوەیەکیان ڕێکخست بۆ گفتوگۆی تەرخانکردنی پارەکە بۆ پڕۆژەکانی داھاتووی نزیک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -235,12 +247,18 @@ class EnglishEntryappropriation extends StatelessWidget {
 ٣. (ناو) بڕە پارەیەک کە تەرخان‌دەکرێت بۆ مەبەستێکی دیاریکراو، بەتایبەتی لەلایەن حکومەتێک یان کۆمپانیایەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The committee approved an appropriation of £20,000 for the payment of debts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The committee approved an appropriation of £20,000 for the payment of debts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لیژنەکە سەرفکردنی بڕی ٢٠,٠٠٠ پاوەندی پەسەندکرد بۆ دانەوەی قەرزەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

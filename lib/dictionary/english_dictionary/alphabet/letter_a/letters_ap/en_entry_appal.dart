@@ -174,12 +174,18 @@ class EnglishEntryappal extends StatelessWidget {
 ١. (کردار) کەسێک بە تەواوی بتاسێنی و ھەست بکات شتێک خراپە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The idea of sharing a room appalled her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The idea of sharing a room appalled her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بیرۆکەی ھاوبەشی‌کردنی ژوورەکە تاساندی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

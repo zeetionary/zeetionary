@@ -180,12 +180,18 @@ class EnglishEntryattain extends StatelessWidget {
 ١. (کردار) سەرکەوتن لە بەدەستھێنانی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has attained the highest grade in his music exams."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرزترین نمرەی لە تاقیکردنەوەی میوزیک بەدەستھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has attained the highest grade in his music exams."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرزترین نمرەی لە تاقیکردنەوەی میوزیک بەدەستھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryattain extends StatelessWidget {
 ٢. (کردار) گەشتنە تەمەنێک، ئاستێک، یان دۆخێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cheetah can attain speeds of up to 97 kph."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چیتا دەتوانێت بگاتە خێرایی ٩٧ کم لە کاتژمێرێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cheetah can attain speeds of up to 97 kph."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چیتا دەتوانێت بگاتە خێرایی ٩٧ کم لە کاتژمێرێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

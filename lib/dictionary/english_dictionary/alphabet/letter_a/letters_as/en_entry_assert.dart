@@ -181,12 +181,18 @@ class EnglishEntryassert extends StatelessWidget {
 ١. (کردار) وتن بە ڕوونی و دڵنیایی کە شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She continued to assert that she was innocent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She continued to assert that she was innocent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەردەوام بوو لە جەختکردنەوە لە بێ‌تاوانیی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryassert extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The German Chancellor was anxious to assert her government's commitment to European unity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The German Chancellor was anxious to assert her government's commitment to European unity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاوێژکاری ئەڵمانیا دوودڵ بوو لە جەختکردنەوە لە پابەندیی حکومەتەکەی بە یەکگرتوویی ئەورووپا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryassert extends StatelessWidget {
 ٢. (کردار) ڕەفتارکردن بە متمانەبەخۆبوونی زیاترەوە بۆ ئەوەی خەڵکی زیاتر حسابت بۆ بکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You’re too timid—you must try to assert yourself more."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You’re too timid—you must try to assert yourself more."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر شەرمن و لەرزۆکی، دەبێت زیاتر خۆت دەربخەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +278,18 @@ class EnglishEntryassert extends StatelessWidget {
 ٣. (کردار) مامەڵەکردن بەشێوەیەک کە خەڵکی مافەکانت بناسێنن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wished to assert her independence from her parents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wished to assert her independence from her parents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیویست سەربەخۆیی لە دایک و باوکی بسەپێنێ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

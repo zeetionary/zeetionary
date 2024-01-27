@@ -172,12 +172,18 @@ class EnglishEntryantenatal extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە چاودێریی ژنانی دووگیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your blood pressure will be monitored at all antenatal checks."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your blood pressure will be monitored at all antenatal checks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەستانی خوێنت وەردەگیرێت لە ھەموو پشکنینەکانی دووگیانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

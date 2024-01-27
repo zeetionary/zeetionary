@@ -182,12 +182,18 @@ class EnglishEntryattractive extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێکی سەرنجڕاکێش و دڵڕفێنەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I like John but I don't find him attractive physically."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I like John but I don't find him attractive physically."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,11 +216,17 @@ class EnglishEntryattractive extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێکی جوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your new glasses are very attractive."),
-                              const ExampleSentenceKurdish(
-                                  text: "چاویلکە تازەکەت زۆر قەشەنگە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your new glasses are very attractive."),
+                                    ExampleSentenceKurdish(
+                                        text: "چاویلکە تازەکەت زۆر قەشەنگە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -237,12 +249,18 @@ class EnglishEntryattractive extends StatelessWidget {
 ٣. (ھاوەڵناو) شتێک تایبەتمەندی و خاسیەتی وەھای ھەیە کە دڵگیر بێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The deal is said to be particularly attractive to investors."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The deal is said to be particularly attractive to investors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

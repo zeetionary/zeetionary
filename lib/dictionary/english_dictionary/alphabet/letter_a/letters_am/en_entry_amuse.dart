@@ -168,12 +168,18 @@ class EnglishEntryamuse extends StatelessWidget {
 ١. (کردار) خستنەپێکەنین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I've brought an article from yesterday's paper that I thought might amuse you."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've brought an article from yesterday's paper that I thought might amuse you."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارێکم لە چاپی دوێنێی ڕۆژنامەکە ھێناوە کە پێم‌وایە دەتخاتە پێکەنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

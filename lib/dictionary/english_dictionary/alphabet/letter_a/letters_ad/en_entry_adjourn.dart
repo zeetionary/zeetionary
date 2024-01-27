@@ -126,11 +126,17 @@ class EnglishEntryadjourn extends StatelessWidget {
 ١. (کردار) وەستاندنی کۆبوونەوەیەک بۆ ماوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The court adjourned for lunch."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The court adjourned for lunch."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -149,10 +155,18 @@ class EnglishEntryadjourn extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The case was adjourned for a week."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The case was adjourned for a week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

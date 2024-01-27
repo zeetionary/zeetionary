@@ -174,12 +174,18 @@ class EnglishEntryantiretroviral extends StatelessWidget {
 ١. (ھاوەڵناو) دەرمانێک کە درووست‌کراوە بۆ ڕێگری لە ڤایرۆسی وەک ئێچ-ئای-ڤی کە دەبێتەھۆی ئایدز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Antiretroviral drugs are the only way to treat HIV."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Antiretroviral drugs are the only way to treat HIV."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئانتی‌ریترۆڤایرڵ تەنھا ڕێگەی چارەسەری ئایدزە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

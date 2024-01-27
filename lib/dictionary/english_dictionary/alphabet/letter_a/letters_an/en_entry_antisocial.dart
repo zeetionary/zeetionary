@@ -176,12 +176,18 @@ class EnglishEntryantisocial extends StatelessWidget {
 ١. (ھاوەڵناو) خراپ و زیان‌بەخش بۆ کەسێک یان کۆمەڵگە بەگشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Increasingly, smoking is regarded as an antisocial habit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Increasingly, smoking is regarded as an antisocial habit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جگەرەکێشان زیاتر و زیاتر لەلایەن خەڵکییەوە دادەنرێت بە شتێکی ناکۆمەڵایەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryantisocial extends StatelessWidget {
 ٢. (ھاوەڵناو) حەزنەکردن لە کات بەسەربردن لەگەڵ کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They'll think you're being antisocial if you don't go."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They'll think you're being antisocial if you don't go."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وابیردەکەنەوە ناکۆمەڵایەتیت ئەگەر نەچیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

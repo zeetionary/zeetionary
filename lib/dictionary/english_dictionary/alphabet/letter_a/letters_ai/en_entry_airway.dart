@@ -129,12 +129,18 @@ class EnglishEntryairway extends StatelessWidget {
 ١. (ناو) ڕێڕەوی ھەوا بۆ سییەکان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Prevent the tongue falling back and obstructing the airway."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Prevent the tongue falling back and obstructing the airway."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگە لە قوتدانی زمان بگرە لەوەی ڕێڕەوی ھەوا بگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

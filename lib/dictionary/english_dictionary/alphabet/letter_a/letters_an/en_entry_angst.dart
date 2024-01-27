@@ -170,12 +170,18 @@ class EnglishEntryangst extends StatelessWidget {
 ١. (ناو) ھەستی نیگەرانییەکی زۆر سەبارەت بە بارودۆخێک یان ژیانت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The boy’s mysterious disappearance has caused angst and guilt for the family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boy’s mysterious disappearance has caused angst and guilt for the family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دیارنەمانی نادیاری کوڕەکە بووە بەھۆی نیگەرانی و ھەستی خەتاباری بۆ خێزانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

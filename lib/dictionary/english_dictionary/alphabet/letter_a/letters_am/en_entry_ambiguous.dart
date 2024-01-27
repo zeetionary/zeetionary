@@ -129,12 +129,18 @@ class EnglishEntryambiguous extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەکرێت زیاتر لە یەک لێکدانەوەی ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The paragraph is rendered ambiguous by the writer's careless use of pronouns."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The paragraph is rendered ambiguous by the writer's careless use of pronouns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرەگرافەکە ناڕوون بووە بەھۆی کەمتەرخەمانە بەکارھێنانی جێناوەکان لەلایەن نووسەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

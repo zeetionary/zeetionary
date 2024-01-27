@@ -127,11 +127,18 @@ class EnglishEntryaghast extends StatelessWidget {
 ١. (ھاوەڵناو) تۆقاو و سەرسوڕماو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stood aghast at the sight of so much blood."),
-                              const ExampleSentenceKurdish(
-                                  text: "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stood aghast at the sight of so much blood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "واق‌وڕماو بوو بە بینینی خوێنێکی زۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

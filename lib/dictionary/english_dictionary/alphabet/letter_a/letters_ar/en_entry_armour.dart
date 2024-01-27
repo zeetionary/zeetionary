@@ -179,12 +179,18 @@ class EnglishEntryarmour extends StatelessWidget {
 ١. (ناو) زرێیەک یان جلێک کە سەرباز و پۆلیس دەیپۆشن بۆ پاراستن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police put on body armour before confronting the rioters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police put on body armour before confronting the rioters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس زرێپۆشیان لەبەرکرد پێش ڕووبەڕووبوونەوەی ئاژاوەچییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryarmour extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Monkeys do not have any kind of protective armour and use their brains to solve problems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Monkeys do not have any kind of protective armour and use their brains to solve problems."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەیموون ھیچ پارێزەرێکی جەستەیان نییە و مێشکیان بەکاردێنن بۆ چارەسەرکردنی کێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -231,11 +243,18 @@ class EnglishEntryarmour extends StatelessWidget {
 ٢. (ناو) تەنێکی بەھێز کە کەشتی و ئۆتۆمبێلی سەربازی دەپارێزن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Modern tanks have strong armour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Modern tanks have strong armour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تانکەکانی ئەم سەردەمە زرێپۆشی بەھێزیان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -257,12 +276,18 @@ class EnglishEntryarmour extends StatelessWidget {
 ٢. (ناو) ئۆتۆمبێل و تانکی سەربازی کە بە زرێ‌پۆش پارێزراون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The troops were backed by tanks, artillery, and other heavy armour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The troops were backed by tanks, artillery, and other heavy armour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزەکان پشتیوانی دەکران بە تانک و تۆپھاوێژ و زرێپۆشی دیکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

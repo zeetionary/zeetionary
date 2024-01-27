@@ -171,12 +171,18 @@ class EnglishEntryample extends StatelessWidget {
 ١. (ھاوەڵناو) بەشی پێویست، یان زیاتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was ample time to get to the airport."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was ample time to get to the airport."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتی پێویست ھەبوو بۆ گەشتن بە فڕۆکەخانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,11 +204,18 @@ class EnglishEntryample extends StatelessWidget {
 ٢. (ھاوەڵناو) کەسێک کە جەستەیەکی گەورە و پتو و جوانی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These clothes belonged to a man of more ample girth."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These clothes belonged to a man of more ample girth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم جلانە ھی پیاوێکی کەمەر زل‌ترە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

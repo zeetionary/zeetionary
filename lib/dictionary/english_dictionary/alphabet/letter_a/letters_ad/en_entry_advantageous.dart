@@ -128,12 +128,18 @@ class EnglishEntryadvantageous extends StatelessWidget {
 ١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This plan could be advantageous for people on low incomes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This plan could be advantageous for people on low incomes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -178,12 +178,18 @@ class EnglishEntryapologetic extends StatelessWidget {
 ١. (ھاوەڵناو) ھەست‌کردن یان پیشاندانی پەشیمانی یان داخ بۆ شتێک کە کردووتە یان دەیکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were very apologetic about the trouble they'd caused."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were very apologetic about the trouble they'd caused."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر بەداخن بۆ ئەو کێشەیەی ھەڵیان‌گیرساند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,11 +210,17 @@ class EnglishEntryapologetic extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was profusely apologetic about the mistake."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر بەداخ بوو بۆ ھەڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was profusely apologetic about the mistake."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر بەداخ بوو بۆ ھەڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

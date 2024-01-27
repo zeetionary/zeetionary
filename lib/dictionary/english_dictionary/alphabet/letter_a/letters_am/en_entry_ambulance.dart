@@ -130,12 +130,18 @@ class EnglishEntryambulance extends StatelessWidget {
 ١. (ناو) ئۆتۆمبێلێک کە کەرەستەی تایبەتی تێدایە و نەخۆشی پێ دەبردرێت بۆ نەخۆشخانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ambulance crew rushed her to the hospital."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ambulance crew rushed her to the hospital."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ستافی ئەمبولانسەکە خێرا بردیان بۆ نەخۆشخانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

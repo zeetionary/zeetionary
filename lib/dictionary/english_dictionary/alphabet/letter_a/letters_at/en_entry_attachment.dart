@@ -184,10 +184,16 @@ class EnglishEntryattachment extends StatelessWidget {
 ١. (ناو) دۆکیومێنتێک کە بە ئیمەیڵ نێردراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "No attachment was included."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ دۆکیومێنتێک نەنێردرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "No attachment was included."),
+                                    ExampleSentenceKurdish(
+                                        text: "ھیچ دۆکیومێنتێک نەنێردرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +216,18 @@ class EnglishEntryattachment extends StatelessWidget {
 ٢. (ناو) پێکەوەلکاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had to check the strength of the seat attachments to the floor of the plane."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had to check the strength of the seat attachments to the floor of the plane."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryattachment extends StatelessWidget {
 ٣. (ناو) سۆز و خۆشەویستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Prisoners can develop attachments to their guards."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Prisoners can develop attachments to their guards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +284,18 @@ class EnglishEntryattachment extends StatelessWidget {
 ٤. (ناو) پشتیوانی بۆ باوەڕێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is unlikely to give up her lifelong attachment to feminist ideas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is unlikely to give up her lifelong attachment to feminist ideas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -294,12 +318,18 @@ class EnglishEntryattachment extends StatelessWidget {
 ٥. (ناو) پارچەیەک کە بۆ ئامێرێک زیاد دەکرێت بۆ کردنی کارێکی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This food processor has a special attachment for grinding coffee."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This food processor has a special attachment for grinding coffee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

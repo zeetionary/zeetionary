@@ -130,11 +130,18 @@ class EnglishEntryalteration extends StatelessWidget {
 ١. (ناو) گۆڕانکارییەک لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They are making some alterations to the house."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەندێک گۆڕانکاری لە خانووەکە دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are making some alterations to the house."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک گۆڕانکاری لە خانووەکە دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

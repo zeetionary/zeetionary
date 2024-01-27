@@ -127,12 +127,18 @@ class EnglishEntryadvertise extends StatelessWidget {
 ١. (کردار) ڕیکلامکردن بۆ کاڵایەک یان خزمەتگوزارییەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you want to attract customers you need to advertise."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you want to attract customers you need to advertise."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر دەتەوێت کڕیار ڕابکێشیت ئەوا دەبێت ڕیکلام بکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,12 +159,18 @@ class EnglishEntryadvertise extends StatelessWidget {
 ٢. (کردار) بانگەشەکردن بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The best jobs are not always advertised in newspapers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The best jobs are not always advertised in newspapers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باشترین کارەکان زۆرجار لە ڕۆژنامەکان بانگەشەیان بۆ ناکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,11 +191,18 @@ class EnglishEntryadvertise extends StatelessWidget {
 ٣. (کردار) وتن یان پیشاندانی شتێک لەسەر خۆت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She coughed to advertise her presence."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆکی بۆ پیشاندانی ئامادەییبوونی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She coughed to advertise her presence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆکی بۆ پیشاندانی ئامادەییبوونی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

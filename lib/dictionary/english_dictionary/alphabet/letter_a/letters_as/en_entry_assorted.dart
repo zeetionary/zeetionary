@@ -178,12 +178,18 @@ class EnglishEntryassorted extends StatelessWidget {
 ١. (ھاوەڵناو) ژمارەیەک جۆری ھەمەچەشن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The meat is served with salad or assorted vegetables."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The meat is served with salad or assorted vegetables."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆشتەکە لەگەڵ زەڵاتە یان سەوزەی جۆراوجۆر دەخورێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

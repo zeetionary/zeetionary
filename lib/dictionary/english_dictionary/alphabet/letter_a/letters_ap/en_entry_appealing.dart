@@ -177,12 +177,18 @@ class EnglishEntryappealing extends StatelessWidget {
 ١. (ھاوەڵناو) سەرسوڕھێنەر یان سەرنجڕاکێش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The large salary made their offer even more appealing to him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مووچە بەرزەکە وایکرد ئۆفەرەکەیان زیاتر شیرین بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The large salary made their offer even more appealing to him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مووچە بەرزەکە وایکرد ئۆفەرەکەیان زیاتر شیرین بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryappealing extends StatelessWidget {
 ٢. (ھاوەڵناو) پیشاندانی ئەوەی دەتەوێت خەڵکی یارمەتیت بدەن یان بەزەییت پیشان بدەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Would you really help?’ he said with an appealing look."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ڕووخسارێکی داوێن‌گیرانە وتی 'بەڕاست یارمەتیم دەدەیت؟'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Would you really help?’ he said with an appealing look."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ڕووخسارێکی داوێن‌گیرانە وتی 'بەڕاست یارمەتیم دەدەیت؟'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

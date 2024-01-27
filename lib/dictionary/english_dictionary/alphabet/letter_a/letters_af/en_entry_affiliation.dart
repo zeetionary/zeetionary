@@ -128,12 +128,18 @@ class EnglishEntryaffiliation extends StatelessWidget {
 ١. (ناو) پەیوەندی لەگەڵ پارتێک یان ڕێکخراوێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The group has affiliations with several organizations abroad."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The group has affiliations with several organizations abroad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرووپەکە پەیوەندی ھەیە لەگەڵ ژمارەیەک ڕێکخراوی بیانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

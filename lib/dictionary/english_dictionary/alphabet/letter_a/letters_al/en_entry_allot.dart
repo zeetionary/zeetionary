@@ -122,12 +122,18 @@ class EnglishEntryallot extends StatelessWidget {
 ١. (کردار) پێدانی پارە، کات، یان ئەرک بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I completed the test within the time allotted."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاقیکردنەوەکەم لە ماوەی کاتی دیاریکراو تەواوکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I completed the test within the time allotted."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقیکردنەوەکەم لە ماوەی کاتی دیاریکراو تەواوکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -144,11 +150,17 @@ class EnglishEntryallot extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "How much money has been allotted to us?"),
-                              const ExampleSentenceKurdish(
-                                  text: "چەندە پارەمان بۆ تەرخانکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How much money has been allotted to us?"),
+                                    ExampleSentenceKurdish(
+                                        text: "چەندە پارەمان بۆ تەرخانکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

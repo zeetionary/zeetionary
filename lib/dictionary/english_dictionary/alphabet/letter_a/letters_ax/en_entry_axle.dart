@@ -171,12 +171,18 @@ class EnglishEntryaxle extends StatelessWidget {
 ١. (ناو) پارچە ئاسنێکی ڕاست کە ویلەکانی ئۆتۆمبێلێک پێکەوە دەبەستێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The mechanic carefully greased the car's axles to prevent friction."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The mechanic carefully greased the car's axles to prevent friction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستاکە بەوریاییەوە ئەکسڵەکانی ئۆتۆمبێلەکەی گریس کرد بۆ ڕێگری لە لێکخشان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

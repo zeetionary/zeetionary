@@ -178,12 +178,18 @@ class EnglishEntryarrogantly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی خۆبەزلزانانە و بەبێ حساب‌کردن بۆ کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think he arrogantly assumed he'd just get away with it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think he arrogantly assumed he'd just get away with it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم وایە بە خۆبەزلزانییەوە وای‌دانا لەمە دەربازی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

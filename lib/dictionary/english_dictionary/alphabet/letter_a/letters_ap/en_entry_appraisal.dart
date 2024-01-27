@@ -177,11 +177,18 @@ class EnglishEntryappraisal extends StatelessWidget {
 ١. (ناو) نرخاندنی نرخ و بەھای شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The report has been subject to appraisal."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The report has been subject to appraisal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاپۆرتەکە بە لێکدانەوەدا تێپەڕبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +208,18 @@ class EnglishEntryappraisal extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A detailed appraisal of the scheme will now be carried out."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A detailed appraisal of the scheme will now be carried out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵسەنگاندنێکی وردی پلانەکە ئەنجام دەدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,10 +241,16 @@ class EnglishEntryappraisal extends StatelessWidget {
 ٢. (ناو) کۆبوونەوەیەک کە تێیدا کارمەندێک باسی کارەکەی بۆ بەڕێوبەرەکەی دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I have my appraisal today."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I have my appraisal today."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەمڕۆ ڕۆژی ھەڵسەنگاندنمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

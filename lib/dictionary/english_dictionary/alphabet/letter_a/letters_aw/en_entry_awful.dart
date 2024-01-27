@@ -173,12 +173,18 @@ class EnglishEntryawful extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە زۆر خراپ و ناخۆشە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I feel awful about forgetting her birthday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I feel awful about forgetting her birthday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryawful extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە شۆکت دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was only later that we learned the awful truth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was only later that we learned the awful truth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -227,11 +239,17 @@ class EnglishEntryawful extends StatelessWidget {
 ٣. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە شتێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It's going to cost an awful lot of money."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارەیەکی زۆری تێدەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's going to cost an awful lot of money."),
+                                    ExampleSentenceKurdish(
+                                        text: "پارەیەکی زۆری تێدەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,10 +271,16 @@ class EnglishEntryawful extends StatelessWidget {
 ٤. (ھاوەڵناو) زۆر زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Clint is awful smart."),
-                              const ExampleSentenceKurdish(
-                                  text: "کلینت فرە زیرەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Clint is awful smart."),
+                                    ExampleSentenceKurdish(
+                                        text: "کلینت فرە زیرەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

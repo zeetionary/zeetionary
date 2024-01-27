@@ -176,11 +176,17 @@ class EnglishEntryaptly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی گونجاو و بەجێ لە بارودۆخێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This word is aptly used here."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم وشەیە بەشێوەیەکی بەجێ بەکارھێنراوە لێرەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "This word is aptly used here."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم وشەیە بەشێوەیەکی بەجێ بەکارھێنراوە لێرەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

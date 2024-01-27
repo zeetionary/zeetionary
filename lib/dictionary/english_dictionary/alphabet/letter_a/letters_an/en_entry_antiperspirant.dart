@@ -176,12 +176,18 @@ class EnglishEntryantiperspirant extends StatelessWidget {
 ١. (ناو) مادەیەک کە بەکاردێت دژ بە ئارەق، بەتایبەتی لەژێر باڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Antiperspirant can make you more comfortable on hot days."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Antiperspirant can make you more comfortable on hot days."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕۆژانی گەرمدا دژە-بۆن دەکرێت وابکات زیاتر ئاسوودە بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

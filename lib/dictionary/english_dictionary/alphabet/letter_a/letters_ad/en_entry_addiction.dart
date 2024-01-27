@@ -127,12 +127,18 @@ class EnglishEntryaddiction extends StatelessWidget {
 ١. (ناو) ئاڵوودەیی بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is now fighting his addiction to alcohol."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is now fighting his addiction to alcohol."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئێستادا ھەوڵ دەدات کۆتایی بە ئاڵوودەییەکەی بە کحوول بھێنێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

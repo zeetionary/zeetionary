@@ -173,12 +173,18 @@ class EnglishEntryavailability extends StatelessWidget {
 ١. (ناو) بەردەستێتی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is limited ticket availability, so book early to avoid disappointment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is limited ticket availability, so book early to avoid disappointment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,12 +207,18 @@ class EnglishEntryavailability extends StatelessWidget {
 ٢. (ناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Check her availability before you schedule the meeting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Check her availability before you schedule the meeting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

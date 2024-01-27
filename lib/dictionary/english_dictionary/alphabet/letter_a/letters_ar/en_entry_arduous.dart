@@ -176,12 +176,18 @@ class EnglishEntryarduous extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ھەوڵ و ماندووبوونی زۆری دەوێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The road back to political stability is long and arduous."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road back to political stability is long and arduous."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگای گەشتنەوە بە ئارامی سیاسی زەحمەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -201,10 +207,16 @@ class EnglishEntryarduous extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The work was arduous."),
-                              const ExampleSentenceKurdish(
-                                  text: "کارەکە تاقەت‌پڕوقێن بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The work was arduous."),
+                                    ExampleSentenceKurdish(
+                                        text: "کارەکە تاقەت‌پڕوقێن بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

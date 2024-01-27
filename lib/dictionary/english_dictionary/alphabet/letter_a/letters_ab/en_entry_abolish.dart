@@ -107,10 +107,16 @@ class EnglishEntryabolish extends StatelessWidget {
 ١. (کردار) بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "This tax should be abolished."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم باجە دەبێت کۆتایی بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "This tax should be abolished."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم باجە دەبێت کۆتایی بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

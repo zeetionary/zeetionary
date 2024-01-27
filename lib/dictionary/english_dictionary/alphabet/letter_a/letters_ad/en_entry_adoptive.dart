@@ -127,12 +127,18 @@ class EnglishEntryadoptive extends StatelessWidget {
 ١. (ھاوەڵناو) دایک و باوکی ھەڵگرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When he was 7 months old, his mother gave him up to his adoptive parents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When he was 7 months old, his mother gave him up to his adoptive parents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە ٧ مانگ بوو دایکی دەستبەرداری بوو بۆ دایک و باوکە ھەڵگرەوەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

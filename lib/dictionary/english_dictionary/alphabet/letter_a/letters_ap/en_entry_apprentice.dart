@@ -177,12 +177,18 @@ class EnglishEntryapprentice extends StatelessWidget {
 ١. (ناو) کەسێک کە لەلای کەسێکی شارەزا کاردەکات بۆ فێربوونی بەھرەکە، زۆرجار بە پارەیەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most of the work was done by apprentices."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی کارەکە لەلایەن شاگردەکان کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most of the work was done by apprentices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی کارەکە لەلایەن شاگردەکان کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,11 +211,18 @@ class EnglishEntryapprentice extends StatelessWidget {
 ٢. (ناو) کارکردن وەک شاگردێک بۆ فێربوونی شارەزایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was apprenticed to his uncle as a carpenter."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک شاگردێکی دارتاشی درا بە خاڵی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was apprenticed to his uncle as a carpenter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک شاگردێکی دارتاشی درا بە خاڵی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

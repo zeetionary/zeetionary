@@ -180,12 +180,18 @@ class EnglishEntrygoastray extends StatelessWidget {
 ١. (ئیدیەم) ونبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several letters went astray or were not delivered."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک نامە ونبوون یان نەگەیەندران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several letters went astray or were not delivered."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک نامە ونبوون یان نەگەیەندران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntrygoastray extends StatelessWidget {
 ٢. (ئیدیەم) دەرچوون لە ڕێگەی ڕاست، یان ھەبوونی ئەنجامی ھەڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Fortunately the gunman's shots went astray."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Fortunately the gunman's shots went astray."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆشبەختانە فیشەکەکانی تەقەکەرەکە بە ھەڵە چوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

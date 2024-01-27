@@ -131,12 +131,18 @@ class EnglishEntryallied extends StatelessWidget {
 ١. (ناو) پەیوەندیدار بە چەند وڵاتێکی ھاوپەیمان لە جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many civilians died as a result of allied bombing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many civilians died as a result of allied bombing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر ھاوڵاتی مەدەنی گیانیان لەدەستدا لە ئەنجامی بۆردوومانی ھاوپەیمانان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +163,18 @@ class EnglishEntryallied extends StatelessWidget {
 ٢. (ناو) پەیوەندیدار بە وڵاتانی ھاوپەیمان لە جەنگی یەکەم و دووەمی جیھانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Italy joined the war on the Allied side in 1915."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Italy joined the war on the Allied side in 1915."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئیتالیا لە ساڵی ١٩١٥ لە بەرەی ھاوپەیمانان پەیوەندی بە جەنگەکەوە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +195,18 @@ class EnglishEntryallied extends StatelessWidget {
 ٣. (ناو) پەیوەندیدار بە یەکدی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Computer science and allied subjects are not taught here."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Computer science and allied subjects are not taught here."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانستی کۆمپیوتەر و بابەتە پەیوەندیدارەکانی لێرە ناوترێنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

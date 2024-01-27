@@ -174,12 +174,18 @@ class EnglishEntryarbitrate extends StatelessWidget {
 ١. (کردار) بە فەرمی چارەسەرکردنی ناکۆکییەک لەنێوان دوو کەس یان گرووپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is the official responsible for arbitrating the case of disputed trades."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is the official responsible for arbitrating the case of disputed trades."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو دەسەڵاتدارەیە کە بەرپرسە بۆ ناوبژی‌کردنی کەیسی ناکۆکییە بازرگانییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

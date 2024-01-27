@@ -145,12 +145,18 @@ class EnglishEntryaffinity extends StatelessWidget {
 ١. (ناو) بوونی ھەستێکی بەھێز کە لە شتێک تێدەگەیت و حەزت بۆی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sam was born in the country and had a deep affinity with nature."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sam was born in the country and had a deep affinity with nature."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سام لە لادێ لەدایکبووبوو و ھۆگرییەکی قووڵی بۆ سرووشت ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -169,12 +175,18 @@ class EnglishEntryaffinity extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Humans have a special affinity for dolphins."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Humans have a special affinity for dolphins."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مرۆڤ ھۆگرییەکی تایبەتی بۆ دۆڵفین ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,12 +207,18 @@ class EnglishEntryaffinity extends StatelessWidget {
 ٢. (ناو) بوونی خاسیەتی لێکچوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is a close affinity between Italian and Spanish."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is a close affinity between Italian and Spanish."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لێکچوونی زۆر ھەیە لەنێوان زمانەکانی ئیسپانی و ئیتالی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

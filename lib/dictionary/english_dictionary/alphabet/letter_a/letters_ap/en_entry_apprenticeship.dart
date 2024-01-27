@@ -177,12 +177,18 @@ class EnglishEntryapprenticeship extends StatelessWidget {
 ١. (ناو) ماوەیەک کە تێیدا کەسێک وەک شاگردێک کاردەکات بۆ فێربوونی پیشەیەک، زۆرجار بە پارەیەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was in the second year of her apprenticeship as a carpenter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was in the second year of her apprenticeship as a carpenter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دووەم ساڵی شاگردییەکەی بوو وەک دارتاشێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

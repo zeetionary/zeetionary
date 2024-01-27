@@ -172,12 +172,18 @@ class EnglishEntryamusement extends StatelessWidget {
 ١. (ناو) کەیف و خۆشحاڵی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She could not hide her amusement at the way he was dancing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەیدەتوانی خۆشحاڵی‌ی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She could not hide her amusement at the way he was dancing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیدەتوانی خۆشحاڵی‌ی خۆی بشارێتەوە بە شێوازی سەماکردنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryamusement extends StatelessWidget {
 ٢. (ناو) یارییەک یان چالاکییەک کە کەیفت پێی دێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the past, people had very few amusements to choose from. There was no radio, or television."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the past, people had very few amusements to choose from. There was no radio, or television."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاران خەڵکی کەم کەرەستەی سەرگەرمییان ھەبوو ھەڵیبژێرن. ھیچ ڕادیۆ و تەلەفیزیۆن نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -228,11 +240,18 @@ class EnglishEntryamusement extends StatelessWidget {
 ٣. (ناو) سەرقاڵبوون و ڕابواردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What do you do for amusement in this town?"),
-                              const ExampleSentenceKurdish(
-                                  text: "لەم شارەدا چی دەکەن بۆ ڕابواردن؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What do you do for amusement in this town?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەم شارەدا چی دەکەن بۆ ڕابواردن؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

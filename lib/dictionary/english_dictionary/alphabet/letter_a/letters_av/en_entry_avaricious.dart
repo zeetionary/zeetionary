@@ -172,12 +172,18 @@ class EnglishEntryavaricious extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی حەزێکی زۆر بۆ پارە و سامان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She turned out to be a crafty and avaricious politician."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She turned out to be a crafty and avaricious politician."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وادەرچوو سیاسەتوانێکی زۆرزان و چاوچنۆک بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

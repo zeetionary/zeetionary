@@ -177,12 +177,18 @@ class EnglishEntryarguable extends StatelessWidget {
 ١. (ھاوەڵناو) باوەڕێک کە دەتوانی لە بەرژەوەندیی مشتومڕ بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is arguable that giving too much detail may actually be confusing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is arguable that giving too much detail may actually be confusing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەکرێت بوترێت بەدەستەوەدانی وردەکاری زۆر دەکرێت سەرلێشێوێنەر بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,10 +208,18 @@ class EnglishEntryarguable extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It is arguable which way is quicker."),
-                              const ExampleSentenceKurdish(
-                                  text: "کام ڕێگەیان خێراترە قسەھەڵدەگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is arguable which way is quicker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کام ڕێگەیان خێراترە قسەھەڵدەگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

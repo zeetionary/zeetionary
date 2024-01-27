@@ -129,12 +129,18 @@ class EnglishEntryairship extends StatelessWidget {
 ١. (ناو) فڕۆکەیەکی گەورەی بێ باڵ کە پڕ لە گازی سووکتر لە ھەوایە و بەمەش دەفڕێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If necessary, the airship can stay up there for days to keep out of danger."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If necessary, the airship can stay up there for days to keep out of danger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر پێویست بکات ھەواکەشتییەکە دەتوانێت بۆ چەندین ڕۆژ لەوێ بمێنێتەوە بۆ دووربوون لە مەترسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

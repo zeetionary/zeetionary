@@ -181,12 +181,18 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
 ١. (ناو) نەخۆشییەکی دەروونی کە تێیدا کەسێک بە ھەڵە پێێ‌وایە کە کێشی زیادە بۆیە خواردنی کەم دەخوات و دەبێتە ھۆی کێش‌کەمی بە ئاستێکی مەترسیدار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Reports of anorexia nervosa and other eating disorders are on the increase."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Reports of anorexia nervosa and other eating disorders are on the increase."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاپۆرت لەسەر بێ‌ئیشتیایی و نەخۆشییەکانی دیکەی پەیوەندیدار بە خواردن لە زیادبووندان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

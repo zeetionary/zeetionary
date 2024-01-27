@@ -179,11 +179,18 @@ class EnglishEntryauburn extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگی قاوەیی مەیلەو سوور"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has a freckled complexion and auburn hair."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕووخساری خاڵاوی و قژی خورمایی ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has a freckled complexion and auburn hair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووخساری خاڵاوی و قژی خورمایی ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

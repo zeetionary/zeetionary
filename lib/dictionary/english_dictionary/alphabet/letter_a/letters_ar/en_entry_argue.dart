@@ -179,10 +179,17 @@ class EnglishEntryargue extends StatelessWidget {
 ١. (کردار) قسەکردن بە تووڕەییەوە لەگەڵ کەسێک بەھۆی ئەوەی ناکۆکن لەسەر شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My brothers are always arguing."),
-                              const ExampleSentenceKurdish(
-                                  text: "براکانم ھەمیشە شەڕەدەمیانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My brothers are always arguing."),
+                                    ExampleSentenceKurdish(
+                                        text: "براکانم ھەمیشە شەڕەدەمیانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -202,12 +209,18 @@ class EnglishEntryargue extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I know it was a stupid thing to argue about."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I know it was a stupid thing to argue about."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەزانم شتێکی پڕوپووچ بوو مشتومڕمان لەسەر کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,10 +242,18 @@ class EnglishEntryargue extends StatelessWidget {
 ٢. (کردار) بەڵگە یان پۆزش ھێنانەوە لەبەرژەوەندی بیرۆکەیەک یان دژی یەکێکی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They argued for the right to strike."),
-                              const ExampleSentenceKurdish(
-                                  text: "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They argued for the right to strike."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مشتومڕیان لەبەرژەوەندی مانگگرتن کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +275,18 @@ class EnglishEntryargue extends StatelessWidget {
 ٣. (کردار) بەڕوونت ۆیشاندانی بوونی شتێک، یان ئەوەی شتێک ڕاستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These latest developments argue a change in government policy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These latest developments argue a change in government policy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشھاتەکانی ئەم دواییە دەرخەری گۆڕانن لە سیاسەتی حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

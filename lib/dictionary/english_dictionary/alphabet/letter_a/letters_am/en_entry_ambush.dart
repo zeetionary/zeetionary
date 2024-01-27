@@ -131,12 +131,18 @@ class EnglishEntryambush extends StatelessWidget {
 ١. (ناو) بۆسە؛ خۆشاردنەوە لە شوێنێک و ئەنجامدانی ھێرشی لەناکاو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Two soldiers were killed in a terrorist ambush."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Two soldiers were killed in a terrorist ambush."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو سەرباز لە بۆسەیەکی تیرۆریستی کوژران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -158,11 +164,17 @@ class EnglishEntryambush extends StatelessWidget {
 ٢. (کردار) خستنە بۆسەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The guerrillas ambushed them near the bridge."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەریلاکان خستنیانە بۆسەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The guerrillas ambushed them near the bridge."),
+                                    ExampleSentenceKurdish(
+                                        text: "گەریلاکان خستنیانە بۆسەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

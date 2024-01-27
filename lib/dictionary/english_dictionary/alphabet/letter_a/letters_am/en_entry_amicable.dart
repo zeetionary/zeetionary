@@ -194,10 +194,18 @@ class EnglishEntryamicable extends StatelessWidget {
 ١. (ھاوەڵناو) بە ھاوڕێیانە و بێ‌مشتومڕ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "An amicable settlement was reached."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An amicable settlement was reached."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێککەوتنێکی بێ‌مشتومڕ بەدەستھێنرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

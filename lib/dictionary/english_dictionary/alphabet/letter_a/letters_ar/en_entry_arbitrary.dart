@@ -180,12 +180,18 @@ class EnglishEntryarbitrary extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە پشتی بە ھیچ سیستەمێک یان پلانێک نەبەستووە و بە نادادپەروەر دەردەکەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He makes unpredictable, arbitrary decisions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He makes unpredictable, arbitrary decisions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاری پێش‌بینی‌نەکراو و خۆحەزی دەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryarbitrary extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The choice of players for the team seemed completely arbitrary."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The choice of players for the team seemed completely arbitrary."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵبژاردنی یاریزانەکان بۆ تیمەکە بە تەواوی ھەڕەمەکی دیاربوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -234,12 +246,18 @@ class EnglishEntryarbitrary extends StatelessWidget {
 ٢. (ھاوەڵناو) بەکارھێنانی دەسەڵات بە بێ‌سنووری و بە بێ گرنگیدان بە کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People will question the arbitrary powers of officials in a democratic society."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People will question the arbitrary powers of officials in a democratic society."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەڵکی دژی بەکارھێنانی دەسەڵاتی زۆردارانەی دەسەڵاتداران دەوەستنەوە لە کۆمەڵگایەکی دیموکراسیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

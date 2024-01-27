@@ -148,12 +148,18 @@ class EnglishEntryacademic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار لەگەڵ پەروەردە، بەتایبەت خوێندنی خوێندنگە و زانکۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university is renowned throughout the world for its academic excellence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە ناسراوە لە جیھاندا بۆ باشترین بوون لەلایەنی ئەکادیمییەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university is renowned throughout the world for its academic excellence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە ناسراوە لە جیھاندا بۆ باشترین بوون لەلایەنی ئەکادیمییەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -172,12 +178,18 @@ class EnglishEntryacademic extends StatelessWidget {
 ٢. (ھاوەڵناو) پەیوەندیدار بە خوێندن و خوێندنەوەی زۆر، وەک لە شارەزایی کرداری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We are looking for practical experience as well as academic achievement."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئێمە بە شوێن ئەزموونی کردار دەگەڕێن لەگەڵ بەدەستھێنانی ئەکادیمی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We are looking for practical experience as well as academic achievement."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئێمە بە شوێن ئەزموونی کردار دەگەڕێن لەگەڵ بەدەستھێنانی ئەکادیمی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +208,18 @@ class EnglishEntryacademic extends StatelessWidget {
 ٣. (ھاوەڵناو) کەسێک کە باشە لەو بابەتانەی کە پەیوەندی بە خوێندن و خوێندنەوەوە ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wasn't very academic and hated school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی ئەکادیمی نەبوو و ڕقی لە قوتابخانە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wasn't very academic and hated school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی ئەکادیمی نەبوو و ڕقی لە قوتابخانە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -220,12 +238,18 @@ class EnglishEntryacademic extends StatelessWidget {
 ٤. (ناو) کەسێک کە لە کۆلێجێک یان زانکۆیەک کار دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is much debate among academics about this issue."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مشتومڕی زۆر ھەیە لە نێوان لێکۆڵەران سەبارەت بەم بابەتە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is much debate among academics about this issue."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مشتومڕی زۆر ھەیە لە نێوان لێکۆڵەران سەبارەت بەم بابەتە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

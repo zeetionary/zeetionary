@@ -127,11 +127,18 @@ class EnglishEntryadultery extends StatelessWidget {
 ١. (ناو) سێکس لە نێوان کەسێکی خێزاندار و کەسێکی تر کە خێزانی خۆی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was accused of committing adultery."),
-                              const ExampleSentenceKurdish(
-                                  text: "تاوانبارکرا بە ئەنجامدانی زینا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was accused of committing adultery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاوانبارکرا بە ئەنجامدانی زینا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

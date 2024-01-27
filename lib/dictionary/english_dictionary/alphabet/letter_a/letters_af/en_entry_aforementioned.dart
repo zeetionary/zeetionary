@@ -131,12 +131,18 @@ class EnglishEntryaforementioned extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک/شتێک کە پێشتر باسکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aforementioned person was seen acting suspiciously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aforementioned person was seen acting suspiciously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوبراو بینرا کە بە گومانەوە ڕەفتاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -180,12 +180,18 @@ class EnglishEntryattachecase extends StatelessWidget {
 ١. (ناو) جانتایەکی فلاتی بەھێزی بچووک بۆ دۆکیومێنتی کارکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The spy stole the attaché case containing the secret documents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The spy stole the attaché case containing the secret documents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیخوڕەکە ئەو جانتایەی دزی کە دۆکیومێنتە نھێنییەکانی تێدابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

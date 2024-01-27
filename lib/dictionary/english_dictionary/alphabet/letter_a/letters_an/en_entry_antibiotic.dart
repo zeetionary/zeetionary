@@ -173,11 +173,18 @@ class EnglishEntryantibiotic extends StatelessWidget {
 ١. (ناو) مادەیەک، بۆ نموونە پێنی‌سیلین، کە دەتوانێت گەشەی بەکتریا بوەستێنێت و تووشبوون بە نەخۆشی چارەسەر بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The doctor put her on antibiotics (= told her to take them)."),
-                              const ExampleSentenceKurdish(
-                                  text: "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The doctor put her on antibiotics (= told her to take them)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دکتۆرەکە پێی‌گوت دژەبەکتریا بخوات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

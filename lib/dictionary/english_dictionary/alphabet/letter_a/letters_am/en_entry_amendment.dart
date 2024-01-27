@@ -132,12 +132,18 @@ class EnglishEntryamendment extends StatelessWidget {
 ١. (ناو) گۆڕانکارییەکی بچووک کە لە یاسایەک یان دۆکیومێنتێک دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Parliament passed the bill without further amendment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Parliament passed the bill without further amendment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەرلەمان پڕۆژە یاساکەی تێپەڕاند بەبێ گۆڕانکاری زیاتر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -158,12 +164,18 @@ class EnglishEntryamendment extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Senate added numerous amendments to the bill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Senate added numerous amendments to the bill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەنجوومەنی پیران ژمارەیەک گۆڕانکاری بۆ پڕۆژە یاساکە زیادکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +198,18 @@ class EnglishEntryamendment extends StatelessWidget {
 ٢. (ناو) گۆڕانکارییەک لە دەستووری ئەمریکا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The 19th Amendment gave women the right to vote."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The 19th Amendment gave women the right to vote."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نۆزدەیەمین گۆڕانکاری بۆ دەستووری ئەمریکا مافی دەنگدانی دا بە ژنان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -102,11 +102,17 @@ class EnglishEntryabbey extends StatelessWidget {
 ١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "a ruined abbey"),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text: "کڵێسایەکی وێرانە"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "a ruined abbey"),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text: "کڵێسایەکی وێرانە"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

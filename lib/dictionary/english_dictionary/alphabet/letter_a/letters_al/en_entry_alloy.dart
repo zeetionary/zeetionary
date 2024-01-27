@@ -129,11 +129,17 @@ class EnglishEntryalloy extends StatelessWidget {
 ١. (ناو) داڕشتە؛ کانزایەک کە بە تێکەڵکردنی دوو کانزای تر، یان کانزایەک و مادەیەکی تر درووست بووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Brass is an alloy of copper and zinc."),
-                              const ExampleSentenceKurdish(
-                                  text: "مسی سپی داڕشتەی مس و زینکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Brass is an alloy of copper and zinc."),
+                                    ExampleSentenceKurdish(
+                                        text: "مسی سپی داڕشتەی مس و زینکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

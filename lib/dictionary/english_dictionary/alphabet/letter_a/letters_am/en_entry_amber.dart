@@ -129,11 +129,18 @@ class EnglishEntryamber extends StatelessWidget {
 ١. (ھاوەڵناو) عەمبەری؛ ڕەنگی زەرد و قاوەیی تێکەڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her amber eyes shone in the dark."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her amber eyes shone in the dark."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاوە عەمبەرییەکانی لە تاریکییەکەدا دەدرەوشانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +161,18 @@ class EnglishEntryamber extends StatelessWidget {
 ٢. (ناو) عەمبەر؛ مادەیەکی زەرد و قاوەییە کە لە کۆندا لە دارەوە درووست دەبوو و بەکاردەھات بۆ خشڵ و مادەی جوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has a collection of prehistoric insects preserved in amber."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has a collection of prehistoric insects preserved in amber."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک لە مێرووی پێش مێژووی ھەیە کە لە عەمبەردا پاراستوونی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -180,11 +193,18 @@ class EnglishEntryamber extends StatelessWidget {
 ٣. (ناو) عەمبەر؛ ڕەنگی زەردی قاوەیی باو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The traffic lights were on amber."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The traffic lights were on amber."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ترافیک لایتەکان لەسەر گڵۆپە زەردەکە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

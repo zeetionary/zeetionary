@@ -128,12 +128,18 @@ class EnglishEntryactively extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە کاری لەسەر دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Your proposal is being actively considered."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Your proposal is being actively considered."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێشنیارەکەت بەڕشتی کاری لەسەر دەکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,10 +159,17 @@ class EnglishEntryactively extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە ھەوڵی بۆ دەدەیت و چاوەڕێی شانس ناکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She was actively looking for a job."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە جدییانە بۆ کارێک دەگەڕا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was actively looking for a job."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە جدییانە بۆ کارێک دەگەڕا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

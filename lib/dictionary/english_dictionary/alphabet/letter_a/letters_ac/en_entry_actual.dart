@@ -129,12 +129,18 @@ class EnglishEntryactual extends StatelessWidget {
 ١. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە ڕاستییەتی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The actual cost was higher than we expected."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The actual cost was higher than we expected."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,10 +159,16 @@ class EnglishEntryactual extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What were his actual words?"),
-                              const ExampleSentenceKurdish(
-                                  text: "قسەکانی بە دەقیقی چی بوون؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "What were his actual words?"),
+                                    ExampleSentenceKurdish(
+                                        text: "قسەکانی بە دەقیقی چی بوون؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -177,12 +189,18 @@ class EnglishEntryactual extends StatelessWidget {
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە لە گرنگترین بەشی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The wedding preparations take weeks but the actual ceremony takes less than an hour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The wedding preparations take weeks but the actual ceremony takes less than an hour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

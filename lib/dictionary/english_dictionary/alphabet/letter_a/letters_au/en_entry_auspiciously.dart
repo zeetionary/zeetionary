@@ -178,11 +178,18 @@ class EnglishEntryauspiciously extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە ئاماژە پیشان دەدات کە شتێک لە داھاتوودا سەرکەوتوو دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The day did not begin auspiciously."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The day did not begin auspiciously."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

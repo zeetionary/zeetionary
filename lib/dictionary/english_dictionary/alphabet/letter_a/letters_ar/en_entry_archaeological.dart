@@ -178,12 +178,18 @@ class EnglishEntryarchaeological extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە شوێنەوارناسی (توێژینەوە لە کەلتوورە کۆنەکان و مێژوو و ھەڵکۆڵینی ئەو شوێنەوارانەی لە زەویدا دەدۆزرێنەوە)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Further archaeological excavations are now being carried out."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Further archaeological excavations are now being carried out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەڵکۆڵینی شوێنەوارناسییانەی دیکە لە ئێستادا ئەنجام دەدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

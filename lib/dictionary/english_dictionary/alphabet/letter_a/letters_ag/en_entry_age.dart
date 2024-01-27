@@ -195,12 +195,18 @@ class EnglishEntryage extends StatelessWidget {
 ١. (ناو) ژمارەی ئەو ساڵانەی کەسێک ژیاوە یان شتێک بوونی ھەبووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When I was your age I was already married."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When I was your age I was already married."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە لە تەمەنی تۆ بووم ماوەیەک بوو ھاوسەرگیریم کردبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +225,18 @@ class EnglishEntryage extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The children range in age from 5 to 10."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The children range in age from 5 to 10."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکان تەمەنیان لە نێوان ٥ بۆ ١٠ ساڵانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -245,10 +257,16 @@ class EnglishEntryage extends StatelessWidget {
 ٢. (ناو) بۆ ماوەیەکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I waited for ages."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ ماوەیەکی زۆر چاوەڕێ بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I waited for ages."),
+                                    ExampleSentenceKurdish(
+                                        text: "بۆ ماوەیەکی زۆر چاوەڕێ بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -269,10 +287,16 @@ class EnglishEntryage extends StatelessWidget {
 ٣. (ناو) کاتێکی دیاریکراو لە تەمەنی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She dreaded old age."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە پیرێتی دەترسا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She dreaded old age."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە پیرێتی دەترسا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -293,11 +317,18 @@ class EnglishEntryage extends StatelessWidget {
 ٤. (ناو) سەردەمێکی دیاریکراو لە مێژوودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He lived during the Elizabethan age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He lived during the Elizabethan age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەردەمی دەسەڵاتداریی ئیلیزابێس ژیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -318,11 +349,18 @@ class EnglishEntryage extends StatelessWidget {
 ٥. (کردار) تەمەنکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "As he aged, his memory got worse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As he aged, his memory got worse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە تەمەنی دەکرد بیر و ھۆشی خراپتر دەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -343,12 +381,18 @@ class EnglishEntryage extends StatelessWidget {
 ٦. (کردار) پیر دەرکەوتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My mother has really aged since she became ill."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My mother has really aged since she became ill."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکم ڕەنگی پیربووە لەوەتەی نەخۆش کەوتووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

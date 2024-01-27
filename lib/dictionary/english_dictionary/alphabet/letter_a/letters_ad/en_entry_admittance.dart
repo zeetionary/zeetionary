@@ -127,11 +127,18 @@ class EnglishEntryadmittance extends StatelessWidget {
 ١. (ناو) ماف یان کردای چوونە ناو شوێنێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was refused admittance into the country."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was refused admittance into the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگەی پێ نەدرا بچێتە ناو وڵاتەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

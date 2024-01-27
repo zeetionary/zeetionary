@@ -182,12 +182,18 @@ class EnglishEntryarticulation extends StatelessWidget {
 ١. (ناو) دەربڕینی بیرۆکەیەک یان ھەستێک لە وشەدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The clarity and precision of the articulation of his theory made it easy for even non-experts to understand its implications."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕوونی و وردی دەربڕینی بیرۆکەکەی وا ئاسانی کرد کە تەنانەت ناشارەزاکانیش لە دەرئەنجامەکانی تێ‌بگەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -210,12 +216,18 @@ class EnglishEntryarticulation extends StatelessWidget {
 ٢. (ناو) کرداری درووستکردنی دەنگ کە قسەکردن یان گۆرانی‌وتندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tongue and teeth are both organs of articulation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tongue and teeth are both organs of articulation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زمان و ددان ھەردوویان ئەندامی ئاخاوتنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +250,18 @@ class EnglishEntryarticulation extends StatelessWidget {
 ٣. (ناو) جومگەیەک یان پێکەوەبەستراوییەک کە ڕێگا بە جووڵە دەدات، یان جومگەکە خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The articulation of the pieces of the puzzle was perfect."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The articulation of the pieces of the puzzle was perfect."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێکەوە بەسترانی بەشەکانی پەزڵەکە تەواو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,11 +282,18 @@ class EnglishEntryarticulation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The articulation of the shoulder allows for a wide range of motion."),
-                              const ExampleSentenceKurdish(
-                                  text: "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The articulation of the shoulder allows for a wide range of motion."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جومگەی شان ڕێگا بە جووڵەی زۆر دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,12 +177,18 @@ class EnglishEntryaquarium extends StatelessWidget {
 ١. (ناو) پارچە گڵاسێکی گەورە کە تێیدا ماسی و گیانلەبەری دیکەی ئاوی ھەڵدەگیرێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aquarium has some interesting specimens of unusual fish."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aquarium has some interesting specimens of unusual fish."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆژەماسییەکە ھەندێک نموونەی سەرنجڕاکێشی ماسی دەگمەنی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,11 +210,18 @@ class EnglishEntryaquarium extends StatelessWidget {
 ٢. (ناو) شوێنێک کە تێیدا ژمارەیەک پارچە گڵاسی گەورە ھەیە کە ماسی و گیانلەبەری دیکەی ئاوییان تێدان و خەڵکی سەردانی دەکەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We went to the aquarium last week."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We went to the aquarium last week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەفتەی ڕابردوو چووین بۆ ئەکواریەمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

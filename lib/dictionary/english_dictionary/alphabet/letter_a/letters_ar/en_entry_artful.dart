@@ -178,12 +178,18 @@ class EnglishEntryartful extends StatelessWidget {
 ١. (ھاوەڵناو) زیرەک لە بەدەستھێنانی ئەوەی دەتەوێت، زۆرجار بە بەکارھێنانی درۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was artful and cunning, and I didn’t really trust him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was artful and cunning, and I didn’t really trust him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەسێکی پڕفێڵ و تەڵەکەباز بوو، و لەڕاستیدا باوەڕم پێی‌نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryaggrieved extends StatelessWidget {
 ١. (ھاوەڵناو) ھەستکردن بەوەی بەخراپی مامەڵەت لەگەڵ کراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had every right to feel aggrieved at the decision."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات بەھۆی بڕیارەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had every right to feel aggrieved at the decision."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو مافێکی ھەبوو ھەست بە مافخوراوی بکات بەھۆی بڕیارەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

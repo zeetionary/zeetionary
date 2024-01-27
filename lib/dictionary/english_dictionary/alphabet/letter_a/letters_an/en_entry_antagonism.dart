@@ -172,12 +172,18 @@ class EnglishEntryantagonism extends StatelessWidget {
 ١. (ناو) ھەستی ڕکابەری و ڕق"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The antagonism he felt towards his old enemy was still very strong."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The antagonism he felt towards his old enemy was still very strong."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو دوژمنایەتییەی دژ بە دووژمنە کۆنەکەی ھەیبوو ھێشتا بەھێز بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

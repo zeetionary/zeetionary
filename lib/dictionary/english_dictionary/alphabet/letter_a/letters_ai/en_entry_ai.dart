@@ -125,12 +125,18 @@ class EnglishEntryai extends StatelessWidget {
 ١. (ناو) ژیری دەستکرد؛ لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی وەک مرۆڤ مامەڵە بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This new technology uses AI to recognize character features in the same way a human brain does."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This new technology uses AI to recognize character features in the same way a human brain does."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم تەکنۆلەژیا تازەیە ژیری دەستکرد بەکاردەھێنێ بۆ ناسینەوەی خاسیەتەکانی کارەکتەرێک وەک ئەوەی مێشکی مرۆڤ دەیکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

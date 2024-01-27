@@ -179,12 +179,18 @@ class EnglishEntryaubergine extends StatelessWidget {
 ١. (ناو) پێناسسەوزەیەک کە توێکڵی درەوشاوەی مۆری تاریکی ھەیە و لە ناوەوە و سپی و نەرمە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The chef sliced the aubergine into thin rounds and grilled them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The chef sliced the aubergine into thin rounds and grilled them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شێفەکە باینجانەکەی وەک ئەڵقە ئەڵقەی باریک پاککرد و برژاندنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

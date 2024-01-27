@@ -170,11 +170,18 @@ class EnglishEntryaverse extends StatelessWidget {
 ١. (ھاوەڵناو) حەزنەکردن لە شتێک یان نەبوونی ویستی کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I mentioned it to Kate and she wasn't averse to the idea."),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆ کەیتم باسکرد و لاری‌لێی‌نەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I mentioned it to Kate and she wasn't averse to the idea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ کەیتم باسکرد و لاری‌لێی‌نەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,10 +201,16 @@ class EnglishEntryaverse extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was averse to any change."),
-                              const ExampleSentenceKurdish(
-                                  text: "دژی ھەموو گۆڕانکارییەک بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was averse to any change."),
+                                    ExampleSentenceKurdish(
+                                        text: "دژی ھەموو گۆڕانکارییەک بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

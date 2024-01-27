@@ -174,12 +174,18 @@ class EnglishEntryantihistamine extends StatelessWidget {
 ١. (ناو) دەرمانێک بۆ چارەسەری ھەستیاری، بەتایبەتی ھەستیارییەک کە تووشی دەبیت لە چاو و لوت و قوڕگدا بەھۆی ھەڵمژینی ھەڵاڵەی گوڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Antihistamine is often used to treat hay fever and insect bites."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Antihistamine is often used to treat hay fever and insect bites."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دژە-ھەستیاری زۆرجار بەکاردێت بۆ چارەسەری ھەستیاری بە ھەڵاڵەی گوڵ یان گەستنی مێروو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

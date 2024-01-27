@@ -113,12 +113,18 @@ class EnglishEntryabridgement extends StatelessWidget {
 ١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Abridgement of this complex text was extremely difficult."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Abridgement of this complex text was extremely difficult."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntryabuse extends StatelessWidget {
 ١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The legal system in this country is open to abuse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The legal system in this country is open to abuse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -190,12 +196,18 @@ class EnglishEntryabuse extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was arrested on charges of corruption and abuse of power."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was arrested on charges of corruption and abuse of power."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -214,12 +226,18 @@ class EnglishEntryabuse extends StatelessWidget {
 ٢. (ناو) مامەڵەی خراپ لەگەڵ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She suffered years of physical abuse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She suffered years of physical abuse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -238,12 +256,18 @@ class EnglishEntryabuse extends StatelessWidget {
 ٣. (ناو) قسەی چەوت و ناشرین و لەلایەن کەسێکی توڕەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The man burst into a torrent of foul-mouthed racist abuse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The man burst into a torrent of foul-mouthed racist abuse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +286,18 @@ class EnglishEntryabuse extends StatelessWidget {
 ٤. (کردار) بەکارھێنانی شتێک بە خراپی، یان بەکارھێنانی شتێکی خراپ کە زیانی بۆ جەستە ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People who abuse alcohol over a long period will develop health problems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People who abuse alcohol over a long period will develop health problems."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -286,12 +316,18 @@ class EnglishEntryabuse extends StatelessWidget {
 ٥. (کردار) بەکارھێنانی زانیاری یان دەسەڵات بەشێوەیەکی خراپ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She abused her position as principal by giving jobs to her friends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She abused her position as principal by giving jobs to her friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,10 +346,18 @@ class EnglishEntryabuse extends StatelessWidget {
 ٦. (کردار) دەستدرێژیکردنە سەر کەسێک، زۆرجار دەستدرێژی سێکسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The boy had been sexually abused."),
-                              const ExampleSentenceKurdish(
-                                  text: "کوڕەکە دەستدرێژیی سێکسی کرابووە سەر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The boy had been sexually abused."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کوڕەکە دەستدرێژیی سێکسی کرابووە سەر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

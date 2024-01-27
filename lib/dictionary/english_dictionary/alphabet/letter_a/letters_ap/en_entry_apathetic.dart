@@ -176,12 +176,18 @@ class EnglishEntryapathetic extends StatelessWidget {
 ١. (ھاوەڵناو) نەبوونی حەز و تامەزرۆیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The illness made her apathetic and unwilling to meet people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The illness made her apathetic and unwilling to meet people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

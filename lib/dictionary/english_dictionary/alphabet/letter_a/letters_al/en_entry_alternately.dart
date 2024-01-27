@@ -130,11 +130,18 @@ class EnglishEntryalternately extends StatelessWidget {
 ١. (ھاوەڵکار) ڕوودان بەدوای یەکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He felt alternately hot and cold."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جار نا جار ھەستی بە گەرما و سەرما دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He felt alternately hot and cold."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جار نا جار ھەستی بە گەرما و سەرما دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -194,11 +194,18 @@ class EnglishEntryamericanfootball extends StatelessWidget {
 ١. (ناو) یاتییەک کە لەلایەن دوو تیمی ١١ کەسی دەکرێت بە تۆپێکی ھێلکەیی کە یاریزانان ھەوڵ دەدەن تێی ھەڵبدەن، بیھاوێژن، یان ھەڵیبگرن، و بیخەنە ھێڵی تیمی بەرامبەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "American Football doesn't interest me at all."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "American Football doesn't interest me at all."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچ حەزم بە تۆپێنی ئەمریکی نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

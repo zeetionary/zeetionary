@@ -180,12 +180,18 @@ class EnglishEntryausterely extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەکی سادە و ساکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her dress was simple and austerely elegant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلەکەی سادە بوو و ساکارانە شۆخ‌وشەنگ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her dress was simple and austerely elegant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکەی سادە بوو و ساکارانە شۆخ‌وشەنگ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryausterely extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەکی توند و دابڕاو لە خۆشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She lived austerely and in constant prayer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سادەیی و بەردەوام لە نزاکردن دەژیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She lived austerely and in constant prayer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سادەیی و بەردەوام لە نزاکردن دەژیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

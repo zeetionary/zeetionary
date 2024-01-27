@@ -128,12 +128,18 @@ class EnglishEntryagoraphobic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە ئەگۆرافۆبیا (ترسی بوون لە شوێنی گشتی و قەرەباڵغ)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is agoraphobic and stays inside as much as she can."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is agoraphobic and stays inside as much as she can."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تووشبووی ئەگۆرافۆبیا بوو و ھەرچەندە بۆی بکرێت لە ماڵەوە دەمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

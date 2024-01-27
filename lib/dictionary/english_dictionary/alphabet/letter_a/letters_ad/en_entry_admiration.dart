@@ -128,11 +128,18 @@ class EnglishEntryadmiration extends StatelessWidget {
 ١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have great admiration for her as a writer."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have great admiration for her as a writer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

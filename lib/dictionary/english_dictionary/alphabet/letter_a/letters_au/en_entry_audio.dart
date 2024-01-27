@@ -177,10 +177,16 @@ class EnglishEntryaudio extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە دەنگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The audio quality was poor."),
-                              const ExampleSentenceKurdish(
-                                  text: "کوالێتی دەنگەکە خراپ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The audio quality was poor."),
+                                    ExampleSentenceKurdish(
+                                        text: "کوالێتی دەنگەکە خراپ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

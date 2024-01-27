@@ -182,12 +182,18 @@ class EnglishEntryashamed extends StatelessWidget {
 ١. (ھاوەڵناو) ھەستکردن بە شەرمەزاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was deeply ashamed of her behaviour at the party."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was deeply ashamed of her behaviour at the party."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر شەرمەزاربوو بە ڕەفتاری لە ئاھەنگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -207,12 +213,18 @@ class EnglishEntryashamed extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We must stop being afraid or ashamed of what we are."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We must stop being afraid or ashamed of what we are."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت وازبێنین لە ترسان یان شەرمەزاربوون لە بوون بەوەی کە ھەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,11 +244,18 @@ class EnglishEntryashamed extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You ought to be thoroughly ashamed of yourselves."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەبێت تەواو شەرم لە خۆتان بکەنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You ought to be thoroughly ashamed of yourselves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت تەواو شەرم لە خۆتان بکەنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,11 +277,18 @@ class EnglishEntryashamed extends StatelessWidget {
 ٢. (ھاوەڵناو) نەکردنی شتێکەوە بەھۆی ھەستکردن بە شەرم یان ترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm ashamed to say that I lied to her."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەرم دەکەم بڵێم درۆم لەگەڵ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm ashamed to say that I lied to her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەرم دەکەم بڵێم درۆم لەگەڵ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -282,12 +308,18 @@ class EnglishEntryashamed extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I cried at the end and I'm not ashamed to admit it."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I cried at the end and I'm not ashamed to admit it."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەکۆتاییدا گریام و شەرمەزر نیم بە وتنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

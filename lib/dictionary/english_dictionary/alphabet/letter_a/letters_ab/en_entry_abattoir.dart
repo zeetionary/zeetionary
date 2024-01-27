@@ -103,12 +103,18 @@ class EnglishEntryAbattoir extends StatelessWidget {
 ١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

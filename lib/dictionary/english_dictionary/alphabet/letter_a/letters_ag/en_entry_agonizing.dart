@@ -127,11 +127,18 @@ class EnglishEntryagonizing extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەبێتەھۆی ئازار و ناڕەحەتی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His father’s agonizing death devastated her."),
-                              const ExampleSentenceKurdish(
-                                  text: "مردنە بەژانەکەی باوکی وێرانی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His father’s agonizing death devastated her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مردنە بەژانەکەی باوکی وێرانی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

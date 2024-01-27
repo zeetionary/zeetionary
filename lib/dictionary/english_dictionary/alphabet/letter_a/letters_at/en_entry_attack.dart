@@ -314,12 +314,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١. (ناو) ھێرش بۆ سەر کەسێک بە بەکارھێنانی ھێز یان چەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Five people were killed in the attacks that took place last night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێنچ کەس کوژران لەو ھێرشانەی دوێنێ شەو ئەنجام دران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Five people were killed in the attacks that took place last night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێنچ کەس کوژران لەو ھێرشانەی دوێنێ شەو ئەنجام دران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -339,12 +345,18 @@ class EnglishEntryattack extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A child is recovering in hospital after a serious attack by a stray dog."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لە دوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A child is recovering in hospital after a serious attack by a stray dog."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵێک لە نەخۆشخانە چاکدەبێتەوە لە دوای ھێرشێک بۆسەری لەلایەن سەگێکی بەرەڵاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -366,12 +378,18 @@ class EnglishEntryattack extends StatelessWidget {
 ٢. (ناو) ھێرشێک بۆ سەر دووژمن لە جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Rebel forces launched an attack on civilian targets."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزە یاخییەکان ھێرشێکیان ئەنجامدا بۆ سەر ئامانجی مەدەنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Rebel forces launched an attack on civilian targets."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزە یاخییەکان ھێرشێکیان ئەنجامدا بۆ سەر ئامانجی مەدەنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -393,10 +411,17 @@ class EnglishEntryattack extends StatelessWidget {
 ٣. (ناو) نەخۆشییەک کە لەناکاو و مەوداکورتە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I had an attack of fever this week."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم ھەفتەیە ماوەیەک تام ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I had an attack of fever this week."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم ھەفتەیە ماوەیەک تام ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -418,10 +443,17 @@ class EnglishEntryattack extends StatelessWidget {
 ٤. (ناو) ماوەیەکی لەناکاو لە ھەبوونی ھەستێک، بۆ نموونە ترس"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He suffers from attacks of anxiety."),
-                              const ExampleSentenceKurdish(
-                                  text: "ماوە ماوە تووشی خەمباری دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He suffers from attacks of anxiety."),
+                                    ExampleSentenceKurdish(
+                                        text: "ماوە ماوە تووشی خەمباری دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -443,12 +475,18 @@ class EnglishEntryattack extends StatelessWidget {
 ٥. (ناو) ڕەخنەی توند"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Doctors have gone on the attack, accusing the government of incompetence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Doctors have gone on the attack, accusing the government of incompetence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -470,12 +508,18 @@ class EnglishEntryattack extends StatelessWidget {
 ٦. (ناو) ئەو یاریزانانەی ئەرکیان تۆمارکردنی خاڵە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Germany's attack has been weakened by the loss of some key players through injury."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێرشبردنی ئەڵمانیا لاوازبووە بەھۆی لەدەستدانی ژمارەیەک یاریزانی گرنگ بەھۆی پێکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Germany's attack has been weakened by the loss of some key players through injury."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێرشبردنی ئەڵمانیا لاوازبووە بەھۆی لەدەستدانی ژمارەیەک یاریزانی گرنگ بەھۆی پێکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -497,12 +541,18 @@ class EnglishEntryattack extends StatelessWidget {
 ٧. (ناو) کرداری ھێرشبردنی یاریزانان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was a sustained attack on the Arsenal goal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێرشی بەردەوام لەسەر گۆڵی ئەرسناڵ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was a sustained attack on the Arsenal goal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێرشی بەردەوام لەسەر گۆڵی ئەرسناڵ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -524,12 +574,18 @@ class EnglishEntryattack extends StatelessWidget {
 ٨. (ناو) ھەڵمەتێک دژ بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government launched an all-out attack on poverty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ھەڵمەتێکی فراوانی دژ بە ھەژاری ڕاگەیاند."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government launched an all-out attack on poverty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ھەڵمەتێکی فراوانی دژ بە ھەژاری ڕاگەیاند."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -551,12 +607,18 @@ class EnglishEntryattack extends StatelessWidget {
 ٩. (ناو) کرداری شتێک، بۆ نموونە مێروو یان نەخۆشی کە دەبێتەھۆی زیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The roof timbers were affected by rot and insect attack."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دار سەقفەکان کاریگەربوون بە ڕزین و ھێرشی مێروو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The roof timbers were affected by rot and insect attack."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دار سەقفەکان کاریگەربوون بە ڕزین و ھێرشی مێروو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -578,12 +640,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١٠. (کردار) ھێرش بە بەکارھێنانی ھێز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most dogs will not attack unless provoked."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر سەگ ھێرش ناکەن مەگەر ئەوەی تووڕە بکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most dogs will not attack unless provoked."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر سەگ ھێرش ناکەن مەگەر ئەوەی تووڕە بکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -605,11 +673,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١١. (کردار) ھێرشکردن لە جەنگدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Enemy forces attacked at night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزەکانی دووژمن لە شەودا ھێرشیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Enemy forces attacked at night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزەکانی دووژمن لە شەودا ھێرشیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -631,12 +706,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١٢. (کردار) ڕەخنەگرتن بە توندی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His latest work has been bitterly attacked by the critics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تازەترین کاری بەتوندی لەلایەن ھەڵسەنگێنەرانەوە ڕەخنەی لێگیراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His latest work has been bitterly attacked by the critics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تازەترین کاری بەتوندی لەلایەن ھەڵسەنگێنەرانەوە ڕەخنەی لێگیراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -658,12 +739,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١٣. (کردار) زیانگەیاندن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bacteria act on sugars to form acids which attack the tooth surface."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکتریا کار لەسەر شەکر دەکەن بۆ درووستکردنی ئەسید کە زیان دەگەیەنێت بە ڕووی ددان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bacteria act on sugars to form acids which attack the tooth surface."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکتریا کار لەسەر شەکر دەکەن بۆ درووستکردنی ئەسید کە زیان دەگەیەنێت بە ڕووی ددان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -685,12 +772,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١٤. (کردار) ھێرشکردن لە یارییەکدا بە مەبەستی بەدەستھێنانی خاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Spain attacked more in the second half and deserved a goal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئیسپانیا لە گێمی دووەمدا زیاتر ھێرشی کرد و شایەنی گۆڵێک بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Spain attacked more in the second half and deserved a goal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئیسپانیا لە گێمی دووەمدا زیاتر ھێرشی کرد و شایەنی گۆڵێک بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -712,11 +805,18 @@ class EnglishEntryattack extends StatelessWidget {
 ١٥. (کردار) مامەڵەکردن لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's attack one problem at a time."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "با مامەڵە لەگەڵ یەک کێشە بکەین لە ھەر کاتێکدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let's attack one problem at a time."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "با مامەڵە لەگەڵ یەک کێشە بکەین لە ھەر کاتێکدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

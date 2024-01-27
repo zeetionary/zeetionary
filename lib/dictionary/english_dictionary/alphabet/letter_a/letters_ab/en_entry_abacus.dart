@@ -105,12 +105,18 @@ class EnglishEntryabacus extends StatelessWidget {
 ١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In ancient times, people relied on an abacus to perform mathematical calculations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In ancient times, people relied on an abacus to perform mathematical calculations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -116,12 +116,18 @@ class EnglishEntryabortive extends StatelessWidget {
 ١. (ھاوەڵناو) کارێکی شکستخواردوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He tried to set up a meeting but his efforts proved abortive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He tried to set up a meeting but his efforts proved abortive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -138,12 +144,18 @@ class EnglishEntryabortive extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was an abortive attempt to overthrow the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵێکی نەزۆک ھەبوو بۆ گۆڕینی حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was an abortive attempt to overthrow the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵێکی نەزۆک ھەبوو بۆ گۆڕینی حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

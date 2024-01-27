@@ -105,11 +105,18 @@ class EnglishEntryabound extends StatelessWidget {
 ١. (کردار) کاتێک شتێک بوونی ھەیە بە ژمارەیەکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Stories about his travels abound."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گێڕانەوەکان دەربارەی گەشتەکانی زۆر بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Stories about his travels abound."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گێڕانەوەکان دەربارەی گەشتەکانی زۆر بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

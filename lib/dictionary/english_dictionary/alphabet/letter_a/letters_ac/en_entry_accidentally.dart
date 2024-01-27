@@ -113,12 +113,18 @@ class EnglishEntryaccidentally extends StatelessWidget {
 ١. بە ھەڵکەوت ڕوودان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The damage couldn't have been caused accidentally."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The damage couldn't have been caused accidentally."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو زیانە ڕێی تێ ناچێ بە ڕێکەوت ڕوویدابێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -131,10 +131,18 @@ class EnglishEntryamateurish extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە لە کردنیدا ئەزموون و شارەزایی نەبووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Their website looks amateurish."),
-                              const ExampleSentenceKurdish(
-                                  text: "وێبسایتەکەیان تازەکارانە دیاربوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their website looks amateurish."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وێبسایتەکەیان تازەکارانە دیاربوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

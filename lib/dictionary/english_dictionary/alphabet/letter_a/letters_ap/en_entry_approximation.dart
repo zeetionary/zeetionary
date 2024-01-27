@@ -179,12 +179,18 @@ class EnglishEntryapproximation extends StatelessWidget {
 ١. (ناو) ژمارەیەک کە خەمڵاندنە و تەواو نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An approximation of the numbers expected to attend would be 350."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An approximation of the numbers expected to attend would be 350."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی خەمڵێندراوی بەژداربووان پێشبینی‌دەکرێت بگاتە ٣٥٠ کەس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryapproximation extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We do not have the true figures so we will have to make some approximations."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We do not have the true figures so we will have to make some approximations."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەی تەواومان لەبەردەست نییە، بۆیە دەبێت خەمڵاندن بکەین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,12 +245,18 @@ class EnglishEntryapproximation extends StatelessWidget {
 ٢. (ناو) شتێک بە نزیکەیی وەک شتێکی تر وایە، بەڵام بە تەواوی لێکچووی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Our results should be a good approximation of the true state of affairs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our results should be a good approximation of the true state of affairs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەنجامەکانمان دەبێت ھاوشێوەیەکی باشی ڕاستی بارودۆخەکە بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

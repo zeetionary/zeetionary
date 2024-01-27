@@ -127,12 +127,18 @@ class EnglishEntryadulation extends StatelessWidget {
 ١. (ناو) پیاھەڵدانی زیاد لە پێویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The band enjoy the adulation of their fans wherever they go."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The band enjoy the adulation of their fans wherever they go."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

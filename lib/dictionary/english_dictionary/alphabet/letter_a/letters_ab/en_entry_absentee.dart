@@ -112,12 +112,18 @@ class EnglishEntryabsentee extends StatelessWidget {
 ١. (ناو) کەسێکی نائامادە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are several absentees from school this week, because a lot of people have flu."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are several absentees from school this week, because a lot of people have flu."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

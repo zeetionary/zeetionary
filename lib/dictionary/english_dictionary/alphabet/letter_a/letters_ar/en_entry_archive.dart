@@ -176,11 +176,18 @@ class EnglishEntryarchive extends StatelessWidget {
 ١. (ناو) کۆمەڵە دۆکیومێنتێکی مێژوویی یان تۆماری حکومەت، خێزانێک، جێگایەک، یان دامەزراوەیەک؛ ئەو شوێنەی ئەم تۆمارانەی تێدا ھەڵدەگیرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The BBC's archives are bulging with material."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەرشیفی بی بی سی پڕە لە زانیاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The BBC's archives are bulging with material."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەرشیفی بی بی سی پڕە لە زانیاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

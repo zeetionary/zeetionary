@@ -171,12 +171,18 @@ class EnglishEntryanonymity extends StatelessWidget {
 ١. (ناو) باری نەناسراوی‌بوون بۆ زۆرینەی کەسانی تر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Names of people in the book were changed to preserve anonymity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Names of people in the book were changed to preserve anonymity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوەکانی ناو کتێبەکە گۆڕدران بۆ ھێشتنەوەی بێ‌ناوی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

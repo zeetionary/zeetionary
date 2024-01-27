@@ -128,12 +128,18 @@ class EnglishEntryacquiescence extends StatelessWidget {
 ١. (ھاوەڵناو) ڕازیبوون بە شتێک ئەگەرچی باوەڕت پێی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I must admit, your acquiescence surprised me."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I must admit, your acquiescence surprised me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت دانی پێدا بنێم، ڕازیبوونت سەرسامی کردم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

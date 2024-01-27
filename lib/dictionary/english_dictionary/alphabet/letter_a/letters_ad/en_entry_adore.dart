@@ -125,10 +125,17 @@ class EnglishEntryadore extends StatelessWidget {
 ١. (کردار) خۆشویستنی زۆری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It's obvious that she adores him."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاشکرایە کە ئەڤینداریەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It's obvious that she adores him."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاشکرایە کە ئەڤینداریەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

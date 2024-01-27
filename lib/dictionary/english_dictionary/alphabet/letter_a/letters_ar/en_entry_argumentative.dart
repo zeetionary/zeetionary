@@ -178,11 +178,18 @@ class EnglishEntryargumentative extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە حەزی بە مشتومڕە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Everyone in the family was argumentative."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەموو ئەندامێکی خێزانەکە چەنەبازن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everyone in the family was argumentative."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەندامێکی خێزانەکە چەنەبازن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -192,12 +192,18 @@ class EnglishEntryamethyst extends StatelessWidget {
 ١. (ناو) ئەمیتیست؛ بەردێکی بەنرخی وەنەوشەیی، کە لە دروستکردنی خشڵی جوانکاریدا بەکاردەھێنرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bishops and cardinals used to wear amethyst as a symbol of peace."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bishops and cardinals used to wear amethyst as a symbol of peace."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەورە‌قەشە و سەر‌قەشەکان جاران ئەمیتیستیان وەک سمبولی ئاشتی لەبەردەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

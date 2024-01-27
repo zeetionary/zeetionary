@@ -181,11 +181,17 @@ class EnglishEntryauthorship extends StatelessWidget {
 ١. (ناو) ناسنامەی کەسێک کە شتێکی نووسیوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The authorship of the poem is unknown."),
-                              const ExampleSentenceKurdish(
-                                  text: "نووسەری ھۆنراوەکە نەزانراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The authorship of the poem is unknown."),
+                                    ExampleSentenceKurdish(
+                                        text: "نووسەری ھۆنراوەکە نەزانراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -208,12 +214,18 @@ class EnglishEntryauthorship extends StatelessWidget {
 ٢. (ناو) چالاکی نووسینی کتێبێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He published the report in joint authorship with a colleague."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He published the report in joint authorship with a colleague."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

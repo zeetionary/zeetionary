@@ -176,12 +176,18 @@ class EnglishEntryarchery extends StatelessWidget {
 ١. (ھاوەڵناو) ھونەر یان وەرزشی ھاویشتنی تیر بە کەوان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Neither had practised archery before last year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Neither had practised archery before last year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیچیان تیراوێژیان نەکردبوو پێش ساڵی پار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -113,12 +113,18 @@ class EnglishEntryaccreditation extends StatelessWidget {
 ١. (ناو) باوەڕنامەیەک کە دەدرێت بە ڕێکخراوێک وەک ئاماژە بەوەی کە جێگەی باوەڕن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The college was given full accreditation in 1965."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The college was given full accreditation in 1965."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆلێژەکە باوەڕنامەی فەرمی پێدرا لە ساڵی ١٩٦٥."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

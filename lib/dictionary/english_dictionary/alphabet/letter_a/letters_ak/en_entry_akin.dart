@@ -130,12 +130,18 @@ class EnglishEntryakin extends StatelessWidget {
 ١. (ھاوەڵناو) لێکچوو لەگەڵ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What he felt was more akin to pity than love."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What he felt was more akin to pity than love."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستەکەی زیاتر لە بەزەیی دەچوو وەک لە خۆشەویستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryakin extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They speak a language akin to French."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They speak a language akin to French."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە زمانێک قسەدەکەن کە نزیکە لە فەرەنسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

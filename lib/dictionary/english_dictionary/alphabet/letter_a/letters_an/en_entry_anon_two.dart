@@ -172,12 +172,18 @@ class EnglishEntryanontwo extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک بەناوێکەوە کە نەزانراوە یان نایەوێت ئاشکرا بێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The money was donated by a local businessman who wishes to remain anon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The money was donated by a local businessman who wishes to remain anon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەکە بەخشرا لەلایەن بازرگانێکی خۆجێیی کە دەخوازێت بە نھێنی بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryanontwo extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک لەلایەن کەسێکەوە کە نەناسراوە یان نایەنەوێت ئاشکرا بێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He received an anon. letter threatening to disclose details of his affair if he didn't pay the money."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He received an anon. letter threatening to disclose details of his affair if he didn't pay the money."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەیەکی نھێنی پێ‌گەیشت کە ھەڕەشەی ئەوەی لێ‌دەکرد کە وردەکاری پەیوەندییە سۆزدارییەکەی ئاشکرا دەکات ئەگەر پارەکە نەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

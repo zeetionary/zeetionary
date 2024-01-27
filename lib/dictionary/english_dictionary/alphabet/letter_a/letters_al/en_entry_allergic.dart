@@ -131,11 +131,18 @@ class EnglishEntryallergic extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی ھەستیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I like cats but unfortunately I'm allergic to them."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزم لە پشیلەیە بەڵام ھەستیارم پێی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I like cats but unfortunately I'm allergic to them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزم لە پشیلەیە بەڵام ھەستیارم پێی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +164,18 @@ class EnglishEntryallergic extends StatelessWidget {
 ٢. (ھاوەڵناو) درووست بوو بەھۆی ھەستیاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had an allergic reaction after eating the kiwi."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had an allergic reaction after eating the kiwi."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاردانەوەیەکی ھەستیاری ھەبوو لە دوای خواردنی کیوییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -183,12 +196,18 @@ class EnglishEntryallergic extends StatelessWidget {
 ٣. (ھاوەڵناو) ھەبوونی ڕقێکی زۆر بۆشتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You could see he was allergic to housework."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You could see he was allergic to housework."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستت پێدەکرد ڕقی زۆری لە ئیشی ماڵەوە بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -173,12 +173,18 @@ class EnglishEntryavailable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بەردەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We'll send you a copy as soon as it becomes available."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We'll send you a copy as soon as it becomes available."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,11 +206,17 @@ class EnglishEntryavailable extends StatelessWidget {
 ٢. (ھاوەڵناو) ھەبوونی کات بۆ بینین یان قسەکردن لەگەڵ خەڵکی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Will she be available this afternoon?"),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم نیوەڕۆ کاتی دەبێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Will she be available this afternoon?"),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەم نیوەڕۆ کاتی دەبێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,10 +238,16 @@ class EnglishEntryavailable extends StatelessWidget {
 ٣. (ھاوەڵناو) کەسێک کە لە پەیوەندی خۆشەویستیدا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you think he's available?"),
-                              const ExampleSentenceKurdish(
-                                  text: "پێت وایە ھێشتا سینگڵ بێ؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Do you think he's available?"),
+                                    ExampleSentenceKurdish(
+                                        text: "پێت وایە ھێشتا سینگڵ بێ؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

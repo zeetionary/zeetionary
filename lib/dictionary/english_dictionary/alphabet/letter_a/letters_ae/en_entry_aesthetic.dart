@@ -132,12 +132,18 @@ class EnglishEntryaesthetic extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە جوانی ھونەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The works of art are judged on purely aesthetic grounds."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The works of art are judged on purely aesthetic grounds."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارە ھونەرییەکان تەنھا لە لایەنی ھونەرییەوە بڕیاریان لەسەر دەدرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -158,12 +164,18 @@ class EnglishEntryaesthetic extends StatelessWidget {
 ٢. (ھاوەڵناو) درووستکراو بەشێوەیەکی ھونەری کە جوانە بۆ سەیرکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their furniture was more aesthetic than functional."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their furniture was more aesthetic than functional."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شتومەکەکانیان زیاتر بۆ جوانکاری بوو وەک ئەوەی بۆ پێویستی بووبن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -184,12 +196,18 @@ class EnglishEntryaesthetic extends StatelessWidget {
 ٣. (ھاوەڵناو) جوانکاری و بیرۆکەکانی ناو کارێکی ھونەری یان ئەدەبی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The students debated the aesthetic of the poems."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The students debated the aesthetic of the poems."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکاران گەنگەشەی لایەنی جوانکاری (ڕەوانبێژی) لە شیعرەکانیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

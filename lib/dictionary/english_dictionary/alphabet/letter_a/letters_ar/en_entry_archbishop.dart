@@ -177,10 +177,17 @@ class EnglishEntryarchbishop extends StatelessWidget {
 ١. (ناو) قەشەیەکی پلە بەرز کە بەرپرسیاری ھەموو کڵێساکانی شوێنێکی گەورەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was made Archbishop of Milan."),
-                              const ExampleSentenceKurdish(
-                                  text: "کرا بە قەشەی گەورەی میلان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was made Archbishop of Milan."),
+                                    ExampleSentenceKurdish(
+                                        text: "کرا بە قەشەی گەورەی میلان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

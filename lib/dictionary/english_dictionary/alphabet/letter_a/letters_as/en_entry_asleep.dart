@@ -180,12 +180,18 @@ class EnglishEntryasleep extends StatelessWidget {
 ١. (ھاوەڵناو) خەوتوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I waited until they were all fast asleep (= sleeping deeply)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستام تاوەکو ھەموویان خەویان لێ کەوت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I waited until they were all fast asleep (= sleeping deeply)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستام تاوەکو ھەموویان خەویان لێ کەوت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryasleep extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was still half asleep (= not fully awake) when she arrived at work."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was still half asleep (= not fully awake) when she arrived at work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێشتا چاوی بە خەوەوە بوو کە گەشتە سەر کار."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,12 +244,18 @@ class EnglishEntryasleep extends StatelessWidget {
 ٢. (ھاوەڵناو) بەشێکی جەستە کە سڕبووە بەھۆی ئەوەی زۆر نەجووڵاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I couldn't move straight away, as my leg was completely asleep."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I couldn't move straight away, as my leg was completely asleep."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەمتوانی ڕاستەوخۆ بجوڵێم بەھۆی ئەوەی لاقم تەواو سڕبوو بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

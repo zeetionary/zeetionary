@@ -176,12 +176,18 @@ class EnglishEntryarguably extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە باوەڕت وایە ئەتوانیت ئەوە بسەلمێنیت کە دەیڵێیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is arguably the best actor of his generation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is arguably the best actor of his generation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئەگەرێکی زۆرەوە باشترین ئەکتەری سەردەمی خۆی بووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

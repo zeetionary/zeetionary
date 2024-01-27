@@ -155,11 +155,17 @@ class EnglishEntryallowance extends StatelessWidget {
 ١. (ناو) بڕە پارەیەک کە بە بەردەوامی دەدرێت بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do you get an allowance for clothing?"),
-                              const ExampleSentenceKurdish(
-                                  text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you get an allowance for clothing?"),
+                                    ExampleSentenceKurdish(
+                                        text: "پارە وەردەگریت بۆ جلوبەرگ؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,11 +185,18 @@ class EnglishEntryallowance extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The weekly allowance for each child is £15."),
-                              const ExampleSentenceKurdish(
-                                  text: "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The weekly allowance for each child is £15."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەفتانەی ھەر منداڵێک ١٥ پاوەندە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +218,18 @@ class EnglishEntryallowance extends StatelessWidget {
 ٢. (ناو) ڕێژەی ڕێگەپێدراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The recommended daily allowance of vitamin C is 60–90 milligrams."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The recommended daily allowance of vitamin C is 60–90 milligrams."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێژەی پێشنیازکراوی ڕۆژانەی ڤیتامین C ٦٠-٩٠ میلیگرامە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

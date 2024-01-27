@@ -170,11 +170,18 @@ class EnglishEntryazure extends StatelessWidget {
 ١. (ھاوەڵناو) ڕەنگی شینی ئاسمانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sun shone out of a clear azure sky."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆر درەوشایەوە بە ئاسمانێکی شیندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sun shone out of a clear azure sky."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆر درەوشایەوە بە ئاسمانێکی شیندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +203,18 @@ class EnglishEntryazure extends StatelessWidget {
 ٢. (ناو) ڕەنگی شینی ئاسمانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was captivated by the azure of the woman's eyes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was captivated by the azure of the woman's eyes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

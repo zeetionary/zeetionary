@@ -172,11 +172,18 @@ class EnglishEntryannex extends StatelessWidget {
 ١. (کردار) داگیرکردنی وڵاتێک یان ناوچەیەک بە ھێز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Germany annexed Austria in 1938."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Germany annexed Austria in 1938."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +205,18 @@ class EnglishEntryannex extends StatelessWidget {
 ٢. (ناو) ژوورێکی زیادە کە زیاد دەکرێت بۆ ژوورێکی گەورەتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Delicate and valuable books are kept in an air-conditioned annex to the main library."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Delicate and valuable books are kept in an air-conditioned annex to the main library."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبە ناسک و بەنرخەکان لە ژوورێکی بچووکی کتێبخانە سەرەکییەکەن کە سیستەمی فێنککەرەوەی تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

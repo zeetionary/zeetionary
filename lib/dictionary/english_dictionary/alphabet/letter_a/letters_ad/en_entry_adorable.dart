@@ -126,10 +126,16 @@ class EnglishEntryadorable extends StatelessWidget {
 ١. (ھاوەڵناو) زۆر جوان و خۆشەویست"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "What an adorable child!"),
-                              const ExampleSentenceKurdish(
-                                  text: "چی منداڵێکی ژیکەڵەیە!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "What an adorable child!"),
+                                    ExampleSentenceKurdish(
+                                        text: "چی منداڵێکی ژیکەڵەیە!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

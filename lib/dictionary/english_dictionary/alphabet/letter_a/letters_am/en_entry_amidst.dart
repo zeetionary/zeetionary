@@ -155,12 +155,18 @@ class EnglishEntryamidst extends StatelessWidget {
 ١. (ئامراز) لەناوەڕاستی کاتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He finished his speech amidst tremendous applause."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەی تەواوکرد لەناوەڕاستی چەپڵەڕێزانێکی زۆردا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He finished his speech amidst tremendous applause."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی تەواوکرد لەناوەڕاستی چەپڵەڕێزانێکی زۆردا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -181,12 +187,18 @@ class EnglishEntryamidst extends StatelessWidget {
 ٢. (ئامراز) لەناوەڕاستی شتێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On the floor, amidst mounds of books, were two small envelopes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەر زەوییەکە، و لە ناوەڕاستی یەک کەڵەکە کتێبدا، دوو بەرگەنامە کەوتبوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On the floor, amidst mounds of books, were two small envelopes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەر زەوییەکە، و لە ناوەڕاستی یەک کەڵەکە کتێبدا، دوو بەرگەنامە کەوتبوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

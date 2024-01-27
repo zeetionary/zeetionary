@@ -174,10 +174,18 @@ class EnglishEntryawkwardly extends StatelessWidget {
 ١. (ھاوەڵکار) بەشێوەیەک کە وات لێ‌دەکات شەرمەزار بیت، یان شەرمەزاری پیشان دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "‘I'm sorry,’ he said awkwardly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە شەرمەزارییەوە وتی 'بمبوورە'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘I'm sorry,’ he said awkwardly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە شەرمەزارییەوە وتی 'بمبوورە'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +207,18 @@ class EnglishEntryawkwardly extends StatelessWidget {
 ٢. (ھاوەڵکار) بەشێوەیەک کە ئاسان نییە مامەڵەی لەگەڵ بکەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The publication of the economic statistics was awkwardly timed for the government."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The publication of the economic statistics was awkwardly timed for the government."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,11 +240,17 @@ class EnglishEntryawkwardly extends StatelessWidget {
 ٣. (ھاوەڵکار) بەشێوەیەک کە مەترستدارە یان ئاسان نییە مامەڵەی لەگەڵ بکەیت بەھۆی شێوە یان دیزاین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The car was parked awkwardly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The car was parked awkwardly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,11 +272,18 @@ class EnglishEntryawkwardly extends StatelessWidget {
 ٤. (ھاوەڵکار) جوڵان بەشێوەیەکی نائاسوودە یان ناسرووشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She fell awkwardly and broke her ankle."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەشێوەیەکی نائاسایی کەوت و لاقی شکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She fell awkwardly and broke her ankle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشێوەیەکی نائاسایی کەوت و لاقی شکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

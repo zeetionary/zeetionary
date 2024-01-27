@@ -172,12 +172,18 @@ class EnglishEntryawakening extends StatelessWidget {
 ١. (ناو) بەئاگاھاتنەوە بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If they had expected a warm welcome, they were in for a rude awakening (= they would soon realize that it would not be warm)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If they had expected a warm welcome, they were in for a rude awakening (= they would soon realize that it would not be warm)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر چاوەڕێی پێشوازییەکی گەرمیان دەکرد، ئەوا زوو دەزانن خراپ بە ھەڵەدا چوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryawakening extends StatelessWidget {
 ٢. (ناو) کردەی ھەستکردن بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The political awakening that followed the Second World War led to a surge of anti-colonial movements."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The political awakening that followed the Second World War led to a surge of anti-colonial movements."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو بزووتنەوە سیاسییەی کە لە دوای جەنگی دووەمی جیھانی ڕوویدا بەدوای خۆیدا شەپۆلێک لە بزاڤی دژ بە کۆلۆنیاڵیزمی ھێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

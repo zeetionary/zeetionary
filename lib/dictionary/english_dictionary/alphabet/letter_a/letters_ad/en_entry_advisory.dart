@@ -127,12 +127,18 @@ class EnglishEntryadvisory extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی ڕۆڵی ڕاوێژکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is employed by the president in an advisory capacity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is employed by the president in an advisory capacity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ سەرۆک کاردەکات لە ئاستی ڕاوێژکاری."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -185,12 +185,18 @@ class EnglishEntryassociate extends StatelessWidget {
 ١. (کردار) پێکەوەبەستنی دوو شت یان کەس لە ھزردا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I always associate the smell of baking with my childhood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I always associate the smell of baking with my childhood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە بۆنی برژاندن دەبەستمەوە بە منداڵیمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +217,18 @@ class EnglishEntryassociate extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most people immediately associate addictions with drugs, alcohol and cigarettes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most people immediately associate addictions with drugs, alcohol and cigarettes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرکەس ڕاستەوخۆ ئاڵوودەیی دەبەستنەوە بە مادەی ھۆشبەر و کحول و جگەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +251,18 @@ class EnglishEntryassociate extends StatelessWidget {
 ٢. (کردار) کات بەسەربردن لەگەڵ خەڵکی، بەتایبەتی لەگەڵ کەسێک یان کەسانێک کە کەسێکی دیکە بەدڵی نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don't like you associating with those people."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don't like you associating with those people."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزم لە تێکەڵبوون لەگەڵ ئەو کەسانە نییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,12 +285,18 @@ class EnglishEntryassociate extends StatelessWidget {
 ٣. (کردار) پیشاندانی پشتگیری یان ڕەزامەندی بۆ شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I associate myself with the prime minister's remarks (= I agree with them)."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I associate myself with the prime minister's remarks (= I agree with them)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پشتگیری لێدوانەکانی سەرۆک وەزیران دەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -295,12 +319,18 @@ class EnglishEntryassociate extends StatelessWidget {
 ٤. (ناو) کەسێک کە کاری لەگەڵ دەکەیت یان زۆر لەگەڵی تێکەڵ دەبیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was known to be one of the convicted man’s associates."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was known to be one of the convicted man’s associates."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو ناسراوە بەوەی یەکێک لە ھاوەڵەکانی پیاوە تاوەنبارەکە بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -323,12 +353,18 @@ class EnglishEntryassociate extends StatelessWidget {
 ٥. (ھاوەڵناو) کەسێک کە لە پلەیەکی نزمترە لە کارێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was only the associate producer of the movie."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was only the associate producer of the movie."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا بەرھەمھێنەری یاریدەدەر بوو لە فیلمەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,12 +177,18 @@ class EnglishEntryattache extends StatelessWidget {
 ١. (ناو) کەسێک کە لە بوارێکی تایبەتدا لە باڵیۆزخانەیەک کاردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The commercial attaché was tasked with promoting trade between the two countries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The commercial attaché was tasked with promoting trade between the two countries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

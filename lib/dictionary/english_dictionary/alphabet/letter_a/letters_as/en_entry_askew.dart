@@ -178,12 +178,18 @@ class EnglishEntryaskew extends StatelessWidget {
 ١. (ھاوەڵناو و ھاوەڵکار) شتێک کە ڕاست نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His glasses had been knocked askew by the blow."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His glasses had been knocked askew by the blow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چاویلکەکەی خواروخێچ بووبوو بەھۆی باکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

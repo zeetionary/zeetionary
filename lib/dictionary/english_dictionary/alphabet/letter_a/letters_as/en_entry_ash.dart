@@ -181,12 +181,18 @@ class EnglishEntryash extends StatelessWidget {
 ١. (ناو) پاشماوەی جێماوی شتێکی سووتاو، بۆ نموونە تۆباکۆ، دار، یان خەڵووز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He carefully tapped the cigarette ash into the ashtray."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He carefully tapped the cigarette ash into the ashtray."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەوریاییەوە سووتووی جگەرەکەی وەراندە ناو تەپڵەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -206,12 +212,18 @@ class EnglishEntryash extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Ash from the volcano fell over a wide area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ash from the volcano fell over a wide area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆڵەمێشی گڕکانەکە دابارییە سەر ناوچەیەکی فراوان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -233,11 +245,18 @@ class EnglishEntryash extends StatelessWidget {
 ٢. (ناو) پاشماوەی شتێک کە بە تەواوی وێران‌بووە یان سووتاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The town was reduced to ashes in the fighting."),
-                              const ExampleSentenceKurdish(
-                                  text: "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The town was reduced to ashes in the fighting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شارۆچکەکە بوو بە وێرانە لە شەڕەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +278,18 @@ class EnglishEntryash extends StatelessWidget {
 ٣. (ناو) پاشماوەی لەشی مردوویەک لە دوای سوتانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She wanted her ashes to be scattered at sea."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She wanted her ashes to be scattered at sea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیویست خۆڵەمێشەکەی بڕژێنرێتەوە دەریاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

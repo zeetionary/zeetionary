@@ -178,12 +178,18 @@ class EnglishEntryaspersion extends StatelessWidget {
 ١. (ناو) بڕیار یان لێدوانی نابەجێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I wouldn't want to cast aspersions on your honesty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I wouldn't want to cast aspersions on your honesty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نامەوێ لێدوانی نابەجێ بدەم لەسەر سەرڕاستیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

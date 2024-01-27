@@ -103,13 +103,19 @@ class EnglishEntryabdomen extends StatelessWidget {
 ١. (ناو) ئەو بەشەی لەشە کە دەکەوێتە ژێر سنگ و گەدە و ڕیخۆڵەکان و ئەندامی دیکەی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Patients reported pain in the lower chest or upper abdomen."),
-                              // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەخۆشەکان گوتیان کە ئازاریان ھەیە لە بەشی خوارەوەی سنگیان یان بەشی سەرەوەی سکیان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Patients reported pain in the lower chest or upper abdomen."),
+                                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشەکان گوتیان کە ئازاریان ھەیە لە بەشی خوارەوەی سنگیان یان بەشی سەرەوەی سکیان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

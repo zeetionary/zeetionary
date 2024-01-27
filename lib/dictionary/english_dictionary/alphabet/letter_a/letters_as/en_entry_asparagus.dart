@@ -178,12 +178,18 @@ class EnglishEntryasparagus extends StatelessWidget {
 ١. (ناو) ڕووەکێکە کە قەدی سپی یان سەوزی ھەیە کە دەکوڵێندرێن و دەخورێن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Asparagus is a good source of vitamins A, C, and K, as well as fiber and potassium."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەسپارگس ڤیتامین A و C و K تێدایە لەگەڵ ڕیشاڵ و پۆتاسیۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

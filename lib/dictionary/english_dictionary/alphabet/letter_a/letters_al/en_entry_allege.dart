@@ -128,12 +128,18 @@ class EnglishEntryallege extends StatelessWidget {
 ١. (کردار) وتنی شتێک بەبێ بەڵگە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is alleged that he mistreated the prisoners."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is alleged that he mistreated the prisoners."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوترێت خراپ مامەڵەی لەگەڵ زیندانیان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryallege extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The two men allege (that) the police forced them to make false confessions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The two men allege (that) the police forced them to make false confessions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو پیاوەکە بانگەشەی ئەوە دەکەن کە پۆلیس ناچار بە دانپیانانی ھەڵەی کردوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

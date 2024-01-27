@@ -180,11 +180,18 @@ class EnglishEntryastuteness extends StatelessWidget {
 ١. (ناو) زیرەک و خێرا لە تێگەشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She is admired for her political astuteness."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She is admired for her political astuteness."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -113,12 +113,18 @@ class EnglishEntryaccidental extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک بە ڕێکەوت ڕووبدات، نەک بە پلان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I didn't think our meeting was accidental—he must have known I would be there."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I didn't think our meeting was accidental—he must have known I would be there."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وا ھەست ناکەم چاوپێکەوتنەکەمان بە ھەڵکەوت بووبێت، ئەبێت زانیبێتی من لەوێ دەبم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

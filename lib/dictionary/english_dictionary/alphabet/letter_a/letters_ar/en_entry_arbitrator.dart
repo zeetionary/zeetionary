@@ -177,12 +177,18 @@ class EnglishEntryarbitrator extends StatelessWidget {
 ١. (ناو) کەسێک کە دادوەری لە ناکۆکییەک دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An outside arbitrator may be appointed in such cases."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An outside arbitrator may be appointed in such cases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەم حاڵەتانەدا ناوبژیکارێکی دەرەکی ڕەنگە دیاری‌بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

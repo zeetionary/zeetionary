@@ -170,10 +170,16 @@ class EnglishEntryavidly extends StatelessWidget {
 ١. (ھاوەڵکار) بە تامەزرۆیی زۆرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She reads avidly."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە تامەزرۆییەوە دەخوێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She reads avidly."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە تامەزرۆییەوە دەخوێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

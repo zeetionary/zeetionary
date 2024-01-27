@@ -174,12 +174,18 @@ class EnglishEntryaxe extends StatelessWidget {
 ١. (ناو) ئەسپاپێک کە دەسکێکی دارین و دەمێکی ئاسنینی ھەیە بۆ بڕینەوەی دار و تەخە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Julian used an axe to chop down the old apple tree."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جولیان تەورێکی بەکارھێنا بۆ بڕینەوەی دار سێوە کۆنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Julian used an axe to chop down the old apple tree."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جولیان تەورێکی بەکارھێنا بۆ بڕینەوەی دار سێوە کۆنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -200,12 +206,18 @@ class EnglishEntryaxe extends StatelessWidget {
 ٢. (ناو) داخران یان لەدەستدانی کار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Up to 300 workers are facing the axe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زیاتر لە ٣٠٠ کەس کارەکانیان لەدەستدەدەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Up to 300 workers are facing the axe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زیاتر لە ٣٠٠ کەس کارەکانیان لەدەستدەدەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -226,12 +238,18 @@ class EnglishEntryaxe extends StatelessWidget {
 ٣. (کردار) کۆتایی پێھێنان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The series was axed after only six episodes."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دراماکە کۆتایی پێھێندرا تەنھا لە دوای شەش زنجیرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The series was axed after only six episodes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دراماکە کۆتایی پێھێندرا تەنھا لە دوای شەش زنجیرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -252,10 +270,17 @@ class EnglishEntryaxe extends StatelessWidget {
 ٤. (کردار) دەرکردن لە کار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Michael has been axed from the team."),
-                              const ExampleSentenceKurdish(
-                                  text: "مایکڵ لە تیمەکە دەرکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Michael has been axed from the team."),
+                                    ExampleSentenceKurdish(
+                                        text: "مایکڵ لە تیمەکە دەرکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -139,12 +139,18 @@ class EnglishEntryalso extends StatelessWidget {
 ١. (ھاوەڵکار) ھەروەھا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's fluent in French and German. She also speaks a little Italian."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's fluent in French and German. She also speaks a little Italian."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فەرەنسی و ئەڵمانی بە پاراوی دەزانێت. ھەروەھا کەمێک ئیتالیش دەزانێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -163,12 +169,18 @@ class EnglishEntryalso extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I didn't like it that much. Also, it was much too expensive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I didn't like it that much. Also, it was much too expensive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرم حەز لێ نەبوو. ھەروەھا زۆریش گران بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

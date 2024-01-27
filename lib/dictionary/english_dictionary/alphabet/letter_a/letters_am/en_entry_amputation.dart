@@ -171,12 +171,18 @@ class EnglishEntryamputation extends StatelessWidget {
 ١. (ھاوەڵناو) کردەی بڕینەوەی باڵ، لاق، یان پەنجەی کەسێک بە نەشتەرگەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A boyhood accident led to the amputation of one of his legs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A boyhood accident led to the amputation of one of his legs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوێک لە کاتی منداڵی‌یدا بوو بەھۆی بڕینەوەی لاقێکی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

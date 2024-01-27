@@ -126,10 +126,16 @@ class EnglishEntryacrylic extends StatelessWidget {
 ١. (ھاوەڵناو) درووستکراو لە مادەیەک کە بە پڕۆسەی کیمیایی درووستکراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "an acrylic sweater"),
-                              const ExampleSentenceKurdish(
-                                  text: "فانیلەیەلی ئەکریلیک"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "an acrylic sweater"),
+                                    ExampleSentenceKurdish(
+                                        text: "فانیلەیەلی ئەکریلیک"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -147,10 +153,16 @@ class EnglishEntryacrylic extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "acrylic paint"),
-                              const ExampleSentenceKurdish(
-                                  text: "بۆیەی ئەکریلیک"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "acrylic paint"),
+                                    ExampleSentenceKurdish(
+                                        text: "بۆیەی ئەکریلیک"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

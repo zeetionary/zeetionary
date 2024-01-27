@@ -180,12 +180,18 @@ class EnglishEntryauspicious extends StatelessWidget {
 ١. (ھاوەڵناو) پیشاندانی ئاماژەی ئەوەی شتێک لە داھاتوودا سەرکەوتوو دەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It was an auspicious date for a wedding."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was an auspicious date for a wedding."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

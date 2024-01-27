@@ -180,12 +180,18 @@ class EnglishEntryastonishment extends StatelessWidget {
 ١. (ناو) سەرسامیی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He stared in astonishment at the stranger."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He stared in astonishment at the stranger."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -130,12 +130,18 @@ class EnglishEntryairtoair extends StatelessWidget {
 ١. (ھاوەڵناو) موشەکێک کە لە ئاسمانەوە دەھاوءژرێت بۆ ئامانجێک کە لە ئاسمانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The aid includes 200 supersonic air-to-air missiles and military communications equipment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ کەرەستەی پەیوەندی سەربازی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The aid includes 200 supersonic air-to-air missiles and military communications equipment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یارمەتییەکە ٢٠٠ مووشەکی دەنگبڕی ئاسمان بۆ ئاسمان لەخۆدەگرێت لەگەڵ کەرەستەی پەیوەندی سەربازی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

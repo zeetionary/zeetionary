@@ -179,12 +179,18 @@ class EnglishEntryarticulately extends StatelessWidget {
 ١. (ھاوەڵکار) بەڕوونی قسەکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He spoke articulately about each of the paintings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەڕوونی قسەی‌کرد سەبارەت بە ھەریەکە لە تابلۆکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spoke articulately about each of the paintings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەڕوونی قسەی‌کرد سەبارەت بە ھەریەکە لە تابلۆکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -185,12 +185,18 @@ class EnglishEntryattraction extends StatelessWidget {
 ١. (ناو) شوێنێکی خۆش و سەرنجڕاکێش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Buckingham Palace is a major tourist attraction."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Buckingham Palace is a major tourist attraction."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکینگھام پاڵاس شوێنێکی گەشتیاری سەرنجڕاکێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -213,12 +219,18 @@ class EnglishEntryattraction extends StatelessWidget {
 ٢. (ناو) حەزکردن لە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She felt an immediate attraction for him."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She felt an immediate attraction for him."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەستی بە دڵبەستەییەکی دەستبەجێ کرد بۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -239,12 +251,18 @@ class EnglishEntryattraction extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sexual attraction is a large part of falling in love."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sexual attraction is a large part of falling in love."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزی سێکسی یەکێکە لە لایەنە گەورەکانی کەوتنە خۆشەویستی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -267,11 +285,17 @@ class EnglishEntryattraction extends StatelessWidget {
 ٣. (ناو) تایبەتمەندییەک یان خاسیەتێک کە شتێک ھەیەتی و سەرنجڕاکێشی دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "City life holds little attraction for me."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژیانی شار باڵکێش نییە لام."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "City life holds little attraction for me."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژیانی شار باڵکێش نییە لام."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -292,12 +316,18 @@ class EnglishEntryattraction extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The main attraction of the place is the nightlife."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The main attraction of the place is the nightlife."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خاسیەتی دڵڕفێنی شوێنەکە ژیانی شەوانیەتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,12 +350,18 @@ class EnglishEntryattraction extends StatelessWidget {
 ٤. (ناو) ھێزێک کە شتەکان بەرەو یەکتر ڕادەکێشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The gravitational attraction between the Earth and the Moon keeps the Moon in orbit."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھێزی کێشکردنی نێوان زەوی و مانگ وادەکات مانگ لە خولگەی خۆیدا بمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -177,10 +177,17 @@ class EnglishEntryasphyxiate extends StatelessWidget {
 ١. (کردار) خنکان یان خنکاندن، ھەناسە‌لێ‌بڕان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was asphyxiated by the smoke."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە دووکەڵەکە خنکا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was asphyxiated by the smoke."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە دووکەڵەکە خنکا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

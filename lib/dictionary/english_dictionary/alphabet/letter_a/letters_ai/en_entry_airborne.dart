@@ -127,12 +127,18 @@ class EnglishEntryairborne extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی توانای جوڵان لە ھەوادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Do not leave your seat until the plane is airborne."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do not leave your seat until the plane is airborne."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کورسییەکەت جێ مەھێڵە تا فڕۆکە دەچێتە ئاسمان (بارودۆخی فڕین)."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

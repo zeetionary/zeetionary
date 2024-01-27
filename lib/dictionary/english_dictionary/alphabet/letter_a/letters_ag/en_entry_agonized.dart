@@ -127,12 +127,18 @@ class EnglishEntryagonized extends StatelessWidget {
 ١. (ھاوەڵناو) چەشتنی ئازار و پیشاندانی، یان نیگەرانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "After five months of agonized debate they signed the treaty."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "After five months of agonized debate they signed the treaty."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە دوای پێنج مانگ مشتومڕی بەسوێ ڕێککەوتنەکەیان واژۆکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

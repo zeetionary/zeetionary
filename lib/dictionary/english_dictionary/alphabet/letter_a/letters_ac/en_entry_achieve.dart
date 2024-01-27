@@ -138,12 +138,18 @@ class EnglishEntryachieve extends StatelessWidget {
 ١. (کردار) بەدەستھێنانی شتێک لە دوای ھەوڵێکی زۆر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has worked hard to achieve her goal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has worked hard to achieve her goal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە زەحمەتەوە کاریکرد بۆ بەدەستھێنانی ئامانجەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -161,12 +167,18 @@ class EnglishEntryachieve extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Sooner or later our efforts will achieve results."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Sooner or later our efforts will achieve results."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زوو یان درەنگ ھەوڵەکانمان دەگات بە ئامانج"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -186,12 +198,18 @@ class EnglishEntryachieve extends StatelessWidget {
 ٢. (کردار) سەرکەوتن لە کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All you've achieved is to upset my parents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All you've achieved is to upset my parents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەموو ئەوەی کردووتە بێزارکردنی دایک و باوکمانە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -211,12 +229,18 @@ class EnglishEntryachieve extends StatelessWidget {
 ٣. (کردار) سەرکەوتووبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Students need to achieve academically in order to enter the labour market."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Students need to achieve academically in order to enter the labour market."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکاران دەبێت لەلایەنی خوێندنەوە سەرکەوتووبن بۆ ئەوەی بچنە ناو بازاڕی کارەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

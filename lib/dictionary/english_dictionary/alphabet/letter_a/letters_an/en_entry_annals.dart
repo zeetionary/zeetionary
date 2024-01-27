@@ -171,12 +171,18 @@ class EnglishEntryannals extends StatelessWidget {
 ١. (ھاوەڵناو) تۆماری مێژوویی؛ تۆماری فەرمی ڕووداو و چالاکیی ساڵانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His deeds went down in the annals of British history."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His deeds went down in the annals of British history."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارەکانی چوونە تۆماری مێژووی بەریتانیاوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +202,18 @@ class EnglishEntryannals extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is a historic day in the annals of the team."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is a historic day in the annals of the team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە ڕۆژێکی مێژووییە لە مێژوونامەی تیمەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -168,12 +168,18 @@ class EnglishEntryanchovy extends StatelessWidget {
 ١. (ناو) ماسییەکی بچووک کە دەخورێت و تامی سوێرە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Decorate the top of the pizza with anchovies/strips of anchovy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Decorate the top of the pizza with anchovies/strips of anchovy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرەوەی پیتزاکە بڕازێنەوە بە پارچە ئانچۆڤی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

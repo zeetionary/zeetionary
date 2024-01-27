@@ -148,10 +148,18 @@ class EnglishEntryalight extends StatelessWidget {
 ١. (ھاوەڵناو) ئاگرگرتوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A car was overturned and set alight."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A car was overturned and set alight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلێک وەرگەڕا و ئاگری گرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -172,12 +180,18 @@ class EnglishEntryalight extends StatelessWidget {
 ٢. (کردار) نیشتنەوە لەسەر شتێک لە دوای فڕین بۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several birds alighted on the branches of the tree."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several birds alighted on the branches of the tree."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک باڵندە لەسەر لقەکانی دارەکە نیشتنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,11 +212,18 @@ class EnglishEntryalight extends StatelessWidget {
 ٣. (کردار) دابەزین لە پاسێک یان شەمەندەفەرێک، یان ئامێرێکی دیکەی گواستنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do not alight from a moving bus."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do not alight from a moving bus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پاسێک دامەبەزە کە ھێشتا لە جووڵە دایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryalleged extends StatelessWidget {
 ١. (ھاوەڵناو) بانگەشەبۆکراو بەبێ بەڵگە """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The girl gave evidence in court against her alleged attacker."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The girl gave evidence in court against her alleged attacker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کچەکە لە داگا بەڵگەی پێشکەشکرد دژ بە ھێرشکارە تاوانبارکراوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

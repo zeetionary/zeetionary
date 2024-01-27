@@ -176,12 +176,18 @@ class EnglishEntryappliance extends StatelessWidget {
 ١. (ناو) ئامێرێکی ماڵەوە کە دیزاین کراوە بۆ کردنی کارێک، بۆ نموونە ئامادەکردنی خۆراک، گەرمکردنەوە، یان پاککردنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Always switch off appliances that are not in use."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Always switch off appliances that are not in use."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە ئەو ئامێرانە بکوژێنەوە کە لە کاردا نین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

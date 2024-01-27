@@ -128,12 +128,18 @@ class EnglishEntryamaze extends StatelessWidget {
 ١. (کردار) سەرسامکردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Just the size of the place amazed her."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Just the size of the place amazed her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەورەیی شوێنەکە بە تەنھا سەرسامی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,12 +158,18 @@ class EnglishEntryamaze extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "What amazes me is how long she managed to hide it from us."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "What amazes me is how long she managed to hide it from us."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەوەی سەرسامم دەکات ئەوەیە کە چەند زۆر توانی لێمان بشارێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

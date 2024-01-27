@@ -127,11 +127,18 @@ class EnglishEntryafresh extends StatelessWidget {
 ١. (ھاوەڵکار) دووبارە لە سەرەتاوە، زۆرجار بەشێوەیەکی جیاوازتر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "It was a chance to start afresh."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was a chance to start afresh."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شانسێک بوو بۆ ئەوەی سەرلەنوێ دەستپێبکەینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

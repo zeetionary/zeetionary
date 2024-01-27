@@ -131,11 +131,17 @@ class EnglishEntryamenable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە ئاسان کاریگەر دەبێت یان کۆنترۆڵ دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They had three very amenable children."),
-                              const ExampleSentenceKurdish(
-                                  text: "سێ منداڵی گوێگریان ھەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They had three very amenable children."),
+                                    ExampleSentenceKurdish(
+                                        text: "سێ منداڵی گوێگریان ھەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -156,10 +162,17 @@ class EnglishEntryamenable extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He seemed most amenable to my idea."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر قایل دیاربوو بە بیرۆکەکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He seemed most amenable to my idea."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر قایل دیاربوو بە بیرۆکەکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

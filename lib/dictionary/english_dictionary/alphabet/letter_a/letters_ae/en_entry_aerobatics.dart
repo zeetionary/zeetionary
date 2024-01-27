@@ -128,12 +128,18 @@ class EnglishEntryaerobatics extends StatelessWidget {
 ١. (ناو) ئەنجامدانی جوڵەی سەرکێشی بە فڕۆکە لە ئاسماندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The crowd was entertained with a display of aerobatics."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The crowd was entertained with a display of aerobatics."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جەماوەرەکە دڵخۆشبوون بە نمایشی فڕۆکەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

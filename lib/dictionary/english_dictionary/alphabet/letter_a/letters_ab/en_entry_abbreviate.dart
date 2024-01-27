@@ -104,12 +104,18 @@ class EnglishEntryAbbreviate extends StatelessWidget {
 ١. (کردار) کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنھا بەکارھێنانی پیتەکانی سەرەتا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When taking notes, it's helpful to abbreviate long phrases to save time and space."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When taking notes, it's helpful to abbreviate long phrases to save time and space."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

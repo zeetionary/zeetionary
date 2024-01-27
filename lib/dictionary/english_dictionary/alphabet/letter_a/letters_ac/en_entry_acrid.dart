@@ -127,10 +127,17 @@ class EnglishEntryacrid extends StatelessWidget {
 ١. (ھاوەڵناو) ھەبوونی بۆنێکی ناخۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "acrid smoke from burning tyres"),
-                              const ExampleSentenceKurdish(
-                                  text: "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "acrid smoke from burning tyres"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووکەڵی بۆنناخۆش لە تایەی سووتاوەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -172,11 +172,18 @@ class EnglishEntryanalogy extends StatelessWidget {
 ١. (ناو) بەراوردکارییەک لەگەڵ شتێک کە خاسیەتی لێکچووی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The teacher drew an analogy between the human heart and a pump."),
-                              const ExampleSentenceKurdish(
-                                  text: "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The teacher drew an analogy between the human heart and a pump."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مامۆستاکە دڵی مرۆڤی چواند بە پەمپێک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,11 +203,18 @@ class EnglishEntryanalogy extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The computer is a useful analogy for the brain."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The computer is a useful analogy for the brain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپیوتەر لێکچوویەکی باشە بۆ مێشک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -222,12 +236,18 @@ class EnglishEntryanalogy extends StatelessWidget {
 ٢. (ناو) پڕۆسەی بەراوردکردنی دوو شتی لێكچوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We can understand this theory by analogy with human beings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We can understand this theory by analogy with human beings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتوانین لەم بیردۆزە تێ‌بگەین بە بەراوردکردنی بە مرۆڤ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

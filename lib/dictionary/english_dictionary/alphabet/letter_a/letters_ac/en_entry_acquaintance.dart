@@ -129,12 +129,18 @@ class EnglishEntryacquaintance extends StatelessWidget {
 ١. (ناو) کەسێک کە ناسیاویت لەگەڵی ھەیە بەڵام ھاوڕێی نزیکت نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I bumped into an old acquaintance on the train."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I bumped into an old acquaintance on the train."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە شەمەندەفەرەکە ناسیاوێکی کۆنمم بینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -154,12 +160,18 @@ class EnglishEntryacquaintance extends StatelessWidget {
 ٢. (ناو) ھاوڕێیەتییەکی کەم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He hoped their acquaintance would develop further."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He hoped their acquaintance would develop further."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھیوای خواست ھاوڕێیەتییەکەیان سەر بۆ زیاتر بکێشێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

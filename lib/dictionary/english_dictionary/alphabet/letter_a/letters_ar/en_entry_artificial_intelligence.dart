@@ -180,12 +180,18 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
 ١. (ناو) لێکۆڵینەوە لە کۆمپیوتەر بۆ ئەوەی توانای بیرکردنەوەیان وەک مێشکی مرۆڤ ھەبێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Language is crucial to the development of artificial intelligence."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Language is crucial to the development of artificial intelligence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زمان زۆر گرنگە بۆ پەرەپێدانی ژیریی دەستکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

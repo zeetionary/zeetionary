@@ -168,12 +168,18 @@ class EnglishEntryangling extends StatelessWidget {
 ١. (ناو) ماسیگری، ڕاوەماسی؛ چوون بۆ ڕاوەماسی بە قولاب، زیاتر بۆ خۆشی یان وەک وەرزش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On weekends, they often go angling by the lake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On weekends, they often go angling by the lake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕۆژانی کۆتایی ھەفتە زۆرجار دەچوون بۆ ڕاوەماسی لە دەریاچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

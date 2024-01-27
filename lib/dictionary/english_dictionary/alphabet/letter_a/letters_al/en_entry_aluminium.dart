@@ -131,12 +131,18 @@ class EnglishEntryaluminium extends StatelessWidget {
 ١. (ناو) مادەیەکی سووکی کانزاییە کە بەکاردێت بۆ درووستکردنی کەرەستەی خواردن و پیشەسازی ئۆتۆمبێل"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      " Aluminium is rapidly oxidized in air."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            " Aluminium is rapidly oxidized in air."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاڵومینیۆم بەخێرایی ژەنگ دەکات لە ھەوادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

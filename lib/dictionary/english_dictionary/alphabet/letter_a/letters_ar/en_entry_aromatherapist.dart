@@ -177,12 +177,18 @@ class EnglishEntryaromatherapist extends StatelessWidget {
  """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I was interested in alternative medicine and becoming an aromatherapist."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I was interested in alternative medicine and becoming an aromatherapist."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزم لە چارەسەری سرووشتی و گیادەرمانی بوو و بوون بە ئێرۆماسێراپیست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

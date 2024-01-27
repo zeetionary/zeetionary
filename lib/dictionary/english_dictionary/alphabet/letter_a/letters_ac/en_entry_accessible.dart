@@ -131,12 +131,18 @@ class EnglishEntryaccessible extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە بەردەستە و بە ئاسانی دەتوانرێت بەکاربھێندرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The remote desert area is accessible only by helicopter."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The remote desert area is accessible only by helicopter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوچە بیابانە دوورەدەستەکە تەنھا لە ڕێگەی ھەلیکۆپتەرەوە دەتوانرێت سەردانی بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -155,12 +161,18 @@ class EnglishEntryaccessible extends StatelessWidget {
 ٢. (ھاوەڵناو) شتێک کە دەکرێت بەکاربھێبدرێت یان بەردەست بێت بۆ کەسێک کە کێشەی لە ڕێکردن ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The beach should be accessible to everyone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The beach should be accessible to everyone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەنار دەریاکە دەبێت بۆ ھەمووکەسێک بەردەست بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -179,11 +191,17 @@ class EnglishEntryaccessible extends StatelessWidget {
 ٣. (ھاوەڵناو) ئاسان بۆ تێگەیشتن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Her poetry is always very accessible."),
-                              const ExampleSentenceKurdish(
-                                  text: "شیعرەکانی بۆ گەورە و بچووکن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her poetry is always very accessible."),
+                                    ExampleSentenceKurdish(
+                                        text: "شیعرەکانی بۆ گەورە و بچووکن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

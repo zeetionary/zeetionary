@@ -127,12 +127,18 @@ class EnglishEntryagrarian extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە جووتیاران و کشتوکاڵ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The central government was urged to adopt a massive public investment programme in the agrarian sector to enhance grain production."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The central government was urged to adopt a massive public investment programme in the agrarian sector to enhance grain production."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەتی ناوەندی ھاندرا بۆ دەستپێکردنی پڕۆگرامێکی گەورەی وەبەرھێنانی گشتگیر لە کەرتی کشتوکاڵی بۆ زیادکردنی بەرھەمھێنانی گەنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

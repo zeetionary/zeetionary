@@ -105,12 +105,18 @@ class EnglishEntryabnormality extends StatelessWidget {
 ١. (ناو) تایبەتمەندییەکی کەسێک/شتێک کە ئاسایی نییە و زیانی ھەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "miscarriage can be caused by fetal abnormality"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "miscarriage can be caused by fetal abnormality"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

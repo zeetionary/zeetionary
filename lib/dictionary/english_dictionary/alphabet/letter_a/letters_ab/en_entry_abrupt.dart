@@ -121,12 +121,18 @@ class EnglishEntryabrupt extends StatelessWidget {
 ١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The accident brought his career to an abrupt end."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The accident brought his career to an abrupt end."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -145,12 +151,18 @@ class EnglishEntryabrupt extends StatelessWidget {
 ٢. (ھاوەڵناو) قسەکردن بەشێوەیەکی ناشرین، زۆرجار بە بەکارھێنانی وشەی کەمتر لەوەی پێویستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was very abrupt with me in our meeting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was very abrupt with me in our meeting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

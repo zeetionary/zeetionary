@@ -128,12 +128,18 @@ class EnglishEntryaffection extends StatelessWidget {
 ١. (ناو) سۆز و خۆشەویستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Children need lots of love and affection."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Children need lots of love and affection."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵان پێویستیان بە سۆز و خەشەویستی زۆر ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -152,11 +158,18 @@ class EnglishEntryaffection extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I have a great affection for New York."),
-                              const ExampleSentenceKurdish(
-                                  text: "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I have a great affection for New York."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خۆشەویستی زۆرم بۆ نیویۆرک ھەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

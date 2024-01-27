@@ -179,12 +179,18 @@ class EnglishEntryascent extends StatelessWidget {
 ١. (ناو) کرداری سەرکەوتن بە شوێنێکدا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکەم سەرکەوتن بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The first ascent of Mount Everest, achieved in 1953 by Edmund Hillary and Tenzing Norgay, marked a pivotal moment in mountaineering history."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکەم سەرکەوتن بەسەر چیای ئێڤرست لە ساڵی ١٩٥٣ لەلایەن ئێدمند ھیلاری و تێنزینگ نۆرگای بوو، و ساتێکی وەرچەرخێنەر بوو لە مێژووی شاخەوانیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,12 +210,18 @@ class EnglishEntryascent extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As the plane made its ascent, we saw thick smoke coming from one engine."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە فڕۆکەکە دەستی‌کرد بە بەرزبوونەوە، دووکەڵی ئەستوورمان بینی لە یەکێک لە بزوێنەرەکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As the plane made its ascent, we saw thick smoke coming from one engine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە فڕۆکەکە دەستی‌کرد بە بەرزبوونەوە، دووکەڵی ئەستوورمان بینی لە یەکێک لە بزوێنەرەکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

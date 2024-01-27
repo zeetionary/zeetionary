@@ -176,12 +176,18 @@ class EnglishEntryarmedforces extends StatelessWidget {
 ١. (ناو) ھێزە چەکدارەکانی وڵاتێک؛ ھێزی زەمینی و ئاسمانی و دەریایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Morale in the armed forces was at rock bottom."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Morale in the armed forces was at rock bottom."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ورەی ھێزە چەکدارەکان لەوپەڕی نزمیدا بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

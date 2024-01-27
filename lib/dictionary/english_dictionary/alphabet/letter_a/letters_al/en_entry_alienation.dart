@@ -131,11 +131,18 @@ class EnglishEntryalienation extends StatelessWidget {
 ١. (ناو) دوورەپەرێزبوون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The new policy resulted in the alienation of many voters."),
-                              const ExampleSentenceKurdish(
-                                  text: "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The new policy resulted in the alienation of many voters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیاسەتە تازەکە زۆر دەنگدەری وەلاخست."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +164,18 @@ class EnglishEntryalienation extends StatelessWidget {
 ٢. (ناو) ھەستی نامۆیی؛ ئەوەی کە لە شوێنی گونجاوی خۆت نیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many young people suffer from a sense of alienation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many young people suffer from a sense of alienation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر کەسی گەنج بەدەست ھەستی نامۆیی دەناڵێنن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

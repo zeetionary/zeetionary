@@ -147,12 +147,18 @@ class EnglishEntryalliance extends StatelessWidget {
 ١. (ناو) ڕێککەوتنێک لەنێوان دوو وڵات یان دوو لایەن بۆ بەدەستھێنانی شتێک کە ھەموویان بە ھاوبەشی دەیانەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has tried to forge alliances with environmentalists."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has tried to forge alliances with environmentalists."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت ھەوڵیداوە ھاوپەیمانییەک لەگەڵ ژینگەدۆستان ببەستێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -172,12 +178,18 @@ class EnglishEntryalliance extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The marriage was meant to cement the alliance between the two countries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The marriage was meant to cement the alliance between the two countries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئامانج لە ھاوسەرگیرییەکە ئەوەبوو ھاوپەیمانی لەنێوان دوو وڵاتەکە پتەو بکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +211,18 @@ class EnglishEntryalliance extends StatelessWidget {
 ٢. (ناو) کۆمەڵە وڵاتێک یان لایەنێک کە ڕێککەوتنێک ھەیە لەنێوانیان بۆ بەدەستھێنانی شتێک کە ھەموویان بە ھاوبەشی دەیانەوێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Seven more countries have been invited to join the alliance."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Seven more countries have been invited to join the alliance."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەوت وڵاتی دیکە بانگھێشتکراون پەیوەندی بە ھاوپەیمانییەکەوە بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryadjudicator extends StatelessWidget {
 ١. (ناو) کەسێک کە ناوبژی لەنێوان دوو کەس یان شت دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You may refer your complaint to an independent adjudicator."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You may refer your complaint to an independent adjudicator."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

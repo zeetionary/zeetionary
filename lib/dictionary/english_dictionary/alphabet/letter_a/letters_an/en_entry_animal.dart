@@ -175,11 +175,18 @@ class EnglishEntryanimal extends StatelessWidget {
 ١. (ناو) ئاژەڵ؛ گیانلەبەرێک کە باڵندە، ماسی، خشۆک، مێروو، یان مرۆڤ نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The animal began to sicken and soon died."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاژەڵەکە لاوازبوو و بەزووی مرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The animal began to sicken and soon died."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵەکە لاوازبوو و بەزووی مرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,10 +206,16 @@ class EnglishEntryanimal extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "A horse is a large animal."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەسپ ئاژەڵێکی گەورەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A horse is a large animal."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەسپ ئاژەڵێکی گەورەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -224,12 +237,18 @@ class EnglishEntryanimal extends StatelessWidget {
 ٢. (ناو) ھەرشتێکی زیندوو کە مرۆڤ یان ڕووەک نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This product has not been tested on animals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This product has not been tested on animals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم بەرھەمە ھێشتا لەسەر ئاژەڵ تاقی‌نەکراوەتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -251,12 +270,18 @@ class EnglishEntryanimal extends StatelessWidget {
 ٣. (ناو) ھەرشتێکی زیندوو، بە مرۆڤیشەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Humans are the only animals to have developed speech."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێدابێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Humans are the only animals to have developed speech."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مرۆڤ تەنھا گیانلەبەرە کە توانای قسەکردنی گەشەپێدابێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -278,12 +303,18 @@ class EnglishEntryanimal extends StatelessWidget {
 ٤. (ناو) کەسێک کە بە دڕندەیی ڕەفتار دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's a real animal when he's had too much to drink."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's a real animal when he's had too much to drink."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەبێت بە دڕندەیەکی تەواو کە زۆر دەخواتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -305,12 +336,18 @@ class EnglishEntryanimal extends StatelessWidget {
 ٥. (ھاوەڵناو) پەیوەندیدار بە حەزی جەستەیی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She knew that Dave wasn't the right man for her but she couldn't deny the animal attraction between them."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەیزانی دەیڤ کەسێکی شیاو نییە بۆی، بەڵام نەیدەتوانی نکۆڵی بکات لە حەزی جەستەییان بۆ یەکدی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -330,11 +367,17 @@ class EnglishEntryanimal extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As an actor, he has a sort of animal magnetism."),
-                              const ExampleSentenceKurdish(
-                                  text: "وەک ئەکتەرێک، کەسێکی دڵبەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As an actor, he has a sort of animal magnetism."),
+                                    ExampleSentenceKurdish(
+                                        text: "وەک ئەکتەرێک، کەسێکی دڵبەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

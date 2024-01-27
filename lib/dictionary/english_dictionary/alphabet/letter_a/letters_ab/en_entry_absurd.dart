@@ -121,12 +121,18 @@ class EnglishEntryabsurd extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی گاڵتەجاڕانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That uniform makes the guards look absurd."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That uniform makes the guards look absurd."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -143,12 +149,18 @@ class EnglishEntryabsurd extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Of course it's not true, what an absurd idea."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Of course it's not true, what an absurd idea."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەدڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

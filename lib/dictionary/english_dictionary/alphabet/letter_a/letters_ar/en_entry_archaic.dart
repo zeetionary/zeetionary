@@ -178,12 +178,18 @@ class EnglishEntryarchaic extends StatelessWidget {
 ١. (ھاوەڵناو) شتێکی کۆن کە چیتر لە بەکارھێناندا نییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Thou art’ is an archaic form of ‘you are’."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Thou art’ is an archaic form of ‘you are’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "‘Thou art’ شێوەیەکی کۆنە بۆ ‘you are’."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -205,12 +211,18 @@ class EnglishEntryarchaic extends StatelessWidget {
 ٢. (ھاوەڵناو) کۆنەباو و نەگونجاو بۆ ئێستا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The system is archaic and unfair and needs changing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The system is archaic and unfair and needs changing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سیستەمەکە کۆنەباو و نادادپەروەرە و پێویستی بە گۆڕانکارییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -232,11 +244,18 @@ class EnglishEntryarchaic extends StatelessWidget {
 ٢. (ھاوەڵناو) کۆنەباو و نەگونجاو بۆ ئێستا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Many museums showcase archaic art."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many museums showcase archaic art."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرێک لە مۆزەخانەکان ھونەری سەردەمانی کۆن نمایش دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

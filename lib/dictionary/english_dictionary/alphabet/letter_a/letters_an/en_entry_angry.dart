@@ -173,10 +173,18 @@ class EnglishEntryangry extends StatelessWidget {
 ١. (ھاوەڵناو) تووڕە؛ بوونی ھەستی توند دەربارەی شتێک کە ڕقت لێیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her behaviour really made me angry."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەفتارەکانی بەڕاستی تووڕەیان کردم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her behaviour really made me angry."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەفتارەکانی بەڕاستی تووڕەیان کردم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -196,12 +204,18 @@ class EnglishEntryangry extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Thousands of angry demonstrators filled the square."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Thousands of angry demonstrators filled the square."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەزاران خۆپیشاندەری تووڕە چوونە گۆڕەپانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -223,10 +237,17 @@ class EnglishEntryangry extends StatelessWidget {
 ٢. (ھاوەڵناو) برینێک کە سووربووەتەوە و بەئازارە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "On her leg was an angry sore."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاوساوییەکی بەئازار لەسەر لاقی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "On her leg was an angry sore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاوساوییەکی بەئازار لەسەر لاقی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -248,12 +269,18 @@ class EnglishEntryangry extends StatelessWidget {
 ٣. (ھاوەڵناو) تاریک و شەپۆلاوی و بەزریان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The angry sea with its terrible waves crashed against the rocky shore."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The angry sea with its terrible waves crashed against the rocky shore."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەریا بەزریانەکە بە شەپۆلە ترسناکەکانییەوە کێشای بە کەناراوە بەردەڵانییەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

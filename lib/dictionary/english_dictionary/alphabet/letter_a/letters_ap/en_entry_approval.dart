@@ -179,12 +179,18 @@ class EnglishEntryapproval extends StatelessWidget {
 ١. (ناو) ھەستی بەدڵبوونی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I could tell I had earned her approval."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I could tell I had earned her approval."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمتوانی بڵێم ڕەزامەندیی ئەوم بەدەست‌ھێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -204,10 +210,18 @@ class EnglishEntryapproval extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He showed his approval by smiling."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He showed his approval by smiling."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕەزامەندیی پیشان‌دا بە پێکەنین‌کردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -229,12 +243,18 @@ class EnglishEntryapproval extends StatelessWidget {
 ٢. (ناو) ڕازی‌بوون یان مۆڵەتدان بە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The plan will be submitted to the committee for official approval."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plan will be submitted to the committee for official approval."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پلانەکە پێشکەشی لیژنەکە دەکرێت بۆ پەسەندکردنی فەرمی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,10 +274,17 @@ class EnglishEntryapproval extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He won approval for his project."),
-                              const ExampleSentenceKurdish(
-                                  text: "پڕۆژەکەی پەسەندکردنی وەرگرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He won approval for his project."),
+                                    ExampleSentenceKurdish(
+                                        text: "پڕۆژەکەی پەسەندکردنی وەرگرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

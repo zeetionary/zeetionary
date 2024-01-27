@@ -171,12 +171,18 @@ class EnglishEntryavoidance extends StatelessWidget {
 ١. (ناو) دوورکەوتنەوە یان خۆدزینەوە لە شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A person's health improves with the avoidance of stress."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A person's health improves with the avoidance of stress."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

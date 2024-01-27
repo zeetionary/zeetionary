@@ -172,12 +172,18 @@ class EnglishEntryantagonist extends StatelessWidget {
 ١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He has always been the prime minister’s most formidable antagonist in Parliament."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has always been the prime minister’s most formidable antagonist in Parliament."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

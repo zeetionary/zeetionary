@@ -172,12 +172,18 @@ class EnglishEntryautonomy extends StatelessWidget {
 ١. (ناو) مافی خۆبەڕێوبەری بۆ خاکێک یان دامەزراوەیەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There is pressure for some degree of autonomy from minorities in the north of the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There is pressure for some degree of autonomy from minorities in the north of the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -199,12 +205,18 @@ class EnglishEntryautonomy extends StatelessWidget {
 ٢. (ناو) توانای بڕیاردان و ژیانکردن بە سەربەخۆیانە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "One of the aims of modern nursing is to encourage patient autonomy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "One of the aims of modern nursing is to encourage patient autonomy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

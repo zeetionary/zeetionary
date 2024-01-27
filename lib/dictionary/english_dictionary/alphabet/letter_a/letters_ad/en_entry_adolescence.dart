@@ -128,12 +128,18 @@ class EnglishEntryadolescence extends StatelessWidget {
 ١. (ناو) قۆناغی بوون بە ھەرزەکار"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Adolescence brings about major changes in a young person’s body."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Adolescence brings about major changes in a young person’s body."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرزەکاری گۆڕانکاریی گرنگ دێنێتە جەستەی کەسێکی گەنج"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

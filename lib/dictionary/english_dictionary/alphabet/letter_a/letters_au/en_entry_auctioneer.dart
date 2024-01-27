@@ -180,12 +180,18 @@ class EnglishEntryauctioneer extends StatelessWidget {
 ١. (ناو) کەسێک کە لە زیادکردنی ئاشکرادا شت دەفرۆشێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Yours for £200,’ said the auctioneer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Yours for £200,’ said the auctioneer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەڵاڵەکە وتی 'ھی تۆیە بە ٢٠٠ پاوەند'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

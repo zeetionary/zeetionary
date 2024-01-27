@@ -178,12 +178,18 @@ class EnglishEntryastrological extends StatelessWidget {
 ١. (ھاوەڵناو) سەربە یان پەیوەندیدار بە ئەستێرەبینی یان فەلەکناسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He likes to talk about his astrological sign, which is Leo, and reads his horoscope every day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

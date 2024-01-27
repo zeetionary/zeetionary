@@ -112,12 +112,18 @@ class EnglishEntryabridge extends StatelessWidget {
 ١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has been asked to abridge the novel for radio."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has been asked to abridge the novel for radio."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

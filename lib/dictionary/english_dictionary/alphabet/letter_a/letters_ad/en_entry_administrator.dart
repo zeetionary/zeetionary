@@ -131,12 +131,18 @@ class EnglishEntryadministrator extends StatelessWidget {
 ١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Such decisions are made by the hospital administrators."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Such decisions are made by the hospital administrators."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -157,12 +163,18 @@ class EnglishEntryadministrator extends StatelessWidget {
 ٢. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی سیستەمێکی کۆمپیوتەری بەدەستە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If you are unable to access the site, contact your system administrator."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you are unable to access the site, contact your system administrator."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

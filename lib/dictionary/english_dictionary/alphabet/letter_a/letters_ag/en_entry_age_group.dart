@@ -127,12 +127,18 @@ class EnglishEntryagegroup extends StatelessWidget {
 ١. (ناو) کۆمەڵە کەسێکی ھاوتەمەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "People in the younger age groups tended to vote less."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "People in the younger age groups tended to vote less."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کەسانەی تەمەنیان گەنج بوو کەمتر دەنگیان دا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

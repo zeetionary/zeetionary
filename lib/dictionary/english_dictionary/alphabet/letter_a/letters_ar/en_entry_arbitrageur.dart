@@ -175,12 +175,18 @@ class EnglishEntryarbitrageur extends StatelessWidget {
 ١. (ھاوەڵناو) ئاربیتراژۆر؛ کەسێک کە شتێک لە شوێنێک دەکڕێت و لە شوێنێکی تر بە نرخێکی زیاتر دەیفرۆشێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is one of Wall Street’s most famous arbitrageurs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is one of Wall Street’s most famous arbitrageurs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو یەکێکە لە بەناوبانگترین ئاربیتراژۆرەکانی وۆڵ ستریت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

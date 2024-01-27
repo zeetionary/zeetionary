@@ -131,10 +131,17 @@ class EnglishEntryaccompaniment extends StatelessWidget {
 ١. (ناو) میوزیکێک کە لەگەڵ گۆرانی لی ئەدرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "a song with piano accompaniment"),
-                              const ExampleSentenceKurdish(
-                                  text: "گۆرانییەک بە میوزیکوە لەگەڵی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "a song with piano accompaniment"),
+                                    ExampleSentenceKurdish(
+                                        text: "گۆرانییەک بە میوزیکوە لەگەڵی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -153,11 +160,17 @@ class EnglishEntryaccompaniment extends StatelessWidget {
 ٢. (ناو) شتێک کە لەگەڵ شتێکی تر دەیخۆیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Serve plain rice as an accompaniment."),
-                              const ExampleSentenceKurdish(
-                                  text: "برنجی سادە دابنێ وەک پاشکۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Serve plain rice as an accompaniment."),
+                                    ExampleSentenceKurdish(
+                                        text: "برنجی سادە دابنێ وەک پاشکۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -176,12 +189,18 @@ class EnglishEntryaccompaniment extends StatelessWidget {
 ٣. (ناو) شتێک کە لەگەڵ شتێکی تر ڕوودەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "High blood pressure is a common accompaniment to this disease."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "High blood pressure is a common accompaniment to this disease."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەستانی بەرزی خوێن زۆرجار لەگەڵ ئەم نەخۆشیە دەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -276,14 +276,20 @@ class EnglishEntryburden extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "We need to avoid putting a burden on taxpayers with this project."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -300,14 +306,20 @@ class EnglishEntryburden extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "Buying a house often places a large financial burden on young couples."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

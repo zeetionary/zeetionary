@@ -275,14 +275,20 @@ class EnglishEntrybuy extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "They can't afford to buy school books."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پارەیان نییە کتێبی قوتابخانە بکڕن."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -299,14 +305,20 @@ class EnglishEntrybuy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "If you're thinking of getting a new car, now is a good time to buy."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ئەگەر بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەیتەوە، ئێستا کاتێکی باشە بکڕیت."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -323,12 +335,18 @@ class EnglishEntrybuy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text: "I bought my car second-hand."),
-                                      const ExampleSentenceKurdish(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I bought my car second-hand."),
+                                      ExampleSentenceKurdish(
                                           text: "ئۆتۆمبێلێکی دەستی دووم کڕی."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

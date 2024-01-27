@@ -228,14 +228,20 @@ class EnglishEntrybreakfast extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "Do you want bacon and eggs for breakfast?"),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "گۆشتی بەراز و ھێلکە بۆ نانی بەیانی دەخۆیت؟"),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -252,14 +258,20 @@ class EnglishEntrybreakfast extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "He's in the kitchen cooking us breakfast."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "لە چێشتخانەکەیە نانی بەیانیمان بۆ ئامادە دەکات."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

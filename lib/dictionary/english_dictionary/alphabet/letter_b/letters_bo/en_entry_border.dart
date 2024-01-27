@@ -421,14 +421,20 @@ class EnglishEntryborder extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "They took steps to secure the border."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەنگاویان گرتەبەر بۆ پاراستنی سنوورەکە."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -445,14 +451,20 @@ class EnglishEntryborder extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "They spent a week in a national park on the border between Kenya and Tanzania."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەفتەیەکیان بەسەر برد لە پارکێکی نیشتیمانی لەسەر سنووری کینیا و تانزانیا."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -469,14 +481,20 @@ class EnglishEntryborder extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "It is difficult to define the border between love and friendship."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "(بەکارھێنانی خوازراوی) سەختە سنووری نێوان خۆشەویستی و پەیوەندی دیاری بکرێت."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -493,12 +511,18 @@ class EnglishEntryborder extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text: "They fled across the border."),
-                                      const ExampleSentenceKurdish(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They fled across the border."),
+                                      ExampleSentenceKurdish(
                                           text: "بە سنوورەکەدا ھەڵھاتن."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

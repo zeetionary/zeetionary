@@ -355,14 +355,20 @@ class EnglishEntrybomb extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "Police suspect terrorists planted the bomb."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "پۆلیس گومان دەکەن تیرۆریستان بۆمبەکەیان چاندبێت."),
-                                      const CustomSizedBoxForTTS(),
+                                                                        ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -379,14 +385,20 @@ class EnglishEntrybomb extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "India started to build a nuclear bomb."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -403,14 +415,20 @@ class EnglishEntrybomb extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "Eighty people died when bombs rained down on the city's crowded streets."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ھەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

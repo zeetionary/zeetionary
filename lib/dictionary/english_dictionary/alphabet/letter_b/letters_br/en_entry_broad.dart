@@ -355,10 +355,7 @@ class EnglishEntrybroad extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پان، بەرین، بەپانایی، بەبەرینی، فراوان، گەورە، کەشنار، بەربڵاو، بەرفرەھـ ھەراو
-
-
-لیبڕاڵ، ئازاد، ڕۆشن، کراوە، تێگەیشتوو، شل‌گرتوو، ئاسان‌گیر، سنگ‌فراوان، نادەمارگرژ، تۆلێرانت، گشتی، گەلەمپەری، نەبەوردەکاری، بەتەواوەتی، دیار، بەرچاو، ئاشکرا، خۆیا خەست (زۆر تایبەتمەندی زاراوەیەکی ناوچەیی پێوە دیار بێ)، بێ‌ڕەوشتانە، پیس، لەماریفەت‌بەدوور، (لە ئەمریکا، نافەرمی) ژن، بەشی پان، پانایی، بەرینایی
+کوردی: پان، بەرین، بەپانایی، بەبەرینی، فراوان، گەورە، کەشنار، بەربڵاو، بەرفرەھـ، ھەراو، لیبڕاڵ، ئازاد، ڕۆشن، کراوە، تێگەیشتوو، شل‌گرتوو، ئاسان‌گیر، سنگ‌فراوان، نادەمارگرژ، تۆلێرانت، گشتی، گەلەمپەری، نەبەوردەکاری، بەتەواوەتی، دیار، بەرچاو، ئاشکرا، خۆیا خەست (زۆر تایبەتمەندی زاراوەیەکی ناوچەیی پێوە دیار بێ)، بێ‌ڕەوشتانە، پیس، لەماریفەت‌بەدوور، (لە ئەمریکا، نافەرمی) ژن، بەشی پان، پانایی، بەرینایی
 
 ١. (ھاوەڵناو) فراوان"""),
                           Row(
@@ -419,14 +416,20 @@ class EnglishEntrybroad extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "He turned to me with a broad smile."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە بزەیەکی فراوانەوە ڕووی لێم کرد."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -443,14 +446,20 @@ class EnglishEntrybroad extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "We drove down a broad avenue lined with trees."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بە ڕێگایەکی فراواندا چووین کە بە ڕیزە دار دەوردرابوو."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -564,14 +573,20 @@ class EnglishEntrybroad extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "She took a broad view of the duties of being a teacher (= she believed her duties included a wide range of things)."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "ڕوانگەیەکی فراوانی ھەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە)."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -588,14 +603,20 @@ class EnglishEntrybroad extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                                    children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                               "The promotion helped the company reach a much broader audience."),
-                                      const ExampleSentenceKurdish(
+                                      ExampleSentenceKurdish(
                                           text:
                                               "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە ھاوڵاتی زیاتر."),
-                                      const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

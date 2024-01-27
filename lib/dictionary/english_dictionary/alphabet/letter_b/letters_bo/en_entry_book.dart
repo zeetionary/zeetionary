@@ -400,12 +400,18 @@ class EnglishEntrybook extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "I took a book with me to read on the plane."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کتێبێکم لەگەڵ خۆم برد بۆ خوێندنەوە لەسەر فڕۆکەکە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I took a book with me to read on the plane."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کتێبێکم لەگەڵ خۆم برد بۆ خوێندنەوە لەسەر فڕۆکەکە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -424,12 +430,18 @@ class EnglishEntrybook extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Her name was inscribed in the book."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Her name was inscribed in the book."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -513,12 +525,18 @@ class EnglishEntrybook extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Have you read the latest book by J. K. Rowling?"),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟"),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Have you read the latest book by J. K. Rowling?"),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟"),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -537,12 +555,18 @@ class EnglishEntrybook extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The book is dedicated to his mother."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کتێبەکە پێشکەشکراوە بە دایکی."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The book is dedicated to his mother."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کتێبەکە پێشکەشکراوە بە دایکی."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -561,12 +585,18 @@ class EnglishEntrybook extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "There's nothing like curling up with a mug of tea and a good book."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "There's nothing like curling up with a mug of tea and a good book."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -585,12 +615,18 @@ class EnglishEntrybook extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The book has received some terrible reviews."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کتێبەکە ھەندێک پاشخوردی خراپی وەرگرتووە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The book has received some terrible reviews."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کتێبەکە ھەندێک پاشخوردی خراپی وەرگرتووە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

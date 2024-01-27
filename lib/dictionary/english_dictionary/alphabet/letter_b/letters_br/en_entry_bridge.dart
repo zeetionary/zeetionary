@@ -370,7 +370,6 @@ class EnglishEntrybridge extends StatelessWidget {
                               ),
                             ],
                           ),
-                          const DividerSentences(),
                           Column(
                             children: [
                               MyExpansionTile(

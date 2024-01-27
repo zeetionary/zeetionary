@@ -308,11 +308,15 @@ class VideoIconForTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Tab(
-      icon: Image.asset(
-        'assets/images/video_one.png',
-        width: 26,
-        height: 30,
+    return const Tab(
+      // icon: Image.asset(
+      //   'assets/images/video_one.png',
+      //   width: 26,
+      //   height: 30,
+      // ),
+      icon: Text(
+        "📺",
+        style: TextStyle(fontSize: 20),
       ),
     );
   }
@@ -328,7 +332,7 @@ class KurdIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 90,
+        width: 100,
         height: 30,
       ),
     );
@@ -345,7 +349,7 @@ class UkIconForTab extends StatelessWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 90,
+        width: 100,
         height: 30,
       ),
     );

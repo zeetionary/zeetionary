@@ -293,9 +293,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 411,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -318,9 +318,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -343,9 +343,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 1105,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -368,9 +368,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 353,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -393,9 +393,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 689,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -418,9 +418,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 306,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

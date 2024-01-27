@@ -283,9 +283,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 2053,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -308,9 +308,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 707,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -333,9 +333,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 642,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -358,9 +358,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 1251,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -383,9 +383,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 1408,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -408,9 +408,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 179,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

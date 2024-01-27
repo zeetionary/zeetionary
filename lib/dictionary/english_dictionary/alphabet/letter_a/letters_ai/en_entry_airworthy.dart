@@ -259,9 +259,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -284,9 +284,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 362,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -309,9 +309,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 524,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -334,9 +334,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 684,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -359,9 +359,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 659,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -384,9 +384,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 643,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

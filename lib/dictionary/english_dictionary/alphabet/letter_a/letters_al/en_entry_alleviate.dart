@@ -290,9 +290,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -315,9 +315,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -340,9 +340,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -365,9 +365,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 293,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -390,9 +390,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -415,9 +415,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 987,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -440,9 +440,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -465,9 +465,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     startSeconds: 758,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -490,9 +490,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -515,9 +515,9 @@ class YoutubeEmbeddedten extends StatelessWidget {
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

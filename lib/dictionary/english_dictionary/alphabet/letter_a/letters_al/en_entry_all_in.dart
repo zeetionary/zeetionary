@@ -261,9 +261,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

@@ -279,9 +279,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -304,9 +304,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 1379,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -329,9 +329,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 3883,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -354,9 +354,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 1223,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -379,9 +379,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -404,9 +404,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 925,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

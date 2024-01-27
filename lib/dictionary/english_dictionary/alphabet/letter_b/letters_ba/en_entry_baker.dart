@@ -331,9 +331,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 2254,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -356,9 +356,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -381,9 +381,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 1621,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -406,9 +406,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 667,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -431,9 +431,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -456,9 +456,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -481,9 +481,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     startSeconds: 98,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -506,9 +506,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     startSeconds: 273,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -531,9 +531,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
     startSeconds: 344,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -556,9 +556,9 @@ class YoutubeEmbeddedten extends StatelessWidget {
     startSeconds: 408,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -581,9 +581,9 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
     startSeconds: 101,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -606,9 +606,9 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
     startSeconds: 469,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

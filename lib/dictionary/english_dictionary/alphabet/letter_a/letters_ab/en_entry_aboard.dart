@@ -272,9 +272,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -297,9 +297,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -322,9 +322,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
     startSeconds: 578,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -347,9 +347,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
     startSeconds: 1150,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -372,9 +372,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
     startSeconds: 1,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );
@@ -397,9 +397,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
-      showFullscreenButton: false,
       enableCaption: true,
-      mute: false,
+      captionLanguage: 'en',
+      showControls: false,
       strictRelatedVideos: true,
     ),
   );

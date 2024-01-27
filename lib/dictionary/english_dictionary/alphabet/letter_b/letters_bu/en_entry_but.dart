@@ -507,7 +507,7 @@ class EnglishEntrybut extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "It isn't that he lied exactly, but he does tend to exaggerate."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەوە نییە کە درۆی کردبێت، بەڵام مەیلی هەیە مبالغە بکات."),
                                       const CustomSizedBoxForTTS(),
@@ -531,7 +531,7 @@ class EnglishEntrybut extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The play's good, but not that good - I've seen better."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "شانۆکە باشە، بەڵام زۆر باش نا، باشترم بینیوە."),
                                       const CustomSizedBoxForTTS(),
@@ -828,7 +828,7 @@ class EnglishEntrybut extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Who but Rosa could think of something like that?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "جگە لە ڕۆزا کێ دەیتوانی بیر لە شتێکی وەها بکاتەوە؟"),
                                       const CustomSizedBoxForTTS(),
@@ -851,7 +851,7 @@ class EnglishEntrybut extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "Everyone was there but him."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "هەمووان لەوێ بوون جگە لە ئەو."),
                                       const CustomSizedBoxForTTS(),

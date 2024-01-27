@@ -410,7 +410,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Patients develop a cough and shortness of breath."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "نەخۆشەکان تووشی کۆکە و ھەناسەتەنگی دەبن."),
                                       const CustomSizedBoxForTTS(),
@@ -434,7 +434,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We had to stop for breath before we got to the top."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دەبوو بۆ ھەناسە ھەڵکێشانێک بوەستین پێش ئەوەی بگەینە لوتکەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -458,7 +458,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "While there is breath left in my body, I will refuse."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "تا ھەناسەم مابێ ڕەتیدەکەمەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -482,7 +482,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He came up out of the water gasping for breath."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لە ئاوەکە ھاتە دەرەوە و ھەنکەھەنکی بوو بۆ ھەناسە."),
                                       const CustomSizedBoxForTTS(),
@@ -506,7 +506,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She could feel his warm breath against her cheek."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھەستی بە ھەناسە گەرمەکەی دەکرد لەسەر گۆنای."),
                                       const CustomSizedBoxForTTS(),
@@ -593,7 +593,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "He let out a long breath."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ھەناسەیەکی درێژی دایەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -616,7 +616,7 @@ class EnglishEntrybreath extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I opened the window and took a deep breath."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پەنجەرەکەم کردەوە و ھەناسەیەکی قووڵم ھەڵمژی."),
                                       const CustomSizedBoxForTTS(),

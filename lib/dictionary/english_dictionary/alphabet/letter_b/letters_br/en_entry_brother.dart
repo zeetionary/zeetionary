@@ -410,7 +410,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Does she have any brothers and sisters?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ھیچ برا و خوشکی ھەیە؟"),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -433,7 +433,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Edward was the youngest of the Kennedy brothers."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئێدوارد بچووکترین بوو لەناو براکانی خێزانی کەنەدیدا."),
                                       const CustomSizedBoxForTTS(),
@@ -457,7 +457,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He was like a brother to me (= very close)."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "وەک برا وابوو بۆم."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -480,7 +480,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "My son really wanted a little brother."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کوڕەکەم زۆر حەزی لە برایەکی بچووک بوو."),
                                       const CustomSizedBoxForTTS(),
@@ -504,7 +504,7 @@ class EnglishEntrybrother extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Henry VIII married the wife of his late brother."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھێنری ھەشتەم ژنی برا کۆچکردووەکەی خواست."),
                                       const CustomSizedBoxForTTS(),

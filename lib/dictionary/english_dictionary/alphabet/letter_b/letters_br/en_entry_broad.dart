@@ -423,7 +423,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He turned to me with a broad smile."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بە بزەیەکی فراوانەوە ڕووی لێم کرد."),
                                       const CustomSizedBoxForTTS(),
@@ -447,7 +447,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We drove down a broad avenue lined with trees."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بە ڕێگایەکی فراواندا چووین کە بە ڕیزە دار دەوردرابوو."),
                                       const CustomSizedBoxForTTS(),
@@ -568,7 +568,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She took a broad view of the duties of being a teacher (= she believed her duties included a wide range of things)."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ڕوانگەیەکی فراوانی ھەبوو بۆ ئەرکەکانی (مامۆستا پێی وابوو ئەرکی زۆرە)."),
                                       const CustomSizedBoxForTTS(),
@@ -592,7 +592,7 @@ class EnglishEntrybroad extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The promotion helped the company reach a much broader audience."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بانگەشەکە یارمەتی کۆمپانیاکەی دا بگات بە ھاوڵاتی زیاتر."),
                                       const CustomSizedBoxForTTS(),

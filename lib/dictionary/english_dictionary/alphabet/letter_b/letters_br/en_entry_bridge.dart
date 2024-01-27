@@ -391,7 +391,7 @@ class EnglishEntrybridge extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Cross the bridge and turn right into the town."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بەسەر پردەکەدا بپەڕەوە و بەلای ڕاستدا بچۆ بۆ چوونە شارۆچکەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -415,7 +415,7 @@ class EnglishEntrybridge extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Floods washed away several bridges."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لافاو ژمارەیەک پردی ڕووخاندبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -439,7 +439,7 @@ class EnglishEntrybridge extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The road goes under the old bridge."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ڕێگاکە بە ژێر پردەکەدا دەچێت."),
                                       const CustomSizedBoxForTTS(),

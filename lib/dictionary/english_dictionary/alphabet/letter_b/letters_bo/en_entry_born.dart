@@ -316,7 +316,7 @@ class EnglishEntryborn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The baby was born by Caesarean section on Friday."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -340,7 +340,7 @@ class EnglishEntryborn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "These children were born into poverty."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەم منداڵانە لە ھەژاریدا لەدایکبوون."),
                                       const CustomSizedBoxForTTS(),

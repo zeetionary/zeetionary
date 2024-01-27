@@ -423,7 +423,7 @@ class EnglishEntrybright extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The morning was quite bright, but it clouded over in the afternoon."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بەیانییەکە تەواو ڕۆشن بوو، بەڵام لە نیوەڕۆدا ھەور داھات."),
                                       const CustomSizedBoxForTTS(),
@@ -447,7 +447,7 @@ class EnglishEntrybright extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The sky was still bright in the west."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئاسمان ھێشتا لە ڕۆژئاواوە ڕۆشن بوو."),
                                       const CustomSizedBoxForTTS(),

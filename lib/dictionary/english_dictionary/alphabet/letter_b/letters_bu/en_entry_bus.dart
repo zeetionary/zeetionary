@@ -274,7 +274,7 @@ class EnglishEntrybus extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Many students board the school bus before 7 a.m."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "زۆر خوێندکار دەچنە ناو پاسی قوتابخانە پێش ٧ی بەیانی."),
                                       const CustomSizedBoxForTTS(),

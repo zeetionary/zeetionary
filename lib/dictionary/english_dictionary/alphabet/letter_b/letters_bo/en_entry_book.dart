@@ -403,7 +403,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I took a book with me to read on the plane."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کتێبێکم لەگەڵ خۆم برد بۆ خوێندنەوە لەسەر فڕۆکەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -427,7 +427,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Her name was inscribed in the book."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ناوی لەسەر کتێبەکە ھەڵکۆڵدرابوو."),
                                       const CustomSizedBoxForTTS(),
@@ -516,7 +516,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Have you read the latest book by J. K. Rowling?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "تازەترین کتێبی جەی کەی ڕۆولینگت خوێندووتەوە؟"),
                                       const CustomSizedBoxForTTS(),
@@ -540,7 +540,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The book is dedicated to his mother."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کتێبەکە پێشکەشکراوە بە دایکی."),
                                       const CustomSizedBoxForTTS(),
@@ -564,7 +564,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "There's nothing like curling up with a mug of tea and a good book."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھیچ وەک ئەوە نییە پاڵبدەیتەوە لەگەڵ گڵاسێک چا و کتێبێکی باش."),
                                       const CustomSizedBoxForTTS(),
@@ -588,7 +588,7 @@ class EnglishEntrybook extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The book has received some terrible reviews."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کتێبەکە ھەندێک پاشخوردی خراپی وەرگرتووە."),
                                       const CustomSizedBoxForTTS(),

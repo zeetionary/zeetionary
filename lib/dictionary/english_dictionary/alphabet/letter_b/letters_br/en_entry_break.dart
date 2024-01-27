@@ -780,7 +780,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The boat hit a rock and broke in half."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بەلەمەکە لە تاشە بەردێکی دا و دووکەرت بوو."),
                                       const CustomSizedBoxForTTS(),
@@ -804,7 +804,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She fell off a ladder and broke her arm."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لە پەیژەیەک کەوتە خوارەوە و دەستی شکا."),
                                       const CustomSizedBoxForTTS(),
@@ -828,7 +828,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He broke the chocolate in two."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "چکلێتەکەی کرد بە دوو کەرتەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -852,7 +852,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The glass broke into hundreds of pieces."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "شووشەکە بوو بە سەدان پارچەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -876,7 +876,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I didn't mean to break the window."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "مەبەستم نەبوو پەنجەرەکە بشکێنم."),
                                       const CustomSizedBoxForTTS(),
@@ -900,7 +900,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Charles is always breaking things."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "چارڵس ھەمیشە شت دەشکێنێت."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -1074,7 +1074,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He was breaking the speed limit (= travelling faster than the law allows)."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "خێراتر لە خێرایی ڕێگەپێدراو دەچوو."),
                                       const CustomSizedBoxForTTS(),
@@ -1098,7 +1098,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She had broken the conditions of her bail."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "مەرجەکانی ئازادکردنی بە کەفالەتی پێشێلکردبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -1122,7 +1122,7 @@ class EnglishEntrybreak extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I've never broken my word; why should I do it now?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھەرگیز قسەی خۆمم نەشکاندووە، بۆچی ئێستا بیکەم؟"),
                                       const CustomSizedBoxForTTS(),

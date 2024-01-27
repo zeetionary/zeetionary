@@ -229,7 +229,7 @@ class EnglishEntrybrink extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Extreme stress had driven him to the brink of a nervous breakdown."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دوودڵی زۆر ھێناویەتییە قەراخی داڕمانی دەروونی."),
                                       const CustomSizedBoxForTTS(),

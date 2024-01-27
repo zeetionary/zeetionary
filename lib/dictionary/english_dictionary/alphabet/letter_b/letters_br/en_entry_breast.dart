@@ -391,7 +391,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She had breast-augmentation surgery."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "نەشتەرگەری گەورەکردنی مەمکی کرد."),
                                       const CustomSizedBoxForTTS(),
@@ -415,7 +415,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Getting breast implants entails major surgery."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کردنی چاندنی مەمک نەشتەرگەری دژواری دەوێت."),
                                       const CustomSizedBoxForTTS(),
@@ -439,7 +439,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The book promoted the benefits of breast feeding to child health."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کتێبەکە سوودەکانی شیری دایکی بۆ تەندرووستی منداڵ دەخستە بەرچاو."),
                                       const CustomSizedBoxForTTS(),
@@ -463,7 +463,7 @@ class EnglishEntrybreast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She discovered a lump in her breast."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "زانی گرێیەک لە مەمکیدایە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(

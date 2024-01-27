@@ -284,7 +284,7 @@ class EnglishEntryburst extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Shells were bursting (= exploding) all around us."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "گوللەتۆپ دەتەقی لە دەوروبەرمان."),
                                       const CustomSizedBoxForTTS(),
@@ -308,7 +308,7 @@ class EnglishEntryburst extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He felt he would burst with anger and shame."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "(بەکارهێنانی خوازراوی) هەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -397,7 +397,7 @@ class EnglishEntryburst extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The words burst from her in an angry rush."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "وشە لە دەمییەوە دەهاتە خوارەوە  لە تووڕەییدا."),
                                       const CustomSizedBoxForTTS(),

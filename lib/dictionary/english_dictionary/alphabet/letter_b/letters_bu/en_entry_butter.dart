@@ -274,7 +274,7 @@ class EnglishEntrybutter extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "This butter doesn't spread very well."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ئەم کرێمە باش بڵاونابێتەوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(

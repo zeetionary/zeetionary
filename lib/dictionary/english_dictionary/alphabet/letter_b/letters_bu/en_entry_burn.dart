@@ -435,7 +435,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The fire was still burning fiercely."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئاگرەکە هێشتا بە تاوەوە دەگڕیا."),
                                       const CustomSizedBoxForTTS(),
@@ -459,7 +459,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She burned his old love letters."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "نامە ئەویندارییە کۆنەکانی سوتاند."),
                                       const CustomSizedBoxForTTS(),
@@ -548,7 +548,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They called us to tell us that my aunt's house was burning."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پەیوەندییان پێوە کردین تا بڵێن ماڵی پوورم ئاگری گرتووە."),
                                       const CustomSizedBoxForTTS(),
@@ -637,7 +637,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "All his belongings were burnt in the fire."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "تەواوی کەلوپەلەکانی لە ئاگرەکەدا سووتان."),
                                       const CustomSizedBoxForTTS(),
@@ -661,7 +661,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Several protesters burned American flags."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ژمارەیەک خۆپیشاندەر ئاڵای ئەمریکایان سووتاند."),
                                       const CustomSizedBoxForTTS(),
@@ -866,7 +866,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The soup's hot. Don't burn your mouth."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "شۆرباکە گەرمە. دەمت مەسووتێنە."),
                                       const CustomSizedBoxForTTS(),
@@ -890,7 +890,7 @@ class EnglishEntryburn extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "His face had been horrifically burnt by acid."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید."),
                                       const CustomSizedBoxForTTS(),

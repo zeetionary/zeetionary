@@ -338,7 +338,7 @@ class EnglishEntrybreathe extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She was beginning to breathe more easily."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دەستیدەکرد بە ھەناسەدانی ئاسانتر."),
                                       const CustomSizedBoxForTTS(),

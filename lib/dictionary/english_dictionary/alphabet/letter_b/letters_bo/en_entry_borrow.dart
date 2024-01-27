@@ -316,7 +316,7 @@ class EnglishEntryborrow extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I borrowed the tools I needed off my brother."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەو ئامرازانەی پێویستم بوون لای براکەم بردمن بە قەرز."),
                                       const CustomSizedBoxForTTS(),
@@ -340,7 +340,7 @@ class EnglishEntryborrow extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I'll borrow some coffee off the neighbours."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھەندێک قاوە لە دراوسێیەکان قەرز دەکەم."),
                                       const CustomSizedBoxForTTS(),
@@ -364,7 +364,7 @@ class EnglishEntryborrow extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I'm borrowing the office laptop for the weekend."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لاپتۆپی ئۆفیسەکە بەکاردێنم بۆ کۆتایی ھەفتە."),
                                       const CustomSizedBoxForTTS(),

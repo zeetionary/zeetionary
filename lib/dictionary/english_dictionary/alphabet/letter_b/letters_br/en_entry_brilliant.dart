@@ -360,7 +360,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Her performance was technically brilliant but lacked feeling."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "نمایشەکەی لە ڕووی تەکنیکییەوە بلیمەتانە بوو بەڵام بەدەر لە ھەست و سۆز بوو."),
                                       const CustomSizedBoxForTTS(),
@@ -384,7 +384,7 @@ class EnglishEntrybrilliant extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "This is a brilliant and fascinating piece of writing."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەمە پارچە نووسراوێکی بلیمەتانە و سەرجڕاکێشە."),
                                       const CustomSizedBoxForTTS(),

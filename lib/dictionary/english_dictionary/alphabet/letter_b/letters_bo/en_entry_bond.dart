@@ -372,7 +372,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The students formed strong bonds with each other."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "قوتابییان پەیوەندیی بەھێزیان لەگەڵ یەکدی درووستکرد."),
                                       const CustomSizedBoxForTTS(),
@@ -396,7 +396,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She felt a bond of affection for the other girls."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھەستی بە وابەستەیەکی سۆزدارانە دەکرد بەرامبەر بە کچانی دیکە."),
                                       const CustomSizedBoxForTTS(),
@@ -670,7 +670,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "It cannot be used to bond wood to metal."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ناتوانرێت بەکاربھێندرێت بۆ لکاندنی تەختە بە ئاسنەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -694,7 +694,7 @@ class EnglishEntrybond extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The atoms bond together to form a molecule."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەتۆمەکان یەکدەگرن بۆ درووستکردنی ئاوێتە."),
                                       const CustomSizedBoxForTTS(),

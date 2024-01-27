@@ -359,7 +359,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Police suspect terrorists planted the bomb."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پۆلیس گومان دەکەن تیرۆریستان بۆمبەکەیان چاندبێت."),
                                       const CustomSizedBoxForTTS(),
@@ -383,7 +383,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "India started to build a nuclear bomb."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھندستان دەستیکرد بە بنیادنانی چەکی ئەتۆمی."),
                                       const CustomSizedBoxForTTS(),
@@ -407,7 +407,7 @@ class EnglishEntrybomb extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Eighty people died when bombs rained down on the city's crowded streets."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھەشتا کەس گیانیان لە دەستدا کە بۆمبەکان دەستیان بە بارین کرد بەسەر شەقامە قەرەباڵغەکانی شارەکەدا."),
                                       const CustomSizedBoxForTTS(),

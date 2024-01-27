@@ -231,7 +231,7 @@ class EnglishEntrybuffer extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Support from family and friends acts as a buffer against stress."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پشتگیری خێزان و دۆستان پارێزەر دەبێت دژ بە سترێس."),
                                       const CustomSizedBoxForTTS(),

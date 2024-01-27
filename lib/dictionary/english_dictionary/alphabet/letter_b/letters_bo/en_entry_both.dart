@@ -361,7 +361,7 @@ class EnglishEntryboth extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "I liked them both."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "حەزم لە ھەردووکیان بوو."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -383,7 +383,7 @@ class EnglishEntryboth extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "Both of us were tired."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ھەردووکمان ماندوو بووین."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -405,7 +405,7 @@ class EnglishEntryboth extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "We have both seen the movie."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ھەردووکمان فیلمەکەمان دیوە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -428,7 +428,7 @@ class EnglishEntryboth extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She has written two novels, both of which have been made into television series."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دوو ڕۆمانی نووسیوە، ھەردووکیان کراون بە درامای تەلەفیزیۆنی."),
                                       const CustomSizedBoxForTTS(),
@@ -453,13 +453,19 @@ class EnglishEntryboth extends StatelessWidget {
                                   text:
                                       "٢. (پێشناو، جێناو) شتێک و شتێکی تریش، نەک تەنھا شتێک بەڵکو شتێکی تریش"),
                               Row(
-                                children: [
-                                  const ExampleSentenceEnglish(
-                                      text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                           "Both his mother and his father will be there."),
                                   ExampleSentenceKurdish(
                                       text: "ھەم دایکی و ھەم باوکی لەوێ دەبن."),
-                                  const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [
                                       CustomIconButtonBritish(
@@ -474,14 +480,20 @@ class EnglishEntryboth extends StatelessWidget {
                               ),
                               const DividerSentences(),
                               Row(
-                                children: [
-                                  const ExampleSentenceEnglish(
-                                      text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                           "For this job you will need a good knowledge of both Italian and Spanish."),
                                   ExampleSentenceKurdish(
                                       text:
                                           "بۆ ئەم کارە پێویستت بە زانیارییەکی باشی ھەردوو ئیتالی و ئیسپانی دەبێت."),
-                                  const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [
                                       CustomIconButtonBritish(
@@ -496,14 +508,20 @@ class EnglishEntryboth extends StatelessWidget {
                               ),
                               const DividerSentences(),
                               Row(
-                                children: [
-                                  const ExampleSentenceEnglish(
-                                      text:
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
                                           "Adele not only sings but also plays the drums."),
                                   ExampleSentenceKurdish(
                                       text:
                                           "ئەدێڵ نەک تەنھا گۆرانی دەڵێت بەڵکو دەھۆڵیش لێ‌دەدات."),
-                                  const CustomSizedBoxForTTS(),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
                                   Column(
                                     children: [
                                       CustomIconButtonBritish(

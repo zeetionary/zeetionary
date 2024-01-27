@@ -413,7 +413,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He died after a relatively brief period of suffering."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "گیانی لەدەستدا لە دوای ماوەیەکی کەم لە ئازارکێشان."),
                                       const CustomSizedBoxForTTS(),
@@ -437,7 +437,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Could you make it brief? I've got a meeting in ten minutes."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەتوانی بە کورتی بیڵێیت؟ کۆبوونەوەیەکم ھەیە لە چەند خولەکێکی تردا."),
                                       const CustomSizedBoxForTTS(),
@@ -762,7 +762,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We had already been briefed about/on what the job would entail."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پێشوەختە زانیاریمان پێدرابوو کە کارەکە چی لەخۆدەگرێت."),
                                       const CustomSizedBoxForTTS(),
@@ -786,7 +786,7 @@ class EnglishEntrybrief extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The men have been fully briefed about the mission."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "سەربازەکان بە تەواوی زانیارییان پێدراوە لەسەر ئەرکەکە."),
                                       const CustomSizedBoxForTTS(),

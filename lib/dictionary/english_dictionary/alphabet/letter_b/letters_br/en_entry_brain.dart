@@ -454,7 +454,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Sometimes the doctor will also do a brain scan."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ھەندێکجار دکتۆرەکە سکانێکی مێشک دەکات."),
                                       const CustomSizedBoxForTTS(),
@@ -478,7 +478,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He was found to have a blood clot on his brain."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "زانرا کە کڵۆیەک خوێن لە مێشکیدا ھەیە."),
                                       const CustomSizedBoxForTTS(),
@@ -501,7 +501,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "She died of a brain tumour."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "بە گرێی مێشک مرد."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -524,7 +524,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She is Britain's youngest female brain surgeon."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەو گەنجترین نەشتەرگەری مێشکە لە بەریتانیادا."),
                                       const CustomSizedBoxForTTS(),
@@ -548,7 +548,7 @@ class EnglishEntrybrain extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The scan apparently showed no damage to the brain."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "سکانەکە ھیچ زیانێکی لە مێشکدا پیشان نەدا."),
                                       const CustomSizedBoxForTTS(),

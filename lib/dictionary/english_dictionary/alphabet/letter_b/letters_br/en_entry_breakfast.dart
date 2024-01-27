@@ -232,7 +232,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Do you want bacon and eggs for breakfast?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "گۆشتی بەراز و ھێلکە بۆ نانی بەیانی دەخۆیت؟"),
                                       const CustomSizedBoxForTTS(),
@@ -256,7 +256,7 @@ class EnglishEntrybreakfast extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He's in the kitchen cooking us breakfast."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لە چێشتخانەکەیە نانی بەیانیمان بۆ ئامادە دەکات."),
                                       const CustomSizedBoxForTTS(),

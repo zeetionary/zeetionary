@@ -389,7 +389,7 @@ class EnglishEntrybump extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Toddlers are always falling over and bumping their heads."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "منداڵان هەمیشە دەکەون و سەریان دەدەن بە زەویدا."),
                                       const CustomSizedBoxForTTS(),
@@ -413,7 +413,7 @@ class EnglishEntrybump extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I bumped my head on the door frame."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "سەرمم کێشا بە چوارچێوەی دەرگاکەدا."),
                                       const CustomSizedBoxForTTS(),

@@ -388,7 +388,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The museum has an annual budget of £3 million with which to acquire new works of art."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی هەیە بۆ کڕینی کاری نوێی هونەری."),
                                       const CustomSizedBoxForTTS(),
@@ -412,7 +412,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The government is planning to double the education budget."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "حکومەت پلانی هەیە بودجەی پەروەردە دوو هێندە بکات."),
                                       const CustomSizedBoxForTTS(),
@@ -502,7 +502,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The finance ministry is trying to reduce the budget deficit."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "وەزیری دارایی هەوڵ دەدات کورتهێنانی بودجە کەم‌بکاتەوە."),
                                       const CustomSizedBoxForTTS(),

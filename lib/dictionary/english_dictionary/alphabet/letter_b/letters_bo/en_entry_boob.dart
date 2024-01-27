@@ -309,7 +309,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The comedian joked about his obsession with boobs."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەکتەرە کۆمیدییەکە نوکتەی درووستکرد لەسەر حەزی زۆری بۆ مەمک."),
                                       const CustomSizedBoxForTTS(),
@@ -333,7 +333,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The dress emphasized her cleavage and boobs."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "جلەکە قڵیشی مەمکی و مەمکەکانی زەقکردبوو."),
                                       const CustomSizedBoxForTTS(),
@@ -357,7 +357,7 @@ class EnglishEntryboob extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "You know her - blonde hair and big boobs."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەیناسیت، ئەوەی قژی زەردە و مەمکی زلە."),
                                       const CustomSizedBoxForTTS(),

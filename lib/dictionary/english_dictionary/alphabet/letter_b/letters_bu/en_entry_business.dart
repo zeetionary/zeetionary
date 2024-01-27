@@ -496,7 +496,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "When he left school, he went into business with his brother."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کە قوتابخانەی جێهێشت، چووە کارەوە لەگەڵ براکەیدا."),
                                       const CustomSizedBoxForTTS(),
@@ -520,7 +520,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She works in the software business."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لە پیشەی نەرمامێردا کاردەکات."),
                                       const CustomSizedBoxForTTS(),
@@ -544,7 +544,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We need to concentrate on our core business (= the main thing that our business does)."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دەبێت سەرنج بخەینە سەر کاسپیی سەرەکیمان."),
                                       const CustomSizedBoxForTTS(),
@@ -568,7 +568,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "It's good business practice to listen to your customers."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "گوێگرتن لە کڕیاران شێوازێکی باشی کاسپی کردنە."),
                                       const CustomSizedBoxForTTS(),
@@ -592,7 +592,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Falling prices are wreaking havoc in the oil business."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "داکەوتنی نرخ پشێوەی درووستکردووە لە پیشەسازی نەوتدا."),
                                       const CustomSizedBoxForTTS(),
@@ -681,7 +681,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I'm going to Paris on business."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "دەچم بۆ پاریس بۆ کار."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -827,7 +827,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "After six months the business really took off."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لە دوای شەش مانگ بازرگانییەکە فڕی."),
                                       const CustomSizedBoxForTTS(),
@@ -851,7 +851,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She runs a successful online business."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بازرگانییەکی سەرکەوتووانەی ئۆنلاین دەکات."),
                                       const CustomSizedBoxForTTS(),
@@ -941,7 +941,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "My private life is none of your business (= not something that you need to know about)."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "رستە_رستە_رستە_رستە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(

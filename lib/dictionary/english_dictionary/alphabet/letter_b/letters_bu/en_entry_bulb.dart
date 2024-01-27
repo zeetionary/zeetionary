@@ -235,7 +235,7 @@ class EnglishEntrybulb extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I think the bulb is going to go. It's been flickering all evening."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پێم‌وایە گڵۆپەکە دەسووتێت. لە دوێنێ شەوەوە پرتەپرتێتی."),
                                       const CustomSizedBoxForTTS(),

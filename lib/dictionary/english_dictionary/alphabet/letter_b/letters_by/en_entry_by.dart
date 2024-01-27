@@ -593,7 +593,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "I will contact you by letter."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بە نامە پەیوەندیت پێوە دەکەم."),
                                       const CustomSizedBoxForTTS(),
@@ -615,7 +615,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Switch it on by pressing this button."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بیکەوە بە پەنجەنان بەم دووگمەدا."),
                                       const CustomSizedBoxForTTS(),
@@ -756,7 +756,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The motorcycle was driven by a tiny bald man."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ماتۆڕەکە لەلایەن پیاوێکی کەچەڵی بچووکەوە لێدەخوڕدرا."),
                                       const CustomSizedBoxForTTS(),
@@ -778,7 +778,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We were amazed by what she told us."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "سەرسام بوون بەوەی کە پێی گوتین."),
                                       const CustomSizedBoxForTTS(),
@@ -866,7 +866,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Can you finish the work by five o'clock?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دەتوانیت کارەکە تا کاتژمێر پێنج تەواو بکەیت؟"),
                                       const CustomSizedBoxForTTS(),
@@ -890,7 +890,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "By the time (that) this letter reaches you I will have left the country."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "تا ئەو کاتەی ئەم نامەیە بە تۆ دەگات من وڵاتەکەم جێهێشتووە."),
                                       const CustomSizedBoxForTTS(),
@@ -1565,7 +1565,7 @@ class EnglishEntryby extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "Time goes by so quickly."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "کات زۆر بەخێرایی دەچێت."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -1588,7 +1588,7 @@ class EnglishEntryby extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He tapped Brown on the shoulder as he went by."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دەستی نا بە شانی براوندا کە تێپەڕی."),
                                       const CustomSizedBoxForTTS(),

@@ -365,7 +365,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She clutched her baby tightly to her bosom."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "منداڵەکەی بە توندی گرت بە سنگییەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -389,7 +389,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
                                       const CustomSizedBoxForTTS(),
@@ -413,7 +413,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The dress left the bosom bare."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -437,7 +437,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Her bosoms heaved as she breathed heavily."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "سنگی پڕبوو کە بە قووڵی ھەناسەی دا."),
                                       const CustomSizedBoxForTTS(),
@@ -461,7 +461,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She was slender, but with a voluptuous bosom."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
                                       const CustomSizedBoxForTTS(),
@@ -485,7 +485,7 @@ class EnglishEntrybosom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Clasp your child to your bosom and give him a big kiss!"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
                                       const CustomSizedBoxForTTS(),

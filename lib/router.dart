@@ -5419,7 +5419,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bogus": (_) => MaterialPage(child: EnglishEntrybogus()),
   "/english-boil": (_) => MaterialPage(child: EnglishEntryboil()),
   "/english-boiling": (_) => MaterialPage(child: EnglishEntryboiling()),
-  "/english-boiling point": (_) =>
+  "/english-boiling-point": (_) =>
       MaterialPage(child: EnglishEntryboilingpoint()),
   "/english-boiler": (_) => MaterialPage(child: EnglishEntryboiler()),
   "/english-boiler-suit": (_) => MaterialPage(child: EnglishEntryboilersuit()),

@@ -390,7 +390,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Robins build nests almost anywhere."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بووکەسوورە بەنزیکەیی لە هەموو شوێنێک هێلانە درووست دەکات."),
                                       const CustomSizedBoxForTTS(),
@@ -414,7 +414,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They don't have the money to build roads."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پارەیان نییە ڕێگا درووست بکەن."),
                                       const CustomSizedBoxForTTS(),

@@ -280,7 +280,7 @@ class EnglishEntryburden extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We need to avoid putting a burden on taxpayers with this project."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دەبێت دووربکەوینەوە لە دانانی بارگرانی زۆر لەسەر باجدەران بەم پڕۆژەیە."),
                                       const CustomSizedBoxForTTS(),
@@ -304,7 +304,7 @@ class EnglishEntryburden extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Buying a house often places a large financial burden on young couples."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "کڕینی خانوویەک بارگرانییەکی ئابووری گەورە دەبێت زۆرجار لەسەر ئەویندارە گەنجەکان."),
                                       const CustomSizedBoxForTTS(),

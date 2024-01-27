@@ -279,7 +279,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "They can't afford to buy school books."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "پارەیان نییە کتێبی قوتابخانە بکڕن."),
                                       const CustomSizedBoxForTTS(),
@@ -303,7 +303,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "If you're thinking of getting a new car, now is a good time to buy."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ئەگەر بیر لە کڕینی ئۆتۆمبێلێکی تازە دەکەیتەوە، ئێستا کاتێکی باشە بکڕیت."),
                                       const CustomSizedBoxForTTS(),
@@ -326,7 +326,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "I bought my car second-hand."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ئۆتۆمبێلێکی دەستی دووم کڕی."),
                                       const CustomSizedBoxForTTS(),
                                       Column(

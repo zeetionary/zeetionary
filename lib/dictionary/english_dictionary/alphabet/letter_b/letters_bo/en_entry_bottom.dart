@@ -435,7 +435,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "The wind blew through gaps at the top and bottom of the door."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە."),
                                       const CustomSizedBoxForTTS(),
@@ -459,7 +459,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "He reached the bottom of the steps in no time."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بە خێرایی گەشتە خوارەوەی قادرمەکان."),
                                       const CustomSizedBoxForTTS(),
@@ -483,7 +483,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We rode along the bottom of the valley."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بە خوارەوەی دۆڵەکەدا لێمانخوڕی."),
                                       const CustomSizedBoxForTTS(),
@@ -507,7 +507,7 @@ class EnglishEntrybottom extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "We walked to the bottom of the hill."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "بە ڕێکردن چووینە خوارەوەی گردەکە."),
                                       const CustomSizedBoxForTTS(),

@@ -417,7 +417,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "She brought her boyfriend to the party."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "دۆستە کوڕەکەی لەگەڵ خۆی ھێنا بۆ ئاھەنگەکە."),
                                       const CustomSizedBoxForTTS(),
@@ -440,7 +440,7 @@ class EnglishEntrybring extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "Bring a present for Helen."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "دیارییەک بۆ ھێلین بھێنە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -462,7 +462,7 @@ class EnglishEntrybring extends StatelessWidget {
                                     children: [
                                       const ExampleSentenceEnglish(
                                           text: "Bring Helen a present."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "دیارییەک بۆ ھێلین بھێنە."),
                                       const CustomSizedBoxForTTS(),
                                       Column(
@@ -485,7 +485,7 @@ class EnglishEntrybring extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Did you bring anything back with you?"),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text: "ھیچت لەگەڵ خۆت ھێنایەوە؟"),
                                       const CustomSizedBoxForTTS(),
                                       Column(

@@ -232,7 +232,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "In 2018 the building was converted into a house."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "لە ساڵی ٢٠١٨ بیناکە کرا بە خانوو."),
                                       const CustomSizedBoxForTTS(),
@@ -256,7 +256,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                       const ExampleSentenceEnglish(
                                           text:
                                               "Several new buildings are now being put up."),
-                                      ExampleSentenceKurdish(
+                                      const ExampleSentenceKurdish(
                                           text:
                                               "ژمارەیەک بینای تازە لە ئێستادا درووست دەکرێن."),
                                       const CustomSizedBoxForTTS(),

@@ -105,7 +105,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʊdɪzəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakBuddhism("en-GB"),
                             ),
@@ -113,7 +113,7 @@ class EnglishEntrybuddhism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbuːdɪzəm/, /ˈbʊdɪzəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakBuddhism("en-US"),
                             ),

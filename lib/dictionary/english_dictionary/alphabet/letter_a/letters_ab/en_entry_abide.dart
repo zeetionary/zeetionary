@@ -148,7 +148,7 @@ class EnglishEntryabide extends StatelessWidget {
                                     // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دەکە دەکەن."),
+                                            "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن."),
                                   ],
                                 ),
                               ),

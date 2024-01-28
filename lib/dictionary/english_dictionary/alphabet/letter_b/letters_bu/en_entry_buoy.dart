@@ -223,7 +223,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                                             "A series of buoys marked the underwater cable route to prevent accidental damage by boats."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشاب دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە."),
+                                            "ژمارەیەک تۆپەی سەراوکەوتە شوێنی کێبڵە ژێر دەریاییەکانیان دەستنیشان دەکرد بۆ ڕێگری لە زیانی بەڕێکەوت لەلایەن بەلەمەکانەوە."),
                                   ],
                                 ),
                               ),

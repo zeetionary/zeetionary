@@ -188,7 +188,7 @@ class EnglishEntryauthentically extends StatelessWidget {
                                             "These are novels that authentically represent human experience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیان مرۆڤ پیشان دەدەن."),
+                                            "ئەمانە ئەو ڕۆمانەن کە بەشێوەیەکی درووست ئەزموونی ژیانی مرۆڤ پیشان دەدەن."),
                                   ],
                                 ),
                               ),

@@ -148,7 +148,7 @@ class EnglishEntryacceptable extends StatelessWidget {
                                             "It is perfectly acceptable for you as an employee to say no."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێت نەخێر."),
+                                            "شتێکی تەواو ئاساییە بۆ تۆ وەک کرێکارێک بڵێیت نەخێر."),
                                   ],
                                 ),
                               ),

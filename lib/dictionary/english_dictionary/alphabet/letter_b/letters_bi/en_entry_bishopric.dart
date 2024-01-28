@@ -33,7 +33,7 @@ class EnglishEntrybishopric extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakBishoprics111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The bishopric organized charitable events to support local causes."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakBishoprics2(String languageCode) async {
@@ -166,7 +166,7 @@ class EnglishEntrybishopric extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ھەبوونی پلەی قەشەی باڵا"""),
+١. (ناو) ھەبوونی پلەی قەشەی باڵا، یان ناوچەیەک کە قەشەیەکی باڵای هەیە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -174,9 +174,10 @@ class EnglishEntrybishopric extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakBishoprics111111111111111111111111111111111"),
+                                            "The bishopric organized charitable events to support local causes."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "قەشە باڵاکە بۆنەی خێرخوازی ڕێکدەخست بۆ یارمەتی دانی دۆزە ناوخۆییەکان."),
                                   ],
                                 ),
                               ),

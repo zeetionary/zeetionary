@@ -188,7 +188,7 @@ class EnglishEntryappointment extends StatelessWidget {
                                         text:
                                             "I've got a dental appointment at 3 o'clock."),
                                     ExampleSentenceKurdish(
-                                        text: "وادەیەکم لای دکتۆری ددان ھەیە."),
+                                        text: "وادەیەکم لای دکتۆری ددان ھەیە لە کاتژمێر ٣."),
                                   ],
                                 ),
                               ),

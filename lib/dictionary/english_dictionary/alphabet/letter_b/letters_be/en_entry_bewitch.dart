@@ -176,7 +176,7 @@ class EnglishEntrybewitch extends StatelessWidget {
                                         text:
                                             "He was completely bewitched by her beauty."),
                                     ExampleSentenceKurdish(
-                                        text: "بە تەواوی تاسا بە جوانییەکە."),
+                                        text: "بە تەواوی تاسا بە جوانییەکەی."),
                                   ],
                                 ),
                               ),

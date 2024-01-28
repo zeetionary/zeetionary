@@ -206,7 +206,7 @@ class EnglishEntrybroken extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbrəʊkən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbroken("en-GB"),
                             ),
@@ -214,7 +214,7 @@ class EnglishEntrybroken extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbrəʊkən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbroken("en-US"),
                             ),

@@ -135,7 +135,7 @@ class EnglishEntryadaptable extends StatelessWidget {
                                             "Successful businesses are highly adaptable to economic change."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بزنسی گەورە بە زۆری خۆیدەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری."),
+                                            "بزنسی گەورە بە زۆری خۆی دەگونجێنێت لەگەڵ گۆڕانکاریی ئابووری."),
                                   ],
                                 ),
                               ),

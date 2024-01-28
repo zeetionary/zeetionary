@@ -666,7 +666,7 @@ class EnglishEntrybright extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She gave me a bright smile."),
                                     ExampleSentenceKurdish(
-                                        text: "بزەتەکی بەکەیفی بۆ کردم."),
+                                        text: "بزەیەکی بەکەیفی بۆ کردم."),
                                   ],
                                 ),
                               ),

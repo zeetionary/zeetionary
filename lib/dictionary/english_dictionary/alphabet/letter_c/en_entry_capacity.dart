@@ -180,7 +180,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                   VideoIconForTab(), // 04
                   VideoIconForTab(), // 05
                   VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 12
-                  VideoIconForTab(), // 07 --- find: 
+                  VideoIconForTab(), // 07 --- find:
                   VideoIconForTab(), // 08
                   VideoIconForTab(), // 09
                   VideoIconForTab(), // 10
@@ -212,11 +212,17 @@ class EnglishEntrycapacity extends StatelessWidget {
 ١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "speakcapacitys111111111111111111111111111111111"),
-                              const ExampleSentenceKurdish(
-                                  text: "رستە_رستە_رستە_رستە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "speakcapacitys111111111111111111111111111111111"),
+                                    ExampleSentenceKurdish(
+                                        text: "رستە_رستە_رستە_رستە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "capacity", follow LX strictly
                               Column(
                                 children: [

@@ -194,12 +194,18 @@ class EnglishEntrytakesomethingamiss extends StatelessWidget {
 ١. (ئیدیەم) زویربوون بە شتێک بەھۆی ئەوەی بە ھەڵە لێی تێگەشتووی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Would she take it amiss if I offered to help?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Would she take it amiss if I offered to help?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ھەڵە تێدەگات ئەگەر یارمەتی پێشکەش بکەم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

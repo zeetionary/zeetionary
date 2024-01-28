@@ -212,12 +212,18 @@ class EnglishEntrycancerous extends StatelessWidget {
 ١. (ھاوەڵناو) تووشبوو یان درووستبوو بەهۆی شێرپەنجەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Doctors consider their treatment a success when no cancerous cells remain."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەهێنن ئەگەر هیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Doctors consider their treatment a success when no cancerous cells remain."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەهێنن ئەگەر هیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancerous", follow LX strictly
                               Column(
                                 children: [

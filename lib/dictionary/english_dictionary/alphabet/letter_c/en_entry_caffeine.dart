@@ -210,10 +210,18 @@ class EnglishEntrycaffeine extends StatelessWidget {
 ١. (ناو) مادەیەک کە لە چاو قاوەدا هەیە و چالاکت دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Try to avoid too much caffeine."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەوڵ بدە لە کافینی زۆر بەدوور بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Try to avoid too much caffeine."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەوڵ بدە لە کافینی زۆر بەدوور بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "caffeine", follow LX strictly
                               Column(
                                 children: [

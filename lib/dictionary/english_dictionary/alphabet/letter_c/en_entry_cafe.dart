@@ -214,12 +214,18 @@ class EnglishEntrycafe extends StatelessWidget {
 ١. (ناو) شوێنێک کە دەتوانی خواردنەوە و خواردنی سادەی تێدا بکڕیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There are small shops and cafes around every corner."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فرۆشگا و چاخانەی بچووک لە دەوری هەموو سووچێکن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There are small shops and cafes around every corner."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فرۆشگا و چاخانەی بچووک لە دەوری هەموو سووچێکن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cafe", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrycafe extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They were having lunch at a cafe near the station."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نانی نیوەڕۆیان دەخوارد لە قاوەخانەیەک لە نزیک وێستگەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were having lunch at a cafe near the station."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نانی نیوەڕۆیان دەخوارد لە قاوەخانەیەک لە نزیک وێستگەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -258,12 +270,18 @@ class EnglishEntrycafe extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We stopped for a coffee in our favourite cafe."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەستاین بۆ قاوەیەک لە قاوەخانەی دڵخوازمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We stopped for a coffee in our favourite cafe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەستاین بۆ قاوەیەک لە قاوەخانەی دڵخوازمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

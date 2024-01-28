@@ -213,12 +213,18 @@ class EnglishEntrycalling extends StatelessWidget {
 ١. (ناو) حەزێکی زۆر یان هەستکردن بە بەرپرسیاریەتی بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He realized that his calling was to preach the bible."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانی کە خولیای ئەوە بوو ئینجیل بڵێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He realized that his calling was to preach the bible."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانی کە خولیای ئەوە بوو ئینجیل بڵێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calling", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrycalling extends StatelessWidget {
                               text: "٢. (ناو) پیشەیەک یان کارێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "My father considered engineering one of the highest possible callings."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکم ئەندازیاری بە یەکێک لە هەرە باشترین پیشەکان دادەنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "My father considered engineering one of the highest possible callings."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکم ئەندازیاری بە یەکێک لە هەرە باشترین پیشەکان دادەنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

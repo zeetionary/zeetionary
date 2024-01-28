@@ -213,12 +213,18 @@ class EnglishEntrycalf extends StatelessWidget {
 ١. (ھاوەناو) بەشی پشتەوەی قاچ لە خوارەوەی چۆک و سەرەوەی قولەپێ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She's been unable to play since January because of a torn calf muscle."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەهۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's been unable to play since January because of a torn calf muscle."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەهۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calf", follow LX strictly
                               Column(
                                 children: [
@@ -238,11 +244,18 @@ class EnglishEntrycalf extends StatelessWidget {
                                   "٢. (ناو) گوێرەکە؛ بەچکە مانگا، یان ئاژەڵی دیکە، بۆ نموونە بەچکەی فیل و نەهەنگ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "These calves are reared for beef."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم گوێرەکانە بۆ گۆشتەکەیان گەورە دەکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These calves are reared for beef."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم گوێرەکانە بۆ گۆشتەکەیان گەورە دەکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -213,11 +213,18 @@ class EnglishEntrycage extends StatelessWidget {
 ١. (ناو) قەفەز"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I don’t like seeing animals in cages."),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزناکەم ئاژەڵان لە قەفەزدا ببینم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I don’t like seeing animals in cages."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەزناکەم ئاژەڵان لە قەفەزدا ببینم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cage", follow LX strictly
                               Column(
                                 children: [
@@ -235,10 +242,18 @@ class EnglishEntrycage extends StatelessWidget {
                           const DefinitionKurdish(text: "٢. (ناو) خستنە قەفەز"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The dogs are caged (up) at night."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەگەکان لە شەودا دەخرێنە قەفەز."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The dogs are caged (up) at night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەگەکان لە شەودا دەخرێنە قەفەز."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

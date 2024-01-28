@@ -5661,7 +5661,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   }
                   if (wordsEnglish == "an") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-an");
+                    Routemaster.of(context).push("/english-a");
                   }
                   if (wordsEnglish == "anachronism") {
                     saveToHistory(wordsEnglish);

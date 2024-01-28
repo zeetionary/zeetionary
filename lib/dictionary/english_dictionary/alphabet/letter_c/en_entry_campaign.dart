@@ -219,12 +219,18 @@ class EnglishEntrycampaign extends StatelessWidget {
 ١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستهێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Today police launched a campaign to reduce road accidents."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی هاتووچۆ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Today police launched a campaign to reduce road accidents."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی هاتووچۆ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "campaign", follow LX strictly
                               Column(
                                 children: [
@@ -241,11 +247,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The candidates are on the campaign trail (= travelling around to attract support)."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەربژێرەکان لە هەڵمەتی بانگەشەدان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The candidates are on the campaign trail (= travelling around to attract support)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەربژێرەکان لە هەڵمەتی بانگەشەدان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,12 +333,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                                   "٢. (ناو) زنجیرەیەک لە هێرش و شەڕ کە ئامانجێکی دیاریکراویان هەیە لە جەنگێکدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Air battles had dominated the campaign."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شەڕی ئاسمانی بەشی سەرەکیی هەڵمەتەکە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Air battles had dominated the campaign."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەڕی ئاسمانی بەشی سەرەکیی هەڵمەتەکە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -342,12 +361,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The government has intensified the military campaign against the rebels."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حکومەت هەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The government has intensified the military campaign against the rebels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حکومەت هەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,12 +392,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                                   "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی هەڵمەتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The party campaigned vigorously in the north of the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The party campaigned vigorously in the north of the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارتەکە بە سەختی بانگەشەی ئەنجامدا لە باکووری وڵاتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -389,12 +420,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have actively campaigned against whaling for the last 15 years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەهەنگ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have actively campaigned against whaling for the last 15 years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەهەنگ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -219,12 +219,18 @@ class EnglishEntrycalculate extends StatelessWidget {
 ١. (کردار) بەکارهێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "That figure was calculated using the standard equation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەکە لێکدرایەوە بە بەکارهێنانی هاوکێشەیەکی ستاندارد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "That figure was calculated using the standard equation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەکە لێکدرایەوە بە بەکارهێنانی هاوکێشەیەکی ستاندارد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculate", follow LX strictly
                               Column(
                                 children: [
@@ -241,11 +247,17 @@ class EnglishEntrycalculate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We haven’t really calculated the cost of the vacation yet."),
-                              const ExampleSentenceKurdish(
-                                  text: "هێشتا تێچووی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We haven’t really calculated the cost of the vacation yet."),
+                                    ExampleSentenceKurdish(
+                                        text: "هێشتا تێچووی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -344,12 +356,18 @@ class EnglishEntrycalculate extends StatelessWidget {
                                   "٢. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوونێک بە بەکارهێنانی هەموو زانیارییەکی بەردەست"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Conservationists calculate that hundreds of species could be lost in this area."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژینگەپارێزان خەمڵاندوویانە کە سەدان گیانلەبەر لەناودەچن لەم ناوچەیەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Conservationists calculate that hundreds of species could be lost in this area."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژینگەپارێزان خەمڵاندوویانە کە سەدان گیانلەبەر لەناودەچن لەم ناوچەیەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -366,12 +384,18 @@ class EnglishEntrycalculate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is impossible to calculate what influence he had on her life."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی هەیبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is impossible to calculate what influence he had on her life."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی هەیبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

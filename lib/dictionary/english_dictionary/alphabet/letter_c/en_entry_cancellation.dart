@@ -215,12 +215,18 @@ class EnglishEntrycancellation extends StatelessWidget {
 ١. (ناو) هەڵوەشاندنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cancellations must be made in writing.Cancellations must be made in writing."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەڵوەشاندنەوە دەبێت بە نووسراو بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cancellations must be made in writing.Cancellations must be made in writing."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەڵوەشاندنەوە دەبێت بە نووسراو بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancellation", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycancellation extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the event of a flight cancellation, you will be compensated."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئەگەری هەڵوەشانەوەی گەشتەکەت، قەرەبوو دەکرێیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the event of a flight cancellation, you will be compensated."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئەگەری هەڵوەشانەوەی گەشتەکەت، قەرەبوو دەکرێیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +277,18 @@ class EnglishEntrycancellation extends StatelessWidget {
                               text: "٢. (ناو) شتێک کە هەڵوەشێنراوەتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Are there any cancellations for this evening's performance? (= tickets that have been returned)"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هیچ هەڵوەشاندنەوەیەکی نمایشەکەی ئەمشەو هەبووە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Are there any cancellations for this evening's performance? (= tickets that have been returned)"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیچ هەڵوەشاندنەوەیەکی نمایشەکەی ئەمشەو هەبووە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +309,18 @@ class EnglishEntrycancellation extends StatelessWidget {
                               text: "٣. (ناو) کۆتاییهێنان بە ڕێککەوتنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is time for the West to think of answering the call for a cancellation of Third World debt."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاتی هاتووە بۆ وڵاتانی ڕۆژاوا کە چاو لە داواکاری سفرکردنەوەی قەرزی وڵاتانی جیهانی سێیەم بکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is time for the West to think of answering the call for a cancellation of Third World debt."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاتی هاتووە بۆ وڵاتانی ڕۆژاوا کە چاو لە داواکاری سفرکردنەوەی قەرزی وڵاتانی جیهانی سێیەم بکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

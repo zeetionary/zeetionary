@@ -186,13 +186,7 @@ class EnglishEntryabandon extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '٢. (کردار) وەستان لە کردنی شتێک',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: "٢. (کردار) وەستان لە کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -221,13 +215,7 @@ class EnglishEntryabandon extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const Text(
-                            // DOPSUM: WRITE DEFINITION IN KURDISH. COPY FOR ANOTHER DEFINITION
-                            '٣. (کردار) وەستان لە باوەڕبوون بە شتێک',
-                            style: TextStyle(fontSize: 18),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: "٣. (ناو) وەستان لە باوەڕبوون بە شتێک"),
                           Row(
                             children: [
                               const Expanded(

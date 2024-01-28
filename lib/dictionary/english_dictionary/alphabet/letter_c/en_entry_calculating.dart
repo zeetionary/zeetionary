@@ -212,11 +212,18 @@ class EnglishEntrycalculating extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە زیرەکە لە دانانی پلاندا بۆ قازانجی خۆی و بەبێ گرنگیدان بە کەسانی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I never realized you could be so calculating."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەرگیز نەمزانی دەکرا هێندە زرنگ بیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I never realized you could be so calculating."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەرگیز نەمزانی دەکرا هێندە زرنگ بیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculating", follow LX strictly
                               Column(
                                 children: [

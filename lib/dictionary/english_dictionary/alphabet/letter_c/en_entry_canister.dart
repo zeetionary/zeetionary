@@ -213,12 +213,18 @@ class EnglishEntrycanister extends StatelessWidget {
 ١. (ناو) دەفرێک کە بانێکی هەیە و چا، قاوە، هتدی تێدا هەڵدەگیرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tea canister slipped from my grasp, and all the tea spilled."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قوتووچاییەکە کەوت لە دەستم و هەموو گەڵا چاییەکە ڕژا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tea canister slipped from my grasp, and all the tea spilled."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قوتووچاییەکە کەوت لە دەستم و هەموو گەڵا چاییەکە ڕژا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canister", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrycanister extends StatelessWidget {
                                   "٢. (ناو) کاسەیەکی ئاسنینی گەورە کە گاز و مادەی کیمیایی تێدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Police fired tear-gas canisters at the demonstrators."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پۆلیس گوللەی فرمێسکڕێژی هاویشتە خۆپیشاندەران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police fired tear-gas canisters at the demonstrators."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس گوللەی فرمێسکڕێژی هاویشتە خۆپیشاندەران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

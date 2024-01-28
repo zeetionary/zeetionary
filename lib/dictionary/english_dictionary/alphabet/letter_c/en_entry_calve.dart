@@ -213,10 +213,16 @@ class EnglishEntrycalve extends StatelessWidget {
 ١. (کردار) زانی مانگا بە گوێرەکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Four cows calved overnight."),
-                              const ExampleSentenceKurdish(
-                                  text: "چوار مانگا زان ئەمشەو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Four cows calved overnight."),
+                                    ExampleSentenceKurdish(
+                                        text: "چوار مانگا زان ئەمشەو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calve", follow LX strictly
                               Column(
                                 children: [
@@ -236,10 +242,17 @@ class EnglishEntrycalve extends StatelessWidget {
                                   "٢. (کردار) شکانی کێوەسەهۆڵ و کۆمەڵکەسەهۆڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The glacier began to calve."),
-                              const ExampleSentenceKurdish(
-                                  text: "کۆمەڵکەسەهۆڵەکە دەستی بە شکان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The glacier began to calve."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمەڵکەسەهۆڵەکە دەستی بە شکان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

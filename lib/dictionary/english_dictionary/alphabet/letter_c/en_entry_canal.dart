@@ -214,12 +214,18 @@ class EnglishEntrycanal extends StatelessWidget {
 ١. (ناو) ڕێگایەکی ڕاست و درێژ کە پڕکراوە لە ئاو بۆ ئەوەی بەلەم و کەشتی پێیدا بڕۆن """),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The barge moved slowly along the canal."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەکەمە بارهەڵگرەکە بە هێواشی بە کەناڵەکەدا چوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The barge moved slowly along the canal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەکەمە بارهەڵگرەکە بە هێواشی بە کەناڵەکەدا چوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canal", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrycanal extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Panama Canal was not opened until after the outbreak of war."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەناڵی پەنەما نەکرایەوە تاوەکو جەنگ دەستیپێکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Panama Canal was not opened until after the outbreak of war."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەناڵی پەنەما نەکرایەوە تاوەکو جەنگ دەستیپێکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +273,18 @@ class EnglishEntrycanal extends StatelessWidget {
                                   "٢. (ناو) ڕێڕەوێک یان جۆگەیەک لە لەشی مرۆڤدا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The alimentary canal is the path by which food enters the body, and solid waste is passed out."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جۆگەی هەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The alimentary canal is the path by which food enters the body, and solid waste is passed out."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جۆگەی هەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

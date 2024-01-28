@@ -127,12 +127,18 @@ class EnglishEntryafar extends StatelessWidget {
 ١. (ئیدیەم) لە دوورەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Even from afar the castle was most impressive."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Even from afar the castle was most impressive."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنانەت دووراودووریش قەڵاکە ھەر سەرنجڕاکێش بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

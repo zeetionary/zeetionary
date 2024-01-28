@@ -168,12 +168,18 @@ class EnglishEntryinbehalfof extends StatelessWidget {
 ١. (کردار) بۆ یارمەتیدانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He began a petition in behalf of the farmers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "داخوازییەکی دەستپێکرد بۆ یارمەتیدانی جوتیاران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He began a petition in behalf of the farmers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "داخوازییەکی دەستپێکرد بۆ یارمەتیدانی جوتیاران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -129,12 +129,18 @@ class EnglishEntryfarafield extends StatelessWidget {
 ١. (ئیدیەم) لە دوورییەکی زۆرەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We export our products to countries as far afield as Japan and Canada."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We export our products to countries as far afield as Japan and Canada."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەرھەمەکانمان ھەناردە ئەکەین بۆ وڵاتانی دووری وەک ژاپۆن و کەنەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

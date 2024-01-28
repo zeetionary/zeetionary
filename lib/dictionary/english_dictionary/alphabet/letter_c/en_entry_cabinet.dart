@@ -215,12 +215,18 @@ class EnglishEntrycabinet extends StatelessWidget {
 ١. (ناو) ژمارەیەک لە ئەندامانی باڵای حکومەت کە بەرپرسن لە بڕیردان و دیاریکردنی سیاسەتی حکومەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The defeat in the vote forced the Cabinet to change its policy on immigration."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شکستی دەنگدانەکە وای لە ئەندامانی کابینەکە کرد سیاسەتیان لەسەر کۆچبەری بگۆڕن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The defeat in the vote forced the Cabinet to change its policy on immigration."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شکستی دەنگدانەکە وای لە ئەندامانی کابینەکە کرد سیاسەتیان لەسەر کۆچبەری بگۆڕن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabinet", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrycabinet extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The issue was discussed at yesterday's cabinet meeting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بابەتەکە لە کۆبوونەوەی دوێنێی کابینەکە گەنگەشەکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The issue was discussed at yesterday's cabinet meeting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بابەتەکە لە کۆبوونەوەی دوێنێی کابینەکە گەنگەشەکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -259,12 +271,18 @@ class EnglishEntrycabinet extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prime minister reshuffled his Cabinet yesterday."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک وەزیران دوێنێ ئاڵوگۆڕی لە کابینەکەی کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prime minister reshuffled his Cabinet yesterday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک وەزیران دوێنێ ئاڵوگۆڕی لە کابینەکەی کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,12 +302,18 @@ class EnglishEntrycabinet extends StatelessWidget {
                                   "٢. (ناو) هاجەتێک کە ڕەف و چەکمەجە و دەرگای هەیە و شتی تێ دەخرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I looked for a cotton swab in the bathroom cabinet."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ گوێ‌پاککەرەوەیەک گەڕام لە سندووقی حەمامەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I looked for a cotton swab in the bathroom cabinet."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ گوێ‌پاککەرەوەیەک گەڕام لە سندووقی حەمامەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

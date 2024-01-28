@@ -210,12 +210,18 @@ class EnglishEntrycafeteria extends StatelessWidget {
 ١. (ناو) چێشتخانەیەک کە خواردن هەڵدەبژێریت و پارەکەی دەدەیت پێش ئەوەی بیبەیت بۆ سەر مێزێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Employees have four different salads to choose from for lunch in the company cafeteria."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کارمەندان چوار جۆری جیاوازی زەڵاتەیان هەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Employees have four different salads to choose from for lunch in the company cafeteria."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارمەندان چوار جۆری جیاوازی زەڵاتەیان هەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cafeteria", follow LX strictly
                               Column(
                                 children: [

@@ -216,12 +216,18 @@ class EnglishEntrycamouflage extends StatelessWidget {
 ١. (ناو) شێوەی خۆشاردنەوەی سەرباز و کەرەستەی سەربازی بە بەکارهێنانی بۆیە، گەڵا، هتد بۆ ئەوەی شێوەیان لە ڕينگی دەورووبەریان بکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He pulled the camouflage net over the entrance to the tent."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆڕە ڕەنگ‌گرەکەی کێشا بەسەر دەرگای چوونە ناو خێوەتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He pulled the camouflage net over the entrance to the tent."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆڕە ڕەنگ‌گرەکەی کێشا بەسەر دەرگای چوونە ناو خێوەتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camouflage", follow LX strictly
                               Column(
                                 children: [
@@ -241,12 +247,18 @@ class EnglishEntrycamouflage extends StatelessWidget {
                                   "٢. (ناو) شێوازی گونجاندنی ڕەنگ یان شێوەی ئاژەڵێک لەگەڵ دەورووبەریدا کە وا دەکات گران بێت بۆ بینین"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The whiteness of polar bears and arctic foxes provides camouflage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سپییەتی ورچە جەمسەرییەکان و ڕێوییەکانی جەمسەری باکوور لە ڕەنگ‌گرتندا بەکاردێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The whiteness of polar bears and arctic foxes provides camouflage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سپییەتی ورچە جەمسەرییەکان و ڕێوییەکانی جەمسەری باکوور لە ڕەنگ‌گرتندا بەکاردێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +278,18 @@ class EnglishEntrycamouflage extends StatelessWidget {
                                   "٣. (ناو) ڕەفتارێک کە بە ئەنقەست ڕاستی دەشارێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He believed that her kindness was merely a camouflage for her real intentions."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوەڕی وابوو میهرەبانییەکەی تەنها داپۆشەرێک بوو مەرامە ڕاستییەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He believed that her kindness was merely a camouflage for her real intentions."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوەڕی وابوو میهرەبانییەکەی تەنها داپۆشەرێک بوو مەرامە ڕاستییەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,11 +309,18 @@ class EnglishEntrycamouflage extends StatelessWidget {
                                   "٤. (کردار) شاردنەوە بە درووستکردنی لێکچوونی ڕەنگ یان شێوەی دەورووبەر"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The soldiers camouflaged themselves with leaves."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەربازەکان بە گەڵا خۆیان شاردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The soldiers camouflaged themselves with leaves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازەکان بە گەڵا خۆیان شاردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -312,12 +337,18 @@ class EnglishEntrycamouflage extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The tent was camouflaged to avoid detection by enemy soldiers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دووژمنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The tent was camouflaged to avoid detection by enemy soldiers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێوەتەکە شاردرابووەوە بۆ ئەوەی نەدۆزرێتەوە لەلایەن سەربازانی دووژمنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

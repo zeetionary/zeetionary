@@ -212,12 +212,18 @@ class EnglishEntrycantilever extends StatelessWidget {
 ١. (ھاوەڵناو) پارچە تەختە، ئاسن، یان کاری ئەندازیاری کە تەنها لە یەک لاوە ڕاگیراوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The architect used a cantilever to extend the balcony."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندازیارەکە کانتیلیڤەری بەکارهێنا بۆ درێژکردنەوەی بەرهەیوانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The architect used a cantilever to extend the balcony."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندازیارەکە کانتیلیڤەری بەکارهێنا بۆ درێژکردنەوەی بەرهەیوانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cantilever", follow LX strictly
                               Column(
                                 children: [

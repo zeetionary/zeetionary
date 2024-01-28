@@ -168,7 +168,8 @@ class EnglishEntryarnica extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text("""
+                          DividerDefinition(),
+                          DefinitionKurdish(text: """
 کوردی: یۆزخنکێن، گوڵەپشمین
 
 ١. (ھاوەڵناو) چارەسەرێکی سرووشتی کە لە ڕووەکی ئارنیکا درووست‌دەکرێت و بەکاردێت بۆ چارەسەری ڕووشاوی پێست"""),

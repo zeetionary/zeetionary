@@ -212,12 +212,18 @@ class EnglishEntrycannibalism extends StatelessWidget {
 ١. (ناو) کردەی خواردنی مرۆڤ، یان خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی هاوجۆری خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The paper describes a Stone Age tribe that practised cannibalism."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توێژینەوەکە باس لە خێڵێکی چاخی بەردین دەکات کە کاری مرۆڤخۆریان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The paper describes a Stone Age tribe that practised cannibalism."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توێژینەوەکە باس لە خێڵێکی چاخی بەردین دەکات کە کاری مرۆڤخۆریان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannibalism", follow LX strictly
                               Column(
                                 children: [

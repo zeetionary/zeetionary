@@ -212,10 +212,17 @@ class EnglishEntrycanter extends StatelessWidget {
 ١. (ناو) جوڵەی ئەسپ کە بەخێراییەک کە زۆرە، بەڵام زۆر زۆر نا کە غاردان بێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She set off at a canter."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە نەرمە غارێک دەستی بە جوڵە کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She set off at a canter."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە نەرمە غارێک دەستی بە جوڵە کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canter", follow LX strictly
                               Column(
                                 children: [
@@ -234,10 +241,17 @@ class EnglishEntrycanter extends StatelessWidget {
                               text: "٢. (کردار) کردنی نەرمەغار بە ئەسپ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We cantered along the beach."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە کەنارەکەدا نەرمە غارێکمان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We cantered along the beach."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە کەنارەکەدا نەرمە غارێکمان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

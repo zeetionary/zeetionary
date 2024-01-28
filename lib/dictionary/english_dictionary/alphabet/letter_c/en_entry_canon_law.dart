@@ -210,12 +210,18 @@ class EnglishEntrycanonlaw extends StatelessWidget {
 ١. (ناو) یاسای کڵێسای مەسیحییەت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Eastern Orthodox Church follows its unique canon law."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵێسای ئۆرسۆدۆکسی ڕۆژهەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Eastern Orthodox Church follows its unique canon law."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵێسای ئۆرسۆدۆکسی ڕۆژهەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canon law", follow LX strictly
                               Column(
                                 children: [

@@ -210,12 +210,18 @@ class EnglishEntrycalcium extends StatelessWidget {
 ١. (ناو) کالسیۆم؛ مادەیەکی کیمیاییە کە لە لەشی مرۆڤدا لە ددان و ئێسکدا هەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Milk is a rich source of calcium, promoting strong bones and teeth."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شیر سەرچاوەیەکی بەهێزی کالسیۆمە کە ئێسک و ددان بەهێز دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Milk is a rich source of calcium, promoting strong bones and teeth."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شیر سەرچاوەیەکی بەهێزی کالسیۆمە کە ئێسک و ددان بەهێز دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calcium", follow LX strictly
                               Column(
                                 children: [

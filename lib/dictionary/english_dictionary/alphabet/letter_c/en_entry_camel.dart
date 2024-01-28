@@ -212,12 +212,18 @@ class EnglishEntrycamel extends StatelessWidget {
 ١. (ناو) وشتر؛ ئاژەڵێک کە ملی درێژە و دوو کۆپارەی هەیە لەسەر پشتی. وشتر لە وڵاتانی بیابانی بەکاردێت بۆ سواری و بارگواستنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Bedouins relied on camels for traversing the desert."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست هاتوچۆ بە بیابانەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Bedouins relied on camels for traversing the desert."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست هاتوچۆ بە بیابانەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camel", follow LX strictly
                               Column(
                                 children: [

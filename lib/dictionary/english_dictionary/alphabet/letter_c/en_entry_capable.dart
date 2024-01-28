@@ -215,12 +215,18 @@ class EnglishEntrycapable extends StatelessWidget {
 ١. (ھاوەڵناو) بوونی توانای پێویست بۆ کردنی کارێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You are capable of better work than this."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانای کردنی کارێکی باشترت وەک لەمە هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You are capable of better work than this."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانای کردنی کارێکی باشترت وەک لەمە هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "capable", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrycapable extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's quite capable of lying to get out of trouble."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانی باشی درۆکردنی هەیە بۆ دەرچوون لە کێشە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's quite capable of lying to get out of trouble."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانی باشی درۆکردنی هەیە بۆ دەرچوون لە کێشە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +274,18 @@ class EnglishEntrycapable extends StatelessWidget {
                                   "٢. (ھاوەڵناو) هەبوونی توانای کردنی شتێک بە باشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Employees who prove themselves to be capable will usually get promoted quite rapidly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کارمەندانەی کە دەیسەلمێنن کە لێوەشاوەن زوو پلەیان بەرزدەکرێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Employees who prove themselves to be capable will usually get promoted quite rapidly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کارمەندانەی کە دەیسەلمێنن کە لێوەشاوەن زوو پلەیان بەرزدەکرێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,12 +302,18 @@ class EnglishEntrycapable extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Only the Democratic Party is capable of running the country."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنها پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Only the Democratic Party is capable of running the country."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنها پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

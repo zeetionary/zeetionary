@@ -212,12 +212,18 @@ class EnglishEntrycameo extends StatelessWidget {
 ١. (ناو) بەشێکی بچووکی فیلمێک یان شانۆیەک کە لەلایەن ئەکتەرێکی بەناوبانگەوە ڕۆڵی دەبیندرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He appears briefly towards the end of the film in a cameo role as a priest."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He appears briefly towards the end of the film in a cameo role as a priest."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە نزیک کۆتایی فیلمەکە بەکورتی دەردەکەوێت لە ڕۆڵێکی بچووکدا وەک قەشەیەک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cameo", follow LX strictly
                               Column(
                                 children: [

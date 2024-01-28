@@ -215,12 +215,18 @@ class EnglishEntrycackle extends StatelessWidget {
 ١. (ناو) کە مریشکێک دەنگێکی بەرزی ناخۆش دەردەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The hen sitting on the fence started to cackle loudly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مریشکەکە بە دانیشتن لەسەر پەرژینەکە دەستی بە گارەگار کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hen sitting on the fence started to cackle loudly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مریشکەکە بە دانیشتن لەسەر پەرژینەکە دەستی بە گارەگار کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cackle", follow LX strictly
                               Column(
                                 children: [
@@ -239,10 +245,17 @@ class EnglishEntrycackle extends StatelessWidget {
                               text: "٢. (کردار) پێکەنین بە دەنگی بەرز و ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They all cackled with delight."),
-                              const ExampleSentenceKurdish(
-                                  text: "هەموویان لەخۆشیدا حیلکەحیلکیان بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They all cackled with delight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموویان لەخۆشیدا حیلکەحیلکیان بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +274,18 @@ class EnglishEntrycackle extends StatelessWidget {
                               text: "٣. (ناو) دەنگی بەرزی مریشک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The farmyard was filled with the cheerful cackle of hens."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "حەوشەی کێڵگەکە پڕبوو لە گارەگاری خۆشی مریشک."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The farmyard was filled with the cheerful cackle of hens."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "حەوشەی کێڵگەکە پڕبوو لە گارەگاری خۆشی مریشک."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,10 +304,17 @@ class EnglishEntrycackle extends StatelessWidget {
                               text: "٤. (ناو) پێکەنینێکی بەرزی ناخۆش"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He burst into cackles of laughter."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەستی بە حیلکەحیلک کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He burst into cackles of laughter."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەستی بە حیلکەحیلک کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

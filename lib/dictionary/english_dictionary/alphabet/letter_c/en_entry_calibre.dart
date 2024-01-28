@@ -213,12 +213,18 @@ class EnglishEntrycalibre extends StatelessWidget {
 ١. (ناو) لێوەشاوەیی، بەتایبەتی توانای مرۆڤ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was impressed by the high calibre of applicants for the job."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرسام بوو بە لێوەشاوەیی داواکارانی کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was impressed by the high calibre of applicants for the job."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرسام بوو بە لێوەشاوەیی داواکارانی کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calibre", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrycalibre extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The company needs more people of your calibre."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆمپانیاکە پێویستی بە کەسانی دیکەی وەک تۆ لێوەشاوە هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The company needs more people of your calibre."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆمپانیاکە پێویستی بە کەسانی دیکەی وەک تۆ لێوەشاوە هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

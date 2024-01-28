@@ -69,6 +69,48 @@ class EnglishEntrya extends StatelessWidget {
     await flutterTts.speak("I have a pen."); // DOPSUM: CHANGE TEXT
   }
 
+  Future<void> speakan142574(String languageCode) async {
+    // DOPSUM: CHANGE speakA
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("I went there on an auspicious day."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakan48652(String languageCode) async {
+    // DOPSUM: CHANGE speakA
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("There's an animal on the street."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakan45287(String languageCode) async {
+    // DOPSUM: CHANGE speakA
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("She's an atheist."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakan197524(String languageCode) async {
+    // DOPSUM: CHANGE speakA
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("A lion is an animal."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakan63328(String languageCode) async {
+    // DOPSUM: CHANGE speakA
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("I have an apple."); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -90,10 +132,13 @@ class EnglishEntrya extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(word: "a"), // DOPSUM: CHANGE WORD ENTRY
-
-                            //   '(indefinite article)', // DOPSUM: CHANGE WORD TYPE
-                            //   style: TextStyle(fontSize: 14),
-                            // ),
+                          ],
+                        ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(
+                                word:
+                                    "also: an (before vowel sounds)"), // DOPSUM: CHANGE WORD ENTRY
                           ],
                         ),
                         Row(
@@ -196,6 +241,60 @@ class EnglishEntrya extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I went there on an auspicious day."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakan142574("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakan142574("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's an animal on the street."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئاژەڵێک لەسەر شەقامەکەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakan48652("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakan48652("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -225,6 +324,31 @@ class EnglishEntrya extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She's an atheist."),
+                                    ExampleSentenceKurdish(
+                                        text: "ئەو بێ‌دینە."),
+                                  ],
+                                ),
+                              ),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakan45287("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakan45287("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن"),
@@ -248,6 +372,32 @@ class EnglishEntrya extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speak197524("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "A lion is an animal."),
+                                    ExampleSentenceKurdish(
+                                        text: "شێر ئاژەڵێکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakan197524("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakan197524("en-US"),
                                   ),
                                 ],
                               ),
@@ -310,6 +460,32 @@ class EnglishEntrya extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speak63328("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I have an apple."),
+                                    ExampleSentenceKurdish(
+                                        text: "سێوێکم هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakan63328("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakan63328("en-US"),
                                   ),
                                 ],
                               ),

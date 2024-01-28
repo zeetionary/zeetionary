@@ -211,12 +211,18 @@ class EnglishEntrycanvas extends StatelessWidget {
 ١. (ناو) مادەیەکی سەختی بەهێز کە بەکاردێت بۆ درووستکردنی خێوەت، چارۆکە، هتد و لەلایەن هونەرکارانەوە بۆ کێشانی وێنە لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Their tents were made from heavy canvas."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خێوەتەکانیان لە کانڤسی بەهێز درووستکرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Their tents were made from heavy canvas."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خێوەتەکانیان لە کانڤسی بەهێز درووستکرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canvas", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrycanvas extends StatelessWidget {
                                   "٢. (ناو) پارچە کانڤسێک کە وێنەی لەسەر دەکێشرێت، یان وێنەکەی سەری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These two canvases by Hockney would sell for £1,500,000."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم دوو وێنەیەی هۆکنی ١,٥٠٠,٠٠٠ پاوەند دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These two canvases by Hockney would sell for £1,500,000."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم دوو وێنەیەی هۆکنی ١,٥٠٠,٠٠٠ پاوەند دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

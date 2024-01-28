@@ -211,12 +211,18 @@ class EnglishEntrycabaret extends StatelessWidget {
 ١. (ناو) گۆرانی گوتن و سەما کە شەوانە لە چێشتخانەکاندا یان یانەکاندا دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He gained recognition through cabaret acts performed at restaurants."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He gained recognition through cabaret acts performed at restaurants."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوی دەرکرد بە نمایشە شەوانەکانی لە چێشتخانەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabaret", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrycabaret extends StatelessWidget {
                                   "٢. (ناو) چێشتخانەیەک یان یانەیەک کە شەوانە گۆرانی و سەمای تێدایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In Paris, we visited several cabarets."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پاریس سەردانی ژمارەیەک شەوە ئاهەنگمان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In Paris, we visited several cabarets."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پاریس سەردانی ژمارەیەک شەوە ئاهەنگمان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -213,12 +213,18 @@ class EnglishEntrycanteen extends StatelessWidget {
 ١. (ناو) شوێنی خۆراک خواردن لە قوتابخانە، کارگە، هتد"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I usually have my lunch in the canteen at school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرجار نانی نیوەڕۆ لە حانووتی قوتابخانە دەخۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I usually have my lunch in the canteen at school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرجار نانی نیوەڕۆ لە حانووتی قوتابخانە دەخۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canteen", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrycanteen extends StatelessWidget {
                                   "٢. (ناو) دەفرێکی بچووک کە لەلایەن سەربازەوە بەکاردێت بۆ هەڵگرتنی ئاو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Soldiers rely on their canteens to quench their thirst in the field."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەربازان پشت بە قومقومە دەبەستن بۆ شکاندنی تینوێتییان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Soldiers rely on their canteens to quench their thirst in the field."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەربازان پشت بە قومقومە دەبەستن بۆ شکاندنی تینوێتییان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

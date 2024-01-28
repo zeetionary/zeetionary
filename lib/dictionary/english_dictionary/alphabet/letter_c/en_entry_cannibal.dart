@@ -212,12 +212,18 @@ class EnglishEntrycannibal extends StatelessWidget {
 ١. (ناو) مرۆڤێک کە مرۆڤ دەخوات، یان ئاژەڵێک کە لە هەمان جۆری خۆی دەخوات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە فیلمە ترسناکەکەدا، ژمارەیەک هاوڕێ ڕێیان هەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە فیلمە ترسناکەکەدا، ژمارەیەک هاوڕێ ڕێیان هەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannibal", follow LX strictly
                               Column(
                                 children: [

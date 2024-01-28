@@ -215,12 +215,18 @@ class EnglishEntrycanonical extends StatelessWidget {
 ١. (ھاوەڵناو) بەشێک لەو کتێبە پیرۆزانەی کە پەسەندکراون بۆ ئەوەی کە باوەڕ وایە هەن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Gospel of Matthew and the Book of Genesis are both canonical texts in Christianity."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز هەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Gospel of Matthew and the Book of Genesis are both canonical texts in Christianity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز هەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canonical", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntrycanonical extends StatelessWidget {
                                   "٢. (ھاوەڵناو) بەپێی یاسای کڵێسای مەسیحییەت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Pope indicated that he would not consider any applications for canonical pardon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاپا ئاماژەی پێدا کە هیچ داواکارییەک وەرناگرێت بۆ لێخۆشبوونی کڵێسایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Pope indicated that he would not consider any applications for canonical pardon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاپا ئاماژەی پێدا کە هیچ داواکارییەک وەرناگرێت بۆ لێخۆشبوونی کڵێسایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +277,18 @@ class EnglishEntrycanonical extends StatelessWidget {
                                   "٣. (ھاوەڵناو) بەشێک لە کاری کۆمەڵە نووسەرێک یان بەرهەمی ئەدەبی کە تەواو ڕێزلێگیراون"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Canonical writers like Jane Austen have left an enduring legacy with their contributions to literature."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نووسەری ڕێزلێگیراوی وەک جەین ئۆستن کاریگەرییەکی بەردەوامیان بەجێهێشتووە بە بەرهەمەکانیان لە وێژەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canonical writers like Jane Austen have left an enduring legacy with their contributions to literature."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نووسەری ڕێزلێگیراوی وەک جەین ئۆستن کاریگەرییەکی بەردەوامیان بەجێهێشتووە بە بەرهەمەکانیان لە وێژەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,12 +308,18 @@ class EnglishEntrycanonical extends StatelessWidget {
                                   "٤. (ھاوەڵناو) پەسەندکراو وەک شتێک کە ڕاست، درووست، یان بەبنەمایە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The university teaches canonical science methods for experimentation."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زانکۆکە ڕێگا درووستەکانی زانست دەڵێتەوە بۆ توێژینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The university teaches canonical science methods for experimentation."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زانکۆکە ڕێگا درووستەکانی زانست دەڵێتەوە بۆ توێژینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

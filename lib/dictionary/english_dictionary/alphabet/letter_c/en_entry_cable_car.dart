@@ -212,12 +212,18 @@ class EnglishEntrycablecar extends StatelessWidget {
 ١. (ناو) گوازەرەوەیەک کە هەڵواسراوە و خەڵکی دەگوازێتەوە بۆ سەر بەرزایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cable cars offer breathtaking views of the city."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cable cars offer breathtaking views of the city."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەلەفریکەکان دیمەنێکی دڵڕفێنەری شارەکە دەدەن بەدەستەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cable car", follow LX strictly
                               Column(
                                 children: [

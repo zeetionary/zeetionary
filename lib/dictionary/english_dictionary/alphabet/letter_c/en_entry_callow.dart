@@ -212,12 +212,18 @@ class EnglishEntrycallow extends StatelessWidget {
 ١. (ناو) گەنج و بێ‌ئەزموون"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mark was just a callow youth of 16 when he arrived in Paris."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مارک تەنها گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mark was just a callow youth of 16 when he arrived in Paris."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مارک تەنها گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "callow", follow LX strictly
                               Column(
                                 children: [

@@ -212,12 +212,18 @@ class EnglishEntrycactus extends StatelessWidget {
 ١. (ناو) ڕووەکێک کە لە ناوچەی وشک و گەرم گەشە دەکات، بەتایبەتی یەکێک کە قەدی ئەستوور و دڕکداری هەیە بەڵام گەڵای نییە. ڕووەکەکە زۆر جۆری هەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Spectacular giant cacti stand on the hillside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Spectacular giant cacti stand on the hillside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گوڵەخەپلەی گەورەی ناوازە لەسەر گردەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cactus", follow LX strictly
                               Column(
                                 children: [

@@ -213,12 +213,18 @@ class EnglishEntrycamper extends StatelessWidget {
 ١. (ناو) کەسێک کە لە خێوەتێک یان بینایەک دەمێنێتەوە کە بۆ ئەو کەسانەیە کە پشوو وەردەگرن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "During the summer months we have on average 170 campers staying here every night."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە کاتی مانگەکانی هاوین بە تێکڕا ١٧٠ کەمپ‌نشینمان هەبوو کە هەموو شەوێک لێرە دەمانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "During the summer months we have on average 170 campers staying here every night."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە کاتی مانگەکانی هاوین بە تێکڕا ١٧٠ کەمپ‌نشینمان هەبوو کە هەموو شەوێک لێرە دەمانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camper", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrycamper extends StatelessWidget {
                                   "٢. (ناو) ئۆتۆمبێلێکی گەورە کە دەکرێت وەک شوێنی ژیان بەکاربێت لە کاتی گەشتدا، یان عەرەبانەیەکی شوێنی ژیان کە ئۆتۆمبێل ڕادەکێشرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Parked next to us was a camper with what sounded like dozens of kids."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە تەنیشتمان کەمپەرێک هەبوو بە ژمارەیەکی زۆر منداڵەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Parked next to us was a camper with what sounded like dozens of kids."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە تەنیشتمان کەمپەرێک هەبوو بە ژمارەیەکی زۆر منداڵەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

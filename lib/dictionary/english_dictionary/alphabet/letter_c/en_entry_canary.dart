@@ -212,11 +212,18 @@ class EnglishEntrycanary extends StatelessWidget {
 ١. (ناو) باڵندەیەکی زەردی بچووک و دەنگ‌خۆش"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She had a canary in a birdcage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەنارییەکی لە قەفەزێکی باڵندەدا هەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had a canary in a birdcage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەنارییەکی لە قەفەزێکی باڵندەدا هەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canary", follow LX strictly
                               Column(
                                 children: [

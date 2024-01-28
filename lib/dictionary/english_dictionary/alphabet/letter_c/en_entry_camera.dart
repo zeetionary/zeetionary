@@ -213,12 +213,18 @@ class EnglishEntrycamera extends StatelessWidget {
 ١. (ناو) کامێرا؛ ئامرازێک کە بەکاردێت بۆ گرتنی وێنە، وێنەی جوڵاو، یان وێنەی تەلەفیزیۆنی. کامێرا دەکرێت سەربەخۆ بێت یان بەشێک بێت لە ئامێرێکی دیکە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Just point the camera and press the button."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەنها کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Just point the camera and press the button."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنها کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camera", follow LX strictly
                               Column(
                                 children: [
@@ -235,10 +241,18 @@ class EnglishEntrycamera extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Most phones have a built-in camera."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر موبایل کامێرای ناوەکی هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most phones have a built-in camera."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر موبایل کامێرای ناوەکی هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -254,12 +268,18 @@ class EnglishEntrycamera extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A security camera caught her shoplifting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کامێرایەکی چاودێری لە کاتی دزیدا گرتی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A security camera caught her shoplifting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کامێرایەکی چاودێری لە کاتی دزیدا گرتی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -276,11 +296,18 @@ class EnglishEntrycamera extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The camera can be operated remotely."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کامێراکە دەکرێت لە دوورەوە کاری پێ بکرێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The camera can be operated remotely."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کامێراکە دەکرێت لە دوورەوە کاری پێ بکرێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

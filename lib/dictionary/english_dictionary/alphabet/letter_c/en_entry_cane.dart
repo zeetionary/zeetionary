@@ -215,12 +215,18 @@ class EnglishEntrycane extends StatelessWidget {
 ١. (ناو) قەدی ناوبۆشی ژمارەیەک ڕووە، بۆ نموونە بامبوو و شەکر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Farmers harvested sugar cane for processing into sugar."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جوتیاران قامیشی شەکریان دوورییەوە بۆ کردنی بە شەکر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Farmers harvested sugar cane for processing into sugar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جوتیاران قامیشی شەکریان دوورییەوە بۆ کردنی بە شەکر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cane", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntrycane extends StatelessWidget {
                                   "٢. (ناو) قامیش یان چیلکێکی باریک بۆ یارمەتیدان لە ڕێکردندا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The elderly man leaned on his cane while walking in the park."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پیاوە بەتەمەنەکە کەوتبوو بەسەر گۆچانەکەیدا کە لە پارکەکە ڕێی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The elderly man leaned on his cane while walking in the park."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوە بەتەمەنەکە کەوتبوو بەسەر گۆچانەکەیدا کە لە پارکەکە ڕێی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +277,18 @@ class EnglishEntrycane extends StatelessWidget {
                                   "٣. (ناو) دارێک کە بەکاردەهات بۆ لێدانی خوێندکار لە قوتابخانە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Misbehaving students would often fear the consequences of getting the cane from the headmaster."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکارە هاروهاجەکان زۆرجار دەترسان لە کوتەککاری خواردن لە بەڕێوبەرەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Misbehaving students would often fear the consequences of getting the cane from the headmaster."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکارە هاروهاجەکان زۆرجار دەترسان لە کوتەککاری خواردن لە بەڕێوبەرەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +307,18 @@ class EnglishEntrycane extends StatelessWidget {
                               text: "٤. (ناو) لێدان لە کەسێک بە دارێک وەک سزا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was caned in front of the whole school."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە پێش تەواوی قوتابخانەکە دارکاری کرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was caned in front of the whole school."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پێش تەواوی قوتابخانەکە دارکاری کرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

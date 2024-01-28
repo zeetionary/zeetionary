@@ -207,7 +207,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -269,7 +269,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -333,7 +333,7 @@ class EnglishEntryarmy extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [

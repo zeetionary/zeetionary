@@ -210,12 +210,18 @@ class EnglishEntrycannery extends StatelessWidget {
 ١. (ناو) شوێنێک کە خواردنی تێدا لە قوتو دەخرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His mother worked in the local tuna cannery."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دایکی لە کارگەیەکی لەقوتوخستنی خۆجێی ماسی تونا کاری دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His mother worked in the local tuna cannery."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دایکی لە کارگەیەکی لەقوتوخستنی خۆجێی ماسی تونا کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannery", follow LX strictly
                               Column(
                                 children: [

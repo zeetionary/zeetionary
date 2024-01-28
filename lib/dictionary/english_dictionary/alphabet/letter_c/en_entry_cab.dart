@@ -212,10 +212,17 @@ class EnglishEntrycab extends StatelessWidget {
 ١. (ناو) تەکسی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I'll call you a cab."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەیوەندی بە تەکسییەکەوە دەکەم بۆت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I'll call you a cab."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەیوەندی بە تەکسییەکەوە دەکەم بۆت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cab", follow LX strictly
                               Column(
                                 children: [
@@ -232,10 +239,16 @@ class EnglishEntrycab extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's take a cab."),
-                              const ExampleSentenceKurdish(
-                                  text: "با تەکسییەک بگرین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's take a cab."),
+                                    ExampleSentenceKurdish(
+                                        text: "با تەکسییەک بگرین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -309,12 +322,18 @@ class EnglishEntrycab extends StatelessWidget {
                                   "٢. (ناو) بەشی پێشەوەی بارهەڵگرێک، پاسێک، شەمەندەفەرێک، هتد کە شۆفێرەکە تێیدا دادەنیشێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The captain remained in the cab of the ship for most part of the journey."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کاپتنەکە لە کابی کەشتییەکەدا مایەوە بۆ زۆرینەی ماوەی گەشتەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The captain remained in the cab of the ship for most part of the journey."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاپتنەکە لە کابی کەشتییەکەدا مایەوە بۆ زۆرینەی ماوەی گەشتەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

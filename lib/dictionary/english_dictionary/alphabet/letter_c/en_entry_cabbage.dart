@@ -212,10 +212,16 @@ class EnglishEntrycabbage extends StatelessWidget {
 ١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی هەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Do you like cabbage?"),
-                              const ExampleSentenceKurdish(
-                                  text: "حەزت لە کەلەرمە؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Do you like cabbage?"),
+                                    ExampleSentenceKurdish(
+                                        text: "حەزت لە کەلەرمە؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabbage", follow LX strictly
                               Column(
                                 children: [
@@ -232,11 +238,18 @@ class EnglishEntrycabbage extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We have grown a lot of cabbages this year."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەمساڵ کەلەرمی زۆرمان بەرهەمهێناوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We have grown a lot of cabbages this year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمساڵ کەلەرمی زۆرمان بەرهەمهێناوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

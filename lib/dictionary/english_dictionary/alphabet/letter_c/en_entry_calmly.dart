@@ -213,12 +213,18 @@ class EnglishEntrycalmly extends StatelessWidget {
 ١. (ھاوەڵکار) بە ئارامی و لەسەرخۆیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She reacted calmly to the news of his death."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەسەرخۆییەوە کاردانەوەی هەبوو بۆ هەواڵی مردنی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She reacted calmly to the news of his death."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەسەرخۆییەوە کاردانەوەی هەبوو بۆ هەواڵی مردنی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calmly", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrycalmly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The storm was over, and small waves lapped calmly against the beach."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زریانەکە تەواو بوو، و شەپۆلە بچووکەکان بە ئارامی دەیان کێشا بە کەنارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The storm was over, and small waves lapped calmly against the beach."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زریانەکە تەواو بوو، و شەپۆلە بچووکەکان بە ئارامی دەیان کێشا بە کەنارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

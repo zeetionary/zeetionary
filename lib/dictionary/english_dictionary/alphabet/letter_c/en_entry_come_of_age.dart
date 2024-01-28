@@ -126,12 +126,18 @@ class EnglishEntrycomeofage extends StatelessWidget {
 ١. (ئیدیەم) گەشتن بە تەمەنی یاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The money will go to the children when they come of age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The money will go to the children when they come of age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارەکە دەدرێت بە منداڵەکان کە دەگەن بە تەمەنی یاسایی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

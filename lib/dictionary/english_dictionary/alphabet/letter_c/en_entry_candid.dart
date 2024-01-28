@@ -214,11 +214,18 @@ class EnglishEntrycandid extends StatelessWidget {
 ١. (ھاوەڵناو) وتنی ئەوەی کە دەتەوێت بە ڕاستگۆیی و کراوەیی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt she was being less than candid with me."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێم‌وابوو ڕێک‌وڕاست نییە لەگەڵم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt she was being less than candid with me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌وابوو ڕێک‌وڕاست نییە لەگەڵم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candid", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +242,18 @@ class EnglishEntrycandid extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The ex-minister gave a candid interview about his reasons for resigning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەزیری پێشوو چاوپێکەوتنێکی ڕاشکاوانەی ئەنجامدا سەبارەت بە هۆکارەکانی بۆ دەستلەکارکێشانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ex-minister gave a candid interview about his reasons for resigning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەزیری پێشوو چاوپێکەوتنێکی ڕاشکاوانەی ئەنجامدا سەبارەت بە هۆکارەکانی بۆ دەستلەکارکێشانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +273,18 @@ class EnglishEntrycandid extends StatelessWidget {
                                   "٢. (ھاوەڵناو) وێنەیەک کە ئەو کەسەی وێنەی گیردراوە ئاگای لێ نەبوو"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He mingled among the guests and took the candid shots which were much more fun than the formal group photographs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە ناو میوانەکاندا هاتوچۆی بوو و وێنەی ڕاست‌بینانەی دەگرت کە زۆر خۆشتر بوون لە وێنە فەرمییە گرووپییەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He mingled among the guests and took the candid shots which were much more fun than the formal group photographs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ناو میوانەکاندا هاتوچۆی بوو و وێنەی ڕاست‌بینانەی دەگرت کە زۆر خۆشتر بوون لە وێنە فەرمییە گرووپییەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

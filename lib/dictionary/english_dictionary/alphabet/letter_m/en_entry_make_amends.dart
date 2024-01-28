@@ -193,12 +193,18 @@ class EnglishEntrymakeamends extends StatelessWidget {
 ١. (کاری لێکدراو) کردنی شتێک بۆ کەسێک بۆ پیشاندانی پەشیمانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She tried to make amends for what she had said to her mother by buying her some flowers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لە دوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She tried to make amends for what she had said to her mother by buying her some flowers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵی دا دڵی دایکی ئاشت بکاتەوە لە دوای ئەوەی پێی گوتبوو بە کڕینی گوڵ بۆی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

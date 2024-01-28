@@ -212,12 +212,18 @@ class EnglishEntrycallus extends StatelessWidget {
 ١. (ناو) بەشێکی دەست یان پێ کە پێستەکەی ڕەق بووە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He had workman's hands which were rough and covered with calluses."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەستی کرێکارانەی هەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He had workman's hands which were rough and covered with calluses."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەستی کرێکارانەی هەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "callus", follow LX strictly
                               Column(
                                 children: [

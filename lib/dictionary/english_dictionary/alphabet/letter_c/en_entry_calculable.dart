@@ -212,12 +212,18 @@ class EnglishEntrycalculable extends StatelessWidget {
 ١. (ھاوەڵناو) شتێک کە دەجەمڵێندرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The time required to complete the project was calculable given the available resources."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەو کاتەی پێویست بوو بۆ تەواوکردنی پڕۆژەکە لێک‌دەدرایەوە بەو زانیارییانەی بەردەست بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The time required to complete the project was calculable given the available resources."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو کاتەی پێویست بوو بۆ تەواوکردنی پڕۆژەکە لێک‌دەدرایەوە بەو زانیارییانەی بەردەست بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculable", follow LX strictly
                               Column(
                                 children: [

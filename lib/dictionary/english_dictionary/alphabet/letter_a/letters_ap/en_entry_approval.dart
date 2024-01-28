@@ -206,7 +206,7 @@ class EnglishEntryapproval extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -270,7 +270,7 @@ class EnglishEntryapproval extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [

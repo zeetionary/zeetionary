@@ -212,12 +212,18 @@ class EnglishEntrycagoule extends StatelessWidget {
 ١. (ھاوەڵناو) چاکەتێکی درێژ کە کڵاوێکی هەیە و دژ بە باران لەبەر دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Bad weather is likely, so please wear boots and a cagoule."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەری کەشوهەوای دژوار هەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Bad weather is likely, so please wear boots and a cagoule."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەری کەشوهەوای دژوار هەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cagoule", follow LX strictly
                               Column(
                                 children: [

@@ -212,12 +212,18 @@ class EnglishEntrycamber extends StatelessWidget {
 ١. (ناو) داکشانێک لە ناوەڕاستی ڕێگاوە بۆ هەردوو لا بۆ ئەوەی ئاو دەربچێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The road was designed with a noticeable camber for water drainage."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The road was designed with a noticeable camber for water drainage."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە بە گورگەپشتێکی دیارەوە دیزاین کرابوو بۆ ڕێگەدان بە ئاوەچۆڕکردن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camber", follow LX strictly
                               Column(
                                 children: [

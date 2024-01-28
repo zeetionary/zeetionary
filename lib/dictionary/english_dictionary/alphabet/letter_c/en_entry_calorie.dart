@@ -211,12 +211,18 @@ class EnglishEntrycalorie extends StatelessWidget {
 ١. (ناو) یەکەی پێوانی وزەی خۆراک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "No sugar for me, thanks—I'm counting my calories."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەبێ شەکر بۆ من، تکایە. کالۆریم کەم دەکەمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "No sugar for me, thanks—I'm counting my calories."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەبێ شەکر بۆ من، تکایە. کالۆریم کەم دەکەمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calorie", follow LX strictly
                               Column(
                                 children: [
@@ -233,12 +239,18 @@ class EnglishEntrycalorie extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هێلکەیەکی برژاو بە نزیکەیی ١٠٠٠ کالۆری تێدایە، بەنزیکەیی هەمان ئەو ڕێژەی دەیسووتێنی ئەگەر یەک میل ڕابکەیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هێلکەیەکی برژاو بە نزیکەیی ١٠٠٠ کالۆری تێدایە، بەنزیکەیی هەمان ئەو ڕێژەی دەیسووتێنی ئەگەر یەک میل ڕابکەیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

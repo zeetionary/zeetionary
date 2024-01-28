@@ -212,12 +212,18 @@ class EnglishEntrycannibalize extends StatelessWidget {
 ١. (کردار) کەمکردنەوەی فرۆشی بەرهەمێک لەلایەن کۆمپانیایەکەوە بە ناساندنی بەرهەمێکی دیکەی لێکچوو"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We believe the two perfumes appeal to different buyers and won’t cannibalize one another’s sales."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێمانوایە دوو بۆنەکە بۆ دوو کڕیاری جیاوازن کار لە فرۆشی یەکدی ناکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We believe the two perfumes appeal to different buyers and won’t cannibalize one another’s sales."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێمانوایە دوو بۆنەکە بۆ دوو کڕیاری جیاوازن کار لە فرۆشی یەکدی ناکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannibalize", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycannibalize extends StatelessWidget {
                                   "٢. (کردار) هەڵوەشاندنەوەی بەشەکانی ئامێرێک یان پێڕەوێک و بەکارهێنانی بۆ درووستکردن یان چاککردنەوەی دانەیەکی دیکە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He bought an old engine and cannibalized it for parts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بزوێنەرێکی کۆنی کڕی و هەڵیوەشاندەوە بۆ بەشەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He bought an old engine and cannibalized it for parts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بزوێنەرێکی کۆنی کڕی و هەڵیوەشاندەوە بۆ بەشەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +278,18 @@ class EnglishEntrycannibalize extends StatelessWidget {
                                   "٣. (کردار) خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی هاوجۆری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Female spiders cannibalize courting males."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جاڵجاڵۆکەی مێینە نێرینە دڵدارەکانیان دەخۆن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Female spiders cannibalize courting males."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جاڵجاڵۆکەی مێینە نێرینە دڵدارەکانیان دەخۆن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -217,12 +217,18 @@ class EnglishEntrycandour extends StatelessWidget {
 ١. (ناو) وتنی ئەوەی لە دڵتە وەک خۆی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘I don't trust him,’ he said in a rare moment of candour."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ساتێکی تەواو سەرڕاستیدا وتی 'باوەڕی پێ ناکەم'."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘I don't trust him,’ he said in a rare moment of candour."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ساتێکی تەواو سەرڕاستیدا وتی 'باوەڕی پێ ناکەم'."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candour", follow LX strictly
                               Column(
                                 children: [

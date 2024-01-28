@@ -212,12 +212,18 @@ class EnglishEntrycanvasser extends StatelessWidget {
 ١. (ناو) کەسێک کە پشتگیری بۆ کەسێک یان پارتێکی سیاسی کۆدەکاتەوە، بە پەیوەندی کردن یان گەڕانی مەیدانی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Canvassers will go door-to-door on election day."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ڕۆژی هەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canvassers will go door-to-door on election day."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ڕۆژی هەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canvasser", follow LX strictly
                               Column(
                                 children: [
@@ -237,12 +243,18 @@ class EnglishEntrycanvasser extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە دەیەوێت خەڵکی ڕازی بکات شتێک بکڕن یان خزمەتگوزارییەک بەکاربێنن، چی بە تەلەفۆن کردن بێت یان گەڕانی مەیدانی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He works as a canvasser for a tech firm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک مەندووبی کۆمپانیایەکی تەکنەلۆژی کاردەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He works as a canvasser for a tech firm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک مەندووبی کۆمپانیایەکی تەکنەلۆژی کاردەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +274,18 @@ class EnglishEntrycanvasser extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە هەوڵی دۆزینەوەی زانیاری و بۆچوون دەدات بە پرسیارکردن لە خەڵکی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Canvassers surveyed people from over 2,500 households."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاپرسیکاران ڕاین وەرگرت لە خەڵکی ٢٥٠٠ خانەوادەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canvassers surveyed people from over 2,500 households."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاپرسیکاران ڕاین وەرگرت لە خەڵکی ٢٥٠٠ خانەوادەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

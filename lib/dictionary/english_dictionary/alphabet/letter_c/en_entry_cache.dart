@@ -215,12 +215,18 @@ class EnglishEntrycache extends StatelessWidget {
 ١. (ناو) حەشارگەی نهێنی، بۆ نموونە بۆ چەک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The squirrel stored nuts in a cache beneath the tree."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The squirrel stored nuts in a cache beneath the tree."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سمۆرەکە کاکڵەکەی شاردەوە لە حەشارگەیەک لە ژێر دارەکەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cache", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntrycache extends StatelessWidget {
                                   "٢. (ناو) بەشێکی یادگەی کۆمپیوتەرێک کە زانیاری کۆگا دەکات کە زۆرجار پێویستن لە کاتێکدا پڕۆگرامەکە کار دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The browser stores frequently visited sites in a cache."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "براوزەرەکە ئەو وێبسایتانەی کە زووزوو سەردانکراون لە یادگەیەک کۆگا دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The browser stores frequently visited sites in a cache."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "براوزەرەکە ئەو وێبسایتانەی کە زووزوو سەردانکراون لە یادگەیەک کۆگا دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +275,18 @@ class EnglishEntrycache extends StatelessWidget {
                           const DefinitionKurdish(text: "٣. (کردار) شاردنەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Pirates cached treasures in a beachside."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "چەتەکان گەنجینەیان لە کەنار دەریایەک شاردەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Pirates cached treasures in a beachside."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چەتەکان گەنجینەیان لە کەنار دەریایەک شاردەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -288,12 +306,18 @@ class EnglishEntrycache extends StatelessWidget {
                                   "٤. (کردار) هەڵگرتنی داتا لە یادگەی کۆمپیوتەرێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Modern browsers cache images for faster loading."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە هەڵدەگرن بۆ خێرا کردنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Modern browsers cache images for faster loading."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە هەڵدەگرن بۆ خێرا کردنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -213,10 +213,16 @@ class EnglishEntrycandle extends StatelessWidget {
 ١. (ناو) مۆم"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The room was lit by candles."),
-                              const ExampleSentenceKurdish(
-                                  text: "ژوورەکە بە مۆم گەشێندرابووەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The room was lit by candles."),
+                                    ExampleSentenceKurdish(
+                                        text: "ژوورەکە بە مۆم گەشێندرابووەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candle", follow LX strictly
                               Column(
                                 children: [
@@ -233,10 +239,16 @@ class EnglishEntrycandle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Shall I light a candle?"),
-                              const ExampleSentenceKurdish(
-                                  text: "مۆمێک داگیرسێنم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Shall I light a candle?"),
+                                    ExampleSentenceKurdish(
+                                        text: "مۆمێک داگیرسێنم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -253,12 +265,18 @@ class EnglishEntrycandle extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I felt a cold draft and the candle started to flicker."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەستم بە شنەبایەکی سارد کرد و مۆمەکە دەستیکرد بە پرتەپرت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I felt a cold draft and the candle started to flicker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەستم بە شنەبایەکی سارد کرد و مۆمەکە دەستیکرد بە پرتەپرت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

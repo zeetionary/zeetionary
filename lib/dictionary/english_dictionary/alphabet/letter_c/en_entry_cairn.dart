@@ -212,12 +212,18 @@ class EnglishEntrycairn extends StatelessWidget {
 ١. (ناو) کەڵەکەبەردێک کە ڕێگایەک لەسەر شاخێک یان شوێنی ناشتنی کەسێک دیاری دەکات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The shepherd created a cairn to mark the edge of the grazing land."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "شوانەکە کەڵەکەبەردێکی دانا بۆ دیاریکردنی کۆتایی ناوچەی لەوەڕەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The shepherd created a cairn to mark the edge of the grazing land."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شوانەکە کەڵەکەبەردێکی دانا بۆ دیاریکردنی کۆتایی ناوچەی لەوەڕەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cairn", follow LX strictly
                               Column(
                                 children: [

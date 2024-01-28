@@ -212,12 +212,18 @@ class EnglishEntrycap extends StatelessWidget {
 ١. (ناو) کڵاوێک کە لە پێشەوە بەشێکی ڕەقی چەماوەی هەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wore a cap to help shielding his face from the sun's glare."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کڵاوێکی لەسەر کرد بۆ پاراستنی ڕووخساری لە تیشکی خۆر."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wore a cap to help shielding his face from the sun's glare."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڵاوێکی لەسەر کرد بۆ پاراستنی ڕووخساری لە تیشکی خۆر."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cap", follow LX strictly
                               Column(
                                 children: [

@@ -214,12 +214,18 @@ class EnglishEntrycanine extends StatelessWidget {
 ١. (ھاوەڵناو) پەیوەندیدار بە سەگ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The city's canine population (= the number of dogs in the city) has grown dramatically over recent years."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دانیشتوانی سەگی شارەکە لە چەند ساڵی ڕابردوودا بەشێوەیەکی بەرچاو زیادی کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The city's canine population (= the number of dogs in the city) has grown dramatically over recent years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دانیشتوانی سەگی شارەکە لە چەند ساڵی ڕابردوودا بەشێوەیەکی بەرچاو زیادی کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canine", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycanine extends StatelessWidget {
                                   "٢. (ناو) یەکێک لە چوار ددانەکەی پێشەوەی مرۆڤ یان ئاژەڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Carnivores use their canines for tearing meat apart."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گۆشتخۆرەکان کەڵبەکانیان بەکاردێنن بۆ پارچەکردنی گۆشت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Carnivores use their canines for tearing meat apart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گۆشتخۆرەکان کەڵبەکانیان بەکاردێنن بۆ پارچەکردنی گۆشت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -262,12 +274,18 @@ class EnglishEntrycanine extends StatelessWidget {
                           const DefinitionKurdish(text: "٣. (ناو) سەگ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The domestic canine has been a loyal companion to humans for centuries."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بۆ چەندین سەدەیە سەگی ماڵی دۆستی وەفاداری مرۆڤە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The domestic canine has been a loyal companion to humans for centuries."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ چەندین سەدەیە سەگی ماڵی دۆستی وەفاداری مرۆڤە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

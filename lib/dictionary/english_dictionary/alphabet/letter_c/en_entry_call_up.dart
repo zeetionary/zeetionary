@@ -211,12 +211,18 @@ class EnglishEntrycallup extends StatelessWidget {
 ١. (ناو) فرمانی پەیوەندیکردن بە سوپاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Because of his occupation, he was not liable for call-up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەهۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Because of his occupation, he was not liable for call-up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەهۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "call-up", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrycallup extends StatelessWidget {
                               text: "٢. (ناو) هەلی یاریکردن لە تیمێکی وەرزشی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His recent form has earned him a call-up to the England squad."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاستی ئەم دواییەی وایکردووە بانگ بکرێت بۆ تیمی ئەنگلتەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His recent form has earned him a call-up to the England squad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاستی ئەم دواییەی وایکردووە بانگ بکرێت بۆ تیمی ئەنگلتەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

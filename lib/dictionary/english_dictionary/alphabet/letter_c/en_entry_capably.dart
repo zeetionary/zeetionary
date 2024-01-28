@@ -212,12 +212,18 @@ class EnglishEntrycapably extends StatelessWidget {
 ١. (ھاوەڵکار) کردنی شتێک بە هەبوونی توانای پێویستەوە بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He managed the conference very capably."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر لێوەشاوانە کۆنفرانسەکەی بەڕێوەبرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He managed the conference very capably."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر لێوەشاوانە کۆنفرانسەکەی بەڕێوەبرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "capably", follow LX strictly
                               Column(
                                 children: [
@@ -234,10 +240,16 @@ class EnglishEntrycapably extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She drove very capably."),
-                              const ExampleSentenceKurdish(
-                                  text: "زۆر لێهاتووانە شۆفێری کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She drove very capably."),
+                                    ExampleSentenceKurdish(
+                                        text: "زۆر لێهاتووانە شۆفێری کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -211,10 +211,18 @@ class EnglishEntrycalmdown extends StatelessWidget {
 ١. (کاری لێکدراو) ئارامبوونەوە؛ دامرکاندنەوە یان ئارامکردنەوەی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Look, calm down! We'll find her."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەیرکە، ئارامبەوە! دەیدۆزینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Look, calm down! We'll find her."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەیرکە، ئارامبەوە! دەیدۆزینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calm down", follow LX strictly
                               Column(
                                 children: [
@@ -231,12 +239,18 @@ class EnglishEntrycalmdown extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We waited inside until things calmed down."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ژوورەوە چاوەڕێ بووین تا شتەکان دامرکانەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We waited inside until things calmed down."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژوورەوە چاوەڕێ بووین تا شتەکان دامرکانەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

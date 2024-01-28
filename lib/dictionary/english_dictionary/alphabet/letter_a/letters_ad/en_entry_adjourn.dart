@@ -133,7 +133,7 @@ class EnglishEntryadjourn extends StatelessWidget {
                                         text: "The court adjourned for lunch."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دادگا دانیشتنەکەی ھەڵپەسارد تاوەکو نیوەڕۆ."),
+                                            "دادگا دانیشتنەکەی ھەڵپەسارد بۆ خواردنی نانی نیوەڕۆ."),
                                   ],
                                 ),
                               ),

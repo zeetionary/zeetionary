@@ -212,11 +212,18 @@ class EnglishEntrycantankerous extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت و بەردەوام ناڕەزایی هەیە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He's getting a bit cantankerous in his old age."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەمێک ڕووتاڵ بووە لە تەمەنی پیرییدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He's getting a bit cantankerous in his old age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمێک ڕووتاڵ بووە لە تەمەنی پیرییدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cantankerous", follow LX strictly
                               Column(
                                 children: [

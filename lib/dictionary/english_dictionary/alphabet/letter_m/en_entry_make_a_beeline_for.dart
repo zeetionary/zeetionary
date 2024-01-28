@@ -173,12 +173,18 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
 ١. (ئیدیەم) بەخێرایی ڕۆشتن بەرەو کەسێک/شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As soon as she arrived at the party, she made a beeline for the food."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ھەرکە گەشتە ئاھەنگەکە، ڕاستەوخۆ ڕۆشت بەرەو خواردنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As soon as she arrived at the party, she made a beeline for the food."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرکە گەشتە ئاھەنگەکە، ڕاستەوخۆ ڕۆشت بەرەو خواردنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -198,12 +204,18 @@ class EnglishEntrymakeabeelinefor extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "At parties he always makes a beeline for the prettiest woman in the room."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئاھەنگدا ھەمیشە دەنووسێت بە جوانترین ژنەکانی ژوورەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At parties he always makes a beeline for the prettiest woman in the room."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئاھەنگدا ھەمیشە دەنووسێت بە جوانترین ژنەکانی ژوورەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

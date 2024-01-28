@@ -213,11 +213,18 @@ class EnglishEntrycadge extends StatelessWidget {
 ١. (کردار) داواکردنی پارە، خواردن، هتد بەتایبەتی بەهۆی ئەوەی خۆت ناتوانیت یان نەتەوێت بیدەیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I managed to cadge some money off my dad."),
-                              const ExampleSentenceKurdish(
-                                  text: "توانیم هەندێک پارە لە باوکم دەربێنم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I managed to cadge some money off my dad."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانیم هەندێک پارە لە باوکم دەربێنم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cadge", follow LX strictly
                               Column(
                                 children: [
@@ -234,11 +241,17 @@ class EnglishEntrycadge extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He cadges off all his friends."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەست لە هەموو هاوڕێکانی پان دەکاتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He cadges off all his friends."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەست لە هەموو هاوڕێکانی پان دەکاتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

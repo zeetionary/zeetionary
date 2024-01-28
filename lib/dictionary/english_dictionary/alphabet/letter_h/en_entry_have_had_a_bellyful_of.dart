@@ -171,11 +171,18 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
 ١. (ئیدیەم) مامەڵەکردن لەگەڵ کەسێک تا ئاستێک کە چی دیکە ناتوانی بەرگەی بگریت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I've had a bellyful of your moaning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گەشتووەتە بینەقاقام لەدەست نووزەنووزەکانت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've had a bellyful of your moaning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشتووەتە بینەقاقام لەدەست نووزەنووزەکانت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -195,11 +202,18 @@ class EnglishEntryhavehadabellyfulof extends StatelessWidget {
                           // const DividerDefinition(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I've had a bellyful of their lies."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەشی پێویستم لە درۆکانیان گوێ لێبووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I've had a bellyful of their lies."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشی پێویستم لە درۆکانیان گوێ لێبووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

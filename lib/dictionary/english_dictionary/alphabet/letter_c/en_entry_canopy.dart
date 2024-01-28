@@ -213,12 +213,18 @@ class EnglishEntrycanopy extends StatelessWidget {
 ١. (ناو) داپۆشەرێک کە لەسەر جێگەیەکی نووستن، کورسییەک، هتد درووست دەکرێت بۆ سێبەر یان جوانکاری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Canopies in medieval times often symbolized wealth and status."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژوورسەر لە سەردەمانی ناوەڕاستدا زۆرجار نیشانەی سامان و پێگە بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canopies in medieval times often symbolized wealth and status."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژوورسەر لە سەردەمانی ناوەڕاستدا زۆرجار نیشانەی سامان و پێگە بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canopy", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrycanopy extends StatelessWidget {
                                   "٢. (ناو) ڕوویەک لە شتێک کە بەسەر ناوچەیەکدا بڵاودەبێتەوە، بەتایبەتی لقەکانی دار بەسەر دارستاندا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We could see the sky through gaps in the forest canopy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمانتوانی ئاسمان ببینین بە بۆشایی نێوان چەتری دارستانەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We could see the sky through gaps in the forest canopy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمانتوانی ئاسمان ببینین بە بۆشایی نێوان چەتری دارستانەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -219,11 +219,18 @@ class EnglishEntrycable extends StatelessWidget {
 ١. (ناو) ژمارەیەک وایەر کە داپۆشراوە و کارەبا، ستگناڵی موبایل، هتد دەگوازێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They're digging up the road to lay cables."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕێگاکە هەڵدەکەنن بۆ دانانی کێبڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They're digging up the road to lay cables."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێگاکە هەڵدەکەنن بۆ دانانی کێبڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cable", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +247,18 @@ class EnglishEntrycable extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Engineers plan to run the telephone cables under the river."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندازیاران پلانیان هەیە کێبڵی تەلەفۆن لەژێر ڕووبارەکە دابنێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Engineers plan to run the telephone cables under the river."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندازیاران پلانیان هەیە کێبڵی تەلەفۆن لەژێر ڕووبارەکە دابنێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,11 +278,18 @@ class EnglishEntrycable extends StatelessWidget {
                                   "٢. (ناو) سیستەمێکی پەخشی پڕۆگرامی تەلەفیزیۆنی کە وایەر بەکاردێنێت لەجیاتی پەخشی ڕادیۆیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We can receive up to 500 cable channels."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەتوانین تا ٥٠٠ کەناڵی کێبڵ بێنین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We can receive up to 500 cable channels."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانین تا ٥٠٠ کەناڵی کێبڵ بێنین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

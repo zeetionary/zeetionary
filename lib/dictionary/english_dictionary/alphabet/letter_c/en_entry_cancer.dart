@@ -217,12 +217,18 @@ class EnglishEntrycancer extends StatelessWidget {
 ١. (ناو) شێرپەنجە؛ نەخۆشییەکی کوشندە کە تێیدا تۆپەڵە خانە لە لەشێ مرۆڤدا درووست دەبن و خانە ئاساییەکان دەکوژن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Most skin cancers are completely curable."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆرینەی شێرپەنجەی پێست چارەسەر دەکرێن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Most skin cancers are completely curable."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆرینەی شێرپەنجەی پێست چارەسەر دەکرێن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancer", follow LX strictly
                               Column(
                                 children: [
@@ -239,11 +245,17 @@ class EnglishEntrycancer extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cancer has spread to his stomach."),
-                              const ExampleSentenceKurdish(
-                                  text: "شێرپەنجەکە گەشتووە بە گەدەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cancer has spread to his stomach."),
+                                    ExampleSentenceKurdish(
+                                        text: "شێرپەنجەکە گەشتووە بە گەدەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -318,11 +330,18 @@ class EnglishEntrycancer extends StatelessWidget {
                                   "٢. (ناو) شتێکی خراپ کە بە زوویی بڵاودەبێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Violence is a cancer in our society."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توندوتیژی شێرپەنجەیە لە کۆمەڵگاکەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Violence is a cancer in our society."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توندوتیژی شێرپەنجەیە لە کۆمەڵگاکەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -342,12 +361,18 @@ class EnglishEntrycancer extends StatelessWidget {
                                   "٣. (ناو) کەلووی قرژاڵ، چوارەم کەلوو لە ناوچەی کەلووەکان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "If your birthday is July 10 then your zodiac sign is Cancer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەگەر ڕۆژی لەدایکبوونت ١٠ ی تەممووزە، ئەوا کەلووەکەت قرژاڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If your birthday is July 10 then your zodiac sign is Cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر ڕۆژی لەدایکبوونت ١٠ ی تەممووزە، ئەوا کەلووەکەت قرژاڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,10 +392,17 @@ class EnglishEntrycancer extends StatelessWidget {
                                   "٤. (ناو) کەسێک کە لە دایکبووی نێوان ٢٢ ی حوزەیران و ٢٢ ی تەمووزە و کەلووەکەی قرژاڵە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "My baby is a Cancer."),
-                              const ExampleSentenceKurdish(
-                                  text: "منداڵەکەم سەر بە کەلووی قرژاڵە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "My baby is a Cancer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "منداڵەکەم سەر بە کەلووی قرژاڵە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

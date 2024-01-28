@@ -213,12 +213,18 @@ class EnglishEntrycampus extends StatelessWidget {
 ١. (ناو) بینای زانکۆ یان کۆلێژێک و زەوی دەورووبەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The number of graduate students living off campus has dropped."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەی ئەو خوێندکارانەی کە لە دەرەوەی کەمپ دەژین دابەزیوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The number of graduate students living off campus has dropped."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەی ئەو خوێندکارانەی کە لە دەرەوەی کەمپ دەژین دابەزیوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "campus", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrycampus extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Students at the main campus have heeded the call to boycott lectures."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوێندکارانی کەمپی سەرەکی ڕابەرایەتی داوای بایکۆتی وانەکانیان کردووە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Students at the main campus have heeded the call to boycott lectures."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێندکارانی کەمپی سەرەکی ڕابەرایەتی داوای بایکۆتی وانەکانیان کردووە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -256,12 +268,18 @@ class EnglishEntrycampus extends StatelessWidget {
                           ),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Wi-fi is also provided in many locations around the campus."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وای فای لە زۆر شوێنی دەورووبەری کەمپەکە دابینکراوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Wi-fi is also provided in many locations around the campus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وای فای لە زۆر شوێنی دەورووبەری کەمپەکە دابینکراوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -278,11 +296,18 @@ class EnglishEntrycampus extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Engineering department is on the main campus."),
-                              const ExampleSentenceKurdish(
-                                  text: "بەشی ئەندازیاری لە کەمپی سەرەکییە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Engineering department is on the main campus."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشی ئەندازیاری لە کەمپی سەرەکییە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

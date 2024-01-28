@@ -212,12 +212,18 @@ class EnglishEntrycalamity extends StatelessWidget {
 ١. (ناو) ڕووداوێک کە دەبێتە هۆی زیانی گەورە بۆ ژیانی خەڵکی و ماڵیان"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The country suffered a series of calamities during the 1980s."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وڵاتەکە تووشی چەند بەڵایەک بوو لە ساڵانی ١٩٨٠ یەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The country suffered a series of calamities during the 1980s."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وڵاتەکە تووشی چەند بەڵایەک بوو لە ساڵانی ١٩٨٠ یەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calamity", follow LX strictly
                               Column(
                                 children: [

@@ -431,29 +431,29 @@ class EnglishEntryburn extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "The fire was still burning fiercely."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "ئاگرەکە هێشتا بە تاوەوە دەگڕیا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The fire was still burning fiercely."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئاگرەکە هێشتا بە تاوەوە دەگڕیا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
                                             onPressed: () =>
-                                                speakburns2("en-GB"),
+                                                speakburns3("en-GB"),
                                           ),
                                           CustomIconButtonAmerican(
                                             onPressed: () =>
-                                                speakburns2("en-US"),
+                                                speakburns3("en-US"),
                                           ),
                                         ],
                                       ),
@@ -461,20 +461,20 @@ class EnglishEntryburn extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "She burned his old love letters."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "نامە ئەویندارییە کۆنەکانی سوتاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She burned his old love letters."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "نامە ئەویندارییە کۆنەکانی سوتاند."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -556,20 +556,20 @@ class EnglishEntryburn extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "They called us to tell us that my aunt's house was burning."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "پەیوەندییان پێوە کردین تا بڵێن ماڵی پوورم ئاگری گرتووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "They called us to tell us that my aunt's house was burning."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پەیوەندییان پێوە کردین تا بڵێن ماڵی پوورم ئاگری گرتووە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -651,20 +651,20 @@ class EnglishEntryburn extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "All his belongings were burnt in the fire."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "تەواوی کەلوپەلەکانی لە ئاگرەکەدا سووتان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "All his belongings were burnt in the fire."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "تەواوی کەلوپەلەکانی لە ئاگرەکەدا سووتان."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -681,20 +681,20 @@ class EnglishEntryburn extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Several protesters burned American flags."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "ژمارەیەک خۆپیشاندەر ئاڵای ئەمریکایان سووتاند."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Several protesters burned American flags."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ژمارەیەک خۆپیشاندەر ئاڵای ئەمریکایان سووتاند."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -892,20 +892,20 @@ class EnglishEntryburn extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "The soup's hot. Don't burn your mouth."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "شۆرباکە گەرمە. دەمت مەسووتێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The soup's hot. Don't burn your mouth."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "شۆرباکە گەرمە. دەمت مەسووتێنە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -922,20 +922,20 @@ class EnglishEntryburn extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "His face had been horrifically burnt by acid."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "His face had been horrifically burnt by acid."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ڕووخساری بە خراپی سوتێندرابوو بە ئەسید."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(

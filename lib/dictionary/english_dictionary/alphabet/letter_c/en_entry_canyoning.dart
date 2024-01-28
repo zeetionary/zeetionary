@@ -210,12 +210,18 @@ class EnglishEntrycanyoning extends StatelessWidget {
 ١. (ناو) وەرزشێک کە بریتییە لە شوێنکەوتنی ڕووبارێکی خێرا کە بە دۆڵێکی قووڵ و تەسکدا تێدەپەڕێت، بە بەکارهێنانی ژمارەیەک ڕێگا کە بریتین لە سەرکەوتن، چوونەخوارەوە بەسەر لێوارە بەرزەکاندا بە بەکارهێنانی پەت، و مەلەکردن :"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Canyoning requires a permit in most national parks in the United States."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canyoning requires a permit in most national parks in the United States."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canyoning", follow LX strictly
                               Column(
                                 children: [

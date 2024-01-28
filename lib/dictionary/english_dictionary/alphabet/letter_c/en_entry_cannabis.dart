@@ -213,12 +213,18 @@ class EnglishEntrycannabis extends StatelessWidget {
 ١. (ناو) ڕووەکێکی درێژ کە بەکاردێت بۆ درووستکردنی ڕیشاڵیک کە حەبل و جلی پێ درووست دەکرێت، و بۆ درووستکردنی مادەی هۆشبەر"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cannabis has been cultivated for centuries for its versatile applications."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەهۆی بەکارهێنانە جۆراوجۆرەکانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cannabis has been cultivated for centuries for its versatile applications."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەهۆی بەکارهێنانە جۆراوجۆرەکانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannabis", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrycannabis extends StatelessWidget {
                                   "٢. (ناو) مادەیەکی هۆشبەر کە لە گەڵاکان یان گوڵی ڕووەکی مەریوانە وەردەگیردرێت و دەکیشرێت یان دەخورێت و هەستێکی ئاسوودەبەخش دەدات. مادەکە لە زۆر وڵاتدا قەدەغەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Traces of cannabis were found in the pilot’s blood."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پاشماوەی گیابەنگ لە خوێنی فڕۆکەوانەکە دۆزرایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Traces of cannabis were found in the pilot’s blood."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پاشماوەی گیابەنگ لە خوێنی فڕۆکەوانەکە دۆزرایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

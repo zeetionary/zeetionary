@@ -213,10 +213,17 @@ class EnglishEntrycannon extends StatelessWidget {
 ١. (ناو) چەکێکی قورس و گەورەی کۆن کە لەسەر ویلە و تۆپەڵە بەرد یان تۆپەڵە ئاسن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Three cannon opened fire."),
-                              const ExampleSentenceKurdish(
-                                  text: "سێ تۆپهاوێژ دەستیان بە بە شەڕ کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Three cannon opened fire."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێ تۆپهاوێژ دەستیان بە بە شەڕ کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cannon", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +243,18 @@ class EnglishEntrycannon extends StatelessWidget {
                                   "٢. (ناو) چەکێک کە بەستراوە بە فڕۆکەیەکەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A burst of fire was discharged by the jet's 20mm cannon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەللەیەک لە فیشەک دەستیپێکرد لە چەکە ٢٠ میلیمەترییەکەی فڕۆکەکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A burst of fire was discharged by the jet's 20mm cannon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەللەیەک لە فیشەک دەستیپێکرد لە چەکە ٢٠ میلیمەترییەکەی فڕۆکەکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -261,12 +274,18 @@ class EnglishEntrycannon extends StatelessWidget {
                                   "٣. (کردار) لێدان لە شتێک بە هێزێکی زۆرەوە لەکاتێکدا دەجوڵێیت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He ran around the corner, cannoning into a group of kids."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بە سووچەکەدا ڕایکرد و کێشای بە ژمارەیەک منداڵدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He ran around the corner, cannoning into a group of kids."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سووچەکەدا ڕایکرد و کێشای بە ژمارەیەک منداڵدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

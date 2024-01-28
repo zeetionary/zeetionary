@@ -212,12 +212,18 @@ class EnglishEntrycant extends StatelessWidget {
 ١. (ناو) قسەیەک، بەتایبەتی کە دەربارەی بابەتی ئایینی یان ئەخلاقییە، و بە ڕاست و دڵپاکانەی نابینی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His speech was full of political, social and religious cant."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وتارەکەی پڕ لە قسەی هەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His speech was full of political, social and religious cant."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی پڕ لە قسەی هەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cant", follow LX strictly
                               Column(
                                 children: [

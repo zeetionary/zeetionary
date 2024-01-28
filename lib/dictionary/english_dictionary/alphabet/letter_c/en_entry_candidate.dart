@@ -220,11 +220,17 @@ class EnglishEntrycandidate extends StatelessWidget {
 ١. (ناو) کەسێک کە هەوڵی بەدەستهێنانی کارێک یان پۆستێک بە هەڵبژاردن دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He is the best candidate for the job."),
-                              const ExampleSentenceKurdish(
-                                  text: "باشترین بەربژێرە بۆ کارەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is the best candidate for the job."),
+                                    ExampleSentenceKurdish(
+                                        text: "باشترین بەربژێرە بۆ کارەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candidate", follow LX strictly
                               Column(
                                 children: [
@@ -241,12 +247,18 @@ class EnglishEntrycandidate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She stood as a candidate in the local elections."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەربژێرێک بوو لە هەڵبژاردنە خۆجێیەکان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She stood as a candidate in the local elections."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەربژێرێک بوو لە هەڵبژاردنە خۆجێیەکان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -320,12 +332,18 @@ class EnglishEntrycandidate extends StatelessWidget {
                               text: "٢. (ناو) کەسێک کە تاقیکردنەوە دەکات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Candidates are allowed to use dictionaries in this examination."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تاقیکاران دەتوانن فەرهەنگ بەکاربێنن لەم تاقیکردنەوەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Candidates are allowed to use dictionaries in this examination."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاقیکاران دەتوانن فەرهەنگ بەکاربێنن لەم تاقیکردنەوەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -345,12 +363,18 @@ class EnglishEntrycandidate extends StatelessWidget {
                                   "٣. (ناو) کەسێک یان گرووپێک کە گونجاوە بۆ شتێک، ئەگەری هەیە شتێک بەدەستبهێنێت، یان ببێت بە شتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "His father is an obvious candidate for a heart attack."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "باوکی ئەگەرێکی ئاشکرای لێدانی جەڵدەی دڵی هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His father is an obvious candidate for a heart attack."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "باوکی ئەگەرێکی ئاشکرای لێدانی جەڵدەی دڵی هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -367,12 +391,18 @@ class EnglishEntrycandidate extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This is a prime candidate for best movie of the year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەمە بەربژێرێکی گونجاوە بۆ باشترین فیلمی ساڵ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This is a prime candidate for best movie of the year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە بەربژێرێکی گونجاوە بۆ باشترین فیلمی ساڵ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -127,12 +127,18 @@ class EnglishEntryunderage extends StatelessWidget {
 ١. (ئیدیەم) لەخوار تەمەنی یاسایی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is illegal to sell cigarettes to children who are under age."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is illegal to sell cigarettes to children who are under age."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

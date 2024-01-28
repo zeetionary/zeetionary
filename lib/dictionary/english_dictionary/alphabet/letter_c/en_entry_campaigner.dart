@@ -213,12 +213,18 @@ class EnglishEntrycampaigner extends StatelessWidget {
 ١. (ناو) کەسێک کە بەژداری یان ڕابەرایەتی هەڵمەتێک دەکات بە ئامانجی گۆڕانکاریی سیاسی یان کۆمەڵایەتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She was an outspoken campaigner for victims of domestic abuse."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەباتکارێکی سەرسەخت بوو بۆ قوربانیانی توندوتیژی خێزانی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was an outspoken campaigner for victims of domestic abuse."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەباتکارێکی سەرسەخت بوو بۆ قوربانیانی توندوتیژی خێزانی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "campaigner", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrycampaigner extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has been a tireless campaigner against education cuts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خوباتکارێکی ماندوونەناس بووە دژ بە بڕین (ی بودجە) لە کەرتی پەروەردەدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has been a tireless campaigner against education cuts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوباتکارێکی ماندوونەناس بووە دژ بە بڕین (ی بودجە) لە کەرتی پەروەردەدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

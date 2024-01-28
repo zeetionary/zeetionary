@@ -214,12 +214,18 @@ class EnglishEntrycake extends StatelessWidget {
 ١. (ناو) خواردنێکی شیرین کە لە تێکەڵەیەک لە ئارد، هێلکە، کەرە، شەکر، هتد دروست دەکرێت و لە فڕندا دەبرژێنرێت. کێک بە شێوە و قەبارەی جۆراوجۆر دروست دەکرێت و زۆرجار دەڕازێنرێتەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Everyone cheered as the bride and groom cut the wedding cake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەمووان هاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Everyone cheered as the bride and groom cut the wedding cake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەمووان هاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cake", follow LX strictly
                               Column(
                                 children: [
@@ -236,10 +242,16 @@ class EnglishEntrycake extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He cut her a slice of cake."),
-                              const ExampleSentenceKurdish(
-                                  text: "پارچە کێکێکی بۆ بڕی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He cut her a slice of cake."),
+                                    ExampleSentenceKurdish(
+                                        text: "پارچە کێکێکی بۆ بڕی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,10 +302,16 @@ class EnglishEntrycake extends StatelessWidget {
                                   "٢. (کردار) داپۆشینی شتێک بە توێژاڵێکی ئەستوور لە شتێکی نەرم کە ڕەق دەبێت لەکاتی وشکبوونەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Her shoes were caked with mud."),
-                              const ExampleSentenceKurdish(
-                                  text: "پێڵاوەکانی بە قوڕ داپۆشرابوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Her shoes were caked with mud."),
+                                    ExampleSentenceKurdish(
+                                        text: "پێڵاوەکانی بە قوڕ داپۆشرابوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -310,12 +328,18 @@ class EnglishEntrycake extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "When he ran onstage, his face was caked with make-up."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کە هاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "When he ran onstage, his face was caked with make-up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کە هاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

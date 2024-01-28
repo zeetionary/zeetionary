@@ -174,26 +174,8 @@ class EnglishEntryaspirate extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          RichText(
-                            text: const TextSpan(
-                              style: TextStyle(fontSize: 18),
-                              children: [
-                                TextSpan(
-                                  text:
-                                      "١. (ناو) دەنگێکی نەبزوێن کە بە ھەناسەیەکەوە دەریدەبڕی کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی ",
-                                ),
-                                TextSpan(
-                                  text: "house",
-                                  style: TextStyle(fontStyle: FontStyle.italic),
-                                ),
-                                TextSpan(
-                                  text: " لە ئینگلیزیدا",
-                                ),
-                              ],
-                            ),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "١. (ناو) (ناو) دەنگێکی نەبزوێن کە بە ھەناسەیەکەوە دەریدەبڕی کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی 'house' لە ئینگلیزیدا"),
                           Row(
                             children: [
                               const Expanded(

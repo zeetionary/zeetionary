@@ -214,12 +214,18 @@ class EnglishEntrycabin extends StatelessWidget {
 ١. (ناو) ژوورێکی بچووکی سەر کەشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I lay in my cabin feeling miserably seasick."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ژوورۆچکەکەمدا پاڵکەوتبووم و بەخراپی نەخۆش بووم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I lay in my cabin feeling miserably seasick."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژوورۆچکەکەمدا پاڵکەوتبووم و بەخراپی نەخۆش بووم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabin", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycabin extends StatelessWidget {
                                   "٢. (ناو) ئەو بەشەی فڕۆکە کە گەشتیاران تێیدا دەمێننەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The airplane's cabin was well-equipped for a comfortable journey."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کابینەی فڕۆکەکە بە باشی سازێندرابوو بۆ گەشتێکی ئاسوودە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The airplane's cabin was well-equipped for a comfortable journey."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کابینەی فڕۆکەکە بە باشی سازێندرابوو بۆ گەشتێکی ئاسوودە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +276,18 @@ class EnglishEntrycabin extends StatelessWidget {
                                   "٣. (ناو) خانوو یان پەناگەیەکی بچووک کە بەزۆری لە دار درووستکراوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We spent weekends in a cozy cabin by the lake."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆتایی هەفتەمان لە کابینەیەکی ئاسوودەبەخش بەسەر دەبرد لە نزیک دەریاچەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We spent weekends in a cozy cabin by the lake."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆتایی هەفتەمان لە کابینەیەکی ئاسوودەبەخش بەسەر دەبرد لە نزیک دەریاچەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

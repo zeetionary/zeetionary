@@ -213,10 +213,17 @@ class EnglishEntrycanoe extends StatelessWidget {
 ١. (ناو) بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We crossed the lake by canoe."),
-                              const ExampleSentenceKurdish(
-                                  text: "بە بەلەم بە دەریاچەکەدا پەڕینەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We crossed the lake by canoe."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە بەلەم بە دەریاچەکەدا پەڕینەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canoe", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +242,18 @@ class EnglishEntrycanoe extends StatelessWidget {
                               text: "٢. (کردار) گەشتکردن بە canoe"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She dreamed of canoeing down the Amazon."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "خەونی بە بەلەم‌سواری لە ڕووباری ئەمازۆندا دەبینی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She dreamed of canoeing down the Amazon."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خەونی بە بەلەم‌سواری لە ڕووباری ئەمازۆندا دەبینی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

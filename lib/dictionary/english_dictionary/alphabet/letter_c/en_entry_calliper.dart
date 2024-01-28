@@ -213,12 +213,18 @@ class EnglishEntrycalliper extends StatelessWidget {
 ١. (ناو) ئامێرێک کە بۆ پێوانی پانی و دووری بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The engineer used a calliper to precisely measure the width of the metal rod."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەندازیارەکە پەڕگارێکی بەکارهێنا بۆ پێوانی پانی چڵە ئاسنەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The engineer used a calliper to precisely measure the width of the metal rod."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەندازیارەکە پەڕگارێکی بەکارهێنا بۆ پێوانی پانی چڵە ئاسنەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calliper", follow LX strictly
                               Column(
                                 children: [
@@ -238,12 +244,18 @@ class EnglishEntrycalliper extends StatelessWidget {
                                   "٢. (ناو) ڕاگرێک بۆ لاقی لاواز یان بریندار"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He wore a knee brace to support his injured joint."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He wore a knee brace to support his injured joint."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لاق‌بەندێکی بەست بۆ پاڵپشتی جومگە بریندارەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

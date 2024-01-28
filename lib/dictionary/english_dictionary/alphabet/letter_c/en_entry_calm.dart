@@ -328,12 +328,18 @@ class EnglishEntrycalm extends StatelessWidget {
 ١. (ھاوەڵناو) ئارام و لەسەرخۆ"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "It is important to keep calm in an emergency."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەسەرخۆیی گرنگە لە بارودۆخی لەناکاودا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is important to keep calm in an emergency."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەسەرخۆیی گرنگە لە بارودۆخی لەناکاودا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calm", follow LX strictly
                               Column(
                                 children: [
@@ -350,11 +356,18 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He always stays calm under pressure."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەمیشە لەژێر فشاردا لەسەرخۆ دەمێنێتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He always stays calm under pressure."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەمیشە لەژێر فشاردا لەسەرخۆ دەمێنێتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -429,11 +442,17 @@ class EnglishEntrycalm extends StatelessWidget {
                                   "٢. (ھاوەڵناو) دەریایەکی لەسەرخۆ و بێ شەپۆل"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The sea was flat calm (= with no waves at all)."),
-                              const ExampleSentenceKurdish(
-                                  text: "دەریاکە تەواو ئارام بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sea was flat calm (= with no waves at all)."),
+                                    ExampleSentenceKurdish(
+                                        text: "دەریاکە تەواو ئارام بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -452,10 +471,16 @@ class EnglishEntrycalm extends StatelessWidget {
                               text: "٣. (ھاوەڵناو) کەشێکی بێ با"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The weather was calm and dry."),
-                              const ExampleSentenceKurdish(
-                                  text: "کەشەکە ئارام و وشک بوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The weather was calm and dry."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەشەکە ئارام و وشک بوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -474,12 +499,18 @@ class EnglishEntrycalm extends StatelessWidget {
                               text: "٤. (کردار) هێورکردنەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The announcement by the government did little to calm the fears of investors."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕاگەیاندنەکەی حکومەت کاریگەری کەمی بوو لەسەر ئەهۆنکردنەوەی وەبەرهێنەران."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The announcement by the government did little to calm the fears of investors."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاگەیاندنەکەی حکومەت کاریگەری کەمی بوو لەسەر ئەهۆنکردنەوەی وەبەرهێنەران."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -496,12 +527,18 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I breathed in slowly, trying to calm myself."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەهێواشی هەناسەم هەڵمژی بە هەوڵدان بۆ ئارامکردنەوەی خۆم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I breathed in slowly, trying to calm myself."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەهێواشی هەناسەم هەڵمژی بە هەوڵدان بۆ ئارامکردنەوەی خۆم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -520,10 +557,16 @@ class EnglishEntrycalm extends StatelessWidget {
                               text: "٥. (ناو) دۆخێکی ئارام و هێمن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The police appealed for calm."),
-                              const ExampleSentenceKurdish(
-                                  text: "پۆلیس داوای ئارامی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The police appealed for calm."),
+                                    ExampleSentenceKurdish(
+                                        text: "پۆلیس داوای ئارامی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -540,12 +583,18 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The bombings ended a period of relative calm."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەقینەوەکان کۆتاییان بە سەردەمێکی تا ڕادەیەک ئارامی هێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The bombings ended a period of relative calm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەقینەوەکان کۆتاییان بە سەردەمێکی تا ڕادەیەک ئارامی هێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -595,10 +644,16 @@ class EnglishEntrycalm extends StatelessWidget {
                               text: "٦. (ناو) کاتێک کە هیچ بایەک نییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "They landed in a flat calm."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە هێمنییەکی تەواودا نیشتنەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "They landed in a flat calm."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە هێمنییەکی تەواودا نیشتنەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -617,12 +672,18 @@ class EnglishEntrycalm extends StatelessWidget {
                               text: "٧. (ناو) هەڵسوکەوتی لەسەرخۆ و بێ‌دەنگ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He struggled to maintain his calm as they waited."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "نەیدەتوانی شێنەیی خۆی بپارێزێت کە چاوەڕێ بوون."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He struggled to maintain his calm as they waited."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەیدەتوانی شێنەیی خۆی بپارێزێت کە چاوەڕێ بوون."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -639,12 +700,18 @@ class EnglishEntrycalm extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Under his apparent calm lay real anxiety."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو هەیە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Under his apparent calm lay real anxiety."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو هەیە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -647,7 +647,6 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amuse.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amusement.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_am/en_entry_amusing.dart';
-import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_an.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anachronism.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anaemia.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_an/en_entry_anaemic.dart';
@@ -4059,7 +4058,6 @@ final loggedInRoute = RouteMap(routes: {
   "/english-amuse": (_) => MaterialPage(child: EnglishEntryamuse()),
   "/english-amusement": (_) => MaterialPage(child: EnglishEntryamusement()),
   "/english-amusing": (_) => MaterialPage(child: EnglishEntryamusing()),
-  "/english-an": (_) => MaterialPage(child: EnglishEntryan()),
   "/english-anachronism": (_) => MaterialPage(child: EnglishEntryanachronism()),
   "/english-anaemia": (_) => MaterialPage(child: EnglishEntryanaemia()),
   "/english-anaemic": (_) => MaterialPage(child: EnglishEntryanaemic()),

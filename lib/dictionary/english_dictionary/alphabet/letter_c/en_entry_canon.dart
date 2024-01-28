@@ -214,12 +214,18 @@ class EnglishEntrycanon extends StatelessWidget {
 ١. (ھاوەڵناو) قەشەیەک کە کۆمەڵێک ئەرکی تایبەتی هەیە لە کڵێسادا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The canon directed the choir and organized musical aspects of the cathedral."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "قەشەکە سەرپەرشتی دەستەی گۆرانیبێژ و ڕێکخستنی لایەنی میوزیکی کڵێساکەی دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The canon directed the choir and organized musical aspects of the cathedral."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "قەشەکە سەرپەرشتی دەستەی گۆرانیبێژ و ڕێکخستنی لایەنی میوزیکی کڵێساکەی دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canon", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycanon extends StatelessWidget {
                                   "٢. (ناو) یاسا و ڕێسا کە بەشێوەیەکی گشتی پەسەندکراون، یان ستانداردێک کە بەکاردێت بۆ بڕیاردان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The film director adhered to the visual and narrative canon of classical Hollywood cinema."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "فیلم دەرهێنەرەکە پابەند بوو بە ڕێسای وێنە و گێڕانەوەی سینەمای کلاسیکی هۆڵیوود."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The film director adhered to the visual and narrative canon of classical Hollywood cinema."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فیلم دەرهێنەرەکە پابەند بوو بە ڕێسای وێنە و گێڕانەوەی سینەمای کلاسیکی هۆڵیوود."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +276,18 @@ class EnglishEntrycanon extends StatelessWidget {
                                   "٣. (ناو) کۆمەڵە کتێبێک کە وەک کاری ڕاستی نووسەرێک دەبینرێن، یان ئەوەی کە گرنگ بن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "‘Wuthering Heights’ is a central book in the canon of English literature."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "‘Wuthering Heights’ کتێبێکی هەرە گرنگە لە شاکارەکانی وێژەی ئینگلیزیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "‘Wuthering Heights’ is a central book in the canon of English literature."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "‘Wuthering Heights’ کتێبێکی هەرە گرنگە لە شاکارەکانی وێژەی ئینگلیزیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

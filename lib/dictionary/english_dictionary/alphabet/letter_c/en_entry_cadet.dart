@@ -212,12 +212,18 @@ class EnglishEntrycadet extends StatelessWidget {
 ١. (ناو) گەنجێک کە ڕاهێنان دەکات بۆ چوونە ناو پۆلیس یان سوپاوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The military academy trains up to 2 000 officer cadets each year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەکادیمیا سەربازییەکە هەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاهێنان پێ‌دەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The military academy trains up to 2 000 officer cadets each year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەکادیمیا سەربازییەکە هەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاهێنان پێ‌دەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cadet", follow LX strictly
                               Column(
                                 children: [

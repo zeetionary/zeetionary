@@ -212,12 +212,18 @@ class EnglishEntrycallgirl extends StatelessWidget {
 ١. (ناو) ژنێک کە کاری لەشفرۆشی دەکات لە ڕێگەی موبایل و ئینتەرنێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Many call girls have their own websites with some personal details."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر لەشفرۆش وێبسایتی خۆیان هەیە لەگەڵ هەندێک زانیاریی کەسی تێیدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Many call girls have their own websites with some personal details."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر لەشفرۆش وێبسایتی خۆیان هەیە لەگەڵ هەندێک زانیاریی کەسی تێیدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "call girl", follow LX strictly
                               Column(
                                 children: [

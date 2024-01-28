@@ -195,11 +195,17 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
 ١. (ئیدیەم) شتێک کە سوودی دەبێت لە بارودۆخێکی دیاریکراودا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A little luck wouldn't go amiss right now!"),
-                              const ExampleSentenceKurdish(
-                                  text: "کەمێک بەخت خراپ نابێت ئێستا!"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A little luck wouldn't go amiss right now!"),
+                                    ExampleSentenceKurdish(
+                                        text: "کەمێک بەخت خراپ نابێت ئێستا!"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,12 +225,18 @@ class EnglishEntrynotcomegoamiss extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I followed them all the way to make sure nothing went amiss."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I followed them all the way to make sure nothing went amiss."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی ڕێگاکە شوێنیان کەوتم بۆ ئەوەی دڵنیابم ھیچ شتێک بە ھەڵە نەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

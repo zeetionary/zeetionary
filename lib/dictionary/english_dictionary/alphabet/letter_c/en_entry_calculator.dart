@@ -214,12 +214,18 @@ class EnglishEntrycalculator extends StatelessWidget {
 ١. (ناو) ئامێرێکی بچووکی ئەلیکترۆنی یان ئەپێکی موبایل یان کۆمپیوتەر کە نۆ لێکدانەوەی ژمارە بەکاردێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I used the calculator app on my phone."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارهێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I used the calculator app on my phone."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارهێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calculator", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrycalculator extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "You may bring a calculator into the exam."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەتوانیت ژمێرەرێک بێنیت بۆ تاقیکردنەوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You may bring a calculator into the exam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانیت ژمێرەرێک بێنیت بۆ تاقیکردنەوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

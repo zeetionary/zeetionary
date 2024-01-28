@@ -194,12 +194,18 @@ class EnglishEntryamok extends StatelessWidget {
 ١. (ھاوەڵکار) لەناکاو توڕەبوون یان تووشی خرۆشان، و ڕەفتارکردن بە توندوتیژانە، بەتایبەتی لە شوێنێکی گشتی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The army ran amok after one of its senior officers was killed."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپاکە شێت‌وھار بوون لە دوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The army ran amok after one of its senior officers was killed."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوپاکە شێت‌وھار بوون لە دوای ئەوەی یەکێک لە سەرکردە باڵاکانیان کوژرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

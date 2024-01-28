@@ -217,12 +217,18 @@ class EnglishEntrycancel extends StatelessWidget {
 ١. (کردار) هەڵوەشاندنەوە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "All flights have been cancelled because of bad weather."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەموو گەشتە ئاسمانییەکان هەڵوەشێندراونەتەوە بەهۆی کەشوهەوای خراپەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "All flights have been cancelled because of bad weather."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموو گەشتە ئاسمانییەکان هەڵوەشێندراونەتەوە بەهۆی کەشوهەوای خراپەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cancel", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycancel extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The prime minister has abruptly cancelled a trip to Washington."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرۆک وەزیران لەناکاو گەشتێکی بۆ واشنتۆن هەڵوەشاندەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The prime minister has abruptly cancelled a trip to Washington."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرۆک وەزیران لەناکاو گەشتێکی بۆ واشنتۆن هەڵوەشاندەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -263,12 +275,18 @@ class EnglishEntrycancel extends StatelessWidget {
                               text: "٢. (کردار) پاشگەزبوونەوە لە ڕێککەوتنێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "No charge will be made if you cancel within 10 days."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هیچ تێچوونێک وەرناگیردرێت ئەگەر لە ماوەی ١٠ ڕۆژدا پاشگەزبیتەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "No charge will be made if you cancel within 10 days."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هیچ تێچوونێک وەرناگیردرێت ئەگەر لە ماوەی ١٠ ڕۆژدا پاشگەزبیتەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -285,11 +303,18 @@ class EnglishEntrycancel extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Is it too late to cancel my order?"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر درەنگە بۆ پوچەڵکردنەوەی داواکارییەکەم؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Is it too late to cancel my order?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر درەنگە بۆ پوچەڵکردنەوەی داواکارییەکەم؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -341,12 +366,18 @@ class EnglishEntrycancel extends StatelessWidget {
                                   "٣. (کردار) ڕەتکردنەوە و وەستان لە پشتگیری کەسێک و باسکردنیان لە ژیانی ڕۆژانە و سەر ئینتەرنێت بەهۆی ئەوەی ناڕازیت لەگەڵ بۆچوونێکی یان کرداری"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Some campaigned to cancel the writer after she expressed her views on transgender rights."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەندێک کەمپینیان دەکرد بۆ سفرکردنەوەی نووسەرەکە بەهۆی بۆچوونەکانی لەسەر مافی هاوڕەگەزخوازان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Some campaigned to cancel the writer after she expressed her views on transgender rights."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەندێک کەمپینیان دەکرد بۆ سفرکردنەوەی نووسەرەکە بەهۆی بۆچوونەکانی لەسەر مافی هاوڕەگەزخوازان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

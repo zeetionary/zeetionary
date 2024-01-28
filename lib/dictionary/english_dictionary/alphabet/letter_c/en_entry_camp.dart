@@ -220,10 +220,16 @@ class EnglishEntrycamp extends StatelessWidget {
 ١. (ناو) خێوەت یان بینای کاتی کە خەڵکی بە کاتی تێیدا دەژی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Let's return to camp."),
-                              const ExampleSentenceKurdish(
-                                  text: "با بگەڕێینەوە کەمپ."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Let's return to camp."),
+                                    ExampleSentenceKurdish(
+                                        text: "با بگەڕێینەوە کەمپ."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "camp", follow LX strictly
                               Column(
                                 children: [
@@ -240,12 +246,18 @@ class EnglishEntrycamp extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "We broke camp early the next morning."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ هێنا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We broke camp early the next morning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ هێنا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -265,12 +277,18 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٢. (ناو) شێنێک کە منداڵان لە هاوینا بۆی دەچن و وەرزش و چالاکی دیکە ئەنجام دەدەن"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He spent two weeks at camp this summer."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دوو هەفتەی لە کامپ بەسەر برد ئەم هاوینە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He spent two weeks at camp this summer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو هەفتەی لە کامپ بەسەر برد ئەم هاوینە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -290,12 +308,18 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٣. (ناو) شوێنێک کە بینای کاتی یان خێوەتە و حکومەت خەڵکی تێدا ڕادەگرێت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They criticized the appalling conditions in the refugee camps."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سەرکۆنەی دۆخی تۆقێنەری کەمپی پەنابەرانیان کرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They criticized the appalling conditions in the refugee camps."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرکۆنەی دۆخی تۆقێنەری کەمپی پەنابەرانیان کرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -315,12 +339,18 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٤. (ناو) شوێنی ژیانی سەربازان لە کاتی جەنگ یان ڕاهێنان"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The military built three new army camps near the German border."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "سوپا سێ کەمپی تازەی سەربازیی درووستکرد لە نزیک سنووری ئەڵمانیا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The military built three new army camps near the German border."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سوپا سێ کەمپی تازەی سەربازیی درووستکرد لە نزیک سنووری ئەڵمانیا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -340,10 +370,16 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٥. (ناو) کۆمەڵە کەسێک کە هەمان بیرۆکەیان هەیە و دژی ئەو کەسانەن کە بیرۆکەی تریان هەیە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "We were in opposing camps."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە دوو بەرەی جیاواز بووین."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "We were in opposing camps."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە دوو بەرەی جیاواز بووین."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -360,12 +396,18 @@ class EnglishEntrycamp extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The region split into two armed camps."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The region split into two armed camps."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -384,12 +426,18 @@ class EnglishEntrycamp extends StatelessWidget {
                               text: "٦. (ناو) یەکێک لە لایەنەکانی ڕکابەرییەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There was an air of confidence in the England camp."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕواڵەتێکی خۆباوەڕی هەبوو لە لایەنی ئینگلتەرە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There was an air of confidence in the England camp."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕواڵەتێکی خۆباوەڕی هەبوو لە لایەنی ئینگلتەرە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -409,10 +457,16 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٧. (کردار) دانانی خێوەتێک و ژیان تێیدا بۆ ماوەیەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "I camped overnight in a field."),
-                              const ExampleSentenceKurdish(
-                                  text: "شەو لە کێڵگەیەکدا کەمپم دانا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "I camped overnight in a field."),
+                                    ExampleSentenceKurdish(
+                                        text: "شەو لە کێڵگەیەکدا کەمپم دانا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -432,12 +486,18 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٨. (کردار) چوون بۆ مانەوە لە کەمپ لەکاتی پشوودا"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They go camping in France every year."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They go camping in France every year."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -457,12 +517,18 @@ class EnglishEntrycamp extends StatelessWidget {
                                   "٩. (کردار) مانەوە لە ماڵی کەسێک بۆ ماوەیەکی کاتی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I'm camping out at a friend's apartment at the moment."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە ئێستادا لە دەستەژووری هاوڕێیەکم دەمێنمەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I'm camping out at a friend's apartment at the moment."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئێستادا لە دەستەژووری هاوڕێیەکم دەمێنمەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

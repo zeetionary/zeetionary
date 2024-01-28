@@ -213,10 +213,18 @@ class EnglishEntrycandidly extends StatelessWidget {
 ١. (ھاوەڵکار) بە ڕاستگۆیی و ڕاستی و درووستی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She candidly admitted her mistakes."),
-                              const ExampleSentenceKurdish(
-                                  text: "ڕاشکاوانە دانی بە هەڵەکانیدا نا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She candidly admitted her mistakes."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕاشکاوانە دانی بە هەڵەکانیدا نا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candidly", follow LX strictly
                               Column(
                                 children: [
@@ -233,12 +241,18 @@ class EnglishEntrycandidly extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I find she is easy to speak to candidly."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وایدەبین ئاسان بێت ڕاشکاوانە لەگەڵی بدوێی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I find she is easy to speak to candidly."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وایدەبین ئاسان بێت ڕاشکاوانە لەگەڵی بدوێی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

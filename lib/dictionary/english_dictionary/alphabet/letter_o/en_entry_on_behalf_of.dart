@@ -169,12 +169,18 @@ class EnglishEntryonbehalfof extends StatelessWidget {
 ١. (ئیدیەم) وەک نوێنەری کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "On behalf of the university I would like to thank you all."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "دەمەوێت سوپاسی ھەمووتان بکەم بەناوی زانکۆکەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "On behalf of the university I would like to thank you all."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەمەوێت سوپاسی ھەمووتان بکەم بەناوی زانکۆکەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -194,12 +200,18 @@ class EnglishEntryonbehalfof extends StatelessWidget {
 ٢. (ئیدیەم) بۆ یارمەتیدانی کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "They campaigned on behalf of asylum seekers."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمپینیان ئەنجامدا بۆ یارمەتیدانی ئەوانەی داوای پەناگەی پەنابەرێتییان دەکرد."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They campaigned on behalf of asylum seekers."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمپینیان ئەنجامدا بۆ یارمەتیدانی ئەوانەی داوای پەناگەی پەنابەرێتییان دەکرد."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -219,10 +231,16 @@ class EnglishEntryonbehalfof extends StatelessWidget {
 ٣. (ئیدیەم) بەھۆی کەسێک؛ بۆ کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Don't worry on my behalf."),
-                              const ExampleSentenceKurdish(
-                                  text: "نیگەران مەبە بۆ من."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Don't worry on my behalf."),
+                                    ExampleSentenceKurdish(
+                                        text: "نیگەران مەبە بۆ من."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -212,10 +212,16 @@ class EnglishEntrycanoeist extends StatelessWidget {
 ١. (ناو) کەسێک کە گەشت دەکات لە caneo دا (بەلەمێکی سووکی باریک کە بە سەوڵ دەیجوڵێنیت)"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He is an experienced canoeist."),
-                              const ExampleSentenceKurdish(
-                                  text: "گەمی‌سوارێکی بەئەزموونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He is an experienced canoeist."),
+                                    ExampleSentenceKurdish(
+                                        text: "گەمی‌سوارێکی بەئەزموونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canoeist", follow LX strictly
                               Column(
                                 children: [

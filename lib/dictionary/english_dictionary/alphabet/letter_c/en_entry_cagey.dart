@@ -213,11 +213,18 @@ class EnglishEntrycagey extends StatelessWidget {
 ١. (ھاوەڵناو) کەسێک کە نایەوێت زانیاری بدات بە کەسێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Tony is very cagey about his family."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "تۆنی زۆر بەپارێزە سەبارەت بە خێزانەکەی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Tony is very cagey about his family."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆنی زۆر بەپارێزە سەبارەت بە خێزانەکەی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cagey", follow LX strictly
                               Column(
                                 children: [
@@ -234,12 +241,18 @@ class EnglishEntrycagey extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "He was very cagey about what happened at the meeting."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "زۆر قایم‌کار بوو سەبارەت بەوەی لە کۆبوونەوەکە چی ڕوویدا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was very cagey about what happened at the meeting."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زۆر قایم‌کار بوو سەبارەت بەوەی لە کۆبوونەوەکە چی ڕوویدا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

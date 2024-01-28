@@ -215,10 +215,16 @@ class EnglishEntryc extends StatelessWidget {
 ١. (ناو) سێیەم پیتی ئەلفوبێی ئینگلیزی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "‘Cat’ begins with (a) C/‘C’."),
-                              const ExampleSentenceKurdish(
-                                  text: "وشەی cat بە C دەست پێدەکات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "‘Cat’ begins with (a) C/‘C’."),
+                                    ExampleSentenceKurdish(
+                                        text: "وشەی cat بە C دەست پێدەکات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "c", follow LX strictly
                               Column(
                                 children: [
@@ -237,10 +243,16 @@ class EnglishEntryc extends StatelessWidget {
                               text: "٢. (ناو) نمرەیەکی خوێندکارێک کە پەسەندە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "She got (a) C/‘C’ in physics."),
-                              const ExampleSentenceKurdish(
-                                  text: "پەسەندەی هێنا لە فیزیادا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She got (a) C/‘C’ in physics."),
+                                    ExampleSentenceKurdish(
+                                        text: "پەسەندەی هێنا لە فیزیادا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +272,18 @@ class EnglishEntryc extends StatelessWidget {
                                   "٣. (کورتکراوە) یەک سەنت؛ ڕێژەی ١٪ دراوێک، بۆ نموونە ١٠٠ سەنت یەک دۆلاری ئەمریکییە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "A one-minute phone call to the UK cost 10 cs."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "یەک خولەک پەیوندی بۆ شانشینی یەکگرتوو ١٠ سەنت دەبات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A one-minute phone call to the UK cost 10 cs."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک خولەک پەیوندی بۆ شانشینی یەکگرتوو ١٠ سەنت دەبات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -284,10 +302,18 @@ class EnglishEntryc extends StatelessWidget {
                               text: "٤. (کورتکراوە) کورتکراوە بۆ سەدە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "There were two world wars in 21st c."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو جەنگی جیهانی لە سەدەی ٢١ هەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were two world wars in 21st c."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو جەنگی جیهانی لە سەدەی ٢١ هەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -307,10 +333,16 @@ class EnglishEntryc extends StatelessWidget {
                                   "٥. (ناو) کورتکراوە بۆ circa کە لە لاتیندا واتا بە نزیکەیی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "He was born c1890."),
-                              const ExampleSentenceKurdish(
-                                  text: "لە نزیکەی ١٨٩٠ لەدایکبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He was born c1890."),
+                                    ExampleSentenceKurdish(
+                                        text: "لە نزیکەی ١٨٩٠ لەدایکبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -329,10 +361,17 @@ class EnglishEntryc extends StatelessWidget {
                               text: "٦. (کورتکراوە) کورتکراوە بۆ کوپ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Add 2c. flour to the mixture."),
-                              const ExampleSentenceKurdish(
-                                  text: "دوو کووپ ئارد بۆ تێکەڵەکە زیادبکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Add 2c. flour to the mixture."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دوو کووپ ئارد بۆ تێکەڵەکە زیادبکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -351,10 +390,17 @@ class EnglishEntryc extends StatelessWidget {
                               text: "٧. (ناو) کورتکراوە بۆ پلەی سیلیزی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Water freezes at 0°C."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئاو لە سفر پلەی سیلیزی دەیبەستێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Water freezes at 0°C."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاو لە سفر پلەی سیلیزی دەیبەستێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -373,11 +419,17 @@ class EnglishEntryc extends StatelessWidget {
                               text: "٨. (ناو) کورتکراوە بۆ کۆپیڕایت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "© Oxford University Press 2020"),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کۆپیڕایتی ناوەندی زانکۆی ئۆکسفۆرد ٢٠٢٠."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "© Oxford University Press 2020"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کۆپیڕایتی ناوەندی زانکۆی ئۆکسفۆرد ٢٠٢٠."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

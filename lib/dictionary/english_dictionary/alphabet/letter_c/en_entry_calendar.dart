@@ -215,12 +215,18 @@ class EnglishEntrycalendar extends StatelessWidget {
 ١. (ناو) لاپەڕەیەک یان کۆمەڵە لاپەڕەیەک کە هەفتە و مانگەکانی ساڵێکی دیاریکراوی تێدایە"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "An old calendar for 2012 was still hanging on the wall of her office."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ڕۆژمێرێکی کۆنی ٢٠١٢ هێشتا لەسەر دیواری ئۆفیسەکەی هەڵواسرابوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "An old calendar for 2012 was still hanging on the wall of her office."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژمێرێکی کۆنی ٢٠١٢ هێشتا لەسەر دیواری ئۆفیسەکەی هەڵواسرابوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calendar", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycalendar extends StatelessWidget {
                               text: "٢. (ناو) تۆماری ئەرکەکانت"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I think I'm free on that day—let me check my calendar."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "پێم‌وایە ئەو ڕۆژە کارم نییە، با سەیرێکی خشتەکەم بکەم."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I think I'm free on that day—let me check my calendar."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پێم‌وایە ئەو ڕۆژە کارم نییە، با سەیرێکی خشتەکەم بکەم."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -264,12 +276,18 @@ class EnglishEntrycalendar extends StatelessWidget {
                                   "٣. (ناو) لیستێکی بەروار و بۆنە گرنگەکانی ساڵ"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "These days the tennis calendar has become so crowded."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ڕۆژانە بۆنەکانی یاری تێنس زۆر زۆرن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "These days the tennis calendar has become so crowded."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ڕۆژانە بۆنەکانی یاری تێنس زۆر زۆرن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -289,12 +307,18 @@ class EnglishEntrycalendar extends StatelessWidget {
                                   "٤. (ناو) سیستەمێک کە بەکارێت بۆ دابەشکردنی ساڵ بەسەر ماوەی نەگۆڕدا و سەرەتا و کۆتایی ساڵ پیشان دەدات"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The Chinese calendar was developed around 600 BC."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ساڵنامەی چینی لە نزیکەی ٦٠٠ پ.ز درووستکرا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Chinese calendar was developed around 600 BC."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ساڵنامەی چینی لە نزیکەی ٦٠٠ پ.ز درووستکرا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

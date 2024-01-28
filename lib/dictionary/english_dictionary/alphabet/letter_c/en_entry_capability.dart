@@ -214,12 +214,18 @@ class EnglishEntrycapability extends StatelessWidget {
 ١. (ناو) توانای پێویست بۆ کردنی شتێک"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She has the capability to become a very fine doctor."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانستی هەیە ببێت بە دکتۆرێکی زۆر باش."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has the capability to become a very fine doctor."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانستی هەیە ببێت بە دکتۆرێکی زۆر باش."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "capability", follow LX strictly
                               Column(
                                 children: [
@@ -236,12 +242,18 @@ class EnglishEntrycapability extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Animals in the zoo have lost the capability of catching food for themselves."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئاژەڵانی باخچەی ئاژەڵان توانای گرتنی خواردنیان بۆ خۆیان لەدەستداوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Animals in the zoo have lost the capability of catching food for themselves."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵانی باخچەی ئاژەڵان توانای گرتنی خواردنیان بۆ خۆیان لەدەستداوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -260,12 +272,18 @@ class EnglishEntrycapability extends StatelessWidget {
                               text: "٢. (ناو) چەک و توانای سەربازی وڵاتێک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Several countries are trying to develop a nuclear capability."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ژمارەیەک وڵات هەوڵ دەدەن توانای چەکی ئەتۆمییان هەبێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several countries are trying to develop a nuclear capability."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک وڵات هەوڵ دەدەن توانای چەکی ئەتۆمییان هەبێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -219,12 +219,18 @@ class EnglishEntrycanker extends StatelessWidget {
 ١. (ناو) نەخۆشییەک لە ڕووەک و درەختدا کە داری ڕووی دەرەوەی قەد و لقەکەی لەناودەبات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Cut out lesions on branches caused by canker."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "برینی سەر لقەکان ببڕەوە کە بە ئافەت درووست بوونە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cut out lesions on branches caused by canker."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "برینی سەر لقەکان ببڕەوە کە بە ئافەت درووست بوونە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canker", follow LX strictly
                               Column(
                                 children: [
@@ -244,10 +250,16 @@ class EnglishEntrycanker extends StatelessWidget {
                                   "٢. (ناو) بەشێکی زیان پێگەشتووی درەختێک یان ڕووەکێک کە تووشی ئافەت بووە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Check trees for cankers."),
-                              const ExampleSentenceKurdish(
-                                  text: "سەیری دارەکان بۆ برین تێیاندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Check trees for cankers."),
+                                    ExampleSentenceKurdish(
+                                        text: "سەیری دارەکان بۆ برین تێیاندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -266,12 +278,18 @@ class EnglishEntrycanker extends StatelessWidget {
                               text: "٣. (ناو) ناوچەیەکی بەئازاری ناودەم"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The presence of a canker made it uncomfortable for her to eat."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوونی زامێک لە دەمیدا ناڕەحەتی بۆ درووستکرد لە خواردندا."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The presence of a canker made it uncomfortable for her to eat."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوونی زامێک لە دەمیدا ناڕەحەتی بۆ درووستکرد لە خواردندا."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
@@ -291,12 +309,18 @@ class EnglishEntrycanker extends StatelessWidget {
                                   "٤. (ناو) شتێکی خراپ کە لە مێشکی کەسێک، کۆمەڵگایەک، دامەزراوەیەک بڵاودەبێتەوە"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Poverty is a canker eating away at the foundations of society."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەژاری پەتایەکە کە لە پایەکانی کۆمەڵگا دەدات."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Poverty is a canker eating away at the foundations of society."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەژاری پەتایەکە کە لە پایەکانی کۆمەڵگا دەدات."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

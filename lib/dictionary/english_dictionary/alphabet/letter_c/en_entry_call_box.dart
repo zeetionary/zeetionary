@@ -215,12 +215,18 @@ class EnglishEntrycallbox extends StatelessWidget {
 ١. (ناو) شوێنێکی بچووک کە تەلەفۆنێکی گشتی تێدایە لە شەقامەکاندا"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The campus has strategically placed call boxes for quick response to safety concerns."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی هەبوونی مەترسی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The campus has strategically placed call boxes for quick response to safety concerns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی هەبوونی مەترسی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "call box", follow LX strictly
                               Column(
                                 children: [

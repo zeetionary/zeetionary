@@ -212,10 +212,16 @@ class EnglishEntrycaller extends StatelessWidget {
 ١. (ناو) کەسێک کە پەیوەندییەکی تەلەفۆنی ئەنجام دەدات"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "The caller hung up."),
-                              const ExampleSentenceKurdish(
-                                  text: "تەلەفۆن‌کەرەکە دایخستەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "The caller hung up."),
+                                    ExampleSentenceKurdish(
+                                        text: "تەلەفۆن‌کەرەکە دایخستەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "caller", follow LX strictly
                               Column(
                                 children: [
@@ -235,10 +241,17 @@ class EnglishEntrycaller extends StatelessWidget {
                                   "٢. (ناو) کەسێک کە دەچێتە خانوویەک یان بینایەک"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "You had a caller this morning."),
-                              const ExampleSentenceKurdish(
-                                  text: "ئەم بەیانییە سەردان‌کەرێکی هەبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "You had a caller this morning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم بەیانییە سەردان‌کەرێکی هەبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

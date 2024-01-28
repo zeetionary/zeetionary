@@ -213,10 +213,17 @@ class EnglishEntrycandy extends StatelessWidget {
 ١. (ناو) شیرینی کە لە شەکر و چکلێت درووست دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text: "Who wants the last piece of candy?"),
-                              const ExampleSentenceKurdish(
-                                  text: "کێ کۆتا پارچە شیرینی دەوێت؟"),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Who wants the last piece of candy?"),
+                                    ExampleSentenceKurdish(
+                                        text: "کێ کۆتا پارچە شیرینی دەوێت؟"),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candy", follow LX strictly
                               Column(
                                 children: [
@@ -233,12 +240,18 @@ class EnglishEntrycandy extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "She had enough candies in her pocket for all the children."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "لە گیرفانەکانیدا بەشی هەموو منداڵەکان شیرینی پێبوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She had enough candies in her pocket for all the children."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە گیرفانەکانیدا بەشی هەموو منداڵەکان شیرینی پێبوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

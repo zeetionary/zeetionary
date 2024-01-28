@@ -210,26 +210,7 @@ class EnglishEntryaspiration extends StatelessWidget {
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
-                          RichText(
-                            text: const TextSpan(
-                              style: TextStyle(fontSize: 18),
-                              children: [
-                                TextSpan(
-                                  text:
-                                      "٢. (ناو) کرداری خوێندنەوەی وشە بە ھەناسەیەکەوە کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی ",
-                                ),
-                                TextSpan(
-                                  text: "house",
-                                  style: TextStyle(fontStyle: FontStyle.italic),
-                                ),
-                                TextSpan(
-                                  text: " لە ئینگلیزیدا",
-                                ),
-                              ],
-                            ),
-                            textAlign: TextAlign.right,
-                            textDirection: TextDirection.rtl,
-                          ),
+                          const DefinitionKurdish(text: "٢. (ناو) کرداری خوێندنەوەی وشە بە ھەناسەیەکەوە کە بیسراوە، بۆ نموونە دەنگی /h/ لە وشەی 'house' لە ئینگلیزیدا"),
                           Row(
                             children: [
                               const Expanded(

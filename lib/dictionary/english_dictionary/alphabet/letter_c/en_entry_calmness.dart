@@ -213,12 +213,18 @@ class EnglishEntrycalmness extends StatelessWidget {
 ١. (ناو) ئارامی و هێمنی"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Mark exudes calmness and never gets rattled."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "مارک ئارامی لێ‌دەبارێت و هەرگیز نیگەران نابێت."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Mark exudes calmness and never gets rattled."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مارک ئارامی لێ‌دەبارێت و هەرگیز نیگەران نابێت."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calmness", follow LX strictly
                               Column(
                                 children: [
@@ -235,12 +241,18 @@ class EnglishEntrycalmness extends StatelessWidget {
                           const DividerSentences(),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "This area is good for swimming because of the relative calmness of the waters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "ئەم ناوچە باشە بۆ مەلەکردن بەهۆی تاڕادەیەک ئارامیی ئاوەکە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This area is good for swimming because of the relative calmness of the waters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەم ناوچە باشە بۆ مەلەکردن بەهۆی تاڕادەیەک ئارامیی ئاوەکە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

@@ -207,7 +207,7 @@ class EnglishEntryapproximate extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -273,7 +273,7 @@ class EnglishEntryapproximate extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [

@@ -213,12 +213,18 @@ class EnglishEntrycalligraphy extends StatelessWidget {
 ١. (ناو) دەست‌وخەتی نووسینی جوان کە بە پێنووس و فڵچەی تایبەت دەکرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "There's some wonderful calligraphy in these old manuscripts."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "هەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە هەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There's some wonderful calligraphy in these old manuscripts."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە هەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calligraphy", follow LX strictly
                               Column(
                                 children: [
@@ -239,12 +245,18 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                               text: "٢. (ناو) هونەری خۆشنووسی"),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "As a beginner, you can watch professionals demonstrating calligraphy."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "وەک سەرەتاییەک، دەتوانیت سەیری کەسانی شارەزا بکەیت کە هونەری خۆشنووسی نمایش دەکەن."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "As a beginner, you can watch professionals demonstrating calligraphy."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وەک سەرەتاییەک، دەتوانیت سەیری کەسانی شارەزا بکەیت کە هونەری خۆشنووسی نمایش دەکەن."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(),
                               Column(
                                 children: [

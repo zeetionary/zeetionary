@@ -212,12 +212,18 @@ class EnglishEntrycandlestick extends StatelessWidget {
 ١. (ناو) شتێک کە مۆمێک بە ستوونی ڕادەگرێت"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The silver candlesticks gleamed on the table."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "جێ‌مۆمە زیوییەکە لەسەر مێزەکە دەبریسکایەوە."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The silver candlesticks gleamed on the table."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جێ‌مۆمە زیوییەکە لەسەر مێزەکە دەبریسکایەوە."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "candlestick", follow LX strictly
                               Column(
                                 children: [

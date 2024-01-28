@@ -212,12 +212,18 @@ class EnglishEntrycanyon extends StatelessWidget {
 ١. (ناو) دۆڵێکی قووڵ کە قەدپاڵەکانی ڕاستن"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "Massive rock formations, mountains and deep canyons present splendid our trip."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بوونی بەردی گەورە، چیا و دۆڵی قووڵ تایبەتییان دابوو بە گەشتەکەمان."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Massive rock formations, mountains and deep canyons present splendid our trip."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بوونی بەردی گەورە، چیا و دۆڵی قووڵ تایبەتییان دابوو بە گەشتەکەمان."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "canyon", follow LX strictly
                               Column(
                                 children: [

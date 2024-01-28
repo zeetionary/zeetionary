@@ -200,7 +200,7 @@ class EnglishEntryanger extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [
@@ -263,7 +263,7 @@ class EnglishEntryanger extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [

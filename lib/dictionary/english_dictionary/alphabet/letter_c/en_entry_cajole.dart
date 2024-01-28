@@ -210,12 +210,18 @@ class EnglishEntrycajole extends StatelessWidget {
 ١. (کردار) ڕازیکردنی کەسێک بە کردنی شتێک کە نایەوێت بە پێدانی بەڵێن و قسەی خۆش کە زۆرجار ڕاست نین"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "I managed to cajole her out of leaving too early."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "توانیم ڕازی بکەم دژ بە ڕۆشتن زۆر بەزوویی."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I managed to cajole her out of leaving too early."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانیم ڕازی بکەم دژ بە ڕۆشتن زۆر بەزوویی."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cajole", follow LX strictly
                               Column(
                                 children: [

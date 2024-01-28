@@ -149,6 +149,11 @@ class EnglishEntrycabincruiser extends StatelessWidget {
                             EntryTitle(word: "cabin cruiser"),
                           ],
                         ),
+                        const Row(
+                          children: [
+                            AlsoEnglish(word: "also: cruiser"),
+                          ],
+                        ),
                         Row(
                           children: [
                             const IPAofEnglish(
@@ -213,12 +218,18 @@ class EnglishEntrycabincruiser extends StatelessWidget {
 ١. (ناو) بەلەمێک کە ماتۆڕێکی پێوەیە لەگەڵ ژوورێک بۆ خەوتن تێیدا، بەکاردێت بۆ ڕابواردن لەسەری"""),
                           Row(
                             children: [
-                              const ExampleSentenceEnglish(
-                                  text:
-                                      "The cabin cruiser sailed smoothly across the calm waters."),
-                              const ExampleSentenceKurdish(
-                                  text:
-                                      "بەلەمەکە بە نەرمی بەسەر ئاوە هێمنەکەدا دەچوو."),
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The cabin cruiser sailed smoothly across the calm waters."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەلەمەکە بە نەرمی بەسەر ئاوە هێمنەکەدا دەچوو."),
+                                  ],
+                                ),
+                              ),
                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "cabin cruiser", follow LX strictly
                               Column(
                                 children: [

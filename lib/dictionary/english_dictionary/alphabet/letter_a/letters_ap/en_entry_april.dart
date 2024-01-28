@@ -201,7 +201,7 @@ class EnglishEntryapril extends StatelessWidget {
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
+                          const DividerSentences(),
                           // const DividerDefinition(),
                           Row(
                             children: [

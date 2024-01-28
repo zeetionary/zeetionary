@@ -694,7 +694,7 @@ class ExampleSentenceEnglish extends ConsumerWidget {
           text,
           style: TextStyle(
             fontSize: textSize,
-            fontWeight: FontWeight.w500,
+            fontWeight: FontWeight.w400,
           ),
           textDirection: TextDirection.ltr,
           textAlign: TextAlign.left,

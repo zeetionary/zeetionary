@@ -124,6 +124,51 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
   }
 }
 
+class YouTubeContainerDesignNew extends StatelessWidget {
+  const YouTubeContainerDesignNew({
+    super.key,
+    required YoutubePlayerController controller,
+  }) : _controller = controller;
+
+  final YoutubePlayerController _controller;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        const DividerDefinition(),
+        Container(
+          margin: const EdgeInsets.only(top: 20.0),
+          padding: const EdgeInsets.all(8.0),
+          decoration: BoxDecoration(
+            // Add to the BoxDecoration of the outer Container:
+            boxShadow: [
+              BoxShadow(
+                color: Theme.of(context).primaryColor.withOpacity(0.06),
+                offset: const Offset(0, 4),
+                blurRadius: 8,
+              ),
+            ],
+            border: Border.all(
+              color: Theme.of(context).primaryColor.withOpacity(0.1),
+              width: 1.0,
+            ),
+            borderRadius: BorderRadius.circular(
+                15.0), // Apply border radius to the container
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(15.0),
+            child: YoutubePlayer(
+              controller: _controller,
+              aspectRatio: 16 / 9,
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
 class CustomTabBar extends ConsumerWidget {
   final List<Widget> tabs;
 
@@ -132,8 +177,10 @@ class CustomTabBar extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 20;
 
     return Container(
+      height: textSize,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12.0),
         // boxShadow: [
@@ -253,59 +300,15 @@ class CustomTabBar extends ConsumerWidget {
 //   }
 // }
 
-class YouTubeContainerDesignNew extends StatelessWidget {
-  const YouTubeContainerDesignNew({
-    super.key,
-    required YoutubePlayerController controller,
-  }) : _controller = controller;
-
-  final YoutubePlayerController _controller;
-
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        const DividerDefinition(),
-        Container(
-          margin: const EdgeInsets.only(top: 20.0),
-          padding: const EdgeInsets.all(8.0),
-          decoration: BoxDecoration(
-            // Add to the BoxDecoration of the outer Container:
-            boxShadow: [
-              BoxShadow(
-                color: Theme.of(context).primaryColor.withOpacity(0.06),
-                offset: const Offset(0, 4),
-                blurRadius: 8,
-              ),
-            ],
-            border: Border.all(
-              color: Theme.of(context).primaryColor.withOpacity(0.1),
-              width: 1.0,
-            ),
-            borderRadius: BorderRadius.circular(
-                15.0), // Apply border radius to the container
-          ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(15.0),
-            child: YoutubePlayer(
-              controller: _controller,
-              aspectRatio: 16 / 9,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
-}
-
-class VideoIconForTab extends StatelessWidget {
+class VideoIconForTab extends ConsumerWidget {
   const VideoIconForTab({
     super.key,
   });
 
   @override
-  Widget build(BuildContext context) {
-    return const Tab(
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 2;
+    return Tab(
       // icon: Image.asset(
       //   'assets/images/video_one.png',
       //   width: 26,
@@ -314,42 +317,44 @@ class VideoIconForTab extends StatelessWidget {
       icon: Text(
         "📺",
         style: TextStyle(
-          fontSize: 20,
+          fontSize: textSize,
         ),
       ),
     );
   }
 }
 
-class KurdIconForTab extends StatelessWidget {
+class KurdIconForTab extends ConsumerWidget {
   const KurdIconForTab({
     super.key,
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 5;
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 100,
-        height: 30,
+        width: 80,
+        height: textSize,
       ),
     );
   }
 }
 
-class UkIconForTab extends StatelessWidget {
+class UkIconForTab extends ConsumerWidget {
   const UkIconForTab({
     super.key,
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 5;
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 100,
-        height: 30,
+        width: 80,
+        height: textSize,
       ),
     );
   }
@@ -481,6 +486,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
+          // height: 30,
           decoration: BoxDecoration(
             // color: Theme.of(context).primaryColor.withOpacity(0.01),
             // gradient: LinearGradient(
@@ -552,9 +558,9 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
                   style: TextStyle(
                     fontSize: textSize,
                     // fontWeight: FontWeight.bold,
-                    fontWeight: FontWeight.w900,
-                    color: Theme.of(context).primaryColor.withOpacity(0.9),
-                    // color: Theme.of(context).primaryColor,
+                    fontWeight: FontWeight.w700,
+                    // color: Theme.of(context).primaryColor.withOpacity(0.9),
+                    color: Theme.of(context).primaryColor,
                   ),
                 );
               },
@@ -618,6 +624,7 @@ class IPAofEnglish extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
     return Container(
+      // height: 16,
       constraints: const BoxConstraints(maxWidth: 300),
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       // padding: const EdgeInsets.all(8.0), // Add padding here
@@ -625,7 +632,7 @@ class IPAofEnglish extends ConsumerWidget {
         text,
         style: TextStyle(
           fontSize: textSize,
-          fontWeight: FontWeight.w500,
+          fontWeight: FontWeight.w400,
         ),
       ),
     );
@@ -669,7 +676,7 @@ class DefinitionKurdish extends ConsumerWidget {
         text,
         style: TextStyle(
           fontSize: textSize,
-          fontWeight: FontWeight.w600,
+          fontWeight: FontWeight.w500,
         ),
         textAlign: TextAlign.right,
         textDirection: TextDirection.rtl,
@@ -694,7 +701,7 @@ class ExampleSentenceEnglish extends ConsumerWidget {
           text,
           style: TextStyle(
             fontSize: textSize,
-            fontWeight: FontWeight.w400,
+            fontWeight: FontWeight.w300,
           ),
           textDirection: TextDirection.ltr,
           textAlign: TextAlign.left,
@@ -747,7 +754,7 @@ class ExampleSentenceKurdish extends ConsumerWidget {
 //   }
 // }
 
-class CustomIconButtonBritish extends StatelessWidget {
+class CustomIconButtonBritish extends ConsumerWidget {
   final VoidCallback? onPressed;
 
   const CustomIconButtonBritish({
@@ -756,7 +763,8 @@ class CustomIconButtonBritish extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) - 6;
     return IconButton(
       // iconSize: 18,
       icon: Container(
@@ -765,10 +773,10 @@ class CustomIconButtonBritish extends StatelessWidget {
           border: Border.all(color: Colors.blue, width: 1.0),
         ),
         padding: const EdgeInsets.all(6.0),
-        child: const Icon(
+        child: Icon(
           Icons.record_voice_over,
           color: Colors.blue,
-          size: 12.0, // Adjust size as needed
+          size: textSize, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -776,7 +784,7 @@ class CustomIconButtonBritish extends StatelessWidget {
   }
 }
 
-class CustomIconButtonAmerican extends StatelessWidget {
+class CustomIconButtonAmerican extends ConsumerWidget {
   final VoidCallback? onPressed;
 
   const CustomIconButtonAmerican({
@@ -785,7 +793,8 @@ class CustomIconButtonAmerican extends StatelessWidget {
   });
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) - 6;
     return IconButton(
       // iconSize: 18,
       icon: Container(
@@ -795,10 +804,10 @@ class CustomIconButtonAmerican extends StatelessWidget {
               color: const Color.fromARGB(182, 255, 0, 0), width: 1.0),
         ),
         padding: const EdgeInsets.all(6.0),
-        child: const Icon(
+        child: Icon(
           Icons.record_voice_over,
-          color: Color.fromARGB(182, 255, 0, 0),
-          size: 12.0, // Adjust size as needed
+          color: const Color.fromARGB(182, 255, 0, 0),
+          size: textSize, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -865,7 +874,7 @@ class EnglishMeaningConst extends ConsumerWidget {
               text,
               style: TextStyle(
                 fontSize: textSize,
-                fontWeight: FontWeight.w500,
+                fontWeight: FontWeight.w400,
               ),
             ),
           ],
@@ -903,6 +912,7 @@ class _EnglishButtonTTSState extends State<EnglishButtonTTS> {
     // Theme.of(context).primaryColor.withOpacity(0.009),
     return IntrinsicWidth(
       child: Container(
+        // height: 50,
         decoration: BoxDecoration(
           // color: Theme.of(context).primaryColor.withOpacity(0.04),
           border: Border.all(
@@ -1165,7 +1175,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
-    final textSize = ref.watch(textSizeProvider) + 2;
+    final textSize = ref.watch(textSizeProvider) + 1;
     return Container(
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded

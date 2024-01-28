@@ -10,15 +10,28 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 // import 'package:zeetionary/constants.dart';
 
-class DictionaryScreenEnglish extends StatefulWidget {
+// class DictionaryScreenEnglish extends StatefulWidget {
+//   const DictionaryScreenEnglish({super.key});
+
+//   @override
+//   State<DictionaryScreenEnglish> createState() =>
+//       _DictionaryScreenEnglishState();
+// }
+
+
+  class DictionaryScreenEnglish extends ConsumerStatefulWidget {
   const DictionaryScreenEnglish({super.key});
 
   @override
-  State<DictionaryScreenEnglish> createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _DictionaryScreenEnglishState();
 }
 
-class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
+// class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
+
+class _DictionaryScreenEnglishState
+    extends ConsumerState<DictionaryScreenEnglish> {
+  _DictionaryScreenEnglishState();
   // (zee: adde tags) https://chat.openai.com/c/488e70a6-e67b-418c-9f94-fc78cdff92e4
   // (zee: added expansion tile) https://chat.openai.com/c/c71302c6-7f56-4336-9f2f-044931aa1ac4
 
@@ -2949,6 +2962,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 1;
     return Scaffold(
       key: scaffoldKey,
       floatingActionButton: showScrollToTop
@@ -2994,6 +3008,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
                   hintText: shuffledWords.isEmpty
                       ? ''
                       : shuffledWords[_shuffleCurrentIndex],
+                    hintStyle: TextStyle(fontSize: textSize),
                   // labelText: shuffledWords.isEmpty
                   //     ? ''
                   //     : shuffledWords[_shuffleCurrentIndex],

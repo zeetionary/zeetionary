@@ -6,15 +6,28 @@ import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
-class DictionaryScreenKurdish extends StatefulWidget {
+// class DictionaryScreenKurdish extends StatefulWidget {
+//   const DictionaryScreenKurdish({super.key});
+
+//   @override
+//   State<DictionaryScreenKurdish> createState() =>
+//       _DictionaryScreenKurdishState();
+// }
+
+class DictionaryScreenKurdish extends ConsumerStatefulWidget {
   const DictionaryScreenKurdish({super.key});
 
   @override
-  State<DictionaryScreenKurdish> createState() =>
+  ConsumerState<ConsumerStatefulWidget> createState() =>
       _DictionaryScreenKurdishState();
 }
 
-class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
+// class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
+
+class _DictionaryScreenKurdishState
+    extends ConsumerState<DictionaryScreenKurdish> {
+  _DictionaryScreenKurdishState();
+
   final GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   final List<String> allWordsKurdish = [
     "کوردی",
@@ -299,6 +312,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 1;
     return Scaffold(
       key: scaffoldKey,
       floatingActionButton: showScrollToTop
@@ -348,6 +362,7 @@ class _DictionaryScreenKurdishState extends State<DictionaryScreenKurdish> {
                     hintText: shuffledWords.isEmpty
                         ? ''
                         : shuffledWords[_shuffleCurrentIndex],
+                    hintStyle: TextStyle(fontSize: textSize),
                     prefixIcon: const Icon(Icons.search),
                     suffixIcon: _searchController.text.isNotEmpty
                         ? IconButton(

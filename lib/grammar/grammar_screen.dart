@@ -4,14 +4,24 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/constants.dart';
 
-class GrammarScreen extends StatefulWidget {
+// class GrammarScreen extends StatefulWidget {
+//   const GrammarScreen({super.key});
+
+//   @override
+//   State<GrammarScreen> createState() => _GrammarScreenState();
+// }
+
+class GrammarScreen extends ConsumerStatefulWidget {
   const GrammarScreen({super.key});
 
   @override
-  State<GrammarScreen> createState() => _GrammarScreenState();
+  ConsumerState<ConsumerStatefulWidget> createState() => _GrammarScreenState();
 }
 
-class _GrammarScreenState extends State<GrammarScreen> {
+// class _GrammarScreenState extends State<GrammarScreen> {
+
+class _GrammarScreenState extends ConsumerState<GrammarScreen> {
+  _GrammarScreenState();
   // (zee: adde tags) https://chat.openai.com/c/488e70a6-e67b-418c-9f94-fc78cdff92e4
   // (zee: added expansion tile) https://chat.openai.com/c/c71302c6-7f56-4336-9f2f-044931aa1ac4
 
@@ -348,6 +358,7 @@ class _GrammarScreenState extends State<GrammarScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final textSize = ref.watch(textSizeProvider) + 1;
     return Scaffold(
       key: scaffoldKey,
       floatingActionButton: showScrollToTop
@@ -391,6 +402,8 @@ class _GrammarScreenState extends State<GrammarScreen> {
                 decoration: InputDecoration(
                   // labelText: "Search here",
                   hintText: "Search here",
+                  hintStyle: TextStyle(fontSize: textSize),
+
                   prefixIcon: const Icon(Icons.search),
                   // suffixIcon: IconButton(
                   //   icon: Icon(

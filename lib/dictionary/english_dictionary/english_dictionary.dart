@@ -40,7 +40,19 @@ class _DictionaryScreenEnglishState
   final Map<String, List<String>> filterItems = {
     "100": ["What is 100 tag?", "a", "aback", "abandon"],
     "500": ["aback", "abandon"],
-    // "pasttt": ["past simple", "past perfect"],
+    "Idioms": [
+      "bode well/ill",
+      "come of age",
+      "far afield", 
+      "go astray",
+      "have had a bellyful of",
+      "in behalf of",
+      "lead astray",
+      "make a beeline for",
+      "not come/go amiss",
+      "on behalf of",
+      "take something amiss",
+      ],
     // "pastttt": ["past simple", "past perfect"],
     // "pasttttt": ["past simple", "past perfect"],
     // "pastttttt": ["past simple", "past perfect"],
@@ -2632,7 +2644,7 @@ class _DictionaryScreenEnglishState
     "take something amiss",
     "telephone box",
     "trade name",
-    "under age",
+    "underage",
     "weblog",
   ];
 
@@ -5515,9 +5527,9 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-from-afar");
                   }
-                  if (wordsEnglish == "under age") {
+                  if (wordsEnglish == "underage") {
                     saveToHistory(wordsEnglish);
-                    Routemaster.of(context).push("/english-under-age");
+                    Routemaster.of(context).push("/english-underage");
                   }
                   if (wordsEnglish == "American football") {
                     saveToHistory(wordsEnglish);

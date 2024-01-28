@@ -16,7 +16,7 @@ class EnglishEntryunderage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("under age"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("underage"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakUnde142221(String languageCode) async {
@@ -25,7 +25,7 @@ class EnglishEntryunderage extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It is illegal to sell cigarettes to children who are under age."); // DOPSUM: CHANGE TEXT
+        "It is illegal to sell cigarettes to children who are underage."); // DOPSUM: CHANGE TEXT
   }
 
   // Future<void> speakUnderage(String languageCode) async {
@@ -65,7 +65,7 @@ class EnglishEntryunderage extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "under age"), // Find /ˈʌndə(r) eɪdʒ/
+                                word: "underage"), // Find /ˈʌndə(r) eɪdʒ/
                           ],
                         ),
                         Row(
@@ -123,8 +123,7 @@ class EnglishEntryunderage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-
-١. (ئیدیەم) لەخوار تەمەنی یاسایی"""),
+١. (هاوەڵناو) لەخوار تەمەنی یاسایی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -132,7 +131,7 @@ class EnglishEntryunderage extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It is illegal to sell cigarettes to children who are under age."),
+                                            "It is illegal to sell cigarettes to children who are underage."),
                                     ExampleSentenceKurdish(
                                         text:
                                             "قەدەغەیە جگەرە بە کەسانی منداڵ بفرۆشیت."),
@@ -225,7 +224,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-Idiom: under age
+Adjective: underage
 1. ​Not legally old enough to do a particular thing
 "It is illegal to sell cigarettes to children who are under age"
 """,

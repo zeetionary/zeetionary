@@ -4009,7 +4009,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-come-of-age": (_) => MaterialPage(child: EnglishEntrycomeofage()),
   "/english-far-afield": (_) => MaterialPage(child: EnglishEntryfarafield()),
   "/english-from-afar": (_) => MaterialPage(child: EnglishEntryafar()),
-  "/english-under-age": (_) => MaterialPage(child: EnglishEntryunderage()),
+  "/english-underage": (_) => MaterialPage(child: EnglishEntryunderage()),
   "/english-american-football": (_) =>
       MaterialPage(child: EnglishEntryamericanfootball()),
   "/english-amethyst": (_) => MaterialPage(child: EnglishEntryamethyst()),

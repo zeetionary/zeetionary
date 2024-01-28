@@ -458,26 +458,21 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-Verb: bet (bet,betting, also betted)  bet
-Maintain with or as if with a bet
+- Verb: bet (derived forms: betting, bet, bets, betted)
+1. Maintain with or as if with a bet (= wager)
 "I bet she will be there!";
-- wager
- 
-Stake money or something else of value on the outcome of an unpredictable event or disputed issue
+
+2. Stake money or something else of value on the outcome of an unpredictable event or disputed issue (= wager, play)
 "I bet £100 on that new horse";
-- wager, play
- 
-Have faith or confidence in
+
+3. Have faith or confidence in (= count, depend, swear, rely, bank, look, calculate, reckon)
 "You can bet on that!";
-- count, depend, swear, rely, bank, look, calculate, reckon
-Noun: bet  bet
-The money risked on a gamble
-- stake, stakes, wager
+
+- Noun: bet  (derived forms: betting, bet, bets, betted)
+1. The money risked on a gamble (= stake, stakes, wager)
  
-An act of gambling
+2. An act of gambling (= wager, flutter [Brit, informal], punt [Brit, informal])
 "he did it on a bet";
-- wager, flutter [Brit, informal], punt [Brit, informal]
-derived forms: betting, bet, bets, betted
 """,
   );
 

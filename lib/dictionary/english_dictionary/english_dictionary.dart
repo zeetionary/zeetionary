@@ -19,7 +19,7 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // }
 
 
-  class DictionaryScreenEnglish extends ConsumerStatefulWidget {
+class DictionaryScreenEnglish extends ConsumerStatefulWidget {
   const DictionaryScreenEnglish({super.key});
 
   @override

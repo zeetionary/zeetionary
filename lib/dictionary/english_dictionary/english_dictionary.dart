@@ -2740,6 +2740,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
   // }
 
   void filterResults(String query) {
+    // (zee) https://chat.openai.com/c/540ea8e2-6b2a-4f94-8ed1-1d25cdf3ce8c
     setState(() {
       if (query.isEmpty) {
         // If the query is empty, show all words
@@ -2748,35 +2749,37 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         // Create a map to store word frequencies
         Map<String, int> wordFrequencies = {};
 
-        // Update frequencies for exact matches, considering hyphens and spaces as the same
+        // Update frequencies for exact matches
         for (String word in allWordsEnglish) {
-          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
-          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+          String normalizedWord = _normalizeString(word);
+          String normalizedQuery = _normalizeString(query);
 
           if (normalizedWord == normalizedQuery) {
-            wordFrequencies[word] = (wordFrequencies[word] ?? 0) +
-                2; // Higher weight for exact matches
+            // Higher weight for exact matches
+            wordFrequencies[word] = (wordFrequencies[word] ?? 0) + 2;
           }
         }
 
-        // Update frequencies for relevant matches (contains the query), considering hyphens and spaces as the same
+        // Update frequencies for relevant matches
         for (String word in allWordsEnglish) {
-          String normalizedWord = word.replaceAll('-', ' ').toLowerCase();
-          String normalizedQuery = query.replaceAll('-', ' ').toLowerCase();
+          String normalizedWord = _normalizeString(word);
+          String normalizedQuery = _normalizeString(query);
 
           if (normalizedWord.contains(normalizedQuery)) {
             // Prioritize words with more consecutive matching characters
-            int consecutiveMatches =
-                _countConsecutiveMatches(normalizedWord, normalizedQuery);
+            int consecutiveMatches = _countConsecutiveMatches(
+              normalizedWord,
+              normalizedQuery,
+            );
             wordFrequencies[word] =
                 (wordFrequencies[word] ?? 0) + consecutiveMatches;
           }
         }
 
-        // Fuzzy search for approximate matches, considering hyphens and spaces as the same
+        // Fuzzy search for approximate matches
         List<String> fuzzyMatches = allWordsEnglish
-            .where((word) => _fuzzyMatch(word.replaceAll('-', ' '),
-                query.replaceAll('-', ' ').toLowerCase()))
+            .where((word) =>
+                _fuzzyMatch(_normalizeString(word), _normalizeString(query)))
             .toList();
 
         // Update frequencies for fuzzy matches
@@ -2787,30 +2790,21 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
         // Combine and prioritize by relevancy, with exact matches at the top
         filteredWords = wordFrequencies.keys.toList()
           ..sort((a, b) {
-            bool exactMatchA = a.replaceAll('-', ' ').toLowerCase() ==
-                query.replaceAll('-', ' ').toLowerCase();
-            bool exactMatchB = b.replaceAll('-', ' ').toLowerCase() ==
-                query.replaceAll('-', ' ').toLowerCase();
+            bool exactMatchA = _isExactMatch(a, query);
+            bool exactMatchB = _isExactMatch(b, query);
 
             if (exactMatchA && !exactMatchB) {
-              return -1; // A is an exact match, so it comes first.
+              return -1; // A has an exact match, so it comes first.
             } else if (!exactMatchA && exactMatchB) {
-              return 1; // B is an exact match, so it comes first.
+              return 1; // B has an exact match, so it comes first.
             } else {
-              // Sort based on frequencies for non-exact matches
+              // Continue with the existing sorting logic for non-exact matches
               int frequencyComparison =
                   (wordFrequencies[b] ?? 0).compareTo(wordFrequencies[a] ?? 0);
 
               if (frequencyComparison == 0) {
-                // If frequencies are equal, prioritize words containing the exact match
-                bool containsExactA = a
-                    .replaceAll('-', ' ')
-                    .toLowerCase()
-                    .contains(query.replaceAll('-', ' ').toLowerCase());
-                bool containsExactB = b
-                    .replaceAll('-', ' ')
-                    .toLowerCase()
-                    .contains(query.replaceAll('-', ' ').toLowerCase());
+                bool containsExactA = _containsExact(a, query);
+                bool containsExactB = _containsExact(b, query);
 
                 if (containsExactA && !containsExactB) {
                   return -1; // A contains the exact match, so it comes next.
@@ -2835,6 +2829,25 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     });
   }
 
+// Normalize the string by removing hyphens and converting to lowercase
+  String _normalizeString(String input) {
+    return input.replaceAll('-', ' ').toLowerCase();
+  }
+
+// Check if the word contains the exact match
+  bool _containsExact(String word, String query) {
+    return word
+        .replaceAll('-', ' ')
+        .toLowerCase()
+        .contains(query.replaceAll('-', ' ').toLowerCase());
+  }
+
+// Check if the word is an exact match
+  bool _isExactMatch(String word, String query) {
+    return word == query || _containsExact(word, query);
+  }
+
+// Count consecutive character matches between two strings
   int _countConsecutiveMatches(String word, String query) {
     int count = 0;
     for (int i = 0; i < word.length && i < query.length; i++) {
@@ -2847,6 +2860,7 @@ class _DictionaryScreenEnglishState extends State<DictionaryScreenEnglish> {
     return count;
   }
 
+// Fuzzy matching algorithm for approximate matches
   bool _fuzzyMatch(String word, String query) {
     // Implement an enhanced fuzzy matching algorithm
     // Consider consecutive character matches and adjust the threshold.

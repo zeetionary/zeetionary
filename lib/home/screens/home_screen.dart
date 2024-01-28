@@ -264,60 +264,63 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
         ),
       ),
       child: Scaffold(
-        appBar: AppBar(
-          // backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
-          // centerTitle: true,
-          scrolledUnderElevation: 0,
-          // backgroundColor: Colors.grey.withOpacity(0.1),
-          title: const ZeetionaryAppbarStyle(),
-          // title: Image.asset(
-          //   'assets/images/zeetionary_three.png',
-          //   width: 200,
-          // ),
-          leading: IconButton(
-            onPressed: _handleMenuButtonPressed,
-            icon: ValueListenableBuilder<AdvancedDrawerValue>(
-              valueListenable: _advancedDrawerController,
-              builder: (_, value, __) {
-                return AnimatedSwitcher(
-                  duration: const Duration(milliseconds: 300),
-                  child: Icon(
-                    value.visible ? Icons.clear : Icons.menu,
-                    key: ValueKey<bool>(value.visible),
-                  ),
-                );
-              },
+        appBar: PreferredSize(
+          preferredSize: const Size.fromHeight(35.0),
+          child: AppBar(
+            // backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
+            // centerTitle: true,
+            scrolledUnderElevation: 0,
+            // backgroundColor: Colors.grey.withOpacity(0.1),
+            title: const ZeetionaryAppbarStyle(),
+            // title: Image.asset(
+            //   'assets/images/zeetionary_three.png',
+            //   width: 200,
+            // ),
+            leading: IconButton(
+              onPressed: _handleMenuButtonPressed,
+              icon: ValueListenableBuilder<AdvancedDrawerValue>(
+                valueListenable: _advancedDrawerController,
+                builder: (_, value, __) {
+                  return AnimatedSwitcher(
+                    duration: const Duration(milliseconds: 300),
+                    child: Icon(
+                      value.visible ? Icons.clear : Icons.menu,
+                      key: ValueKey<bool>(value.visible),
+                    ),
+                  );
+                },
+              ),
             ),
+            actions: [
+              // Switch.adaptive(
+              //   value: ref.watch(themeNotifierProvider.notifier).mode ==
+              //       ThemeMode.dark,
+              //   onChanged: (val) => toggleTheme(ref),
+              // ),
+              // IconButton(
+              //   icon: ref.watch(themeNotifierProvider.notifier).mode ==
+              //           ThemeMode.dark
+              //       ? const Icon(
+              //           // (not zee) https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
+              //           Icons.nightlight_round,
+              //           // color: Colors.yellow, // Customize the moon color
+              //         )
+              //       : const Icon(
+              //           Icons.wb_sunny,
+              //           // color: Colors.red, // Customize the sun color
+              //         ),
+              //   onPressed: () => toggleTheme(ref),
+              // ),
+              IconButton(
+                icon: const Icon(Icons.history),
+                onPressed: () {
+                  Routemaster.of(context).push('/history-screen');
+                  // Routemaster.of(context).pop('/history-screen');
+                  // Routemaster.of(context).replace('/history-screen');
+                },
+              ),
+            ],
           ),
-          actions: [
-            // Switch.adaptive(
-            //   value: ref.watch(themeNotifierProvider.notifier).mode ==
-            //       ThemeMode.dark,
-            //   onChanged: (val) => toggleTheme(ref),
-            // ),
-            // IconButton(
-            //   icon: ref.watch(themeNotifierProvider.notifier).mode ==
-            //           ThemeMode.dark
-            //       ? const Icon(
-            //           // (not zee) https://chat.openai.com/c/deea79e0-f329-41ba-9801-aec1802b62ab
-            //           Icons.nightlight_round,
-            //           // color: Colors.yellow, // Customize the moon color
-            //         )
-            //       : const Icon(
-            //           Icons.wb_sunny,
-            //           // color: Colors.red, // Customize the sun color
-            //         ),
-            //   onPressed: () => toggleTheme(ref),
-            // ),
-            IconButton(
-              icon: const Icon(Icons.history),
-              onPressed: () {
-                Routemaster.of(context).push('/history-screen');
-                // Routemaster.of(context).pop('/history-screen');
-                // Routemaster.of(context).replace('/history-screen');
-              },
-            ),
-          ],
         ),
         // drawer: const SecondDrawer(),
         body: PageView(

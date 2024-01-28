@@ -22,6 +22,8 @@ class Constants {
 class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   const ZeetionaryAppbar({super.key});
 
+  // (zee; height for app bar) https://chat.openai.com/c/85a94f32-5a86-4f89-b50f-115abe702021
+
   @override
   Widget build(BuildContext context) {
     return AppBar(
@@ -34,19 +36,13 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
           Routemaster.of(context).pop();
         },
       ),
-      // actions: [
-      //   IconButton(
-      //     icon: const Icon(Icons.history),
-      //     onPressed: () {
-      //       Routemaster.of(context).push('/history-screen');
-      //     },
-      //   ),
-      // ],
     );
   }
 
   @override
-  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
+  Size get preferredSize => const Size.fromHeight(_defaultHeight);
+
+  static const double _defaultHeight = 35.0;
 }
 
 // class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
@@ -113,11 +109,12 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 10;
 
     return Text(
       "Dictionary",
       style: TextStyle(
-        fontSize: 26.0, // Adjust font size as needed
+        fontSize: textSize, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed
         color: Theme.of(context).primaryColor,
         // color: Theme.of(context).primaryColor
@@ -476,8 +473,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
     // final currentTheme = ref.watch(themeNotifierProvider);
 
     // Widget build(BuildContext context, WidgetRef ref) {
-    final textSize =
-        ref.watch(textSizeProvider) + 14; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 8;
 
     return Expanded(
       child: Padding(

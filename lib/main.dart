@@ -28,6 +28,13 @@ import 'package:zeetionary/theme/pallete.dart';
 // taskkill /f /im adb* (You can run "adb kill-server" too)
 // flutter doctor --android-licenses
 
+// run https://docs.flutter.dev/testing/build-modes
+// https://stackoverflow.com/questions/50645703/how-to-get-apk-and-ipa-file-from-flutter
+// flutter run (debug mode)
+// flutter run --release (release mode)
+// flutter build apk --release (to get release build on your storage)
+// flutter run --profile
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await SharedPreferences.getInstance(); // Ensure preferences are loaded

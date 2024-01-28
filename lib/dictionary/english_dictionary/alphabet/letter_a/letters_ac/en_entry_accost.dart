@@ -118,7 +118,7 @@ class EnglishEntryaccost extends StatelessWidget {
                                             "She was accosted in the street by a complete stranger."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەیپێکرا."),
+                                            "لەلایەن بێگانەیەکەوە لەسەر شەقام قسەی پێکرا."),
                                   ],
                                 ),
                               ),

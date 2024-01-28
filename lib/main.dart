@@ -105,35 +105,35 @@ class _MyAppState extends ConsumerState<MyApp> {
     // final themeMode = ref.watch(themeProvider);
 
     return ref.watch(authStateChangeProvider).when(
-          data: (data) {
-            return MaterialApp.router(
-            debugShowCheckedModeBanner: false,
-            title: 'Zeetionary App',
-            // theme: ref.watch(themeNotifierProvider), // use toggle
-            theme: Pallete.lightModeAppTheme, // use system phone
-            darkTheme: Pallete.darkModeAppTheme,
-            themeMode: ref.watch(themeProvider),
-            routerDelegate: RoutemasterDelegate(
-              routesBuilder: (context) {
-                if (data != null) {
-                  getData(ref, data);
-                  if (userModel != null) {
-                    return loggedInRoute; // send to home screen
-                  }
+      data: (data) {
+        return MaterialApp.router(
+          debugShowCheckedModeBanner: false,
+          title: 'Zeetionary App',
+          // theme: ref.watch(themeNotifierProvider), // use toggle
+          theme: Pallete.lightModeAppTheme, // use system phone
+          darkTheme: Pallete.darkModeAppTheme,
+          themeMode: ref.watch(themeProvider),
+          routerDelegate: RoutemasterDelegate(
+            routesBuilder: (context) {
+              if (data != null) {
+                getData(ref, data);
+                if (userModel != null) {
+                  return loggedInRoute; // send to home screen
                 }
-                return loggedOutRoute; // send to login
-              },
-            ),
-            routeInformationParser: const RoutemasterParser(),
-          );
-          },
-          error: (error, stackTrace) {
-            return ErrorText(error: error.toString());
-          },
-          loading: () {
-            return const Loader();
-          },
+              }
+              return loggedOutRoute; // send to login
+            },
+          ),
+          routeInformationParser: const RoutemasterParser(),
         );
+      },
+      error: (error, stackTrace) {
+        return ErrorText(error: error.toString());
+      },
+      loading: () {
+        return const Loader();
+      },
+    );
   }
 }
 

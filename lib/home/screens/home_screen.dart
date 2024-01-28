@@ -265,7 +265,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       ),
       child: Scaffold(
         appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(35.0),
+          preferredSize: const Size.fromHeight(37.0),
           child: AppBar(
             // backgroundColor: Theme.of(context).appBarTheme.backgroundColor,
             // centerTitle: true,

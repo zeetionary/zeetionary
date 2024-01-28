@@ -42,7 +42,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Size get preferredSize => const Size.fromHeight(_defaultHeight);
 
-  static const double _defaultHeight = 35.0;
+  static const double _defaultHeight = 37.0;
 }
 
 // class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
@@ -313,7 +313,9 @@ class VideoIconForTab extends StatelessWidget {
       // ),
       icon: Text(
         "📺",
-        style: TextStyle(fontSize: 20),
+        style: TextStyle(
+          fontSize: 20,
+        ),
       ),
     );
   }
@@ -549,8 +551,10 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
                   widget.word.substring(0, lettersCount),
                   style: TextStyle(
                     fontSize: textSize,
-                    fontWeight: FontWeight.bold,
-                    color: Theme.of(context).primaryColor.withOpacity(0.8),
+                    // fontWeight: FontWeight.bold,
+                    fontWeight: FontWeight.w900,
+                    color: Theme.of(context).primaryColor.withOpacity(0.9),
+                    // color: Theme.of(context).primaryColor,
                   ),
                 );
               },
@@ -619,7 +623,10 @@ class IPAofEnglish extends ConsumerWidget {
       // padding: const EdgeInsets.all(8.0), // Add padding here
       child: Text(
         text,
-        style: TextStyle(fontSize: textSize),
+        style: TextStyle(
+          fontSize: textSize,
+          fontWeight: FontWeight.w500,
+        ),
       ),
     );
   }
@@ -640,7 +647,9 @@ class IPAofEnglishtest extends ConsumerWidget {
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Text(
         text,
-        style: TextStyle(fontSize: textSize), // Use adjusted text size
+        style: TextStyle(
+          fontSize: textSize,
+        ), // Use adjusted text size
       ),
     );
   }
@@ -653,12 +662,15 @@ class DefinitionKurdish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Text(
         text,
-        style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w500),
+        style: TextStyle(
+          fontSize: textSize,
+          fontWeight: FontWeight.w600,
+        ),
         textAlign: TextAlign.right,
         textDirection: TextDirection.rtl,
       ),
@@ -680,7 +692,10 @@ class ExampleSentenceEnglish extends ConsumerWidget {
         alignment: Alignment.topLeft,
         child: Text(
           text,
-          style: TextStyle(fontSize: textSize),
+          style: TextStyle(
+            fontSize: textSize,
+            fontWeight: FontWeight.w500,
+          ),
           textDirection: TextDirection.ltr,
           textAlign: TextAlign.left,
         ),
@@ -701,7 +716,9 @@ class ExampleSentenceKurdish extends ConsumerWidget {
       alignment: Alignment.topRight,
       child: Text(
         text,
-        style: TextStyle(fontSize: textSize),
+        style: TextStyle(
+          fontSize: textSize,
+        ),
         textDirection: TextDirection.rtl,
         textAlign: TextAlign.right,
       ),
@@ -751,7 +768,7 @@ class CustomIconButtonBritish extends StatelessWidget {
         child: const Icon(
           Icons.record_voice_over,
           color: Colors.blue,
-          size: 15.0, // Adjust size as needed
+          size: 12.0, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -781,7 +798,7 @@ class CustomIconButtonAmerican extends StatelessWidget {
         child: const Icon(
           Icons.record_voice_over,
           color: Color.fromARGB(182, 255, 0, 0),
-          size: 15.0, // Adjust size as needed
+          size: 12.0, // Adjust size as needed
         ),
       ),
       onPressed: onPressed,
@@ -808,13 +825,19 @@ class CustomAlertDialog extends ConsumerWidget {
     return AlertDialog(
       title: Text(
         title,
-        style: TextStyle(fontSize: titleTextSize, fontWeight: FontWeight.w600),
+        style: TextStyle(
+          fontSize: titleTextSize,
+          fontWeight: FontWeight.w600,
+        ),
       ),
       content: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Text(
           content,
-          style: TextStyle(fontSize: baseTextSize, fontWeight: FontWeight.w400),
+          style: TextStyle(
+            fontSize: baseTextSize,
+            fontWeight: FontWeight.w400,
+          ),
         ),
       ),
     );
@@ -840,7 +863,10 @@ class EnglishMeaningConst extends ConsumerWidget {
           children: [
             Text(
               text,
-              style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
+              style: TextStyle(
+                fontSize: textSize,
+                fontWeight: FontWeight.w500,
+              ),
             ),
           ],
         ),
@@ -1139,6 +1165,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
   @override
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 2;
     return Container(
       margin: const EdgeInsets.all(8.0),
       decoration: _isExpanded
@@ -1181,22 +1208,22 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                   Icon(
                     _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
                   ),
-                  const Row(
+                  Row(
                     children: [
                       Text(
                         MyExpansionTile.defaultTitle,
                         textDirection: TextDirection.rtl,
                         style: TextStyle(
-                          fontSize: 14.0, // Adjust the font size
+                          fontSize: textSize, // Adjust the font size
                           fontWeight: FontWeight.bold, // Adjust the font weight
                           // color: currentTheme
                           //     .primaryColor, // Adjust the text color
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 6,
                       ),
-                      Icon(
+                      const Icon(
                         Icons.book,
                         // color: Colors.blue.withOpacity(0.9),
                         // color: Theme.of(context).primaryColor.withOpacity(0.3),

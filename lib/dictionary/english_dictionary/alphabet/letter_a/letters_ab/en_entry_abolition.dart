@@ -31,7 +31,7 @@ class EnglishEntryabolition extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 7,
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -80,15 +80,6 @@ class EnglishEntryabolition extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -135,16 +126,15 @@ class EnglishEntryabolition extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix()
-                    // YoutubeEmbeddedseven()
-                    // YoutubeEmbeddedeight()
-                    // YoutubeEmbeddednine()
-                    // YoutubeEmbeddedten()
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedend(),
+                      ],
+                    ),
                   ],
                 ),
               ),
@@ -329,8 +319,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedfive extends StatelessWidget {
-  YoutubeEmbeddedfive({super.key});
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'uNsxCU0glHw',
@@ -348,7 +338,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

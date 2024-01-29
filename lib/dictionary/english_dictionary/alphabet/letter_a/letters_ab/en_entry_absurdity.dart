@@ -31,7 +31,7 @@ class EnglishEntryabsurdity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 8,
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -80,20 +80,6 @@ class EnglishEntryabsurdity extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -140,21 +126,16 @@ class EnglishEntryabsurdity extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(),
-                    // YoutubeEmbeddedseven(),
-                    // YoutubeEmbeddedeight(),
-                    // YoutubeEmbeddednine(),
-                    // YoutubeEmbeddedten(),
-                    // YoutubeEmbeddedeleven(),
-                    // YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddeddfourteen(),
-                    // YoutubeEmbeddedfifteen(),
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedend(),
+                      ],
+                    ), // DOPSUM: FROM YOUTUBE BELOW
                   ],
                 ),
               ),
@@ -366,8 +347,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  YoutubeEmbeddedsix({super.key});
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'P4l9Y5OHqpk',
@@ -385,7 +366,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

@@ -124,8 +124,144 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
   }
 }
 
+class YouTubeScroller extends StatelessWidget {
+  final List<Widget> children;
+
+  const YouTubeScroller({super.key, required this.children});
+
+  @override
+  Widget build(BuildContext context) {
+    return PageView(
+      scrollDirection: Axis.vertical,
+      children: children,
+    );
+  }
+}
+
 class YouTubeContainerDesignNew extends StatelessWidget {
   const YouTubeContainerDesignNew({
+    super.key,
+    required YoutubePlayerController controller,
+    bool showIndicator =
+        true, // Add a parameter to conditionally show the indicator
+  })  : _controller = controller,
+        _showIndicator = showIndicator;
+
+  final YoutubePlayerController _controller;
+  final bool _showIndicator;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        const DividerDefinition(),
+        Column(
+          children: [
+            Container(
+              margin: const EdgeInsets.only(top: 20.0),
+              padding: const EdgeInsets.all(8.0),
+              decoration: BoxDecoration(
+                boxShadow: [
+                  BoxShadow(
+                    color: Theme.of(context).primaryColor.withOpacity(0.06),
+                    offset: const Offset(0, 4),
+                    blurRadius: 8,
+                  ),
+                ],
+                border: Border.all(
+                  color: Theme.of(context).primaryColor.withOpacity(0.1),
+                  width: 1.0,
+                ),
+                borderRadius: BorderRadius.circular(15.0),
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(15.0),
+                child: YoutubePlayer(
+                  controller: _controller,
+                  aspectRatio: 16 / 9,
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            if (_showIndicator) // Conditionally show the indicator
+              const NextVideoIndicator(),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
+class NextVideoIndicator extends StatefulWidget {
+  const NextVideoIndicator({super.key});
+
+  @override
+  // _NextVideoIndicatorState createState() => _NextVideoIndicatorState();
+  State<NextVideoIndicator> createState() => _NextVideoIndicatorState();
+}
+
+class _NextVideoIndicatorState extends State<NextVideoIndicator>
+    with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation<double> _animation;
+
+  @override
+  void initState() {
+    super.initState();
+
+    _controller = AnimationController(
+      duration: const Duration(milliseconds: 500),
+      vsync: this,
+    );
+
+    _animation = Tween<double>(begin: 0.0, end: 10.0).animate(
+      CurvedAnimation(
+        parent: _controller,
+        curve: Curves.easeInOut,
+      ),
+    );
+
+    _controller.repeat(reverse: true);
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        // Your indicator widget content here
+        Text('Next Video',
+            style: TextStyle(
+              color: Theme.of(context).primaryColor.withOpacity(0.3),
+            )),
+        AnimatedBuilder(
+          animation: _animation,
+          builder: (context, child) {
+            return Transform.translate(
+              offset: Offset(0, _animation.value),
+              child: Icon(
+                Icons.arrow_downward,
+                // color: Colors.blue,
+                color: Theme.of(context).primaryColor.withOpacity(0.3),
+                size: 18.0, // Set the size of the icon
+              ),
+            );
+          },
+        ),
+      ],
+    );
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+}
+
+class YouTubeContainerDesignEnd extends StatelessWidget {
+  const YouTubeContainerDesignEnd({
     super.key,
     required YoutubePlayerController controller,
   }) : _controller = controller;

@@ -31,7 +31,7 @@ class EnglishEntryabdication extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 5,
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -81,11 +81,6 @@ class EnglishEntryabdication extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
-                  // VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -132,12 +127,13 @@ class EnglishEntryabdication extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    // YoutubeEmbeddedfour(),
-                    // YoutubeEmbeddedfive(),
-                    // YoutubeEmbeddedsix()
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedend(),
+                      ],
+                    ), // DOPSUM: FROM YOUTUBE BELOW
                   ],
                 ),
               ),
@@ -273,8 +269,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedthree extends StatelessWidget {
-  YoutubeEmbeddedthree({super.key});
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'bhBkB-wQCnE',
@@ -292,7 +288,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

@@ -31,7 +31,7 @@ class EnglishEntryabnormality extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 9,
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -81,12 +81,6 @@ class EnglishEntryabnormality extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -133,13 +127,17 @@ class EnglishEntryabnormality extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(), // DOPSUM: FROM YOUTUBE BELOW
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(),
-                    YoutubeEmbeddedseven()
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven()
+                      ],
+                    ),
                   ],
                 ),
               ),

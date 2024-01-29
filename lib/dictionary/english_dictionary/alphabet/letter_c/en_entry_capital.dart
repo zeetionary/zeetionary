@@ -79,7 +79,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Our capital is all tied up in property."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapitals8(String languageCode) async {
@@ -87,7 +88,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Education creates intellectual capital to convert into economic rewards."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapitals9(String languageCode) async {
@@ -95,7 +97,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals99"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("English is written with a capital ‘E’."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapitals10(String languageCode) async {
@@ -103,7 +106,8 @@ class EnglishEntrycapital extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapitals1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In some countries, importing drugs is a capital offence."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapitals11(String languageCode) async {
@@ -394,6 +398,125 @@ class EnglishEntrycapital extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcapitals6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our capital is all tied up in property."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەواوی سەرمایەمان لە زەوی‌وزاردایە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapitals7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapitals7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ناو) سەرچاوەیەکی بەنرخ"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Education creates intellectual capital to convert into economic rewards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پەروەردە سەرنایەیەکی بیرمەندانە درووست دەکات کە دەکرێت بکرێت بە پاداشتی ئابووری ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapitals8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapitals8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ھاوەڵناو) پیتێک کە بەشێوەی گەورە نووسراوە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "English is written with a capital ‘E’."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وشەی English بە پیتی ‘E’ی گەورە دەنووسرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapitals9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapitals9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (ھاوەڵناو) سزایەک کە مردنە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In some countries, importing drugs is a capital offence."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ژمارەیەک وڵات، هەناردەکردنی مادەی هۆشبەر سزای مەرگی هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapitals10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapitals10("en-US"),
                                   ),
                                 ],
                               ),

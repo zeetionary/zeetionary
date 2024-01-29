@@ -2417,11 +2417,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cape.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capillary.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capital.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capitalism.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capitalist.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capitalize.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capitulate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capitulation.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5963,11 +5963,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cape": (_) => MaterialPage(child: EnglishEntrycape()),
   "/english-capillary": (_) => MaterialPage(child: EnglishEntrycapillary()),
   "/english-capital": (_) => MaterialPage(child: EnglishEntrycapital()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-capitalism": (_) => MaterialPage(child: EnglishEntrycapitalism()),
+  "/english-capitalist": (_) => MaterialPage(child: EnglishEntrycapitalist()),
+  "/english-capitalize": (_) => MaterialPage(child: EnglishEntrycapitalize()),
+  "/english-capitulate": (_) => MaterialPage(child: EnglishEntrycapitulate()),
+  "/english-capitulation": (_) => MaterialPage(child: EnglishEntrycapitulation()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

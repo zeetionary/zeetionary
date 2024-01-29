@@ -333,7 +333,7 @@ class _DictionaryScreenKurdishState
               ),
               child: Icon(
                 Icons.arrow_upward,
-                size: 16.0, // Adjust the icon size as needed
+                size: 18.0, // Adjust the icon size as needed
                 color: Theme.of(context)
                     .primaryColor
                     .withOpacity(0.6), // Icon color

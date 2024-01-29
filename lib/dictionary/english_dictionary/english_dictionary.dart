@@ -2533,9 +2533,9 @@ class _DictionaryScreenEnglishState
     "cap",
     "capability",
     "capable",
-    // "capably",
-    // "capacity",
-    // "cape",
+    "capably",
+    "capacity",
+    "cape",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -13050,18 +13050,18 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-capable");
                   }
-                  // if (wordsEnglish == "capably") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capably");
-                  // }
-                  // if (wordsEnglish == "capacity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capacity");
-                  // }
-                  // if (wordsEnglish == "cape") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-cape");
-                  // }
+                  if (wordsEnglish == "capably") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capably");
+                  }
+                  if (wordsEnglish == "capacity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capacity");
+                  }
+                  if (wordsEnglish == "cape") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-cape");
+                  }
                   // if (wordsEnglish == "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM");

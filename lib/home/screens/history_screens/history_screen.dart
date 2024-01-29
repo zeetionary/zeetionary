@@ -15,8 +15,7 @@ class HistoryScreen extends StatelessWidget {
       child: Scaffold(
         appBar: ZeetionaryAppbar(),
         body: Padding(
-          padding:
-              EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          padding: EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
           // EdgeInsets.zero,
           child: Column(
             children: [
@@ -107,7 +106,7 @@ class UkIconForHistoryTab extends ConsumerWidget {
     return Tab(
       icon: Image.asset(
         'assets/images/uk_one.png',
-        width: 80,
+        width: 110,
         height: textSize,
       ),
     );
@@ -121,11 +120,11 @@ class KurdIconForHistoryTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 10;
+    final textSize = ref.watch(textSizeProvider) + 15;
     return Tab(
       icon: Image.asset(
         'assets/images/kurd_one.png',
-        width: 80,
+        width: 110,
         height: textSize,
       ),
     );

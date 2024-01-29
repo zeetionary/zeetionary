@@ -2415,8 +2415,8 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capably.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capacity.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cape.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capillary.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capital.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5961,8 +5961,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-capably": (_) => MaterialPage(child: EnglishEntrycapably()),
   "/english-capacity": (_) => MaterialPage(child: EnglishEntrycapacity()),
   "/english-cape": (_) => MaterialPage(child: EnglishEntrycape()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-capillary": (_) => MaterialPage(child: EnglishEntrycapillary()),
+  "/english-capital": (_) => MaterialPage(child: EnglishEntrycapital()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

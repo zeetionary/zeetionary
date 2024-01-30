@@ -153,7 +153,7 @@ class EnglishEntryadvantageous extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        // YoutubeEmbeddedeight(),
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -303,8 +303,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID',
-    startSeconds: 222222222222222,
+    videoId: 'Rz1X0RP3Mfw',
+    startSeconds: 483,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -405,31 +405,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'ZTY-bdIxA1w',
     startSeconds: 116,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Rz1X0RP3Mfw',
-    startSeconds: 483,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

@@ -487,7 +487,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: '-HfyDaFb6ok',
-    startSeconds: 1,
+    // startSeconds: 1,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

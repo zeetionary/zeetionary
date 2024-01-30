@@ -118,7 +118,7 @@ class EnglishEntryacrobat extends StatelessWidget {
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedend(),
+                        // YoutubeEmbeddedend(),
                         // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(),
@@ -308,35 +308,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedend extends StatelessWidget {
-  YoutubeEmbeddedend({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'UU2AZyf6EGQ',
-    startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
         child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }
 }
 
-// end

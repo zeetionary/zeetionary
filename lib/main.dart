@@ -21,7 +21,6 @@ import 'package:zeetionary/theme/pallete.dart';
 // flutter channel stable
 // flutter run AND flutter run --release -v
 // ADB uninstall com.example.zeetionary
-// flutter build apk
 // flutter upgrade AND flutter upgrade -v
 // flutter pub cache repair -v (Disclaimer: It will download each and every version of all the packages)
 // taskkill /f /im dart*
@@ -32,6 +31,7 @@ import 'package:zeetionary/theme/pallete.dart';
 // https://stackoverflow.com/questions/50645703/how-to-get-apk-and-ipa-file-from-flutter
 // flutter run (debug mode)
 // flutter run --release (release mode)
+// flutter build apk
 // flutter build apk --release (to get release build on your storage)
 // flutter run --profile
 

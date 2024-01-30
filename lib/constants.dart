@@ -443,19 +443,19 @@ class VideoIconForTab extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider); // + 1;
+    final textSize = ref.watch(textSizeProvider) + 5; // + 1;
     return Tab(
-      // icon: Image.asset(
-      //   'assets/images/video_one.png',
-      //   width: 26,
-      //   height: 30,
-      // ),
-      icon: Text(
-        "📺",
-        style: TextStyle(
-          fontSize: textSize,
-        ),
+      icon: Image.asset(
+        'assets/images/youtube_one.png',
+        width: 80,
+        height: textSize,
       ),
+      // icon: Text(
+      //   "📺",
+      //   style: TextStyle(
+      //     fontSize: textSize,
+      //   ),
+      // ),
     );
   }
 }

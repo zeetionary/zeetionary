@@ -510,8 +510,8 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VIDEO_ID_PUT_VIDEO_ID_5555555',
-    startSeconds: 222222222222222,
+    videoId: '9TugA_z5vQE',
+    startSeconds: 414,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

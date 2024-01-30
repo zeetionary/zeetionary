@@ -592,6 +592,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-
-
 // end

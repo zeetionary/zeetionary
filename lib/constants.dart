@@ -155,40 +155,36 @@ class YouTubeContainerDesignNew extends StatelessWidget {
     return Column(
       children: [
         const DividerDefinition(),
-        Column(
-          children: [
-            Container(
-              margin: const EdgeInsets.only(top: 20.0),
-              padding: const EdgeInsets.all(8.0),
-              decoration: BoxDecoration(
-                boxShadow: [
-                  BoxShadow(
-                    color: Theme.of(context).primaryColor.withOpacity(0.06),
-                    offset: const Offset(0, 4),
-                    blurRadius: 8,
-                  ),
-                ],
-                border: Border.all(
-                  color: Theme.of(context).primaryColor.withOpacity(0.1),
-                  width: 1.0,
-                ),
-                borderRadius: BorderRadius.circular(15.0),
+        Container(
+          margin: const EdgeInsets.only(top: 20.0),
+          padding: const EdgeInsets.all(8.0),
+          decoration: BoxDecoration(
+            boxShadow: [
+              BoxShadow(
+                color: Theme.of(context).primaryColor.withOpacity(0.06),
+                offset: const Offset(0, 4),
+                blurRadius: 8,
               ),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(15.0),
-                child: YoutubePlayer(
-                  controller: _controller,
-                  aspectRatio: 16 / 9,
-                ),
-              ),
+            ],
+            border: Border.all(
+              color: Theme.of(context).primaryColor.withOpacity(0.1),
+              width: 1.0,
             ),
-            const SizedBox(
-              height: 30,
+            borderRadius: BorderRadius.circular(15.0),
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(15.0),
+            child: YoutubePlayer(
+              controller: _controller,
+              aspectRatio: 16 / 9,
             ),
-            if (_showIndicator) // Conditionally show the indicator
-              const NextVideoIndicator(),
-          ],
+          ),
         ),
+        const SizedBox(
+          height: 30,
+        ),
+        if (_showIndicator) // Conditionally show the indicator
+          const NextVideoIndicator(),
       ],
     );
   }
@@ -233,7 +229,7 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
         // Your indicator widget content here
         Text('Next Video',
             style: TextStyle(
-              color: Theme.of(context).primaryColor.withOpacity(0.3),
+              color: Theme.of(context).primaryColor.withOpacity(0.2),
             )),
         AnimatedBuilder(
           animation: _animation,
@@ -241,9 +237,9 @@ class _NextVideoIndicatorState extends State<NextVideoIndicator>
             return Transform.translate(
               offset: Offset(0, _animation.value),
               child: Icon(
-                Icons.arrow_downward,
+                Icons.swipe_up_rounded,
                 // color: Colors.blue,
-                color: Theme.of(context).primaryColor.withOpacity(0.3),
+                color: Theme.of(context).primaryColor.withOpacity(0.2),
                 size: 18.0, // Set the size of the icon
               ),
             );

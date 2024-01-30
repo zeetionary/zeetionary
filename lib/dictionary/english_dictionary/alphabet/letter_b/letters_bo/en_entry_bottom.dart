@@ -290,7 +290,7 @@ class EnglishEntrybottom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 22, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -431,20 +431,20 @@ class EnglishEntrybottom extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "The wind blew through gaps at the top and bottom of the door."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The wind blew through gaps at the top and bottom of the door."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "با بە بۆشی سەرەوە و خوارەوەی دەرگاکە دەھاتە ژوورەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -461,20 +461,20 @@ class EnglishEntrybottom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "He reached the bottom of the steps in no time."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "بە خێرایی گەشتە خوارەوەی قادرمەکان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He reached the bottom of the steps in no time."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە خێرایی گەشتە خوارەوەی قادرمەکان."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -491,20 +491,20 @@ class EnglishEntrybottom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "We rode along the bottom of the valley."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "بە خوارەوەی دۆڵەکەدا لێمانخوڕی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We rode along the bottom of the valley."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە خوارەوەی دۆڵەکەدا لێمانخوڕی."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -521,20 +521,20 @@ class EnglishEntrybottom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "We walked to the bottom of the hill."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "بە ڕێکردن چووینە خوارەوەی گردەکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We walked to the bottom of the hill."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە ڕێکردن چووینە خوارەوەی گردەکە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -1025,27 +1025,31 @@ class EnglishEntrybottom extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(),
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
-                    YoutubeEmbeddeddfourteen(),
-                    YoutubeEmbeddedfifteen(),
-                    YoutubeEmbeddeddsixteen(),
-                    YoutubeEmbeddeddseventeen(),
-                    YoutubeEmbeddeddeighteen(),
-                    YoutubeEmbeddeddnineteen(),
-                    YoutubeEmbeddedtwenty(),
-                    // YoutubeEmbeddedmulti(),
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeleven(),
+                        YoutubeEmbeddedtwelve(),
+                        YoutubeEmbeddedthirteen(),
+                        YoutubeEmbeddeddfourteen(),
+                        YoutubeEmbeddedfifteen(),
+                        YoutubeEmbeddeddsixteen(),
+                        YoutubeEmbeddeddseventeen(),
+                        YoutubeEmbeddeddeighteen(),
+                        YoutubeEmbeddeddnineteen(),
+                        YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                      ],
+                    ),
                   ],
                 ),
               ),
@@ -1657,12 +1661,10 @@ class YoutubeEmbeddedtwenty extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }
 }
-
-// more than one video, only first autoplay
 
 // end bottom

@@ -371,4 +371,3 @@ class YoutubeEmbeddedend extends StatelessWidget {
     );
   }
 }
-

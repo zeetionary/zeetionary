@@ -222,7 +222,7 @@ class EnglishEntrybosom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -268,25 +268,6 @@ class EnglishEntrybosom extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
-                  VideoIconForTab(), // 02
-                  VideoIconForTab(), // 03
-                  VideoIconForTab(), // 04
-                  VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND:
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
-                  // VideoIconForTab(), // 16
-                  // VideoIconForTab(), // 17
-                  // VideoIconForTab(), // 18
-                  // VideoIconForTab(), // 19
-                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -361,20 +342,20 @@ class EnglishEntrybosom extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "She clutched her baby tightly to her bosom."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵەکەی بە توندی گرت بە سنگییەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She clutched her baby tightly to her bosom."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "منداڵەکەی بە توندی گرت بە سنگییەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -391,20 +372,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "As she walked into the room, all eyes were drawn to her ample bosom, accentuated by the elegant silk blouse."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کە چووە ژوورەکە ھەموو چاوەکان لەسەر مەمکە پڕەکانی بوون کە جوان دەرخرابوون لە بلووزە ئاوریشمە شۆخ‌وشەنگەکەیدا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -421,20 +402,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "The dress left the bosom bare."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The dress left the bosom bare."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "جلەکە سنگی بە دانەپۆشراوی دەھێشتەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -451,20 +432,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Her bosoms heaved as she breathed heavily."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "سنگی پڕبوو کە بە قووڵی ھەناسەی دا."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Her bosoms heaved as she breathed heavily."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "سنگی پڕبوو کە بە قووڵی ھەناسەی دا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -481,20 +462,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "She was slender, but with a voluptuous bosom."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She was slender, but with a voluptuous bosom."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "باریکەڵە بوو بەڵام مەمکەکانی زل بوون."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -511,20 +492,20 @@ class EnglishEntrybosom extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Clasp your child to your bosom and give him a big kiss!"),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Clasp your child to your bosom and give him a big kiss!"),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "منداڵەکەت بکە باوەشەوە و ماچێکی توندی بکە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -606,27 +587,31 @@ class EnglishEntrybosom extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(),
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddeddfourteen(),
-                    // YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddeddsixteen(),
-                    // YoutubeEmbeddeddseventeen(),
-                    // YoutubeEmbeddeddeighteen(),
-                    // YoutubeEmbeddeddnineteen(),
-                    // YoutubeEmbeddedtwenty(),
-                    // YoutubeEmbeddedmulti(),
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeleven(),
+                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                      ],
+                    ),
                   ],
                 ),
               ),
@@ -1023,12 +1008,10 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
+        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }
 }
-
-// more than one video, only first autoplay
 
 // end bosom

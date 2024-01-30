@@ -272,7 +272,7 @@ class EnglishEntryboy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 14, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -318,25 +318,6 @@ class EnglishEntryboy extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(), // 01
-                  VideoIconForTab(), // 02
-                  VideoIconForTab(), // 03
-                  VideoIconForTab(), // 04
-                  VideoIconForTab(), // 05
-                  VideoIconForTab(), // 06 --- 2 + VIDEOS REPLACE:length: 14
-                  VideoIconForTab(), // 07 --- FIND:
-                  VideoIconForTab(), // 08
-                  VideoIconForTab(), // 09
-                  VideoIconForTab(), // 10
-                  VideoIconForTab(), // 11
-                  VideoIconForTab(), // 12
-                  // VideoIconForTab(), // 13
-                  // VideoIconForTab(), // 14
-                  // VideoIconForTab(), // 15
-                  // VideoIconForTab(), // 16
-                  // VideoIconForTab(), // 17
-                  // VideoIconForTab(), // 18
-                  // VideoIconForTab(), // 19
-                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -412,20 +393,20 @@ class EnglishEntryboy extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Now she's a teenager, she's starting to be interested in boys."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "ئێستا کە کچەکە پێگەشتووە، دەستیکردووە بە حەزچوون بۆ کوڕان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Now she's a teenager, she's starting to be interested in boys."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئێستا کە کچەکە پێگەشتووە، دەستیکردووە بە حەزچوون بۆ کوڕان."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -442,20 +423,20 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Be a good boy and get me my coat."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "کوڕێکی گوێگر بە و قەمسەڵەکەم بۆ بھێنە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Be a good boy and get me my coat."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کوڕێکی گوێگر بە و قەمسەڵەکەم بۆ بھێنە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -472,20 +453,20 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Two teenage boys were standing outside the shop."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "دوو کوڕی گەنج لە دەرەوەی فرۆشگاکە وەستابوون."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Two teenage boys were standing outside the shop."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دوو کوڕی گەنج لە دەرەوەی فرۆشگاکە وەستابوون."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -502,18 +483,19 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "They've had a baby boy."),
-                                      ExampleSentenceKurdish(
-                                          text: "منداڵێکی کوڕیان بووە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "They've had a baby boy."),
+                                            ExampleSentenceKurdish(
+                                                text: "منداڵێکی کوڕیان بووە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -530,20 +512,20 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "She gave birth to a healthy baby boy."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "منداڵێکی کوڕی تەندرووستی بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She gave birth to a healthy baby boy."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "منداڵێکی کوڕی تەندرووستی بوو."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -560,20 +542,20 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Oliver is a popular boy's name."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "ئۆلیڤەر ناوێکی بەربڵاوی کوڕانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Oliver is a popular boy's name."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئۆلیڤەر ناوێکی بەربڵاوی کوڕانە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -651,18 +633,18 @@ class EnglishEntryboy extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "I have three boys."),
-                                      ExampleSentenceKurdish(
-                                          text: "سێ کوڕم ھەیە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text: "I have three boys."),
+                                            ExampleSentenceKurdish(
+                                                text: "سێ کوڕم ھەیە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -679,20 +661,20 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Our youngest boy is just starting school."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "بچووکترین کوڕمان تازە دەچێتە قوتابخانە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Our youngest boy is just starting school."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بچووکترین کوڕمان تازە دەچێتە قوتابخانە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -709,20 +691,20 @@ class EnglishEntryboy extends StatelessWidget {
                                   ),
                                   const DividerSentences(),
                                   Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                              "Their boy is small for his age."),
-                                      ExampleSentenceKurdish(
-                                          text:
-                                              "کوڕەکەیان بچووکە بەپێی تەمەنی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Their boy is small for his age."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کوڕەکەیان بچووکە بەپێی تەمەنی."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
                                           CustomIconButtonBritish(
@@ -920,27 +902,31 @@ class EnglishEntryboy extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(),
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    // YoutubeEmbeddedthirteen(),
-                    // YoutubeEmbeddeddfourteen(),
-                    // YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddeddsixteen(),
-                    // YoutubeEmbeddeddseventeen(),
-                    // YoutubeEmbeddeddeighteen(),
-                    // YoutubeEmbeddeddnineteen(),
-                    // YoutubeEmbeddedtwenty(),
-                    // YoutubeEmbeddedmulti(),
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeleven(),
+                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedthirteen(),
+                        // YoutubeEmbeddeddfourteen(),
+                        // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                      ],
+                    ),
                   ],
                 ),
               ),

@@ -88,7 +88,7 @@ class EnglishEntrybeforehand extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 17, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -148,11 +148,6 @@ class EnglishEntrybeforehand extends StatelessWidget {
                   VideoIconForTab(), // 13
                   VideoIconForTab(), // 14
                   VideoIconForTab(), // 15
-                  // VideoIconForTab(), // 16
-                  // VideoIconForTab(), // 17
-                  // VideoIconForTab(), // 18
-                  // VideoIconForTab(), // 19
-                  // VideoIconForTab(), // 20
                 ],
               ),
               Expanded(
@@ -230,27 +225,31 @@ class EnglishEntrybeforehand extends StatelessWidget {
                         ],
                       ),
                     ),
-                    YoutubeEmbeddedone(),
-                    YoutubeEmbeddedtwo(),
-                    YoutubeEmbeddedthree(),
-                    YoutubeEmbeddedfour(),
-                    YoutubeEmbeddedfive(),
-                    YoutubeEmbeddedsix(), // FIND: VideoIconForTab
-                    YoutubeEmbeddedseven(),
-                    YoutubeEmbeddedeight(),
-                    YoutubeEmbeddednine(),
-                    YoutubeEmbeddedten(),
-                    YoutubeEmbeddedeleven(),
-                    YoutubeEmbeddedtwelve(),
-                    YoutubeEmbeddedthirteen(),
-                    YoutubeEmbeddeddfourteen(),
-                    YoutubeEmbeddedfifteen(),
-                    // YoutubeEmbeddeddsixteen(),
-                    // YoutubeEmbeddeddseventeen(),
-                    // YoutubeEmbeddeddeighteen(),
-                    // YoutubeEmbeddeddnineteen(),
-                    // YoutubeEmbeddedtwenty(),
-                    // YoutubeEmbeddedmulti(),
+                    YouTubeScroller(
+                      children: [
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeleven(),
+                        YoutubeEmbeddedtwelve(),
+                        YoutubeEmbeddedthirteen(),
+                        YoutubeEmbeddeddfourteen(),
+                        YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                      ],
+                    ),
                   ],
                 ),
               ),

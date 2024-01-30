@@ -89,9 +89,6 @@ class EnglishEntryabundant extends StatelessWidget {
                   UkIconForTab(),
                   KurdIconForTab(),
                   VideoIconForTab(),
-                  VideoIconForTab(),
-                  VideoIconForTab(),
-                  // VideoIconForTab(),
                 ],
               ),
               Expanded(

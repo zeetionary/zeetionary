@@ -498,6 +498,3 @@ class YoutubeEmbeddedten extends StatelessWidget {
     );
   }
 }
-
-
-

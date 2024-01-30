@@ -484,5 +484,3 @@ class YoutubeEmbeddedeight extends StatelessWidget {
     );
   }
 }
-
-

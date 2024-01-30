@@ -343,7 +343,7 @@ class CustomTabBar extends ConsumerWidget {
         ),
       ),
       child: TabBar(
-        isScrollable: true,
+        isScrollable: false,
         tabs: tabs,
         indicator: BoxDecoration(
           gradient: LinearGradient(

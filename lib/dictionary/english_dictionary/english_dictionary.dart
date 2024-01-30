@@ -18,7 +18,6 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 //       _DictionaryScreenEnglishState();
 // }
 
-
 class DictionaryScreenEnglish extends ConsumerStatefulWidget {
   const DictionaryScreenEnglish({super.key});
 
@@ -42,25 +41,25 @@ class _DictionaryScreenEnglishState
       "What is 100 tag?",
       "a", "aback",
       "abandon",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     ],
     "500": [
       "aback",
       "abandon",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     ],
     "Idioms": [
       "bode well/ill",
       "come of age",
-      "far afield", 
+      "far afield",
       "go astray",
       "have had a bellyful of",
       "in behalf of",
@@ -69,16 +68,16 @@ class _DictionaryScreenEnglishState
       "not come/go amiss",
       "on behalf of",
       "take something amiss",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-      ],
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+      // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    ],
     // "pastttt": ["past simple", "past perfect"],
     // "pasttttt": ["past simple", "past perfect"],
     // "pastttttt": ["past simple", "past perfect"],
@@ -2850,30 +2849,54 @@ class _DictionaryScreenEnglishState
               return 1; // B has an exact match, so it comes first.
             } else {
               // Continue with the existing sorting logic for non-exact matches
-              int frequencyComparison =
-                  (wordFrequencies[b] ?? 0).compareTo(wordFrequencies[a] ?? 0);
 
-              if (frequencyComparison == 0) {
-                bool containsExactA = _containsExact(a, query);
-                bool containsExactB = _containsExact(b, query);
+              // Check if A is a substring of B or vice versa
+              bool isSubstringA = a.contains(query) && !exactMatchA;
+              bool isSubstringB = b.contains(query) && !exactMatchB;
 
-                if (containsExactA && !containsExactB) {
-                  return -1; // A contains the exact match, so it comes next.
-                } else if (!containsExactA && containsExactB) {
-                  return 1; // B contains the exact match, so it comes next.
-                }
-
-                // If not an exact match, prioritize by the length of consecutive matches
-                int consecutiveMatchComparison =
-                    _countConsecutiveMatches(b, query)
-                        .compareTo(_countConsecutiveMatches(a, query));
-
-                if (consecutiveMatchComparison != 0) {
-                  return consecutiveMatchComparison;
-                }
+              if (isSubstringA && !isSubstringB) {
+                return -1; // A is a substring, so it comes first.
+              } else if (!isSubstringA && isSubstringB) {
+                return 1; // B is a substring, so it comes first.
               }
 
-              return frequencyComparison;
+              // Prioritize results with exact matches as a prefix
+              bool startsWithA = a.startsWith(query);
+              bool startsWithB = b.startsWith(query);
+
+              if (startsWithA && !startsWithB) {
+                return -1;
+              } else if (!startsWithA && startsWithB) {
+                return 1;
+              }
+
+              // Prioritize results with exact matches as a suffix
+              bool endsWithA = a.endsWith(query);
+              bool endsWithB = b.endsWith(query);
+
+              if (endsWithA && !endsWithB) {
+                return -1;
+              } else if (!endsWithA && endsWithB) {
+                return 1;
+              }
+
+              // Additional prioritization: Shorter exact matches come first
+              if (exactMatchA && exactMatchB) {
+                return a.length.compareTo(b.length);
+              }
+
+              // If not an exact match or substring, prioritize by the length of consecutive matches
+              int consecutiveMatchComparison =
+                  _countConsecutiveMatches(b, query)
+                      .compareTo(_countConsecutiveMatches(a, query));
+
+              if (consecutiveMatchComparison != 0) {
+                return consecutiveMatchComparison;
+              }
+
+              // Fallback: Use frequency comparison for remaining cases
+              return (wordFrequencies[b] ?? 0)
+                  .compareTo(wordFrequencies[a] ?? 0);
             }
           });
       }
@@ -2885,17 +2908,13 @@ class _DictionaryScreenEnglishState
     return input.replaceAll('-', ' ').toLowerCase();
   }
 
-// Check if the word contains the exact match
-  bool _containsExact(String word, String query) {
-    return word
-        .replaceAll('-', ' ')
-        .toLowerCase()
-        .contains(query.replaceAll('-', ' ').toLowerCase());
-  }
-
-// Check if the word is an exact match
+// Check if the word is an exact match without prefixes or suffixes
   bool _isExactMatch(String word, String query) {
-    return word == query || _containsExact(word, query);
+    word = _normalizeString(word);
+    query = _normalizeString(query);
+
+    // Check if the word is the exact match without prefixes or suffixes
+    return word == query;
   }
 
 // Count consecutive character matches between two strings
@@ -2911,11 +2930,8 @@ class _DictionaryScreenEnglishState
     return count;
   }
 
-// Fuzzy matching algorithm for approximate matches
+  // Fuzzy matching algorithm for approximate matches
   bool _fuzzyMatch(String word, String query) {
-    // Implement an enhanced fuzzy matching algorithm
-    // Consider consecutive character matches and adjust the threshold.
-
     // Case-insensitive comparison
     word = word.toLowerCase();
     query = query.toLowerCase();
@@ -2925,22 +2941,37 @@ class _DictionaryScreenEnglishState
       return true;
     }
 
-    // Check for consecutive character matches
-    int consecutiveMatches = 0;
-    int maxConsecutiveMatches = 2; // Adjust as needed
+    // Check for character transpositions and common misspellings
+    int maxEditDistance = 2; // Adjust as needed
+    int editDistance = _calculateEditDistance(word, query);
 
-    for (int i = 0;
-        i < word.length && consecutiveMatches <= maxConsecutiveMatches;
-        i++) {
-      if (i < query.length && word[i] == query[i]) {
-        consecutiveMatches++;
-      } else {
-        consecutiveMatches = 0;
+    return editDistance <= maxEditDistance;
+  }
+
+  int _calculateEditDistance(String a, String b) {
+    int m = a.length;
+    int n = b.length;
+    List<List<int>> dp =
+        List.generate(m + 1, (_) => List<int>.filled(n + 1, 0));
+
+    for (int i = 0; i <= m; i++) {
+      for (int j = 0; j <= n; j++) {
+        if (i == 0) {
+          dp[i][j] = j;
+        } else if (j == 0) {
+          dp[i][j] = i;
+        } else if (a[i - 1] == b[j - 1]) {
+          dp[i][j] = dp[i - 1][j - 1];
+        } else {
+          dp[i][j] = 1 + _min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+        }
       }
     }
 
-    return consecutiveMatches > maxConsecutiveMatches;
+    return dp[m][n];
   }
+
+  int _min(int a, int b, int c) => a < b ? (a < c ? a : c) : (b < c ? b : c);
 
   // void filterResults(String query) {
   //   setState(() {
@@ -3046,7 +3077,7 @@ class _DictionaryScreenEnglishState
                   hintText: shuffledWords.isEmpty
                       ? ''
                       : shuffledWords[_shuffleCurrentIndex],
-                    hintStyle: TextStyle(fontSize: textSize),
+                  hintStyle: TextStyle(fontSize: textSize),
                   // labelText: shuffledWords.isEmpty
                   //     ? ''
                   //     : shuffledWords[_shuffleCurrentIndex],
@@ -13070,7 +13101,7 @@ class _DictionaryScreenEnglishState
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-capital");
                   // }
-                  
+
                   // if (wordsEnglish == "capital letter") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-capital");

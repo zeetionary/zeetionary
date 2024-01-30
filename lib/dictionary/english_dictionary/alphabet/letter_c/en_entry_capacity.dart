@@ -27,7 +27,7 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakcapacitys111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The theatre has a seating capacity of 2 000."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys2(String languageCode) async {
@@ -35,7 +35,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The hall was filled to capacity."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys3(String languageCode) async {
@@ -43,7 +44,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She has an enormous capacity for hard work."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys4(String languageCode) async {
@@ -51,7 +53,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Limited resources are restricting our capacity for developing new products."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys5(String languageCode) async {
@@ -59,7 +62,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The mountain walk is well within the capacity of most fit people."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys6(String languageCode) async {
@@ -67,7 +71,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His capacity for learning languages astonished me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys7(String languageCode) async {
@@ -75,7 +80,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These questions are beyond the capacity of most students."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys8(String languageCode) async {
@@ -83,7 +89,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was acting in her capacity as manager."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys9(String languageCode) async {
@@ -91,7 +98,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In my capacity as president, I would like to thank Jack for his hard work."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys10(String languageCode) async {
@@ -99,7 +107,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The factory is working at (full) capacity."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys11(String languageCode) async {
@@ -107,7 +116,8 @@ class EnglishEntrycapacity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcapacitys1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The larger cars have bigger capacity engines."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapacitys12(String languageCode) async {
@@ -188,9 +198,9 @@ class EnglishEntrycapacity extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: جێ‌بوونەوە، گرتن، هەڵگرتن، بردن، گونجایشت، جێگا، جێ، فراوانی، هێز، وزە، توانایی، توانین، توانست، خورتی، لێوەشاوەیی، لێهاتوویی، شیان، تواناداری، پۆست، پلەوپایە، تێگەیشتن
 
-١. (ھاوەڵناو) پێنناسە"""),
+١. (ناو) ئەو ڕێژەیەی کە جێیدەبێتەوە لە شوێنێک یان لە ناو شتێکدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -198,9 +208,10 @@ class EnglishEntrycapacity extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakcapacitys111111111111111111111111111111111"),
+                                            "The theatre has a seating capacity of 2 000."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "هۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی هەیە."),
                                   ],
                                 ),
                               ),
@@ -212,6 +223,305 @@ class EnglishEntrycapacity extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcapacitys1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The hall was filled to capacity (= was completely full)."),
+                                    ExampleSentenceKurdish(
+                                        text: "هۆڵەکە بە تەواوی پڕ بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) توانای تێگەشتن یان کردنی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She has an enormous capacity for hard work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "توانایەکی زۆری بۆ کاری قورس هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Limited resources are restricting our capacity for developing new products."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەرچاوەی سنووردار توانامانی سنووردار کردووە لە گەشەپێدانی بەرهەمەکانمان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The mountain walk is well within the capacity of most fit people."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ڕێگای گەشتن بە زۆرباش لە توانای زۆر کەسی تەندرووست دایە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcapacitys5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcapacitys5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "His capacity for learning languages astonished me."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "توانای لە فێربوونی زمانەکانی دیکەدا سەرسامی کردم."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcapacitys6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcapacitys6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "These questions are beyond the capacity of most students."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەم پرسیارانە لە دەرەوەی توانای زۆرینەی خوێندکارانن."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcapacitys7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcapacitys7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٣. (ناو) پێگە یان ئەرکی فەرمیی کەسێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was acting in her capacity as manager."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ئەرکەکەیدا وەک سەرپەرشتیار کاری دەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In my capacity as president, I would like to thank Jack for his hard work."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پێگەم وەک سەرۆک، دەمەوێت سوپاسی جاک بکەم بۆ کاری قورسی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) ئەو بڕەی کە کارگەیەک، ئامێرێک، هتد بەرهەمی دێنێت، یان هێز و توانای بزوێنەرێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The factory is working at (full) capacity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کارگەکە بەوپەڕی توانای کاردەکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The larger cars have bigger capacity engines (= the engines are bigger and more powerful)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapacitys11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapacitys11("en-US"),
                                   ),
                                 ],
                               ),
@@ -231,7 +541,6 @@ class EnglishEntrycapacity extends StatelessWidget {
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -243,6 +552,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -576,8 +886,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'https://youtu.be/j-cLiO0AFDc?t=',

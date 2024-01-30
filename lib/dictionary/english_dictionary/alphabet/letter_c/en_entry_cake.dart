@@ -252,12 +252,18 @@ class EnglishEntrycake extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "I blew out the candles on my birthday cake."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "مۆمەکانی سەر کێکی لەدایکبوونەکەم کوژاندەوە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I blew out the candles on my birthday cake."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "مۆمەکانی سەر کێکی لەدایکبوونەکەم کوژاندەوە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

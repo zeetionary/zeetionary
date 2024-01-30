@@ -256,12 +256,18 @@ class EnglishEntrycancer extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Smokers face an increased risk of developing lung cancer."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کەسانی جگەرەکێش ڕووبەڕووی مەترسیی زیاتری شێرپەنجەی سنگ دەبنەوە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Smokers face an increased risk of developing lung cancer."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کەسانی جگەرەکێش ڕووبەڕووی مەترسیی زیاتری شێرپەنجەی سنگ دەبنەوە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -280,12 +286,18 @@ class EnglishEntrycancer extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The drug can lower the risk of breast cancer."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "دەرمانەکە مەترسیی شێرپەنجەی مەمک کەمدەکاتەوە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The drug can lower the risk of breast cancer."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دەرمانەکە مەترسیی شێرپەنجەی مەمک کەمدەکاتەوە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

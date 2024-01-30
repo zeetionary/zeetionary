@@ -315,12 +315,18 @@ class EnglishEntrycancel extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The US has agreed to cancel debts (= say that they no longer need to be paid) totalling £10 million."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "ئەمریکا ڕازی بووە قەرزی ١٠ ملیۆن پاوەند سفر بکاتەوە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The US has agreed to cancel debts (= say that they no longer need to be paid) totalling £10 million."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەمریکا ڕازی بووە قەرزی ١٠ ملیۆن پاوەند سفر بکاتەوە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

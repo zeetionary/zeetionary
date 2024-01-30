@@ -249,11 +249,18 @@ class EnglishEntrycab extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The cab pulled up and they got out."),
-                                      const ExampleSentenceKurdish(
-                                          text: "تەکسییەکە وەستا و دابەزین."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The cab pulled up and they got out."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "تەکسییەکە وەستا و دابەزین."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -272,12 +279,18 @@ class EnglishEntrycab extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "I left my umbrella in the back of the cab."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "چەترەکەم لە پشتەوەی تەکسییەکە جێهێشت."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I left my umbrella in the back of the cab."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "چەترەکەم لە پشتەوەی تەکسییەکە جێهێشت."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

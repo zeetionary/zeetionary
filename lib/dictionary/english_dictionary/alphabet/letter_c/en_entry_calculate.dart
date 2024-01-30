@@ -258,12 +258,18 @@ class EnglishEntrycalculate extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Use the formula to calculate the volume of the container."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "هاوکێشەکە بەکاربهێنە بۆ دۆزینەوەی قەبارەی دەفرەکە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Use the formula to calculate the volume of the container."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هاوکێشەکە بەکاربهێنە بۆ دۆزینەوەی قەبارەی دەفرەکە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -282,12 +288,18 @@ class EnglishEntrycalculate extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "You'll need to calculate how much time the assignment will take."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "You'll need to calculate how much time the assignment will take."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -306,12 +318,18 @@ class EnglishEntrycalculate extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The sum involved was calculated at £82 million."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The sum involved was calculated at £82 million."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -396,12 +414,18 @@ class EnglishEntrycalculate extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "I tried to calculate how much time it would take me to get there."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "هەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I tried to calculate how much time it would take me to get there."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

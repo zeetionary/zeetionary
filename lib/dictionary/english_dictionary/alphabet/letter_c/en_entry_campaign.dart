@@ -259,12 +259,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "She led the campaign for parliamentary reform."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "سەرکردایەتی هەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She led the campaign for parliamentary reform."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "سەرکردایەتی هەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -283,12 +289,18 @@ class EnglishEntrycampaign extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "She led a successful campaign against the closure of the library."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She led a successful campaign against the closure of the library."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کەمپینێکی سەرکەوتووانەی بەڕێوەبرد دژ بە داخستنی کتێبخانەکە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

@@ -368,12 +368,18 @@ class EnglishEntrycalm extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Her voice was surprisingly calm."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "دەنگی بەشێوەیەکی سەرنجڕاکێش هێمن بوو."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Her voice was surprisingly calm."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دەنگی بەشێوەیەکی سەرنجڕاکێش هێمن بوو."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -392,12 +398,18 @@ class EnglishEntrycalm extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The city is calm again (= free from trouble and fighting) after yesterday's riots."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "لە دوای ئاڵۆزییەکانی دوێنێ شارەکە دووبارە ئارامە."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The city is calm again (= free from trouble and fighting) after yesterday's riots."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "لە دوای ئاڵۆزییەکانی دوێنێ شارەکە دووبارە ئارامە."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -595,12 +607,18 @@ class EnglishEntrycalm extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Calm had been restored to the capital."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "ئارامی گەڕێندرایەوە بۆ پایتەخت."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Calm had been restored to the capital."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئارامی گەڕێندرایەوە بۆ پایتەخت."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

@@ -94,7 +94,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
       animationCurve: Curves.easeInOut,
       // animationCurve: Curves.easeInOutCubicEmphasized,
       // backdropColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.8),
-      animationDuration: const Duration(milliseconds: 300),
+      animationDuration: const Duration(milliseconds: 200),
       animateChildDecoration: true,
       rtlOpening: false,
       // openScale: 1.0,

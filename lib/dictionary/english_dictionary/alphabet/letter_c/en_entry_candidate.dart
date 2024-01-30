@@ -259,12 +259,18 @@ class EnglishEntrycandidate extends StatelessWidget {
                                 children: [
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "The party is fielding more candidates than ever before."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "پارتەکە زیاتر لە هەر کاتێکی دیکە بەربژێر دەپاڵێوێت."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The party is fielding more candidates than ever before."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "پارتەکە زیاتر لە هەر کاتێکی دیکە بەربژێر دەپاڵێوێت."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [
@@ -283,12 +289,18 @@ class EnglishEntrycandidate extends StatelessWidget {
                                   const DividerSentences(),
                                   Row(
                                     children: [
-                                      const ExampleSentenceEnglish(
-                                          text:
-                                              "Our organization is putting up five candidates in the elections."),
-                                      const ExampleSentenceKurdish(
-                                          text:
-                                              "دامەزراوەکە چوار کاندید بەربژێر دەکات لە هەڵبژاردنەکان."),
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Our organization is putting up five candidates in the elections."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "دامەزراوەکە چوار کاندید بەربژێر دەکات لە هەڵبژاردنەکان."),
+                                          ],
+                                        ),
+                                      ),
                                       const CustomSizedBoxForTTS(),
                                       Column(
                                         children: [

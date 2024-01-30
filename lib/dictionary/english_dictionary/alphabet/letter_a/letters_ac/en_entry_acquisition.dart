@@ -155,7 +155,7 @@ class EnglishEntryacquisition extends StatelessWidget {
                                             "The money will be spent on acquisitions for the university library."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارەکە بەکاردێت بۆ کڕینی کتێبخانەی زانکۆکە."),
+                                            "پارەکە بەکاردێت بۆ کڕین بۆ کتێبخانەی زانکۆکە."),
                                   ],
                                 ),
                               ),

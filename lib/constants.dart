@@ -830,7 +830,7 @@ class DefinitionKurdish extends ConsumerWidget {
 }
 
 class ExampleSentenceEnglish extends ConsumerWidget {
-  // (zee; text can be copied) https://bard.google.com/chat/590d23e62de86007
+  // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
   final String text;
 
   const ExampleSentenceEnglish({super.key, required this.text});

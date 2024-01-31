@@ -30,7 +30,7 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakcarbonmonoxides111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "In closed spaces, carbon monoxide can be deadly."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarbonmonoxides2(String languageCode) async {
@@ -154,7 +154,8 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkɑːbən məˈnɒksaɪd/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˌkɑːbən məˈnɒksaɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcarbonmonoxide("en-GB"),
                             ),
@@ -162,7 +163,8 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌkɑːrbən məˈnɑːksaɪd/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkɑːrbən məˈnɑːksaɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcarbonmonoxide("en-US"),
                             ),
@@ -191,9 +193,9 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: تاکۆکساید یان یەکۆکسایدی کاربۆن CO
 
-١. (ھاوەڵناو) پێنناسە"""),
+١. (ناو) مادەیەکی ژەهراوی کە درووست دەبێت کە کاربۆن کەمێک دەسووتێت بەڵام بە تەواوی نا. درووست دەبێت کە بەنزین لە بزوێنەری ئۆتۆمبێلدا دەسووتێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,9 +203,10 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakcarbonmonoxides111111111111111111111111111111111"),
+                                            "In closed spaces, carbon monoxide can be deadly."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "لە ژینگەی داخراودا، تاکۆکسیدی کاربۆن دەکرێت کوشندە بێت."),
                                   ],
                                 ),
                               ),
@@ -211,10 +214,12 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarbonmonoxides1("en-GB"),
+                                    onPressed: () =>
+                                        speakcarbonmonoxides1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarbonmonoxides1("en-US"),
+                                    onPressed: () =>
+                                        speakcarbonmonoxides1("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,18 +230,18 @@ class EnglishEntrycarbonmonoxide extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        // YoutubeEmbeddedone(),
-                        // YoutubeEmbeddedtwo(),
-                        // YoutubeEmbeddedthree(),
-                        // YoutubeEmbeddedfour(),
-                        // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // speakcarbonmonoxides111111111111111111111111111111111
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -336,8 +341,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/-cPdImejxEQ?t=',
+    startSeconds: 327,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -361,8 +366,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/737r0mRf0hY?t=',
+    startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -386,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/6ta_sftSfIw?t=',
+    startSeconds: 1101,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -411,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/g3Ud6mHdhlQ?t=',
+    startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -436,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/iQ5GfDbjos8?t=',
+    startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -461,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Dy55X4QaAAU?t=',
+    startSeconds: 313,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -486,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/zEjEqnMBdEM?t=',
+    startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -511,8 +516,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/xAVCY0WE8uM?t=',
+    startSeconds: 177,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +541,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/woYFftjEkeM?t=',
+    startSeconds: 1489,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

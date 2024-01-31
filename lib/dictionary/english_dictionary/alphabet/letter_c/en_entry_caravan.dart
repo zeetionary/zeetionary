@@ -3,81 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// More sentences is NOT done
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
 
-// Define the word "braise" as TYPE and for each meaning provide five real life example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrybraise extends StatelessWidget {
-// blank divider
-  EnglishEntrybraise({super.key});
-// blank divider
+class EnglishEntrycaravan extends StatelessWidget {
+  // blank divider
+  EnglishEntrycaravan({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbraise(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravan(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("braise"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("caravan"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises1(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The liver is then braised in olive oil."); // DOPSUM: CHANGE TEXT
+        "The local farmer lets holiday caravans park on his land."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises2(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbraises22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Travelers in the 19th century depended on a caravan of horses for long journeys."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises3(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbraises33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The caravan travelled slowly eastwards."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises4(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbraises44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaravans44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises5(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbraises55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaravans55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises6(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbraises66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaravans66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbraises7(String languageCode) async {
-    // DOPSUM: CHANGE speakbraise
+  Future<void> speakcaravans7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbraises77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaravans77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaravans8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaravans88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaravans9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaravans99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaravans10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaravans1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaravans11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaravans1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaravans12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaravans1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaravans13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaravan
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaravans1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -100,22 +151,22 @@ class EnglishEntrybraise extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "braise"),
+                            EntryTitle(word: "caravan"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /breɪz/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkærəvæn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbraise("en-GB"),
+                              onPressed: () => speakcaravan("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /breɪz/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkærəvæn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbraise("en-US"),
+                              onPressed: () => speakcaravan("en-US"),
                             ),
                           ],
                         ),
@@ -128,7 +179,7 @@ class EnglishEntrybraise extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -142,9 +193,9 @@ class EnglishEntrybraise extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەرم داھێنان، کوڵاندن، برژاندن
+کوردی: کاروان، قەتار، عەڕەبانە، کارڤان، قافڵە
 
-١. (کردار) لێنانی گۆشت و سەوزە زۆر بەھێواشی لە کەمێک شلەدا (ئاو) لە دەفرێکی داخراودا"""),
+١. (ناو) عەرەبانەیەک کە بە ئۆتۆمبێلێک ڕادەکێشرێت و خەڵکی تێیدا دەژین و دەخەون لەکاتی گەشتدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -152,10 +203,41 @@ class EnglishEntrybraise extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The liver is then braised in olive oil."),
+                                            "The local farmer lets holiday caravans park on his land."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جگەرەکە دواتر دەکوڵێندرێت بەھێواشی لە زەیتی زەیتووندا."),
+                                            "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(), // Define the word "caravan", please follow LX instructions
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaravans1("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaravans1("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) عەرەبانەیەک کە بە ئەسپ ڕادەکێشرێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Travelers in the 19th century depended on a caravan of horses for long journeys."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەشتیاران لە سەدەی ١٩ دا پشتیان بە عەرەبانەی ئەسپ دەبەست بۆ گەشتی ماوە دەرێژ."),
                                   ],
                                 ),
                               ),
@@ -163,10 +245,41 @@ class EnglishEntrybraise extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbraises1("en-GB"),
+                                    onPressed: () => speakcaravans2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbraises1("en-US"),
+                                    onPressed: () => speakcaravans2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کۆمەڵە کەسێک کە پێکەوە گەشت دەکەن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The caravan travelled slowly eastwards."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاروانەکە بەهێواشی بەرەو ڕۆژهەڵات دەچوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaravans3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaravans3("en-US"),
                                   ),
                                 ],
                               ),
@@ -182,11 +295,11 @@ class EnglishEntrybraise extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        // YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
+                        YoutubeEmbeddedeight(), //
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -198,6 +311,7 @@ class EnglishEntrybraise extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -253,9 +367,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: braise (derived forms: braised, braises, braising)
-1. (cooking) cook in liquid
-"braise beef"
+- Noun: caravan (Derived forms: caravans)
+1. A procession (of wagons, mules or camels) travelling together in single file (= train, wagon train)
+"we were part of a caravan of almost a thousand camels";
+
+2. A camper equipped with living quarters (= van)
+
+- Verb: caravan (Derived forms: caravanned, caravanning, caravans)
+1. Travel in a caravan
 """,
   );
 
@@ -284,12 +403,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    startSeconds: 131,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Mf4wwXM2o_M',
-    startSeconds: 617,
+    videoId: 'https://youtu.be/UpQ_xDMJJ04',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -313,8 +457,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JoGjIRVY9t4',
-    startSeconds: 603,
+    videoId: 'https://youtu.be/oHNRRGx-yOE?t=',
+    startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -338,8 +482,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NM4ArR-qbHQ',
-    startSeconds: 593,
+    videoId: 'https://youtu.be/1h7KV2sjUWY?t=',
+    startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +507,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LsNg-KrFxCA',
-    startSeconds: 290,
+    videoId: 'https://youtu.be/NhyDkHaUC8U?t=',
+    startSeconds: 687,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +532,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AA3jGOvz_CE',
-    startSeconds: 170,
+    videoId: 'https://youtu.be/-p9Us1_VDMM?t=',
+    startSeconds: 1046,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +557,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qqitb8MYjnU',
-    startSeconds: 575,
+    videoId: 'https://youtu.be/vb-p--iRFew?t=',
+    startSeconds: 628,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +582,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'd7toRg8fFa8',
-    startSeconds: 247,
+    videoId: 'https://youtu.be/MfWKb0BSi6k?t=',
+    startSeconds: 340,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +607,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '1-Esce9gunM',
-    startSeconds: 457,
+    videoId: 'https://youtu.be/bfr6oF00rRs?t=',
+    startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -478,13 +622,60 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
 
-// end
+class YoutubeEmbeddednine extends StatelessWidget {
+  YoutubeEmbeddednine({super.key});
 
-// haʊʊʊʊʊʊʊ4
-// end braise
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/B4Huvd2N9uo?t=',
+    startSeconds: 211,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Y9ZigrOPxO4?t=',
+    startSeconds: 389,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+// end WORD_WEB

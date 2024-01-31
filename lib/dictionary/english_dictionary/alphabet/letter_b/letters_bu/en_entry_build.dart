@@ -489,7 +489,7 @@ class EnglishEntrybuild extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) بەھێزتربوون بە ھێواشی"),
+                              text: "٣. (ناو) بەھێزتربوون بەھێواشی"),
                           Row(
                             children: [
                               const Expanded(
@@ -500,7 +500,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "His animosity toward capitalism built steadily as a result of wealth inequality."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕقی بۆ سەرمایەداری پەرەی سەند بە ھێواشی بەھۆی نابەرامبەری سامانەوە."),
+                                            "ڕقی بۆ سەرمایەداری پەرەی سەند بەھێواشی بەھۆی نابەرامبەری سامانەوە."),
                                   ],
                                 ),
                               ),

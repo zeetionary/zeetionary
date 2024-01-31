@@ -30,7 +30,7 @@ class EnglishEntrycarat extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakcarats111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The engagement ring featured a stunning diamond of two carats."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarats2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycarat extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarats22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The jeweler explained that 14-carat gold contains 58.5% pure gold."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarats3(String languageCode) async {
@@ -191,9 +192,7 @@ class EnglishEntrycarat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
-
-١. (ھاوەڵناو) پێنناسە"""),
+١. (ناو) یەکەیەک بۆ کێشانی ئەڵماس و مادەی دیکەی گران‌بەها، کە یەکسانە بە ٢٠٠ میلیگرام"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,9 +200,10 @@ class EnglishEntrycarat extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakcarats111111111111111111111111111111111"),
+                                            "The engagement ring featured a stunning diamond of two carats."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text:
+                                            "ئەڵقەی هاوسەرگیرییەکە پێکهاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش."),
                                   ],
                                 ),
                               ),
@@ -220,23 +220,54 @@ class EnglishEntrycarat extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) یەکەی پێوانی بێ‌گەردی ئاڵتوون. پاکترین ئاڵتوون عەیارە ٢٤ ە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The jeweler explained that 14-carat gold contains 58.5% pure gold."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "زەڕەنگەرەکە ڕووینیکردەوە کە ئاڵتوونی عەیارە ١٤ ڕێژەی ٥٨,٥٪ی ئاڵتوونی تەواوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarats2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarats2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        // YoutubeEmbeddedone(),
-                        // YoutubeEmbeddedtwo(),
-                        // YoutubeEmbeddedthree(),
-                        // YoutubeEmbeddedfour(),
-                        // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // speakcarats111111111111111111111111111111111
-                        // YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(), //
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -338,8 +369,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/1SvAcmV_GIU?t=',
+    startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -363,8 +394,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/CnHKrzW-np4?t=',
+    startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -388,8 +419,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/uW8VpRGQj6s?t=',
+    startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -413,8 +444,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/28hrhmldx74?t=',
+    startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -438,8 +469,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/h_OeMVcol1g?t=',
+    startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -463,8 +494,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/FNfA1O6iea0?t=',
+    startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -488,8 +519,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/RGIWcK2aSDg?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -513,8 +544,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/5XugSX9WBO8?t=',
+    startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -538,8 +569,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/2lRxA9VrwDY?t=',
+    startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -563,8 +594,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/HxQ6Vq5VDVM?t=',
+    startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -588,8 +619,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/dtb5ogC1I6U?t=',
+    startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

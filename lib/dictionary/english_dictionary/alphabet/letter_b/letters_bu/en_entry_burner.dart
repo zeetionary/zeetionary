@@ -202,7 +202,7 @@ class EnglishEntryburner extends StatelessWidget {
                                             "The chef adjusted the burner to simmer the sauce slowly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بە ھێواشی مێروولەکوڵ بێت."),
+                                            "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بەھێواشی مێروولەکوڵ بێت."),
                                   ],
                                 ),
                               ),

@@ -3,46 +3,131 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryamble - replace speakAmble - replace amble - /ˈæmbl/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryamble extends StatelessWidget {
-  EnglishEntryamble({super.key});
+class EnglishEntrycarbonfootprint extends StatelessWidget {
+  // blank divider
+  EnglishEntrycarbonfootprint({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAmble(String languageCode) async {
-    // DOPSUM: CHANGE speakAmble
+  Future<void> speakcarbonfootprint(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carbon footprint"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAmble88544(String languageCode) async {
-    // DOPSUM: CHANGE speakAmble
+  Future<void> speakcarbonfootprints1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Mark ambled over to the girls."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Flying is the biggest contribution to my carbon footprint."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAmble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmble
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarbonfootprints2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints22"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAmble(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmble
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("amble"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarbonfootprints3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints33"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarbonfootprints13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonfootprint
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarbonfootprints1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -64,27 +149,22 @@ class EnglishEntryamble extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amble"), // Find /ˈæmbl/
-                            // divvviiider
+                            EntryTitle(word: "carbon footprint"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæmbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌkɑːbən ˈfʊtprɪnt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAmble("en-GB"),
+                              onPressed: () => speakcarbonfootprint("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæmbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌkɑːrbən ˈfʊtprɪnt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAmble("en-US"),
+                              onPressed: () => speakcarbonfootprint("en-US"),
                             ),
                           ],
                         ),
@@ -97,7 +177,7 @@ class EnglishEntryamble extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -111,59 +191,60 @@ class EnglishEntryamble extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھەنگاوی بەھێواشی، نەرمەھەنگاو، وێرغە، نەرمەڕەوت
-
-١. (کردار) ڕێکردن بەھێواشی"""),
+١. (ناو) ئەو ڕێژە لە دوانۆکسیدی کاربۆن کە کەسێک یان کۆمپانیایەک دەیکاتە بەرگەهەواوە"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "Mark ambled over to the girls."),
-                                    ExampleSentenceKurdish(
                                         text:
-                                            "مارک بەھێواشی چوو بۆ لای کچەکان."),
+                                            "Flying is the biggest contribution to my carbon footprint."),
+                                    ExampleSentenceKurdish(
+                                        text: "فڕین گەورەترین هۆکاری جێ‌پەنجەی کاربۆنی منە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "carbon footprint", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAmble88544("en-GB"),
+                                    onPressed: () => speakcarbonfootprints1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAmble88544(
-                                        // REPLACE: amble /ˈæmbl/
-                                        "en-US"),
+                                    onPressed: () => speakcarbonfootprints1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences()
-                          // const DividerDefinition()
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), // 
                         YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
+                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -219,12 +300,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: amble (derived forms: ambled, ambles, ambling)
-1. Walk leisurely (= mosey [informal], truck [informal])
-"Bobbie told Reggie she was going to amble over to the post office";
-
-- Noun: amble (derived forms: ambled, ambles, ambling)
-1. A leisurely walk (usually in some public place) (= promenade, saunter, stroll, perambulation)
+- Noun: carbon footprint
+1. The amount of carbon dioxide emissions caused by a person or organization, and hence their impact on global warming
 """,
   );
 
@@ -253,12 +330,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    startSeconds: 1892,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'x94BqWK1Ks4',
-    startSeconds: 450,
+    videoId: 'https://youtu.be/rsNskDfd5CM?t=',
+    startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -282,8 +384,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vb4CizX2Kj8',
-    startSeconds: 47,
+    videoId: 'https://youtu.be/L2gT8fbEq54?t=',
+    startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -307,8 +409,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'TcSpBAZvMhI',
-    startSeconds: 420,
+    videoId: 'https://youtu.be/o2dvXWX3Sdw?t=',
+    startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -332,8 +434,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '28d5-w6gyfo',
-    startSeconds: 275,
+    videoId: 'https://youtu.be/X1ncuW-bLsw?t=',
+    startSeconds: 3746,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -357,8 +459,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dATZsuPdOnM',
-    startSeconds: 130,
+    videoId: 'https://youtu.be/NOAgplgTxfc?t=',
+    startSeconds: 1015,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -382,8 +484,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '2oOa62-ElDg',
-    startSeconds: 158,
+    videoId: 'https://youtu.be/lBBj-K_qfIw?t=',
+    startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -407,8 +509,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'HSVUtNRNcS4',
-    startSeconds: 528,
+    videoId: 'https://youtu.be/YbYpbXMUsYM?t=',
+    startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -432,8 +534,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IhO1XlHVNUA',
-    startSeconds: 514,
+    videoId: 'https://youtu.be/JXxnEhD-25Q?t=',
+    startSeconds: 1123,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -457,8 +559,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'RcHsaufa8_8',
-    startSeconds: 668,
+    videoId: 'https://youtu.be/2Hko4TrWZYI?t=',
+    startSeconds: 918,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -472,8 +574,35 @@ class YoutubeEmbeddednine extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
+        child: YouTubeContainerDesignNew(controller: _controller),
       ),
     );
   }
 }
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/Vi7U6Cj_2aI?t=',
+    startSeconds: 88,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+// end WORD_WEB

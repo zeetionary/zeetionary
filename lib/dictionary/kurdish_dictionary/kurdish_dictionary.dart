@@ -354,12 +354,7 @@ class _DictionaryScreenKurdishState
               child: SizedBox(
                 height: 60,
                 child: TextField(
-                  enableInteractiveSelection: true,
-                  contextMenuBuilder: (context, state) =>
-                      AdaptiveTextSelectionToolbar(
-                    anchors: state.contextMenuAnchors,
-                    children: const [],
-                  ),
+                  enableInteractiveSelection: false,
                   controller: _searchController,
                   onChanged: filterResults,
                   decoration: InputDecoration(

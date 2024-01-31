@@ -155,7 +155,7 @@ class EnglishEntrybobbin extends StatelessWidget {
                                             "Wind the thread slowly and evenly onto the bobbin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەزووەکە بە ھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
+                                            "دەزووەکە بەھێواشی و یەکسانی بئاڵێنە لە قڕقڕەکە."),
                                   ],
                                 ),
                               ),

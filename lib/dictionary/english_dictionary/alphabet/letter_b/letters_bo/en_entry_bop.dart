@@ -206,7 +206,7 @@ class EnglishEntrybop extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (کردار) لێدان لە کەسێک بە ھێواشی"),
+                              text: "٣. (کردار) لێدان لە کەسێک بەھێواشی"),
                           Row(
                             children: [
                               const Expanded(

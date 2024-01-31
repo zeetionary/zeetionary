@@ -161,7 +161,7 @@ class EnglishEntrybirch extends StatelessWidget {
                                             "Birch branches swayed gently in the breeze."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لقەکانی دارە بێتولەکە بە ھێواشی سەمایان دەکرد لە کزە باکەدا."),
+                                            "لقەکانی دارە بێتولەکە بەھێواشی سەمایان دەکرد لە کزە باکەدا."),
                                   ],
                                 ),
                               ),

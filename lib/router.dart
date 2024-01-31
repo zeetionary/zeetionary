@@ -2437,13 +2437,13 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carafe.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_caramel.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carat.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_caravan.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbohydrate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_copy.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_dioxide.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_footprint.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_monoxide.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5983,13 +5983,13 @@ final loggedInRoute = RouteMap(routes: {
   "/english-carafe": (_) => MaterialPage(child: EnglishEntrycarafe()),
   "/english-caramel": (_) => MaterialPage(child: EnglishEntrycaramel()),
   "/english-carat": (_) => MaterialPage(child: EnglishEntrycarat()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-caravan": (_) => MaterialPage(child: EnglishEntrycaravan()),
+  "/english-carbohydrate": (_) => MaterialPage(child: EnglishEntrycarbohydrate()),
+  "/english-carbon": (_) => MaterialPage(child: EnglishEntrycarbon()),
+  "/english-carbon-copy": (_) => MaterialPage(child: EnglishEntrycarboncopy()),
+  "/english-carbon-dioxide": (_) => MaterialPage(child: EnglishEntrycarbondioxide()),
+  "/english-carbon-footprint": (_) => MaterialPage(child: EnglishEntrycarbonfootprint()),
+  "/english-carbon-monoxide": (_) => MaterialPage(child: EnglishEntrycarbonmonoxide()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

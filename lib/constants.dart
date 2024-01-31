@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart'; // Add this import for Clipboard
 import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
@@ -749,27 +750,32 @@ class AlsoEnglish extends ConsumerWidget {
 class IPAofEnglish extends ConsumerWidget {
   final String text;
 
-  // const IPAofEnglish({Key? key, required this.text}) : super(key: key);
   const IPAofEnglish({super.key, required this.text});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 3; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 3;
+
     return Container(
       // height: 16,
       constraints: const BoxConstraints(maxWidth: 300),
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      // padding: const EdgeInsets.all(8.0), // Add padding here
-      child: Text(
-        text,
-        style: TextStyle(
-          fontSize: textSize,
-          fontWeight: FontWeight.w400,
+      child: GestureDetector( // Wrap Text with GestureDetector
+        onLongPress: () {
+          Clipboard.setData(ClipboardData(text: text));
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Text copied to clipboard'),),
+          );
+        },
+        child: Text(
+          text,
+          style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
         ),
       ),
     );
   }
 }
+
 
 class IPAofEnglishtest extends ConsumerWidget {
   // Renamed to IPAofEnglishtest
@@ -801,42 +807,55 @@ class DefinitionKurdish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 2;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: Text(
-        text,
-        style: TextStyle(
-          fontSize: textSize,
-          fontWeight: FontWeight.w500,
+      child: GestureDetector( // Wrap Text with GestureDetector
+        onLongPress: () {
+          Clipboard.setData(ClipboardData(text: text));
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Text copied to clipboard')),
+          );
+        },
+        child: Text(
+          text,
+          style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w500),
+          textAlign: TextAlign.right,
+          textDirection: TextDirection.rtl,
         ),
-        textAlign: TextAlign.right,
-        textDirection: TextDirection.rtl,
       ),
     );
   }
 }
 
 class ExampleSentenceEnglish extends ConsumerWidget {
+  // (zee; text can be copied) https://bard.google.com/chat/590d23e62de86007
   final String text;
 
   const ExampleSentenceEnglish({super.key, required this.text});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 1; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 1;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: Align(
-        alignment: Alignment.topLeft,
-        child: Text(
-          text,
-          style: TextStyle(
-            fontSize: textSize,
-            fontWeight: FontWeight.w300,
+      child: GestureDetector( // Wrap Text with GestureDetector
+        onLongPress: () {
+          Clipboard.setData(ClipboardData(text: text));
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Text copied to clipboard')),
+          );
+        },
+        child: Align(
+          alignment: Alignment.topLeft,
+          child: Text(
+            text,
+            style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w300),
+            textDirection: TextDirection.ltr,
+            textAlign: TextAlign.left,
           ),
-          textDirection: TextDirection.ltr,
-          textAlign: TextAlign.left,
         ),
       ),
     );
@@ -850,20 +869,28 @@ class ExampleSentenceKurdish extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 1; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 1;
+
     return Align(
       alignment: Alignment.topRight,
-      child: Text(
-        text,
-        style: TextStyle(
-          fontSize: textSize,
+      child: GestureDetector( // Wrap Text with GestureDetector
+        onLongPress: () {
+          Clipboard.setData(ClipboardData(text: text));
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Text copied to clipboard')),
+          );
+        },
+        child: Text(
+          text,
+          style: TextStyle(fontSize: textSize),
+          textDirection: TextDirection.rtl,
+          textAlign: TextAlign.right,
         ),
-        textDirection: TextDirection.rtl,
-        textAlign: TextAlign.right,
       ),
     );
   }
 }
+
 
 // class CustomIconButtonBritish extends StatelessWidget {
 //   final VoidCallback? onPressed;
@@ -995,18 +1022,24 @@ class EnglishMeaningConst extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final textSize = ref.watch(textSizeProvider) + 2; // Get text size and add 3
+    final textSize = ref.watch(textSizeProvider) + 2;
+
     return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 4.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              text,
-              style: TextStyle(
-                fontSize: textSize,
-                fontWeight: FontWeight.w400,
+            GestureDetector(
+              onLongPress: () {
+                Clipboard.setData(ClipboardData(text: text));
+                ScaffoldMessenger.of(context).showSnackBar(
+                  const SnackBar(content: Text('Text copied to clipboard')),
+                );
+              },
+              child: Text(
+                text,
+                style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
               ),
             ),
           ],

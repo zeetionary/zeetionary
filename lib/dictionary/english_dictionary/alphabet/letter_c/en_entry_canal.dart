@@ -203,7 +203,7 @@ class EnglishEntrycanal extends StatelessWidget {
                                             "The barge moved slowly along the canal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکەمە بارھەڵگرەکە بە ھێواشی بە کەناڵەکەدا چوو."),
+                                            "بەکەمە بارھەڵگرەکە بەھێواشی بە کەناڵەکەدا چوو."),
                                   ],
                                 ),
                               ),

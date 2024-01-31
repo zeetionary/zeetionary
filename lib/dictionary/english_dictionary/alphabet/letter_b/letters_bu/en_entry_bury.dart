@@ -476,7 +476,7 @@ class EnglishEntrybury extends StatelessWidget {
                                             "He walked slowly, his hands buried in his pockets."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ھێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
+                                            "بەھێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
                                   ],
                                 ),
                               ),

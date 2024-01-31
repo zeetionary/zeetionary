@@ -211,7 +211,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "Bees buzzed lazily among the flowers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەنگ بە ھێواشی گیزەیان دەھات لەناو گوڵەکاندا."),
+                                            "ھەنگ بەھێواشی گیزەیان دەھات لەناو گوڵەکاندا."),
                                   ],
                                 ),
                               ),

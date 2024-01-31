@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycaramel extends StatelessWidget {
+class EnglishEntrycarat extends StatelessWidget {
   // blank divider
-  EnglishEntrycaramel({super.key});
+  EnglishEntrycarat({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcaramel(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarat(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("caramel"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carat"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels1(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The delightful aroma of caramel wafted through the kitchen."); // DOPSUM: CHANGE TEXT
+        "speakcarats111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels2(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels3(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels4(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels5(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels6(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels7(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels8(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels9(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels10(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels11(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels12(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaramels13(String languageCode) async {
-    // DOPSUM: CHANGE speakcaramel
+  Future<void> speakcarats13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaramels1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarats1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,23 +149,22 @@ class EnglishEntrycaramel extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "caramel"),
+                            EntryTitle(word: "carat"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkærəmel/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcaramel("en-GB"),
+                              onPressed: () => speakcarat("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text: "IpaUS: /ˈkærəml/,  /ˈkɑːrml/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcaramel("en-US"),
+                              onPressed: () => speakcarat("en-US"),
                             ),
                           ],
                         ),
@@ -192,7 +191,9 @@ class EnglishEntrycaramel extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) شیرینییەکی ڕەقی لینج کە لە کەرە و شەکر و شیر درووست دەکرێت"""),
+کوردی: 
+
+١. (ھاوەڵناو) پێنناسە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -200,21 +201,20 @@ class EnglishEntrycaramel extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The delightful aroma of caramel wafted through the kitchen."),
+                                            "speakcarats111111111111111111111111111111111"),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "بۆنی خۆشی کەرەمێلەکە بە چێشتخانەکەدا بڵاوبوویەوە."),
+                                        text: "رستە_رستە_رستە_رستە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "caramel", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "carat", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcaramels1("en-GB"),
+                                    onPressed: () => speakcarats1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcaramels1("en-US"),
+                                    onPressed: () => speakcarats1("en-US"),
                                   ),
                                 ],
                               ),
@@ -225,18 +225,18 @@ class EnglishEntrycaramel extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(),
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), //
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedone(),
+                        // YoutubeEmbeddedtwo(),
+                        // YoutubeEmbeddedthree(),
+                        // YoutubeEmbeddedfour(),
+                        // YoutubeEmbeddedfive(),
+                        // YoutubeEmbeddedsix(),
+                        // YoutubeEmbeddedseven(),
+                        // YoutubeEmbeddedeight(), // speakcarats111111111111111111111111111111111
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -302,15 +302,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caramel (Derived forms: caramels)
-1. Firm chewy candy made from caramelized sugar and butter and milk
- 
-2. Burnt sugar; used to colour and flavour food (= caramelized sugar, caramelised sugar [Brit])
- 
-3. A medium to dark tan colour (= yellowish brown, raw sienna, buff, caramel brown)
 
-- Adjective: caramel 
-1. Having the colour of caramel; of a moderate yellow-brown (= caramel brown)
+WORD_WEB
+carat
+WORD_WEB 
+haʊʊʊʊʊʊʊ4
+WORD_WEB
 """,
   );
 
@@ -343,8 +340,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GMX9BboUnOo',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -368,8 +365,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5qhY7mhw30g?t=',
-    startSeconds: 7,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -393,8 +390,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xd9ch6GD_AE?t=',
-    startSeconds: 34,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -418,8 +415,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dZ0Ic9EMdK0',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -443,8 +440,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
-    startSeconds: 1008,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -468,8 +465,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
-    startSeconds: 539,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -493,8 +490,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
-    startSeconds: 1712,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -518,8 +515,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iKv4oc2zbeA?t=',
-    startSeconds: 70,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -543,8 +540,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9uFpws53Tyk?t=',
-    startSeconds: 247,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -568,8 +565,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BPYivm414_8',
-    // startSeconds: 222222222222222,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -593,8 +590,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SqQyiUeJsxw?t=',
-    startSeconds: 6,
+    videoId: 'PUT_VID',
+    startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

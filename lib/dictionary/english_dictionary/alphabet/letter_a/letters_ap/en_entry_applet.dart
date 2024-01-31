@@ -154,7 +154,8 @@ class EnglishEntryapplet extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text("""
+                          DividerDefinition(),
+                          DefinitionKurdish(text: """
 ١. (ناو) پڕۆگرامێک کە لەناو یەکێکی تردا کاردەکات، بۆ نموونە پڕۆگرامێک کە لەناو گەڕانچییەک، بۆ نموونە کرۆم، کاربکات"""),
                         ],
                       ),

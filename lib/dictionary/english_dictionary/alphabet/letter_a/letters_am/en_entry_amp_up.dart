@@ -164,7 +164,7 @@ class EnglishEntryampup extends StatelessWidget {
                                             "He knew exactly when to amp the music up."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆرباش دەیزانی کەی دەنگی میوزیککە زیادبکات."),
+                                            "زۆرباش دەیزانی کەی دەنگی میوزیکەکە زیادبکات."),
                                   ],
                                 ),
                               ),

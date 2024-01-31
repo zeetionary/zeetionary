@@ -261,7 +261,7 @@ class EnglishEntrycapitulate extends StatelessWidget {
                                             "The town capitulated after a three-week siege."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارۆچکەکە لە دوای گەماۆیەکی سێ هەفتەیی خۆی ڕادەستکرد."),
+                                            "شارۆچکەکە لە دوای گەمارۆیەکی سێ هەفتەیی خۆی ڕادەستکرد."),
                                   ],
                                 ),
                               ),
@@ -292,7 +292,7 @@ class EnglishEntrycapitulate extends StatelessWidget {
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -304,6 +304,7 @@ class EnglishEntrycapitulate extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -615,8 +616,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
     videoId: 'https://youtu.be/JGf41TAFvTw?t=',

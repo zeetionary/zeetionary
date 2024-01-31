@@ -151,7 +151,8 @@ class EnglishEntrybackbencher extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text("""
+                          DividerDefinition(),
+                          DefinitionKurdish(text: """
 ١. (ناو) لە پەرلەماندا، کەسێکە کە لە پشتەوە دادەنیشێت و ڕۆڵێکی گرنگی نییە لە حکومەت یان ئۆپۆزسیۆندا"""),
                         ],
                       ),

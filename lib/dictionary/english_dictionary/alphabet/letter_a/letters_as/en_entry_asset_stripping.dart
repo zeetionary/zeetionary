@@ -158,7 +158,8 @@ class EnglishEntryassetstripping extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text("""
+                          DividerDefinition(),
+                          DefinitionKurdish(text: """
 ١. (ناو) کڕینی کۆمپانیایەک لە کاتی قەیراناویدا بە مەبەستی دواتر فرۆشتنی و قازانج‌کردن لێی"""),
                         ],
                       ),

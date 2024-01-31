@@ -3,72 +3,135 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryaltogether - replace speakAltogether - replace altogether - /ˌɔːltəˈɡeðə(r)/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryaltogether extends StatelessWidget {
-  EnglishEntryaltogether({super.key});
+class EnglishEntrycaptain extends StatelessWidget {
+  // blank divider
+  EnglishEntrycaptain({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltogether(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
+  Future<void> speakcaptain(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("captain"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether588(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The train went slower and slower until it stopped altogether."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAltogether45666(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
+  Future<void> speakcaptains1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was an altogether different situation."); // DOPSUM: CHANGE TEXT
+        "The captain gave the order to abandon ship."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether523333(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You owe me £68 altogether."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAltogether4144(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
+  Future<void> speakcaptains2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The food was good and we loved the music. Altogether it was a great evening."); // DOPSUM: CHANGE TEXT
+        "The captain of the plane announced our arrival."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltogether(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltogether
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcaptains3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She has since been promoted to the rank of captain."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAltogether(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltogether
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcaptains4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She's a former captain of the English national team."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "She will captain England on their match against Australia."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptains13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptain
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptains1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -90,27 +153,22 @@ class EnglishEntryaltogether extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "altogether"), // Find /ˌɔːltəˈɡeðə(r)/
+                            EntryTitle(word: "captain"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːltəˈɡeðə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkæptɪn/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltogether("en-GB"),
+                              onPressed: () => speakcaptain("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːltəˈɡeðər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈkæptɪn/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltogether("en-US"),
+                              onPressed: () => speakcaptain("en-US"),
                             ),
                           ],
                         ),
@@ -123,7 +181,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -137,9 +195,9 @@ class EnglishEntryaltogether extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەرجەم، تێکڕا، ھەمەبەھەم، لە ھەموو لایەکەوە، لەسەریەک، بەتەواوەتی
+کوردی: سەرکردە، فەرماندەر، سەردەستە، سەرتیپ، سەرتیم (تیمێکی وەرزشی)، ڕێبەر، سەرۆک، کاپیتان، کەشتیوان، خەفتان، فڕۆکەوان، ئەفسەرێ لە هێزی دەریایی بریتانیا، لە نێوان commander و admiral دا، ئەفسەرێ لە ئەرتەشی بریتانیا لە نێوان lieutenant و major دا
 
-١. (ھاوەڵکار) بە تەواوی؛ ھەموو پێکەوە"""),
+١. (ناو) کەسێک کە بەڕێوبەری کەشتییەک یان فڕۆکەیەکە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -147,24 +205,21 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The train went slower and slower until it stopped altogether."),
+                                            "The captain gave the order to abandon ship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
+                                            "کاپتنەکە فەرمانی جیهێشتنی کەشتییەکەی دەرکرد."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captain", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether588("en-GB"),
+                                    onPressed: () => speakcaptains1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether588(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
+                                    onPressed: () => speakcaptains1("en-US"),
                                   ),
                                 ],
                               ),
@@ -178,10 +233,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It was an altogether different situation."),
+                                            "The captain of the plane announced our arrival."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە تەواوی بارودۆخێکی گونجاو بوو."),
+                                            "کاپتنی فڕۆکەکە گەشتنمانی ڕاگەیاند."),
                                   ],
                                 ),
                               ),
@@ -189,52 +244,19 @@ class EnglishEntryaltogether extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether45666("en-GB"),
+                                    onPressed: () => speakcaptains2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether45666(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
+                                    onPressed: () => speakcaptains2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) کۆی گشتی"""),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "You owe me £68 altogether."),
-                                    ExampleSentenceKurdish(
-                                        text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether523333("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether523333(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵکار) بەکورتی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ئەفسەرێکی تا ڕادەیەک پلە بەرز لە هێزی دەریایی، ئاسمانی، و سوپای ئەمریکادا"),
                           Row(
                             children: [
                               const Expanded(
@@ -242,10 +264,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The food was good and we loved the music. Altogether it was a great evening."),
+                                            "She has since been promoted to the rank of captain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خواردنەکە باش بوو. حەزیشمان بە میوزیکەکە بوو. بەکورتی، شەوێکی خۆش بوو."),
+                                            "پلەی لەوکاتەوە بەرزکراوەتەوە بۆ پلەی کاپتن."),
                                   ],
                                 ),
                               ),
@@ -253,13 +275,71 @@ class EnglishEntryaltogether extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether4144("en-GB"),
+                                    onPressed: () => speakcaptains3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether4144(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
+                                    onPressed: () => speakcaptains3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) سەرکردەی کۆمەڵە کەسێک، بەتایبەتی تیمێکی وەرزشی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She's a former captain of the English national team."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کاپتنی پێشووتری هەڵبژاردەی نیشتیمانیی ئینگلتەرەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaptains4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaptains4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (کردار) هەڵگری پۆستی کاپتنی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She will captain England on their match against Australia."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕابەرایەتی ئینگلتەرە دەکات لە یارییەکەیان دژ بە ئوسترالیا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaptains5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaptains5("en-US"),
                                   ),
                                 ],
                               ),
@@ -270,21 +350,28 @@ class EnglishEntryaltogether extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
+                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -340,20 +427,28 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: altogether 
-1. To a complete degree or to the full or entire extent; Completely or entirely (= wholly, entirely, completely, totally, all, whole, right, totes [informal])
-"it was not altogether her fault"; "an altogether new approach";
+- Noun: captain (Derived forms: captains, captaining, captained)
+1. (military) an officer holding a rank below a major but above a lieutenant
  
-2. With everything included or counted (= all told, in all)
-"altogether he earns close to a million dollars";
+2. (military) the naval officer in command of a military ship (= skipper)
  
-3. With everything considered (and neglecting details) (= all in all, on the whole, tout ensemble)
-"altogether, I'm sorry it happened";
+3. A policeman in charge of a precinct (= police captain, police chief)
+ 
+4. An officer who is licensed to command a merchant ship (= master, sea captain, skipper)
+ 
+5. The leader of a group of people (= chieftain)
+"a captain of industry";
+ 
+6. The pilot in charge of an airship (= senior pilot)
+ 
+7. A dining-room attendant who is in charge of the waiters and the seating of customers (= headwaiter, maitre d'hotel, maitre d')
+ 
+8. The player who is leader of a sports team
 
-- Noun: altogether (derived forms: altogethers)
-Usage: informal
-1. The state of being without clothing or covering of any kind (= nakedness, nudity, nudeness, raw [informal], birthday suit [informal])
-"in the altogether";
+- Verb: captain 
+1. Be the captain of a sports team
+ 
+2. To exercise command of a ship, aircraft, etc.
 """,
   );
 
@@ -382,12 +477,37 @@ Usage: informal
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/ZnrmUnBZmkg?t=',
+    startSeconds: 151,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hFZFjoX2cGg',
-    startSeconds: 849,
+    videoId: 'https://youtu.be/1f013gyb604?t=',
+    startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -411,8 +531,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IqsLnLiASmA',
-    startSeconds: 474,
+    videoId: 'https://youtu.be/Tbzb36osmfM?t=',
+    startSeconds: 190,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -436,8 +556,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lex6USTugUU',
-    startSeconds: 1017,
+    videoId: 'https://youtu.be/LIn8jwTAJpg?t=',
+    startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -461,8 +581,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kTaYet07Ioo',
-    startSeconds: 55,
+    videoId: 'https://youtu.be/-L7o6HtX8Vg?t=',
+    startSeconds: 1166,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -486,8 +606,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6QgR6Tjle7g',
-    startSeconds: 237,
+    videoId: 'https://youtu.be/mY3SEMTROas?t=',
+    startSeconds: 1658,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -511,8 +631,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-7bIDbaU_zQ',
-    startSeconds: 311,
+    videoId: 'https://youtu.be/9TugA_z5vQE?t=',
+    startSeconds: 1151,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +656,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GIJ_olY4BnE',
-    startSeconds: 580,
+    videoId: 'https://youtu.be/6DK0yrF_ffU?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -561,8 +681,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VVsdb90aOmA',
-    startSeconds: 1560,
+    videoId: 'https://youtu.be/kmvmL4Zm7Nc?t=',
+    startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -586,8 +706,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3n99jqOdeSw',
-    startSeconds: 923,
+    videoId: 'https://youtu.be/8W65jKS-S5o?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -606,3 +726,30 @@ class YoutubeEmbeddednine extends StatelessWidget {
     );
   }
 }
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/CgE7XcB-ZgU?t=',
+    startSeconds: 41,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+// end WORD_WEB

@@ -225,12 +225,12 @@ class EnglishEntrydopsum1 extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(),
+                        // YoutubeEmbeddedone(),
                         // YoutubeEmbeddedtwo(),
                         // YoutubeEmbeddedthree(),
                         // YoutubeEmbeddedfour(),
                         // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        // YoutubeEmbeddedsix(),
                         // YoutubeEmbeddedseven(),
                         // YoutubeEmbeddedeight(), // speakdopsum1s111111111111111111111111111111111
                         // YoutubeEmbeddednine(),

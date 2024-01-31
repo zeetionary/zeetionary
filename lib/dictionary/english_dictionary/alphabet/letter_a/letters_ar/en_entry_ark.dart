@@ -154,7 +154,8 @@ class EnglishEntryark extends StatelessWidget {
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.end,
                         children: [
-                          Text("""
+                          DividerDefinition(),
+                          DefinitionKurdish(text: """
 کوردی: (لە ئینجیلدا) کەشتی نووح، سنووق، دارەمەیت، داڵدە، پەنا
 
 ١. (ناو) کەشتییەکی گەورە کە پێغەمبەر نوح درووستی‌کرد بۆ ڕزگارکردنی شوێنکەوتووانی و جووتێک لە ھەر ئاژەڵێک"""),

@@ -3,72 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryaltogether - replace speakAltogether - replace altogether - /ˌɔːltəˈɡeðə(r)/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryaltogether extends StatelessWidget {
-  EnglishEntryaltogether({super.key});
+class EnglishEntrycapsule extends StatelessWidget {
+  // blank divider
+  EnglishEntrycapsule({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAltogether(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
+  Future<void> speakcapsule(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("capsule"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether588(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The train went slower and slower until it stopped altogether."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAltogether45666(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
+  Future<void> speakcapsules1(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "It was an altogether different situation."); // DOPSUM: CHANGE TEXT
+        "The medicine can be taken in tablet or capsule form."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAltogether523333(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("You owe me £68 altogether."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAltogether4144(String languageCode) async {
-    // DOPSUM: CHANGE speakAltogether
+  Future<void> speakcapsules2(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The food was good and we loved the music. Altogether it was a great evening."); // DOPSUM: CHANGE TEXT
+        "To avoid capture, he swallowed a cyanide capsule."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAltogether(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltogether
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcapsules3(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "The astronauts blasted off to Mars in their protective capsule."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakAltogether(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAltogether
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("altogether"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcapsules4(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules5(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules6(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules7(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules8(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules9(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules10(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules11(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules12(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcapsules13(String languageCode) async {
+    // DOPSUM: CHANGE speakcapsule
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcapsules1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -90,27 +151,23 @@ class EnglishEntryaltogether extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "altogether"), // Find /ˌɔːltəˈɡeðə(r)/
+                            EntryTitle(word: "capsule"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːltəˈɡeðə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkæpsjuːl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAltogether("en-GB"),
+                              onPressed: () => speakcapsule("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːltəˈɡeðər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˈkæpsl/,  /ˈkæpsuːl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAltogether("en-US"),
+                              onPressed: () => speakcapsule("en-US"),
                             ),
                           ],
                         ),
@@ -123,7 +180,7 @@ class EnglishEntryaltogether extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -137,9 +194,9 @@ class EnglishEntryaltogether extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەرجەم، تێکڕا، ھەمەبەھەم، لە ھەموو لایەکەوە، لەسەریەک، بەتەواوەتی
+کوردی: کەپسول، دەرمان‌پۆش، قاوغەدەرمان، گولاج، کەپسوولی بۆشایی یان کەشتی ئاسمانی، کورتە، پوختە، کەلوو، بەرگەتۆو، تۆوپۆش، قاپیلک، قاوغە، توودانک، تووپۆش
 
-١. (ھاوەڵکار) بە تەواوی؛ ھەموو پێکەوە"""),
+١. (ناو) هەڵگرێکی بچووک کە ڕێژەیەکی دیاریکراو لە دەرمانی تێدایە و دەبێت بە شلە کە قوتی دەدەیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -147,72 +204,41 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The train went slower and slower until it stopped altogether."),
+                                            "The medicine can be taken in tablet or capsule form."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەمەندەفەرەکە ھێواشتر و ھێواشتر چوو تا بە تەواوی وەستا."),
+                                            "دەرمانەکە دەکرێت وەک حەب یان کاپسوول بخوردرێت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "capsule", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether588("en-GB"),
+                                    onPressed: () => speakcapsules1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether588(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "It was an altogether different situation."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "بە تەواوی بارودۆخێکی گونجاو بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether45666("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether45666(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
+                                    onPressed: () => speakcapsules1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵکار) کۆی گشتی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) هەڵگرێکی بچووکی پلاستیکی کە مادەیەک یان شلەی تێدایە"),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "You owe me £68 altogether."),
+                                        text:
+                                            "To avoid capture, he swallowed a cyanide capsule."),
                                     ExampleSentenceKurdish(
-                                        text: "کۆی گشتی ٦٨ پاوەند قەرزارمی."),
+                                        text:
+                                            "بۆ ئەوەی دەستگیرنەکرێت کاپسوولێک لە سیانیدی خوارد."),
                                   ],
                                 ),
                               ),
@@ -220,21 +246,19 @@ class EnglishEntryaltogether extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether523333("en-GB"),
+                                    onPressed: () => speakcapsules2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether523333(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
+                                    onPressed: () => speakcapsules2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵکار) بەکورتی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) بەشێکی کەشتی ئاسمانی کە سەرنشینەکانی تێدایە و جیاکراوەتەوە لە بەشی سەرەکیی کەشتییەکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -242,10 +266,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The food was good and we loved the music. Altogether it was a great evening."),
+                                            "The astronauts blasted off to Mars in their protective capsule."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خواردنەکە باش بوو. حەزیشمان بە میوزیکەکە بوو. بەکورتی، شەوێکی خۆش بوو."),
+                                            "ئاسمانەوانەکان فڕین بەرەو مەریخ لە کاپسوولە پارێزەرەکەیان."),
                                   ],
                                 ),
                               ),
@@ -253,13 +277,10 @@ class EnglishEntryaltogether extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakAltogether4144("en-GB"),
+                                    onPressed: () => speakcapsules3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAltogether4144(
-                                        // REPLACE: altogether /ˌɔːltəˈɡeðər/
-                                        "en-US"),
+                                    onPressed: () => speakcapsules3("en-US"),
                                   ),
                                 ],
                               ),
@@ -270,21 +291,28 @@ class EnglishEntryaltogether extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
+                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -340,20 +368,25 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: altogether 
-1. To a complete degree or to the full or entire extent; Completely or entirely (= wholly, entirely, completely, totally, all, whole, right, totes [informal])
-"it was not altogether her fault"; "an altogether new approach";
+- Noun: capsule (Derived forms: capsules)
+1. A small container
  
-2. With everything included or counted (= all told, in all)
-"altogether he earns close to a million dollars";
+2. A pill in the form of a small rounded gelatinous container with medicine inside
  
-3. With everything considered (and neglecting details) (= all in all, on the whole, tout ensemble)
-"altogether, I'm sorry it happened";
+3. A dry dehiscent seed vessel or the spore-containing structure of e.g. mosses
+ 
+4. A shortened version of a written work (= condensation, abridgement, abridgment)
+ 
+5. A structure that encloses a body part
+ 
+6. A spacecraft designed to transport people and support human life in outer space (= space capsule)
+ 
+7. A pilot's seat in an aeroplane that can be forcibly ejected in the case of an emergency; then the pilot descends by parachute (= ejection seat [N. Amer], ejector seat [Brit])
 
-- Noun: altogether (derived forms: altogethers)
-Usage: informal
-1. The state of being without clothing or covering of any kind (= nakedness, nudity, nudeness, raw [informal], birthday suit [informal])
-"in the altogether";
+- Verb: capsule (Derived forms: capsuled, capsules, capsuling) 
+1. Enclose in a capsule (= capsulate, capsulize, capsulise [Brit])
+ 
+2. Put in a short or concise form; reduce in volume (= encapsulate, capsulize, capsulise [Brit])
 """,
   );
 
@@ -382,12 +415,37 @@ Usage: informal
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/4cBocz4j3Ak?t=',
+    startSeconds: 137,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hFZFjoX2cGg',
-    startSeconds: 849,
+    videoId: 'https://youtu.be/dHMBvJt74gc?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -411,8 +469,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'IqsLnLiASmA',
-    startSeconds: 474,
+    videoId: 'https://youtu.be/0cyhUr404X4?t=',
+    startSeconds: 61,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -436,8 +494,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'lex6USTugUU',
-    startSeconds: 1017,
+    videoId: 'https://youtu.be/4cqJLUB2e2w?t=',
+    startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -461,8 +519,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'kTaYet07Ioo',
-    startSeconds: 55,
+    videoId: 'https://youtu.be/t0MVqBbOIss?t=',
+    startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -486,8 +544,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '6QgR6Tjle7g',
-    startSeconds: 237,
+    videoId: 'https://youtu.be/XaREMyr5ccg?t=',
+    startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -511,8 +569,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '-7bIDbaU_zQ',
-    startSeconds: 311,
+    videoId: 'https://youtu.be/usZv74Airxs?t=',
+    startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,8 +594,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GIJ_olY4BnE',
-    startSeconds: 580,
+    videoId: 'https://youtu.be/6Hqo7SonJVI?t=',
+    startSeconds: 720,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -561,8 +619,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'VVsdb90aOmA',
-    startSeconds: 1560,
+    videoId: 'https://youtu.be/-1O7pK367X0?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -586,8 +644,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3n99jqOdeSw',
-    startSeconds: 923,
+    videoId: 'https://youtu.be/x2_g26K1Ar0?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -606,3 +664,30 @@ class YoutubeEmbeddednine extends StatelessWidget {
     );
   }
 }
+
+class YoutubeEmbeddedten extends StatelessWidget {
+  YoutubeEmbeddedten({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/nHi0KNLUw5Q?t=',
+    startSeconds: 60,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignNew(controller: _controller),
+      ),
+    );
+  }
+}
+
+// end WORD_WEB

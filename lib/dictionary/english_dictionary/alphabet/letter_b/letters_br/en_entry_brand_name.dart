@@ -105,7 +105,7 @@ class EnglishEntrybrandname extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(word: "also: brand name"),
+                            AlsoEnglish(word: "also: trade name"),
                           ],
                         ),
                         Row(

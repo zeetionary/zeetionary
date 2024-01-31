@@ -154,7 +154,7 @@ class EnglishEntrycarat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkærət/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcarat("en-GB"),
                             ),
@@ -162,7 +162,7 @@ class EnglishEntrycarat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkærət/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcarat("en-US"),
                             ),
@@ -302,12 +302,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-WORD_WEB
-carat
-WORD_WEB 
-haʊʊʊʊʊʊʊ4
-WORD_WEB
+- Noun: carat (Derived forms: carats)
+1. The unit of measurement for the proportion of gold in an alloy; 18-carat gold is 75% gold; 24-carat gold is pure gold (= karat [N. Amer], kt)
+ 
+2. A unit of weight for precious stones = 200 mg
 """,
   );
 

@@ -156,7 +156,7 @@ class EnglishEntrybudgerigar extends StatelessWidget {
                                             "The colorful budgerigar chirped merrily."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەهات."),
+                                            "بەجییە ڕەنگینەکە بەدڵخۆشییەوە جریوەی دەھات."),
                                   ],
                                 ),
                               ),

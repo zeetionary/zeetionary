@@ -154,7 +154,7 @@ class EnglishEntrycarpark extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkɑː pɑːk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcarpark("en-GB"),
                             ),
@@ -162,7 +162,7 @@ class EnglishEntrycarpark extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːr pɑːrk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcarpark("en-US"),
                             ),
@@ -204,7 +204,7 @@ class EnglishEntrycarpark extends StatelessWidget {
                                             "The multilevel car park near the shopping center accommodates hundreds of cars."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەراجە چەند نهۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە."),
+                                            "گەراجە چەند نھۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە."),
                                   ],
                                 ),
                               ),

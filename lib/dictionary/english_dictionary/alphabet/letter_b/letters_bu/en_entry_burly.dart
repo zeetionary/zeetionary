@@ -188,9 +188,9 @@ class EnglishEntryburly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: زەبەلاح، زەبەرلاح، زلە، کەتە، زەلام، قەڵافەت‌دار، هەیکەلی، بەخۆوە، دووباد، بەهێز، زل و قورس، بەشان‌وپیل
+کوردی: زەبەلاح، زەبەرلاح، زلە، کەتە، زەلام، قەڵافەت‌دار، ھەیکەلی، بەخۆوە، دووباد، بەھێز، زل و قورس، بەشان‌وپیل
 
-١. (ناو) گەورە و بەهێز"""),
+١. (ناو) گەورە و بەھێز"""),
                           Row(
                             children: [
                               const Expanded(

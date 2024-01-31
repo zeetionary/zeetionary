@@ -228,7 +228,7 @@ class EnglishEntrycalorie extends StatelessWidget {
                                             "A fried egg contains about 100 calories—about the same as you would burn off if you ran a mile."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێلکەیەکی برژاو بە نزیکەیی ١٠٠٠ کالۆری تێدایە، بەنزیکەیی هەمان ئەو ڕێژەی دەیسووتێنی ئەگەر یەک میل ڕابکەیت."),
+                                            "ھێلکەیەکی برژاو بە نزیکەیی ١٠٠٠ کالۆری تێدایە، بەنزیکەیی ھەمان ئەو ڕێژەی دەیسووتێنی ئەگەر یەک میل ڕابکەیت."),
                                   ],
                                 ),
                               ),

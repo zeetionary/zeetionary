@@ -421,7 +421,7 @@ class EnglishEntryburn extends StatelessWidget {
                                                     "The fire was still burning fiercely."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئاگرەکە هێشتا بە تاوەوە دەگڕیا."),
+                                                    "ئاگرەکە ھێشتا بە تاوەوە دەگڕیا."),
                                           ],
                                         ),
                                       ),
@@ -610,7 +610,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "Ten people burned to death in the hotel fire."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دە کەس مردن لە ئاگری هوتێلەکەدا."),
+                                            "دە کەس مردن لە ئاگری ھوتێلەکەدا."),
                                   ],
                                 ),
                               ),
@@ -736,7 +736,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "Some people burn calories (= use food to produce energy) faster than others."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) هەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن."),
+                                            "(بەکارھێنانی خوازراوی) ھەندێک کەس کالۆری زیاتر لە کەسانی دیکە دەسووتێنن."),
                                   ],
                                 ),
                               ),
@@ -756,7 +756,7 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) سووتاندنی خۆراک بەهۆی زۆر گەرمکردن"),
+                                  "٥. (کردار) سووتاندنی خۆراک بەھۆی زۆر گەرمکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -813,7 +813,7 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) بریندار بوون یان زیان پێگەشتن بە خۆر، گەرمی، ئەسید، هتد"),
+                                  "٦. (کردار) بریندار بوون یان زیان پێگەشتن بە خۆر، گەرمی، ئەسید، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -949,7 +949,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "Your forehead's burning. Have you got a fever?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوچاوانت گڕی گرتووە. تات هەیە؟."),
+                                            "ناوچاوانت گڕی گرتووە. تات ھەیە؟."),
                                   ],
                                 ),
                               ),
@@ -977,7 +977,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "Our eyes were burning from the chemicals in the air."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوەکانمان بە ئازار بوون بەهۆی مادە کیمیاییەکانی ناو هەوا."),
+                                            "چاوەکانمان بە ئازار بوون بەھۆی مادە کیمیاییەکانی ناو ھەوا."),
                                   ],
                                 ),
                               ),
@@ -1007,7 +1007,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "Their torches burned brightly in the dark."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لایتەکان بە درەوشاوەیی هەڵکردبوو لە تاریکییەکەدا."),
+                                            "لایتەکان بە درەوشاوەیی ھەڵکردبوو لە تاریکییەکەدا."),
                                   ],
                                 ),
                               ),
@@ -1027,7 +1027,7 @@ class EnglishEntryburn extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (کردار) هەستکردن بە هەست و ئارەزوویەکی بەهێز"),
+                                  "٩. (کردار) ھەستکردن بە ھەست و ئارەزوویەکی بەھێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -1038,7 +1038,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "She could sense the anger burning slowly inside him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا."),
+                                            "ھەستی بە تووڕەییەکەی دەکرد کە تاوی سەندبوو لە ناخیدا."),
                                   ],
                                 ),
                               ),
@@ -1068,7 +1068,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "The car was burning down the road."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکەی گڤەی دەهات بە ڕێگاکەدا."),
+                                            "ئۆتۆمبێلەکەی گڤەی دەھات بە ڕێگاکەدا."),
                                   ],
                                 ),
                               ),
@@ -1127,7 +1127,7 @@ class EnglishEntryburn extends StatelessWidget {
                                             "The state has already burned through its cash reserves."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ویلایەتەکە دەمێک دەبێت هەموو پارەی کاشی یەدەگی بەکارهێناوە."),
+                                            "ویلایەتەکە دەمێک دەبێت ھەموو پارەی کاشی یەدەگی بەکارھێناوە."),
                                   ],
                                 ),
                               ),

@@ -143,7 +143,7 @@ class EnglishEntrybuff extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەپەرۆش، تامەزرۆ، هۆگر، لایەنگر
+کوردی: بەپەرۆش، تامەزرۆ، ھۆگر، لایەنگر
 
 ١. (ناو) کەسێک کە زۆری حەز بە بابەتێکە و زۆری لەسەر دەزانێت"""),
                           Row(
@@ -156,7 +156,7 @@ class EnglishEntrybuff extends StatelessWidget {
                                             "They were a group of computer buffs who used to meet every Thursday evening."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک تامەزرۆی کۆمپیوتەر هەبوون کە هەموو شەوانی پێنجشەممەیەک یەکیان دەدی."),
+                                            "ژمارەیەک تامەزرۆی کۆمپیوتەر ھەبوون کە ھەموو شەوانی پێنجشەممەیەک یەکیان دەدی."),
                                   ],
                                 ),
                               ),
@@ -185,7 +185,7 @@ class EnglishEntrybuff extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "Is it available in buff?"),
                                     ExampleSentenceKurdish(
-                                        text: "بە ڕەنگی بێجی هەیە؟"),
+                                        text: "بە ڕەنگی بێجی ھەیە؟"),
                                   ],
                                 ),
                               ),
@@ -205,7 +205,7 @@ class EnglishEntrybuff extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) زیادبوونی توانای کارەکتەرێک، چەکێک، هتد"),
+                                  "٣. (ناو) زیادبوونی توانای کارەکتەرێک، چەکێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -216,7 +216,7 @@ class EnglishEntrybuff extends StatelessWidget {
                                             "Some weapons will receive buffs in the next update."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک لە چەکەکان هێز وەردەگرن لە نوێکردنوەی دواتردا."),
+                                            "ھەندێک لە چەکەکان ھێز وەردەگرن لە نوێکردنوەی دواتردا."),
                                   ],
                                 ),
                               ),

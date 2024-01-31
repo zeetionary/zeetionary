@@ -229,7 +229,7 @@ class EnglishEntrybus extends StatelessWidget {
                                             "I didn't want to get on the wrong bus."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەمدەویست بچمە ناو پاسێکی هەڵە."),
+                                            "نەمدەویست بچمە ناو پاسێکی ھەڵە."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrybus extends StatelessWidget {
                                             "We were bussed from the airport to our hotel."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە فڕۆکەخانەکەوە گواستراینەوە بۆ هوتێلەکەوە."),
+                                            "لە فڕۆکەخانەکەوە گواستراینەوە بۆ ھوتێلەکەوە."),
                                   ],
                                 ),
                               ),

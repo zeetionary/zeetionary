@@ -202,7 +202,7 @@ class EnglishEntrycalliper extends StatelessWidget {
                                             "The engineer used a calliper to precisely measure the width of the metal rod."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندازیارەکە پەڕگارێکی بەکارهێنا بۆ پێوانی پانی چڵە ئاسنەکە."),
+                                            "ئەندازیارەکە پەڕگارێکی بەکارھێنا بۆ پێوانی پانی چڵە ئاسنەکە."),
                                   ],
                                 ),
                               ),

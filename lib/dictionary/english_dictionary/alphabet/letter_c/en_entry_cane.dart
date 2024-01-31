@@ -255,7 +255,7 @@ class EnglishEntrycane extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) دارێک کە بەکاردەهات بۆ لێدانی خوێندکار لە قوتابخانە"),
+                                  "٣. (ناو) دارێک کە بەکاردەھات بۆ لێدانی خوێندکار لە قوتابخانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,7 +266,7 @@ class EnglishEntrycane extends StatelessWidget {
                                             "Misbehaving students would often fear the consequences of getting the cane from the headmaster."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خوێندکارە هاروهاجەکان زۆرجار دەترسان لە کوتەککاری خواردن لە بەڕێوبەرەکەوە."),
+                                            "خوێندکارە ھاروھاجەکان زۆرجار دەترسان لە کوتەککاری خواردن لە بەڕێوبەرەکەوە."),
                                   ],
                                 ),
                               ),

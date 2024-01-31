@@ -155,7 +155,7 @@ class EnglishEntrybuiltin extends StatelessWidget {
                                             "Both bedrooms have built-in wardrobes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان هەیە."),
+                                            "ھەردوو ژووری نووستنەکە دۆڵابی جلوبەرگی خۆیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -183,7 +183,7 @@ class EnglishEntrybuiltin extends StatelessWidget {
                                             "The device has a built-in microphone and speakers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامێرەکە مایکرۆفۆن و بڵندگۆی ناوەکی خۆی هەیە."),
+                                            "ئامێرەکە مایکرۆفۆن و بڵندگۆی ناوەکی خۆی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -214,7 +214,7 @@ class EnglishEntrybuiltin extends StatelessWidget {
                                             "The system has a built-in resistance to change."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سیستەمەکە خۆڕاگرییەکی خودایی هەیە بەرامبەر گۆڕان."),
+                                            "سیستەمەکە خۆڕاگرییەکی خودایی ھەیە بەرامبەر گۆڕان."),
                                   ],
                                 ),
                               ),

@@ -266,7 +266,7 @@ class EnglishEntrybusy extends StatelessWidget {
                                             "They were busy enjoying themselves at the party."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرقاڵبوون بە چێژوەرگرتن لە ئاهەنگەکە."),
+                                            "سەرقاڵبوون بە چێژوەرگرتن لە ئاھەنگەکە."),
                                   ],
                                 ),
                               ),
@@ -347,7 +347,7 @@ class EnglishEntrybusy extends StatelessWidget {
                                         text:
                                             "We've got a busy week ahead of us."),
                                     ExampleSentenceKurdish(
-                                        text: "هەفتەیەکی پڕجم‌وجۆڵمان لەپێشە."),
+                                        text: "ھەفتەیەکی پڕجم‌وجۆڵمان لەپێشە."),
                                   ],
                                 ),
                               ),
@@ -367,7 +367,7 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ھاوەڵناو) شوێنێک کە پڕ لە چالاکی، خەڵک، ئۆتۆمبێل، هتد"),
+                                  "٤. (ھاوەڵناو) شوێنێک کە پڕ لە چالاکی، خەڵک، ئۆتۆمبێل، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -426,7 +426,7 @@ class EnglishEntrybusy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ھاوەڵناو) هێڵێکی پەیوەندی کە پەیوەندی تری لەگەڵدایە"),
+                                  "٥. (ھاوەڵناو) ھێڵێکی پەیوەندی کە پەیوەندی تری لەگەڵدایە"),
                           Row(
                             children: [
                               const Expanded(
@@ -437,7 +437,7 @@ class EnglishEntrybusy extends StatelessWidget {
                                             "The line is busy—I'll try again later."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵەکە گیراوە، دواتر پەیوەندی دەکەمەوە."),
+                                            "ھێڵەکە گیراوە، دواتر پەیوەندی دەکەمەوە."),
                                   ],
                                 ),
                               ),
@@ -498,7 +498,7 @@ class EnglishEntrybusy extends StatelessWidget {
                                             "She busied herself with the preparations for the party."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆی سەرقاڵکرد بە ئامادەکاری بۆ ئاهەنگەکە."),
+                                            "خۆی سەرقاڵکرد بە ئامادەکاری بۆ ئاھەنگەکە."),
                                   ],
                                 ),
                               ),

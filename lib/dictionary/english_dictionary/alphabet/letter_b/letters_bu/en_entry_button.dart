@@ -295,7 +295,7 @@ class EnglishEntrybutton extends StatelessWidget {
                                             "Choose ‘printer’ from the menu and click with the right mouse button."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وشەی ‘printer’ هەڵبژێرە لە لیستەکە و دەست بنێ بە دووگمەی ڕاستی ماوسەکەدا."),
+                                            "وشەی ‘printer’ ھەڵبژێرە لە لیستەکە و دەست بنێ بە دووگمەی ڕاستی ماوسەکەدا."),
                                   ],
                                 ),
                               ),
@@ -356,7 +356,7 @@ class EnglishEntrybutton extends StatelessWidget {
                                             "They all wore buttons saying ‘Stop the war’."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموویان باجێکیان بەستبوو کە لەسەری نووسرابوو 'جەنگ بوەستێنن'."),
+                                            "ھەموویان باجێکیان بەستبوو کە لەسەری نووسرابوو 'جەنگ بوەستێنن'."),
                                   ],
                                 ),
                               ),

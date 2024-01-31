@@ -195,7 +195,7 @@ class EnglishEntrycanker extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: برین (لێو، دەم و هتد)، تامیسک، تێمیسک، خشرۆک، خۆرە، مێمڵ، ئافەت (دار)، لاڕەشە، سندان، بەڵا، کاریگەری خراپ، ئاسێو، پەتا، سەرەتان
+کوردی: برین (لێو، دەم و ھتد)، تامیسک، تێمیسک، خشرۆک، خۆرە، مێمڵ، ئافەت (دار)، لاڕەشە، سندان، بەڵا، کاریگەری خراپ، ئاسێو، پەتا، سەرەتان
 
 ١. (ناو) نەخۆشییەک لە ڕووەک و درەختدا کە داری ڕووی دەرەوەی قەد و لقەکەی لەناودەبات"""),
                           Row(
@@ -298,7 +298,7 @@ class EnglishEntrycanker extends StatelessWidget {
                                             "Poverty is a canker eating away at the foundations of society."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەژاری پەتایەکە کە لە پایەکانی کۆمەڵگا دەدات."),
+                                            "ھەژاری پەتایەکە کە لە پایەکانی کۆمەڵگا دەدات."),
                                   ],
                                 ),
                               ),

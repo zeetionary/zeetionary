@@ -140,9 +140,9 @@ class EnglishEntrybumblebee extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەنگەزلە، گونشێر، ژەنگەسوورە، ویزنە
+کوردی: ھەنگەزلە، گونشێر، ژەنگەسوورە، ویزنە
 
-١. (ناو) مێشهەنگێکی گەورە کە بە مووی بچووک داپۆشراوە و دەنگێکی گەورە دەردەکات کە دەفڕێت"""),
+١. (ناو) مێشھەنگێکی گەورە کە بە مووی بچووک داپۆشراوە و دەنگێکی گەورە دەردەکات کە دەفڕێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -153,7 +153,7 @@ class EnglishEntrybumblebee extends StatelessWidget {
                                             "Children often draw cute bumblebees."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵان زۆرجار وێنەی هەنگەزلەی جوان دەکێشن."),
+                                            "منداڵان زۆرجار وێنەی ھەنگەزلەی جوان دەکێشن."),
                                   ],
                                 ),
                               ),

@@ -202,7 +202,7 @@ class EnglishEntryburglary extends StatelessWidget {
                                             "The youth was charged with three counts of burglary."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا."),
+                                            "ھەرزەکارەکە بە سێ بابەتی دزیکردن تاوانبارکرا."),
                                   ],
                                 ),
                               ),

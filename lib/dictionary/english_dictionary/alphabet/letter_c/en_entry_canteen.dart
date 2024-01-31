@@ -189,9 +189,9 @@ class EnglishEntrycanteen extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: حانووت، چێشت‌خۆری، سێلف‌سێرڤیس (خوێندنگا، کارگا، نووسینگە و هتد), قومقومە، مەتارە (سەربازان), سنووق، سێرڤیس، قوتو (قاپ‌وکەوچک)
+کوردی: حانووت، چێشت‌خۆری، سێلف‌سێرڤیس (خوێندنگا، کارگا، نووسینگە و ھتد), قومقومە، مەتارە (سەربازان), سنووق، سێرڤیس، قوتو (قاپ‌وکەوچک)
 
-١. (ناو) شوێنی خۆراک خواردن لە قوتابخانە، کارگە، هتد"""),
+١. (ناو) شوێنی خۆراک خواردن لە قوتابخانە، کارگە، ھتد"""),
                           Row(
                             children: [
                               const Expanded(
@@ -222,7 +222,7 @@ class EnglishEntrycanteen extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دەفرێکی بچووک کە لەلایەن سەربازەوە بەکاردێت بۆ هەڵگرتنی ئاو"),
+                                  "٢. (ناو) دەفرێکی بچووک کە لەلایەن سەربازەوە بەکاردێت بۆ ھەڵگرتنی ئاو"),
                           Row(
                             children: [
                               const Expanded(

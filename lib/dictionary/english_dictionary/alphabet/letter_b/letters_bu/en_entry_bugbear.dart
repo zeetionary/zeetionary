@@ -152,7 +152,7 @@ class EnglishEntrybugbear extends StatelessWidget {
                                             "Inflation is the government's main bugbear."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵاوسان دێوەزمەی سەرەکی حکومەتە."),
+                                            "ھەڵاوسان دێوەزمەی سەرەکی حکومەتە."),
                                   ],
                                 ),
                               ),

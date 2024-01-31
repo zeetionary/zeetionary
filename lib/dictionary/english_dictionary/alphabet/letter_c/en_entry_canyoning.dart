@@ -188,7 +188,7 @@ class EnglishEntrycanyoning extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) وەرزشێک کە بریتییە لە شوێنکەوتنی ڕووبارێکی خێرا کە بە دۆڵێکی قووڵ و تەسکدا تێدەپەڕێت، بە بەکارهێنانی ژمارەیەک ڕێگا کە بریتین لە سەرکەوتن، چوونەخوارەوە بەسەر لێوارە بەرزەکاندا بە بەکارهێنانی پەت، و مەلەکردن :"""),
+١. (ناو) وەرزشێک کە بریتییە لە شوێنکەوتنی ڕووبارێکی خێرا کە بە دۆڵێکی قووڵ و تەسکدا تێدەپەڕێت، بە بەکارھێنانی ژمارەیەک ڕێگا کە بریتین لە سەرکەوتن، چوونەخوارەوە بەسەر لێوارە بەرزەکاندا بە بەکارھێنانی پەت، و مەلەکردن :"""),
                           Row(
                             children: [
                               const Expanded(
@@ -199,7 +199,7 @@ class EnglishEntrycanyoning extends StatelessWidget {
                                             "Canyoning requires a permit in most national parks in the United States."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت هەیە."),
+                                            "لە زۆرینەی پارکە نیشتیمانییەکانی ئەمریکا وەرزشی کانیۆنینگ پێویستی بە مۆڵەت ھەیە."),
                                   ],
                                 ),
                               ),

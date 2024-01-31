@@ -190,7 +190,7 @@ class EnglishEntrycantilever extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ستوون یان کۆڵەکەی سەرئازاد (یەک‌سەری ئازادە)
 
-١. (ھاوەڵناو) پارچە تەختە، ئاسن، یان کاری ئەندازیاری کە تەنها لە یەک لاوە ڕاگیراوە"""),
+١. (ھاوەڵناو) پارچە تەختە، ئاسن، یان کاری ئەندازیاری کە تەنھا لە یەک لاوە ڕاگیراوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,7 @@ class EnglishEntrycantilever extends StatelessWidget {
                                             "The architect used a cantilever to extend the balcony."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندازیارەکە کانتیلیڤەری بەکارهێنا بۆ درێژکردنەوەی بەرهەیوانەکە."),
+                                            "ئەندازیارەکە کانتیلیڤەری بەکارھێنا بۆ درێژکردنەوەی بەرھەیوانەکە."),
                                   ],
                                 ),
                               ),

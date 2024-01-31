@@ -188,7 +188,7 @@ class EnglishEntrycafeteria extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) چێشتخانەیەک کە خواردن هەڵدەبژێریت و پارەکەی دەدەیت پێش ئەوەی بیبەیت بۆ سەر مێزێک"""),
+١. (ناو) چێشتخانەیەک کە خواردن ھەڵدەبژێریت و پارەکەی دەدەیت پێش ئەوەی بیبەیت بۆ سەر مێزێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -199,7 +199,7 @@ class EnglishEntrycafeteria extends StatelessWidget {
                                             "Employees have four different salads to choose from for lunch in the company cafeteria."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کارمەندان چوار جۆری جیاوازی زەڵاتەیان هەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە."),
+                                            "کارمەندان چوار جۆری جیاوازی زەڵاتەیان ھەیە بۆ نانی نیوەڕۆ لە کافتریای کۆمپانیاکە."),
                                   ],
                                 ),
                               ),

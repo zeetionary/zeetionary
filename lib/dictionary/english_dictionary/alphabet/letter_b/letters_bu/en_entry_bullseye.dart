@@ -139,7 +139,7 @@ class EnglishEntrybullseye extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ناوەڕاستی ئامانجێک کە تەقەی لێ دەکەیت، یان تیری بۆ داهاوێژیت"""),
+١. (ناو) ناوەڕاستی ئامانجێک کە تەقەی لێ دەکەیت، یان تیری بۆ داھاوێژیت"""),
                           Row(
                             children: [
                               const Expanded(

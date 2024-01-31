@@ -201,7 +201,7 @@ class EnglishEntrycallgirl extends StatelessWidget {
                                             "Many call girls have their own websites with some personal details."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر لەشفرۆش وێبسایتی خۆیان هەیە لەگەڵ هەندێک زانیاریی کەسی تێیدا."),
+                                            "زۆر لەشفرۆش وێبسایتی خۆیان ھەیە لەگەڵ ھەندێک زانیاریی کەسی تێیدا."),
                                   ],
                                 ),
                               ),

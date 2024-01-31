@@ -204,7 +204,7 @@ class EnglishEntrycarafe extends StatelessWidget {
                                             "I poured myself some water from the carafe on the table."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک ئاوم بۆ خۆم تێکرد لە سوراحی سەر مێزەکە."),
+                                            "ھەندێک ئاوم بۆ خۆم تێکرد لە سوراحی سەر مێزەکە."),
                                   ],
                                 ),
                               ),

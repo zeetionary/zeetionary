@@ -258,7 +258,7 @@ class EnglishEntrybulb extends StatelessWidget {
                                             "She usually waters the indoor bulbs once a week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەزۆری سەلکەکانی ژوورەوە هەفتەی جارێک ئاو دەدات."),
+                                            "بەزۆری سەلکەکانی ژوورەوە ھەفتەی جارێک ئاو دەدات."),
                                   ],
                                 ),
                               ),

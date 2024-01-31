@@ -189,7 +189,7 @@ class EnglishEntrybusinesslike extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەکار، سوور، ڕشت، ڕێک‌وپێک، لێهاتوو، کاریگەر، سیستماتیک
+کوردی: بەکار، سوور، ڕشت، ڕێک‌وپێک، لێھاتوو، کاریگەر، سیستماتیک
 
 ١. (ھاوەڵناو) کەسێک کە بە ڕێکخراوی و بەبێ کات بەفیڕۆدان کاردەکات بەبێ بیرکردنەوە لە بابەتی کەسی"""),
                           Row(

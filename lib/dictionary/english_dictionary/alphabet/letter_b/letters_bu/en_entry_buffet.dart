@@ -175,7 +175,7 @@ class EnglishEntrybuffet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) لێدان بە هێزێکی زۆرەوە بە بەردەوامئ؛ پاڵنانی کەسێک/شتێک لە لایەک بۆ لایەکی دیکە"),
+                                  "٢. (کردار) لێدان بە ھێزێکی زۆرەوە بە بەردەوامئ؛ پاڵنانی کەسێک/شتێک لە لایەک بۆ لایەکی دیکە"),
                           Row(
                             children: [
                               const Expanded(

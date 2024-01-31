@@ -190,7 +190,7 @@ class EnglishEntrybyword extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: وتە یان زاراوەیەکی ئاسایی یان باو، نموونە، هێما، میناک، پەند، وتەی سەرزار، مایەی ئابڕووچوون، مایەی شوورەیی، مایەی نێوزڕان
+کوردی: وتە یان زاراوەیەکی ئاسایی یان باو، نموونە، ھێما، میناک، پەند، وتەی سەرزار، مایەی ئابڕووچوون، مایەی شوورەیی، مایەی نێوزڕان
 
 ١. (ناو) کەسێک/شتێک کە زۆر باش ناسراوە و نموونەی بەرچاوی شتێکە"""),
                           Row(
@@ -203,7 +203,7 @@ class EnglishEntrybyword extends StatelessWidget {
                                             "The name Chanel became a byword for elegance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوی شانێل بوو بە هێمای کەشخەیی."),
+                                            "ناوی شانێل بوو بە ھێمای کەشخەیی."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrybyword extends StatelessWidget {
                                             "Their products are a byword for good value."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەرهەمەکانیان نموونەی کوالێتی باشن."),
+                                            "بەرھەمەکانیان نموونەی کوالێتی باشن."),
                                   ],
                                 ),
                               ),

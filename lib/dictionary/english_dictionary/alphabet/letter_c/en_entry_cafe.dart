@@ -203,7 +203,7 @@ class EnglishEntrycafe extends StatelessWidget {
                                             "There are small shops and cafes around every corner."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فرۆشگا و چاخانەی بچووک لە دەوری هەموو سووچێکن."),
+                                            "فرۆشگا و چاخانەی بچووک لە دەوری ھەموو سووچێکن."),
                                   ],
                                 ),
                               ),

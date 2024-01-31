@@ -202,7 +202,7 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                                             "There's some wonderful calligraphy in these old manuscripts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە هەن."),
+                                            "ھەندێک نووسینی خەتاتی لەم بەڵگەنامە کۆنانە ھەن."),
                                   ],
                                 ),
                               ),
@@ -223,7 +223,7 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هونەری خۆشنووسی"),
+                              text: "٢. (ناو) ھونەری خۆشنووسی"),
                           Row(
                             children: [
                               const Expanded(
@@ -234,7 +234,7 @@ class EnglishEntrycalligraphy extends StatelessWidget {
                                             "As a beginner, you can watch professionals demonstrating calligraphy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک سەرەتاییەک، دەتوانیت سەیری کەسانی شارەزا بکەیت کە هونەری خۆشنووسی نمایش دەکەن."),
+                                            "وەک سەرەتاییەک، دەتوانیت سەیری کەسانی شارەزا بکەیت کە ھونەری خۆشنووسی نمایش دەکەن."),
                                   ],
                                 ),
                               ),

@@ -143,9 +143,9 @@ class EnglishEntrybully extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کەڵەگا، ملهوڕ، زەبوون‌کوژ. وەی‌گێڕ
+کوردی: کەڵەگا، ملھوڕ، زەبوون‌کوژ. وەی‌گێڕ
 
-١. (ناو) کەسێک کە هێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"""),
+١. (ناو) کەسێک کە ھێز و دەسەڵات بەکاردێنێت ترساندن و ئازاردانی کەسانی تر"""),
                           Row(
                             children: [
                               const Expanded(
@@ -183,7 +183,7 @@ class EnglishEntrybully extends StatelessWidget {
                                             "Teachers usually know who the bullies are in a class."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مامۆستایان زۆرجار دەزانن ملهوڕانی پۆل کێن."),
+                                            "مامۆستایان زۆرجار دەزانن ملھوڕانی پۆل کێن."),
                                   ],
                                 ),
                               ),
@@ -203,7 +203,7 @@ class EnglishEntrybully extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) بەکارهێنانی هێز و دەسەڵات بۆ ترساندن و ئازاردانی کەسانی تر"),
+                                  "٢. (کردار) بەکارھێنانی ھێز و دەسەڵات بۆ ترساندن و ئازاردانی کەسانی تر"),
                           Row(
                             children: [
                               const Expanded(
@@ -242,7 +242,7 @@ class EnglishEntrybully extends StatelessWidget {
                                             "I won't be bullied into signing anything."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناتوانرێت ناچار بکرێم بە واژۆکردنی هیچ شتێک."),
+                                            "ناتوانرێت ناچار بکرێم بە واژۆکردنی ھیچ شتێک."),
                                   ],
                                 ),
                               ),

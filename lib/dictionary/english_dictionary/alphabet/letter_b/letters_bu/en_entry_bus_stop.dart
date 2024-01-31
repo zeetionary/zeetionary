@@ -152,7 +152,7 @@ class EnglishEntrybusstop extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʌs stɒp/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbusstop("en-GB"),
                             ),
@@ -160,7 +160,7 @@ class EnglishEntrybusstop extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʌs stɑːp/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbusstop("en-US"),
                             ),
@@ -228,7 +228,7 @@ class EnglishEntrybusstop extends StatelessWidget {
                                             "There's a bus stop just outside the hotel."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وێستگەیەکی پاسێک لە دەرەوەی هوتێلەکە هەیە."),
+                                            "وێستگەیەکی پاسێک لە دەرەوەی ھوتێلەکە ھەیە."),
                                   ],
                                 ),
                               ),

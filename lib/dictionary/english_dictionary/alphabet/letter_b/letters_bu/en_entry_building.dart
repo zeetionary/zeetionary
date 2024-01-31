@@ -187,7 +187,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                             "The old industrial buildings have all been demolished."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بینا کۆنەکانی نیشتەجێبوون هەموویان ڕووخیندراون."),
+                                            "بینا کۆنەکانی نیشتەجێبوون ھەموویان ڕووخیندراون."),
                                   ],
                                 ),
                               ),
@@ -285,7 +285,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                             "There's building work going on next door."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاری بیناسازی لە تەنیشتمانەوە هەیە."),
+                                            "کاری بیناسازی لە تەنیشتمانەوە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -343,7 +343,7 @@ class EnglishEntrybuilding extends StatelessWidget {
                                             "The building of a consensus is not going to be an easy process."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "درووستکردنی هاودەنگی پڕۆسەیەکی ئاسان نابێت."),
+                                            "درووستکردنی ھاودەنگی پڕۆسەیەکی ئاسان نابێت."),
                                   ],
                                 ),
                               ),

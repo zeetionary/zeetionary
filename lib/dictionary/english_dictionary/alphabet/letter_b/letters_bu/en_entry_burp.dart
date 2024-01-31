@@ -191,7 +191,7 @@ class EnglishEntryburp extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: قرپ، قرقێنە
 
-١. (کردار) قرقێنەدانەوە؛ دەرکردنی هەوای ناو گەدە لە دەمەوە"""),
+١. (کردار) قرقێنەدانەوە؛ دەرکردنی ھەوای ناو گەدە لە دەمەوە"""),
                           Row(
                             children: [
                               const Expanded(

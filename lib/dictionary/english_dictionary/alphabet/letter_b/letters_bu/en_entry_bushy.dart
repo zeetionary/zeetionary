@@ -202,7 +202,7 @@ class EnglishEntrybushy extends StatelessWidget {
                                             "He was short and stocky, with thick bushy eyebrows."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ هەبوونی برۆی ئەستووری پڕدا."),
+                                            "کورتەباڵا و خڕوخۆڵ بوو لەگەڵ ھەبوونی برۆی ئەستووری پڕدا."),
                                   ],
                                 ),
                               ),

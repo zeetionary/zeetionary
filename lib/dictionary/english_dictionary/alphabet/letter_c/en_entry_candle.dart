@@ -254,7 +254,7 @@ class EnglishEntrycandle extends StatelessWidget {
                                             "I felt a cold draft and the candle started to flicker."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستم بە شنەبایەکی سارد کرد و مۆمەکە دەستیکرد بە پرتەپرت."),
+                                            "ھەستم بە شنەبایەکی سارد کرد و مۆمەکە دەستیکرد بە پرتەپرت."),
                                   ],
                                 ),
                               ),

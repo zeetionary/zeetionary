@@ -103,7 +103,7 @@ class EnglishEntrybrigadier extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˌbrɪɡəˈdɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbrigadier("en-GB"),
                             ),
@@ -111,7 +111,7 @@ class EnglishEntrybrigadier extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˌbrɪɡəˈdɪr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbrigadier("en-US"),
                             ),

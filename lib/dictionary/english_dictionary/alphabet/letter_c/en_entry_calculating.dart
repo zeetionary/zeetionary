@@ -201,7 +201,7 @@ class EnglishEntrycalculating extends StatelessWidget {
                                             "I never realized you could be so calculating."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز نەمزانی دەکرا هێندە زرنگ بیت."),
+                                            "ھەرگیز نەمزانی دەکرا ھێندە زرنگ بیت."),
                                   ],
                                 ),
                               ),

@@ -188,7 +188,7 @@ class EnglishEntrybuxom extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەیکەلی، جوان‌چاک، بەقەڵافەت، مەمک‌قوت
+کوردی: ھەیکەلی، جوان‌چاک، بەقەڵافەت، مەمک‌قوت
 
 ١. (ھاوەڵناو) گەورە بەشێوەیەکی جوان و لەگەڵ مەمکی گەورەدا"""),
                           Row(
@@ -201,7 +201,7 @@ class EnglishEntrybuxom extends StatelessWidget {
                                             "The Renaissance art often featured buxom women."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت."),
+                                            "ھونەری ڕینێسانس زۆرجار ژنانی بەقەڵافەتی لەخۆ دەگرت."),
                                   ],
                                 ),
                               ),

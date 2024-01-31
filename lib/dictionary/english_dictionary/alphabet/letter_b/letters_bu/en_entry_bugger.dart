@@ -145,7 +145,7 @@ class EnglishEntrybugger extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نێرباز، کەسێکی هیچ یان قێزەون، بارگین
+کوردی: نێرباز، کەسێکی ھیچ یان قێزەون، بارگین
 
 ١. (ناو) وشەیەک بۆ پیشاندانی تووڕەیی و بێزاری لە کەسێک"""),
                           Row(
@@ -184,7 +184,7 @@ class EnglishEntrybugger extends StatelessWidget {
                                             "The stupid bugger's given me the wrong number!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو هیچی گەمژە ژمارەیەکی هەڵەی پێداوم!"),
+                                            "ئەو ھیچی گەمژە ژمارەیەکی ھەڵەی پێداوم!"),
                                   ],
                                 ),
                               ),
@@ -204,7 +204,7 @@ class EnglishEntrybugger extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە خۆشەویستی یان بەزەییت بۆی هەیە"),
+                                  "٢. (ناو) کەسێک کە خۆشەویستی یان بەزەییت بۆی ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -215,7 +215,7 @@ class EnglishEntrybugger extends StatelessWidget {
                                             "Poor bugger! His wife left him last week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داماوی هەژارە! ژنەکەی هەفتەی پێشوو جێیهێشت."),
+                                            "داماوی ھەژارە! ژنەکەی ھەفتەی پێشوو جێیھێشت."),
                                   ],
                                 ),
                               ),
@@ -275,7 +275,7 @@ class EnglishEntrybugger extends StatelessWidget {
                                             "Oh, bugger the cost! Let's get it anyway."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نرخەکەی بە نەفرەت بکە! با بیبەین هەرچۆنێک بێت."),
+                                            "نرخەکەی بە نەفرەت بکە! با بیبەین ھەرچۆنێک بێت."),
                                   ],
                                 ),
                               ),

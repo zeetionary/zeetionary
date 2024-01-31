@@ -191,7 +191,7 @@ class EnglishEntrycapable extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەتوانا، توانا، توانادار، خورت، لێهاتوو، ژێهاتی، لێوەشاو، بەکارهاتوو، بەرژەوەند، شیاو، بەشیان
+کوردی: بەتوانا، توانا، توانادار، خورت، لێھاتوو، ژێھاتی، لێوەشاو، بەکارھاتوو، بەرژەوەند، شیاو، بەشیان
 
 ١. (ھاوەڵناو) بوونی توانای پێویست بۆ کردنی کارێک"""),
                           Row(
@@ -204,7 +204,7 @@ class EnglishEntrycapable extends StatelessWidget {
                                             "You are capable of better work than this."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانای کردنی کارێکی باشترت وەک لەمە هەیە."),
+                                            "توانای کردنی کارێکی باشترت وەک لەمە ھەیە."),
                                   ],
                                 ),
                               ),
@@ -232,7 +232,7 @@ class EnglishEntrycapable extends StatelessWidget {
                                             "He's quite capable of lying to get out of trouble."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانی باشی درۆکردنی هەیە بۆ دەرچوون لە کێشە."),
+                                            "توانی باشی درۆکردنی ھەیە بۆ دەرچوون لە کێشە."),
                                   ],
                                 ),
                               ),
@@ -252,7 +252,7 @@ class EnglishEntrycapable extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) هەبوونی توانای کردنی شتێک بە باشی"),
+                                  "٢. (ھاوەڵناو) ھەبوونی توانای کردنی شتێک بە باشی"),
                           Row(
                             children: [
                               const Expanded(
@@ -291,7 +291,7 @@ class EnglishEntrycapable extends StatelessWidget {
                                             "Only the Democratic Party is capable of running the country."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی هەیە."),
+                                            "تەنھا پارتی دیموکراتەکان توانای بەڕێوەبردنی وڵاتی ھەیە."),
                                   ],
                                 ),
                               ),

@@ -140,7 +140,7 @@ class EnglishEntrybullshit extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قسەی هیچەکە، هەڵیت‌وپڵیت، فڵتە
+کوردی: قسەی ھیچەکە، ھەڵیت‌وپڵیت، فڵتە
 
 ١. (ناو) بیرۆکە، باوەڕ، یان قسە کە پێتوایە گەمژانەیە"""),
                           Row(
@@ -151,7 +151,7 @@ class EnglishEntrybullshit extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "That's just bullshit."),
                                     ExampleSentenceKurdish(
-                                        text: "تەواو هەڵیت‌وپڵیتانەیە."),
+                                        text: "تەواو ھەڵیت‌وپڵیتانەیە."),
                                   ],
                                 ),
                               ),
@@ -179,7 +179,7 @@ class EnglishEntrybullshit extends StatelessWidget {
                                             "Don't listen to him—he's full of bullshit."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێی لێ مەگرە، پڕ لە قسەی هیچە."),
+                                            "گوێی لێ مەگرە، پڕ لە قسەی ھیچە."),
                                   ],
                                 ),
                               ),

@@ -302,7 +302,7 @@ class EnglishEntrybudget extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دراونامە، بودجە، حیسابی داهات و خەرج، تێچوون، جانتا یان کیفی چەرمی، هەروەها ئەو شتانەی کەوا تیایەتی 
+کوردی: دراونامە، بودجە، حیسابی داھات و خەرج، تێچوون، جانتا یان کیفی چەرمی، ھەروەھا ئەو شتانەی کەوا تیایەتی 
 
 ١. (ناو) بودجە؛ بڕی پارەی بەردەستی کەسێک یان دامەزراوەیەک لەگەڵ پلانێک کە چۆن خەرج دەکرێت"""),
                           Row(
@@ -315,7 +315,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                             "Many families struggle to balance the household budget."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر خێزان تەقەڵایانە هاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا."),
+                                            "زۆر خێزان تەقەڵایانە ھاوسەنگی ڕابگرن لە بودجەی خێزانەکانیاندا."),
                                   ],
                                 ),
                               ),
@@ -343,7 +343,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                             "It's one of those big-budget Hollywood movies."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکێکە لە فیلمە بودجە زۆرەکانی هۆڵیهوود."),
+                                            "یەکێکە لە فیلمە بودجە زۆرەکانی ھۆڵیھوود."),
                                   ],
                                 ),
                               ),
@@ -374,7 +374,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                                     "The museum has an annual budget of £3 million with which to acquire new works of art."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی هەیە بۆ کڕینی کاری نوێی هونەری."),
+                                                    "مۆزەخانەکە بودجەی ساڵانەی ٣ ملیار پاوەندی ھەیە بۆ کڕینی کاری نوێی ھونەری."),
                                           ],
                                         ),
                                       ),
@@ -404,7 +404,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                                     "The government is planning to double the education budget."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "حکومەت پلانی هەیە بودجەی پەروەردە دوو هێندە بکات."),
+                                                    "حکومەت پلانی ھەیە بودجەی پەروەردە دوو ھێندە بکات."),
                                           ],
                                         ),
                                       ),
@@ -500,7 +500,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                                     "The finance ministry is trying to reduce the budget deficit."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "وەزیری دارایی هەوڵ دەدات کورتهێنانی بودجە کەم‌بکاتەوە."),
+                                                    "وەزیری دارایی ھەوڵ دەدات کورتھێنانی بودجە کەم‌بکاتەوە."),
                                           ],
                                         ),
                                       ),
@@ -614,7 +614,7 @@ class EnglishEntrybudget extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ھاوەڵناو) هەرزان"),
+                          const DefinitionKurdish(text: "٥. (ھاوەڵناو) ھەرزان"),
                           Row(
                             children: [
                               const Expanded(
@@ -625,7 +625,7 @@ class EnglishEntrybudget extends StatelessWidget {
                                             "You can save money on budget flights."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی هەرزان."),
+                                            "دەتوانیت پارە خڕبکەیت بە گرتنی گەشتی ئاسمانی ھەرزان."),
                                   ],
                                 ),
                               ),

@@ -191,7 +191,7 @@ class EnglishEntryburning extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سووتێنەر، پڕووکێنەر، گەرم، پڕووزە، گڕگرتوو، کڵپەکردوو، ئاورگرتوو، سوورەوەبوو، هەڵبوو، تۆزێنەر، لەڕادەبەدەر، یەکجار، پێویست، گرنگ، توند، مەسەلەیەکی گرنگ و پێویست، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، شەوەتان
+کوردی: سووتێنەر، پڕووکێنەر، گەرم، پڕووزە، گڕگرتوو، کڵپەکردوو، ئاورگرتوو، سوورەوەبوو، ھەڵبوو، تۆزێنەر، لەڕادەبەدەر، یەکجار، پێویست، گرنگ، توند، مەسەلەیەکی گرنگ و پێویست، ئاورگرتن، ئاورتێبەربوون، سووتمان، سووتان، شەوەتان
 
 ١. (ھاوەڵناو) ئێجگار زۆر"""),
                           Row(
@@ -204,7 +204,7 @@ class EnglishEntryburning extends StatelessWidget {
                                             "He's always had a burning ambition to start his own business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە خولیایەکی زۆری هەبوو کە بازرگانیی خۆی دەستپێ بکات."),
+                                            "ھەمیشە خولیایەکی زۆری ھەبوو کە بازرگانیی خۆی دەستپێ بکات."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntryburning extends StatelessWidget {
                                             "She felt a burning sensation in her throat."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە ئازارێکی زۆر دەکرد لە قوڕگیدا."),
+                                            "ھەستی بە ئازارێکی زۆر دەکرد لە قوڕگیدا."),
                                   ],
                                 ),
                               ),

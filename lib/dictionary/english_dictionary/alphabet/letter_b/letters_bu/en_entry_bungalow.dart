@@ -188,7 +188,7 @@ class EnglishEntrybungalow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) خانوویەکی یەک نهۆمی بەبێ قادرمە"""),
+١. (ناو) خانوویەکی یەک نھۆمی بەبێ قادرمە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -199,7 +199,7 @@ class EnglishEntrybungalow extends StatelessWidget {
                                             "There were small, white bungalows dotted over the hillside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خانووی یەک نهۆمی بچووکی سپی بەسەر گردەکە دیاربوون."),
+                                            "خانووی یەک نھۆمی بچووکی سپی بەسەر گردەکە دیاربوون."),
                                   ],
                                 ),
                               ),

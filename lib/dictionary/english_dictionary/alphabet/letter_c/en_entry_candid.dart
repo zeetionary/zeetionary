@@ -231,7 +231,7 @@ class EnglishEntrycandid extends StatelessWidget {
                                             "The ex-minister gave a candid interview about his reasons for resigning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەزیری پێشوو چاوپێکەوتنێکی ڕاشکاوانەی ئەنجامدا سەبارەت بە هۆکارەکانی بۆ دەستلەکارکێشانەوە."),
+                                            "وەزیری پێشوو چاوپێکەوتنێکی ڕاشکاوانەی ئەنجامدا سەبارەت بە ھۆکارەکانی بۆ دەستلەکارکێشانەوە."),
                                   ],
                                 ),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrycandid extends StatelessWidget {
                                             "He mingled among the guests and took the candid shots which were much more fun than the formal group photographs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە ناو میوانەکاندا هاتوچۆی بوو و وێنەی ڕاست‌بینانەی دەگرت کە زۆر خۆشتر بوون لە وێنە فەرمییە گرووپییەکان."),
+                                            "بە ناو میوانەکاندا ھاتوچۆی بوو و وێنەی ڕاست‌بینانەی دەگرت کە زۆر خۆشتر بوون لە وێنە فەرمییە گرووپییەکان."),
                                   ],
                                 ),
                               ),

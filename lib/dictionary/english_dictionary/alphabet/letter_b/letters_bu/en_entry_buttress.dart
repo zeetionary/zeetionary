@@ -189,9 +189,9 @@ class EnglishEntrybuttress extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەرەیلاخ، بەرهەڵێخ، پاڵەوانە، پشت‌بەست، خەرپشت، پاڵپشت، پشتیوانە، پشتیوان، پشت، پارێزکار
+کوردی: بەرەیلاخ، بەرھەڵێخ، پاڵەوانە، پشت‌بەست، خەرپشت، پاڵپشت، پشتیوانە، پشتیوان، پشت، پارێزکار
 
-١. (ناو) پێکهاتەیەک کە لە بەرد یان خشت درووستکراوە بۆ ڕاگرتنی دیوارێک"""),
+١. (ناو) پێکھاتەیەک کە لە بەرد یان خشت درووستکراوە بۆ ڕاگرتنی دیوارێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrybuttress extends StatelessWidget {
                                             "It was necessary to strengthen the building with large external buttresses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گرنگ بوو بیناکە بەهێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
+                                            "گرنگ بوو بیناکە بەھێز بکرێت بە پاڵپشتی گەورەی دەرەکی."),
                                   ],
                                 ),
                               ),

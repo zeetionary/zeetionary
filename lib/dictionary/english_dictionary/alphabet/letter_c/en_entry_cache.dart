@@ -191,9 +191,9 @@ class EnglishEntrycache extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: عەماری نهێنی، نهێنگە، هەڵگرتنگە، پەناگە، حەشارگە (نهێنی)، کۆگا یان عەماری کاتی (چەک‌وچۆڵ، خۆراک و هتد)، (کامپیوتێڕ) یادگەی نهێنی، حەشارگە
+کوردی: عەماری نھێنی، نھێنگە، ھەڵگرتنگە، پەناگە، حەشارگە (نھێنی)، کۆگا یان عەماری کاتی (چەک‌وچۆڵ، خۆراک و ھتد)، (کامپیوتێڕ) یادگەی نھێنی، حەشارگە
 
-١. (ناو) حەشارگەی نهێنی، بۆ نموونە بۆ چەک"""),
+١. (ناو) حەشارگەی نھێنی، بۆ نموونە بۆ چەک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -284,7 +284,7 @@ class EnglishEntrycache extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) هەڵگرتنی داتا لە یادگەی کۆمپیوتەرێک"),
+                                  "٤. (کردار) ھەڵگرتنی داتا لە یادگەی کۆمپیوتەرێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,7 +295,7 @@ class EnglishEntrycache extends StatelessWidget {
                                             "Modern browsers cache images for faster loading."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە هەڵدەگرن بۆ خێرا کردنەوە."),
+                                            "براوزەرەکانی ئەم سەردەمە وێنە لە یادگە ھەڵدەگرن بۆ خێرا کردنەوە."),
                                   ],
                                 ),
                               ),

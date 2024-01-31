@@ -191,7 +191,7 @@ class EnglishEntrybuzzer extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: زەنگ، گیزەون، زڕە، فڕە، ڤڕە، ویزویزە، ویزە
 
-١. (ناو) زەنگێک کە دەنگێکی وەک گیزەگیزی هەنگ دەردەکات"""),
+١. (ناو) زەنگێک کە دەنگێکی وەک گیزەگیزی ھەنگ دەردەکات"""),
                           Row(
                             children: [
                               const Expanded(

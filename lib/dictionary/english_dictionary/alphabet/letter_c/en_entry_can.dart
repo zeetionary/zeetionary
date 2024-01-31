@@ -613,7 +613,7 @@ class EnglishEntrycan extends StatelessWidget {
                                                     "I can't promise anything, but I'll do what I can."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ناتوانم بەڵێن بدەم، بەڵام هەرچی بتوانم دەیکەم."),
+                                                    "ناتوانم بەڵێن بدەم، بەڵام ھەرچی بتوانم دەیکەم."),
                                           ],
                                         ),
                                       ),
@@ -735,7 +735,7 @@ class EnglishEntrycan extends StatelessWidget {
                                             "She could feel a lump in her breast."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە لوویەک لە سنگیدا دەکرد."),
+                                            "ھەستی بە لوویەک لە سنگیدا دەکرد."),
                                   ],
                                 ),
                               ),
@@ -845,7 +845,7 @@ class EnglishEntrycan extends StatelessWidget {
                                         text: "Can you help me with this box?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەتوانیت لە هەڵگرتنی ئەم سندووقە یارمەتیم بدەیت؟"),
+                                            "دەتوانیت لە ھەڵگرتنی ئەم سندووقە یارمەتیم بدەیت؟"),
                                   ],
                                 ),
                               ),
@@ -989,7 +989,7 @@ class EnglishEntrycan extends StatelessWidget {
                                             "He can't have slept through all that noise."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەستەمە خەوی لێ کەوتبێت لەو هەموو ژاوەژاوەدا."),
+                                            "ئەستەمە خەوی لێ کەوتبێت لەو ھەموو ژاوەژاوەدا."),
                                   ],
                                 ),
                               ),
@@ -1110,7 +1110,7 @@ class EnglishEntrycan extends StatelessWidget {
                                         text:
                                             "He can be very tactless sometimes."),
                                     ExampleSentenceKurdish(
-                                        text: "هەندێک جار زۆر بێ‌هەست دەبێت."),
+                                        text: "ھەندێک جار زۆر بێ‌ھەست دەبێت."),
                                   ],
                                 ),
                               ),
@@ -1279,7 +1279,7 @@ class EnglishEntrycan extends StatelessWidget {
                                         text: "We drank a can of Coke each."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەریەکەمان قوتوویەک کۆکا کۆلامان خواردەوە."),
+                                            "ھەریەکەمان قوتوویەک کۆکا کۆلامان خواردەوە."),
                                   ],
                                 ),
                               ),
@@ -1299,7 +1299,7 @@ class EnglishEntrycan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٤. (ناو) کاسەیەک ئاسنی یان پلاستیکی هەڵگرتنی شلە تێیدا"),
+                                  "١٤. (ناو) کاسەیەک ئاسنی یان پلاستیکی ھەڵگرتنی شلە تێیدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -1328,7 +1328,7 @@ class EnglishEntrycan extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٥. (ناو) قوتوویەک کە شلەی تێدا هەڵدەگیرێت لەژێر فشاری زۆردا و بە فیشقە دێتە دەرەوە"),
+                                  "١٥. (ناو) قوتوویەک کە شلەی تێدا ھەڵدەگیرێت لەژێر فشاری زۆردا و بە فیشقە دێتە دەرەوە"),
                           Row(
                             children: [
                               const Expanded(

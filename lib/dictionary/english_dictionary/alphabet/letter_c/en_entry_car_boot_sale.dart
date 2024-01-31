@@ -204,7 +204,7 @@ class EnglishEntrycarbootsale extends StatelessWidget {
                                             "At the car boot sale, I found a camera for a bargain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە مەزاتەکەدا کامێرایەکم کڕی زۆر بە هەرزان."),
+                                            "لە مەزاتەکەدا کامێرایەکم کڕی زۆر بە ھەرزان."),
                                   ],
                                 ),
                               ),

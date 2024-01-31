@@ -194,9 +194,9 @@ class EnglishEntryburden extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: باری قورس، گوشار، قورسایی، بارگرانی، سەنگی، بار، بەرپرسایەتی (قورس)، ئەرک، پەیور، توانایی هەڵگرتنی کەشتی، کەشتی‌بەرە، جێ‌بوونەوە، توانایی، تێبینی یان بابەتی سەرەکی، بیرۆکەی سەرەکی یان بنەڕەتی، سەربەند
+کوردی: باری قورس، گوشار، قورسایی، بارگرانی، سەنگی، بار، بەرپرسایەتی (قورس)، ئەرک، پەیور، توانایی ھەڵگرتنی کەشتی، کەشتی‌بەرە، جێ‌بوونەوە، توانایی، تێبینی یان بابەتی سەرەکی، بیرۆکەی سەرەکی یان بنەڕەتی، سەربەند
 
-١. (ناو) ئەرک و بەرپرسیاریەتی کە دەبێتەهۆی نیگەرانی، گرفت، و کاری قورس"""),
+١. (ناو) ئەرک و بەرپرسیاریەتی کە دەبێتەھۆی نیگەرانی، گرفت، و کاری قورس"""),
                           Row(
                             children: [
                               const Expanded(
@@ -321,7 +321,7 @@ class EnglishEntryburden extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) بارێکی قورس کە هەڵیدەگریت"),
+                              text: "٢. (ناو) بارێکی قورس کە ھەڵیدەگریت"),
                           Row(
                             children: [
                               const Expanded(
@@ -381,7 +381,7 @@ class EnglishEntryburden extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) هەڵگرتنی شتێکی قورس"),
+                              text: "٤. (کردار) ھەڵگرتنی شتێکی قورس"),
                           Row(
                             children: [
                               const Expanded(

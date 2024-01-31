@@ -201,7 +201,7 @@ class EnglishEntrycanvasser extends StatelessWidget {
                                             "Canvassers will go door-to-door on election day."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ڕۆژی هەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن."),
+                                            "لە ڕۆژی ھەڵبژاردندا بانگەشەکاران دەرگا بە دەرگا دەگەڕێن."),
                                   ],
                                 ),
                               ),
@@ -252,7 +252,7 @@ class EnglishEntrycanvasser extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە هەوڵی دۆزینەوەی زانیاری و بۆچوون دەدات بە پرسیارکردن لە خەڵکی"),
+                                  "٢. (ناو) کەسێک کە ھەوڵی دۆزینەوەی زانیاری و بۆچوون دەدات بە پرسیارکردن لە خەڵکی"),
                           Row(
                             children: [
                               const Expanded(

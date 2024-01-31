@@ -196,7 +196,7 @@ class EnglishEntrycapsule extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کەپسول، دەرمان‌پۆش، قاوغەدەرمان، گولاج، کەپسوولی بۆشایی یان کەشتی ئاسمانی، کورتە، پوختە، کەلوو، بەرگەتۆو، تۆوپۆش، قاپیلک، قاوغە، توودانک، تووپۆش
 
-١. (ناو) هەڵگرێکی بچووک کە ڕێژەیەکی دیاریکراو لە دەرمانی تێدایە و دەبێت بە شلە کە قوتی دەدەیت"""),
+١. (ناو) ھەڵگرێکی بچووک کە ڕێژەیەکی دیاریکراو لە دەرمانی تێدایە و دەبێت بە شلە کە قوتی دەدەیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrycapsule extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەڵگرێکی بچووکی پلاستیکی کە مادەیەک یان شلەی تێدایە"),
+                                  "٢. (ناو) ھەڵگرێکی بچووکی پلاستیکی کە مادەیەک یان شلەی تێدایە"),
                           Row(
                             children: [
                               const Expanded(

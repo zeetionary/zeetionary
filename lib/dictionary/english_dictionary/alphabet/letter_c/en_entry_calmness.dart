@@ -189,9 +189,9 @@ class EnglishEntrycalmness extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سرەوت، هێمنی، ئارامی، سەیوەت، ئۆخژن، هێوری، خامۆشی
+کوردی: سرەوت، ھێمنی، ئارامی، سەیوەت، ئۆخژن، ھێوری، خامۆشی
 
-١. (ناو) ئارامی و هێمنی"""),
+١. (ناو) ئارامی و ھێمنی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycalmness extends StatelessWidget {
                                             "Mark exudes calmness and never gets rattled."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مارک ئارامی لێ‌دەبارێت و هەرگیز نیگەران نابێت."),
+                                            "مارک ئارامی لێ‌دەبارێت و ھەرگیز نیگەران نابێت."),
                                   ],
                                 ),
                               ),
@@ -230,7 +230,7 @@ class EnglishEntrycalmness extends StatelessWidget {
                                             "This area is good for swimming because of the relative calmness of the waters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم ناوچە باشە بۆ مەلەکردن بەهۆی تاڕادەیەک ئارامیی ئاوەکە."),
+                                            "ئەم ناوچە باشە بۆ مەلەکردن بەھۆی تاڕادەیەک ئارامیی ئاوەکە."),
                                   ],
                                 ),
                               ),

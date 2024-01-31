@@ -153,7 +153,7 @@ class EnglishEntrycanal extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈnæl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcanal("en-GB"),
                             ),
@@ -161,7 +161,7 @@ class EnglishEntrycanal extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈnæl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcanal("en-US"),
                             ),
@@ -190,7 +190,7 @@ class EnglishEntrycanal extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئاوەڕێ، ئاودڕ، ئاودڕکە، نۆکەند، کەنداو، دڕناڵ، دڕگە، ڕەهەنداو، کارێز، ، زێ، چۆمەڵ، جۆ، جۆگە، (ڕووەک‌ناسی و توێکاری) جۆگە، لوولە 
+کوردی: ئاوەڕێ، ئاودڕ، ئاودڕکە، نۆکەند، کەنداو، دڕناڵ، دڕگە، ڕەھەنداو، کارێز، ، زێ، چۆمەڵ، جۆ، جۆگە، (ڕووەک‌ناسی و توێکاری) جۆگە، لوولە 
 
 ١. (ناو) ڕێگایەکی ڕاست و درێژ کە پڕکراوە لە ئاو بۆ ئەوەی بەلەم و کەشتی پێیدا بڕۆن """),
                           Row(
@@ -203,7 +203,7 @@ class EnglishEntrycanal extends StatelessWidget {
                                             "The barge moved slowly along the canal."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەکەمە بارهەڵگرەکە بە هێواشی بە کەناڵەکەدا چوو."),
+                                            "بەکەمە بارھەڵگرەکە بە ھێواشی بە کەناڵەکەدا چوو."),
                                   ],
                                 ),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrycanal extends StatelessWidget {
                                             "The alimentary canal is the path by which food enters the body, and solid waste is passed out."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جۆگەی هەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
+                                            "جۆگەی ھەرس ئەو بەشەیە کە خواردنی پێدا دەچێتە لەشەوە و پیسایی لێوە دەردەچێت."),
                                   ],
                                 ),
                               ),

@@ -201,7 +201,7 @@ class EnglishEntrycapitalist extends StatelessWidget {
                                             "She says that the capitalist system has never worked for the poor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەڵێت کەوا سیستەمی سەرمایەداری هەرگیز لە قازانجی هەژاران نەبووە."),
+                                            "دەڵێت کەوا سیستەمی سەرمایەداری ھەرگیز لە قازانجی ھەژاران نەبووە."),
                                   ],
                                 ),
                               ),
@@ -232,7 +232,7 @@ class EnglishEntrycapitalist extends StatelessWidget {
                                             "High interest rates are good for capitalists as they allow them to accumulate wealth."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بوونی ڕێژەی سووی بەرز باشە بۆ سەرمایەداران بەهۆی ئەوەی ێگەیان پێ دەدات سامانێکی زۆر کۆبکەنەوە."),
+                                            "بوونی ڕێژەی سووی بەرز باشە بۆ سەرمایەداران بەھۆی ئەوەی ێگەیان پێ دەدات سامانێکی زۆر کۆبکەنەوە."),
                                   ],
                                 ),
                               ),
@@ -252,7 +252,7 @@ class EnglishEntrycapitalist extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەسێک کە سامانێکی زۆری هەیە و بەکاریدێنێت بۆ دەستکەوتنی سامانی زیاتر"),
+                                  "٣. (ناو) کەسێک کە سامانێکی زۆری ھەیە و بەکاریدێنێت بۆ دەستکەوتنی سامانی زیاتر"),
                           Row(
                             children: [
                               const Expanded(

@@ -191,9 +191,9 @@ class EnglishEntrybunker extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خەڵووزدان، عەماری سووتەمەنی یان خەڵووز (لە کەشتی‌دا)، پەناگە (ژێرزەمینی)، شوێنی هەڵگرتن، عەمار، کۆگە، قوڵکە، چاڵ (بە زیخ پڕ کراوەتەوە، لە یاری گۆڵف‌دا)، (میلیتاری) بوودڕی تەقەمەنی
+کوردی: خەڵووزدان، عەماری سووتەمەنی یان خەڵووز (لە کەشتی‌دا)، پەناگە (ژێرزەمینی)، شوێنی ھەڵگرتن، عەمار، کۆگە، قوڵکە، چاڵ (بە زیخ پڕ کراوەتەوە، لە یاری گۆڵف‌دا)، (میلیتاری) بوودڕی تەقەمەنی
 
-١. (ناو) پەناگەیەکی بەهێزی سەربازی بۆ سەرباز یان تەقەمەنی"""),
+١. (ناو) پەناگەیەکی بەھێزی سەربازی بۆ سەرباز یان تەقەمەنی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -232,7 +232,7 @@ class EnglishEntrybunker extends StatelessWidget {
                                             "During the war, families sought refuge in the bunker when air raid sirens sounded."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کاتی جەنگەکە خێزانەکان خۆیان داڵدە دا لە پەناگەکە کە دەنگی ئاگادارکەرەوەی هێرشی ئاسمانی دەهات."),
+                                            "لە کاتی جەنگەکە خێزانەکان خۆیان داڵدە دا لە پەناگەکە کە دەنگی ئاگادارکەرەوەی ھێرشی ئاسمانی دەھات."),
                                   ],
                                 ),
                               ),
@@ -262,7 +262,7 @@ class EnglishEntrybunker extends StatelessWidget {
                                             "A coal bunker on the steam train ensured a steady supply for the journey."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خەڵووزدانێک لە شەمەندەفەرە هەڵمییەکەدا دڵنیایی دا لە هەبوونی سەرچاوەیەکی (وزەی) بەردەوام بۆ گەشتەکە."),
+                                            "خەڵووزدانێک لە شەمەندەفەرە ھەڵمییەکەدا دڵنیایی دا لە ھەبوونی سەرچاوەیەکی (وزەی) بەردەوام بۆ گەشتەکە."),
                                   ],
                                 ),
                               ),

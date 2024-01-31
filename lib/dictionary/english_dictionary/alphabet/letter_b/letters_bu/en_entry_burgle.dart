@@ -193,7 +193,7 @@ class EnglishEntryburgle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) چوونە بینایەک بە نایاسایی و بەکارهێنانی هێز بە مەبەستی دزیکردن"""),
+١. (کردار) چوونە بینایەک بە نایاسایی و بەکارھێنانی ھێز بە مەبەستی دزیکردن"""),
                           Row(
                             children: [
                               const Expanded(

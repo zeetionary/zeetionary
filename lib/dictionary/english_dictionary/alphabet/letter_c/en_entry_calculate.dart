@@ -195,9 +195,9 @@ class EnglishEntrycalculate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لێکدانەوە، ژمارە لێکدانەوە، هەڵسەنگاندن
+کوردی: لێکدانەوە، ژمارە لێکدانەوە، ھەڵسەنگاندن
 
-١. (کردار) بەکارهێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
+١. (کردار) بەکارھێنانی ژمارە بۆ زانینی کۆی ژمارە، بڕ، یان دووری"""),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                                             "That figure was calculated using the standard equation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەکە لێکدرایەوە بە بەکارهێنانی هاوکێشەیەکی ستاندارد."),
+                                            "ژمارەکە لێکدرایەوە بە بەکارھێنانی ھاوکێشەیەکی ستاندارد."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                                         text:
                                             "We haven’t really calculated the cost of the vacation yet."),
                                     ExampleSentenceKurdish(
-                                        text: "هێشتا تێچووی."),
+                                        text: "ھێشتا تێچووی."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                                                     "Use the formula to calculate the volume of the container."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هاوکێشەکە بەکاربهێنە بۆ دۆزینەوەی قەبارەی دەفرەکە."),
+                                                    "ھاوکێشەکە بەکاربھێنە بۆ دۆزینەوەی قەبارەی دەفرەکە."),
                                           ],
                                         ),
                                       ),
@@ -352,7 +352,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوونێک بە بەکارهێنانی هەموو زانیارییەکی بەردەست"),
+                                  "٢. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوونێک بە بەکارھێنانی ھەموو زانیارییەکی بەردەست"),
                           Row(
                             children: [
                               const Expanded(
@@ -391,7 +391,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                                             "It is impossible to calculate what influence he had on her life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی هەیبوو."),
+                                            "ئەستەمە ئەو کاریگەرییە بخەمڵێندرێت کە ئەو لەسەر ژیانی ھەیبوو."),
                                   ],
                                 ),
                               ),
@@ -422,7 +422,7 @@ class EnglishEntrycalculate extends StatelessWidget {
                                                     "I tried to calculate how much time it would take me to get there."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ."),
+                                                    "ھەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ."),
                                           ],
                                         ),
                                       ),

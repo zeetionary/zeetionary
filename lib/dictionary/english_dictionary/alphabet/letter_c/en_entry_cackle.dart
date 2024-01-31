@@ -233,7 +233,7 @@ class EnglishEntrycackle extends StatelessWidget {
                                         text: "They all cackled with delight."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموویان لەخۆشیدا حیلکەحیلکیان بوو."),
+                                            "ھەموویان لەخۆشیدا حیلکەحیلکیان بوو."),
                                   ],
                                 ),
                               ),

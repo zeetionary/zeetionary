@@ -287,7 +287,7 @@ class EnglishEntrycab extends StatelessWidget {
                                                     "I left my umbrella in the back of the cab."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "چەترەکەم لە پشتەوەی تەکسییەکە جێهێشت."),
+                                                    "چەترەکەم لە پشتەوەی تەکسییەکە جێھێشت."),
                                           ],
                                         ),
                                       ),
@@ -313,7 +313,7 @@ class EnglishEntrycab extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بەشی پێشەوەی بارهەڵگرێک، پاسێک، شەمەندەفەرێک، هتد کە شۆفێرەکە تێیدا دادەنیشێت"),
+                                  "٢. (ناو) بەشی پێشەوەی بارھەڵگرێک، پاسێک، شەمەندەفەرێک، ھتد کە شۆفێرەکە تێیدا دادەنیشێت"),
                           Row(
                             children: [
                               const Expanded(

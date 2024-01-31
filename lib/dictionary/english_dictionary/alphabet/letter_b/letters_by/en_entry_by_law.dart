@@ -191,7 +191,7 @@ class EnglishEntrybylaw extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دەستوور، فەرمان، فەروار، بڕیار، چارەنووس، خوانووس
 
-١. (ناو) یاسایەک کە لە لایەن حکومەتێکی خۆجێییەوە دەردەکرێت و تەنها بەسەر ناوچەیەکدا دەچەسپێت"""),
+١. (ناو) یاسایەک کە لە لایەن حکومەتێکی خۆجێییەوە دەردەکرێت و تەنھا بەسەر ناوچەیەکدا دەچەسپێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrybylaw extends StatelessWidget {
                                             "A bylaw passed in the region said those caught smoking in public places would be fined."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یاسایەک کە لە هەرێمەکە دەرچوو دەڵێت ئەو کەسانەی لە شوێنی گشتی دەگیردرێن لە کاتی جگەرەکێشان بژێرەیان بۆ دەنووسرێت."),
+                                            "یاسایەک کە لە ھەرێمەکە دەرچوو دەڵێت ئەو کەسانەی لە شوێنی گشتی دەگیردرێن لە کاتی جگەرەکێشان بژێرەیان بۆ دەنووسرێت."),
                                   ],
                                 ),
                               ),
@@ -233,7 +233,7 @@ class EnglishEntrybylaw extends StatelessWidget {
                                             "She fought to change the organization's by-laws, which allowed only men."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵیدا یاساکانی دامەزراوەکە بگۆڕێت کە تەنها ڕێگەی بە پیاو دەدات."),
+                                            "ھەوڵیدا یاساکانی دامەزراوەکە بگۆڕێت کە تەنھا ڕێگەی بە پیاو دەدات."),
                                   ],
                                 ),
                               ),

@@ -166,7 +166,7 @@ class EnglishEntrycapture extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkæptʃə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcapture("en-GB"),
                             ),
@@ -174,7 +174,7 @@ class EnglishEntrycapture extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkæptʃər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcapture("en-US"),
                             ),
@@ -203,7 +203,7 @@ class EnglishEntrycapture extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دیلی، گیراوی، یەخسیری، گرتن، دەس‌بەسەری، گل‌دانەوە، بنچاڤ‌کردن، داگیرکردن، گرتن، نێچیر، دەسکەوت، (فیزیک) مژین، گرتن، هەڵچنین
+کوردی: دیلی، گیراوی، یەخسیری، گرتن، دەس‌بەسەری، گل‌دانەوە، بنچاڤ‌کردن، داگیرکردن، گرتن، نێچیر، دەسکەوت، (فیزیک) مژین، گرتن، ھەڵچنین
 
 ١. (کردار) گرتنی کەسێک یان ئاژەڵێک وەک دیل"""),
                           Row(
@@ -216,7 +216,7 @@ class EnglishEntrycapture extends StatelessWidget {
                                             "Allied troops captured over 300 enemy soldiers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزەکانی هاوپەیمانان زیاد لە ٣٠٠ سەربازی دوژمنیان بەدیل گرت."),
+                                            "ھێزەکانی ھاوپەیمانان زیاد لە ٣٠٠ سەربازی دوژمنیان بەدیل گرت."),
                                   ],
                                 ),
                               ),
@@ -263,7 +263,7 @@ class EnglishEntrycapture extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (کردار) کۆنترۆڵکردنی شوێنێک بە هێز"),
+                              text: "٢. (کردار) کۆنترۆڵکردنی شوێنێک بە ھێز"),
                           Row(
                             children: [
                               const Expanded(
@@ -292,7 +292,7 @@ class EnglishEntrycapture extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) سەرکەوتن لە بەدەستهێنانی شتێک کە کەسانی دیکەش دەیانەوێت"),
+                                  "٣. (کردار) سەرکەوتن لە بەدەستھێنانی شتێک کە کەسانی دیکەش دەیانەوێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ class EnglishEntrycapture extends StatelessWidget {
                                             "His story captured the attention of Hollywood."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چیرۆکەکەی سەرنجی هۆڵیوودی ڕاکێشا."),
+                                            "چیرۆکەکەی سەرنجی ھۆڵیوودی ڕاکێشا."),
                                   ],
                                 ),
                               ),
@@ -354,7 +354,7 @@ class EnglishEntrycapture extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) سەرکەوتن لە دەربڕینی هەستێک، کەشێک، هتد لە وێنەیەک، نووسراوێک، فیلمێک، هتددا"),
+                                  "٥. (کردار) سەرکەوتن لە دەربڕینی ھەستێک، کەشێک، ھتد لە وێنەیەک، نووسراوێک، فیلمێک، ھتددا"),
                           Row(
                             children: [
                               const Expanded(
@@ -424,7 +424,7 @@ class EnglishEntrycapture extends StatelessWidget {
                                             "The attack was captured on film by security cameras."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێرشەکە لەلایەن کامێراکانی چاودێرییەوە گیردرا."),
+                                            "ھێرشەکە لەلایەن کامێراکانی چاودێرییەوە گیردرا."),
                                   ],
                                 ),
                               ),
@@ -454,7 +454,7 @@ class EnglishEntrycapture extends StatelessWidget {
                                             "Their first glance captured a spark that ignited into love."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "یەکەم نیگایان هەستێکی دەستپێکرد کە بوو بە خۆشەویستی."),
+                                            "یەکەم نیگایان ھەستێکی دەستپێکرد کە بوو بە خۆشەویستی."),
                                   ],
                                 ),
                               ),
@@ -511,7 +511,7 @@ class EnglishEntrycapture extends StatelessWidget {
                                             "This information led to the capture of the murderer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زانیارییەکە بوو بەهۆی گرتنی بکوژەکە."),
+                                            "زانیارییەکە بوو بەھۆی گرتنی بکوژەکە."),
                                   ],
                                 ),
                               ),
@@ -541,7 +541,7 @@ class EnglishEntrycapture extends StatelessWidget {
                                             "They witnessed the capture of the city by rebel troops."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شاهێدی گرتنی شارەکە بوون لەلایەن سەربازە یاخیبووەکانەوە."),
+                                            "شاھێدی گرتنی شارەکە بوون لەلایەن سەربازە یاخیبووەکانەوە."),
                                   ],
                                 ),
                               ),

@@ -142,9 +142,9 @@ class EnglishEntrybuddy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کاکە، دۆست، هاوڕێ، هەڤاڵ
+کوردی: کاکە، دۆست، ھاوڕێ، ھەڤاڵ
 
-١. (ناو) هاوڕێ"""),
+١. (ناو) ھاوڕێ"""),
                           Row(
                             children: [
                               const Expanded(
@@ -181,7 +181,7 @@ class EnglishEntrybuddy extends StatelessWidget {
                                             "I’d like you to meet an old college buddy of mine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حەزەکەم بتناسێنم بە هاوڕێیەکی کۆنی کۆلێژم."),
+                                            "حەزەکەم بتناسێنم بە ھاوڕێیەکی کۆنی کۆلێژم."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrybuddy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) هاوکارێک کە کارێکت لەگەڵ دەکات بۆ ئەوەی یارمەتی یەکدی بدەن"),
+                                  "٣. (ناو) ھاوکارێک کە کارێکت لەگەڵ دەکات بۆ ئەوەی یارمەتی یەکدی بدەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -242,7 +242,7 @@ class EnglishEntrybuddy extends StatelessWidget {
                                             "The school uses a buddy system to pair newcomers with older students."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قوتابخانەکە سیستەمی هاوڕێیەتی بەکاردێنێت بۆ ئەوەی تازەهاتووان لەگەڵ خوێندکارە کۆنەکان لەگەڵ یەکدی بخات."),
+                                            "قوتابخانەکە سیستەمی ھاوڕێیەتی بەکاردێنێت بۆ ئەوەی تازەھاتووان لەگەڵ خوێندکارە کۆنەکان لەگەڵ یەکدی بخات."),
                                   ],
                                 ),
                               ),

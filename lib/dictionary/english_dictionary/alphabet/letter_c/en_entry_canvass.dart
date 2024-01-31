@@ -192,9 +192,9 @@ class EnglishEntrycanvass extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕاگەیاندن، بوارڕەخسان، گڵاڵەبوون، بۆ هەڵکەوتن، ڕاپرسی
+کوردی: ڕاگەیاندن، بوارڕەخسان، گڵاڵەبوون، بۆ ھەڵکەوتن، ڕاپرسی
 
-١. (ناو) پڕۆسەی گەڕان بە ناوچەیەکدا و قسەکردن لەگەڵ خەڵکی، بەتایبەتی بۆ داواکردنی پشتگیری بۆ کەسێکی دیاریکراو، پارتێکی سیاسی، هتد"""),
+١. (ناو) پڕۆسەی گەڕان بە ناوچەیەکدا و قسەکردن لەگەڵ خەڵکی، بەتایبەتی بۆ داواکردنی پشتگیری بۆ کەسێکی دیاریکراو، پارتێکی سیاسی، ھتد"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycanvass extends StatelessWidget {
                                             "Volunteers and staffers were manning the phones and organizing a canvass."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆبەخشان و ئەندامانی ستاف هێڵەکانی پەیوەندییان بەڕێوەدەبرد."),
+                                            "خۆبەخشان و ئەندامانی ستاف ھێڵەکانی پەیوەندییان بەڕێوەدەبرد."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycanvass extends StatelessWidget {
                                             "A canvass of council members showed that the proposal would not pass."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاپرسییەکی ئەندامانی ئەنجوومەنەکە دەریخست کە پێشنیازەکە دەنگ ناهێنێت."),
+                                            "ڕاپرسییەکی ئەندامانی ئەنجوومەنەکە دەریخست کە پێشنیازەکە دەنگ ناھێنێت."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntrycanvass extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) کۆکردنەوەی پشتگیری بۆ کەسێک، پارتێکی سیاسی، هتد بە گەڕان و قسەکردن لەگەڵیان یان پەیوەندی کردن پێیانەوە"),
+                                  "٣. (کردار) کۆکردنەوەی پشتگیری بۆ کەسێک، پارتێکی سیاسی، ھتد بە گەڕان و قسەکردن لەگەڵیان یان پەیوەندی کردن پێیانەوە"),
                           Row(
                             children: [
                               const Expanded(

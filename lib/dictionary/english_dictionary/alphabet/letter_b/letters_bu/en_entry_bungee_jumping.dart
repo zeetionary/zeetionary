@@ -190,9 +190,9 @@ class EnglishEntrybungeejumping extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خۆهەڵدان، لە بەرزایی‌یەوە بازدان
+کوردی: خۆھەڵدان، لە بەرزایی‌یەوە بازدان
 
-١. (ناو) خۆهەڵدان لە بەرزاییەوە بە تەنافێکەوە کە کێشی دێت"""),
+١. (ناو) خۆھەڵدان لە بەرزاییەوە بە تەنافێکەوە کە کێشی دێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,7 @@ class EnglishEntrybungeejumping extends StatelessWidget {
                                             "Bungee jumping would be a cool experience."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆهەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت."),
+                                            "خۆھەڵدان لە بەرزاییەوە ئەزموونێکی خۆش دەبێت."),
                                   ],
                                 ),
                               ),

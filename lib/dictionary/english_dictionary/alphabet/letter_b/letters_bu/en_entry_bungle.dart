@@ -229,7 +229,7 @@ class EnglishEntrybungle extends StatelessWidget {
                                             "Their pay was late because of a computer bungle."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مووچکەیان درەنگ کەوت بەهۆی کێشەیەکی کۆمپیوتەر."),
+                                            "مووچکەیان درەنگ کەوت بەھۆی کێشەیەکی کۆمپیوتەر."),
                                   ],
                                 ),
                               ),

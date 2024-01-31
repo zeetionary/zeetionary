@@ -191,7 +191,7 @@ class EnglishEntrycanister extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: قوتو، کەنیستێر، پڕژێنە، قوتوچایی، چاڕێز
 
-١. (ناو) دەفرێک کە بانێکی هەیە و چا، قاوە، هتدی تێدا هەڵدەگیرێت"""),
+١. (ناو) دەفرێک کە بانێکی ھەیە و چا، قاوە، ھتدی تێدا ھەڵدەگیرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycanister extends StatelessWidget {
                                             "The tea canister slipped from my grasp, and all the tea spilled."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قوتووچاییەکە کەوت لە دەستم و هەموو گەڵا چاییەکە ڕژا."),
+                                            "قوتووچاییەکە کەوت لە دەستم و ھەموو گەڵا چاییەکە ڕژا."),
                                   ],
                                 ),
                               ),
@@ -233,7 +233,7 @@ class EnglishEntrycanister extends StatelessWidget {
                                             "Police fired tear-gas canisters at the demonstrators."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆلیس گوللەی فرمێسکڕێژی هاویشتە خۆپیشاندەران."),
+                                            "پۆلیس گوللەی فرمێسکڕێژی ھاویشتە خۆپیشاندەران."),
                                   ],
                                 ),
                               ),

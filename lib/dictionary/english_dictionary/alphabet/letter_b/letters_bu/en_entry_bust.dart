@@ -197,7 +197,7 @@ class EnglishEntrybust extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پەیکەری سەرەوەی لەش، سەرباڵا، نیوەپەیکەر، سنگ، مەمک، ئەندازەی دەوری سنگ (ژن)، سەرنەکەوتن، بنکەوتن، تێشکان (یەکجاری)، نابووتی، بەرشکستی، دەس‌بەسەری، گل‌دانەوە، گرتن، مستەکۆڵە، مشت نافەرمی، تەنگژە یا قەیرانی ئابووری، شتێکی بێ‌نرخ یان هیچەکە، شکاو، لەکارکەوتوو، خراپ‌بوو، خەوتوو، نابووت، لات‌کەوتوو، بەرشکست (کەسێ یان کۆمپانیایێ)
+کوردی: پەیکەری سەرەوەی لەش، سەرباڵا، نیوەپەیکەر، سنگ، مەمک، ئەندازەی دەوری سنگ (ژن)، سەرنەکەوتن، بنکەوتن، تێشکان (یەکجاری)، نابووتی، بەرشکستی، دەس‌بەسەری، گل‌دانەوە، گرتن، مستەکۆڵە، مشت نافەرمی، تەنگژە یا قەیرانی ئابووری، شتێکی بێ‌نرخ یان ھیچەکە، شکاو، لەکارکەوتوو، خراپ‌بوو، خەوتوو، نابووت، لات‌کەوتوو، بەرشکست (کەسێ یان کۆمپانیایێ)
 
 ١. (کردار) شکاندن"""),
                           Row(
@@ -266,7 +266,7 @@ class EnglishEntrybust extends StatelessWidget {
                                         text: "He's been busted for drugs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهۆی مادەی هۆشبەرەوە دەستگیرکراوە."),
+                                            "بەھۆی مادەی ھۆشبەرەوە دەستگیرکراوە."),
                                   ],
                                 ),
                               ),
@@ -294,7 +294,7 @@ class EnglishEntrybust extends StatelessWidget {
                                             "He was busted for drunk driving."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستبەسەرکرا بەهۆی شۆفێریکردن بە سەرخۆشی."),
+                                            "دەستبەسەرکرا بەھۆی شۆفێریکردن بە سەرخۆشی."),
                                   ],
                                 ),
                               ),
@@ -433,7 +433,7 @@ class EnglishEntrybust extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) هەڵکوتانەسەری شوێنێک لەلایەن پۆلیسەوە"),
+                                  "٦. (ناو) ھەڵکوتانەسەری شوێنێک لەلایەن پۆلیسەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -444,7 +444,7 @@ class EnglishEntrybust extends StatelessWidget {
                                             "In their latest drugs bust, police entered a warehouse where cocaine dealers were meeting."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە تازەترین هەڵکوتانەسەریاندا، پۆلیس چوونە کۆگایەکەوە کە فرۆشیارانی کۆکاین تێیاندا یەکیان دەدی."),
+                                            "لە تازەترین ھەڵکوتانەسەریاندا، پۆلیس چوونە کۆگایەکەوە کە فرۆشیارانی کۆکاین تێیاندا یەکیان دەدی."),
                                   ],
                                 ),
                               ),

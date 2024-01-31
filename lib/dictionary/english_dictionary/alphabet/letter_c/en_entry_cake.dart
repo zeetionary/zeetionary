@@ -192,7 +192,7 @@ class EnglishEntrycake extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) خواردنێکی شیرین کە لە تێکەڵەیەک لە ئارد، هێلکە، کەرە، شەکر، هتد دروست دەکرێت و لە فڕندا دەبرژێنرێت. کێک بە شێوە و قەبارەی جۆراوجۆر دروست دەکرێت و زۆرجار دەڕازێنرێتەوە"""),
+١. (ناو) خواردنێکی شیرین کە لە تێکەڵەیەک لە ئارد، ھێلکە، کەرە، شەکر، ھتد دروست دەکرێت و لە فڕندا دەبرژێنرێت. کێک بە شێوە و قەبارەی جۆراوجۆر دروست دەکرێت و زۆرجار دەڕازێنرێتەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,7 @@ class EnglishEntrycake extends StatelessWidget {
                                             "Everyone cheered as the bride and groom cut the wedding cake."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمووان هاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی."),
+                                            "ھەمووان ھاوار و قیژەیان بوو کە بووک و زاوا کێکەکەیان بڕی."),
                                   ],
                                 ),
                               ),
@@ -323,7 +323,7 @@ class EnglishEntrycake extends StatelessWidget {
                                             "When he ran onstage, his face was caked with make-up."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە هاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو."),
+                                            "کە ھاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو."),
                                   ],
                                 ),
                               ),

@@ -197,7 +197,7 @@ class EnglishEntrycable extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سیمپۆش، وایەرپۆش، شاوایەر، شاتێل، کابل، وایێر، وایەر، تێل، تەل، تەنافی تێلی، گوریس، گشتەک، تەناف، کەندر، زنجیر، برووسکە، تێلێگراف
 
-١. (ناو) ژمارەیەک وایەر کە داپۆشراوە و کارەبا، ستگناڵی موبایل، هتد دەگوازێتەوە"""),
+١. (ناو) ژمارەیەک وایەر کە داپۆشراوە و کارەبا، ستگناڵی موبایل، ھتد دەگوازێتەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycable extends StatelessWidget {
                                             "They're digging up the road to lay cables."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێگاکە هەڵدەکەنن بۆ دانانی کێبڵ."),
+                                            "ڕێگاکە ھەڵدەکەنن بۆ دانانی کێبڵ."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycable extends StatelessWidget {
                                             "Engineers plan to run the telephone cables under the river."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەندازیاران پلانیان هەیە کێبڵی تەلەفۆن لەژێر ڕووبارەکە دابنێن."),
+                                            "ئەندازیاران پلانیان ھەیە کێبڵی تەلەفۆن لەژێر ڕووبارەکە دابنێن."),
                                   ],
                                 ),
                               ),

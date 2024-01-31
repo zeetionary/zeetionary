@@ -189,7 +189,7 @@ class EnglishEntrycanvas extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) مادەیەکی سەختی بەهێز کە بەکاردێت بۆ درووستکردنی خێوەت، چارۆکە، هتد و لەلایەن هونەرکارانەوە بۆ کێشانی وێنە لەسەری"""),
+١. (ناو) مادەیەکی سەختی بەھێز کە بەکاردێت بۆ درووستکردنی خێوەت، چارۆکە، ھتد و لەلایەن ھونەرکارانەوە بۆ کێشانی وێنە لەسەری"""),
                           Row(
                             children: [
                               const Expanded(
@@ -200,7 +200,7 @@ class EnglishEntrycanvas extends StatelessWidget {
                                             "Their tents were made from heavy canvas."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خێوەتەکانیان لە کانڤسی بەهێز درووستکرابوون."),
+                                            "خێوەتەکانیان لە کانڤسی بەھێز درووستکرابوون."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrycanvas extends StatelessWidget {
                                             "These two canvases by Hockney would sell for £1,500,000."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم دوو وێنەیەی هۆکنی ١,٥٠٠,٠٠٠ پاوەند دەکەن."),
+                                            "ئەم دوو وێنەیەی ھۆکنی ١,٥٠٠,٠٠٠ پاوەند دەکەن."),
                                   ],
                                 ),
                               ),

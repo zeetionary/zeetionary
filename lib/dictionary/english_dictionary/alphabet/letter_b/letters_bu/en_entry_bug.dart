@@ -148,7 +148,7 @@ class EnglishEntrybug extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (مێرووناسی) جانەوەر، بەچکەمێروو، مێرووچکە، میکڕۆب، ڤایرۆس، کێشە، گیر، ئیرۆر، گرفت 
 
-١. (ناو) هەر مێروویەکی بچووک"""),
+١. (ناو) ھەر مێروویەکی بچووک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntrybug extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) هەڵەیەک لە ئامێرێکدا، بەتایبەتی سیستەمێکی کۆمپیوتەر یان پڕۆگرامێک"),
+                                  "٤. (ناو) ھەڵەیەک لە ئامێرێکدا، بەتایبەتی سیستەمێکی کۆمپیوتەر یان پڕۆگرامێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -280,7 +280,7 @@ class EnglishEntrybug extends StatelessWidget {
                                             "They planted a bug in his hotel room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                                            "مایکرۆفۆنێکیان لە ژووری ھوتێلەکەی دانا."),
                                   ],
                                 ),
                               ),
@@ -310,7 +310,7 @@ class EnglishEntrybug extends StatelessWidget {
                                         text: "They bugged her hotel room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مایکرۆفۆنێکیان لە ژووری هوتێلەکەی دانا."),
+                                            "مایکرۆفۆنێکیان لە ژووری ھوتێلەکەی دانا."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ class EnglishEntrybug extends StatelessWidget {
                                             "What's the matter? Is there something bugging you?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کێشە چییە؟ شتێک هەیە بێزارت بکات؟"),
+                                            "کێشە چییە؟ شتێک ھەیە بێزارت بکات؟"),
                                   ],
                                 ),
                               ),

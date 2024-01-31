@@ -193,7 +193,7 @@ class EnglishEntrycalendar extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ساڵنامە، ڕۆژ(ژ)مێر
 
-١. (ناو) لاپەڕەیەک یان کۆمەڵە لاپەڕەیەک کە هەفتە و مانگەکانی ساڵێکی دیاریکراوی تێدایە"""),
+١. (ناو) لاپەڕەیەک یان کۆمەڵە لاپەڕەیەک کە ھەفتە و مانگەکانی ساڵێکی دیاریکراوی تێدایە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrycalendar extends StatelessWidget {
                                             "An old calendar for 2012 was still hanging on the wall of her office."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕۆژمێرێکی کۆنی ٢٠١٢ هێشتا لەسەر دیواری ئۆفیسەکەی هەڵواسرابوو."),
+                                            "ڕۆژمێرێکی کۆنی ٢٠١٢ ھێشتا لەسەر دیواری ئۆفیسەکەی ھەڵواسرابوو."),
                                   ],
                                 ),
                               ),

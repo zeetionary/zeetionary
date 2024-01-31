@@ -201,7 +201,7 @@ class EnglishEntrycape extends StatelessWidget {
                                             "He strode out of the room, his black cape flowing behind him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ژوورەکە هاتە دەرەوە و کۆڵوانەکەی لە دواوەی فشبوو بوو."),
+                                            "لە ژوورەکە ھاتە دەرەوە و کۆڵوانەکەی لە دواوەی فشبوو بوو."),
                                   ],
                                 ),
                               ),

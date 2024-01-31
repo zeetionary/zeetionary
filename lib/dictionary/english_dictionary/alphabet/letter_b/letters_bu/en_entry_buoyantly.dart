@@ -193,7 +193,7 @@ class EnglishEntrybuoyantly extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سەراوکەوتانە، بەشێوەیەکی سەراوکەوتە
 
-١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندی بە سەرئاوکەوتووی هەیە"""),
+١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندی بە سەرئاوکەوتووی ھەیە"""),
                           Row(
                             children: [
                               const Expanded(

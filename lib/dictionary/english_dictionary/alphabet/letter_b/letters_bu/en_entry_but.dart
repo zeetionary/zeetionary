@@ -421,7 +421,7 @@ class EnglishEntrybut extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەڵام، غایەتی، ئەمان، وەلی، لێ، هەر ئەوە، بەڵکوو، بێجگەلە، جگەلە، بێ، تەنیا، تەنها، فەقەت، کە، هیچ نەبێ، بەلای کەمەوە، وە ئەگینا، دەنا، هەرچۆنێ بێ، مەگەر ئەوەی کە، هێشتا، سەرەڕای ئەوەش
+کوردی: بەڵام، غایەتی، ئەمان، وەلی، لێ، ھەر ئەوە، بەڵکوو، بێجگەلە، جگەلە، بێ، تەنیا، تەنھا، فەقەت، کە، ھیچ نەبێ، بەلای کەمەوە، وە ئەگینا، دەنا، ھەرچۆنێ بێ، مەگەر ئەوەی کە، ھێشتا، سەرەڕای ئەوەش
 
 ١. (لێکدەر) بەڵام؛ بەڵکو؛ بۆ وتنی شتێک کە پێچەوانەی ئەوەیە کە پێشتر وتراوە"""),
                           Row(
@@ -434,7 +434,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "I got it wrong. It wasn't the red one but the blue one."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هەڵە تێگەشتم. سوورەکە نەبوو بەڵکو شینەکە بوو."),
+                                            "بە ھەڵە تێگەشتم. سوورەکە نەبوو بەڵکو شینەکە بوو."),
                                   ],
                                 ),
                               ),
@@ -462,7 +462,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "His mother won't be there, but his father might."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "براکەی لەوێ نابێت، بەڵام باوکی ئەگەری هەیە."),
+                                            "براکەی لەوێ نابێت، بەڵام باوکی ئەگەری ھەیە."),
                                   ],
                                 ),
                               ),
@@ -493,7 +493,7 @@ class EnglishEntrybut extends StatelessWidget {
                                                     "It isn't that he lied exactly, but he does tend to exaggerate."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئەوە نییە کە درۆی کردبێت، بەڵام مەیلی هەیە مبالغە بکات."),
+                                                    "ئەوە نییە کە درۆی کردبێت، بەڵام مەیلی ھەیە مبالغە بکات."),
                                           ],
                                         ),
                                       ),
@@ -559,7 +559,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "I'd asked everybody but only two people came."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داوام لە هەمووان کردبوو بێن بەڵام دوو کەس هاتن."),
+                                            "داوام لە ھەمووان کردبوو بێن بەڵام دوو کەس ھاتن."),
                                   ],
                                 ),
                               ),
@@ -676,7 +676,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "I had no choice but to sign the contract."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیج هەڵبژاردەم نەبوو جگە لە واژۆکردنی ڕێککەوتنەکە."),
+                                            "ھیج ھەڵبژاردەم نەبوو جگە لە واژۆکردنی ڕێککەوتنەکە."),
                                   ],
                                 ),
                               ),
@@ -707,7 +707,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "Nothing, but nothing would make him change his mind."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ، هیچ شتێک ناتوانێت بیرکردنەوەی بگۆڕێت."),
+                                            "ھیچ، ھیچ شتێک ناتوانێت بیرکردنەوەی بگۆڕێت."),
                                   ],
                                 ),
                               ),
@@ -727,7 +727,7 @@ class EnglishEntrybut extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (لێکدەر) بۆ جەختکردنەوە لەوەی شتێک هەموو کات ڕاستە"),
+                                  "٧. (لێکدەر) بۆ جەختکردنەوە لەوەی شتێک ھەموو کات ڕاستە"),
                           Row(
                             children: [
                               const Expanded(
@@ -738,7 +738,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "She never passed her old home but she thought of the happy years she had spent there (= she always thought of them)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز بەلای خانووە کۆنەکەیدا تێنەپەڕی، بەڵام هەمیشە بیری لەو ڕۆژانە خۆشانە دەکردەوە کە لەوێ تێیپەڕاندن."),
+                                            "ھەرگیز بەلای خانووە کۆنەکەیدا تێنەپەڕی، بەڵام ھەمیشە بیری لەو ڕۆژانە خۆشانە دەکردەوە کە لەوێ تێیپەڕاندن."),
                                   ],
                                 ),
                               ),
@@ -767,7 +767,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "We've had nothing but trouble with this car."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچمان لەم ئۆتۆمبێلە نەدیوە جگە لە کێشە."),
+                                            "ھیچمان لەم ئۆتۆمبێلە نەدیوە جگە لە کێشە."),
                                   ],
                                 ),
                               ),
@@ -795,7 +795,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "The problem is anything but easy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم کێشەیە لە ئاسان زیاتر هیچی تر نییە."),
+                                            "ئەم کێشەیە لە ئاسان زیاتر ھیچی تر نییە."),
                                   ],
                                 ),
                               ),
@@ -826,7 +826,7 @@ class EnglishEntrybut extends StatelessWidget {
                                                     "Who but Rosa could think of something like that?"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "جگە لە ڕۆزا کێ دەیتوانی بیر لە شتێکی وەها بکاتەوە؟"),
+                                                    "جگە لە ڕۆزا کێ دەیتوانی بیر لە شتێکی وەھا بکاتەوە؟"),
                                           ],
                                         ),
                                       ),
@@ -856,7 +856,7 @@ class EnglishEntrybut extends StatelessWidget {
                                                     "Everyone was there but him."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەمووان لەوێ بوون جگە لە ئەو."),
+                                                    "ھەمووان لەوێ بوون جگە لە ئەو."),
                                           ],
                                         ),
                                       ),
@@ -880,7 +880,7 @@ class EnglishEntrybut extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٩. (هاوەڵکار) تەنها"),
+                          const DefinitionKurdish(text: "٩. (ھاوەڵکار) تەنھا"),
                           Row(
                             children: [
                               const Expanded(
@@ -891,7 +891,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "There were a lot of famous people there: Adele and Taylor Swift, to name but two."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەسانی بەناوبانگی زۆر لەوێ بوون: ئادێڵ و تایلەر سویفت، ئەگەر تەنها ناوی دووان بوترێت."),
+                                            "کەسانی بەناوبانگی زۆر لەوێ بوون: ئادێڵ و تایلەر سویفت، ئەگەر تەنھا ناوی دووان بوترێت."),
                                   ],
                                 ),
                               ),
@@ -917,7 +917,7 @@ class EnglishEntrybut extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She's but a young girl!"),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها کچێکی گەنجە!"),
+                                        text: "تەنھا کچێکی گەنجە!"),
                                   ],
                                 ),
                               ),
@@ -937,7 +937,7 @@ class EnglishEntrybut extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٠. (ناو) هۆکارێک کە کەسێک هەیەتی بۆ نەکردنی شتێک یان دژبوون"),
+                                  "١٠. (ناو) ھۆکارێک کە کەسێک ھەیەتی بۆ نەکردنی شتێک یان دژبوون"),
                           Row(
                             children: [
                               const Expanded(
@@ -948,7 +948,7 @@ class EnglishEntrybut extends StatelessWidget {
                                             "With so many ifs and buts, it is easier to wait and see."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەم هەموو ئەگەر و نەگەرەوە، باشتر وایە چاوەڕێ بیت و ببینیت."),
+                                            "بەم ھەموو ئەگەر و نەگەرەوە، باشتر وایە چاوەڕێ بیت و ببینیت."),
                                   ],
                                 ),
                               ),

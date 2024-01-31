@@ -191,9 +191,9 @@ class EnglishEntrycancellation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پووچ‌کردنەوە، بەتاڵ‌کردنەوە، هەڵوەشێنراوی، هەڵوەشاندن، هەڵوەشیان، پووچەڵ‌کردنەوە, شتی پووچەوەکراو، پووچەک, مۆری پووچەڵ‌کردنەوە, لابردن
+کوردی: پووچ‌کردنەوە، بەتاڵ‌کردنەوە، ھەڵوەشێنراوی، ھەڵوەشاندن، ھەڵوەشیان، پووچەڵ‌کردنەوە, شتی پووچەوەکراو، پووچەک, مۆری پووچەڵ‌کردنەوە, لابردن
 
-١. (ناو) هەڵوەشاندنەوە"""),
+١. (ناو) ھەڵوەشاندنەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                                             "Cancellations must be made in writing.Cancellations must be made in writing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەڵوەشاندنەوە دەبێت بە نووسراو بکرێت."),
+                                            "ھەڵوەشاندنەوە دەبێت بە نووسراو بکرێت."),
                                   ],
                                 ),
                               ),
@@ -234,7 +234,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                                             "In the event of a flight cancellation, you will be compensated."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئەگەری هەڵوەشانەوەی گەشتەکەت، قەرەبوو دەکرێیتەوە."),
+                                            "لە ئەگەری ھەڵوەشانەوەی گەشتەکەت، قەرەبوو دەکرێیتەوە."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) شتێک کە هەڵوەشێنراوەتەوە"),
+                              text: "٢. (ناو) شتێک کە ھەڵوەشێنراوەتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,7 +266,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                                             "Are there any cancellations for this evening's performance? (= tickets that have been returned)"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هەڵوەشاندنەوەیەکی نمایشەکەی ئەمشەو هەبووە؟"),
+                                            "ھیچ ھەڵوەشاندنەوەیەکی نمایشەکەی ئەمشەو ھەبووە؟"),
                                   ],
                                 ),
                               ),
@@ -287,7 +287,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) کۆتاییهێنان بە ڕێککەوتنێک"),
+                              text: "٣. (ناو) کۆتاییھێنان بە ڕێککەوتنێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycancellation extends StatelessWidget {
                                             "It is time for the West to think of answering the call for a cancellation of Third World debt."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاتی هاتووە بۆ وڵاتانی ڕۆژاوا کە چاو لە داواکاری سفرکردنەوەی قەرزی وڵاتانی جیهانی سێیەم بکەن."),
+                                            "کاتی ھاتووە بۆ وڵاتانی ڕۆژاوا کە چاو لە داواکاری سفرکردنەوەی قەرزی وڵاتانی جیھانی سێیەم بکەن."),
                                   ],
                                 ),
                               ),

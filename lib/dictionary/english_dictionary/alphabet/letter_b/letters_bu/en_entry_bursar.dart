@@ -201,7 +201,7 @@ class EnglishEntrybursar extends StatelessWidget {
                                             "The university's bursar manages student financial accounts and tuition payments."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەنجینەوانی زانکۆکە هەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات."),
+                                            "گەنجینەوانی زانکۆکە ھەژماری دارایی خوێندکاران و پێدانی تێچووەکەیان بەڕێوە دەبات."),
                                   ],
                                 ),
                               ),

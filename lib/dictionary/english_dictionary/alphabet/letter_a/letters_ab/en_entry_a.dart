@@ -193,7 +193,7 @@ class EnglishEntrya extends StatelessWidget {
                                             "I can only carry two at a time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە یەک کاتدا تەنها دەتوانم دووان هەڵبگرم."),
+                                            "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم."),
                                   ],
                                 ),
                               ),
@@ -219,7 +219,7 @@ class EnglishEntrya extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "There's a visitor for you."),
                                     ExampleSentenceKurdish(
-                                        text: "میوانێکت هەیە."),
+                                        text: "میوانێکت ھەیە."),
                                   ],
                                 ),
                               ),
@@ -443,7 +443,7 @@ class EnglishEntrya extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I have a pen."),
                                     ExampleSentenceKurdish(
-                                        text: "پێنووسێکم هەیە."),
+                                        text: "پێنووسێکم ھەیە."),
                                   ],
                                 ),
                               ),
@@ -469,7 +469,7 @@ class EnglishEntrya extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I have an apple."),
                                     ExampleSentenceKurdish(
-                                        text: "سێوێکم هەیە."),
+                                        text: "سێوێکم ھەیە."),
                                   ],
                                 ),
                               ),

@@ -106,7 +106,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɪld ʌp/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbuildup("en-GB"),
                             ),
@@ -114,7 +114,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɪld ʌp/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbuildup("en-US"),
                             ),
@@ -143,7 +143,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کۆکردنەوە، کۆبوونەوە، کەڵەکەکردن، کەڵەکەبوون، خنین، دانان، دروست‌کردن، بنیاتنان، سازکردن، پڕۆپاگەندە، بانگەشە (بەربڵاو)، پیاهەڵدان، ورووژاندن، تاریف(دان)، ئامادەکاری، بەرهەڤ‌کاری (کەم‌کەمە)، زۆربوون (پلەپلە)، زیادکردن، هەڵدان، گەشەکردن
+کوردی: کۆکردنەوە، کۆبوونەوە، کەڵەکەکردن، کەڵەکەبوون، خنین، دانان، دروست‌کردن، بنیاتنان، سازکردن، پڕۆپاگەندە، بانگەشە (بەربڵاو)، پیاھەڵدان، ورووژاندن، تاریف(دان)، ئامادەکاری، بەرھەڤ‌کاری (کەم‌کەمە)، زۆربوون (پلەپلە)، زیادکردن، ھەڵدان، گەشەکردن
 
 ١. (ناو) زیادبوونی بڕی شتێک بە درێژایی ماوەیەک"""),
                           Row(
@@ -156,7 +156,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                                             "The leak led to a slow build-up of carbon dioxide."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قڵشەکە بووە هۆی کەڵەکەبوونی هێواشی دووەم ئۆکسیدی کاربۆن."),
+                                            "قڵشەکە بووە ھۆی کەڵەکەبوونی ھێواشی دووەم ئۆکسیدی کاربۆن."),
                                   ],
                                 ),
                               ),
@@ -184,7 +184,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                                             "The build-up of troops in the region makes war seem more likely."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆکردنەوەی سەرباز لە هەرێمەکە وادەکات ئەگەری جەنگ بەهێزتر بێت."),
+                                            "کۆکردنەوەی سەرباز لە ھەرێمەکە وادەکات ئەگەری جەنگ بەھێزتر بێت."),
                                   ],
                                 ),
                               ),
@@ -215,7 +215,7 @@ class EnglishEntrybuildup extends StatelessWidget {
                                             "There was a lot of excitement in the build-up to the Olympics."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "جۆش‌وخرۆشێکی زۆر هەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد."),
+                                            "جۆش‌وخرۆشێکی زۆر ھەبوو لە ماوەی ئامادەکای بۆ ئۆڵۆمپیاد."),
                                   ],
                                 ),
                               ),

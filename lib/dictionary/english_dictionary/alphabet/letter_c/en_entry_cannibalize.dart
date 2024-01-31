@@ -190,7 +190,7 @@ class EnglishEntrycannibalize extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) کەمکردنەوەی فرۆشی بەرهەمێک لەلایەن کۆمپانیایەکەوە بە ناساندنی بەرهەمێکی دیکەی لێکچوو"""),
+١. (کردار) کەمکردنەوەی فرۆشی بەرھەمێک لەلایەن کۆمپانیایەکەوە بە ناساندنی بەرھەمێکی دیکەی لێکچوو"""),
                           Row(
                             children: [
                               const Expanded(
@@ -223,7 +223,7 @@ class EnglishEntrycannibalize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) هەڵوەشاندنەوەی بەشەکانی ئامێرێک یان پێڕەوێک و بەکارهێنانی بۆ درووستکردن یان چاککردنەوەی دانەیەکی دیکە"),
+                                  "٢. (کردار) ھەڵوەشاندنەوەی بەشەکانی ئامێرێک یان پێڕەوێک و بەکارھێنانی بۆ درووستکردن یان چاککردنەوەی دانەیەکی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -234,7 +234,7 @@ class EnglishEntrycannibalize extends StatelessWidget {
                                             "He bought an old engine and cannibalized it for parts."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بزوێنەرێکی کۆنی کڕی و هەڵیوەشاندەوە بۆ بەشەکانی."),
+                                            "بزوێنەرێکی کۆنی کڕی و ھەڵیوەشاندەوە بۆ بەشەکانی."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntrycannibalize extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی هاوجۆری"),
+                                  "٣. (کردار) خواردنی ئاژەڵێک لەلایەن یەکێکی دیکەی ھاوجۆری"),
                           Row(
                             children: [
                               const Expanded(

@@ -235,7 +235,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                                             "Buoyed by their win yesterday the team feel confident of further success."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە هەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
+                                            "بەدڵخۆشبوون بە سەرکەوتنی دوێنێیان تیمەکە ھەست بە متمانە دەکەن بۆ سەرکەوتنی زیاتر."),
                                   ],
                                 ),
                               ),
@@ -266,7 +266,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                                             "The very salty water buoyed her (up) as she swam."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاوە زۆر سوێرەکە بە سەراوکەوتووی هێشتییەوە کە مەلەوانی دەکرد."),
+                                            "ئاوە زۆر سوێرەکە بە سەراوکەوتووی ھێشتییەوە کە مەلەوانی دەکرد."),
                                   ],
                                 ),
                               ),
@@ -286,7 +286,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) هێشتنەوەی نرخ بە بەرزی یان ئاستێک کە پەسەند بێت"),
+                                  "٤. (کردار) ھێشتنەوەی نرخ بە بەرزی یان ئاستێک کە پەسەند بێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -297,7 +297,7 @@ class EnglishEntrybuoy extends StatelessWidget {
                                             "House prices have been buoyed (up) in the area by the possibility of a new factory opening."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەهۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
+                                            "نرخی خانوو بەرزبووەتەوە لە ناوچەکە بەھۆی ئەگەری کردنەوەی کارگەیەکی تازە."),
                                   ],
                                 ),
                               ),

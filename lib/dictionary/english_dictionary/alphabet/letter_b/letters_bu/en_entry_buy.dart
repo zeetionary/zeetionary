@@ -234,7 +234,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                         text:
                                             "She had no money to buy a ticket."),
                                     ExampleSentenceKurdish(
-                                        text: "هیچ پارەی نەبوو بلیتێک بکڕێت."),
+                                        text: "ھیچ پارەی نەبوو بلیتێک بکڕێت."),
                                   ],
                                 ),
                               ),
@@ -440,7 +440,7 @@ class EnglishEntrybuy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (کردار) بەدەستهێنانی شتێک بە لەدەستدانی شتێکی دیکەی بەنرختر"),
+                                  "٤. (کردار) بەدەستھێنانی شتێک بە لەدەستدانی شتێکی دیکەی بەنرختر"),
                           Row(
                             children: [
                               const Expanded(
@@ -451,7 +451,7 @@ class EnglishEntrybuy extends StatelessWidget {
                                             "Her fame was bought at the expense of her marriage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوبانگەکەی بەدەستهێندرا بە لەدەستدانی هاوسەرگیرییەکەی."),
+                                            "ناوبانگەکەی بەدەستھێندرا بە لەدەستدانی ھاوسەرگیرییەکەی."),
                                   ],
                                 ),
                               ),

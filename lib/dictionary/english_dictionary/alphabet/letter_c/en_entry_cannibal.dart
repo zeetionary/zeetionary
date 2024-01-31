@@ -188,9 +188,9 @@ class EnglishEntrycannibal extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پیاوخۆر، مرۆخۆر، خۆخۆر، هاوڕەگەزخۆر، هاوجۆرخۆر
+کوردی: پیاوخۆر، مرۆخۆر، خۆخۆر، ھاوڕەگەزخۆر، ھاوجۆرخۆر
 
-١. (ناو) مرۆڤێک کە مرۆڤ دەخوات، یان ئاژەڵێک کە لە هەمان جۆری خۆی دەخوات"""),
+١. (ناو) مرۆڤێک کە مرۆڤ دەخوات، یان ئاژەڵێک کە لە ھەمان جۆری خۆی دەخوات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,7 @@ class EnglishEntrycannibal extends StatelessWidget {
                                             "In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە فیلمە ترسناکەکەدا، ژمارەیەک هاوڕێ ڕێیان هەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە."),
+                                            "لە فیلمە ترسناکەکەدا، ژمارەیەک ھاوڕێ ڕێیان ھەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە."),
                                   ],
                                 ),
                               ),

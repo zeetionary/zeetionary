@@ -188,7 +188,7 @@ class EnglishEntryburdensome extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گرنگ، سەخت، ئاسێهـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
+کوردی: گرنگ، سەخت، ئاسێھـ، قورس، دژوار، ناخۆش، بەتاڵووکە، پشت‌شکێن
 
 ١. (ھاوەڵناو) شتێک کە بارگرانییە"""),
                           Row(
@@ -201,7 +201,7 @@ class EnglishEntryburdensome extends StatelessWidget {
                                             "The new regulations will be burdensome for small businesses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێسا تازەکان دەکرێت ببنەهۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
+                                            "ڕێسا تازەکان دەکرێت ببنەھۆی بارگرانی بۆ بازرگانییە بچووکەکان."),
                                   ],
                                 ),
                               ),

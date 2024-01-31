@@ -238,7 +238,7 @@ class EnglishEntrybury extends StatelessWidget {
                                             "Those people are now all dead and buried."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو کەسانە ئێستا هەموویان مردوو و لەژێر گڵن."),
+                                            "ئەو کەسانە ئێستا ھەموویان مردوو و لەژێر گڵن."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrybury extends StatelessWidget {
                                             "She's 85 and has buried three husbands."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەمەنی ٨٥ ساڵە و سێ هاوسەری لەدەستداوە."),
+                                            "تەمەنی ٨٥ ساڵە و سێ ھاوسەری لەدەستداوە."),
                                   ],
                                 ),
                               ),
@@ -346,7 +346,7 @@ class EnglishEntrybury extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) داپۆشینی کەسێک/شتێک بە خۆڵ، بەرد، گەڵا، هتد"),
+                                  "٣. (کردار) داپۆشینی کەسێک/شتێک بە خۆڵ، بەرد، گەڵا، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -435,7 +435,7 @@ class EnglishEntrybury extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (کردار) شاردنەوەی هەست، هەڵە، هتد"),
+                              text: "٦. (کردار) شاردنەوەی ھەست، ھەڵە، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -446,7 +446,7 @@ class EnglishEntrybury extends StatelessWidget {
                                             "She had learnt to bury her feelings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فێربوو بوو کە هەستەکانی بشارێتەوە."),
+                                            "فێربوو بوو کە ھەستەکانی بشارێتەوە."),
                                   ],
                                 ),
                               ),
@@ -476,7 +476,7 @@ class EnglishEntrybury extends StatelessWidget {
                                             "He walked slowly, his hands buried in his pockets."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بە هێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
+                                            "بە ھێواشی ڕێی دەکرد و دەستەکانی لە گیرفانیدا بوون."),
                                   ],
                                 ),
                               ),
@@ -504,7 +504,7 @@ class EnglishEntrybury extends StatelessWidget {
                                             "She always has her head buried in a book."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە سەری لەناو کتێبێکدا بوو."),
+                                            "ھەمیشە سەری لەناو کتێبێکدا بوو."),
                                   ],
                                 ),
                               ),

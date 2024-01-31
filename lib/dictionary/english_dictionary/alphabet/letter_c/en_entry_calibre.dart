@@ -189,7 +189,7 @@ class EnglishEntrycalibre extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کالیبر، تیری نێوەوە، دەمە، تیرخۆر، گوللەخۆر (هی تفەنگ)، لێهاتوویی، توانایی، لێوەشاوەیی، چۆنیەتی، ڕادەی باشی یان گرنگایەتی 
+کوردی: کالیبر، تیری نێوەوە، دەمە، تیرخۆر، گوللەخۆر (ھی تفەنگ)، لێھاتوویی، توانایی، لێوەشاوەیی، چۆنیەتی، ڕادەی باشی یان گرنگایەتی 
 
 ١. (ناو) لێوەشاوەیی، بەتایبەتی توانای مرۆڤ"""),
                           Row(
@@ -230,7 +230,7 @@ class EnglishEntrycalibre extends StatelessWidget {
                                             "The company needs more people of your calibre."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە پێویستی بە کەسانی دیکەی وەک تۆ لێوەشاوە هەیە."),
+                                            "کۆمپانیاکە پێویستی بە کەسانی دیکەی وەک تۆ لێوەشاوە ھەیە."),
                                   ],
                                 ),
                               ),

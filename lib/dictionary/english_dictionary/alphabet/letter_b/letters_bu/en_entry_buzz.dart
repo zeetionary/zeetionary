@@ -198,7 +198,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ویزەویز، گیزەگیز، (دەزگا) فڕەفڕ، ڤڕەڤڕ، زرنگانەوە، دەنگەدەنگ، هەراوهوریا، قیژەقیژ، دەنگۆ، قسەڵۆک، دەنگی بوزێر (یان تەلەفۆن)، زەنگ یان زڕەی تەلەفۆن، هەستی وروژان یان خۆشی
+کوردی: ویزەویز، گیزەگیز، (دەزگا) فڕەفڕ، ڤڕەڤڕ، زرنگانەوە، دەنگەدەنگ، ھەراوھوریا، قیژەقیژ، دەنگۆ، قسەڵۆک، دەنگی بوزێر (یان تەلەفۆن)، زەنگ یان زڕەی تەلەفۆن، ھەستی وروژان یان خۆشی
 
 ١. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"""),
                           Row(
@@ -211,7 +211,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "Bees buzzed lazily among the flowers."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەنگ بە هێواشی گیزەیان دەهات لەناو گوڵەکاندا."),
+                                            "ھەنگ بە ھێواشی گیزەیان دەھات لەناو گوڵەکاندا."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دەرکردنی دەنگێک کە وەک دەنگی هەنگ وای"),
+                                  "٢. (کردار) دەرکردنی دەنگێک کە وەک دەنگی ھەنگ وای"),
                           Row(
                             children: [
                               const Expanded(
@@ -241,7 +241,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                         text: "The doorbell buzzed loudly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زەنگی دەرگاکە بە بەرزی دەنگی دەهات."),
+                                            "زەنگی دەرگاکە بە بەرزی دەنگی دەھات."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "New York buzzes from dawn to dusk."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نیویۆرک لە بەرەبەیانەوە تا مەغریب هاژەی دێت."),
+                                            "نیویۆرک لە بەرەبەیانەوە تا مەغریب ھاژەی دێت."),
                                   ],
                                 ),
                               ),
@@ -359,7 +359,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "I heard a buzz and then saw the plane in the distance."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێم لە هاژەکە بوو و دواتر فڕۆکەکەم لە دوورەوە دیت."),
+                                            "گوێم لە ھاژەکە بوو و دواتر فڕۆکەکەم لە دوورەوە دیت."),
                                   ],
                                 ),
                               ),
@@ -387,7 +387,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "He was woken by the buzz of a mosquito in his ear."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە خەو هەستا بە دەنگی مێشوولەیەک لە گوێیدا."),
+                                            "لە خەو ھەستا بە دەنگی مێشوولەیەک لە گوێیدا."),
                                   ],
                                 ),
                               ),
@@ -418,7 +418,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "The buzz of conversation suddenly stopped when she came into the room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگی گفتوگۆ لەناکاو وەستا کە ئەو هاتە ژوورەکە."),
+                                            "دەنگی گفتوگۆ لەناکاو وەستا کە ئەو ھاتە ژوورەکە."),
                                   ],
                                 ),
                               ),
@@ -438,7 +438,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) هەستێکی بەهێزی خۆشحاڵی، جۆشهوخرۆشی، هتد"),
+                                  "٧. (ناو) ھەستێکی بەھێزی خۆشحاڵی، جۆشھوخرۆشی، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -448,7 +448,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                         text: "Flying gives me a real buzz."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فڕین هەستێکی تەواو ڕاستەقینەم پێ دەبەخشێت."),
+                                            "فڕین ھەستێکی تەواو ڕاستەقینەم پێ دەبەخشێت."),
                                   ],
                                 ),
                               ),
@@ -476,7 +476,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "There was a buzz of excitement all around the room."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستێکی خۆشی لە تەواوی ژوورەکەدا هەبوو."),
+                                            "ھەستێکی خۆشی لە تەواوی ژوورەکەدا ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -496,7 +496,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٨. (ناو) هەواڵێک کە خەڵکی بە یەکدی دەڵێن و لەوانەیە ڕاست بێت و لەوانەیە ڕاست نەبێت"),
+                                  "٨. (ناو) ھەواڵێک کە خەڵکی بە یەکدی دەڵێن و لەوانەیە ڕاست بێت و لەوانەیە ڕاست نەبێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -507,7 +507,7 @@ class EnglishEntrybuzz extends StatelessWidget {
                                             "The buzz is that Matt is in Scotland. Have you heard anything?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قسەڵۆکەکە ئەوەیە مات لە سکۆتلەندایە. هیچت بیستووە؟"),
+                                            "قسەڵۆکەکە ئەوەیە مات لە سکۆتلەندایە. ھیچت بیستووە؟"),
                                   ],
                                 ),
                               ),

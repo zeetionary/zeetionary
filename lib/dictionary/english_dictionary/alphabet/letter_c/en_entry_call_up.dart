@@ -200,7 +200,7 @@ class EnglishEntrycallup extends StatelessWidget {
                                             "Because of his occupation, he was not liable for call-up."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە."),
+                                            "بەھۆی پیشەکەیەوە، خزمەتی سەربازی نەیدەگرتەوە."),
                                   ],
                                 ),
                               ),
@@ -219,7 +219,7 @@ class EnglishEntrycallup extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هەلی یاریکردن لە تیمێکی وەرزشی"),
+                              text: "٢. (ناو) ھەلی یاریکردن لە تیمێکی وەرزشی"),
                           Row(
                             children: [
                               const Expanded(

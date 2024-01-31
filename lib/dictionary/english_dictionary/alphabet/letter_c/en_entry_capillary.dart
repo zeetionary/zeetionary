@@ -188,7 +188,7 @@ class EnglishEntrycapillary extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مووڕەگ، دەزووڕەگ، ڕەهچک، موولوولە، ڕەگەمووینە، دەزوولە
+کوردی: مووڕەگ، دەزووڕەگ، ڕەھچک، موولوولە، ڕەگەمووینە، دەزوولە
 
 ١. (ناو) موولوولەی خوێن؛ ئەو ڕێچکە بچووکانەی جەستە کە خوێن دەگوازنەوە"""),
                           Row(

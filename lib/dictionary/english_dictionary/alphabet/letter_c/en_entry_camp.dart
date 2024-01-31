@@ -196,7 +196,7 @@ class EnglishEntrycamp extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: وارگە، چادرگا، کەمپ، هۆبە، زۆم، بارەگا، هەوارگە، لەشکرگا، ڕێباز، گروپ، دەستە، حیزب، خێوەت، چادر
+کوردی: وارگە، چادرگا، کەمپ، ھۆبە، زۆم، بارەگا، ھەوارگە، لەشکرگا، ڕێباز، گروپ، دەستە، حیزب، خێوەت، چادر
 
 ١. (ناو) خێوەت یان بینای کاتی کە خەڵکی بە کاتی تێیدا دەژی"""),
                           Row(
@@ -235,7 +235,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                             "We broke camp early the next morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ هێنا."),
+                                            "بەیانی ڕۆژی دواتر کۆتاییمان بە کەمپ ھێنا."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntrycamp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) شێنێک کە منداڵان لە هاوینا بۆی دەچن و وەرزش و چالاکی دیکە ئەنجام دەدەن"),
+                                  "٢. (ناو) شێنێک کە منداڵان لە ھاوینا بۆی دەچن و وەرزش و چالاکی دیکە ئەنجام دەدەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,7 +266,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                             "He spent two weeks at camp this summer."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو هەفتەی لە کامپ بەسەر برد ئەم هاوینە."),
+                                            "دوو ھەفتەی لە کامپ بەسەر برد ئەم ھاوینە."),
                                   ],
                                 ),
                               ),
@@ -317,7 +317,7 @@ class EnglishEntrycamp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) شوێنی ژیانی سەربازان لە کاتی جەنگ یان ڕاهێنان"),
+                                  "٤. (ناو) شوێنی ژیانی سەربازان لە کاتی جەنگ یان ڕاھێنان"),
                           Row(
                             children: [
                               const Expanded(
@@ -348,7 +348,7 @@ class EnglishEntrycamp extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) کۆمەڵە کەسێک کە هەمان بیرۆکەیان هەیە و دژی ئەو کەسانەن کە بیرۆکەی تریان هەیە"),
+                                  "٥. (ناو) کۆمەڵە کەسێک کە ھەمان بیرۆکەیان ھەیە و دژی ئەو کەسانەن کە بیرۆکەی تریان ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -385,7 +385,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                             "The region split into two armed camps."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
+                                            "ھەرێمەکە بوو بە دوو کەرتی سەربازیی دژبەرەوە."),
                                   ],
                                 ),
                               ),
@@ -415,7 +415,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                             "There was an air of confidence in the England camp."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕواڵەتێکی خۆباوەڕی هەبوو لە لایەنی ئینگلتەرە."),
+                                            "ڕواڵەتێکی خۆباوەڕی ھەبوو لە لایەنی ئینگلتەرە."),
                                   ],
                                 ),
                               ),
@@ -475,7 +475,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                             "They go camping in France every year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
+                                            "ھەموو ساڵێک دەچن بۆ کەمپکردن لە فەرەنسا."),
                                   ],
                                 ),
                               ),
@@ -506,7 +506,7 @@ class EnglishEntrycamp extends StatelessWidget {
                                             "I'm camping out at a friend's apartment at the moment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ئێستادا لە دەستەژووری هاوڕێیەکم دەمێنمەوە."),
+                                            "لە ئێستادا لە دەستەژووری ھاوڕێیەکم دەمێنمەوە."),
                                   ],
                                 ),
                               ),

@@ -144,7 +144,7 @@ class EnglishEntrybulk extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گەورەیی، زلەیی، زەلامی، زلی، قەبەیی، بڕێکی زۆر، هەیکەل، قیافە، بارستە، ئەندازە، بارستایی، بەشی سەرەکی، پشکی بنگەهی، کەل‌وپەل یان شمەکی هەڵڕژاو، هەڕەمە، گۆترە
+کوردی: گەورەیی، زلەیی، زەلامی، زلی، قەبەیی، بڕێکی زۆر، ھەیکەل، قیافە، بارستە، ئەندازە، بارستایی، بەشی سەرەکی، پشکی بنگەھی، کەل‌وپەل یان شمەکی ھەڵڕژاو، ھەڕەمە، گۆترە
 
 ١. (ناو) بەشی سەرەکیی شتێک؛ گرنگترین بەشی شتێک"""),
                           Row(
@@ -243,7 +243,7 @@ class EnglishEntrybulk extends StatelessWidget {
                                         text: "It's cheaper to buy in bulk."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
+                                            "ھەرزانترە ئەگەر بە بڕێکی زۆر بیکڕیت."),
                                   ],
                                 ),
                               ),
@@ -273,7 +273,7 @@ class EnglishEntrybulk extends StatelessWidget {
                                             "She eased/heaved her large bulk out of the chair."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
+                                            "ھەیکەلە زلەکەی لە کورسییەکە بەرزکردەوە."),
                                   ],
                                 ),
                               ),

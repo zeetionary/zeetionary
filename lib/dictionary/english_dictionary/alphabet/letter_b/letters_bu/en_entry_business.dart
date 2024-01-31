@@ -451,7 +451,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                             "There will be some changes to the way we conduct business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک گۆڕانکاری دەبێت لە شێوازی کارکردنماندا."),
+                                            "ھەندێک گۆڕانکاری دەبێت لە شێوازی کارکردنماندا."),
                                   ],
                                 ),
                               ),
@@ -482,7 +482,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                                     "When he left school, he went into business with his brother."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کە قوتابخانەی جێهێشت، چووە کارەوە لەگەڵ براکەیدا."),
+                                                    "کە قوتابخانەی جێھێشت، چووە کارەوە لەگەڵ براکەیدا."),
                                           ],
                                         ),
                                       ),
@@ -790,7 +790,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                             "We try to support local businesses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ دەدەین پشتگیری کاردارییە خۆجێیەکان بکەین."),
+                                            "ھەوڵ دەدەین پشتگیری کاردارییە خۆجێیەکان بکەین."),
                                   ],
                                 ),
                               ),
@@ -818,7 +818,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                             "He wanted to expand the export side of the business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵیدا لایەنی هەناردەی کارەکەی گەشەپێ‌بدات."),
+                                            "ھەوڵیدا لایەنی ھەناردەی کارەکەی گەشەپێ‌بدات."),
                                   ],
                                 ),
                               ),
@@ -975,7 +975,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                                     "My private life is none of your business (= not something that you need to know about)."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ژیانی تایبەتیم هیچ پەیوەندی بە تۆوە نییە."),
+                                                    "ژیانی تایبەتیم ھیچ پەیوەندی بە تۆوە نییە."),
                                           ],
                                         ),
                                       ),
@@ -1012,7 +1012,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                             "He has some unfinished business to deal with."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کاری ناتەواوی هەیە تەواویان بکات."),
+                                            "ھەندێک کاری ناتەواوی ھەیە تەواویان بکات."),
                                   ],
                                 ),
                               ),
@@ -1129,7 +1129,7 @@ class EnglishEntrybusiness extends StatelessWidget {
                                             "We're grateful for your business."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سوپاسگوزارین بۆ هەڵبژاردنی ئێمە."),
+                                            "سوپاسگوزارین بۆ ھەڵبژاردنی ئێمە."),
                                   ],
                                 ),
                               ),

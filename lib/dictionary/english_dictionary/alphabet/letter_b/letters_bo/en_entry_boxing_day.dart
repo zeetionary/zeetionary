@@ -113,7 +113,7 @@ class EnglishEntryboxingday extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɑːksɪŋ deɪ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakboxingday("en-US"),
                             ),

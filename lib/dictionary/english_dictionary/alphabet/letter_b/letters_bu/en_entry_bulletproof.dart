@@ -151,7 +151,7 @@ class EnglishEntrybulletproof extends StatelessWidget {
                                             "A bulletproof limousine used by the president was on display in the museum."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەهات لە نمایشدا بوو لە مۆزەخانە."),
+                                            "لیمۆزینێکی گوللەنەبڕ کە لەلایەن سەرۆکەوە بەکاردەھات لە نمایشدا بوو لە مۆزەخانە."),
                                   ],
                                 ),
                               ),

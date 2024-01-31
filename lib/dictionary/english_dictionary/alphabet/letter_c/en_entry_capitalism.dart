@@ -200,7 +200,7 @@ class EnglishEntrycapitalism extends StatelessWidget {
                                             "She deplored unbridled capitalism as much as communism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێندەی کۆمیونیزم ڕقی لە سەرمایەداریی بێ‌جڵەو بوو."),
+                                            "ھێندەی کۆمیونیزم ڕقی لە سەرمایەداریی بێ‌جڵەو بوو."),
                                   ],
                                 ),
                               ),

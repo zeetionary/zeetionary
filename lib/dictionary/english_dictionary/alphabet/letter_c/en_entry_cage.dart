@@ -189,7 +189,7 @@ class EnglishEntrycage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قەفەز، قەفەس، ڕ(ە)کە، بێرکم، هەودک، بەند، هەود
+کوردی: قەفەز، قەفەس، ڕ(ە)کە، بێرکم، ھەودک، بەند، ھەود
 
 ١. (ناو) قەفەز"""),
                           Row(

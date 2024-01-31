@@ -200,7 +200,7 @@ class EnglishEntrybureaucratic extends StatelessWidget {
                                             "The company was inefficient because it was highly bureaucratic."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە کەم‌بەرهەم بوو بەهۆی زۆریی بیرۆکراسی."),
+                                            "کۆمپانیاکە کەم‌بەرھەم بوو بەھۆی زۆریی بیرۆکراسی."),
                                   ],
                                 ),
                               ),
@@ -222,7 +222,7 @@ class EnglishEntrybureaucratic extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ھاوەڵناو) لەخۆگرتنی بڕیار و پڕۆسەی ئاڵۆز کە وادەکات شتەکان هێواش و گران بن"),
+                                  "٢. (ھاوەڵناو) لەخۆگرتنی بڕیار و پڕۆسەی ئاڵۆز کە وادەکات شتەکان ھێواش و گران بن"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,7 +233,7 @@ class EnglishEntrybureaucratic extends StatelessWidget {
                                             "I had a lot of bureaucratic hassle trying to get the information I needed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر کێشمەکێشمی کارگێڕیانەم هەبوو بۆ دەستکەوتنی زانیارییەکان."),
+                                            "زۆر کێشمەکێشمی کارگێڕیانەم ھەبوو بۆ دەستکەوتنی زانیارییەکان."),
                                   ],
                                 ),
                               ),

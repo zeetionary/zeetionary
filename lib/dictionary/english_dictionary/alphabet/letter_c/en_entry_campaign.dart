@@ -195,9 +195,9 @@ class EnglishEntrycampaign extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: زنجیرە کردارێکی شەڕی، کردار (شەڕ)، هێرش، پەلامار، شاڵاو، هەڵمەت، خەبات، چالاکی، ستراتێژی
+کوردی: زنجیرە کردارێکی شەڕی، کردار (شەڕ)، ھێرش، پەلامار، شاڵاو، ھەڵمەت، خەبات، چالاکی، ستراتێژی
 
-١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستهێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"""),
+١. (ناو) زنجیرە چالاکییەکی بە پلان کە ئامانج لێی بەدەستھێنانێکی سیاسی، بازرگانی، یان کۆمەڵایەتییە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -208,7 +208,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                                             "Today police launched a campaign to reduce road accidents."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی هاتووچۆ."),
+                                            "ئەمڕۆ پۆلیس کەمپینێکی ڕاگەیاند بۆ کەمکردنەوەی ڕووداوی ھاتووچۆ."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                                             "The candidates are on the campaign trail (= travelling around to attract support)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەربژێرەکان لە هەڵمەتی بانگەشەدان."),
+                                            "بەربژێرەکان لە ھەڵمەتی بانگەشەدان."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                                                     "She led the campaign for parliamentary reform."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "سەرکردایەتی هەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
+                                                    "سەرکردایەتی ھەڵمەتی چاکسازیی پەرلەمانی دەکرد."),
                                           ],
                                         ),
                                       ),
@@ -323,7 +323,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) زنجیرەیەک لە هێرش و شەڕ کە ئامانجێکی دیاریکراویان هەیە لە جەنگێکدا"),
+                                  "٢. (ناو) زنجیرەیەک لە ھێرش و شەڕ کە ئامانجێکی دیاریکراویان ھەیە لە جەنگێکدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -334,7 +334,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                                             "Air battles had dominated the campaign."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەڕی ئاسمانی بەشی سەرەکیی هەڵمەتەکە بوون."),
+                                            "شەڕی ئاسمانی بەشی سەرەکیی ھەڵمەتەکە بوون."),
                                   ],
                                 ),
                               ),
@@ -362,7 +362,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                                             "The government has intensified the military campaign against the rebels."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت هەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
+                                            "حکومەت ھەڵمەتی سەربازی چڕکردبووەوە دژ بە یاخیبووان."),
                                   ],
                                 ),
                               ),
@@ -382,7 +382,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی هەڵمەتێک"),
+                                  "٣. (کردار) بەژداری یان ڕابەڕایەتی کردنی ھەڵمەتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -421,7 +421,7 @@ class EnglishEntrycampaign extends StatelessWidget {
                                             "We have actively campaigned against whaling for the last 15 years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەهەنگ."),
+                                            "بۆ ماوەی ١٥ ساڵی ڕابردوو بە چالاکییەوە خەباتمان کردووە دژ بە ڕاوکردنی نەھەنگ."),
                                   ],
                                 ),
                               ),

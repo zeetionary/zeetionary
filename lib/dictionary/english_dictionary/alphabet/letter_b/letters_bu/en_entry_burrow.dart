@@ -193,7 +193,7 @@ class EnglishEntryburrow extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کون، بوودڕ، ڕەهەند، ڕەهۆڵ، نقول، نەغمە
+کوردی: کون، بوودڕ، ڕەھەند، ڕەھۆڵ، نقول، نەغمە
 
 ١. (کردار) درووستکردنی کونێک یان تونێلێک لە زەویدا"""),
                           Row(

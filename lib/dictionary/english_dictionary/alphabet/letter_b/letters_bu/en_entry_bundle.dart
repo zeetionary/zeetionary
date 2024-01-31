@@ -236,7 +236,7 @@ class EnglishEntrybundle extends StatelessWidget {
                                         text:
                                             "She was carrying a large bundle of clothes."),
                                     ExampleSentenceKurdish(
-                                        text: "دەستەیەکی گەورە جلی هەڵگرتبوو."),
+                                        text: "دەستەیەکی گەورە جلی ھەڵگرتبوو."),
                                   ],
                                 ),
                               ),
@@ -297,7 +297,7 @@ class EnglishEntrybundle extends StatelessWidget {
                                             "He wasn't exactly a bundle of laughs (= a happy person to be with) last night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەسێکی هێندە بەزمەسات نەبوو دوێنێ شەو."),
+                                            "کەسێکی ھێندە بەزمەسات نەبوو دوێنێ شەو."),
                                   ],
                                 ),
                               ),

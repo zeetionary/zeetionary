@@ -517,9 +517,9 @@ class EnglishEntrycall extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بانگ، جاڕ، هەرا، قاو، قیژە، هاوار، دەنگ، گازی، بانگەواز، بانگێشت، بانگەشە، بانگهێشتن، لێ‌گێڕانەوە، پەیام، دەنگ‌وباس، هەواڵ، تەلەفون، قسەکردنی تەلەفونی، پێوەندی تەلەفونی، دیدار، سەرلێدان، سەردان، هاوبینی، بڕیاری یەکتربینین یان سەردان، داوا، داخوازی، خۆستەک، داواکاری، داواکردن، بانگ یان دەنگی ئاسمانی، پێداویستی، (نۆرەی) خوێندنەوە، سەرنج‌ڕاکێشان، ڕاکێشان، بالکێشی، گیرایی
+کوردی: بانگ، جاڕ، ھەرا، قاو، قیژە، ھاوار، دەنگ، گازی، بانگەواز، بانگێشت، بانگەشە، بانگھێشتن، لێ‌گێڕانەوە، پەیام، دەنگ‌وباس، ھەواڵ، تەلەفون، قسەکردنی تەلەفونی، پێوەندی تەلەفونی، دیدار، سەرلێدان، سەردان، ھاوبینی، بڕیاری یەکتربینین یان سەردان، داوا، داخوازی، خۆستەک، داواکاری، داواکردن، بانگ یان دەنگی ئاسمانی، پێداویستی، (نۆرەی) خوێندنەوە، سەرنج‌ڕاکێشان، ڕاکێشان، بالکێشی، گیرایی
 
-١. (کردار) ناوهێنان، ناونان"""),
+١. (کردار) ناوھێنان، ناونان"""),
                           Row(
                             children: [
                               const Expanded(
@@ -558,7 +558,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "His name's Hiroshi but everyone calls him Hiro."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوی هیرۆشییە بەڵام هەمووان پێی دەڵێن هیرۆ."),
+                                            "ناوی ھیرۆشییە بەڵام ھەمووان پێی دەڵێن ھیرۆ."),
                                   ],
                                 ),
                               ),
@@ -888,7 +888,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "Call yourself a friend? So why won't you help me, then?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆت بە هاوڕێ دادەنێیت؟ دەی کەوایە بۆ یارمەتیم نادەیت؟"),
+                                            "خۆت بە ھاوڕێ دادەنێیت؟ دەی کەوایە بۆ یارمەتیم نادەیت؟"),
                                   ],
                                 ),
                               ),
@@ -916,7 +916,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "She's no right to call herself a feminist."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ مافێکی نییە خۆت بە فێمێنیست ناو ببات."),
+                                            "ھیچ مافێکی نییە خۆت بە فێمێنیست ناو ببات."),
                                   ],
                                 ),
                               ),
@@ -936,7 +936,7 @@ class EnglishEntrycall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) هاوارکردن یان وتن بە دەنگی بەرز بۆ ڕاکێشانی سەرنجی کەسێک"),
+                                  "٦. (کردار) ھاوارکردن یان وتن بە دەنگی بەرز بۆ ڕاکێشانی سەرنجی کەسێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -946,7 +946,7 @@ class EnglishEntrycall extends StatelessWidget {
                                         text:
                                             "She called out to her father for help."),
                                     ExampleSentenceKurdish(
-                                        text: "هاواری بۆباوکی کرد بۆ یارمەتی."),
+                                        text: "ھاواری بۆباوکی کرد بۆ یارمەتی."),
                                   ],
                                 ),
                               ),
@@ -1066,7 +1066,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "He heard me call him and came to the door."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێی لە بانگکردنم بوو و هات بۆ لای دەرگاکە."),
+                                            "گوێی لە بانگکردنم بوو و ھات بۆ لای دەرگاکە."),
                                   ],
                                 ),
                               ),
@@ -1192,7 +1192,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "The prime minister has called an election for 8 June."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرۆک وەزیران بڕیاری هەڵبژاردنی داوە لە ٨ی حوزەیران."),
+                                            "سەرۆک وەزیران بڕیاری ھەڵبژاردنی داوە لە ٨ی حوزەیران."),
                                   ],
                                 ),
                               ),
@@ -1309,7 +1309,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "The result of this election is going to be too close to call."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەنجامی ئەم هەڵبژاردنە زۆر نزیک دەبێت تا پێشبینی بکرێت."),
+                                            "ئەنجامی ئەم ھەڵبژاردنە زۆر نزیک دەبێت تا پێشبینی بکرێت."),
                                   ],
                                 ),
                               ),
@@ -1337,7 +1337,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "Most media pundits called it for the Conservatives."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر لە شارەزایانی میدیا بۆ پارتی پارێزگاران پێشبینی کرد (ئەوەی کە پارێزگاران هەڵبژاردنەکە دەبەنەوە)."),
+                                            "زۆر لە شارەزایانی میدیا بۆ پارتی پارێزگاران پێشبینی کرد (ئەوەی کە پارێزگاران ھەڵبژاردنەکە دەبەنەوە)."),
                                   ],
                                 ),
                               ),
@@ -1367,7 +1367,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "I'll take (= answer) the call upstairs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەڵامی تەلەفۆنەکەی (نهۆمی) سەرەوە دەدەمەوە."),
+                                            "وەڵامی تەلەفۆنەکەی (نھۆمی) سەرەوە دەدەمەوە."),
                                   ],
                                 ),
                               ),
@@ -1395,7 +1395,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "I left a message but he didn't return my call."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەیامێکم جێهێشت بەڵام وەڵامی نەبوو."),
+                                            "پەیامێکم جێھێشت بەڵام وەڵامی نەبوو."),
                                   ],
                                 ),
                               ),
@@ -1414,7 +1414,7 @@ class EnglishEntrycall extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٤. (ناو) هاوار و بانگکردن"),
+                              text: "١٤. (ناو) ھاوار و بانگکردن"),
                           Row(
                             children: [
                               const Expanded(
@@ -1425,7 +1425,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "She could hear calls for help from inside the burning building."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێ لە هاواری بانگکردن بۆ یارمەتی بوو لەناو بینا گڕگرتووەکەدا."),
+                                            "گوێ لە ھاواری بانگکردن بۆ یارمەتی بوو لەناو بینا گڕگرتووەکەدا."),
                                   ],
                                 ),
                               ),
@@ -1455,7 +1455,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "The whale has a very distinctive call."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نەهەنگ دەنگێکی زۆر تایبەتمەندی هەیە."),
+                                            "نەھەنگ دەنگێکی زۆر تایبەتمەندی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1545,7 +1545,7 @@ class EnglishEntrycall extends StatelessWidget {
                                                     "The charity issued a call for donations to assist victims of the earthquake."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ڕێکخراوەکە داوای بەخشینی کرد بۆ بەهاناوەچوونی قوربانیانی بومەلەرزەکە."),
+                                                    "ڕێکخراوەکە داوای بەخشینی کرد بۆ بەھاناوەچوونی قوربانیانی بومەلەرزەکە."),
                                           ],
                                         ),
                                       ),
@@ -1570,7 +1570,7 @@ class EnglishEntrycall extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "١٧. (ناو) هۆکار یان خواست"),
+                              text: "١٧. (ناو) ھۆکار یان خواست"),
                           Row(
                             children: [
                               const Expanded(
@@ -1581,7 +1581,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "There was no call for you to go upsetting everyone like that."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ هۆکارێک نەبوو بۆت کە بچیت هەمووان بەو شێوەیە بێزار بکەیت."),
+                                            "ھیچ ھۆکارێک نەبوو بۆت کە بچیت ھەمووان بەو شێوەیە بێزار بکەیت."),
                                   ],
                                 ),
                               ),
@@ -1609,7 +1609,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "There's not much call for fur coats these days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم ڕۆژانە هێندە خواست نییە بۆ قەمسەڵەی فەروودار."),
+                                            "ئەم ڕۆژانە ھێندە خواست نییە بۆ قەمسەڵەی فەروودار."),
                                   ],
                                 ),
                               ),
@@ -1640,7 +1640,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "She is a busy woman with many calls on her time."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژنێکی سەرقاڵە و داوای زۆر هەیە بۆ کاتی."),
+                                            "ژنێکی سەرقاڵە و داوای زۆر ھەیە بۆ کاتی."),
                                   ],
                                 ),
                               ),
@@ -1670,7 +1670,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "The doctor has five calls to make this morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دکتۆرەکە ئەم بەیانییە پێنج سەردانی هەیە بۆ کردن."),
+                                            "دکتۆرەکە ئەم بەیانییە پێنج سەردانی ھەیە بۆ کردن."),
                                   ],
                                 ),
                               ),
@@ -1718,7 +1718,7 @@ class EnglishEntrycall extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢٠. (ناو) هەستێکی تایبەتی سەرنجڕاکێشی کە شوێنێک لات هەیەتی"),
+                                  "٢٠. (ناو) ھەستێکی تایبەتی سەرنجڕاکێشی کە شوێنێک لات ھەیەتی"),
                           Row(
                             children: [
                               const Expanded(
@@ -1748,7 +1748,7 @@ class EnglishEntrycall extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢١. (ناو) هەستێکی بەهێز بۆ کردنی شتێک"),
+                              text: "٢١. (ناو) ھەستێکی بەھێز بۆ کردنی شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -1759,7 +1759,7 @@ class EnglishEntrycall extends StatelessWidget {
                                             "He felt the call to the priesthood early on in his life."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستی بە حەزی بوون بە قەشە کرد لە سەرەتای تەمەنیدا."),
+                                            "ھەستی بە حەزی بوون بە قەشە کرد لە سەرەتای تەمەنیدا."),
                                   ],
                                 ),
                               ),

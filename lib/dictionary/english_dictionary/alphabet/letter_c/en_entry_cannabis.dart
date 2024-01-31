@@ -191,7 +191,7 @@ class EnglishEntrycannabis extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گیابەنگ، حەشیشە، مەریوانە، گوڵەلێوە
 
-١. (ناو) ڕووەکێکی درێژ کە بەکاردێت بۆ درووستکردنی ڕیشاڵیک کە حەبل و جلی پێ درووست دەکرێت، و بۆ درووستکردنی مادەی هۆشبەر"""),
+١. (ناو) ڕووەکێکی درێژ کە بەکاردێت بۆ درووستکردنی ڕیشاڵیک کە حەبل و جلی پێ درووست دەکرێت، و بۆ درووستکردنی مادەی ھۆشبەر"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycannabis extends StatelessWidget {
                                             "Cannabis has been cultivated for centuries for its versatile applications."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەهۆی بەکارهێنانە جۆراوجۆرەکانی."),
+                                            "گیابەنگ بۆ چەندین سەدەیە چاندراوە بەھۆی بەکارھێنانە جۆراوجۆرەکانی."),
                                   ],
                                 ),
                               ),
@@ -222,7 +222,7 @@ class EnglishEntrycannabis extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) مادەیەکی هۆشبەر کە لە گەڵاکان یان گوڵی ڕووەکی مەریوانە وەردەگیردرێت و دەکیشرێت یان دەخورێت و هەستێکی ئاسوودەبەخش دەدات. مادەکە لە زۆر وڵاتدا قەدەغەیە"),
+                                  "٢. (ناو) مادەیەکی ھۆشبەر کە لە گەڵاکان یان گوڵی ڕووەکی مەریوانە وەردەگیردرێت و دەکیشرێت یان دەخورێت و ھەستێکی ئاسوودەبەخش دەدات. مادەکە لە زۆر وڵاتدا قەدەغەیە"),
                           Row(
                             children: [
                               const Expanded(

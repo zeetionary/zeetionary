@@ -1561,7 +1561,7 @@ class EnglishEntrybreak extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (کردار) (لە تێنسدا) بردنەوەی یارییەک هەرکە ڕکابەرەکە یەکەم سێرڤ لێدەدات"),
+                                  "١١. (کردار) (لە تێنسدا) بردنەوەی یارییەک ھەرکە ڕکابەرەکە یەکەم سێرڤ لێدەدات"),
                           Row(
                             children: [
                               const Expanded(

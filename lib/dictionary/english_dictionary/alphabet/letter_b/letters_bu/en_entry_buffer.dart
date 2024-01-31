@@ -186,7 +186,7 @@ class EnglishEntrybuffer extends StatelessWidget {
                                             "Peacekeepers have been sent in to establish a buffer zone between the rival forces."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێزی ئاشتی‌پارێز نێردراون بۆ درووستکردنی ناوچەی ئارام لە نێوان هێزە دژبەرەکان."),
+                                            "ھێزی ئاشتی‌پارێز نێردراون بۆ درووستکردنی ناوچەی ئارام لە نێوان ھێزە دژبەرەکان."),
                                   ],
                                 ),
                               ),
@@ -279,7 +279,7 @@ class EnglishEntrybuffer extends StatelessWidget {
                                             "Efforts were made to buffer the effects."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ درا کاریگەرییەکان کەم بکرێنەوە."),
+                                            "ھەوڵ درا کاریگەرییەکان کەم بکرێنەوە."),
                                   ],
                                 ),
                               ),
@@ -336,7 +336,7 @@ class EnglishEntrybuffer extends StatelessWidget {
                                             "He tried to buffer her from the bad news."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵی دا لە هەواڵی خراپ بیپارێزێت."),
+                                            "ھەوڵی دا لە ھەواڵی خراپ بیپارێزێت."),
                                   ],
                                 ),
                               ),

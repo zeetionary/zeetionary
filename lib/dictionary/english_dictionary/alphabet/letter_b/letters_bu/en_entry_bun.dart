@@ -261,7 +261,7 @@ class EnglishEntrybun extends StatelessWidget {
                                             "Sitting on a hard surface for long periods can lead to sore buns."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانیشتن لەسەر ڕوویەکی ڕەق بۆ ماوەیەکی زۆر دەکرێت ببێتە هۆی ئێشی سمت."),
+                                            "دانیشتن لەسەر ڕوویەکی ڕەق بۆ ماوەیەکی زۆر دەکرێت ببێتە ھۆی ئێشی سمت."),
                                   ],
                                 ),
                               ),

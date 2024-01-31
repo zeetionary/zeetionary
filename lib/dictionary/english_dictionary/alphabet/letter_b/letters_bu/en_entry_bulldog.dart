@@ -142,7 +142,7 @@ class EnglishEntrybulldog extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: بۆلداگ، گاسەگ
 
-١. (ناو) سەگێکی بچووک کە لاقی کورتی هەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەهێز بێت"""),
+١. (ناو) سەگێکی بچووک کە لاقی کورتی ھەیە لەگەڵ ڕووخسارێکی وارگۆشە دەکرێت ترسێنەر و بەھێز بێت"""),
                           Row(
                             children: [
                               const Expanded(

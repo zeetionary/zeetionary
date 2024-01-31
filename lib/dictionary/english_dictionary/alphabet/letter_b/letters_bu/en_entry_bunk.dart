@@ -189,9 +189,9 @@ class EnglishEntrybunk extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی:  تەختی دیواری، تەختی دوونهۆم، قسەی هیچەکە، هەڵیت‌وپڵیت، درۆ و دەلەسە، تێ‌قووچاندن، بۆی دەرچوون، تێ‌تەقاندن، پێ‌پێوەنان
+کوردی:  تەختی دیواری، تەختی دوونھۆم، قسەی ھیچەکە، ھەڵیت‌وپڵیت، درۆ و دەلەسە، تێ‌قووچاندن، بۆی دەرچوون، تێ‌تەقاندن، پێ‌پێوەنان
 
-١. (ناو) جێگەی نووستن کە بە دیوارێکەوە لکاوە، بۆ نموونە لەسەر شەمەندەفەر، یان دوو نهۆمی بۆ منداڵان"""),
+١. (ناو) جێگەی نووستن کە بە دیوارێکەوە لکاوە، بۆ نموونە لەسەر شەمەندەفەر، یان دوو نھۆمی بۆ منداڵان"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrybunk extends StatelessWidget {
                                             "I slept in the bottom bunk of a set of bunk beds."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونهۆمییەکەدا."),
+                                            "لە جێگە نووستنەکەی خوارەوە نووستم لە تەختە دوونھۆمییەکەدا."),
                                   ],
                                 ),
                               ),
@@ -232,7 +232,7 @@ class EnglishEntrybunk extends StatelessWidget {
                                             "Most economists think his theories are sheer bunk."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر ئابووریناس وابیردەکەنەوە قسەکانی هەڵیت‌وپەڵیت بن."),
+                                            "زۆر ئابووریناس وابیردەکەنەوە قسەکانی ھەڵیت‌وپەڵیت بن."),
                                   ],
                                 ),
                               ),

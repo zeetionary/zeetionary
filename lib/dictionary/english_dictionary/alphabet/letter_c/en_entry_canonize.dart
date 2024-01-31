@@ -188,7 +188,7 @@ class EnglishEntrycanonize extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) ناساندن کەسێک وەک پیرۆز لەلایەن پاپای ئایینی مەسیحییەتەوە بەهۆی شێوازی ژیانی یان مردنی"""),
+١. (کردار) ناساندن کەسێک وەک پیرۆز لەلایەن پاپای ئایینی مەسیحییەتەوە بەھۆی شێوازی ژیانی یان مردنی"""),
                           Row(
                             children: [
                               const Expanded(

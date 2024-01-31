@@ -233,7 +233,7 @@ class EnglishEntrybuzzard extends StatelessWidget {
                                             "The territory offers nothing but the occasional buzzard gorging on a roadkill."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوچەکە هیچی تێدا نییە جگە لە داڵەکەرخۆر کە ئاژەڵی کوژراوی سەر شەقام دەخۆن."),
+                                            "ناوچەکە ھیچی تێدا نییە جگە لە داڵەکەرخۆر کە ئاژەڵی کوژراوی سەر شەقام دەخۆن."),
                                   ],
                                 ),
                               ),

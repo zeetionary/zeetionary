@@ -188,7 +188,7 @@ class EnglishEntrycalculable extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لە لێکدانەوەهاتوو، لێک‌دەردێتەوە
+کوردی: لە لێکدانەوەھاتوو، لێک‌دەردێتەوە
 
 ١. (ھاوەڵناو) شتێک کە دەجەمڵێندرێت"""),
                           Row(

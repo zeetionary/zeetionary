@@ -103,7 +103,7 @@ class EnglishEntrybulletpoint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʊlɪt pɔɪnt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbulletpoint("en-GB"),
                             ),
@@ -111,7 +111,7 @@ class EnglishEntrybulletpoint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʊlɪt pɔɪnt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbulletpoint("en-US"),
                             ),

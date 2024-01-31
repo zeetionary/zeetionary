@@ -265,7 +265,7 @@ class EnglishEntrycabin extends StatelessWidget {
                                             "We spent weekends in a cozy cabin by the lake."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆتایی هەفتەمان لە کابینەیەکی ئاسوودەبەخش بەسەر دەبرد لە نزیک دەریاچەکە."),
+                                            "کۆتایی ھەفتەمان لە کابینەیەکی ئاسوودەبەخش بەسەر دەبرد لە نزیک دەریاچەکە."),
                                   ],
                                 ),
                               ),

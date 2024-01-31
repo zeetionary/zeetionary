@@ -260,7 +260,7 @@ class EnglishEntrybusinessman extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پیاوێک یان ژنێک کە شارەزایی هەیە لە بازرگانی و کاری دارایی"),
+                                  "٢. (ناو) پیاوێک یان ژنێک کە شارەزایی ھەیە لە بازرگانی و کاری دارایی"),
                           Row(
                             children: [
                               const Expanded(

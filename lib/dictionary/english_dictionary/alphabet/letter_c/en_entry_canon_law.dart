@@ -199,7 +199,7 @@ class EnglishEntrycanonlaw extends StatelessWidget {
                                             "The Eastern Orthodox Church follows its unique canon law."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کڵێسای ئۆرسۆدۆکسی ڕۆژهەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت."),
+                                            "کڵێسای ئۆرسۆدۆکسی ڕۆژھەڵات شوێن یاسای کڵێسای تایبەتی خۆی دەکەوێت."),
                                   ],
                                 ),
                               ),

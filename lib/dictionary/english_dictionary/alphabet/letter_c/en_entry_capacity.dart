@@ -198,7 +198,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جێ‌بوونەوە، گرتن، هەڵگرتن، بردن، گونجایشت، جێگا، جێ، فراوانی، هێز، وزە، توانایی، توانین، توانست، خورتی، لێوەشاوەیی، لێهاتوویی، شیان، تواناداری، پۆست، پلەوپایە، تێگەیشتن
+کوردی: جێ‌بوونەوە، گرتن، ھەڵگرتن، بردن، گونجایشت، جێگا، جێ، فراوانی، ھێز، وزە، توانایی، توانین، توانست، خورتی، لێوەشاوەیی، لێھاتوویی، شیان، تواناداری، پۆست، پلەوپایە، تێگەیشتن
 
 ١. (ناو) ئەو ڕێژەیەی کە جێیدەبێتەوە لە شوێنێک یان لە ناو شتێکدا"""),
                           Row(
@@ -211,7 +211,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                                             "The theatre has a seating capacity of 2 000."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی هەیە."),
+                                            "ھۆڵی شانۆکە شوێنی دانیشتنی ٢٠٠٠ کەسی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -238,7 +238,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                                         text:
                                             "The hall was filled to capacity (= was completely full)."),
                                     ExampleSentenceKurdish(
-                                        text: "هۆڵەکە بە تەواوی پڕ بوو."),
+                                        text: "ھۆڵەکە بە تەواوی پڕ بوو."),
                                   ],
                                 ),
                               ),
@@ -268,7 +268,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                                             "She has an enormous capacity for hard work."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانایەکی زۆری بۆ کاری قورس هەیە."),
+                                            "توانایەکی زۆری بۆ کاری قورس ھەیە."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                                             "Limited resources are restricting our capacity for developing new products."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرچاوەی سنووردار توانامانی سنووردار کردووە لە گەشەپێدانی بەرهەمەکانمان."),
+                                            "سەرچاوەی سنووردار توانامانی سنووردار کردووە لە گەشەپێدانی بەرھەمەکانمان."),
                                   ],
                                 ),
                               ),
@@ -471,7 +471,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ئەو بڕەی کە کارگەیەک، ئامێرێک، هتد بەرهەمی دێنێت، یان هێز و توانای بزوێنەرێک"),
+                                  "٤. (ناو) ئەو بڕەی کە کارگەیەک، ئامێرێک، ھتد بەرھەمی دێنێت، یان ھێز و توانای بزوێنەرێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -510,7 +510,7 @@ class EnglishEntrycapacity extends StatelessWidget {
                                             "The larger cars have bigger capacity engines (= the engines are bigger and more powerful)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان هەیە."),
+                                            "ئۆتۆمبێلە گەورەکان بزوێنەری توانا گەورەتریان ھەیە."),
                                   ],
                                 ),
                               ),

@@ -153,7 +153,7 @@ class EnglishEntryBuddhist extends StatelessWidget {
                                             "In Thailand, many embrace the Buddhist faith."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم هەن."),
+                                            "لە تایلەندا ژمارەیەکی زۆر شوێنکەوتووی ئایینی بودیزم ھەن."),
                                   ],
                                 ),
                               ),

@@ -188,7 +188,7 @@ class EnglishEntrycaller extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەرلێدەر، سەردان‌کەر، سەردان‌چی، هاوبین، تەلەفون‌کەر
+کوردی: سەرلێدەر، سەردان‌کەر، سەردان‌چی، ھاوبین، تەلەفون‌کەر
 
 ١. (ناو) کەسێک کە پەیوەندییەکی تەلەفۆنی ئەنجام دەدات"""),
                           Row(
@@ -229,7 +229,7 @@ class EnglishEntrycaller extends StatelessWidget {
                                         text: "You had a caller this morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەم بەیانییە سەردان‌کەرێکی هەبوو."),
+                                            "ئەم بەیانییە سەردان‌کەرێکی ھەبوو."),
                                   ],
                                 ),
                               ),

@@ -195,7 +195,7 @@ class EnglishEntrycaptain extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سەرکردە، فەرماندەر، سەردەستە، سەرتیپ، سەرتیم (تیمێکی وەرزشی)، ڕێبەر، سەرۆک، کاپیتان، کەشتیوان، خەفتان، فڕۆکەوان، ئەفسەرێ لە هێزی دەریایی بریتانیا، لە نێوان commander و admiral دا، ئەفسەرێ لە ئەرتەشی بریتانیا لە نێوان lieutenant و major دا
+کوردی: سەرکردە، فەرماندەر، سەردەستە، سەرتیپ، سەرتیم (تیمێکی وەرزشی)، ڕێبەر، سەرۆک، کاپیتان، کەشتیوان، خەفتان، فڕۆکەوان، ئەفسەرێ لە ھێزی دەریایی بریتانیا، لە نێوان commander و admiral دا، ئەفسەرێ لە ئەرتەشی بریتانیا لە نێوان lieutenant و major دا
 
 ١. (ناو) کەسێک کە بەڕێوبەری کەشتییەک یان فڕۆکەیەکە"""),
                           Row(
@@ -208,7 +208,7 @@ class EnglishEntrycaptain extends StatelessWidget {
                                             "The captain gave the order to abandon ship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاپتنەکە فەرمانی جیهێشتنی کەشتییەکەی دەرکرد."),
+                                            "کاپتنەکە فەرمانی جیھێشتنی کەشتییەکەی دەرکرد."),
                                   ],
                                 ),
                               ),
@@ -256,7 +256,7 @@ class EnglishEntrycaptain extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەفسەرێکی تا ڕادەیەک پلە بەرز لە هێزی دەریایی، ئاسمانی، و سوپای ئەمریکادا"),
+                                  "٢. (ناو) ئەفسەرێکی تا ڕادەیەک پلە بەرز لە ھێزی دەریایی، ئاسمانی، و سوپای ئەمریکادا"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycaptain extends StatelessWidget {
                                             "She's a former captain of the English national team."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاپتنی پێشووتری هەڵبژاردەی نیشتیمانیی ئینگلتەرەیە."),
+                                            "کاپتنی پێشووتری ھەڵبژاردەی نیشتیمانیی ئینگلتەرەیە."),
                                   ],
                                 ),
                               ),
@@ -317,7 +317,7 @@ class EnglishEntrycaptain extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) هەڵگری پۆستی کاپتنی"),
+                              text: "٤. (کردار) ھەڵگری پۆستی کاپتنی"),
                           Row(
                             children: [
                               const Expanded(

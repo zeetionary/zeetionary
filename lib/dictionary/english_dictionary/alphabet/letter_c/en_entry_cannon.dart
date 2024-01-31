@@ -189,7 +189,7 @@ class EnglishEntrycannon extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تۆپ (هی شەڕ)، شەستیری فڕۆکە، لوولەک
+کوردی: تۆپ (ھی شەڕ)، شەستیری فڕۆکە، لوولەک
 
 ١. (ناو) چەکێکی قورس و گەورەی کۆن کە لەسەر ویلە و تۆپەڵە بەرد یان تۆپەڵە ئاسن"""),
                           Row(
@@ -201,7 +201,7 @@ class EnglishEntrycannon extends StatelessWidget {
                                         text: "Three cannon opened fire."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سێ تۆپهاوێژ دەستیان بە بە شەڕ کرد."),
+                                            "سێ تۆپھاوێژ دەستیان بە بە شەڕ کرد."),
                                   ],
                                 ),
                               ),
@@ -252,7 +252,7 @@ class EnglishEntrycannon extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) لێدان لە شتێک بە هێزێکی زۆرەوە لەکاتێکدا دەجوڵێیت"),
+                                  "٣. (کردار) لێدان لە شتێک بە ھێزێکی زۆرەوە لەکاتێکدا دەجوڵێیت"),
                           Row(
                             children: [
                               const Expanded(

@@ -190,7 +190,7 @@ class EnglishEntrycancerous extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شێرپەنجەیی، شێرپەنجەگرتوو
 
-١. (ھاوەڵناو) تووشبوو یان درووستبوو بەهۆی شێرپەنجەوە"""),
+١. (ھاوەڵناو) تووشبوو یان درووستبوو بەھۆی شێرپەنجەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,7 @@ class EnglishEntrycancerous extends StatelessWidget {
                                             "Doctors consider their treatment a success when no cancerous cells remain."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەهێنن ئەگەر هیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە."),
+                                            "پزیشکان چارەسەرەکەیان بە سەرکەوتوو ناودەھێنن ئەگەر ھیچ خانەیەکی شێرپەنجەگرتوو نەمێنێتەوە."),
                                   ],
                                 ),
                               ),

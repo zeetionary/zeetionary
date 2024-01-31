@@ -303,7 +303,7 @@ class EnglishEntrybump extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پێک‌کەوتن، لێک‌کەوتن (سووک)، لێدان، مشت، چەپۆکە، پەنەمان، ماس، ماسین، هەڵماسین، هەڵتۆقان، دەرپەڕیوی، هەڵتۆقیوی، چاڵی‌وچۆڵی، ناڕێکی، تەکان یان جووڵەی کت‌وپڕ (لە فڕۆکەدا)، دەنگی بامب، لەناکاو، لەپڕێکدا، کت‌وپڕانە
+کوردی: پێک‌کەوتن، لێک‌کەوتن (سووک)، لێدان، مشت، چەپۆکە، پەنەمان، ماس، ماسین، ھەڵماسین، ھەڵتۆقان، دەرپەڕیوی، ھەڵتۆقیوی، چاڵی‌وچۆڵی، ناڕێکی، تەکان یان جووڵەی کت‌وپڕ (لە فڕۆکەدا)، دەنگی بامب، لەناکاو، لەپڕێکدا، کت‌وپڕانە
 
 ١. (کردار) لێدان لە شتێک بە ڕێکەوت"""),
                           Row(
@@ -375,7 +375,7 @@ class EnglishEntrybump extends StatelessWidget {
                                                     "Toddlers are always falling over and bumping their heads."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "منداڵان هەمیشە دەکەون و سەریان دەدەن بە زەویدا."),
+                                                    "منداڵان ھەمیشە دەکەون و سەریان دەدەن بە زەویدا."),
                                           ],
                                         ),
                                       ),
@@ -471,7 +471,7 @@ class EnglishEntrybump extends StatelessWidget {
                                             "The coach told him he had been bumped from the crew."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاهێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە."),
+                                            "ڕاھێنەرەکە پێی گوت کە لە تیمەکە دەرکراوە."),
                                   ],
                                 ),
                               ),
@@ -499,7 +499,7 @@ class EnglishEntrybump extends StatelessWidget {
                                             "If you are bumped from an oversold flight you are entitled to compensation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەهۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت."),
+                                            "ئەگەر لە گەشتێکی ئاسمانی لادەدرێیت بەھۆی فرۆشتنی زۆری بلیتەوە، ئەوا دەکرێت داوای قەرەبوو بکەیت."),
                                   ],
                                 ),
                               ),
@@ -530,7 +530,7 @@ class EnglishEntrybump extends StatelessWidget {
                                             "We could hear loud bumps from upstairs where the children were playing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گوێمان لە زرمەی بەرز بوو لە نهۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد."),
+                                            "گوێمان لە زرمەی بەرز بوو لە نھۆمی سەرەوە کە تێیدا منداڵەکان یارییان دەکرد."),
                                   ],
                                 ),
                               ),
@@ -550,7 +550,7 @@ class EnglishEntrybump extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ناو) هەڵاوسانێک لەسەر جەستە، بەزۆری بەهۆی بەرکەوتن بە شتێک"),
+                                  "٥. (ناو) ھەڵاوسانێک لەسەر جەستە، بەزۆری بەھۆی بەرکەوتن بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -622,7 +622,7 @@ class EnglishEntrybump extends StatelessWidget {
                                             "We hit a bump and the car swerved."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە هەڵسووڕا."),
+                                            "بەسەر چاڵ‌وچۆڵییەکدا ڕۆشتین و ئۆتۆمبێلەکە ھەڵسووڕا."),
                                   ],
                                 ),
                               ),
@@ -653,7 +653,7 @@ class EnglishEntrybump extends StatelessWidget {
                                             "I had a bump in the car earlier, but it wasn’t serious."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکدادانێکی بچووکم هەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو."),
+                                            "پێکدادانێکی بچووکم ھەبوو بە ئۆتۆمبێلەکە پێشووتر، بەڵام سەخت نەبوو."),
                                   ],
                                 ),
                               ),

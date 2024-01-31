@@ -189,7 +189,7 @@ class EnglishEntryburnish extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: زاخاو، مشت‌وماڵ، سیوسیوە، بریسکانەوە، درەوشانەوە، ورشە، بریق‌وهۆڕ
+کوردی: زاخاو، مشت‌وماڵ، سیوسیوە، بریسکانەوە، درەوشانەوە، ورشە، بریق‌وھۆڕ
 
 ١. (کردار) پاککردنەوە تا ئەوەندەی لووس و درەوشاوە بێت"""),
                           Row(
@@ -202,7 +202,7 @@ class EnglishEntryburnish extends StatelessWidget {
                                             "She used a soft cloth to burnish the antique silverware."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قوماشێکی نەرمی بەکارهێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان."),
+                                            "قوماشێکی نەرمی بەکارھێنا بۆ سافکردنی قاپ‌وقاچاخە زیوییەکان."),
                                   ],
                                 ),
                               ),
@@ -233,7 +233,7 @@ class EnglishEntryburnish extends StatelessWidget {
                                             "The company is currently trying to burnish its public image."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمپانیاکە لە ئێستادا هەوڵ دەدات وێنای گشتیی جوان بکات."),
+                                            "کۆمپانیاکە لە ئێستادا ھەوڵ دەدات وێنای گشتیی جوان بکات."),
                                   ],
                                 ),
                               ),

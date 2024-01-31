@@ -188,7 +188,7 @@ class EnglishEntrycaffeine extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) مادەیەک کە لە چاو قاوەدا هەیە و چالاکت دەکات"""),
+١. (ناو) مادەیەک کە لە چاو قاوەدا ھەیە و چالاکت دەکات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -199,7 +199,7 @@ class EnglishEntrycaffeine extends StatelessWidget {
                                             "Try to avoid too much caffeine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ بدە لە کافینی زۆر بەدوور بیت."),
+                                            "ھەوڵ بدە لە کافینی زۆر بەدوور بیت."),
                                   ],
                                 ),
                               ),

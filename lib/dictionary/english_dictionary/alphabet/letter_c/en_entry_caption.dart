@@ -195,7 +195,7 @@ class EnglishEntrycaption extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: نێونیشان، سەردێڕ، لێدوان، ڕوون‌کردنەوە، سەرباس، باس‌کردن (فیلم، وێنە یان سەر پەردە)، دەستوور یا بڕیاری گرتن 
 
-١. (ناو) نووسراوێک کە لە ژێر وێنەیەک، کارتۆنێک، هتد کە ڕوونکردنەوە دەدەن بەدەستەوە"""),
+١. (ناو) نووسراوێک کە لە ژێر وێنەیەک، کارتۆنێک، ھتد کە ڕوونکردنەوە دەدەن بەدەستەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -254,7 +254,7 @@ class EnglishEntrycaption extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دانانی کاپشن بۆ وێنەیەک، کارتۆنێک، هتد"),
+                                  "٢. (کردار) دانانی کاپشن بۆ وێنەیەک، کارتۆنێک، ھتد"),
                           Row(
                             children: [
                               const Expanded(

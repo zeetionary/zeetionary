@@ -189,9 +189,9 @@ class EnglishEntrycalling extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کار، پیشە، ئیش، بانگێشت، بانگهێشت(ـن)، پەیور، ئەرک، بەڵێنی‌دان، خۆبەستەیی، پێبەندی
+کوردی: کار، پیشە، ئیش، بانگێشت، بانگھێشت(ـن)، پەیور، ئەرک، بەڵێنی‌دان، خۆبەستەیی، پێبەندی
 
-١. (ناو) حەزێکی زۆر یان هەستکردن بە بەرپرسیاریەتی بۆ کردنی شتێک"""),
+١. (ناو) حەزێکی زۆر یان ھەستکردن بە بەرپرسیاریەتی بۆ کردنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -232,7 +232,7 @@ class EnglishEntrycalling extends StatelessWidget {
                                             "My father considered engineering one of the highest possible callings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باوکم ئەندازیاری بە یەکێک لە هەرە باشترین پیشەکان دادەنا."),
+                                            "باوکم ئەندازیاری بە یەکێک لە ھەرە باشترین پیشەکان دادەنا."),
                                   ],
                                 ),
                               ),

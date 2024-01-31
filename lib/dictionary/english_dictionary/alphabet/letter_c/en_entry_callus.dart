@@ -201,7 +201,7 @@ class EnglishEntrycallus extends StatelessWidget {
                                             "He had workman's hands which were rough and covered with calluses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستی کرێکارانەی هەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە."),
+                                            "دەستی کرێکارانەی ھەبوو کە زبر بوو لەگەڵ پڕ لە ڕەقێنە."),
                                   ],
                                 ),
                               ),

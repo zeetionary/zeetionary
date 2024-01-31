@@ -201,7 +201,7 @@ class EnglishEntrycant extends StatelessWidget {
                                             "His speech was full of political, social and religious cant."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وتارەکەی پڕ لە قسەی هەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو."),
+                                            "وتارەکەی پڕ لە قسەی ھەلەق و بەلەقی سیاسی و کۆمەڵایەتی و ئایینی بوو."),
                                   ],
                                 ),
                               ),

@@ -205,7 +205,7 @@ class EnglishEntrycaptivity extends StatelessWidget {
                                             "He was held in captivity for three years."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ چوار ساڵ بە یەخسیری هێڵدرایەوە."),
+                                            "بۆ چوار ساڵ بە یەخسیری ھێڵدرایەوە."),
                                   ],
                                 ),
                               ),

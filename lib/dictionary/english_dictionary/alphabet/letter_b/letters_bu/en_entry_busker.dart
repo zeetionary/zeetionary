@@ -151,7 +151,7 @@ class EnglishEntrybusker extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbʌskə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbusker("en-GB"),
                             ),
@@ -159,7 +159,7 @@ class EnglishEntrybusker extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbʌskər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbusker("en-US"),
                             ),

@@ -188,9 +188,9 @@ class EnglishEntrycapably extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بە لێهاتوویی‌یەوە، لێوەشاوانە، لێهاتووانە
+کوردی: بە لێھاتوویی‌یەوە، لێوەشاوانە، لێھاتووانە
 
-١. (ھاوەڵکار) کردنی شتێک بە هەبوونی توانای پێویستەوە بۆ کردنی شتێک"""),
+١. (ھاوەڵکار) کردنی شتێک بە ھەبوونی توانای پێویستەوە بۆ کردنی شتێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrycapably extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She drove very capably."),
                                     ExampleSentenceKurdish(
-                                        text: "زۆر لێهاتووانە شۆفێری کرد."),
+                                        text: "زۆر لێھاتووانە شۆفێری کرد."),
                                   ],
                                 ),
                               ),

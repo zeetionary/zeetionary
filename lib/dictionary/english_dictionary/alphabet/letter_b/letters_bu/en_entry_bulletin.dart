@@ -142,9 +142,9 @@ class EnglishEntrybulletin extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ئاگاداری، هایداری، هەواڵ‌نامە، پەیام‌نامە، نامیلکەی پەیامەکان، بەلاڤۆک، ڕاپۆرتەهەواڵ
+کوردی: ئاگاداری، ھایداری، ھەواڵ‌نامە، پەیام‌نامە، نامیلکەی پەیامەکان، بەلاڤۆک، ڕاپۆرتەھەواڵ
 
-١. (ناو) کورتە هەواڵ لەسەر ڕادیۆ یان تەلەفیزیۆن"""),
+١. (ناو) کورتە ھەواڵ لەسەر ڕادیۆ یان تەلەفیزیۆن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -155,7 +155,7 @@ class EnglishEntrybulletin extends StatelessWidget {
                                             "The story led the television news bulletins that evening."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەواڵەکە ئەو شەوە سەردێڕی کورتە هەواڵی تەلەفیزیۆنی بوو."),
+                                            "ھەواڵەکە ئەو شەوە سەردێڕی کورتە ھەواڵی تەلەفیزیۆنی بوو."),
                                   ],
                                 ),
                               ),
@@ -186,7 +186,7 @@ class EnglishEntrybulletin extends StatelessWidget {
                                             "The government will issue an official bulletin later this week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "حکومەت بەیاننامەیەکی فەرمی دەردەکات دواتر لەم هەفتەدا."),
+                                            "حکومەت بەیاننامەیەکی فەرمی دەردەکات دواتر لەم ھەفتەدا."),
                                   ],
                                 ),
                               ),
@@ -206,7 +206,7 @@ class EnglishEntrybulletin extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ڕاپۆرتێکی نووسراو کە هەواڵ دەدات لەسەر دامەزراوەیەک یان فرووپێک"),
+                                  "٣. (ناو) ڕاپۆرتێکی نووسراو کە ھەواڵ دەدات لەسەر دامەزراوەیەک یان فرووپێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -217,7 +217,7 @@ class EnglishEntrybulletin extends StatelessWidget {
                                             "More details will be given in our next news bulletin."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وردەکاریی زیاتر دەدرێت لە ڕاپۆرتی هەواڵیی دواترماندا."),
+                                            "وردەکاریی زیاتر دەدرێت لە ڕاپۆرتی ھەواڵیی دواترماندا."),
                                   ],
                                 ),
                               ),

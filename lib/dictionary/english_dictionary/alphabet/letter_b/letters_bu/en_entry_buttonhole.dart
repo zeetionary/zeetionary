@@ -202,7 +202,7 @@ class EnglishEntrybuttonhole extends StatelessWidget {
                                             "His jacket had a perfectly aligned buttonhole."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری هەبوو."),
+                                            "چاکەتەکەی کونەدوگمەی تەواو بەرامبەری ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -232,7 +232,7 @@ class EnglishEntrybuttonhole extends StatelessWidget {
                                         text:
                                             "He buttonholed me just as I was going home."),
                                     ExampleSentenceKurdish(
-                                        text: "هاتە سەرەڕێم کە دەچوومەوە ماڵ."),
+                                        text: "ھاتە سەرەڕێم کە دەچوومەوە ماڵ."),
                                   ],
                                 ),
                               ),

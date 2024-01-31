@@ -201,7 +201,7 @@ class EnglishEntrycanary extends StatelessWidget {
                                             "She had a canary in a birdcage."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەنارییەکی لە قەفەزێکی باڵندەدا هەبوو."),
+                                            "کەنارییەکی لە قەفەزێکی باڵندەدا ھەبوو."),
                                   ],
                                 ),
                               ),

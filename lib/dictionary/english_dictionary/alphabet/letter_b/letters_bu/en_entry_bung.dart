@@ -191,7 +191,7 @@ class EnglishEntrybung extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: درگا، سەر، بان، تۆپەوانە، زارئاخن، زاربێن، زمانە (بەرمیل، شووشە و هتد)، بەرتیل، دەم‌شیرینی، بەکارنەهاتوو، خراپ، کاول، وێران
+کوردی: درگا، سەر، بان، تۆپەوانە، زارئاخن، زاربێن، زمانە (بەرمیل، شووشە و ھتد)، بەرتیل، دەم‌شیرینی، بەکارنەھاتوو، خراپ، کاول، وێران
 
 ١. (کردار) دانان یان فڕێدانی شتێک بۆ شوێنێک بەخێرایی و کەمتەرخەمییەوە"""),
                           Row(
@@ -231,7 +231,7 @@ class EnglishEntrybung extends StatelessWidget {
                                             "'Where shall I put my coat?' 'Oh, bung it anywhere.'"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "'قەمسەڵەکەم بخەمە کوێ؟' 'ئۆه، فڕێی بدە شوێنێک'."),
+                                            "'قەمسەڵەکەم بخەمە کوێ؟' 'ئۆھ، فڕێی بدە شوێنێک'."),
                                   ],
                                 ),
                               ),
@@ -251,7 +251,7 @@ class EnglishEntrybung extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) پارچەیەکی بچووک کە بەکاردێت بۆ بەستنی بانی بەرمیلێک، دۆڵکەیەک، هتد"),
+                                  "٢. (کردار) پارچەیەکی بچووک کە بەکاردێت بۆ بەستنی بانی بەرمیلێک، دۆڵکەیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -293,7 +293,7 @@ class EnglishEntrybung extends StatelessWidget {
                                             "Both the politicians denied taking bungs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو سیاسییەکە نکۆڵییان لە وەرگرتنی بەرتیل کرد."),
+                                            "ھەردوو سیاسییەکە نکۆڵییان لە وەرگرتنی بەرتیل کرد."),
                                   ],
                                 ),
                               ),

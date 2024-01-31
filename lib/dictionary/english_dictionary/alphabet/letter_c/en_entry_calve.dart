@@ -220,7 +220,7 @@ class EnglishEntrycalve extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) شکانی کێوەسەهۆڵ و کۆمەڵکەسەهۆڵ"),
+                                  "٢. (کردار) شکانی کێوەسەھۆڵ و کۆمەڵکەسەھۆڵ"),
                           Row(
                             children: [
                               const Expanded(
@@ -230,7 +230,7 @@ class EnglishEntrycalve extends StatelessWidget {
                                         text: "The glacier began to calve."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کۆمەڵکەسەهۆڵەکە دەستی بە شکان کرد."),
+                                            "کۆمەڵکەسەھۆڵەکە دەستی بە شکان کرد."),
                                   ],
                                 ),
                               ),

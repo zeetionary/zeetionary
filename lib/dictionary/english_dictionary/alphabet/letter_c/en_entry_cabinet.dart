@@ -280,7 +280,7 @@ class EnglishEntrycabinet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هاجەتێک کە ڕەف و چەکمەجە و دەرگای هەیە و شتی تێ دەخرێت"),
+                                  "٢. (ناو) ھاجەتێک کە ڕەف و چەکمەجە و دەرگای ھەیە و شتی تێ دەخرێت"),
                           Row(
                             children: [
                               const Expanded(

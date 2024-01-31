@@ -200,7 +200,7 @@ class EnglishEntrycapitalize extends StatelessWidget {
                                             "The names of political parties are always capitalized."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوی پارتە سیاسییەکان هەمیشە بە پیتی گەورە دەستپێ دەکرێت."),
+                                            "ناوی پارتە سیاسییەکان ھەمیشە بە پیتی گەورە دەستپێ دەکرێت."),
                                   ],
                                 ),
                               ),

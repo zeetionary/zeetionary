@@ -193,7 +193,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: شەرعی، قانوونی، زاگۆنی، ڕەوا، ڕەسەن، باو، پەسندکراو، ستاندارد، قەشەیی، سەربە قەشە، بەپێی قانوونی کلێسە، بەگوێرەی قانوونێ کلێسە
 
-١. (ھاوەڵناو) بەشێک لەو کتێبە پیرۆزانەی کە پەسەندکراون بۆ ئەوەی کە باوەڕ وایە هەن"""),
+١. (ھاوەڵناو) بەشێک لەو کتێبە پیرۆزانەی کە پەسەندکراون بۆ ئەوەی کە باوەڕ وایە ھەن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                                             "The Gospel of Matthew and the Book of Genesis are both canonical texts in Christianity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز هەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا."),
+                                            "کتێبی ئینجیلی ماسیو و کتێبی جێنەسیز ھەردووکیان وەک نووسینی پەسەندکراون لە مەسیحییەتدا."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                                             "The Pope indicated that he would not consider any applications for canonical pardon."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاپا ئاماژەی پێدا کە هیچ داواکارییەک وەرناگرێت بۆ لێخۆشبوونی کڵێسایی."),
+                                            "پاپا ئاماژەی پێدا کە ھیچ داواکارییەک وەرناگرێت بۆ لێخۆشبوونی کڵێسایی."),
                                   ],
                                 ),
                               ),
@@ -255,7 +255,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) بەشێک لە کاری کۆمەڵە نووسەرێک یان بەرهەمی ئەدەبی کە تەواو ڕێزلێگیراون"),
+                                  "٣. (ھاوەڵناو) بەشێک لە کاری کۆمەڵە نووسەرێک یان بەرھەمی ئەدەبی کە تەواو ڕێزلێگیراون"),
                           Row(
                             children: [
                               const Expanded(
@@ -266,7 +266,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                                             "Canonical writers like Jane Austen have left an enduring legacy with their contributions to literature."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نووسەری ڕێزلێگیراوی وەک جەین ئۆستن کاریگەرییەکی بەردەوامیان بەجێهێشتووە بە بەرهەمەکانیان لە وێژەدا."),
+                                            "نووسەری ڕێزلێگیراوی وەک جەین ئۆستن کاریگەرییەکی بەردەوامیان بەجێھێشتووە بە بەرھەمەکانیان لە وێژەدا."),
                                   ],
                                 ),
                               ),

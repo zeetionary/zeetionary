@@ -198,7 +198,7 @@ class EnglishEntryburst extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: تەقینەوە، تەق، لێک‌بوونەوە، پەقین، دەربوون، ترەکین، درگاکردن، بڵاوبوونەوە، تەنینەوە، تەشەنە، هەڵچوون، فیشقەکردن، گوڕبوون، لە پڕمەدان (گریان یان پێکەنین)، گوللەخستن، تەقاندن، پێوەنان، دەسپێک یان دەرکەوتنی ناکاو، جووڵانی توند و کت‌وپڕ، گڕ، سۆڵە، ڕەهێڵە، ڕێژنە
+کوردی: تەقینەوە، تەق، لێک‌بوونەوە، پەقین، دەربوون، ترەکین، درگاکردن، بڵاوبوونەوە، تەنینەوە، تەشەنە، ھەڵچوون، فیشقەکردن، گوڕبوون، لە پڕمەدان (گریان یان پێکەنین)، گوللەخستن، تەقاندن، پێوەنان، دەسپێک یان دەرکەوتنی ناکاو، جووڵانی توند و کت‌وپڕ، گڕ، سۆڵە، ڕەھێڵە، ڕێژنە
 
 ١. (کردار) تەقین"""),
                           Row(
@@ -211,7 +211,7 @@ class EnglishEntryburst extends StatelessWidget {
                                             "That balloon will burst if you blow it up any more."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فودانکەکە دەتەقێت ئەگەر هەوای زیاتری تێ بکەیت."),
+                                            "فودانکەکە دەتەقێت ئەگەر ھەوای زیاتری تێ بکەیت."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntryburst extends StatelessWidget {
                                                     "He felt he would burst with anger and shame."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "(بەکارهێنانی خوازراوی) هەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە."),
+                                                    "(بەکارھێنانی خوازراوی) ھەستی دەکرد لە تووڕەیی و شەرمەزاریدا دەتەقێتەوە."),
                                           ],
                                         ),
                                       ),
@@ -364,7 +364,7 @@ class EnglishEntryburst extends StatelessWidget {
                                             "The sun burst through the clouds."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خۆرەکە لە هەورەکانەوە دەدرەوشایەوە."),
+                                            "خۆرەکە لە ھەورەکانەوە دەدرەوشایەوە."),
                                   ],
                                 ),
                               ),
@@ -395,7 +395,7 @@ class EnglishEntryburst extends StatelessWidget {
                                                     "The words burst from her in an angry rush."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "وشە لە دەمییەوە دەهاتە خوارەوە  لە تووڕەییدا."),
+                                                    "وشە لە دەمییەوە دەھاتە خوارەوە  لە تووڕەییدا."),
                                           ],
                                         ),
                                       ),
@@ -477,7 +477,7 @@ class EnglishEntryburst extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان هەستێکی بەهێز کەلەناکاو دەستپێ دەکات"),
+                                  "٤. (ناو) ماوەیەکی کەم لە چالاکییەکی دیاریکراو یان ھەستێکی بەھێز کەلەناکاو دەستپێ دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -544,7 +544,7 @@ class EnglishEntryburst extends StatelessWidget {
                                             "A burst in the water pipe flooded the floor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەقینێک لە بۆری ئاوەکەدا نهۆمەکانی پڕئاو کرد."),
+                                            "تەقینێک لە بۆری ئاوەکەدا نھۆمەکانی پڕئاو کرد."),
                                   ],
                                 ),
                               ),

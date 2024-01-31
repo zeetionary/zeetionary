@@ -104,7 +104,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˌbrəʊkən ˈhəʊm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbrokenhome("en-GB"),
                             ),
@@ -112,7 +112,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˌbrəʊkən ˈhəʊm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbrokenhome("en-US"),
                             ),

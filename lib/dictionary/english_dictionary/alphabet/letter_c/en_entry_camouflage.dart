@@ -192,9 +192,9 @@ class EnglishEntrycamouflage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خۆمەڵاس‌دان، خۆمات‌دان، ڕەنگ‌گرتن، خۆداپۆشین، خۆدەرهێنان، خۆشاردنەوە، خۆحەشاردان
+کوردی: خۆمەڵاس‌دان، خۆمات‌دان، ڕەنگ‌گرتن، خۆداپۆشین، خۆدەرھێنان، خۆشاردنەوە، خۆحەشاردان
 
-١. (ناو) شێوەی خۆشاردنەوەی سەرباز و کەرەستەی سەربازی بە بەکارهێنانی بۆیە، گەڵا، هتد بۆ ئەوەی شێوەیان لە ڕينگی دەورووبەریان بکات"""),
+١. (ناو) شێوەی خۆشاردنەوەی سەرباز و کەرەستەی سەربازی بە بەکارھێنانی بۆیە، گەڵا، ھتد بۆ ئەوەی شێوەیان لە ڕينگی دەورووبەریان بکات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -267,7 +267,7 @@ class EnglishEntrycamouflage extends StatelessWidget {
                                             "He believed that her kindness was merely a camouflage for her real intentions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باوەڕی وابوو میهرەبانییەکەی تەنها داپۆشەرێک بوو مەرامە ڕاستییەکانی."),
+                                            "باوەڕی وابوو میھرەبانییەکەی تەنھا داپۆشەرێک بوو مەرامە ڕاستییەکانی."),
                                   ],
                                 ),
                               ),

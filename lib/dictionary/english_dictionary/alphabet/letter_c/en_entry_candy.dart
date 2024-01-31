@@ -229,7 +229,7 @@ class EnglishEntrycandy extends StatelessWidget {
                                             "She had enough candies in her pocket for all the children."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە گیرفانەکانیدا بەشی هەموو منداڵەکان شیرینی پێبوو."),
+                                            "لە گیرفانەکانیدا بەشی ھەموو منداڵەکان شیرینی پێبوو."),
                                   ],
                                 ),
                               ),

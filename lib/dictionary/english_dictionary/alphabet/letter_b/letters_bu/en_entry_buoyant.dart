@@ -223,7 +223,7 @@ class EnglishEntrybuoyant extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ھاوەڵناو) گەشبین و بەهیوا"),
+                              text: "٢. (ھاوەڵناو) گەشبین و بەھیوا"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,7 +233,7 @@ class EnglishEntrybuoyant extends StatelessWidget {
                                         text: "They were all in buoyant mood."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموویان لە کەشێکی گەشبینانەدا بوون."),
+                                            "ھەموویان لە کەشێکی گەشبینانەدا بوون."),
                                   ],
                                 ),
                               ),
@@ -253,7 +253,7 @@ class EnglishEntrybuoyant extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ھاوەڵناو) سەرئاوکەتوو یان هەبوونی توانای هێشتنەوە بە سەرئاوکەوتووی"),
+                                  "٣. (ھاوەڵناو) سەرئاوکەتوو یان ھەبوونی توانای ھێشتنەوە بە سەرئاوکەوتووی"),
                           Row(
                             children: [
                               const Expanded(

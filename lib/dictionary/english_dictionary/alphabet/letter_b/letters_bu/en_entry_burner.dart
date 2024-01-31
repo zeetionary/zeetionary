@@ -202,7 +202,7 @@ class EnglishEntryburner extends StatelessWidget {
                                             "The chef adjusted the burner to simmer the sauce slowly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بە هێواشی مێروولەکوڵ بێت."),
+                                            "شێفەکە چاوی گازەکەی ڕێکخست بۆ ئەوەی شۆرباکە بە ھێواشی مێروولەکوڵ بێت."),
                                   ],
                                 ),
                               ),
@@ -222,7 +222,7 @@ class EnglishEntryburner extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) موبایلێکی هەرزان کە بۆ ماوەیەکی کەم بەکاردێت"),
+                                  "٢. (ناو) موبایلێکی ھەرزان کە بۆ ماوەیەکی کەم بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -233,7 +233,7 @@ class EnglishEntryburner extends StatelessWidget {
                                             "He used three different burner numbers to conceal his identity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سێ موبایلی جیاوازی کاتیی بەکارهێنا بۆ شاردنەوەی ناسنامەی."),
+                                            "سێ موبایلی جیاوازی کاتیی بەکارھێنا بۆ شاردنەوەی ناسنامەی."),
                                   ],
                                 ),
                               ),

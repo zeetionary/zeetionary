@@ -190,9 +190,9 @@ class EnglishEntrybureau extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەڕێوەبەری، کارگێڕی، فەرمانگە، ڕێڤەبەری، ئاژانس، نووسینگە، میزی نووسین (زۆرتر کەشەوی‌شی هەبێ)، دۆڵابێ جل، دراوێر 
+کوردی: بەڕێوەبەری، کارگێڕی، فەرمانگە، ڕێڤەبەری، ئاژانس، نووسینگە، میزی نووسین (زۆرتر کەشەوی‌شی ھەبێ)، دۆڵابێ جل، دراوێر 
 
-١. (ناو) دۆڵابێکی جلوبەرگ، یان مێزێک کە چەکمەجەی هەیە و بەشێکی سەرەوەی هەیە کە دەکرێتەوە بۆ ئەوەی لەسەری بنووسیت"""),
+١. (ناو) دۆڵابێکی جلوبەرگ، یان مێزێک کە چەکمەجەی ھەیە و بەشێکی سەرەوەی ھەیە کە دەکرێتەوە بۆ ئەوەی لەسەری بنووسیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,7 @@ class EnglishEntrybureau extends StatelessWidget {
                                             "There was just enough space for a fold-up bed, washstand and bureau."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها هێندە شوێن هەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین."),
+                                            "تەنھا ھێندە شوێن ھەبوو بەشی جێگەیەکی نووستن بکات، لەگەڵ مێزێکی نووسین."),
                                   ],
                                 ),
                               ),
@@ -223,7 +223,7 @@ class EnglishEntrybureau extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئۆفیسێک یان دامەزراوەیەک کە زانیاریی لەسەر بابەتێکی دیاریکراو هەیە"),
+                                  "٢. (ناو) ئۆفیسێک یان دامەزراوەیەک کە زانیاریی لەسەر بابەتێکی دیاریکراو ھەیە"),
                           Row(
                             children: [
                               const Expanded(

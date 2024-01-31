@@ -103,7 +103,7 @@ class EnglishEntrybuildingsociety extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈbɪldɪŋ səsaɪəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbuildingsociety("en-GB"),
                             ),
@@ -111,7 +111,7 @@ class EnglishEntrybuildingsociety extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈbɪldɪŋ səsaɪəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbuildingsociety("en-US"),
                             ),
@@ -151,7 +151,7 @@ class EnglishEntrybuildingsociety extends StatelessWidget {
                                             "She opened an account at the building society."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە."),
+                                            "ھەژمارێکی لە ڕێکخراوی خانووبەرە کردەوە."),
                                   ],
                                 ),
                               ),

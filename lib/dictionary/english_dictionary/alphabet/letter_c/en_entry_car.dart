@@ -265,7 +265,7 @@ class EnglishEntrycar extends StatelessWidget {
                                             "There were parked cars on both sides of the road."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلی پارککراو لە هەردوو لای ڕێگاکە هەبوون."),
+                                            "ئۆتۆمبێلی پارککراو لە ھەردوو لای ڕێگاکە ھەبوون."),
                                   ],
                                 ),
                               ),
@@ -326,7 +326,7 @@ class EnglishEntrycar extends StatelessWidget {
                                                     "His car hit a lorry coming in the opposite direction."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئۆتۆمبێلەکەی کێشای بە لۆرییەکدا کە لە ئاراستەی پێچەوانەوە دەهات."),
+                                                    "ئۆتۆمبێلەکەی کێشای بە لۆرییەکدا کە لە ئاراستەی پێچەوانەوە دەھات."),
                                           ],
                                         ),
                                       ),
@@ -416,7 +416,7 @@ class EnglishEntrycar extends StatelessWidget {
                                                     "The car does 55 miles per gallon."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "ئۆتۆمبێلەکە ٥٥ میل بۆ هەر گۆڕانێک دەبڕێت."),
+                                                    "ئۆتۆمبێلەکە ٥٥ میل بۆ ھەر گۆڕانێک دەبڕێت."),
                                           ],
                                         ),
                                       ),

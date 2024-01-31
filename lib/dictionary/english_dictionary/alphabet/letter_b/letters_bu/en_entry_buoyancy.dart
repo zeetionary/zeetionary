@@ -204,7 +204,7 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                                             "There is continued buoyancy in the property market."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەشەسەندنی بەردەوام هەیە لە بازاڕی خانووبەرە."),
+                                            "گەشەسەندنی بەردەوام ھەیە لە بازاڕی خانووبەرە."),
                                   ],
                                 ),
                               ),
@@ -254,7 +254,7 @@ class EnglishEntrybuoyancy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) توانای سەرئاوکەوتووی، هێشتنەوە بە سەراوکەوتە"),
+                                  "٣. (ناو) توانای سەرئاوکەوتووی، ھێشتنەوە بە سەراوکەوتە"),
                           Row(
                             children: [
                               const Expanded(

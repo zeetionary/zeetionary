@@ -193,9 +193,9 @@ class EnglishEntrycancel extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پووچەڵ کردن، بەتاڵ کردن، هەڵوەشاندنەوە
+کوردی: پووچەڵ کردن، بەتاڵ کردن، ھەڵوەشاندنەوە
 
-١. (کردار) هەڵوەشاندنەوە"""),
+١. (کردار) ھەڵوەشاندنەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycancel extends StatelessWidget {
                                             "All flights have been cancelled because of bad weather."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو گەشتە ئاسمانییەکان هەڵوەشێندراونەتەوە بەهۆی کەشوهەوای خراپەوە."),
+                                            "ھەموو گەشتە ئاسمانییەکان ھەڵوەشێندراونەتەوە بەھۆی کەشوھەوای خراپەوە."),
                                   ],
                                 ),
                               ),
@@ -234,7 +234,7 @@ class EnglishEntrycancel extends StatelessWidget {
                                             "The prime minister has abruptly cancelled a trip to Washington."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرۆک وەزیران لەناکاو گەشتێکی بۆ واشنتۆن هەڵوەشاندەوە."),
+                                            "سەرۆک وەزیران لەناکاو گەشتێکی بۆ واشنتۆن ھەڵوەشاندەوە."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrycancel extends StatelessWidget {
                                             "No charge will be made if you cancel within 10 days."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ تێچوونێک وەرناگیردرێت ئەگەر لە ماوەی ١٠ ڕۆژدا پاشگەزبیتەوە."),
+                                            "ھیچ تێچوونێک وەرناگیردرێت ئەگەر لە ماوەی ١٠ ڕۆژدا پاشگەزبیتەوە."),
                                   ],
                                 ),
                               ),
@@ -350,7 +350,7 @@ class EnglishEntrycancel extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) ڕەتکردنەوە و وەستان لە پشتگیری کەسێک و باسکردنیان لە ژیانی ڕۆژانە و سەر ئینتەرنێت بەهۆی ئەوەی ناڕازیت لەگەڵ بۆچوونێکی یان کرداری"),
+                                  "٣. (کردار) ڕەتکردنەوە و وەستان لە پشتگیری کەسێک و باسکردنیان لە ژیانی ڕۆژانە و سەر ئینتەرنێت بەھۆی ئەوەی ناڕازیت لەگەڵ بۆچوونێکی یان کرداری"),
                           Row(
                             children: [
                               const Expanded(
@@ -361,7 +361,7 @@ class EnglishEntrycancel extends StatelessWidget {
                                             "Some campaigned to cancel the writer after she expressed her views on transgender rights."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک کەمپینیان دەکرد بۆ سفرکردنەوەی نووسەرەکە بەهۆی بۆچوونەکانی لەسەر مافی هاوڕەگەزخوازان."),
+                                            "ھەندێک کەمپینیان دەکرد بۆ سفرکردنەوەی نووسەرەکە بەھۆی بۆچوونەکانی لەسەر مافی ھاوڕەگەزخوازان."),
                                   ],
                                 ),
                               ),

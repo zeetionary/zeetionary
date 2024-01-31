@@ -142,7 +142,7 @@ class EnglishEntrybulldozer extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕادەر، خاکماڵ، ڕاماڵە
 
-١. (ناو) ئامێرێکی بەهێز کە دەمێکی پانی هەیە و بەکاردێت بۆ ڕاماڵینی خۆڵ یان ڕووخاندنی خانوو"""),
+١. (ناو) ئامێرێکی بەھێز کە دەمێکی پانی ھەیە و بەکاردێت بۆ ڕاماڵینی خۆڵ یان ڕووخاندنی خانوو"""),
                           Row(
                             children: [
                               const Expanded(
@@ -153,7 +153,7 @@ class EnglishEntrybulldozer extends StatelessWidget {
                                             "They used a bulldozer to level the ground."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خاکماڵێکیان بەکارهێنا بۆ ڕاماڵینی زەوییەکە."),
+                                            "خاکماڵێکیان بەکارھێنا بۆ ڕاماڵینی زەوییەکە."),
                                   ],
                                 ),
                               ),

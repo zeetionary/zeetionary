@@ -188,9 +188,9 @@ class EnglishEntrycabbage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: (ڕووەک‌ناسی) کەلەم، کەلەرم، لانە، تۆپەکەلەم، لەهەن
+کوردی: (ڕووەک‌ناسی) کەلەم، کەلەرم، لانە، تۆپەکەلەم، لەھەن
 
-١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی هەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"""),
+١. (ناو) سەوزەیەکی گەورەی خڕ کە گەڵای سەوز، مۆری مەیلەو سوور، یان سپی ھەیە و دەکرێت بە خاوی بخورێت یان وەک خواردن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -227,7 +227,7 @@ class EnglishEntrycabbage extends StatelessWidget {
                                             "We have grown a lot of cabbages this year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمساڵ کەلەرمی زۆرمان بەرهەمهێناوە."),
+                                            "ئەمساڵ کەلەرمی زۆرمان بەرھەمھێناوە."),
                                   ],
                                 ),
                               ),

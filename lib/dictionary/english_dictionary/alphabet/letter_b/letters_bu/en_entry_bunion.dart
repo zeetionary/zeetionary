@@ -199,7 +199,7 @@ class EnglishEntrybunion extends StatelessWidget {
                                             "She experienced difficulty walking due to the pain caused by her bunions."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناڕەحەتی هەبوو لە ڕێکردندا بەهۆی ئازاری ئاوسانەکانی."),
+                                            "ناڕەحەتی ھەبوو لە ڕێکردندا بەھۆی ئازاری ئاوسانەکانی."),
                                   ],
                                 ),
                               ),

@@ -143,9 +143,9 @@ class EnglishEntrybull extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: جوانەگا، وەرزا، وەرزە، جەل، بەرجووت، کەڵ، کەڵەگا، نێرەگا، نێرەفیل، نێرەنەهەنگ (گیانەوەرە زلەکانی تریش)، (ڕەمەکی) پاسەبان، پۆلیس، ئاژان
+کوردی: جوانەگا، وەرزا، وەرزە، جەل، بەرجووت، کەڵ، کەڵەگا، نێرەگا، نێرەفیل، نێرەنەھەنگ (گیانەوەرە زلەکانی تریش)، (ڕەمەکی) پاسەبان، پۆلیس، ئاژان
 
-١. (ناو) نێرینەی هەر ئاژەڵێک کە مانگا بێت، یان نێرینەی فیل، قرش، یان ئاژەڵە گەورەکانی دیکە"""),
+١. (ناو) نێرینەی ھەر ئاژەڵێک کە مانگا بێت، یان نێرینەی فیل، قرش، یان ئاژەڵە گەورەکانی دیکە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -184,7 +184,7 @@ class EnglishEntrybull extends StatelessWidget {
                                             "The bull lowered its horns and charged."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نێرەگاکە شاخەکانی نزمکردەوە و هێرشی کرد."),
+                                            "نێرەگاکە شاخەکانی نزمکردەوە و ھێرشی کرد."),
                                   ],
                                 ),
                               ),
@@ -214,7 +214,7 @@ class EnglishEntrybull extends StatelessWidget {
                                             "Papal bulls carry significant authority."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەیاننامەکانی پاپا گرنگی تایبەتیان هەیە."),
+                                            "بەیاننامەکانی پاپا گرنگی تایبەتیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -245,7 +245,7 @@ class EnglishEntrybull extends StatelessWidget {
                                             "If you want to believe all that bull it’s up to you."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەر باوەڕ بەو هەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
+                                            "ئەگەر باوەڕ بەو ھەموو پڕوپوچێتییە دەکەیت بەدەست خۆتە."),
                                   ],
                                 ),
                               ),

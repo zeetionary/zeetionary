@@ -207,7 +207,7 @@ class EnglishEntrycabincruiser extends StatelessWidget {
                                             "The cabin cruiser sailed smoothly across the calm waters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەلەمەکە بە نەرمی بەسەر ئاوە هێمنەکەدا دەچوو."),
+                                            "بەلەمەکە بە نەرمی بەسەر ئاوە ھێمنەکەدا دەچوو."),
                                   ],
                                 ),
                               ),

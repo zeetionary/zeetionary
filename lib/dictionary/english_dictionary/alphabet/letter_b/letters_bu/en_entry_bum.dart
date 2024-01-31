@@ -144,7 +144,7 @@ class EnglishEntrybum extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی:  سمت، پاشڵ، کنگ، ڕوونەک، کۆم، سواڵکەر، مفتەخۆر، ئاوارە، بێ‌ماڵ‌وحاڵ، تەرە، هەڵوەدا، کەسێکی تەمەڵ و بێکارە، ئاوارەیی، هەڵوەدایی، تەرەیی، بێ‌ماڵ‌وحاڵی، بێ‌قازانج، بەکارنەهاتوو، ئایەخ، خراپ، بێ‌کەڵک، سەرەندەرنەکردوو
+کوردی:  سمت، پاشڵ، کنگ، ڕوونەک، کۆم، سواڵکەر، مفتەخۆر، ئاوارە، بێ‌ماڵ‌وحاڵ، تەرە، ھەڵوەدا، کەسێکی تەمەڵ و بێکارە، ئاوارەیی، ھەڵوەدایی، تەرەیی، بێ‌ماڵ‌وحاڵی، بێ‌قازانج، بەکارنەھاتوو، ئایەخ، خراپ، بێ‌کەڵک، سەرەندەرنەکردوو
 
 ١. (ناو) سمت"""),
                           Row(
@@ -157,7 +157,7 @@ class EnglishEntrybum extends StatelessWidget {
                                             "They've been sitting on their bums all day, doing nothing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و هیچیان نەکردووە."),
+                                            "ھەموو ڕۆژەکە لەسەر کنگیان دانیشتوون و ھیچیان نەکردووە."),
                                   ],
                                 ),
                               ),
@@ -187,7 +187,7 @@ class EnglishEntrybum extends StatelessWidget {
                                             "He dropped out of college and became a bum."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وازی لە زانکۆ هێنا و بوو بە سواڵکەر."),
+                                            "وازی لە زانکۆ ھێنا و بوو بە سواڵکەر."),
                                   ],
                                 ),
                               ),
@@ -218,7 +218,7 @@ class EnglishEntrybum extends StatelessWidget {
                                             "He's nothing but a no-good bum!"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هیچ نییە جگە لە تەوەزەلێکی بێسوود!"),
+                                            "ھیچ نییە جگە لە تەوەزەلێکی بێسوود!"),
                                   ],
                                 ),
                               ),
@@ -249,7 +249,7 @@ class EnglishEntrybum extends StatelessWidget {
                                             "He bummed a ride home from a friend."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "داوای لە هاوڕێکەی کرد بیگەیەنێت بە ماڵەوە."),
+                                            "داوای لە ھاوڕێکەی کرد بیگەیەنێت بە ماڵەوە."),
                                   ],
                                 ),
                               ),

@@ -202,7 +202,7 @@ class EnglishEntrycandidly extends StatelessWidget {
                                             "She candidly admitted her mistakes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاشکاوانە دانی بە هەڵەکانیدا نا."),
+                                            "ڕاشکاوانە دانی بە ھەڵەکانیدا نا."),
                                   ],
                                 ),
                               ),

@@ -198,7 +198,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: پاڵێوراو، بەرئەندام، بەربژار، بەربژێر، ناولێنراو، شتێکی گونجاو یان باش
 
-١. (ناو) کەسێک کە هەوڵی بەدەستهێنانی کارێک یان پۆستێک بە هەڵبژاردن دەدات"""),
+١. (ناو) کەسێک کە ھەوڵی بەدەستھێنانی کارێک یان پۆستێک بە ھەڵبژاردن دەدات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -236,7 +236,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                                             "She stood as a candidate in the local elections."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەربژێرێک بوو لە هەڵبژاردنە خۆجێیەکان."),
+                                            "بەربژێرێک بوو لە ھەڵبژاردنە خۆجێیەکان."),
                                   ],
                                 ),
                               ),
@@ -267,7 +267,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                                                     "The party is fielding more candidates than ever before."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پارتەکە زیاتر لە هەر کاتێکی دیکە بەربژێر دەپاڵێوێت."),
+                                                    "پارتەکە زیاتر لە ھەر کاتێکی دیکە بەربژێر دەپاڵێوێت."),
                                           ],
                                         ),
                                       ),
@@ -297,7 +297,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                                                     "Our organization is putting up five candidates in the elections."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دامەزراوەکە چوار کاندید بەربژێر دەکات لە هەڵبژاردنەکان."),
+                                                    "دامەزراوەکە چوار کاندید بەربژێر دەکات لە ھەڵبژاردنەکان."),
                                           ],
                                         ),
                                       ),
@@ -333,7 +333,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                                             "Candidates are allowed to use dictionaries in this examination."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تاقیکاران دەتوانن فەرهەنگ بەکاربێنن لەم تاقیکردنەوەدا."),
+                                            "تاقیکاران دەتوانن فەرھەنگ بەکاربێنن لەم تاقیکردنەوەدا."),
                                   ],
                                 ),
                               ),
@@ -353,7 +353,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەسێک یان گرووپێک کە گونجاوە بۆ شتێک، ئەگەری هەیە شتێک بەدەستبهێنێت، یان ببێت بە شتێک"),
+                                  "٣. (ناو) کەسێک یان گرووپێک کە گونجاوە بۆ شتێک، ئەگەری ھەیە شتێک بەدەستبھێنێت، یان ببێت بە شتێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -364,7 +364,7 @@ class EnglishEntrycandidate extends StatelessWidget {
                                             "His father is an obvious candidate for a heart attack."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "باوکی ئەگەرێکی ئاشکرای لێدانی جەڵدەی دڵی هەیە."),
+                                            "باوکی ئەگەرێکی ئاشکرای لێدانی جەڵدەی دڵی ھەیە."),
                                   ],
                                 ),
                               ),

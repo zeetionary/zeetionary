@@ -191,9 +191,9 @@ class EnglishEntrycalculation extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ژمێرە، ژمارە، حساب، لێکدانەوە، ژمارە لێکدانەوە، هەڵسەنگاندن، ژمێرەگەری
+کوردی: ژمێرە، ژمارە، حساب، لێکدانەوە، ژمارە لێکدانەوە، ھەڵسەنگاندن، ژمێرەگەری
 
-١. (ناو) کاری بەکارهێنانی ژمارە بۆ زانینی بڕێک"""),
+١. (ناو) کاری بەکارھێنانی ژمارە بۆ زانینی بڕێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -232,7 +232,7 @@ class EnglishEntrycalculation extends StatelessWidget {
                                             "By my calculation(s), we made a profit of £20 000 last year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەپێی لێکدانەوەکانی من، ساڵی پار قازانجی ٢٠٠٠٠ پاوەندمان هەبوو."),
+                                            "بەپێی لێکدانەوەکانی من، ساڵی پار قازانجی ٢٠٠٠٠ پاوەندمان ھەبوو."),
                                   ],
                                 ),
                               ),
@@ -254,7 +254,7 @@ class EnglishEntrycalculation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) هەڵسەنگاندنی مەترسی، ئەگەر، و کاریگەرییەکانی دۆخێک یان ڕێڕەوێکی هەنگاونان"),
+                                  "٢. (ناو) ھەڵسەنگاندنی مەترسی، ئەگەر، و کاریگەرییەکانی دۆخێک یان ڕێڕەوێکی ھەنگاونان"),
                           Row(
                             children: [
                               const Expanded(
@@ -287,7 +287,7 @@ class EnglishEntrycalculation extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پلانی ورد بۆ بەکارهێنانی دۆخێک لە بەرژەوەندی خۆت، بەبێ گرنگیدان بە کەسانی دیکە"),
+                                  "٣. (ناو) پلانی ورد بۆ بەکارھێنانی دۆخێک لە بەرژەوەندی خۆت، بەبێ گرنگیدان بە کەسانی دیکە"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,7 +298,7 @@ class EnglishEntrycalculation extends StatelessWidget {
                                             "There's an element of calculation in his behaviour that makes me distrust him."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک خۆپەرستیی تێدا هەیە کە وادەکات متمانەی پێ نەکەم."),
+                                            "ھەندێک خۆپەرستیی تێدا ھەیە کە وادەکات متمانەی پێ نەکەم."),
                                   ],
                                 ),
                               ),

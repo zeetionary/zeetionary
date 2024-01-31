@@ -189,7 +189,7 @@ class EnglishEntrybyproduct extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لابەرهەم، بەرهەمی لاوەکی، دەم‌بەرهەم، ئەنجامی لاوەکی، لائەنجام، کاریگەری لاتەنیشتی یا لاوەکی، لاکەریگەری
+کوردی: لابەرھەم، بەرھەمی لاوەکی، دەم‌بەرھەم، ئەنجامی لاوەکی، لائەنجام، کاریگەری لاتەنیشتی یا لاوەکی، لاکەریگەری
 
 ١. (ناو) شتێک کە درووست دەبێت لە ئەنجامی درووستکردن یان لەناوبردنی شتێک"""),
                           Row(
@@ -202,7 +202,7 @@ class EnglishEntrybyproduct extends StatelessWidget {
                                             "When burnt, plastic produces dangerous by-products."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە دەسووتێنرێت، پلاستیک لابەرهەمی مەترسیدار درووست دەکات."),
+                                            "کە دەسووتێنرێت، پلاستیک لابەرھەمی مەترسیدار درووست دەکات."),
                                   ],
                                 ),
                               ),

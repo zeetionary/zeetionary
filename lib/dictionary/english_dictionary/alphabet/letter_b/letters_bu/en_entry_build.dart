@@ -304,7 +304,7 @@ class EnglishEntrybuild extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: سازکردن، بیناکردن، درووست کردن ئەندام، هەیکەل، قیافە، بنگە، شێوە، بیچم، پەیکەر، چێوە، چوارپەل، داروبار، پێکهاتە، پێکهێنان
+کوردی: سازکردن، بیناکردن، درووست کردن ئەندام، ھەیکەل، قیافە، بنگە، شێوە، بیچم، پەیکەر، چێوە، چوارپەل، داروبار، پێکھاتە، پێکھێنان
 
 ١. (کردار) بنیاتنانی شتێک"""),
                           Row(
@@ -317,7 +317,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "They have permission to build 200 new homes."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مۆڵەتی درووستکردنی ٢٠٠ ماڵیان هەیە."),
+                                            "مۆڵەتی درووستکردنی ٢٠٠ ماڵیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -376,7 +376,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                                     "Robins build nests almost anywhere."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "بووکەسوورە بەنزیکەیی لە هەموو شوێنێک هێلانە درووست دەکات."),
+                                                    "بووکەسوورە بەنزیکەیی لە ھەموو شوێنێک ھێلانە درووست دەکات."),
                                           ],
                                         ),
                                       ),
@@ -442,7 +442,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "They are trying to build long-term relationships."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ دەدەن پەیوەندی ماوە درێژ درووست بکەن."),
+                                            "ھەوڵ دەدەن پەیوەندی ماوە درێژ درووست بکەن."),
                                   ],
                                 ),
                               ),
@@ -489,7 +489,7 @@ class EnglishEntrybuild extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٣. (ناو) بەهێزتربوون بە هێواشی"),
+                              text: "٣. (ناو) بەھێزتربوون بە ھێواشی"),
                           Row(
                             children: [
                               const Expanded(
@@ -500,7 +500,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "His animosity toward capitalism built steadily as a result of wealth inequality."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕقی بۆ سەرمایەداری پەرەی سەند بە هێواشی بەهۆی نابەرامبەری سامانەوە."),
+                                            "ڕقی بۆ سەرمایەداری پەرەی سەند بە ھێواشی بەھۆی نابەرامبەری سامانەوە."),
                                   ],
                                 ),
                               ),
@@ -530,7 +530,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "He was described as a man of average build."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک پیاوێکی ئەندازە مام‌ناوەند ناودەهێنرا."),
+                                            "وەک پیاوێکی ئەندازە مام‌ناوەند ناودەھێنرا."),
                                   ],
                                 ),
                               ),
@@ -639,7 +639,7 @@ class EnglishEntrybuild extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شێواز و ڕواڵەتی درووستکردنی شتێک، بۆ نموونە چەند بەهێز ئۆتۆمبێلێک درووستکراوە و شێوەکەی"),
+                                  "٧. (ناو) شێواز و ڕواڵەتی درووستکردنی شتێک، بۆ نموونە چەند بەھێز ئۆتۆمبێلێک درووستکراوە و شێوەکەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -650,7 +650,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "The car has an impressive range of features and superb build quality."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلەکە ژمارەیەکی سەرنجڕاکێش لە تایبەتمەندی و کوالێتییەکی ناوازەی بەرهەمهێنانی هەیە ."),
+                                            "ئۆتۆمبێلەکە ژمارەیەکی سەرنجڕاکێش لە تایبەتمەندی و کوالێتییەکی ناوازەی بەرھەمھێنانی ھەیە ."),
                                   ],
                                 ),
                               ),
@@ -681,7 +681,7 @@ class EnglishEntrybuild extends StatelessWidget {
                                             "The story lacked action for me, though I'm sure those that prefer a slow build would love it."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە ڕووداوی خرووشێنەری کەم بوو بەلای منەوە، ئەگەرچی دڵنیام ئەو کەسانەی کە حەزیان بە پەرەسەندنی هێواشە بدڵیان دەبێت."),
+                                            "فیلمەکە ڕووداوی خرووشێنەری کەم بوو بەلای منەوە، ئەگەرچی دڵنیام ئەو کەسانەی کە حەزیان بە پەرەسەندنی ھێواشە بدڵیان دەبێت."),
                                   ],
                                 ),
                               ),

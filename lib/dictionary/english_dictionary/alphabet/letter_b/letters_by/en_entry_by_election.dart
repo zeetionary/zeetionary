@@ -188,7 +188,7 @@ class EnglishEntrybyelection extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) هەڵبژاردنێک بۆ ئەندامێکی تازەی پەرلەمان بۆ شوێنگرتنەوەی یەکێک کە مردووە یان دەستی لەکارکێشاوەتەوە"""),
+١. (ناو) ھەڵبژاردنێک بۆ ئەندامێکی تازەی پەرلەمان بۆ شوێنگرتنەوەی یەکێک کە مردووە یان دەستی لەکارکێشاوەتەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -199,7 +199,7 @@ class EnglishEntrybyelection extends StatelessWidget {
                                             "She resigned as an MP, triggering a by-election."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و هەڵبژاردنێک بەدوایدا هات."),
+                                            "وەک ئەندام پەرلەمان دەستی لەکارکێشایەوە و ھەڵبژاردنێک بەدوایدا ھات."),
                                   ],
                                 ),
                               ),

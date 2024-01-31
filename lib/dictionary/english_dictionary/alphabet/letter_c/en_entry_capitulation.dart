@@ -152,7 +152,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /kəˌpɪtʃuˈleɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcapitulation("en-GB"),
                             ),
@@ -160,7 +160,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /kəˌpɪtʃuˈleɪʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcapitulation("en-US"),
                             ),
@@ -202,7 +202,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                             "To withdraw the remaining troops would have been a humiliating capitulation."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمهێنەر."),
+                                            "کشاندنەوەی سەربازە ماوەکان دەبوو بەملکەچکردنێکی شەرمھێنەر."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrycapitulation extends StatelessWidget {
                                             "Negotiators had to walk a delicate line between capitulation to the hijackers and appearing callous about the hostages."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دانووستانکاران دەبوو هێڵێکی هەستیار بکێشن لە نێوان ملکەچکردن بۆ ڕفێنەران و دەرکەوتن وەک خەمسارد بەرامبەر بارنتەکان."),
+                                            "دانووستانکاران دەبوو ھێڵێکی ھەستیار بکێشن لە نێوان ملکەچکردن بۆ ڕفێنەران و دەرکەوتن وەک خەمسارد بەرامبەر بارنتەکان."),
                                   ],
                                 ),
                               ),

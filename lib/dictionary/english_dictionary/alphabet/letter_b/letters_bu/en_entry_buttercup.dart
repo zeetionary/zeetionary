@@ -188,7 +188,7 @@ class EnglishEntrybuttercup extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گوڵە مێلاقە، ڕەبەنۆک، بووک، گوڵ‌ماس، جوونگ، گوڵەبەهارە، باتینۆک 
+کوردی: گوڵە مێلاقە، ڕەبەنۆک، بووک، گوڵ‌ماس، جوونگ، گوڵەبەھارە، باتینۆک 
 
 ١. (ناو) ڕووەکێکی دەشتی کە گوڵی زەردی بچووک دەگرێت کە وەک کوپن لە شێوەدا"""),
                           Row(
@@ -201,7 +201,7 @@ class EnglishEntrybuttercup extends StatelessWidget {
                                             "Children enjoy picking buttercups in spring."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەهاردا."),
+                                            "منداڵان حەزیان لە چنینی گوڵە مێلاقەیە لە بەھاردا."),
                                   ],
                                 ),
                               ),

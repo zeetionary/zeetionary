@@ -206,7 +206,7 @@ class EnglishEntrybutcher extends StatelessWidget {
                                             "Every morning, the butcher displays fresh cuts in the shop."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو بەیانییەک قەسابەکە گۆشتی تازە هەڵدەواسێت لە قەسابخانەکە."),
+                                            "ھەموو بەیانییەک قەسابەکە گۆشتی تازە ھەڵدەواسێت لە قەسابخانەکە."),
                                   ],
                                 ),
                               ),
@@ -235,7 +235,7 @@ class EnglishEntrybutcher extends StatelessWidget {
                                             "He owns the butcher's in the main street."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قەسابخانەی شەقامە سەرەکییەکەی هەیە."),
+                                            "قەسابخانەی شەقامە سەرەکییەکەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -296,7 +296,7 @@ class EnglishEntrybutcher extends StatelessWidget {
                                             "Unarmed civilians are being butchered by the occupying forces."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هاوڵاتیی مەدەنیی بێ‌چەک لەلایەن هێزە داگیرکەرەکانەوە دەکوژرێن."),
+                                            "ھاوڵاتیی مەدەنیی بێ‌چەک لەلایەن ھێزە داگیرکەرەکانەوە دەکوژرێن."),
                                   ],
                                 ),
                               ),
@@ -316,7 +316,7 @@ class EnglishEntrybutcher extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) کوشتنی ئاژەڵ بۆ بەکارهێنان و فرۆشتن یان خواردنی گۆشتەکەی"),
+                                  "٥. (کردار) کوشتنی ئاژەڵ بۆ بەکارھێنان و فرۆشتن یان خواردنی گۆشتەکەی"),
                           Row(
                             children: [
                               const Expanded(
@@ -327,7 +327,7 @@ class EnglishEntrybutcher extends StatelessWidget {
                                             "This is where farmers brought their livestock to be butchered."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەمە ئەوێیە کە ئاژەڵداران مەڕوماڵاتەکەیان هێنا بۆ ئەوەی سەرببڕدرێن."),
+                                            "ئەمە ئەوێیە کە ئاژەڵداران مەڕوماڵاتەکەیان ھێنا بۆ ئەوەی سەرببڕدرێن."),
                                   ],
                                 ),
                               ),

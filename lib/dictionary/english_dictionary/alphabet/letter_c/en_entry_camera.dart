@@ -202,7 +202,7 @@ class EnglishEntrycamera extends StatelessWidget {
                                             "Just point the camera and press the button."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەنها کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا."),
+                                            "تەنھا کامێراکە ئاراستە بکە و پەنجە بنێ بە دووگمەکەدا."),
                                   ],
                                 ),
                               ),
@@ -230,7 +230,7 @@ class EnglishEntrycamera extends StatelessWidget {
                                             "Most phones have a built-in camera."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر موبایل کامێرای ناوەکی هەیە."),
+                                            "زۆر موبایل کامێرای ناوەکی ھەیە."),
                                   ],
                                 ),
                               ),

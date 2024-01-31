@@ -153,7 +153,7 @@ class EnglishEntrybugler extends StatelessWidget {
                                             "A bugler sounded the wake-up call."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەیپوورژەنێک زوڕنای لە خەوهەستانی لێدا."),
+                                            "شەیپوورژەنێک زوڕنای لە خەوھەستانی لێدا."),
                                   ],
                                 ),
                               ),

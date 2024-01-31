@@ -155,7 +155,7 @@ class EnglishEntrybullet extends StatelessWidget {
                                         text:
                                             "There were bullet holes in the door."),
                                     ExampleSentenceKurdish(
-                                        text: "کونی فیشەک لە دەرگاکەدا هەبوو."),
+                                        text: "کونی فیشەک لە دەرگاکەدا ھەبوو."),
                                   ],
                                 ),
                               ),

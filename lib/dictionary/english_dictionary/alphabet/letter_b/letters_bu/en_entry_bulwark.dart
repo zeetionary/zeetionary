@@ -154,7 +154,7 @@ class EnglishEntrybulwark extends StatelessWidget {
                                             "At the time fascism had many supporters in the West, who saw it as a bulwark against communism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا هەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی."),
+                                            "لەو کاتەدا فاشیزم زۆر بەرگریکارییان لە ڕۆژئاوا ھەبوو و وەک شوورایەک دژ بە کۆمونیزم دەیانبینی."),
                                   ],
                                 ),
                               ),

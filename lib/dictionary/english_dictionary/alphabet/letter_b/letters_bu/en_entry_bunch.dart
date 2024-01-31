@@ -194,9 +194,9 @@ class EnglishEntrybunch extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دەسک، دەستک، چەپک، گورزە، هووێزی، تاخە، لاگوێل، گولکم، دەستە، کۆمەڵ، جەماعەت، کۆمەڵە، کۆما، کۆگا، هێشوو، بۆڵ
+کوردی: دەسک، دەستک، چەپک، گورزە، ھووێزی، تاخە، لاگوێل، گولکم، دەستە، کۆمەڵ، جەماعەت، کۆمەڵە، کۆما، کۆگا، ھێشوو، بۆڵ
 
-١. (ناو) ژمارەیەک شتی هەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"""),
+١. (ناو) ژمارەیەک شتی ھەمان جۆر کە پێکەوە گرێدراون یان پێکەوە گەشە دەکەن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -234,7 +234,7 @@ class EnglishEntrybunch extends StatelessWidget {
                                             "She put all the flowers together in one big bunch."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا."),
+                                            "ھەموو گوڵەکانی نا بە یەکەوە لە چەپکێکی گەورەدا."),
                                   ],
                                 ),
                               ),
@@ -264,7 +264,7 @@ class EnglishEntrybunch extends StatelessWidget {
                                             "I have a whole bunch of stuff to do this morning."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕێژەیەکی زۆر کارم هەیە ئەم بەیانییە بیکەم."),
+                                            "ڕێژەیەکی زۆر کارم ھەیە ئەم بەیانییە بیکەم."),
                                   ],
                                 ),
                               ),
@@ -342,7 +342,7 @@ class EnglishEntrybunch extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) قژی درێژ کە کراوە بە دوو بەشەوە و لە هەردوو لای سەرەوە بەستراوە"),
+                                  "٤. (ناو) قژی درێژ کە کراوە بە دوو بەشەوە و لە ھەردوو لای سەرەوە بەستراوە"),
                           Row(
                             children: [
                               const Expanded(

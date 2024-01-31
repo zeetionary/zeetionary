@@ -188,7 +188,7 @@ class EnglishEntrycameo extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نقێمی بە نەخش‌هەڵکەنراو، پارچە (نووسراوە، فیلم، شانو و هتد)
+کوردی: نقێمی بە نەخش‌ھەڵکەنراو، پارچە (نووسراوە، فیلم، شانو و ھتد)
 
 ١. (ناو) بەشێکی بچووکی فیلمێک یان شانۆیەک کە لەلایەن ئەکتەرێکی بەناوبانگەوە ڕۆڵی دەبیندرێت"""),
                           Row(

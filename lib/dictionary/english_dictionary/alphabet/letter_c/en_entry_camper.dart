@@ -202,7 +202,7 @@ class EnglishEntrycamper extends StatelessWidget {
                                             "During the summer months we have on average 170 campers staying here every night."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کاتی مانگەکانی هاوین بە تێکڕا ١٧٠ کەمپ‌نشینمان هەبوو کە هەموو شەوێک لێرە دەمانەوە."),
+                                            "لە کاتی مانگەکانی ھاوین بە تێکڕا ١٧٠ کەمپ‌نشینمان ھەبوو کە ھەموو شەوێک لێرە دەمانەوە."),
                                   ],
                                 ),
                               ),
@@ -233,7 +233,7 @@ class EnglishEntrycamper extends StatelessWidget {
                                             "Parked next to us was a camper with what sounded like dozens of kids."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە تەنیشتمان کەمپەرێک هەبوو بە ژمارەیەکی زۆر منداڵەوە."),
+                                            "لە تەنیشتمان کەمپەرێک ھەبوو بە ژمارەیەکی زۆر منداڵەوە."),
                                   ],
                                 ),
                               ),

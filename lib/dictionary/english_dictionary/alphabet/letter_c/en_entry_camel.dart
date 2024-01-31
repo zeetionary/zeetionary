@@ -190,7 +190,7 @@ class EnglishEntrycamel extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: وشتر، دەڤە، سارە
 
-١. (ناو) وشتر؛ ئاژەڵێک کە ملی درێژە و دوو کۆپارەی هەیە لەسەر پشتی. وشتر لە وڵاتانی بیابانی بەکاردێت بۆ سواری و بارگواستنەوە"""),
+١. (ناو) وشتر؛ ئاژەڵێک کە ملی درێژە و دوو کۆپارەی ھەیە لەسەر پشتی. وشتر لە وڵاتانی بیابانی بەکاردێت بۆ سواری و بارگواستنەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,7 @@ class EnglishEntrycamel extends StatelessWidget {
                                             "The Bedouins relied on camels for traversing the desert."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست هاتوچۆ بە بیابانەکەدا."),
+                                            "عەرەبە بیاباننشینەکان پشتیان بە وشتر دەبەست ھاتوچۆ بە بیابانەکەدا."),
                                   ],
                                 ),
                               ),

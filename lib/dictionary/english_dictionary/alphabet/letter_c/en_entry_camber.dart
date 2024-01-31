@@ -190,7 +190,7 @@ class EnglishEntrycamber extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: گورگەپشت، کووڕایی (نێوەڕاست ڕێگا)
 
-١. (ناو) داکشانێک لە ناوەڕاستی ڕێگاوە بۆ هەردوو لا بۆ ئەوەی ئاو دەربچێت"""),
+١. (ناو) داکشانێک لە ناوەڕاستی ڕێگاوە بۆ ھەردوو لا بۆ ئەوەی ئاو دەربچێت"""),
                           Row(
                             children: [
                               const Expanded(

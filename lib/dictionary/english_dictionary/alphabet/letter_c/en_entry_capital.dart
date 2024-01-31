@@ -201,9 +201,9 @@ class EnglishEntrycapital extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پایتەخت، پێتەخت، پایەتەخت، پاتەخت، شانشین، نێوەند، ناوەند، چەق، پیتی گەورە یان درشت، سەرمایە، دەسمایە، بنەپیت، مایە، سەرەستوون، تانج، سەرکۆڵ، ئەسپەرە، کۆتەڵە، سەرکۆڵەکە، پاشکەوت، شیاوی مەرگ یان لەسێدارەدان، بنەڕەتی، سەرەکی، بنچینەیی، بنگەهی، گرنگ، یەکجارباش، بەرز، (پیت) گەورە، درشت، گردەک
+کوردی: پایتەخت، پێتەخت، پایەتەخت، پاتەخت، شانشین، نێوەند، ناوەند، چەق، پیتی گەورە یان درشت، سەرمایە، دەسمایە، بنەپیت، مایە، سەرەستوون، تانج، سەرکۆڵ، ئەسپەرە، کۆتەڵە، سەرکۆڵەکە، پاشکەوت، شیاوی مەرگ یان لەسێدارەدان، بنەڕەتی، سەرەکی، بنچینەیی، بنگەھی، گرنگ، یەکجارباش، بەرز، (پیت) گەورە، درشت، گردەک
 
-١. (ناو) پایتەخت؛ گرنگترین شارۆچکە یان شاری وڵاتێک یان هەرێمێک کە لێیەوە حکومەت کاردەکات"""),
+١. (ناو) پایتەخت؛ گرنگترین شارۆچکە یان شاری وڵاتێک یان ھەرێمێک کە لێیەوە حکومەت کاردەکات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -240,7 +240,7 @@ class EnglishEntrycapital extends StatelessWidget {
                                             "Rennes is the provincial capital of Brittany."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕینز پایتەختی هەرێمی بریتانییە."),
+                                            "ڕینز پایتەختی ھەرێمی بریتانییە."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ class EnglishEntrycapital extends StatelessWidget {
                                                     "Paris is known as the fashion capital of the world."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "(بەکارهێنانی خوازراوی) پاریس وەک پایتەختی فاشنی جیهان ناسراوە."),
+                                                    "(بەکارھێنانی خوازراوی) پاریس وەک پایتەختی فاشنی جیھان ناسراوە."),
                                           ],
                                         ),
                                       ),
@@ -367,7 +367,7 @@ class EnglishEntrycapital extends StatelessWidget {
                                             "He had various ideas on how to raise capital for the project."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک بیرۆکەی هەبوو کە چۆن دەسمایە بۆ پڕۆژەکە پەیدا بکات."),
+                                            "ژمارەیەک بیرۆکەی ھەبوو کە چۆن دەسمایە بۆ پڕۆژەکە پەیدا بکات."),
                                   ],
                                 ),
                               ),
@@ -486,7 +486,7 @@ class EnglishEntrycapital extends StatelessWidget {
                                             "In some countries, importing drugs is a capital offence."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ژمارەیەک وڵات، هەناردەکردنی مادەی هۆشبەر سزای مەرگی هەیە."),
+                                            "لە ژمارەیەک وڵات، ھەناردەکردنی مادەی ھۆشبەر سزای مەرگی ھەیە."),
                                   ],
                                 ),
                               ),

@@ -231,7 +231,7 @@ class EnglishEntrycabaret extends StatelessWidget {
                                             "In Paris, we visited several cabarets."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە پاریس سەردانی ژمارەیەک شەوە ئاهەنگمان کرد."),
+                                            "لە پاریس سەردانی ژمارەیەک شەوە ئاھەنگمان کرد."),
                                   ],
                                 ),
                               ),

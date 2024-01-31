@@ -190,7 +190,7 @@ class EnglishEntrycadet extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: تازەکار، نۆفێر، فێرخواز
 
-١. (ناو) گەنجێک کە ڕاهێنان دەکات بۆ چوونە ناو پۆلیس یان سوپاوە"""),
+١. (ناو) گەنجێک کە ڕاھێنان دەکات بۆ چوونە ناو پۆلیس یان سوپاوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,7 @@ class EnglishEntrycadet extends StatelessWidget {
                                             "The military academy trains up to 2 000 officer cadets each year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەکادیمیا سەربازییەکە هەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاهێنان پێ‌دەکات."),
+                                            "ئەکادیمیا سەربازییەکە ھەموو ساڵێک تا ٢٠٠٠ تازەکار ڕاھێنان پێ‌دەکات."),
                                   ],
                                 ),
                               ),

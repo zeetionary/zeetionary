@@ -189,7 +189,7 @@ class EnglishEntrycalmly extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بە هێوری، بە ئارامی
+کوردی: بە ھێوری، بە ئارامی
 
 ١. (ھاوەڵکار) بە ئارامی و لەسەرخۆیی"""),
                           Row(
@@ -202,7 +202,7 @@ class EnglishEntrycalmly extends StatelessWidget {
                                             "She reacted calmly to the news of his death."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەلەسەرخۆییەوە کاردانەوەی هەبوو بۆ هەواڵی مردنی."),
+                                            "بەلەسەرخۆییەوە کاردانەوەی ھەبوو بۆ ھەواڵی مردنی."),
                                   ],
                                 ),
                               ),

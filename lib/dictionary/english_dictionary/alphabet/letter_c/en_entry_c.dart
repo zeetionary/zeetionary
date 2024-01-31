@@ -230,7 +230,7 @@ class EnglishEntryc extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "She got (a) C/‘C’ in physics."),
                                     ExampleSentenceKurdish(
-                                        text: "پەسەندەی هێنا لە فیزیادا."),
+                                        text: "پەسەندەی ھێنا لە فیزیادا."),
                                   ],
                                 ),
                               ),
@@ -291,7 +291,7 @@ class EnglishEntryc extends StatelessWidget {
                                             "There were two world wars in 21st c."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دوو جەنگی جیهانی لە سەدەی ٢١ هەبوو."),
+                                            "دوو جەنگی جیھانی لە سەدەی ٢١ ھەبوو."),
                                   ],
                                 ),
                               ),

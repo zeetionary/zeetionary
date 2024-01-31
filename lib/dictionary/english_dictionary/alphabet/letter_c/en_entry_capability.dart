@@ -190,7 +190,7 @@ class EnglishEntrycapability extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: توانایی، توانست، خورتی، لێهاتوویی، لێوەشاوەیی، شیان، تواناداری، هێز
+کوردی: توانایی، توانست، خورتی، لێھاتوویی، لێوەشاوەیی، شیان، تواناداری، ھێز
 
 ١. (ناو) توانای پێویست بۆ کردنی شتێک"""),
                           Row(
@@ -203,7 +203,7 @@ class EnglishEntrycapability extends StatelessWidget {
                                             "She has the capability to become a very fine doctor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانستی هەیە ببێت بە دکتۆرێکی زۆر باش."),
+                                            "توانستی ھەیە ببێت بە دکتۆرێکی زۆر باش."),
                                   ],
                                 ),
                               ),
@@ -261,7 +261,7 @@ class EnglishEntrycapability extends StatelessWidget {
                                             "Several countries are trying to develop a nuclear capability."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ژمارەیەک وڵات هەوڵ دەدەن توانای چەکی ئەتۆمییان هەبێت."),
+                                            "ژمارەیەک وڵات ھەوڵ دەدەن توانای چەکی ئەتۆمییان ھەبێت."),
                                   ],
                                 ),
                               ),

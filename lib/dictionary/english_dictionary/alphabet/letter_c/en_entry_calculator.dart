@@ -203,7 +203,7 @@ class EnglishEntrycalculator extends StatelessWidget {
                                             "I used the calculator app on my phone."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارهێنا."),
+                                            "ئەپی ژمێرەرم لەسەر موبایلەکەم بەکارھێنا."),
                                   ],
                                 ),
                               ),

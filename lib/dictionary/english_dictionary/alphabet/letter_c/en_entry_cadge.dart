@@ -191,7 +191,7 @@ class EnglishEntrycadge extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: سواڵکردن، درۆزەکردن، گەدایی کردن، دەس‌پان‌کردنەوە 
 
-١. (کردار) داواکردنی پارە، خواردن، هتد بەتایبەتی بەهۆی ئەوەی خۆت ناتوانیت یان نەتەوێت بیدەیت"""),
+١. (کردار) داواکردنی پارە، خواردن، ھتد بەتایبەتی بەھۆی ئەوەی خۆت ناتوانیت یان نەتەوێت بیدەیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycadge extends StatelessWidget {
                                             "I managed to cadge some money off my dad."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "توانیم هەندێک پارە لە باوکم دەربێنم."),
+                                            "توانیم ھەندێک پارە لە باوکم دەربێنم."),
                                   ],
                                 ),
                               ),
@@ -229,7 +229,7 @@ class EnglishEntrycadge extends StatelessWidget {
                                         text: "He cadges off all his friends."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەست لە هەموو هاوڕێکانی پان دەکاتەوە."),
+                                            "دەست لە ھەموو ھاوڕێکانی پان دەکاتەوە."),
                                   ],
                                 ),
                               ),

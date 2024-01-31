@@ -222,7 +222,7 @@ class EnglishEntrybuyer extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کەسێک کە ئەو کاڵایانە هەڵدەبژێرێت کە لە فرۆشگایەکی گەورەدا دەفرۆشرێن"),
+                                  "٢. (ناو) کەسێک کە ئەو کاڵایانە ھەڵدەبژێرێت کە لە فرۆشگایەکی گەورەدا دەفرۆشرێن"),
                           Row(
                             children: [
                               const Expanded(

@@ -304,7 +304,7 @@ class EnglishEntrycalm extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هێمن، سرەوتوو، ئارام، هێدی، هێور، ئەهۆن، هۆن، سرەوت، شێنەیی، سەیوەت، هێمنی، ئارامی، ئۆخژن 
+کوردی: ھێمن، سرەوتوو، ئارام، ھێدی، ھێور، ئەھۆن، ھۆن، سرەوت، شێنەیی، سەیوەت، ھێمنی، ئارامی، ئۆخژن 
 
 ١. (ھاوەڵناو) ئارام و لەسەرخۆ"""),
                           Row(
@@ -345,7 +345,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                             "He always stays calm under pressure."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەمیشە لەژێر فشاردا لەسەرخۆ دەمێنێتەوە."),
+                                            "ھەمیشە لەژێر فشاردا لەسەرخۆ دەمێنێتەوە."),
                                   ],
                                 ),
                               ),
@@ -376,7 +376,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                                     "Her voice was surprisingly calm."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "دەنگی بەشێوەیەکی سەرنجڕاکێش هێمن بوو."),
+                                                    "دەنگی بەشێوەیەکی سەرنجڕاکێش ھێمن بوو."),
                                           ],
                                         ),
                                       ),
@@ -489,7 +489,7 @@ class EnglishEntrycalm extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) هێورکردنەوە"),
+                              text: "٤. (کردار) ھێورکردنەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -500,7 +500,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                             "The announcement by the government did little to calm the fears of investors."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕاگەیاندنەکەی حکومەت کاریگەری کەمی بوو لەسەر ئەهۆنکردنەوەی وەبەرهێنەران."),
+                                            "ڕاگەیاندنەکەی حکومەت کاریگەری کەمی بوو لەسەر ئەھۆنکردنەوەی وەبەرھێنەران."),
                                   ],
                                 ),
                               ),
@@ -528,7 +528,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                             "I breathed in slowly, trying to calm myself."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەهێواشی هەناسەم هەڵمژی بە هەوڵدان بۆ ئارامکردنەوەی خۆم."),
+                                            "بەھێواشی ھەناسەم ھەڵمژی بە ھەوڵدان بۆ ئارامکردنەوەی خۆم."),
                                   ],
                                 ),
                               ),
@@ -547,7 +547,7 @@ class EnglishEntrycalm extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (ناو) دۆخێکی ئارام و هێمن"),
+                              text: "٥. (ناو) دۆخێکی ئارام و ھێمن"),
                           Row(
                             children: [
                               const Expanded(
@@ -584,7 +584,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                             "The bombings ended a period of relative calm."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەقینەوەکان کۆتاییان بە سەردەمێکی تا ڕادەیەک ئارامی هێنا."),
+                                            "تەقینەوەکان کۆتاییان بە سەردەمێکی تا ڕادەیەک ئارامی ھێنا."),
                                   ],
                                 ),
                               ),
@@ -640,7 +640,7 @@ class EnglishEntrycalm extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٦. (ناو) کاتێک کە هیچ بایەک نییە"),
+                              text: "٦. (ناو) کاتێک کە ھیچ بایەک نییە"),
                           Row(
                             children: [
                               const Expanded(
@@ -649,7 +649,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "They landed in a flat calm."),
                                     ExampleSentenceKurdish(
-                                        text: "لە هێمنییەکی تەواودا نیشتنەوە."),
+                                        text: "لە ھێمنییەکی تەواودا نیشتنەوە."),
                                   ],
                                 ),
                               ),
@@ -668,7 +668,7 @@ class EnglishEntrycalm extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٧. (ناو) هەڵسوکەوتی لەسەرخۆ و بێ‌دەنگ"),
+                              text: "٧. (ناو) ھەڵسوکەوتی لەسەرخۆ و بێ‌دەنگ"),
                           Row(
                             children: [
                               const Expanded(
@@ -707,7 +707,7 @@ class EnglishEntrycalm extends StatelessWidget {
                                             "Under his apparent calm lay real anxiety."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو هەیە."),
+                                            "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو ھەیە."),
                                   ],
                                 ),
                               ),

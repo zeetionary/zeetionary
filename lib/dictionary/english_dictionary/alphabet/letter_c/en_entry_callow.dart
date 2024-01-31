@@ -201,7 +201,7 @@ class EnglishEntrycallow extends StatelessWidget {
                                             "Mark was just a callow youth of 16 when he arrived in Paris."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "مارک تەنها گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس."),
+                                            "مارک تەنھا گەنجێکی بێ‌ئەزموونی ١٦ ساڵان بوو کە گەشتە پاریس."),
                                   ],
                                 ),
                               ),

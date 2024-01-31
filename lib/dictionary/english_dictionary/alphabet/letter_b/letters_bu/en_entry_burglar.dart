@@ -202,7 +202,7 @@ class EnglishEntryburglar extends StatelessWidget {
                                             "Burglars broke into the gallery and stole dozens of priceless paintings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەهایان دزی."),
+                                            "دزەکان چوونە پێشانگاکەوە ژمارەیەک تابلۆی گرانبەھایان دزی."),
                                   ],
                                 ),
                               ),
@@ -230,7 +230,7 @@ class EnglishEntryburglar extends StatelessWidget {
                                             "The burglar had broken in through a window."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دزەکە لە پەنجەرەیەکە هاتبووە ژوورەوە."),
+                                            "دزەکە لە پەنجەرەیەکە ھاتبووە ژوورەوە."),
                                   ],
                                 ),
                               ),

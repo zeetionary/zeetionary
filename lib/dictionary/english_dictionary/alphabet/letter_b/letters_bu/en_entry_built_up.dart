@@ -103,7 +103,7 @@ class EnglishEntrybuiltup extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˌbɪlt ˈʌp/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbuiltup("en-GB"),
                             ),
@@ -111,7 +111,7 @@ class EnglishEntrybuiltup extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˌbɪlt ˈʌp/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbuiltup("en-US"),
                             ),
@@ -151,7 +151,7 @@ class EnglishEntrybuiltup extends StatelessWidget {
                                             "City council plans to lower speed limit in built-up areas to 30 km/h."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەنجوومەنی شارەکە پلانی هەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە."),
+                                            "ئەنجوومەنی شارەکە پلانی ھەیە خێرایی دیاریکراو کەم بکاتەوە بۆ ٣٠ کم/کاتژمێرێکدا لە ناوچە ئاوەدانەکە."),
                                   ],
                                 ),
                               ),

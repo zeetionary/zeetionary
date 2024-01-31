@@ -199,7 +199,7 @@ class EnglishEntrybye extends StatelessWidget {
                                         text: "Bye! See you next week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بای! هەفتەی داهاتوو دەتبینمەوە."),
+                                            "بای! ھەفتەی داھاتوو دەتبینمەوە."),
                                   ],
                                 ),
                               ),

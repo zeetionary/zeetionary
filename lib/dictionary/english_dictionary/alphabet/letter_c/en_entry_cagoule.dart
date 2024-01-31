@@ -190,7 +190,7 @@ class EnglishEntrycagoule extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (جل‌وبەرگ) باگیڕەوە، باگیر، بارانی
 
-١. (ھاوەڵناو) چاکەتێکی درێژ کە کڵاوێکی هەیە و دژ بە باران لەبەر دەکرێت"""),
+١. (ھاوەڵناو) چاکەتێکی درێژ کە کڵاوێکی ھەیە و دژ بە باران لەبەر دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +201,7 @@ class EnglishEntrycagoule extends StatelessWidget {
                                             "Bad weather is likely, so please wear boots and a cagoule."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەگەری کەشوهەوای دژوار هەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە."),
+                                            "ئەگەری کەشوھەوای دژوار ھەیە، بۆیە تکایە پۆتین و باگیرێک لەبەربکە."),
                                   ],
                                 ),
                               ),

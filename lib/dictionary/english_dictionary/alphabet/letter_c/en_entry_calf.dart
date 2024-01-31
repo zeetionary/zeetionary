@@ -202,7 +202,7 @@ class EnglishEntrycalf extends StatelessWidget {
                                             "She's been unable to play since January because of a torn calf muscle."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەهۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی."),
+                                            "لە کانوونی دووەمەوە توانای یاریکردنی نییە بەھۆی ماسولکەیەکی پچڕاو لە نەرمەی پووزی."),
                                   ],
                                 ),
                               ),
@@ -222,7 +222,7 @@ class EnglishEntrycalf extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) گوێرەکە؛ بەچکە مانگا، یان ئاژەڵی دیکە، بۆ نموونە بەچکەی فیل و نەهەنگ"),
+                                  "٢. (ناو) گوێرەکە؛ بەچکە مانگا، یان ئاژەڵی دیکە، بۆ نموونە بەچکەی فیل و نەھەنگ"),
                           Row(
                             children: [
                               const Expanded(

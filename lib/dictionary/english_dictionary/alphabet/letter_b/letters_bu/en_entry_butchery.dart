@@ -233,7 +233,7 @@ class EnglishEntrybutchery extends StatelessWidget {
                                             "Butchery is a skill that takes time to learn."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "قەسابی بەهرەیەکە کە کاتی پێویستە بۆ فێربوون."),
+                                            "قەسابی بەھرەیەکە کە کاتی پێویستە بۆ فێربوون."),
                                   ],
                                 ),
                               ),

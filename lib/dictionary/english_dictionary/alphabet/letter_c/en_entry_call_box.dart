@@ -204,7 +204,7 @@ class EnglishEntrycallbox extends StatelessWidget {
                                             "The campus has strategically placed call boxes for quick response to safety concerns."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی هەبوونی مەترسی."),
+                                            "کەمپەکە بەشێوەیەکی ستراتیژی کیوسکی تەلەفۆنی داناوە بۆ وەڵامدانەوەی خێرا لە کاتی ھەبوونی مەترسی."),
                                   ],
                                 ),
                               ),

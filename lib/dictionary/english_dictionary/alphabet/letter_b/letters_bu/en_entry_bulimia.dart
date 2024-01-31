@@ -108,7 +108,7 @@ class EnglishEntrybulimia extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /buˈlɪmiə/,  /buˈliːmiə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbulimia("en-GB"),
                             ),
@@ -116,7 +116,7 @@ class EnglishEntrybulimia extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /buˈlɪmiə/,  /buˈliːmiə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbulimia("en-US"),
                             ),
@@ -156,7 +156,7 @@ class EnglishEntrybulimia extends StatelessWidget {
                                             "Feelings of guilt accompany bulimia."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەستکردن بە تاوان بەشێکە لە بۆلیمیا."),
+                                            "ھەستکردن بە تاوان بەشێکە لە بۆلیمیا."),
                                   ],
                                 ),
                               ),

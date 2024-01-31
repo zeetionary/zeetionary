@@ -261,7 +261,7 @@ class EnglishEntrycapitulate extends StatelessWidget {
                                             "The town capitulated after a three-week siege."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شارۆچکەکە لە دوای گەمارۆیەکی سێ هەفتەیی خۆی ڕادەستکرد."),
+                                            "شارۆچکەکە لە دوای گەمارۆیەکی سێ ھەفتەیی خۆی ڕادەستکرد."),
                                   ],
                                 ),
                               ),

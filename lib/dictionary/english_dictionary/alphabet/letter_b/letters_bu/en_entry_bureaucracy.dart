@@ -189,7 +189,7 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) سیستەمی یاسا فەرمییەکان و شێوازی ئەنجامدانی ئەو کارانەی حکومەتێک یان دامەزراوەیەک هەیەتی، بەتایبەتی کاتێک ئەمە زۆر ئاڵۆزە"""),
+١. (ناو) سیستەمی یاسا فەرمییەکان و شێوازی ئەنجامدانی ئەو کارانەی حکومەتێک یان دامەزراوەیەک ھەیەتی، بەتایبەتی کاتێک ئەمە زۆر ئاڵۆزە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -200,7 +200,7 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                                             "The organization has promised to eliminate unnecessary bureaucracy."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەهێڵێت."),
+                                            "دامەزراوەکە بەڵێنی داوە بیرۆکراسیی ناپێویست نەھێڵێت."),
                                   ],
                                 ),
                               ),
@@ -222,7 +222,7 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) سیستەمێکی حکومەت کە ژمارەیەکی زۆر بەرپرسی هەیە کە ڕاستەوخۆ هەڵنەبژێردراون"),
+                                  "٢. (ناو) سیستەمێکی حکومەت کە ژمارەیەکی زۆر بەرپرسی ھەیە کە ڕاستەوخۆ ھەڵنەبژێردراون"),
                           Row(
                             children: [
                               const Expanded(

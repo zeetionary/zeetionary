@@ -326,7 +326,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calorie (Derived forms: calories)
+- Noun: calorie (derived forms: calories)
 1. Unit of heat defined as the quantity of heat required to raise the temperature of 1 gram of water by 1 degree centigrade at atmospheric pressure (= gram calorie, small calorie, cal)
 
 - Noun: Calorie

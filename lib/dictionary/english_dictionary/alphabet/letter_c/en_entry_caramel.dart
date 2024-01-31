@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caramel (Derived forms: caramels)
+- Noun: caramel (derived forms: caramels)
 1. Firm chewy candy made from caramelized sugar and butter and milk
  
 2. Burnt sugar; used to colour and flavour food (= caramelized sugar, caramelised sugar [Brit])
@@ -343,7 +343,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GMX9BboUnOo',
+    videoId: 'GMX9BboUnOo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5qhY7mhw30g?t=',
+    videoId: '5qhY7mhw30g',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xd9ch6GD_AE?t=',
+    videoId: 'Xd9ch6GD_AE',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dZ0Ic9EMdK0',
+    videoId: 'dZ0Ic9EMdK0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    videoId: 's3B-qp3U5G0',
     startSeconds: 1008,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    videoId: 'a9m3GD0DbPY',
     startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
+    videoId: 'omcNGrnt7Sg',
     startSeconds: 1712,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iKv4oc2zbeA?t=',
+    videoId: 'iKv4oc2zbeA',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +543,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9uFpws53Tyk?t=',
+    videoId: '9uFpws53Tyk',
     startSeconds: 247,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +568,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BPYivm414_8',
+    videoId: 'BPYivm414_8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +593,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SqQyiUeJsxw?t=',
+    videoId: 'SqQyiUeJsxw',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(

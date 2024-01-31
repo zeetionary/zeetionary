@@ -29,8 +29,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Paula got into the car and drove off."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Paula got into the car and drove off."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars2(String languageCode) async {
@@ -46,7 +46,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("There were parked cars on both sides of the road."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "There were parked cars on both sides of the road."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars4(String languageCode) async {
@@ -54,7 +55,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She swerved her car sharply to the right."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She swerved her car sharply to the right."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars5(String languageCode) async {
@@ -62,7 +64,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His car hit a lorry coming in the opposite direction."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His car hit a lorry coming in the opposite direction."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars6(String languageCode) async {
@@ -70,7 +73,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I lost control of the car and it spun off the road."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I lost control of the car and it spun off the road."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars7(String languageCode) async {
@@ -78,7 +82,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's too far to walk. I'll take the car."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It's too far to walk. I'll take the car."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars8(String languageCode) async {
@@ -86,7 +91,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The car does 55 miles per gallon."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The car does 55 miles per gallon."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars9(String languageCode) async {
@@ -94,7 +100,8 @@ class EnglishEntrycar extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Several cars went off the rails."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Several cars went off the rails."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcars10(String languageCode) async {
@@ -203,7 +210,8 @@ class EnglishEntrycar extends StatelessWidget {
                                         text:
                                             "Paula got into the car and drove off."),
                                     ExampleSentenceKurdish(
-                                        text: "پاولا چووە ناو ئۆتۆمبێلەکە و لێیخوڕی."),
+                                        text:
+                                            "پاولا چووە ناو ئۆتۆمبێلەکە و لێیخوڕی."),
                                   ],
                                 ),
                               ),
@@ -222,227 +230,244 @@ class EnglishEntrycar extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Where can I park the car?"),
-                          ExampleSentenceKurdish(
-                          text: "لە کوێ ئۆتۆمبێلەکە ڕابگرم؟"),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "There were parked cars on both sides of the road."),
-                          ExampleSentenceKurdish(
-                          text: "ئۆتۆمبێلی پارککراو لە هەردوو لای ڕێگاکە هەبوون."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She swerved her car sharply to the right."),
-                          ExampleSentenceKurdish(
-                          text: "ئۆتۆمبێلەکەی بەخێرایی بۆ لای ڕاست پێچکردەوە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "Where can I park the car?"),
+                                    ExampleSentenceKurdish(
+                                        text: "لە کوێ ئۆتۆمبێلەکە ڕابگرم؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcars2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcars2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "His car hit a lorry coming in the opposite direction."),
-                          ExampleSentenceKurdish(
-                          text: "ئۆتۆمبێلەکەی کێشای بە لۆرییەکدا کە لە ئاراستەی پێچەوانەوە دەهات."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "There were parked cars on both sides of the road."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئۆتۆمبێلی پارککراو لە هەردوو لای ڕێگاکە هەبوون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcars3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcars3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "I lost control of the car and it spun off the road."),
-                          ExampleSentenceKurdish(
-                          text: "کۆنترۆڵی ئۆتۆمبێلەکەم لەدەستدا و لەسەر ڕێگاکە دەرچووم."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "It's too far to walk. I'll take the car."),
-                          ExampleSentenceKurdish(
-                          text: "زۆر دوورە بۆ ڕێکردن. ئۆتۆمبێلەکە دەبەم."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The car does 55 miles per gallon."),
-                          ExampleSentenceKurdish(
-                          text: "ئۆتۆمبێلەکە ٥٥ میل بۆ هەر گۆڕانێک دەبڕێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She swerved her car sharply to the right."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئۆتۆمبێلەکەی بەخێرایی بۆ لای ڕاست پێچکردەوە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcars4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcars4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "His car hit a lorry coming in the opposite direction."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئۆتۆمبێلەکەی کێشای بە لۆرییەکدا کە لە ئاراستەی پێچەوانەوە دەهات."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcars5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcars5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "I lost control of the car and it spun off the road."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کۆنترۆڵی ئۆتۆمبێلەکەم لەدەستدا و لەسەر ڕێگاکە دەرچووم."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcars6("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcars6("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "It's too far to walk. I'll take the car."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "زۆر دوورە بۆ ڕێکردن. ئۆتۆمبێلەکە دەبەم."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcars7("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcars7("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The car does 55 miles per gallon."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئۆتۆمبێلەکە ٥٥ میل بۆ هەر گۆڕانێک دەبڕێت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcars8("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcars8("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) بەشێکی جیاکراوەی شەمەندەفەرێک"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) بەشێکی جیاکراوەی شەمەندەفەرێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Several cars went off the rails."),
-                          ExampleSentenceKurdish(
-                          text: "ژمارەیەک واگۆن لە سکەکە دەرچوون."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcars9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcars9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Several cars went off the rails."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ژمارەیەک واگۆن لە سکەکە دەرچوون."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcars9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcars9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -456,11 +481,11 @@ class EnglishEntrycar extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -526,7 +551,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: car (Derived forms: cars)
+- Noun: car (derived forms: cars)
 1. A motor vehicle with four wheels; usually propelled by an internal combustion engine (= auto [informal], automobile [N. Amer], motorcar, whip [US, informal], wheel [informal], autocar [archaic])
 "he needs a car to get to work";
  
@@ -572,7 +597,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TO_368o1YlE?t=',
+    videoId: 'TO_368o1YlE',
     startSeconds: 229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -597,7 +622,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9ILG3tDY9-c?t=',
+    videoId: '9ILG3tDY9-c',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -622,7 +647,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i9KyjQKIMLE?t=',
+    videoId: 'i9KyjQKIMLE',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -647,7 +672,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6PBDxpLjAoY?t=',
+    videoId: '6PBDxpLjAoY',
     startSeconds: 326,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -672,7 +697,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hTqtGJwsJVE?t=',
+    videoId: 'hTqtGJwsJVE',
     startSeconds: 606,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -697,7 +722,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DkSMrI86NWk?t=',
+    videoId: 'DkSMrI86NWk',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -722,7 +747,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yBj9Qlpwjcs?t=',
+    videoId: 'yBj9Qlpwjcs',
     startSeconds: 217,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -747,7 +772,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/llzQ1RqIacM?t=',
+    videoId: 'llzQ1RqIacM',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -772,7 +797,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IiFVNUYnr3g?t=',
+    videoId: 'IiFVNUYnr3g',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -797,7 +822,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a2RQzuzzR9g?t=',
+    videoId: 'a2RQzuzzR9g',
     startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -822,7 +847,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pVd6gpYabM0?t=',
+    videoId: 'pVd6gpYabM0',
     startSeconds: 142,
     autoPlay: true,
     params: const YoutubePlayerParams(

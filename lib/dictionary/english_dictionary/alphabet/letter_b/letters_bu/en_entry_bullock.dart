@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bullock (Derived forms: bullocks)
+- Noun: bullock (derived forms: bullocks)
 1. Young bull
  
 2. Castrated bull (= steer)

@@ -449,10 +449,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burrow (Derived forms: burrows)
+- Noun: burrow (derived forms: burrows)
 1. A hole made by an animal, usually for shelter (= tunnel)
 
-- Verb: burrow (Derived forms: burrowing, burrowed, burrows)
+- Verb: burrow (derived forms: burrowing, burrowed, burrows)
 1. Move through by (or as if by) digging (= tunnel)
 "burrow through the forest";
 """,

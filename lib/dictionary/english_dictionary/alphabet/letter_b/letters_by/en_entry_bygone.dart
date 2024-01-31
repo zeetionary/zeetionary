@@ -191,7 +191,7 @@ class EnglishEntrybygone extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕابردوو، بووری، کۆن، پێشوو، جاران
 
-١. (ناو) شتێک کە ماوەیەکی زۆر پێش ئێستا بوونی هەبووبێت یان ڕوویدا بێت"""),
+١. (ناو) شتێک کە ماوەیەکی زۆر پێش ئێستا بوونی ھەبووبێت یان ڕوویدا بێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -230,7 +230,7 @@ class EnglishEntrybygone extends StatelessWidget {
                                             "The story is set in a bygone India."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چیرۆکەکە لە هنسدستانی کۆندا ڕوودەدات."),
+                                            "چیرۆکەکە لە ھنسدستانی کۆندا ڕوودەدات."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
 1. Well in the past; former (= bypast, departed, foregone, gone)
 "bygone days";
 
-- Noun: bygone (Derived forms: bygones)
+- Noun: bygone (derived forms: bygones)
 1. Past events to be put aside (= water under the bridge)
 "let bygones be bygones";
 """,

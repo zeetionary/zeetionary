@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cancel (Derived forms: cancels, canceling, cancelling, cancelled)
+- Verb: cancel (derived forms: cancels, canceling, cancelling, cancelled)
 1. Postpone indefinitely or annul something that was scheduled (= call off, scratch, scrub)
 "cancel the dinner party";
 
@@ -477,7 +477,7 @@ ${englishMeaningConst.text}
  
 6. (mathematics) simplify by removing a common factor from both the numerator and denominator of a fraction, or from both sides of an equation
 
-- Noun: cancel (Derived forms: cancels)
+- Noun: cancel (derived forms: cancels)
 1. A notation cancelling a previous sharp or flat (= natural)
 """,
   );

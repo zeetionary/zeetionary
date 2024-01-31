@@ -505,7 +505,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: c (Derived forms: cs)
+- Noun: c (derived forms: cs)
 1. The 3rd letter of the Roman alphabet (= C)
  
 2. The speed at which light travels in a vacuum; the constancy and universality of the speed of light is recognized by defining it to be exactly 299,792,458 meters per second (= speed of light, light speed)
@@ -513,7 +513,7 @@ ${englishMeaningConst.text}
 - Adjective: c 
 1. Being ten more than ninety (= hundred, one hundred, 100)
 
-- Noun: C (Derived forms: Cs)
+- Noun: C (derived forms: Cs)
 1. Temperature measurement on the Celsius scale (where water freezes at zero degrees and boils at 100 degrees; unit divisions are equal to the kelvin, with zero kelvin being -273.15 C) (= degree centigrade, degree Celsius, centigrade, Celsius)
  
 2. A base found in DNA and RNA and derived from pyrimidine; pairs with guanine (= cytosine)

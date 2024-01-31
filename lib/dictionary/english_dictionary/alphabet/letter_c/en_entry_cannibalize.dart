@@ -367,7 +367,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cannibalize (Derived forms: cannibalizes, cannibalized, cannibalizing)
+- Verb: cannibalize (derived forms: cannibalizes, cannibalized, cannibalizing)
 1. Eat human flesh (= cannibalise [Brit])
  
 2. Use parts of something to repair something else (= cannibalise [Brit])

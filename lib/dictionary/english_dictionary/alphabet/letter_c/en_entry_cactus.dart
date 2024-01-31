@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cactus (Derived forms: cacti, cactuses)
+- Noun: cactus (derived forms: cacti, cactuses)
 1. Any succulent plant of the family Cactaceae native chiefly to arid regions of the New World and usually having spines
 
 - Adjective: cactus 

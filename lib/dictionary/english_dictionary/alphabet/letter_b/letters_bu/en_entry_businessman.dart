@@ -371,7 +371,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: businessman (or businesswoman) (Derived forms: businessmen (or businesswomen))
+- Noun: businessman (or businesswoman) (derived forms: businessmen (or businesswomen))
 1. A person (or female businessperson) engaged in commercial or industrial business (especially an owner or executive) (= man of affairs)
 """,
   );

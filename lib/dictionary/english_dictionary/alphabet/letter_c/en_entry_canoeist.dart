@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canoeist (Derived forms: canoeists)
+- Noun: canoeist (derived forms: canoeists)
 1. Someone paddling a canoe (= paddler, canoeman [Cdn])
 """,
   );

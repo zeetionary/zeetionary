@@ -250,10 +250,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulldog (Derived forms: bulldogs)
+- Noun: bulldog (derived forms: bulldogs)
 1. A sturdy thickset short-haired breed with a large head and strong undershot lower jaw; developed originally in England for bull baiting (= English bulldog)
 
-- Verb: bulldog (Derived forms: bulldogging, bulldogs, bulldogged)
+- Verb: bulldog (derived forms: bulldogging, bulldogs, bulldogged)
 1. Attack viciously and ferociously
  
 2. Throw a steer by seizing the horns and twisting the neck, as in a rodeo

@@ -455,7 +455,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: butcher (Derived forms: butchers)
+- Noun: butcher (derived forms: butchers)
 1. A retailer of meat (= meatman)
 
 2. A person who slaughters or dresses meat for market (= slaughterer)
@@ -464,7 +464,7 @@ ${englishMeaningConst.text}
  
 4. A brutal indiscriminate murderer
 
-- Verb: butcher (Derived forms: butchering, butchered, butchers)
+- Verb: butcher (derived forms: butchering, butchered, butchers)
 1. Kill (animals) usually for food consumption (= slaughter)
 "They butchered their only goat to survive the winter";
  

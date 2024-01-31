@@ -624,7 +624,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: busy (Derived forms: busier, busiest)
+- Adjective: busy (derived forms: busier, busiest)
 1. Actively or fully engaged or occupied
 "busy with her work"; "a busy man"; "too busy to eat lunch"
  
@@ -640,7 +640,7 @@ ${englishMeaningConst.text}
 5. (of facilities such as telephones or lavatories) unavailable for use by anyone else or indicating unavailability (= engaged, in use)
 "her line is busy"; "kept getting a busy signal";
 
-- Verb: busy (Derived forms: busying, busied, busies)
+- Verb: busy (derived forms: busying, busied, busies)
 1. Keep busy with (= occupy)
 "She busies herself with her butterfly collection";
 """,

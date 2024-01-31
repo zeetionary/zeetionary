@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calamity (Derived forms: calamities)
+- Noun: calamity (derived forms: calamities)
 1. An event resulting in great loss and misfortune (= catastrophe, disaster, tragedy, cataclysm)
 "the whole city was affected by the irremediable calamity";
 """,

@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: busker (Derived forms: buskers)
+- Noun: busker (derived forms: buskers)
 Usage: Brit, Cdn
 1. (dancing) a person who entertains people for money in public places (as by singing or dancing), usually while asking for money
 """,

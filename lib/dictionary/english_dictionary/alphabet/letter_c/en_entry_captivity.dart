@@ -38,7 +38,8 @@ class EnglishEntrycaptivity extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Wild animals do not always breed well in captivity."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Wild animals do not always breed well in captivity."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcaptivitys3(String languageCode) async {
@@ -203,7 +204,8 @@ class EnglishEntrycaptivity extends StatelessWidget {
                                         text:
                                             "He was held in captivity for three years."),
                                     ExampleSentenceKurdish(
-                                        text: "بۆ چوار ساڵ بە یەخسیری هێڵدرایەوە."),
+                                        text:
+                                            "بۆ چوار ساڵ بە یەخسیری هێڵدرایەوە."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycaptivity extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Wild animals do not always breed well in captivity."),
-                          ExampleSentenceKurdish(
-                          text: "ئاژەڵی کێوی زۆرجار بەباشی زاوزێ ناکەن لە دیلیدا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcaptivitys2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcaptivitys2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Wild animals do not always breed well in captivity."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاژەڵی کێوی زۆرجار بەباشی زاوزێ ناکەن لە دیلیدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaptivitys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaptivitys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -259,11 +262,11 @@ class EnglishEntrycaptivity extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: captivity (Derived forms: captivities)
+- Noun: captivity (derived forms: captivities)
 1. The state of being imprisoned (= imprisonment, incarceration, immurement)
 "he was held in captivity until he died";
  
@@ -367,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hHeS9JAEofo?t=',
+    videoId: 'hHeS9JAEofo',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -392,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K_LxmTuuvV0?t=',
+    videoId: 'K_LxmTuuvV0',
     startSeconds: 302,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2w-ZdPkNvFY',
+    videoId: '2w-ZdPkNvFY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4U-u4CsnygA?t=',
+    videoId: '4U-u4CsnygA',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cxqca4RQd_M?t=',
+    videoId: 'Cxqca4RQd_M',
     startSeconds: 345,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aCPNlZ7bvRc?t=',
+    videoId: 'aCPNlZ7bvRc',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cfkhzz6T25w?t=',
+    videoId: 'Cfkhzz6T25w',
     startSeconds: 242,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +545,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fy4IhJrSJT4?t=',
+    videoId: 'fy4IhJrSJT4',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +570,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JnWNnI6YlQQ?t=',
+    videoId: 'JnWNnI6YlQQ',
     startSeconds: 402,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +595,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/t8sEUHOgQ5U?t=',
+    videoId: 't8sEUHOgQ5U',
     startSeconds: 540,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +620,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rS_59PHhO4M?t=',
+    videoId: 'rS_59PHhO4M',
     startSeconds: 121,
     autoPlay: true,
     params: const YoutubePlayerParams(

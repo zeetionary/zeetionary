@@ -490,10 +490,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cancer (Derived forms: cancers)
+- Noun: cancer (derived forms: cancers)
 1. Any malignant growth or tumour caused by abnormal and uncontrolled cell division; it may spread to other parts of the body through the lymphatic system or the blood stream (= malignant neoplastic disease)
 
-- Noun: Cancer (Derived forms: Cancers)
+- Noun: Cancer (derived forms: Cancers)
 1. Type genus of the family Cancridae (= genus Cancer)
  
 2. The fourth sign of the zodiac; the sun is in this sign from about June 21 to July 22 (= Cancer the Crab, Crab)

@@ -358,11 +358,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bustle (Derived forms: bustled, bustles, bustling)
+- Verb: bustle (derived forms: bustled, bustles, bustling)
 1. Move or cause to move energetically or busily (= bustle about, hustle)
 "The cheerleaders bustled about excitedly before their performance";
 
-- Noun: bustle (Derived forms: bustles)
+- Noun: bustle (derived forms: bustles)
 1. A rapid active commotion (= hustle, flurry, ado, fuss, stir)
  
 2. A framework worn at the back below the waist for giving fullness to a woman's skirt

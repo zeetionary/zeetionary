@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bureaucracy (Derived forms: bureaucracies)
+- Noun: bureaucracy (derived forms: bureaucracies)
 1. Nonelective government officials (= bureaucratism)
  
 2. A government that is administered primarily by bureaus that are staffed with nonelective officials

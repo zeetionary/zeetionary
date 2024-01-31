@@ -1284,7 +1284,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: burn (Derived forms: burned, burns, burning)
+- Verb: burn (derived forms: burned, burns, burning)
 1. Undergo combustion (= combust)
 "Maple wood burns well";
  
@@ -1330,7 +1330,7 @@ ${englishMeaningConst.text}
 16. Cause a sharp or stinging pain or discomfort (= bite, sting)
 "The sun burned his face";
 
-- Noun: burn (Derived forms: burns)
+- Noun: burn (derived forms: burns)
 1. An injury caused by exposure to heat, chemicals or radiation
  
 2. Pain that feels hot as if it were on fire (= burning)

@@ -396,7 +396,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canker (Derived forms: cankers)
+- Noun: canker (derived forms: cankers)
 1. A fungal disease of woody plants that causes localized damage to the bark
  
 2. An ulceration (especially of the lips or lining of the mouth) (= canker sore)
@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 3. A pernicious and malign influence that is hard to get rid of (= pestilence)
 "according to him, I was the canker in their midst";
 
-- Verb: canker (Derived forms: cankers, cankering, cankered)
+- Verb: canker (derived forms: cankers, cankering, cankered)
 1. Become infected with a canker
  
 2. Infect with a canker

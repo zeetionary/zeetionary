@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cajole (Derived forms: cajoled, cajoles, cajoling)
+- Verb: cajole (derived forms: cajoled, cajoles, cajoling)
 1. Influence or urge by gentle urging, caressing, or flattering (= wheedle, palaver [informal, rare], blarney, coax, sweet-talk [informal], inveigle)
 "He cajoled her into going along";
 """,

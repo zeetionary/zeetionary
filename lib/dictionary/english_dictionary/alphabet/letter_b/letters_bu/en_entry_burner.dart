@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burner (Derived forms: burners)
+- Noun: burner (derived forms: burners)
 1. An apparatus for burning fuel (or refuse)
 "a diesel engine is an oil burner"
  

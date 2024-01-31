@@ -1497,7 +1497,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: can (Derived forms: cans)
+- Noun: can (derived forms: cans)
 1. Airtight sealed metal container for food, drink or paint etc. (= tin, tin can)
  
 2. The quantity contained in a can (= canful)
@@ -1511,7 +1511,7 @@ ${englishMeaningConst.text}
  
 6. [N. Amer, informal] A room or building equipped with one or more toilets (= toilet, lavatory, lav [informal], john [informal], bathroom, water closet [Brit, archaic], closet [archaic], W.C. [Brit], loo [Brit, informal], bog [Brit, informal], jacks [Ireland, informal])
 
-- Verb: can (Derived forms: canning, cans, canned) 
+- Verb: can (derived forms: canning, cans, canned) 
 1. (cooking) preserve in a can or tin (= tin, put up)
 "canned foods are not very tasty";
 

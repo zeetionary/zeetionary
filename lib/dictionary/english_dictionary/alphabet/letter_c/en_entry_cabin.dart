@@ -363,14 +363,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabin (Derived forms: cabins)
+- Noun: cabin (derived forms: cabins)
 1. Small room on a ship or boat where people sleep
  
 2. A small house built of wood; usually in a wooded area
  
 3. The enclosed compartment of an aircraft or spacecraft where passengers are carried
 
-- Verb: cabin (Derived forms: cabins, cabined, cabining)
+- Verb: cabin (derived forms: cabins, cabined, cabining)
 1. Confine to a small space, such as a cabin
 """,
   );

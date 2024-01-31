@@ -805,7 +805,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: calm (Derived forms: calmer, calmest)
+- Adjective: calm (derived forms: calmer, calmest)
 1. Not agitated; without losing self-possession (= unagitated, serene, tranquil)
 "spoke in a calm voice"; "remained calm throughout the uproar";
  
@@ -815,7 +815,7 @@ ${englishMeaningConst.text}
 3. Free of noise and disturbance, with little activity (= tranquil, peaceful, serene)
 "a calm scene by the river";
 
-- Verb: calm (Derived forms: calmed, calms, calming)
+- Verb: calm (derived forms: calmed, calms, calming)
 1. Make calm or still (= calm down, quiet, tranquilize [N. Amer], tranquillize, tranquillise [Brit], quieten [Brit], lull, still)
 "calm the dragons of worry and fear";
  
@@ -828,7 +828,7 @@ ${englishMeaningConst.text}
 4. Cause to be calm or quiet as by administering a sedative to (= sedate, tranquilize [N. Amer], tranquillize, tranquillise [Brit])
 "The patient must be calmed before the operation";
 
-- Noun: calm (Derived forms: calms)
+- Noun: calm (derived forms: calms)
 1. Steadiness of mind under stress (= composure, calmness, equanimity, collectedness, unflappability)
 
 2. Wind moving at less than 1 knot; 0 on the Beaufort scale (= calm air)

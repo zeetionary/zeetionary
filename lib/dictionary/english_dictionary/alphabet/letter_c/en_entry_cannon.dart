@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cannon (Derived forms: cannons)
+- Noun: cannon (derived forms: cannons)
 1. A large artillery gun that is usually on wheels
  
 2. Heavy gun fired from a tank
@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
  
 6. A shot in billiards in which the cue ball contacts one object ball and then the other (= carom [N. Amer])
 
-- Verb: cannon (Derived forms: cannoned, cannoning, cannons)
+- Verb: cannon (derived forms: cannoned, cannoning, cannons)
 1. (billiards) make a cannon
  
 2. Fire a cannon

@@ -254,7 +254,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulimia (Derived forms: bulimias)
+- Noun: bulimia (derived forms: bulimias)
 1. A disorder of eating seen among young women who go on eating binges and then feel guilt and depression and self-condemnation (= binge-eating syndrome)
  
 2. Pathologically insatiable hunger (especially when caused by brain lesions)

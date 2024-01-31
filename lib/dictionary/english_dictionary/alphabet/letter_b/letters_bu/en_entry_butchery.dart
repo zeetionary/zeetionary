@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: butchery (Derived forms: butcheries)
+- Noun: butchery (derived forms: butcheries)
 1. A building where animals are butchered (= abattoir, shambles, slaughterhouse)
  
 2. The business of a butcher (= butchering)

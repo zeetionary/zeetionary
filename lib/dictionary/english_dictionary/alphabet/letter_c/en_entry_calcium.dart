@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calcium (Derived forms: calciums)
+- Noun: calcium (derived forms: calciums)
 1. A white metallic element that burns with a brilliant light; the fifth most abundant element in the earth's crust; an important component of most plants and animals (= Ca, atomic number 20)
 """,
   );

@@ -751,7 +751,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bump (Derived forms: bumped, bumps, bumping)
+- Verb: bump (derived forms: bumped, bumps, bumping)
 1. Collide with force or violence (= knock)
 "My car bumped into the tree";
  
@@ -772,7 +772,7 @@ ${englishMeaningConst.text}
 8. Dance erotically or dance with the pelvis thrust forward
 "bump and grind"
 
-- Noun: bump (Derived forms: bumps)
+- Noun: bump (derived forms: bumps)
 1. A lump on the body caused by a blow
  
 2. Something that bulges out or is protuberant or projects from its surroundings (= bulge, hump, swelling, gibbosity, gibbousness, jut, prominence, protuberance, protrusion, extrusion, excrescence)

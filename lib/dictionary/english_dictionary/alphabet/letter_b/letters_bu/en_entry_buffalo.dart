@@ -251,14 +251,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buffalo (Derived forms: buffalos, buffaloes)
+- Noun: buffalo (derived forms: buffalos, buffaloes)
 1. Large shaggy-haired brown bison of North American plains (= American bison, American buffalo, Bison bison)
  
 2. Meat from an American bison
  
 3. Any of several Old World animals resembling oxen including, e.g., water buffalo; Cape buffalo (= Old World buffalo)
 
-- Verb: buffalo (Derived forms: buffalos, buffaloed, buffaloing, buffaloes)
+- Verb: buffalo (derived forms: buffalos, buffaloed, buffaloing, buffaloes)
 Usage: N. Amer
 1. Intimidate or overawe
 

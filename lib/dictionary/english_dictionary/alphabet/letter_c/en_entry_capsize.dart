@@ -29,8 +29,8 @@ class EnglishEntrycapsize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "The boat capsized and sank."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The boat capsized and sank."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapsizes2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycapsize extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A huge wave capsized the yacht."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("A huge wave capsized the yacht."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcapsizes3(String languageCode) async {
@@ -200,8 +201,7 @@ class EnglishEntrycapsize extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "The boat capsized and sank."),
+                                        text: "The boat capsized and sank."),
                                     ExampleSentenceKurdish(
                                         text: "بەلەمەکە وەرگەڕا و نغرۆبوو."),
                                   ],
@@ -222,30 +222,31 @@ class EnglishEntrycapsize extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "A huge wave capsized the yacht."),
-                          ExampleSentenceKurdish(
-                          text: "شەپۆلێکی گەورە یەختەکەی وەرگەڕاند."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcapsizes2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcapsizes2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A huge wave capsized the yacht."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "شەپۆلێکی گەورە یەختەکەی وەرگەڕاند."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcapsizes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcapsizes2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -263,7 +264,7 @@ class EnglishEntrycapsize extends StatelessWidget {
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: capsize (Derived forms: capsized, capsizes, capsizing)
+- Verb: capsize (derived forms: capsized, capsizes, capsizing)
 1. Overturn accidentally (= turtle, turn turtle)
 "Don't rock the boat or it will capsize!";
 """,
@@ -364,7 +365,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VnT3Gu9O4EM?t=',
+    videoId: 'VnT3Gu9O4EM',
     startSeconds: 372,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +390,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yZzaRu32R_I?t=',
+    videoId: 'yZzaRu32R_I',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +415,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Sv7NP9LMU4Q?t=',
+    videoId: 'Sv7NP9LMU4Q',
     startSeconds: 471,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +440,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-tpVvgDqlrQ?t=',
+    videoId: '-tpVvgDqlrQ',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +465,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HvjVdlMqwH4?t=',
+    videoId: 'HvjVdlMqwH4',
     startSeconds: 2430,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +490,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iJiOJxwjqYI?t=',
+    videoId: 'iJiOJxwjqYI',
     startSeconds: 507,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +515,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZsioZ5Iyrr8?t=',
+    videoId: 'ZsioZ5Iyrr8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -539,7 +540,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W9NdPEE0LLw?t=',
+    videoId: 'W9NdPEE0LLw',
     startSeconds: 570,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -564,7 +565,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/otR7Bnk5s1M?t=',
+    videoId: 'otR7Bnk5s1M',
     startSeconds: 122,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -589,7 +590,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nEQtkvWYYJg?t=',
+    videoId: 'nEQtkvWYYJg',
     startSeconds: 735,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -614,7 +615,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/whvdjg6i2Hc?t=',
+    videoId: 'whvdjg6i2Hc',
     startSeconds: 195,
     autoPlay: true,
     params: const YoutubePlayerParams(

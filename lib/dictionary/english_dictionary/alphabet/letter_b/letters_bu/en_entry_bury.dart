@@ -602,7 +602,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bury (Derived forms: buried, burying, buries)
+- Verb: bury (derived forms: buried, burying, buries)
 1. Cover from sight
 "Afghani women buried under their burkas"
  

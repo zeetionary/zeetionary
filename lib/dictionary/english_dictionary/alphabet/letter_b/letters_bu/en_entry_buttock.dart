@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buttock (Derived forms: buttocks)
+- Noun: buttock (derived forms: buttocks)
 1. Either of the two large fleshy masses of muscular tissue that form the human rump (= cheek)
 """,
   );

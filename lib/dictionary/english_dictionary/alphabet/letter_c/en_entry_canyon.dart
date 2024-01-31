@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canyon (Derived forms: canyons)
+- Noun: canyon (derived forms: canyons)
 1. A ravine formed by a river in an area with little rainfall (= canon)
 """,
   );

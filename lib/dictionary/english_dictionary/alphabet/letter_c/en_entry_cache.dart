@@ -393,14 +393,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cache (Derived forms: caches)
+- Noun: cache (derived forms: caches)
 1. A hidden storage space (for money, provisions or weapons)
  
 2. A secret store of valuables or money (= hoard, stash)
  
 3. (computing) RAM memory that is set aside as a specialized buffer storage that is continually updated; used to optimize data transfers between system elements with different characteristics (= memory cache)
 
-- Verb: cache (Derived forms: caching, caches, cached, cacheing)
+- Verb: cache (derived forms: caching, caches, cached, cacheing)
 1. Save up as for future use (= hoard, stash, lay away, hive up, squirrel away [informal], sock away [N. Amer, informal])
  
 2. (computer) store temporarily in memory or disk for quick re-use later

@@ -298,7 +298,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burka (Derived forms: burkas)
+- Noun: burka (derived forms: burkas)
 1. A loose garment (usually with veiled holes for the eyes) worn by Muslim women especially in India and Pakistan (= burqa, burkha)
 "the Taliban forced all women to wear the burka";
 """,

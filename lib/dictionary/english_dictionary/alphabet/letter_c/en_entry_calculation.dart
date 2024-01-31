@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calculation (Derived forms: calculations)
+- Noun: calculation (derived forms: calculations)
 1. The procedure of calculating; determining something by mathematical or logical methods (= computation, computing)
  
 2. Problem solving that involves numbers or quantities (= computation, figuring, reckoning)

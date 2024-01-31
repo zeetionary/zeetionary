@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buoyancy (Derived forms: buoyancies)
+- Noun: buoyancy (derived forms: buoyancies)
 1. Cheerfulness that bubbles to the surface (= perkiness)
  
 2. The property of something weightless and insubstantial (= airiness)

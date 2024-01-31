@@ -375,7 +375,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buff (Derived forms: buffs)
+- Noun: buff (derived forms: buffs)
 1. An ardent follower and admirer (= fan, devotee, lover)
  
 2. A soft thick undyed leather from the skins of e.g. buffalo or oxen
@@ -387,7 +387,7 @@ ${englishMeaningConst.text}
  
 5. An implement consisting of soft material mounted on a block; used for polishing (as in manicuring) (= buffer)
 
-- Verb: buff (Derived forms: buffed, buffing, buffs)
+- Verb: buff (derived forms: buffed, buffing, buffs)
 1. Strike, beat repeatedly (= buffet)
 "The wind buffed him";
  

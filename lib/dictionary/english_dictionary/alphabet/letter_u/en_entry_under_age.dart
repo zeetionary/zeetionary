@@ -109,7 +109,7 @@ class EnglishEntryunderage extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (هاوەڵناو) لەخوار تەمەنی یاسایی"""),
+١. (ھاوەڵناو) لەخوار تەمەنی یاسایی"""),
                           Row(
                             children: [
                               const Expanded(

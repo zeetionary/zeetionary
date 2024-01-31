@@ -299,14 +299,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: callus (Derived forms: calluses)
+- Noun: callus (derived forms: calluses)
 1. An area of skin that is thick or hard from continual pressure or friction (as the sole of the foot) (= callosity)
  
 2. Bony tissue formed during the healing of a fractured bone
  
 3. (botany) an isolated thickening of tissue, especially a stiff protuberance on the lip of an orchid
 
-- Verb: callus (Derived forms: calluses, callused, callusing)
+- Verb: callus (derived forms: calluses, callused, callusing)
 1. Cause a callus to form on
 "The long march had callused his feet"
  

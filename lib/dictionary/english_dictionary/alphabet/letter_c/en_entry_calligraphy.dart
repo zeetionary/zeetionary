@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calligraphy (Derived forms: calligraphies)
+- Noun: calligraphy (derived forms: calligraphies)
 1. Beautiful handwriting (= penmanship, chirography)
 """,
   );

@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bully (= Derived forms: bullied, bullying, bullies)
+- Noun: bully (= derived forms: bullied, bullying, bullies)
 1. A person who deliberately intimidates or is cruel to weaker people
  
 2. An uncultured, aggressive, rude, noisy troublemaker (= tough [informal], hooligan, ruffian, roughneck [informal], rowdy, yob [Brit, informal], yobo [Brit, informal], yobbo [Brit, informal], ned [UK, informal], scally [UK, informal])

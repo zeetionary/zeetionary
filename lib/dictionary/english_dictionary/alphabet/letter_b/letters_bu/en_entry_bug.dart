@@ -437,7 +437,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bug (Derived forms: bugs)
+- Noun: bug (derived forms: bugs)
 1. General term for any insect or similar creeping or crawling invertebrate
  
 2. A fault or defect in a computer program, system, or machine (= glitch)
@@ -448,7 +448,7 @@ ${englishMeaningConst.text}
  
 5. A minute life form (especially a disease-causing bacterium); the term is not in technical use (= microbe, germ)
 
-- Verb: bug (Derived forms: bugging, bugged, bugs)
+- Verb: bug (derived forms: bugging, bugged, bugs)
 1. Annoy persistently (= tease, badger, pester, beleaguer)
 "The children bugged the boy because of his stammer";
  

@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: call box (Derived forms: call boxes)
+- Noun: call box (derived forms: call boxes)
 1. [Brit] Booth for using a telephone (= telephone booth [N. Amer], phone booth [N. Amer], telephone box [Brit], telephone kiosk, phone box)
  
 2. A numbered compartment in a post office where mail is put to be called for (= Post-Office box, PO Box, POB, letter box [Brit])

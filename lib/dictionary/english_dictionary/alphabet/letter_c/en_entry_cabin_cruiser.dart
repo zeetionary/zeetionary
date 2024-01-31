@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabin cruiser (Derived forms: cabin cruisers)
+- Noun: cabin cruiser (derived forms: cabin cruisers)
 1. A large motorboat that has a cabin and plumbing and other conveniences necessary for living on board (= cruiser, pleasure boat, pleasure craft)
 """,
   );

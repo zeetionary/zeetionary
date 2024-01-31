@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camouflage (Derived forms: camouflages)
+- Noun: camouflage (derived forms: camouflages)
 1. An outward semblance that misrepresents the true nature of something (= disguise)
 "the theatrical notion of camouflage is always associated with catastrophe in his stories";
  
@@ -435,7 +435,7 @@ ${englishMeaningConst.text}
 4. The act of concealing the identity of something by modifying its appearance (= disguise)
 "he is a master of camouflage";
 
-- Verb: camouflage (Derived forms: camouflaging, camouflages, camouflaged)
+- Verb: camouflage (derived forms: camouflaging, camouflages, camouflaged)
 1. Disguise by camouflaging; exploit the natural surroundings to disguise something
 "The troops camouflaged themselves before they went into enemy territory"
 """,

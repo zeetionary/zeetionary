@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: by-election (Derived forms: by-elections)
+- Noun: by-election (derived forms: by-elections)
 Usage: Brit, Cdn
 1. A special election between regular elections (= bye-election [Brit, Cdn])
 """,

@@ -605,7 +605,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buzz (Derived forms: buzzes)
+- Noun: buzz (derived forms: buzzes)
 1. Sound of rapid vibration (= bombilation, bombination)
 "the buzz of a bumble bee";
  
@@ -617,7 +617,7 @@ ${englishMeaningConst.text}
 4. Strong widespread interest and excitement about a particular topic
 "This book is generating quite a buzz"
 
-- Verb: buzz (Derived forms: buzzing, buzzes, buzzed)
+- Verb: buzz (derived forms: buzzing, buzzes, buzzed)
 1. Make a buzzing sound (= bombinate, bombilate)
 "bees were buzzing around the hive";
  

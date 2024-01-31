@@ -329,7 +329,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calculator (Derived forms: calculators)
+- Noun: calculator (derived forms: calculators)
 1. An expert at calculation (or at operating calculating machines) (= reckoner, figurer, estimator, computer)
  
 2. A small machine that is used for mathematical calculations; can be mechanical or electronic (= calculating machine)

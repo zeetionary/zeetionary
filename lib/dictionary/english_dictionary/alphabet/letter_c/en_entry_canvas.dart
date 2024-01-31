@@ -329,7 +329,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canvas (Derived forms: canvases)
+- Noun: canvas (derived forms: canvases)
 1. A heavy, closely woven fabric (= canvass)
  
 2. An oil painting on canvas fabric (= canvass)
@@ -344,7 +344,7 @@ ${englishMeaningConst.text}
 6. The mat that forms the floor of the ring in which boxers or professional wrestlers compete (= canvass)
 "the boxer picked himself up off the canvas";
 
-- Verb: canvas (Derived forms: canvases, canvased, canvassed, canvasing)
+- Verb: canvas (derived forms: canvases, canvased, canvassed, canvasing)
 1. Cover with canvas
 """,
   );

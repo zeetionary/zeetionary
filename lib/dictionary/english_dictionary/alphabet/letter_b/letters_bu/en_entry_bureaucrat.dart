@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bureaucrat (Derived forms: bureaucrats)
+- Noun: bureaucrat (derived forms: bureaucrats)
 1. An official of a bureaucracy (= administrative official)
 """,
   );

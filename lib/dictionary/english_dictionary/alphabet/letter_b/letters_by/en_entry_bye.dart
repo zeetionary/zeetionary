@@ -328,7 +328,7 @@ Usage: informal
 1. An informal farewell remark (= cheers [Brit, informal], chin-chin [Brit, informal], toodle-oo [informal], toodle-pip [Brit, informal], ta-ta [Brit, informal], ta-ra [UK, informal], goodbye, bye-bye [informal], good-bye [N. Amer], good-by [US], farewell, sayonara [US, informal], so long [informal], vale [archaic])
 "We all stopped to say bye before her flight left";
 
-- Noun: bye (Derived forms: byes)
+- Noun: bye (derived forms: byes)
 1. An automatic advance to the next round in a tournament without playing an opponent (= pass)
 "he had a bye in the first round";
 

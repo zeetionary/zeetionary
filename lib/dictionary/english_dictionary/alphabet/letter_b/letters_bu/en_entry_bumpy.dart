@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: bumpy (Derived forms: bumpiest, bumpier)
+- Adjective: bumpy (derived forms: bumpiest, bumpier)
 1. Causing or characterized by jolts and irregular movements (= rough, rocky, jolty, jolting, jumpy)
 "a bumpy ride";
 

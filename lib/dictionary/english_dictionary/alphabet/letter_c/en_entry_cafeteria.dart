@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cafeteria (Derived forms: cafeterias)
+- Noun: cafeteria (derived forms: cafeterias)
 1. A restaurant where you serve yourself and pay a cashier
 """,
   );

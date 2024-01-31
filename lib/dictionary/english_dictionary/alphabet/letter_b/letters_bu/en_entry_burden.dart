@@ -490,7 +490,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burden (Derived forms: burdens)
+- Noun: burden (derived forms: burdens)
 1. An onerous or difficult concern (= load, encumbrance, incumbrance, onus)
 "the burden of responsibility";
  
@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
  
 4. The central idea that is expanded in a document or discourse
 
-- Verb: burden (Derived forms: burdens, burdening, burdened)
+- Verb: burden (derived forms: burdens, burdening, burdened)
 1. Add a heavy load; increase the weight of a load (= burthen, weight, weight down)
  
 2. Impose a task upon, assign a responsibility to (= charge, saddle, lumber [Brit, informal])

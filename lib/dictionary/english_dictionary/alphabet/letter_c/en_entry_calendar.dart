@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calendar (Derived forms: calendars)
+- Noun: calendar (derived forms: calendars)
 1. A system of timekeeping that defines the beginning and length and divisions of the year
  
 2. A list or register of events (appointments or social events or court cases etc) (= diary [Brit], datebook [N. Amer])
@@ -402,7 +402,7 @@ ${englishMeaningConst.text}
  
 3. A tabular array of the days (usually for one year)
 
-- Verb: calendar (Derived forms: calendaring, calendared, calendars)
+- Verb: calendar (derived forms: calendaring, calendared, calendars)
 1. Enter into a calendar
 """,
   );

@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canister (Derived forms: canisters)
+- Noun: canister (derived forms: canisters)
 1. A metallic cylinder packed with shot and used as ammunition in a firearm (= case shot, canister shot)
  
 2. Metal container for storing dry foods such as tea or flour (= cannister, tin)

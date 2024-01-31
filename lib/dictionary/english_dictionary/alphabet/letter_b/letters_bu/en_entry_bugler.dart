@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bugler (Derived forms: buglers)
+- Noun: bugler (derived forms: buglers)
 1. Someone who plays a bugle
 """,
   );

@@ -310,7 +310,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: bulky (Derived forms: bulkier, bulkiest)
+- Adjective: bulky (derived forms: bulkier, bulkiest)
 1. Of large size for its weight
 "The bulky waste from households comes from not recycling"
 """,

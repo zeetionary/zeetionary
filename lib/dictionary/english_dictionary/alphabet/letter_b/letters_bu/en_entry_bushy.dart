@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: bushy (Derived forms: bushier, bushiest)
+- Adjective: bushy (derived forms: bushier, bushiest)
 1. Used of hair; thick and poorly groomed (= shaggy, shaggy-haired, shaggy-coated)
 "bushy locks";
 

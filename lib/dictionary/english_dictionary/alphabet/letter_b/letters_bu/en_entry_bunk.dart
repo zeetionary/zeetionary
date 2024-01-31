@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bunk (Derived forms: bunks)
+- Noun: bunk (derived forms: bunks)
 1. Beds built one above the other (= bunk bed)
  
 2. A bed on a ship or train; usually in tiers (= berth, built in bed)
@@ -343,7 +343,7 @@ ${englishMeaningConst.text}
  
 6. A long trough for feeding cattle (= feed bunk)
 
-- Verb: bunk (Derived forms: bunks, bunked, bunking)
+- Verb: bunk (derived forms: bunks, bunked, bunking)
 1. Provide with a bunk
 "We bunked the children upstairs"
  

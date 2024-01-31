@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: burly (Derived forms: burliest, burlier)
+- Adjective: burly (derived forms: burliest, burlier)
 1. Muscular and heavily built (= beefy, husky, strapping, buirdly)
 "had a tall burly frame";
 """,

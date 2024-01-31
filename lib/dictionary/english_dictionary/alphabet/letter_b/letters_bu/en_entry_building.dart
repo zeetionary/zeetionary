@@ -441,7 +441,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: building (Derived forms: buildings)
+- Noun: building (derived forms: buildings)
 1. A structure that has a roof and walls and stands more or less permanently in one place (= edifice)
 "there was a three-story building on the corner";
 

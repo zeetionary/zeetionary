@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canvasser (Derived forms: canvassers)
+- Noun: canvasser (derived forms: canvassers)
 1. A petitioner who solicits contributions, trade or votes (= solicitor)
  
 2. Someone who examines votes at an election (= scrutineer [Brit, Cdn])

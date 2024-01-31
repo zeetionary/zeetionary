@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: by-law (Derived forms: by-laws)
+- Noun: by-law (derived forms: by-laws)
 1. A rule adopted by an organization in order to regulate its own affairs and the behaviour of its members (= bye-law)
 """,
   );

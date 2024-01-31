@@ -329,11 +329,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burp (Derived forms: burps)
+- Noun: burp (derived forms: burps)
 Usage: informal
 1. A reflex that expels gas noisily from the stomach through the mouth (= belch, belching, burping [informal], eructation [formal])
 
-- Verb: burp (Derived forms: burped, burps, burping)
+- Verb: burp (derived forms: burped, burps, burping)
 Usage: informal
 1. Expel gas from the stomach (= bubble, belch, eruct [formal])
 "Please don't burp at the table";

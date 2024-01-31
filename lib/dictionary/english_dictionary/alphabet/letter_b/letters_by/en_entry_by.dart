@@ -510,7 +510,7 @@ class EnglishEntryby extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: لەلای، نزیکی، لەپاڵ، لەتەنیشت، لەکن، ل نک، لە قەراخ، لە، لەڕێگای، بەڕێگای، بەهۆی، لەلایەن، لەگەڵ، بە، بەپێی، بەگوێرەی، بەدرێژایی، بەدرێژی، لەباری، لەبواری، لە دەوروبەری، لە پێشەوە
+کوردی: لەلای، نزیکی، لەپاڵ، لەتەنیشت، لەکن، ل نک، لە قەراخ، لە، لەڕێگای، بەڕێگای، بەھۆی، لەلایەن، لەگەڵ، بە، بەپێی، بەگوێرەی، بەدرێژایی، بەدرێژی، لەباری، لەبواری، لە دەوروبەری، لە پێشەوە
 
 ١. (ئامراز) بۆ پیشاندانی ئەوەی چۆن یان بە چی شێوەیەک شتێک دەکرێت"""),
                           Row(
@@ -845,7 +845,7 @@ class EnglishEntryby extends StatelessWidget {
                                             "By this time next week we'll be in New York."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تا هەفتەی داهاتوو ئەم کاتانە لە نیویۆرک دەبین."),
+                                            "تا ھەفتەی داھاتوو ئەم کاتانە لە نیویۆرک دەبین."),
                                   ],
                                 ),
                               ),
@@ -906,7 +906,7 @@ class EnglishEntryby extends StatelessWidget {
                                                     "By the time (that) this letter reaches you I will have left the country."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "تا ئەو کاتەی ئەم نامەیە بە تۆ دەگات من وڵاتەکەم جێهێشتووە."),
+                                                    "تا ئەو کاتەی ئەم نامەیە بە تۆ دەگات من وڵاتەکەم جێھێشتووە."),
                                           ],
                                         ),
                                       ),
@@ -932,7 +932,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (ئامراز) بەکاردێت لەگەڵ ژمارەیەک ناو بۆ وتنی ئەوەی شتێک بەهۆی شتێکەوە ڕوویدا"),
+                                  "٥. (ئامراز) بەکاردێت لەگەڵ ژمارەیەک ناو بۆ وتنی ئەوەی شتێک بەھۆی شتێکەوە ڕوویدا"),
                           Row(
                             children: [
                               const Expanded(
@@ -967,7 +967,7 @@ class EnglishEntryby extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I did it by mistake."),
                                     ExampleSentenceKurdish(
-                                        text: "بە هەڵە کردم."),
+                                        text: "بە ھەڵە کردم."),
                                   ],
                                 ),
                               ),
@@ -1278,7 +1278,7 @@ class EnglishEntryby extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "We only sell it by the metre."),
                                     ExampleSentenceKurdish(
-                                        text: "تەنها بە مەتر دەیفرۆشین."),
+                                        text: "تەنھا بە مەتر دەیفرۆشین."),
                                   ],
                                 ),
                               ),
@@ -1437,7 +1437,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٥. (ئامراز) بۆ زانیاریدان لەسەر کەسێک لە ڕووی کار، شوێنی ژیان، هتد"),
+                                  "١٥. (ئامراز) بۆ زانیاریدان لەسەر کەسێک لە ڕووی کار، شوێنی ژیان، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -1473,7 +1473,7 @@ class EnglishEntryby extends StatelessWidget {
                                         text:
                                             "They're both doctors by profession."),
                                     ExampleSentenceKurdish(
-                                        text: "بە پیشە هەردووکیان دکتۆرن."),
+                                        text: "بە پیشە ھەردووکیان دکتۆرن."),
                                   ],
                                 ),
                               ),
@@ -1644,7 +1644,7 @@ class EnglishEntryby extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١٨. (ھاوەڵکار) بەکاردێت بۆ وتنی ئەوەی شتێک هەڵگیردراوە بۆ ئەوەی لە داهاتوودا بەکاربێت"),
+                                  "١٨. (ھاوەڵکار) بەکاردێت بۆ وتنی ئەوەی شتێک ھەڵگیردراوە بۆ ئەوەی لە داھاتوودا بەکاربێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -1655,7 +1655,7 @@ class EnglishEntryby extends StatelessWidget {
                                             "I've put some money by for college fees."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک پارەم هەڵگرتووە بۆ کرێی زانکۆ."),
+                                            "ھەندێک پارەم ھەڵگرتووە بۆ کرێی زانکۆ."),
                                   ],
                                 ),
                               ),

@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cannabis (Derived forms: cannabises)
+- Noun: cannabis (derived forms: cannabises)
 1. Any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and recreational drugs (= hemp, dagga [S.Africa])
  
 2. The most commonly used illicit drug; considered a soft drug, it consists of the dried leaves of the hemp plant; smoked or chewed for euphoric effect (= marijuana, marihuana, ganja, dagga [S.Africa])

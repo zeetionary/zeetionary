@@ -365,7 +365,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cable (= Derived forms: cables, cabled, cabling) 
+- Noun: cable (= derived forms: cables, cabled, cabling) 
 1. A telegram sent abroad (= cablegram, overseas telegram)
  
 2. A conductor for transmitting electrical or optical signals or electric power (= line, transmission line)

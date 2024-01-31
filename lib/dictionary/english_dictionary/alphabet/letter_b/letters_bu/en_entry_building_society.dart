@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: building society (Derived forms: building societies)
+- Noun: building society (derived forms: building societies)
 Usage: Brit (N. Amer: savings and loan association)
 1. British equivalent of United States savings and loan association (= savings and loan association [US])
  

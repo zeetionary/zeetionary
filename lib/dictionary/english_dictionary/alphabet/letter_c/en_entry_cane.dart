@@ -394,14 +394,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cane (Derived forms: canes)
+- Noun: cane (derived forms: canes)
 1. A stick that people can lean on to help them walk
  
 2. A strong slender often flexible stem as of bamboos, reeds, rattans, or sugar cane
  
 3. A stiff switch, used to hit (usually students) as punishment
 
-- Verb: cane (Derived forms: canes, caned, caning)
+- Verb: cane (derived forms: canes, caned, caning)
 1. Beat with a cane (= flog, lambaste, lambast)
 """,
   );

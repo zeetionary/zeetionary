@@ -390,7 +390,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bush (Derived forms: bushes)
+- Noun: bush (derived forms: bushes)
 1. A low woody perennial plant usually having several major stems (= shrub)
  
 2. A large wilderness area
@@ -401,7 +401,7 @@ ${englishMeaningConst.text}
  
 5. [Cdn] An area planted with trees for timber or fuel (= woodlot [N. Amer], wood lot [N. Amer], plantation)
 
-- Verb: bush (Derived forms: bushed, bushes, bushing)
+- Verb: bush (derived forms: bushed, bushes, bushing)
 1. Provide with a bushing
 
 - Adjective: bush 

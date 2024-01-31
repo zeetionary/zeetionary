@@ -327,7 +327,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caller (Derived forms: callers)
+- Noun: caller (derived forms: callers)
 1. A social or business visitor (= company)
  
 2. An investor who buys a call option

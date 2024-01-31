@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 2. Report or open letter giving informal or confidential news of interest to a special group (= newsletter, newssheet)
 "the monthly bulletin";
 
-- Verb: bulletin (= Derived forms: bulletined, bulletining, bulletins)
+- Verb: bulletin (= derived forms: bulletined, bulletining, bulletins)
 1. Make public by bulletin
 """,
   );

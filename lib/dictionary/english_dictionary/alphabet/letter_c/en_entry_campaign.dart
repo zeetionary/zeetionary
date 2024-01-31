@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: campaign (Derived forms: campaigns)
+- Noun: campaign (derived forms: campaigns)
 1. A race between candidates for elective office (= political campaign, run)
 "I managed his campaign for governor";
 
@@ -528,7 +528,7 @@ ${englishMeaningConst.text}
  
 3. (military) several related operations aimed at achieving a particular goal (usually within geographical and temporal constraints) (= military campaign)
 
-4. Verb: campaign (Derived forms: campaigned, campaigns, campaigning)
+4. Verb: campaign (derived forms: campaigned, campaigns, campaigning)
 1. Stand or compete for an office or a position (= run)
 "Who's campaigning for treasurer this year?";
  

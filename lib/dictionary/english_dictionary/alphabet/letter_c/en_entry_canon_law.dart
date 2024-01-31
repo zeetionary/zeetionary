@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canon law (Derived forms: canon laws)
+- Noun: canon law (derived forms: canon laws)
 1. The body of codified laws governing the affairs of a Christian church (= ecclesiastical law)
 """,
   );

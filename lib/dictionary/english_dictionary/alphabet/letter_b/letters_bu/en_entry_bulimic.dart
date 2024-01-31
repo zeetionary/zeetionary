@@ -283,7 +283,7 @@ ${englishMeaningConst.text}
 - Adjective: bulimic 
 1. Suffering from bulimia
 
-- Noun: bulimic (Derived forms: bulimics)
+- Noun: bulimic (derived forms: bulimics)
 1. A person suffering from bulimia
 """,
   );

@@ -1227,7 +1227,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: business (Derived forms: businesses)
+- Noun: business (derived forms: businesses)
 1. A commercial or industrial enterprise and the people who constitute it (= concern, business concern, business organization, business organisation [Brit])
 "he bought his brother's business"; "a small mom-and-pop business"; "a racially integrated business concern"; "he bought his brother's business organization";
  

@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bystander (Derived forms: bystanders)
+- Noun: bystander (derived forms: bystanders)
 1. A nonparticipant spectator
 "an uninvolved bystander"
 """,

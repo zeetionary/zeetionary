@@ -449,7 +449,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: butt (Derived forms: butted, butts, butting)
+- Verb: butt (derived forms: butted, butts, butting)
 1. To strike, thrust or shove against (= bunt)
 "The goat butted the hiker with his horns"; "He butted his sister out of the way";
  

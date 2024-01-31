@@ -326,7 +326,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bus stop (Derived forms: bus stops)
+- Noun: bus stop (derived forms: bus stops)
 1. A place on a bus route where buses stop to discharge and take on passengers
 """,
   );

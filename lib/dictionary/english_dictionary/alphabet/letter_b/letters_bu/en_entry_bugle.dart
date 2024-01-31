@@ -251,14 +251,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bugle (Derived forms: bugles)
+- Noun: bugle (derived forms: bugles)
 1. A brass instrument without valves; used for military calls and fanfares
  
 2. Any of various low-growing annual or perennial evergreen herbs native to Eurasia; used for ground cover (= bugleweed)
  
 3. A tubular glass or plastic bead sewn onto clothing for decoration
 
-- Verb: bugle (Derived forms: bugled, bugling, bugles) 
+- Verb: bugle (derived forms: bugled, bugling, bugles) 
 1. (music) play on a bugle
 """,
   );

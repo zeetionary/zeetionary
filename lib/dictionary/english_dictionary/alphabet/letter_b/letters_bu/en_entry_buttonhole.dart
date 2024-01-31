@@ -330,10 +330,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buttonhole (Derived forms: button holes, buttonholes)
+- Noun: buttonhole (derived forms: button holes, buttonholes)
 1. A hole through which buttons are pushed (= button hole)
 
-- Verb: buttonhole (Derived forms: buttonholing, buttonholes, buttonholed)
+- Verb: buttonhole (derived forms: buttonholing, buttonholes, buttonholed)
 Usage: informal
 1. Attempt to influence (a public official or decision-maker) in favour of a specific opinion or cause (= lobby)
  

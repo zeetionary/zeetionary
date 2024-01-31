@@ -478,7 +478,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bunch (Derived forms: bunches)
+- Noun: bunch (derived forms: bunches)
 1. A grouping of a number of similar things (= clump, cluster, clustering)
 "a bunch of trees";
 
@@ -491,7 +491,7 @@ ${englishMeaningConst.text}
 4. [informal] (often followed by 'of') a large number, amount or extent (= batch, deal, flock, good deal, great deal, hatful, heap, lot, mass, mess, mickle [archaic], mint, mountain, muckle, passel [US], peck, pile [informal], plenty, pot, quite a little, raft, sight, slew, spate, stack, tidy sum, wad)
 "a bunch of letters";
 
-- Verb: bunch (Derived forms: bunches, bunching, bunched)
+- Verb: bunch (derived forms: bunches, bunching, bunched)
 1. Form into a bunch (= bunch together, bunch up)
 "The frightened children bunched together in the corner of the classroom";
  

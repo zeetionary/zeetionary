@@ -326,7 +326,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: capitalism (Derived forms: capitalisms)
+- Noun: capitalism (derived forms: capitalisms)
 1. An economic system based on private ownership of capital (= capitalist economy)
 """,
   );
@@ -360,7 +360,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GlNmm-OoNvE?t=',
+    videoId: 'GlNmm-OoNvE',
     startSeconds: 613,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -385,7 +385,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ynbgMKclWWc?t=',
+    videoId: 'ynbgMKclWWc',
     startSeconds: 448,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -410,7 +410,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-KBiHKx54sg?t=',
+    videoId: '-KBiHKx54sg',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YJQSuUZdcV4?t=',
+    videoId: 'YJQSuUZdcV4',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cqbleas1mmo?t=',
+    videoId: 'Cqbleas1mmo',
     startSeconds: 437,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LJNtfyq3TDE?t=',
+    videoId: 'LJNtfyq3TDE',
     startSeconds: 577,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J5ElQe22c9Q?t=',
+    videoId: 'J5ElQe22c9Q',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TM00M-dRMBk?t=',
+    videoId: 'TM00M-dRMBk',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XfJaJxYsAuU?t=',
+    videoId: 'XfJaJxYsAuU',
     startSeconds: 317,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HnS0NjLA8Zo?t=',
+    videoId: 'HnS0NjLA8Zo',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(

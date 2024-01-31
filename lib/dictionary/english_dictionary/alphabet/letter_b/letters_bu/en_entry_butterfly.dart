@@ -329,12 +329,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: butterfly (Derived forms: butterflies)
+- Noun: butterfly (derived forms: butterflies)
 1. Diurnal insect typically having a slender body with knobbed antennae and broad colourful wings
  
 2. A swimming stroke in which the arms are thrown forward together out of the water while the feet kick up and down (= butterfly stroke)
 
-- Verb: butterfly (Derived forms: butterflied, butterflying, butterflies)
+- Verb: butterfly (derived forms: butterflied, butterflying, butterflies)
 1. Flutter like a butterfly
  
 2. (cooking) cut and spread open, as in preparation for cooking

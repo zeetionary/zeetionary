@@ -371,7 +371,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulk (Derived forms: bulks)
+- Noun: bulk (derived forms: bulks)
 1. The property resulting from being or relating to the greater in number of two parts; the main part (= majority, most, lion's share [informal])
 "the bulk of the work is finished";
 
@@ -380,7 +380,7 @@ ${englishMeaningConst.text}
 
 3. The property possessed by a large mass
 
-- Verb: bulk (Derived forms: bulked, bulks, bulking)
+- Verb: bulk (derived forms: bulked, bulks, bulking)
 1. Stick out or up
 "The parcel bulked in the sack"
  

@@ -254,7 +254,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: budgerigar (Derived forms: budgerigars)
+- Noun: budgerigar (derived forms: budgerigars)
 1. Small Australian parakeet usually light green with black and yellow markings in the wild but bred in many colours (= budgie, grass parakeet, lovebird, shell parakeet, Melopsittacus undulatus)
 """,
   );

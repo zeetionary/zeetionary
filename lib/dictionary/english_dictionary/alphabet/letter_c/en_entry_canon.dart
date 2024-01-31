@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canon (Derived forms: canons)
+- Noun: canon (derived forms: canons)
 1. A rule, or especially a body of rules, or principles generally established as valid and fundamental in a field of art or philosophy
 "the neoclassical canon"; "canons of polite society"
  

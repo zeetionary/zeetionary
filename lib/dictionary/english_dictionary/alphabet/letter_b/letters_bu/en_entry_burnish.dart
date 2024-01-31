@@ -331,10 +331,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burnish (Derived forms: burnishes)
+- Noun: burnish (derived forms: burnishes)
 1. The property of being smooth and shiny (= polish, gloss, glossiness)
 
-- Verb: burnish (Derived forms: burnished, burnishes, burnishing)
+- Verb: burnish (derived forms: burnished, burnishes, burnishing)
 1. Polish and make shiny (= buff, furbish)
 "burnish the wooden floors";
 """,

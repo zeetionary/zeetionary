@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burglary (Derived forms: burglaries)
+- Noun: burglary (derived forms: burglaries)
 1. Entering a building, vehicle, or other enclosure unlawfully with intent to commit a felony or to steal valuable property
 """,
   );

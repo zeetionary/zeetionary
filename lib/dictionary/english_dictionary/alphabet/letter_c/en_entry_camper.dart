@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camper (Derived forms: campers)
+- Noun: camper (derived forms: campers)
 1. Someone living temporarily in a tent or lodge for recreation
  
 2. A recreational vehicle equipped for camping out while travelling (= camping bus, motorhome, camper van)

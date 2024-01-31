@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: call-up (Derived forms: call-ups)
+- Noun: call-up (derived forms: call-ups)
 1. (military) an order to report for military duty
 """,
   );

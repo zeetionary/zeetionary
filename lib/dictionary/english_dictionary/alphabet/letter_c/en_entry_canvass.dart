@@ -427,14 +427,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: canvass (Derived forms: canvassing, canvasses, canvassed)
+- Verb: canvass (derived forms: canvassing, canvasses, canvassed)
 1. Get the opinions (of people) by asking specific questions (= poll)
  
 2. Solicit votes from potential voters in an electoral campaign
  
 3. Consider in detail and subject to an analysis in order to discover essential features or meaning (= analyze [N. Amer], analyse [Brit, Cdn], study, examine)
 
-- Noun: canvass (Derived forms: canvasses)
+- Noun: canvass (derived forms: canvasses)
 1. The setting for a narrative, fictional or dramatic account (= canvas)
  
 2. An inquiry into public opinion conducted by interviewing a random sample of people (= poll, opinion poll, public opinion poll)

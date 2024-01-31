@@ -391,7 +391,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bunker (Derived forms: bunkers)
+- Noun: bunker (derived forms: bunkers)
 1. A hazard on a golf course (= sand trap, trap)
  
 2. A large container for storing fuel
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
  
 3. A fortification of earth; mostly or entirely below ground (= dugout)
 
-- Verb: bunker (Derived forms: bunkered, bunkering, bunkers)
+- Verb: bunker (derived forms: bunkered, bunkering, bunkers)
 1. Hit a golf ball into a bunker
  
 2. Fill (a ship's bunker) with coal or oil

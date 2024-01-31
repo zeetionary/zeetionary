@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: burgle (Derived forms: burgled, burgles, burgling)
+- Verb: burgle (derived forms: burgled, burgles, burgling)
 1. Commit a burglary; enter and rob a dwelling (= burglarize [N. Amer], burglarise [Brit], heist [informal])
 "These young people seemed to have followed an unwritten law: do not burgle houses from those in the same economic state";
 """,

@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bullion (Derived forms: bullions)
+- Noun: bullion (derived forms: bullions)
 1. A mass of precious metal
  
 2. Gold or silver in bars or ingots

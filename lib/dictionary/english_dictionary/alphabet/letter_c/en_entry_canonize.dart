@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: canonize (Derived forms: canonized, canonizes, canonizing)
+- Verb: canonize (derived forms: canonized, canonizes, canonizing)
 1. (religion) declare (a dead person) to be a saint (= canonise [Brit], saint)
 "After he was shown to have performed a miracle, the priest was canonized";
  

@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camcorder (Derived forms: camcorders)
+- Noun: camcorder (derived forms: camcorders)
 1. A portable television camera and videocassette recorder (= video camera)
 """,
   );

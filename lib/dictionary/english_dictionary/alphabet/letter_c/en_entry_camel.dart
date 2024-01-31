@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camel (Derived forms: camels)
+- Noun: camel (derived forms: camels)
 1. Cud-chewing mammal used as a draft or saddle animal in desert regions
 """,
   );

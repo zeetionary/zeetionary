@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calling (Derived forms: callings)
+- Noun: calling (derived forms: callings)
 1. The particular occupation for which you are trained (career, vocation)
 "If it weren't for John Newton's advice that politics was his calling, Wilberforce might well have been an obscure country cleric";
  

@@ -360,7 +360,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: byword (Derived forms: bywords)
+- Noun: byword (derived forms: bywords)
 1. A condensed but memorable saying embodying some important fact of experience that is taken as true by many people (= proverb, adage, saw)
 """,
   );

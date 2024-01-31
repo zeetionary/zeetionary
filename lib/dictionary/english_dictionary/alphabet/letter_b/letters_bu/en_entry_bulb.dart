@@ -383,7 +383,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulb (Derived forms: bulbs)
+- Noun: bulb (derived forms: bulbs)
 1. Electric lamp consisting of a transparent or translucent glass housing containing a wire filament (usually tungsten) that emits light when heated by electricity. (= light bulb, lightbulb, incandescent lamp, electric light, electric-light bulb, light globe [Austral, NZ])
  
 2. A modified bud consisting of a thickened globular underground stem serving as a reproductive structure

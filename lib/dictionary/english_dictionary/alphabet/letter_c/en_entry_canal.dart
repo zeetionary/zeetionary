@@ -360,7 +360,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canal (Derived forms: canals)
+- Noun: canal (derived forms: canals)
 1. (astronomy) an indistinct surface feature of Mars once thought to be a system of channels; they are now believed to be an optical illusion
  
 2. A bodily passage or tube lined with epithelial cells and conveying a secretion or other substance (= duct, epithelial duct, channel)
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
 
 3. Long and narrow strip of water made for boats or for irrigation
 
-- Verb: canal (Derived forms: canalling, canals, canalled)
+- Verb: canal (derived forms: canalling, canals, canalled)
 1. Provide (a city) with a canal (= canalize, canalise [Brit])
 """,
   );

@@ -672,7 +672,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: burst (Derived forms: burst, bursting, bursts)
+- Verb: burst (derived forms: burst, bursting, bursts)
 1. Come open suddenly and violently, as if from internal pressure (= split, break open)
 "The bubble burst";
 
@@ -696,7 +696,7 @@ ${englishMeaningConst.text}
 8. Break open or apart suddenly and forcefully (= bust [informal])
 "The dam burst";
 
-- Noun: burst (Derived forms: bursts)
+- Noun: burst (derived forms: bursts)
 1. The act of exploding or bursting (= explosion)
 "the burst of an atom bomb creates enormous radiation aloft";
  

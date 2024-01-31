@@ -389,7 +389,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabinet (Derived forms: cabinets)
+- Noun: cabinet (derived forms: cabinets)
 1. A piece of furniture resembling a cupboard with doors and shelves and drawers; for storage or display
  
 2. Persons appointed by a head of state to head executive departments of government and act as official advisers

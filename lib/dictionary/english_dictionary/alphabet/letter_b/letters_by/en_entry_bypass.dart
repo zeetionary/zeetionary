@@ -391,7 +391,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bypass (Derived forms: bypassing, bypasses, bypassed)
+- Verb: bypass (derived forms: bypassing, bypasses, bypassed)
 1. Avoid something unpleasant or laborious (= short-circuit, go around, get around)
 "You cannot bypass these rules!";
 

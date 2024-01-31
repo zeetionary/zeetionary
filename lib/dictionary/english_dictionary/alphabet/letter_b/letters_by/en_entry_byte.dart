@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: byte (Derived forms: bytes)
+- Noun: byte (derived forms: bytes)
 1. A sequence of 8 bits (enough to represent one character of alphanumeric data) processed as a single unit of information
 """,
   );

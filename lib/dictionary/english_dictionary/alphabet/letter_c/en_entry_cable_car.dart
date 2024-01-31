@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cable car (Derived forms: cable cars)
+- Noun: cable car (derived forms: cable cars)
 1. A conveyance for passengers or freight on a cable railway (= car)
 "they took a cable car to the top of the mountain";
 """,

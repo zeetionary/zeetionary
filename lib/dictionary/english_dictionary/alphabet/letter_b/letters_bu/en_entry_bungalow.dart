@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bungalow (Derived forms: bungalows)
+- Noun: bungalow (derived forms: bungalows)
 1. A small house with a single story (= cottage)
 "she liked the old bungalow; its quaintness was appealing";
 """,

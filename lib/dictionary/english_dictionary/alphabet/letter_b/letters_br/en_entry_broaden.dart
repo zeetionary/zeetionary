@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: broaden (Derived forms: broadening, broadened, broadens)
+- Verb: broaden (derived forms: broadening, broadened, broadens)
 1. Make broader
 "broaden the road"
  

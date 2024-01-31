@@ -434,7 +434,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buffer (Derived forms: buffers)
+- Noun: buffer (derived forms: buffers)
 1. A person or thing that forms a gap or barrier between two things, or reduces shock when two conflicting things come into contact
 "Maintaining a buffer between the amount of loan and the value of the account lessens the firm's risk"; "Salt marshes serve as a buffer between land and sea"
  
@@ -456,7 +456,7 @@ ${englishMeaningConst.text}
  
 10. (chemistry) an ionic compound that resists changes in its pH
 
-- Verb: buffer (Derived forms: buffered, buffers, buffering)
+- Verb: buffer (derived forms: buffered, buffers, buffering)
 1. Protect from impact (= cushion, soften)
 "buffer the blow";
  

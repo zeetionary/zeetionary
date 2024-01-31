@@ -327,7 +327,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canter (Derived forms: canters, cantering, cantered)
+- Noun: canter (derived forms: canters, cantering, cantered)
 1. A smooth three-beat gait; between a trot and a gallop (= lope)
 
 - Verb: canter 

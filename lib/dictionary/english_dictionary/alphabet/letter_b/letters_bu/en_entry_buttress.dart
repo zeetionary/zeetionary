@@ -331,10 +331,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buttress (Derived forms: buttresses)
+- Noun: buttress (derived forms: buttresses)
 1. A support usually of stone or brick; supports the wall of a building (= buttressing)
 
-- Verb: buttress (Derived forms: buttressed, buttresses, buttressing)
+- Verb: buttress (derived forms: buttressed, buttresses, buttressing)
 1. Reinforce with a buttress
 "Buttress the church"
  

@@ -329,10 +329,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canoe (Derived forms: canoes)
+- Noun: canoe (derived forms: canoes)
 1. Small and light boat; pointed at both ends; propelled with a paddle
 
-- Verb: canoe (Derived forms: canoes, canoeing, canoed)
+- Verb: canoe (derived forms: canoes, canoeing, canoed)
 1. (sport) travel by canoe
 "canoe along the canal"
 """,

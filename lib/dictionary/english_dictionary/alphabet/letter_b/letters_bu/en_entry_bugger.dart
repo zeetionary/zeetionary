@@ -427,14 +427,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bugger (Derived forms: buggers)
+- Noun: bugger (derived forms: buggers)
 Usage: vulgar (=pain in the ass)
 1. [Brit, vulgar] Someone who engages in anal copulation (especially a male who engages in anal copulation with another male) (= sodomite, sodomist)
  
 2. A person who is deemed to be despicable or contemptible (= rotter [Brit, informal], dirty dog [informal], rat [informal], skunk [informal], stinker [informal], stinkpot [N. Amer, informal], bum [N. Amer, informal], crumb [N. Amer, informal], lowlife [informal], scumbag [informal], so-and-so [informal], git [Brit, informal], scumbag [informal], sleazebucket [informal], toad [informal], scuzz [N. Amer, informal], sleazeball [informal], toerag [Brit, informal], sleazebag [informal], sod [Brit, informal], swine [informal], ratbag [Brit, informal], scuzzball [N. Amer, informal], scuzzbag [N. Amer, informal], scuzzbucket [N. Amer, informal], slimebag [informal], dirtbag [US, informal], slimeball [informal])
 "only a bugger would do that";
 
-- Verb: bugger (Derived forms: buggered, buggering, buggers)
+- Verb: bugger (derived forms: buggered, buggering, buggers)
 Usage: vulgar (=pain in the ass)
 1. [Brit, vulgar] Practice anal sex upon (= sodomize, sodomise [Brit])
  

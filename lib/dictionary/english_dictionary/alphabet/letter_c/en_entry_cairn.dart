@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cairn (Derived forms: cairns)
+- Noun: cairn (derived forms: cairns)
 1. A mound of stones piled up as a memorial or to mark a boundary or path
  
 2. Small rough-haired breed of terrier from Scotland (= cairn terrier)

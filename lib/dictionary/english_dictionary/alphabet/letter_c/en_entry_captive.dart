@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
  
 2. Giving or marked by complete attention to (= absorbed, engrossed, enwrapped, intent, wrapped, rapt)
 
-- Noun: captive (Derived forms: captives)
+- Noun: captive (derived forms: captives)
 1. A person who is confined; especially a prisoner of war (= prisoner)
  
 2. An animal that is confined
@@ -404,7 +404,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2JcbvHhs5mI?t=',
+    videoId: '2JcbvHhs5mI',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -429,7 +429,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DEXxEsoZIl4?t=',
+    videoId: 'DEXxEsoZIl4',
     startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -454,7 +454,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KCkJOu_glSc?t=',
+    videoId: 'KCkJOu_glSc',
     startSeconds: 175,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -479,7 +479,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PeNR_uxOQbU?t=',
+    videoId: 'PeNR_uxOQbU',
     startSeconds: 368,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -504,7 +504,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B3kb5DXKV_A?t=',
+    videoId: 'B3kb5DXKV_A',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -529,7 +529,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4UBYq1Sx-CY?t=',
+    videoId: '4UBYq1Sx-CY',
     startSeconds: 176,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -554,7 +554,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mXcDzZTVtek?t=',
+    videoId: 'mXcDzZTVtek',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -579,7 +579,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6HiWolNnhVA?t=',
+    videoId: '6HiWolNnhVA',
     startSeconds: 363,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -604,7 +604,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5NRiSW_Fwjw?t=',
+    videoId: '5NRiSW_Fwjw',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -629,7 +629,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ag26i07LMDU?t=',
+    videoId: 'ag26i07LMDU',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -654,7 +654,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6XMMXKOZK3o?t=',
+    videoId: '6XMMXKOZK3o',
     startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buzzer (Derived forms: buzzers)
+- Noun: buzzer (derived forms: buzzers)
 1. A push button at an outer door that gives a ringing or buzzing signal when pushed (= doorbell, bell)
  
 2. A signaling device that makes a buzzing sound

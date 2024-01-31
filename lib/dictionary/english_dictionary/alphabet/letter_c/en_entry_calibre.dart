@@ -329,7 +329,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calibre (Derived forms: calibres)
+- Noun: calibre (derived forms: calibres)
 Usage: Brit, Cdn (US: caliber)
 1. A degree or grade of excellence or worth (= quality, caliber [US])
 "an executive of low calibre"; "the calibre of students has risen";

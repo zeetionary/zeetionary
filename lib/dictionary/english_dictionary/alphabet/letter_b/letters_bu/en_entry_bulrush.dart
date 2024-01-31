@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulrush (Derived forms: bulrushes)
+- Noun: bulrush (derived forms: bulrushes)
 1. Tall marsh plant with cylindrical seed heads that explode when mature shedding large quantities of down; its long flat leaves are used for making mats and chair seats; of North America, Europe, Asia and North Africa (= cat's-tail, bullrush, nailrod, reed mace, reedmace, Typha latifolia)
  
 2. Tall rush with soft erect or arching stems found in Eurasia, Australia, New Zealand, and common in North America (= bullrush, common rush, soft rush, Juncus effusus)

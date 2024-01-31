@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canteen (Derived forms: canteens)
+- Noun: canteen (derived forms: canteens)
 1. Restaurant for people at an institution (factory, school, business, etc)
  
 2. A flask for carrying water; used by soldiers or travellers

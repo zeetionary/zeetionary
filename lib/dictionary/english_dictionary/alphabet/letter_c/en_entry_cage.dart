@@ -329,7 +329,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cage (Derived forms: cages)
+- Noun: cage (derived forms: cages)
 1. An enclosure made of wire or metal bars in which birds or animals can be kept (= coop)
  
 2. Something that restricts freedom as a cage restricts movement
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
  
 5. The passenger compartment of a lift
 
-- Verb: cage (Derived forms: caging, caged, cages)
+- Verb: cage (derived forms: caging, caged, cages)
 1. Confine in a cage (= cage in)
 "The animal was caged";
 

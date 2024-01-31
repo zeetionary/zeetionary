@@ -252,7 +252,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulwark (Derived forms: bulwarks)
+- Noun: bulwark (derived forms: bulwarks)
 1. An embankment built around a space for defensive purposes (= rampart, wall)
 "they stormed the bulwarks of the city";
  
@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
  
 3. A protective structure of stone or concrete; extends from shore into the water to prevent a beach from washing away (= breakwater, groin, groyne, mole, seawall, jetty)
 
-- Verb: bulwark (Derived forms: bulwarked, bulwarks, bulwarking)
+- Verb: bulwark (derived forms: bulwarked, bulwarks, bulwarking)
 1. Defend with a bulwark
 """,
   );

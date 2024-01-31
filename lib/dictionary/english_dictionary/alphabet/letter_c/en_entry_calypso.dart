@@ -293,7 +293,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calypso (Derived forms: calypsos, Calypsos)
+- Noun: calypso (derived forms: calypsos, Calypsos)
 1. A type of music and dance that originated in the West Indies
  
 2. Rare north temperate bog orchid bearing a solitary white to pink flower marked with purple at the tip of an erect reddish stalk above 1 basal leaf (= fairy-slipper, Calypso bulbosa)

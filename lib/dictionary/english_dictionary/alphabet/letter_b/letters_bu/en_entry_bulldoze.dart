@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: bulldoze (Derived forms: bulldozed, bulldozes, bulldozing)
+- Verb: bulldoze (derived forms: bulldozed, bulldozes, bulldozing)
 1. Flatten with or as if with a bulldozer 
 "The men will bulldoze the unpainted barn to make way for the new barn"
 """,

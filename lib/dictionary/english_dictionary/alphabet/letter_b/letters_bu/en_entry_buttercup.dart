@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buttercup (Derived forms: buttercups)
+- Noun: buttercup (derived forms: buttercups)
 1. Any of various plants of the genus Ranunculus (= butterflower, butter-flower, crowfoot, goldcup, kingcup [Brit])
 """,
   );

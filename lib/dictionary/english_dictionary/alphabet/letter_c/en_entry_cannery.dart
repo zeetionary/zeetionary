@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cannery (Derived forms: canneries)
+- Noun: cannery (derived forms: canneries)
 1. A factory where food is canned
 """,
   );

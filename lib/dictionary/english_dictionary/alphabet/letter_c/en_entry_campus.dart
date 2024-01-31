@@ -383,7 +383,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: campus (Derived forms: campuses)
+- Noun: campus (derived forms: campuses)
 1. The grounds and group of buildings of a university, school, business, etc.
 """,
   );

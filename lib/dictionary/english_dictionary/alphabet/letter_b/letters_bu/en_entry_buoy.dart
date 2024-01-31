@@ -395,10 +395,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buoy (Derived forms: buoys)
+- Noun: buoy (derived forms: buoys)
 1. A float attached by rope to the seabed to mark channels in a harbour or underwater hazards; typically brightly-coloured
 
-- Verb: buoy (Derived forms: buoyed, buoying, buoys)
+- Verb: buoy (derived forms: buoyed, buoying, buoys)
 1. Float on the surface of water
  
 2. Keep afloat (= buoy up)

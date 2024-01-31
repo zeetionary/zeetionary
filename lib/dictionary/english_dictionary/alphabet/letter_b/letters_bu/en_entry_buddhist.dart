@@ -281,11 +281,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: Buddhist (Derived forms: Buddhists)
+- Adjective: Buddhist (derived forms: Buddhists)
 1. Of or relating to or supporting Buddhism (= Buddhistic)
 "Buddhist sculpture";
 
-- Noun: Buddhist (Derived forms: Buddhists)
+- Noun: Buddhist (derived forms: Buddhists)
 1. One who follows the teachings of Buddha
 """,
   );

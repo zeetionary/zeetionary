@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bumblebee (Derived forms: bumblebees)
+- Noun: bumblebee (derived forms: bumblebees)
 1. Robust hairy social bee of temperate regions (= humblebee)
 """,
   );

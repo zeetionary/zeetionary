@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: calve (Derived forms: calved, calving)
+- Verb: calve (derived forms: calved, calving)
 1. Give birth to (a calf) (= have young)
 "the whales calve at this time of year";
  

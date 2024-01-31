@@ -284,14 +284,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: buffet (Derived forms: buffets, buffeting, buffeted)
+- Verb: buffet (derived forms: buffets, buffeting, buffeted)
 1. Strike against forcefully (= knock about, batter)
 "Winds buffeted the tent";
  
 2. Strike, beat repeatedly (= buff)
 "The wind buffeted him";
 
-- Noun: buffet (Derived forms: buffets)
+- Noun: buffet (derived forms: buffets)
 1. A piece of furniture that stands at the side of a dining room; has shelves and drawers (= counter, sideboard)
  
 2. A meal set out on a buffet at which guests help themselves

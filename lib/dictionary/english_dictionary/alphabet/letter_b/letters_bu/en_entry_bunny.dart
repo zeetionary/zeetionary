@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bunny (Derived forms: bunnies)
+- Noun: bunny (derived forms: bunnies)
 Usage: informal
 1. A young waitress in a nightclub whose costume includes the tail and ears of a rabbit (= bunny girl [informal])
  

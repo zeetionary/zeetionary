@@ -779,7 +779,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: build (Derived forms: built, building, builds)
+- Verb: build (derived forms: built, building, builds)
 1. Make by combining materials and parts (= construct, make)
 "Some eccentric built an electric brassiere warmer";
  
@@ -810,7 +810,7 @@ ${englishMeaningConst.text}
 10. (chemistry) improve the cleansing action of
 "build detergents"
 
-- Noun: build (Derived forms: builds)
+- Noun: build (derived forms: builds)
 1. The particular type of human body (size, weight, height, etc.) (= physique, body-build, habitus)
  
 2. The physical body of a human being (= human body, physical body, material body, soma, figure, physique, anatomy, shape, bod [informal], chassis [informal], frame, form, flesh)

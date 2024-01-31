@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: campaigner (Derived forms: campaigners)
+- Noun: campaigner (derived forms: campaigners)
 1. A politician who is running for public office (= candidate, nominee)
 """,
   );

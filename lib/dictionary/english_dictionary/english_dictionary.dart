@@ -2535,28 +2535,28 @@ class _DictionaryScreenEnglishState
     "capably",
     "capacity",
     "cape",
-    // "capillary",
-    // "capital",
-    // "capital letter",
-    // "capitalism",
-    // "capitalist",
-    // "capitalize",
-    // "capitulate",
-    // "capitulation",
-    // "capsize",
-    // "capsule",
-    // "captain",
-    // "caption",
-    // "captivate",
-    // "captive",
-    // "captivity",
-    // "captor",
-    // "capture",
-    // "car",
-    // "car boot sale",
-    // "car park",
-    // "carafe",
-    // "caramel",
+    "capillary",
+    "capital",
+    "capital letter",
+    "capitalism",
+    "capitalist",
+    "capitalize",
+    "capitulate",
+    "capitulation",
+    "capsize",
+    "capsule",
+    "captain",
+    "caption",
+    "captivate",
+    "captive",
+    "captivity",
+    "captor",
+    "capture",
+    "car",
+    "car boot sale",
+    "car park",
+    "carafe",
+    "caramel",
     // "carat",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -13099,95 +13099,95 @@ class _DictionaryScreenEnglishState
                     saveToHistory(wordsEnglish);
                     Routemaster.of(context).push("/english-cape");
                   }
-                  // if (wordsEnglish == "capillary") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capillary");
-                  // }
-                  // if (wordsEnglish == "capital") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capital");
-                  // }
+                  if (wordsEnglish == "capillary") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capillary");
+                  }
+                  if (wordsEnglish == "capital") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capital");
+                  }
 
-                  // if (wordsEnglish == "capital letter") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capital");
-                  // }
-                  // if (wordsEnglish == "capitalism") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capitalism");
-                  // }
-                  // if (wordsEnglish == "capitalist") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capitalist");
-                  // }
-                  // if (wordsEnglish == "capitalize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capitalize");
-                  // }
-                  // if (wordsEnglish == "capitulate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capitulate");
-                  // }
-                  // if (wordsEnglish == "capitulation") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capitulation");
-                  // }
-                  // if (wordsEnglish == "capsize") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capsize");
-                  // }
-                  // if (wordsEnglish == "capsule") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capsule");
-                  // }
-                  // if (wordsEnglish == "captain") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-captain");
-                  // }
-                  // if (wordsEnglish == "caption") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caption");
-                  // }
-                  // if (wordsEnglish == "captivate") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-captivate");
-                  // }
-                  // if (wordsEnglish == "captive") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-captive");
-                  // }
-                  // if (wordsEnglish == "captivity") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-captivity");
-                  // }
-                  // if (wordsEnglish == "captor") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-captor");
-                  // }
-                  // if (wordsEnglish == "capture") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-capture");
-                  // }
-                  // if (wordsEnglish == "car") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-car");
-                  // }
-                  // if (wordsEnglish == "car boot sale") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-car-boot-sale");
-                  // }
-                  // if (wordsEnglish == "car park") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-car-park");
-                  // }
-                  // if (wordsEnglish == "carafe") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-carafe");
-                  // }
-                  // if (wordsEnglish == "caramel") {
-                  //   saveToHistory(wordsEnglish);
-                  //   Routemaster.of(context).push("/english-caramel");
-                  // }
+                  if (wordsEnglish == "capital letter") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capital");
+                  }
+                  if (wordsEnglish == "capitalism") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capitalism");
+                  }
+                  if (wordsEnglish == "capitalist") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capitalist");
+                  }
+                  if (wordsEnglish == "capitalize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capitalize");
+                  }
+                  if (wordsEnglish == "capitulate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capitulate");
+                  }
+                  if (wordsEnglish == "capitulation") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capitulation");
+                  }
+                  if (wordsEnglish == "capsize") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capsize");
+                  }
+                  if (wordsEnglish == "capsule") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capsule");
+                  }
+                  if (wordsEnglish == "captain") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-captain");
+                  }
+                  if (wordsEnglish == "caption") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caption");
+                  }
+                  if (wordsEnglish == "captivate") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-captivate");
+                  }
+                  if (wordsEnglish == "captive") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-captive");
+                  }
+                  if (wordsEnglish == "captivity") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-captivity");
+                  }
+                  if (wordsEnglish == "captor") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-captor");
+                  }
+                  if (wordsEnglish == "capture") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-capture");
+                  }
+                  if (wordsEnglish == "car") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-car");
+                  }
+                  if (wordsEnglish == "car boot sale") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-car-boot-sale");
+                  }
+                  if (wordsEnglish == "car park") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-car-park");
+                  }
+                  if (wordsEnglish == "carafe") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-carafe");
+                  }
+                  if (wordsEnglish == "caramel") {
+                    saveToHistory(wordsEnglish);
+                    Routemaster.of(context).push("/english-caramel");
+                  }
                   // if (wordsEnglish == "carat") {
                   //   saveToHistory(wordsEnglish);
                   //   Routemaster.of(context).push("/english-carat");

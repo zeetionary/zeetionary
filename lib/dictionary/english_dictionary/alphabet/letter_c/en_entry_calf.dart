@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calf (Derived forms: calves)
+- Noun: calf (derived forms: calves)
 1. Young of domestic cattle
  
 2. The muscular back part of the shank (= sura)

@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: by-product (Derived forms: by-products, byproducts)
+- Noun: by-product (derived forms: by-products, byproducts)
 1. A secondary and sometimes unexpected consequence (= byproduct)
  
 2. A product made during the manufacture of something else (= byproduct, spin-off)

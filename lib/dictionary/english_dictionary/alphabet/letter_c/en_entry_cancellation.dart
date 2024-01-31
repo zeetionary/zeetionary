@@ -398,7 +398,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cancellation (Derived forms: cancellations)
+- Noun: cancellation (derived forms: cancellations)
 1. The act of cancelling; calling off some arrangement (= cancelation [US, rare])
  
 2. The speech act of revoking, annulling or making void (= cancelation [US, rare])

@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burial (Derived forms: burials)
+- Noun: burial (derived forms: burials)
 1. The ritual placing of a corpse in a grave (= entombment, inhumation, interment, sepulture [archaic])
  
 2. Concealing something under the ground (= burying)

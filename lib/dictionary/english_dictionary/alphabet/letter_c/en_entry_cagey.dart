@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: cagey (Derived forms: cagier, cagiest)
+- Adjective: cagey (derived forms: cagier, cagiest)
 1. Showing self-interest and shrewdness in dealing with others (= cagy, canny, clever)
 "a cagey lawyer";
  

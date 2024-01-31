@@ -327,12 +327,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: candy (Derived forms: candies)
+- Noun: candy (derived forms: candies)
 1. A rich sweet made of flavoured sugar and often combined with fruit or nuts (= confect, sweet [Brit], lolly [Austral, NZ], sweetie [Brit, informal])
  
 2. [N. Amer] Candy and other sweets considered collectively (= confectionery)
 
-- Verb: candy (Derived forms: candied, candies, candying)
+- Verb: candy (derived forms: candied, candies, candying)
 1. Coat with something sweet, such as a hard sugar glaze (= sugarcoat, glaze)
  
 2. Preserve (fruit etc.) by boiling in sugar

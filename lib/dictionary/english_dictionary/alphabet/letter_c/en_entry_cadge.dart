@@ -327,7 +327,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cadge (Derived forms: cadging, cadges, cadged)
+- Verb: cadge (derived forms: cadging, cadges, cadged)
 Usage: informal
 1. Ask for and get free; be a parasite (= mooch [N. Amer, informal], bum [informal], grub [informal], sponge [informal], bludge [Austral, NZ, informal], sponge off [informal])
  

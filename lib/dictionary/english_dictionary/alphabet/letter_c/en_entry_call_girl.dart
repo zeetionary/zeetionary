@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: call girl (Derived forms: call girls)
+- Noun: call girl (derived forms: call girls)
 Usage: vulgar
 1. A female prostitute who can be hired by telephone
 """,

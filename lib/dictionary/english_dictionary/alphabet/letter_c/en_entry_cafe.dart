@@ -357,7 +357,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cafe (Derived forms: cafés, cafes)
+- Noun: cafe (derived forms: cafés, cafes)
 1. A small restaurant where drinks and snacks are sold (= coffeehouse, coffee shop, coffee bar, café, caff [Brit, informal])
 """,
   );

@@ -258,7 +258,7 @@ ${englishMeaningConst.text}
 2. Not penetrable by bullets
 "bulletproof glass"; "bulletproof vest"
 
-- Verb: bulletproof (Derived forms: bulletproofs, bulletproofing, bulletproofed)
+- Verb: bulletproof (derived forms: bulletproofs, bulletproofing, bulletproofed)
 1. Make bulletproof
 "bulletproof the car"
 """,

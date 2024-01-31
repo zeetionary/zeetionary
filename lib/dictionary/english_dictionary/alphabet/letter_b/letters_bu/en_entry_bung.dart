@@ -391,12 +391,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bung (Derived forms: bungs)
+- Noun: bung (derived forms: bungs)
 1. A plug used to close a hole in a barrel or flask (= spile)
  
 2. [Brit, informal] Payment made to a person in a position of trust to corrupt his judgment (= bribe, payoff, backhander [Brit, informal], kickback [informal])
 
-- Verb: bung (Derived forms: bunged, bunging, bungs)
+- Verb: bung (derived forms: bunged, bunging, bungs)
 1. Give a tip or gratuity to in return for a service, beyond the compensation agreed on (= tip, fee)
 "Remember to bung the waiter";
 

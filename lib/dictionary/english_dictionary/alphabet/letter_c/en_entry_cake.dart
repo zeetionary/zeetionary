@@ -421,14 +421,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cake (Derived forms: cakes)
+- Noun: cake (derived forms: cakes)
 1. A sweet baked food made from (or based on) a mixture of flour, sugar, eggs, and fat
  
 2. A block of solid substance (such as soap or wax) (= bar)
  
 3. Small flat mass of chopped or ground food (= patty)
 
-- Verb: cake (Derived forms: caked, cakes, caking)
+- Verb: cake (derived forms: caked, cakes, caking)
 1. Form a coat over (= coat)
 "Dirt had caked her face";
 """,

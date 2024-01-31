@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canopy (Derived forms: canopied, canopies, canopying)
+- Noun: canopy (derived forms: canopied, canopies, canopying)
 1. A covering (usually of cloth) that serves as a roof to shelter an area from the weather
  
 2. The transparent covering of an aircraft cockpit

@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bureau (Derived forms: bureaux, bureaus)
+- Noun: bureau (derived forms: bureaux, bureaus)
 1. An administrative unit of government (= agency, federal agency, government agency, office, authority)
 "the Census Bureau";
  

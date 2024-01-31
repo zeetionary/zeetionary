@@ -246,7 +246,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bullseye (= Derived forms: bullseyes)
+- Noun: bullseye (= derived forms: bullseyes)
 1. In target shooting: a score made by hitting the centre of the target
  
 2. The centre of a target (= bull)

@@ -514,7 +514,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: button (Derived forms: buttons)
+- Noun: button (derived forms: buttons)
 1. A round fastener sewn to shirts and coats etc to fit through buttonholes
  
 2. An electrical switch operated by pressing (= push button, push)
@@ -533,7 +533,7 @@ ${englishMeaningConst.text}
  
 8. (computing) an on-screen control that can be clicked on to invoke a particular function
 
-- Verb: button (Derived forms: buttoning, buttoned, buttons)
+- Verb: button (derived forms: buttoning, buttoned, buttons)
 1. Provide with buttons
 "button a shirt"
  

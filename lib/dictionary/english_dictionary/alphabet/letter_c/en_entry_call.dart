@@ -1546,7 +1546,6 @@ class EnglishEntrycall extends StatelessWidget {
                                             ExampleSentenceKurdish(
                                                 text:
                                                     "ڕێکخراوەکە داوای بەخشینی کرد بۆ بەهاناوەچوونی قوربانیانی بومەلەرزەکە."),
-                                        
                                           ],
                                         ),
                                       ),
@@ -1885,7 +1884,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: call (Derived forms: called, calling, calls)
+- Verb: call (derived forms: called, calling, calls)
 1. Assign a specified (usually proper) name to (= name, know as, be known as, christen)
 "They called their son David";
 
@@ -1969,7 +1968,7 @@ ${englishMeaningConst.text}
 28. Rouse somebody from sleep with a call
 "I was called at 5 A.M. this morning"
 
-- Noun: call (Derived forms: calls)
+- Noun: call (derived forms: calls)
 1. A method of contacting a person by phone (= phone call, telephone call)
 "she reported several anonymous calls"; "he placed a phone call to London"; "he heard the phone ringing but didn't want to take the call";
  

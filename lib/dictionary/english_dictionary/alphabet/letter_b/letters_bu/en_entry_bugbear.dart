@@ -250,7 +250,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bugbear (Derived forms: bugbears)
+- Noun: bugbear (derived forms: bugbears)
 1. An imaginary monster used to frighten children (= bogeyman, bugaboo [N. Amer], boogeyman [US], booger [N. Amer, informal], bogyman)
  
 2. An object of dread or apprehension (= hobgoblin)

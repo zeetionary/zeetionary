@@ -331,10 +331,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: calliper (Derived forms: callipers)
+- Noun: calliper (derived forms: callipers)
 1. An instrument for measuring the distance between two points (= caliper)
 
-- Verb: calliper (Derived forms: callipers, callipering, callipered)
+- Verb: calliper (derived forms: callipers, callipering, callipered)
 1. Measure the diameter of something with calipers (= caliper)
 """,
   );

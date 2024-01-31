@@ -544,7 +544,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bundle (Derived forms: bundles)
+- Noun: bundle (derived forms: bundles)
 1. A collection of things wrapped or boxed together (= package, packet, parcel)
  
 2. A package of several things tied together for carrying or storing (= sheaf)
@@ -552,7 +552,7 @@ ${englishMeaningConst.text}
 3. [informal] A large sum of money (especially as pay or profit) (= pile [informal], big bucks [informal], megabucks [informal], big money [informal], bomb [Brit, informal])
 "she made a bundle selling real estate";
 
-- Verb: bundle (Derived forms: bundled, bundles, bundling)
+- Verb: bundle (derived forms: bundled, bundles, bundling)
 1. Make into a bundle (= bundle up, roll up)
 "he bundled up his few possessions";
  

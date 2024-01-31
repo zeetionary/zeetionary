@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: canary (Derived forms: canaries)
+- Noun: canary (derived forms: canaries)
 1. Any of several small Old World finches (= canary bird)
  
 2. A moderate yellow with a greenish tinge (= canary yellow)

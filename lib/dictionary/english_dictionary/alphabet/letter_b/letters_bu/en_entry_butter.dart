@@ -394,12 +394,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: butter (Derived forms: butters)
+- Noun: butter (derived forms: butters)
 1. An edible emulsion of fat globules made by churning milk or cream; for cooking and table use
  
 2. A fighter who strikes the opponent with his head
 
-- Verb: butter (Derived forms: butters, buttered, buttering) 
+- Verb: butter (derived forms: butters, buttered, buttering) 
 1. Spread butter on
 "butter bread"
 """,

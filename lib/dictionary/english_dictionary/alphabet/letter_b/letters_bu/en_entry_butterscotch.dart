@@ -293,7 +293,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: butterscotch (Derived forms: butterscotches)
+- Noun: butterscotch (derived forms: butterscotches)
 1. A hard brittle candy made with butter and brown sugar
 """,
   );

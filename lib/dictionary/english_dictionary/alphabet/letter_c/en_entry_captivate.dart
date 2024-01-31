@@ -38,7 +38,8 @@ class EnglishEntrycaptivate extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Men were captivated by her charm."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Men were captivated by her charm."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcaptivates3(String languageCode) async {
@@ -203,7 +204,8 @@ class EnglishEntrycaptivate extends StatelessWidget {
                                         text:
                                             "The children were captivated by her stories."),
                                     ExampleSentenceKurdish(
-                                        text: "منداڵان سەرسامبوون بە چیرۆکەکانی."),
+                                        text:
+                                            "منداڵان سەرسامبوون بە چیرۆکەکانی."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycaptivate extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Men were captivated by her charm."),
-                          ExampleSentenceKurdish(
-                          text: "پیاوان سەرسامبوون بە شۆخییەکەی."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcaptivates2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcaptivates2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Men were captivated by her charm."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پیاوان سەرسامبوون بە شۆخییەکەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcaptivates2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcaptivates2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -329,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
--Verb: captivate (Derived forms: captivated, captivates, captivating)
+-Verb: captivate (derived forms: captivated, captivates, captivating)
 1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], beguile, charm, fascinate, bewitch, entrance, enchant)
 "She captivated all the men's hearts";
 
@@ -367,7 +370,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iE-a-3GEibk?t=',
+    videoId: 'iE-a-3GEibk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -392,7 +395,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5N4oIMxzXxk?t=',
+    videoId: '5N4oIMxzXxk',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -417,7 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i6XcDF47KgI',
+    videoId: 'i6XcDF47KgI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -442,7 +445,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qc0vRRJuQic?t=',
+    videoId: 'Qc0vRRJuQic',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -467,7 +470,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PiW7Fr-ZDoQ?t=',
+    videoId: 'PiW7Fr-ZDoQ',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +495,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/smwXnobFJS8?t=',
+    videoId: 'smwXnobFJS8',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +520,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cpHNwgM1_oE?t=',
+    videoId: 'cpHNwgM1_oE',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +545,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RuXkEJzmp50?t=',
+    videoId: 'RuXkEJzmp50',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +570,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_q4DrUHKC0Q?t=',
+    videoId: '_q4DrUHKC0Q',
     startSeconds: 1694,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +595,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RQiZlKoAbSg?t=',
+    videoId: 'RQiZlKoAbSg',
     startSeconds: 807,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +620,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_LtUN186uzc?t=',
+    videoId: '_LtUN186uzc',
     startSeconds: 2066,
     autoPlay: true,
     params: const YoutubePlayerParams(

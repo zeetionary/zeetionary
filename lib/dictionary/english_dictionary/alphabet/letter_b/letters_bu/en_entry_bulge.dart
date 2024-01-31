@@ -403,11 +403,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulge (Derived forms: bulges)
+- Noun: bulge (derived forms: bulges)
 1. Something that bulges out or is protuberant or projects from its surroundings (= bump, hump, swelling, gibbosity, gibbousness, jut, prominence, protuberance, protrusion, extrusion, excrescence)
 "the gun in his pocket made an obvious bulge";
 
-- Verb: bulge (Derived forms: bulged, bulges, bulging)
+- Verb: bulge (derived forms: bulged, bulges, bulging)
 1. Swell or protrude outwards (= pouch, protrude)
 "His stomach bulged after the huge meal";
  

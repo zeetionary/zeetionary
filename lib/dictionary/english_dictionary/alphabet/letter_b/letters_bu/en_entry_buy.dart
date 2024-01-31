@@ -640,7 +640,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: buy (Derived forms: bought, buying, buys)
+- Verb: buy (derived forms: bought, buying, buys)
 1. Obtain in exchange for payment (= purchase)
 "She buys for the big department store";
  
@@ -656,7 +656,7 @@ ${englishMeaningConst.text}
 5. Accept as true
 "I can't buy this story"
 
-- Noun: buy (Derived forms: buys)
+- Noun: buy (derived forms: buys)
 1. An advantageous purchase (= bargain, steal, snip [Brit])
 "the stock was a real buy at that price";
 """,

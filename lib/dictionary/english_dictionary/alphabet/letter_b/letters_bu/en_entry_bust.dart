@@ -627,7 +627,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bust (Derived forms: busts)
+- Noun: bust (derived forms: busts)
 1. The chest of a woman (= female chest)
  
 2. A sculpture of the head and shoulders of a person
@@ -647,7 +647,7 @@ Usage: informal
  
 3. [Brit, informal] Not in working order; not functioning (= broken, busted, up the spout [informal], knackered [Brit, informal], out of order, on the blink [informal], on the fritz [N. Amer, informal], kaput [informal], rooted [Austral, NZ, informal])
 
-- Verb: bust (Derived forms: busts, busting, bust)
+- Verb: bust (derived forms: busts, busting, bust)
 Usage: informal
 1. Ruin completely (= break)
  

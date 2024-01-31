@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cap (Derived forms: caps, capping, capped)
+- Noun: cap (derived forms: caps, capping, capped)
 1. A close-fitting hat, either without a brim or with a peak
  
 2. A top (as for a bottle)
@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 
 9. The upper part of a column that supports the entablature (= capital, chapiter)
 
-- Verb: cap (Derived forms: caps, capping, capped)
+- Verb: cap (derived forms: caps, capping, capped)
 1. Lie at the top of (= crest)
 "Snow capped the mountains";
  

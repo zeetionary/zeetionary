@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: callow (Derived forms: callower, callowest)
+- Adjective: callow (derived forms: callower, callowest)
 1. Young and inexperienced (= fledgling, unfledged)
 "a callow enterprise";
 """,

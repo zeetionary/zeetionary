@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: candlestick (Derived forms: candlesticks)
+- Noun: candlestick (derived forms: candlesticks)
 1. A holder with sockets for candles (= candle holder)
 """,
   );

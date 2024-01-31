@@ -392,7 +392,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burning (Derived forms: burnings)
+- Noun: burning (derived forms: burnings)
 1. A process in which a substance reacts with oxygen to give heat and light (= combustion)
  
 2. The act of burning something (= combustion)

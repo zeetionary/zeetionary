@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cant (Derived forms: cants)
+- Noun: cant (derived forms: cants)
 1. Stock phrases that have become nonsense through endless repetition (= buzzword)
  
 2. A slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force (= bank, camber)
@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
  
 5. Two surfaces meeting at an angle different from 90 degrees (= bevel, chamfer)
 
-- Verb: cant (Derived forms: canting, cants, canted)
+- Verb: cant (derived forms: canting, cants, canted)
 1. Heel over (= cant over, tilt, slant, pitch)
 "The tower is canting";
 """,

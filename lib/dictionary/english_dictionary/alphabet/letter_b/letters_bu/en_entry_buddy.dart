@@ -366,13 +366,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buddy (Derived forms: buddies)
+- Noun: buddy (derived forms: buddies)
 Usage: informal 
 1. A close friend, esp. one who often acts as a companion (= brother, chum [informal], crony [informal], pal [informal], cobber [Austral, informal], bud [N. Amer, informal], compadre, paisano [US])
  
 2. An informal and friendly term of address to a stranger (= mate [informal])
 
-- Verb: buddy (Derived forms: buddies, buddied, buddying)
+- Verb: buddy (derived forms: buddies, buddied, buddying)
 Usage: informal
 1. Form small teams, especially pairs (= buddy up [informal])
  

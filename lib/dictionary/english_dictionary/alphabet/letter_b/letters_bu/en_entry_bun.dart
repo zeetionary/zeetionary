@@ -359,7 +359,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bun (Derived forms: buns)
+- Noun: bun (derived forms: buns)
 1. A small rounded bread (= roll)
  
 2. A hairstyle in which hair is put into a tight roll at the back of the head

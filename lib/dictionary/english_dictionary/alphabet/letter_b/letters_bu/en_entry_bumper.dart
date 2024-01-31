@@ -359,7 +359,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bumper (Derived forms: bumpers)
+- Noun: bumper (derived forms: bumpers)
 1. A mechanical device consisting of bars at either end of a vehicle to absorb shock and prevent serious damage
  
 2. A glass filled to the brim (especially as a toast)

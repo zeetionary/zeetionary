@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: buyer 
-1. A person who buys (= purchaser, emptor, vendee) (= Derived forms: buyers)
+1. A person who buys (= purchaser, emptor, vendee) (= derived forms: buyers)
 "it is vital that the buyer is easily contactable";
 """,
   );

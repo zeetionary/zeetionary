@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: budge (Derived forms: budging, budged, budges)
+- Verb: budge (derived forms: budging, budged, budges)
 1. Move very slightly (= stir, shift, agitate, scooch [informal])
 "He budged in his seat";
 

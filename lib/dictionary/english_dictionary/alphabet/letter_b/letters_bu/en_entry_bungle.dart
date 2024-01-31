@@ -327,10 +327,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bungle (Derived forms: bungles)
+- Noun: bungle (derived forms: bungles)
 1. An embarrassing mistake (= blunder, blooper [N. Amer, informal], bloomer [informal], pratfall [informal], foul-up, flub [N. Amer, informal], botch, boner [N. Amer, informal], boo-boo [informal], goof [informal], boob [Brit, informal], blue [Austral, NZ, informal])
 
-- Verb: bungle (Derived forms: bungled, bungles, bungling)
+- Verb: bungle (derived forms: bungled, bungles, bungling)
 1. Make a mess of, destroy or ruin (= botch, bodge [Brit, informal], bumble, fumble, botch up, muff [informal], blow, flub [N. Amer, informal], screw up [informal], spoil, muck up [informal], fluff [informal], bobble [N. Amer], mishandle, louse up [informal], foul up, mess up, butcher, goof up [informal], cock up [Brit, informal], balls up [informal], make a hash of [informal])
 "I bungled the dinner and we had to eat out";
  

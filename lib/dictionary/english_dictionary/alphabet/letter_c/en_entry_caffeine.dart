@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caffeine (Derived forms: caffeines)
+- Noun: caffeine (derived forms: caffeines)
 1. A bitter alkaloid found in coffee and tea that is responsible for their stimulating effects (= caffein)
 """,
   );

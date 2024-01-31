@@ -359,7 +359,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: capability (Derived forms: capabilities)
+- Noun: capability (derived forms: capabilities)
 1. The quality of being capable -- physically, intellectually or legally (= capableness)
 "he worked to the limits of his capability";
 

@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cagoule (Derived forms: cagoules)
+- Noun: cagoule (derived forms: cagoules)
 Usage: Brit
 1. Lightweight parka; waterproof
 """,

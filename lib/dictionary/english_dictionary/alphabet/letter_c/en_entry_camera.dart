@@ -383,7 +383,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camera (Derived forms: cameras)
+- Noun: camera (derived forms: cameras)
 1. Equipment for taking photographs, using a lens to focus light onto a CCD or (traditionally) light-sensitive film (= photographic camera)
  
 2. Television equipment consisting of a lens system that focuses an image on a photosensitive mosaic that is scanned by an electron beam (= television camera, tv camera)

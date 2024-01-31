@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bursar (Derived forms: bursars)
+- Noun: bursar (derived forms: bursars)
 1. The treasurer at a college or university
 """,
   );

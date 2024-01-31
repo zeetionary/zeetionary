@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cannibalism (Derived forms: cannibalisms)
+- Noun: cannibalism (derived forms: cannibalisms)
 1. The practice of eating the flesh of your own kind
 """,
   );

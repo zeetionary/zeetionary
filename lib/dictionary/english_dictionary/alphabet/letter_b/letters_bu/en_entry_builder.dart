@@ -283,7 +283,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: builder (Derived forms: builders)
+- Noun: builder (derived forms: builders)
 1. A substance added to soaps or detergents to increase their cleansing action (= detergent builder)
  
 2. A person who creates a business or who organizes and develops a country

@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cannibal (Derived forms: cannibals)
+- Noun: cannibal (derived forms: cannibals)
 1. A person who eats human flesh (= man-eater, anthropophagus, anthropophagite)
 """,
   );

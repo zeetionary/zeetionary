@@ -326,7 +326,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Phrasal verb: calm down (Derived forms: calming down, calms down, calmed down)
+- Phrasal verb: calm down (derived forms: calming down, calms down, calmed down)
 1. Become quiet or calm, especially after a state of agitation (= calm, cool off, chill out [informal], simmer down, settle down, cool it [informal], wind down, take a chill pill [informal])
 "After the fight both men need to calm down.";
 

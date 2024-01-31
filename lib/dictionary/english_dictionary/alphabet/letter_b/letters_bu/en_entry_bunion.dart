@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bunion (Derived forms: bunions)
+- Noun: bunion (derived forms: bunions)
 1. A painful swelling of the bursa of the first joint of the big toe
 """,
   );

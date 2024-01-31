@@ -329,7 +329,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabaret (Derived forms: cabarets)
+- Noun: cabaret (derived forms: cabarets)
 1. A spot that is open late at night and that provides entertainment (as singers or dancers) as well as dancing and food and drink (= nightclub, night club, club, nightspot)
 "don't expect a good meal at a cabaret";
 

@@ -203,7 +203,8 @@ class EnglishEntrycarpark extends StatelessWidget {
                                         text:
                                             "The multilevel car park near the shopping center accommodates hundreds of cars."),
                                     ExampleSentenceKurdish(
-                                        text: "گەراجە چەند نهۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە."),
+                                        text:
+                                            "گەراجە چەند نهۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە."),
                                   ],
                                 ),
                               ),
@@ -232,11 +233,11 @@ class EnglishEntrycarpark extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -302,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: car park (Derived forms: car parks)
+- Noun: car park (derived forms: car parks)
 Usage: Brit (N. Amer: parking lot)
 1. A lot where cars are parked (= parking lot, park, parking area)
 """,
@@ -337,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G5NogCChl9Y',
+    videoId: 'G5NogCChl9Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/g1eQETg1NkY?t=',
+    videoId: 'g1eQETg1NkY',
     startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gkTpC0HJj6A?t=',
+    videoId: 'gkTpC0HJj6A',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G_57oQRaaXY?t=',
+    videoId: 'G_57oQRaaXY',
     startSeconds: 899,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hfOy7pb0xXk?t=',
+    videoId: 'hfOy7pb0xXk',
     startSeconds: 576,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C30lQzcEhx0?t=',
+    videoId: 'C30lQzcEhx0',
     startSeconds: 1590,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i8dRp2oQL8U?t=',
+    videoId: 'i8dRp2oQL8U',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +513,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zJgLHva_TAE?t=',
+    videoId: 'zJgLHva_TAE',
     startSeconds: 912,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -537,7 +538,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hNs0RdEHcAY?t=',
+    videoId: 'hNs0RdEHcAY',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -562,7 +563,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VAzE1JD_FYc?t=',
+    videoId: 'VAzE1JD_FYc',
     startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -587,7 +588,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K2F8O3aioto?t=',
+    videoId: 'K2F8O3aioto',
     startSeconds: 633,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +613,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gdUnx7zQy5A?t=',
+    videoId: 'gdUnx7zQy5A',
     startSeconds: 2210,
     autoPlay: true,
     params: const YoutubePlayerParams(

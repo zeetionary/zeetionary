@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bullet (Derived forms: bullets)
+- Noun: bullet (derived forms: bullets)
 1. A projectile that is fired from a gun (= slug)
 
 2. A high-speed passenger train (= bullet train)

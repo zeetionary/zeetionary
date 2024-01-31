@@ -325,7 +325,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cabbage (Derived forms: cabbages) 
+- Noun: cabbage (derived forms: cabbages) 
 1. Any of various cultivars of the genus Brassica oleracea grown for their edible leaves or flowers (= cultivated cabbage, Brassica oleracea)
  
 2. Any of various types of cabbage (= chou)
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
  
 4. [Brit, informal] (derogatory) a person whose body or brain has been damaged so that they cannot interact with the surrounding environment (= vegetable [informal])
 
-- Verb: cabbage (Derived forms: cabbages, cabbaging, cabbaged)
+- Verb: cabbage (derived forms: cabbages, cabbaging, cabbaged)
 Usage: informal
 1. Take by theft (= hook [informal], snitch [informal], thieve, cop [informal], knock off [informal], glom [N. Amer, informal], pilfer, purloin, pinch [Brit, informal], abstract, snarf [N. Amer, informal], swipe [informal], sneak [informal], filch [informal], nobble [Brit, informal], lift, whip [Brit, informal], nick [Brit, informal], snatch [informal], blag [Brit, informal])
 """,

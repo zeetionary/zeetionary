@@ -352,12 +352,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: candle (Derived forms: candles)
+- Noun: candle (derived forms: candles)
 1. Stick of wax with a wick in the middle (= taper, wax light)
  
 2. The basic unit of luminous intensity adopted under the Système International d'Unités; equal to 1/60 of the luminous intensity per square centimetre of a black body radiating at the temperature of 2,046 degrees Kelvin (= candela, cd, standard candle)
 
-- Verb: candle (Derived forms: candling, candled, candles)
+- Verb: candle (derived forms: candling, candled, candles)
 1. Examine eggs for freshness by holding them against a light
 """,
   );

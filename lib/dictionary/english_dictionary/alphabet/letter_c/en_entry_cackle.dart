@@ -390,7 +390,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cackle (Derived forms: cackling, cackles, cackled)
+- Verb: cackle (derived forms: cackling, cackles, cackled)
 1. Talk or utter in a cackling manner
 "The women cackled when they saw the movie star step out of the limousine"
  
@@ -401,7 +401,7 @@ ${englishMeaningConst.text}
  
 4. Emit a loud, unpleasant kind of laughing
 
-- Noun: cackle (Derived forms: cackles)
+- Noun: cackle (derived forms: cackles)
 1. The sound made by a hen after laying an egg
  
 2. Noisy talk (= yak, yack [informal], yakety-yak, chatter, yackety-yak [informal], yatter [informal])

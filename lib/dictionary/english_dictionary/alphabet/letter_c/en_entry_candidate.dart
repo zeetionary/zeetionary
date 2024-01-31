@@ -490,7 +490,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: candidate (Derived forms: candidates)
+- Noun: candidate (derived forms: candidates)
 1. A politician who is running for public office (= campaigner, nominee)
  
 2. Someone who is considered for something (for an office, prize or honour etc.) (= prospect)

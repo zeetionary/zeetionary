@@ -299,10 +299,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cantilever (Derived forms: cantilevers)
+- Noun: cantilever (derived forms: cantilevers)
 1. Projecting horizontal beam fixed at one end only
 
-- Verb: cantilever (Derived forms: cantilevering, cantilevered, cantilevers)
+- Verb: cantilever (derived forms: cantilevering, cantilevered, cantilevers)
 1. Project as a cantilever
  
 2. (architecture) construct with girders and beams such that only one end is fixed

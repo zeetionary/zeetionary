@@ -299,14 +299,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camber (Derived forms: cambers)
+- Noun: camber (derived forms: cambers)
 1. A slight convexity (as of the surface of a road)
  
 2. A slope in the turn of a road or track; the outside is higher than the inside in order to reduce the effects of centrifugal force (= bank, cant)
  
 3. The alignment of the wheels of a motor vehicle closer together at the bottom than at the top
 
-- Verb: camber (Derived forms: cambered, cambers, cambering)
+- Verb: camber (derived forms: cambered, cambers, cambering)
 1. Curve upward in the middle
 """,
   );

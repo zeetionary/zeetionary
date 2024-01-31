@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: buzzard (Derived forms: buzzards)
+- Noun: buzzard (derived forms: buzzards)
 1. [N. Amer] A New World vulture that is common in South America and Central America and the southern United States (= turkey buzzard, turkey vulture, Cathartes aura)
  
 2. The common European short-winged hawk (= Buteo buteo)

@@ -723,14 +723,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: budget (Derived forms: budgets)
+- Noun: budget (derived forms: budgets)
 1. A sum of money allocated for a particular purpose
 "the laboratory runs on a budget of a million a year"
  
 2. A summary of intended expenditures along with proposals for how to meet them
 "the president submitted the annual budget to Congress"
 
-- Verb: budget (Derived forms: budgeted, budgets, budgeting)
+- Verb: budget (derived forms: budgeted, budgets, budgeting)
 1. Make a budget
 
 - Adjective: budget 

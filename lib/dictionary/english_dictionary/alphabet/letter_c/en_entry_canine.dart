@@ -366,7 +366,7 @@ ${englishMeaningConst.text}
  
 2. (zoology) of or relating to or characteristic of members of the family Canidae
 
-- Noun: canine (Derived forms: canines)
+- Noun: canine (derived forms: canines)
 1. One of the four pointed conical teeth (two in each jaw) located between the incisors and the premolars (= canine tooth, eyetooth, eye tooth, dogtooth, cuspid)
  
 2. Any of various fissiped mammals with nonretractile claws and typically long muzzles (= canid)

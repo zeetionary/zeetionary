@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cadet (Derived forms: cadets)
+- Noun: cadet (derived forms: cadets)
 1. (military) a military trainee (as at a military academy) (= plebe [N. Amer])
 """,
   );

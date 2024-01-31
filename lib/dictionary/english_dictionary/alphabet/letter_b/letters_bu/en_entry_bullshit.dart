@@ -277,14 +277,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bullshit (Derived forms: bullshits)
+- Noun: bullshit (derived forms: bullshits)
 Usage: vulgar
 1. Statements or beliefs that are untrue or make no sense (= bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], bull [slang], junk [informal], bilge [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
  
 2. Obscene word for unacceptable behaviour
 "I put up with a lot of bullshit from that jerk";
 
-- Verb: bullshit (Derived forms: bullshits, bullshitted, bullshitting)
+- Verb: bullshit (derived forms: bullshits, bullshitted, bullshitting)
 Usage: vulgar
 1. Speak insincerely or without regard for facts or truths (= talk through one's hat [informal], bull [informal], fake [US, informal])
 "The politician was not well prepared for the debate and bullshitted it";

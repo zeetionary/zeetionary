@@ -422,14 +422,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cab (Derived forms: cabs)
+- Noun: cab (derived forms: cabs)
 1. A compartment at the front of a motor vehicle or locomotive where driver sits
  
 2. Small two-wheeled horse-drawn carriage; with two seats and a folding hood (= cabriolet)
  
 3. A car driven by a person whose job is to take passengers where they want to go in exchange for money (= hack [N. Amer], taxi, taxicab)
 
-- Verb: cab (Derived forms: cabs, cabbed, cabbing)
+- Verb: cab (derived forms: cabs, cabbed, cabbing)
 1. Ride in a taxicab (= taxi)
 """,
   );

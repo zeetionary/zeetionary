@@ -251,7 +251,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bulldozer (Derived forms: bulldozers)
+- Noun: bulldozer (derived forms: bulldozers)
 1. Large powerful tractor; a large blade in front flattens areas of ground (= dozer [informal])
 """,
   );

@@ -526,7 +526,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: calculate (Derived forms: calculated, calculates, calculating)
+- Verb: calculate (derived forms: calculated, calculates, calculating)
 1. (mathematics) make a mathematical calculation or computation (= cipher, cypher, compute, work out, reckon, figure [N. Amer])
 "you can calculate the area of a square if you know the length of its sides";
  

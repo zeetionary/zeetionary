@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cameo (Derived forms: cameos)
+- Noun: cameo (derived forms: cameos)
 1. A small part in a film or play taken by a famous person
  
 2. A short literary description

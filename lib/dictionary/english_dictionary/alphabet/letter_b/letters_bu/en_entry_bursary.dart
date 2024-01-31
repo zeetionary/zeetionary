@@ -297,7 +297,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bursary (Derived forms: bursaries)
+- Noun: bursary (derived forms: bursaries)
 1. The treasury of a public institution or religious order
  
 2. [Brit, Cdn] A grant, esp. for a student to study

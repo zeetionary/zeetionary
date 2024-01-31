@@ -343,7 +343,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bull (Derived forms: bulls)
+- Noun: bull (derived forms: bulls)
 1. Mature male of various mammals of which the female is called 'cow'; e.g. whales, elephants or especially cattle
  
 2. Uncastrated adult male of domestic cattle
@@ -367,7 +367,7 @@ ${englishMeaningConst.text}
  
 10. [slang] Statements or beliefs that are untrue or make no sense (= bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], junk [informal], bilge [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
 
-- Verb: bull (Derived forms: bulls, bulled, bulling)
+- Verb: bull (derived forms: bulls, bulled, bulling)
 1. [informal] Push or force (= bull through)
 "He bulled through his demands";
  

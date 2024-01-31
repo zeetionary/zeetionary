@@ -425,7 +425,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: bus (Derived forms: buses)
+- Noun: bus (derived forms: buses)
 1. A vehicle carrying many passengers; used for public transport (= autobus, coach, charabanc [Brit], double-decker, jitney [N. Amer, informal], motorbus, motorcoach, omnibus, passenger vehicle)
 "he always rode the bus to work";
 
@@ -436,7 +436,7 @@ ${englishMeaningConst.text}
 4. [informal] A car that is old and unreliable (= jalopy [informal], heap [informal], banger [Brit, informal], hooptie [US, informal], clunker [N. Amer, informal])
 "the fenders had fallen off that old bus";
 
-- Verb: bus (Derived forms: busing, bused, buses)
+- Verb: bus (derived forms: busing, bused, buses)
 1. Send or move around by bus
  
 2. Ride in a bus

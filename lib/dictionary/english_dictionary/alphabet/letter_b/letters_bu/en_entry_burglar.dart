@@ -328,7 +328,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: burglar (Derived forms: burglars)
+- Noun: burglar (derived forms: burglars)
 1. A thief who enters a building with intent to steal (= yegg [N. Amer, informal])
 """,
   );

@@ -604,7 +604,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: camp (Derived forms: camps)
+- Noun: camp (derived forms: camps)
 1. Temporary lodgings in the country for travellers or vacationers
 "level ground is best for parking and camp areas"
  
@@ -627,7 +627,7 @@ ${englishMeaningConst.text}
 8. A site where care and activities are provided for children during the summer months (= summer camp)
 "city kids get to see the country at a summer camp";
 
-- Verb: camp (Derived forms: camped, camps, camping)
+- Verb: camp (derived forms: camped, camps, camping)
 1. Live in or as if in a tent (= encamp, camp out, bivouac, tent, bivvy [informal], bivvy up [informal])
 "Can we go camping again this summer?"; "The houseguests had to camp in the living room"; "Can we go camping out again this summer?";
  
@@ -635,7 +635,7 @@ ${englishMeaningConst.text}
  
 3. [informal] Give an artificially banal or sexual quality to
 
-- Adjective: camp (Derived forms: camper, campest)
+- Adjective: camp (derived forms: camper, campest)
 Usage: informal
 1. Providing sophisticated amusement by virtue of having artificially (and vulgarly) mannered, banal or sentimental qualities (= campy [informal])
 "they played up the silliness of their roles for camp effect";

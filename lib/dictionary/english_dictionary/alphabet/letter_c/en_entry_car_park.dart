@@ -3,83 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "blue-collar" and for each meaning provide five example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
-// replace blue-collar - /ˌbluː ˈkɒlə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybluecollar extends StatelessWidget {
-// blank divider
-  EnglishEntrybluecollar({super.key});
-// blank divider
+class EnglishEntrycarpark extends StatelessWidget {
+  // blank divider
+  EnglishEntrycarpark({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbluecollar(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarpark(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blue-collar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("car park"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars1(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He found a blue-collar job at the factory."); // DOPSUM: CHANGE TEXT
+        "The multilevel car park near the shopping center accommodates hundreds of cars."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars2(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarparks22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars3(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarparks33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars4(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarparks44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars5(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarparks55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars6(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarparks66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars7(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcarparks7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarparks77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarparks8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarparks88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarparks9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarparks99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarparks10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarparks1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarparks11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarparks1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarparks12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarparks1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarparks13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarpark
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarparks1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +149,22 @@ class EnglishEntrybluecollar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blue-collar"),
+                            EntryTitle(word: "car park"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌbluː ˈkɒlə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbluecollar("en-GB"),
+                              onPressed: () => speakcarpark("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌbluː ˈkɑːlər/"),
+                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbluecollar("en-US"),
+                              onPressed: () => speakcarpark("en-US"),
                             ),
                           ],
                         ),
@@ -130,7 +177,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -144,7 +191,9 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) پەیوەندیدار بە کارمەندێک کە لە شوێنێک کارێک بکات کە پێویستی بە ھێزی جەستەیی ھەبێت وەک لەوەی کاری ئۆفیس (نووسین و کۆمپیوتەر) بکات"""),
+کوردی: گەراج، پارکینگ، شوێنی ڕاگرتنی ماشێن، ڕاگرتنگا
+
+١. (ناو) ناوچەیەک کە خەڵکی ئۆتۆمبێلەکانیان ڕادەگرن تێیدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -152,21 +201,20 @@ class EnglishEntrybluecollar extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He found a blue-collar job at the factory."),
+                                            "The multilevel car park near the shopping center accommodates hundreds of cars."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی کرێکاری دۆزییەوە لە کارگەکە."),
+                                        text: "گەراجە چەند نهۆمییەکە لە نزیکی سەنتەری بازاڕکردنەکە جێگەی سەدان ئۆتۆمبێلی تێدا دەبێتەوە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "car park", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbluecollars1("en-GB"),
+                                    onPressed: () => speakcarparks1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbluecollars1("en-US"),
+                                    onPressed: () => speakcarparks1("en-US"),
                                   ),
                                 ],
                               ),
@@ -182,13 +230,13 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), // 
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -198,6 +246,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -253,11 +302,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: blue-collar
-1. Of or designating manual industrial work or workers
- 
-2. Of those who work for wages especially manual or industrial labourers (= propertyless, wage-earning, working-class)
-"party of the blue-collar proletariat";
+- Noun: car park (Derived forms: car parks)
+Usage: Brit (N. Amer: parking lot)
+1. A lot where cars are parked (= parking lot, park, parking area)
 """,
   );
 
@@ -286,12 +333,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/G5NogCChl9Y',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'slZKqXY-k-U',
-    startSeconds: 669,
+    videoId: 'https://youtu.be/g1eQETg1NkY?t=',
+    startSeconds: 85,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -315,8 +387,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qw-FLc7Z01Q',
-    startSeconds: 558,
+    videoId: 'https://youtu.be/gkTpC0HJj6A?t=',
+    startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -340,8 +412,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '96K9MBvGDeA',
-    startSeconds: 610,
+    videoId: 'https://youtu.be/G_57oQRaaXY?t=',
+    startSeconds: 899,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -365,8 +437,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PDFI3YGhIBg',
-    startSeconds: 323,
+    videoId: 'https://youtu.be/hfOy7pb0xXk?t=',
+    startSeconds: 576,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +462,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sT0gJbZDvL4',
-    startSeconds: 528,
+    videoId: 'https://youtu.be/C30lQzcEhx0?t=',
+    startSeconds: 1590,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +487,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XOfEBivBqD0',
-    startSeconds: 54,
+    videoId: 'https://youtu.be/i8dRp2oQL8U?t=',
+    startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +512,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ARERGvMzhmc',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/zJgLHva_TAE?t=',
+    startSeconds: 912,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -465,8 +537,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KSXKzPOcYDU',
-    startSeconds: 3032,
+    videoId: 'https://youtu.be/hNs0RdEHcAY?t=',
+    startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -490,8 +562,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GuOJpikr5hQ',
-    startSeconds: 64,
+    videoId: 'https://youtu.be/VAzE1JD_FYc?t=',
+    startSeconds: 289,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -515,8 +587,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hSmAYUnZyxE',
-    startSeconds: 1032,
+    videoId: 'https://youtu.be/K2F8O3aioto?t=',
+    startSeconds: 633,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -540,8 +612,8 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   YoutubeEmbeddedeleven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vb4onc80IbE',
-    startSeconds: 1084,
+    videoId: 'https://youtu.be/gdUnx7zQy5A?t=',
+    startSeconds: 2210,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -561,29 +633,4 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mb2E02HsLiM',
-    startSeconds: 1083,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end blue-collar
+// end WORD_WEB

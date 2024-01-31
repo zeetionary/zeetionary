@@ -3,83 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "blue-collar" and for each meaning provide five example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
-// replace blue-collar - /ˌbluː ˈkɒlə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybluecollar extends StatelessWidget {
-// blank divider
-  EnglishEntrybluecollar({super.key});
-// blank divider
+class EnglishEntrycaptivate extends StatelessWidget {
+  // blank divider
+  EnglishEntrycaptivate({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbluecollar(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivate(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blue-collar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("captivate"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars1(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He found a blue-collar job at the factory."); // DOPSUM: CHANGE TEXT
+        "The children were captivated by her stories."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars2(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Men were captivated by her charm."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars3(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaptivates33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars4(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaptivates44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars5(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaptivates55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars6(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaptivates66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars7(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaptivates7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaptivates77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptivates8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptivates88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptivates9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptivates99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptivates10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptivates1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptivates11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptivates1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptivates12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptivates1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaptivates13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaptivate
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaptivates1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +149,22 @@ class EnglishEntrybluecollar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blue-collar"),
+                            EntryTitle(word: "captivate"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌbluː ˈkɒlə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkæptɪveɪt/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbluecollar("en-GB"),
+                              onPressed: () => speakcaptivate("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌbluː ˈkɑːlər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkæptɪveɪt/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbluecollar("en-US"),
+                              onPressed: () => speakcaptivate("en-US"),
                             ),
                           ],
                         ),
@@ -130,7 +177,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -144,7 +191,9 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) پەیوەندیدار بە کارمەندێک کە لە شوێنێک کارێک بکات کە پێویستی بە ھێزی جەستەیی ھەبێت وەک لەوەی کاری ئۆفیس (نووسین و کۆمپیوتەر) بکات"""),
+کوردی: سەرنجڕاکێشان، دڵڕاکێشان، فریو دان
+
+١. (کردار) سەرنجڕاکێشانی کەسێک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -152,25 +201,51 @@ class EnglishEntrybluecollar extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He found a blue-collar job at the factory."),
+                                            "The children were captivated by her stories."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی کرێکاری دۆزییەوە لە کارگەکە."),
+                                        text: "منداڵان سەرسامبوون بە چیرۆکەکانی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "captivate", follow LX strictly
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbluecollars1("en-GB"),
+                                    onPressed: () => speakcaptivates1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbluecollars1("en-US"),
+                                    onPressed: () => speakcaptivates1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Men were captivated by her charm."),
+                          ExampleSentenceKurdish(
+                          text: "پیاوان سەرسامبوون بە شۆخییەکەی."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcaptivates2("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcaptivates2("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),
@@ -182,13 +257,13 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -198,6 +273,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -253,11 +329,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: blue-collar
-1. Of or designating manual industrial work or workers
- 
-2. Of those who work for wages especially manual or industrial labourers (= propertyless, wage-earning, working-class)
-"party of the blue-collar proletariat";
+-Verb: captivate (Derived forms: captivated, captivates, captivating)
+1. Cause rapt attraction or admiration; attract love (= capture, enamour [Brit, Cdn], trance, catch, becharm [archaic], enamor [US], beguile, charm, fascinate, bewitch, entrance, enchant)
+"She captivated all the men's hearts";
+
+2. Hold spellbound (= enchant, enrapture, transport, enthrall [US], ravish [literary], enthral [Brit, Cdn], entrance)
+"They underestimate the power of painting has to sweetly enthral and captivate the hearts of men";
 """,
   );
 
@@ -286,12 +363,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/iE-a-3GEibk?t=',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'slZKqXY-k-U',
-    startSeconds: 669,
+    videoId: 'https://youtu.be/5N4oIMxzXxk?t=',
+    startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -315,8 +417,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qw-FLc7Z01Q',
-    startSeconds: 558,
+    videoId: 'https://youtu.be/i6XcDF47KgI',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -340,8 +442,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '96K9MBvGDeA',
-    startSeconds: 610,
+    videoId: 'https://youtu.be/Qc0vRRJuQic?t=',
+    startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -365,8 +467,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PDFI3YGhIBg',
-    startSeconds: 323,
+    videoId: 'https://youtu.be/PiW7Fr-ZDoQ?t=',
+    startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +492,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sT0gJbZDvL4',
-    startSeconds: 528,
+    videoId: 'https://youtu.be/smwXnobFJS8?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +517,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XOfEBivBqD0',
-    startSeconds: 54,
+    videoId: 'https://youtu.be/cpHNwgM1_oE?t=',
+    startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +542,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ARERGvMzhmc',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/RuXkEJzmp50?t=',
+    startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -465,8 +567,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KSXKzPOcYDU',
-    startSeconds: 3032,
+    videoId: 'https://youtu.be/_q4DrUHKC0Q?t=',
+    startSeconds: 1694,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -490,8 +592,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GuOJpikr5hQ',
-    startSeconds: 64,
+    videoId: 'https://youtu.be/RQiZlKoAbSg?t=',
+    startSeconds: 807,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -515,8 +617,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hSmAYUnZyxE',
-    startSeconds: 1032,
+    videoId: 'https://youtu.be/_LtUN186uzc?t=',
+    startSeconds: 2066,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,54 +638,4 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vb4onc80IbE',
-    startSeconds: 1084,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mb2E02HsLiM',
-    startSeconds: 1083,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end blue-collar
+// end WORD_WEB

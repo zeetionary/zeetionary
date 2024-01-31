@@ -2426,16 +2426,16 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capsule.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_captain.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_caption.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_captivate.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_captive.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_captivity.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_captor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_capture.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_car.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_car_boot_sale.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_car_park.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carafe.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_caramel.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5972,16 +5972,16 @@ final loggedInRoute = RouteMap(routes: {
   "/english-capsule": (_) => MaterialPage(child: EnglishEntrycapsule()),
   "/english-captain": (_) => MaterialPage(child: EnglishEntrycaptain()),
   "/english-caption": (_) => MaterialPage(child: EnglishEntrycaption()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-captivate": (_) => MaterialPage(child: EnglishEntrycaptivate()),
+  "/english-captive": (_) => MaterialPage(child: EnglishEntrycaptive()),
+  "/english-captivity": (_) => MaterialPage(child: EnglishEntrycaptivity()),
+  "/english-captor": (_) => MaterialPage(child: EnglishEntrycaptor()),
+  "/english-capture": (_) => MaterialPage(child: EnglishEntrycapture()),
+  "/english-car": (_) => MaterialPage(child: EnglishEntrycar()),
+  "/english-car-boot-sale": (_) => MaterialPage(child: EnglishEntrycarbootsale()),
+  "/english-car-park": (_) => MaterialPage(child: EnglishEntrycarpark()),
+  "/english-carafe": (_) => MaterialPage(child: EnglishEntrycarafe()),
+  "/english-caramel": (_) => MaterialPage(child: EnglishEntrycaramel()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

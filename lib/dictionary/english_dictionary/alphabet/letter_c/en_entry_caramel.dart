@@ -3,83 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// Define the word "blue-collar" and for each meaning provide five example sentences that consist of less than 12 words. Use  Oxford Advanced Learner's Dictionary style. Provide at least 5 meanings or more.
-
-// replace blue-collar - /ˌbluː ˈkɒlə(r)/
 
 enum TtsState { playing }
 
-class EnglishEntrybluecollar extends StatelessWidget {
-// blank divider
-  EnglishEntrybluecollar({super.key});
-// blank divider
+class EnglishEntrycaramel extends StatelessWidget {
+  // blank divider
+  EnglishEntrycaramel({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakbluecollar(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramel(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("blue-collar"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("caramel"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars1(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels1(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He found a blue-collar job at the factory."); // DOPSUM: CHANGE TEXT
+        "The recipe called for a generous swirl of caramel to enhance the flavor of the cake."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars2(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels2(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaramels22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars3(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels3(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaramels33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars4(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels4(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaramels44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars5(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels5(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaramels55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars6(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels6(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaramels66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakbluecollars7(String languageCode) async {
-    // DOPSUM: CHANGE speakbluecollar
+  Future<void> speakcaramels7(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakbluecollars77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcaramels77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaramels8(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaramels88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaramels9(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaramels99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaramels10(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaramels1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaramels11(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaramels1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaramels12(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaramels1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcaramels13(String languageCode) async {
+    // DOPSUM: CHANGE speakcaramel
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcaramels1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -102,22 +149,22 @@ class EnglishEntrybluecollar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "blue-collar"),
+                            EntryTitle(word: "caramel"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌbluː ˈkɒlə(r)/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkærəmel/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakbluecollar("en-GB"),
+                              onPressed: () => speakcaramel("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌbluː ˈkɑːlər/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkærəml/,  /ˈkɑːrml/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakbluecollar("en-US"),
+                              onPressed: () => speakcaramel("en-US"),
                             ),
                           ],
                         ),
@@ -130,7 +177,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -144,7 +191,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) پەیوەندیدار بە کارمەندێک کە لە شوێنێک کارێک بکات کە پێویستی بە ھێزی جەستەیی ھەبێت وەک لەوەی کاری ئۆفیس (نووسین و کۆمپیوتەر) بکات"""),
+١. (ناو) شیرینییەکی ڕەقی لینج کە لە کەرە و شەکر و شیر درووست دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -152,21 +199,20 @@ class EnglishEntrybluecollar extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He found a blue-collar job at the factory."),
+                                            "The recipe called for a generous swirl of caramel to enhance the flavor of the cake."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "کارێکی کرێکاری دۆزییەوە لە کارگەکە."),
+                                        text: "ڕەچەتەکە."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "caramel", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakbluecollars1("en-GB"),
+                                    onPressed: () => speakcaramels1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakbluecollars1("en-US"),
+                                    onPressed: () => speakcaramels1("en-US"),
                                   ),
                                 ],
                               ),
@@ -182,13 +228,13 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
+                        YoutubeEmbeddedeight(), // 
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -198,6 +244,7 @@ class EnglishEntrybluecollar extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -253,11 +300,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: blue-collar
-1. Of or designating manual industrial work or workers
+- Noun: caramel (Derived forms: caramels)
+1. Firm chewy candy made from caramelized sugar and butter and milk
  
-2. Of those who work for wages especially manual or industrial labourers (= propertyless, wage-earning, working-class)
-"party of the blue-collar proletariat";
+2. Burnt sugar; used to colour and flavour food (= caramelized sugar, caramelised sugar [Brit])
+ 
+3. A medium to dark tan colour (= yellowish brown, raw sienna, buff, caramel brown)
+
+- Adjective: caramel 
+1. Having the colour of caramel; of a moderate yellow-brown (= caramel brown)
 """,
   );
 
@@ -286,12 +337,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/GMX9BboUnOo',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'slZKqXY-k-U',
-    startSeconds: 669,
+    videoId: 'https://youtu.be/5qhY7mhw30g?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -315,8 +391,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qw-FLc7Z01Q',
-    startSeconds: 558,
+    videoId: 'https://youtu.be/Xd9ch6GD_AE?t=',
+    startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -340,8 +416,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '96K9MBvGDeA',
-    startSeconds: 610,
+    videoId: 'https://youtu.be/dZ0Ic9EMdK0',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -365,8 +441,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PDFI3YGhIBg',
-    startSeconds: 323,
+    videoId: 'https://youtu.be/s3B-qp3U5G0?t=',
+    startSeconds: 1008,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +466,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sT0gJbZDvL4',
-    startSeconds: 528,
+    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    startSeconds: 539,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +491,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'XOfEBivBqD0',
-    startSeconds: 54,
+    videoId: 'https://youtu.be/omcNGrnt7Sg?t=',
+    startSeconds: 1712,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +516,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ARERGvMzhmc',
-    startSeconds: 206,
+    videoId: 'https://youtu.be/iKv4oc2zbeA?t=',
+    startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -465,8 +541,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KSXKzPOcYDU',
-    startSeconds: 3032,
+    videoId: 'https://youtu.be/9uFpws53Tyk?t=',
+    startSeconds: 247,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -490,8 +566,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GuOJpikr5hQ',
-    startSeconds: 64,
+    videoId: 'https://youtu.be/BPYivm414_8',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -515,8 +591,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hSmAYUnZyxE',
-    startSeconds: 1032,
+    videoId: 'https://youtu.be/SqQyiUeJsxw?t=',
+    startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -536,54 +612,4 @@ class YoutubeEmbeddedten extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vb4onc80IbE',
-    startSeconds: 1084,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'mb2E02HsLiM',
-    startSeconds: 1083,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end blue-collar
+// end WORD_WEB

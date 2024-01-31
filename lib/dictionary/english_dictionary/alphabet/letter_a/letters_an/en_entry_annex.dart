@@ -166,7 +166,7 @@ class EnglishEntryannex extends StatelessWidget {
                                             "Germany annexed Austria in 1938."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨"),
+                                            "ئەڵمانیا نەمسای داگیرکرد لە ساڵی ١٩٣٨."),
                                   ],
                                 ),
                               ),

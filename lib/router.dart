@@ -2449,7 +2449,7 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbuncle.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carburettor.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carcass.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_card.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5995,7 +5995,7 @@ final loggedInRoute = RouteMap(routes: {
   "/english-carbuncle": (_) => MaterialPage(child: EnglishEntrycarbuncle()),
   "/english-carburettor": (_) => MaterialPage(child: EnglishEntrycarburettor()),
   "/english-carcass": (_) => MaterialPage(child: EnglishEntrycarcass()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-card": (_) => MaterialPage(child: EnglishEntrycard()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

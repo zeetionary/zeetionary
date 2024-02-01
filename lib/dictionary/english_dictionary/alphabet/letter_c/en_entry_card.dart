@@ -30,7 +30,7 @@ class EnglishEntrycard extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "speakcards111111111111111111111111111111111"); // DOPSUM: CHANGE TEXT
+        "The model of the building was made of card."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcards2(String languageCode) async {
@@ -38,7 +38,7 @@ class EnglishEntrycard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Each person wrote their question on a card."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcards3(String languageCode) async {
@@ -46,7 +46,7 @@ class EnglishEntrycard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("When they got engaged I sent them a card."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcards4(String languageCode) async {
@@ -54,7 +54,7 @@ class EnglishEntrycard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Did you get my card from Italy?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcards5(String languageCode) async {
@@ -62,7 +62,7 @@ class EnglishEntrycard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("My phone number is here on my business card."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcards6(String languageCode) async {
@@ -70,7 +70,7 @@ class EnglishEntrycard extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("Can I pay with a card?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcards7(String languageCode) async {
@@ -191,9 +191,9 @@ class EnglishEntrycard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: 
+کوردی: کارت، پسوولە، پەڕ (هی یاری)، کارتی پیرۆزبایی، کەسێکی نائاسایی یان پێکەنینی، شانە، شیکەنە، شانە، دەفە، شیکەنە
 
-١. (ھاوەڵناو) پێنناسە"""),
+١. (ناو) کاغەزێکی ئەستوور و پتەو بۆ نووسین لەسەری"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,9 +201,9 @@ class EnglishEntrycard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "speakcards111111111111111111111111111111111"),
+                                            "The model of the building was made of card."),
                                     ExampleSentenceKurdish(
-                                        text: "رستە_رستە_رستە_رستە."),
+                                        text: "نموونەی بیناکە لەسەر کارد کێشرا."),
                                   ],
                                 ),
                               ),
@@ -220,21 +220,160 @@ class EnglishEntrycard extends StatelessWidget {
                               ),
                             ],
                           ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Each person wrote their question on a card."),
+                          ExampleSentenceKurdish(
+                          text: "هەر کەسێک پرسیارەکەی لەسەر کاغەزێک نووسی."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcards2("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcards2("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ناو) کاغەزێکی پتەو کە لە ناوەڕاستدا چەمێندراوەتەوە و وێنەیەکی لەسەرە. بەکاردێت بۆ ناردنی پیرۆزبایی، بانگهێشت، هتد"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "When they got engaged I sent them a card."),
+                          ExampleSentenceKurdish(
+                          text: "کە مارە بڕدران، کاردێکم بۆ ناردن."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcards3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcards3("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٣. (ناو) پۆستکارد؛ کاردێک کە بۆ نامەناردن بە پۆستە بەکاردێت"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Did you get my card from Italy?"),
+                          ExampleSentenceKurdish(
+                          text: "پۆستکاردەکەمت لە ئیتالیاوە پێگەشت؟"),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcards4("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcards4("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٤. (ناو) پەڕەیەک یان پارچە پلاستیکێک کە زانیاری لەسەر کەسێک لەسەرە"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "My phone number is here on my business card."),
+                          ExampleSentenceKurdish(
+                          text: "ژمارە موبایلەکەم لێرەیە لەسەر کارتی کارەکەم."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcards5("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcards5("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٥. (ناو) کاردی بانکی"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "Can I pay with a card?"),
+                          ExampleSentenceKurdish(
+                          text: "دەتوانم بە کاردەکەم پارە بدەم؟"),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcards6("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcards6("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        // YoutubeEmbeddedone(),
-                        // YoutubeEmbeddedtwo(),
-                        // YoutubeEmbeddedthree(),
-                        // YoutubeEmbeddedfour(),
-                        // YoutubeEmbeddedfive(),
-                        // YoutubeEmbeddedsix(),
-                        // YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // speakcards111111111111111111111111111111111
-                        // YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
+                        YoutubeEmbeddedone(),
+                        YoutubeEmbeddedtwo(),
+                        YoutubeEmbeddedthree(),
+                        YoutubeEmbeddedfour(),
+                        YoutubeEmbeddedfive(),
+                        YoutubeEmbeddedsix(),
+                        YoutubeEmbeddedseven(),
+                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddednine(),
+                        YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
@@ -545,8 +684,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/_TfJh0kLJCw?t=',
+    startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -570,8 +709,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/IXZJKiOR_rs?t=',
+    startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -595,8 +734,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/64q6JODrhj8?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -620,8 +759,8 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'PUT_VID',
-    startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/vXcFGgwP1J4?t=',
+    startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

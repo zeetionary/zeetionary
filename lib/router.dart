@@ -2444,11 +2444,11 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_dioxide.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_footprint.dart';
 import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_monoxide.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
-// import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_offset.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbon_paper.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carbuncle.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carburettor.dart';
+import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_carcass.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
@@ -5990,11 +5990,11 @@ final loggedInRoute = RouteMap(routes: {
   "/english-carbon-dioxide": (_) => MaterialPage(child: EnglishEntrycarbondioxide()),
   "/english-carbon-footprint": (_) => MaterialPage(child: EnglishEntrycarbonfootprint()),
   "/english-carbon-monoxide": (_) => MaterialPage(child: EnglishEntrycarbonmonoxide()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
-  // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
+  "/english-carbon-offset": (_) => MaterialPage(child: EnglishEntrycarbonoffset()),
+  "/english-carbon-paper": (_) => MaterialPage(child: EnglishEntrycarbonpaper()),
+  "/english-carbuncle": (_) => MaterialPage(child: EnglishEntrycarbuncle()),
+  "/english-carburettor": (_) => MaterialPage(child: EnglishEntrycarburettor()),
+  "/english-carcass": (_) => MaterialPage(child: EnglishEntrycarcass()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

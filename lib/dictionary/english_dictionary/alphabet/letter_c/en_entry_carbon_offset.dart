@@ -10,123 +10,123 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycarboncopy extends StatelessWidget {
+class EnglishEntrycarbonoffset extends StatelessWidget {
   // blank divider
-  EnglishEntrycarboncopy({super.key});
+  EnglishEntrycarbonoffset({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcarboncopy(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffset(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("carbon copy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carbon offset"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Each participant received a carbon copy of the meeting agenda."); // DOPSUM: CHANGE TEXT
+        "Do you buy carbon offsets every time you fly?"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets22"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcarboncopys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarboncopy
+  Future<void> speakcarbonoffsets13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarbonoffset
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcarboncopys1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarbonoffsets1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -149,23 +149,23 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "carbon copy"),
+                            EntryTitle(word: "carbon offset"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkɑːbən ˈkɒpi/"),
+                            const IPAofEnglish(text: "IpaUK: /ˌkɑːbən ˈɒfset/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcarboncopy("en-GB"),
+                              onPressed: () => speakcarbonoffset("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text: "IpaUS: /ˌkɑːrbən ˈkɑːpi/"),
+                                text: "IpaUS: /ˌkɑːrbən ˈɔːfset/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcarboncopy("en-US"),
+                              onPressed: () => speakcarbonoffset("en-US"),
                             ),
                           ],
                         ),
@@ -192,7 +192,7 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵناو) کۆپییەکی بەڵگەنامەیەک، نامەیەک، هتد کە درووست دەکرێت بە دانانی پەڕەیەک کە لایەکی ڕەشە لە نێوان دوو پەڕەدا"""),
+١. (ناو) ڕێگایەک بۆ کۆمپانیایەک یان کەسێک کە قەرەبووی ئەو دووەم ئۆکسیدی کاربۆنە بکاتەوە کە دەیکاتە بەرگەهەواوە بە پارەدان بە کۆمپانیایەک بۆ ناشتنی دار لە جیاتیدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -200,21 +200,23 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Each participant received a carbon copy of the meeting agenda."),
+                                            "Do you buy carbon offsets every time you fly?"),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت."),
+                                            "هەر کاتێک دەفڕیت قەرەبووی دەکەیتەوە؟"),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "carbon copy", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "carbon offset", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarboncopys1("en-GB"),
+                                    onPressed: () =>
+                                        speakcarbonoffsets1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarboncopys1("en-US"),
+                                    onPressed: () =>
+                                        speakcarbonoffsets1("en-US"),
                                   ),
                                 ],
                               ),
@@ -302,13 +304,8 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carbon copy (Derived forms: carbon copies)
-1. A copy made with carbon paper (= carbon)
- 
-2. Used in an e-mail or other communication to send copies to people other than the main recipient (= cc)
-
-- Verb: carbon copy (Derived forms: carbon copies, carbon copied, carbon copying)
-1. Send a copy to (someone) as well as the main recipient (= cc)
+- Noun: carbon offset
+1. a way for a company or person to reduce the level of carbon dioxide for which they are responsible by paying money to a company that works to reduce the total amount produced in the world, for example by planting trees
 """,
   );
 
@@ -341,8 +338,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TiYEKDQZ5sk?t=',
-    startSeconds: 389,
+    videoId: 'https://youtu.be/xpUIZ32n9nw?t=',
+    startSeconds: 1148,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -366,8 +363,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Nun_4w8m_SY',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/1ngms6iRa14?t=',
+    startSeconds: 1489,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -391,8 +388,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YE0U018Copw?t=',
-    startSeconds: 1080,
+    videoId: 'https://youtu.be/ztSj01t05ZE?t=',
+    startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -416,8 +413,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IfPC2bM3Adc?t=',
-    startSeconds: 65,
+    videoId: 'https://youtu.be/AayVkvR1YZ0?t=',
+    startSeconds: 1445,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -441,8 +438,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jOwtqud_Ld8?t=',
-    startSeconds: 516,
+    videoId: 'https://youtu.be/FzZyInbmZKI?t=',
+    startSeconds: 866,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -466,8 +463,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5Ls_nBTYVME?t=',
-    startSeconds: 73,
+    videoId: 'https://youtu.be/sAAvBl-egoI?t=',
+    startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -491,8 +488,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fn6xq8vdH88?t=',
-    startSeconds: 672,
+    videoId: 'https://youtu.be/mY7vzu364ec?t=',
+    startSeconds: 66,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -516,8 +513,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ypibvfXXOmk?t=',
-    startSeconds: 2282,
+    videoId: 'https://youtu.be/KfDYMr_gQys?t=',
+    startSeconds: 600,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -541,8 +538,8 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/otTfZ5_fPgE?t=',
-    startSeconds: 298,
+    videoId: 'https://youtu.be/gRsOjqQWtHU?t=',
+    startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -566,8 +563,8 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V4LBqcB4oQw?t=',
-    startSeconds: 805,
+    videoId: 'https://youtu.be/b1sTNfQc-hw?t=',
+    startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

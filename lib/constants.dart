@@ -760,11 +760,14 @@ class IPAofEnglish extends ConsumerWidget {
       // height: 16,
       constraints: const BoxConstraints(maxWidth: 300),
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: GestureDetector( // Wrap Text with GestureDetector
+      child: GestureDetector(
+        // Wrap Text with GestureDetector
         onLongPress: () {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Text copied to clipboard'),),
+            const SnackBar(
+              content: Text('IPA copied'),
+            ),
           );
         },
         child: Text(
@@ -775,7 +778,6 @@ class IPAofEnglish extends ConsumerWidget {
     );
   }
 }
-
 
 class IPAofEnglishtest extends ConsumerWidget {
   // Renamed to IPAofEnglishtest
@@ -811,11 +813,17 @@ class DefinitionKurdish extends ConsumerWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: GestureDetector( // Wrap Text with GestureDetector
+      child: GestureDetector(
+        // Wrap Text with GestureDetector
         onLongPress: () {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Text copied to clipboard')),
+            const SnackBar(
+              content: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text('پێناسەی کوردی لەبەرگیرایەوە'),
+              ),
+            ),
           );
         },
         child: Text(
@@ -841,11 +849,12 @@ class ExampleSentenceEnglish extends ConsumerWidget {
 
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-      child: GestureDetector( // Wrap Text with GestureDetector
+      child: GestureDetector(
+        // Wrap Text with GestureDetector
         onLongPress: () {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Text copied to clipboard')),
+            const SnackBar(content: Text('English sentence copied')),
           );
         },
         child: Align(
@@ -873,11 +882,17 @@ class ExampleSentenceKurdish extends ConsumerWidget {
 
     return Align(
       alignment: Alignment.topRight,
-      child: GestureDetector( // Wrap Text with GestureDetector
+      child: GestureDetector(
+        // Wrap Text with GestureDetector
         onLongPress: () {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('Text copied to clipboard')),
+            const SnackBar(
+              content: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text('ڕستەی کوردی لەبەرگیرایەوە'),
+              ),
+            ),
           );
         },
         child: Text(
@@ -890,7 +905,6 @@ class ExampleSentenceKurdish extends ConsumerWidget {
     );
   }
 }
-
 
 // class CustomIconButtonBritish extends StatelessWidget {
 //   final VoidCallback? onPressed;
@@ -1034,12 +1048,13 @@ class EnglishMeaningConst extends ConsumerWidget {
               onLongPress: () {
                 Clipboard.setData(ClipboardData(text: text));
                 ScaffoldMessenger.of(context).showSnackBar(
-                  const SnackBar(content: Text('Text copied to clipboard')),
+                  const SnackBar(content: Text('English meaning copied')),
                 );
               },
               child: Text(
                 text,
-                style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
+                style:
+                    TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
               ),
             ),
           ],

@@ -3,47 +3,132 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryairy - replace speakAiry - replace airy - /ˈeəri/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryairy extends StatelessWidget {
-  EnglishEntryairy({super.key});
+class EnglishEntrycarriage extends StatelessWidget {
+  // blank divider
+  EnglishEntrycarriage({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAiry(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
+  Future<void> speakcarriage(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carriage"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAiry7352(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The office was light and airy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAiry748(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("He dismissed her with an airy wave."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAiry4255(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
+  Future<void> speakcarriages1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The airy promises proved empty in practical implementation."); // DOPSUM: CHANGE TEXT
+        "Passengers enjoyed panoramic views from the carriage as the train traversed the long route."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "A horse and carriage awaited the happy couple."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("That will be £150, carriage included."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages44"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriages13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarriage
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriages1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -66,26 +151,22 @@ class EnglishEntryairy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airy"), // Find /ˈeəri/
+                            EntryTitle(word: "carriage"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈeəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkærɪdʒ/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAiry("en-GB"),
+                              onPressed: () => speakcarriage("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈkærɪdʒ/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAiry("en-US"),
+                              onPressed: () => speakcarriage("en-US"),
                             ),
                           ],
                         ),
@@ -112,39 +193,40 @@ class EnglishEntryairy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھەوایی، سەربە کەش یان ئەتمۆسفێر، کراو لە حەوادا، حەوایی، ھەوایی، ھەواخۆش، ناکرداریی، دەستکرد، ناڕاستەقینە، خەیاڵی، ئالۆری، بێ‌خەم، کەمتەرخەم، نادەربەست، بێ‌خەیاڵ، نابەڕاست، سەرسەرەکی، درۆ، ھیچ، فشە، پڕوپووچ، خەیاڵی
+کوردی: واگۆن، کالیسکە، عەڕەبانە، گەردوونە
 
-١. (ھاوەڵناو) شوێنێک کە جەنجاڵی کەمە و ھەوای پاکی زۆرە"""),
+١. (ناو) ئەو بەشەی شەمەندەفەر کە گەشتیار هەڵدەگرێت"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "The office was light and airy."),
+                                        text:
+                                            "Passengers enjoyed panoramic views from the carriage as the train traversed the long route."),
                                     ExampleSentenceKurdish(
-                                        text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
+                                        text:
+                                            "گەشتیاران چێژیان بینی لە دیمەنی پانۆرامایی لە واگۆنەکەوە کە شەمەندەفەرەکە بە ڕێگا درێژەکەدا تێپەڕی."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "carriage", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiry7352("en-GB"),
+                                    onPressed: () => speakcarriages1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAiry7352(// REPLACE: airy /ˈeri/
-                                            "en-US"),
+                                    onPressed: () => speakcarriages1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) ڕەفتارکردن یان کردنی شتێک بە شێوەیەک کە گرنگ نەبێ لات"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) عەرەبانەی ئەسپ کە جاران بۆ گواستنەوەی خەڵکی بەکاردەهات"),
                           Row(
                             children: [
                               const Expanded(
@@ -152,10 +234,10 @@ class EnglishEntryairy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He dismissed her with an airy wave."),
+                                            "A horse and carriage awaited the happy couple."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
+                                            "ئەسپ و عەرەبانەیەک چاوەڕێی دوو ئەویندارە دەڵخۆشەکە بوو."),
                                   ],
                                 ),
                               ),
@@ -163,20 +245,19 @@ class EnglishEntryairy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiry748("en-GB"),
+                                    onPressed: () => speakcarriages2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAiry748(// REPLACE: airy /ˈeri/
-                                            "en-US"),
+                                    onPressed: () => speakcarriages2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵناو) شتێک کە بە جدی نییە"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) گواستنەوە یان کرێی گواستنەوەی کاڵا"),
                           Row(
                             children: [
                               const Expanded(
@@ -184,10 +265,10 @@ class EnglishEntryairy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The airy promises proved empty in practical implementation."),
+                                            "That will be £150, carriage included."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
+                                            "١٥٠ پاوەند دەکات، بە گواستنەوەشەوە."),
                                   ],
                                 ),
                               ),
@@ -195,12 +276,10 @@ class EnglishEntryairy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiry4255("en-GB"),
+                                    onPressed: () => speakcarriages3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAiry4255(// REPLACE: airy /ˈeri/
-                                            "en-US"),
+                                    onPressed: () => speakcarriages3("en-US"),
                                   ),
                                 ],
                               ),
@@ -211,21 +290,28 @@ class EnglishEntryairy extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -281,18 +367,17 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: airy (derived forms: airiest, airier)
-1. Open to or abounding in fresh air (= aired)
-"airy rooms";
+- Noun: carriage (Derived forms: carriages)
+1. A railcar where passengers ride (= passenger car, coach)
  
-2. Not practical or realizable; speculative (= impractical, visionary, Laputan, windy)
-"airy theories about socioeconomic improvement";
+2. A vehicle with wheels drawn by one or more horses (= equipage, rig)
  
-3. Having little or no perceptible weight; so light as to resemble air
-"airy gauze curtains"
+3. Characteristic way of bearing one's body (= bearing, posture)
+"stood with good carriage";
+
+4. A machine part that carries something else
  
-4. Characterized by lightness and insubstantiality; as impalpable or intangible as air (= aeriform, aerial, aery, ethereal, etherial)
-"an airy apparition";
+5. A small vehicle with four wheels in which a baby or child is pushed around (= baby buggy, baby carriage [N. Amer], perambulator, pram [Brit], stroller [N. Amer], go-cart [archaic], pushchair [Brit], pusher [Austral, informal])
 """,
   );
 
@@ -321,11 +406,36 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/l9x6ZLIYMog?t=',
+    // startSeconds: 222222222222222,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5aeilMGWApY',
+    videoId: 'https://youtu.be/FejWyRtutH8?t=',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -350,8 +460,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bqEOzS3O7uc',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/BBXVSnegoY4?t=',
+    startSeconds: 2552,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -375,8 +485,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'csgssP_Yffs',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Dk1qGkH0e_U?t=',
+    startSeconds: 556,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +510,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'C0qtkNx-yPU',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/k7ycnmmI4-s?t=',
+    startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +535,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qaj4u42XZLg',
-    startSeconds: 39,
+    videoId: 'https://youtu.be/3cHE0RCwRsI',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +560,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rEdl2Uetpvo',
-    startSeconds: 84,
+    videoId: 'https://youtu.be/Qs-Lyw5xXLg?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +585,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CS634d_ZbVI',
-    startSeconds: 1458,
+    videoId: 'https://youtu.be/jcxztNXdClY?t=',
+    startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,79 +606,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3gt6cHooI6M',
-    startSeconds: 493,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NWGVFi-213w',
-    startSeconds: 178,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pH_zsbN5N5U',
-    startSeconds: 393,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

@@ -3,96 +3,134 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
-
-// artificial
-
-// replace EnglishEntryartificial - replace speakArtificial
-
-// replace artificial - /ˌɑːtɪˈfɪʃl/ - find WORD_WEB
 
 enum TtsState { playing }
 
-class EnglishEntryartificial extends StatelessWidget {
+class EnglishEntrycarrier extends StatelessWidget {
   // blank divider
-  EnglishEntryartificial({super.key});
+  EnglishEntrycarrier({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakArtificial(String languageCode) async {
-    // DOPSUM: CHANGE speakArtificial
+  Future<void> speakcarrier(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("artificial"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carrier"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtificial907(String languageCode) async {
-    // DOPSUM: CHANGE speakArtificial
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "All food served in the restaurant is completely free from any artificial colours and flavours."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakArtificial910(String languageCode) async {
-    // DOPSUM: CHANGE speakArtificial
+  Future<void> speakcarriers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "A job interview is a very artificial situation."); // DOPSUM: CHANGE TEXT
+        "Delta Air Lines is the third-largest carrier in the US."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakArtificial917(String languageCode) async {
-    // DOPSUM: CHANGE speakArtificial
+  Future<void> speakcarriers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The girl's artificial laughs were so believable that she could convince anyone."); // DOPSUM: CHANGE TEXT
+        "The ship served as a carrier, transporting goods across international waters."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakArtificial(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtificial
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artificial"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarriers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtificial(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtificial
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artificial"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarriers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "You can transfer your existing mobile phone number to a new carrier."); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtificial(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtificial
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artificial"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarriers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers55"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtificial(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtificial
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artificial"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarriers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers66"); // DOPSUM: CHANGE TEXT
+  }
 
-  // Future<void> speakArtificial(String languageCode) async {
-  //   // DOPSUM: CHANGE speakArtificial
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("artificial"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakcarriers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcarriers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarrier
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcarriers1313"); // DOPSUM: CHANGE TEXT
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -114,27 +152,22 @@ class EnglishEntryartificial extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "artificial"), // Find /ˌɑːtɪˈfɪʃl/
-                            // divvviiider
+                            EntryTitle(word: "carrier"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɑːtɪˈfɪʃl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkæriə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakArtificial("en-GB"),
+                              onPressed: () => speakcarrier("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɑːrtɪˈfɪʃl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈkæriər/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakArtificial("en-US"),
+                              onPressed: () => speakcarrier("en-US"),
                             ),
                           ],
                         ),
@@ -147,7 +180,7 @@ class EnglishEntryartificial extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -161,9 +194,9 @@ class EnglishEntryartificial extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دەستکرد، لاھیە، ناسروشتی، نائاسایی، ساختە، ڕووکەش، ناڕاستەقینە، درۆ
+کوردی: هەڵگر، کۆڵکێش، کۆمپانی گوێزانەوە، ناوکۆیی ڕاگوێستن، ڕاگوێزەر (نەخۆشی)، نامەبەر، ـهەڵگر، ـبەر، کەشتی فڕۆکەهەڵگر، (دووچەرخە) پاشتەرک، (ماشێن) باربەست، باربەند، کەل‌وپەل‌هەڵگر
 
-١. (ھاوەڵناو) شتێک کە دەستکردە و ئامانج لێی کۆپیکردنی شتێکی سرووشتییە"""),
+١. (ناو) کۆمپانیای گواستنەوە، بەتایبەتی بە فڕۆکە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -171,33 +204,30 @@ class EnglishEntryartificial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "All food served in the restaurant is completely free from any artificial colours and flavours."),
+                                            "Delta Air Lines is the third-largest carrier in the US."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ھەموو ئەو خواردنانەی لە چێشتخانەکە پێشکەش‌دەکرێن ھیچ ڕەنگ و تامی دەستکردیان تێدا نییە."),
+                                            "هێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "carrier", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakArtificial907("en-GB"),
+                                    onPressed: () => speakcarriers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificial907(
-                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                        "en-US"),
+                                    onPressed: () => speakcarriers1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) شتێک کە جیاوازە لە ڕوودانی سرووشتی"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) کەشتییەک یان ئۆتۆمبێلێکی سەربازی کە کە سەرباز یان کەرەستە دەگوازێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -205,10 +235,10 @@ class EnglishEntryartificial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "A job interview is a very artificial situation."),
+                                            "The ship served as a carrier, transporting goods across international waters."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "چاوپێکەوتن بۆ کار بارودۆخێکی ناواقیعییە."),
+                                            "کەشتییەکە وەک گوازەرەوەیەک کاری دەکرد بۆ گواستنەوەی کەلوپەل بە ئاوە نێودەوڵەتییەکاندا."),
                                   ],
                                 ),
                               ),
@@ -216,22 +246,19 @@ class EnglishEntryartificial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakArtificial910("en-GB"),
+                                    onPressed: () => speakcarriers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificial910(
-                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                        "en-US"),
+                                    onPressed: () => speakcarriers2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵناو) شتێکی ساختە"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) کەسێک کە هەڵگری نەخۆشییەکە و دەیگوازێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -239,10 +266,10 @@ class EnglishEntryartificial extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The girl's artificial laughs were so believable that she could convince anyone."),
+                                            "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێکەنینی ساختەی کچەکە ھێندە باوەڕپێکەر بوو کە دەکرا قەناعەت بە ھەموو کەسێک بکات."),
+                                            "لە پەتاناسیدا، دۆزینەوەی هەڵگرەکە گرنگە بۆ کۆنترۆڵی بڵاوبوونەوەی نەخۆشیی ڕاگوێزەر."),
                                   ],
                                 ),
                               ),
@@ -250,40 +277,73 @@ class EnglishEntryartificial extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () =>
-                                        speakArtificial917("en-GB"),
+                                    onPressed: () => speakcarriers3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakArtificial917(
-                                        // REPLACE: artificial /ˌɑːrtɪˈfɪʃl/
-                                        "en-US"),
+                                    onPressed: () => speakcarriers3("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) کۆمپانیایەک کە خزمەتگوزاری تەلەفۆن و ئینتەرنێت پێشکەش دەکات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "You can transfer your existing mobile phone number to a new carrier."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەتوانی ژمارەی ئێستای موبایلەکەت بگوازیتەوە بۆ تۆڕێکی نوێی گەیاندن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarriers4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarriers4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
                         ],
                       ),
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeleven(),
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -339,14 +399,30 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: artificial 
-1. Contrived by art rather than nature (= unreal)
-"artificial flavouring"; "an artificial diamond"; "artificial fibers";
+- Noun: carrier (Derived forms: carriers)
+1. Someone whose employment involves carrying something (= bearer, toter)
+"the bonds were transmitted by carrier";
+
+2. A self-propelled wheeled vehicle designed specifically to carry something
+"refrigerated carriers have revolutionized the grocery business"
  
-2. Artificially formal (= contrived, hokey [N. Amer, informal], stilted)
-"that artificial humility that her husband hated";
+3. A large warship that carries planes and has a long flat deck for takeoffs and landings (= aircraft carrier, flattop [US, informal], attack aircraft carrier)
  
-3. Not arising from natural growth or characterized by vital processes
+4. An inactive substance that is a vehicle for a radioactive tracer of the same substance and that assists in its recovery after some chemical reaction
+ 
+5. A person or firm in the business of transporting people or goods or messages (= common carrier)
+ 
+6. A radio wave that can be modulated in order to transmit a signal (= carrier wave)
+ 
+7. A man who delivers the mail (= mailman [N. Amer], postman, mail carrier [N. Amer], letter carrier [N. Amer], postie [Brit, informal])
+ 
+8. A boy who delivers newspapers (= newsboy)
+ 
+9. A rack attached to a vehicle; for carrying luggage, skis or the like
+ 
+10. (genetics) an organism that possesses a recessive gene whose effect is masked by a dominant allele; the associated trait is not apparent but can be passed on to offspring
+ 
+11. (medicine) a person (or animal) who has some pathogen to which he is immune but who can pass it on to others (= immune carrier)
 """,
   );
 
@@ -375,12 +451,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/S3zbzpVBZDc?t=',
+    startSeconds: 28,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'Pls_q2aQzHg',
-    startSeconds: 136,
+    videoId: 'https://youtu.be/01o0A4yGkrg?t=',
+    startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -404,8 +505,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'JMLsHI8aV0g',
-    startSeconds: 24,
+    videoId: 'https://youtu.be/m53SzTBISGg?t=',
+    startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -429,8 +530,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'b3D7QlMVa5s',
-    startSeconds: 102,
+    videoId: 'https://youtu.be/lhK7hMBli4s?t=',
+    startSeconds: 680,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -454,8 +555,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3uV8XZcIBbk',
-    startSeconds: 47,
+    videoId: 'https://youtu.be/W38uNEq5wjs?t=',
+    startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -479,8 +580,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'KhZo6uAo_Ms',
-    startSeconds: 16,
+    videoId: 'https://youtu.be/_Ih7djq6xmo?t=',
+    startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -504,8 +605,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'vP_Pn2G5OtE',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/gjIv_u4zmck?t=',
+    startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -529,8 +630,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'EsnHghKt810',
-    startSeconds: 437,
+    videoId: 'https://youtu.be/olnVwQzQZRs?t=',
+    startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -550,129 +651,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'YB309cz6Kvs',
-    startSeconds: 107,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'i3iIKtpVmJQ',
-    startSeconds: 168,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'ThZ-VlH30Js',
-    startSeconds: 18,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  YoutubeEmbeddedeleven({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'N4l5Li_xmnk',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  YoutubeEmbeddedtwelve({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'waisRS6MNmA',
-    // startSeconds: 222222222222222,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

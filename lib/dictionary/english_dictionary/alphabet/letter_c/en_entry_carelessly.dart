@@ -3,127 +3,130 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
 // More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntrycap extends StatelessWidget {
-// blank divider
-  EnglishEntrycap({super.key});
-// blank divider
+class EnglishEntrycarelessly extends StatelessWidget {
+  // blank divider
+  EnglishEntrycarelessly({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcap(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelessly(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("cap"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("carelessly"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps1(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys1(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "He wore a cap to help shielding his face from the sun's glare."); // DOPSUM: CHANGE TEXT
+        "Someone had carelessly left a window open."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps2(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys2(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps22"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("The fire was started by a carelessly discarded cigarette."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps3(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys3(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps33"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She threw her coat carelessly onto the chair."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps4(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys4(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps44"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps5(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys5(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps55"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps6(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys6(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps66"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps7(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys7(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps8(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys8(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps9(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys9(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps10(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys10(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps11(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys11(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps12(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys12(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcaps13(String languageCode) async {
-    // DOPSUM: CHANGE speakcap
+  Future<void> speakcarelesslys13(String languageCode) async {
+    // DOPSUM: CHANGE speakcarelessly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcaps1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcarelesslys1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -146,22 +149,22 @@ class EnglishEntrycap extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "cap"),
+                            EntryTitle(word: "carelessly"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kæp/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkeələsli/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcap("en-GB"),
+                              onPressed: () => speakcarelessly("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kæp/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkerləsli/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcap("en-US"),
+                              onPressed: () => speakcarelessly("en-US"),
                             ),
                           ],
                         ),
@@ -174,7 +177,7 @@ class EnglishEntrycap extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
@@ -188,9 +191,9 @@ class EnglishEntrycap extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کڵاو، جۆرێ کڵاو بە یان بێ  شەپکە، تەقیلە، تەپڵە، کڵاوی شانازی یان زانکۆیی، دەزگا، دیافڕاگم (ژنان)، سەر، درگا، کڵاوە، قەپاخ، سەرپۆش، سەرقاپ، تۆقتۆقە، کڵاوە، بەشی سەرووی تەختی، کارگ یان، کڵاوە: تاج یان ڕووپۆشی دەستکرد بۆ ددانێ، زۆرترین، زۆرینە، ئەوپەڕ، ھەرەسەروو، دوایین ڕادە، (وەک خەرج و بار)، نیشانەی ∩، ئاماژە بە ھاوبڕی، دوو کۆمەڵە یان دەستە، (زۆرتر لە بریتانیا) جۆیێ کڵاو کە دەبەخشرێتە ئەندامانی تیپێکی وەرزشی، بەتایبەت تیپێکی نیشتمانی، ھێشووە گەردێ 
+کوردی: خەمساردانە، بێ‌سەرنجانە، سەرچڵانە، بە خەمشەسەرێ
 
-١. (ناو) کڵاوێک کە لە پێشەوە بەشێکی ڕەقی چەماوەی ھەیە"""),
+١. (ھاوەڵکار) کارێک کە بە خراپی و بەبێ سەرنج و گرنگییەوە کراوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -198,25 +201,79 @@ class EnglishEntrycap extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He wore a cap to help shielding his face from the sun's glare."),
+                                            "Someone had carelessly left a window open."),
                                     ExampleSentenceKurdish(
-                                        text:
-                                            "کڵاوێکی لەسەر کرد بۆ پاراستنی ڕووخساری لە تیشکی خۆر."),
+                                        text: "کەسێک خەمساردانە پەنجەرەیەکی بە کراوەیی جێهێشتبوو."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples extensively define the word "cap", follow LX strictly
+                              const CustomSizedBoxForTTS(), // Define the word "carelessly", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcaps1("en-GB"),
+                                    onPressed: () => speakcarelesslys1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcaps1("en-US"),
+                                    onPressed: () => speakcarelesslys1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "The fire was started by a carelessly discarded cigarette."),
+                          ExampleSentenceKurdish(
+                          text: "ئاگرەکە دەستیپێکردبوو بە جگەرەیەکی ناهۆشیارانە فڕێدراو."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcarelesslys2("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcarelesslys2("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەشێوەیەک کە حەز و هەوڵدانێک پیشان نادات"),
+                          Row(
+                          children: [
+                          const Expanded(
+                          child: Column(
+                          children: [
+                          ExampleSentenceEnglish(
+                          text:
+                          "She threw her coat carelessly onto the chair."),
+                          ExampleSentenceKurdish(
+                          text: "بەخەمشەسەرێ پاڵتاوەکەی فڕێدایە سەر کورسییەکە."),
+                          ],
+                          ),
+                          ),
+                          const CustomSizedBoxForTTS(),
+                          Column(
+                          children: [
+                          CustomIconButtonBritish(
+                          onPressed: () => speakcarelesslys3("en-GB"),
+                          ),
+                          CustomIconButtonAmerican(
+                          onPressed: () => speakcarelesslys3("en-US"),
+                          ),
+                          ],
+                          ),
+                          ],
                           ),
                         ],
                       ),
@@ -228,13 +285,13 @@ class EnglishEntrycap extends StatelessWidget {
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
+                        // YoutubeEmbeddedtwelve(), 
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -244,6 +301,7 @@ class EnglishEntrycap extends StatelessWidget {
                         // YoutubeEmbeddeddnineteen(),
                         // YoutubeEmbeddedtwenty(),
                         // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -299,40 +357,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cap (derived forms: caps, capping, capped)
-1. A close-fitting hat, either without a brim or with a peak
+- Adverb: carelessly 
+1. Without care or concern (= heedlessly)
+"carelessly raised the children's hopes without thinking of their possible disappointment";
  
-2. A top (as for a bottle)
+2. Without caution or prudence (= incautiously)
+"one unfortunately sees historic features carelessly lost when estates fall into unsympathetic hands";
  
-3. A mechanical or electrical explosive device or a small amount of explosive; can be used to initiate the reaction of a disrupting explosive (= detonator, detonating device)
- 
-4. Something serving as a cover or protection
- 
-5. A fruiting structure resembling an umbrella or a cone that forms the top of a stalked fleshy fungus such as a mushroom (= pileus)
- 
-6. A protective covering that is part of a plant (= hood)
- 
-7. An upper limit on what is allowed (= ceiling, roof)
-"they established a cap for prices";
- 
-8. (dentistry) dental appliance consisting of an artificial crown for a broken or decayed tooth (= crown, crownwork, jacket, jacket crown)
-"tomorrow my dentist will fit me for a cap";
-
-9. The upper part of a column that supports the entablature (= capital, chapiter)
-
-- Verb: cap (derived forms: caps, capping, capped)
-1. Lie at the top of (= crest)
-"Snow capped the mountains";
- 
-2. Restrict the number or amount of
-"We had to cap the number of people we can accept into our club"
- 
-3. Finish or complete, as with some decisive action (= cap off)
-"he capped off the meeting with a radical proposal";
- 
-4. Top or seal with a cover; put a cap on
- 
-5. Surpass or outdo
+3. In a rakish manner (= rakishly, raffishly)
+"she wore her hat carelessly at an angle";
 """,
   );
 
@@ -361,12 +394,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/F1w80BW8sjc?t=',
+    startSeconds: 1996,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qdslTdBxBeA',
-    startSeconds: 35,
+    videoId: 'https://youtu.be/dEmPpBhf2PI?t=',
+    startSeconds: 244,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -390,8 +448,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'dPq-jhj1ARE',
-    startSeconds: 117,
+    videoId: 'https://youtu.be/d84Kj6CJTKI?t=',
+    startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -415,8 +473,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'QpVbiWHQyaQ',
-    startSeconds: 92,
+    videoId: 'https://youtu.be/JvoCIahJZ6s?t=',
+    startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -440,8 +498,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'sJC4ngQvQNY',
-    startSeconds: 4,
+    videoId: 'https://youtu.be/NrFlhSNdDDk?t=',
+    startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -465,8 +523,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'hELKgWjv1w0',
-    startSeconds: 6,
+    videoId: 'https://youtu.be/4CIuqKqFNdE?t=',
+    startSeconds: 803,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -490,8 +548,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'LTn9LpjDvdo',
-    startSeconds: 9,
+    videoId: 'https://youtu.be/VOmp3Nz2ZbA?t=',
+    startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -515,8 +573,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'jaRcbpN_KlM',
-    startSeconds: 1735,
+    videoId: 'https://youtu.be/5loVj-mSLP4?t=',
+    startSeconds: 623,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -531,81 +589,6 @@ class YoutubeEmbeddedseven extends StatelessWidget {
     return Scaffold(
       body: SingleChildScrollView(
         child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'AHgU10z9LNA',
-    startSeconds: 47,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '4DkSn9uDDWU',
-    startSeconds: 13,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'gxwi-Xu24xE',
-    startSeconds: 6,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
       ),
     );
   }

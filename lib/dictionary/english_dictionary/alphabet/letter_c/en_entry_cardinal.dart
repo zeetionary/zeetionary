@@ -3,47 +3,133 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-// replace these: replace EnglishEntryairy - replace speakAiry - replace airy - /ˈeəri/ - find Dopsum2
+// DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
+// scrollDirection: Axis.vertical,
+
+// More sentences is NOT done
 
 enum TtsState { playing }
 
-class EnglishEntryairy extends StatelessWidget {
-  EnglishEntryairy({super.key});
+class EnglishEntrycardinal extends StatelessWidget {
+  // blank divider
+  EnglishEntrycardinal({super.key});
+  // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakAiry(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
+  Future<void> speakcardinal(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("airy"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("cardinal"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAiry7352(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("The office was light and airy."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakAiry748(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
+  Future<void> speakcardinals1(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("He dismissed her with an airy wave."); // DOPSUM: CHANGE TEXT
+        .speak("Cardinals elect and advise the Pope."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakAiry4255(String languageCode) async {
-    // DOPSUM: CHANGE speakAiry
+  Future<void> speakcardinals2(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The airy promises proved empty in practical implementation."); // DOPSUM: CHANGE TEXT
+        "Cardinal numbers answer the question, \"How many?\""); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals3(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "In winter, a cardinal's striking colors stand out against the snow."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals4(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        "Respect for life is a cardinal principle of English law."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals5(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals55"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals6(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals66"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals7(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals77"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals8(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals88"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals9(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals99"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals10(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals11(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals12(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcardinals13(String languageCode) async {
+    // DOPSUM: CHANGE speakcardinal
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcardinals1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -66,26 +152,22 @@ class EnglishEntryairy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "airy"), // Find /ˈeəri/
+                            EntryTitle(word: "cardinal"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈeəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈkɑːdɪnl/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakAiry("en-GB"),
+                              onPressed: () => speakcardinal("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈkɑːrdɪnl/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakAiry("en-US"),
+                              onPressed: () => speakcardinal("en-US"),
                             ),
                           ],
                         ),
@@ -112,39 +194,40 @@ class EnglishEntryairy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ھەوایی، سەربە کەش یان ئەتمۆسفێر، کراو لە حەوادا، حەوایی، ھەوایی، ھەواخۆش، ناکرداریی، دەستکرد، ناڕاستەقینە، خەیاڵی، ئالۆری، بێ‌خەم، کەمتەرخەم، نادەربەست، بێ‌خەیاڵ، نابەڕاست، سەرسەرەکی، درۆ، ھیچ، فشە، پڕوپووچ، خەیاڵی
+کوردی: بنگەهی، بنچینەیی، بنەڕەتی، سەرەکی، بناخەیی، گرنگ، بەرکەفتی، سوورەسەیرە، سەیرەی سوور، ژمارەی بنەڕەتی (1، 2، 3، 4، هتد)
 
-١. (ھاوەڵناو) شوێنێک کە جەنجاڵی کەمە و ھەوای پاکی زۆرە"""),
+١. (ناو) باڵاترین قەشەی کڵێسای کاسۆلیکی ڕۆم کە بەرپرسن لە هەڵبژاردنی پاپا و ڕاوێژ پێدانی"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text: "The office was light and airy."),
+                                        text:
+                                            "Cardinals elect and advise the Pope."),
                                     ExampleSentenceKurdish(
-                                        text: "ئۆفیسەکە ڕۆشن و ھەواخۆش بوو."),
+                                        text:
+                                            "کاردیناڵەکان پاپا هەڵدەبژێرن و ڕاوێژی پێدەدەن."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(),
+                              const CustomSizedBoxForTTS(), // Define the word "cardinal", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiry7352("en-GB"),
+                                    onPressed: () => speakcardinals1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAiry7352(// REPLACE: airy /ˈeri/
-                                            "en-US"),
+                                    onPressed: () => speakcardinals1("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (ھاوەڵناو) ڕەفتارکردن یان کردنی شتێک بە شێوەیەک کە گرنگ نەبێ لات"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) ژمارەیەک کە بڕ پیشان دەدات نەک ڕیزبەندی، بۆ نموونە 'یەک'، نەک 'یەکەم'"),
                           Row(
                             children: [
                               const Expanded(
@@ -152,10 +235,10 @@ class EnglishEntryairy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "He dismissed her with an airy wave."),
+                                            "Cardinal numbers answer the question, \"How many?\""),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ماڵئاوایی لێکرد بە دەستڕاوەشاندنێکی سادە."),
+                                            "ژمارە بنچینەییەکان وەڵامی پرسیاری \"چەند دانە؟\" دەدەنەوە."),
                                   ],
                                 ),
                               ),
@@ -163,20 +246,19 @@ class EnglishEntryairy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiry748("en-GB"),
+                                    onPressed: () => speakcardinals2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAiry748(// REPLACE: airy /ˈeri/
-                                            "en-US"),
+                                    onPressed: () => speakcardinals2("en-US"),
                                   ),
                                 ],
                               ),
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٣. (ھاوەڵناو) شتێک کە بە جدی نییە"""),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) باڵندەیەکی ئەمریکای باکووری. نێرینەکانیان سووری درەوشاوەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -184,10 +266,10 @@ class EnglishEntryairy extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The airy promises proved empty in practical implementation."),
+                                            "In winter, a cardinal's striking colors stand out against the snow."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری."),
+                                            "لە زستاندا، ڕەنگی درەوشاوەی سوورەسەیرە لە بەفردا زەق دەردەکەوێت."),
                                   ],
                                 ),
                               ),
@@ -195,12 +277,40 @@ class EnglishEntryairy extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAiry4255("en-GB"),
+                                    onPressed: () => speakcardinals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () =>
-                                        speakAiry4255(// REPLACE: airy /ˈeri/
-                                            "en-US"),
+                                    onPressed: () => speakcardinals3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٤. (ھاوەڵناو) گرنگترین شت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Respect for life is a cardinal principle of English law."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕێز بۆ ژیان بنەمایەکی سەرەکیی یاسای ئینگلیزە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcardinals4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcardinals4("en-US"),
                                   ),
                                 ],
                               ),
@@ -211,21 +321,28 @@ class EnglishEntryairy extends StatelessWidget {
                     ),
                     YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
+                        // YoutubeEmbeddeddsixteen(),
+                        // YoutubeEmbeddeddseventeen(),
+                        // YoutubeEmbeddeddeighteen(),
+                        // YoutubeEmbeddeddnineteen(),
+                        // YoutubeEmbeddedtwenty(),
+                        // YoutubeEmbeddedmulti(),
+                        YoutubeEmbeddedend(),
                       ],
                     ),
                   ],
@@ -281,18 +398,21 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: airy (derived forms: airiest, airier)
-1. Open to or abounding in fresh air (= aired)
-"airy rooms";
+- Adjective: cardinal 
+1. Serving as an essential component (= central, fundamental, key, primal)
+"a cardinal rule";
  
-2. Not practical or realizable; speculative (= impractical, visionary, Laputan, windy)
-"airy theories about socioeconomic improvement";
+2. Being or denoting a numerical quantity but not order
+"cardinal numbers"
+
+- Noun: cardinal (Derived forms: cardinals)
+1. (Roman Catholic Church) one of a group of more than 100 prominent bishops in the Sacred College who advise the Pope and elect new Popes
  
-3. Having little or no perceptible weight; so light as to resemble air
-"airy gauze curtains"
+2. The number of elements in a mathematical set; denotes a quantity but not the order (= cardinal number)
  
-4. Characterized by lightness and insubstantiality; as impalpable or intangible as air (= aeriform, aerial, aery, ethereal, etherial)
-"an airy apparition";
+3. A variable colour averaging a vivid red (= carmine)
+ 
+4. Crested thick-billed North American finch having bright red plumage in the male (= cardinal grosbeak, Richmondena Cardinalis, Cardinalis cardinalis, redbird)
 """,
   );
 
@@ -321,12 +441,37 @@ ${englishMeaningConst.text}
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+class YoutubeEmbeddedend extends StatelessWidget {
+  YoutubeEmbeddedend({super.key});
+
+  final _controller = YoutubePlayerController.fromVideoId(
+    videoId: 'https://youtu.be/VTmgmJ_PfIE?t=',
+    startSeconds: 187,
+    autoPlay: true,
+    params: const YoutubePlayerParams(
+      enableCaption: true,
+      captionLanguage: 'en',
+      showControls: false,
+      strictRelatedVideos: true,
+    ),
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: SingleChildScrollView(
+        child: YouTubeContainerDesignEnd(controller: _controller),
+      ),
+    );
+  }
+}
+
 class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '5aeilMGWApY',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/fS6TEbQWisM?t=',
+    startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -350,8 +495,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'bqEOzS3O7uc',
-    startSeconds: 11,
+    videoId: 'https://youtu.be/k2tQxi1atKw?t=',
+    startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -375,8 +520,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'csgssP_Yffs',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/Py31zuUEDUg?t=',
+    startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -400,8 +545,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'C0qtkNx-yPU',
-    startSeconds: 60,
+    videoId: 'https://youtu.be/PwQYefFrki0?t=',
+    startSeconds: 605,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -425,8 +570,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'qaj4u42XZLg',
-    startSeconds: 39,
+    videoId: 'https://youtu.be/9027XCJZVC0?t=',
+    // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -450,8 +595,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'rEdl2Uetpvo',
-    startSeconds: 84,
+    videoId: 'https://youtu.be/84-iAoTIZkM?t=',
+    startSeconds: 2415,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -475,8 +620,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'CS634d_ZbVI',
-    startSeconds: 1458,
+    videoId: 'https://youtu.be/C9LNexIoCW0?t=',
+    startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -496,79 +641,4 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '3gt6cHooI6M',
-    startSeconds: 493,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'NWGVFi-213w',
-    startSeconds: 178,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'pH_zsbN5N5U',
-    startSeconds: 393,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignEnd(controller: _controller),
-      ),
-    );
-  }
-}
-
-// end
+// end WORD_WEB

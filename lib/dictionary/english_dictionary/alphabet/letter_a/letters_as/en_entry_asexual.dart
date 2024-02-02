@@ -44,13 +44,13 @@ class EnglishEntryasexual extends StatelessWidget {
         "An asexual individual may choose to engage in sexual activity even while not experiencing sexual attraction."); // DOPSUM: CHANGE TEXT
   }
 
-  // Future<void> speakAsexual(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAsexual
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("asexual"); // DOPSUM: CHANGE TEXT
-  // }
+  Future<void> speakAsexuals3(String languageCode) async {
+    // DOPSUM: CHANGE speakAsexual
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("Algae reproduce by both sexual and asexual reproduction."); // DOPSUM: CHANGE TEXT
+  }
 
   // Future<void> speakAsexual(String languageCode) async {
   //   // DOPSUM: CHANGE speakAsexual
@@ -245,10 +245,10 @@ class EnglishEntryasexual extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakAsexual401("en-GB"),
+                                    onPressed: () => speakAsexuals3("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakAsexual401(
+                                    onPressed: () => speakAsexuals3(
                                         // REPLACE: asexual /ˌeɪˈsekʃuəl/
                                         "en-US"),
                                   ),

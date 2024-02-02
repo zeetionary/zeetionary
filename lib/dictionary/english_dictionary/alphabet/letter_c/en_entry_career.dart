@@ -10,130 +10,131 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycard extends StatelessWidget {
+class EnglishEntrycareer extends StatelessWidget {
   // blank divider
-  EnglishEntrycard({super.key});
+  EnglishEntrycareer({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcard(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareer(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("card"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("career"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards1(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers1(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The model of the building was made of card."); // DOPSUM: CHANGE TEXT
+        "She plans to pursue a career in medicine."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards2(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers2(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "Each person wrote their question on a card."); // DOPSUM: CHANGE TEXT
+        "He had a successful career in television journalism."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards3(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers3(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "When they got engaged I sent them a card."); // DOPSUM: CHANGE TEXT
+        "He enjoyed a long and distinguished career as a historian."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards4(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("Did you get my card from Italy?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcards5(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers4(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "My phone number is here on my business card."); // DOPSUM: CHANGE TEXT
+        "She has been concentrating on her career."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards6(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Can I pay with a card?"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcards7(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers5(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "John shuffled the cards before he dealt them (out)."); // DOPSUM: CHANGE TEXT
+        "We wish our graduates every success in whatever career path they have chosen."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards8(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("I've never been very good at cards."); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcards9(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers6(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "The security guard cards visitors to ensure safety."); // DOPSUM: CHANGE TEXT
+        "She started her career as an English teacher."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards10(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers7(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This was a turning point in her career."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards11(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers8(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She was at the peak of her career when she injured herself."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards12(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers9(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards1212"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The car careered across the road and hit a cyclist."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcards13(String languageCode) async {
-    // DOPSUM: CHANGE speakcard
+  Future<void> speakcareers10(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcards1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcareers1010"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcareers11(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcareers1111"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcareers12(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcareers1212"); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcareers13(String languageCode) async {
+    // DOPSUM: CHANGE speakcareer
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speakcareers1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -156,22 +157,22 @@ class EnglishEntrycard extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "card"),
+                            EntryTitle(word: "career"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /kɑːd/"),
+                            const IPAofEnglish(text: "IpaUK: /kəˈrɪə(r)/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcard("en-GB"),
+                              onPressed: () => speakcareer("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /kɑːrd/"),
+                            const IPAofEnglish(text: "IpaUS: /kəˈrɪr/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcard("en-US"),
+                              onPressed: () => speakcareer("en-US"),
                             ),
                           ],
                         ),
@@ -198,9 +199,9 @@ class EnglishEntrycard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کارت، پسوولە، پەڕ (هی یاری)، کارتی پیرۆزبایی، کەسێکی نائاسایی یان پێکەنینی، شانە، شیکەنە، شانە، دەفە، شیکەنە
+کوردی: کار، پیشە، ئیش، خەبات، شوول
 
-١. (ناو) کاغەزێکی ئەستوور و پتەو بۆ نووسین لەسەری"""),
+١. (ناو) زنجیرە کارێک کە کەسێک هەیەتی لە بەشێکی دیاریکراوی کارێکدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -208,21 +209,21 @@ class EnglishEntrycard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "The model of the building was made of card."),
+                                            "She plans to pursue a career in medicine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "نموونەی بیناکە لەسەر کارد کێشرا."),
+                                            "پلانی هەیە کارێکی لە دەرمانسازیدا هەبێت."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "card", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "career", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcards1("en-GB"),
+                                    onPressed: () => speakcareers1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcards1("en-US"),
+                                    onPressed: () => speakcareers1("en-US"),
                                   ),
                                 ],
                               ),
@@ -236,10 +237,10 @@ class EnglishEntrycard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Each person wrote their question on a card."),
+                                            "He had a successful career in television journalism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەر کەسێک پرسیارەکەی لەسەر کاغەزێک نووسی."),
+                                            "پیشەیەکی سەرکەوتووانەی هەبوو لە ڕۆژنامەنووسیی تەلەفیزیۆنیدا."),
                                   ],
                                 ),
                               ),
@@ -247,10 +248,107 @@ class EnglishEntrycard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcards2("en-GB"),
+                                    onPressed: () => speakcareers2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcards2("en-US"),
+                                    onPressed: () => speakcareers2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          Column(
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He enjoyed a long and distinguished career as a historian."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "وەک مێژووناسێک پیشەیەکی درێژ و سەرکەوتووانەی هەبوو."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcareers3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcareers3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She has been concentrating on her career."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "سەرنجی خستووەتە سەر کارەکەی."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcareers4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcareers4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "We wish our graduates every success in whatever career path they have chosen."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "سەرکەوتنی تەواو بۆ دەرچوانمان دەخوازین لە هەر کارێک کە هەڵیانبژاردووە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcareers5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcareers5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
                                   ),
                                 ],
                               ),
@@ -259,7 +357,7 @@ class EnglishEntrycard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کاغەزێکی پتەو کە لە ناوەڕاستدا چەمێندراوەتەوە و وێنەیەکی لەسەرە. بەکاردێت بۆ ناردنی پیرۆزبایی، بانگهێشت، هتد"),
+                                  "٢. (ناو) ئەو ماوەیەی تەمەن کە بە کارکردن بەسەری دەبەیت"),
                           Row(
                             children: [
                               const Expanded(
@@ -267,10 +365,10 @@ class EnglishEntrycard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "When they got engaged I sent them a card."),
+                                            "She started her career as an English teacher."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کە مارە بڕدران، کاردێکم بۆ ناردن."),
+                                            "وەک مامۆستای ئینگلیزی دەستی بەکارکرد."),
                                   ],
                                 ),
                               ),
@@ -278,10 +376,66 @@ class EnglishEntrycard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcards3("en-GB"),
+                                    onPressed: () => speakcareers6("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcards3("en-US"),
+                                    onPressed: () => speakcareers6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This was a turning point in her career."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەمە قۆناغی گرنگی کارکردنی بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcareers7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcareers7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She was at the peak of her career when she injured herself."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە لوتکەی کارکردنیدا بوو کە خۆی بریندار کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcareers8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcareers8("en-US"),
                                   ),
                                 ],
                               ),
@@ -290,7 +444,7 @@ class EnglishEntrycard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) پۆستکارد؛ کاردێک کە بۆ نامەناردن بە پۆستە بەکاردێت"),
+                                  "٣. (کردار) بەخێرایی چوونە پێشەوە بەشێوەیەک کە نەبوونی کۆنترۆڵ پیشان دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -298,10 +452,10 @@ class EnglishEntrycard extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "Did you get my card from Italy?"),
+                                            "The car careered across the road and hit a cyclist."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پۆستکاردەکەمت لە ئیتالیاوە پێگەشت؟"),
+                                            "ئۆتۆمبێلەکە بە ڕێگاکەدا غلبووەوە و کێشای بە پاسکیلسوارێکدا."),
                                   ],
                                 ),
                               ),
@@ -309,159 +463,10 @@ class EnglishEntrycard extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcards4("en-GB"),
+                                    onPressed: () => speakcareers9("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcards4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ناو) پەڕەیەک یان پارچە پلاستیکێک کە زانیاری لەسەر کەسێک لەسەرە"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "My phone number is here on my business card."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ژمارە موبایلەکەم لێرەیە لەسەر کارتی کارەکەم."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ناو) کاردی بانکی"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text: "Can I pay with a card?"),
-                                    ExampleSentenceKurdish(
-                                        text: "دەتوانم بە کاردەکەم پارە بدەم؟"),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards6("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. (ناو) یەکێک لە کاردەکانی یاری کۆنکان"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "John shuffled (= mixed up) the cards before he dealt them (out) (= gave them to the players)."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "جۆن کاردەکانی تێکدا پێش ئەوەی دابەشیان بکات."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards7("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards7("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٧. (ناو) یەرییەک کە بە کارد دەکرێت"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "I've never been very good at cards."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "هەرگیز لە یاری کۆنکاندا باش نەبوومە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards8("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards8("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٨. (کردار) داواکردنی بینینی کارتی پێناسی کەسێک"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "The security guard cards visitors to ensure safety."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "پاسەوانەکە داوای پێناسی هەر سەردانکارێکی دەکرد بۆ دڵنیایی لە پاراستن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcards9("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcards9("en-US"),
+                                    onPressed: () => speakcareers9("en-US"),
                                   ),
                                 ],
                               ),
@@ -479,9 +484,9 @@ class EnglishEntrycard extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), //
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
+                        // YoutubeEmbeddedeight(), //
+                        // YoutubeEmbeddednine(),
+                        // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
                         // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
@@ -549,42 +554,15 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: card (Derived forms: cards)
-1. One of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes
-"he collected cards and traded them with the other boys"
+- Noun: career (Derived forms: careers)
+1. The particular occupation for which you are trained (= calling, vocation)
  
-2. A rectangular piece of stiff paper used to send messages (may have printed greetings or pictures)
-"they sent us a card from Miami"
- 
-3. A card certifying the identity of the bearer (= identity card, ID card)
-"he had to show his card to get in";
+2. The general progression of your working or professional life (= life history)
+"he had a long career in the law"; "the general had had a distinguished career";
 
-4. Thin cardboard, usually rectangular
- 
-5. A witty amusing person who makes jokes (= wag, wit, dag [US, Austral, informal])
- 
-6. A sign posted in a public place as an advertisement (= poster, posting, placard, notice, bill)
-"a card advertised the coming attractions";
- 
-7. A printed or written greeting that is left to indicate that you have visited (= calling card, visiting card)
- 
-8. (golf) a record of scores (as in golf, etc.) (= scorecard, scoresheet)
-"you have to turn in your card to get a handicap"; 
-
-9. A list of dishes available at a restaurant (= menu, bill of fare, carte du jour, carte)
-"the card was in French";
-
-10. (baseball) a list of batters in the order in which they will bat (= batting order, lineup, line-up)
-"the managers presented their cards to the umpire at home plate";
- 
-11. A printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities (= circuit board, circuit card, board, plug-in, add-in)
-
-- Verb: card (Derived forms: cards, carding, carded)
-1. Separate the fibers of (= tease)
-"card wool";
-
-2. Ask someone for identification to determine whether he or she is old enough to consume liquor
-"I was carded when I tried to buy a beer!"
+- Verb: career (Derived forms: careers, careering, careered)
+1. Move headlong at high speed
+"The cars careered down the road"; "The mob careered through the streets"
 """,
   );
 
@@ -617,8 +595,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qbfGPo_IUyc?t=',
-    startSeconds: 22,
+    videoId: 'https://youtu.be/9fDEKiuJ2qA?t=',
+    startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -642,8 +620,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NYGnMH9fPwY?t=',
-    startSeconds: 36,
+    videoId: 'https://youtu.be/etnIIZRgI4g?t=',
+    startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -667,8 +645,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ySLtbtsm-Ls',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/bLeObjK-SSc?t=',
+    startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -692,8 +670,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7TRSCpp_IcU?t=',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/GmCp2whXVHA?t=',
+    startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -717,8 +695,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VUk9_yNp14M?t=',
-    startSeconds: 26,
+    videoId: 'https://youtu.be/6alHr_ZTdQI?t=',
+    startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -742,8 +720,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
-    startSeconds: 869,
+    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    startSeconds: 779,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -767,8 +745,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/99i-Uo7rIpw?t=',
-    startSeconds: 238,
+    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -792,83 +770,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_TfJh0kLJCw?t=',
-    startSeconds: 78,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  YoutubeEmbeddedeight({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IXZJKiOR_rs?t=',
-    startSeconds: 12,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  YoutubeEmbeddednine({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/64q6JODrhj8?t=',
-    startSeconds: 29,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: YouTubeContainerDesignNew(controller: _controller),
-      ),
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  YoutubeEmbeddedten({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vXcFGgwP1J4?t=',
-    startSeconds: 22,
+    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    startSeconds: 148,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

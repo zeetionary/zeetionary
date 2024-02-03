@@ -38,7 +38,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In most cases the increases have been marginal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In most cases the increases have been marginal."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("What should be done in such cases?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("What should be done in such cases?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The company only dismisses its employees in cases of gross misconduct."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The company only dismisses its employees in cases of gross misconduct."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In the case of banks, the law can limit activities."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In the case of banks, the law can limit activities."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("If that is the case, we need more staff."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If that is the case, we need more staff."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases7(String languageCode) async {
@@ -78,7 +83,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It is simply not the case that prison conditions are improving."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It is simply not the case that prison conditions are improving."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases8(String languageCode) async {
@@ -86,7 +92,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I cannot make an exception in your case."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "I cannot make an exception in your case."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases9(String languageCode) async {
@@ -94,7 +101,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In your case, we are prepared to be lenient."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In your case, we are prepared to be lenient."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases10(String languageCode) async {
@@ -102,7 +110,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Don't underestimate the power of the pen, or in this case, the power of the keyboard."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Don't underestimate the power of the pen, or in this case, the power of the keyboard."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases11(String languageCode) async {
@@ -110,7 +119,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They never solved the Jones murder case."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They never solved the Jones murder case."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases12(String languageCode) async {
@@ -118,7 +128,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Four officers are investigating the case."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Four officers are investigating the case."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases13(String languageCode) async {
@@ -126,15 +137,17 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The case will be heard next week."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The case will be heard next week."); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakcases14(String languageCode) async {
+  Future<void> speakcases14(String languageCode) async {
     // DOPSUM: CHANGE speakcase
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The Supreme Court heard the case yesterday."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The Supreme Court heard the case yesterday."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases15(String languageCode) async {
@@ -142,7 +155,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Our lawyer didn't think we had a case."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Our lawyer didn't think we had a case."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases16(String languageCode) async {
@@ -150,7 +164,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The case against her was very weak."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The case against her was very weak."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases17(String languageCode) async {
@@ -158,7 +173,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He successfully argued the case for accepting the agreement."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He successfully argued the case for accepting the agreement."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases18(String languageCode) async {
@@ -166,7 +182,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They try to make the case that this war is necessary."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They try to make the case that this war is necessary."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases19(String languageCode) async {
@@ -174,7 +191,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The museum was full of stuffed animals in glass cases."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The museum was full of stuffed animals in glass cases."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases20(String languageCode) async {
@@ -499,7 +517,8 @@ class EnglishEntrycase extends StatelessWidget {
                                         text:
                                             "In some cases people have had to wait several weeks for an appointment."),
                                     ExampleSentenceKurdish(
-                                        text: "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک هەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک."),
+                                        text:
+                                            "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک هەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک."),
                                   ],
                                 ),
                               ),
@@ -518,516 +537,556 @@ class EnglishEntrycase extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "In most cases the increases have been marginal."),
-                          ExampleSentenceKurdish(
-                          text: "لە زۆر حاڵەتدا زایدبوونەکان کەمێک بوونە."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In most cases the increases have been marginal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە زۆر حاڵەتدا زایدبوونەکان کەمێک بوونە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "What should be done in such cases?"),
-                          ExampleSentenceKurdish(
-                          text: "چی دەبێت بکردرێت لە دۆخێکی وەهادا؟"),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The company only dismisses its employees in cases of gross misconduct."),
-                          ExampleSentenceKurdish(
-                          text: "کۆمپانیاکە کارمەندانی دەردەکات تەنها لە دۆخی هەڵەی زەقدا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "In the case of banks, the law can limit activities."),
-                          ExampleSentenceKurdish(
-                          text: "لە حاڵەتی بانکەکاندا، یاسا دەکرێت چالاکییەکان سنووردار بکات."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "What should be done in such cases?"),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "چی دەبێت بکردرێت لە دۆخێکی وەهادا؟"),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcases3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcases3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "The company only dismisses its employees in cases of gross misconduct."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "کۆمپانیاکە کارمەندانی دەردەکات تەنها لە دۆخی هەڵەی زەقدا."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcases4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcases4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "In the case of banks, the law can limit activities."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "لە حاڵەتی بانکەکاندا، یاسا دەکرێت چالاکییەکان سنووردار بکات."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcases5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcases5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) دۆخی ڕاستی"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "If that is the case (= if the situation described is true), we need more staff."),
-                          ExampleSentenceKurdish(
-                          text: "ئەگەر ئەوە ڕاستییەکەیە، دەبێت ستافی زیاتر بگرین."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If that is the case (= if the situation described is true), we need more staff."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر ئەوە ڕاستییەکەیە، دەبێت ستافی زیاتر بگرین."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "It is simply not the case that prison conditions are improving."),
-                          ExampleSentenceKurdish(
-                          text: "بە سادەیی، ڕاستییەکە ئەوەیە دۆخی زانیدانەکان باشتر نابن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is simply not the case that prison conditions are improving."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە سادەیی، ڕاستییەکە ئەوەیە دۆخی زانیدانەکان باشتر نابن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ناو) دۆخێک کە تایبەتە بە کەسێک یان شتێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ناو) دۆخێک کە تایبەتە بە کەسێک یان شتێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "I cannot make an exception in your case (= for you and not for others)."),
-                          ExampleSentenceKurdish(
-                          text: "ناتوانم جیاکاری بکەم بۆ دۆخەکەی تۆ (وەک ئەوانی تر سەیرت دەکەم)."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I cannot make an exception in your case (= for you and not for others)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناتوانم جیاکاری بکەم بۆ دۆخەکەی تۆ (وەک ئەوانی تر سەیرت دەکەم)."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "In your case, we are prepared to be lenient."),
-                          ExampleSentenceKurdish(
-                          text: "بۆ دۆخەکەی تۆ ئامادەین لێبووردە بین."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In your case, we are prepared to be lenient."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بۆ دۆخەکەی تۆ ئامادەین لێبووردە بین."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Don't underestimate the power of the pen, or in this case, the power of the keyboard."),
-                          ExampleSentenceKurdish(
-                          text: "هێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، هێزی کیبۆرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases10("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Don't underestimate the power of the pen, or in this case, the power of the keyboard."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، هێزی کیبۆرد."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcases10("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcases10("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ناو) بابەتێک کە لە ژێر لێکۆڵینەوەدایە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (ناو) بابەتێک کە لە ژێر لێکۆڵینەوەدایە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "They never solved the Jones murder case."),
-                          ExampleSentenceKurdish(
-                          text: "هەرگیز کەیسی کوشتنی جۆنیان چارەسەرنەکرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases11("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They never solved the Jones murder case."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "هەرگیز کەیسی کوشتنی جۆنیان چارەسەرنەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Four officers are investigating the case."),
-                          ExampleSentenceKurdish(
-                          text: "چوار ئەفسەر لێکۆڵینەوە لە کەیسەکە دەکەن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases12("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Four officers are investigating the case."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چوار ئەفسەر لێکۆڵینەوە لە کەیسەکە دەکەن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ناو) بابەتێک کە لە دادگایە و بڕیاری لەسەر دەدرێت"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ناو) بابەتێک کە لە دادگایە و بڕیاری لەسەر دەدرێت"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The case will be heard next week."),
-                          ExampleSentenceKurdish(
-                          text: "کەیسەکە هەفتەی داهاتوو دانیشتنی بۆ دەکرێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases13("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The case will be heard next week."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەیسەکە هەفتەی داهاتوو دانیشتنی بۆ دەکرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The Supreme Court heard the case yesterday."),
-                          ExampleSentenceKurdish(
-                          text: "دادگای باڵا (ئەمریکا) دوێنێ گوێی لە کەیسەکە گرت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases14("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The Supreme Court heard the case yesterday."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دادگای باڵا (ئەمریکا) دوێنێ گوێی لە کەیسەکە گرت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٦. (ناو) کۆمەڵێک لە ڕاستی، بۆچوون، هتد کە لایەنگیری لایەکن لە دادگاییەک، گفتوگۆیەک، هتد"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (ناو) کۆمەڵێک لە ڕاستی، بۆچوون، هتد کە لایەنگیری لایەکن لە دادگاییەک، گفتوگۆیەک، هتد"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Our lawyer didn't think we had a case (= had enough good arguments to win in a court of law)."),
-                          ExampleSentenceKurdish(
-                          text: "پارێزەرەکەمان هەستی نەکرد کەوا دۆزێکمان هەبێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases15("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Our lawyer didn't think we had a case (= had enough good arguments to win in a court of law)."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پارێزەرەکەمان هەستی نەکرد کەوا دۆزێکمان هەبێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The case against her was very weak."),
-                          ExampleSentenceKurdish(
-                          text: "ئەو دۆزەی دژی بوو زۆر لاواز بوو."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The case against her was very weak."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەو دۆزەی دژی بوو زۆر لاواز بوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases16("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases16("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He successfully argued the case for accepting the agreement."),
-                          ExampleSentenceKurdish(
-                          text: "سەرکەوتووانە پشتگیری دۆزی پەسەندکردنی ڕێککەوتنەکەی کرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases17("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases17("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "They try to make the case that this war is necessary."),
-                          ExampleSentenceKurdish(
-                          text: "هەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases18("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases18("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He successfully argued the case for accepting the agreement."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "سەرکەوتووانە پشتگیری دۆزی پەسەندکردنی ڕێککەوتنەکەی کرد."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcases17("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcases17("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "They try to make the case that this war is necessary."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "هەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcases18("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcases18("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٧. (ناو) شتێک کە شتی تێدا هەڵدەگریت بۆ پاراستنی یان هەڵگرتنی"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (ناو) شتێک کە شتی تێدا هەڵدەگریت بۆ پاراستنی یان هەڵگرتنی"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The museum was full of stuffed animals in glass cases."),
-                          ExampleSentenceKurdish(
-                          text: "مۆزەخانەکە پڕ بوو لە ئاژەڵی منداڵان لەناو پارێزەری شووشەدا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcases19("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcases19("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The museum was full of stuffed animals in glass cases."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مۆزەخانەکە پڕ بوو لە ئاژەڵی منداڵان لەناو پارێزەری شووشەدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases19("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),

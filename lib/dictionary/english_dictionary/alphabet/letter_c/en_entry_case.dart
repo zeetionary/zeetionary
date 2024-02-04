@@ -200,7 +200,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2020"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He put the binoculars back in their carrying case."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases21(String languageCode) async {
@@ -208,7 +209,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2121"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Let me carry your case for you."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases22(String languageCode) async {
@@ -216,7 +218,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2222"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They put their cases in the boot and drove off."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases23(String languageCode) async {
@@ -224,7 +227,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2323"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Over 130 000 cases of cholera were reported in 2016."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases24(String languageCode) async {
@@ -232,7 +236,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2424"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The most serious cases were treated at the scene of the accident."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases25(String languageCode) async {
@@ -240,7 +245,7 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2525"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("He's a hopeless case."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases26(String languageCode) async {
@@ -248,7 +253,8 @@ class EnglishEntrycase extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcases2626"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Latin nouns have case, number and gender."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcases27(String languageCode) async {
@@ -505,7 +511,7 @@ class EnglishEntrycase extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بابەت، کەیس، نموونە، وێنە، میناک، کەیس یان بابەتی نەخۆشی، ئینستەنسی نەخۆشی، ئەنگاوتە، بەرکەوت، نەخۆش، ناساز، کردە، کار، چۆنیەتی، پرس، کێشە، دۆز، پرسگرێک، بابەت، مژار، دۆخ، بار، بارودۆخ، ڕەوش، کاودان، داواکاری، بەڵگەکان، بەڵگە، شایەت، بەڵگەهێنانەوە، ڕاستی، بوویەر، مەتەڵ، ڕاز، (ڕێزمان) دۆخ، کەس، پیاو، مرۆ، قوتو، سنووق، یەغدان، سیپ، مجری، جانتا، توورەکە، جزدان، جامەدان، بەرگ، کیف، ڕووپۆش، توێکڵ، توێخ، قاوغ، قاپووڕ، چوارچێوە (درگا و پەنجیرە)
+کوردی: بابەت، کەیس، نموونە، وێنە، میناک، کەیس یان بابەتی نەخۆشی، ئینستەنسی نەخۆشی، ئەنگاوتە، بەرکەوت، نەخۆش، ناساز، کردە، کار، چۆنیەتی، پرس، کێشە، دۆز، پرسگرێک، بابەت، مژار، دۆخ، بار، بارودۆخ، ڕەوش، کاودان، داواکاری، بەڵگەکان، بەڵگە، شایەت، بەڵگەهێنانەوە، ڕاستی، بوویەر، مەتەڵ، ڕاز، (ڕێزمان) دۆخ، کەس، پیاو، مرۆ، قوتو، سنووق، یەغدان، سیپ، مجری، جانتا، توورەکە، جزدان، جامەدان، بەرگ، کیف، ڕووپۆش، توێکڵ، توێخ، قاوغ، قاپووڕ، چوارچێوە (درگا و پەنجەرە)
 
 ١. (ناو) دۆخێکی تایبەت"""),
                           Row(
@@ -1083,6 +1089,209 @@ class EnglishEntrycase extends StatelessWidget {
                                   ),
                                   CustomIconButtonAmerican(
                                     onPressed: () => speakcases19("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He put the binoculars back in their carrying case."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دووربینەکەی خستە بەرگە هەڵگرەکەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases20("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases20("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٨. (ناو) جانتای سەفەرکردن"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Let me carry your case for you."),
+                                    ExampleSentenceKurdish(
+                                        text: "با جانتایەکەت بۆ هەڵبگرم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases21("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases21("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They put their cases in the boot and drove off."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جانتاکانیان خستە سندووقی ئۆتۆمبێلەکە و ڕۆشتن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases22("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٩. (ناو) حاڵەتی نەخۆشی"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Over 130 000 cases of cholera were reported in 2016."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سەروو ١٣٠٠٠٠ حاڵەتی کۆلێرا لە ساڵی ٢٠١٦ تۆمارکران."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases23("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases23("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerSentences(),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The most serious cases were treated at the scene of the accident."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خراپترین حاڵەتەکان لە شوێنی ڕووداوەکە چارەسەرکران."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases24("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (ناو) کەسێک کە باوەڕوایە چارەسەری چارەسەری تایبەتی بووێت"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "He's a hopeless case."),
+                                    ExampleSentenceKurdish(
+                                        text: "کەسێکی بێ‌هیوایە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
+                          ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١١. (ناو) شێوەی ناوێک، هاوەڵناوێک، یان جێناوێک کە پەیوەندیی لەگەڵ وشەیەکی دیکە پیشان دەدات"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Latin nouns have case, number and gender."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ناوە لاتینییەکان دۆخ و ژمارە و ڕەگەزیان هەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcases26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcases26("en-US"),
                                   ),
                                 ],
                               ),

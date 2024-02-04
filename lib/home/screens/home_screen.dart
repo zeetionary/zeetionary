@@ -319,6 +319,12 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                   // Routemaster.of(context).replace('/history-screen');
                 },
               ),
+              IconButton(
+                icon: const Icon(Icons.bookmarks),
+                onPressed: () {
+                  Routemaster.of(context).push('/bookmarks-screen');
+                },
+              ),
             ],
           ),
         ),

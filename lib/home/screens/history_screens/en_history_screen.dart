@@ -9,8 +9,6 @@ class EnglishHistoryScreen extends StatelessWidget {
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
-    // Show a dialog to confirm clearing history
-    // ignore: use_build_context_synchronously
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -59,55 +57,6 @@ class EnglishHistoryScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
       child: Scaffold(
-        // body: FutureBuilder<Set<String>>(
-        //   future: loadEnglishHistory(),
-        //   builder: (context, snapshot) {
-        //     if (snapshot.connectionState == ConnectionState.waiting) {
-        //       return const CircularProgressIndicator();
-        //     } else if (snapshot.hasData) {
-        //       final englishhistory =
-        //           snapshot.data!; // Access the history as a Set.
-        //       return ListView.builder(
-        //         itemCount: englishhistory.length,
-        //         itemBuilder: (context, index) {
-        //           final word = englishhistory
-        //               .elementAt(index); // Access items using Set methods.
-        //           return ListTile(
-        //             title: Text(word),
-        //             onTap: () => navigateToScreen(context, word),
-        //           );
-        //         },
-        //       );
-        //     } else {
-        //       return const Text('No history found.');
-        //     }
-        //   },
-        // ),
-        // body: FutureBuilder<Set<String>>(
-        //   // https://bard.google.com/chat/ad9cccab2b6f39b4
-        //   future: loadEnglishHistory(),
-        //   builder: (context, snapshot) {
-        //     if (snapshot.connectionState == ConnectionState.waiting) {
-        //       return const CircularProgressIndicator();
-        //     } else if (snapshot.hasData) {
-        //       final englishhistory =
-        //           snapshot.data!; // Access the history as a Set.
-        //       return ListView.builder(
-        //         itemCount: englishhistory.length,
-        //         itemBuilder: (context, index) {
-        //           final word = englishhistory
-        //               .elementAt(index); // Access items using Set methods.
-        //           return ListTile(
-        //             title: Text(word),
-        //             onTap: () => navigateToScreen(context, word),
-        //           );
-        //         },
-        //       );
-        //     } else {
-        //       return const Text('No history found.');
-        //     }
-        //   },
-        // ),
         body: FutureBuilder<Set<String>>(
           future: loadEnglishHistory(),
           builder: (context, snapshot) {
@@ -146,16 +95,7 @@ class EnglishHistoryScreen extends StatelessWidget {
     );
   }
 
-  // Future<List<String>> loadEnglishHistory() async {
-  //   SharedPreferences prefs = await SharedPreferences.getInstance();
-  //   List<String> englishhistory = prefs.getStringList('english history') ?? [];
-
-  //   // Reverse the order of the english history list
-  //   return englishhistory.reversed.toList();
-  // }
-
   Future<Set<String>> loadEnglishHistory() async {
-    // https://bard.google.com/chat/ad9cccab2b6f39b4
     SharedPreferences prefs = await SharedPreferences.getInstance();
     return prefs.getStringList('english history')?.toSet() ?? {};
   }

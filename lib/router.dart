@@ -3,7 +3,7 @@ import 'package:routemaster/routemaster.dart';
 
 import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
-// C:\Users\HAWKAR STORE\Desktop\zeetionary\lib\home\screens\history_screens\history_screen.dart
+import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
 import 'package:zeetionary/quiz/quiz_screen.dart';
 import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
@@ -3334,7 +3334,6 @@ import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 // import 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_DOPSUM.dart';
 
-
 final loggedOutRoute = RouteMap(routes: {
   "/": (_) => const MaterialPage(child: LoginScreen()),
 });
@@ -3345,6 +3344,7 @@ final loggedInRoute = RouteMap(routes: {
   // others // others // others
   // others // others // others
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
+  "/bookmarks-screen": (_) => MaterialPage(child: BookmarksScreen()),
   "/tts-screen": (_) => const MaterialPage(child: TTSPage()),
   "/grammar-screen": (_) => const MaterialPage(child: GrammarScreen()),
   "/settings-screen": (_) => const MaterialPage(child: SettingsPage()),
@@ -5747,7 +5747,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-built-in": (_) => MaterialPage(child: EnglishEntrybuiltin()),
   "/english-built-up": (_) => MaterialPage(child: EnglishEntrybuiltup()),
   "/english-building": (_) => MaterialPage(child: EnglishEntrybuilding()),
-  "/english-building-society": (_) => MaterialPage(child: EnglishEntrybuildingsociety()),
+  "/english-building-society": (_) =>
+      MaterialPage(child: EnglishEntrybuildingsociety()),
   "/english-bulb": (_) => MaterialPage(child: EnglishEntrybulb()),
   "/english-bulbous": (_) => MaterialPage(child: EnglishEntrybulbous()),
   "/english-bulge": (_) => MaterialPage(child: EnglishEntrybulge()),
@@ -5762,7 +5763,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bulldoze": (_) => MaterialPage(child: EnglishEntrybulldoze()),
   "/english-bulldozer": (_) => MaterialPage(child: EnglishEntrybulldozer()),
   "/english-bullet": (_) => MaterialPage(child: EnglishEntrybullet()),
-  "/english-bullet-point": (_) => MaterialPage(child: EnglishEntrybulletpoint()),
+  "/english-bullet-point": (_) =>
+      MaterialPage(child: EnglishEntrybulletpoint()),
   "/english-bulletproof": (_) => MaterialPage(child: EnglishEntrybulletproof()),
   "/english-bulletin": (_) => MaterialPage(child: EnglishEntrybulletin()),
   "/english-bullion": (_) => MaterialPage(child: EnglishEntrybullion()),
@@ -5780,7 +5782,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bundle": (_) => MaterialPage(child: EnglishEntrybundle()),
   "/english-bung": (_) => MaterialPage(child: EnglishEntrybung()),
   "/english-bungalow": (_) => MaterialPage(child: EnglishEntrybungalow()),
-  "/english-bungee-jumping": (_) => MaterialPage(child: EnglishEntrybungeejumping()),
+  "/english-bungee-jumping": (_) =>
+      MaterialPage(child: EnglishEntrybungeejumping()),
   "/english-bungle": (_) => MaterialPage(child: EnglishEntrybungle()),
   "/english-bunion": (_) => MaterialPage(child: EnglishEntrybunion()),
   "/english-bunk": (_) => MaterialPage(child: EnglishEntrybunk()),
@@ -5795,7 +5798,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bureau": (_) => MaterialPage(child: EnglishEntrybureau()),
   "/english-bureaucracy": (_) => MaterialPage(child: EnglishEntrybureaucracy()),
   "/english-bureaucrat": (_) => MaterialPage(child: EnglishEntrybureaucrat()),
-  "/english-bureaucratic": (_) => MaterialPage(child: EnglishEntrybureaucratic()),
+  "/english-bureaucratic": (_) =>
+      MaterialPage(child: EnglishEntrybureaucratic()),
   "/english-burglar": (_) => MaterialPage(child: EnglishEntryburglar()),
   "/english-burglary": (_) => MaterialPage(child: EnglishEntryburglary()),
   "/english-burgle": (_) => MaterialPage(child: EnglishEntryburgle()),
@@ -5817,7 +5821,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-bush": (_) => MaterialPage(child: EnglishEntrybush()),
   "/english-bushy": (_) => MaterialPage(child: EnglishEntrybushy()),
   "/english-business": (_) => MaterialPage(child: EnglishEntrybusiness()),
-  "/english-businesslike": (_) => MaterialPage(child: EnglishEntrybusinesslike()),
+  "/english-businesslike": (_) =>
+      MaterialPage(child: EnglishEntrybusinesslike()),
   "/english-businessman": (_) => MaterialPage(child: EnglishEntrybusinessman()),
   "/english-busker": (_) => MaterialPage(child: EnglishEntrybusker()),
   "/english-bust": (_) => MaterialPage(child: EnglishEntrybust()),
@@ -5831,7 +5836,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-butt": (_) => MaterialPage(child: EnglishEntrybutt()),
   "/english-butter": (_) => MaterialPage(child: EnglishEntrybutter()),
   "/english-buttercup": (_) => MaterialPage(child: EnglishEntrybuttercup()),
-  "/english-butterscotch": (_) => MaterialPage(child: EnglishEntrybutterscotch()),
+  "/english-butterscotch": (_) =>
+      MaterialPage(child: EnglishEntrybutterscotch()),
   "/english-butterfly": (_) => MaterialPage(child: EnglishEntrybutterfly()),
   "/english-buttock": (_) => MaterialPage(child: EnglishEntrybuttock()),
   "/english-button": (_) => MaterialPage(child: EnglishEntrybutton()),
@@ -5858,7 +5864,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cabaret": (_) => MaterialPage(child: EnglishEntrycabaret()),
   "/english-cabbage": (_) => MaterialPage(child: EnglishEntrycabbage()),
   "/english-cabin": (_) => MaterialPage(child: EnglishEntrycabin()),
-  "/english-cabin-cruiser": (_) => MaterialPage(child: EnglishEntrycabincruiser()),
+  "/english-cabin-cruiser": (_) =>
+      MaterialPage(child: EnglishEntrycabincruiser()),
   "/english-cabinet": (_) => MaterialPage(child: EnglishEntrycabinet()),
   "/english-cable": (_) => MaterialPage(child: EnglishEntrycable()),
   "/english-cable-car": (_) => MaterialPage(child: EnglishEntrycablecar()),
@@ -5919,7 +5926,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-canal": (_) => MaterialPage(child: EnglishEntrycanal()),
   "/english-canary": (_) => MaterialPage(child: EnglishEntrycanary()),
   "/english-cancel": (_) => MaterialPage(child: EnglishEntrycancel()),
-  "/english-cancellation": (_) => MaterialPage(child: EnglishEntrycancellation()),
+  "/english-cancellation": (_) =>
+      MaterialPage(child: EnglishEntrycancellation()),
   "/english-cancer": (_) => MaterialPage(child: EnglishEntrycancer()),
   "/english-cancerous": (_) => MaterialPage(child: EnglishEntrycancerous()),
   "/english-candid": (_) => MaterialPage(child: EnglishEntrycandid()),
@@ -5946,7 +5954,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-canon-law": (_) => MaterialPage(child: EnglishEntrycanonlaw()),
   "/english-canopy": (_) => MaterialPage(child: EnglishEntrycanopy()),
   "/english-cant": (_) => MaterialPage(child: EnglishEntrycant()),
-  "/english-cantankerous": (_) => MaterialPage(child: EnglishEntrycantankerous()),
+  "/english-cantankerous": (_) =>
+      MaterialPage(child: EnglishEntrycantankerous()),
   "/english-canteen": (_) => MaterialPage(child: EnglishEntrycanteen()),
   "/english-canter": (_) => MaterialPage(child: EnglishEntrycanter()),
   "/english-cantilever": (_) => MaterialPage(child: EnglishEntrycantilever()),
@@ -5967,7 +5976,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-capitalist": (_) => MaterialPage(child: EnglishEntrycapitalist()),
   "/english-capitalize": (_) => MaterialPage(child: EnglishEntrycapitalize()),
   "/english-capitulate": (_) => MaterialPage(child: EnglishEntrycapitulate()),
-  "/english-capitulation": (_) => MaterialPage(child: EnglishEntrycapitulation()),
+  "/english-capitulation": (_) =>
+      MaterialPage(child: EnglishEntrycapitulation()),
   "/english-capsize": (_) => MaterialPage(child: EnglishEntrycapsize()),
   "/english-capsule": (_) => MaterialPage(child: EnglishEntrycapsule()),
   "/english-captain": (_) => MaterialPage(child: EnglishEntrycaptain()),
@@ -5978,20 +5988,27 @@ final loggedInRoute = RouteMap(routes: {
   "/english-captor": (_) => MaterialPage(child: EnglishEntrycaptor()),
   "/english-capture": (_) => MaterialPage(child: EnglishEntrycapture()),
   "/english-car": (_) => MaterialPage(child: EnglishEntrycar()),
-  "/english-car-boot-sale": (_) => MaterialPage(child: EnglishEntrycarbootsale()),
+  "/english-car-boot-sale": (_) =>
+      MaterialPage(child: EnglishEntrycarbootsale()),
   "/english-car-park": (_) => MaterialPage(child: EnglishEntrycarpark()),
   "/english-carafe": (_) => MaterialPage(child: EnglishEntrycarafe()),
   "/english-caramel": (_) => MaterialPage(child: EnglishEntrycaramel()),
   "/english-carat": (_) => MaterialPage(child: EnglishEntrycarat()),
   "/english-caravan": (_) => MaterialPage(child: EnglishEntrycaravan()),
-  "/english-carbohydrate": (_) => MaterialPage(child: EnglishEntrycarbohydrate()),
+  "/english-carbohydrate": (_) =>
+      MaterialPage(child: EnglishEntrycarbohydrate()),
   "/english-carbon": (_) => MaterialPage(child: EnglishEntrycarbon()),
   "/english-carbon-copy": (_) => MaterialPage(child: EnglishEntrycarboncopy()),
-  "/english-carbon-dioxide": (_) => MaterialPage(child: EnglishEntrycarbondioxide()),
-  "/english-carbon-footprint": (_) => MaterialPage(child: EnglishEntrycarbonfootprint()),
-  "/english-carbon-monoxide": (_) => MaterialPage(child: EnglishEntrycarbonmonoxide()),
-  "/english-carbon-offset": (_) => MaterialPage(child: EnglishEntrycarbonoffset()),
-  "/english-carbon-paper": (_) => MaterialPage(child: EnglishEntrycarbonpaper()),
+  "/english-carbon-dioxide": (_) =>
+      MaterialPage(child: EnglishEntrycarbondioxide()),
+  "/english-carbon-footprint": (_) =>
+      MaterialPage(child: EnglishEntrycarbonfootprint()),
+  "/english-carbon-monoxide": (_) =>
+      MaterialPage(child: EnglishEntrycarbonmonoxide()),
+  "/english-carbon-offset": (_) =>
+      MaterialPage(child: EnglishEntrycarbonoffset()),
+  "/english-carbon-paper": (_) =>
+      MaterialPage(child: EnglishEntrycarbonpaper()),
   "/english-carbuncle": (_) => MaterialPage(child: EnglishEntrycarbuncle()),
   "/english-carburettor": (_) => MaterialPage(child: EnglishEntrycarburettor()),
   "/english-carcass": (_) => MaterialPage(child: EnglishEntrycarcass()),
@@ -6006,7 +6023,8 @@ final loggedInRoute = RouteMap(routes: {
   "/english-carefulness": (_) => MaterialPage(child: EnglishEntrycarefulness()),
   "/english-careless": (_) => MaterialPage(child: EnglishEntrycareless()),
   "/english-carelessly": (_) => MaterialPage(child: EnglishEntrycarelessly()),
-  "/english-carelessness": (_) => MaterialPage(child: EnglishEntrycarelessness()),
+  "/english-carelessness": (_) =>
+      MaterialPage(child: EnglishEntrycarelessness()),
   "/english-career": (_) => MaterialPage(child: EnglishEntrycareer()),
   "/english-caress": (_) => MaterialPage(child: EnglishEntrycaress()),
   "/english-caretaker": (_) => MaterialPage(child: EnglishEntrycaretaker()),
@@ -6031,24 +6049,29 @@ final loggedInRoute = RouteMap(routes: {
   "/english-cart": (_) => MaterialPage(child: EnglishEntrycart()),
   "/english-carthorse": (_) => MaterialPage(child: EnglishEntrycarthorse()),
   "/english-cartwheel": (_) => MaterialPage(child: EnglishEntrycartwheel()),
-  "/english-carte-blanche": (_) => MaterialPage(child: EnglishEntrycarteblanche()),
+  "/english-carte-blanche": (_) =>
+      MaterialPage(child: EnglishEntrycarteblanche()),
   "/english-cartilage": (_) => MaterialPage(child: EnglishEntrycartilage()),
   "/english-carton": (_) => MaterialPage(child: EnglishEntrycarton()),
   "/english-cartoonist": (_) => MaterialPage(child: EnglishEntrycartoonist()),
   "/english-cartridge": (_) => MaterialPage(child: EnglishEntrycartridge()),
   "/english-carve": (_) => MaterialPage(child: EnglishEntrycarve()),
   "/english-carving": (_) => MaterialPage(child: EnglishEntrycarving()),
-  "/english-carving-knife": (_) => MaterialPage(child: EnglishEntrycarvingknife()),
+  "/english-carving-knife": (_) =>
+      MaterialPage(child: EnglishEntrycarvingknife()),
   "/english-cascade": (_) => MaterialPage(child: EnglishEntrycascade()),
   "/english-case": (_) => MaterialPage(child: EnglishEntrycase()),
-  "/english-case-history": (_) => MaterialPage(child: EnglishEntrycasehistory()),
+  "/english-case-history": (_) =>
+      MaterialPage(child: EnglishEntrycasehistory()),
   "/english-casement": (_) => MaterialPage(child: EnglishEntrycasement()),
   "/english-cash": (_) => MaterialPage(child: EnglishEntrycash()),
   "/english-cashback": (_) => MaterialPage(child: EnglishEntrycashback()),
   "/english-cash-cow": (_) => MaterialPage(child: EnglishEntrycashcow()),
   "/english-cash-crop": (_) => MaterialPage(child: EnglishEntrycashcrop()),
-  "/english-cash-machine": (_) => MaterialPage(child: EnglishEntrycashmachine()),
-  "/english-cash-register": (_) => MaterialPage(child: EnglishEntrycashregister()),
+  "/english-cash-machine": (_) =>
+      MaterialPage(child: EnglishEntrycashmachine()),
+  "/english-cash-register": (_) =>
+      MaterialPage(child: EnglishEntrycashregister()),
   "/english-cashew": (_) => MaterialPage(child: EnglishEntrycashew()),
   "/english-cashier": (_) => MaterialPage(child: EnglishEntrycashier()),
   // "/english-DOPSUM_DOPSUM": (_) => MaterialPage(child: EnglishEntryDOPSUM()),

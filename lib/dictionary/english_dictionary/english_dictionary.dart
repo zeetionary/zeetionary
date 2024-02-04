@@ -2628,7 +2628,7 @@ class _DictionaryScreenEnglishState
     // "cash machine",
     // "cash register",
     // "cashew",
-    // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+    // "cashier",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
     // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -2736,6 +2736,7 @@ class _DictionaryScreenEnglishState
 
   final ScrollController _scrollController = ScrollController();
   bool showScrollToTop = false;
+  Set<String> bookmarks = {};
 
   @override
   void initState() {
@@ -2749,6 +2750,36 @@ class _DictionaryScreenEnglishState
     });
     shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
     _startTimer();
+    _loadBookmarks();
+  }
+
+  void _loadBookmarks() async {
+  final prefs = await SharedPreferences.getInstance();
+  setState(() {
+    bookmarks = prefs.getStringList('bookmarks')?.toSet() ?? {};
+  });
+}
+
+
+  void _saveBookmarks() async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setStringList('bookmarks', bookmarks.toList());
+  }
+
+  void _clearBookmarks() async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.remove('bookmarks');
+
+    // Update the state to reflect the changes immediately
+    setState(() {
+      bookmarks.clear();
+    });
+
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: const Text('Bookmarks cleared'),
+      ),
+    );
   }
 
   List<String> shuffledWords = [];
@@ -3160,6 +3191,17 @@ class _DictionaryScreenEnglishState
               child: EnglishDictionary(
                 words: filteredWords,
                 scrollController: _scrollController,
+                onBookmark: (word) {
+                  setState(() {
+                    if (bookmarks.contains(word)) {
+                      bookmarks.remove(word);
+                    } else {
+                      bookmarks.add(word);
+                    }
+                    _saveBookmarks();
+                  });
+                },
+                bookmarks: bookmarks,
                 onTapWord: (wordsEnglish) {
                   if (wordsEnglish == "What is 100 tag?") {
                     showDialog(
@@ -18682,12 +18724,16 @@ class EnglishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
   final ScrollController scrollController;
+  final Function(String) onBookmark;
+  final Set<String> bookmarks;
 
   const EnglishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
     required this.scrollController,
+    required this.onBookmark,
+    required this.bookmarks,
   });
 
   @override
@@ -18701,6 +18747,10 @@ class EnglishDictionary extends StatelessWidget {
           onTap: () {
             onTapWord(words[index]);
           },
+          onBookmark: () {
+            onBookmark(words[index]);
+          },
+          isBookmarked: bookmarks.contains(words[index]),
         );
       },
     );
@@ -18765,11 +18815,15 @@ class EnglishDictionary extends StatelessWidget {
 class ListTileEnglish extends ConsumerWidget {
   final String wordsEnglish;
   final VoidCallback? onTap;
+  final VoidCallback? onBookmark;
+  final bool isBookmarked;
 
   const ListTileEnglish({
     super.key,
     required this.wordsEnglish,
     this.onTap,
+    this.onBookmark,
+    this.isBookmarked = false,
   });
 
   @override
@@ -18785,7 +18839,12 @@ class ListTileEnglish extends ConsumerWidget {
             fontSize: textSize, // Set your desired font size
           ),
         ),
-        trailing: const Icon(Icons.arrow_forward),
+        trailing: IconButton(
+          icon: isBookmarked
+              ? const Icon(Icons.star)
+              : const Icon(Icons.star_border),
+          onPressed: onBookmark,
+        ),
       ),
     );
   }

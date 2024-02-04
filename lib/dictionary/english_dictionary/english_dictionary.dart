@@ -2754,32 +2754,68 @@ class _DictionaryScreenEnglishState
   }
 
   void _loadBookmarks() async {
-  final prefs = await SharedPreferences.getInstance();
-  setState(() {
-    bookmarks = prefs.getStringList('bookmarks')?.toSet() ?? {};
-  });
-}
-
-
-  void _saveBookmarks() async {
     final prefs = await SharedPreferences.getInstance();
-    prefs.setStringList('bookmarks', bookmarks.toList());
+    setState(() {
+      bookmarks = prefs.getStringList('bookmarks')?.toSet() ?? {};
+    });
   }
 
-  void _clearBookmarks() async {
-    final prefs = await SharedPreferences.getInstance();
-    prefs.remove('bookmarks');
-
-    // Update the state to reflect the changes immediately
+  // Function to handle clearing bookmarks
+  void _clearBookmarks() {
     setState(() {
       bookmarks.clear();
     });
+  }
 
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: const Text('Bookmarks cleared'),
-      ),
-    );
+  // Function to handle updating bookmarks
+  void _updateBookmarks() async {
+    final prefs = await SharedPreferences.getInstance();
+    final bookmarksList = prefs.getStringList('bookmarks')?.toSet() ?? {};
+
+    setState(() {
+      bookmarks = bookmarksList;
+    });
+  }
+
+  void onBookmark(String word) async {
+    final prefs = await SharedPreferences.getInstance();
+
+    setState(() {
+      final bookmarksList = prefs.getStringList('bookmarks')?.toSet() ?? {};
+
+      final wordWithoutTimestamp = word.split('-').first;
+
+      if (bookmarksList.contains(wordWithoutTimestamp)) {
+        bookmarksList.remove(wordWithoutTimestamp);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Bookmark removed: $wordWithoutTimestamp'),
+          ),
+        );
+      } else {
+        bookmarksList.add(wordWithoutTimestamp);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Text('Bookmark added: $wordWithoutTimestamp'),
+          ),
+        );
+      }
+
+      prefs.setStringList('bookmarks', bookmarksList.toList());
+      _updateBookmarks();
+    });
+  }
+
+  void _removeBookmark(String bookmark) {
+    setState(() {
+      bookmarks.remove(bookmark);
+    });
+    _saveBookmarks();
+  }
+
+  Future<void> _saveBookmarks() async {
+    final prefs = await SharedPreferences.getInstance();
+    prefs.setStringList('bookmarks', bookmarks.toList());
   }
 
   List<String> shuffledWords = [];
@@ -3191,16 +3227,7 @@ class _DictionaryScreenEnglishState
               child: EnglishDictionary(
                 words: filteredWords,
                 scrollController: _scrollController,
-                onBookmark: (word) {
-                  setState(() {
-                    if (bookmarks.contains(word)) {
-                      bookmarks.remove(word);
-                    } else {
-                      bookmarks.add(word);
-                    }
-                    _saveBookmarks();
-                  });
-                },
+                onBookmark: onBookmark,
                 bookmarks: bookmarks,
                 onTapWord: (wordsEnglish) {
                   if (wordsEnglish == "What is 100 tag?") {
@@ -18747,9 +18774,8 @@ class EnglishDictionary extends StatelessWidget {
           onTap: () {
             onTapWord(words[index]);
           },
-          onBookmark: () {
-            onBookmark(words[index]);
-          },
+          onBookmark: () =>
+              onBookmark(words[index]), // Use the passed value for bookmarking
           isBookmarked: bookmarks.contains(words[index]),
         );
       },
@@ -18836,14 +18862,17 @@ class ListTileEnglish extends ConsumerWidget {
         title: Text(
           wordsEnglish,
           style: TextStyle(
+            // color: Theme.of(context).scaffoldBackgroundColor,
             fontSize: textSize, // Set your desired font size
           ),
         ),
         trailing: IconButton(
           icon: isBookmarked
-              ? const Icon(Icons.star)
-              : const Icon(Icons.star_border),
-          onPressed: onBookmark,
+              ? Icon(Icons.star,
+                  color: Theme.of(context).primaryColor.withOpacity(0.9))
+              : Icon(Icons.star_border,
+                  color: Theme.of(context).primaryColor.withOpacity(0.5)),
+          onPressed: () => onBookmark?.call(),
         ),
       ),
     );

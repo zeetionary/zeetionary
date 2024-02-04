@@ -1,215 +1,132 @@
-// Import the necessary packages
 import 'package:flutter/material.dart';
-import 'package:routemaster/routemaster.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/screens/bookmarks/en_bookmarks_screen.dart';
+import 'package:zeetionary/home/screens/bookmarks/ckb_bookmarks_screen.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-class BookmarksScreen extends StatefulWidget {
-  // Callback function to notify the parent when bookmarks are cleared
-  final void Function()? onClearBookmarks;
-
-  // Constructor to receive the callback function
-  const BookmarksScreen({Key? key, this.onClearBookmarks}) : super(key: key);
-
-  @override
-  _BookmarksScreenState createState() => _BookmarksScreenState();
-}
-
-class _BookmarksScreenState extends State<BookmarksScreen> {
-  List<String> bookmarks = [];
-
-  void Function()? onClearBookmarks;
-
-  @override
-  void initState() {
-    super.initState();
-    _loadBookmarks();
-  }
-
-  Future<void> _loadBookmarks() async {
-    final prefs = await SharedPreferences.getInstance();
-    final bookmarksList = prefs.getStringList('bookmarks')?.toList() ?? [];
-
-    // Use a set to store unique titles without timestamps
-    final uniqueTitles = <String>{};
-
-    for (final bookmark in bookmarksList) {
-      final title = bookmark.split('-').first;
-      uniqueTitles.add(title);
-    }
-
-    setState(() {
-      bookmarks = uniqueTitles.toList();
-    });
-  }
+class BookmarksScreen extends StatelessWidget {
+  const BookmarksScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: const ZeetionaryAppbar(),
-      body: ListView(
-        children: bookmarks.reversed.map(
-          (bookmark) {
-            final displayTitle = bookmark.split('-').first;
-            return ListTile(
-              title: Text(displayTitle),
-              trailing: const Icon(Icons.arrow_forward),
-              onTap: () => navigateToScreen(context, bookmark),
-            );
-          },
-        ).toList(),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _clearBookmarks();
-        },
-        child: const Icon(Icons.clear),
-      ),
-    );
-  }
-
-  Future<void> _clearBookmarks() async {
-    // Show a confirmation dialog
-    bool confirmed = await showDialog(
-      context: context,
-      builder: (BuildContext context) {
-        return AlertDialog(
-          title: Text('Clear Bookmarks'),
-          content: Text('Are you sure you want to clear all bookmarks?'),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .pop(false); // Dismiss the dialog and return false
-              },
-              child: Text('Cancel'),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .pop(true); // Dismiss the dialog and return true
-              },
-              child: Text('Clear'),
-            ),
-          ],
-        );
-      },
-    );
-
-    // If confirmed is true, clear bookmarks
-    if (confirmed) {
-      final prefs = await SharedPreferences.getInstance();
-      prefs.remove('bookmarks');
-
-      // Update bookmarks list before clearing
-      setState(() {
-        bookmarks.clear();
-      });
-
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('Bookmarks cleared'),
+    return const DefaultTabController(
+      length: 2,
+      child: Scaffold(
+        appBar: ZeetionaryAppbar(),
+        body: Padding(
+          padding: EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+          // EdgeInsets.zero,
+          child: Column(
+            children: [
+              CustomTabBarHistory(
+                tabs: [
+                  UkIconForHistoryTab(),
+                  KurdIconForHistoryTab(),
+                ],
+              ),
+              Expanded(
+                child: TabBarView(
+                  children: [
+                    EnglishfavouritesScreen(),
+                    KurdishFavouritesScreen(),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
-      );
-
-      // Notify parent when bookmarks are cleared
-      if (widget.onClearBookmarks != null) {
-        widget.onClearBookmarks!();
-      }
-    }
-  }
-
-  void navigateToScreen(BuildContext context, String word) {
-    final screenRoutes = {
-      "a": "/english-a",
-      "aback": "/english-aback",
-      "abacus": "/english-abacus",
-      "abandon": "/english-abandon",
-    };
-
-    final routeName = screenRoutes[word];
-
-    if (routeName != null) {
-      Routemaster.of(context).push(routeName);
-    }
+      ),
+    );
   }
 }
 
-// class BookmarksScreen extends StatefulWidget {
-//   @override
-//   _BookmarksScreenState createState() => _BookmarksScreenState();
-// }
+class CustomTabBarHistory extends ConsumerWidget {
+  final List<Widget> tabs;
 
-// class _BookmarksScreenState extends State<BookmarksScreen> {
-//   List<String> bookmarks = [];
+  const CustomTabBarHistory({super.key, required this.tabs});
 
-//   @override
-//   void initState() {
-//     super.initState();
-//     _loadBookmarks();
-//   }
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 40;
 
-//   Future<void> _loadBookmarks() async {
-//     final prefs = await SharedPreferences.getInstance();
-//     setState(() {
-//       bookmarks = prefs.getStringList('bookmarks')?.toList() ?? [];
-//       bookmarks.sort((a, b) => b.compareTo(a)); // Sort in descending order
-//     });
-//   }
+    return Container(
+      height: textSize,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12.0),
+        border: Border.all(
+          color: Theme.of(context).primaryColor.withOpacity(0.08),
+          width: 1.0,
+          style: BorderStyle.solid,
+        ),
+      ),
+      child: TabBar(
+        isScrollable: true,
+        tabs: tabs,
+        indicator: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.25),
+              Theme.of(context).scaffoldBackgroundColor.withOpacity(0.45),
+              // Colors.red.shade800.withOpacity(0.09),
+              // Colors.red.shade800.withOpacity(0.07),
+              // Theme.of(context).primaryColor.withOpacity(0.08),
+              // Theme.of(context).primaryColor.withOpacity(0.05),
+            ],
+          ),
+          // color: Theme.of(context).primaryColor.withOpacity(0.1),
+          borderRadius: const BorderRadius.only(
+            topLeft: Radius.circular(12.0),
+            bottomRight: Radius.circular(12.0),
+          ),
+          border: Border.all(
+            color: Theme.of(context).primaryColor.withOpacity(0.18),
+            width: 1.0,
+            style: BorderStyle.solid,
+          ),
+        ),
+        indicatorSize: TabBarIndicatorSize.tab,
+        indicatorPadding: const EdgeInsets.all(4.0),
+      ),
+    );
+  }
+}
 
-//   @override
-//   Widget build(BuildContext context) {
-//     return Scaffold(
-//       appBar: const ZeetionaryAppbar(),
-//       body: ListView(
-//         children: bookmarks
-//             .map(
-//               (bookmark) => ListTile(
-//                 title: Text(bookmark),
-//                 trailing: const Icon(Icons.arrow_forward),
-//                 onTap: () => navigateToScreen(context, bookmark),
-//               ),
-//             )
-//             .toList(),
-//       ),
-//       floatingActionButton: FloatingActionButton(
-//         onPressed: () {
-//           // Clear bookmarks logic here
-//           _clearBookmarks();
-//         },
-//         child: const Icon(Icons.clear),
-//       ),
-//     );
-//   }
+class UkIconForHistoryTab extends ConsumerWidget {
+  const UkIconForHistoryTab({
+    super.key,
+  });
 
-//   Future<void> _clearBookmarks() async {
-//     final prefs = await SharedPreferences.getInstance();
-//     prefs.remove('bookmarks');
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 15;
+    return Tab(
+      icon: Image.asset(
+        'assets/images/uk_one.png',
+        width: 110,
+        height: textSize,
+      ),
+    );
+  }
+}
 
-//     // Update the state to reflect the changes immediately
-//     setState(() {
-//       bookmarks.clear();
-//     });
+class KurdIconForHistoryTab extends ConsumerWidget {
+  const KurdIconForHistoryTab({
+    super.key,
+  });
 
-//     ScaffoldMessenger.of(context).showSnackBar(
-//       SnackBar(
-//         content: const Text('Bookmarks cleared'),
-//       ),
-//     );
-//   }
-
-//   void navigateToScreen(BuildContext context, String word) {
-//     final screenRoutes = {
-//       "a": "/english-a",
-//       "aback": "/english-aback",
-//       "abacus": "/english-abacus",
-//       "abandon": "/english-abandon",
-//     };
-
-//     final routeName = screenRoutes[word];
-
-//     if (routeName != null) {
-//       Routemaster.of(context).push(routeName);
-//     }
-//   }
-// }
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider) + 15;
+    return Tab(
+      icon: Image.asset(
+        'assets/images/kurd_one.png',
+        width: 110,
+        height: textSize,
+      ),
+    );
+  }
+}

@@ -3344,7 +3344,7 @@ final loggedInRoute = RouteMap(routes: {
   // others // others // others
   // others // others // others
   "/history-screen": (_) => const MaterialPage(child: HistoryScreen()),
-  "/bookmarks-screen": (_) => MaterialPage(child: BookmarksScreen()),
+  "/bookmarks-screen": (_) => const MaterialPage(child: BookmarksScreen()),
   "/tts-screen": (_) => const MaterialPage(child: TTSPage()),
   "/grammar-screen": (_) => const MaterialPage(child: GrammarScreen()),
   "/settings-screen": (_) => const MaterialPage(child: SettingsPage()),

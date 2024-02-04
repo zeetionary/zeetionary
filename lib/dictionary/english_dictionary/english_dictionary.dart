@@ -2736,7 +2736,7 @@ class _DictionaryScreenEnglishState
 
   final ScrollController _scrollController = ScrollController();
   bool showScrollToTop = false;
-  Set<String> bookmarks = {};
+  Set<String> englishfavourites = {};
 
   @override
   void initState() {
@@ -2750,72 +2750,72 @@ class _DictionaryScreenEnglishState
     });
     shuffledWords = List.from(allWordsEnglish)..shuffle(Random());
     _startTimer();
-    _loadBookmarks();
+    _loadEnglishFavourites();
   }
 
-  void _loadBookmarks() async {
+  void _loadEnglishFavourites() async {
     final prefs = await SharedPreferences.getInstance();
     setState(() {
-      bookmarks = prefs.getStringList('bookmarks')?.toSet() ?? {};
+      englishfavourites = prefs.getStringList('english favourites')?.toSet() ?? {};
     });
   }
 
-  // Function to handle clearing bookmarks
-  void _clearBookmarks() {
+  // Function to handle clearing favourites
+  // void _clearEnglishFavourites() {
+  //   setState(() {
+  //     favourites.clear();
+  //   });
+  // }
+
+  // void _removeEnglishFavourite(String favourite) {
+  //   setState(() {
+  //     favourites.remove(favourite);
+  //   });
+  //   _saveEnglishFavourites();
+  // }
+
+  // Future<void> _saveEnglishFavourites() async {
+  //   final prefs = await SharedPreferences.getInstance();
+  //   prefs.setStringList('english favourites', favourites.toList());
+  // }
+
+  // Function to handle updating favourites
+  void _updateEnglishFavourites() async {
+    final prefs = await SharedPreferences.getInstance();
+    final englishFavouritesList = prefs.getStringList('english favourites')?.toSet() ?? {};
+
     setState(() {
-      bookmarks.clear();
+      englishfavourites = englishFavouritesList;
     });
   }
 
-  // Function to handle updating bookmarks
-  void _updateBookmarks() async {
-    final prefs = await SharedPreferences.getInstance();
-    final bookmarksList = prefs.getStringList('bookmarks')?.toSet() ?? {};
-
-    setState(() {
-      bookmarks = bookmarksList;
-    });
-  }
-
-  void onBookmark(String word) async {
+  void onEnglishFavourite(String word) async {
     final prefs = await SharedPreferences.getInstance();
 
     setState(() {
-      final bookmarksList = prefs.getStringList('bookmarks')?.toSet() ?? {};
+      final englishFavouritesList = prefs.getStringList('english favourites')?.toSet() ?? {};
 
       final wordWithoutTimestamp = word.split('-').first;
 
-      if (bookmarksList.contains(wordWithoutTimestamp)) {
-        bookmarksList.remove(wordWithoutTimestamp);
+      if (englishFavouritesList.contains(wordWithoutTimestamp)) {
+        englishFavouritesList.remove(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Bookmark removed: $wordWithoutTimestamp'),
+            content: Text('Favourite removed: $wordWithoutTimestamp'),
           ),
         );
       } else {
-        bookmarksList.add(wordWithoutTimestamp);
+        englishFavouritesList.add(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Bookmark added: $wordWithoutTimestamp'),
+            content: Text('Favourite added: $wordWithoutTimestamp'),
           ),
         );
       }
 
-      prefs.setStringList('bookmarks', bookmarksList.toList());
-      _updateBookmarks();
+      prefs.setStringList('english favourites', englishFavouritesList.toList());
+      _updateEnglishFavourites();
     });
-  }
-
-  void _removeBookmark(String bookmark) {
-    setState(() {
-      bookmarks.remove(bookmark);
-    });
-    _saveBookmarks();
-  }
-
-  Future<void> _saveBookmarks() async {
-    final prefs = await SharedPreferences.getInstance();
-    prefs.setStringList('bookmarks', bookmarks.toList());
   }
 
   List<String> shuffledWords = [];
@@ -3227,8 +3227,8 @@ class _DictionaryScreenEnglishState
               child: EnglishDictionary(
                 words: filteredWords,
                 scrollController: _scrollController,
-                onBookmark: onBookmark,
-                bookmarks: bookmarks,
+                onEnglishFavourite: onEnglishFavourite,
+                englishfavourites: englishfavourites,
                 onTapWord: (wordsEnglish) {
                   if (wordsEnglish == "What is 100 tag?") {
                     showDialog(
@@ -18751,16 +18751,16 @@ class EnglishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
   final ScrollController scrollController;
-  final Function(String) onBookmark;
-  final Set<String> bookmarks;
+  final Function(String) onEnglishFavourite;
+  final Set<String> englishfavourites;
 
   const EnglishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
     required this.scrollController,
-    required this.onBookmark,
-    required this.bookmarks,
+    required this.onEnglishFavourite,
+    required this.englishfavourites,
   });
 
   @override
@@ -18774,9 +18774,9 @@ class EnglishDictionary extends StatelessWidget {
           onTap: () {
             onTapWord(words[index]);
           },
-          onBookmark: () =>
-              onBookmark(words[index]), // Use the passed value for bookmarking
-          isBookmarked: bookmarks.contains(words[index]),
+          onEnglishFavourite: () =>
+              onEnglishFavourite(words[index]), // Use the passed value for favouriting
+          isFavouriteed: englishfavourites.contains(words[index]),
         );
       },
     );
@@ -18841,15 +18841,15 @@ class EnglishDictionary extends StatelessWidget {
 class ListTileEnglish extends ConsumerWidget {
   final String wordsEnglish;
   final VoidCallback? onTap;
-  final VoidCallback? onBookmark;
-  final bool isBookmarked;
+  final VoidCallback? onEnglishFavourite;
+  final bool isFavouriteed;
 
   const ListTileEnglish({
     super.key,
     required this.wordsEnglish,
     this.onTap,
-    this.onBookmark,
-    this.isBookmarked = false,
+    this.onEnglishFavourite,
+    this.isFavouriteed = false,
   });
 
   @override
@@ -18867,12 +18867,12 @@ class ListTileEnglish extends ConsumerWidget {
           ),
         ),
         trailing: IconButton(
-          icon: isBookmarked
+          icon: isFavouriteed
               ? Icon(Icons.star,
                   color: Theme.of(context).primaryColor.withOpacity(0.9))
               : Icon(Icons.star_border,
                   color: Theme.of(context).primaryColor.withOpacity(0.5)),
-          onPressed: () => onBookmark?.call(),
+          onPressed: () => onEnglishFavourite?.call(),
         ),
       ),
     );

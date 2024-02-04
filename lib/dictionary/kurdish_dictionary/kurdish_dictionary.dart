@@ -59,6 +59,7 @@ class _DictionaryScreenKurdishState
 
   final ScrollController _scrollController = ScrollController();
   bool showScrollToTop = false;
+  Set<String> kurdishfavourites = {};
 
   @override
   void initState() {
@@ -72,6 +73,79 @@ class _DictionaryScreenKurdishState
     });
     shuffledWords = List.from(allWordsKurdish)..shuffle(Random());
     _startTimer();
+    _loadKurdishFavourites();
+  }
+
+  void _loadKurdishFavourites() async {
+    final prefs = await SharedPreferences.getInstance();
+    setState(() {
+      kurdishfavourites =
+          prefs.getStringList('kurdish favourites')?.toSet() ?? {};
+    });
+  }
+
+  // Function to handle clearing favourites
+  // void _clearKurdishFavourites() {
+  //   setState(() {
+  //     favourites.clear();
+  //   });
+  // }
+
+  // void _removeKurdishFavourite(String favourite) {
+  //   setState(() {
+  //     favourites.remove(favourite);
+  //   });
+  //   _saveKurdishFavourites();
+  // }
+
+  // Future<void> _saveKurdishFavourites() async {
+  //   final prefs = await SharedPreferences.getInstance();
+  //   prefs.setStringList('kurdish favourites', favourites.toList());
+  // }
+
+  // Function to handle updating favourites
+  void _updateKurdishFavourites() async {
+    final prefs = await SharedPreferences.getInstance();
+    final kurdishFavouritesList =
+        prefs.getStringList('kurdish favourites')?.toSet() ?? {};
+
+    setState(() {
+      kurdishfavourites = kurdishFavouritesList;
+    });
+  }
+
+  void onKurdishFavourite(String word) async {
+    final prefs = await SharedPreferences.getInstance();
+
+    setState(() {
+      final kurdishFavouritesList =
+          prefs.getStringList('kurdish favourites')?.toSet() ?? {};
+
+      final wordWithoutTimestamp = word.split('-').first;
+
+      if (kurdishFavouritesList.contains(wordWithoutTimestamp)) {
+        kurdishFavouritesList.remove(wordWithoutTimestamp);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text('وشەی دڵخواز سڕایەوە: $wordWithoutTimestamp')),
+          ),
+        );
+      } else {
+        kurdishFavouritesList.add(wordWithoutTimestamp);
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(
+            content: Directionality(
+                textDirection: TextDirection.rtl,
+                child: Text('وشەی دڵخواز زیادکرا: $wordWithoutTimestamp')),
+          ),
+        );
+      }
+
+      prefs.setStringList('kurdish favourites', kurdishFavouritesList.toList());
+      _updateKurdishFavourites();
+    });
   }
 
   List<String> shuffledWords = [];
@@ -384,6 +458,8 @@ class _DictionaryScreenKurdishState
               child: KurdishDictionary(
                 words: filteredWords,
                 scrollController: _scrollController,
+                onKurdishFavourite: onKurdishFavourite,
+                kurdishfavourites: kurdishfavourites,
                 onTapWord: (wordsKurdish) {
                   if (wordsKurdish == "کوردی") {
                     saveToHistory(wordsKurdish);
@@ -419,12 +495,16 @@ class KurdishDictionary extends StatelessWidget {
   final List<String> words;
   final Function(String) onTapWord;
   final ScrollController scrollController;
+  final Function(String) onKurdishFavourite;
+  final Set<String> kurdishfavourites;
 
   const KurdishDictionary({
     super.key,
     required this.words,
     required this.onTapWord,
     required this.scrollController,
+    required this.onKurdishFavourite,
+    required this.kurdishfavourites,
   });
 
   @override
@@ -438,6 +518,9 @@ class KurdishDictionary extends StatelessWidget {
           onTap: () {
             onTapWord(words[index]);
           },
+          onKurdishFavourite: () => onKurdishFavourite(
+              words[index]), // Use the passed value for favouriting
+          isKurdishFavouriteed: kurdishfavourites.contains(words[index]),
         );
       },
     );
@@ -473,11 +556,15 @@ class KurdishDictionary extends StatelessWidget {
 class ListTileKurdish extends ConsumerWidget {
   final String wordsKurdish;
   final VoidCallback? onTap;
+  final VoidCallback? onKurdishFavourite;
+  final bool isKurdishFavouriteed;
 
   const ListTileKurdish({
     super.key,
     required this.wordsKurdish,
     this.onTap,
+    this.onKurdishFavourite,
+    this.isKurdishFavouriteed = false,
   });
 
   @override
@@ -493,7 +580,14 @@ class ListTileKurdish extends ConsumerWidget {
             fontSize: textSize, // Set your desired font size
           ),
         ),
-        trailing: const Icon(Icons.arrow_forward),
+        trailing: IconButton(
+          icon: isKurdishFavouriteed
+              ? Icon(Icons.star,
+                  color: Theme.of(context).primaryColor.withOpacity(0.9))
+              : Icon(Icons.star_border,
+                  color: Theme.of(context).primaryColor.withOpacity(0.5)),
+          onPressed: () => onKurdishFavourite?.call(),
+        ),
       ),
     );
   }

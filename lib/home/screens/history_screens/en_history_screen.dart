@@ -9,6 +9,7 @@ class EnglishHistoryScreen extends StatelessWidget {
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
 
+    // ignore: use_build_context_synchronously
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -76,6 +77,7 @@ class EnglishHistoryScreen extends StatelessWidget {
                   final word = englishhistory.elementAt(index);
                   return ListTile(
                     title: Text(word),
+                    trailing: const Icon(Icons.arrow_forward),
                     onTap: () => navigateToScreen(context, word),
                   );
                 },

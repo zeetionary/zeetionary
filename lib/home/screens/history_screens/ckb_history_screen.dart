@@ -138,6 +138,7 @@ class KurdishHistoryScreen extends StatelessWidget {
                     final word = kurdishhistory.elementAt(index);
                     return ListTile(
                       title: Text(word),
+                      trailing: const Icon(Icons.arrow_forward),
                       onTap: () => navigateToScreen(context, word),
                     );
                   },

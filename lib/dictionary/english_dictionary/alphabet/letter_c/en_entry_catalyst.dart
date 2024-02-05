@@ -10,128 +10,124 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrycatalogue extends StatelessWidget {
+class EnglishEntrycatalyst extends StatelessWidget {
   // blank divider
-  EnglishEntrycatalogue({super.key});
+  EnglishEntrycatalyst({super.key});
   // blank divider
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakcatalogue(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalyst(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("catalogue"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("catalyst"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues1(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts1(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("Chlorine will act as a catalyst."); // DOPSUM: CHANGE TEXT
+  }
+
+  Future<void> speakcatalysts2(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        "An illustrated catalogue accompanies the exhibition."); // DOPSUM: CHANGE TEXT
+        "The high suicide rate acted as a catalyst for change in the prison system."); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues2(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts3(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Please take a look at our online catalogue."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts33"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues3(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts4(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "What followed was a whole catalogue of disasters."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts44"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues4(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts5(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "It took six years to catalogue all the paintings."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts55"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues5(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts6(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "New books are catalogued on an electronic database."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts66"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues6(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts7(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Interviews with the refugees catalogue a history of discrimination and violence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts77"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues7(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts8(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues77"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts88"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues8(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts9(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues88"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts99"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues9(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts10(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues99"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts1010"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues10(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts11(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues1010"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts1111"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues11(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts12(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues1111"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts1212"); // DOPSUM: CHANGE TEXT
   }
 
-  Future<void> speakcatalogues12(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
+  Future<void> speakcatalysts13(String languageCode) async {
+    // DOPSUM: CHANGE speakcatalyst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues1212"); // DOPSUM: CHANGE TEXT
-  }
-
-  Future<void> speakcatalogues13(String languageCode) async {
-    // DOPSUM: CHANGE speakcatalogue
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakcatalogues1313"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("speakcatalysts1313"); // DOPSUM: CHANGE TEXT
   }
 
   @override
@@ -154,22 +150,22 @@ class EnglishEntrycatalogue extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "catalogue"),
+                            EntryTitle(word: "catalyst"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈkætəlɒɡ/"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkætəlɪst/"),
                             CustomIconButtonBritish(
-                              onPressed: () => speakcatalogue("en-GB"),
+                              onPressed: () => speakcatalyst("en-GB"),
                             ),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈkætəlɔːɡ/"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkætəlɪst/"),
                             CustomIconButtonAmerican(
-                              onPressed: () => speakcatalogue("en-US"),
+                              onPressed: () => speakcatalyst("en-US"),
                             ),
                           ],
                         ),
@@ -196,9 +192,9 @@ class EnglishEntrycatalogue extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کاتەلۆگ، پێرست، ڕیزە، لیست، فیرست
+کوردی: هۆکاری هاندەر یان تاودەر، تاودەرە، فاکتێری تاودەر، مەتریاڵی هاندەر، هاندەرە، تاودەرە، کەسێ یان شتێ کە دەبێتە هۆ و مایەی گۆڕان
 
-١. (ناو) لیستێکی تەواوی کۆمەڵە شتێک، بۆ نموونە شتانێک کە خەڵکی دەتوانن سەیری بکەن یان بیکڕن"""),
+١. (ناو) لە کیمیادا مادەیەکە کە کارلێکێکی کیمیایی خێراتر دەکات بەبێ ئەوەی خۆی گۆڕێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -206,79 +202,21 @@ class EnglishEntrycatalogue extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "An illustrated catalogue accompanies the exhibition."),
+                                            "Chlorine will act as a catalyst."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاتەلۆگێکی وێنەدار لەگەڵ پێشانگاکەیە."),
+                                            "کلۆر وەک هاندەرێکی کیمیایی کاردەکات."),
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // Define the word "catalogue", please follow LX instructions
+                              const CustomSizedBoxForTTS(), // Define the word "catalyst", please follow LX instructions
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues1("en-GB"),
+                                    onPressed: () => speakcatalysts1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues1("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Please take a look at our online catalogue."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "تکایە بڕوانە لیستە ئۆنلاینەکەمان."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues2("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues2("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (ناو) زنجیرەیەک لە شت کە ڕوودەدەن"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "What followed was a whole catalogue of disasters."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "ئەوەی دواتر ڕوویدا یەک زنجیرە لە کارەسات بوو."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues3("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues3("en-US"),
+                                    onPressed: () => speakcatalysts1("en-US"),
                                   ),
                                 ],
                               ),
@@ -287,7 +225,7 @@ class EnglishEntrycatalogue extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (کردار) درووستکردنی تۆمارێک لە کاتەلۆگێکدا"),
+                                  "٢. (ناو) کەسێک یان شتێک کە گۆڕانێک درووست دەکات"),
                           Row(
                             children: [
                               const Expanded(
@@ -295,10 +233,10 @@ class EnglishEntrycatalogue extends StatelessWidget {
                                   children: [
                                     ExampleSentenceEnglish(
                                         text:
-                                            "It took six years to catalogue all the paintings."),
+                                            "The high suicide rate acted as a catalyst for change in the prison system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شەش ساڵی پێچوو تا هەموو تابلۆکانمان کاتەلۆگ کرد."),
+                                            "ڕێژەی زۆری خۆکوشتن پاڵنەرێک بوو گۆڕان لە سیستەمی زینداندا."),
                                   ],
                                 ),
                               ),
@@ -306,69 +244,10 @@ class EnglishEntrycatalogue extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues4("en-GB"),
+                                    onPressed: () => speakcatalysts2("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues4("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "New books are catalogued on an electronic database."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "کتێبە تازەکان لەسەر داتابەیسێکی ئەلیکترۆنی لیست دەکرێن."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues5("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues5("en-US"),
-                                  ),
-                                ],
-                              ),
-                            ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کردار) بەدەستەوەدانی ژمارەیەک شت کە پەیوەندیدارن بە کەسێک، ڕووداوێک، هتد"),
-                          Row(
-                            children: [
-                              const Expanded(
-                                child: Column(
-                                  children: [
-                                    ExampleSentenceEnglish(
-                                        text:
-                                            "Interviews with the refugees catalogue a history of discrimination and violence."),
-                                    ExampleSentenceKurdish(
-                                        text:
-                                            "چاوپێکەوتن لەگەڵ پەنابەران مێژوویەک لە جیاکاری و توندوتیژی دەگێڕنەوە."),
-                                  ],
-                                ),
-                              ),
-                              const CustomSizedBoxForTTS(),
-                              Column(
-                                children: [
-                                  CustomIconButtonBritish(
-                                    onPressed: () => speakcatalogues6("en-GB"),
-                                  ),
-                                  CustomIconButtonAmerican(
-                                    onPressed: () => speakcatalogues6("en-US"),
+                                    onPressed: () => speakcatalysts2("en-US"),
                                   ),
                                 ],
                               ),
@@ -456,19 +335,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catalogue (derived forms: catalogues)
-1. A book or pamphlet containing an enumeration of things (= catalog [US])
-"he found it in the Sears catalogue";
-
-2. A complete list of things; usually arranged systematically (= catalog [US])
-"it does not pretend to be a catalogue of his achievements";
-
-- Verb: catalogue (derived forms: catalogued, catalogues, cataloguing)
-1. Make a catalogue, compile a catalogue (= catalog [US])
-"She spends her weekends cataloguing";
+- Noun: catalyst (Derived forms: catalysts)
+1. (chemistry) a substance that initiates or accelerates a chemical reaction without itself being affected (= accelerator)
  
-2. Make an itemized list or catalogue of; classify (= catalog [US])
-"He is cataloguing his photographic negatives";
+2. Something that causes an important event to happen
+"the invasion acted as a catalyst to unite the country"
 """,
   );
 
@@ -501,8 +372,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'tn5zUd9FyTM',
-    // startSeconds: 222222222222222,
+    videoId: 'https://youtu.be/TwTRZ5uJZqQ?t=',
+    startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -526,8 +397,8 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: '58XEfDtU0Z4',
-    startSeconds: 216,
+    videoId: 'https://youtu.be/oD17uLWd2qA?t=',
+    startSeconds: 155,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -551,8 +422,8 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'FSHITL5oedk',
-    startSeconds: 143,
+    videoId: 'https://youtu.be/98_JScrRrPU?t=',
+    startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -576,8 +447,8 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_mUvG6x53VM?t=',
-    startSeconds: 116,
+    videoId: 'https://youtu.be/Kou7ur5xt_4?t=',
+    startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -601,8 +472,8 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fn--IVarumw?t=',
-    startSeconds: 101,
+    videoId: 'https://youtu.be/Qc0vRRJuQic?t=',
+    startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -626,8 +497,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XXhc5UTxv5I?t=',
-    startSeconds: 705,
+    videoId: 'https://youtu.be/g3Ud6mHdhlQ?t=',
+    startSeconds: 517,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -651,8 +522,8 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b4wRdoWpw0w?t=',
-    startSeconds: 1131,
+    videoId: 'https://youtu.be/cqjn3mup1So?t=',
+    startSeconds: 465,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,
@@ -676,8 +547,8 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qVfJheBp7Ys?t=',
-    startSeconds: 993,
+    videoId: 'https://youtu.be/jfEz-BkdBEE?t=',
+    startSeconds: 602,
     autoPlay: true,
     params: const YoutubePlayerParams(
       enableCaption: true,

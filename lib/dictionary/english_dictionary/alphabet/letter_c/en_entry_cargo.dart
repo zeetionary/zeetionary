@@ -192,7 +192,7 @@ class EnglishEntrycargo extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ئەو کەلوپەلەی کە لەسەر فڕۆکەیەک، کەشتییەک، هتددایە"""),
+١. (ناو) ئەو کەلوپەلەی کە لەسەر فڕۆکەیەک، کەشتییەک، ھتددایە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,7 @@ class EnglishEntrycargo extends StatelessWidget {
                                             "The port handles cargo from all over Asia."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بەندەرەکە باری لە هەموو ئاسیاوە بۆ دێت."),
+                                            "بەندەرەکە باری لە ھەموو ئاسیاوە بۆ دێت."),
                                   ],
                                 ),
                               ),
@@ -231,7 +231,7 @@ class EnglishEntrycargo extends StatelessWidget {
                                             "The ship stopped to take on a cargo of fruit."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەشتییەکە وەستا بۆ هەڵگرتنی بارێک لە میوە."),
+                                            "کەشتییەکە وەستا بۆ ھەڵگرتنی بارێک لە میوە."),
                                   ],
                                 ),
                               ),
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cargo (Derived forms: cargos, cargoes)
+- Noun: cargo (derived forms: cargos, cargoes)
 1. Goods carried by a large vehicle (= lading, freight, load, loading, payload, shipment, consignment)
 "the movement of cargo onto the vessel";
 """,
@@ -365,7 +365,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z9l7aWpqkko?t=',
+    videoId: 'Z9l7aWpqkko',
     startSeconds: 600,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wgGPan7MbyU?t=',
+    videoId: 'wgGPan7MbyU',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yInZQ3z8H1s?t=',
+    videoId: 'yInZQ3z8H1s',
     startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2QyQuF8P0AE',
+    videoId: '2QyQuF8P0AE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3Zlt85mryhw?t=',
+    videoId: '3Zlt85mryhw',
     startSeconds: 135,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JS_pnCWNb4Y?t=',
+    videoId: 'JS_pnCWNb4Y',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8iD88SkE3Rg',
+    videoId: '8iD88SkE3Rg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -540,7 +540,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Al7SNWQX7Xk',
+    videoId: 'Al7SNWQX7Xk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

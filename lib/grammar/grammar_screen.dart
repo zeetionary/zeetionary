@@ -457,7 +457,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
           //   ),
           // ),
           AnimatedContainer(
-            duration: const Duration(milliseconds: 180),
+            duration: const Duration(milliseconds: 250),
             height: isFilterExpanded ? 40 : 0,
             child: Row(
               children: [

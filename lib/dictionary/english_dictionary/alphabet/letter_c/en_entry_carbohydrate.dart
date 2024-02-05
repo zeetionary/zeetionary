@@ -194,7 +194,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کاربۆهایدرات، هایدراتی کاربۆن؛ مادەیەک بۆ نموونە شەکر و نیشاستە کە لە کاربۆن و هایدرۆجین و ئۆکسجین پێکهاتووە. کاربۆهایدراتی خواردن وزە و گەرمی بە لەش دەبەخشێت"""),
+١. (ناو) کاربۆھایدرات، ھایدراتی کاربۆن؛ مادەیەک بۆ نموونە شەکر و نیشاستە کە لە کاربۆن و ھایدرۆجین و ئۆکسجین پێکھاتووە. کاربۆھایدراتی خواردن وزە و گەرمی بە لەش دەبەخشێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
                                             "Nuts are high in carbohydrates."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاکڵدارەکان پڕ لە کاربۆهایدراتن."),
+                                            "کاکڵدارەکان پڕ لە کاربۆھایدراتن."),
                                   ],
                                 ),
                               ),
@@ -227,7 +227,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ئەو خواردنانەی کە ڕێژەیەکی زۆر کاربۆهایدراتیان تێدایە، بۆ نموونە نان و پەتاتە"),
+                                  "٢. (ناو) ئەو خواردنانەی کە ڕێژەیەکی زۆر کاربۆھایدراتیان تێدایە، بۆ نموونە نان و پەتاتە"),
                           Row(
                             children: [
                               const Expanded(
@@ -238,7 +238,7 @@ class EnglishEntrycarbohydrate extends StatelessWidget {
                                             "I’m trying to cut down on carbohydrates."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەوڵ دەدەم خواردنە کاربۆهایدراتییەکان زۆر بخۆم."),
+                                            "ھەوڵ دەدەم خواردنە کاربۆھایدراتییەکان زۆر بخۆم."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carbohydrate (Derived forms: carbohydrates)
+- Noun: carbohydrate (derived forms: carbohydrates)
 1. An essential structural component of living cells and source of energy for animals; includes simple sugars with small molecules as well as macromolecular substances; classified according to the number of monosaccharide groups they contain (= saccharide, sugar, carb [informal])
 """,
   );
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G0y9UvxUqqo?t=',
+    videoId: 'G0y9UvxUqqo',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i6GlN02PDr8?t=',
+    videoId: 'i6GlN02PDr8',
     startSeconds: 4819,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IlU-zDU6aQ0?t=',
+    videoId: 'IlU-zDU6aQ0',
     startSeconds: 3378,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X3TAROotFfM?t=',
+    videoId: 'X3TAROotFfM',
     startSeconds: 43,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mRj1RKh4xyY?t=',
+    videoId: 'mRj1RKh4xyY',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MLd4K5hKosw?t=',
+    videoId: 'MLd4K5hKosw',
     startSeconds: 547,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vhmtoAYVRSo?t=',
+    videoId: 'vhmtoAYVRSo',
     startSeconds: 103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qO--hy6Q-LA?t=',
+    videoId: 'qO--hy6Q-LA',
     startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +573,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jBnWZijMbMY?t=',
+    videoId: 'jBnWZijMbMY',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -598,7 +598,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YXOUOOtfTBs?t=',
+    videoId: 'YXOUOOtfTBs',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -623,7 +623,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SaOHTp07Vgw?t=',
+    videoId: 'SaOHTp07Vgw',
     startSeconds: 352,
     autoPlay: true,
     params: const YoutubePlayerParams(

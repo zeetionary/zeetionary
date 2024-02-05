@@ -192,7 +192,7 @@ class EnglishEntrycashmere extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) پارچە یان کوتاڵی کەشمیر/کشمیر؛ کوتاڵێکی نەرم و باشە کە لە مووی بزن درووست دەکرێت و جلی گران‌بەهای لێ درووست دەکرێت"""),
+١. (ناو) پارچە یان کوتاڵی کەشمیر/کشمیر؛ کوتاڵێکی نەرم و باشە کە لە مووی بزن درووست دەکرێت و جلی گران‌بەھای لێ درووست دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -300,7 +300,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cashmere (Derived forms: cashmeres)
+- Noun: cashmere (derived forms: cashmeres)
 1. A soft fabric made from the wool of the Kashmir goat
  
 2. The wool of the Kashmir goat
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pZYYvximM2c?t=',
+    videoId: 'pZYYvximM2c',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G-ZjHjIt5Ks?t=',
+    videoId: 'G-ZjHjIt5Ks',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wZ5q0TVD0aM?t=',
+    videoId: 'wZ5q0TVD0aM',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6Fy1suDnO3o?t=',
+    videoId: '6Fy1suDnO3o',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ElSJb6CmS3c?t=',
+    videoId: 'ElSJb6CmS3c',
     startSeconds: 357,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FnBniAE2wiE?t=',
+    videoId: 'FnBniAE2wiE',
     startSeconds: 461,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WDZXj7o_F3I?t=',
+    videoId: 'WDZXj7o_F3I',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_BU5SxzIfpE',
+    videoId: '_BU5SxzIfpE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

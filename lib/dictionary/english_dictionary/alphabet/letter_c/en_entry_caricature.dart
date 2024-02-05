@@ -196,9 +196,9 @@ class EnglishEntrycaricature extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کاریکاتۆڕ، وێنەی گاڵتەجاڕ، کاریکاتۆڕکێشی، هونەری کاریکاتۆر
+کوردی: کاریکاتۆڕ، وێنەی گاڵتەجاڕ، کاریکاتۆڕکێشی، ھونەری کاریکاتۆر
 
-١. (ناو) وێنەیەک یان وێنەیەکی کێشراوی کەسێک کە وەک گاڵتەجاڕی دەردەکەوێت بە گەورەکردنی هەندێک ڕووخسار و جەستە"""),
+١. (ناو) وێنەیەک یان وێنەیەکی کێشراوی کەسێک کە وەک گاڵتەجاڕی دەردەکەوێت بە گەورەکردنی ھەندێک ڕووخسار و جەستە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -229,7 +229,7 @@ class EnglishEntrycaricature extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) پێناسەیەکی کەسێک یان شتێک کە بە گاڵتەجاڕانە پیشانیان دەدات بە جەنختکردنەوە لە بەشێک لە خاسیەتەکانیان، یان پیشاندانی تەنها بەشێک لە خاسیەتەکانیان"),
+                                  "٢. (ناو) پێناسەیەکی کەسێک یان شتێک کە بە گاڵتەجاڕانە پیشانیان دەدات بە جەنختکردنەوە لە بەشێک لە خاسیەتەکانیان، یان پیشاندانی تەنھا بەشێک لە خاسیەتەکانیان"),
                           Row(
                             children: [
                               const Expanded(
@@ -291,7 +291,7 @@ class EnglishEntrycaricature extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) هونەری نووسین و کێشانی کاریکاتێر"),
+                                  "٤. (ناو) ھونەری نووسین و کێشانی کاریکاتێر"),
                           Row(
                             children: [
                               const Expanded(
@@ -431,10 +431,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caricature (Derived forms: caricatures)
+- Noun: caricature (derived forms: caricatures)
 1. A representation of a person that is exaggerated for comic effect (= imitation, impersonation)
 
-- Verb: caricature (Derived forms: caricatures, caricatured, caricaturing)
+- Verb: caricature (derived forms: caricatures, caricatured, caricaturing)
 1. Represent in or produce a caricature of (= ape)
 "The drawing caricatured the President";
 """,
@@ -469,7 +469,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gn2e7QVBrPw',
+    videoId: 'Gn2e7QVBrPw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_4jqLzuAvbc?t=',
+    videoId: '_4jqLzuAvbc',
     startSeconds: 52,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MMdBxa2Meeo?t=',
+    videoId: 'MMdBxa2Meeo',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yG9dARMU0ek',
+    videoId: 'yG9dARMU0ek',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CR6KercVJWg?t=',
+    videoId: 'CR6KercVJWg',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UP9aIxpnJcg?t=',
+    videoId: 'UP9aIxpnJcg',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zDW84U0sYTQ?t=',
+    videoId: 'zDW84U0sYTQ',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -644,7 +644,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cEauE_J5nqQ?t=',
+    videoId: 'cEauE_J5nqQ',
     startSeconds: 236,
     autoPlay: true,
     params: const YoutubePlayerParams(

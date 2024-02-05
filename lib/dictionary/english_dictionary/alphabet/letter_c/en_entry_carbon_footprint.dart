@@ -154,7 +154,8 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: /ˌkɑːbən ˈfʊtprɪnt/"),
+                            const IPAofEnglish(
+                                text: "IpaUK: /ˌkɑːbən ˈfʊtprɪnt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakcarbonfootprint("en-GB"),
                             ),
@@ -162,7 +163,8 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: /ˌkɑːrbən ˈfʊtprɪnt/"),
+                            const IPAofEnglish(
+                                text: "IpaUS: /ˌkɑːrbən ˈfʊtprɪnt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakcarbonfootprint("en-US"),
                             ),
@@ -191,7 +193,7 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ئەو ڕێژە لە دوانۆکسیدی کاربۆن کە کەسێک یان کۆمپانیایەک دەیکاتە بەرگەهەواوە"""),
+١. (ناو) ئەو ڕێژە لە دوانۆکسیدی کاربۆن کە کەسێک یان کۆمپانیایەک دەیکاتە بەرگەھەواوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -201,7 +203,8 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                                         text:
                                             "Flying is the biggest contribution to my carbon footprint."),
                                     ExampleSentenceKurdish(
-                                        text: "فڕین گەورەترین هۆکاری جێ‌پەنجەی کاربۆنی منە."),
+                                        text:
+                                            "فڕین گەورەترین ھۆکاری جێ‌پەنجەی کاربۆنی منە."),
                                   ],
                                 ),
                               ),
@@ -209,10 +212,12 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarbonfootprints1("en-GB"),
+                                    onPressed: () =>
+                                        speakcarbonfootprints1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarbonfootprints1("en-US"),
+                                    onPressed: () =>
+                                        speakcarbonfootprints1("en-US"),
                                   ),
                                 ],
                               ),
@@ -230,11 +235,11 @@ class EnglishEntrycarbonfootprint extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -334,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Xzv84ZdtlE0?t=',
+    videoId: 'Xzv84ZdtlE0',
     startSeconds: 1892,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -359,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rsNskDfd5CM?t=',
+    videoId: 'rsNskDfd5CM',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -384,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L2gT8fbEq54?t=',
+    videoId: 'L2gT8fbEq54',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -409,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o2dvXWX3Sdw?t=',
+    videoId: 'o2dvXWX3Sdw',
     startSeconds: 283,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -434,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X1ncuW-bLsw?t=',
+    videoId: 'X1ncuW-bLsw',
     startSeconds: 3746,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -459,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NOAgplgTxfc?t=',
+    videoId: 'NOAgplgTxfc',
     startSeconds: 1015,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -484,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lBBj-K_qfIw?t=',
+    videoId: 'lBBj-K_qfIw',
     startSeconds: 388,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -509,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YbYpbXMUsYM?t=',
+    videoId: 'YbYpbXMUsYM',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -534,7 +539,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JXxnEhD-25Q?t=',
+    videoId: 'JXxnEhD-25Q',
     startSeconds: 1123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -559,7 +564,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Hko4TrWZYI?t=',
+    videoId: '2Hko4TrWZYI',
     startSeconds: 918,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -584,7 +589,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vi7U6Cj_2aI?t=',
+    videoId: 'Vi7U6Cj_2aI',
     startSeconds: 88,
     autoPlay: true,
     params: const YoutubePlayerParams(

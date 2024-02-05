@@ -195,7 +195,7 @@ class EnglishEntrycarton extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کاریکاتۆر، کارتۆن، نەخشە 
 
-١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و هەواڵ"""),
+١. (ناو) وێنەکێشانێکی تەنزئامێز لە ڕۆژنامە یان گۆڤاردا، بەتایبەتی لەسەر سیاسەت و ھەواڵ"""),
                           Row(
                             children: [
                               const Expanded(
@@ -206,7 +206,7 @@ class EnglishEntrycarton extends StatelessWidget {
                                             "He started drawing cartoons when he was still at school."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستی بە کێشانی کارتۆن کرد کە هێشتا لە قوتابخانە بوو."),
+                                            "دەستی بە کێشانی کارتۆن کرد کە ھێشتا لە قوتابخانە بوو."),
                                   ],
                                 ),
                               ),
@@ -366,12 +366,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cartoon (Derived forms: cartoons)
+- Noun: cartoon (derived forms: cartoons)
 1. A humorous or satirical drawing published in a newspaper or magazine (= sketch)
  
 2. A film made by photographing a series of cartoon drawings to give the illusion of movement when projected in rapid sequence (= animated cartoon, toon [informal])
 
-- Verb: cartoon (Derived forms: cartooned, cartoons, cartooning)
+- Verb: cartoon (derived forms: cartooned, cartoons, cartooning)
 1. (art) draw cartoons of
 """,
   );
@@ -405,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S4ffUc9oN9o?t=',
+    videoId: 'S4ffUc9oN9o',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -430,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xy1yj5yASkE?t=',
+    videoId: 'xy1yj5yASkE',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -455,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y0-6hz9Q7c4?t=',
+    videoId: 'y0-6hz9Q7c4',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_flev6CaGaw',
+    videoId: '_flev6CaGaw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gsH1-7FHiLU?t=',
+    videoId: 'gsH1-7FHiLU',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxG24vALqNY?t=',
+    videoId: 'HxG24vALqNY',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d3b0vmK-ziY',
+    videoId: 'd3b0vmK-ziY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6IzDQzlcRac?t=',
+    videoId: '6IzDQzlcRac',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(

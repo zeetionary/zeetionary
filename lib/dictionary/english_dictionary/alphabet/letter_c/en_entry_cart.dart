@@ -198,9 +198,9 @@ class EnglishEntrycart extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: گاریە، هێلی، هێلینگە (چوارچەرخ)، داشقە، فەڕغوون، عەرەبانە، دەستەبەر
+کوردی: گاریە، ھێلی، ھێلینگە (چوارچەرخ)، داشقە، فەڕغوون، عەرەبانە، دەستەبەر
 
-١. (ناو) عەرەبانەیەک کە دوو یان چوار ویلی هەیە و ئەسپێک ڕایدەکێشێت"""),
+١. (ناو) عەرەبانەیەک کە دوو یان چوار ویلی ھەیە و ئەسپێک ڕایدەکێشێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -239,7 +239,7 @@ class EnglishEntrycart extends StatelessWidget {
                                             "An ox cart made its way through the village."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "عەرەبانەی گامێشێک هاتە گوندەکە."),
+                                            "عەرەبانەی گامێشێک ھاتە گوندەکە."),
                                   ],
                                 ),
                               ),
@@ -290,7 +290,7 @@ class EnglishEntrycart extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) گالیسکەیەکی کە بۆ هەڵگرتنی شت بەکاردێت"),
+                                  "٣. (ناو) گالیسکەیەکی کە بۆ ھەڵگرتنی شت بەکاردێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -301,7 +301,7 @@ class EnglishEntrycart extends StatelessWidget {
                                             "We'll need a shopping cart because we need a lot of items."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پێویستیمان بە گالیسکەیەکی بازاڕکردن هەیە چونکە شتی زۆرمان پێویستە."),
+                                            "پێویستیمان بە گالیسکەیەکی بازاڕکردن ھەیە چونکە شتی زۆرمان پێویستە."),
                                   ],
                                 ),
                               ),
@@ -361,7 +361,7 @@ class EnglishEntrycart extends StatelessWidget {
                                             "The rubbish is then carted away for recycling."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زباڵەکە دواتر دەگوازرێتەوە بۆ دووبارە بەکارهێنان."),
+                                            "زباڵەکە دواتر دەگوازرێتەوە بۆ دووبارە بەکارھێنان."),
                                   ],
                                 ),
                               ),
@@ -381,7 +381,7 @@ class EnglishEntrycart extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) هەڵگرتنی شتێک کە گەورە و قورسە"),
+                                  "٦. (کردار) ھەڵگرتنی شتێک کە گەورە و قورسە"),
                           Row(
                             children: [
                               const Expanded(
@@ -392,7 +392,7 @@ class EnglishEntrycart extends StatelessWidget {
                                             "We had to cart our luggage up six flights of stairs."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەبوو کەلوپەلەکەمان شەش ڕیزەپلیکانە هەڵبگرین."),
+                                            "دەبوو کەلوپەلەکەمان شەش ڕیزەپلیکانە ھەڵبگرین."),
                                   ],
                                 ),
                               ),
@@ -522,13 +522,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cart (Derived forms: carts)
+- Noun: cart (derived forms: carts)
 1. A heavy open wagon usually having two wheels and drawn by an animal
  
 2. Wheeled vehicle that can be pushed by a person; may have one, two or four wheels (= handcart, pushcart, go-cart)
 "he used a cart to carry the rocks away";
 
-- Verb: cart (Derived forms: carts, carted, carting)
+- Verb: cart (derived forms: carts, carted, carting)
 1. Draw slowly or heavily (= haul, hale [archaic], drag)
 "cart stones";
 
@@ -565,7 +565,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QfQs4LLYIsw?t=',
+    videoId: 'QfQs4LLYIsw',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -590,7 +590,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J4hd7cN3gCI',
+    videoId: 'J4hd7cN3gCI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -615,7 +615,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nzLxWpxrYuo?t=',
+    videoId: 'nzLxWpxrYuo',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -640,7 +640,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_jrTq2aMvoQ?t=',
+    videoId: '_jrTq2aMvoQ',
     startSeconds: 509,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -665,7 +665,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QP7wLxsHnUg?t=',
+    videoId: 'QP7wLxsHnUg',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -690,7 +690,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mhjQblx6atw?t=',
+    videoId: 'mhjQblx6atw',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -715,7 +715,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NaYZKfPIzqE?t=',
+    videoId: 'NaYZKfPIzqE',
     startSeconds: 39,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -740,7 +740,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gCva75a8ATQ?t=',
+    videoId: 'gCva75a8ATQ',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -765,7 +765,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C7Vig7sU4kQ?t=',
+    videoId: 'C7Vig7sU4kQ',
     startSeconds: 91,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -790,7 +790,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ATDNSlWOuDk?t=',
+    videoId: 'ATDNSlWOuDk',
     startSeconds: 1868,
     autoPlay: true,
     params: const YoutubePlayerParams(

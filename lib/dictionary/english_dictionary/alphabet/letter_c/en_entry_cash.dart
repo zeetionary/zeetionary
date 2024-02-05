@@ -293,7 +293,7 @@ class EnglishEntrycash extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) پارە بە هەموو جۆرەکانییەوە"),
+                              text: "٢. (ناو) پارە بە ھەموو جۆرەکانییەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -487,13 +487,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cash (Derived forms: cashes)
+- Noun: cash (derived forms: cashes)
 1. Money in the form of bills or coins (= hard cash, hard currency)
 "there is a desperate shortage of hard cash";
  
 2. Prompt payment for goods or services in currency or by check (= immediate payment)
 
-- Verb: cash (Derived forms: cashing, cashes, cashed)
+- Verb: cash (derived forms: cashing, cashes, cashed)
 1. Exchange for money (bills or coins) (= cash in)
 "I cashed the check as soon as it arrived in the mail";
 
@@ -531,7 +531,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lobt6X0s-fk?t=',
+    videoId: 'lobt6X0s-fk',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -556,7 +556,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W71I8h9ajdc',
+    videoId: 'W71I8h9ajdc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -581,7 +581,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/js34q_Zt1jw?t=',
+    videoId: 'js34q_Zt1jw',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -606,7 +606,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HSEwoPYFwew?t=',
+    videoId: 'HSEwoPYFwew',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -631,7 +631,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s-NRcJFClzQ?t=',
+    videoId: 's-NRcJFClzQ',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -656,7 +656,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tJrYk2-UXCE?t=',
+    videoId: 'tJrYk2-UXCE',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -681,7 +681,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-8Z70fNCqR4?t=',
+    videoId: '-8Z70fNCqR4',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -706,7 +706,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/btljR4Wzydg?t=',
+    videoId: 'btljR4Wzydg',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -171,7 +171,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                             ),
                           ),
                           leading: Icon(
-                            Icons.question_answer,
+                            Icons.quiz,
                             color: Theme.of(context).primaryColor,
                           ),
                           onTap: () {
@@ -320,7 +320,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                 },
               ),
               IconButton(
-                icon: const Icon(Icons.bookmarks),
+                icon: const Icon(Icons.favorite_border),
                 onPressed: () {
                   Routemaster.of(context).push('/bookmarks-screen');
                 },

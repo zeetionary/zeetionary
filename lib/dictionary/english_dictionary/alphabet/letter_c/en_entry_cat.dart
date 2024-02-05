@@ -194,9 +194,9 @@ class EnglishEntrycat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پشیلە، پسیک، پسک، پش، پشی، دهلک، کتک، تیرەپشیلە
+کوردی: پشیلە، پسیک، پسک، پش، پشی، دھلک، کتک، تیرەپشیلە
 
-١. (ناو) ئاژەڵێکی بچووک کە فەرووی نەرمی هەیە و خەڵک زۆرجار وەک ماڵی ڕایدەگرن"""),
+١. (ناو) ئاژەڵێکی بچووک کە فەرووی نەرمی ھەیە و خەڵک زۆرجار وەک ماڵی ڕایدەگرن"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycat extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "I have a cat called Bo."),
                                     ExampleSentenceKurdish(
-                                        text: "پشیلەیەکم هەیە بەناوی بەو."),
+                                        text: "پشیلەیەکم ھەیە بەناوی بەو."),
                                   ],
                                 ),
                               ),
@@ -294,7 +294,7 @@ class EnglishEntrycat extends StatelessWidget {
                                                     "The cat was in constant pain so they had it put down."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "پشیلەکە لە ئازاری بەردەوام بوو بۆیە کۆتاییان پێهێنا (کوشتیان بە ڕێگەی دەرزی تەندرووستی)."),
+                                                    "پشیلەکە لە ئازاری بەردەوام بوو بۆیە کۆتاییان پێھێنا (کوشتیان بە ڕێگەی دەرزی تەندرووستی)."),
                                           ],
                                         ),
                                       ),
@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cat (Derived forms: cats)
+- Noun: cat (derived forms: cats)
 1. Feline mammal usually having thick soft fur; includes domestic cats, lions and tigers (= true cat)
  
 2. A domesticated cat, commonly kept as a pet (= domestic cat, house cat, Felis domesticus, Felis catus, kitty [informal], kitty-cat [informal], puss [informal], pussy [informal], pussycat [informal], mog [Brit, informal], moggie [Brit, informal], moggy [Brit, informal])
@@ -480,7 +480,7 @@ ${englishMeaningConst.text}
 8. (trademark) a large tracked vehicle that is propelled by two endless metal belts; frequently used for moving earth in construction and farm work
 - Caterpillar
 
-- Verb: cat (Derived forms: cats, catted, catting)
+- Verb: cat (derived forms: cats, catted, catting)
 1. Beat with a cat-o'-nine-tails
  
 2. [informal] Eject the contents of the stomach through the mouth (= vomit, vomit up, purge, sick, be sick, disgorge, regorge [archaic], retch, barf [informal], spew [informal], spue [archaic], chuck [informal], upchuck [N. Amer, informal], honk [Brit, informal], regurgitate, throw up, vom [informal], keck [informal], hurl [informal], chuck up [Brit, informal], chunder [Brit, informal], boke [UK, dialect], boak [UK, dialect])
@@ -521,7 +521,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4H3mtSGZImY?t=',
+    videoId: '4H3mtSGZImY',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/B9heMNRGp5c',
+    videoId: 'B9heMNRGp5c',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -571,7 +571,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tjrYHDBoFy0?t=',
+    videoId: 'tjrYHDBoFy0',
     startSeconds: 351,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -596,7 +596,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rn1WnrH-pdw?t=',
+    videoId: 'Rn1WnrH-pdw',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -621,7 +621,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o_GCxjP1OYk?t=',
+    videoId: 'o_GCxjP1OYk',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -646,7 +646,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-QPAdnHPocQ?t=',
+    videoId: '-QPAdnHPocQ',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -671,7 +671,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m0i1gjBvnHU',
+    videoId: 'm0i1gjBvnHU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -696,7 +696,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(

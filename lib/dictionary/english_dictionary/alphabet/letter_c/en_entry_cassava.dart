@@ -191,7 +191,7 @@ class EnglishEntrycassava extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ڕووەکێکی خولگەیی کە لقی زۆر و ڕیشکی درێژی هەیە و دەکرێت بخوردرێت، یان ڕەگەکەی کە دەکرێت بکوڵێندرێت، ببرژێندرێت، یان بکرێت بە ئارد"""),
+١. (ناو) ڕووەکێکی خولگەیی کە لقی زۆر و ڕیشکی درێژی ھەیە و دەکرێت بخوردرێت، یان ڕەگەکەی کە دەکرێت بکوڵێندرێت، ببرژێندرێت، یان بکرێت بە ئارد"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycassava extends StatelessWidget {
                                             "During the cooking class, the chef demonstrated how to prepare a delicious stew using cassava as a key ingredient."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارهێنانی کساڤە وەک ڕەچەتەی سەرەکی."),
+                                            "لە کاتی وانەی چێشت‌لێنانەکەدا، شێفەکە ڕوونی‌کردەوە کە چۆن ژەمێکی بەلەزەت درووست بکرێت بە بەکارھێنانی کساڤە وەک ڕەچەتەی سەرەکی."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cassava (Derived forms: cassavas)
+- Noun: cassava (derived forms: cassavas)
 1. Any of several plants of the genus Manihot having fleshy roots yielding a nutritious starch (= casava)
  
 2. Cassava root eaten as a staple food after drying and leaching; source of tapioca (= manioc)
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zVtlR4cwqRs?t=',
+    videoId: 'zVtlR4cwqRs',
     startSeconds: 49,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hZ2GkxHePpk?t=',
+    videoId: 'hZ2GkxHePpk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UdJAL7J7w6w?t=',
+    videoId: 'UdJAL7J7w6w',
     startSeconds: 71,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-Pq0Sa2zMMM?t=',
+    videoId: '-Pq0Sa2zMMM',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JUR7_EmUy1k?t=',
+    videoId: 'JUR7_EmUy1k',
     startSeconds: 92,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m4jJsseY2Ic?t=',
+    videoId: 'm4jJsseY2Ic',
     startSeconds: 665,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XwsFCagEKrc?t=',
+    videoId: 'XwsFCagEKrc',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hY-rU-pj_4g?t=',
+    videoId: 'hY-rU-pj_4g',
     startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(

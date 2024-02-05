@@ -29,8 +29,8 @@ class EnglishEntrycasserole extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Is there any casserole left?"); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Is there any casserole left?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasseroles2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycasserole extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Place the chicken pieces in the bottom of a large casserole."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Place the chicken pieces in the bottom of a large casserole."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasseroles3(String languageCode) async {
@@ -193,17 +194,16 @@ class EnglishEntrycasserole extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (کاسە) پیرێکس، دیزە، تیلکە، قابلمەمە، کەسێرۆل
 
-١. (ناو) ژەمە خواردنێکی گەرم کە لە گۆشت و سەوزە، هتد و بە هێواشی لە شلەدا لە فڕنێک لێ دەنرێت"""),
+١. (ناو) ژەمە خواردنێکی گەرم کە لە گۆشت و سەوزە، ھتد و بە ھێواشی لە شلەدا لە فڕنێک لێ دەنرێت"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Is there any casserole left?"),
+                                        text: "Is there any casserole left?"),
                                     ExampleSentenceKurdish(
-                                        text: "هیچ کاسرۆڵم بۆ ماوە؟"),
+                                        text: "ھیچ کاسرۆڵم بۆ ماوە؟"),
                                   ],
                                 ),
                               ),
@@ -221,32 +221,35 @@ class EnglishEntrycasserole extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) تاوەیەک کە سەری هەیە و بەکاردێت بۆ لێنانی گۆشت، هتد لە فڕندا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) تاوەیەک کە سەری ھەیە و بەکاردێت بۆ لێنانی گۆشت، ھتد لە فڕندا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Place the chicken pieces in the bottom of a large casserole."),
-                          ExampleSentenceKurdish(
-                          text: "بەشەکانی مریشکەکە لە خوارەوەی تاوە گەورەکە دابنێ."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasseroles2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasseroles2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Place the chicken pieces in the bottom of a large casserole."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەشەکانی مریشکەکە لە خوارەوەی تاوە گەورەکە دابنێ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasseroles2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasseroles2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -260,11 +263,11 @@ class EnglishEntrycasserole extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -330,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: casserole (Derived forms: casseroled, casseroles, casseroling)
+- Noun: casserole (derived forms: casseroled, casseroles, casseroling)
 1. Large deep dish in which food can be cooked and served
  
 2. Food cooked and served in a casserole
@@ -369,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1Oycl_eHxIE?t=',
+    videoId: '1Oycl_eHxIE',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mf4wwXM2o_M?t=',
+    videoId: 'Mf4wwXM2o_M',
     startSeconds: 699,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Li0E9K9naqY?t=',
+    videoId: 'Li0E9K9naqY',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1n35UZMtaIg?t=',
+    videoId: '1n35UZMtaIg',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zUF1BC4XtQI?t=',
+    videoId: 'zUF1BC4XtQI',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o4mERYo9edo',
+    videoId: 'o4mERYo9edo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zPge1z1LH2M?t=',
+    videoId: 'zPge1z1LH2M',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DI6ClPG6hLg?t=',
+    videoId: 'DI6ClPG6hLg',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +572,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CDauB4BTJHw?t=',
+    videoId: 'CDauB4BTJHw',
     startSeconds: 514,
     autoPlay: true,
     params: const YoutubePlayerParams(

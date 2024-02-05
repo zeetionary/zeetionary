@@ -29,8 +29,8 @@ class EnglishEntrycartilage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "I’ve damaged the cartilage in my knee."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I’ve damaged the cartilage in my knee."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcartilages2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycartilage extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He has a torn cartilage in his knee."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He has a torn cartilage in his knee."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcartilages3(String languageCode) async {
@@ -193,7 +194,7 @@ class EnglishEntrycartilage extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کڕکڕاگە، کرۆژە، خرمووکە، خرمووچک، چەق، ڕەقێنە
 
-١. (ناو) شانەیەکی بەهێزی سپی کە گرنگە لە پشتگیری و پێکەوەبەستنی بەشەکانی جەستە، و بەتایبەتی لە دەمارەکاندا بۆ ڕێگری لە لێکخشانی جومگەکان دژ بە یەک"""),
+١. (ناو) شانەیەکی بەھێزی سپی کە گرنگە لە پشتگیری و پێکەوەبەستنی بەشەکانی جەستە، و بەتایبەتی لە دەمارەکاندا بۆ ڕێگری لە لێکخشانی جومگەکان دژ بە یەک"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +204,8 @@ class EnglishEntrycartilage extends StatelessWidget {
                                         text:
                                             "I’ve damaged the cartilage in my knee."),
                                     ExampleSentenceKurdish(
-                                        text: "کڕکڕاگەی چۆکم ئازاری پێگەشتووە."),
+                                        text:
+                                            "کڕکڕاگەی چۆکم ئازاری پێگەشتووە."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycartilage extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He has a torn cartilage in his knee."),
-                          ExampleSentenceKurdish(
-                          text: "کڕکڕاگەیەکی شکاو لە ئەژنۆیدایە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcartilages2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcartilages2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He has a torn cartilage in his knee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کڕکڕاگەیەکی شکاو لە ئەژنۆیدایە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcartilages2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcartilages2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -259,11 +262,11 @@ class EnglishEntrycartilage extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cartilage (Derived forms: cartilages)
+- Noun: cartilage (derived forms: cartilages)
 1. Tough elastic tissue; mostly converted to bone in adults (= gristle)
 """,
   );
@@ -363,7 +366,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GbP43DPMknA?t=',
+    videoId: 'GbP43DPMknA',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +391,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jSlP4l5Vvm8?t=',
+    videoId: 'jSlP4l5Vvm8',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +416,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nmbq9R-Kl8k?t=',
+    videoId: 'nmbq9R-Kl8k',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +441,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gGUzvlp5TBM?t=',
+    videoId: 'gGUzvlp5TBM',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +466,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pK-Nz_XgFyA?t=',
+    videoId: 'pK-Nz_XgFyA',
     startSeconds: 211,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +491,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lj9DvqrGnRQ',
+    videoId: 'lj9DvqrGnRQ',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +516,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KRR1hE4c1W8?t=',
+    videoId: 'KRR1hE4c1W8',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +541,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RvinII0e0Yg?t=',
+    videoId: 'RvinII0e0Yg',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(

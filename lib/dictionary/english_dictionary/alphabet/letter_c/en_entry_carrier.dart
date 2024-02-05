@@ -194,7 +194,7 @@ class EnglishEntrycarrier extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هەڵگر، کۆڵکێش، کۆمپانی گوێزانەوە، ناوکۆیی ڕاگوێستن، ڕاگوێزەر (نەخۆشی)، نامەبەر، ـهەڵگر، ـبەر، کەشتی فڕۆکەهەڵگر، (دووچەرخە) پاشتەرک، (ماشێن) باربەست، باربەند، کەل‌وپەل‌هەڵگر
+کوردی: ھەڵگر، کۆڵکێش، کۆمپانی گوێزانەوە، ناوکۆیی ڕاگوێستن، ڕاگوێزەر (نەخۆشی)، نامەبەر، ـھەڵگر، ـبەر، کەشتی فڕۆکەھەڵگر، (دووچەرخە) پاشتەرک، (ماشێن) باربەست، باربەند، کەل‌وپەل‌ھەڵگر
 
 ١. (ناو) کۆمپانیای گواستنەوە، بەتایبەتی بە فڕۆکە"""),
                           Row(
@@ -207,7 +207,7 @@ class EnglishEntrycarrier extends StatelessWidget {
                                             "Delta Air Lines is the third-largest carrier in the US."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا."),
+                                            "ھێڵی ئاسمانی دەلتا سێیەم گەورەترینە کۆمپانیای گوێزانەوەیە لە ئەمرکادا."),
                                   ],
                                 ),
                               ),
@@ -258,7 +258,7 @@ class EnglishEntrycarrier extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) کەسێک کە هەڵگری نەخۆشییەکە و دەیگوازێتەوە"),
+                                  "٣. (ناو) کەسێک کە ھەڵگری نەخۆشییەکە و دەیگوازێتەوە"),
                           Row(
                             children: [
                               const Expanded(
@@ -269,7 +269,7 @@ class EnglishEntrycarrier extends StatelessWidget {
                                             "In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە پەتاناسیدا، دۆزینەوەی هەڵگرەکە گرنگە بۆ کۆنترۆڵی بڵاوبوونەوەی نەخۆشیی ڕاگوێزەر."),
+                                            "لە پەتاناسیدا، دۆزینەوەی ھەڵگرەکە گرنگە بۆ کۆنترۆڵی بڵاوبوونەوەی نەخۆشیی ڕاگوێزەر."),
                                   ],
                                 ),
                               ),
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carrier (Derived forms: carriers)
+- Noun: carrier (derived forms: carriers)
 1. Someone whose employment involves carrying something (= bearer, toter)
 "the bonds were transmitted by carrier";
 
@@ -455,7 +455,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/S3zbzpVBZDc?t=',
+    videoId: 'S3zbzpVBZDc',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -480,7 +480,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/01o0A4yGkrg?t=',
+    videoId: '01o0A4yGkrg',
     startSeconds: 115,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -505,7 +505,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/m53SzTBISGg?t=',
+    videoId: 'm53SzTBISGg',
     startSeconds: 410,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -530,7 +530,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lhK7hMBli4s?t=',
+    videoId: 'lhK7hMBli4s',
     startSeconds: 680,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -555,7 +555,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W38uNEq5wjs?t=',
+    videoId: 'W38uNEq5wjs',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -580,7 +580,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_Ih7djq6xmo?t=',
+    videoId: '_Ih7djq6xmo',
     startSeconds: 417,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -605,7 +605,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gjIv_u4zmck?t=',
+    videoId: 'gjIv_u4zmck',
     startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -630,7 +630,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/olnVwQzQZRs?t=',
+    videoId: 'olnVwQzQZRs',
     startSeconds: 307,
     autoPlay: true,
     params: const YoutubePlayerParams(

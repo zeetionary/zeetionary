@@ -29,8 +29,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "He was carrying a large bag."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was carrying a large bag."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys2(String languageCode) async {
@@ -38,7 +38,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The plane was carrying 122 passengers and five crew."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The plane was carrying 122 passengers and five crew."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She carried her baby in her arms."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("She carried her baby in her arms."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("These books are too heavy for me to carry."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "These books are too heavy for me to carry."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Police in many countries carry guns."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Police in many countries carry guns."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("I never carry much money on me."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("I never carry much money on me."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys7(String languageCode) async {
@@ -78,7 +83,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The veins carry blood to the heart."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("The veins carry blood to the heart."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys8(String languageCode) async {
@@ -86,7 +92,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Canals were built to carry water from the Snake River to Milner Dam in 1905."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Canals were built to carry water from the Snake River to Milner Dam in 1905."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys9(String languageCode) async {
@@ -94,7 +101,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Ticks can carry a nasty disease which affects humans."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Ticks can carry a nasty disease which affects humans."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys10(String languageCode) async {
@@ -102,7 +110,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He will carry the memory of the accident with him for ever."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He will carry the memory of the accident with him for ever."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys11(String languageCode) async {
@@ -110,7 +119,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A road bridge has to carry a lot of traffic."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A road bridge has to carry a lot of traffic."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys12(String languageCode) async {
@@ -118,7 +128,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He is carrying the department."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He is carrying the department."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys13(String languageCode) async {
@@ -126,15 +137,17 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She carries a full load of classes while also serving as department head."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She carries a full load of classes while also serving as department head."); // DOPSUM: CHANGE TEXT
   }
 
-    Future<void> speakcarrys14(String languageCode) async {
+  Future<void> speakcarrys14(String languageCode) async {
     // DOPSUM: CHANGE speakcarry
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Each bike carries a ten-year guarantee."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Each bike carries a ten-year guarantee."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys15(String languageCode) async {
@@ -142,7 +155,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Crimes of violence carry heavy penalties."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Crimes of violence carry heavy penalties."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys16(String languageCode) async {
@@ -150,7 +164,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The charge carries a maximum sentence of ten years."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The charge carries a maximum sentence of ten years."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys17(String languageCode) async {
@@ -158,7 +173,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The ball carried 50 metres into the crowd."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The ball carried 50 metres into the crowd."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys18(String languageCode) async {
@@ -166,7 +182,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The sound of the explosion carried for miles."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The sound of the explosion carried for miles."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys19(String languageCode) async {
@@ -174,7 +191,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The war was carried into enemy territory."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The war was carried into enemy territory."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys20(String languageCode) async {
@@ -182,7 +200,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Her abilities carried her to the top of her profession."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Her abilities carried her to the top of her profession."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys21(String languageCode) async {
@@ -190,7 +209,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The resolution was carried by 340 votes to 210."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The resolution was carried by 340 votes to 210."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys22(String languageCode) async {
@@ -198,7 +218,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His moving speech was enough to carry the audience."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His moving speech was enough to carry the audience."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys23(String languageCode) async {
@@ -206,7 +227,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She nodded in agreement, and he saw he had carried his point."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She nodded in agreement, and he saw he had carried his point."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys24(String languageCode) async {
@@ -214,7 +236,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Cigarettes carry a health warning."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Cigarettes carry a health warning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys25(String languageCode) async {
@@ -222,7 +245,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("This morning's newspapers all carry the same story on their front page."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "This morning's newspapers all carry the same story on their front page."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys26(String languageCode) async {
@@ -230,7 +254,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We do carry green tea, but we don't have any (in stock) right now."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We do carry green tea, but we don't have any (in stock) right now."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys27(String languageCode) async {
@@ -246,7 +271,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She carries herself with the poise of a model."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She carries herself with the poise of a model."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys29(String languageCode) async {
@@ -254,7 +280,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("We did a carry of equipment from the camp."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "We did a carry of equipment from the camp."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys30(String languageCode) async {
@@ -262,7 +289,8 @@ class EnglishEntrycarry extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Each state makes its own laws concerning the carry of weapons."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Each state makes its own laws concerning the carry of weapons."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrys31(String languageCode) async {
@@ -487,17 +515,16 @@ class EnglishEntrycarry extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (کردار) هەڵگرتن"""),
+١. (کردار) ھەڵگرتن"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "He was carrying a large bag."),
+                                        text: "He was carrying a large bag."),
                                     ExampleSentenceKurdish(
-                                        text: "تورەگەیەکی گەورەی هەڵگرتبوو."),
+                                        text: "تورەگەیەکی گەورەی ھەڵگرتبوو."),
                                   ],
                                 ),
                               ),
@@ -516,813 +543,875 @@ class EnglishEntrycarry extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The plane was carrying 122 passengers and five crew."),
-                          ExampleSentenceKurdish(
-                          text: "فڕۆکەکە ١٢٢ گەشتیار و پێنج ئەندامی تاقمەکەی هەڵگرتبوو."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The plane was carrying 122 passengers and five crew."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فڕۆکەکە ١٢٢ گەشتیار و پێنج ئەندامی تاقمەکەی ھەڵگرتبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys2("en-GB"),
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "She carried her baby in her arms."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "منداڵەکەیی لە باوەشیدا ھەڵگرتبوو."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcarrys3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcarrys3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "These books are too heavy for me to carry."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "ئەم کتێبانە زۆر قوورسن بۆم کە ھەڵیان بگرم."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcarrys4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcarrys4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (کردار) بردنی شتێک لەگەڵ خۆتدا بۆ ھەموو شوێنێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She carried her baby in her arms."),
-                          ExampleSentenceKurdish(
-                          text: "منداڵەکەیی لە باوەشیدا هەڵگرتبوو."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Police in many countries carry guns."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پۆلیس لە زۆر وڵاتدا چەک ھەڵدەگرن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "These books are too heavy for me to carry."),
-                          ExampleSentenceKurdish(
-                          text: "ئەم کتێبانە زۆر قوورسن بۆم کە هەڵیان بگرم."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "I never carry much money on me."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەرگیز پارەی زۆر لەگەڵ خۆم ھەڵناگرم."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (کردار) بردنی شتێک لەگەڵ خۆتدا بۆ هەموو شوێنێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (کردار) ھەبوونی ئاو، کارەبا، ھتد تێیدا و گواستنەوەی"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Police in many countries carry guns."),
-                          ExampleSentenceKurdish(
-                          text: "پۆلیس لە زۆر وڵاتدا چەک هەڵدەگرن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The veins carry blood to the heart."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "خوێنھێنەرەکان خوێن دەبەن بۆ دڵ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "I never carry much money on me."),
-                          ExampleSentenceKurdish(
-                          text: "هەرگیز پارەی زۆر لەگەڵ خۆم هەڵناگرم."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Canals were built to carry water from the Snake River to Milner Dam in 1905."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە ساڵی ١٩٠٥ نۆکەند درووستکرا بۆ گواستنەوەی ئاو لە ڕووباری سنەیکەوە بۆ بەنداوی میلنەر."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (کردار) هەبوونی ئاو، کارەبا، هتد تێیدا و گواستنەوەی"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٤. (کردار) کەسێک کە نەخۆشییەکی گرتووە و توانای گواستنەوەی ھەیە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The veins carry blood to the heart."),
-                          ExampleSentenceKurdish(
-                          text: "خوێنهێنەرەکان خوێن دەبەن بۆ دڵ."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Ticks can carry a nasty disease which affects humans."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گەنە دەکرێت نەخۆشی پیس ھەڵبگرن کە دەشێت مرۆڤ تووش بکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (کردار) ھەبوونی توانای بیرکەوتنەوەی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He will carry the memory of the accident with him (= will remember the accident) for ever."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یادەوەری ڕووداوەکە بۆ ھەمیشە لە مێشکیدا ھەڵدەگرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys10("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys10("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys7("en-GB"),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "٦. (کردار) ھەڵگرتنی کێشی شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A road bridge has to carry a lot of traffic."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "پردی ڕێگایەک دەبێت بەرگەی ھاتووچۆی زۆر بگرێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys11("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys11("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٧. (کردار) ھەڵگرتنی بەرپرسیاریەتی بۆ شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He is carrying the department (= it is only working because of his efforts)."),
+                                    ExampleSentenceKurdish(
+                                        text: "بەرپرسی بەشەکەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys12("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys12("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Canals were built to carry water from the Snake River to Milner Dam in 1905."),
-                          ExampleSentenceKurdish(
-                          text: "لە ساڵی ١٩٠٥ نۆکەند درووستکرا بۆ گواستنەوەی ئاو لە ڕووباری سنەیکەوە بۆ بەنداوی میلنەر."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (کردار) کەسێک کە نەخۆشییەکی گرتووە و توانای گواستنەوەی هەیە"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Ticks can carry a nasty disease which affects humans."),
-                          ExampleSentenceKurdish(
-                          text: "گەنە دەکرێت نەخۆشی پیس هەڵبگرن کە دەشێت مرۆڤ تووش بکات."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She carries a full load of classes while also serving as department head."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "یەک دونیا وانەی ھەیە لەکاتێکدا سەرۆک بەشیشە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys13("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys13("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (کردار) هەبوونی توانای بیرکەوتنەوەی شتێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٨. (کردار) ھەبوونی خاسیەتێک یان تایبەتمەندییەک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He will carry the memory of the accident with him (= will remember the accident) for ever."),
-                          ExampleSentenceKurdish(
-                          text: "یادەوەری ڕووداوەکە بۆ هەمیشە لە مێشکیدا هەڵدەگرێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys10("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys10("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Each bike carries a ten-year guarantee."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر پاسکیلێک ١٠ ساڵ زەمانی لەگەڵە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys14("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٦. (کردار) هەڵگرتنی کێشی شتێک"),
+                          const DefinitionKurdish(
+                              text: "٩. (کردار) ھەبوونی شت لە ئەنجامدا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "A road bridge has to carry a lot of traffic."),
-                          ExampleSentenceKurdish(
-                          text: "پردی ڕێگایەک دەبێت بەرگەی هاتووچۆی زۆر بگرێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys11("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys11("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٧. (کردار) هەڵگرتنی بەرپرسیاریەتی بۆ شتێک"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He is carrying the department (= it is only working because of his efforts)."),
-                          ExampleSentenceKurdish(
-                          text: "بەرپرسی بەشەکەیە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys12("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Crimes of violence carry heavy penalties."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاوانی توندوتیژی سزای توندی لەسەرە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys15("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys15("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She carries a full load of classes while also serving as department head."),
-                          ExampleSentenceKurdish(
-                          text: "یەک دونیا وانەی هەیە لەکاتێکدا سەرۆک بەشیشە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys13("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٨. (کردار) هەبوونی خاسیەتێک یان تایبەتمەندییەک"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Each bike carries a ten-year guarantee."),
-                          ExampleSentenceKurdish(
-                          text: "هەر پاسکیلێک ١٠ ساڵ زەمانی لەگەڵە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys14("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The charge carries a maximum sentence of ten years."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تاوانەکە سزای زیندانی ئەوپەڕی بۆ ١٠ ساڵی لەسەرە ."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys16("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys16("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٩. (کردار) هەبوونی شت لە ئەنجامدا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٠. (کردار) بڕینی مەودایەک لە دوای فڕێدان"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Crimes of violence carry heavy penalties."),
-                          ExampleSentenceKurdish(
-                          text: "تاوانی توندوتیژی سزای توندی لەسەرە."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The ball carried 50 metres into the crowd."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تۆپەکە ٥٠ مەتر چووە ناو جەماوەرەکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys17("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys17("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text: "١١. (کردار) چوونی دەنگێک بۆ مەودایەک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The sound of the explosion carried for miles."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دەنگی تەقینەوەکە بۆ چەندین میل چوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys18("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys18("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys15("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٢. (کردار) بردنی کەسێک یان شتێک بۆ خاڵێکی دیاریکراو، یان بە ئاراستەیەکی دیاریکراودا"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The war was carried into enemy territory."),
+                                    ExampleSentenceKurdish(
+                                        text: "جەنگەکە بردرایە ناوچەی دووژمن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys19("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys19("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The charge carries a maximum sentence of ten years."),
-                          ExampleSentenceKurdish(
-                          text: "تاوانەکە سزای زیندانی ئەوپەڕی بۆ ١٠ ساڵی لەسەرە ."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys16("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys16("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٠. (کردار) بڕینی مەودایەک لە دوای فڕێدان"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The ball carried 50 metres into the crowd."),
-                          ExampleSentenceKurdish(
-                          text: "تۆپەکە ٥٠ مەتر چووە ناو جەماوەرەکە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys17("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys17("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Her abilities carried her to the top of her profession."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تواناکانی گەیاندییە لوتکەی کارەکەی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys20("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys20("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١١. (کردار) چوونی دەنگێک بۆ مەودایەک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٣. (کردار) پەسەندکردنی شتێک بە ھەبوونی خەڵکی زیاتر دەنگی پێبدەن وەک لەوەی دژی بن"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The sound of the explosion carried for miles."),
-                          ExampleSentenceKurdish(
-                          text: "دەنگی تەقینەوەکە بۆ چەندین میل چوو."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys18("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys18("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The resolution was carried by 340 votes to 210."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخشە ڕێگاکە بە دەنگی ٣٤٠ د بە ٢١٠ پەسەندکرا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys21("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys21("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٢. (کردار) بردنی کەسێک یان شتێک بۆ خاڵێکی دیاریکراو، یان بە ئاراستەیەکی دیاریکراودا"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٤. (کردار) بردنەوەی پشتگیری یان ھاوسۆزی کەسێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The war was carried into enemy territory."),
-                          ExampleSentenceKurdish(
-                          text: "جەنگەکە بردرایە ناوچەی دووژمن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys19("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys19("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His moving speech was enough to carry the audience."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "وتارەکەی بەس بوو بۆ بردنەوەی گوێگران."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys22("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys22("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Her abilities carried her to the top of her profession."),
-                          ExampleSentenceKurdish(
-                          text: "تواناکانی گەیاندییە لوتکەی کارەکەی."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys20("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys20("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٣. (کردار) پەسەندکردنی شتێک بە هەبوونی خەڵکی زیاتر دەنگی پێبدەن وەک لەوەی دژی بن"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The resolution was carried by 340 votes to 210."),
-                          ExampleSentenceKurdish(
-                          text: "نەخشە ڕێگاکە بە دەنگی ٣٤٠ د بە ٢١٠ پەسەندکرا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys21("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys21("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She nodded in agreement, and he saw he had carried his point."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ڕازیبوونەوە سەری لەقاند، و کوڕەکە بینی کە پەیامەکەی گەیاند."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys23("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys23("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٤. (کردار) بردنەوەی پشتگیری یان هاوسۆزی کەسێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٥. (کردار) ھەبوونی پەیامێک یان زانیارییەک لکاو پێوە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "His moving speech was enough to carry the audience."),
-                          ExampleSentenceKurdish(
-                          text: "وتارەکەی بەس بوو بۆ بردنەوەی گوێگران."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys22("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys22("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She nodded in agreement, and he saw he had carried his point."),
-                          ExampleSentenceKurdish(
-                          text: "بە ڕازیبوونەوە سەری لەقاند، و کوڕەکە بینی کە پەیامەکەی گەیاند."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys23("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys23("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Cigarettes carry a health warning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جگەرە ھۆژدارییەکی تەندرووستی پێوەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys24("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys24("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٥. (کردار) هەبوونی پەیامێک یان زانیارییەک لکاو پێوە"),
+                          const DefinitionKurdish(
+                              text: "١٦. (کردار) بڵاوکردنەوەی ھەواڵێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Cigarettes carry a health warning."),
-                          ExampleSentenceKurdish(
-                          text: "جگەرە هۆژدارییەکی تەندرووستی پێوەیە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys24("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys24("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "This morning's newspapers all carry the same story on their front page."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ڕۆژنامەکانی ئەم بەیانییە ھەموو ھەمان ھەواڵیان بڵاوکردووە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys25("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys25("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٦. (کردار) بڵاوکردنەوەی هەواڵێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٧. (کردار) ھەبوونی شتێک بۆ فرۆشتن لە فرۆشگایەکدا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "This morning's newspapers all carry the same story on their front page."),
-                          ExampleSentenceKurdish(
-                          text: "ڕۆژنامەکانی ئەم بەیانییە هەموو هەمان هەواڵیان بڵاوکردووە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys25("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys25("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We do carry green tea, but we don't have any (in stock) right now."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چای سەوز دەفرۆشین، بەڵام ھیچمان لەبەردەستدا نییە لە ئێستادا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys26("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys26("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٧. (کردار) هەبوونی شتێک بۆ فرۆشتن لە فرۆشگایەکدا"),
+                          const DefinitionKurdish(
+                              text: "١٨. (کردار) دووگیانبوون بە منداڵ"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "We do carry green tea, but we don't have any (in stock) right now."),
-                          ExampleSentenceKurdish(
-                          text: "چای سەوز دەفرۆشین، بەڵام هیچمان لەبەردەستدا نییە لە ئێستادا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys26("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys26("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text: "She was carrying twins."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە دووانە دووگیانە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys27("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys27("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٨. (کردار) دووگیانبوون بە منداڵ"),
+                          const DefinitionKurdish(
+                              text:
+                                  "١٩. (کردار) جوڵاندنی جەستەت بە شێوەیەکی دیاریکراو"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She was carrying twins."),
-                          ExampleSentenceKurdish(
-                          text: "بە دووانە دووگیانە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys27("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys27("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She carries herself with the poise of a model."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە لەشولاری مۆدێلێکەوە خۆی دەجوڵێنێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys28("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys28("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٩. (کردار) جوڵاندنی جەستەت بە شێوەیەکی دیاریکراو"),
+                          const DefinitionKurdish(
+                              text: "٢٠. (ناو) ھەڵگرتنی شتێک"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She carries herself with the poise of a model."),
-                          ExampleSentenceKurdish(
-                          text: "بە لەشولاری مۆدێلێکەوە خۆی دەجوڵێنێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys28("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys28("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "We did a carry of equipment from the camp."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەرەستەکانمان لە کامپەکەوە ھەڵگرت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys29("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys29("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢٠. (ناو) هەڵگرتنی شتێک"),
+                          const DefinitionKurdish(
+                              text: "٢١. (ناو) ھەڵگرتنی چەک لە شوێنی گشتیدا"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "We did a carry of equipment from the camp."),
-                          ExampleSentenceKurdish(
-                          text: "کەرەستەکانمان لە کامپەکەوە هەڵگرت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys29("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys29("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢١. (ناو) هەڵگرتنی چەک لە شوێنی گشتیدا"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Each state makes its own laws concerning the carry of weapons."),
-                          ExampleSentenceKurdish(
-                          text: "هەر ویلایەتێک یاسای خۆی دەردەکات  سەبارەت بە هەڵگرتنی چەک."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrys30("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrys30("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Each state makes its own laws concerning the carry of weapons."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەر ویلایەتێک یاسای خۆی دەردەکات  سەبارەت بە ھەڵگرتنی چەک."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrys30("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrys30("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -1336,11 +1425,11 @@ class EnglishEntrycarry extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -1406,7 +1495,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: carry (Derived forms: carried, carries, carrying)
+- Verb: carry (derived forms: carried, carries, carrying)
 1. Move while supporting, either in a vehicle or in one's hands or on one's body (= transport)
 "carry the suitcases to the car"; "This train is carrying nuclear waste"; "These pipes carry waste water into the river"; "You must carry your camping gear";
  
@@ -1525,7 +1614,7 @@ ${englishMeaningConst.text}
 40. Be pregnant with (= have a bun in the oven, bear, gestate, expect)
 "I am carrying his child";
 
-- Noun: carry (Derived forms: carries)
+- Noun: carry (derived forms: carries)
 1. The act of carrying something
 """,
   );
@@ -1559,7 +1648,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HTV-U059FGQ?t=',
+    videoId: 'HTV-U059FGQ',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1584,7 +1673,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6usVX6BJYEk?t=',
+    videoId: '6usVX6BJYEk',
     startSeconds: 62,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1609,7 +1698,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KPDCsBlOrMM?t=',
+    videoId: 'KPDCsBlOrMM',
     startSeconds: 256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1634,7 +1723,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZBNELGfLekE',
+    videoId: 'ZBNELGfLekE',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1659,7 +1748,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fitA1_rh8Z8?t=',
+    videoId: 'fitA1_rh8Z8',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1684,7 +1773,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p0T95uHCaI4?t=',
+    videoId: 'p0T95uHCaI4',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1709,7 +1798,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Vwq-k3ejpHM?t=',
+    videoId: 'Vwq-k3ejpHM',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1734,7 +1823,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y4Kd8acAago?t=',
+    videoId: 'y4Kd8acAago',
     startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(

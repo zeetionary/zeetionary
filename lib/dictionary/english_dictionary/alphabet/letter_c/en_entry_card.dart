@@ -198,7 +198,7 @@ class EnglishEntrycard extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کارت، پسوولە، پەڕ (هی یاری)، کارتی پیرۆزبایی، کەسێکی نائاسایی یان پێکەنینی، شانە، شیکەنە، شانە، دەفە، شیکەنە
+کوردی: کارت، پسوولە، پەڕ (ھی یاری)، کارتی پیرۆزبایی، کەسێکی نائاسایی یان پێکەنینی، شانە، شیکەنە، شانە، دەفە، شیکەنە
 
 ١. (ناو) کاغەزێکی ئەستوور و پتەو بۆ نووسین لەسەری"""),
                           Row(
@@ -239,7 +239,7 @@ class EnglishEntrycard extends StatelessWidget {
                                             "Each person wrote their question on a card."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەر کەسێک پرسیارەکەی لەسەر کاغەزێک نووسی."),
+                                            "ھەر کەسێک پرسیارەکەی لەسەر کاغەزێک نووسی."),
                                   ],
                                 ),
                               ),
@@ -259,7 +259,7 @@ class EnglishEntrycard extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) کاغەزێکی پتەو کە لە ناوەڕاستدا چەمێندراوەتەوە و وێنەیەکی لەسەرە. بەکاردێت بۆ ناردنی پیرۆزبایی، بانگهێشت، هتد"),
+                                  "٢. (ناو) کاغەزێکی پتەو کە لە ناوەڕاستدا چەمێندراوەتەوە و وێنەیەکی لەسەرە. بەکاردێت بۆ ناردنی پیرۆزبایی، بانگھێشت، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -419,7 +419,7 @@ class EnglishEntrycard extends StatelessWidget {
                                             "I've never been very good at cards."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز لە یاری کۆنکاندا باش نەبوومە."),
+                                            "ھەرگیز لە یاری کۆنکاندا باش نەبوومە."),
                                   ],
                                 ),
                               ),
@@ -450,7 +450,7 @@ class EnglishEntrycard extends StatelessWidget {
                                             "The security guard cards visitors to ensure safety."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پاسەوانەکە داوای پێناسی هەر سەردانکارێکی دەکرد بۆ دڵنیایی لە پاراستن."),
+                                            "پاسەوانەکە داوای پێناسی ھەر سەردانکارێکی دەکرد بۆ دڵنیایی لە پاراستن."),
                                   ],
                                 ),
                               ),
@@ -549,7 +549,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: card (Derived forms: cards)
+- Noun: card (derived forms: cards)
 1. One of a set of small pieces of stiff paper marked in various ways and used for playing games or for telling fortunes
 "he collected cards and traded them with the other boys"
  
@@ -579,7 +579,7 @@ ${englishMeaningConst.text}
  
 11. A printed circuit that can be inserted into expansion slots in a computer to increase the computer's capabilities (= circuit board, circuit card, board, plug-in, add-in)
 
-- Verb: card (Derived forms: cards, carding, carded)
+- Verb: card (derived forms: cards, carding, carded)
 1. Separate the fibers of (= tease)
 "card wool";
 
@@ -617,7 +617,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qbfGPo_IUyc?t=',
+    videoId: 'qbfGPo_IUyc',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NYGnMH9fPwY?t=',
+    videoId: 'NYGnMH9fPwY',
     startSeconds: 36,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -667,7 +667,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ySLtbtsm-Ls',
+    videoId: 'ySLtbtsm-Ls',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -692,7 +692,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7TRSCpp_IcU?t=',
+    videoId: '7TRSCpp_IcU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -717,7 +717,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VUk9_yNp14M?t=',
+    videoId: 'VUk9_yNp14M',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -742,7 +742,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDntl7yzzVI?t=',
+    videoId: 'HDntl7yzzVI',
     startSeconds: 869,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -767,7 +767,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/99i-Uo7rIpw?t=',
+    videoId: '99i-Uo7rIpw',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -792,7 +792,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_TfJh0kLJCw?t=',
+    videoId: '_TfJh0kLJCw',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -817,7 +817,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IXZJKiOR_rs?t=',
+    videoId: 'IXZJKiOR_rs',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -842,7 +842,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/64q6JODrhj8?t=',
+    videoId: '64q6JODrhj8',
     startSeconds: 29,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -867,7 +867,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vXcFGgwP1J4?t=',
+    videoId: 'vXcFGgwP1J4',
     startSeconds: 22,
     autoPlay: true,
     params: const YoutubePlayerParams(

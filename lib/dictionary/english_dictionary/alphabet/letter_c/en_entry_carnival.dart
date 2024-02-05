@@ -192,9 +192,9 @@ class EnglishEntrycarnival extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بەزم‌وڕەزم، ئاهەنگ، جەژن، جێژن، کاروانی شادی
+کوردی: بەزم‌وڕەزم، ئاھەنگ، جەژن، جێژن، کاروانی شادی
 
-١. (ناو) فیستیڤاڵێکی گشتی، بەتایبەتی یەکێک کە لە کاتێکی دیاریکراودا هەموو ساڵیک ڕوودەدات و سەما و میوزیکی لو شەقامەکان تێدایە لەگەڵ پۆشینی جلی ڕەنگاوڕەنگ"""),
+١. (ناو) فیستیڤاڵێکی گشتی، بەتایبەتی یەکێک کە لە کاتێکی دیاریکراودا ھەموو ساڵیک ڕوودەدات و سەما و میوزیکی لو شەقامەکان تێدایە لەگەڵ پۆشینی جلی ڕەنگاوڕەنگ"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycarnival extends StatelessWidget {
                                             "There is a local carnival every year."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەموو ساڵێک کەرنەڤاڵێکی ناوخۆیی هەیە."),
+                                            "ھەموو ساڵێک کەرنەڤاڵێکی ناوخۆیی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -225,7 +225,7 @@ class EnglishEntrycarnival extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) بۆنەیەکی ئاهەنگگێڕان کە لەلایەن شارۆچکەیەک یان گوندێکەوە ڕێکدەخرێت"),
+                                  "٢. (ناو) بۆنەیەکی ئاھەنگگێڕان کە لەلایەن شارۆچکەیەک یان گوندێکەوە ڕێکدەخرێت"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carnival (Derived forms: carnivals)
+- Noun: carnival (derived forms: carnivals)
 1. A festival marked by merrymaking and processions
  
 2. A frenetic disorganized (and often comic) disturbance suggestive of a large public entertainment (= circus)
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UONmYh751F8?t=',
+    videoId: 'UONmYh751F8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kqV1XOZyNjQ?t=',
+    videoId: 'kqV1XOZyNjQ',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-giz3ec0Zds?t=',
+    videoId: '-giz3ec0Zds',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vT4zZLHxuwk?t=',
+    videoId: 'vT4zZLHxuwk',
     startSeconds: 980,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9DRj1hnxSU?t=',
+    videoId: 'a9DRj1hnxSU',
     startSeconds: 144,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XVtvsFHb9rA?t=',
+    videoId: 'XVtvsFHb9rA',
     startSeconds: 385,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/D9hPWioAl1k?t=',
+    videoId: 'D9hPWioAl1k',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8nkSCeMpn4o?t=',
+    videoId: '8nkSCeMpn4o',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(

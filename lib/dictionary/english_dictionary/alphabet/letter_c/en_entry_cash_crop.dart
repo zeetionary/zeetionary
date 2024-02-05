@@ -191,7 +191,7 @@ class EnglishEntrycashcrop extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) بەرهەمی (بۆ)فرۆش؛ بەرهەمێک کە دەفرۆشرێت لە جیاتی بەکارهێنانی لەلایەن ئەو کەسەی کە دەیچێنێت"""),
+١. (ناو) بەرھەمی (بۆ)فرۆش؛ بەرھەمێک کە دەفرۆشرێت لە جیاتی بەکارھێنانی لەلایەن ئەو کەسەی کە دەیچێنێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycashcrop extends StatelessWidget {
                                             "Most farmers now produce cash crops such as coffee and tobacco for the export market."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "زۆر جوتیار لە ئێستادا دانەوێڵەی بۆفرۆش بەرهەمدێنن وەک قاوە و تووتن بۆ بازاڕی هەناردە."),
+                                            "زۆر جوتیار لە ئێستادا دانەوێڵەی بۆفرۆش بەرھەمدێنن وەک قاوە و تووتن بۆ بازاڕی ھەناردە."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cash crop (Derived forms: cash crops)
+- Noun: cash crop (derived forms: cash crops)
 1. A readily salable crop that is grown and gathered for the market (as vegetables, cotton or tobacco)
 """,
   );
@@ -335,7 +335,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vg4OIFd5-aA?t=',
+    videoId: 'vg4OIFd5-aA',
     startSeconds: 692,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -360,7 +360,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R9pxFgJwxFE?t=',
+    videoId: 'R9pxFgJwxFE',
     startSeconds: 134,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -385,7 +385,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4CDBUf42qNo?t=',
+    videoId: '4CDBUf42qNo',
     startSeconds: 171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -410,7 +410,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/E6GoyeTBEFs?t=',
+    videoId: 'E6GoyeTBEFs',
     startSeconds: 246,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eIpDILFHTBw?t=',
+    videoId: 'eIpDILFHTBw',
     startSeconds: 801,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h42QVfrUVFw?t=',
+    videoId: 'h42QVfrUVFw',
     startSeconds: 1271,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3bVGuXrd5mg?t=',
+    videoId: '3bVGuXrd5mg',
     startSeconds: 213,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nVjLZA6RWjo?t=',
+    videoId: 'nVjLZA6RWjo',
     startSeconds: 126,
     autoPlay: true,
     params: const YoutubePlayerParams(

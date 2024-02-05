@@ -202,7 +202,7 @@ class EnglishEntrycatnap extends StatelessWidget {
                                             "Taking a catnap can enhance alertness and productivity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "وەرگرتنی سووکەڵەخەوێک دەکرێت بەئاگایی و بەبەرهەمی زیاد بکات."),
+                                            "وەرگرتنی سووکەڵەخەوێک دەکرێت بەئاگایی و بەبەرھەمی زیاد بکات."),
                                   ],
                                 ),
                               ),
@@ -301,11 +301,11 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: catnap (Derived forms: catnaps)
+- Noun: catnap (derived forms: catnaps)
 1. Sleeping for a short period of time (usually not in bed) (= nap, light sleep, short sleep, forty winks [informal], snooze, zizz [Brit, informal])
 "Arthur's taking a short catnap";
 
-- Verb: catnap (Derived forms: catnaps, catnapping, catnapped)
+- Verb: catnap (derived forms: catnaps, catnapping, catnapped)
 1. Have a short sleep, esp. during the day (= nap, catch a wink [informal], kip [Brit, informal], snooze, drowse, doze, zizz [Brit, informal])
 "She catnaps everyday after lunch for an hour";
 """,
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h_cY0yohFo4?t=',
+    videoId: 'h_cY0yohFo4',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IQ3F2_7TazA?t=',
+    videoId: 'IQ3F2_7TazA',
     startSeconds: 158,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pw-Njg0Hess?t=',
+    videoId: 'pw-Njg0Hess',
     startSeconds: 564,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DuwZ6EV1NO0?t=',
+    videoId: 'DuwZ6EV1NO0',
     startSeconds: 966,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vhlBgCMxet0?t=',
+    videoId: 'vhlBgCMxet0',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M-93qWK5uZM?t=',
+    videoId: 'M-93qWK5uZM',
     startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k-ghXV7ka7Q?t=',
+    videoId: 'k-ghXV7ka7Q',
     startSeconds: 587,
     autoPlay: true,
     params: const YoutubePlayerParams(

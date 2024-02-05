@@ -3,8 +3,16 @@ import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/constants.dart';
 
-class EnglishHistoryScreen extends StatelessWidget {
+class EnglishHistoryScreen extends StatefulWidget {
   const EnglishHistoryScreen({super.key});
+
+  @override
+  // _EnglishHistoryScreenState createState() => _EnglishHistoryScreenState();
+  State<EnglishHistoryScreen> createState() =>
+      _EnglishHistoryScreenState();
+}
+
+class _EnglishHistoryScreenState extends State<EnglishHistoryScreen> {
 
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -44,6 +52,10 @@ class EnglishHistoryScreen extends StatelessWidget {
     // If the user confirms, clear the history
     if (confirmClear == true) {
       await prefs.remove('english history');
+
+      // Update the state to trigger a rebuild
+      setState(() {});
+      
       // ignore: use_build_context_synchronously
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(

@@ -38,7 +38,8 @@ class EnglishEntrycarpenter extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A master carpenter was in charge of teaching the apprentices."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A master carpenter was in charge of teaching the apprentices."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarpenters3(String languageCode) async {
@@ -203,7 +204,8 @@ class EnglishEntrycarpenter extends StatelessWidget {
                                         text:
                                             "He was apprenticed to a carpenter at the age of sixteen."),
                                     ExampleSentenceKurdish(
-                                        text: "لە تەمەنی شازدە ساڵی خرایە بەر کار وەک دارتاشێک."),
+                                        text:
+                                            "لە تەمەنی شازدە ساڵی خرایە بەر کار وەک دارتاشێک."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycarpenter extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "A master carpenter was in charge of teaching the apprentices."),
-                          ExampleSentenceKurdish(
-                          text: "دارتاشێکی شارەزا سەرپەرشتی فێرکردنی شاگردەکانی دەکرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarpenters2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarpenters2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A master carpenter was in charge of teaching the apprentices."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "دارتاشێکی شارەزا سەرپەرشتی فێرکردنی شاگردەکانی دەکرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarpenters2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarpenters2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -259,11 +262,11 @@ class EnglishEntrycarpenter extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,10 +332,10 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carpenter (Derived forms: carpenters)
+- Noun: carpenter (derived forms: carpenters)
 1. A woodworker who makes or repairs wooden objects (= chippie [Brit, informal], chippy [Brit, informal])
 
-- Verb: carpenter (Derived forms: carpenters, carpentering, carpentered)
+- Verb: carpenter (derived forms: carpenters, carpentering, carpentered)
 1. Work as a carpenter
 """,
   );
@@ -366,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G9ow5WbnFKU?t=',
+    videoId: 'G9ow5WbnFKU',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vnhsGGUfCUM?t=',
+    videoId: 'vnhsGGUfCUM',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x1FfVOG1MVk?t=',
+    videoId: 'x1FfVOG1MVk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sUSSqDEv808?t=',
+    videoId: 'sUSSqDEv808',
     startSeconds: 118,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hNgtcgiWJ0c?t=',
+    videoId: 'hNgtcgiWJ0c',
     startSeconds: 354,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Nr1AgIfajI?t=',
+    videoId: '4Nr1AgIfajI',
     startSeconds: 409,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/kvo-n2AYZnA?t=',
+    videoId: 'kvo-n2AYZnA',
     startSeconds: 652,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +544,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3YcD5XJNzkM?t=',
+    videoId: '3YcD5XJNzkM',
     startSeconds: 63,
     autoPlay: true,
     params: const YoutubePlayerParams(

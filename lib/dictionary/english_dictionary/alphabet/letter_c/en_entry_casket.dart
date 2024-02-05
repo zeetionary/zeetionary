@@ -194,7 +194,7 @@ class EnglishEntrycasket extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: مجری، سنووق، قوتو، دارتەرم، تابوت
 
-١. (ناو) سنووقێکی ڕازێنراوە بۆ هەڵگرتنی خشڵ و شتی گران‌بەها"""),
+١. (ناو) سنووقێکی ڕازێنراوە بۆ ھەڵگرتنی خشڵ و شتی گران‌بەھا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycasket extends StatelessWidget {
                                             "Inside lay a casket of gold coins."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە ناوەوە سنووقێکی دراوی ئاڵتوونی هەیە."),
+                                            "لە ناوەوە سنووقێکی دراوی ئاڵتوونی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycasket extends StatelessWidget {
                                             "A procession of mourners slowly followed the casket."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕیزێک لە شیوەنگێڕان بە هێواشی بە دوای تابووتەکەدا دەچوون."),
+                                            "ڕیزێک لە شیوەنگێڕان بە ھێواشی بە دوای تابووتەکەدا دەچوون."),
                                   ],
                                 ),
                               ),
@@ -335,12 +335,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: casket (Derived forms: caskets)
+- Noun: casket (derived forms: caskets)
 1. Box in which a corpse is buried or cremated (= coffin)
  
 2. Small and often ornate box for holding jewels or other valuables (= jewel casket)
 
-- Verb: casket (Derived forms: casketed, caskets, casketing)
+- Verb: casket (derived forms: casketed, caskets, casketing)
 1. Enclose in a casket
 """,
   );
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6fBHBxlRuRk?t=',
+    videoId: '6fBHBxlRuRk',
     startSeconds: 220,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HLZ6iKtVH14?t=',
+    videoId: 'HLZ6iKtVH14',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/id1G3Babuog?t=',
+    videoId: 'id1G3Babuog',
     startSeconds: 125,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vb0gJi_QOrA?t=',
+    videoId: 'vb0gJi_QOrA',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bfju-IExuPA?t=',
+    videoId: 'bfju-IExuPA',
     startSeconds: 160,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/gIL2MY2SEkw?t=',
+    videoId: 'gIL2MY2SEkw',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gjp_DodXT-g?t=',
+    videoId: 'Gjp_DodXT-g',
     startSeconds: 435,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CURLWPCxe-c?t=',
+    videoId: 'CURLWPCxe-c',
     startSeconds: 400,
     autoPlay: true,
     params: const YoutubePlayerParams(

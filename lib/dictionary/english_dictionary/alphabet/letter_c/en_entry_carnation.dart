@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 - Adjective: carnation 
 1. Pink or pinkish
 
-- Noun: carnation (Derived forms: carnations)
+- Noun: carnation (derived forms: carnations)
 1. Eurasian plant with pink to purple-red spice-scented usually double flowers; widely cultivated in many varieties and many colours (= clove pink, gillyflower, Dianthus caryophyllus)
  
 2. A pink or reddish-pink colour
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Szje4tv9F54?t=',
+    videoId: 'Szje4tv9F54',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pD_lbasNxic',
+    videoId: 'pD_lbasNxic',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LbPw9AlVKVM?t=',
+    videoId: 'LbPw9AlVKVM',
     startSeconds: 911,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zhq20aCSh-s?t=',
+    videoId: 'Zhq20aCSh-s',
     startSeconds: 497,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NvgnUSN-Epw?t=',
+    videoId: 'NvgnUSN-Epw',
     startSeconds: 216,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7uM6A3xbFyI?t=',
+    videoId: '7uM6A3xbFyI',
     startSeconds: 354,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sCJk7zKSFns?t=',
+    videoId: 'sCJk7zKSFns',
     startSeconds: 568,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XUUBfTjPtTI?t=',
+    videoId: 'XUUBfTjPtTI',
     startSeconds: 563,
     autoPlay: true,
     params: const YoutubePlayerParams(

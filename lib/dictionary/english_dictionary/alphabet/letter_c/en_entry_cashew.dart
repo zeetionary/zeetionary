@@ -204,7 +204,7 @@ class EnglishEntrycashew extends StatelessWidget {
                                             "Cashews add a delightful crunch to salads, enhancing both texture and flavor."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاشیو خرمەخرمێکی خۆش زیاد دەکات بۆزەڵاتە، و هەم ڕەنگ و هەم تام خۆش دەکات."),
+                                            "کاشیو خرمەخرمێکی خۆش زیاد دەکات بۆزەڵاتە، و ھەم ڕەنگ و ھەم تام خۆش دەکات."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cashew (Derived forms: cashews)
+- Noun: cashew (derived forms: cashews)
 1. Tropical American evergreen tree bearing kidney-shaped nuts that are edible only when roasted (= cashew tree, Anacardium occidentale)
  
 2. Kidney-shaped nut edible only when roasted (= cashew nut)
@@ -339,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Lkl9_3-jX6c?t=',
+    videoId: 'Lkl9_3-jX6c',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -364,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yM-tAkSoVjo',
+    videoId: 'yM-tAkSoVjo',
     // startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -389,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CXTZVKYYyig?t=',
+    videoId: 'CXTZVKYYyig',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -414,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/N0o65tMtoB8',
+    videoId: 'N0o65tMtoB8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -439,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ij4QqtHSPaI?t=',
+    videoId: 'Ij4QqtHSPaI',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -464,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5E4Q3FbMW6Y',
+    videoId: '5E4Q3FbMW6Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -489,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BBRoJ7FkG7g?t=',
+    videoId: 'BBRoJ7FkG7g',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -514,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cNKVmSksRqk?t=',
+    videoId: 'cNKVmSksRqk',
     startSeconds: 79,
     autoPlay: true,
     params: const YoutubePlayerParams(

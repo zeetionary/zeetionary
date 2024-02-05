@@ -83,7 +83,8 @@ class EnglishEntrycascade extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It is vital to ensure these values cascade to all employees."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It is vital to ensure these values cascade to all employees."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcascades8(String languageCode) async {
@@ -196,7 +197,7 @@ class EnglishEntrycascade extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: نیمچەتاڤگە، نیمچەڕێژاو، ڕێژاوک، زنجیرە یان ڕیزەتاڤگەی چکۆلە، (جل‌وبەرگ) چین، هەڕەمە
+کوردی: نیمچەتاڤگە، نیمچەڕێژاو، ڕێژاوک، زنجیرە یان ڕیزەتاڤگەی چکۆلە، (جل‌وبەرگ) چین، ھەڕەمە
 
 ١. (ناو) تاڤگەیەکی بچووک"""),
                           Row(
@@ -209,7 +210,7 @@ class EnglishEntrycascade extends StatelessWidget {
                                             "The soothing sound of the cascade echoed through the surroundings."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەنگی هێورکەرەوەی نیمچەتاڤگەکە بە دەورووبەردا بڵاوبووبوو."),
+                                            "دەنگی ھێورکەرەوەی نیمچەتاڤگەکە بە دەورووبەردا بڵاوبووبوو."),
                                   ],
                                 ),
                               ),
@@ -240,7 +241,7 @@ class EnglishEntrycascade extends StatelessWidget {
                                             "The sudden cascade of rainwater overwhelmed the drainage system."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "خوڕەمی ڕەهێڵە سیستەمی ئاوەڕۆی پڕکرد."),
+                                            "خوڕەمی ڕەھێڵە سیستەمی ئاوەڕۆی پڕکرد."),
                                   ],
                                 ),
                               ),
@@ -299,7 +300,7 @@ class EnglishEntrycascade extends StatelessWidget {
                                             "The protein can trigger a cascade of events that leads to heart failure."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پڕۆتینەکە دەکرێت زنجیرەیەک لە ڕووداو درووست بکات کە ببێتە هۆی وەستانی دڵ."),
+                                            "پڕۆتینەکە دەکرێت زنجیرەیەک لە ڕووداو درووست بکات کە ببێتە ھۆی وەستانی دڵ."),
                                   ],
                                 ),
                               ),
@@ -318,7 +319,7 @@ class EnglishEntrycascade extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٤. (کردار) هاتنەخوارەوە بە ڕێژەیەکی زۆر"),
+                              text: "٤. (کردار) ھاتنەخوارەوە بە ڕێژەیەکی زۆر"),
                           Row(
                             children: [
                               const Expanded(
@@ -329,7 +330,7 @@ class EnglishEntrycascade extends StatelessWidget {
                                             "Water cascaded down the mountainside."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئاو بە ڕووی شاخەکەدا هاتەخوارەوە."),
+                                            "ئاو بە ڕووی شاخەکەدا ھاتەخوارەوە."),
                                   ],
                                 ),
                               ),
@@ -377,32 +378,35 @@ class EnglishEntrycascade extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٦. (کردار) گواستنەوەی زانیاری، هتد بە کەسێک بۆ ئەوەی بیدات بە کەسانی دیکە"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٦. (کردار) گواستنەوەی زانیاری، ھتد بە کەسێک بۆ ئەوەی بیدات بە کەسانی دیکە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "It is vital to ensure these values cascade to all employees."),
-                          ExampleSentenceKurdish(
-                          text: "گرنگە کە دڵنیابینەوە لەوەی ئەم بەهایانە بگەن بە هەموو کارمەندان."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcascades7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcascades7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It is vital to ensure these values cascade to all employees."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "گرنگە کە دڵنیابینەوە لەوەی ئەم بەھایانە بگەن بە ھەموو کارمەندان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcascades7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcascades7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -486,7 +490,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cascade (Derived forms: cascades)
+- Noun: cascade (derived forms: cascades)
 1. A small waterfall or series of small waterfalls
  
 2. A succession of stages, operations, processes or units
@@ -495,7 +499,7 @@ ${englishMeaningConst.text}
 3. A sudden downpour (as of tears or sparks etc) likened to a rain shower (= shower)
 "a sudden cascade of sparks";
 
-- Verb: cascade (Derived forms: cascading, cascaded, cascades)
+- Verb: cascade (derived forms: cascading, cascaded, cascades)
 1. Rush down in big quantities, like a cascade (= cascade down)
  
 2. (computing) arrange (open windows) on a computer desktop so that they overlap each other, with the title bars visible
@@ -532,7 +536,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/456XaYWUikc?t=',
+    videoId: '456XaYWUikc',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -557,7 +561,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EFkyxzJtiv4?t=',
+    videoId: 'EFkyxzJtiv4',
     startSeconds: 48,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -582,7 +586,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Fjn4GRw8qE?t=',
+    videoId: '7Fjn4GRw8qE',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -607,7 +611,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cmSphKD18uo?t=',
+    videoId: 'cmSphKD18uo',
     startSeconds: 238,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -632,7 +636,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7Fjn4GRw8qE?t=',
+    videoId: '7Fjn4GRw8qE',
     startSeconds: 231,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -657,7 +661,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dUMD6cVHZTg?t=',
+    videoId: 'dUMD6cVHZTg',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -682,7 +686,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IBRBO7KkFTo?t=',
+    videoId: 'IBRBO7KkFTo',
     startSeconds: 447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -707,7 +711,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/WHnpp823BW8?t=',
+    videoId: 'WHnpp823BW8',
     startSeconds: 699,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -732,7 +736,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nbCgfiqq-5c?t=',
+    videoId: 'nbCgfiqq-5c',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -757,7 +761,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FtIWBeEcu1Q?t=',
+    videoId: 'FtIWBeEcu1Q',
     startSeconds: 369,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -782,7 +786,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nQEOK8I-Czc?t=',
+    videoId: 'nQEOK8I-Czc',
     startSeconds: 299,
     autoPlay: true,
     params: const YoutubePlayerParams(

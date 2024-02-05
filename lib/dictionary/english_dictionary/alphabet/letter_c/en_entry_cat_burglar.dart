@@ -193,7 +193,7 @@ class EnglishEntrycatburglar extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: دز، چەتە، ماڵبڕ
 
-١. (ناو) دزێک کە هەڵدەگژێت بە دەرەوەی بینایەکدا بۆ ئەوەی بچیتەژوورەوە بۆ دژی"""),
+١. (ناو) دزێک کە ھەڵدەگژێت بە دەرەوەی بینایەکدا بۆ ئەوەی بچیتەژوورەوە بۆ دژی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -204,7 +204,7 @@ class EnglishEntrycatburglar extends StatelessWidget {
                                             "The jury heard that he was a professional cat burglar."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دەستەی دادوەران گوێی گرت لەوەی کە دزێکی هەڵگەڕە."),
+                                            "دەستەی دادوەران گوێی گرت لەوەی کە دزێکی ھەڵگەڕە."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cat burglar (Derived forms: cat burglars)
+- Noun: cat burglar (derived forms: cat burglars)
 1. A burglar who unlawfully breaks into and enters another person's house (= housebreaker [Brit, Cdn], housewrecker [US])
 """,
   );
@@ -337,7 +337,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/runjda4La_4?t=',
+    videoId: 'runjda4La_4',
     startSeconds: 596,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +362,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wAkbCGNbvw8?t=',
+    videoId: 'wAkbCGNbvw8',
     startSeconds: 1279,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +387,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lrFTX-0vrDU?t=',
+    videoId: 'lrFTX-0vrDU',
     startSeconds: 513,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +412,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tB0yu5yoXXU?t=',
+    videoId: 'tB0yu5yoXXU',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_V0-HGMB8SI?t=',
+    videoId: '_V0-HGMB8SI',
     startSeconds: 492,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5UpztXMDFLg?t=',
+    videoId: '5UpztXMDFLg',
     startSeconds: 578,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BTYw8xW87lM?t=',
+    videoId: 'BTYw8xW87lM',
     startSeconds: 268,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C0jBRsdwOr0?t=',
+    videoId: 'C0jBRsdwOr0',
     startSeconds: 543,
     autoPlay: true,
     params: const YoutubePlayerParams(

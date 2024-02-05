@@ -269,7 +269,7 @@ class EnglishEntrycasually extends StatelessWidget {
                                             "‘What did he say about me?’ she asked as casually as she could."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەتا توانی بە گوێ‌پێ‌نەدانەوە پرسی 'چی گوت لەسەرم؟'"),
+                                            "ھەتا توانی بە گوێ‌پێ‌نەدانەوە پرسی 'چی گوت لەسەرم؟'"),
                                   ],
                                 ),
                               ),
@@ -299,7 +299,7 @@ class EnglishEntrycasually extends StatelessWidget {
                                             "The staff were all casually clothed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ستافەکە هەموویان جلی نافەرمییان لەبەربوو."),
+                                            "ستافەکە ھەموویان جلی نافەرمییان لەبەربوو."),
                                   ],
                                 ),
                               ),
@@ -318,7 +318,7 @@ class EnglishEntrycasually extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٥. (ھاوەڵکار) ناهەمیشەیی"),
+                              text: "٥. (ھاوەڵکار) ناھەمیشەیی"),
                           Row(
                             children: [
                               const Expanded(
@@ -329,7 +329,7 @@ class EnglishEntrycasually extends StatelessWidget {
                                             "I casually dated a few people during that time but had no serious relationship."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەو ماوە هەروا پەیوەندیم لەگەڵ ژمارەیەک کەس درووست کرد بەڵام هیچ پەیوەندی جدیم نەبوو."),
+                                            "ئەو ماوە ھەروا پەیوەندیم لەگەڵ ژمارەیەک کەس درووست کرد بەڵام ھیچ پەیوەندی جدیم نەبوو."),
                                   ],
                                 ),
                               ),
@@ -466,7 +466,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7y1SJxEd49g?t=',
+    videoId: '7y1SJxEd49g',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s6v4kT1aD7c?t=',
+    videoId: 's6v4kT1aD7c',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xJjJ7zG1btc?t=',
+    videoId: 'xJjJ7zG1btc',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6mWn0aThPmM?t=',
+    videoId: '6mWn0aThPmM',
     startSeconds: 374,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DWmGArQBtFI?t=',
+    videoId: 'DWmGArQBtFI',
     startSeconds: 375,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -591,7 +591,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IlU-zDU6aQ0?t=',
+    videoId: 'IlU-zDU6aQ0',
     startSeconds: 2753,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -616,7 +616,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YGcWcsajSDQ?t=',
+    videoId: 'YGcWcsajSDQ',
     startSeconds: 248,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -641,7 +641,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L1kYZHnHS0E?t=',
+    videoId: 'L1kYZHnHS0E',
     startSeconds: 2186,
     autoPlay: true,
     params: const YoutubePlayerParams(

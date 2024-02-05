@@ -38,7 +38,8 @@ class EnglishEntrycaste extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Efforts to end caste discrimination face persistent challenges."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Efforts to end caste discrimination face persistent challenges."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcastes3(String languageCode) async {
@@ -193,7 +194,7 @@ class EnglishEntrycaste extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: ڕێکخستە یان سیستمی چینایەتی، پێگە یان بایەخی کۆمەڵایەتی
 
-١. (ناو) یەکێک لە چوار چینە کۆمەڵایەتییەکەی ئایینی هیندۆزی"""),
+١. (ناو) یەکێک لە چوار چینە کۆمەڵایەتییەکەی ئایینی ھیندۆزی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +204,8 @@ class EnglishEntrycaste extends StatelessWidget {
                                         text:
                                             "He belongs to one of the highest castes."),
                                     ExampleSentenceKurdish(
-                                        text: "سەر بە یەکێک لە چینە باڵاکانی هیندۆزییە."),
+                                        text:
+                                            "سەر بە یەکێک لە چینە باڵاکانی ھیندۆزییە."),
                                   ],
                                 ),
                               ),
@@ -221,32 +223,35 @@ class EnglishEntrycaste extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) چینێکی کۆمەڵایەتی، بە تایبەتی یەکێک کە ڕێگا بە ئەندامی تازە نادات"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) چینێکی کۆمەڵایەتی، بە تایبەتی یەکێک کە ڕێگا بە ئەندامی تازە نادات"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Efforts to end caste discrimination face persistent challenges."),
-                          ExampleSentenceKurdish(
-                          text: "هەوڵەکان بۆ کۆتایی هێنان بە جیاکاری چینی کۆمەڵایەتی ڕووبەڕووی بەرەنگاربوونەوەی بەردەوام بووەتەوە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcastes2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcastes2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Efforts to end caste discrimination face persistent challenges."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵەکان بۆ کۆتایی ھێنان بە جیاکاری چینی کۆمەڵایەتی ڕووبەڕووی بەرەنگاربوونەوەی بەردەوام بووەتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcastes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcastes2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -260,11 +265,11 @@ class EnglishEntrycaste extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -330,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caste (Derived forms: castes)
+- Noun: caste (derived forms: castes)
 1. Social status or position conferred by a system based on class
 "lose caste by doing work beneath one's station"
  
@@ -371,7 +376,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zy_5hSxizJI?t=',
+    videoId: 'Zy_5hSxizJI',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +401,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jQMZGkMPDFU?t=',
+    videoId: 'jQMZGkMPDFU',
     startSeconds: 95,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +426,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Nz0HYnQWMwQ?t=',
+    videoId: 'Nz0HYnQWMwQ',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +451,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qqZ_SH9N3Xo?t=',
+    videoId: 'qqZ_SH9N3Xo',
     startSeconds: 406,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +476,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fBTjbGfHx0s?t=',
+    videoId: 'fBTjbGfHx0s',
     startSeconds: 83,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +501,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KDGJmzqvKTg?t=',
+    videoId: 'KDGJmzqvKTg',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +526,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gfj5f0GVLZ0?t=',
+    videoId: 'Gfj5f0GVLZ0',
     startSeconds: 229,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +551,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zS4VSQNGr_A?t=',
+    videoId: 'zS4VSQNGr_A',
     startSeconds: 201,
     autoPlay: true,
     params: const YoutubePlayerParams(

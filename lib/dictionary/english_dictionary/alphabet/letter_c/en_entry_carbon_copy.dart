@@ -192,7 +192,7 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ھاوەڵناو) کۆپییەکی بەڵگەنامەیەک، نامەیەک، هتد کە درووست دەکرێت بە دانانی پەڕەیەک کە لایەکی ڕەشە لە نێوان دوو پەڕەدا"""),
+١. (ھاوەڵناو) کۆپییەکی بەڵگەنامەیەک، نامەیەک، ھتد کە درووست دەکرێت بە دانانی پەڕەیەک کە لایەکی ڕەشە لە نێوان دوو پەڕەدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,7 @@ class EnglishEntrycarboncopy extends StatelessWidget {
                                             "Each participant received a carbon copy of the meeting agenda."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت."),
+                                            "ھەر بەژداربوویەک کۆپییەکی ئەجێندای کۆبوونەوەکەی وەرگرت."),
                                   ],
                                 ),
                               ),
@@ -302,12 +302,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carbon copy (Derived forms: carbon copies)
+- Noun: carbon copy (derived forms: carbon copies)
 1. A copy made with carbon paper (= carbon)
  
 2. Used in an e-mail or other communication to send copies to people other than the main recipient (= cc)
 
-- Verb: carbon copy (Derived forms: carbon copies, carbon copied, carbon copying)
+- Verb: carbon copy (derived forms: carbon copies, carbon copied, carbon copying)
 1. Send a copy to (someone) as well as the main recipient (= cc)
 """,
   );
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TiYEKDQZ5sk?t=',
+    videoId: 'TiYEKDQZ5sk',
     startSeconds: 389,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Nun_4w8m_SY',
+    videoId: 'Nun_4w8m_SY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YE0U018Copw?t=',
+    videoId: 'YE0U018Copw',
     startSeconds: 1080,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IfPC2bM3Adc?t=',
+    videoId: 'IfPC2bM3Adc',
     startSeconds: 65,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jOwtqud_Ld8?t=',
+    videoId: 'jOwtqud_Ld8',
     startSeconds: 516,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5Ls_nBTYVME?t=',
+    videoId: '5Ls_nBTYVME',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Fn6xq8vdH88?t=',
+    videoId: 'Fn6xq8vdH88',
     startSeconds: 672,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ypibvfXXOmk?t=',
+    videoId: 'ypibvfXXOmk',
     startSeconds: 2282,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/otTfZ5_fPgE?t=',
+    videoId: 'otTfZ5_fPgE',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/V4LBqcB4oQw?t=',
+    videoId: 'V4LBqcB4oQw',
     startSeconds: 805,
     autoPlay: true,
     params: const YoutubePlayerParams(

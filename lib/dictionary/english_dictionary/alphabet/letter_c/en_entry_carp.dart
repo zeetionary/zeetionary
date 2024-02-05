@@ -203,7 +203,7 @@ class EnglishEntrycarp extends StatelessWidget {
                                             "In some cultures, carp is considered a symbol of good luck and prosperity."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە هەندێک کەلتووردا، ماسی کارپ وەک سیمبولی بەختی باش و بووژانەوە دەبینرێت."),
+                                            "لە ھەندێک کەلتووردا، ماسی کارپ وەک سیمبولی بەختی باش و بووژانەوە دەبینرێت."),
                                   ],
                                 ),
                               ),
@@ -332,12 +332,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carp (Derived forms: carps)
+- Noun: carp (derived forms: carps)
 1. The lean flesh of a fish that is often farmed; can be baked or braised
  
 2. Any of various freshwater fish of the family Cyprinidae
 
-- Verb: carp (Derived forms: carped, carping, carps)
+- Verb: carp (derived forms: carped, carping, carps)
 1. Raise trivial objections (= cavil, chicane)
 """,
   );
@@ -371,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5_D-qHOB2tY?t=',
+    videoId: '5_D-qHOB2tY',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -396,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QPOxmdDJm3o?t=',
+    videoId: 'QPOxmdDJm3o',
     startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -421,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cKX4gnHje6c?t=',
+    videoId: 'cKX4gnHje6c',
     startSeconds: 77,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -446,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Bzun0cLO--w?t=',
+    videoId: 'Bzun0cLO--w',
     startSeconds: 54,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -471,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/W8uXhQnWgj4?t=',
+    videoId: 'W8uXhQnWgj4',
     startSeconds: 499,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -496,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sY8aFSY2zv4?t=',
+    videoId: 'sY8aFSY2zv4',
     startSeconds: 2231,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -521,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/M6JhD1lsfTs?t=',
+    videoId: 'M6JhD1lsfTs',
     startSeconds: 194,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -546,7 +546,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/opQBithWVdI?t=',
+    videoId: 'opQBithWVdI',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -191,7 +191,7 @@ class EnglishEntrycarriageway extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) یەکێک لە سایدەکانی ڕێگایەکی دوو ساید کە ئۆتۆمبێل بە هەمان ئاراستە تێیدا دەچن، و بە پێچەوانەی سایدەکەی دیکە"""),
+١. (ناو) یەکێک لە سایدەکانی ڕێگایەکی دوو ساید کە ئۆتۆمبێل بە ھەمان ئاراستە تێیدا دەچن، و بە پێچەوانەی سایدەکەی دیکە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycarriageway extends StatelessWidget {
                                             "Drivers should exercise caution when changing lanes on a busy carriageway."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "شۆفێران دەبێت وریایی پیشان بدەن لە گۆڕینی هێڵ لە سایدێکی قەرەباڵغدا."),
+                                            "شۆفێران دەبێت وریایی پیشان بدەن لە گۆڕینی ھێڵ لە سایدێکی قەرەباڵغدا."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carriageway (Derived forms: carriageways)
+- Noun: carriageway (derived forms: carriageways)
 Usage: Brit
 1. One of the two sides of a motorway where traffic travels in one direction only, usually in two or three lanes
 """,
@@ -338,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h9NMi0Td1XA?t=',
+    videoId: 'h9NMi0Td1XA',
     startSeconds: 442,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -363,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mPdenYurGDg?t=',
+    videoId: 'mPdenYurGDg',
     startSeconds: 203,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xXnW4pD0OrA?t=',
+    videoId: 'xXnW4pD0OrA',
     startSeconds: 1279,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/AT5g1a7cBRM?t=',
+    videoId: 'AT5g1a7cBRM',
     startSeconds: 883,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RK5Ku1YtUKY?t=',
+    videoId: 'RK5Ku1YtUKY',
     startSeconds: 183,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yi3Q8zP1HO8?t=',
+    videoId: 'yi3Q8zP1HO8',
     startSeconds: 383,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qnuzGVvVkJQ?t=',
+    videoId: 'qnuzGVvVkJQ',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lWInrzfAf14?t=',
+    videoId: 'lWInrzfAf14',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(

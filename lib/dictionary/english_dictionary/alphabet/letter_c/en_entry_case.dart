@@ -511,7 +511,7 @@ class EnglishEntrycase extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بابەت، کەیس، نموونە، وێنە، میناک، کەیس یان بابەتی نەخۆشی، ئینستەنسی نەخۆشی، ئەنگاوتە، بەرکەوت، نەخۆش، ناساز، کردە، کار، چۆنیەتی، پرس، کێشە، دۆز، پرسگرێک، بابەت، مژار، دۆخ، بار، بارودۆخ، ڕەوش، کاودان، داواکاری، بەڵگەکان، بەڵگە، شایەت، بەڵگەهێنانەوە، ڕاستی، بوویەر، مەتەڵ، ڕاز، (ڕێزمان) دۆخ، کەس، پیاو، مرۆ، قوتو، سنووق، یەغدان، سیپ، مجری، جانتا، توورەکە، جزدان، جامەدان، بەرگ، کیف، ڕووپۆش، توێکڵ، توێخ، قاوغ، قاپووڕ، چوارچێوە (درگا و پەنجەرە)
+کوردی: بابەت، کەیس، نموونە، وێنە، میناک، کەیس یان بابەتی نەخۆشی، ئینستەنسی نەخۆشی، ئەنگاوتە، بەرکەوت، نەخۆش، ناساز، کردە، کار، چۆنیەتی، پرس، کێشە، دۆز، پرسگرێک، بابەت، مژار، دۆخ، بار، بارودۆخ، ڕەوش، کاودان، داواکاری، بەڵگەکان، بەڵگە، شایەت، بەڵگەھێنانەوە، ڕاستی، بوویەر، مەتەڵ، ڕاز، (ڕێزمان) دۆخ، کەس، پیاو، مرۆ، قوتو، سنووق، یەغدان، سیپ، مجری، جانتا، توورەکە، جزدان، جامەدان، بەرگ، کیف، ڕووپۆش، توێکڵ، توێخ، قاوغ، قاپووڕ، چوارچێوە (درگا و پەنجەرە)
 
 ١. (ناو) دۆخێکی تایبەت"""),
                           Row(
@@ -524,7 +524,7 @@ class EnglishEntrycase extends StatelessWidget {
                                             "In some cases people have had to wait several weeks for an appointment."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک هەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک."),
+                                            "لە زۆر حاڵەتدا خەڵکی پێویست بووە ژمارەیەک ھەفتە چاوەڕێ بن بۆ چاوپێکەوتنێک."),
                                   ],
                                 ),
                               ),
@@ -583,7 +583,7 @@ class EnglishEntrycase extends StatelessWidget {
                                                     "What should be done in such cases?"),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "چی دەبێت بکردرێت لە دۆخێکی وەهادا؟"),
+                                                    "چی دەبێت بکردرێت لە دۆخێکی وەھادا؟"),
                                           ],
                                         ),
                                       ),
@@ -613,7 +613,7 @@ class EnglishEntrycase extends StatelessWidget {
                                                     "The company only dismisses its employees in cases of gross misconduct."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "کۆمپانیاکە کارمەندانی دەردەکات تەنها لە دۆخی هەڵەی زەقدا."),
+                                                    "کۆمپانیاکە کارمەندانی دەردەکات تەنھا لە دۆخی ھەڵەی زەقدا."),
                                           ],
                                         ),
                                       ),
@@ -796,7 +796,7 @@ class EnglishEntrycase extends StatelessWidget {
                                                     "Don't underestimate the power of the pen, or in this case, the power of the keyboard."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، هێزی کیبۆرد."),
+                                                    "ھێزی پێنووس بە کەم مەبینە، یان لەم دۆخەدا، ھێزی کیبۆرد."),
                                           ],
                                         ),
                                       ),
@@ -833,7 +833,7 @@ class EnglishEntrycase extends StatelessWidget {
                                             "They never solved the Jones murder case."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز کەیسی کوشتنی جۆنیان چارەسەرنەکرد."),
+                                            "ھەرگیز کەیسی کوشتنی جۆنیان چارەسەرنەکرد."),
                                   ],
                                 ),
                               ),
@@ -892,7 +892,7 @@ class EnglishEntrycase extends StatelessWidget {
                                             "The case will be heard next week."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کەیسەکە هەفتەی داهاتوو دانیشتنی بۆ دەکرێت."),
+                                            "کەیسەکە ھەفتەی داھاتوو دانیشتنی بۆ دەکرێت."),
                                   ],
                                 ),
                               ),
@@ -940,7 +940,7 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (ناو) کۆمەڵێک لە ڕاستی، بۆچوون، هتد کە لایەنگیری لایەکن لە دادگاییەک، گفتوگۆیەک، هتد"),
+                                  "٦. (ناو) کۆمەڵێک لە ڕاستی، بۆچوون، ھتد کە لایەنگیری لایەکن لە دادگاییەک، گفتوگۆیەک، ھتد"),
                           Row(
                             children: [
                               const Expanded(
@@ -951,7 +951,7 @@ class EnglishEntrycase extends StatelessWidget {
                                             "Our lawyer didn't think we had a case (= had enough good arguments to win in a court of law)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پارێزەرەکەمان هەستی نەکرد کەوا دۆزێکمان هەبێت."),
+                                            "پارێزەرەکەمان ھەستی نەکرد کەوا دۆزێکمان ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -1040,7 +1040,7 @@ class EnglishEntrycase extends StatelessWidget {
                                                     "They try to make the case that this war is necessary."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "هەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە."),
+                                                    "ھەوڵ دەدەن ئەو پرسە درووست بکەن کە جەنگەکە پێویستە."),
                                           ],
                                         ),
                                       ),
@@ -1066,7 +1066,7 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٧. (ناو) شتێک کە شتی تێدا هەڵدەگریت بۆ پاراستنی یان هەڵگرتنی"),
+                                  "٧. (ناو) شتێک کە شتی تێدا ھەڵدەگریت بۆ پاراستنی یان ھەڵگرتنی"),
                           Row(
                             children: [
                               const Expanded(
@@ -1105,7 +1105,7 @@ class EnglishEntrycase extends StatelessWidget {
                                             "He put the binoculars back in their carrying case."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "دووربینەکەی خستە بەرگە هەڵگرەکەی."),
+                                            "دووربینەکەی خستە بەرگە ھەڵگرەکەی."),
                                   ],
                                 ),
                               ),
@@ -1134,7 +1134,7 @@ class EnglishEntrycase extends StatelessWidget {
                                         text:
                                             "Let me carry your case for you."),
                                     ExampleSentenceKurdish(
-                                        text: "با جانتایەکەت بۆ هەڵبگرم."),
+                                        text: "با جانتایەکەت بۆ ھەڵبگرم."),
                                   ],
                                 ),
                               ),
@@ -1249,7 +1249,7 @@ class EnglishEntrycase extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "He's a hopeless case."),
                                     ExampleSentenceKurdish(
-                                        text: "کەسێکی بێ‌هیوایە."),
+                                        text: "کەسێکی بێ‌ھیوایە."),
                                   ],
                                 ),
                               ),
@@ -1269,7 +1269,7 @@ class EnglishEntrycase extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "١١. (ناو) شێوەی ناوێک، هاوەڵناوێک، یان جێناوێک کە پەیوەندیی لەگەڵ وشەیەکی دیکە پیشان دەدات"),
+                                  "١١. (ناو) شێوەی ناوێک، ھاوەڵناوێک، یان جێناوێک کە پەیوەندیی لەگەڵ وشەیەکی دیکە پیشان دەدات"),
                           Row(
                             children: [
                               const Expanded(
@@ -1280,7 +1280,7 @@ class EnglishEntrycase extends StatelessWidget {
                                             "Latin nouns have case, number and gender."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ناوە لاتینییەکان دۆخ و ژمارە و ڕەگەزیان هەیە."),
+                                            "ناوە لاتینییەکان دۆخ و ژمارە و ڕەگەزیان ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1379,7 +1379,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: case (Derived forms: cases)
+- Noun: case (derived forms: cases)
 1. An occurrence of something (= instance, example)
 "it was a case of bad judgment";
  
@@ -1434,7 +1434,7 @@ ${englishMeaningConst.text}
 
 20. A glass container used to store and display items in a shop, museum or home (= display case, showcase, vitrine)
 
-- Verb: case (Derived forms: cases, casing, cased)
+- Verb: case (derived forms: cases, casing, cased)
 1. Look over, usually with the intention to rob
 "The men cased the housed"
  
@@ -1472,7 +1472,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fi2jQMTU9b4?t=',
+    videoId: 'fi2jQMTU9b4',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1497,7 +1497,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1522,7 +1522,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 542,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1547,7 +1547,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nQ-Ua6NYago?t=',
+    videoId: 'nQ-Ua6NYago',
     startSeconds: 55,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1572,7 +1572,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QtrRtGC3G_I?t=',
+    videoId: 'QtrRtGC3G_I',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1597,7 +1597,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7DKXMRMYDO4?t=',
+    videoId: '7DKXMRMYDO4',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1622,7 +1622,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5tEc122j7LE?t=',
+    videoId: '5tEc122j7LE',
     startSeconds: 196,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1647,7 +1647,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mmGFrIWU0Cs?t=',
+    videoId: 'mmGFrIWU0Cs',
     startSeconds: 265,
     autoPlay: true,
     params: const YoutubePlayerParams(

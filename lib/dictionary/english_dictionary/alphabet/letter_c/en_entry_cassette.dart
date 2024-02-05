@@ -38,7 +38,8 @@ class EnglishEntrycassette extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Do you mean an audio cassette or a video cassette?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Do you mean an audio cassette or a video cassette?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcassettes3(String languageCode) async {
@@ -203,7 +204,8 @@ class EnglishEntrycassette extends StatelessWidget {
                                         text:
                                             "He inserted the cassette and pressed the 'play' button."),
                                     ExampleSentenceKurdish(
-                                        text: "کاسێتەکەی خستەسەر و دەستی نا بە دووگمەی play دا."),
+                                        text:
+                                            "کاسێتەکەی خستەسەر و دەستی نا بە دووگمەی play دا."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycassette extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Do you mean an audio cassette or a video cassette?"),
-                          ExampleSentenceKurdish(
-                          text: "مەبەستت کاسێتی ڤیدیۆیی یان دەنگییە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcassettes2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcassettes2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Do you mean an audio cassette or a video cassette?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "مەبەستت کاسێتی ڤیدیۆیی یان دەنگییە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcassettes2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcassettes2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -259,11 +262,11 @@ class EnglishEntrycassette extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cassette (Derived forms: cassettes)
+- Noun: cassette (derived forms: cassettes)
 1. A container that holds a magnetic tape used for recording or playing sound or video
 """,
   );
@@ -363,7 +366,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hWl9Wux7iVY?t=',
+    videoId: 'hWl9Wux7iVY',
     startSeconds: 67,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +391,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H5m6zs1UIVg?t=',
+    videoId: 'H5m6zs1UIVg',
     startSeconds: 324,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +416,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IJ81-TMP4pI?t=',
+    videoId: 'IJ81-TMP4pI',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +441,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UMcMPNIQc5o?t=',
+    videoId: 'UMcMPNIQc5o',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +466,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qtAdZl7PXLA?t=',
+    videoId: 'qtAdZl7PXLA',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +491,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5158j3pv2G8',
+    videoId: '5158j3pv2G8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +516,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6XmKKphM2k',
+    videoId: 'x6XmKKphM2k',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +541,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/37xir19OjqI?t=',
+    videoId: '37xir19OjqI',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +566,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0p1UTrtKHJs?t=',
+    videoId: '0p1UTrtKHJs',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(

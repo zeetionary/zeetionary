@@ -203,7 +203,8 @@ class EnglishEntrycarvingknife extends StatelessWidget {
                                         text:
                                             "You can easily slice through a turkey with a sharp carving knife."),
                                     ExampleSentenceKurdish(
-                                        text: "دەتوانی بە ئاسانی قەلێک ببڕیت بە سیکاردێک."),
+                                        text:
+                                            "دەتوانی بە ئاسانی قەلێک ببڕیت بە سیکاردێک."),
                                   ],
                                 ),
                               ),
@@ -211,10 +212,12 @@ class EnglishEntrycarvingknife extends StatelessWidget {
                               Column(
                                 children: [
                                   CustomIconButtonBritish(
-                                    onPressed: () => speakcarvingknifes1("en-GB"),
+                                    onPressed: () =>
+                                        speakcarvingknifes1("en-GB"),
                                   ),
                                   CustomIconButtonAmerican(
-                                    onPressed: () => speakcarvingknifes1("en-US"),
+                                    onPressed: () =>
+                                        speakcarvingknifes1("en-US"),
                                   ),
                                 ],
                               ),
@@ -232,11 +235,11 @@ class EnglishEntrycarvingknife extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -302,7 +305,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carving knife (Derived forms: carving knives)
+- Noun: carving knife (derived forms: carving knives)
 1. A large knife used to carve cooked meat
 """,
   );
@@ -336,7 +339,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1DnxzrLde-A?t=',
+    videoId: '1DnxzrLde-A',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -361,7 +364,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9nTFOWmun2o?t=',
+    videoId: '9nTFOWmun2o',
     startSeconds: 70,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -386,7 +389,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PFDElc5sfSM?t=',
+    videoId: 'PFDElc5sfSM',
     startSeconds: 314,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -411,7 +414,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X0XpFwKKxXQ?t=',
+    videoId: 'X0XpFwKKxXQ',
     startSeconds: 641,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -436,7 +439,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zURCV71ckRo?t=',
+    videoId: 'zURCV71ckRo',
     startSeconds: 137,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +464,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NM_g4_5cnMA?t=',
+    videoId: 'NM_g4_5cnMA',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +489,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6CboeCnjpbE?t=',
+    videoId: '6CboeCnjpbE',
     startSeconds: 567,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +514,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PMo8WfA_FIg?t=',
+    videoId: 'PMo8WfA_FIg',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(

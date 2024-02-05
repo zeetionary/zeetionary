@@ -208,7 +208,7 @@ class EnglishEntrycasualty extends StatelessWidget {
                                             "Our primary objective is reducing road casualties."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئامانجی سەرەکیمان کەمکردنەوەی قوربانیانی هاتووچۆیە."),
+                                            "ئامانجی سەرەکیمان کەمکردنەوەی قوربانیانی ھاتووچۆیە."),
                                   ],
                                 ),
                               ),
@@ -236,7 +236,7 @@ class EnglishEntrycasualty extends StatelessWidget {
                                             "Both sides had suffered heavy casualties (= many people had been killed)."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەردوو لایەنەکە قوربانی زۆریان بوو."),
+                                            "ھەردوو لایەنەکە قوربانی زۆریان بوو."),
                                   ],
                                 ),
                               ),
@@ -315,7 +315,7 @@ class EnglishEntrycasualty extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٣. (ناو) ئەو بەشەی نەخۆشخانە کە ئەو کەسانەی بۆ دەبردرێت کە پێویستییان بە چارەسەری بەپەلە هەیە"),
+                                  "٣. (ناو) ئەو بەشەی نەخۆشخانە کە ئەو کەسانەی بۆ دەبردرێت کە پێویستییان بە چارەسەری بەپەلە ھەیە"),
                           Row(
                             children: [
                               const Expanded(
@@ -425,7 +425,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: casualty (Derived forms: casualties)
+- Noun: casualty (derived forms: casualties)
 1. (military) someone injured, killed, captured or missing in a military engagement
  
 2. Someone injured or killed in an accident (= injured party)
@@ -467,7 +467,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FRri_EwEd1Q?t=',
+    videoId: 'FRri_EwEd1Q',
     startSeconds: 34,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -492,7 +492,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dWs9a9bFzo4?t=',
+    videoId: 'dWs9a9bFzo4',
     startSeconds: 635,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -517,7 +517,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/x6PutWIZwpU?t=',
+    videoId: 'x6PutWIZwpU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -542,7 +542,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QLq6GEiHqR8?t=',
+    videoId: 'QLq6GEiHqR8',
     startSeconds: 2208,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -567,7 +567,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Mhlpk5ZrYLM?t=',
+    videoId: 'Mhlpk5ZrYLM',
     startSeconds: 360,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -592,7 +592,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/69YvS3ALths?t=',
+    videoId: '69YvS3ALths',
     startSeconds: 1731,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -617,7 +617,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ro1-FkHX2zY?t=',
+    videoId: 'Ro1-FkHX2zY',
     startSeconds: 292,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -642,7 +642,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/b-gOkb3Qe4I?t=',
+    videoId: 'b-gOkb3Qe4I',
     startSeconds: 901,
     autoPlay: true,
     params: const YoutubePlayerParams(

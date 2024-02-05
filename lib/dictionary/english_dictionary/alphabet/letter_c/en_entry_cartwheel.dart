@@ -191,7 +191,7 @@ class EnglishEntrycartwheel extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: مەحەلەق، خۆهەڵگێڕانەوە
+کوردی: مەحەلەق، خۆھەڵگێڕانەوە
 
 ١. (ناو) جوڵەیەکی جەستەیی خێرا کە تێیدا دەست دەخەیتە سەر زەوی و قاچەکانت بە نۆرە بەسەر سەرتدا دەبەیت"""),
                           Row(
@@ -204,7 +204,7 @@ class EnglishEntrycartwheel extends StatelessWidget {
                                             "Kids in the park were attempting cartwheels on the soft grass."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "منداڵان لە پارکەکە هەوڵی مەحەلەقیان دەدا لەسەر گژوگیا نەرمەکە."),
+                                            "منداڵان لە پارکەکە ھەوڵی مەحەلەقیان دەدا لەسەر گژوگیا نەرمەکە."),
                                   ],
                                 ),
                               ),
@@ -303,14 +303,14 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cartwheel (Derived forms: cartwheels)
+- Noun: cartwheel (derived forms: cartwheels)
 1. A wheel that has wooden spokes and a metal rim
  
 2. Acrobatic revolutions with the body turned sideways and the arms and legs outstretched like the spokes of a wheel
  
 3. A dollar made of silver (= silver dollar)
 
-- Verb: cartwheel (Derived forms: cartwheels, cartwheeling, cartwheeled)
+- Verb: cartwheel (derived forms: cartwheels, cartwheeling, cartwheeled)
 1. Do cartwheels: perform an acrobatic movement using both hands and feet
 """,
   );
@@ -344,7 +344,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bGnMKcMeOjY?t=',
+    videoId: 'bGnMKcMeOjY',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -369,7 +369,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xH3b4T7nPpo?t=',
+    videoId: 'xH3b4T7nPpo',
     startSeconds: 3,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/urwE7REPU7M?t=',
+    videoId: 'urwE7REPU7M',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5jsZuA-R3I4?t=',
+    videoId: '5jsZuA-R3I4',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rwmLiuUl4cI',
+    videoId: 'rwmLiuUl4cI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qquu3i0Kj_E?t=',
+    videoId: 'qquu3i0Kj_E',
     startSeconds: 13,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XnbCSboujF4?t=',
+    videoId: 'XnbCSboujF4',
     startSeconds: 228,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aFK7T7SjXRU?t=',
+    videoId: 'aFK7T7SjXRU',
     startSeconds: 547,
     autoPlay: true,
     params: const YoutubePlayerParams(

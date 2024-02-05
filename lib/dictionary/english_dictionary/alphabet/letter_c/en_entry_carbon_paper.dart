@@ -193,7 +193,7 @@ class EnglishEntrycarbonpaper extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: کاغزی کۆپی، لەبەرگرتنەوە، یان هەڵگرتنەوە
+کوردی: کاغزی کۆپی، لەبەرگرتنەوە، یان ھەڵگرتنەوە
 
 ١. (ناو) پەڕەیەک کە کە لایەکی ڕەشە و دەخرێتە نێوان دوو پەڕە بۆ لەبەرگرتنەوەی نووسین"""),
                           Row(
@@ -307,7 +307,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carbon paper (Derived forms: carbon papers)
+- Noun: carbon paper (derived forms: carbon papers)
 1. A thin paper coated on one side with a dark waxy substance (often containing carbon); used to transfer characters from the original to an under sheet of paper (= carbon)
 """,
   );
@@ -341,7 +341,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/LNARzUSBL84?t=',
+    videoId: 'LNARzUSBL84',
     startSeconds: 986,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -366,7 +366,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9MJtcTMptDA?t=',
+    videoId: '9MJtcTMptDA',
     startSeconds: 150,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -391,7 +391,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HbVZmBjqszQ?t=',
+    videoId: 'HbVZmBjqszQ',
     startSeconds: 989,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -416,7 +416,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/U3Q58SKDAEA?t=',
+    videoId: 'U3Q58SKDAEA',
     startSeconds: 594,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -441,7 +441,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0JC72KL4om0?t=',
+    videoId: '0JC72KL4om0',
     startSeconds: 323,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -466,7 +466,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IalWUpwGonI?t=',
+    videoId: 'IalWUpwGonI',
     startSeconds: 598,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -491,7 +491,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/sdoO1kZOQS4?t=',
+    videoId: 'sdoO1kZOQS4',
     startSeconds: 767,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -516,7 +516,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/s6gJcWEDrAk?t=',
+    videoId: 's6gJcWEDrAk',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -541,7 +541,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ZnSfEklfo34?t=',
+    videoId: 'ZnSfEklfo34',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -566,7 +566,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OZH7EvzUI_s?t=',
+    videoId: 'OZH7EvzUI_s',
     startSeconds: 200,
     autoPlay: true,
     params: const YoutubePlayerParams(

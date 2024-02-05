@@ -195,7 +195,7 @@ class EnglishEntrycarriage extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: واگۆن، کالیسکە، عەڕەبانە، گەردوونە
 
-١. (ناو) ئەو بەشەی شەمەندەفەر کە گەشتیار هەڵدەگرێت"""),
+١. (ناو) ئەو بەشەی شەمەندەفەر کە گەشتیار ھەڵدەگرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -226,7 +226,7 @@ class EnglishEntrycarriage extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) عەرەبانەی ئەسپ کە جاران بۆ گواستنەوەی خەڵکی بەکاردەهات"),
+                                  "٢. (ناو) عەرەبانەی ئەسپ کە جاران بۆ گواستنەوەی خەڵکی بەکاردەھات"),
                           Row(
                             children: [
                               const Expanded(
@@ -367,7 +367,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carriage (Derived forms: carriages)
+- Noun: carriage (derived forms: carriages)
 1. A railcar where passengers ride (= passenger car, coach)
  
 2. A vehicle with wheels drawn by one or more horses (= equipage, rig)
@@ -410,7 +410,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l9x6ZLIYMog?t=',
+    videoId: 'l9x6ZLIYMog',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -435,7 +435,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FejWyRtutH8?t=',
+    videoId: 'FejWyRtutH8',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -460,7 +460,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BBXVSnegoY4?t=',
+    videoId: 'BBXVSnegoY4',
     startSeconds: 2552,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -485,7 +485,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dk1qGkH0e_U?t=',
+    videoId: 'Dk1qGkH0e_U',
     startSeconds: 556,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -510,7 +510,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k7ycnmmI4-s?t=',
+    videoId: 'k7ycnmmI4-s',
     startSeconds: 41,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -535,7 +535,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3cHE0RCwRsI',
+    videoId: '3cHE0RCwRsI',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -560,7 +560,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Qs-Lyw5xXLg?t=',
+    videoId: 'Qs-Lyw5xXLg',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -585,7 +585,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jcxztNXdClY?t=',
+    videoId: 'jcxztNXdClY',
     startSeconds: 233,
     autoPlay: true,
     params: const YoutubePlayerParams(

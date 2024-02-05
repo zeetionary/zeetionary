@@ -202,7 +202,7 @@ class EnglishEntrycarburettor extends StatelessWidget {
                                             "Classic cars still rely on a carburettor for fuel mixing."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئۆتۆمبێلە کۆنەکان هێشتا پشت بە کاربرێتەر دەبەستن بۆ تێکەڵکردنی سوتەمەنی."),
+                                            "ئۆتۆمبێلە کۆنەکان ھێشتا پشت بە کاربرێتەر دەبەستن بۆ تێکەڵکردنی سوتەمەنی."),
                                   ],
                                 ),
                               ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carburettor (Derived forms: carburettors)
+- Noun: carburettor (derived forms: carburettors)
 Usage: Brit (N. Amer: carburetor)
 1. Mixes air with petrol vapour prior to explosion (= carburetor [N. Amer], carburetter [rare])
 """,
@@ -338,7 +338,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/enX0sIDwafg?t=',
+    videoId: 'enX0sIDwafg',
     startSeconds: 411,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -363,7 +363,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/wR_AfQjyT-A?t=',
+    videoId: 'wR_AfQjyT-A',
     startSeconds: 47,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +388,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/toVfvRhWbj8?t=',
+    videoId: 'toVfvRhWbj8',
     startSeconds: 23,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +413,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pKG8-NnS9OI?t=',
+    videoId: 'pKG8-NnS9OI',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +438,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_LkDssbCdU8',
+    videoId: '_LkDssbCdU8',
     // startSeconds: 239,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +463,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RPFouteVWcY',
+    videoId: 'RPFouteVWcY',
     // startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +488,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oAhdCRixqqw?t=',
+    videoId: 'oAhdCRixqqw',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +513,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HWurb3N3ZCU?t=',
+    videoId: 'HWurb3N3ZCU',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(

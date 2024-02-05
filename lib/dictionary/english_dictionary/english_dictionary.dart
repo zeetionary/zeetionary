@@ -3409,7 +3409,7 @@ class _DictionaryScreenEnglishState
           //   ),
           // ),
           AnimatedContainer(
-            duration: const Duration(milliseconds: 180),
+            duration: const Duration(milliseconds: 250),
             height: isFilterExpanded ? 40 : 0,
             child: Row(
               children: [
@@ -19079,10 +19079,11 @@ class ListTileEnglish extends ConsumerWidget {
         ),
         trailing: IconButton(
           icon: isFavouriteed
-              ? Icon(Icons.bookmark,
-                  color: Theme.of(context).primaryColor.withOpacity(0.9))
-              : Icon(Icons.bookmark_border,
-                  color: Theme.of(context).primaryColor.withOpacity(0.5)),
+              ? Icon(Icons.favorite,
+                  color: Theme.of(context).primaryColor.withOpacity(0.7))
+              // color: Colors.red.shade300.withOpacity(0.99))
+              : Icon(Icons.favorite_border,
+                  color: Theme.of(context).primaryColor.withOpacity(0.7)),
           onPressed: () => onEnglishFavourite?.call(),
         ),
       ),

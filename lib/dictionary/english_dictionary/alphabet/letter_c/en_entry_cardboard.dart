@@ -236,7 +236,7 @@ class EnglishEntrycardboard extends StatelessWidget {
                                             "I've never enjoyed his plays - somehow all his characters are cardboard."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەرگیز حەزم لە شانۆکانی نەبووە، بەشێوەیەک هەموو کارەکتەرەکانی دەستکرد دیارن."),
+                                            "ھەرگیز حەزم لە شانۆکانی نەبووە، بەشێوەیەک ھەموو کارەکتەرەکانی دەستکرد دیارن."),
                                   ],
                                 ),
                               ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 1. Without substance (= unlifelike)
 "cardboard caricatures of historical figures";
 
-- Noun: cardboard (Derived forms: cardboards)
+- Noun: cardboard (derived forms: cardboards)
 1. A stiff moderately thick paper (= composition board)
 """,
   );
@@ -373,7 +373,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h3HS4Okf7-Q',
+    videoId: 'h3HS4Okf7-Q',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -398,7 +398,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DFog2gMnm44?t=',
+    videoId: 'DFog2gMnm44',
     startSeconds: 120,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +423,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qVWzDX5NrhQ?t=',
+    videoId: 'qVWzDX5NrhQ',
     startSeconds: 284,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +448,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_lsC0aXyY6g?t=',
+    videoId: '_lsC0aXyY6g',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +473,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/H_Z0xD3RgOU?t=',
+    videoId: 'H_Z0xD3RgOU',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +498,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ZH3zRoV35Y',
+    videoId: '4ZH3zRoV35Y',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +523,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TME1GKUv69c?t=',
+    videoId: 'TME1GKUv69c',
     startSeconds: 9,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +548,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Hsx8lynl83w?t=',
+    videoId: 'Hsx8lynl83w',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(

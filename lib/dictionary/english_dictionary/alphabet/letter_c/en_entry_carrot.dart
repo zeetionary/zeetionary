@@ -38,7 +38,8 @@ class EnglishEntrycarrot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("If you put carrot tops in water they start to grow."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "If you put carrot tops in water they start to grow."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrots3(String languageCode) async {
@@ -54,7 +55,8 @@ class EnglishEntrycarrot extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Even with the carrot of a free lunch it is unlikely that many people will turn up."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Even with the carrot of a free lunch it is unlikely that many people will turn up."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarrots5(String languageCode) async {
@@ -203,7 +205,8 @@ class EnglishEntrycarrot extends StatelessWidget {
                                         text:
                                             "It's rather early to be sowing carrot seeds, isn't it?"),
                                     ExampleSentenceKurdish(
-                                        text: "زووە بۆ ناشتنی تۆوی گێزەر، وانییە؟"),
+                                        text:
+                                            "زووە بۆ ناشتنی تۆوی گێزەر، وانییە؟"),
                                   ],
                                 ),
                               ),
@@ -222,58 +225,62 @@ class EnglishEntrycarrot extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "If you put carrot tops in water they start to grow."),
-                          ExampleSentenceKurdish(
-                          text: "ئەگەر بنجی گێزەر بخەیتە ئاوەوە دەست بە ڕووان دەکات."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrots2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrots2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "If you put carrot tops in water they start to grow."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئەگەر بنجی گێزەر بخەیتە ئاوەوە دەست بە ڕووان دەکات."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrots2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrots2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) خەڵاتێک کە بەڵێن دەدرێت بە کەسێک بدرێت ئەگەر شتێک بکات"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ناو) خەڵاتێک کە بەڵێن دەدرێت بە کەسێک بدرێت ئەگەر شتێک بکات"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Even with the carrot of a free lunch it is unlikely that many people will turn up."),
-                          ExampleSentenceKurdish(
-                          text: "تەنانەت بە خەڵاتی خواردنێکی بێ‌بەرامبەری نیوەڕۆ، ئەگەری کەمە زۆر خەڵک بێن."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarrots4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarrots4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Even with the carrot of a free lunch it is unlikely that many people will turn up."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنانەت بە خەڵاتی خواردنێکی بێ‌بەرامبەری نیوەڕۆ، ئەگەری کەمە زۆر خەڵک بێن."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarrots4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarrots4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -287,11 +294,11 @@ class EnglishEntrycarrot extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -357,7 +364,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carrot (Derived forms: carrots)
+- Noun: carrot (derived forms: carrots)
 1. Deep orange edible root of the cultivated carrot plant
  
 2. Perennial plant widely cultivated as an annual in many varieties for its long conical orange edible roots; temperate and tropical regions (= cultivated carrot, Daucus carota sativa)
@@ -398,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GtwVD6v7Hos?t=',
+    videoId: 'GtwVD6v7Hos',
     startSeconds: 119,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eTTMeNZlZK4?t=',
+    videoId: 'eTTMeNZlZK4',
     startSeconds: 325,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3BOpNCMB5Zc?t=',
+    videoId: '3BOpNCMB5Zc',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EuJR79ngRio?t=',
+    videoId: 'EuJR79ngRio',
     startSeconds: 146,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/i5pZkxgXnRg?t=',
+    videoId: 'i5pZkxgXnRg',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5lP2Guzoh58?t=',
+    videoId: '5lP2Guzoh58',
     startSeconds: 81,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vFeRxfu3uhA?t=',
+    videoId: 'vFeRxfu3uhA',
     startSeconds: 44,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +580,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MRhMmYchFGk?t=',
+    videoId: 'MRhMmYchFGk',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(

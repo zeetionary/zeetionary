@@ -38,7 +38,8 @@ class EnglishEntrycarcass extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Vultures flew around in the sky waiting to pick at the rotting carcass of the deer."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Vultures flew around in the sky waiting to pick at the rotting carcass of the deer."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarcasss3(String languageCode) async {
@@ -203,7 +204,8 @@ class EnglishEntrycarcass extends StatelessWidget {
                                         text:
                                             "She boiled up the chicken carcass (= the bones of a cooked chicken) to make soup."),
                                     ExampleSentenceKurdish(
-                                        text: "ئێسک‌وپرووسکی مریشکەکەی کوڵاند بۆ درووستکردنی مەرگە."),
+                                        text:
+                                            "ئێسک‌وپرووسکی مریشکەکەی کوڵاند بۆ درووستکردنی مەرگە."),
                                   ],
                                 ),
                               ),
@@ -222,30 +224,31 @@ class EnglishEntrycarcass extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Vultures flew around in the sky waiting to pick at the rotting carcass of the deer."),
-                          ExampleSentenceKurdish(
-                          text: "کەلاک‌خۆرەکان لە ئاسماندا دەسوڕانەوە و وەستابوون بۆ خواردنی کەلاکی گەنیوی ئاسکەکە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarcasss2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarcasss2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "Vultures flew around in the sky waiting to pick at the rotting carcass of the deer."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "کەلاک‌خۆرەکان لە ئاسماندا دەسوڕانەوە و وەستابوون بۆ خواردنی کەلاکی گەنیوی ئاسکەکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarcasss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarcasss2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -259,11 +262,11 @@ class EnglishEntrycarcass extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -329,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carcass (Derived forms: carcasses)
+- Noun: carcass (derived forms: carcasses)
 1. The dead body of an animal especially one slaughtered and dressed for food (= carcase [Brit])
 """,
   );
@@ -363,7 +366,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dXJmE5yANe8?t=',
+    videoId: 'dXJmE5yANe8',
     startSeconds: 33,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -388,7 +391,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FNrkGF3x8a4?t=',
+    videoId: 'FNrkGF3x8a4',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -413,7 +416,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VJA4hYYqtOU?t=',
+    videoId: 'VJA4hYYqtOU',
     startSeconds: 72,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -438,7 +441,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KkUuUyMhDxk?t=',
+    videoId: 'KkUuUyMhDxk',
     startSeconds: 147,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -463,7 +466,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/T2k80X9kbsM?t=',
+    videoId: 'T2k80X9kbsM',
     startSeconds: 173,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -488,7 +491,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KCGdEYtRXqY?t=',
+    videoId: 'KCGdEYtRXqY',
     startSeconds: 330,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -513,7 +516,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RwiteV9IUUo?t=',
+    videoId: 'RwiteV9IUUo',
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -538,7 +541,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VBVetU8FsRE?t=',
+    videoId: 'VBVetU8FsRE',
     startSeconds: 494,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -563,7 +566,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gv4Af83KFrE?t=',
+    videoId: 'Gv4Af83KFrE',
     startSeconds: 703,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -588,7 +591,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-XZHms1fX4Y?t=',
+    videoId: '-XZHms1fX4Y',
     startSeconds: 73,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -613,7 +616,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QxSUsn8H2zs?t=',
+    videoId: 'QxSUsn8H2zs',
     startSeconds: 64,
     autoPlay: true,
     params: const YoutubePlayerParams(

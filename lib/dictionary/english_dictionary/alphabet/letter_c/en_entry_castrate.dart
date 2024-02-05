@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: castrate (Derived forms: castrated, castrates, castrating)
+- Verb: castrate (derived forms: castrated, castrates, castrating)
 1. Remove the testicles of a male animal (= emasculate [archaic], demasculinize, demasculinise [Brit], evirate [rare])
  
 2. Deprive of strength or vigour (= emasculate)
@@ -315,7 +315,7 @@ ${englishMeaningConst.text}
 4. Remove the ovaries of (= alter, neuter, spay)
 "Is your cat castrated?";
 
-- Noun: castrate (Derived forms: castrates)
+- Noun: castrate (derived forms: castrates)
 1. A man who has been castrated and is incapable of reproduction (= eunuch)
 "castrates guarded the harem";
 """,
@@ -350,7 +350,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FJocv6OyEFk?t=',
+    videoId: 'FJocv6OyEFk',
     startSeconds: 111,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -375,7 +375,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9-QsT-U2d4k?t=',
+    videoId: '9-QsT-U2d4k',
     startSeconds: 561,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/enwpRTNctek?t=',
+    videoId: 'enwpRTNctek',
     startSeconds: 1103,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3Kk3AWFMWww?t=',
+    videoId: '3Kk3AWFMWww',
     startSeconds: 454,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eetbgeLDy6M?t=',
+    videoId: 'eetbgeLDy6M',
     startSeconds: 1171,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/eg5YQjzCSL8?t=',
+    videoId: 'eg5YQjzCSL8',
     startSeconds: 31,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ToWob3-ykbE?t=',
+    videoId: 'ToWob3-ykbE',
     startSeconds: 974,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Z4KdRgtSE-4?t=',
+    videoId: 'Z4KdRgtSE-4',
     startSeconds: 136,
     autoPlay: true,
     params: const YoutubePlayerParams(

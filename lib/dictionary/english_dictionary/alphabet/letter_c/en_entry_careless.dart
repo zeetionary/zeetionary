@@ -38,7 +38,8 @@ class EnglishEntrycareless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It would be careless to ignore the risks."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It would be careless to ignore the risks."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarelesss3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycareless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("In a rush, she made a careless mistake on the final exam."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "In a rush, she made a careless mistake on the final exam."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarelesss4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycareless extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He seemed careless of his own safety."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He seemed careless of his own safety."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarelesss5(String languageCode) async {
@@ -191,9 +194,9 @@ class EnglishEntrycareless extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ناهۆشیار، بێ‌سەرنج، هەڵەشە، کەترە، سەرچڵ، لامسەرلا، بێ‌خەم، گوێ‌پێنەدەر، کەمتەرخەم، ئاسوودە
+کوردی: ناھۆشیار، بێ‌سەرنج، ھەڵەشە، کەترە، سەرچڵ، لامسەرلا، بێ‌خەم، گوێ‌پێنەدەر، کەمتەرخەم، ئاسوودە
 
-١. (ھاوەڵناو) پێنەدانی سەرنج و هۆشیاریی پێویست بە شتێک کە دەیکەیت"""),
+١. (ھاوەڵناو) پێنەدانی سەرنج و ھۆشیاریی پێویست بە شتێک کە دەیکەیت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +206,8 @@ class EnglishEntrycareless extends StatelessWidget {
                                         text:
                                             "It was careless of me to leave the door open."),
                                     ExampleSentenceKurdish(
-                                        text: "لە کەمتەرخەمیم بوو کە دەرگاکەم بە کراوەیی جێهێشت."),
+                                        text:
+                                            "لە کەمتەرخەمیم بوو کە دەرگاکەم بە کراوەیی جێھێشت."),
                                   ],
                                 ),
                               ),
@@ -222,86 +226,93 @@ class EnglishEntrycareless extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "It would be careless to ignore the risks."),
-                          ExampleSentenceKurdish(
-                          text: "لامسەرلا دەبێت کە گرنگی بە مەترسییەکان نەدەیت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarelesss2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarelesss2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (هاوەڵناو) شتێک کە بەهۆی خەمساردییەوە ڕوویداوە"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "In a rush, she made a careless mistake on the final exam."),
-                          ExampleSentenceKurdish(
-                          text: "لە پەلەپەلدا هەڵەیەکی خەمساردانەی کرد لە تاقیکردنەوەی کۆتاییدا."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarelesss3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarelesss3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It would be careless to ignore the risks."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لامسەرلا دەبێت کە گرنگی بە مەترسییەکان نەدەیت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarelesss2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarelesss2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ھاوەڵناو) نەبوونی نیگەرانی سەبارەت بە شتێک"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) شتێک کە بەھۆی خەمساردییەوە ڕوویداوە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He seemed careless of his own safety."),
-                          ExampleSentenceKurdish(
-                          text: "بێ‌خەم دیاربوو لە سەلامەتیی خۆی."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "In a rush, she made a careless mistake on the final exam."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "لە پەلەپەلدا ھەڵەیەکی خەمساردانەی کرد لە تاقیکردنەوەی کۆتاییدا."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarelesss3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarelesss3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarelesss4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarelesss4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٣. (ھاوەڵناو) نەبوونی نیگەرانی سەبارەت بە شتێک"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He seemed careless of his own safety."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بێ‌خەم دیاربوو لە سەلامەتیی خۆی."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarelesss4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarelesss4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -315,11 +326,11 @@ class EnglishEntrycareless extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -426,7 +437,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/UkdAusG0OUE?t=',
+    videoId: 'UkdAusG0OUE',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -451,7 +462,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lqzjHrwde74?t=',
+    videoId: 'lqzjHrwde74',
     startSeconds: 212,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -476,7 +487,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/YXRV375OpM8?t=',
+    videoId: 'YXRV375OpM8',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -501,7 +512,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/-jpACtD_QpE?t=',
+    videoId: '-jpACtD_QpE',
     startSeconds: 20,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -526,7 +537,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IkOMgGLEqHE?t=',
+    videoId: 'IkOMgGLEqHE',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -551,7 +562,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zZM57oTu9Ng?t=',
+    videoId: 'zZM57oTu9Ng',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -576,7 +587,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BrxAnehKjZ0?t=',
+    videoId: 'BrxAnehKjZ0',
     startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -601,7 +612,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/aaK259UKQIY?t=',
+    videoId: 'aaK259UKQIY',
     startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(

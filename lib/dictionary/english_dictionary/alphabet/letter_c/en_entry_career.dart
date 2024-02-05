@@ -201,7 +201,7 @@ class EnglishEntrycareer extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: کار، پیشە، ئیش، خەبات، شوول
 
-١. (ناو) زنجیرە کارێک کە کەسێک هەیەتی لە بەشێکی دیاریکراوی کارێکدا"""),
+١. (ناو) زنجیرە کارێک کە کەسێک ھەیەتی لە بەشێکی دیاریکراوی کارێکدا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -212,7 +212,7 @@ class EnglishEntrycareer extends StatelessWidget {
                                             "She plans to pursue a career in medicine."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پلانی هەیە کارێکی لە دەرمانسازیدا هەبێت."),
+                                            "پلانی ھەیە کارێکی لە دەرمانسازیدا ھەبێت."),
                                   ],
                                 ),
                               ),
@@ -240,7 +240,7 @@ class EnglishEntrycareer extends StatelessWidget {
                                             "He had a successful career in television journalism."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پیشەیەکی سەرکەوتووانەی هەبوو لە ڕۆژنامەنووسیی تەلەفیزیۆنیدا."),
+                                            "پیشەیەکی سەرکەوتووانەی ھەبوو لە ڕۆژنامەنووسیی تەلەفیزیۆنیدا."),
                                   ],
                                 ),
                               ),
@@ -271,7 +271,7 @@ class EnglishEntrycareer extends StatelessWidget {
                                                     "He enjoyed a long and distinguished career as a historian."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "وەک مێژووناسێک پیشەیەکی درێژ و سەرکەوتووانەی هەبوو."),
+                                                    "وەک مێژووناسێک پیشەیەکی درێژ و سەرکەوتووانەی ھەبوو."),
                                           ],
                                         ),
                                       ),
@@ -331,7 +331,7 @@ class EnglishEntrycareer extends StatelessWidget {
                                                     "We wish our graduates every success in whatever career path they have chosen."),
                                             ExampleSentenceKurdish(
                                                 text:
-                                                    "سەرکەوتنی تەواو بۆ دەرچوانمان دەخوازین لە هەر کارێک کە هەڵیانبژاردووە."),
+                                                    "سەرکەوتنی تەواو بۆ دەرچوانمان دەخوازین لە ھەر کارێک کە ھەڵیانبژاردووە."),
                                           ],
                                         ),
                                       ),
@@ -554,13 +554,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: career (Derived forms: careers)
+- Noun: career (derived forms: careers)
 1. The particular occupation for which you are trained (= calling, vocation)
  
 2. The general progression of your working or professional life (= life history)
 "he had a long career in the law"; "the general had had a distinguished career";
 
-- Verb: career (Derived forms: careers, careering, careered)
+- Verb: career (derived forms: careers, careering, careered)
 1. Move headlong at high speed
 "The cars careered down the road"; "The mob careered through the streets"
 """,
@@ -595,7 +595,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9fDEKiuJ2qA?t=',
+    videoId: '9fDEKiuJ2qA',
     startSeconds: 154,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/etnIIZRgI4g?t=',
+    videoId: 'etnIIZRgI4g',
     startSeconds: 59,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -645,7 +645,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bLeObjK-SSc?t=',
+    videoId: 'bLeObjK-SSc',
     startSeconds: 27,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -670,7 +670,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/GmCp2whXVHA?t=',
+    videoId: 'GmCp2whXVHA',
     startSeconds: 127,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -695,7 +695,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6alHr_ZTdQI?t=',
+    videoId: '6alHr_ZTdQI',
     startSeconds: 110,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -720,7 +720,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/544DTGHIBM0?t=',
+    videoId: '544DTGHIBM0',
     startSeconds: 779,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -745,7 +745,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_GFkHA5EZdE?t=',
+    videoId: '_GFkHA5EZdE',
     startSeconds: 407,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -770,7 +770,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ewLpXw6uN28?t=',
+    videoId: 'ewLpXw6uN28',
     startSeconds: 148,
     autoPlay: true,
     params: const YoutubePlayerParams(

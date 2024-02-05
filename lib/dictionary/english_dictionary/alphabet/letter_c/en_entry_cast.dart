@@ -500,9 +500,9 @@ class EnglishEntrycast extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: خستن، هاویشتن، حەوادان، تووڕدان، دەستەی هونەرمەند و ئەکتەران، گەچ (شکستەبەندی)، شتی ڕژاو یان داڕێژراو، داڕژاوە، داڕشتە، داڕێژگە، قاڵب، شێوە، بیچم، ڕووکەش، تەرح، تیراوێژ، بەرتیر، ماوەبڕ، لێکدانەوە، مەزندە، مۆرەهەڵخستن، مۆرەهاویشتن، کەراژ، کەراژەمار، جۆر، چەشن، ئاوا، خێلی (کەمێ)، بنەڕەنگ، سووکەڕەنگ
+کوردی: خستن، ھاویشتن، حەوادان، تووڕدان، دەستەی ھونەرمەند و ئەکتەران، گەچ (شکستەبەندی)، شتی ڕژاو یان داڕێژراو، داڕژاوە، داڕشتە، داڕێژگە، قاڵب، شێوە، بیچم، ڕووکەش، تەرح، تیراوێژ، بەرتیر، ماوەبڕ، لێکدانەوە، مەزندە، مۆرەھەڵخستن، مۆرەھاویشتن، کەراژ، کەراژەمار، جۆر، چەشن، ئاوا، خێلی (کەمێ)، بنەڕەنگ، سووکەڕەنگ
 
-١. (کردار) سەیرکردن، پێکەنین، هتد بە ئاراستەیەکی دیاریکراودا"""),
+١. (کردار) سەیرکردن، پێکەنین، ھتد بە ئاراستەیەکی دیاریکراودا"""),
                           Row(
                             children: [
                               const Expanded(
@@ -559,7 +559,7 @@ class EnglishEntrycast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (کردار) دەرخستنی ڕۆشنایی، سێبەر، هتد لەسەر شوێنێکی دیاریکراو"),
+                                  "٢. (کردار) دەرخستنی ڕۆشنایی، سێبەر، ھتد لەسەر شوێنێکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -657,7 +657,7 @@ class EnglishEntrycast extends StatelessWidget {
                                             "The entire economic future of the islands was cast into doubt."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "تەواوی داهاتووی ئابووریی دوورگەکە خرایە ژێر گومانەوە."),
+                                            "تەواوی داھاتووی ئابووریی دوورگەکە خرایە ژێر گومانەوە."),
                                   ],
                                 ),
                               ),
@@ -687,7 +687,7 @@ class EnglishEntrycast extends StatelessWidget {
                                             "He refused to cast a vote for either candidate."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ڕەتیکردەوە دەنگ بە هیچ یەک لە دوو کاندیدەکە بدات."),
+                                            "ڕەتیکردەوە دەنگ بە ھیچ یەک لە دوو کاندیدەکە بدات."),
                                   ],
                                 ),
                               ),
@@ -707,7 +707,7 @@ class EnglishEntrycast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) هەڵبژرادنی ئەکتەرێک بۆ بینینی ڕۆڵێک"),
+                                  "٥. (کردار) ھەڵبژرادنی ئەکتەرێک بۆ بینینی ڕۆڵێک"),
                           Row(
                             children: [
                               const Expanded(
@@ -766,7 +766,7 @@ class EnglishEntrycast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٦. (کردار) ناساندنی کەسێک، شتێک، هتد بەشێوەیەکی دیاریکراو"),
+                                  "٦. (کردار) ناساندنی کەسێک، شتێک، ھتد بەشێوەیەکی دیاریکراو"),
                           Row(
                             children: [
                               const Expanded(
@@ -838,7 +838,7 @@ class EnglishEntrycast extends StatelessWidget {
                                             "The priceless treasures had been cast into the Nile."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "گەنجینە بەهادارەکان فڕێدرابوونە ناو ڕووباری نیلەوە."),
+                                            "گەنجینە بەھادارەکان فڕێدرابوونە ناو ڕووباری نیلەوە."),
                                   ],
                                 ),
                               ),
@@ -858,7 +858,7 @@ class EnglishEntrycast extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٩. (ناو) هەموو ئەو کەسانەی کە بەژداری لە فیلمێک، شانۆیەک، هتد دەکەن"),
+                                  "٩. (ناو) ھەموو ئەو کەسانەی کە بەژداری لە فیلمێک، شانۆیەک، ھتد دەکەن"),
                           Row(
                             children: [
                               const Expanded(
@@ -896,7 +896,7 @@ class EnglishEntrycast extends StatelessWidget {
                                         text: "The film has a great cast."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "فیلمەکە ژمارەیەک ئەکتەری ناوازەی هەیە."),
+                                            "فیلمەکە ژمارەیەک ئەکتەری ناوازەی ھەیە."),
                                   ],
                                 ),
                               ),
@@ -1055,7 +1055,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: cast (Derived forms: casts, cast, casting)
+- Verb: cast (derived forms: casts, cast, casting)
 1. Put or send forth (= project, contrive, throw)
 "cast a spell"; "cast a warm light";
  
@@ -1085,7 +1085,7 @@ ${englishMeaningConst.text}
 10. Formulate in a particular style or language (= frame, redact, put, couch)
 "She cast her request in very polite language";
 
-- Noun: cast (Derived forms: casts) 
+- Noun: cast (derived forms: casts) 
 1. The actors in a play (= cast of characters, dramatis personae)
  
 2. Container into which liquid is poured to create a given shape when it hardens (= mold [N. Amer], mould [Brit, Cdn])
@@ -1137,7 +1137,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hwFJyldqaIs?t=',
+    videoId: 'hwFJyldqaIs',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1162,7 +1162,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2HH9tBqY4XY?t=',
+    videoId: '2HH9tBqY4XY',
     startSeconds: 99,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1187,7 +1187,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/tXjHb5QmDV0?t=',
+    videoId: 'tXjHb5QmDV0',
     startSeconds: 215,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1212,7 +1212,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/pNCOA8AUxdw?t=',
+    videoId: 'pNCOA8AUxdw',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1237,7 +1237,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qWAagS_MANg?t=',
+    videoId: 'qWAagS_MANg',
     startSeconds: 1424,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1262,7 +1262,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dqcSk-EDrRo?t=',
+    videoId: 'dqcSk-EDrRo',
     startSeconds: 1256,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1287,7 +1287,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rzd0mLf366I?t=',
+    videoId: 'Rzd0mLf366I',
     startSeconds: 69,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1312,7 +1312,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_45zjnjrFOA?t=',
+    videoId: '_45zjnjrFOA',
     startSeconds: 30,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -1337,7 +1337,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/anbBwpoI9TI?t=',
+    videoId: 'anbBwpoI9TI',
     startSeconds: 526,
     autoPlay: true,
     params: const YoutubePlayerParams(

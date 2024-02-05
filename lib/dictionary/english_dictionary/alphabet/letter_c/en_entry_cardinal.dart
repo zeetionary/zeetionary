@@ -194,9 +194,9 @@ class EnglishEntrycardinal extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: بنگەهی، بنچینەیی، بنەڕەتی، سەرەکی، بناخەیی، گرنگ، بەرکەفتی، سوورەسەیرە، سەیرەی سوور، ژمارەی بنەڕەتی (1، 2، 3، 4، هتد)
+کوردی: بنگەھی، بنچینەیی، بنەڕەتی، سەرەکی، بناخەیی، گرنگ، بەرکەفتی، سوورەسەیرە، سەیرەی سوور، ژمارەی بنەڕەتی (1، 2، 3، 4، ھتد)
 
-١. (ناو) باڵاترین قەشەی کڵێسای کاسۆلیکی ڕۆم کە بەرپرسن لە هەڵبژاردنی پاپا و ڕاوێژ پێدانی"""),
+١. (ناو) باڵاترین قەشەی کڵێسای کاسۆلیکی ڕۆم کە بەرپرسن لە ھەڵبژاردنی پاپا و ڕاوێژ پێدانی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -207,7 +207,7 @@ class EnglishEntrycardinal extends StatelessWidget {
                                             "Cardinals elect and advise the Pope."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاردیناڵەکان پاپا هەڵدەبژێرن و ڕاوێژی پێدەدەن."),
+                                            "کاردیناڵەکان پاپا ھەڵدەبژێرن و ڕاوێژی پێدەدەن."),
                                   ],
                                 ),
                               ),
@@ -405,7 +405,7 @@ ${englishMeaningConst.text}
 2. Being or denoting a numerical quantity but not order
 "cardinal numbers"
 
-- Noun: cardinal (Derived forms: cardinals)
+- Noun: cardinal (derived forms: cardinals)
 1. (Roman Catholic Church) one of a group of more than 100 prominent bishops in the Sacred College who advise the Pope and elect new Popes
  
 2. The number of elements in a mathematical set; denotes a quantity but not the order (= cardinal number)
@@ -445,7 +445,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VTmgmJ_PfIE?t=',
+    videoId: 'VTmgmJ_PfIE',
     startSeconds: 187,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +470,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/fS6TEbQWisM?t=',
+    videoId: 'fS6TEbQWisM',
     startSeconds: 76,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +495,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k2tQxi1atKw?t=',
+    videoId: 'k2tQxi1atKw',
     startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +520,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Py31zuUEDUg?t=',
+    videoId: 'Py31zuUEDUg',
     startSeconds: 479,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -545,7 +545,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/PwQYefFrki0?t=',
+    videoId: 'PwQYefFrki0',
     startSeconds: 605,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -570,7 +570,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9027XCJZVC0?t=',
+    videoId: '9027XCJZVC0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -595,7 +595,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/84-iAoTIZkM?t=',
+    videoId: '84-iAoTIZkM',
     startSeconds: 2415,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -620,7 +620,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/C9LNexIoCW0?t=',
+    videoId: 'C9LNexIoCW0',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(

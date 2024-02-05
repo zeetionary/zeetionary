@@ -38,7 +38,8 @@ class EnglishEntrycarelessly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The fire was started by a carelessly discarded cigarette."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The fire was started by a carelessly discarded cigarette."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarelesslys3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycarelessly extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She threw her coat carelessly onto the chair."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She threw her coat carelessly onto the chair."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarelesslys4(String languageCode) async {
@@ -203,7 +205,8 @@ class EnglishEntrycarelessly extends StatelessWidget {
                                         text:
                                             "Someone had carelessly left a window open."),
                                     ExampleSentenceKurdish(
-                                        text: "کەسێک خەمساردانە پەنجەرەیەکی بە کراوەیی جێهێشتبوو."),
+                                        text:
+                                            "کەسێک خەمساردانە پەنجەرەیەکی بە کراوەیی جێھێشتبوو."),
                                   ],
                                 ),
                               ),
@@ -222,58 +225,62 @@ class EnglishEntrycarelessly extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The fire was started by a carelessly discarded cigarette."),
-                          ExampleSentenceKurdish(
-                          text: "ئاگرەکە دەستیپێکردبوو بە جگەرەیەکی ناهۆشیارانە فڕێدراو."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarelesslys2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarelesslys2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The fire was started by a carelessly discarded cigarette."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاگرەکە دەستیپێکردبوو بە جگەرەیەکی ناھۆشیارانە فڕێدراو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarelesslys2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarelesslys2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵکار) بەشێوەیەک کە حەز و هەوڵدانێک پیشان نادات"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵکار) بەشێوەیەک کە حەز و ھەوڵدانێک پیشان نادات"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She threw her coat carelessly onto the chair."),
-                          ExampleSentenceKurdish(
-                          text: "بەخەمشەسەرێ پاڵتاوەکەی فڕێدایە سەر کورسییەکە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarelesslys3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarelesslys3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She threw her coat carelessly onto the chair."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بەخەمشەسەرێ پاڵتاوەکەی فڕێدایە سەر کورسییەکە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarelesslys3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarelesslys3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -287,11 +294,11 @@ class EnglishEntrycarelessly extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -398,7 +405,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F1w80BW8sjc?t=',
+    videoId: 'F1w80BW8sjc',
     startSeconds: 1996,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -423,7 +430,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dEmPpBhf2PI?t=',
+    videoId: 'dEmPpBhf2PI',
     startSeconds: 244,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -448,7 +455,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d84Kj6CJTKI?t=',
+    videoId: 'd84Kj6CJTKI',
     startSeconds: 243,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -473,7 +480,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JvoCIahJZ6s?t=',
+    videoId: 'JvoCIahJZ6s',
     startSeconds: 477,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -498,7 +505,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NrFlhSNdDDk?t=',
+    videoId: 'NrFlhSNdDDk',
     startSeconds: 298,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -523,7 +530,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4CIuqKqFNdE?t=',
+    videoId: '4CIuqKqFNdE',
     startSeconds: 803,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -548,7 +555,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VOmp3Nz2ZbA?t=',
+    videoId: 'VOmp3Nz2ZbA',
     startSeconds: 21,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -573,7 +580,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5loVj-mSLP4?t=',
+    videoId: '5loVj-mSLP4',
     startSeconds: 623,
     autoPlay: true,
     params: const YoutubePlayerParams(

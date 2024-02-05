@@ -29,8 +29,7 @@ class EnglishEntrycareful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        " Be careful!"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(" Be careful!"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarefuls2(String languageCode) async {
@@ -38,7 +37,8 @@ class EnglishEntrycareful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He was careful to keep out of sight."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("He was careful to keep out of sight."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarefuls3(String languageCode) async {
@@ -46,7 +46,8 @@ class EnglishEntrycareful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He's been careful to avoid significant debt."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He's been careful to avoid significant debt."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarefuls4(String languageCode) async {
@@ -62,7 +63,8 @@ class EnglishEntrycareful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Be particularly careful when swimming in the lake."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "Be particularly careful when swimming in the lake."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarefuls6(String languageCode) async {
@@ -70,7 +72,8 @@ class EnglishEntrycareful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("A successful party requires careful planning."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "A successful party requires careful planning."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarefuls7(String languageCode) async {
@@ -78,7 +81,8 @@ class EnglishEntrycareful extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She made a careful analysis of the evidence."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She made a careful analysis of the evidence."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarefuls8(String languageCode) async {
@@ -191,19 +195,17 @@ class EnglishEntrycareful extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: هۆشیار، وریا، تێبین، ئاگادار، چاوبەسەر، چاودێر، بەدیارەوەبوو، ورد، بەسەرنج
+کوردی: ھۆشیار، وریا، تێبین، ئاگادار، چاوبەسەر، چاودێر، بەدیارەوەبوو، ورد، بەسەرنج
 
-١. (ھاوەڵناو) پێدانی هۆشیاری و گرنگی بەوەی دەیکەیت بپ ئەوەی هیچی هەڵە ڕوونەدات"""),
+١. (ھاوەڵناو) پێدانی ھۆشیاری و گرنگی بەوەی دەیکەیت بپ ئەوەی ھیچی ھەڵە ڕوونەدات"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            " Be careful!"),
-                                    ExampleSentenceKurdish(
-                                        text: "ئاگادار بە!"),
+                                        text: " Be careful!"),
+                                    ExampleSentenceKurdish(text: "ئاگادار بە!"),
                                   ],
                                 ),
                               ),
@@ -222,173 +224,185 @@ class EnglishEntrycareful extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He was careful to keep out of sight."),
-                          ExampleSentenceKurdish(
-                          text: "بە ئاگا بوو کە لە چاو بە دوور بێت."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He was careful to keep out of sight."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ئاگا بوو کە لە چاو بە دوور بێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarefuls2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarefuls2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
                           Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarefuls2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarefuls2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          Column(
-                          children: [
-                          MyExpansionTile(
-                          children: [
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He's been careful to avoid significant debt."),
-                          ExampleSentenceKurdish(
-                          text: "بە ئاگایە لەوەی لە قەرزی زۆر بە دوور بێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarefuls3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarefuls3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Be careful what you say."),
-                          ExampleSentenceKurdish(
-                          text: "ئاگادار بە چی دەڵێیت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarefuls4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarefuls4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerSentences(),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "Be particularly careful when swimming in the lake."),
-                          ExampleSentenceKurdish(
-                          text: "تەواو ئاگادار بە کە لە دەریاچەکە مەلە دەکەیت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarefuls5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarefuls5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              MyExpansionTile(
+                                children: [
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "He's been careful to avoid significant debt."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "بە ئاگایە لەوەی لە قەرزی زۆر بە دوور بێت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcarefuls3("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcarefuls3("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Be careful what you say."),
+                                            ExampleSentenceKurdish(
+                                                text: "ئاگادار بە چی دەڵێیت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcarefuls4("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcarefuls4("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerSentences(),
+                                  Row(
+                                    children: [
+                                      const Expanded(
+                                        child: Column(
+                                          children: [
+                                            ExampleSentenceEnglish(
+                                                text:
+                                                    "Be particularly careful when swimming in the lake."),
+                                            ExampleSentenceKurdish(
+                                                text:
+                                                    "تەواو ئاگادار بە کە لە دەریاچەکە مەلە دەکەیت."),
+                                          ],
+                                        ),
+                                      ),
+                                      const CustomSizedBoxForTTS(),
+                                      Column(
+                                        children: [
+                                          CustomIconButtonBritish(
+                                            onPressed: () =>
+                                                speakcarefuls5("en-GB"),
+                                          ),
+                                          CustomIconButtonAmerican(
+                                            onPressed: () =>
+                                                speakcarefuls5("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێدانی سەرنجی زۆر بە وردەکاری"),
+                          const DefinitionKurdish(
+                              text:
+                                  "٢. (ھاوەڵناو) پێدانی سەرنجی زۆر بە وردەکاری"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "A successful party requires careful planning."),
-                          ExampleSentenceKurdish(
-                          text: "ئاهەنگێکی سەرکەوتووانە پێویستی بە پلانی ورد هەیە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarefuls6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarefuls6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "A successful party requires careful planning."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ئاھەنگێکی سەرکەوتووانە پێویستی بە پلانی ورد ھەیە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarefuls6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarefuls6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She made a careful analysis of the evidence."),
-                          ExampleSentenceKurdish(
-                          text: "شیکارییەکی وردی بەڵگەکەی کرد."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarefuls7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarefuls7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She made a careful analysis of the evidence."),
+                                    ExampleSentenceKurdish(
+                                        text: "شیکارییەکی وردی بەڵگەکەی کرد."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarefuls7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarefuls7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -402,7 +416,7 @@ class EnglishEntrycareful extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
@@ -519,7 +533,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4Ukm-xaskE0?t=',
+    videoId: '4Ukm-xaskE0',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +558,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/hFZFjoX2cGg?t=',
+    videoId: 'hFZFjoX2cGg',
     startSeconds: 390,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +583,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/khOUvmOQExc?t=',
+    videoId: 'khOUvmOQExc',
     startSeconds: 603,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +608,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MGO4_8YRKro?t=',
+    videoId: 'MGO4_8YRKro',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +633,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zqllxbPWKNI?t=',
+    videoId: 'zqllxbPWKNI',
     startSeconds: 491,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -644,7 +658,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dJzTse9Dsaw?t=',
+    videoId: 'dJzTse9Dsaw',
     startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -669,7 +683,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SHLOUzYmMAo?t=',
+    videoId: 'SHLOUzYmMAo',
     startSeconds: 4506,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -694,7 +708,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/e3jOEfaSV1A?t=',
+    videoId: 'e3jOEfaSV1A',
     startSeconds: 1314,
     autoPlay: true,
     params: const YoutubePlayerParams(

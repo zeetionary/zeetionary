@@ -192,9 +192,9 @@ class EnglishEntrycarving extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: پەیکەری جوانی، هەڵکۆڵین، کاردۆژە، دارتاشی، تاشینگەری، پەیکەرتاشی، بەردتاشی
+کوردی: پەیکەری جوانی، ھەڵکۆڵین، کاردۆژە، دارتاشی، تاشینگەری، پەیکەرتاشی، بەردتاشی
 
-١. (ناو) شتێک یان شێوەیەک کە بە هۆڵکۆڵین یان داتاشین درووست دەکرێت"""),
+١. (ناو) شتێک یان شێوەیەک کە بە ھۆڵکۆڵین یان داتاشین درووست دەکرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycarving extends StatelessWidget {
                                             "There is some fine carving on the facade."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "هەندێک هەڵکۆڵینی جوان لەسەر ڕووی پێشەوەی بیناکەیە."),
+                                            "ھەندێک ھەڵکۆڵینی جوان لەسەر ڕووی پێشەوەی بیناکەیە."),
                                   ],
                                 ),
                               ),
@@ -224,7 +224,7 @@ class EnglishEntrycarving extends StatelessWidget {
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
-                              text: "٢. (ناو) هونەری داتاشین یان هەڵکۆڵین"),
+                              text: "٢. (ناو) ھونەری داتاشین یان ھەڵکۆڵین"),
                           Row(
                             children: [
                               const Expanded(
@@ -235,7 +235,7 @@ class EnglishEntrycarving extends StatelessWidget {
                                             "The sculptor devoted years to mastering the art of making objects through stone carving."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "پەیکەرتاشەکە چەندین ساڵی بەسەربرد بە فێربوونی هونەری درووستکردنی شت لە ڕێگەی بەردتاشی."),
+                                            "پەیکەرتاشەکە چەندین ساڵی بەسەربرد بە فێربوونی ھونەری درووستکردنی شت لە ڕێگەی بەردتاشی."),
                                   ],
                                 ),
                               ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carving (Derived forms: carvings)
+- Noun: carving (derived forms: carvings)
 1. A sculpture created by removing material (as wood, ivory or stone) in order to create a desired shape
  
 2. Removing parts from hard material to create a desired pattern or shape (= cutting)
@@ -372,7 +372,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HDprhP70Zmo?t=',
+    videoId: 'HDprhP70Zmo',
     startSeconds: 197,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -397,7 +397,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_q-n8SjU_RI?t=',
+    videoId: '_q-n8SjU_RI',
     startSeconds: 223,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -422,7 +422,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/J1Rl9cs93eg?t=',
+    videoId: 'J1Rl9cs93eg',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -447,7 +447,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8AbR55QWodw?t=',
+    videoId: '8AbR55QWodw',
     startSeconds: 3804,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -472,7 +472,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/nSsK19Sp5uY?t=',
+    videoId: 'nSsK19Sp5uY',
     startSeconds: 287,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -497,7 +497,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Dh6t7ds5yeY?t=',
+    videoId: 'Dh6t7ds5yeY',
     startSeconds: 245,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -522,7 +522,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/X6pdiDuJKd8?t=',
+    videoId: 'X6pdiDuJKd8',
     startSeconds: 475,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -547,7 +547,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/o9H_hUaINsA',
+    videoId: 'o9H_hUaINsA',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(

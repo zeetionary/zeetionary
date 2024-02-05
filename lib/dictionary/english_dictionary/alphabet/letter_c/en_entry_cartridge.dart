@@ -193,7 +193,7 @@ class EnglishEntrycartridge extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: فیشەک، گوللە، نێوە، نێوک، کارتریج، کاسێت، سەری پیکاپ، جێگای دەرزی (قەوان)
 
-١. (ناو) قەباغێکی لوولەیی کە لە مادەی تەقەمەنی و سەرێک پێکهاتووە کە دەتەقێندرێت"""),
+١. (ناو) قەباغێکی لوولەیی کە لە مادەی تەقەمەنی و سەرێک پێکھاتووە کە دەتەقێندرێت"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,8 @@ class EnglishEntrycartridge extends StatelessWidget {
                                         text:
                                             "The soldier swiftly loaded a fresh cartridge into the rifle."),
                                     ExampleSentenceKurdish(
-                                        text: "سەربازەکە بەخێرایی فیشەکێکی تازەی خستە تفەنگەکەیەوە."),
+                                        text:
+                                            "سەربازەکە بەخێرایی فیشەکێکی تازەی خستە تفەنگەکەیەوە."),
                                   ],
                                 ),
                               ),
@@ -232,11 +233,11 @@ class EnglishEntrycartridge extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -302,7 +303,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cartridge (Derived forms: cartridges)
+- Noun: cartridge (derived forms: cartridges)
 1. Ammunition consisting of a cylindrical casing containing an explosive charge and a bullet; fired from a rifle or handgun
  
 2. A light-tight supply chamber holding the film and supplying it for exposure as required (= magazine)
@@ -345,7 +346,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/34vTRvf_7lU',
+    videoId: '34vTRvf_7lU',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -370,7 +371,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NJ-Vcj3aEsw?t=',
+    videoId: 'NJ-Vcj3aEsw',
     startSeconds: 46,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -395,7 +396,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/96WuvakPEKE?t=',
+    videoId: '96WuvakPEKE',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -420,7 +421,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lHuNo2XU57g',
+    videoId: 'lHuNo2XU57g',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -445,7 +446,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/seikga6-Ksk?t=',
+    videoId: 'seikga6-Ksk',
     startSeconds: 11,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -470,7 +471,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/576HwhU6PMM?t=',
+    videoId: '576HwhU6PMM',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -495,7 +496,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/zIADYkHIFDI?t=',
+    videoId: 'zIADYkHIFDI',
     startSeconds: 210,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -520,7 +521,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TxXkBhZHoLQ?t=',
+    videoId: 'TxXkBhZHoLQ',
     startSeconds: 750,
     autoPlay: true,
     params: const YoutubePlayerParams(

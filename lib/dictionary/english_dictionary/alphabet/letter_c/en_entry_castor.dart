@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: castor (Derived forms: castors)
+- Noun: castor (derived forms: castors)
 1. A shaker with a perforated top for sprinkling powdered sugar (= caster)
  
 2. A pivoting roller attached to the bottom of furniture, trucks or portable machines to make them movable (= caster)
@@ -344,7 +344,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/R3IpwuUEwkA?t=',
+    videoId: 'R3IpwuUEwkA',
     startSeconds: 82,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -369,7 +369,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OJ2vYi-rCHk?t=',
+    videoId: 'OJ2vYi-rCHk',
     startSeconds: 106,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/udrorTf-1eY?t=',
+    videoId: 'udrorTf-1eY',
     startSeconds: 371,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/782n0ONAq6E?t=',
+    videoId: '782n0ONAq6E',
     startSeconds: 38,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/iJsbTuC1Hw8?t=',
+    videoId: 'iJsbTuC1Hw8',
     startSeconds: 253,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9YCQGgs0oCU?t=',
+    videoId: '9YCQGgs0oCU',
     startSeconds: 192,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bNJj2Y4ae6g?t=',
+    videoId: 'bNJj2Y4ae6g',
     startSeconds: 78,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dDqsoaMH9aI?t=',
+    videoId: 'dDqsoaMH9aI',
     startSeconds: 80,
     autoPlay: true,
     params: const YoutubePlayerParams(

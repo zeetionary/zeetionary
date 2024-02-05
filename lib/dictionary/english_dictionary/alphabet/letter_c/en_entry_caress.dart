@@ -192,9 +192,9 @@ class EnglishEntrycaress extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: دەسبەسەرداهێنان، دەس‌پیاهێنان، ناز، لە باوەش‌گرتن، ماچ‌ومووچ کردن، بە قوربان و سەدەقە بوون، لاواندنەوە
+کوردی: دەسبەسەرداھێنان، دەس‌پیاھێنان، ناز، لە باوەش‌گرتن، ماچ‌ومووچ کردن، بە قوربان و سەدەقە بوون، لاواندنەوە
 
-١. (کردار) دەستهێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"""),
+١. (کردار) دەستھێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"""),
                           Row(
                             children: [
                               const Expanded(
@@ -225,7 +225,7 @@ class EnglishEntrycaress extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) دەستهێنان یان ماچێکی نەرمی خۆشەویستانە"),
+                                  "٢. (ناو) دەستھێنان یان ماچێکی نەرمی خۆشەویستانە"),
                           Row(
                             children: [
                               const Expanded(
@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: caress (Derived forms: caressed, caresses, caressing)
+- Verb: caress (derived forms: caressed, caresses, caressing)
 1. Touch or stroke lightly in a loving or endearing manner (= fondle)
 "He caressed her face";
 
@@ -374,7 +374,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/a9m3GD0DbPY?t=',
+    videoId: 'a9m3GD0DbPY',
     startSeconds: 1447,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -399,7 +399,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mY4AmqIRTZI?t=',
+    videoId: 'mY4AmqIRTZI',
     startSeconds: 321,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -424,7 +424,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qVfJheBp7Ys?t=',
+    videoId: 'qVfJheBp7Ys',
     startSeconds: 1099,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -449,7 +449,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/NfrLH0T0rdU?t=',
+    videoId: 'NfrLH0T0rdU',
     startSeconds: 222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -474,7 +474,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/8jb7XZ40pHo?t=',
+    videoId: '8jb7XZ40pHo',
     startSeconds: 679,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -499,7 +499,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rqMPkxpVyVM?t=',
+    videoId: 'rqMPkxpVyVM',
     startSeconds: 97,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -524,7 +524,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KcFx9_A6q0s?t=',
+    videoId: 'KcFx9_A6q0s',
     startSeconds: 542,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -549,7 +549,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yG1tPj4baVE?t=',
+    videoId: 'yG1tPj4baVE',
     startSeconds: 123,
     autoPlay: true,
     params: const YoutubePlayerParams(

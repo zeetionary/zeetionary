@@ -191,7 +191,7 @@ class EnglishEntrycashier extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) کەسێک لە بانکێک، فرۆشگایەک، هوتێلێک، هتد کە پارە وەردەگرێت و زیادەکەی دەداتەوە"""),
+١. (ناو) کەسێک لە بانکێک، فرۆشگایەک، ھوتێلێک، ھتد کە پارە وەردەگرێت و زیادەکەی دەداتەوە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -202,7 +202,7 @@ class EnglishEntrycashier extends StatelessWidget {
                                             "The cashier greeted each customer warmly."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "کاشێرەکە بەگەرمی پێشوازی لە هەموو کڕیارێک کرد."),
+                                            "کاشێرەکە بەگەرمی پێشوازی لە ھەموو کڕیارێک کرد."),
                                   ],
                                 ),
                               ),
@@ -301,12 +301,12 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cashier (Derived forms: cashiers)
+- Noun: cashier (derived forms: cashiers)
 1. An employee of a bank who receives and pays out money (= teller, bank clerk)
  
 2. A person responsible for receiving payments for goods and services (as in a shop or restaurant)
 
-- Verb: cashier (Derived forms: cashiering, cashiers, cashiered)
+- Verb: cashier (derived forms: cashiering, cashiers, cashiered)
 1. Discard or do away with
 "cashier the literal sense of this word"
  
@@ -343,7 +343,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HfBaVwpACdY?t=',
+    videoId: 'HfBaVwpACdY',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +368,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/qJ5A6BaJOWU?t=',
+    videoId: 'qJ5A6BaJOWU',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +393,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ugYPoWShl6k?t=',
+    videoId: 'ugYPoWShl6k',
     startSeconds: 1232,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +418,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/IPyA8CGk86A?t=',
+    videoId: 'IPyA8CGk86A',
     startSeconds: 230,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +443,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/xMsF5XSAQxA?t=',
+    videoId: 'xMsF5XSAQxA',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +468,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1fkUj8z6npg?t=',
+    videoId: '1fkUj8z6npg',
     startSeconds: 566,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +493,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v7hz64aVcRw?t=',
+    videoId: 'v7hz64aVcRw',
     startSeconds: 68,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +518,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/47MNn4bsmSw?t=',
+    videoId: '47MNn4bsmSw',
     startSeconds: 962,
     autoPlay: true,
     params: const YoutubePlayerParams(

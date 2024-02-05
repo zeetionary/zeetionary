@@ -29,8 +29,8 @@ class EnglishEntrycasting extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "Casting was completed by May."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("Casting was completed by May."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcastings2(String languageCode) async {
@@ -191,17 +191,17 @@ class EnglishEntrycasting extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) پڕۆسەی هەڵبژاردنی ئەکتەرەکانی فیلمێک یان شانۆیەک"""),
+١. (ناو) پڕۆسەی ھەڵبژاردنی ئەکتەرەکانی فیلمێک یان شانۆیەک"""),
                           Row(
                             children: [
                               const Expanded(
                                 child: Column(
                                   children: [
                                     ExampleSentenceEnglish(
-                                        text:
-                                            "Casting was completed by May."),
+                                        text: "Casting was completed by May."),
                                     ExampleSentenceKurdish(
-                                        text: "هەڵبژاردنی ئەکتەرەکان تا ئایار تەواو بوو."),
+                                        text:
+                                            "ھەڵبژاردنی ئەکتەرەکان تا ئایار تەواو بوو."),
                                   ],
                                 ),
                               ),
@@ -230,11 +230,11 @@ class EnglishEntrycasting extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -300,7 +300,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: casting (Derived forms: castings)
+- Noun: casting (derived forms: castings)
 1. Object formed by a mould (= cast)
  
 2. The act of creating something by casting it in a mould (= molding [N. Amer], moulding [Brit, Cdn])
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L3XnKr0lvDw?t=',
+    videoId: 'L3XnKr0lvDw',
     startSeconds: 676,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/JTDRQDiaTWM?t=',
+    videoId: 'JTDRQDiaTWM',
     startSeconds: 428,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/rSmJoxz6TO0?t=',
+    videoId: 'rSmJoxz6TO0',
     startSeconds: 381,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/TV2HTSV3w40?t=',
+    videoId: 'TV2HTSV3w40',
     startSeconds: 86,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DA2ukcfd9Vo?t=',
+    videoId: 'DA2ukcfd9Vo',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2Hq4CtLfnZs?t=',
+    videoId: '2Hq4CtLfnZs',
     startSeconds: 561,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jfEz-BkdBEE?t=',
+    videoId: 'jfEz-BkdBEE',
     startSeconds: 733,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/K9ki5uCZalg?t=',
+    videoId: 'K9ki5uCZalg',
     startSeconds: 232,
     autoPlay: true,
     params: const YoutubePlayerParams(

@@ -38,7 +38,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("His clothes were artfully arranged to look casual."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "His clothes were artfully arranged to look casual."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals3(String languageCode) async {
@@ -46,7 +47,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It was just a casual remark—I wasn't really serious."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "It was just a casual remark—I wasn't really serious."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals4(String languageCode) async {
@@ -54,7 +56,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He tried to sound casual, but I knew he was worried."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "He tried to sound casual, but I knew he was worried."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals5(String languageCode) async {
@@ -62,7 +65,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("At a casual glance, everything seemed normal."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "At a casual glance, everything seemed normal."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals6(String languageCode) async {
@@ -70,7 +74,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They are employed on a casual basis."); // DOPSUM: CHANGE TEXT
+    await flutterTts
+        .speak("They are employed on a casual basis."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals7(String languageCode) async {
@@ -78,7 +83,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("They were having casual sex, but it never became a serious relationship."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "They were having casual sex, but it never became a serious relationship."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals8(String languageCode) async {
@@ -86,7 +92,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The disease is not spread by casual contact."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "The disease is not spread by casual contact."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals9(String languageCode) async {
@@ -94,7 +101,8 @@ class EnglishEntrycasual extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She changed into flat casuals before walking round the town."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "She changed into flat casuals before walking round the town."); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcasuals10(String languageCode) async {
@@ -191,7 +199,7 @@ class EnglishEntrycasual extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: ڕێکەوتی، هەڵکەوتی، بەختەکی، نامەبەستی، نائەنقەست، کەمتەرخەم، بێ‌خەیاڵ، بێ‌دەربەست، لامسەرلا، بێ‌ئەندێشە، گوێ‌پێنەدەر، لاسار، ئالۆری، نەڕشت، بەتەنگەوەنەبوو، نابەرپرس، سەرزارەکی، ڕەمەکی، فشە، سەرسەرەکی، کاتی، خۆمانە، نافەرمی، ناهەمیشەیی، کاتی، بەروەخت، پچڕپچڕ، ناڕێک‌وپێک، کرێکاری کاتی، بەرکاتی، کەوش و جل‌وبەرگی نافەرمی
+کوردی: ڕێکەوتی، ھەڵکەوتی، بەختەکی، نامەبەستی، نائەنقەست، کەمتەرخەم، بێ‌خەیاڵ، بێ‌دەربەست، لامسەرلا، بێ‌ئەندێشە، گوێ‌پێنەدەر، لاسار، ئالۆری، نەڕشت، بەتەنگەوەنەبوو، نابەرپرس، سەرزارەکی، ڕەمەکی، فشە، سەرسەرەکی، کاتی، خۆمانە، نافەرمی، ناھەمیشەیی، کاتی، بەروەخت، پچڕپچڕ، ناڕێک‌وپێک، کرێکاری کاتی، بەرکاتی، کەوش و جل‌وبەرگی نافەرمی
 
 ١. (ھاوەڵناو) شتێک کە فەرمی نییە"""),
                           Row(
@@ -203,7 +211,8 @@ class EnglishEntrycasual extends StatelessWidget {
                                         text:
                                             "She felt comfortable in casual clothes and wore them most of the time."),
                                     ExampleSentenceKurdish(
-                                        text: "هەستی بە ئاسوودەیی دەکرد بە جلی نافەرمییەوە و زۆرجار لەبەری دەکردن."),
+                                        text:
+                                            "ھەستی بە ئاسوودەیی دەکرد بە جلی نافەرمییەوە و زۆرجار لەبەری دەکردن."),
                                   ],
                                 ),
                               ),
@@ -222,225 +231,238 @@ class EnglishEntrycasual extends StatelessWidget {
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "His clothes were artfully arranged to look casual."),
-                          ExampleSentenceKurdish(
-                          text: "جلەکانی زیرەکانە ڕێکخرابوون بۆ ئەوەی نافەرمی دەربکەوێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "His clothes were artfully arranged to look casual."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "جلەکانی زیرەکانە ڕێکخرابوون بۆ ئەوەی نافەرمی دەربکەوێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ھاوەڵناو) بەبێ پیشاندانی گرنگی"),
+                          const DefinitionKurdish(
+                              text: "٢. (ھاوەڵناو) بەبێ پیشاندانی گرنگی"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "It was just a casual remark—I wasn't really serious."),
-                          ExampleSentenceKurdish(
-                          text: "تەنها لێدوانێکی نامەبەست بوو، بە جدیم نەبوو."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals3("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "It was just a casual remark—I wasn't really serious."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "تەنھا لێدوانێکی نامەبەست بوو، بە جدیم نەبوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals3("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals3("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerSentences(),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "He tried to sound casual, but I knew he was worried."),
-                          ExampleSentenceKurdish(
-                          text: "هەوڵیدا ئاسایی دەربکەوێت، بەڵام دەمزانی نیگەرانە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals4("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "٣. (ھاوەڵناو) بەبێ گرنگیدان بە وردەکاری"),
-                          Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "At a casual glance, everything seemed normal."),
-                          ExampleSentenceKurdish(
-                          text: "بە ڕوانینێکی ڕەمەکی، هەموو شتێک ئاسایی دیاربوو."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals5("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "He tried to sound casual, but I knew he was worried."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "ھەوڵیدا ئاسایی دەربکەوێت، بەڵام دەمزانی نیگەرانە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals4("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٤. (ھاوەڵناو) شتێک کە هەمیشەیی نییە"),
+                          const DefinitionKurdish(
+                              text: "٣. (ھاوەڵناو) بەبێ گرنگیدان بە وردەکاری"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "They are employed on a casual basis (= they do not have a permanent job with the company)."),
-                          ExampleSentenceKurdish(
-                          text: "بە ناهەمیشەیی دامەزروان."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals6("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "At a casual glance, everything seemed normal."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "بە ڕوانینێکی ڕەمەکی، ھەموو شتێک ئاسایی دیاربوو."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals5("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٥. (ھاوەڵناو) پەیوەندییەکی ڕووکەشانە کە هەستی بۆ یەکدی تێدا نییە"),
+                          const DefinitionKurdish(
+                              text: "٤. (ھاوەڵناو) شتێک کە ھەمیشەیی نییە"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "They were having casual sex, but it never became a serious relationship."),
-                          ExampleSentenceKurdish(
-                          text: "سێکسی بۆخۆشییان دەکرد، بەڵام هەرگیز نەگەشتن بە پەیوەندییەکی ڕاست."),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They are employed on a casual basis (= they do not have a permanent job with the company)."),
+                                    ExampleSentenceKurdish(
+                                        text: "بە ناھەمیشەیی دامەزروان."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals6("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals6("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals7("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                          const DividerDefinition(),
+                          const DefinitionKurdish(
+                              text:
+                                  "٥. (ھاوەڵناو) پەیوەندییەکی ڕووکەشانە کە ھەستی بۆ یەکدی تێدا نییە"),
+                          Row(
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "They were having casual sex, but it never became a serious relationship."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "سێکسی بۆخۆشییان دەکرد، بەڵام ھەرگیز نەگەشتن بە پەیوەندییەکی ڕاست."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals7("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٦. (ناو) بەڕێکەوت"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "The disease is not spread by casual contact."),
-                          ExampleSentenceKurdish(
-                          text: "نەخۆشییەکە بە بەرکەوتنی بەڕێکەوت بڵاونابێتەوە."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals8("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "The disease is not spread by casual contact."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "نەخۆشییەکە بە بەرکەوتنی بەڕێکەوت بڵاونابێتەوە."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals8("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals8("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٧. (ناو) جلوبەرگ و پێڵاوی نافەرمی"),
+                          const DefinitionKurdish(
+                              text: "٧. (ناو) جلوبەرگ و پێڵاوی نافەرمی"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "She changed into flat casuals before walking round the town."),
-                          ExampleSentenceKurdish(
-                          text: "فلاتی نافەرمی لەپێ‌کرد پێش ئەوەی بە شارۆچکەکە بگەڕێت."),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcasuals9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcasuals9("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "She changed into flat casuals before walking round the town."),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "فلاتی نافەرمی لەپێ‌کرد پێش ئەوەی بە شارۆچکەکە بگەڕێت."),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcasuals9("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcasuals9("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -454,11 +476,11 @@ class EnglishEntrycasual extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        // YoutubeEmbeddedeight(), // 
+                        // YoutubeEmbeddedeight(), //
                         // YoutubeEmbeddednine(),
                         // YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -552,7 +574,7 @@ ${englishMeaningConst.text}
 9. Not showing effort or strain (= effortless)
 "casual grace"; "a difficult feat performed with casual mastery";
 
-- Noun: casual (Derived forms: casuals)
+- Noun: casual (derived forms: casuals)
 Usage: Brit
 1. A worker (especially in an office) hired on a temporary basis (= temp [informal], temporary, temporary worker, casual worker)
 """,
@@ -587,7 +609,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ygzSSDEo7Dk?t=',
+    videoId: 'ygzSSDEo7Dk',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -612,7 +634,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/vbbQxOJbK7s?t=',
+    videoId: 'vbbQxOJbK7s',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -637,7 +659,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cYmBDyRXRas',
+    videoId: 'cYmBDyRXRas',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -662,7 +684,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/_nxZxJK2usk?t=',
+    videoId: '_nxZxJK2usk',
     startSeconds: 116,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -687,7 +709,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/7ER4ozbVvpM?t=',
+    videoId: '7ER4ozbVvpM',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -712,7 +734,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/F7AUQWFXXv0?t=',
+    videoId: 'F7AUQWFXXv0',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -737,7 +759,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/lVoGZiL-kns?t=',
+    videoId: 'lVoGZiL-kns',
     startSeconds: 272,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -762,7 +784,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/oD9BaNAH-eE?t=',
+    videoId: 'oD9BaNAH-eE',
     startSeconds: 269,
     autoPlay: true,
     params: const YoutubePlayerParams(

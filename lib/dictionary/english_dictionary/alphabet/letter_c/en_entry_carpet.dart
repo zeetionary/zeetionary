@@ -295,7 +295,7 @@ class EnglishEntrycarpet extends StatelessWidget {
                                     ExampleSentenceEnglish(
                                         text: "The hall was carpeted in blue."),
                                     ExampleSentenceKurdish(
-                                        text: "هۆڵەکە بە شین ڕایەخکرابوو."),
+                                        text: "ھۆڵەکە بە شین ڕایەخکرابوو."),
                                   ],
                                 ),
                               ),
@@ -346,7 +346,7 @@ class EnglishEntrycarpet extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٥. (کردار) سەرزەنشتی کەسێک کە هەڵەیەکی کردووە"),
+                                  "٥. (کردار) سەرزەنشتی کەسێک کە ھەڵەیەکی کردووە"),
                           Row(
                             children: [
                               const Expanded(
@@ -456,13 +456,13 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carpet (Derived forms: carpets)
+- Noun: carpet (derived forms: carpets)
 1. Floor covering consisting of a piece of thick heavy fabric (usually with nap or pile) (= rug, carpeting)
  
 2. A natural object that resembles or suggests a carpet
 "a carpet of flowers"; "the larvae of some moths spin a web that resembles a carpet"
 
-- Verb: carpet (Derived forms: carpets, carpeting, carpeted)
+- Verb: carpet (derived forms: carpets, carpeting, carpeted)
 1. Form a carpet-like cover (over)
  
 2. Cover completely, as if with a carpet
@@ -502,7 +502,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0pOLpyUHeeM?t=',
+    videoId: '0pOLpyUHeeM',
     startSeconds: 26,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -527,7 +527,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/XBxyaRiGc6o?t=',
+    videoId: 'XBxyaRiGc6o',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -552,7 +552,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/O27iiZcpzVk?t=',
+    videoId: 'O27iiZcpzVk',
     startSeconds: 288,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -577,7 +577,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Cw30IAkS7Fs',
+    videoId: 'Cw30IAkS7Fs',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -602,7 +602,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/jfXuuDFNP5U?t=',
+    videoId: 'jfXuuDFNP5U',
     startSeconds: 87,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -627,7 +627,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RM0ENFEnozc?t=',
+    videoId: 'RM0ENFEnozc',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -652,7 +652,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/VyEf4EBXe8o?t=',
+    videoId: 'VyEf4EBXe8o',
     startSeconds: 423,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -677,7 +677,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FSHITL5oedk?t=',
+    videoId: 'FSHITL5oedk',
     startSeconds: 53,
     autoPlay: true,
     params: const YoutubePlayerParams(

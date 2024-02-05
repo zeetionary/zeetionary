@@ -238,7 +238,7 @@ class EnglishEntrycaretaker extends StatelessWidget {
                                             "They believe they are caretakers of the land for future generations."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "(بەکارهێنانی خوازراوی) باوەڕیان وایە کەوا چاودێری زەوییەکەن بۆ نەوەکانی دواتر."),
+                                            "(بەکارھێنانی خوازراوی) باوەڕیان وایە کەوا چاودێری زەوییەکەن بۆ نەوەکانی دواتر."),
                                   ],
                                 ),
                               ),
@@ -300,7 +300,7 @@ class EnglishEntrycaretaker extends StatelessWidget {
                                             "The caretaker leader guided the team until a new captain was appointed."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "سەرکردە کاربەڕێکەرەکە سەرپەرشتی تیمەکەی دەکرد تاوەکو کاپتنێکی تازە هەڵدەبژێردرا."),
+                                            "سەرکردە کاربەڕێکەرەکە سەرپەرشتی تیمەکەی دەکرد تاوەکو کاپتنێکی تازە ھەڵدەبژێردرا."),
                                   ],
                                 ),
                               ),
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: caretaker (Derived forms: caretakers)
+- Noun: caretaker (derived forms: caretakers)
 1. A custodian who is hired to take care of something (property or a person)
  
 2. An official who performs the duties of an office temporarily
@@ -436,7 +436,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ioFVxBRfWqY?t=',
+    videoId: 'ioFVxBRfWqY',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -461,7 +461,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yij2FpHYdwE?t=',
+    videoId: 'yij2FpHYdwE',
     startSeconds: 157,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -486,7 +486,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6MoBvV12C58?t=',
+    videoId: '6MoBvV12C58',
     startSeconds: 386,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -511,7 +511,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/ucEeH2LKdes?t=',
+    videoId: 'ucEeH2LKdes',
     startSeconds: 1638,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -536,7 +536,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y-2jd0Ds8Iw?t=',
+    videoId: 'y-2jd0Ds8Iw',
     startSeconds: 129,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -561,7 +561,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ho8JnWuVdiU?t=',
+    videoId: 'Ho8JnWuVdiU',
     startSeconds: 1352,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -586,7 +586,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/bL_rQCU1GyM?t=',
+    videoId: 'bL_rQCU1GyM',
     startSeconds: 37,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -611,7 +611,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/3QhMqymjnNM?t=',
+    videoId: '3QhMqymjnNM',
     startSeconds: 2706,
     autoPlay: true,
     params: const YoutubePlayerParams(

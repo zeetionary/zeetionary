@@ -38,7 +38,8 @@ class EnglishEntrycarbon extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("How do we move to a low-carbon economy?"); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak(
+        "How do we move to a low-carbon economy?"); // DOPSUM: CHANGE TEXT
   }
 
   Future<void> speakcarbons3(String languageCode) async {
@@ -191,7 +192,7 @@ class EnglishEntrycarbon extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) مادەیەکی کیمیایی کە لە هەموو شتێکی زیندوودا هەیە و لەشێوەی بێ‌خەوشیدا لە ئەڵماس و گرافیتدا هەیە"""),
+١. (ناو) مادەیەکی کیمیایی کە لە ھەموو شتێکی زیندوودا ھەیە و لەشێوەی بێ‌خەوشیدا لە ئەڵماس و گرافیتدا ھەیە"""),
                           Row(
                             children: [
                               const Expanded(
@@ -219,32 +220,34 @@ class EnglishEntrycarbon extends StatelessWidget {
                             ],
                           ),
                           const DividerDefinition(),
-                          const DefinitionKurdish(text: "٢. (ناو) گازی دووەم ئۆکسیدی کاربۆن"),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) گازی دووەم ئۆکسیدی کاربۆن"),
                           Row(
-                          children: [
-                          const Expanded(
-                          child: Column(
-                          children: [
-                          ExampleSentenceEnglish(
-                          text:
-                          "How do we move to a low-carbon economy?"),
-                          ExampleSentenceKurdish(
-                          text: "چۆن بگەین بە ئابوورییەکی کەم پشتبەستوو بە کاربۆن؟"),
-                          ],
-                          ),
-                          ),
-                          const CustomSizedBoxForTTS(),
-                          Column(
-                          children: [
-                          CustomIconButtonBritish(
-                          onPressed: () => speakcarbons2("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                          onPressed: () => speakcarbons2("en-US"),
-                          ),
-                          ],
-                          ),
-                          ],
+                            children: [
+                              const Expanded(
+                                child: Column(
+                                  children: [
+                                    ExampleSentenceEnglish(
+                                        text:
+                                            "How do we move to a low-carbon economy?"),
+                                    ExampleSentenceKurdish(
+                                        text:
+                                            "چۆن بگەین بە ئابوورییەکی کەم پشتبەستوو بە کاربۆن؟"),
+                                  ],
+                                ),
+                              ),
+                              const CustomSizedBoxForTTS(),
+                              Column(
+                                children: [
+                                  CustomIconButtonBritish(
+                                    onPressed: () => speakcarbons2("en-GB"),
+                                  ),
+                                  CustomIconButtonAmerican(
+                                    onPressed: () => speakcarbons2("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
                         ],
                       ),
@@ -258,11 +261,11 @@ class EnglishEntrycarbon extends StatelessWidget {
                         YoutubeEmbeddedfive(),
                         YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(), // 
+                        YoutubeEmbeddedeight(), //
                         YoutubeEmbeddednine(),
                         YoutubeEmbeddedten(),
                         // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(), 
+                        // YoutubeEmbeddedtwelve(),
                         // YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
@@ -328,7 +331,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carbon (Derived forms: carbons)
+- Noun: carbon (derived forms: carbons)
 1. An abundant nonmetallic tetravalent element occurring in three allotropic forms: amorphous carbon and graphite and diamond; occurs in all organic compounds (= C, atomic number 6)
  
 2. A thin paper coated on one side with a dark waxy substance (often containing carbon); used to transfer characters from the original to an under sheet of paper (= carbon paper)
@@ -368,7 +371,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BIycEyNci1o?t=',
+    videoId: 'BIycEyNci1o',
     startSeconds: 28,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +396,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/p9qlHJlxUWw?t=',
+    videoId: 'p9qlHJlxUWw',
     startSeconds: 19,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +421,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/OM0M2bQM-ag?t=',
+    videoId: 'OM0M2bQM-ag',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +446,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4z8Q0aUKuUU?t=',
+    videoId: '4z8Q0aUKuUU',
     startSeconds: 16,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +471,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/BjSu2X5nJOs?t=',
+    videoId: 'BjSu2X5nJOs',
     startSeconds: 8,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +496,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Gk7Lh_iv3Ck?t=',
+    videoId: 'Gk7Lh_iv3Ck',
     startSeconds: 25,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +521,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KbJAiws4nGk?t=',
+    videoId: 'KbJAiws4nGk',
     startSeconds: 60,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -543,7 +546,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/k7e004bfHyY?t=',
+    videoId: 'k7e004bfHyY',
     startSeconds: 51,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -568,7 +571,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/EWzN6GZeEzs?t=',
+    videoId: 'EWzN6GZeEzs',
     startSeconds: 24,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -593,7 +596,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yhlg9txl7yM?t=',
+    videoId: 'yhlg9txl7yM',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -618,7 +621,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FQSaoPPe2F0?t=',
+    videoId: 'FQSaoPPe2F0',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(

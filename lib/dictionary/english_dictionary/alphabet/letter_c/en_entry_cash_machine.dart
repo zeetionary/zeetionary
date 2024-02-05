@@ -154,7 +154,9 @@ class EnglishEntrycashmachine extends StatelessWidget {
                         ),
                         const Row(
                           children: [
-                            AlsoEnglish(word: "also: bank machine, ABM, cash dispenser"),
+                            AlsoEnglish(
+                                word:
+                                    "also: bank machine, ABM, cash dispenser"),
                           ],
                         ),
                         Row(
@@ -308,7 +310,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cash machine (Derived forms: cash machines)
+- Noun: cash machine (derived forms: cash machines)
 Usage: Brit, Cdn (US: ATM)
 1. An unattended machine (outside some banks) that dispenses money when a personal coded card is used (= cash dispenser [Brit], automated teller machine, automatic teller machine, automated teller, automatic teller, ATM, hole-in-the-wall [UK, informal], cashpoint [UK])
 """,
@@ -343,7 +345,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CaImXWWy5UE?t=',
+    videoId: 'CaImXWWy5UE',
     startSeconds: 94,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -368,7 +370,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RZhybaSApJk?t=',
+    videoId: 'RZhybaSApJk',
     startSeconds: 75,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -393,7 +395,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yI5QLqYcZ0E?t=',
+    videoId: 'yI5QLqYcZ0E',
     startSeconds: 206,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -418,7 +420,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G0lDOdDwGv4?t=',
+    videoId: 'G0lDOdDwGv4',
     startSeconds: 865,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -443,7 +445,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/d0tgcL9kQck?t=',
+    videoId: 'd0tgcL9kQck',
     startSeconds: 441,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -468,7 +470,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/G8d9-FAFXTc?t=',
+    videoId: 'G8d9-FAFXTc',
     startSeconds: 161,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -493,7 +495,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/91_XmvXa6Dk?t=',
+    videoId: '91_XmvXa6Dk',
     startSeconds: 662,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -518,7 +520,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/99Dj9X2qYLk?t=',
+    videoId: '99Dj9X2qYLk',
     startSeconds: 706,
     autoPlay: true,
     params: const YoutubePlayerParams(

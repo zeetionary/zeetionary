@@ -194,7 +194,7 @@ class EnglishEntrycashregister extends StatelessWidget {
                           const DefinitionKurdish(text: """
 کوردی: (دەزگا) پارەنووس، سنووق
 
-١. (ناو) دەزگایەک لە کە لە فرۆشگایەک، چێشتخانەیەک، هتد دادەنرێت و پارەی تێدەخرێت و نرخی ئەو شتانە پیشان دەدات کە فرۆشراون و تۆماریان دەکات"""),
+١. (ناو) دەزگایەک لە کە لە فرۆشگایەک، چێشتخانەیەک، ھتد دادەنرێت و پارەی تێدەخرێت و نرخی ئەو شتانە پیشان دەدات کە فرۆشراون و تۆماریان دەکات"""),
                           Row(
                             children: [
                               const Expanded(
@@ -306,7 +306,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: cash register (Derived forms: cash registers)
+- Noun: cash register (derived forms: cash registers)
 1. A cashbox with an adding machine to register transactions; used in shops to add up the bill (= register, till)
 """,
   );
@@ -340,7 +340,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/0BjOYbib2_4?t=',
+    videoId: '0BjOYbib2_4',
     startSeconds: 153,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -365,7 +365,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1gbRTkTkS8M?t=',
+    videoId: '1gbRTkTkS8M',
     startSeconds: 57,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -390,7 +390,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/L0a8ZtGr7iA?t=',
+    videoId: 'L0a8ZtGr7iA',
     startSeconds: 6,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -415,7 +415,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/6ingSiAKd9A?t=',
+    videoId: '6ingSiAKd9A',
     startSeconds: 207,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -440,7 +440,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/MzYMmVCNQHA?t=',
+    videoId: 'MzYMmVCNQHA',
     startSeconds: 10,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -465,7 +465,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/f76wmDQWZKo',
+    videoId: 'f76wmDQWZKo',
     // startSeconds: 222222222222222,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -490,7 +490,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/cCP9vjp4kSg?t=',
+    videoId: 'cCP9vjp4kSg',
     startSeconds: 1290,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -515,7 +515,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/4ORZ7WfUrL8?t=',
+    videoId: '4ORZ7WfUrL8',
     startSeconds: 112,
     autoPlay: true,
     params: const YoutubePlayerParams(

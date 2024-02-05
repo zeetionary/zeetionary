@@ -1405,7 +1405,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
                         textDirection: TextDirection.rtl,
                         style: TextStyle(
                           fontSize: textSize, // Adjust the font size
-                          fontWeight: FontWeight.bold, // Adjust the font weight
+                          // fontWeight: FontWeight.bold, // Adjust the font weight
                           // color: currentTheme
                           //     .primaryColor, // Adjust the text color
                         ),

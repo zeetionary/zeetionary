@@ -192,7 +192,7 @@ class EnglishEntrycarat extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) یەکەیەک بۆ کێشانی ئەڵماس و مادەی دیکەی گران‌بەها، کە یەکسانە بە ٢٠٠ میلیگرام"""),
+١. (ناو) یەکەیەک بۆ کێشانی ئەڵماس و مادەی دیکەی گران‌بەھا، کە یەکسانە بە ٢٠٠ میلیگرام"""),
                           Row(
                             children: [
                               const Expanded(
@@ -203,7 +203,7 @@ class EnglishEntrycarat extends StatelessWidget {
                                             "The engagement ring featured a stunning diamond of two carats."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "ئەڵقەی هاوسەرگیرییەکە پێکهاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش."),
+                                            "ئەڵقەی ھاوسەرگیرییەکە پێکھاتبوو لە ئەڵماسێکی دوو قیراتی سەرنجڕاکێش."),
                                   ],
                                 ),
                               ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: carat (Derived forms: carats)
+- Noun: carat (derived forms: carats)
 1. The unit of measurement for the proportion of gold in an alloy; 18-carat gold is 75% gold; 24-carat gold is pure gold (= karat [N. Amer], kt)
  
 2. A unit of weight for precious stones = 200 mg
@@ -369,7 +369,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/1SvAcmV_GIU?t=',
+    videoId: '1SvAcmV_GIU',
     startSeconds: 15,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -394,7 +394,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/CnHKrzW-np4?t=',
+    videoId: 'CnHKrzW-np4',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -419,7 +419,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/uW8VpRGQj6s?t=',
+    videoId: 'uW8VpRGQj6s',
     startSeconds: 42,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -444,7 +444,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/28hrhmldx74?t=',
+    videoId: '28hrhmldx74',
     startSeconds: 18,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -469,7 +469,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/h_OeMVcol1g?t=',
+    videoId: 'h_OeMVcol1g',
     startSeconds: 709,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -494,7 +494,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/FNfA1O6iea0?t=',
+    videoId: 'FNfA1O6iea0',
     startSeconds: 145,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -519,7 +519,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/RGIWcK2aSDg?t=',
+    videoId: 'RGIWcK2aSDg',
     startSeconds: 7,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -544,7 +544,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/5XugSX9WBO8?t=',
+    videoId: '5XugSX9WBO8',
     startSeconds: 140,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -569,7 +569,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
   YoutubeEmbeddedeight({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/2lRxA9VrwDY?t=',
+    videoId: '2lRxA9VrwDY',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -594,7 +594,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
   YoutubeEmbeddednine({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/HxQ6Vq5VDVM?t=',
+    videoId: 'HxQ6Vq5VDVM',
     startSeconds: 100,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -619,7 +619,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
   YoutubeEmbeddedten({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/dtb5ogC1I6U?t=',
+    videoId: 'dtb5ogC1I6U',
     startSeconds: 180,
     autoPlay: true,
     params: const YoutubePlayerParams(

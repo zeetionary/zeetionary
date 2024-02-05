@@ -202,7 +202,7 @@ class EnglishEntrycastaway extends StatelessWidget {
                                             "After the shipwreck, the lone survivor became a castaway on a deserted island."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "لە دوای تێکشکانەکە، ڕزگاربووەکە تەنهاکە بۆ بە دابڕاوێک لەسەر دوورگەیەکی چۆڵ."),
+                                            "لە دوای تێکشکانەکە، ڕزگاربووەکە تەنھاکە بۆ بە دابڕاوێک لەسەر دوورگەیەکی چۆڵ."),
                                   ],
                                 ),
                               ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: castaway (Derived forms: castaways)
+- Noun: castaway (derived forms: castaways)
 1. A person who is rejected (from society or home) (= outcast, pariah, Ishmael)
  
 2. A shipwrecked person (= shipwreck survivor)
@@ -337,7 +337,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/y__v0aEgzO0?t=',
+    videoId: 'y__v0aEgzO0',
     startSeconds: 518,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -362,7 +362,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/KlDgoKuMNxk?t=',
+    videoId: 'KlDgoKuMNxk',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -387,7 +387,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/v_8TF4nv88s?t=',
+    videoId: 'v_8TF4nv88s',
     startSeconds: 184,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -412,7 +412,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Zve3CVjFSww?t=',
+    videoId: 'Zve3CVjFSww',
     startSeconds: 189,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -437,7 +437,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/belluFY72Ds?t=',
+    videoId: 'belluFY72Ds',
     startSeconds: 898,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -462,7 +462,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Ph2azNQ_f5Q?t=',
+    videoId: 'Ph2azNQ_f5Q',
     startSeconds: 50,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -487,7 +487,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/SQOWEkJx0PU?t=',
+    videoId: 'SQOWEkJx0PU',
     startSeconds: 241,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -512,7 +512,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/DhUdydmpV68?t=',
+    videoId: 'DhUdydmpV68',
     startSeconds: 58,
     autoPlay: true,
     params: const YoutubePlayerParams(

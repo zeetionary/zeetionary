@@ -192,9 +192,9 @@ class EnglishEntrycastle extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-کوردی: قەڵا، دز، هەسار، کۆشک، تەلار، سەرا
+کوردی: قەڵا، دز، ھەسار، کۆشک، تەلار، سەرا
 
-١. (ناو) بینایەکی گەورە و بەهێز کە دیواری بەرز و شوورای هەیە و لە ڕابردوودا لەلایەن پاشا و شاژن و کەسانی گرنگەوە درووست دەکران بۆ بەرگری لە خۆیان دژ بە هێرش"""),
+١. (ناو) بینایەکی گەورە و بەھێز کە دیواری بەرز و شوورای ھەیە و لە ڕابردوودا لەلایەن پاشا و شاژن و کەسانی گرنگەوە درووست دەکران بۆ بەرگری لە خۆیان دژ بە ھێرش"""),
                           Row(
                             children: [
                               const Expanded(
@@ -205,7 +205,7 @@ class EnglishEntrycastle extends StatelessWidget {
                                             "They were invited to a banquet in the castle."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بانگهێشتکران بۆ میوانییەک لە قەڵاکە."),
+                                            "بانگھێشتکران بۆ میوانییەک لە قەڵاکە."),
                                   ],
                                 ),
                               ),
@@ -233,7 +233,7 @@ class EnglishEntrycastle extends StatelessWidget {
                                             "They sought safety within the castle walls."),
                                     ExampleSentenceKurdish(
                                         text:
-                                            "بۆ پاراستن هانایان برد بۆ دیوارەکانی قەڵاکە."),
+                                            "بۆ پاراستن ھانایان برد بۆ دیوارەکانی قەڵاکە."),
                                   ],
                                 ),
                               ),
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: castle (Derived forms: castles)
+- Noun: castle (derived forms: castles)
 1. A large and stately mansion (= palace)
  
 2. A large building formerly occupied by a ruler and fortified against attack
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
  
 4. Interchanging the positions of the king and a rook (= castling)
 
-- Verb: castle (Derived forms: castled, castles, castling)
+- Verb: castle (derived forms: castled, castles, castling)
 1. (chess) move the king two squares toward a rook and in the same move the rook to the square next past the king
 """,
   );
@@ -375,7 +375,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
   YoutubeEmbeddedend({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/l_rR8s7GSeI?t=',
+    videoId: 'l_rR8s7GSeI',
     startSeconds: 107,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -400,7 +400,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
   YoutubeEmbeddedone({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/9apHooK3PPE?t=',
+    videoId: '9apHooK3PPE',
     startSeconds: 56,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -425,7 +425,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
   YoutubeEmbeddedtwo({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/QrJyeearNNk?t=',
+    videoId: 'QrJyeearNNk',
     startSeconds: 14,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -450,7 +450,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
   YoutubeEmbeddedthree({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/mnaTBf2Izaw?t=',
+    videoId: 'mnaTBf2Izaw',
     startSeconds: 17,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -475,7 +475,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
   YoutubeEmbeddedfour({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/yRvo0g1Wvq4?t=',
+    videoId: 'yRvo0g1Wvq4',
     startSeconds: 181,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -500,7 +500,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   YoutubeEmbeddedfive({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/r49zkVISluM?t=',
+    videoId: 'r49zkVISluM',
     startSeconds: 12,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -525,7 +525,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
   YoutubeEmbeddedsix({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/egZqrVKEhBY?t=',
+    videoId: 'egZqrVKEhBY',
     startSeconds: 5,
     autoPlay: true,
     params: const YoutubePlayerParams(
@@ -550,7 +550,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
   YoutubeEmbeddedseven({super.key});
 
   final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'https://youtu.be/Rc2zC7kBiJU?t=',
+    videoId: 'Rc2zC7kBiJU',
     startSeconds: 4,
     autoPlay: true,
     params: const YoutubePlayerParams(
